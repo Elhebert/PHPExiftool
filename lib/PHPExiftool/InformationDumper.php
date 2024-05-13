@@ -56,17 +56,14 @@ class InformationDumper
     private Exiftool $exiftool;
     private LoggerInterface $logger;
     private int $currentXmlLine;
-    private string $rootPath;
     private string $rootNamespace;
 
 
-    public function __construct(Exiftool $exiftool, string $rootPath)
+    public function __construct(Exiftool $exiftool)
     {
         $this->exiftool = $exiftool;
         $this->logger = new NullLogger();
         $this->rootNamespace = PHPExiftool::ROOT_NAMESPACE . '\\' . PHPExiftool::SUBDIR;
-
-        $this->rootPath = $rootPath . '/' . PHPExiftool::SUBDIR;
     }
 
     public function setLogger(LoggerInterface $logger)
@@ -123,29 +120,10 @@ class InformationDumper
         return $dom;
     }
 
-    public function dumpClasses(array $options, array $lngs)
+    public function dumpClasses(array $options, array $lngs, callable $callback = null)
     {
         $dom = $this->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML, $options);
 
-        @mkdir($this->rootPath, 0754, true);
-
-        $this->logger->info(sprintf('Erasing previous files "%s/*" ', $this->rootPath));
-        try {
-            $cmd = 'rm -Rf ' . $this->rootPath . '/* 2> /dev/null';
-            $output = [];
-            @exec($cmd, $output);
-        }
-        catch (\Exception $e) {
-            // no-op
-        }
-
-        $this->logger->info('Generating classes... ');
-        $this->extractDump($dom, $lngs);
-    }
-
-    protected function extractDump(DOMDocument $dump, array $lngs)
-    {
-        $nGroups = 0;
         $nTags = 0;
 
         /** @var tagGroupBuilder[] $tagGroupBuilders */
@@ -153,7 +131,7 @@ class InformationDumper
         $group_ids = [];     // to check group_id belongs to only one class
 
         $crawler = new Crawler();
-        $crawler->addDocument($dump);
+        $crawler->addDocument($dom);
 
         $tag_count = count($crawler->filter('table>tag'));
         $this->logger->info(sprintf('tag count : %d', $tag_count));
@@ -262,7 +240,6 @@ class InformationDumper
                     }
 
                     $this->logger->info(sprintf("building \"%s\"", $fq_classname));
-                    $nGroups++;
 
                     $tagGroupBuilder = new tagGroupBuilder(
                         $this->rootNamespace,
@@ -385,28 +362,12 @@ class InformationDumper
             }
         }
 
-        $this->logger->info(sprintf("Writing %d classes... ", $nGroups));
-
         foreach ($tagGroupBuilders as $fq_classname => $builder) {
-            $builder->write($this->rootPath);
+            $builder->computeProperties();
+            if($callback) {
+                $callback($fq_classname, $builder);
+            }
         }
-
-        $this->logger->info(sprintf("%d classes covers %d tags.", $nGroups, $nTags));
-
-        $this->logger->info(sprintf("Writing helper Table"));
-        ksort($group_ids, SORT_NATURAL + SORT_FLAG_CASE);
-        $file = $this->rootPath . '/Helper.php';
-        file_put_contents($file,
-            "<?php\n"
-            . "namespace " . $this->rootNamespace . ";\n\n"
-            . "use PHPExiftool\\Driver\\HelperInterface;\n\n"
-            . "class Helper implements HelperInterface\n"
-            . "{\n"
-            . "    static function getIndex(): array {\n"
-            . "        return " . var_export($group_ids, true) . ";\n"
-            . "    }\n"
-            . "}\n"
-        );
     }
 
     protected function getPhpType(string $type): ?string
