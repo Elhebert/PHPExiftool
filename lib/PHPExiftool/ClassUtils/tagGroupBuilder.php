@@ -12,7 +12,7 @@ class tagGroupBuilder extends Builder
     private ?int $writable = -1;
     private array $tags = [];
     private array $descriptions = [];
-    private array $flags = [];  // count of occurences for eache flag
+    private array $flags = [];  // count of occurences for each flag
 
     public function addTag(array $tagComments, array $tagProperties)
     {
@@ -134,11 +134,12 @@ class tagGroupBuilder extends Builder
         }
     }
 
-    public function write(string $path): Builder
+    public function computeProperties(): Builder
     {
         $this->properties['phpType'] = $this->php_type ?: "mixed";
         $this->properties['isWritable'] = ($this->writable === 1);
         $this->properties['description'] = $this->descriptions;
+        $this->properties['tags'] = $this->tags;
         if(!is_null($this->count)) {        // 0 = default parent value
             $this->properties['count'] = max(0, $this->count);
         }
@@ -157,8 +158,11 @@ class tagGroupBuilder extends Builder
             $this->properties["flags"] = $binFlags;
         }
 
-        $this->properties['tags'] = $this->tags;
+        return $this;
+    }
 
+    public function write(string $path): Builder
+    {
         parent::write($path);
         return $this;
     }

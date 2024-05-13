@@ -15,6 +15,7 @@ use Exception;
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
+use PHPExiftool\ClassUtils\tagGroupBuilder;
 use PHPExiftool\Exiftool;
 use PHPExiftool\InformationDumper;
 use PHPExiftool\PHPExiftool;
@@ -29,7 +30,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-class ClassesBuilder extends Command
+class ClassesBuilderCommand extends Command
 {
     protected InputInterface $input;
     protected OutputInterface $output;
@@ -80,14 +81,27 @@ class ClassesBuilder extends Command
         }
 
 
-        $dumper = new InformationDumper(new Exiftool($logger), $input->getOption('path'));
-        $dumper->setLogger($logger);
+        $path = realpath($input->getOption('path'));
+        $subPath = $path . '/' . PHPExiftool::SUBDIR;      // security : do NOT rm passed cli option
+        @mkdir($subPath, 0755, true);
+        $logger->info(sprintf('Erasing previous files "%s/*" ', $subPath));
+        try {
+            $cmd = 'rm -Rf ' . $subPath . '/* 2> /dev/null';
+            $output = [];
+            @exec($cmd, $output);
+        }
+        catch (\Exception $e) {
+            // no-op
+        }
+        $logger->info('Generating classes... ');
 
-        $dumper->dumpClasses($options, $input->getOption('lng'));
+        $PHPExiftool = new PHPExiftool($path, $logger);
+        $nClasses = $PHPExiftool->generateClasses($options, $input->getOption('lng'));
 
         $this->output->writeln(
             sprintf(
-                'Generated in %d seconds (%d Mb)',
+                'Generated %d classes in %d seconds (%d Mb)',
+                $nClasses,
                 (microtime(true) - $start),
                 memory_get_peak_usage() >> 20
             )
