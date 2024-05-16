@@ -38,6 +38,7 @@ abstract class AbstractTagGroup implements TagGroupInterface
     public const FLAG_BAG = 256;
     public const FLAG_SEQ = 512;
     public const FLAG_ALT = 1024;
+    public const FLAG_WRITABLE = 2048;
 
 //    public const GROUP_ID = '';
     protected string $id = '';
