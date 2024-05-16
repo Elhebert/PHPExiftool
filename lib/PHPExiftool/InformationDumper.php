@@ -83,7 +83,7 @@ class InformationDumper
      * @return DOMDocument
      * @throws Exception
      */
-    public function listDatas(string $type = self::LISTTYPE_SUPPORTED_XML, array $options = []): DOMDocument
+    public function listDatas(string $type = self::LISTTYPE_SUPPORTED_XML, array $options = [], array $lngs): DOMDocument
     {
         if (!is_array($options)) {
             throw new InvalidArgumentException('options must be an array');
@@ -109,8 +109,10 @@ class InformationDumper
         }
         $command[] = '-f';
         // $command[] = '-s';
-        //$command[] = '-lang';
-        //$command[] = 'en';
+        foreach ($lngs as $lng) {
+            $command[] = '-lang';
+            $command[] = $lng;
+        }
         $command[] = '-list' . $type;
 
         $xml = $this->exiftool->executeCommand($command);
@@ -122,7 +124,7 @@ class InformationDumper
 
     public function dumpClasses(array $options, array $lngs, callable $callback = null)
     {
-        $dom = $this->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML, $options);
+        $dom = $this->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML, $options, $lngs);
 
         $nTags = 0;
 
@@ -200,8 +202,8 @@ class InformationDumper
                 }
                 */
 
-                $tag_flags = $tag_crawler->attr('flags');
-                $flags = explode(',', strtolower($tag_flags));
+                $tag_flags = strtolower(trim($tag_crawler->attr('flags') ?: ''));
+                $flags = $tag_flags ? explode(',', $tag_flags) : [];
 
 //                $namespace = $table_name . '\\ID' . $tag_id;
 //                if (!is_null($tag_index)) {

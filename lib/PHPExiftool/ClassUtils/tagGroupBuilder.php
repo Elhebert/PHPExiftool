@@ -100,6 +100,11 @@ class tagGroupBuilder extends Builder
         }
     }
 
+    public function getFlags(): int
+    {
+        return array_key_exists('flags', $this->properties) ? $this->properties["flags"] : 0;
+    }
+
     /**
      * reconciliate "count" attribute : keep value if same for all tags
      * @param int $count
@@ -134,14 +139,31 @@ class tagGroupBuilder extends Builder
         }
     }
 
+    public function isWritable(): bool
+    {
+        return ($this->writable === 1);
+    }
+
+    public function getCount(): int
+    {
+        return is_null($this->count) ? 0 : max(0, $this->count);
+    }
+
+    public function getDescriptions()
+    {
+        return $this->descriptions;
+    }
+
+
+
     public function computeProperties(): Builder
     {
         $this->properties['phpType'] = $this->php_type ?: "mixed";
-        $this->properties['isWritable'] = ($this->writable === 1);
+        $this->properties['isWritable'] = $this->isWritable();
         $this->properties['description'] = $this->descriptions;
         $this->properties['tags'] = $this->tags;
-        if(!is_null($this->count)) {        // 0 = default parent value
-            $this->properties['count'] = max(0, $this->count);
+        if(!is_null($this->count)) {        // 0 = default parent value, don't write in child
+            $this->properties['count'] = $this->getCount();
         }
         // flags
         $binFlags = 0;
@@ -153,6 +175,10 @@ class tagGroupBuilder extends Builder
                     $binFlags |= constant($fqName);
                 }
             }
+        }
+        // also add "writable" as a flag
+        if($this->isWritable()) {
+            $binFlags |= AbstractTagGroup::FLAG_WRITABLE;
         }
         if($binFlags !== 0) {   // 0 is the default parent value
             $this->properties["flags"] = $binFlags;

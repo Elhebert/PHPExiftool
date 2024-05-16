@@ -80,8 +80,10 @@ class ClassesBuilderCommand extends Command
             $options[] = InformationDumper::LISTOPTION_MWG;
         }
 
-
         $path = realpath($input->getOption('path'));
+        if($path === false) {
+            throw new Exception(sprintf('Path "%s" does not exists.', $input->getOption('path')));
+        }
         $subPath = $path . '/' . PHPExiftool::SUBDIR;      // security : do NOT rm passed cli option
         @mkdir($subPath, 0755, true);
         $logger->info(sprintf('Erasing previous files "%s/*" ', $subPath));
