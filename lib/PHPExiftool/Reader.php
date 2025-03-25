@@ -56,20 +56,27 @@ use Psr\Log\LoggerInterface;
  */
 class Reader implements IteratorAggregate
 {
+    /** @var string[] */
     protected array $files = [];
+    /** @var string[] */
     protected array $dirs = [];
+    /** @var string[] */
     protected array $excludeDirs = [];
+    /** @var string[] */
     protected array $extensions = [];
     protected ?bool $extensionsToggle = null;
     protected bool $followSymLinks = false;
     protected bool $recursive = true;
     protected bool $ignoreDotFile = false;
+    /** @var string[] */
     protected array $sort = [];
     protected ?RDFParser $parser;
     protected Exiftool $exiftool;
     protected int $timeout = 60;
 
+    /** @var ArrayCollection<string, FileEntity>|null  */
     protected ?ArrayCollection $collection = null;
+    /** @var Reader[] */
     protected array $readers = [];
 
     /**
@@ -81,7 +88,7 @@ class Reader implements IteratorAggregate
         $this->parser = $parser;
     }
 
-    public static function create(Exiftool $exiftool, RDFParser $parser)
+    public static function create(Exiftool $exiftool, RDFParser $parser): self
     {
         return new self($exiftool, $parser);
     }
@@ -92,7 +99,7 @@ class Reader implements IteratorAggregate
         $this->collection = null;
     }
 
-    public function setTimeout($timeout):self
+    public function setTimeout(int $timeout):self
     {
         $this->timeout = $timeout;
 
@@ -118,10 +125,10 @@ class Reader implements IteratorAggregate
     /**
      * Implements \IteratorAggregate Interface
      *
-     * @return Iterator
+     * @return \Traversable
      * @throws Exception
      */
-    public function getIterator(): Iterator
+    public function getIterator(): \Traversable
     {
         return $this->all()->getIterator();
     }
@@ -344,7 +351,7 @@ class Reader implements IteratorAggregate
     /**
      * Perform the scan and returns all the results
      *
-     * @return ArrayCollection
+     * @return ArrayCollection<string, FileEntity>|null
      * @throws Exception
      */
     public function all(): ?ArrayCollection
@@ -383,7 +390,7 @@ class Reader implements IteratorAggregate
     /**
      * Build the command returns an ArrayCollection of FileEntity
      *
-     * @return ArrayCollection
+     * @return ArrayCollection<string, FileEntity>
      * @throws Exception
      */
     protected function buildQueryAndExecute(): ArrayCollection
@@ -416,7 +423,7 @@ class Reader implements IteratorAggregate
      *
      * @param string[] $rawExcludeDirs
      * @param string[] $rawSearchDirs
-     * @return array
+     * @return string[]
      * @throws RuntimeException
      */
     protected function computeExcludeDirs(array $rawExcludeDirs, array $rawSearchDirs): array

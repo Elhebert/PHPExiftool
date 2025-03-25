@@ -66,7 +66,7 @@ class InformationDumper
         $this->rootNamespace = PHPExiftool::ROOT_NAMESPACE . '\\' . PHPExiftool::SUBDIR;
     }
 
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): self
     {
         $this->logger = $logger;
 
@@ -83,7 +83,7 @@ class InformationDumper
      * @return DOMDocument
      * @throws Exception
      */
-    public function listDatas(string $type = self::LISTTYPE_SUPPORTED_XML, array $options = [], array $lngs): DOMDocument
+    public function listDatas(string $type = self::LISTTYPE_SUPPORTED_XML, array $options = [], array $lngs = []): DOMDocument
     {
         if (!is_array($options)) {
             throw new InvalidArgumentException('options must be an array');
@@ -122,7 +122,7 @@ class InformationDumper
         return $dom;
     }
 
-    public function dumpClasses(array $options, array $lngs, callable $callback = null)
+    public function dumpClasses(array $options, array $lngs, callable $callback = null): void
     {
         $dom = $this->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML, $options, $lngs);
 

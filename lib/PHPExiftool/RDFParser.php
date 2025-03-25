@@ -46,6 +46,7 @@ class RDFParser
     protected ?string $XML = null;
     protected ?DOMDocument $DOM = null;
     protected ?DOMXPath $DOMXpath = null;
+    /** @var string[] */
     protected array $registeredPrefixes = [];
     private LoggerInterface $logger;
     private string $classesRootDirectory;

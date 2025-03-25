@@ -18,8 +18,7 @@ use Doctrine\Common\Collections\Selectable;
 /**
  * Container for Metadatas
  *
- * @template-implements Collection<string,Metadata>
- * @template-implements Selectable<string,Metadata>
+ * @template-extends  ArrayCollection<string,Metadata>
  *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT

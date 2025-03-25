@@ -17,11 +17,11 @@ interface ValueInterface
     const TYPE_MONO = 'mono';
     const TYPE_MULTI = 'multi';
 
-    public function set($value);
+    public function set($value): ValueInterface;
 
-    public function getType();
+    public function getType(): string;
 
-    public function asString();
+    public function asString(): string;
 
-    public function asArray();
+    public function asArray(): array;
 }

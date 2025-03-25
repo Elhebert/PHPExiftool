@@ -26,7 +26,7 @@ class PreviewExtractor // extends Exiftool
         $this->exiftool = $exiftool;
     }
 
-    public function extract($pathfile, $outputDir): DirectoryIterator
+    public function extract(string $pathfile, string $outputDir): DirectoryIterator
     {
         if ( ! file_exists($pathfile)) {
             throw new LogicException(sprintf('%s does not exists', $pathfile));

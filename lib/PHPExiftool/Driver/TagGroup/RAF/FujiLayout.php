@@ -1,0 +1,52 @@
+<?php
+
+/*
+ * This file is part of the PHPExifTool package.
+ *
+ * (c) Alchemy <support@alchemy.fr>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace PHPExiftool\Driver\TagGroup\RAF;
+
+use JMS\Serializer\Annotation\ExclusionPolicy;
+use PHPExiftool\Driver\AbstractTagGroup;
+
+/**
+ * @ExclusionPolicy("all")
+ */
+class FujiLayout extends AbstractTagGroup
+{
+
+  protected string $id = 'RAF:FujiLayout';
+
+  protected string $name = 'FujiLayout';
+
+  protected ?string $phpType = 'int';
+
+  protected bool $isWritable = false;
+
+  protected array $description = [
+  ];
+
+  protected array $tags = [
+    0 => [
+      /**
+       * table_name : FujiFilm::RAF
+       * line : 131086
+       * type : int8u
+       * writable : false
+       * count : 
+       * flags : 
+       */
+      'id' => 'FujiFilm::RAF.RAF:FujiLayout',
+      'desc' => [
+      ],
+    ],
+  ];
+
+  protected int $count = 0;
+
+}

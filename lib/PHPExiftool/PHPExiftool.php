@@ -105,9 +105,9 @@ class PHPExiftool
     }
 
     /**
-     * @return LoggerInterface|NullLogger|null
+     * @return LoggerInterface
      */
-    public function getLogger()
+    public function getLogger(): LoggerInterface
     {
         return $this->logger;
     }
