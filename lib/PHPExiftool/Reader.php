@@ -53,6 +53,8 @@ use Psr\Log\LoggerInterface;
  * @todo   implement -l
  *
  * @author Romain Neutron <imprec@gmail.com>
+ *
+ * @template-implements IteratorAggregate<int, FileEntity>
  */
 class Reader implements IteratorAggregate
 {
@@ -125,7 +127,7 @@ class Reader implements IteratorAggregate
     /**
      * Implements \IteratorAggregate Interface
      *
-     * @return \Traversable
+     * @return \ArrayIterator<int, FileEntity>
      * @throws Exception
      */
     public function getIterator(): \Traversable
