@@ -58,4 +58,6 @@ interface TagGroupInterface
     public function isWritable(): bool;
 
     public function getMaxLength(): int;
+
+    public function getWriteKey(): string;
 }

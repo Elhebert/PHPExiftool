@@ -41,7 +41,7 @@ class Exiftool implements LoggerAwareInterface
     /**
      * Execute a command and return the output
      *
-     * @param  array  $command  arguments without executable
+     * @param  array<string>  $command  arguments without executable
      *
      * @throws Exception
      */

@@ -61,8 +61,10 @@ abstract class AbstractTagGroup implements TagGroupInterface
 
     protected int $count = 0;
 
+    /** @var array<string> */
     protected array $description = [];
 
+    /** @var array<string> */
     protected array $tags = [];
 
     public function getId(): string
@@ -150,10 +152,8 @@ abstract class AbstractTagGroup implements TagGroupInterface
 
     /**
      * Return the tagname
-     *
-     * @return string
      */
-    public function __toString()
+    public function __toString(): string
     {
         return $this->getId();
     }

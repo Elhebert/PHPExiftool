@@ -33,7 +33,7 @@ class PHPExiftool
         $this->factory = new Factory($this);
     }
 
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): void
     {
         $this->logger = $logger;
     }
@@ -51,6 +51,10 @@ class PHPExiftool
         $this->classesRootDirectory = realpath($classesRootDirectory);
     }
 
+    /**
+     * @param  array<string>  $options
+     * @param  array<string>  $lngs
+     */
     public function generateClasses(array $options, array $lngs = ['en'], ?callable $cb = null): int
     {
         $classesDirectory = $this->classesRootDirectory.'/'.self::SUBDIR;

@@ -15,7 +15,7 @@ class Mono implements ValueInterface
 {
     protected string $value;
 
-    public function __construct($value = null)
+    public function __construct(?string $value = null)
     {
         $this->set($value);
     }
@@ -37,6 +37,9 @@ class Mono implements ValueInterface
         return $this->value;
     }
 
+    /**
+     * @return array<string>
+     */
     public function asArray(): array
     {
         return [$this->value];

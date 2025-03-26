@@ -151,6 +151,8 @@ class Reader implements IteratorAggregate
      *      // paths /tmp/image.jpg and /tmp/raw.CR2
      *      $Reader ->files('dc00.jpg')
      *              ->files(array('/tmp/image.jpg', '/tmp/raw.CR2'))
+     *
+     * @param  array<string>|string  $files
      */
     public function files(array|string $files): self
     {
@@ -163,9 +165,9 @@ class Reader implements IteratorAggregate
     /**
      * Add dirs to scan
      *
-     * @param  array|string  $dirs  The directories
+     * @param  array<string>|string  $dirs
      *
-     *@example
+     * @example
      *      // Will scan 3 dirs : documents in CWD and absolute
      *      // paths /usr and /var
      *      $Reader ->in('documents')
@@ -202,6 +204,8 @@ class Reader implements IteratorAggregate
      *      // Will sort by filename
      *      $Reader ->in('documents')
      *              ->sort('filename')
+     *
+     * @param  array<string>|string  $by
      */
     public function sort(array|string $by): self
     {
@@ -236,6 +240,8 @@ class Reader implements IteratorAggregate
      *      // Will scan documents recursively, discarding documents/test
      *      $Reader ->in('documents')
      *              ->exclude(array('test'))
+     *
+     * @param  array<string>|string  $dirs
      */
     public function exclude(array|string $dirs): self
     {
@@ -248,6 +254,8 @@ class Reader implements IteratorAggregate
     /**
      * Restrict / Discard files based on extensions.
      * Extensions are case_insensitive.
+     *
+     * @param  array<string>|string  $extensions
      *
      * @throws LogicException
      */
@@ -540,11 +548,19 @@ class Reader implements IteratorAggregate
         }
 
         foreach ($this->dirs as $dir) {
-            $command[] = realpath($dir);
+            $path = realpath($dir);
+
+            if ($path) {
+                $command[] = $path;
+            }
         }
 
         foreach ($this->files as $file) {
-            $command[] = realpath($file);
+            $path = realpath($file);
+
+            if ($path) {
+                $command[] = $path;
+            }
         }
 
         return $command;

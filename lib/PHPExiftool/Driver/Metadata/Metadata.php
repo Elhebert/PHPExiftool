@@ -35,8 +35,6 @@ class Metadata
             $value = $tagGroup->isMulti() ? new Multi : new Mono;
         }
         $this->value = $value;
-
-        return $this;
     }
 
     public function getTagGroup(): TagGroupInterface

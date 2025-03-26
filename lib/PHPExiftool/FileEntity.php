@@ -28,6 +28,8 @@ use Traversable;
 /**
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
+ *
+ * @template-implements IteratorAggregate<string, Metadata>
  */
 class FileEntity implements IteratorAggregate
 {

@@ -7,5 +7,8 @@ namespace PHPExiftool\Driver;
  */
 interface HelperInterface
 {
+    /**
+     * @return array<string, string>
+     */
     public static function getIndex(): array;
 }

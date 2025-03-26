@@ -27,11 +27,9 @@ class TagGroupFactory
     /**
      * load a class
      *
-     * @param  string  $tagname
-     *
      * @throws TagUnknown
      */
-    public static function loadClass(string $classesRootDirectory, string $classname, ?LoggerInterface $logger = null)
+    public static function loadClass(string $classesRootDirectory, string $classname, ?LoggerInterface $logger = null): mixed
     {
         $fullClassname = PHPExiftool::ROOT_NAMESPACE.'\\'.$classname;
 

@@ -72,18 +72,18 @@ class Writer
 
     protected int $timeout = 60;
 
-    protected function __construct(Exiftool $exiftool)
+    public function __construct(Exiftool $exiftool)
     {
         $this->exiftool = $exiftool;
         $this->reset();
     }
 
-    public static function create(Exiftool $exiftool)
+    public static function create(Exiftool $exiftool): self
     {
         return new self($exiftool);
     }
 
-    public function setTimeout($timeout): self
+    public function setTimeout(int $timeout): self
     {
         $this->timeout = $timeout;
 
@@ -160,7 +160,7 @@ class Writer
      * @param  bool  $boolean  Whether to erase metadata or not before writing.
      * @param  bool  $maintainICCProfile  Whether to maintain or not ICC Profile in case of erasing metadata.
      */
-    public function erase(bool $boolean, bool $maintainICCProfile = false)
+    public function erase(bool $boolean, bool $maintainICCProfile = false): void
     {
         $this->erase = $boolean;
         $this->eraseProfile = ! $maintainICCProfile;
@@ -172,8 +172,8 @@ class Writer
      *
      * @param  string  $file_src  The input file
      * @param  string  $file_dest  The input file
-     * @return int the number "write" operations, or null if exiftool returned nothing we understand
-     *             event for no-op (file unchanged), 1 is returned so the caller does not think the command failed.
+     * @return ?int the number "write" operations, or null if exiftool returned nothing we understand
+     *              event for no-op (file unchanged), 1 is returned so the caller does not think the command failed.
      *
      * @throws InvalidArgumentException
      * @throws Exception
@@ -232,7 +232,7 @@ class Writer
      * @param  string  $file  The input file
      * @param  MetadataBag  $metadatas  A bag of metadatas
      * @param  string|null  $destination  The output file
-     * @param  array  $resolutionXY  The dpi resolution array(xresolution, yresolution)
+     * @param  array<int>  $resolutionXY  The dpi resolution array(xresolution, yresolution)
      * @return int|null the number "write" operations, or null if exiftool returned nothing we understand
      *                  even for no-op (file unchanged), 1 is returned so the caller does not think the command failed.
      *
@@ -272,7 +272,7 @@ class Writer
             $commands_groups[] = $commands;
         }
 
-        if (count($resolutionXY) == 2 && is_int(current($resolutionXY)) && is_int(end($resolutionXY))) {
+        if (count($resolutionXY) === 2 && is_int(current($resolutionXY)) && is_int(end($resolutionXY))) {
             reset($resolutionXY);
             $commands_groups[] = [
                 '-xresolution='.current($resolutionXY),
@@ -287,7 +287,7 @@ class Writer
 
         $commands_groups[] = $this->getSyncCommand();
 
-        if (count($commands_groups) == 0) {
+        if (count($commands_groups) === 0) {
             // nothing to do...
             if ($destination) {
                 // ... but a destination
@@ -373,7 +373,7 @@ class Writer
      * Computes modes, modules and metadatas to a single commandline
      *
      * @param  MetadataBag  $metadatas  A Bag of metadatas
-     * @return array parts of the command
+     * @return array<string> parts of the command
      */
     protected function addMetadatasArg(MetadataBag $metadatas): array
     {
@@ -394,6 +394,7 @@ class Writer
         return $commands;
     }
 
+    /** @return array<string> */
     protected function getSyncCommand(): array
     {
         $syncCommands = [];

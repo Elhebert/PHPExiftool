@@ -32,6 +32,9 @@ class Binary implements ValueInterface
         return $this->value;
     }
 
+    /**
+     * @return array<string>
+     */
     public function asArray(): array
     {
         return [$this->value];

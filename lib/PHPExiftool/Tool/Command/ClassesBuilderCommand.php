@@ -32,9 +32,7 @@ class ClassesBuilderCommand extends Command
 
     protected OutputInterface $output;
 
-    protected array $classes = [];
-
-    protected function configure()
+    protected function configure(): self
     {
         $this
             ->setName('classes-builder')

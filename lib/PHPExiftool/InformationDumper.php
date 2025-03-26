@@ -82,15 +82,13 @@ class InformationDumper
      * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item__2dlist_2c__2dlistw_2c__2dlistf_2c__2dlistr_2c__2d
      *
      * @param  string  $type  One of the LISTTYPE_* constants
+     * @param  array<string>  $options
+     * @param  array<string>  $lngs
      *
      * @throws Exception
      */
     public function listDatas(string $type = self::LISTTYPE_SUPPORTED_XML, array $options = [], array $lngs = []): DOMDocument
     {
-        if (! is_array($options)) {
-            throw new InvalidArgumentException('options must be an array');
-        }
-
         $available = [
             self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT,
             self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML,
@@ -124,6 +122,12 @@ class InformationDumper
         return $dom;
     }
 
+    /**
+     * @param  array<string>  $options
+     * @param  array<string>  $lngs
+     *
+     * @throws Exception
+     */
     public function dumpClasses(array $options, array $lngs, ?callable $callback = null): void
     {
         $dom = $this->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML, $options, $lngs);
@@ -491,6 +495,7 @@ class InformationDumper
         return '?';
     }
 
+    /** @var string[] */
     protected static array $reservedNames = [
         'abstract',
         'and',
@@ -590,6 +595,8 @@ class InformationDumper
     /**
      * split namespace and name from a fqn
      * e.g. "Foo\Bar\Baz" --> [ "Foo\Bar" , "Baz" ]
+     *
+     * @return array<string>
      *
      * @throws Exception
      */

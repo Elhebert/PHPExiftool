@@ -18,7 +18,7 @@ class DumpCommand extends Command
 
     protected OutputInterface $output;
 
-    protected function configure()
+    protected function configure(): self
     {
         $this
             ->setName('dump')

@@ -18,7 +18,7 @@ use PHPExiftool\Exception\RuntimeException;
 
 class PreviewExtractor // extends Exiftool
 {
-    private $exiftool;
+    private Exiftool $exiftool;
 
     public function __construct(Exiftool $exiftool)
     {

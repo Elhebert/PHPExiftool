@@ -14,6 +14,7 @@ namespace PHPExiftool;
 use Doctrine\Common\Collections\ArrayCollection;
 use DOMDocument;
 use DOMElement;
+use DOMException;
 use DOMNode;
 use DOMNodeList;
 use DOMXPath;
@@ -92,8 +93,10 @@ class RDFParser
     /**
      * Parse an XML string and returns an ArrayCollection of FileEntity
      *
+     * @return ArrayCollection<string, FileEntity>
+     *
      * @throws ParseErrorException
-     * @throws \DOMException
+     * @throws DOMException
      */
     public function ParseEntities(): ArrayCollection
     {
@@ -129,7 +132,7 @@ class RDFParser
             $node = $RDFDescriptionRoot->item(0);
             $file = $node->getAttribute('rdf:about');
 
-            $Entities->set($file, new FileEntity($file, $Dom, new static($this->classesRootDirectory, $this->logger)));
+            $Entities->set($file, new FileEntity($file, $Dom, new self($this->classesRootDirectory, $this->logger)));
 
             $this->logger->debug(sprintf('  -> new dom node "%s" line %d associated to file "%s"', $node->nodeName, $node->getLineNo(), $file));
         }
@@ -233,7 +236,7 @@ class RDFParser
     /**
      * Extract all XML namespaces declared in a XML
      *
-     * @return array The namespaces declared in XML
+     * @return array<string, string> The namespaces declared in XML
      */
     protected static function getNamespacesFromXml(DOMDocument $dom): array
     {
