@@ -4,6 +4,7 @@ composer.lock
 /tests/lib/PHPExiftool/Test/tmp
 /vendor
 /.phpunit.result.cache
+/.phpunit.cache
 /tests/lib/PHPExiftool/tmp
 /tests/files/ExifToolCopied.jpg_original
 /.php-cs-fixer.cache
