@@ -28,13 +28,14 @@ class WB_BlueLevelsFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Blue Levels Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185533
+             * line : 125856
              * type : int16u
              * writable : true
              * count : 7
@@ -42,12 +43,13 @@ class WB_BlueLevelsFluorescent extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFluorescent',
             'desc' => [
+                'en' => 'WB Blue Levels Fluorescent',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185600
+             * line : 125910
              * type : int16u
              * writable : true
              * count : 7
@@ -55,6 +57,7 @@ class WB_BlueLevelsFluorescent extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFluorescent',
             'desc' => [
+                'en' => 'WB Blue Levels Fluorescent',
             ],
         ],
     ];

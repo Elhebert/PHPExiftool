@@ -28,13 +28,14 @@ class BaselineNoise extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Baseline Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119137
+             * line : 84180
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaselineNoise extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:BaselineNoise',
             'desc' => [
+                'en' => 'Baseline Noise',
             ],
         ],
     ];

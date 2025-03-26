@@ -28,13 +28,14 @@ class BitDepthLuma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth Luma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313503
+             * line : 219248
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepthLuma extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:BitDepthLuma',
             'desc' => [
+                'en' => 'Bit Depth Luma',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AddOriginalDecisionData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Add Original Decision Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75539
+             * line : 55632
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AddOriginalDecisionData extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AddOriginalDecisionData',
             'desc' => [
+                'en' => 'Add Original Decision Data',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76157
+             * line : 55959
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AddOriginalDecisionData extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:AddOriginalDecisionData',
             'desc' => [
+                'en' => 'Add Original Decision Data',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76698
+             * line : 56217
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AddOriginalDecisionData extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:AddOriginalDecisionData',
             'desc' => [
+                'en' => 'Add Original Decision Data',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77836
+             * line : 56764
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AddOriginalDecisionData extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:AddOriginalDecisionData',
             'desc' => [
+                'en' => 'Add Original Decision Data',
             ],
         ],
     ];

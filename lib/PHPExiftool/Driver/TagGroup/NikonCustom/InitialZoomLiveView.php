@@ -28,13 +28,14 @@ class InitialZoomLiveView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial Zoom Live View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212304
+             * line : 142632
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialZoomLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:InitialZoomLiveView',
             'desc' => [
+                'en' => 'Initial Zoom Live View',
             ],
         ],
     ];

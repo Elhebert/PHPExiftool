@@ -28,13 +28,14 @@ class FillAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160947
+             * line : 109899
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillAttributes extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:FillAttributes',
             'desc' => [
+                'en' => 'Fill Attributes',
             ],
         ],
     ];

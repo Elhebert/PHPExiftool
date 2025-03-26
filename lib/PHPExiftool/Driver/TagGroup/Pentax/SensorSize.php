@@ -28,13 +28,14 @@ class SensorSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299366
+             * line : 208814
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class SensorSize extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:SensorSize',
             'desc' => [
+                'en' => 'Sensor Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DVHMeanDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Mean Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102510
+             * line : 75609
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHMeanDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHMeanDose',
             'desc' => [
+                'en' => 'DVH Mean Dose',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254605
+             * line : 175806
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashModel extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:FlashModel',
             'desc' => [
+                'en' => 'Flash Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReflectionHardcopyOrigColorimetry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reflection Hardcopy Orig Colorimetry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146581
+             * line : 101868
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReflectionHardcopyOrigColorimetry extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ReflectionHardcopyOrigColorimetry',
             'desc' => [
+                'en' => 'Reflection Hardcopy Orig Colorimetry',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CopyrightStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265261
+             * line : 183369
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CopyrightStatus extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:CopyrightStatus',
             'desc' => [
+                'en' => 'Copyright Status',
             ],
         ],
     ];

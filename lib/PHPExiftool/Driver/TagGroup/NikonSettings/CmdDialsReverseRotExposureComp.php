@@ -28,13 +28,14 @@ class CmdDialsReverseRotExposureComp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cmd Dials Reverse Rot Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244646
+             * line : 167465
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CmdDialsReverseRotExposureComp extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsReverseRotExposureComp',
             'desc' => [
+                'en' => 'Cmd Dials Reverse Rot Exposure Comp',
             ],
         ],
     ];

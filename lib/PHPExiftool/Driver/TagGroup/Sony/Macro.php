@@ -28,13 +28,14 @@ class Macro extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 358691
+             * line : 250305
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Macro extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Macro',
             'desc' => [
+                'en' => 'Macro',
             ],
         ],
     ];

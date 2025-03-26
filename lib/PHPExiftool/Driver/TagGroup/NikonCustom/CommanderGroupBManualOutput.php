@@ -28,13 +28,14 @@ class CommanderGroupBManualOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Commander Group B Manual Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228874
+             * line : 153943
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CommanderGroupBManualOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:CommanderGroupBManualOutput',
             'desc' => [
+                'en' => 'Commander Group B Manual Output',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229333
+             * line : 154207
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CommanderGroupBManualOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:CommanderGroupBManualOutput',
             'desc' => [
+                'en' => 'Commander Group B Manual Output',
             ],
         ],
     ];

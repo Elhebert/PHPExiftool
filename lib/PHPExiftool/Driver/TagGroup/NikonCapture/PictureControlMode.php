@@ -28,13 +28,14 @@ class PictureControlMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211216
+             * line : 142024
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class PictureControlMode extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:PictureControlMode',
             'desc' => [
+                'en' => 'Picture Control Mode',
             ],
         ],
     ];

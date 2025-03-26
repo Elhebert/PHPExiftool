@@ -28,13 +28,14 @@ class InstanceCreatorUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance Creator UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94679
+             * line : 68170
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceCreatorUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstanceCreatorUID',
             'desc' => [
+                'en' => 'Instance Creator UID',
             ],
         ],
     ];

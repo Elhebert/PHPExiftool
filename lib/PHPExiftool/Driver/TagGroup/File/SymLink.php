@@ -28,13 +28,14 @@ class SymLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sym Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121539
+             * line : 85247
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SymLink extends AbstractTagGroup
              */
             'id' => 'Extra.File:SymLink',
             'desc' => [
+                'en' => 'Sym Link',
             ],
         ],
     ];

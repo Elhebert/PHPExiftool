@@ -28,13 +28,14 @@ class ZoomedPreviewSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zoomed Preview Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258357
+             * line : 178518
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ZoomedPreviewSize extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ZoomedPreviewSize',
             'desc' => [
+                'en' => 'Zoomed Preview Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ManifestReferenceToPart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference To Part',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414176
+             * line : 292196
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceToPart extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceToPart',
             'desc' => [
+                'en' => 'Manifest Reference To Part',
             ],
         ],
     ];

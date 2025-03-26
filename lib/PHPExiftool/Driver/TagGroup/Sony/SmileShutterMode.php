@@ -28,13 +28,14 @@ class SmileShutterMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Smile Shutter Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350765
+             * line : 244888
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SmileShutterMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:SmileShutterMode',
             'desc' => [
+                'en' => 'Smile Shutter Mode',
             ],
         ],
     ];

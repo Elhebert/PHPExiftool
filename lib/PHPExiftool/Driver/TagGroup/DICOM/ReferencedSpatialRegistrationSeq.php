@@ -28,13 +28,14 @@ class ReferencedSpatialRegistrationSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Spatial Registration Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101411
+             * line : 74559
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSpatialRegistrationSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSpatialRegistrationSeq',
             'desc' => [
+                'en' => 'Referenced Spatial Registration Seq',
             ],
         ],
     ];

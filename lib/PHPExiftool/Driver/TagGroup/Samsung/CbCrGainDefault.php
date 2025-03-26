@@ -28,13 +28,14 @@ class CbCrGainDefault extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cb Cr Gain Default',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335590
+             * line : 235487
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class CbCrGainDefault extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:CbCrGainDefault',
             'desc' => [
+                'en' => 'Cb Cr Gain Default',
             ],
         ],
     ];

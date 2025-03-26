@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250856
+             * line : 173059
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258418
+             * line : 178533
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

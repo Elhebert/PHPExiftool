@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type9
-             * line : 160609
+             * line : 109769
              * type : string
              * writable : true
              * count : 20
@@ -42,6 +43,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Kodak::Type9.Kodak:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

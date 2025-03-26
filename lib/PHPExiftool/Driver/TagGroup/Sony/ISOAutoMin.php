@@ -28,13 +28,14 @@ class ISOAutoMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Auto Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ISOInfo
-             * line : 353457
+             * line : 246644
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOAutoMin extends AbstractTagGroup
              */
             'id' => 'Sony::ISOInfo.Sony:ISOAutoMin',
             'desc' => [
+                'en' => 'ISO Auto Min',
             ],
         ],
     ];

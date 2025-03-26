@@ -28,13 +28,14 @@ class SensrFulWdth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensr Ful Wdth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310153
+             * line : 216065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensrFulWdth extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:SensrFulWdth',
             'desc' => [
+                'en' => 'Sensr Ful Wdth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331028
+             * line : 232839
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
     ];

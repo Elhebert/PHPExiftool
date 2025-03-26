@@ -28,13 +28,14 @@ class DefectPixMaxThresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Defect Pix Max Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307407
+             * line : 213905
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefectPixMaxThresh extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DefectPixMaxThresh',
             'desc' => [
+                'en' => 'Defect Pix Max Thresh',
             ],
         ],
     ];

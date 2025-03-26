@@ -28,13 +28,14 @@ class ExposureIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405469
+             * line : 287909
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureIndex extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ExposureIndex',
             'desc' => [
+                'en' => 'Exposure Index',
             ],
         ],
     ];

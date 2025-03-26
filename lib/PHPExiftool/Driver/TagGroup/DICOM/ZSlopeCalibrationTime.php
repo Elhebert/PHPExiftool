@@ -28,13 +28,14 @@ class ZSlopeCalibrationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Slope Calibration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100639
+             * line : 73809
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZSlopeCalibrationTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZSlopeCalibrationTime',
             'desc' => [
+                'en' => 'Z Slope Calibration Time',
             ],
         ],
     ];

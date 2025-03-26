@@ -28,13 +28,14 @@ class DigitalSignature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154174
+             * line : 105858
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignature extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:DigitalSignature',
             'desc' => [
+                'en' => 'Digital Signature',
             ],
         ],
     ];

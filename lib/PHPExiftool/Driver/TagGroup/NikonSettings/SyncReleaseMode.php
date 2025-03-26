@@ -28,13 +28,14 @@ class SyncReleaseMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sync Release Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245207
+             * line : 167953
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SyncReleaseMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SyncReleaseMode',
             'desc' => [
+                'en' => 'Sync Release Mode',
             ],
         ],
     ];

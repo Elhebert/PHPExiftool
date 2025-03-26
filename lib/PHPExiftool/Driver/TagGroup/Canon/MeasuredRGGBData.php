@@ -28,13 +28,14 @@ class MeasuredRGGBData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measured RGGB Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61280
+             * line : 47002
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class MeasuredRGGBData extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:MeasuredRGGBData',
             'desc' => [
+                'en' => 'Measured RGGB Data',
             ],
         ],
     ];

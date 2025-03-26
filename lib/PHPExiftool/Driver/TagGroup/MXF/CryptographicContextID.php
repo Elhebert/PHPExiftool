@@ -28,13 +28,14 @@ class CryptographicContextID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cryptographic Context ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171983
+             * line : 118168
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CryptographicContextID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CryptographicContextID',
             'desc' => [
+                'en' => 'Cryptographic Context ID',
             ],
         ],
     ];

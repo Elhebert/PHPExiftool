@@ -28,13 +28,14 @@ class ProfileEmbedPolicy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Embed Policy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120138
+             * line : 84441
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileEmbedPolicy extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileEmbedPolicy',
             'desc' => [
+                'en' => 'Profile Embed Policy',
             ],
         ],
     ];

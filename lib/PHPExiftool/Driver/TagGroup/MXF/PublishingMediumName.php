@@ -28,13 +28,14 @@ class PublishingMediumName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publishing Medium Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170684
+             * line : 116919
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PublishingMediumName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublishingMediumName',
             'desc' => [
+                'en' => 'Publishing Medium Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170687
+             * line : 116922
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PublishingMediumName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublishingMediumName',
             'desc' => [
+                'en' => 'Publishing Medium Name',
             ],
         ],
     ];

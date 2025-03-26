@@ -28,13 +28,14 @@ class ArtMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Art Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89709
+             * line : 64832
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:ArtMode',
             'desc' => [
+                'en' => 'Art Mode',
             ],
         ],
     ];

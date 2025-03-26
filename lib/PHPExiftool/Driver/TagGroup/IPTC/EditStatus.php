@@ -28,13 +28,14 @@ class EditStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edit Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149741
+             * line : 103793
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class EditStatus extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:EditStatus',
             'desc' => [
+                'en' => 'Edit Status',
             ],
         ],
     ];

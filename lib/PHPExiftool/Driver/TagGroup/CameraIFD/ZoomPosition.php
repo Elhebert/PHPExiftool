@@ -28,13 +28,14 @@ class ZoomPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zoom Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279730
+             * line : 194278
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoomPosition extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:ZoomPosition',
             'desc' => [
+                'en' => 'Zoom Position',
             ],
         ],
     ];

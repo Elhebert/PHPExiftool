@@ -28,13 +28,14 @@ class MDItemFSContentChangeDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Content Change Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172706
+             * line : 118823
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSContentChangeDate extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSContentChangeDate',
             'desc' => [
+                'en' => 'MD Item FS Content Change Date',
             ],
         ],
     ];

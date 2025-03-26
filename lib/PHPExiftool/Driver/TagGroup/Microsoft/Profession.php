@@ -28,13 +28,14 @@ class Profession extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profession',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176058
+             * line : 121137
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Profession extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Profession',
             'desc' => [
+                'en' => 'Profession',
             ],
         ],
     ];

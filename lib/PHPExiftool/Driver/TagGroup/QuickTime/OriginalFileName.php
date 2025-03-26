@@ -28,13 +28,14 @@ class OriginalFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Pittasoft
-             * line : 324199
+             * line : 229076
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalFileName extends AbstractTagGroup
              */
             'id' => 'QuickTime::Pittasoft.QuickTime:OriginalFileName',
             'desc' => [
+                'en' => 'Original File Name',
             ],
         ],
     ];

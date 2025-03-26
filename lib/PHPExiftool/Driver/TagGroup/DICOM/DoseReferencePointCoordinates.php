@@ -28,13 +28,14 @@ class DoseReferencePointCoordinates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose Reference Point Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102984
+             * line : 76080
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoseReferencePointCoordinates extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoseReferencePointCoordinates',
             'desc' => [
+                'en' => 'Dose Reference Point Coordinates',
             ],
         ],
     ];

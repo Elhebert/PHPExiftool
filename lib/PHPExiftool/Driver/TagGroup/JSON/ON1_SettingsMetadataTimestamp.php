@@ -28,13 +28,14 @@ class ON1_SettingsMetadataTimestamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ON1 Settings Metadata Timestamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JSON::Main
-             * line : 153390
+             * line : 105408
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ON1_SettingsMetadataTimestamp extends AbstractTagGroup
              */
             'id' => 'JSON::Main.JSON:ON1_SettingsMetadataTimestamp',
             'desc' => [
+                'en' => 'ON1 Settings Metadata Timestamp',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImagerBoardID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imager Board ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340028
+             * line : 237728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagerBoardID extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:ImagerBoardID',
             'desc' => [
+                'en' => 'Imager Board ID',
             ],
         ],
     ];

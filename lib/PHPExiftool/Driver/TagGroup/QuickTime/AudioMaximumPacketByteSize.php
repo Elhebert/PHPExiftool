@@ -28,13 +28,14 @@ class AudioMaximumPacketByteSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Maximum Packet Byte Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312676
+             * line : 218548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioMaximumPacketByteSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioMaximumPacketByteSize',
             'desc' => [
+                'en' => 'Audio Maximum Packet Byte Size',
             ],
         ],
     ];

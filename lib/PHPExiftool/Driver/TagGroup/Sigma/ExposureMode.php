@@ -28,13 +28,14 @@ class ExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337034
+             * line : 236011
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
     ];

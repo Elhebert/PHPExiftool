@@ -28,13 +28,14 @@ class RatingPercent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Percent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412713
+             * line : 290960
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingPercent extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:RatingPercent',
             'desc' => [
+                'en' => 'Rating Percent',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MultipleSpinEcho extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multiple Spin Echo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96533
+             * line : 69937
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultipleSpinEcho extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultipleSpinEcho',
             'desc' => [
+                'en' => 'Multiple Spin Echo',
             ],
         ],
     ];

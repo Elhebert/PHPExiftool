@@ -28,13 +28,14 @@ class TextStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Text Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276821
+             * line : 192688
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class TextStamp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TextStamp',
             'desc' => [
+                'en' => 'Text Stamp',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276874
+             * line : 192716
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class TextStamp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TextStamp',
             'desc' => [
+                'en' => 'Text Stamp',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278615
+             * line : 193758
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class TextStamp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TextStamp',
             'desc' => [
+                'en' => 'Text Stamp',
             ],
         ],
         3 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278640
+             * line : 193769
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class TextStamp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TextStamp',
             'desc' => [
+                'en' => 'Text Stamp',
             ],
         ],
     ];

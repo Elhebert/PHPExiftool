@@ -28,13 +28,14 @@ class CondadoTunOffsets extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Condado Tun Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156912
+             * line : 108116
              * type : int16s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class CondadoTunOffsets extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CondadoTunOffsets',
             'desc' => [
+                'en' => 'Condado Tun Offsets',
             ],
         ],
     ];

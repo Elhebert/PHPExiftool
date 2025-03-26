@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RSRC::Main
-             * line : 329091
+             * line : 231992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'RSRC::Main.RSRC:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

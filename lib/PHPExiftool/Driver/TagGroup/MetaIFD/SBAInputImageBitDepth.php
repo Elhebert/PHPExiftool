@@ -28,13 +28,14 @@ class SBAInputImageBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SBA Input Image Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158455
+             * line : 108937
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SBAInputImageBitDepth extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:SBAInputImageBitDepth',
             'desc' => [
+                'en' => 'SBA Input Image Bit Depth',
             ],
         ],
     ];

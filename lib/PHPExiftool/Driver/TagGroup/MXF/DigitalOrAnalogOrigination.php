@@ -28,13 +28,14 @@ class DigitalOrAnalogOrigination extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Or Analog Origination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168124
+             * line : 114623
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalOrAnalogOrigination extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DigitalOrAnalogOrigination',
             'desc' => [
+                'en' => 'Digital Or Analog Origination',
             ],
         ],
     ];

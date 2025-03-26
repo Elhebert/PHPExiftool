@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CMP1
-             * line : 4425
+             * line : 2788
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Canon::CMP1.Canon:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

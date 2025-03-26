@@ -28,13 +28,14 @@ class ToleranceMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tolerance Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172172
+             * line : 118339
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToleranceMode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ToleranceMode',
             'desc' => [
+                'en' => 'Tolerance Mode',
             ],
         ],
     ];

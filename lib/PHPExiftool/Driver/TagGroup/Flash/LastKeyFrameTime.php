@@ -28,13 +28,14 @@ class LastKeyFrameTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Key Frame Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124145
+             * line : 86759
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastKeyFrameTime extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:LastKeyFrameTime',
             'desc' => [
+                'en' => 'Last Key Frame Time',
             ],
         ],
     ];

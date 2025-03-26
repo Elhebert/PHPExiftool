@@ -28,13 +28,14 @@ class ApplicationSetupManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Setup Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103591
+             * line : 76683
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationSetupManufacturer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicationSetupManufacturer',
             'desc' => [
+                'en' => 'Application Setup Manufacturer',
             ],
         ],
     ];

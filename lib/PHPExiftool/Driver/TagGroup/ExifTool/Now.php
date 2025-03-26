@@ -28,13 +28,14 @@ class Now extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Now',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121474
+             * line : 85214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Now extends AbstractTagGroup
              */
             'id' => 'Extra.ExifTool:Now',
             'desc' => [
+                'en' => 'Now',
             ],
         ],
     ];

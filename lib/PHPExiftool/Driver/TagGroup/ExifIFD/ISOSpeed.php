@@ -28,13 +28,14 @@ class ISOSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113943
+             * line : 82636
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSpeed extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ISOSpeed',
             'desc' => [
+                'en' => 'ISO Speed',
             ],
         ],
     ];

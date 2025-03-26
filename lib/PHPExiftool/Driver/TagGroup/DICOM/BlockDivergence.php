@@ -28,13 +28,14 @@ class BlockDivergence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Divergence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103300
+             * line : 76395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockDivergence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockDivergence',
             'desc' => [
+                'en' => 'Block Divergence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GantryRotationDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry Rotation Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103372
+             * line : 76467
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryRotationDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryRotationDirection',
             'desc' => [
+                'en' => 'Gantry Rotation Direction',
             ],
         ],
     ];

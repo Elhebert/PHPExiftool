@@ -28,13 +28,14 @@ class NestLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nest Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Loop
-             * line : 165011
+             * line : 112145
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NestLevel extends AbstractTagGroup
              */
             'id' => 'MNG::Loop.MNG:NestLevel',
             'desc' => [
+                'en' => 'Nest Level',
             ],
         ],
     ];

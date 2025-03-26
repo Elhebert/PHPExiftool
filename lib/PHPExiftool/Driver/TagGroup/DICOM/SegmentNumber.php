@@ -28,13 +28,14 @@ class SegmentNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segment Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97488
+             * line : 70876
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SegmentNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentNumber',
             'desc' => [
+                'en' => 'Segment Number',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 101073
+             * line : 74223
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SegmentNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentNumber',
             'desc' => [
+                'en' => 'Segment Number',
             ],
         ],
     ];

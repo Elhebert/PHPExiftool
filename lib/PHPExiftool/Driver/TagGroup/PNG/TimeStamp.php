@@ -28,13 +28,14 @@ class TimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 272977
+             * line : 190563
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FaithfulRawLinear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faithful Raw Linear',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82910
+             * line : 60744
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaithfulRawLinear extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:FaithfulRawLinear',
             'desc' => [
+                'en' => 'Faithful Raw Linear',
             ],
         ],
     ];

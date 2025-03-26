@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347934
+             * line : 243523
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349326
+             * line : 244121
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 352955
+             * line : 246429
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

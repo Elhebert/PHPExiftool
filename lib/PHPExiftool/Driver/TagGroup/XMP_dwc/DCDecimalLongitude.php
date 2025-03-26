@@ -28,13 +28,14 @@ class DCDecimalLongitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Decimal Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106882
+             * line : 79058
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCDecimalLongitude extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCDecimalLongitude',
             'desc' => [
+                'en' => 'DC Decimal Longitude',
             ],
         ],
     ];

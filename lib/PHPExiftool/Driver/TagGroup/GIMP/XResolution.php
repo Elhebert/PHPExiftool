@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Resolution
-             * line : 131651
+             * line : 90815
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'GIMP::Resolution.GIMP:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

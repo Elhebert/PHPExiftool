@@ -28,13 +28,14 @@ class LockedIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Locked Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170787
+             * line : 117018
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LockedIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LockedIndicator',
             'desc' => [
+                'en' => 'Locked Indicator',
             ],
         ],
     ];

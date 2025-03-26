@@ -28,13 +28,14 @@ class GPRI_Unknown4 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPRI Unknown 4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPRI
-             * line : 139876
+             * line : 97821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPRI_Unknown4 extends AbstractTagGroup
              */
             'id' => 'GoPro::GPRI.GoPro:GPRI_Unknown4',
             'desc' => [
+                'en' => 'GPRI Unknown 4',
             ],
         ],
     ];

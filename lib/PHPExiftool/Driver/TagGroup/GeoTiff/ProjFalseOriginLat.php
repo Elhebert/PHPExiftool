@@ -28,13 +28,14 @@ class ProjFalseOriginLat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj False Origin Lat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138716
+             * line : 96965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjFalseOriginLat extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjFalseOriginLat',
             'desc' => [
+                'en' => 'Proj False Origin Lat',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Tattoo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tattoo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Main
-             * line : 131590
+             * line : 90781
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Tattoo extends AbstractTagGroup
              */
             'id' => 'GIMP::Main.GIMP:Tattoo',
             'desc' => [
+                'en' => 'Tattoo',
             ],
         ],
     ];

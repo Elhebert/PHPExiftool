@@ -28,13 +28,14 @@ class AddressNameValueSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Address Name Value Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171806
+             * line : 117994
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AddressNameValueSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AddressNameValueSets',
             'desc' => [
+                'en' => 'Address Name Value Sets',
             ],
         ],
     ];

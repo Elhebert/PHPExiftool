@@ -28,13 +28,14 @@ class PaintImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaintData
-             * line : 123481
+             * line : 86300
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintImageWidth extends AbstractTagGroup
              */
             'id' => 'FLIR::PaintData.FLIR:PaintImageWidth',
             'desc' => [
+                'en' => 'Paint Image Width',
             ],
         ],
     ];

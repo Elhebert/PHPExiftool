@@ -28,13 +28,14 @@ class DMTrimFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DM Trim Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155756
+             * line : 106967
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DMTrimFraction extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMTrimFraction',
             'desc' => [
+                'en' => 'DM Trim Fraction',
             ],
         ],
     ];

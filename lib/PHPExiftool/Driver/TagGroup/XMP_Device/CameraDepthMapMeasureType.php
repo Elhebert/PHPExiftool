@@ -28,13 +28,14 @@ class CameraDepthMapMeasureType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Depth Map Measure Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396546
+             * line : 280763
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDepthMapMeasureType extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraDepthMapMeasureType',
             'desc' => [
+                'en' => 'Camera Depth Map Measure Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LookSupportsMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Supports Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402917
+             * line : 286053
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookSupportsMonochrome extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookSupportsMonochrome',
             'desc' => [
+                'en' => 'Look Supports Monochrome',
             ],
         ],
     ];

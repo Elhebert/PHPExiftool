@@ -28,13 +28,14 @@ class RawDevExposureBiasValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Exposure Bias Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260226
+             * line : 179769
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawDevExposureBiasValue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevExposureBiasValue',
             'desc' => [
+                'en' => 'Raw Dev Exposure Bias Value',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260418
+             * line : 179897
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawDevExposureBiasValue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevExposureBiasValue',
             'desc' => [
+                'en' => 'Raw Dev Exposure Bias Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GooglePlusUploadCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Plus Upload Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114054
+             * line : 82666
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GooglePlusUploadCode extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:GooglePlusUploadCode',
             'desc' => [
+                'en' => 'Google Plus Upload Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CurrResol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curr Resol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307275
+             * line : 213773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrResol extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:CurrResol',
             'desc' => [
+                'en' => 'Curr Resol',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148026
+             * line : 102887
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

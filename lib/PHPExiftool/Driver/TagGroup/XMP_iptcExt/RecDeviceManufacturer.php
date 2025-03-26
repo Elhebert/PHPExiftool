@@ -28,13 +28,14 @@ class RecDeviceManufacturer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rec Device Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409693
+             * line : 289453
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecDeviceManufacturer extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RecDeviceManufacturer',
             'desc' => [
+                'en' => 'Rec Device Manufacturer',
             ],
         ],
     ];

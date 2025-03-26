@@ -28,13 +28,14 @@ class Resolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164398
+             * line : 111760
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Resolution extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Resolution',
             'desc' => [
+                'en' => 'Resolution',
             ],
         ],
     ];

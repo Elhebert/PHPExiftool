@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339542
+             * line : 237564
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

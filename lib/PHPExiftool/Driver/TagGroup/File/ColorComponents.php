@@ -28,13 +28,14 @@ class ColorComponents extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Components',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SOF
-             * line : 152887
+             * line : 105187
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorComponents extends AbstractTagGroup
              */
             'id' => 'JPEG::SOF.File:ColorComponents',
             'desc' => [
+                'en' => 'Color Components',
             ],
         ],
         1 => [
             /**
              * table_name : PGF::Main
-             * line : 264531
+             * line : 182825
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorComponents extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:ColorComponents',
             'desc' => [
+                'en' => 'Color Components',
             ],
         ],
     ];

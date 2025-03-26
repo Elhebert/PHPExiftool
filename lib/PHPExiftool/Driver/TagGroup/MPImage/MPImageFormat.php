@@ -28,13 +28,14 @@ class MPImageFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MP Image Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::MPImage
-             * line : 166174
+             * line : 112991
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPImageFormat extends AbstractTagGroup
              */
             'id' => 'MPF::MPImage.MPImage:MPImageFormat',
             'desc' => [
+                'en' => 'MP Image Format',
             ],
         ],
     ];

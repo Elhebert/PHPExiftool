@@ -28,13 +28,14 @@ class OutputLUT extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Output LUT',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277861
+             * line : 193275
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutputLUT extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:OutputLUT',
             'desc' => [
+                'en' => 'Output LUT',
             ],
         ],
     ];

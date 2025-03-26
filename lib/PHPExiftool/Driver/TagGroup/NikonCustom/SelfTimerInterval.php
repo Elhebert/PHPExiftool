@@ -28,13 +28,14 @@ class SelfTimerInterval extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227380
+             * line : 153105
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfTimerInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:SelfTimerInterval',
             'desc' => [
+                'en' => 'Self Timer Interval',
             ],
         ],
     ];

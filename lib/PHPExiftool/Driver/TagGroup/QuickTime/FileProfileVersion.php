@@ -28,13 +28,14 @@ class FileProfileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Profile Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::FileProf
-             * line : 312713
+             * line : 218585
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileProfileVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::FileProf.QuickTime:FileProfileVersion',
             'desc' => [
+                'en' => 'File Profile Version',
             ],
         ],
     ];

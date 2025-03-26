@@ -28,13 +28,14 @@ class RollGuidElements extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Roll Guid Elements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158470
+             * line : 108949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RollGuidElements extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:RollGuidElements',
             'desc' => [
+                'en' => 'Roll Guid Elements',
             ],
         ],
     ];

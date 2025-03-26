@@ -28,13 +28,14 @@ class LastModifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Modifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124361
+             * line : 86891
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LastModifier extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:LastModifier',
             'desc' => [
+                'en' => 'Last Modifier',
             ],
         ],
         1 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124623
+             * line : 87106
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class LastModifier extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:LastModifier',
             'desc' => [
+                'en' => 'Last Modifier',
             ],
         ],
         2 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127337
+             * line : 88375
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class LastModifier extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:LastModifier',
             'desc' => [
+                'en' => 'Last Modifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157875
+             * line : 108726
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
     ];

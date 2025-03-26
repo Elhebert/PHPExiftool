@@ -28,13 +28,14 @@ class CurrentVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Current Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394485
+             * line : 279454
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CurrentVersion extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:CurrentVersion',
             'desc' => [
+                'en' => 'Current Version',
             ],
         ],
     ];

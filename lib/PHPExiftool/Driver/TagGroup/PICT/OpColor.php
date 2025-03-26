@@ -28,13 +28,14 @@ class OpColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Op Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264711
+             * line : 182951
              * type : RGBColor
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpColor extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:OpColor',
             'desc' => [
+                'en' => 'Op Color',
             ],
         ],
     ];

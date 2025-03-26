@@ -28,13 +28,14 @@ class ImageProcessingFileDateCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Processing File Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156131
+             * line : 107342
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageProcessingFileDateCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageProcessingFileDateCreated',
             'desc' => [
+                'en' => 'Image Processing File Date Created',
             ],
         ],
     ];

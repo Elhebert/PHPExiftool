@@ -28,13 +28,14 @@ class VideoAlphaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Alpha Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413592
+             * line : 291670
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoAlphaMode extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoAlphaMode',
             'desc' => [
+                'en' => 'Video Alpha Mode',
             ],
         ],
     ];

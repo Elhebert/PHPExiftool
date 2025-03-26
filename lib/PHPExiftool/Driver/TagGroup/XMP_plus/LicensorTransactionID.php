@@ -28,13 +28,14 @@ class LicensorTransactionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor Transaction ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265755
+             * line : 183722
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorTransactionID extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorTransactionID',
             'desc' => [
+                'en' => 'Licensor Transaction ID',
             ],
         ],
     ];

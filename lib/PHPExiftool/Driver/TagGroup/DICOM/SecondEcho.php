@@ -28,13 +28,14 @@ class SecondEcho extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Second Echo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97563
+             * line : 70948
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondEcho extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondEcho',
             'desc' => [
+                'en' => 'Second Echo',
             ],
         ],
     ];

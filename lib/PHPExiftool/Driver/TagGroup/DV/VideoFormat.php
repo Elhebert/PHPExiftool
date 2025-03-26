@@ -28,13 +28,14 @@ class VideoFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 106049
+             * line : 78433
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFormat extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:VideoFormat',
             'desc' => [
+                'en' => 'Video Format',
             ],
         ],
     ];

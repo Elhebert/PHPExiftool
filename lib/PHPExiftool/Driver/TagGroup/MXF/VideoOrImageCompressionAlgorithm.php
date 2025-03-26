@@ -28,13 +28,14 @@ class VideoOrImageCompressionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Or Image Compression Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168142
+             * line : 114641
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoOrImageCompressionAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoOrImageCompressionAlgorithm',
             'desc' => [
+                'en' => 'Video Or Image Compression Algorithm',
             ],
         ],
     ];

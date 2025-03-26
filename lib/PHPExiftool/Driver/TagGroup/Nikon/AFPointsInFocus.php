@@ -28,13 +28,14 @@ class AFPointsInFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Points In Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo
-             * line : 188011
+             * line : 127298
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo.Nikon:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190023
+             * line : 128936
              * type : undef
              * writable : true
              * count : 20
@@ -55,6 +57,7 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
     ];

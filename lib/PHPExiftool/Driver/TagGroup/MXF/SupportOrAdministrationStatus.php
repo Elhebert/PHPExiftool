@@ -28,13 +28,14 @@ class SupportOrAdministrationStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Support Or Administration Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167538
+             * line : 114153
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SupportOrAdministrationStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupportOrAdministrationStatus',
             'desc' => [
+                'en' => 'Support Or Administration Status',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170018
+             * line : 116343
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SupportOrAdministrationStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupportOrAdministrationStatus',
             'desc' => [
+                'en' => 'Support Or Administration Status',
             ],
         ],
     ];

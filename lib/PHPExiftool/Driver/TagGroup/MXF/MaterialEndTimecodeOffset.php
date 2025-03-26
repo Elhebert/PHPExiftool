@@ -28,13 +28,14 @@ class MaterialEndTimecodeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Material End Timecode Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168552
+             * line : 115043
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaterialEndTimecodeOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaterialEndTimecodeOffset',
             'desc' => [
+                'en' => 'Material End Timecode Offset',
             ],
         ],
     ];

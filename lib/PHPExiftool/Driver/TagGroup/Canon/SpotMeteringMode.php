@@ -28,13 +28,14 @@ class SpotMeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Spot Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58697
+             * line : 45641
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpotMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:SpotMeteringMode',
             'desc' => [
+                'en' => 'Spot Metering Mode',
             ],
         ],
     ];

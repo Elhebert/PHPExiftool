@@ -28,13 +28,14 @@ class PixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394858
+             * line : 279723
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
     ];

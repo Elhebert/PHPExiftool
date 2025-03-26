@@ -28,13 +28,14 @@ class Slides extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slides',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124465
+             * line : 86956
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Slides extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:Slides',
             'desc' => [
+                'en' => 'Slides',
             ],
         ],
     ];

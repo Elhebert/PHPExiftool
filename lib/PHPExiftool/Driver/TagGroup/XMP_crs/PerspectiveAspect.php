@@ -28,13 +28,14 @@ class PerspectiveAspect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Perspective Aspect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403883
+             * line : 287000
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PerspectiveAspect extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PerspectiveAspect',
             'desc' => [
+                'en' => 'Perspective Aspect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KodakImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154371
+             * line : 105995
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class KodakImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:KodakImageWidth',
             'desc' => [
+                'en' => 'Kodak Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Main
-             * line : 157749
+             * line : 108680
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class KodakImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:KodakImageWidth',
             'desc' => [
+                'en' => 'Kodak Image Width',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158809
+             * line : 109102
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class KodakImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:KodakImageWidth',
             'desc' => [
+                'en' => 'Kodak Image Width',
             ],
         ],
         3 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158905
+             * line : 109129
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class KodakImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:KodakImageWidth',
             'desc' => [
+                'en' => 'Kodak Image Width',
             ],
         ],
         4 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159832
+             * line : 109509
              * type : ?
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class KodakImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:KodakImageWidth',
             'desc' => [
+                'en' => 'Kodak Image Width',
             ],
         ],
         5 => [
             /**
              * table_name : Kodak::Type2
-             * line : 160011
+             * line : 109598
              * type : int32u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class KodakImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::Type2.Kodak:KodakImageWidth',
             'desc' => [
+                'en' => 'Kodak Image Width',
             ],
         ],
     ];

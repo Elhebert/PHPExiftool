@@ -28,13 +28,14 @@ class ImgIsOriginalOrUnoriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Img Is Original Or Unoriginal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100300
+             * line : 73473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImgIsOriginalOrUnoriginal extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImgIsOriginalOrUnoriginal',
             'desc' => [
+                'en' => 'Img Is Original Or Unoriginal',
             ],
         ],
     ];

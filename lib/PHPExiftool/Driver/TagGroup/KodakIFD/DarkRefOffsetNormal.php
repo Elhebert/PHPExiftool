@@ -28,13 +28,14 @@ class DarkRefOffsetNormal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dark Ref Offset Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157245
+             * line : 108437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DarkRefOffsetNormal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkRefOffsetNormal',
             'desc' => [
+                'en' => 'Dark Ref Offset Normal',
             ],
         ],
     ];

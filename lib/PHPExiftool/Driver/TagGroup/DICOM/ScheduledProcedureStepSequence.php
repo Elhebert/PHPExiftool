@@ -28,13 +28,14 @@ class ScheduledProcedureStepSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Procedure Step Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99642
+             * line : 72849
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledProcedureStepSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledProcedureStepSequence',
             'desc' => [
+                'en' => 'Scheduled Procedure Step Sequence',
             ],
         ],
     ];

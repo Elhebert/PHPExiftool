@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::ANIM
-             * line : 326891
+             * line : 230554
              * type : int8u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'RIFF::ANIM.RIFF:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

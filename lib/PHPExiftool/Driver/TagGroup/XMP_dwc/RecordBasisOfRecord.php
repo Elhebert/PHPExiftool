@@ -28,13 +28,14 @@ class RecordBasisOfRecord extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Basis Of Record',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106637
+             * line : 78875
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordBasisOfRecord extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordBasisOfRecord',
             'desc' => [
+                'en' => 'Record Basis Of Record',
             ],
         ],
     ];

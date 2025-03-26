@@ -28,13 +28,14 @@ class CenterOfCircularShutter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center Of Circular Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96075
+             * line : 69496
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CenterOfCircularShutter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CenterOfCircularShutter',
             'desc' => [
+                'en' => 'Center Of Circular Shutter',
             ],
         ],
     ];

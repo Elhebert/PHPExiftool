@@ -28,13 +28,14 @@ class Composer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1130
+             * line : 460
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Composer extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Composer',
             'desc' => [
+                'en' => 'Composer',
             ],
         ],
     ];

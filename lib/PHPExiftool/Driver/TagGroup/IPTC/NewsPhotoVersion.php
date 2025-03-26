@@ -28,13 +28,14 @@ class NewsPhotoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'News Photo Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151342
+             * line : 104386
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NewsPhotoVersion extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:NewsPhotoVersion',
             'desc' => [
+                'en' => 'News Photo Version',
             ],
         ],
     ];

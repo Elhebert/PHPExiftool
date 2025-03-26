@@ -28,13 +28,14 @@ class GenPurposePerformedProcStepStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Purpose Performed Proc Step Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99926
+             * line : 73128
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenPurposePerformedProcStepStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GenPurposePerformedProcStepStatus',
             'desc' => [
+                'en' => 'Gen Purpose Performed Proc Step Status',
             ],
         ],
     ];

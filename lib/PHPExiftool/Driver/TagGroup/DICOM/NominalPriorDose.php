@@ -28,13 +28,14 @@ class NominalPriorDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Prior Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102987
+             * line : 76083
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalPriorDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalPriorDose',
             'desc' => [
+                'en' => 'Nominal Prior Dose',
             ],
         ],
     ];

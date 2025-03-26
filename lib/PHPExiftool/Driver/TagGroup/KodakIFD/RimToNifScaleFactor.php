@@ -28,13 +28,14 @@ class RimToNifScaleFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rim To Nif Scale Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155855
+             * line : 107066
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RimToNifScaleFactor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RimToNifScaleFactor',
             'desc' => [
+                'en' => 'Rim To Nif Scale Factor',
             ],
         ],
     ];

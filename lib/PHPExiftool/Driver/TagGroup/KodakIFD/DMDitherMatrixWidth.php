@@ -28,13 +28,14 @@ class DMDitherMatrixWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DM Dither Matrix Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156113
+             * line : 107324
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DMDitherMatrixWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMDitherMatrixWidth',
             'desc' => [
+                'en' => 'DM Dither Matrix Width',
             ],
         ],
     ];

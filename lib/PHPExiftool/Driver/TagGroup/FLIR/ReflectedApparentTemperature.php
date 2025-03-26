@@ -28,13 +28,14 @@ class ReflectedApparentTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reflected Apparent Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122192
+             * line : 85581
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ReflectedApparentTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:ReflectedApparentTemperature',
             'desc' => [
+                'en' => 'Reflected Apparent Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122596
+             * line : 85847
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ReflectedApparentTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ReflectedApparentTemperature',
             'desc' => [
+                'en' => 'Reflected Apparent Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Params
-             * line : 123571
+             * line : 86375
              * type : float
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ReflectedApparentTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:ReflectedApparentTemperature',
             'desc' => [
+                'en' => 'Reflected Apparent Temperature',
             ],
         ],
     ];

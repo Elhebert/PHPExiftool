@@ -28,13 +28,14 @@ class ClipFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clip File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325388
+             * line : 229682
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ClipFileName extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ClipFileName',
             'desc' => [
+                'en' => 'Clip File Name',
             ],
         ],
     ];

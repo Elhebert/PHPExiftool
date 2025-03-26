@@ -28,13 +28,14 @@ class AFResult extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Result',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259123
+             * line : 178797
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFResult extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:AFResult',
             'desc' => [
+                'en' => 'AF Result',
             ],
         ],
     ];

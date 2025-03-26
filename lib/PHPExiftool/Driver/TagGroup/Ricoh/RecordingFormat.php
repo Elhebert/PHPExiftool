@@ -28,13 +28,14 @@ class RecordingFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recording Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332426
+             * line : 233359
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordingFormat extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:RecordingFormat',
             'desc' => [
+                'en' => 'Recording Format',
             ],
         ],
     ];

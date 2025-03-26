@@ -28,13 +28,14 @@ class DRM_LASignaturePrivKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM LA Signature Priv Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1214
+             * line : 523
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_LASignaturePrivKey extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM_LASignaturePrivKey',
             'desc' => [
+                'en' => 'DRM LA Signature Priv Key',
             ],
         ],
     ];

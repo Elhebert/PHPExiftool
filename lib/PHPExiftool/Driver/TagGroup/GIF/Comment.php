@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Main
-             * line : 131310
+             * line : 90671
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'GIF::Main.GIF:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

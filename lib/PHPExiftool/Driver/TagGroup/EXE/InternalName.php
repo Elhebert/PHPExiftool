@@ -28,13 +28,14 @@ class InternalName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Internal Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109115
+             * line : 80642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InternalName extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:InternalName',
             'desc' => [
+                'en' => 'Internal Name',
             ],
         ],
     ];

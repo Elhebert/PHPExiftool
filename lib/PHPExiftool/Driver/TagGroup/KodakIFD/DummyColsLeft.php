@@ -28,13 +28,14 @@ class DummyColsLeft extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dummy Cols Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156002
+             * line : 107213
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DummyColsLeft extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DummyColsLeft',
             'desc' => [
+                'en' => 'Dummy Cols Left',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HJRMaxNumFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HJR Max Num Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306134
+             * line : 212639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HJRMaxNumFrames extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:HJRMaxNumFrames',
             'desc' => [
+                'en' => 'HJR Max Num Frames',
             ],
         ],
     ];

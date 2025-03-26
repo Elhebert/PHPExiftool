@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 333937
+             * line : 234132
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335486
+             * line : 235442
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

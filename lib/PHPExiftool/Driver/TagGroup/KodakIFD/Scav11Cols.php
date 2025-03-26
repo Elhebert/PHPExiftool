@@ -28,13 +28,14 @@ class Scav11Cols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scav 11 Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157167
+             * line : 108359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Scav11Cols extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Scav11Cols',
             'desc' => [
+                'en' => 'Scav 11 Cols',
             ],
         ],
     ];

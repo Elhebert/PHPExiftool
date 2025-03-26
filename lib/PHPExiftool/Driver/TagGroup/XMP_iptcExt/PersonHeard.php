@@ -28,13 +28,14 @@ class PersonHeard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Person Heard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409542
+             * line : 289315
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PersonHeard extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:PersonHeard',
             'desc' => [
+                'en' => 'Person Heard',
             ],
         ],
     ];

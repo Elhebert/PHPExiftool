@@ -28,13 +28,14 @@ class OutCue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Out Cue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413206
+             * line : 291333
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutCue extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:OutCue',
             'desc' => [
+                'en' => 'Out Cue',
             ],
         ],
     ];

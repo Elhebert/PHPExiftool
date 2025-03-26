@@ -28,13 +28,14 @@ class PatientName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95193
+             * line : 68662
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientName',
             'desc' => [
+                'en' => 'Patient Name',
             ],
         ],
     ];

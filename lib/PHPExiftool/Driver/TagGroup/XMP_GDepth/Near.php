@@ -28,13 +28,14 @@ class Near extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Near',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 397021
+             * line : 281156
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Near extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Near',
             'desc' => [
+                'en' => 'Near',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ComputeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compute Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97485
+             * line : 70873
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComputeType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ComputeType',
             'desc' => [
+                'en' => 'Compute Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubSelectorAssignment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Selector Assignment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216290
+             * line : 145308
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubSelectorAssignment extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:SubSelectorAssignment',
             'desc' => [
+                'en' => 'Sub Selector Assignment',
             ],
         ],
     ];

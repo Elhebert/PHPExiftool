@@ -28,13 +28,14 @@ class RepresentativeDisparityNear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Representative Disparity Near',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394675
+             * line : 279597
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepresentativeDisparityNear extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:RepresentativeDisparityNear',
             'desc' => [
+                'en' => 'Representative Disparity Near',
             ],
         ],
     ];

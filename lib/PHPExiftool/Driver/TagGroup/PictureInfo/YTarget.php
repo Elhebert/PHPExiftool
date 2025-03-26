@@ -28,13 +28,14 @@ class YTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 824
+             * line : 298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YTarget extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:YTarget',
             'desc' => [
+                'en' => 'Y Target',
             ],
         ],
     ];

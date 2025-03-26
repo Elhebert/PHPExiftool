@@ -28,13 +28,14 @@ class RespiratoryTriggerType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Trigger Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98129
+             * line : 71476
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratoryTriggerType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratoryTriggerType',
             'desc' => [
+                'en' => 'Respiratory Trigger Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RightsConditionDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights Condition Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169932
+             * line : 116268
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RightsConditionDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsConditionDescription',
             'desc' => [
+                'en' => 'Rights Condition Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169935
+             * line : 116271
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RightsConditionDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsConditionDescription',
             'desc' => [
+                'en' => 'Rights Condition Description',
             ],
         ],
     ];

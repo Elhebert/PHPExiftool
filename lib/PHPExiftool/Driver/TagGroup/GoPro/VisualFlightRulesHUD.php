@@ -28,13 +28,14 @@ class VisualFlightRulesHUD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Visual Flight Rules HUD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139844
+             * line : 97796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VisualFlightRulesHUD extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:VisualFlightRulesHUD',
             'desc' => [
+                'en' => 'Visual Flight Rules HUD',
             ],
         ],
     ];

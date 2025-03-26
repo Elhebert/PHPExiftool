@@ -28,13 +28,14 @@ class Marked extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Marked',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpRights
-             * line : 414367
+             * line : 292369
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Marked extends AbstractTagGroup
              */
             'id' => 'XMP::xmpRights.XMP-xmpRights:Marked',
             'desc' => [
+                'en' => 'Marked',
             ],
         ],
     ];

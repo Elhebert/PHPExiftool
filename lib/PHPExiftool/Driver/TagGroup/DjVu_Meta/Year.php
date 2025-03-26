@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107514
+             * line : 79342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

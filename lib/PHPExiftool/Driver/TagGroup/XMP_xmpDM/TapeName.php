@@ -28,13 +28,14 @@ class TapeName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tape Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413460
+             * line : 291552
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TapeName extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TapeName',
             'desc' => [
+                'en' => 'Tape Name',
             ],
         ],
     ];

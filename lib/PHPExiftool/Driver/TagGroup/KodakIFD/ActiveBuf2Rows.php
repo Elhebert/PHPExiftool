@@ -28,13 +28,14 @@ class ActiveBuf2Rows extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Buf 2 Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157197
+             * line : 108389
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveBuf2Rows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ActiveBuf2Rows',
             'desc' => [
+                'en' => 'Active Buf 2 Rows',
             ],
         ],
     ];

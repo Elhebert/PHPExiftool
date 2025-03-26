@@ -28,13 +28,14 @@ class RadiusOfCircularShutter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radius Of Circular Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96078
+             * line : 69499
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiusOfCircularShutter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiusOfCircularShutter',
             'desc' => [
+                'en' => 'Radius Of Circular Shutter',
             ],
         ],
     ];

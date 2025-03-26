@@ -28,13 +28,14 @@ class ApplicationPlug_InBatch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Plug-In Batch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172451
+             * line : 118612
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationPlug_InBatch extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationPlug-InBatch',
             'desc' => [
+                'en' => 'Application Plug-In Batch',
             ],
         ],
     ];

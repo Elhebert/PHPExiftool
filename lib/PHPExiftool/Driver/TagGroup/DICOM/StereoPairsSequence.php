@@ -28,13 +28,14 @@ class StereoPairsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo Pairs Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98382
+             * line : 71716
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StereoPairsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StereoPairsSequence',
             'desc' => [
+                'en' => 'Stereo Pairs Sequence',
             ],
         ],
     ];

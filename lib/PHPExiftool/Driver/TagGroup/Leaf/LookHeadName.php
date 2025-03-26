@@ -28,13 +28,14 @@ class LookHeadName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Look Head Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::LookHeader
-             * line : 161863
+             * line : 110585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LookHeadName extends AbstractTagGroup
              */
             'id' => 'Leaf::LookHeader.Leaf:LookHeadName',
             'desc' => [
+                'en' => 'Look Head Name',
             ],
         ],
     ];

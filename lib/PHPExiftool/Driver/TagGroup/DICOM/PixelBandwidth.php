@@ -28,13 +28,14 @@ class PixelBandwidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Bandwidth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95561
+             * line : 69016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelBandwidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelBandwidth',
             'desc' => [
+                'en' => 'Pixel Bandwidth',
             ],
         ],
     ];

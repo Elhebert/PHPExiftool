@@ -28,13 +28,14 @@ class EXRMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EXR Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130100
+             * line : 89867
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EXRMode extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:EXRMode',
             'desc' => [
+                'en' => 'EXR Mode',
             ],
         ],
     ];

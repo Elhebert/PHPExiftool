@@ -28,13 +28,14 @@ class NumberOfBoli extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Boli',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103266
+             * line : 76362
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfBoli extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfBoli',
             'desc' => [
+                'en' => 'Number Of Boli',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaxBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1771
+             * line : 887
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxBitrate extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:MaxBitrate',
             'desc' => [
+                'en' => 'Max Bitrate',
             ],
         ],
     ];

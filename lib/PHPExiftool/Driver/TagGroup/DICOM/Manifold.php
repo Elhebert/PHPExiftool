@@ -28,13 +28,14 @@ class Manifold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manifold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101154
+             * line : 74304
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manifold extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Manifold',
             'desc' => [
+                'en' => 'Manifold',
             ],
         ],
     ];

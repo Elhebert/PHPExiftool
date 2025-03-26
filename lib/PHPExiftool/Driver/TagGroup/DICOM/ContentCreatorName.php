@@ -28,13 +28,14 @@ class ContentCreatorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Creator Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101339
+             * line : 74487
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentCreatorName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentCreatorName',
             'desc' => [
+                'en' => 'Content Creator Name',
             ],
         ],
     ];

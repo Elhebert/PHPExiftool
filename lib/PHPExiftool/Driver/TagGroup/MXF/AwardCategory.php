@@ -28,13 +28,14 @@ class AwardCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Award Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170777
+             * line : 117009
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AwardCategory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AwardCategory',
             'desc' => [
+                'en' => 'Award Category',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170780
+             * line : 117012
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AwardCategory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AwardCategory',
             'desc' => [
+                'en' => 'Award Category',
             ],
         ],
     ];

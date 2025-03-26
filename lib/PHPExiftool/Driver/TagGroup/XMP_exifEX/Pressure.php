@@ -28,13 +28,14 @@ class Pressure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pressure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408684
+             * line : 288654
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Pressure extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:Pressure',
             'desc' => [
+                'en' => 'Pressure',
             ],
         ],
     ];

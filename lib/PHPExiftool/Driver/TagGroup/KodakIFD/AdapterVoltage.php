@@ -28,13 +28,14 @@ class AdapterVoltage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Adapter Voltage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154885
+             * line : 106178
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdapterVoltage extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AdapterVoltage',
             'desc' => [
+                'en' => 'Adapter Voltage',
             ],
         ],
     ];

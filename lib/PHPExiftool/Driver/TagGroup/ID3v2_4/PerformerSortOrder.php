@@ -28,13 +28,14 @@ class PerformerSortOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performer Sort Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149603
+             * line : 103711
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PerformerSortOrder extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:PerformerSortOrder',
             'desc' => [
+                'en' => 'Performer Sort Order',
             ],
         ],
         1 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149683
+             * line : 103771
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PerformerSortOrder extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:PerformerSortOrder',
             'desc' => [
+                'en' => 'Performer Sort Order',
             ],
         ],
     ];

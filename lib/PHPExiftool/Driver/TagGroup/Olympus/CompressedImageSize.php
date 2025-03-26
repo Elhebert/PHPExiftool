@@ -28,13 +28,14 @@ class CompressedImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compressed Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256836
+             * line : 177380
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressedImageSize extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:CompressedImageSize',
             'desc' => [
+                'en' => 'Compressed Image Size',
             ],
         ],
     ];

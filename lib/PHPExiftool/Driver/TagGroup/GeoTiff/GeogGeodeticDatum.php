@@ -28,13 +28,14 @@ class GeogGeodeticDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Geodetic Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 133310
+             * line : 91608
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogGeodeticDatum extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogGeodeticDatum',
             'desc' => [
+                'en' => 'Geog Geodetic Datum',
             ],
         ],
     ];

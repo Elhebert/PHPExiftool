@@ -28,13 +28,14 @@ class LivingSpecimen extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Living Specimen',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106349
+             * line : 78659
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LivingSpecimen extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LivingSpecimen',
             'desc' => [
+                'en' => 'Living Specimen',
             ],
         ],
     ];

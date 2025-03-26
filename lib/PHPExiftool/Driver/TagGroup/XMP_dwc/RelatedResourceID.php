@@ -28,13 +28,14 @@ class RelatedResourceID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Related Resource ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106685
+             * line : 78911
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelatedResourceID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RelatedResourceID',
             'desc' => [
+                'en' => 'Related Resource ID',
             ],
         ],
     ];

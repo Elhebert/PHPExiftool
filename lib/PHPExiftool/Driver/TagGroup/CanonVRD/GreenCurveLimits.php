@@ -28,13 +28,14 @@ class GreenCurveLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Green Curve Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82467
+             * line : 60403
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class GreenCurveLimits extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:GreenCurveLimits',
             'desc' => [
+                'en' => 'Green Curve Limits',
             ],
         ],
     ];

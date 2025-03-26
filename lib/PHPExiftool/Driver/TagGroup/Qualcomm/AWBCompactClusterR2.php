@@ -28,13 +28,14 @@ class AWBCompactClusterR2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Compact Cluster R2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307047
+             * line : 213545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBCompactClusterR2 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBCompactClusterR2',
             'desc' => [
+                'en' => 'AWB Compact Cluster R2',
             ],
         ],
     ];

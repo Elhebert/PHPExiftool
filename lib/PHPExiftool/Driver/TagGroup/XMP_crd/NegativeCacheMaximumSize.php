@@ -28,13 +28,14 @@ class NegativeCacheMaximumSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Negative Cache Maximum Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400105
+             * line : 283592
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NegativeCacheMaximumSize extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:NegativeCacheMaximumSize',
             'desc' => [
+                'en' => 'Negative Cache Maximum Size',
             ],
         ],
     ];

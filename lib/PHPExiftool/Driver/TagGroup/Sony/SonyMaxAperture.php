@@ -28,13 +28,14 @@ class SonyMaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379068
+             * line : 265909
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyMaxAperture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:SonyMaxAperture',
             'desc' => [
+                'en' => 'Sony Max Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381290
+             * line : 268093
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SonyMaxAperture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:SonyMaxAperture',
             'desc' => [
+                'en' => 'Sony Max Aperture',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashStatusBuilt_in extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Status Built-in',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351186
+             * line : 245180
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashStatusBuilt_in extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashStatusBuilt-in',
             'desc' => [
+                'en' => 'Flash Status Built-in',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351365
+             * line : 245306
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashStatusBuilt_in extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashStatusBuilt-in',
             'desc' => [
+                'en' => 'Flash Status Built-in',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SlideIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slide Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99812
+             * line : 73014
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlideIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SlideIdentifier',
             'desc' => [
+                'en' => 'Slide Identifier',
             ],
         ],
     ];

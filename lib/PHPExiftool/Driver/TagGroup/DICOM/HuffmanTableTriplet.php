@@ -28,13 +28,14 @@ class HuffmanTableTriplet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Huffman Table Triplet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101968
+             * line : 75108
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HuffmanTableTriplet extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HuffmanTableTriplet',
             'desc' => [
+                'en' => 'Huffman Table Triplet',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedLateralSpreadingDevNum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Lateral Spreading Dev Num',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104038
+             * line : 77127
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedLateralSpreadingDevNum extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedLateralSpreadingDevNum',
             'desc' => [
+                'en' => 'Referenced Lateral Spreading Dev Num',
             ],
         ],
     ];

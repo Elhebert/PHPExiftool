@@ -28,13 +28,14 @@ class DataSizeForScanData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Size For Scan Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97504
+             * line : 70891
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataSizeForScanData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataSizeForScanData',
             'desc' => [
+                'en' => 'Data Size For Scan Data',
             ],
         ],
     ];

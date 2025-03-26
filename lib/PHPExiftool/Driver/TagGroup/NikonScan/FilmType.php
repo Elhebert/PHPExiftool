@@ -28,13 +28,14 @@ class FilmType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Film Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205217
+             * line : 137943
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilmType extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:FilmType',
             'desc' => [
+                'en' => 'Film Type',
             ],
         ],
     ];

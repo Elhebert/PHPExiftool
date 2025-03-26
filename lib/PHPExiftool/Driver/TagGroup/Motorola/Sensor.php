@@ -28,13 +28,14 @@ class Sensor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Motorola::Main
-             * line : 187845
+             * line : 127227
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sensor extends AbstractTagGroup
              */
             'id' => 'Motorola::Main.Motorola:Sensor',
             'desc' => [
+                'en' => 'Sensor',
             ],
         ],
     ];

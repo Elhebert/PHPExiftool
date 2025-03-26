@@ -28,13 +28,14 @@ class Snapshots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Snapshots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397876
+             * line : 281628
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Snapshots extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:Snapshots',
             'desc' => [
+                'en' => 'Snapshots',
             ],
         ],
     ];

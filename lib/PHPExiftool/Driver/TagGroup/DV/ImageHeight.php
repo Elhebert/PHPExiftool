@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 106009
+             * line : 78424
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

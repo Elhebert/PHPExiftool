@@ -28,13 +28,14 @@ class AIServoSecondImagePriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AI Servo Second Image Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74362
+             * line : 54881
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AIServoSecondImagePriority extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AIServoSecondImagePriority',
             'desc' => [
+                'en' => 'AI Servo Second Image Priority',
             ],
         ],
     ];

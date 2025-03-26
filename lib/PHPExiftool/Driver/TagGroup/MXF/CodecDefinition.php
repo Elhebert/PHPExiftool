@@ -28,13 +28,14 @@ class CodecDefinition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Definition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169473
+             * line : 115875
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CodecDefinition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodecDefinition',
             'desc' => [
+                'en' => 'Codec Definition',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171451
+             * line : 117652
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CodecDefinition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodecDefinition',
             'desc' => [
+                'en' => 'Codec Definition',
             ],
         ],
     ];

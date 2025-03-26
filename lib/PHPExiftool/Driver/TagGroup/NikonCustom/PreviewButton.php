@@ -28,13 +28,14 @@ class PreviewButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213056
+             * line : 143013
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213280
+             * line : 143218
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215347
+             * line : 144508
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217946
+             * line : 146408
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220405
+             * line : 148448
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225816
+             * line : 152146
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226988
+             * line : 152859
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230401
+             * line : 154810
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232298
+             * line : 156260
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
     ];

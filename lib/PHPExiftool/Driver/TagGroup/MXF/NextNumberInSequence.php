@@ -28,13 +28,14 @@ class NextNumberInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Next Number In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170908
+             * line : 117138
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NextNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NextNumberInSequence',
             'desc' => [
+                'en' => 'Next Number In Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170911
+             * line : 117141
              * type : int64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NextNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NextNumberInSequence',
             'desc' => [
+                'en' => 'Next Number In Sequence',
             ],
         ],
     ];

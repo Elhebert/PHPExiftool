@@ -28,13 +28,14 @@ class RecordingLabelName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recording Label Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169834
+             * line : 116184
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RecordingLabelName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RecordingLabelName',
             'desc' => [
+                'en' => 'Recording Label Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169838
+             * line : 116187
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RecordingLabelName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RecordingLabelName',
             'desc' => [
+                'en' => 'Recording Label Name',
             ],
         ],
     ];

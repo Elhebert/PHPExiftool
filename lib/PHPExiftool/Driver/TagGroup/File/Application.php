@@ -28,13 +28,14 @@ class Application extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166418
+             * line : 113160
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class Application extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Application',
             'desc' => [
+                'en' => 'Application',
             ],
         ],
     ];

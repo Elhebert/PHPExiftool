@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279049
+             * line : 193919
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

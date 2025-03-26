@@ -28,13 +28,14 @@ class MaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154780
+             * line : 106131
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
     ];

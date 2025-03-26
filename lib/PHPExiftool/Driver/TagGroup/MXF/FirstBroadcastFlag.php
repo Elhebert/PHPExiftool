@@ -28,13 +28,14 @@ class FirstBroadcastFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Broadcast Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167517
+             * line : 114132
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstBroadcastFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FirstBroadcastFlag',
             'desc' => [
+                'en' => 'First Broadcast Flag',
             ],
         ],
     ];

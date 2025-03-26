@@ -28,13 +28,14 @@ class EndingRespiratoryPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ending Respiratory Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98126
+             * line : 71473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndingRespiratoryPhase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EndingRespiratoryPhase',
             'desc' => [
+                'en' => 'Ending Respiratory Phase',
             ],
         ],
     ];

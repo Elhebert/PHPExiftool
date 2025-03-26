@@ -28,13 +28,14 @@ class FlexibleSpotPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flexible Spot Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354617
+             * line : 247224
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FlexibleSpotPosition extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FlexibleSpotPosition',
             'desc' => [
+                'en' => 'Flexible Spot Position',
             ],
         ],
     ];

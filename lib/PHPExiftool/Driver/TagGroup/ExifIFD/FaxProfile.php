@@ -28,13 +28,14 @@ class FaxProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fax Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112100
+             * line : 81891
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FaxProfile extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FaxProfile',
             'desc' => [
+                'en' => 'Fax Profile',
             ],
         ],
     ];

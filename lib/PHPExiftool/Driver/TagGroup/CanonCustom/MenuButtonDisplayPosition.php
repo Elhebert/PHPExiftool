@@ -28,13 +28,14 @@ class MenuButtonDisplayPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Menu Button Display Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71663
+             * line : 53367
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MenuButtonDisplayPosition extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:MenuButtonDisplayPosition',
             'desc' => [
+                'en' => 'Menu Button Display Position',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 75980
+             * line : 55864
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MenuButtonDisplayPosition extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:MenuButtonDisplayPosition',
             'desc' => [
+                'en' => 'Menu Button Display Position',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76501
+             * line : 56111
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MenuButtonDisplayPosition extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:MenuButtonDisplayPosition',
             'desc' => [
+                'en' => 'Menu Button Display Position',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77619
+             * line : 56647
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MenuButtonDisplayPosition extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:MenuButtonDisplayPosition',
             'desc' => [
+                'en' => 'Menu Button Display Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SurfaceMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146624
+             * line : 101905
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceMap extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:SurfaceMap',
             'desc' => [
+                'en' => 'Surface Map',
             ],
         ],
     ];

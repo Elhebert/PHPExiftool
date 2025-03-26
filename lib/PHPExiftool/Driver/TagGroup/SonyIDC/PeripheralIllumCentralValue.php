@@ -28,13 +28,14 @@ class PeripheralIllumCentralValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Peripheral Illum Central Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394322
+             * line : 279342
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PeripheralIllumCentralValue extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:PeripheralIllumCentralValue',
             'desc' => [
+                'en' => 'Peripheral Illum Central Value',
             ],
         ],
     ];

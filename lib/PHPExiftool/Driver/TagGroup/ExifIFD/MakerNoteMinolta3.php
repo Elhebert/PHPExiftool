@@ -28,13 +28,14 @@ class MakerNoteMinolta3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Minolta 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104966
+             * line : 77849
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteMinolta3 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteMinolta3',
             'desc' => [
+                'en' => 'Maker Note Minolta 3',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115927
+             * line : 83142
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteMinolta3 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteMinolta3',
             'desc' => [
+                'en' => 'Maker Note Minolta 3',
             ],
         ],
     ];

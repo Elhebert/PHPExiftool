@@ -28,13 +28,14 @@ class ASF5NrmUpThres extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Nrm Up Thres',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306972
+             * line : 213470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5NrmUpThres extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5NrmUpThres',
             'desc' => [
+                'en' => 'ASF5 Nrm Up Thres',
             ],
         ],
     ];

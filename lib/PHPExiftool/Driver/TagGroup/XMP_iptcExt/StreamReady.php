@@ -28,13 +28,14 @@ class StreamReady extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stream Ready',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409810
+             * line : 289569
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StreamReady extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:StreamReady',
             'desc' => [
+                'en' => 'Stream Ready',
             ],
         ],
     ];

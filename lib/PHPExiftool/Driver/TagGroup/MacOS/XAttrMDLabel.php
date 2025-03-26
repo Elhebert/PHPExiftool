@@ -28,13 +28,14 @@ class XAttrMDLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr MD Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173144
+             * line : 119153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrMDLabel extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrMDLabel',
             'desc' => [
+                'en' => 'X Attr MD Label',
             ],
         ],
     ];

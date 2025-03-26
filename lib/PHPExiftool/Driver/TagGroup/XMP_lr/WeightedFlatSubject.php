@@ -28,13 +28,14 @@ class WeightedFlatSubject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Weighted Flat Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Lightroom
-             * line : 397387
+             * line : 281415
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WeightedFlatSubject extends AbstractTagGroup
              */
             'id' => 'XMP::Lightroom.XMP-lr:WeightedFlatSubject',
             'desc' => [
+                'en' => 'Weighted Flat Subject',
             ],
         ],
     ];

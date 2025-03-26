@@ -28,13 +28,14 @@ class TableTopPitchRotationDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Pitch Rotation Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103420
+             * line : 76515
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopPitchRotationDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopPitchRotationDirection',
             'desc' => [
+                'en' => 'Table Top Pitch Rotation Direction',
             ],
         ],
     ];

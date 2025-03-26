@@ -28,13 +28,14 @@ class EnergyWindowNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Window Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100935
+             * line : 74094
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyWindowNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EnergyWindowNumber',
             'desc' => [
+                'en' => 'Energy Window Number',
             ],
         ],
     ];

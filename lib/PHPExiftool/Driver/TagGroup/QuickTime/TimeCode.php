@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324916
+             * line : 229393
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

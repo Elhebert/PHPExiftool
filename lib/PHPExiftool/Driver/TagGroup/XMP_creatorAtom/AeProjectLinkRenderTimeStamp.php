@@ -28,13 +28,14 @@ class AeProjectLinkRenderTimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ae Project Link Render Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401468
+             * line : 284731
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AeProjectLinkRenderTimeStamp extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkRenderTimeStamp',
             'desc' => [
+                'en' => 'Ae Project Link Render Time Stamp',
             ],
         ],
     ];

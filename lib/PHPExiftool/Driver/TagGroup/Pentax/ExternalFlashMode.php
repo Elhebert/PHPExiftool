@@ -28,13 +28,14 @@ class ExternalFlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 288085
+             * line : 199926
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashMode extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashMode',
             'desc' => [
+                'en' => 'External Flash Mode',
             ],
         ],
     ];

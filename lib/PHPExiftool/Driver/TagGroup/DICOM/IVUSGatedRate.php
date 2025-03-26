@@ -28,13 +28,14 @@ class IVUSGatedRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IVUS Gated Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96165
+             * line : 69583
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IVUSGatedRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IVUSGatedRate',
             'desc' => [
+                'en' => 'IVUS Gated Rate',
             ],
         ],
     ];

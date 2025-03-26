@@ -28,13 +28,14 @@ class AlbumIDAlbumArtist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album ID Album Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174444
+             * line : 120134
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumIDAlbumArtist extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AlbumIDAlbumArtist',
             'desc' => [
+                'en' => 'Album ID Album Artist',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TIFFHandling extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TIFF Handling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404453
+             * line : 287501
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TIFFHandling extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:TIFFHandling',
             'desc' => [
+                'en' => 'TIFF Handling',
             ],
         ],
     ];

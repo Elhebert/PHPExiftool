@@ -28,13 +28,14 @@ class ExposureTimeInMilliSec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time In Milli Sec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97023
+             * line : 70423
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTimeInMilliSec extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureTimeInMilliSec',
             'desc' => [
+                'en' => 'Exposure Time In Milli Sec',
             ],
         ],
     ];

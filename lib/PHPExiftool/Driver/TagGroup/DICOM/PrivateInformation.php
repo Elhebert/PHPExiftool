@@ -28,13 +28,14 @@ class PrivateInformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Private Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94585
+             * line : 68086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrivateInformation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrivateInformation',
             'desc' => [
+                'en' => 'Private Information',
             ],
         ],
     ];

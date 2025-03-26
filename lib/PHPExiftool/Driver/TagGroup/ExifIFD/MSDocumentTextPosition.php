@@ -28,13 +28,14 @@ class MSDocumentTextPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MS Document Text Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116295
+             * line : 83316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MSDocumentTextPosition extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MSDocumentTextPosition',
             'desc' => [
+                'en' => 'MS Document Text Position',
             ],
         ],
     ];

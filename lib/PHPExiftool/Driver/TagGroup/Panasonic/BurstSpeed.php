@@ -28,13 +28,14 @@ class BurstSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277479
+             * line : 192988
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstSpeed extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:BurstSpeed',
             'desc' => [
+                'en' => 'Burst Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DataRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175915
+             * line : 121053
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataRate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DataRate',
             'desc' => [
+                'en' => 'Data Rate',
             ],
         ],
     ];

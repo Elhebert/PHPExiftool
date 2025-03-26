@@ -28,13 +28,14 @@ class MaskGroupBasedCorrSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400039
+             * line : 283545
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrSaturation extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrSaturation',
             'desc' => [
+                'en' => 'Mask Group Based Corr Saturation',
             ],
         ],
     ];

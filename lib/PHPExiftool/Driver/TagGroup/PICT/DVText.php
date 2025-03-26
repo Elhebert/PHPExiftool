@@ -28,13 +28,14 @@ class DVText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DV Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264740
+             * line : 182975
              * type : Int8uText
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVText extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:DVText',
             'desc' => [
+                'en' => 'DV Text',
             ],
         ],
     ];

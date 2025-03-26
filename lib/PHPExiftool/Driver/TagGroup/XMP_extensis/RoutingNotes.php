@@ -28,13 +28,14 @@ class RoutingNotes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Routing Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::extensis
-             * line : 408788
+             * line : 288720
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RoutingNotes extends AbstractTagGroup
              */
             'id' => 'XMP::extensis.XMP-extensis:RoutingNotes',
             'desc' => [
+                'en' => 'Routing Notes',
             ],
         ],
     ];

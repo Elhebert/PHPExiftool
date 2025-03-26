@@ -28,13 +28,14 @@ class ImageRegion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409352
+             * line : 289128
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageRegion extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ImageRegion',
             'desc' => [
+                'en' => 'Image Region',
             ],
         ],
     ];

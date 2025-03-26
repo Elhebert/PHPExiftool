@@ -28,13 +28,14 @@ class DataPointColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Point Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99174
+             * line : 72393
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataPointColumns extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataPointColumns',
             'desc' => [
+                'en' => 'Data Point Columns',
             ],
         ],
     ];

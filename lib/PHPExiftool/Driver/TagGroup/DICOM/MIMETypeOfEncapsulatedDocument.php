@@ -28,13 +28,14 @@ class MIMETypeOfEncapsulatedDocument extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIME Type Of Encapsulated Document',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100278
+             * line : 73452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIMETypeOfEncapsulatedDocument extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MIMETypeOfEncapsulatedDocument',
             'desc' => [
+                'en' => 'MIME Type Of Encapsulated Document',
             ],
         ],
     ];

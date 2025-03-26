@@ -28,13 +28,14 @@ class RightsSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171576
+             * line : 117772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RightsSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsSets',
             'desc' => [
+                'en' => 'Rights Sets',
             ],
         ],
     ];

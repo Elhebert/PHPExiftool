@@ -28,13 +28,14 @@ class Declination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Declination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Orient
-             * line : 164087
+             * line : 111608
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Declination extends AbstractTagGroup
              */
             'id' => 'MIE::Orient.MIE-Orient:Declination',
             'desc' => [
+                'en' => 'Declination',
             ],
         ],
     ];

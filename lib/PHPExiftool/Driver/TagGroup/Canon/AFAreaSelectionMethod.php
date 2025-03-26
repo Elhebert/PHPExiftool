@@ -28,13 +28,14 @@ class AFAreaSelectionMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Selection Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3922
+             * line : 2445
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAreaSelectionMethod extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFAreaSelectionMethod',
             'desc' => [
+                'en' => 'AF Area Selection Method',
             ],
         ],
     ];

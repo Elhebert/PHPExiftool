@@ -28,13 +28,14 @@ class StreamElementType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Element Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169646
+             * line : 116037
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamElementType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamElementType',
             'desc' => [
+                'en' => 'Stream Element Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AutoLightingOptimizer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Lighting Optimizer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24664
+             * line : 18264
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26966
+             * line : 20018
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35671
+             * line : 26968
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::LightingOpt
-             * line : 64218
+             * line : 48749
              * type : int32s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'Canon::LightingOpt.Canon:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
     ];

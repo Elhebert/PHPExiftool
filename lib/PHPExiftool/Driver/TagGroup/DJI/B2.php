@@ -28,13 +28,14 @@ class B2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'B2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::ThermalParams
-             * line : 104563
+             * line : 77610
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class B2 extends AbstractTagGroup
              */
             'id' => 'DJI::ThermalParams.DJI:B2',
             'desc' => [
+                'en' => 'B2',
             ],
         ],
     ];

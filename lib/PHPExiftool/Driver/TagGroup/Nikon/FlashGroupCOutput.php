@@ -28,13 +28,14 @@ class FlashGroupCOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Group C Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193407
+             * line : 131003
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashGroupCOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashGroupCOutput',
             'desc' => [
+                'en' => 'Flash Group C Output',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 194019
+             * line : 131402
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashGroupCOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashGroupCOutput',
             'desc' => [
+                'en' => 'Flash Group C Output',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194643
+             * line : 131810
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashGroupCOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashGroupCOutput',
             'desc' => [
+                'en' => 'Flash Group C Output',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 195130
+             * line : 132153
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FlashGroupCOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashGroupCOutput',
             'desc' => [
+                'en' => 'Flash Group C Output',
             ],
         ],
     ];

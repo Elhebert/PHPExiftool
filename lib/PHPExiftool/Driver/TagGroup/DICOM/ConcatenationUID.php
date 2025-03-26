@@ -28,13 +28,14 @@ class ConcatenationUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Concatenation UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98078
+             * line : 71425
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConcatenationUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConcatenationUID',
             'desc' => [
+                'en' => 'Concatenation UID',
             ],
         ],
     ];

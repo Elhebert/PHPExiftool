@@ -28,13 +28,14 @@ class ColorBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162814
+             * line : 111257
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ColorBalance extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ColorBalance',
             'desc' => [
+                'en' => 'Color Balance',
             ],
         ],
     ];

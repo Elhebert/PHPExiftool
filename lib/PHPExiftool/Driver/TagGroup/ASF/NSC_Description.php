@@ -28,13 +28,14 @@ class NSC_Description extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NSC Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1428
+             * line : 673
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NSC_Description extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:NSC_Description',
             'desc' => [
+                'en' => 'NSC Description',
             ],
         ],
     ];

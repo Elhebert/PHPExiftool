@@ -28,13 +28,14 @@ class MediaThumbTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Thumb Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396188
+             * line : 280484
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaThumbTimeStamp extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaThumbTimeStamp',
             'desc' => [
+                'en' => 'Media Thumb Time Stamp',
             ],
         ],
     ];

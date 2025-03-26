@@ -28,13 +28,14 @@ class Narrator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Narrator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142979
+             * line : 98740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Narrator extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Narrator',
             'desc' => [
+                'en' => 'Narrator',
             ],
         ],
     ];

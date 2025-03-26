@@ -28,13 +28,14 @@ class SliceProgressionDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Progression Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100957
+             * line : 74109
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceProgressionDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SliceProgressionDirection',
             'desc' => [
+                'en' => 'Slice Progression Direction',
             ],
         ],
     ];

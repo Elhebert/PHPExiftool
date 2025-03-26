@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159957
+             * line : 109561
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

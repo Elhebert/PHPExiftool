@@ -28,13 +28,14 @@ class VectorAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vector Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101187
+             * line : 74337
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VectorAccuracy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VectorAccuracy',
             'desc' => [
+                'en' => 'Vector Accuracy',
             ],
         ],
     ];

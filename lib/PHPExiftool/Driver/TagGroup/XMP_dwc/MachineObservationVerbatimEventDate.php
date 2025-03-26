@@ -28,13 +28,14 @@ class MachineObservationVerbatimEventDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Verbatim Event Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106433
+             * line : 78722
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationVerbatimEventDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationVerbatimEventDate',
             'desc' => [
+                'en' => 'Machine Observation Verbatim Event Date',
             ],
         ],
     ];

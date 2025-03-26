@@ -28,13 +28,14 @@ class Curve1x extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Curve 1x',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aas
-             * line : 397636
+             * line : 281528
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Curve1x extends AbstractTagGroup
              */
             'id' => 'XMP::aas.XMP-aas:Curve1x',
             'desc' => [
+                'en' => 'Curve 1x',
             ],
         ],
     ];

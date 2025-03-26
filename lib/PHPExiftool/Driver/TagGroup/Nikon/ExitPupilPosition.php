@@ -28,13 +28,14 @@ class ExitPupilPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exit Pupil Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195628
+             * line : 132500
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExitPupilPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:ExitPupilPosition',
             'desc' => [
+                'en' => 'Exit Pupil Position',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195769
+             * line : 132546
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExitPupilPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:ExitPupilPosition',
             'desc' => [
+                'en' => 'Exit Pupil Position',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 195976
+             * line : 132625
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ExitPupilPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:ExitPupilPosition',
             'desc' => [
+                'en' => 'Exit Pupil Position',
             ],
         ],
     ];

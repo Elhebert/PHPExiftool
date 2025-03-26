@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Header
-             * line : 305032
+             * line : 211985
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'Photoshop::Header.Photoshop:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

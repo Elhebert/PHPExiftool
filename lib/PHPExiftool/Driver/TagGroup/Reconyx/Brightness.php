@@ -28,13 +28,14 @@ class Brightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330733
+             * line : 232686
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331209
+             * line : 232938
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
     ];

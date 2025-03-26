@@ -28,13 +28,14 @@ class Artist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411373
+             * line : 290530
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Artist extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:Artist',
             'desc' => [
+                'en' => 'Artist',
             ],
         ],
     ];

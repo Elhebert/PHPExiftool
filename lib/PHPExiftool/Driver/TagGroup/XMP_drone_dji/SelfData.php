@@ -28,13 +28,14 @@ class SelfData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104737
+             * line : 77725
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfData extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:SelfData',
             'desc' => [
+                'en' => 'Self Data',
             ],
         ],
     ];

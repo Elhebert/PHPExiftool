@@ -28,13 +28,14 @@ class CenterDarkRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center Dark Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161681
+             * line : 110446
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CenterDarkRect extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CenterDarkRect',
             'desc' => [
+                'en' => 'Center Dark Rect',
             ],
         ],
     ];

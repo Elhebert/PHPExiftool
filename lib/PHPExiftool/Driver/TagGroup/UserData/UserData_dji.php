@@ -28,13 +28,14 @@ class UserData_dji extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Data dji',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325819
+             * line : 229853
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UserData_dji extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:UserData_dji',
             'desc' => [
+                'en' => 'User Data dji',
             ],
         ],
     ];

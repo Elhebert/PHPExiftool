@@ -28,13 +28,14 @@ class RespiratorySynchronizationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Synchronization Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98139
+             * line : 71485
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratorySynchronizationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratorySynchronizationSequence',
             'desc' => [
+                'en' => 'Respiratory Synchronization Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChromaticAberrationCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394388
+             * line : 279386
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationCorrection extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:ChromaticAberrationCorrection',
             'desc' => [
+                'en' => 'Chromatic Aberration Correction',
             ],
         ],
     ];

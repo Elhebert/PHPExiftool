@@ -28,13 +28,14 @@ class InstanceCreationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94673
+             * line : 68164
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceCreationDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstanceCreationDate',
             'desc' => [
+                'en' => 'Instance Creation Date',
             ],
         ],
     ];

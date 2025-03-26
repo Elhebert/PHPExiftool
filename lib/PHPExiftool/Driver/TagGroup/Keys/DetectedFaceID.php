@@ -28,13 +28,14 @@ class DetectedFaceID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Detected Face ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323395
+             * line : 228619
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DetectedFaceID extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:DetectedFaceID',
             'desc' => [
+                'en' => 'Detected Face ID',
             ],
         ],
     ];

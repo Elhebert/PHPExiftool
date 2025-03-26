@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175795
+             * line : 120981
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

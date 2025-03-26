@@ -28,13 +28,14 @@ class MDItemOriginApplicationIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Origin Application Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172912
+             * line : 118978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemOriginApplicationIdentifier extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemOriginApplicationIdentifier',
             'desc' => [
+                'en' => 'MD Item Origin Application Identifier',
             ],
         ],
     ];

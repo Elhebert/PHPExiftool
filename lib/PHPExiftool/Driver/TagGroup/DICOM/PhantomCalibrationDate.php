@@ -28,13 +28,14 @@ class PhantomCalibrationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phantom Calibration Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100630
+             * line : 73800
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhantomCalibrationDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhantomCalibrationDate',
             'desc' => [
+                'en' => 'Phantom Calibration Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SignificantBits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Significant Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272597
+             * line : 190403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignificantBits extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:SignificantBits',
             'desc' => [
+                'en' => 'Significant Bits',
             ],
         ],
     ];

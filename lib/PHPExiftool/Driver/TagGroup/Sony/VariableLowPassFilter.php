@@ -28,13 +28,14 @@ class VariableLowPassFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Variable Low Pass Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355715
+             * line : 248164
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class VariableLowPassFilter extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:VariableLowPassFilter',
             'desc' => [
+                'en' => 'Variable Low Pass Filter',
             ],
         ],
     ];

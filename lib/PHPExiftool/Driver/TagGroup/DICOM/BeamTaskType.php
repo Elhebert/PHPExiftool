@@ -28,13 +28,14 @@ class BeamTaskType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Task Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101748
+             * line : 74889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamTaskType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamTaskType',
             'desc' => [
+                'en' => 'Beam Task Type',
             ],
         ],
     ];

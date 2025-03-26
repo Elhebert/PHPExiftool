@@ -28,13 +28,14 @@ class LivePhotoAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live Photo Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323450
+             * line : 228652
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LivePhotoAuto extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LivePhotoAuto',
             'desc' => [
+                'en' => 'Live Photo Auto',
             ],
         ],
     ];

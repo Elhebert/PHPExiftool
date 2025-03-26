@@ -28,13 +28,14 @@ class MaskGroupBasedCorrToningHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Toning Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403376
+             * line : 286512
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrToningHue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrToningHue',
             'desc' => [
+                'en' => 'Mask Group Based Corr Toning Hue',
             ],
         ],
     ];

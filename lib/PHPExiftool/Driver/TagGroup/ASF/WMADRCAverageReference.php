@@ -28,13 +28,14 @@ class WMADRCAverageReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WMADRC Average Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1675
+             * line : 826
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMADRCAverageReference extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:WMADRCAverageReference',
             'desc' => [
+                'en' => 'WMADRC Average Reference',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EnhanceParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Enhance Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120658
+             * line : 84781
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EnhanceParams extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:EnhanceParams',
             'desc' => [
+                'en' => 'Enhance Params',
             ],
         ],
     ];

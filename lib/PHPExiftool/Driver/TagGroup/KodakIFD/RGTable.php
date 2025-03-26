@@ -28,13 +28,14 @@ class RGTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RG Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155385
+             * line : 106598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RGTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RGTable',
             'desc' => [
+                'en' => 'RG Table',
             ],
         ],
     ];

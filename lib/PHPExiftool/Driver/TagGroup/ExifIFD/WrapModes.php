@@ -28,13 +28,14 @@ class WrapModes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wrap Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112941
+             * line : 82263
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WrapModes extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WrapModes',
             'desc' => [
+                'en' => 'Wrap Modes',
             ],
         ],
     ];

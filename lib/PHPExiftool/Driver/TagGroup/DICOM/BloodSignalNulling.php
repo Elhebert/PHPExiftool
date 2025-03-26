@@ -28,13 +28,14 @@ class BloodSignalNulling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blood Signal Nulling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96563
+             * line : 69967
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BloodSignalNulling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BloodSignalNulling',
             'desc' => [
+                'en' => 'Blood Signal Nulling',
             ],
         ],
     ];

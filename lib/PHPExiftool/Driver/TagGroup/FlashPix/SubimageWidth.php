@@ -28,13 +28,14 @@ class SubimageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subimage Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124715
+             * line : 87157
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SubimageWidth extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:SubimageWidth',
             'desc' => [
+                'en' => 'Subimage Width',
             ],
         ],
         1 => [
             /**
              * table_name : FlashPix::SubimageHdr
-             * line : 126613
+             * line : 87793
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SubimageWidth extends AbstractTagGroup
              */
             'id' => 'FlashPix::SubimageHdr.FlashPix:SubimageWidth',
             'desc' => [
+                'en' => 'Subimage Width',
             ],
         ],
     ];

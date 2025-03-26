@@ -28,13 +28,14 @@ class AFMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154979
+             * line : 106244
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFMode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AFMode',
             'desc' => [
+                'en' => 'AF Mode',
             ],
         ],
     ];

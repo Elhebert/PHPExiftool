@@ -28,13 +28,14 @@ class PhaseOne_0x0258 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase One 0x0258',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303449
+             * line : 210858
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhaseOne_0x0258 extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:PhaseOne_0x0258',
             'desc' => [
+                'en' => 'Phase One 0x0258',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShutterSpeedLock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Speed Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245040
+             * line : 167799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
     ];

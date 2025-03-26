@@ -28,13 +28,14 @@ class Producers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Producers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265199
+             * line : 183327
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Producers extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:Producers',
             'desc' => [
+                'en' => 'Producers',
             ],
         ],
     ];

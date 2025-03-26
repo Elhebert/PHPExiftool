@@ -28,13 +28,14 @@ class MetadataID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::SVG
-             * line : 397545
+             * line : 281472
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataID extends AbstractTagGroup
              */
             'id' => 'XMP::SVG.SVG:MetadataID',
             'desc' => [
+                'en' => 'Metadata ID',
             ],
         ],
     ];

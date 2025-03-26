@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 186725
+             * line : 126868
              * type : string
              * writable : true
              * count : 12
@@ -42,6 +43,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

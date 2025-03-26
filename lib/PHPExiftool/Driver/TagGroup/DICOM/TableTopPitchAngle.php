@@ -28,13 +28,14 @@ class TableTopPitchAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103417
+             * line : 76512
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopPitchAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopPitchAngle',
             'desc' => [
+                'en' => 'Table Top Pitch Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShutterCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199399
+             * line : 134568
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203490
+             * line : 137286
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205355
+             * line : 138016
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205441
+             * line : 138050
              * type : undef
              * writable : true
              * count : 2
@@ -81,12 +85,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205490
+             * line : 138067
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::ShotInfoD300S
-             * line : 205529
+             * line : 138083
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300S.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::ShotInfoD300a
-             * line : 205558
+             * line : 138096
              * type : int32u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300a.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         7 => [
             /**
              * table_name : Nikon::ShotInfoD300b
-             * line : 205728
+             * line : 138240
              * type : int32u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300b.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         8 => [
             /**
              * table_name : Nikon::ShotInfoD3S
-             * line : 206046
+             * line : 138529
              * type : int32u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3S.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         9 => [
             /**
              * table_name : Nikon::ShotInfoD3X
-             * line : 206085
+             * line : 138545
              * type : int32u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3X.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         10 => [
             /**
              * table_name : Nikon::ShotInfoD3a
-             * line : 206114
+             * line : 138558
              * type : int32u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3a.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         11 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206222
+             * line : 138631
              * type : int32u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         12 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206233
+             * line : 138634
              * type : int32u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         13 => [
             /**
              * table_name : Nikon::ShotInfoD40
-             * line : 206338
+             * line : 138700
              * type : int32u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD40.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         14 => [
             /**
              * table_name : Nikon::ShotInfoD5000
-             * line : 207803
+             * line : 140003
              * type : int32u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5000.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         15 => [
             /**
              * table_name : Nikon::ShotInfoD5100
-             * line : 207837
+             * line : 140016
              * type : int32u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5100.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         16 => [
             /**
              * table_name : Nikon::ShotInfoD5200
-             * line : 207871
+             * line : 140029
              * type : int32u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5200.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         17 => [
             /**
              * table_name : Nikon::ShotInfoD700
-             * line : 208293
+             * line : 140364
              * type : int32u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD700.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         18 => [
             /**
              * table_name : Nikon::ShotInfoD7000
-             * line : 208327
+             * line : 140377
              * type : int32u
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD7000.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         19 => [
             /**
              * table_name : Nikon::ShotInfoD80
-             * line : 208351
+             * line : 140387
              * type : int32u
              * writable : true
              * count :
@@ -289,12 +309,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD80.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         20 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208578
+             * line : 140500
              * type : int32u
              * writable : true
              * count :
@@ -302,12 +323,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         21 => [
             /**
              * table_name : Nikon::ShotInfoD90
-             * line : 209269
+             * line : 141136
              * type : int32u
              * writable : true
              * count :
@@ -315,6 +337,7 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD90.Nikon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
     ];

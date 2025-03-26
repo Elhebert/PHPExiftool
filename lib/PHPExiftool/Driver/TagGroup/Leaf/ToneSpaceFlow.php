@@ -28,13 +28,14 @@ class ToneSpaceFlow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ICC To Tone Space Flow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Main
-             * line : 161902
+             * line : 110613
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneSpaceFlow extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:ToneSpaceFlow',
             'desc' => [
+                'en' => 'ICC To Tone Space Flow',
             ],
         ],
     ];

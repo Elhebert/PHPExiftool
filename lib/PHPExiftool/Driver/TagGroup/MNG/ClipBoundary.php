@@ -28,13 +28,14 @@ class ClipBoundary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip Boundary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::ClipObjects
-             * line : 164695
+             * line : 111912
              * type : int32u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ClipBoundary extends AbstractTagGroup
              */
             'id' => 'MNG::ClipObjects.MNG:ClipBoundary',
             'desc' => [
+                'en' => 'Clip Boundary',
             ],
         ],
     ];

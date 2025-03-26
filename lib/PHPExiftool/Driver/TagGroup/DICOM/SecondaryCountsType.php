@@ -28,13 +28,14 @@ class SecondaryCountsType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Counts Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101007
+             * line : 74157
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryCountsType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryCountsType',
             'desc' => [
+                'en' => 'Secondary Counts Type',
             ],
         ],
     ];

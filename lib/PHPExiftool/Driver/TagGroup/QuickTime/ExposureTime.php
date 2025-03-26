@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324538
+             * line : 229305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

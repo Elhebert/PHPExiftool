@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::MovieInfo
-             * line : 66886
+             * line : 50789
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Canon::MovieInfo.Canon:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

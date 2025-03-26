@@ -28,13 +28,14 @@ class NumberOfTomosynthesisSourceImages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Tomosynthesis Source Images',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96033
+             * line : 69454
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTomosynthesisSourceImages extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTomosynthesisSourceImages',
             'desc' => [
+                'en' => 'Number Of Tomosynthesis Source Images',
             ],
         ],
     ];

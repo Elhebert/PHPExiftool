@@ -28,13 +28,14 @@ class CondadoBVFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Condado BV Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156897
+             * line : 108101
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CondadoBVFactor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CondadoBVFactor',
             'desc' => [
+                'en' => 'Condado BV Factor',
             ],
         ],
     ];

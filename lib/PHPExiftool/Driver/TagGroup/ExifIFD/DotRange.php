@@ -28,13 +28,14 @@ class DotRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dot Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111683
+             * line : 81734
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DotRange extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:DotRange',
             'desc' => [
+                'en' => 'Dot Range',
             ],
         ],
     ];

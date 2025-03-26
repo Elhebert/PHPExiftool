@@ -28,13 +28,14 @@ class AudioSampleSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124017
+             * line : 86699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSampleSize extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:AudioSampleSize',
             'desc' => [
+                'en' => 'Audio Sample Size',
             ],
         ],
     ];

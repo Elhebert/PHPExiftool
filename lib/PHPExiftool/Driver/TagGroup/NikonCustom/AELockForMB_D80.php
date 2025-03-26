@@ -28,13 +28,14 @@ class AELockForMB_D80 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock For MB-D80',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234062
+             * line : 157807
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AELockForMB_D80 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:AELockForMB-D80',
             'desc' => [
+                'en' => 'AE Lock For MB-D80',
             ],
         ],
     ];

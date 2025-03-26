@@ -28,13 +28,14 @@ class Type extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142833
+             * line : 98639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Type extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Type',
             'desc' => [
+                'en' => 'Type',
             ],
         ],
     ];

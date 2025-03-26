@@ -28,13 +28,14 @@ class LayerOpacities extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Opacities',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305342
+             * line : 212172
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerOpacities extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerOpacities',
             'desc' => [
+                'en' => 'Layer Opacities',
             ],
         ],
     ];

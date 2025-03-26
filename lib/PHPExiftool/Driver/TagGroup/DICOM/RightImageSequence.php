@@ -28,13 +28,14 @@ class RightImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Right Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98388
+             * line : 71722
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RightImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RightImageSequence',
             'desc' => [
+                'en' => 'Right Image Sequence',
             ],
         ],
     ];

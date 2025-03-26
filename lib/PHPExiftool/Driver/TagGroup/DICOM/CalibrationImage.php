@@ -28,13 +28,14 @@ class CalibrationImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calibration Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100766
+             * line : 73926
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalibrationImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalibrationImage',
             'desc' => [
+                'en' => 'Calibration Image',
             ],
         ],
     ];

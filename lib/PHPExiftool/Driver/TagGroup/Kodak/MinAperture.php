@@ -28,13 +28,14 @@ class MinAperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159736
+             * line : 109485
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinAperture extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:MinAperture',
             'desc' => [
+                'en' => 'Min Aperture',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreCaptureFrames extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pre Capture Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257949
+             * line : 178343
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreCaptureFrames extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:PreCaptureFrames',
             'desc' => [
+                'en' => 'Pre Capture Frames',
             ],
         ],
     ];

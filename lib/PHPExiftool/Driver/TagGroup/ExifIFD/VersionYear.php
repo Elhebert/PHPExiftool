@@ -28,13 +28,14 @@ class VersionYear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112220
+             * line : 81949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VersionYear extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:VersionYear',
             'desc' => [
+                'en' => 'Version Year',
             ],
         ],
     ];

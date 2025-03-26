@@ -28,13 +28,14 @@ class ActiveD_Lighting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Active D-Lighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Exposure
-             * line : 210307
+             * line : 141615
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ActiveD_Lighting extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Exposure.NikonCapture:ActiveD-Lighting',
             'desc' => [
+                'en' => 'Active D-Lighting',
             ],
         ],
     ];

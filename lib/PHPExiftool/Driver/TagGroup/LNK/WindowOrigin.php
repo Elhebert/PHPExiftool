@@ -28,13 +28,14 @@ class WindowOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160963
+             * line : 109911
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class WindowOrigin extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:WindowOrigin',
             'desc' => [
+                'en' => 'Window Origin',
             ],
         ],
     ];

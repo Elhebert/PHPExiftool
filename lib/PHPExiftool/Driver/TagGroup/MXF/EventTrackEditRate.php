@@ -28,13 +28,14 @@ class EventTrackEditRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Track Edit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169375
+             * line : 115782
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventTrackEditRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventTrackEditRate',
             'desc' => [
+                'en' => 'Event Track Edit Rate',
             ],
         ],
     ];

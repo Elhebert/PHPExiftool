@@ -28,13 +28,14 @@ class PlaybackMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Playback Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243986
+             * line : 166928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaybackMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:PlaybackMonitorOffTime',
             'desc' => [
+                'en' => 'Playback Monitor Off Time',
             ],
         ],
     ];

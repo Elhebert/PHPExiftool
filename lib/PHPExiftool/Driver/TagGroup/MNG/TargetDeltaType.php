@@ -28,13 +28,14 @@ class TargetDeltaType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Delta Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165257
+             * line : 112347
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetDeltaType extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:TargetDeltaType',
             'desc' => [
+                'en' => 'Target Delta Type',
             ],
         ],
     ];

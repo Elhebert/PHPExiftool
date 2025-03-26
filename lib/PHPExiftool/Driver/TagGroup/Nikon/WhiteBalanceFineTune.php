@@ -28,13 +28,14 @@ class WhiteBalanceFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196716
+             * line : 132863
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203170
+             * line : 137126
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
     ];

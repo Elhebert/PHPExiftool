@@ -28,13 +28,14 @@ class CreatorAppID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator App ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174332
+             * line : 120070
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorAppID extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:CreatorAppID',
             'desc' => [
+                'en' => 'Creator App ID',
             ],
         ],
     ];

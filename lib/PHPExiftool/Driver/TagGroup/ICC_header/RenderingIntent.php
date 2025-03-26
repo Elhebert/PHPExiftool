@@ -28,13 +28,14 @@ class RenderingIntent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rendering Intent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 145057
+             * line : 100615
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RenderingIntent extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:RenderingIntent',
             'desc' => [
+                'en' => 'Rendering Intent',
             ],
         ],
     ];

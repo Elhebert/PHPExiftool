@@ -28,13 +28,14 @@ class BitsPerSample extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411391
+             * line : 290533
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
     ];

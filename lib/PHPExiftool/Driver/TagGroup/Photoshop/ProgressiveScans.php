@@ -28,13 +28,14 @@ class ProgressiveScans extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Progressive Scans',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::JPEG_Quality
-             * line : 305181
+             * line : 212059
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgressiveScans extends AbstractTagGroup
              */
             'id' => 'Photoshop::JPEG_Quality.Photoshop:ProgressiveScans',
             'desc' => [
+                'en' => 'Progressive Scans',
             ],
         ],
     ];

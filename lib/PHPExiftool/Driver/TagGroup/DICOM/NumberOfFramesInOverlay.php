@@ -28,13 +28,14 @@ class NumberOfFramesInOverlay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Frames In Overlay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104288
+             * line : 77361
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFramesInOverlay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFramesInOverlay',
             'desc' => [
+                'en' => 'Number Of Frames In Overlay',
             ],
         ],
     ];

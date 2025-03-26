@@ -28,13 +28,14 @@ class ThermalData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thermal Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152578
+             * line : 105029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThermalData extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.DJI:ThermalData',
             'desc' => [
+                'en' => 'Thermal Data',
             ],
         ],
     ];

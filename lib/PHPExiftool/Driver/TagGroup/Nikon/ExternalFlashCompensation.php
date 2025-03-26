@@ -28,13 +28,14 @@ class ExternalFlashCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 194031
+             * line : 131408
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:ExternalFlashCompensation',
             'desc' => [
+                'en' => 'External Flash Compensation',
             ],
         ],
     ];

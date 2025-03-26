@@ -28,13 +28,14 @@ class CollimatorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collimator Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95908
+             * line : 69334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollimatorType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollimatorType',
             'desc' => [
+                'en' => 'Collimator Type',
             ],
         ],
     ];

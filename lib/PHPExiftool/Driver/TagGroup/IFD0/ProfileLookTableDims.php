@@ -28,13 +28,14 @@ class ProfileLookTableDims extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Look Table Dims',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120337
+             * line : 84514
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ProfileLookTableDims extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileLookTableDims',
             'desc' => [
+                'en' => 'Profile Look Table Dims',
             ],
         ],
     ];

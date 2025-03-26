@@ -28,13 +28,14 @@ class DataDump2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Dump 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258345
+             * line : 178509
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataDump2 extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:DataDump2',
             'desc' => [
+                'en' => 'Data Dump 2',
             ],
         ],
     ];

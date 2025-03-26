@@ -28,13 +28,14 @@ class LameStereoMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lame Stereo Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Lame
-             * line : 165974
+             * line : 112862
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LameStereoMode extends AbstractTagGroup
              */
             'id' => 'MPEG::Lame.MPEG:LameStereoMode',
             'desc' => [
+                'en' => 'Lame Stereo Mode',
             ],
         ],
     ];

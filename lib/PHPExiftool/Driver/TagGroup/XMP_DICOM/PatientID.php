@@ -28,13 +28,14 @@ class PatientID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Patient ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396444
+             * line : 280672
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatientID extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:PatientID',
             'desc' => [
+                'en' => 'Patient ID',
             ],
         ],
     ];

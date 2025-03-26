@@ -28,13 +28,14 @@ class MobileLocationNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mobile Location Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95174
+             * line : 68644
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MobileLocationNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MobileLocationNumber',
             'desc' => [
+                'en' => 'Mobile Location Number',
             ],
         ],
     ];

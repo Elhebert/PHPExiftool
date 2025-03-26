@@ -28,13 +28,14 @@ class RawDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186797
+             * line : 126890
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDepth extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:RawDepth',
             'desc' => [
+                'en' => 'Raw Depth',
             ],
         ],
     ];

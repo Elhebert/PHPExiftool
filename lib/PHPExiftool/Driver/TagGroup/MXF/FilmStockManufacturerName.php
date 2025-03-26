@@ -28,13 +28,14 @@ class FilmStockManufacturerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Stock Manufacturer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168080
+             * line : 114581
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FilmStockManufacturerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmStockManufacturerName',
             'desc' => [
+                'en' => 'Film Stock Manufacturer Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169188
+             * line : 115630
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FilmStockManufacturerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmStockManufacturerName',
             'desc' => [
+                'en' => 'Film Stock Manufacturer Name',
             ],
         ],
     ];

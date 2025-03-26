@@ -28,13 +28,14 @@ class RP217VideoStreamPID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RP217 Video Stream PID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172004
+             * line : 118189
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RP217VideoStreamPID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RP217VideoStreamPID',
             'desc' => [
+                'en' => 'RP217 Video Stream PID',
             ],
         ],
     ];

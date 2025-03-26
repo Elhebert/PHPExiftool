@@ -28,13 +28,14 @@ class Conductor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Conductor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175009
+             * line : 120497
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Conductor extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Conductor',
             'desc' => [
+                'en' => 'Conductor',
             ],
         ],
     ];

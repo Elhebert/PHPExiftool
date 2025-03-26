@@ -28,13 +28,14 @@ class AlphaTiltMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Tilt Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166739
+             * line : 113476
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaTiltMax extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AlphaTiltMax',
             'desc' => [
+                'en' => 'Alpha Tilt Max',
             ],
         ],
     ];

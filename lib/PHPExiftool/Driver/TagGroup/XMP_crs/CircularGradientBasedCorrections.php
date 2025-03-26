@@ -28,13 +28,14 @@ class CircularGradientBasedCorrections extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circular Gradient Based Corrections',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401584
+             * line : 284819
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircularGradientBasedCorrections extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircularGradientBasedCorrections',
             'desc' => [
+                'en' => 'Circular Gradient Based Corrections',
             ],
         ],
     ];

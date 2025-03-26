@@ -28,13 +28,14 @@ class LanguageIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Language Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150520
+             * line : 104004
              * type : string
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class LanguageIdentifier extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:LanguageIdentifier',
             'desc' => [
+                'en' => 'Language Identifier',
             ],
         ],
     ];

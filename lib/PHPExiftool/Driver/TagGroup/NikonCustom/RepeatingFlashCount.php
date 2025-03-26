@@ -28,13 +28,14 @@ class RepeatingFlashCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225467
+             * line : 151946
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RepeatingFlashCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:RepeatingFlashCount',
             'desc' => [
+                'en' => 'Repeating Flash Count',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227620
+             * line : 153313
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class RepeatingFlashCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:RepeatingFlashCount',
             'desc' => [
+                'en' => 'Repeating Flash Count',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228700
+             * line : 153871
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class RepeatingFlashCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:RepeatingFlashCount',
             'desc' => [
+                'en' => 'Repeating Flash Count',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229180
+             * line : 154144
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class RepeatingFlashCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:RepeatingFlashCount',
             'desc' => [
+                'en' => 'Repeating Flash Count',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234966
+             * line : 158378
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class RepeatingFlashCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:RepeatingFlashCount',
             'desc' => [
+                'en' => 'Repeating Flash Count',
             ],
         ],
     ];

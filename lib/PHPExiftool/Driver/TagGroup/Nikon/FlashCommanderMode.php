@@ -28,13 +28,14 @@ class FlashCommanderMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Commander Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192451
+             * line : 130398
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashCommanderMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashCommanderMode',
             'desc' => [
+                'en' => 'Flash Commander Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 192955
+             * line : 130730
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashCommanderMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashCommanderMode',
             'desc' => [
+                'en' => 'Flash Commander Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193527
+             * line : 131097
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashCommanderMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashCommanderMode',
             'desc' => [
+                'en' => 'Flash Commander Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194151
+             * line : 131505
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FlashCommanderMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashCommanderMode',
             'desc' => [
+                'en' => 'Flash Commander Mode',
             ],
         ],
     ];

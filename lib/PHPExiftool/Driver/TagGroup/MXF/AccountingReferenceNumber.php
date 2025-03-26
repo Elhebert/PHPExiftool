@@ -28,13 +28,14 @@ class AccountingReferenceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accounting Reference Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167354
+             * line : 113976
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccountingReferenceNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AccountingReferenceNumber',
             'desc' => [
+                'en' => 'Accounting Reference Number',
             ],
         ],
     ];

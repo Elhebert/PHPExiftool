@@ -28,13 +28,14 @@ class Yaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159984
+             * line : 109573
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Yaw extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:Yaw',
             'desc' => [
+                'en' => 'Yaw',
             ],
         ],
     ];

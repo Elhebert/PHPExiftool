@@ -28,13 +28,14 @@ class CHModeShootingSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CH Mode Shooting Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212708
+             * line : 142835
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CHModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CHModeShootingSpeed',
             'desc' => [
+                'en' => 'CH Mode Shooting Speed',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215123
+             * line : 144346
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CHModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:CHModeShootingSpeed',
             'desc' => [
+                'en' => 'CH Mode Shooting Speed',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238422
+             * line : 161511
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class CHModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:CHModeShootingSpeed',
             'desc' => [
+                'en' => 'CH Mode Shooting Speed',
             ],
         ],
     ];

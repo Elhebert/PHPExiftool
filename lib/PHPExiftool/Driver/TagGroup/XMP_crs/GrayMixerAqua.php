@@ -28,13 +28,14 @@ class GrayMixerAqua extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gray Mixer Aqua',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402727
+             * line : 285864
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GrayMixerAqua extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GrayMixerAqua',
             'desc' => [
+                'en' => 'Gray Mixer Aqua',
             ],
         ],
     ];

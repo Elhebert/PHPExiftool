@@ -28,13 +28,14 @@ class MacroMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332924
+             * line : 233529
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacroMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:MacroMode',
             'desc' => [
+                'en' => 'Macro Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlueMask extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Mask',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3354
+             * line : 2077
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueMask extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:BlueMask',
             'desc' => [
+                'en' => 'Blue Mask',
             ],
         ],
     ];

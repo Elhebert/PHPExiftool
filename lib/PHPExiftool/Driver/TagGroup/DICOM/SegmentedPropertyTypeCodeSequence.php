@@ -28,13 +28,14 @@ class SegmentedPropertyTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segmented Property Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101103
+             * line : 74253
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentedPropertyTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentedPropertyTypeCodeSequence',
             'desc' => [
+                'en' => 'Segmented Property Type Code Sequence',
             ],
         ],
     ];

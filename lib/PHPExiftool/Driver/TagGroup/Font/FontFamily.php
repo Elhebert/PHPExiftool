@@ -28,13 +28,14 @@ class FontFamily extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Family',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127762
+             * line : 88708
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FontFamily extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:FontFamily',
             'desc' => [
+                'en' => 'Font Family',
             ],
         ],
         1 => [
             /**
              * table_name : Font::Name
-             * line : 127854
+             * line : 88758
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FontFamily extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:FontFamily',
             'desc' => [
+                'en' => 'Font Family',
             ],
         ],
         2 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128134
+             * line : 88907
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FontFamily extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:FontFamily',
             'desc' => [
+                'en' => 'Font Family',
             ],
         ],
     ];

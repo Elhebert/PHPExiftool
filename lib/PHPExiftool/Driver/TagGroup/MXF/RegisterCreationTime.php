@@ -28,13 +28,14 @@ class RegisterCreationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Creation Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172355
+             * line : 118516
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterCreationTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterCreationTime',
             'desc' => [
+                'en' => 'Register Creation Time',
             ],
         ],
     ];

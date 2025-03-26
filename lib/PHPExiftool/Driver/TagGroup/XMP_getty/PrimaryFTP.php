@@ -28,13 +28,14 @@ class PrimaryFTP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Primary FTP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397337
+             * line : 281377
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrimaryFTP extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:PrimaryFTP',
             'desc' => [
+                'en' => 'Primary FTP',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorBlur extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Blur',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83481
+             * line : 61185
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorBlur extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:ColorBlur',
             'desc' => [
+                'en' => 'Color Blur',
             ],
         ],
     ];

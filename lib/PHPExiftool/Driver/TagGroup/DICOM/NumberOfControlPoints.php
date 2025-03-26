@@ -28,13 +28,14 @@ class NumberOfControlPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Control Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103342
+             * line : 76437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfControlPoints extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfControlPoints',
             'desc' => [
+                'en' => 'Number Of Control Points',
             ],
         ],
     ];

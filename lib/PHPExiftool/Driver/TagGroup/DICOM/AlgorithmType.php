@@ -28,13 +28,14 @@ class AlgorithmType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Algorithm Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97276
+             * line : 70672
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlgorithmType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlgorithmType',
             'desc' => [
+                'en' => 'Algorithm Type',
             ],
         ],
     ];

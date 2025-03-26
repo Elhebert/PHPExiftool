@@ -28,13 +28,14 @@ class Unknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV3
-             * line : 329636
+             * line : 232169
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class Unknown extends AbstractTagGroup
              */
             'id' => 'Real::AudioV3.Real-RA3:Unknown',
             'desc' => [
+                'en' => 'Unknown',
             ],
         ],
     ];

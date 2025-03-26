@@ -28,13 +28,14 @@ class WBScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::WBG
-             * line : 187802
+             * line : 127208
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WBScale extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::WBG.MinoltaRaw:WBScale',
             'desc' => [
+                'en' => 'WB Scale',
             ],
         ],
     ];

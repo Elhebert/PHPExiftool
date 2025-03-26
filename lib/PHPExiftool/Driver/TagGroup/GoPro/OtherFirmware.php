@@ -28,13 +28,14 @@ class OtherFirmware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139500
+             * line : 97632
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherFirmware extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:OtherFirmware',
             'desc' => [
+                'en' => 'Other Firmware',
             ],
         ],
     ];

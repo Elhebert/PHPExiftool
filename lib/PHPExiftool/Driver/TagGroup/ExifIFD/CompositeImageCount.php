@@ -28,13 +28,14 @@ class CompositeImageCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composite Image Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117957
+             * line : 83706
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class CompositeImageCount extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CompositeImageCount',
             'desc' => [
+                'en' => 'Composite Image Count',
             ],
         ],
     ];

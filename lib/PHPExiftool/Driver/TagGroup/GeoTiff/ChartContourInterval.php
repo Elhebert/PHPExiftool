@@ -28,13 +28,14 @@ class ChartContourInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Contour Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139283
+             * line : 97529
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartContourInterval extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartContourInterval',
             'desc' => [
+                'en' => 'Chart Contour Interval',
             ],
         ],
     ];

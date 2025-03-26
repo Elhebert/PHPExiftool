@@ -28,13 +28,14 @@ class ToneCurveBrightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80619
+             * line : 58777
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveBrightness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ToneCurveBrightness',
             'desc' => [
+                'en' => 'Tone Curve Brightness',
             ],
         ],
     ];

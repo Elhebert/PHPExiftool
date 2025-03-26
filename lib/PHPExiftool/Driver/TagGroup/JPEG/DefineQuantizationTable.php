@@ -28,13 +28,14 @@ class DefineQuantizationTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Define Quantization Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152665
+             * line : 105056
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefineQuantizationTable extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:DefineQuantizationTable',
             'desc' => [
+                'en' => 'Define Quantization Table',
             ],
         ],
     ];

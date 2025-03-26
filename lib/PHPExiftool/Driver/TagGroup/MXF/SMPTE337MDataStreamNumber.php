@@ -28,13 +28,14 @@ class SMPTE337MDataStreamNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SMPTE337M Data Stream Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172412
+             * line : 118573
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SMPTE337MDataStreamNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SMPTE337MDataStreamNumber',
             'desc' => [
+                'en' => 'SMPTE337M Data Stream Number',
             ],
         ],
     ];

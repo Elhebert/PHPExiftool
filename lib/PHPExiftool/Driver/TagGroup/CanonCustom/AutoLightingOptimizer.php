@@ -28,13 +28,14 @@ class AutoLightingOptimizer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Lighting Optimizer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73285
+             * line : 54248
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73324
+             * line : 54265
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
     ];

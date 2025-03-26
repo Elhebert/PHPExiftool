@@ -28,13 +28,14 @@ class GammaEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307419
+             * line : 213917
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GammaEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:GammaEnable',
             'desc' => [
+                'en' => 'Gamma Enable',
             ],
         ],
     ];

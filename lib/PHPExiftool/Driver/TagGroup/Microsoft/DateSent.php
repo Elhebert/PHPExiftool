@@ -28,13 +28,14 @@ class DateSent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Sent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176442
+             * line : 121407
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateSent extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DateSent',
             'desc' => [
+                'en' => 'Date Sent',
             ],
         ],
     ];

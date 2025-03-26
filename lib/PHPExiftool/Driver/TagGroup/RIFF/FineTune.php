@@ -28,13 +28,14 @@ class FineTune extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Instrument
-             * line : 328607
+             * line : 231718
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FineTune extends AbstractTagGroup
              */
             'id' => 'RIFF::Instrument.RIFF:FineTune',
             'desc' => [
+                'en' => 'Fine Tune',
             ],
         ],
     ];

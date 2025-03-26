@@ -28,13 +28,14 @@ class AWBAggressiveness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Aggressiveness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306981
+             * line : 213479
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBAggressiveness extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBAggressiveness',
             'desc' => [
+                'en' => 'AWB Aggressiveness',
             ],
         ],
     ];

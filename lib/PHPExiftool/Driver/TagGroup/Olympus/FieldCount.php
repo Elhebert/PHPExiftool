@@ -28,13 +28,14 @@ class FieldCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Field Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259204
+             * line : 178834
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FieldCount extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FieldCount',
             'desc' => [
+                'en' => 'Field Count',
             ],
         ],
     ];

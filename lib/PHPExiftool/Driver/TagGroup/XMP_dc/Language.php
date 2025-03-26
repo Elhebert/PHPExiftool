@@ -28,13 +28,14 @@ class Language extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dc
-             * line : 404826
+             * line : 287686
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Language extends AbstractTagGroup
              */
             'id' => 'XMP::dc.XMP-dc:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
     ];

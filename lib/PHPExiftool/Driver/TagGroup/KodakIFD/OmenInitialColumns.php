@@ -28,13 +28,14 @@ class OmenInitialColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Initial Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155645
+             * line : 106856
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenInitialColumns extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenInitialColumns',
             'desc' => [
+                'en' => 'Omen Initial Columns',
             ],
         ],
     ];

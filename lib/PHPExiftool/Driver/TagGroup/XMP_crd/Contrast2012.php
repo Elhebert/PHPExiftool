@@ -28,13 +28,14 @@ class Contrast2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398778
+             * line : 282359
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Contrast2012',
             'desc' => [
+                'en' => 'Contrast 2012',
             ],
         ],
     ];

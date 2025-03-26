@@ -28,13 +28,14 @@ class MachineObservationMonth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Month',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106405
+             * line : 78701
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationMonth extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationMonth',
             'desc' => [
+                'en' => 'Machine Observation Month',
             ],
         ],
     ];

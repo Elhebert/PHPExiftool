@@ -28,13 +28,14 @@ class Revision extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331495
+             * line : 233046
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Revision extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:Revision',
             'desc' => [
+                'en' => 'Revision',
             ],
         ],
     ];

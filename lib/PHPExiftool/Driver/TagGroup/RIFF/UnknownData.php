@@ -28,13 +28,14 @@ class UnknownData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamData
-             * line : 328762
+             * line : 231847
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnknownData extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamData.RIFF:UnknownData',
             'desc' => [
+                'en' => 'Unknown Data',
             ],
         ],
     ];

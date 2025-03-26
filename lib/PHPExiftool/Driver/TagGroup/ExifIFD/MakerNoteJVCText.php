@@ -28,13 +28,14 @@ class MakerNoteJVCText extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note JVC Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104846
+             * line : 77786
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteJVCText extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteJVCText',
             'desc' => [
+                'en' => 'Maker Note JVC Text',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115807
+             * line : 83079
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteJVCText extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteJVCText',
             'desc' => [
+                'en' => 'Maker Note JVC Text',
             ],
         ],
     ];

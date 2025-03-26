@@ -28,13 +28,14 @@ class Codec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamHeader
-             * line : 328802
+             * line : 231880
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class Codec extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamHeader.RIFF:Codec',
             'desc' => [
+                'en' => 'Codec',
             ],
         ],
     ];

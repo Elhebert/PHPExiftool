@@ -28,13 +28,14 @@ class OceImageLogic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oce Image Logic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118739
+             * line : 84030
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OceImageLogic extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OceImageLogic',
             'desc' => [
+                'en' => 'Oce Image Logic',
             ],
         ],
     ];

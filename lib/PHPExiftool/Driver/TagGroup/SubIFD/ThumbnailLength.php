@@ -28,13 +28,14 @@ class ThumbnailLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112376
+             * line : 82014
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:ThumbnailLength',
             'desc' => [
+                'en' => 'Thumbnail Length',
             ],
         ],
     ];

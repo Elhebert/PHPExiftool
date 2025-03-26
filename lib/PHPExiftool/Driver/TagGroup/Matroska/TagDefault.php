@@ -28,13 +28,14 @@ class TagDefault extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Default',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173489
+             * line : 119423
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagDefault extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TagDefault',
             'desc' => [
+                'en' => 'Tag Default',
             ],
         ],
     ];

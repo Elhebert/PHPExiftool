@@ -28,13 +28,14 @@ class DetectorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96403
+             * line : 69811
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorMode',
             'desc' => [
+                'en' => 'Detector Mode',
             ],
         ],
     ];

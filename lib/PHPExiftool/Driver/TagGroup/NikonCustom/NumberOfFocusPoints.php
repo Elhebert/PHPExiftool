@@ -28,13 +28,14 @@ class NumberOfFocusPoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Number Of Focus Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217319
+             * line : 146000
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NumberOfFocusPoints extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:NumberOfFocusPoints',
             'desc' => [
+                'en' => 'Number Of Focus Points',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219743
+             * line : 148032
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NumberOfFocusPoints extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:NumberOfFocusPoints',
             'desc' => [
+                'en' => 'Number Of Focus Points',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223230
+             * line : 150578
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class NumberOfFocusPoints extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:NumberOfFocusPoints',
             'desc' => [
+                'en' => 'Number Of Focus Points',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 223865
+             * line : 150962
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class NumberOfFocusPoints extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:NumberOfFocusPoints',
             'desc' => [
+                'en' => 'Number Of Focus Points',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226273
+             * line : 152433
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class NumberOfFocusPoints extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:NumberOfFocusPoints',
             'desc' => [
+                'en' => 'Number Of Focus Points',
             ],
         ],
     ];

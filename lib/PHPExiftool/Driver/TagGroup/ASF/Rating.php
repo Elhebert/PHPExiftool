@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentDescr
-             * line : 1001
+             * line : 381
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'ASF::ContentDescr.ASF:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1553
+             * line : 760
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

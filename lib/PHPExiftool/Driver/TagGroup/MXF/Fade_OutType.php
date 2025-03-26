@@ -28,13 +28,14 @@ class Fade_OutType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fade-Out Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168208
+             * line : 114704
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Fade_OutType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Fade-OutType',
             'desc' => [
+                'en' => 'Fade-Out Type',
             ],
         ],
     ];

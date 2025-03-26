@@ -28,13 +28,14 @@ class PreferredVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preferred Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324132
+             * line : 229026
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreferredVolume extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:PreferredVolume',
             'desc' => [
+                'en' => 'Preferred Volume',
             ],
         ],
     ];

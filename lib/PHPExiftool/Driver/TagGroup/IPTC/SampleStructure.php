@@ -28,13 +28,14 @@ class SampleStructure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sample Structure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151642
+             * line : 104518
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SampleStructure extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:SampleStructure',
             'desc' => [
+                'en' => 'Sample Structure',
             ],
         ],
     ];

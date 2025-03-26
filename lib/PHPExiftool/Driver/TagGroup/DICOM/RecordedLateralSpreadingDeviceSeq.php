@@ -28,13 +28,14 @@ class RecordedLateralSpreadingDeviceSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Lateral Spreading Device Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102837
+             * line : 75933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedLateralSpreadingDeviceSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordedLateralSpreadingDeviceSeq',
             'desc' => [
+                'en' => 'Recorded Lateral Spreading Device Seq',
             ],
         ],
     ];

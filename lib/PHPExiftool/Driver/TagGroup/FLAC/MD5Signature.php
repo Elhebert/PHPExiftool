@@ -28,13 +28,14 @@ class MD5Signature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD5 Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121984
+             * line : 85463
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MD5Signature extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:MD5Signature',
             'desc' => [
+                'en' => 'MD5 Signature',
             ],
         ],
     ];

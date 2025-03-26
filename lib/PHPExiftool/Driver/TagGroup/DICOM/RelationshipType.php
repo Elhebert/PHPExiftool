@@ -28,13 +28,14 @@ class RelationshipType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relationship Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100050
+             * line : 73251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelationshipType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelationshipType',
             'desc' => [
+                'en' => 'Relationship Type',
             ],
         ],
     ];

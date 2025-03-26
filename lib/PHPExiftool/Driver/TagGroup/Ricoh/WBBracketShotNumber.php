@@ -28,13 +28,14 @@ class WBBracketShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Bracket Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333433
+             * line : 233827
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBBracketShotNumber extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:WBBracketShotNumber',
             'desc' => [
+                'en' => 'WB Bracket Shot Number',
             ],
         ],
     ];

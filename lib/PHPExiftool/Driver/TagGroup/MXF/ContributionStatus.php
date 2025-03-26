@@ -28,13 +28,14 @@ class ContributionStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contribution Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167535
+             * line : 114150
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ContributionStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContributionStatus',
             'desc' => [
+                'en' => 'Contribution Status',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170015
+             * line : 116340
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ContributionStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContributionStatus',
             'desc' => [
+                'en' => 'Contribution Status',
             ],
         ],
     ];

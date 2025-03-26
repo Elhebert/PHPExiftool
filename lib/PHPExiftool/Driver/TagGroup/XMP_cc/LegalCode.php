@@ -28,13 +28,14 @@ class LegalCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Legal Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398084
+             * line : 281724
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LegalCode extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:LegalCode',
             'desc' => [
+                'en' => 'Legal Code',
             ],
         ],
     ];

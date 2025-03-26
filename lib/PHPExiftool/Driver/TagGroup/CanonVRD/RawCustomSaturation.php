@@ -28,13 +28,14 @@ class RawCustomSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Custom Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82327
+             * line : 60302
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawCustomSaturation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RawCustomSaturation',
             'desc' => [
+                'en' => 'Raw Custom Saturation',
             ],
         ],
     ];

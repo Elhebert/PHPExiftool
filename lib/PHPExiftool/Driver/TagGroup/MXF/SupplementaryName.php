@@ -28,13 +28,14 @@ class SupplementaryName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Supplementary Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167579
+             * line : 114192
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SupplementaryName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupplementaryName',
             'desc' => [
+                'en' => 'Supplementary Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170078
+             * line : 116397
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SupplementaryName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupplementaryName',
             'desc' => [
+                'en' => 'Supplementary Name',
             ],
         ],
     ];

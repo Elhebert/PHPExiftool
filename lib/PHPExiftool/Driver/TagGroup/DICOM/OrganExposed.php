@@ -28,13 +28,14 @@ class OrganExposed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organ Exposed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99747
+             * line : 72951
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrganExposed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrganExposed',
             'desc' => [
+                'en' => 'Organ Exposed',
             ],
         ],
     ];

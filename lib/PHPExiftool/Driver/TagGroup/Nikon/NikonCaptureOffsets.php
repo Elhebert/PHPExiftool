@@ -28,13 +28,14 @@ class NikonCaptureOffsets extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon Capture Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199597
+             * line : 134638
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NikonCaptureOffsets extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NikonCaptureOffsets',
             'desc' => [
+                'en' => 'Nikon Capture Offsets',
             ],
         ],
     ];

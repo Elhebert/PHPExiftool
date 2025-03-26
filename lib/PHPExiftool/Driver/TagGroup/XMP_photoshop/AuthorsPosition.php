@@ -28,13 +28,14 @@ class AuthorsPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Authors Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410090
+             * line : 289729
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AuthorsPosition extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:AuthorsPosition',
             'desc' => [
+                'en' => 'Authors Position',
             ],
         ],
     ];

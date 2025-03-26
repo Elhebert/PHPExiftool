@@ -28,13 +28,14 @@ class SeriesNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97852
+             * line : 71230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesNumber',
             'desc' => [
+                'en' => 'Series Number',
             ],
         ],
     ];

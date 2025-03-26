@@ -28,13 +28,14 @@ class LuminanceSmoothing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance Smoothing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402956
+             * line : 286092
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LuminanceSmoothing extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LuminanceSmoothing',
             'desc' => [
+                'en' => 'Luminance Smoothing',
             ],
         ],
     ];

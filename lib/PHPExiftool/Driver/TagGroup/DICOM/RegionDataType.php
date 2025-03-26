@@ -28,13 +28,14 @@ class RegionDataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96252
+             * line : 69664
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegionDataType',
             'desc' => [
+                'en' => 'Region Data Type',
             ],
         ],
     ];

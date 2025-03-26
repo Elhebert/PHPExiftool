@@ -28,13 +28,14 @@ class LinkedPackageID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Package ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169597
+             * line : 115989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedPackageID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkedPackageID',
             'desc' => [
+                'en' => 'Linked Package ID',
             ],
         ],
     ];

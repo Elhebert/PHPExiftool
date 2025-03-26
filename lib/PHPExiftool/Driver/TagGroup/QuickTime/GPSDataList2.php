@@ -28,13 +28,14 @@ class GPSDataList2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Data List 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323739
+             * line : 228810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSDataList2 extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:GPSDataList2',
             'desc' => [
+                'en' => 'GPS Data List 2',
             ],
         ],
     ];

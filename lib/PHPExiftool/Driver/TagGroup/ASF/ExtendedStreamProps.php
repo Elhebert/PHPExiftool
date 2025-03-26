@@ -28,13 +28,14 @@ class ExtendedStreamProps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Stream Props',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1824
+             * line : 925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtendedStreamProps extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:ExtendedStreamProps',
             'desc' => [
+                'en' => 'Extended Stream Props',
             ],
         ],
     ];

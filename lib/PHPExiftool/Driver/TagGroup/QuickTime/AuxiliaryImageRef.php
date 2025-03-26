@@ -28,13 +28,14 @@ class AuxiliaryImageRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auxiliary Image Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemRef
-             * line : 323239
+             * line : 228555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuxiliaryImageRef extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemRef.QuickTime:AuxiliaryImageRef',
             'desc' => [
+                'en' => 'Auxiliary Image Ref',
             ],
         ],
     ];

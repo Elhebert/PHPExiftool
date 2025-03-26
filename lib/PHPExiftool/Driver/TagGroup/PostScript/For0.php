@@ -28,13 +28,14 @@ class For0 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'For',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306011
+             * line : 212595
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class For0 extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:For',
             'desc' => [
+                'en' => 'For',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HistogramLastBinValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Histogram Last Bin Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101052
+             * line : 74202
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistogramLastBinValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HistogramLastBinValue',
             'desc' => [
+                'en' => 'Histogram Last Bin Value',
             ],
         ],
     ];

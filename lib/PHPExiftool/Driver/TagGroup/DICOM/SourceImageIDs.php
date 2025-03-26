@@ -28,13 +28,14 @@ class SourceImageIDs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Image I Ds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98012
+             * line : 71359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceImageIDs extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceImageIDs',
             'desc' => [
+                'en' => 'Source Image I Ds',
             ],
         ],
     ];

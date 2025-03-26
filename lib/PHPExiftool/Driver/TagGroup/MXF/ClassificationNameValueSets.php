@@ -28,13 +28,14 @@ class ClassificationNameValueSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classification Name Value Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171585
+             * line : 117781
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClassificationNameValueSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassificationNameValueSets',
             'desc' => [
+                'en' => 'Classification Name Value Sets',
             ],
         ],
     ];

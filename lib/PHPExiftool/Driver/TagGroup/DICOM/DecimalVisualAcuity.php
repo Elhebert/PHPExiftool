@@ -28,13 +28,14 @@ class DecimalVisualAcuity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decimal Visual Acuity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100754
+             * line : 73914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecimalVisualAcuity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DecimalVisualAcuity',
             'desc' => [
+                'en' => 'Decimal Visual Acuity',
             ],
         ],
     ];

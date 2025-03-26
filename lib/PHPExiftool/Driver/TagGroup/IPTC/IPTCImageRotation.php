@@ -28,13 +28,14 @@ class IPTCImageRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Image Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151742
+             * line : 104561
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCImageRotation extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:IPTCImageRotation',
             'desc' => [
+                'en' => 'IPTC Image Rotation',
             ],
         ],
     ];

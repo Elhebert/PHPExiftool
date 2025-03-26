@@ -28,13 +28,14 @@ class TextGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104056
+             * line : 77145
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TextGroupLength',
             'desc' => [
+                'en' => 'Text Group Length',
             ],
         ],
     ];

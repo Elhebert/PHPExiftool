@@ -28,13 +28,14 @@ class OverlayBackgroundDensity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Background Density',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102196
+             * line : 75324
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayBackgroundDensity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayBackgroundDensity',
             'desc' => [
+                'en' => 'Overlay Background Density',
             ],
         ],
     ];

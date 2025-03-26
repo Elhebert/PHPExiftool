@@ -28,13 +28,14 @@ class Subtitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subtitle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::meta
-             * line : 3106
+             * line : 1962
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subtitle extends AbstractTagGroup
              */
             'id' => 'Audible::meta.Audible:Subtitle',
             'desc' => [
+                'en' => 'Subtitle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CueRefCluster extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Ref Cluster',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173223
+             * line : 119224
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueRefCluster extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueRefCluster',
             'desc' => [
+                'en' => 'Cue Ref Cluster',
             ],
         ],
     ];

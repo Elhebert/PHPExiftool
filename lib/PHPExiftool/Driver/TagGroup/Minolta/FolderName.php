@@ -28,13 +28,14 @@ class FolderName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Folder Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177971
+             * line : 122130
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FolderName extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FolderName',
             'desc' => [
+                'en' => 'Folder Name',
             ],
         ],
     ];

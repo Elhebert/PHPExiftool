@@ -28,13 +28,14 @@ class FirstNumberInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Number In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170890
+             * line : 117120
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FirstNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FirstNumberInSequence',
             'desc' => [
+                'en' => 'First Number In Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170893
+             * line : 117123
              * type : int64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FirstNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FirstNumberInSequence',
             'desc' => [
+                'en' => 'First Number In Sequence',
             ],
         ],
     ];

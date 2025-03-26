@@ -28,13 +28,14 @@ class CustomSettingsBank extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Custom Settings Bank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247086
+             * line : 169779
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
     ];

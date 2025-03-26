@@ -28,13 +28,14 @@ class CropAspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80784
+             * line : 58899
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CropAspectRatio extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:CropAspectRatio',
             'desc' => [
+                'en' => 'Crop Aspect Ratio',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82539
+             * line : 60444
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CropAspectRatio extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:CropAspectRatio',
             'desc' => [
+                'en' => 'Crop Aspect Ratio',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RunTimeValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Run Time Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::RunTime
-             * line : 2971
+             * line : 1908
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RunTimeValue extends AbstractTagGroup
              */
             'id' => 'Apple::RunTime.Apple:RunTimeValue',
             'desc' => [
+                'en' => 'Run Time Value',
             ],
         ],
     ];

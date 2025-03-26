@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125019
+             * line : 87347
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubCommandDialPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Command Dial Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 241810
+             * line : 164886
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubCommandDialPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:SubCommandDialPlaybackMode',
             'desc' => [
+                'en' => 'Sub Command Dial Playback Mode',
             ],
         ],
     ];

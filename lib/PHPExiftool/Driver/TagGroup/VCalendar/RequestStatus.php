@@ -28,13 +28,14 @@ class RequestStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Request Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395487
+             * line : 280047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestStatus extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:RequestStatus',
             'desc' => [
+                'en' => 'Request Status',
             ],
         ],
     ];

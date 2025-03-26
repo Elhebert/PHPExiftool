@@ -28,13 +28,14 @@ class BlckLvlEvenCols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blck Lvl Even Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307242
+             * line : 213740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlckLvlEvenCols extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:BlckLvlEvenCols',
             'desc' => [
+                'en' => 'Blck Lvl Even Cols',
             ],
         ],
     ];

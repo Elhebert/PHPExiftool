@@ -28,13 +28,14 @@ class SensingMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensing Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126107
+             * line : 87601
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensingMethod extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SensingMethod',
             'desc' => [
+                'en' => 'Sensing Method',
             ],
         ],
     ];

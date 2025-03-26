@@ -28,13 +28,14 @@ class Accelerometer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393968
+             * line : 279125
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Accelerometer extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:Accelerometer',
             'desc' => [
+                'en' => 'Accelerometer',
             ],
         ],
     ];

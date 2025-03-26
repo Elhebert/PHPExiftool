@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Doc
-             * line : 163195
+             * line : 111339
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'MIE::Doc.MIE-Doc:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

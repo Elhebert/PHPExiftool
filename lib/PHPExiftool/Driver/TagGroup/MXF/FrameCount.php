@@ -28,13 +28,14 @@ class FrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168585
+             * line : 115076
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCount',
             'desc' => [
+                'en' => 'Frame Count',
             ],
         ],
     ];

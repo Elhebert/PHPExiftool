@@ -28,13 +28,14 @@ class TaggedValueParentProperties extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tagged Value Parent Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171794
+             * line : 117982
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TaggedValueParentProperties extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TaggedValueParentProperties',
             'desc' => [
+                'en' => 'Tagged Value Parent Properties',
             ],
         ],
     ];

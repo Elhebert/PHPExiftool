@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130956
+             * line : 90454
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

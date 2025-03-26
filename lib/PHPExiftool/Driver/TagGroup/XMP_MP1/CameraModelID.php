@@ -28,13 +28,14 @@ class CameraModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174118
+             * line : 119934
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraModelID extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:CameraModelID',
             'desc' => [
+                'en' => 'Camera Model ID',
             ],
         ],
     ];

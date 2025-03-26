@@ -28,13 +28,14 @@ class EighteenPercentPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Eighteen Percent Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155358
+             * line : 106571
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EighteenPercentPoint extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EighteenPercentPoint',
             'desc' => [
+                'en' => 'Eighteen Percent Point',
             ],
         ],
     ];

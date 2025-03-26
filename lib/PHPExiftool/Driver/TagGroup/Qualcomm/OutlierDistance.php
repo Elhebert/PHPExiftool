@@ -28,13 +28,14 @@ class OutlierDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Outlier Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307482
+             * line : 213980
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutlierDistance extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:OutlierDistance',
             'desc' => [
+                'en' => 'Outlier Distance',
             ],
         ],
     ];

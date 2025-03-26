@@ -28,13 +28,14 @@ class HL7InstanceIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HL7 Instance Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100257
+             * line : 73431
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HL7InstanceIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HL7InstanceIdentifier',
             'desc' => [
+                'en' => 'HL7 Instance Identifier',
             ],
         ],
     ];

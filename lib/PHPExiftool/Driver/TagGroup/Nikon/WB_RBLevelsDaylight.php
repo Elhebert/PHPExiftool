@@ -28,13 +28,14 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceA
-             * line : 191983
+             * line : 130125
              * type : int16u
              * writable : true
              * count : 14
@@ -42,6 +43,7 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RB Levels Daylight',
             ],
         ],
     ];

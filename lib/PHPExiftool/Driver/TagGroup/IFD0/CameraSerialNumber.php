@@ -28,13 +28,14 @@ class CameraSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119175
+             * line : 84192
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraSerialNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CameraSerialNumber',
             'desc' => [
+                'en' => 'Camera Serial Number',
             ],
         ],
     ];

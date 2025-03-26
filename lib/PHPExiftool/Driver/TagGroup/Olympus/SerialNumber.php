@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 253977
+             * line : 175320
              * type : string
              * writable : true
              * count : 32
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258311
+             * line : 178500
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::Main
-             * line : 258805
+             * line : 178683
              * type : string
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalPlaneYUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane Y Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FocalLength
-             * line : 64122
+             * line : 48686
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalPlaneYUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::FocalLength.Canon:FocalPlaneYUnknown',
             'desc' => [
+                'en' => 'Focal Plane Y Unknown',
             ],
         ],
     ];

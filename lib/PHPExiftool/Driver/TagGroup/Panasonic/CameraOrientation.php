@@ -28,13 +28,14 @@ class CameraOrientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277628
+             * line : 193086
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraOrientation extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:CameraOrientation',
             'desc' => [
+                'en' => 'Camera Orientation',
             ],
         ],
     ];

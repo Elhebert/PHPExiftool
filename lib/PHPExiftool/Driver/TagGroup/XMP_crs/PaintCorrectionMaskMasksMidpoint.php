@@ -28,13 +28,14 @@ class PaintCorrectionMaskMasksMidpoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Masks Midpoint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403619
+             * line : 286736
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskMasksMidpoint extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskMasksMidpoint',
             'desc' => [
+                'en' => 'Paint Correction Mask Masks Midpoint',
             ],
         ],
     ];

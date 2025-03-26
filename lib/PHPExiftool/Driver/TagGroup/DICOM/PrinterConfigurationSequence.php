@@ -28,13 +28,14 @@ class PrinterConfigurationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Printer Configuration Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101983
+             * line : 75123
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrinterConfigurationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrinterConfigurationSequence',
             'desc' => [
+                'en' => 'Printer Configuration Sequence',
             ],
         ],
     ];

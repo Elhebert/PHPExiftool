@@ -28,13 +28,14 @@ class FullPressSnap extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Full Press Snap',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333085
+             * line : 233616
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FullPressSnap extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:FullPressSnap',
             'desc' => [
+                'en' => 'Full Press Snap',
             ],
         ],
     ];

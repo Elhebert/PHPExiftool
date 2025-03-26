@@ -28,13 +28,14 @@ class ModifiedWhiteBalanceRed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified White Balance Red',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66543
+             * line : 50613
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedWhiteBalanceRed extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedWhiteBalanceRed',
             'desc' => [
+                'en' => 'Modified White Balance Red',
             ],
         ],
     ];

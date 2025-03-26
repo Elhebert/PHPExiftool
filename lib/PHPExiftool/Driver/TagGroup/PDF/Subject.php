@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264238
+             * line : 182654
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

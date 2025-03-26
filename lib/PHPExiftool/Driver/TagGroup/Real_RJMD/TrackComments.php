@@ -28,13 +28,14 @@ class TrackComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Metadata
-             * line : 330470
+             * line : 232539
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackComments extends AbstractTagGroup
              */
             'id' => 'Real::Metadata.Real-RJMD:TrackComments',
             'desc' => [
+                'en' => 'Track Comments',
             ],
         ],
     ];

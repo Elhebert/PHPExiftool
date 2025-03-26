@@ -28,13 +28,14 @@ class ChromaticAberrationSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::VignettingCorr2
-             * line : 71214
+             * line : 53123
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationSetting extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorr2.Canon:ChromaticAberrationSetting',
             'desc' => [
+                'en' => 'Chromatic Aberration Setting',
             ],
         ],
     ];

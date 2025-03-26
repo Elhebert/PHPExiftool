@@ -28,13 +28,14 @@ class AEFlags extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282892
+             * line : 196377
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEFlags extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEFlags',
             'desc' => [
+                'en' => 'AE Flags',
             ],
         ],
     ];

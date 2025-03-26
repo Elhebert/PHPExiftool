@@ -28,13 +28,14 @@ class PersonalTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Personal Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175569
+             * line : 120828
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PersonalTitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PersonalTitle',
             'desc' => [
+                'en' => 'Personal Title',
             ],
         ],
     ];

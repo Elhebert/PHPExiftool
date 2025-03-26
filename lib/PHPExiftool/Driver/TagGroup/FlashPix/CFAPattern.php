@@ -28,13 +28,14 @@ class CFAPattern extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CFA Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126397
+             * line : 87659
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CFAPattern extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:CFAPattern',
             'desc' => [
+                'en' => 'CFA Pattern',
             ],
         ],
     ];

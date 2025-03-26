@@ -28,13 +28,14 @@ class AxialLengthOfTheEye extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axial Length Of The Eye',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98391
+             * line : 71725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxialLengthOfTheEye extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxialLengthOfTheEye',
             'desc' => [
+                'en' => 'Axial Length Of The Eye',
             ],
         ],
     ];

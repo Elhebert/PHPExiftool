@@ -28,13 +28,14 @@ class Language extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148895
+             * line : 103322
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Language extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
     ];

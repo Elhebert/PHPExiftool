@@ -28,13 +28,14 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture At Min Focal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData00
-             * line : 195588
+             * line : 132484
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData00.Nikon:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195720
+             * line : 132527
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195861
+             * line : 132573
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196068
+             * line : 132652
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
     ];

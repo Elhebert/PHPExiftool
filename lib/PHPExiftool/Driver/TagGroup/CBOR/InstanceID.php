@@ -28,13 +28,14 @@ class InstanceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3770
+             * line : 2299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceID extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:InstanceID',
             'desc' => [
+                'en' => 'Instance ID',
             ],
         ],
     ];

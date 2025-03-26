@@ -28,13 +28,14 @@ class PixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329563
+             * line : 232131
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
     ];

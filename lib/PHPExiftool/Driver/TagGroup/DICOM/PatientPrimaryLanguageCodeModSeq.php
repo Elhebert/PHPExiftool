@@ -28,13 +28,14 @@ class PatientPrimaryLanguageCodeModSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Primary Language Code Mod Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95224
+             * line : 68689
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientPrimaryLanguageCodeModSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientPrimaryLanguageCodeModSeq',
             'desc' => [
+                'en' => 'Patient Primary Language Code Mod Seq',
             ],
         ],
     ];

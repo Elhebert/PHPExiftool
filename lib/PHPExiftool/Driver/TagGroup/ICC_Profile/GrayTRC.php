@@ -28,13 +28,14 @@ class GrayTRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gray Tone Reproduction Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146411
+             * line : 101784
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GrayTRC extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:GrayTRC',
             'desc' => [
+                'en' => 'Gray Tone Reproduction Curve',
             ],
         ],
     ];

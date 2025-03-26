@@ -28,13 +28,14 @@ class AtmosphericTransX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Atmospheric Trans X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122228
+             * line : 85617
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AtmosphericTransX extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:AtmosphericTransX',
             'desc' => [
+                'en' => 'Atmospheric Trans X',
             ],
         ],
     ];

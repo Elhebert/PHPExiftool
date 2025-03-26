@@ -28,13 +28,14 @@ class Broadcast extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Broadcast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1097
+             * line : 442
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Broadcast extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Broadcast',
             'desc' => [
+                'en' => 'Broadcast',
             ],
         ],
     ];

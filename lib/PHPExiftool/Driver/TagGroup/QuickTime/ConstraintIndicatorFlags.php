@@ -28,13 +28,14 @@ class ConstraintIndicatorFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Constraint Indicator Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313474
+             * line : 219219
              * type : int8u
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class ConstraintIndicatorFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:ConstraintIndicatorFlags',
             'desc' => [
+                'en' => 'Constraint Indicator Flags',
             ],
         ],
     ];

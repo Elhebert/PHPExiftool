@@ -28,13 +28,14 @@ class ReferencedRangeShifterNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Range Shifter Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104035
+             * line : 77124
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedRangeShifterNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedRangeShifterNumber',
             'desc' => [
+                'en' => 'Referenced Range Shifter Number',
             ],
         ],
     ];

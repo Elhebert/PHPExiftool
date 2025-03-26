@@ -28,13 +28,14 @@ class LanguageCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94655
+             * line : 68155
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LanguageCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LanguageCodeSequence',
             'desc' => [
+                'en' => 'Language Code Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410575
+             * line : 289919
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

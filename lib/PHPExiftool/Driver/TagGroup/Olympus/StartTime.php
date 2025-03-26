@@ -28,13 +28,14 @@ class StartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::DSS
-             * line : 253038
+             * line : 174414
              * type : string
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class StartTime extends AbstractTagGroup
              */
             'id' => 'Olympus::DSS.Olympus:StartTime',
             'desc' => [
+                'en' => 'Start Time',
             ],
         ],
     ];

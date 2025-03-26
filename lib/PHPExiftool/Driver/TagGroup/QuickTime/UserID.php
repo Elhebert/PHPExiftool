@@ -28,13 +28,14 @@ class UserID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SchemeInfo
-             * line : 324478
+             * line : 229264
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserID extends AbstractTagGroup
              */
             'id' => 'QuickTime::SchemeInfo.QuickTime:UserID',
             'desc' => [
+                'en' => 'User ID',
             ],
         ],
     ];

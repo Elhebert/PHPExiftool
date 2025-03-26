@@ -28,13 +28,14 @@ class BrightDefectIntegrationMS extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bright Defect Integration MS',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155780
+             * line : 106991
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrightDefectIntegrationMS extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BrightDefectIntegrationMS',
             'desc' => [
+                'en' => 'Bright Defect Integration MS',
             ],
         ],
     ];

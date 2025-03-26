@@ -28,13 +28,14 @@ class SonyFNumber2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony F Number 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391061
+             * line : 276781
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SonyFNumber2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:SonyFNumber2',
             'desc' => [
+                'en' => 'Sony F Number 2',
             ],
         ],
     ];

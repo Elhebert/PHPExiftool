@@ -28,13 +28,14 @@ class HardcopyDeviceSoftwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hardcopy Device Software Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95613
+             * line : 69067
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HardcopyDeviceSoftwareVersion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HardcopyDeviceSoftwareVersion',
             'desc' => [
+                'en' => 'Hardcopy Device Software Version',
             ],
         ],
     ];

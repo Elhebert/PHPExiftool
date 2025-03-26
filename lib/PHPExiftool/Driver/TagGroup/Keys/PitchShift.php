@@ -28,13 +28,14 @@ class PitchShift extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pitch Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323562
+             * line : 228719
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PitchShift extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:PitchShift',
             'desc' => [
+                'en' => 'Pitch Shift',
             ],
         ],
     ];

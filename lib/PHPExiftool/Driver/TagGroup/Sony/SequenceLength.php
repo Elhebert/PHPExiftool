@@ -28,13 +28,14 @@ class SequenceLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 384058
+             * line : 270785
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SequenceLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:SequenceLength',
             'desc' => [
+                'en' => 'Sequence Length',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384291
+             * line : 270958
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SequenceLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:SequenceLength',
             'desc' => [
+                'en' => 'Sequence Length',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384494
+             * line : 271117
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SequenceLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:SequenceLength',
             'desc' => [
+                'en' => 'Sequence Length',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384544
+             * line : 271167
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class SequenceLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:SequenceLength',
             'desc' => [
+                'en' => 'Sequence Length',
             ],
         ],
     ];

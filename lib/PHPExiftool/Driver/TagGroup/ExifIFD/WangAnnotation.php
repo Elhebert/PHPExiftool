@@ -28,13 +28,14 @@ class WangAnnotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wang Annotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112863
+             * line : 82221
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WangAnnotation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WangAnnotation',
             'desc' => [
+                'en' => 'Wang Annotation',
             ],
         ],
     ];

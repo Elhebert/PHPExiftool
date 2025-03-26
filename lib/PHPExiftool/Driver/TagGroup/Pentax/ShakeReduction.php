@@ -28,13 +28,14 @@ class ShakeReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shake Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::SRInfo
-             * line : 301597
+             * line : 209878
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShakeReduction extends AbstractTagGroup
              */
             'id' => 'Pentax::SRInfo.Pentax:ShakeReduction',
             'desc' => [
+                'en' => 'Shake Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::SRInfo2
-             * line : 301677
+             * line : 209928
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ShakeReduction extends AbstractTagGroup
              */
             'id' => 'Pentax::SRInfo2.Pentax:ShakeReduction',
             'desc' => [
+                'en' => 'Shake Reduction',
             ],
         ],
     ];

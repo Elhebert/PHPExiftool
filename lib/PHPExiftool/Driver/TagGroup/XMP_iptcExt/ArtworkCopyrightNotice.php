@@ -28,13 +28,14 @@ class ArtworkCopyrightNotice extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork Copyright Notice',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409093
+             * line : 288913
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtworkCopyrightNotice extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkCopyrightNotice',
             'desc' => [
+                'en' => 'Artwork Copyright Notice',
             ],
         ],
     ];

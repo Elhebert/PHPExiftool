@@ -28,13 +28,14 @@ class AFPointSpotMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'No. AF Points/Spot Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72192
+             * line : 53657
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointSpotMetering extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:AFPointSpotMetering',
             'desc' => [
+                'en' => 'No. AF Points/Spot Metering',
             ],
         ],
     ];

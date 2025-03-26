@@ -28,13 +28,14 @@ class PaletteHistogram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palette Histogram',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272567
+             * line : 190388
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaletteHistogram extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:PaletteHistogram',
             'desc' => [
+                'en' => 'Palette Histogram',
             ],
         ],
     ];

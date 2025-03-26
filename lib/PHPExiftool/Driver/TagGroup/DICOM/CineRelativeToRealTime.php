@@ -28,13 +28,14 @@ class CineRelativeToRealTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cine Relative To Real Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101643
+             * line : 74787
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CineRelativeToRealTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CineRelativeToRealTime',
             'desc' => [
+                'en' => 'Cine Relative To Real Time',
             ],
         ],
     ];

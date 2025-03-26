@@ -28,13 +28,14 @@ class SubjectDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408252
+             * line : 288504
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectDistance extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:SubjectDistance',
             'desc' => [
+                'en' => 'Subject Distance',
             ],
         ],
     ];

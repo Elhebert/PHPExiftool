@@ -28,13 +28,14 @@ class PictureBitsPerPixel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Bits Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Picture
-             * line : 121908
+             * line : 85423
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureBitsPerPixel extends AbstractTagGroup
              */
             'id' => 'FLAC::Picture.FLAC:PictureBitsPerPixel',
             'desc' => [
+                'en' => 'Picture Bits Per Pixel',
             ],
         ],
     ];

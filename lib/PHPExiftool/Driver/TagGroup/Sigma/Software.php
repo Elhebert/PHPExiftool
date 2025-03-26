@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337419
+             * line : 236105
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AF_AssistIlluminator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-Assist Illuminator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235343
+             * line : 158630
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_AssistIlluminator extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AF-AssistIlluminator',
             'desc' => [
+                'en' => 'AF-Assist Illuminator',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creation Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102245
+             * line : 75357
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreationTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CreationTime',
             'desc' => [
+                'en' => 'Creation Time',
             ],
         ],
     ];

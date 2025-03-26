@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263686
+             * line : 182398
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

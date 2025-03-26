@@ -28,13 +28,14 @@ class BurstMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276083
+             * line : 192258
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:BurstMode',
             'desc' => [
+                'en' => 'Burst Mode',
             ],
         ],
     ];

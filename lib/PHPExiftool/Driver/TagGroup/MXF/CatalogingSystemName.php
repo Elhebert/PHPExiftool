@@ -28,13 +28,14 @@ class CatalogingSystemName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cataloging System Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167746
+             * line : 114323
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CatalogingSystemName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CatalogingSystemName',
             'desc' => [
+                'en' => 'Cataloging System Name',
             ],
         ],
     ];

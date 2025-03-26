@@ -28,13 +28,14 @@ class AFStatusBottom_right extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Bottom-right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345796
+             * line : 242440
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusBottom_right extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusBottom-right',
             'desc' => [
+                'en' => 'AF Status Bottom-right',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346378
+             * line : 242756
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFStatusBottom_right extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusBottom-right',
             'desc' => [
+                'en' => 'AF Status Bottom-right',
             ],
         ],
     ];

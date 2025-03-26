@@ -28,13 +28,14 @@ class BW_TransferFunc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BW Transfer Func',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305427
+             * line : 212230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BW_TransferFunc extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:BW_TransferFunc',
             'desc' => [
+                'en' => 'BW Transfer Func',
             ],
         ],
     ];

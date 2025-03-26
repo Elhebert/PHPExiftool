@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250531
+             * line : 172880
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

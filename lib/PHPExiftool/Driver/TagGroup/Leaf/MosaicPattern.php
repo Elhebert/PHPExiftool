@@ -28,13 +28,14 @@ class MosaicPattern extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mosaic Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161723
+             * line : 110473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MosaicPattern extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:MosaicPattern',
             'desc' => [
+                'en' => 'Mosaic Pattern',
             ],
         ],
     ];

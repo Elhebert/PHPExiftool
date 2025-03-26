@@ -28,13 +28,14 @@ class RegisterItemStatusChangeDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Item Status Change Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172484
+             * line : 118645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterItemStatusChangeDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterItemStatusChangeDateTime',
             'desc' => [
+                'en' => 'Register Item Status Change Date Time',
             ],
         ],
     ];

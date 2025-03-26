@@ -28,13 +28,14 @@ class RTROIIdentificationCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RTROI Identification Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102615
+             * line : 75711
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTROIIdentificationCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTROIIdentificationCodeSequence',
             'desc' => [
+                'en' => 'RTROI Identification Code Sequence',
             ],
         ],
     ];

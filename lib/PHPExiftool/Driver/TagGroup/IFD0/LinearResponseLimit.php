@@ -28,13 +28,14 @@ class LinearResponseLimit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Linear Response Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119166
+             * line : 84189
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LinearResponseLimit extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:LinearResponseLimit',
             'desc' => [
+                'en' => 'Linear Response Limit',
             ],
         ],
     ];

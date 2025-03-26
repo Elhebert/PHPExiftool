@@ -28,13 +28,14 @@ class InitializedDataSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initialized Data Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108876
+             * line : 80493
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitializedDataSize extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:InitializedDataSize',
             'desc' => [
+                'en' => 'Initialized Data Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 182754
+             * line : 124290
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

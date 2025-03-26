@@ -28,13 +28,14 @@ class Alternates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alternates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169588
+             * line : 115980
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Alternates extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Alternates',
             'desc' => [
+                'en' => 'Alternates',
             ],
         ],
     ];

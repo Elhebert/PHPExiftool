@@ -28,13 +28,14 @@ class ScheduledProtocolCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Protocol Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99603
+             * line : 72810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledProtocolCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledProtocolCodeSequence',
             'desc' => [
+                'en' => 'Scheduled Protocol Code Sequence',
             ],
         ],
     ];

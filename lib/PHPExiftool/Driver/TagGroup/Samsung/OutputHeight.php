@@ -28,13 +28,14 @@ class OutputHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334214
+             * line : 234294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputHeight extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:OutputHeight',
             'desc' => [
+                'en' => 'Output Height',
             ],
         ],
     ];

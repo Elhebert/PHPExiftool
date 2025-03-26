@@ -28,13 +28,14 @@ class DateTimeEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262257
+             * line : 181255
              * type : undef
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class DateTimeEnd extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:DateTimeEnd',
             'desc' => [
+                'en' => 'Date Time End',
             ],
         ],
     ];

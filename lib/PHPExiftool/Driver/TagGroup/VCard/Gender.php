@@ -28,13 +28,14 @@ class Gender extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gender',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395126
+             * line : 279872
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gender extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Gender',
             'desc' => [
+                'en' => 'Gender',
             ],
         ],
     ];

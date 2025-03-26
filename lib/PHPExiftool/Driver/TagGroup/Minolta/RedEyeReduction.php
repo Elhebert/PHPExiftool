@@ -28,13 +28,14 @@ class RedEyeReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Eye Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181591
+             * line : 123530
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedEyeReduction extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:RedEyeReduction',
             'desc' => [
+                'en' => 'Red Eye Reduction',
             ],
         ],
     ];

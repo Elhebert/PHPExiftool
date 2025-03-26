@@ -28,13 +28,14 @@ class WB_RBLevels3900K extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels 3900K',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255178
+             * line : 176119
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevels3900K extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:WB_RBLevels3900K',
             'desc' => [
+                'en' => 'WB RB Levels 3900K',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AlbumArtistSortOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album Artist Sort Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149008
+             * line : 103382
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumArtistSortOrder extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:AlbumArtistSortOrder',
             'desc' => [
+                'en' => 'Album Artist Sort Order',
             ],
         ],
     ];

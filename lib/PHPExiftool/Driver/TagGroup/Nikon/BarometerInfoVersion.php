@@ -28,13 +28,14 @@ class BarometerInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Barometer Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::BarometerInfo
-             * line : 191887
+             * line : 130055
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class BarometerInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::BarometerInfo.Nikon:BarometerInfoVersion',
             'desc' => [
+                'en' => 'Barometer Info Version',
             ],
         ],
     ];

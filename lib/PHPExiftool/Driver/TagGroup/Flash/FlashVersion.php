@@ -28,13 +28,14 @@ class FlashVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123918
+             * line : 86654
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashVersion extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:FlashVersion',
             'desc' => [
+                'en' => 'Flash Version',
             ],
         ],
     ];

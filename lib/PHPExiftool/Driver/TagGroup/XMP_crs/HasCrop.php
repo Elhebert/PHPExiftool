@@ -28,13 +28,14 @@ class HasCrop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Crop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402760
+             * line : 285897
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasCrop extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:HasCrop',
             'desc' => [
+                'en' => 'Has Crop',
             ],
         ],
     ];

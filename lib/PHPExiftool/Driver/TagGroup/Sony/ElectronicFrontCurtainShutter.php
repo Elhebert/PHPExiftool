@@ -28,13 +28,14 @@ class ElectronicFrontCurtainShutter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Electronic Front Curtain Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354466
+             * line : 247127
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ElectronicFrontCurtainShutter extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ElectronicFrontCurtainShutter',
             'desc' => [
+                'en' => 'Electronic Front Curtain Shutter',
             ],
         ],
     ];

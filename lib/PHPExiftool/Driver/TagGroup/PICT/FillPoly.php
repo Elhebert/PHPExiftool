@@ -28,13 +28,14 @@ class FillPoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264925
+             * line : 183149
              * type : Polygon
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillPoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillPoly',
             'desc' => [
+                'en' => 'Fill Poly',
             ],
         ],
     ];

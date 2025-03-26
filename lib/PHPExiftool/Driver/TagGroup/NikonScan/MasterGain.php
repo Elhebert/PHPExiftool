@@ -28,13 +28,14 @@ class MasterGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Master Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205236
+             * line : 137952
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MasterGain extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:MasterGain',
             'desc' => [
+                'en' => 'Master Gain',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175687
+             * line : 120924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

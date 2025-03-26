@@ -28,13 +28,14 @@ class Compatibility extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compatibility',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1834
+             * line : 934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compatibility extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:Compatibility',
             'desc' => [
+                'en' => 'Compatibility',
             ],
         ],
     ];

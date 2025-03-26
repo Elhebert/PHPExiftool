@@ -28,13 +28,14 @@ class GenProfileCompatibilityFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Profile Compatibility Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313433
+             * line : 219178
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenProfileCompatibilityFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:GenProfileCompatibilityFlags',
             'desc' => [
+                'en' => 'Gen Profile Compatibility Flags',
             ],
         ],
     ];

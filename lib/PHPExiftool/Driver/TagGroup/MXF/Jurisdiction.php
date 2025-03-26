@@ -28,13 +28,14 @@ class Jurisdiction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Jurisdiction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169909
+             * line : 116247
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Jurisdiction extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Jurisdiction',
             'desc' => [
+                'en' => 'Jurisdiction',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170660
+             * line : 116895
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Jurisdiction extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Jurisdiction',
             'desc' => [
+                'en' => 'Jurisdiction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SceneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283068
+             * line : 196494
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProducerKeywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Producer Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325985
+             * line : 229943
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProducerKeywords extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ProducerKeywords',
             'desc' => [
+                'en' => 'Producer Keywords',
             ],
         ],
     ];

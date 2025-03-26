@@ -28,13 +28,14 @@ class AssignMB_D18FuncButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign MB-D18 Func Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233383
+             * line : 157227
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AssignMB_D18FuncButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMB-D18FuncButtonPlusDials',
             'desc' => [
+                'en' => 'Assign MB-D18 Func Button Plus Dials',
             ],
         ],
     ];

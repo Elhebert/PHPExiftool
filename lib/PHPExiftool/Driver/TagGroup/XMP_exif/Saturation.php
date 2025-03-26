@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407736
+             * line : 288398
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

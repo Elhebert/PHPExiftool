@@ -28,13 +28,14 @@ class Real2IR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Real 2 IR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PiP
-             * line : 123651
+             * line : 86452
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Real2IR extends AbstractTagGroup
              */
             'id' => 'FLIR::PiP.FLIR:Real2IR',
             'desc' => [
+                'en' => 'Real 2 IR',
             ],
         ],
     ];

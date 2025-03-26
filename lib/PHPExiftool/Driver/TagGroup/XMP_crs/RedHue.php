@@ -28,13 +28,14 @@ class RedHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403961
+             * line : 287075
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedHue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RedHue',
             'desc' => [
+                'en' => 'Red Hue',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskCenterWeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Center Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402983
+             * line : 286119
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskCenterWeight extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskCenterWeight',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Center Weight',
             ],
         ],
     ];

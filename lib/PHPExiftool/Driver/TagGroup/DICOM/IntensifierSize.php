@@ -28,13 +28,14 @@ class IntensifierSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intensifier Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95893
+             * line : 69319
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntensifierSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntensifierSize',
             'desc' => [
+                'en' => 'Intensifier Size',
             ],
         ],
     ];

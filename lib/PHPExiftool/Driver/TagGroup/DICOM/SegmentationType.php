@@ -28,13 +28,14 @@ class SegmentationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segmentation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101064
+             * line : 74214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentationType',
             'desc' => [
+                'en' => 'Segmentation Type',
             ],
         ],
     ];

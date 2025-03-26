@@ -28,13 +28,14 @@ class TotalEditingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Editing Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176522
+             * line : 121461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalEditingTime extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TotalEditingTime',
             'desc' => [
+                'en' => 'Total Editing Time',
             ],
         ],
     ];

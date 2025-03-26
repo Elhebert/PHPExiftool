@@ -28,13 +28,14 @@ class UniqueImageIden extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unique Image Iden',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100397
+             * line : 73569
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UniqueImageIden extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UniqueImageIden',
             'desc' => [
+                'en' => 'Unique Image Iden',
             ],
         ],
     ];

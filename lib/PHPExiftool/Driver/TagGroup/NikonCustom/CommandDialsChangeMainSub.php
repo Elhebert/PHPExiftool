@@ -28,13 +28,14 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Command Dials Change Main Sub',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213630
+             * line : 143486
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215471
+             * line : 144622
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218093
+             * line : 146547
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220543
+             * line : 148578
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 226056
+             * line : 152330
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227149
+             * line : 152975
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230600
+             * line : 154975
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232442
+             * line : 156396
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class CommandDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:CommandDialsChangeMainSub',
             'desc' => [
+                'en' => 'Command Dials Change Main Sub',
             ],
         ],
     ];

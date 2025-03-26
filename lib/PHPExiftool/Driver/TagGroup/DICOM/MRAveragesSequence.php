@@ -28,13 +28,14 @@ class MRAveragesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Averages Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96787
+             * line : 70189
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRAveragesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRAveragesSequence',
             'desc' => [
+                'en' => 'MR Averages Sequence',
             ],
         ],
     ];

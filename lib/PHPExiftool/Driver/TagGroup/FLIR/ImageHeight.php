@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122506
+             * line : 85799
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VideoFrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276007
+             * line : 192221
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoFrameRate extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:VideoFrameRate',
             'desc' => [
+                'en' => 'Video Frame Rate',
             ],
         ],
     ];

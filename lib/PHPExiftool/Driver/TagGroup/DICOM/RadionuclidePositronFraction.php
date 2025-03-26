@@ -28,13 +28,14 @@ class RadionuclidePositronFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radionuclide Positron Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95727
+             * line : 69175
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadionuclidePositronFraction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadionuclidePositronFraction',
             'desc' => [
+                'en' => 'Radionuclide Positron Fraction',
             ],
         ],
     ];

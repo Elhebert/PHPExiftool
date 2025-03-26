@@ -28,13 +28,14 @@ class SBAExposureRecord extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SBA Exposure Record',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158459
+             * line : 108940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SBAExposureRecord extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:SBAExposureRecord',
             'desc' => [
+                'en' => 'SBA Exposure Record',
             ],
         ],
     ];

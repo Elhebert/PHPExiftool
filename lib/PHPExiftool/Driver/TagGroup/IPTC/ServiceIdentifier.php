@@ -28,13 +28,14 @@ class ServiceIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Service Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151154
+             * line : 104320
              * type : string
              * writable : true
              * count : 10
@@ -42,6 +43,7 @@ class ServiceIdentifier extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:ServiceIdentifier',
             'desc' => [
+                'en' => 'Service Identifier',
             ],
         ],
     ];

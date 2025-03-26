@@ -28,13 +28,14 @@ class WB_GRGBLevelsLivingRoomWarmWhiteFluor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Living Room Warm White Fluor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131113
+             * line : 90567
              * type : int16u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsLivingRoomWarmWhiteFluor extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:WB_GRGBLevelsLivingRoomWarmWhiteFluor',
             'desc' => [
+                'en' => 'WB GRGB Levels Living Room Warm White Fluor',
             ],
         ],
     ];

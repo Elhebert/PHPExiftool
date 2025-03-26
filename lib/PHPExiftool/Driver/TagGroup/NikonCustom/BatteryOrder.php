@@ -28,13 +28,14 @@ class BatteryOrder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212826
+             * line : 142907
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BatteryOrder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:BatteryOrder',
             'desc' => [
+                'en' => 'Battery Order',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225300
+             * line : 151822
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BatteryOrder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:BatteryOrder',
             'desc' => [
+                'en' => 'Battery Order',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226417
+             * line : 152503
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class BatteryOrder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:BatteryOrder',
             'desc' => [
+                'en' => 'Battery Order',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229636
+             * line : 154368
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class BatteryOrder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:BatteryOrder',
             'desc' => [
+                'en' => 'Battery Order',
             ],
         ],
     ];

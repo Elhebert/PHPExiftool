@@ -28,13 +28,14 @@ class RelatedImageFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related Image File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Exif
-             * line : 327905
+             * line : 231409
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelatedImageFile extends AbstractTagGroup
              */
             'id' => 'RIFF::Exif.RIFF:RelatedImageFile',
             'desc' => [
+                'en' => 'Related Image File',
             ],
         ],
     ];

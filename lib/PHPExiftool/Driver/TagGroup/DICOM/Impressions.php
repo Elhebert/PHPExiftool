@@ -28,13 +28,14 @@ class Impressions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Impressions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104143
+             * line : 77229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Impressions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Impressions',
             'desc' => [
+                'en' => 'Impressions',
             ],
         ],
     ];

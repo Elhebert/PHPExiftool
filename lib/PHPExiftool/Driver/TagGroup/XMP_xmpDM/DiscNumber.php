@@ -28,13 +28,14 @@ class DiscNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Disc Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413058
+             * line : 291199
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DiscNumber extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:DiscNumber',
             'desc' => [
+                'en' => 'Disc Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OtherAddress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175707
+             * line : 120930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherAddress extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OtherAddress',
             'desc' => [
+                'en' => 'Other Address',
             ],
         ],
     ];

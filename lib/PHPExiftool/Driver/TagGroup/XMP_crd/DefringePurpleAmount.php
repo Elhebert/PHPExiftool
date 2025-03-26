@@ -28,13 +28,14 @@ class DefringePurpleAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Defringe Purple Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398924
+             * line : 282447
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefringePurpleAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:DefringePurpleAmount',
             'desc' => [
+                'en' => 'Defringe Purple Amount',
             ],
         ],
     ];

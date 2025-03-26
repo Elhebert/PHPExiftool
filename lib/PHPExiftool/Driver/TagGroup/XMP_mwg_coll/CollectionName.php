@@ -28,13 +28,14 @@ class CollectionName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Collection Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MWG::Collections
-             * line : 167020
+             * line : 113707
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CollectionName extends AbstractTagGroup
              */
             'id' => 'MWG::Collections.XMP-mwg-coll:CollectionName',
             'desc' => [
+                'en' => 'Collection Name',
             ],
         ],
     ];

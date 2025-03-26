@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329212
+             * line : 232026
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

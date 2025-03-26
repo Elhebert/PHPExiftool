@@ -28,13 +28,14 @@ class OnionSkins extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Onion Skins',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305651
+             * line : 212382
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OnionSkins extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:OnionSkins',
             'desc' => [
+                'en' => 'Onion Skins',
             ],
         ],
     ];

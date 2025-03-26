@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162323
+             * line : 110866
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TargetMaximumDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Maximum Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103008
+             * line : 76104
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetMaximumDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TargetMaximumDose',
             'desc' => [
+                'en' => 'Target Maximum Dose',
             ],
         ],
     ];

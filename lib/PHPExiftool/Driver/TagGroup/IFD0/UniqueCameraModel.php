@@ -28,13 +28,14 @@ class UniqueCameraModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118835
+             * line : 84082
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UniqueCameraModel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:UniqueCameraModel',
             'desc' => [
+                'en' => 'Unique Camera Model',
             ],
         ],
     ];

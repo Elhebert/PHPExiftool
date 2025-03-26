@@ -28,13 +28,14 @@ class AudioAvailableNumberChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Available Number Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312651
+             * line : 218524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioAvailableNumberChannels extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioAvailableNumberChannels',
             'desc' => [
+                'en' => 'Audio Available Number Channels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensCorrectionSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Correction Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::digiKam
-             * line : 405052
+             * line : 287783
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensCorrectionSettings extends AbstractTagGroup
              */
             'id' => 'XMP::digiKam.XMP-digiKam:LensCorrectionSettings',
             'desc' => [
+                'en' => 'Lens Correction Settings',
             ],
         ],
     ];

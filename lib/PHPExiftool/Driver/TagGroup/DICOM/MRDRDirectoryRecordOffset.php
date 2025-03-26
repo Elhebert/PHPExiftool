@@ -28,13 +28,14 @@ class MRDRDirectoryRecordOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MRDR Directory Record Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94628
+             * line : 68128
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRDRDirectoryRecordOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRDRDirectoryRecordOffset',
             'desc' => [
+                'en' => 'MRDR Directory Record Offset',
             ],
         ],
     ];

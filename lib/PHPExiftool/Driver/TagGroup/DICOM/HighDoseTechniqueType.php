@@ -28,13 +28,14 @@ class HighDoseTechniqueType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'High Dose Technique Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103170
+             * line : 76266
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HighDoseTechniqueType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HighDoseTechniqueType',
             'desc' => [
+                'en' => 'High Dose Technique Type',
             ],
         ],
     ];

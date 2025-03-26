@@ -28,13 +28,14 @@ class DVHData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102495
+             * line : 75594
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHData',
             'desc' => [
+                'en' => 'DVH Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AxialDetectorDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axial Detector Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97324
+             * line : 70720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxialDetectorDimension extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxialDetectorDimension',
             'desc' => [
+                'en' => 'Axial Detector Dimension',
             ],
         ],
     ];

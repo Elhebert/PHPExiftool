@@ -28,13 +28,14 @@ class SelectorUSValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector US Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101539
+             * line : 74685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorUSValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorUSValue',
             'desc' => [
+                'en' => 'Selector US Value',
             ],
         ],
     ];

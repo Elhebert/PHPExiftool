@@ -28,13 +28,14 @@ class OpusVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Opus Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Opus::Header
-             * line : 263736
+             * line : 182423
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpusVersion extends AbstractTagGroup
              */
             'id' => 'Opus::Header.Opus:OpusVersion',
             'desc' => [
+                'en' => 'Opus Version',
             ],
         ],
     ];

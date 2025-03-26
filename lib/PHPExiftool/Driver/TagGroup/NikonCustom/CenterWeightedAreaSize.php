@@ -28,13 +28,14 @@ class CenterWeightedAreaSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Center Weighted Area Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212435
+             * line : 142702
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212465
+             * line : 142722
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214961
+             * line : 144258
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217631
+             * line : 146178
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220055
+             * line : 148210
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224064
+             * line : 151068
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224841
+             * line : 151549
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226789
+             * line : 152726
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228474
+             * line : 153770
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230044
+             * line : 154591
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231936
+             * line : 156010
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         11 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234390
+             * line : 157988
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         12 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235428
+             * line : 158680
              * type : int8u
              * writable : true
              * count :
@@ -198,6 +211,7 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108894
+             * line : 80505
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class ImageVersion extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:ImageVersion',
             'desc' => [
+                'en' => 'Image Version',
             ],
         ],
     ];

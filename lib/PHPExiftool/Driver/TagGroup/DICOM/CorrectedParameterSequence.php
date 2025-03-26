@@ -28,13 +28,14 @@ class CorrectedParameterSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Corrected Parameter Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102780
+             * line : 75876
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CorrectedParameterSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CorrectedParameterSequence',
             'desc' => [
+                'en' => 'Corrected Parameter Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ControlledVocabularyTerm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Controlled Vocabulary Term',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409213
+             * line : 289014
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ControlledVocabularyTerm extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ControlledVocabularyTerm',
             'desc' => [
+                'en' => 'Controlled Vocabulary Term',
             ],
         ],
     ];

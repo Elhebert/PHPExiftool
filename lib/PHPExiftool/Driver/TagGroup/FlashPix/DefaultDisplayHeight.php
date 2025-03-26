@@ -28,13 +28,14 @@ class DefaultDisplayHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Display Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124681
+             * line : 87134
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultDisplayHeight extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:DefaultDisplayHeight',
             'desc' => [
+                'en' => 'Default Display Height',
             ],
         ],
     ];

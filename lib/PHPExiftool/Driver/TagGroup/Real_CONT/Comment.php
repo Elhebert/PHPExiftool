@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::ContentDescr
-             * line : 330181
+             * line : 232382
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Real::ContentDescr.Real-CONT:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

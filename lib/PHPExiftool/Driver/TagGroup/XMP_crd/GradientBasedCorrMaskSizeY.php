@@ -28,13 +28,14 @@ class GradientBasedCorrMaskSizeY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Size Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399240
+             * line : 282747
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskSizeY extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrMaskSizeY',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Size Y',
             ],
         ],
     ];

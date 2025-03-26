@@ -28,13 +28,14 @@ class UniqueMatrixTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Matrix Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155141
+             * line : 106391
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class UniqueMatrixTungsten extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UniqueMatrixTungsten',
             'desc' => [
+                'en' => 'Unique Matrix Tungsten',
             ],
         ],
     ];

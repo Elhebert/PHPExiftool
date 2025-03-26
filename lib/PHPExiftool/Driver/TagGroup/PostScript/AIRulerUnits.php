@@ -28,13 +28,14 @@ class AIRulerUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI Ruler Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305889
+             * line : 212537
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIRulerUnits extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AIRulerUnits',
             'desc' => [
+                'en' => 'AI Ruler Units',
             ],
         ],
     ];

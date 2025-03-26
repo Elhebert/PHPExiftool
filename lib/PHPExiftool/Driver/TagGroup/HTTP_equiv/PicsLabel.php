@@ -28,13 +28,14 @@ class PicsLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pics Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142897
+             * line : 98685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PicsLabel extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:PicsLabel',
             'desc' => [
+                'en' => 'Pics Label',
             ],
         ],
     ];

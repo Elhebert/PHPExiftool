@@ -28,13 +28,14 @@ class MicrophoneAttenuator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Microphone Attenuator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201640
+             * line : 136534
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicrophoneAttenuator extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneAttenuator',
             'desc' => [
+                'en' => 'Microphone Attenuator',
             ],
         ],
     ];

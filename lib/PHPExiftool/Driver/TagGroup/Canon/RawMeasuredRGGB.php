@@ -28,13 +28,14 @@ class RawMeasuredRGGB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Measured RGGB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 61067
+             * line : 46891
              * type : int32u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class RawMeasuredRGGB extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:RawMeasuredRGGB',
             'desc' => [
+                'en' => 'Raw Measured RGGB',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61320
+             * line : 47038
              * type : int32u
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class RawMeasuredRGGB extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:RawMeasuredRGGB',
             'desc' => [
+                'en' => 'Raw Measured RGGB',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61704
+             * line : 47269
              * type : int32u
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class RawMeasuredRGGB extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:RawMeasuredRGGB',
             'desc' => [
+                'en' => 'Raw Measured RGGB',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62092
+             * line : 47482
              * type : int32u
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class RawMeasuredRGGB extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:RawMeasuredRGGB',
             'desc' => [
+                'en' => 'Raw Measured RGGB',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62108
+             * line : 47497
              * type : int32u
              * writable : true
              * count : 4
@@ -94,6 +99,7 @@ class RawMeasuredRGGB extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:RawMeasuredRGGB',
             'desc' => [
+                'en' => 'Raw Measured RGGB',
             ],
         ],
     ];

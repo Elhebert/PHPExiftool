@@ -28,13 +28,14 @@ class RecordedChannelShieldSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Channel Shield Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102888
+             * line : 75984
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedChannelShieldSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordedChannelShieldSequence',
             'desc' => [
+                'en' => 'Recorded Channel Shield Sequence',
             ],
         ],
     ];

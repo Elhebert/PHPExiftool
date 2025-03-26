@@ -28,13 +28,14 @@ class AFAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303455
+             * line : 210864
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAdjustment extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:AFAdjustment',
             'desc' => [
+                'en' => 'AF Adjustment',
             ],
         ],
     ];

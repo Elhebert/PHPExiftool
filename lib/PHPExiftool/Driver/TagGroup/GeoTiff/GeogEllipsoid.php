@@ -28,13 +28,14 @@ class GeogEllipsoid extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Ellipsoid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 133992
+             * line : 92285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogEllipsoid extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogEllipsoid',
             'desc' => [
+                'en' => 'Geog Ellipsoid',
             ],
         ],
     ];

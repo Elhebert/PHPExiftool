@@ -28,13 +28,14 @@ class SelfTimerTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Self Timer Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243942
+             * line : 166891
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelfTimerTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SelfTimerTime',
             'desc' => [
+                'en' => 'Self Timer Time',
             ],
         ],
     ];

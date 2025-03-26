@@ -28,13 +28,14 @@ class Clarity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clarity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402013
+             * line : 285248
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Clarity extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Clarity',
             'desc' => [
+                'en' => 'Clarity',
             ],
         ],
     ];

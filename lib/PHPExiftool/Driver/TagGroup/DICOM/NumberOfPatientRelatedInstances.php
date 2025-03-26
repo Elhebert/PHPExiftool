@@ -28,13 +28,14 @@ class NumberOfPatientRelatedInstances extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Patient Related Instances',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98000
+             * line : 71347
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPatientRelatedInstances extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfPatientRelatedInstances',
             'desc' => [
+                'en' => 'Number Of Patient Related Instances',
             ],
         ],
     ];

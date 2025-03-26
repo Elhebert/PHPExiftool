@@ -28,13 +28,14 @@ class LensFirmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::SerialInfo
-             * line : 333716
+             * line : 234017
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class LensFirmware extends AbstractTagGroup
              */
             'id' => 'Ricoh::SerialInfo.Ricoh:LensFirmware',
             'desc' => [
+                'en' => 'Lens Firmware',
             ],
         ],
     ];

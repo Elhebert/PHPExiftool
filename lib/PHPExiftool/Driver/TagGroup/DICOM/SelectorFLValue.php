@@ -28,13 +28,14 @@ class SelectorFLValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector FL Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101533
+             * line : 74679
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorFLValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorFLValue',
             'desc' => [
+                'en' => 'Selector FL Value',
             ],
         ],
     ];

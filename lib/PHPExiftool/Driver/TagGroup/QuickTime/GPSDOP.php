@@ -28,13 +28,14 @@ class GPSDOP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Dilution Of Precision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324600
+             * line : 229317
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSDOP extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSDOP',
             'desc' => [
+                'en' => 'GPS Dilution Of Precision',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class JPEGLosslessPredictors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Lossless Predictors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112445
+             * line : 82041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGLosslessPredictors extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JPEGLosslessPredictors',
             'desc' => [
+                'en' => 'JPEG Lossless Predictors',
             ],
         ],
     ];

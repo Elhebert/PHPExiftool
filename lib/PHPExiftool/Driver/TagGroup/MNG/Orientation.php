@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165290
+             * line : 112378
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

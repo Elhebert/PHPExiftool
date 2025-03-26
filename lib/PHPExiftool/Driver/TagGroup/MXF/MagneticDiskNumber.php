@@ -28,13 +28,14 @@ class MagneticDiskNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnetic Disk Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169779
+             * line : 116133
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagneticDiskNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MagneticDiskNumber',
             'desc' => [
+                'en' => 'Magnetic Disk Number',
             ],
         ],
     ];

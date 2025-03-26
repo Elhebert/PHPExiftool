@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142489
+             * line : 98523
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

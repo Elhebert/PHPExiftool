@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162223
+             * line : 110842
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

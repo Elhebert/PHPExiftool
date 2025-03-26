@@ -28,13 +28,14 @@ class ByteLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Byte Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124025
+             * line : 86705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ByteLength extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:ByteLength',
             'desc' => [
+                'en' => 'Byte Length',
             ],
         ],
     ];

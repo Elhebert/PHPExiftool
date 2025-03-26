@@ -28,13 +28,14 @@ class InterpretationStatusID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpretation Status ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104140
+             * line : 77226
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretationStatusID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterpretationStatusID',
             'desc' => [
+                'en' => 'Interpretation Status ID',
             ],
         ],
     ];

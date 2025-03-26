@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56644
+             * line : 43907
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

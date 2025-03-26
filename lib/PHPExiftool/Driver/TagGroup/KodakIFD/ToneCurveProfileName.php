@@ -28,13 +28,14 @@ class ToneCurveProfileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Profile Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157116
+             * line : 108320
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveProfileName extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ToneCurveProfileName',
             'desc' => [
+                'en' => 'Tone Curve Profile Name',
             ],
         ],
     ];

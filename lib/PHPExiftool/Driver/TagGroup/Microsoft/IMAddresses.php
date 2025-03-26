@@ -28,13 +28,14 @@ class IMAddresses extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IM Addresses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176373
+             * line : 121347
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IMAddresses extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IMAddresses',
             'desc' => [
+                'en' => 'IM Addresses',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PageEnter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Enter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142889
+             * line : 98679
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageEnter extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:PageEnter',
             'desc' => [
+                'en' => 'Page Enter',
             ],
         ],
     ];

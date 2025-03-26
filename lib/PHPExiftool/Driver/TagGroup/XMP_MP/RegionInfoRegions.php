@@ -28,13 +28,14 @@ class RegionInfoRegions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Info Regions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP
-             * line : 174072
+             * line : 119909
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionInfoRegions extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP.XMP-MP:RegionInfoRegions',
             'desc' => [
+                'en' => 'Region Info Regions',
             ],
         ],
     ];

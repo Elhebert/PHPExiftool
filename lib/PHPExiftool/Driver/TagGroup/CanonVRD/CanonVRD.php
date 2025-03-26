@@ -28,13 +28,14 @@ class CanonVRD extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon VRD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 120982
+             * line : 84955
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonVRD extends AbstractTagGroup
              */
             'id' => 'Extra.CanonVRD:CanonVRD',
             'desc' => [
+                'en' => 'Canon VRD',
             ],
         ],
     ];

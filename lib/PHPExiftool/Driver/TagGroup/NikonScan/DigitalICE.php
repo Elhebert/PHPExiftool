@@ -28,13 +28,14 @@ class DigitalICE extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital ICE',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205274
+             * line : 137969
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalICE extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:DigitalICE',
             'desc' => [
+                'en' => 'Digital ICE',
             ],
         ],
     ];

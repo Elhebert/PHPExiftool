@@ -28,13 +28,14 @@ class Matteing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matteing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112892
+             * line : 82242
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Matteing extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Matteing',
             'desc' => [
+                'en' => 'Matteing',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ITC::Item
-             * line : 152166
+             * line : 104784
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'ITC::Item.ITC:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

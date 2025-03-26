@@ -28,13 +28,14 @@ class MAC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MAC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101929
+             * line : 75069
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MAC extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MAC',
             'desc' => [
+                'en' => 'MAC',
             ],
         ],
     ];

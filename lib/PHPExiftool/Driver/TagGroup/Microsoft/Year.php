@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175268
+             * line : 120699
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Year extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175778
+             * line : 120972
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

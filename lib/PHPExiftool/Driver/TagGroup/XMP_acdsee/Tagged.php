@@ -28,13 +28,14 @@ class Tagged extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tagged',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397880
+             * line : 281631
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Tagged extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:Tagged',
             'desc' => [
+                'en' => 'Tagged',
             ],
         ],
     ];

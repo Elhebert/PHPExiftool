@@ -28,13 +28,14 @@ class Luminance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Luminance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146421
+             * line : 101787
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Luminance extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:Luminance',
             'desc' => [
+                'en' => 'Luminance',
             ],
         ],
     ];

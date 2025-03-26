@@ -28,13 +28,14 @@ class IntegrationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Integration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339914
+             * line : 237684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntegrationTime extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:IntegrationTime',
             'desc' => [
+                'en' => 'Integration Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioStream extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Stream',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Main
-             * line : 126569
+             * line : 87763
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioStream extends AbstractTagGroup
              */
             'id' => 'FlashPix::Main.FlashPix:AudioStream',
             'desc' => [
+                'en' => 'Audio Stream',
             ],
         ],
     ];

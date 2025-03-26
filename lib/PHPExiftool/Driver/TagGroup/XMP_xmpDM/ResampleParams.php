@@ -28,13 +28,14 @@ class ResampleParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resample Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413304
+             * line : 291421
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ResampleParams extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ResampleParams',
             'desc' => [
+                'en' => 'Resample Params',
             ],
         ],
     ];

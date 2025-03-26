@@ -28,13 +28,14 @@ class TableLateralIncrement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Lateral Increment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95799
+             * line : 69247
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableLateralIncrement extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableLateralIncrement',
             'desc' => [
+                'en' => 'Table Lateral Increment',
             ],
         ],
     ];

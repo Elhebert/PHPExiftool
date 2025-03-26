@@ -28,13 +28,14 @@ class CompressedQuickTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressed Quick Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265093
+             * line : 183287
              * type : CompressedQuickTime
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressedQuickTime extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:CompressedQuickTime',
             'desc' => [
+                'en' => 'Compressed Quick Time',
             ],
         ],
     ];

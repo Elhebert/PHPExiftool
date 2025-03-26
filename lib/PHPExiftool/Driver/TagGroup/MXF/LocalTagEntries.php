@@ -28,13 +28,14 @@ class LocalTagEntries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Tag Entries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171600
+             * line : 117796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalTagEntries extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalTagEntries',
             'desc' => [
+                'en' => 'Local Tag Entries',
             ],
         ],
     ];

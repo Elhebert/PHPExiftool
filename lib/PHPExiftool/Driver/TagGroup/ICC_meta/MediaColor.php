@@ -28,13 +28,14 @@ class MediaColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Metadata
-             * line : 147023
+             * line : 102083
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaColor extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Metadata.ICC-meta:MediaColor',
             'desc' => [
+                'en' => 'Media Color',
             ],
         ],
     ];

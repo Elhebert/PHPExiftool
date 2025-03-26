@@ -28,13 +28,14 @@ class VariousModes2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Various Modes 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157988
+             * line : 108764
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VariousModes2 extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:VariousModes2',
             'desc' => [
+                'en' => 'Various Modes 2',
             ],
         ],
     ];

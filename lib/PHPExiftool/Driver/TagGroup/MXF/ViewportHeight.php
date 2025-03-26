@@ -28,13 +28,14 @@ class ViewportHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewport Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168374
+             * line : 114869
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewportHeight extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ViewportHeight',
             'desc' => [
+                'en' => 'Viewport Height',
             ],
         ],
     ];

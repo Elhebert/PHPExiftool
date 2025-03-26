@@ -28,13 +28,14 @@ class IsocenterToRangeModulatorDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Range Modulator Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103882
+             * line : 76971
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToRangeModulatorDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToRangeModulatorDistance',
             'desc' => [
+                'en' => 'Isocenter To Range Modulator Distance',
             ],
         ],
     ];

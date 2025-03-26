@@ -28,13 +28,14 @@ class SourceApplicatorWallNomThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Applicator Wall Nom Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103669
+             * line : 76758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceApplicatorWallNomThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceApplicatorWallNomThickness',
             'desc' => [
+                'en' => 'Source Applicator Wall Nom Thickness',
             ],
         ],
     ];

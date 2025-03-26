@@ -28,13 +28,14 @@ class SceneColorimetryEstimates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Colorimetry Estimates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146613
+             * line : 101896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneColorimetryEstimates extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:SceneColorimetryEstimates',
             'desc' => [
+                'en' => 'Scene Colorimetry Estimates',
             ],
         ],
     ];

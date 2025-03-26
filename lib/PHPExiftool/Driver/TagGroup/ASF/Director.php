@@ -28,13 +28,14 @@ class Director extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Director',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1241
+             * line : 541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Director extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Director',
             'desc' => [
+                'en' => 'Director',
             ],
         ],
     ];

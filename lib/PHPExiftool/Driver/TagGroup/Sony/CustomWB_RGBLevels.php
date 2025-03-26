@@ -28,13 +28,14 @@ class CustomWB_RGBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom WB RGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348450
+             * line : 243790
              * type : int16u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class CustomWB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:CustomWB_RGBLevels',
             'desc' => [
+                'en' => 'Custom WB RGB Levels',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350571
+             * line : 244806
              * type : int16uRev
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class CustomWB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:CustomWB_RGBLevels',
             'desc' => [
+                'en' => 'Custom WB RGB Levels',
             ],
         ],
     ];

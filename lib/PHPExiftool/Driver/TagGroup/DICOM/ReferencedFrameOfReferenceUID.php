@@ -28,13 +28,14 @@ class ReferencedFrameOfReferenceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Frame Of Reference UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102546
+             * line : 75645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedFrameOfReferenceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedFrameOfReferenceUID',
             'desc' => [
+                'en' => 'Referenced Frame Of Reference UID',
             ],
         ],
     ];

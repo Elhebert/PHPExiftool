@@ -28,13 +28,14 @@ class MakerNotes0x51 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Notes 0x 51',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197168
+             * line : 133096
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNotes0x51 extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:MakerNotes0x51',
             'desc' => [
+                'en' => 'Maker Notes 0x 51',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TagLanguage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173486
+             * line : 119420
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagLanguage extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TagLanguage',
             'desc' => [
+                'en' => 'Tag Language',
             ],
         ],
     ];

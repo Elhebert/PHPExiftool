@@ -28,13 +28,14 @@ class LookHeadBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Look Head Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::LookHeader
-             * line : 161860
+             * line : 110582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LookHeadBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::LookHeader.Leaf:LookHeadBackType',
             'desc' => [
+                'en' => 'Look Head Back Type',
             ],
         ],
     ];

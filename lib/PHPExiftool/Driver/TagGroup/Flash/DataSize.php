@@ -28,13 +28,14 @@ class DataSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124059
+             * line : 86720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataSize extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:DataSize',
             'desc' => [
+                'en' => 'Data Size',
             ],
         ],
     ];

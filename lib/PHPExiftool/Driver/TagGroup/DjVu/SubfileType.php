@@ -28,13 +28,14 @@ class SubfileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subfile Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Form
-             * line : 107035
+             * line : 79173
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class SubfileType extends AbstractTagGroup
              */
             'id' => 'DjVu::Form.DjVu:SubfileType',
             'desc' => [
+                'en' => 'Subfile Type',
             ],
         ],
     ];

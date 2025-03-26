@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177743
+             * line : 122027
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178849
+             * line : 122475
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179819
+             * line : 122809
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181043
+             * line : 123230
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

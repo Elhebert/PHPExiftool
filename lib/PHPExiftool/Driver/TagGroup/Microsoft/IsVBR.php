@@ -28,13 +28,14 @@ class IsVBR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is VBR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174681
+             * line : 120251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsVBR extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsVBR',
             'desc' => [
+                'en' => 'Is VBR',
             ],
         ],
     ];

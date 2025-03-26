@@ -28,13 +28,14 @@ class WideRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Wide Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336403
+             * line : 235770
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WideRange extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:WideRange',
             'desc' => [
+                'en' => 'Wide Range',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFAssistBeam extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Assist Beam',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3849
+             * line : 2375
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAssistBeam extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFAssistBeam',
             'desc' => [
+                'en' => 'AF Assist Beam',
             ],
         ],
     ];

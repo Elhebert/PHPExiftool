@@ -28,13 +28,14 @@ class PhaseDetectAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Phase Detect AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188360
+             * line : 127532
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhaseDetectAF extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PhaseDetectAF',
             'desc' => [
+                'en' => 'Phase Detect AF',
             ],
         ],
     ];

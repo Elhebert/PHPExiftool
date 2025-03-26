@@ -28,13 +28,14 @@ class TimecodeIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Main
-             * line : 1871
+             * line : 965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeIndex extends AbstractTagGroup
              */
             'id' => 'ASF::Main.ASF:TimecodeIndex',
             'desc' => [
+                'en' => 'Timecode Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlackMaskRightBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Mask Right Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::SensorInfo
-             * line : 70109
+             * line : 52622
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackMaskRightBorder extends AbstractTagGroup
              */
             'id' => 'Canon::SensorInfo.Canon:BlackMaskRightBorder',
             'desc' => [
+                'en' => 'Black Mask Right Border',
             ],
         ],
     ];

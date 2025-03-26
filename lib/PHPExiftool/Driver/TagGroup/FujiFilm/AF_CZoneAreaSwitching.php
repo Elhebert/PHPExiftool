@@ -28,13 +28,14 @@ class AF_CZoneAreaSwitching extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-C Zone Area Switching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::AFCSettings
-             * line : 128324
+             * line : 89014
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_CZoneAreaSwitching extends AbstractTagGroup
              */
             'id' => 'FujiFilm::AFCSettings.FujiFilm:AF-CZoneAreaSwitching',
             'desc' => [
+                'en' => 'AF-C Zone Area Switching',
             ],
         ],
     ];

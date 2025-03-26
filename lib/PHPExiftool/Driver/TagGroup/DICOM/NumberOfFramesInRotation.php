@@ -28,13 +28,14 @@ class NumberOfFramesInRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Frames In Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100862
+             * line : 74022
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFramesInRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFramesInRotation',
             'desc' => [
+                'en' => 'Number Of Frames In Rotation',
             ],
         ],
     ];

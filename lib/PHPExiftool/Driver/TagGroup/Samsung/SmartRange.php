@@ -28,13 +28,14 @@ class SmartRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Smart Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335441
+             * line : 235425
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SmartRange extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:SmartRange',
             'desc' => [
+                'en' => 'Smart Range',
             ],
         ],
     ];

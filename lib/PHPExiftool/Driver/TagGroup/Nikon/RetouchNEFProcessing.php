@@ -28,13 +28,14 @@ class RetouchNEFProcessing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch NEF Processing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::RetouchInfo
-             * line : 205202
+             * line : 137928
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchNEFProcessing extends AbstractTagGroup
              */
             'id' => 'Nikon::RetouchInfo.Nikon:RetouchNEFProcessing',
             'desc' => [
+                'en' => 'Retouch NEF Processing',
             ],
         ],
     ];

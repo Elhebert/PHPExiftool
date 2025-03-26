@@ -28,13 +28,14 @@ class Italic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Italic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128038
+             * line : 88852
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Italic extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:Italic',
             'desc' => [
+                'en' => 'Italic',
             ],
         ],
     ];

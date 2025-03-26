@@ -28,13 +28,14 @@ class CanonFileLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon File Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 64651
+             * line : 48921
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonFileLength extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:CanonFileLength',
             'desc' => [
+                'en' => 'Canon File Length',
             ],
         ],
     ];

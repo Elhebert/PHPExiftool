@@ -28,13 +28,14 @@ class AWBNormVfeC1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Norm Vfe C1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307113
+             * line : 213611
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBNormVfeC1 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBNormVfeC1',
             'desc' => [
+                'en' => 'AWB Norm Vfe C1',
             ],
         ],
     ];

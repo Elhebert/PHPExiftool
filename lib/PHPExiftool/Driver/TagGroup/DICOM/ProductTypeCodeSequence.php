@@ -28,13 +28,14 @@ class ProductTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100520
+             * line : 73692
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProductTypeCodeSequence',
             'desc' => [
+                'en' => 'Product Type Code Sequence',
             ],
         ],
     ];

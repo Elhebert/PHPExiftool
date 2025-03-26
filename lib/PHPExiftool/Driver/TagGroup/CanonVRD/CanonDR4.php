@@ -28,13 +28,14 @@ class CanonDR4 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon DR4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 120979
+             * line : 84952
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonDR4 extends AbstractTagGroup
              */
             'id' => 'Extra.CanonVRD:CanonDR4',
             'desc' => [
+                'en' => 'Canon DR4',
             ],
         ],
     ];

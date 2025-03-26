@@ -28,13 +28,14 @@ class DataScaling extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Scaling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299511
+             * line : 208875
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataScaling extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DataScaling',
             'desc' => [
+                'en' => 'Data Scaling',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChannelID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171781
+             * line : 117970
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ChannelID',
             'desc' => [
+                'en' => 'Channel ID',
             ],
         ],
     ];

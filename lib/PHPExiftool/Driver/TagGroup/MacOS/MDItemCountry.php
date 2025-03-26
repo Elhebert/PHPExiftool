@@ -28,13 +28,14 @@ class MDItemCountry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172642
+             * line : 118775
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemCountry extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemCountry',
             'desc' => [
+                'en' => 'MD Item Country',
             ],
         ],
     ];

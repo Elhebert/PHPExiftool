@@ -28,13 +28,14 @@ class DarkFrameShortExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dark Frame Short Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156137
+             * line : 107348
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DarkFrameShortExposure extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkFrameShortExposure',
             'desc' => [
+                'en' => 'Dark Frame Short Exposure',
             ],
         ],
     ];

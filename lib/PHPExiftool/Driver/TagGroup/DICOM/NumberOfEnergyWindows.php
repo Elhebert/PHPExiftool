@@ -28,13 +28,14 @@ class NumberOfEnergyWindows extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Energy Windows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100799
+             * line : 73959
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfEnergyWindows extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfEnergyWindows',
             'desc' => [
+                'en' => 'Number Of Energy Windows',
             ],
         ],
     ];

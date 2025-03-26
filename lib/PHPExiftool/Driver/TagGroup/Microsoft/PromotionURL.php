@@ -28,13 +28,14 @@ class PromotionURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Promotion URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175184
+             * line : 120636
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PromotionURL extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PromotionURL',
             'desc' => [
+                'en' => 'Promotion URL',
             ],
         ],
     ];

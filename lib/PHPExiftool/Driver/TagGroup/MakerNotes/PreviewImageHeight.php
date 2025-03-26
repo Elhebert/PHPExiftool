@@ -28,13 +28,14 @@ class PreviewImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Flip
-             * line : 313059
+             * line : 218924
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImageHeight extends AbstractTagGroup
              */
             'id' => 'QuickTime::Flip.MakerNotes:PreviewImageHeight',
             'desc' => [
+                'en' => 'Preview Image Height',
             ],
         ],
     ];

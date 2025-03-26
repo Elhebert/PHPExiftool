@@ -28,13 +28,14 @@ class ModeExtension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mode Extension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165817
+             * line : 112756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModeExtension extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:ModeExtension',
             'desc' => [
+                'en' => 'Mode Extension',
             ],
         ],
     ];

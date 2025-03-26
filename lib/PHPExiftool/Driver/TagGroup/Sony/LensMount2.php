@@ -28,13 +28,14 @@ class LensMount2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Mount 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag940c
-             * line : 390376
+             * line : 276115
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensMount2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940c.Sony:LensMount2',
             'desc' => [
+                'en' => 'Lens Mount 2',
             ],
         ],
     ];

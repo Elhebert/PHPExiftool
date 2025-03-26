@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164562
+             * line : 111826
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164927
+             * line : 112089
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

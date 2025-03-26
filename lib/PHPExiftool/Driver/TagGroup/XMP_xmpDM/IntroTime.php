@@ -28,13 +28,14 @@ class IntroTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intro Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413095
+             * line : 291226
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntroTime extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:IntroTime',
             'desc' => [
+                'en' => 'Intro Time',
             ],
         ],
     ];

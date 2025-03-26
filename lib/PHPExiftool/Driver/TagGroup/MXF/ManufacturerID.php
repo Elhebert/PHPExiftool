@@ -28,13 +28,14 @@ class ManufacturerID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturer ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168852
+             * line : 115319
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ManufacturerID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ManufacturerID',
             'desc' => [
+                'en' => 'Manufacturer ID',
             ],
         ],
     ];

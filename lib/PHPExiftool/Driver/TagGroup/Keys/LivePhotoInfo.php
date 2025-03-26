@@ -28,13 +28,14 @@ class LivePhotoInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Live Photo Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323447
+             * line : 228649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LivePhotoInfo extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LivePhotoInfo',
             'desc' => [
+                'en' => 'Live Photo Info',
             ],
         ],
     ];

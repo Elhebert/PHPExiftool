@@ -28,13 +28,14 @@ class RegionPixelShiftSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Pixel Shift Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99234
+             * line : 72453
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionPixelShiftSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegionPixelShiftSequence',
             'desc' => [
+                'en' => 'Region Pixel Shift Sequence',
             ],
         ],
     ];

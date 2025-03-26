@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentDescr
-             * line : 935
+             * line : 369
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Title extends AbstractTagGroup
              */
             'id' => 'ASF::ContentDescr.ASF:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1608
+             * line : 790
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

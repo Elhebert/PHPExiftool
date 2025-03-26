@@ -28,13 +28,14 @@ class ChunkOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chunk Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324425
+             * line : 229215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChunkOffset extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:ChunkOffset',
             'desc' => [
+                'en' => 'Chunk Offset',
             ],
         ],
     ];

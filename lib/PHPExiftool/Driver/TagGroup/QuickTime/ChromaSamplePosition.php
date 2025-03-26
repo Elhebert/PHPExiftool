@@ -28,13 +28,14 @@ class ChromaSamplePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chroma Sample Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310327
+             * line : 216239
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromaSamplePosition extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:ChromaSamplePosition',
             'desc' => [
+                'en' => 'Chroma Sample Position',
             ],
         ],
     ];

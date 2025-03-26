@@ -28,13 +28,14 @@ class CustomWBGreenLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom WB Green Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181430
+             * line : 123434
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomWBGreenLevel extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:CustomWBGreenLevel',
             'desc' => [
+                'en' => 'Custom WB Green Level',
             ],
         ],
     ];

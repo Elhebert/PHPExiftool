@@ -28,13 +28,14 @@ class OverlayPixelDataSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Pixel Data Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102178
+             * line : 75306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayPixelDataSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayPixelDataSequence',
             'desc' => [
+                'en' => 'Overlay Pixel Data Sequence',
             ],
         ],
     ];

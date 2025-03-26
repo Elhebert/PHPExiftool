@@ -28,13 +28,14 @@ class OptionalAttendees extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optional Attendees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175316
+             * line : 120723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OptionalAttendees extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OptionalAttendees',
             'desc' => [
+                'en' => 'Optional Attendees',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImagingServiceRequestComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imaging Service Request Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99917
+             * line : 73119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagingServiceRequestComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagingServiceRequestComments',
             'desc' => [
+                'en' => 'Imaging Service Request Comments',
             ],
         ],
     ];

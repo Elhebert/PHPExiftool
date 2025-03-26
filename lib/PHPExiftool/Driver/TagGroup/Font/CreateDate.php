@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127731
+             * line : 88696
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

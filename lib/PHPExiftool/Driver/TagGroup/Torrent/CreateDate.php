@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Main
-             * line : 395051
+             * line : 279828
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Torrent::Main.Torrent:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

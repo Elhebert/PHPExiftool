@@ -28,13 +28,14 @@ class AppleDataOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Data Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272580
+             * line : 190394
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleDataOffsets extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:AppleDataOffsets',
             'desc' => [
+                'en' => 'Apple Data Offsets',
             ],
         ],
     ];

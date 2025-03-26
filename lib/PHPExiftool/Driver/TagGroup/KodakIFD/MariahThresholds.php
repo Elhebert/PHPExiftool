@@ -28,13 +28,14 @@ class MariahThresholds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mariah Thresholds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156837
+             * line : 108041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MariahThresholds extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MariahThresholds',
             'desc' => [
+                'en' => 'Mariah Thresholds',
             ],
         ],
     ];

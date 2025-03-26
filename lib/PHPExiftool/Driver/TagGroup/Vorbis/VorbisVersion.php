@@ -28,13 +28,14 @@ class VorbisVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vorbis Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Identification
-             * line : 395917
+             * line : 280275
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VorbisVersion extends AbstractTagGroup
              */
             'id' => 'Vorbis::Identification.Vorbis:VorbisVersion',
             'desc' => [
+                'en' => 'Vorbis Version',
             ],
         ],
     ];

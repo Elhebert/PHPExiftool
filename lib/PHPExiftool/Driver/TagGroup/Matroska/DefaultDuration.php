@@ -28,13 +28,14 @@ class DefaultDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173957
+             * line : 119824
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultDuration extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:DefaultDuration',
             'desc' => [
+                'en' => 'Default Duration',
             ],
         ],
     ];

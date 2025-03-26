@@ -28,13 +28,14 @@ class FastPhases extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fast Phases',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97833
+             * line : 71212
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FastPhases extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FastPhases',
             'desc' => [
+                'en' => 'Fast Phases',
             ],
         ],
     ];

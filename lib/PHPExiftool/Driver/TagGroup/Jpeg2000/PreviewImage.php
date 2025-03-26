@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154237
+             * line : 105906
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CommentTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Comment
-             * line : 55
+             * line : 20
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommentTime extends AbstractTagGroup
              */
             'id' => 'AIFF::Comment.AIFF:CommentTime',
             'desc' => [
+                'en' => 'Comment Time',
             ],
         ],
     ];

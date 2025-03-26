@@ -28,13 +28,14 @@ class CipherAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cipher Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172033
+             * line : 118207
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CipherAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CipherAlgorithm',
             'desc' => [
+                'en' => 'Cipher Algorithm',
             ],
         ],
     ];

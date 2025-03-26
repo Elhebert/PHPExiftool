@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90023
+             * line : 65057
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 90031
+             * line : 65060
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         2 => [
             /**
              * table_name : Composite
-             * line : 90552
+             * line : 65221
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         3 => [
             /**
              * table_name : Composite
-             * line : 90747
+             * line : 65272
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         4 => [
             /**
              * table_name : Composite
-             * line : 93739
+             * line : 67857
              * type : ?
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         5 => [
             /**
              * table_name : Composite
-             * line : 93747
+             * line : 67860
              * type : ?
              * writable : false
              * count :
@@ -107,12 +113,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         6 => [
             /**
              * table_name : Composite
-             * line : 93878
+             * line : 67919
              * type : ?
              * writable : false
              * count :
@@ -120,6 +127,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

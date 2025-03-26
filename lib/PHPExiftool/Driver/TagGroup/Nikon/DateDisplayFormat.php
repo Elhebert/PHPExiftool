@@ -28,13 +28,14 @@ class DateDisplayFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Display Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::WorldTime
-             * line : 209682
+             * line : 141382
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateDisplayFormat extends AbstractTagGroup
              */
             'id' => 'Nikon::WorldTime.Nikon:DateDisplayFormat',
             'desc' => [
+                'en' => 'Date Display Format',
             ],
         ],
     ];

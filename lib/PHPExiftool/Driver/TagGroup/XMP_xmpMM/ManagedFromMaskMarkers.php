@@ -28,13 +28,14 @@ class ManagedFromMaskMarkers extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From Mask Markers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414032
+             * line : 292057
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromMaskMarkers extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromMaskMarkers',
             'desc' => [
+                'en' => 'Managed From Mask Markers',
             ],
         ],
     ];

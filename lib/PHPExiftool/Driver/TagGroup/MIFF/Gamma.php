@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164337
+             * line : 111724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

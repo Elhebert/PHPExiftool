@@ -28,13 +28,14 @@ class IndexingStartPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Indexing Start Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171630
+             * line : 117823
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexingStartPosition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IndexingStartPosition',
             'desc' => [
+                'en' => 'Indexing Start Position',
             ],
         ],
     ];

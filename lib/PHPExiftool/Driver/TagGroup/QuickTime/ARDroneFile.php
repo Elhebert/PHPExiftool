@@ -28,13 +28,14 @@ class ARDroneFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AR Drone File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323763
+             * line : 228819
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ARDroneFile extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:ARDroneFile',
             'desc' => [
+                'en' => 'AR Drone File',
             ],
         ],
     ];

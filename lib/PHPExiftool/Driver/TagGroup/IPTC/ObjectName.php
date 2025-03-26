@@ -28,13 +28,14 @@ class ObjectName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149730
+             * line : 103790
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class ObjectName extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ObjectName',
             'desc' => [
+                'en' => 'Object Name',
             ],
         ],
     ];

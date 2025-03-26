@@ -28,13 +28,14 @@ class ISOValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258379
+             * line : 178524
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOValue extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ISOValue',
             'desc' => [
+                'en' => 'ISO Value',
             ],
         ],
     ];

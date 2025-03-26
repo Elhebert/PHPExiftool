@@ -28,13 +28,14 @@ class NEFBitDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'NEF Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199618
+             * line : 134653
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class NEFBitDepth extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NEFBitDepth',
             'desc' => [
+                'en' => 'NEF Bit Depth',
             ],
         ],
     ];

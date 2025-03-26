@@ -28,13 +28,14 @@ class ShimName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shim Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168618
+             * line : 115106
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShimName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShimName',
             'desc' => [
+                'en' => 'Shim Name',
             ],
         ],
     ];

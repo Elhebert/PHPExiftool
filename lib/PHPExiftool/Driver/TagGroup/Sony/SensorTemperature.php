@@ -28,13 +28,14 @@ class SensorTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PIC
-             * line : 361213
+             * line : 251688
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
     ];

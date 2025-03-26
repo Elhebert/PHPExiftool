@@ -28,13 +28,14 @@ class SetButtonWhenShooting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Set Button When Shooting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71309
+             * line : 53200
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74734
+             * line : 55122
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74785
+             * line : 55148
              * type : int32s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74828
+             * line : 55171
              * type : int32s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74874
+             * line : 55194
              * type : int32s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74916
+             * line : 55217
              * type : int32s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         6 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74954
+             * line : 55237
              * type : int32s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         7 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74998
+             * line : 55260
              * type : int32s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         8 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75006
+             * line : 55265
              * type : int32s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
         9 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78168
+             * line : 56924
              * type : int8u
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class SetButtonWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:SetButtonWhenShooting',
             'desc' => [
+                'en' => 'Set Button When Shooting',
             ],
         ],
     ];

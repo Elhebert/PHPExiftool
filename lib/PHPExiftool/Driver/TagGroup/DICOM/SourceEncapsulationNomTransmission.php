@@ -28,13 +28,14 @@ class SourceEncapsulationNomTransmission extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Encapsulation Nom Transmission',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103555
+             * line : 76647
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceEncapsulationNomTransmission extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceEncapsulationNomTransmission',
             'desc' => [
+                'en' => 'Source Encapsulation Nom Transmission',
             ],
         ],
     ];

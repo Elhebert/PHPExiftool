@@ -28,13 +28,14 @@ class LengthSystemName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Length System Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167613
+             * line : 114224
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LengthSystemName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LengthSystemName',
             'desc' => [
+                'en' => 'Length System Name',
             ],
         ],
     ];

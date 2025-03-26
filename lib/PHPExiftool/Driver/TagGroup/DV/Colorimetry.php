@@ -28,13 +28,14 @@ class Colorimetry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorimetry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 105960
+             * line : 78412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Colorimetry extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:Colorimetry',
             'desc' => [
+                'en' => 'Colorimetry',
             ],
         ],
     ];

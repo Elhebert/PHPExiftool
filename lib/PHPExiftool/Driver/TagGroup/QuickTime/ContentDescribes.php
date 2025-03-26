@@ -28,13 +28,14 @@ class ContentDescribes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Describes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemRef
-             * line : 323242
+             * line : 228558
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentDescribes extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemRef.QuickTime:ContentDescribes',
             'desc' => [
+                'en' => 'Content Describes',
             ],
         ],
     ];

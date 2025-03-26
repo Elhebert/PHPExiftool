@@ -28,13 +28,14 @@ class NumberOfTriggers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Triggers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97470
+             * line : 70858
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTriggers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTriggers',
             'desc' => [
+                'en' => 'Number Of Triggers',
             ],
         ],
     ];

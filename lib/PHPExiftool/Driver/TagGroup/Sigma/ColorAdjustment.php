@@ -28,13 +28,14 @@ class ColorAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337371
+             * line : 236090
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorAdjustment extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ColorAdjustment',
             'desc' => [
+                'en' => 'Color Adjustment',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337380
+             * line : 236093
              * type : rational64s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class ColorAdjustment extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ColorAdjustment',
             'desc' => [
+                'en' => 'Color Adjustment',
             ],
         ],
     ];

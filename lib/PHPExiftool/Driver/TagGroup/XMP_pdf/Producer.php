@@ -28,13 +28,14 @@ class Producer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pdf
-             * line : 410021
+             * line : 289702
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Producer extends AbstractTagGroup
              */
             'id' => 'XMP::pdf.XMP-pdf:Producer',
             'desc' => [
+                'en' => 'Producer',
             ],
         ],
     ];

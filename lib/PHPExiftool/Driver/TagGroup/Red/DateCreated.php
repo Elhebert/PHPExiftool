@@ -28,13 +28,14 @@ class DateCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331426
+             * line : 233016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateCreated extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:DateCreated',
             'desc' => [
+                'en' => 'Date Created',
             ],
         ],
     ];

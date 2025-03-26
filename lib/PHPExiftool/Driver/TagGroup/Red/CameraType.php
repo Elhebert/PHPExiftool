@@ -28,13 +28,14 @@ class CameraType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331408
+             * line : 233007
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
     ];

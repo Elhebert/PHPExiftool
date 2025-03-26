@@ -28,13 +28,14 @@ class HistoryBufferSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'History Buffer Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161033
+             * line : 109961
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistoryBufferSize extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:HistoryBufferSize',
             'desc' => [
+                'en' => 'History Buffer Size',
             ],
         ],
     ];

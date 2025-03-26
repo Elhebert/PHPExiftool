@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177706
+             * line : 122019
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178867
+             * line : 122478
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179837
+             * line : 122812
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181080
+             * line : 123238
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Rights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273492
+             * line : 190730
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rights extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Rights',
             'desc' => [
+                'en' => 'Rights',
             ],
         ],
     ];

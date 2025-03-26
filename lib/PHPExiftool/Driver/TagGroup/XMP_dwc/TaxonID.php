@@ -28,13 +28,14 @@ class TaxonID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106826
+             * line : 79016
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonID',
             'desc' => [
+                'en' => 'Taxon ID',
             ],
         ],
     ];

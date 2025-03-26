@@ -28,13 +28,14 @@ class FlagColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flag Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176012
+             * line : 121098
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlagColor extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FlagColor',
             'desc' => [
+                'en' => 'Flag Color',
             ],
         ],
     ];

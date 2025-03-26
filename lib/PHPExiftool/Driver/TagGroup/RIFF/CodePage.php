@@ -28,13 +28,14 @@ class CodePage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::CSET
-             * line : 327815
+             * line : 231371
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodePage extends AbstractTagGroup
              */
             'id' => 'RIFF::CSET.RIFF:CodePage',
             'desc' => [
+                'en' => 'Code Page',
             ],
         ],
     ];

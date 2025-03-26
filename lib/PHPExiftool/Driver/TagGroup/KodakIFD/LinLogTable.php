@@ -28,13 +28,14 @@ class LinLogTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lin Log Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155313
+             * line : 106529
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinLogTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LinLogTable',
             'desc' => [
+                'en' => 'Lin Log Table',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412743
+             * line : 290972
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

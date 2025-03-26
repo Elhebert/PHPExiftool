@@ -28,13 +28,14 @@ class PostalTown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Postal Town',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168432
+             * line : 114926
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PostalTown extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PostalTown',
             'desc' => [
+                'en' => 'Postal Town',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170493
+             * line : 116736
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PostalTown extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PostalTown',
             'desc' => [
+                'en' => 'Postal Town',
             ],
         ],
     ];

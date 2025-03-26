@@ -28,13 +28,14 @@ class TotalEditTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Edit Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127204
+             * line : 88303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalEditTime extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:TotalEditTime',
             'desc' => [
+                'en' => 'Total Edit Time',
             ],
         ],
     ];

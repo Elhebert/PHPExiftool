@@ -28,13 +28,14 @@ class Pitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Main
-             * line : 104517
+             * line : 77570
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'DJI::Main.DJI:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
     ];

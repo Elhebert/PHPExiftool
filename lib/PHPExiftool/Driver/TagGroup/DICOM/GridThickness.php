@@ -28,13 +28,14 @@ class GridThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96469
+             * line : 69877
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridThickness',
             'desc' => [
+                'en' => 'Grid Thickness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaOriginalChannel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Original Channel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396149
+             * line : 280445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaOriginalChannel extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaOriginalChannel',
             'desc' => [
+                'en' => 'Media Original Channel',
             ],
         ],
     ];

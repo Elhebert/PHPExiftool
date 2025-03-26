@@ -28,13 +28,14 @@ class JPEG_HEIFSwitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'JPEG-HEIF Switch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355936
+             * line : 248305
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JPEG_HEIFSwitch extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:JPEG-HEIFSwitch',
             'desc' => [
+                'en' => 'JPEG-HEIF Switch',
             ],
         ],
     ];

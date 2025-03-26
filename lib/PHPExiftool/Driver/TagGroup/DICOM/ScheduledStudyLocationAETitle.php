@@ -28,13 +28,14 @@ class ScheduledStudyLocationAETitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Study Location AE Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99338
+             * line : 72555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledStudyLocationAETitle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledStudyLocationAETitle',
             'desc' => [
+                'en' => 'Scheduled Study Location AE Title',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AEBracketingSteps extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Bracketing Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206416
+             * line : 138738
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AEBracketingSteps extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.Nikon:AEBracketingSteps',
             'desc' => [
+                'en' => 'AE Bracketing Steps',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207150
+             * line : 139368
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AEBracketingSteps extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:AEBracketingSteps',
             'desc' => [
+                'en' => 'AE Bracketing Steps',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208638
+             * line : 140539
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AEBracketingSteps extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:AEBracketingSteps',
             'desc' => [
+                'en' => 'AE Bracketing Steps',
             ],
         ],
     ];

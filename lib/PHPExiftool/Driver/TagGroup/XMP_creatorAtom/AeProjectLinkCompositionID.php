@@ -28,13 +28,14 @@ class AeProjectLinkCompositionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ae Project Link Composition ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401456
+             * line : 284719
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AeProjectLinkCompositionID extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkCompositionID',
             'desc' => [
+                'en' => 'Ae Project Link Composition ID',
             ],
         ],
     ];

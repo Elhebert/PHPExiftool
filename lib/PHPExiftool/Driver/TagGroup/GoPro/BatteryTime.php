@@ -28,13 +28,14 @@ class BatteryTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::KBAT
-             * line : 140016
+             * line : 97886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BatteryTime extends AbstractTagGroup
              */
             'id' => 'GoPro::KBAT.GoPro:BatteryTime',
             'desc' => [
+                'en' => 'Battery Time',
             ],
         ],
     ];

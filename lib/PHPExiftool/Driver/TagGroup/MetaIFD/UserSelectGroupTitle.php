@@ -28,13 +28,14 @@ class UserSelectGroupTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Select Group Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158402
+             * line : 108904
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserSelectGroupTitle extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:UserSelectGroupTitle',
             'desc' => [
+                'en' => 'User Select Group Title',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TextColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TCMediaInfo
-             * line : 324993
+             * line : 229461
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class TextColor extends AbstractTagGroup
              */
             'id' => 'QuickTime::TCMediaInfo.QuickTime:TextColor',
             'desc' => [
+                'en' => 'Text Color',
             ],
         ],
     ];

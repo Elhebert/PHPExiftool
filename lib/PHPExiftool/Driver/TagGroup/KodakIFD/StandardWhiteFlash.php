@@ -28,13 +28,14 @@ class StandardWhiteFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard White Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155165
+             * line : 106415
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class StandardWhiteFlash extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:StandardWhiteFlash',
             'desc' => [
+                'en' => 'Standard White Flash',
             ],
         ],
     ];

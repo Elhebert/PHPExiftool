@@ -28,13 +28,14 @@ class Func2Button extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Func 2 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219488
+             * line : 147807
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Func2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:Func2Button',
             'desc' => [
+                'en' => 'Func 2 Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221948
+             * line : 149849
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Func2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:Func2Button',
             'desc' => [
+                'en' => 'Func 2 Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233878
+             * line : 157697
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Func2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:Func2Button',
             'desc' => [
+                'en' => 'Func 2 Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 236194
+             * line : 159324
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class Func2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:Func2Button',
             'desc' => [
+                'en' => 'Func 2 Button',
             ],
         ],
     ];

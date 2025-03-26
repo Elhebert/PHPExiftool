@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175204
+             * line : 120651
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175953
+             * line : 121074
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

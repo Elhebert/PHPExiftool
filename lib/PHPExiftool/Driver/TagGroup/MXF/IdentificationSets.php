@@ -28,13 +28,14 @@ class IdentificationSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identification Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171507
+             * line : 117706
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentificationSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdentificationSets',
             'desc' => [
+                'en' => 'Identification Sets',
             ],
         ],
     ];

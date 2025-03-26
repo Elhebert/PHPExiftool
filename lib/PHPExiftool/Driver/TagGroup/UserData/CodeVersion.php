@@ -28,13 +28,14 @@ class CodeVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Code Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325447
+             * line : 229703
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CodeVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CodeVersion',
             'desc' => [
+                'en' => 'Code Version',
             ],
         ],
     ];

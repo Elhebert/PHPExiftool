@@ -28,13 +28,14 @@ class LensesCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lenses Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98367
+             * line : 71701
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensesCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LensesCodeSequence',
             'desc' => [
+                'en' => 'Lenses Code Sequence',
             ],
         ],
     ];

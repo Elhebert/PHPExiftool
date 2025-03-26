@@ -28,13 +28,14 @@ class GeneralAccessoryType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'General Accessory Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103945
+             * line : 77034
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneralAccessoryType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeneralAccessoryType',
             'desc' => [
+                'en' => 'General Accessory Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensProfileDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399495
+             * line : 283002
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileDigest extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LensProfileDigest',
             'desc' => [
+                'en' => 'Lens Profile Digest',
             ],
         ],
     ];

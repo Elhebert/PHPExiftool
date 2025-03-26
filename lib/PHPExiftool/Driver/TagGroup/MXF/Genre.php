@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167635
+             * line : 114245
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170124
+             * line : 116436
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

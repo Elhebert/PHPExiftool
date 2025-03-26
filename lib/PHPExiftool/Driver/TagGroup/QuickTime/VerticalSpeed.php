@@ -28,13 +28,14 @@ class VerticalSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324936
+             * line : 229411
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalSpeed extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:VerticalSpeed',
             'desc' => [
+                'en' => 'Vertical Speed',
             ],
         ],
     ];

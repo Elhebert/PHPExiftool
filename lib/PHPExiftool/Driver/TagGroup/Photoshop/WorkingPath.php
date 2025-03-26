@@ -28,13 +28,14 @@ class WorkingPath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Working Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305470
+             * line : 212260
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WorkingPath extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:WorkingPath',
             'desc' => [
+                'en' => 'Working Path',
             ],
         ],
     ];

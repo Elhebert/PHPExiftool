@@ -28,13 +28,14 @@ class MeasurementDeterminedBy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measurement Determined By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106457
+             * line : 78740
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasurementDeterminedBy extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MeasurementDeterminedBy',
             'desc' => [
+                'en' => 'Measurement Determined By',
             ],
         ],
     ];

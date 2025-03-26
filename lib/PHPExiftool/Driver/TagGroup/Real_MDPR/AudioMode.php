@@ -28,13 +28,14 @@ class AudioMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330357
+             * line : 232456
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioMode extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:AudioMode',
             'desc' => [
+                'en' => 'Audio Mode',
             ],
         ],
     ];

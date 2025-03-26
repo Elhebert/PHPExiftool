@@ -28,13 +28,14 @@ class LightPathFilterTypeStackCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Light Path Filter Type Stack Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98361
+             * line : 71695
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightPathFilterTypeStackCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LightPathFilterTypeStackCodeSeq',
             'desc' => [
+                'en' => 'Light Path Filter Type Stack Code Seq',
             ],
         ],
     ];

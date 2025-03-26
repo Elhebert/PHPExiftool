@@ -28,13 +28,14 @@ class ShootingInfoDisplay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shooting Info Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244804
+             * line : 167594
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ShootingInfoDisplay extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ShootingInfoDisplay',
             'desc' => [
+                'en' => 'Shooting Info Display',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244836
+             * line : 167608
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ShootingInfoDisplay extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ShootingInfoDisplay',
             'desc' => [
+                'en' => 'Shooting Info Display',
             ],
         ],
     ];

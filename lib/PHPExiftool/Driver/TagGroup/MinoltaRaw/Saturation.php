@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 186840
+             * line : 126922
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

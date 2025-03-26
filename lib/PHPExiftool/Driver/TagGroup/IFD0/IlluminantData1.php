@@ -28,13 +28,14 @@ class IlluminantData1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Illuminant Data 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120750
+             * line : 84873
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IlluminantData1 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:IlluminantData1',
             'desc' => [
+                'en' => 'Illuminant Data 1',
             ],
         ],
     ];

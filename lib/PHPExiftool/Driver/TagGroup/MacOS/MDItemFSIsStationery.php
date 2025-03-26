@@ -28,13 +28,14 @@ class MDItemFSIsStationery extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Is Stationery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172734
+             * line : 118844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSIsStationery extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSIsStationery',
             'desc' => [
+                'en' => 'MD Item FS Is Stationery',
             ],
         ],
     ];

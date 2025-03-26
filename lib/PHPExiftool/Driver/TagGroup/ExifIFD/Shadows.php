@@ -28,13 +28,14 @@ class Shadows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120880
+             * line : 84921
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Shadows extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Shadows',
             'desc' => [
+                'en' => 'Shadows',
             ],
         ],
     ];

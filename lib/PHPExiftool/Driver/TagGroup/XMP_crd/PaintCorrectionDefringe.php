@@ -28,13 +28,14 @@ class PaintCorrectionDefringe extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Defringe',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400489
+             * line : 283976
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionDefringe extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionDefringe',
             'desc' => [
+                'en' => 'Paint Correction Defringe',
             ],
         ],
     ];

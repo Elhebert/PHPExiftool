@@ -28,13 +28,14 @@ class ASF3NoiseFilterA12 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF3 Noise Filter A12',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306711
+             * line : 213209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF3NoiseFilterA12 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF3NoiseFilterA12',
             'desc' => [
+                'en' => 'ASF3 Noise Filter A12',
             ],
         ],
     ];

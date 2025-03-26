@@ -28,13 +28,14 @@ class FlightPitchDegree extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flight Pitch Degree',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104629
+             * line : 77665
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlightPitchDegree extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:FlightPitchDegree',
             'desc' => [
+                'en' => 'Flight Pitch Degree',
             ],
         ],
     ];

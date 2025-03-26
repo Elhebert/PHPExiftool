@@ -28,13 +28,14 @@ class VBIWrappingType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBI Wrapping Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172187
+             * line : 118354
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBIWrappingType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VBIWrappingType',
             'desc' => [
+                'en' => 'VBI Wrapping Type',
             ],
         ],
     ];

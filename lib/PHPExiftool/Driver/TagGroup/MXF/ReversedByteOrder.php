@@ -28,13 +28,14 @@ class ReversedByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reversed Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171088
+             * line : 117309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReversedByteOrder extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ReversedByteOrder',
             'desc' => [
+                'en' => 'Reversed Byte Order',
             ],
         ],
     ];

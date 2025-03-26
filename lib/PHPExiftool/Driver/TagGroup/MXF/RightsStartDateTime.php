@@ -28,13 +28,14 @@ class RightsStartDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights Start Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170968
+             * line : 117195
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RightsStartDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsStartDateTime',
             'desc' => [
+                'en' => 'Rights Start Date Time',
             ],
         ],
     ];

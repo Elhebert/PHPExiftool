@@ -28,13 +28,14 @@ class RawDataByteOrder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Data Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335233
+             * line : 235276
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDataByteOrder extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:RawDataByteOrder',
             'desc' => [
+                'en' => 'Raw Data Byte Order',
             ],
         ],
     ];

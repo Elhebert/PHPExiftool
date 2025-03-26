@@ -28,13 +28,14 @@ class VideoScanType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Scan Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173229
+             * line : 119230
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoScanType extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:VideoScanType',
             'desc' => [
+                'en' => 'Video Scan Type',
             ],
         ],
     ];

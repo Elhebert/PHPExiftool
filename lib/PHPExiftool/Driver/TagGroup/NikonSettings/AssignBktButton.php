@@ -28,13 +28,14 @@ class AssignBktButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Assign Bkt Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244367
+             * line : 167236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
     ];

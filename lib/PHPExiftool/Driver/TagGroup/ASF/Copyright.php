@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentDescr
-             * line : 971
+             * line : 375
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'ASF::ContentDescr.ASF:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1150
+             * line : 475
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

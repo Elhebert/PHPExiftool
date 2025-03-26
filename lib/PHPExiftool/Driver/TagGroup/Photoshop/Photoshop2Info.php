@@ -28,13 +28,14 @@ class Photoshop2Info extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Photoshop 2 Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305366
+             * line : 212191
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Photoshop2Info extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:Photoshop2Info',
             'desc' => [
+                'en' => 'Photoshop 2 Info',
             ],
         ],
     ];

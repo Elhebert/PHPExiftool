@@ -28,13 +28,14 @@ class ArtFilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Art Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252525
+             * line : 174039
              * type : int16u
              * writable : true
              * count : 20
@@ -42,6 +43,7 @@ class ArtFilterEffect extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ArtFilterEffect',
             'desc' => [
+                'en' => 'Art Filter Effect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355998
+             * line : 248367
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class FileFormat extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FileFormat',
             'desc' => [
+                'en' => 'File Format',
             ],
         ],
     ];

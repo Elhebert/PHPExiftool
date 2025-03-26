@@ -28,13 +28,14 @@ class Metering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217096
+             * line : 145889
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Metering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:Metering',
             'desc' => [
+                'en' => 'Metering',
             ],
         ],
     ];

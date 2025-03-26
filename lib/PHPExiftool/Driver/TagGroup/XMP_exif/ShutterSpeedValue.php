@@ -28,13 +28,14 @@ class ShutterSpeedValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408168
+             * line : 288480
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedValue extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ShutterSpeedValue',
             'desc' => [
+                'en' => 'Shutter Speed Value',
             ],
         ],
     ];

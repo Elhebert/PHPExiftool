@@ -28,13 +28,14 @@ class SeekTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seek Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Main
-             * line : 121750
+             * line : 85333
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeekTable extends AbstractTagGroup
              */
             'id' => 'FLAC::Main.FLAC:SeekTable',
             'desc' => [
+                'en' => 'Seek Table',
             ],
         ],
     ];

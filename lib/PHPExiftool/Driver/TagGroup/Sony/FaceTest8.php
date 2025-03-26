@@ -28,13 +28,14 @@ class FaceTest8 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Test 8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FaceInfoA
-             * line : 352801
+             * line : 246316
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceTest8 extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfoA.Sony:FaceTest8',
             'desc' => [
+                'en' => 'Face Test 8',
             ],
         ],
     ];

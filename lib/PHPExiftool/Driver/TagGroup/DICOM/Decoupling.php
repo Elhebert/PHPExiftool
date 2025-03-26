@@ -28,13 +28,14 @@ class Decoupling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decoupling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96650
+             * line : 70054
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Decoupling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Decoupling',
             'desc' => [
+                'en' => 'Decoupling',
             ],
         ],
     ];

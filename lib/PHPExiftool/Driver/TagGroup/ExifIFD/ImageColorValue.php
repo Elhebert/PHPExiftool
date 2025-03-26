@@ -28,13 +28,14 @@ class ImageColorValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Color Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113338
+             * line : 82419
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageColorValue extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageColorValue',
             'desc' => [
+                'en' => 'Image Color Value',
             ],
         ],
     ];

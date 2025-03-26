@@ -28,13 +28,14 @@ class ReferencedPrintJobSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Print Job Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102270
+             * line : 75372
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ReferencedPrintJobSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedPrintJobSequence',
             'desc' => [
+                'en' => 'Referenced Print Job Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 102293
+             * line : 75393
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ReferencedPrintJobSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedPrintJobSequence',
             'desc' => [
+                'en' => 'Referenced Print Job Sequence',
             ],
         ],
     ];

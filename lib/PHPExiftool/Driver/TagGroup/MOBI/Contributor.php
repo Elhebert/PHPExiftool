@@ -28,13 +28,14 @@ class Contributor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contributor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273486
+             * line : 190727
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Contributor extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Contributor',
             'desc' => [
+                'en' => 'Contributor',
             ],
         ],
     ];

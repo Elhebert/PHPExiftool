@@ -28,13 +28,14 @@ class ClipID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clip ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325391
+             * line : 229685
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ClipID extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ClipID',
             'desc' => [
+                'en' => 'Clip ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class XPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'X Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111058
+             * line : 81552
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XPosition extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:XPosition',
             'desc' => [
+                'en' => 'X Position',
             ],
         ],
     ];

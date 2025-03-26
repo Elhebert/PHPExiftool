@@ -28,13 +28,14 @@ class CodePage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleFEData
-             * line : 161048
+             * line : 109974
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodePage extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleFEData.LNK:CodePage',
             'desc' => [
+                'en' => 'Code Page',
             ],
         ],
     ];

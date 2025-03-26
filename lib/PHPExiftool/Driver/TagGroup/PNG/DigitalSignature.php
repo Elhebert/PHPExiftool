@@ -28,13 +28,14 @@ class DigitalSignature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272538
+             * line : 190370
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignature extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:DigitalSignature',
             'desc' => [
+                'en' => 'Digital Signature',
             ],
         ],
     ];

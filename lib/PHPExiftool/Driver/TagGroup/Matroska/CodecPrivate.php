@@ -28,13 +28,14 @@ class CodecPrivate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Private',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173748
+             * line : 119649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecPrivate extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CodecPrivate',
             'desc' => [
+                'en' => 'Codec Private',
             ],
         ],
     ];

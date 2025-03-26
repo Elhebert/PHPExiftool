@@ -28,13 +28,14 @@ class DiscPartitionCapacity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Disc Partition Capacity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170308
+             * line : 116583
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiscPartitionCapacity extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DiscPartitionCapacity',
             'desc' => [
+                'en' => 'Disc Partition Capacity',
             ],
         ],
     ];

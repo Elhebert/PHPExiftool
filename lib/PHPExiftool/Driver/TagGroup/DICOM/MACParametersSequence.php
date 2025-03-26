@@ -28,13 +28,14 @@ class MACParametersSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MAC Parameters Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104149
+             * line : 77235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MACParametersSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MACParametersSequence',
             'desc' => [
+                'en' => 'MAC Parameters Sequence',
             ],
         ],
     ];

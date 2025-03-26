@@ -28,13 +28,14 @@ class LowestBiostratigraphicZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lowest Biostratigraphic Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106221
+             * line : 78563
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LowestBiostratigraphicZone extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LowestBiostratigraphicZone',
             'desc' => [
+                'en' => 'Lowest Biostratigraphic Zone',
             ],
         ],
     ];

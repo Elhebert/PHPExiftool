@@ -28,13 +28,14 @@ class KeratometricPower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keratometric Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100709
+             * line : 73878
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeratometricPower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:KeratometricPower',
             'desc' => [
+                'en' => 'Keratometric Power',
             ],
         ],
     ];

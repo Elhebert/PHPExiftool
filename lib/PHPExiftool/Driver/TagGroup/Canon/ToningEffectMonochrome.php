@@ -28,13 +28,14 @@ class ToningEffectMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34674
+             * line : 26584
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningEffectMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ToningEffectMonochrome',
             'desc' => [
+                'en' => 'Toning Effect Monochrome',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67540
+             * line : 51192
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ToningEffectMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ToningEffectMonochrome',
             'desc' => [
+                'en' => 'Toning Effect Monochrome',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68638
+             * line : 51853
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ToningEffectMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ToningEffectMonochrome',
             'desc' => [
+                'en' => 'Toning Effect Monochrome',
             ],
         ],
     ];

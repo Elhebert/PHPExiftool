@@ -28,13 +28,14 @@ class CCDVideoRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CCD Video Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161675
+             * line : 110440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CCDVideoRect extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CCDVideoRect',
             'desc' => [
+                'en' => 'CCD Video Rect',
             ],
         ],
     ];

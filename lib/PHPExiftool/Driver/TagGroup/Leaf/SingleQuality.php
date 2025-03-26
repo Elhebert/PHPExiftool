@@ -28,13 +28,14 @@ class SingleQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Single Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureSetup
-             * line : 161767
+             * line : 110516
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SingleQuality extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureSetup.Leaf:SingleQuality',
             'desc' => [
+                'en' => 'Single Quality',
             ],
         ],
     ];

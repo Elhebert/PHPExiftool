@@ -28,13 +28,14 @@ class FinalCumulativeTimeWeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Final Cumulative Time Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103702
+             * line : 76791
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FinalCumulativeTimeWeight extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FinalCumulativeTimeWeight',
             'desc' => [
+                'en' => 'Final Cumulative Time Weight',
             ],
         ],
     ];

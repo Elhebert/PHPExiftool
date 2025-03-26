@@ -28,13 +28,14 @@ class ReferencedMeasuredDoseReferenceNum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Measured Dose Reference Num',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102807
+             * line : 75903
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedMeasuredDoseReferenceNum extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedMeasuredDoseReferenceNum',
             'desc' => [
+                'en' => 'Referenced Measured Dose Reference Num',
             ],
         ],
     ];

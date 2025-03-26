@@ -28,13 +28,14 @@ class CameraName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraProfile
-             * line : 161586
+             * line : 110390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraName extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraProfile.Leaf:CameraName',
             'desc' => [
+                'en' => 'Camera Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CFAOffsetCols extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Offset Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156095
+             * line : 107306
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAOffsetCols extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CFAOffsetCols',
             'desc' => [
+                'en' => 'CFA Offset Cols',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HintFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hint Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintSampleDesc
-             * line : 313740
+             * line : 219482
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class HintFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintSampleDesc.QuickTime:HintFormat',
             'desc' => [
+                'en' => 'Hint Format',
             ],
         ],
     ];

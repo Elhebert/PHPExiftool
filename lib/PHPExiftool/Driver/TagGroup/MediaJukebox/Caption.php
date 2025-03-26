@@ -28,13 +28,14 @@ class Caption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Caption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::MediaJukebox
-             * line : 152707
+             * line : 105078
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Caption extends AbstractTagGroup
              */
             'id' => 'JPEG::MediaJukebox.MediaJukebox:Caption',
             'desc' => [
+                'en' => 'Caption',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TypeOfReceiverUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type Of Receiver Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100315
+             * line : 73488
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TypeOfReceiverUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TypeOfReceiverUsed',
             'desc' => [
+                'en' => 'Type Of Receiver Used',
             ],
         ],
     ];

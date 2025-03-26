@@ -28,13 +28,14 @@ class SpecificAbsorptionRateValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specific Absorption Rate Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96856
+             * line : 70258
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecificAbsorptionRateValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecificAbsorptionRateValue',
             'desc' => [
+                'en' => 'Specific Absorption Rate Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToneObjBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Obj Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ToneCurve
-             * line : 162113
+             * line : 110793
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneObjBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::ToneCurve.Leaf:ToneObjBackType',
             'desc' => [
+                'en' => 'Tone Obj Back Type',
             ],
         ],
     ];

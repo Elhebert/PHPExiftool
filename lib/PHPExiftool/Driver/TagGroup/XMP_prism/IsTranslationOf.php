@@ -28,13 +28,14 @@ class IsTranslationOf extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Is Translation Of',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410908
+             * line : 290163
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IsTranslationOf extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:IsTranslationOf',
             'desc' => [
+                'en' => 'Is Translation Of',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OrganizationalProgramNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organizational Program Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169791
+             * line : 116145
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OrganizationalProgramNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationalProgramNumber',
             'desc' => [
+                'en' => 'Organizational Program Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169794
+             * line : 116148
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OrganizationalProgramNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationalProgramNumber',
             'desc' => [
+                'en' => 'Organizational Program Number',
             ],
         ],
     ];

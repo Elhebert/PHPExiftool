@@ -28,13 +28,14 @@ class StoredANCLineNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stored ANC Line Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172199
+             * line : 118366
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StoredANCLineNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StoredANCLineNumber',
             'desc' => [
+                'en' => 'Stored ANC Line Number',
             ],
         ],
     ];

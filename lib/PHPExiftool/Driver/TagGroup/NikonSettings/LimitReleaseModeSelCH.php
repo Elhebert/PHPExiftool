@@ -28,13 +28,14 @@ class LimitReleaseModeSelCH extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit Release Mode Sel CH',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247892
+             * line : 170580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitReleaseModeSelCH extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitReleaseModeSelCH',
             'desc' => [
+                'en' => 'Limit Release Mode Sel CH',
             ],
         ],
     ];

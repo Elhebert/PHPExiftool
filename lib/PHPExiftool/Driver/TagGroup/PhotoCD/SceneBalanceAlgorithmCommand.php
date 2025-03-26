@@ -28,13 +28,14 @@ class SceneBalanceAlgorithmCommand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Balance Algorithm Command',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303830
+             * line : 211065
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneBalanceAlgorithmCommand extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:SceneBalanceAlgorithmCommand',
             'desc' => [
+                'en' => 'Scene Balance Algorithm Command',
             ],
         ],
     ];

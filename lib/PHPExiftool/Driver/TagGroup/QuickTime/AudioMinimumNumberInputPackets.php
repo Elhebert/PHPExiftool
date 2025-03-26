@@ -28,13 +28,14 @@ class AudioMinimumNumberInputPackets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Minimum Number Input Packets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312664
+             * line : 218536
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioMinimumNumberInputPackets extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioMinimumNumberInputPackets',
             'desc' => [
+                'en' => 'Audio Minimum Number Input Packets',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DTCPIPPort extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DTCPIP Port',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174581
+             * line : 120212
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DTCPIPPort extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DTCPIPPort',
             'desc' => [
+                'en' => 'DTCPIP Port',
             ],
         ],
     ];

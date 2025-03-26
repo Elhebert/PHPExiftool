@@ -28,13 +28,14 @@ class AutoWhiteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto White Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398212
+             * line : 281840
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoWhiteVersion extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:AutoWhiteVersion',
             'desc' => [
+                'en' => 'Auto White Version',
             ],
         ],
     ];

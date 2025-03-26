@@ -28,13 +28,14 @@ class FocusContinuous extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Continuous',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58550
+             * line : 45563
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusContinuous extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:FocusContinuous',
             'desc' => [
+                'en' => 'Focus Continuous',
             ],
         ],
     ];

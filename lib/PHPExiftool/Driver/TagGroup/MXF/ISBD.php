@@ -28,13 +28,14 @@ class ISBD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISBD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167287
+             * line : 113919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISBD extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISBD',
             'desc' => [
+                'en' => 'ISBD',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ManualAFPointSelPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual AF Point Sel Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3947
+             * line : 2470
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualAFPointSelPattern extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:ManualAFPointSelPattern',
             'desc' => [
+                'en' => 'Manual AF Point Sel Pattern',
             ],
         ],
     ];

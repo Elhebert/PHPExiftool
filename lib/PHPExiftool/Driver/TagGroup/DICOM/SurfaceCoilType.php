@@ -28,13 +28,14 @@ class SurfaceCoilType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Coil Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97643
+             * line : 71026
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceCoilType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceCoilType',
             'desc' => [
+                'en' => 'Surface Coil Type',
             ],
         ],
     ];

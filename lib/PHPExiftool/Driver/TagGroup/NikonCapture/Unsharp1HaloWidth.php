@@ -28,13 +28,14 @@ class Unsharp1HaloWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unsharp 1 Halo Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::UnsharpData
-             * line : 211357
+             * line : 142099
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Unsharp1HaloWidth extends AbstractTagGroup
              */
             'id' => 'NikonCapture::UnsharpData.NikonCapture:Unsharp1HaloWidth',
             'desc' => [
+                'en' => 'Unsharp 1 Halo Width',
             ],
         ],
     ];

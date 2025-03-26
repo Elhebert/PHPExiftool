@@ -28,13 +28,14 @@ class ColorGradeGlobalSat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Global Sat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398718
+             * line : 282323
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeGlobalSat extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ColorGradeGlobalSat',
             'desc' => [
+                'en' => 'Color Grade Global Sat',
             ],
         ],
     ];

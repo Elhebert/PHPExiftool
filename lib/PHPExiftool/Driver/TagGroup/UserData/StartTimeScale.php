@@ -28,13 +28,14 @@ class StartTimeScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Start Time Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325745
+             * line : 229820
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartTimeScale extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:StartTimeScale',
             'desc' => [
+                'en' => 'Start Time Scale',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageToolbar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Toolbar',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142882
+             * line : 98673
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageToolbar extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:ImageToolbar',
             'desc' => [
+                'en' => 'Image Toolbar',
             ],
         ],
     ];

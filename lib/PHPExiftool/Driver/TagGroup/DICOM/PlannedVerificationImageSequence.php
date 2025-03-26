@@ -28,13 +28,14 @@ class PlannedVerificationImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Planned Verification Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103176
+             * line : 76272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlannedVerificationImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlannedVerificationImageSequence',
             'desc' => [
+                'en' => 'Planned Verification Image Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MidRangeSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mid Range Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204333
+             * line : 137585
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MidRangeSharpness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:MidRangeSharpness',
             'desc' => [
+                'en' => 'Mid Range Sharpness',
             ],
         ],
     ];

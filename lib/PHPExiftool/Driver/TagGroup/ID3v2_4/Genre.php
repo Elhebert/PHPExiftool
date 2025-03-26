@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149347
+             * line : 103585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

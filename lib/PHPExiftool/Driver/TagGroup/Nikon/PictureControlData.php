@@ -28,13 +28,14 @@ class PictureControlData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197038
+             * line : 133015
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 197042
+             * line : 133018
              * type : undef
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::Main
-             * line : 197046
+             * line : 133021
              * type : undef
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::Main
-             * line : 197050
+             * line : 133024
              * type : undef
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::Main
-             * line : 199564
+             * line : 134618
              * type : undef
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203325
+             * line : 137225
              * type : undef
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203329
+             * line : 137228
              * type : undef
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         7 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203333
+             * line : 137231
              * type : undef
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
         8 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203337
+             * line : 137234
              * type : undef
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class PictureControlData extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:PictureControlData',
             'desc' => [
+                'en' => 'Picture Control Data',
             ],
         ],
     ];

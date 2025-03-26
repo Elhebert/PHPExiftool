@@ -28,13 +28,14 @@ class WidthResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Width Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118565
+             * line : 83969
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WidthResolution extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WidthResolution',
             'desc' => [
+                'en' => 'Width Resolution',
             ],
         ],
     ];

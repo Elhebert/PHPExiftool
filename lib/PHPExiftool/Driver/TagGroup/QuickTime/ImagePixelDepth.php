@@ -28,13 +28,14 @@ class ImagePixelDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Pixel Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemPropCont
-             * line : 323229
+             * line : 228545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePixelDepth extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemPropCont.QuickTime:ImagePixelDepth',
             'desc' => [
+                'en' => 'Image Pixel Depth',
             ],
         ],
     ];

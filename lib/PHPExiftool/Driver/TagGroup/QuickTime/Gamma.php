@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 314017
+             * line : 219678
              * type : fixed32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

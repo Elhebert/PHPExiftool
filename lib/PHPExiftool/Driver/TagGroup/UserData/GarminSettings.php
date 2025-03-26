@@ -28,13 +28,14 @@ class GarminSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Garmin Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325590
+             * line : 229757
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GarminSettings extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:GarminSettings',
             'desc' => [
+                'en' => 'Garmin Settings',
             ],
         ],
     ];

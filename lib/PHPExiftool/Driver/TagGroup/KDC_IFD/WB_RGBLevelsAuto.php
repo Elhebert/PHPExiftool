@@ -28,13 +28,14 @@ class WB_RGBLevelsAuto extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::KDC_IFD
-             * line : 157522
+             * line : 108611
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsAuto extends AbstractTagGroup
              */
             'id' => 'Kodak::KDC_IFD.KDC_IFD:WB_RGBLevelsAuto',
             'desc' => [
+                'en' => 'WB RGB Levels Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MMClips extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MM Clips',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124477
+             * line : 86965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MMClips extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:MMClips',
             'desc' => [
+                'en' => 'MM Clips',
             ],
         ],
     ];

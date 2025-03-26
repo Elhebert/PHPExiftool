@@ -28,13 +28,14 @@ class AutoSummary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Summary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175710
+             * line : 120933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoSummary extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AutoSummary',
             'desc' => [
+                'en' => 'Auto Summary',
             ],
         ],
     ];

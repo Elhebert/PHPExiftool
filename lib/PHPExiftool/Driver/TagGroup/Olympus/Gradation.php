@@ -28,13 +28,14 @@ class Gradation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251789
+             * line : 173530
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Gradation extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:Gradation',
             'desc' => [
+                'en' => 'Gradation',
             ],
         ],
     ];

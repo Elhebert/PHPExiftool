@@ -28,13 +28,14 @@ class ImageUniqueID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117842
+             * line : 83668
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageUniqueID extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageUniqueID',
             'desc' => [
+                'en' => 'Image Unique ID',
             ],
         ],
     ];

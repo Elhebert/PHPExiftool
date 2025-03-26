@@ -28,13 +28,14 @@ class PlateType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plate Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95961
+             * line : 69385
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlateType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlateType',
             'desc' => [
+                'en' => 'Plate Type',
             ],
         ],
     ];

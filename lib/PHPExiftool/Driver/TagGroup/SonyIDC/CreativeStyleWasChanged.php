@@ -28,13 +28,14 @@ class CreativeStyleWasChanged extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creative Style Was Changed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394076
+             * line : 279194
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreativeStyleWasChanged extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:CreativeStyleWasChanged',
             'desc' => [
+                'en' => 'Creative Style Was Changed',
             ],
         ],
     ];

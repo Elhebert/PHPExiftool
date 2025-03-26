@@ -28,13 +28,14 @@ class PiPX1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PiP X1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PiP
-             * line : 123660
+             * line : 86461
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PiPX1 extends AbstractTagGroup
              */
             'id' => 'FLIR::PiP.FLIR:PiPX1',
             'desc' => [
+                'en' => 'PiP X1',
             ],
         ],
     ];

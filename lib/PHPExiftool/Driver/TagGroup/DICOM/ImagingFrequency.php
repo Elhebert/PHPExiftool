@@ -28,13 +28,14 @@ class ImagingFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imaging Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95531
+             * line : 68986
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagingFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagingFrequency',
             'desc' => [
+                'en' => 'Imaging Frequency',
             ],
         ],
     ];

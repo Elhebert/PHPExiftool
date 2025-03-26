@@ -28,13 +28,14 @@ class ChannelA_lang extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Channel A-lang',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410767
+             * line : 290047
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChannelA_lang extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ChannelA-lang',
             'desc' => [
+                'en' => 'Channel A-lang',
             ],
         ],
     ];

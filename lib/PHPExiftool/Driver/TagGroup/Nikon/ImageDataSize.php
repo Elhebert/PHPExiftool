@@ -28,13 +28,14 @@ class ImageDataSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Data Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199372
+             * line : 134559
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageDataSize extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageDataSize',
             'desc' => [
+                'en' => 'Image Data Size',
             ],
         ],
     ];

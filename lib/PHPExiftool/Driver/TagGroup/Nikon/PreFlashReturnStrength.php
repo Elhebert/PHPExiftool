@@ -28,13 +28,14 @@ class PreFlashReturnStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pre Flash Return Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206244
+             * line : 138637
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreFlashReturnStrength extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:PreFlashReturnStrength',
             'desc' => [
+                'en' => 'Pre Flash Return Strength',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TextLayerText extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Text Layer Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410391
+             * line : 289818
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TextLayerText extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:TextLayerText',
             'desc' => [
+                'en' => 'Text Layer Text',
             ],
         ],
     ];

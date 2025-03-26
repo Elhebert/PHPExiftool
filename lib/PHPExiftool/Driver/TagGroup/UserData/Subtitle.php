@@ -28,13 +28,14 @@ class Subtitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subtitle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326017
+             * line : 229970
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Subtitle extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Subtitle',
             'desc' => [
+                'en' => 'Subtitle',
             ],
         ],
     ];

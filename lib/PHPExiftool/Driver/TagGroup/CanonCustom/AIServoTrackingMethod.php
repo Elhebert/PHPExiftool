@@ -28,13 +28,14 @@ class AIServoTrackingMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AI Servo Tracking Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73643
+             * line : 54452
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AIServoTrackingMethod extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AIServoTrackingMethod',
             'desc' => [
+                'en' => 'AI Servo Tracking Method',
             ],
         ],
     ];

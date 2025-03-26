@@ -28,13 +28,14 @@ class TriggerMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Trigger Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330600
+             * line : 232619
              * type : string
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class TriggerMode extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:TriggerMode',
             'desc' => [
+                'en' => 'Trigger Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330839
+             * line : 232731
              * type : undef
              * writable : true
              * count : 1
@@ -55,12 +57,13 @@ class TriggerMode extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:TriggerMode',
             'desc' => [
+                'en' => 'Trigger Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331064
+             * line : 232851
              * type : string
              * writable : true
              * count : 2
@@ -68,6 +71,7 @@ class TriggerMode extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:TriggerMode',
             'desc' => [
+                'en' => 'Trigger Mode',
             ],
         ],
     ];

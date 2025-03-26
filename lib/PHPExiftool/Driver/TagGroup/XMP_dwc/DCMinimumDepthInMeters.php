@@ -28,13 +28,14 @@ class DCMinimumDepthInMeters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Minimum Depth In Meters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106970
+             * line : 79124
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCMinimumDepthInMeters extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCMinimumDepthInMeters',
             'desc' => [
+                'en' => 'DC Minimum Depth In Meters',
             ],
         ],
     ];

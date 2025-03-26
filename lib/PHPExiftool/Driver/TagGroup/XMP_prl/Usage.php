@@ -28,13 +28,14 @@ class Usage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prl
-             * line : 411198
+             * line : 290393
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Usage extends AbstractTagGroup
              */
             'id' => 'XMP::prl.XMP-prl:Usage',
             'desc' => [
+                'en' => 'Usage',
             ],
         ],
     ];

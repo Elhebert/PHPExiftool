@@ -28,13 +28,14 @@ class Effect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::INFO
-             * line : 333877
+             * line : 234116
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Effect extends AbstractTagGroup
              */
             'id' => 'Samsung::INFO.Samsung:Effect',
             'desc' => [
+                'en' => 'Effect',
             ],
         ],
     ];

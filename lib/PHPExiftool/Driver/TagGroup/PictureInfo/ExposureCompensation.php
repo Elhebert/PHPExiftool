@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 548
+             * line : 225
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

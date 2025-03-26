@@ -28,13 +28,14 @@ class CMMFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CMM Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 144190
+             * line : 99779
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CMMFlags extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:CMMFlags',
             'desc' => [
+                'en' => 'CMM Flags',
             ],
         ],
     ];

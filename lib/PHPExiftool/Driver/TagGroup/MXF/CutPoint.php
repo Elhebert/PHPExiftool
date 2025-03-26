@@ -28,13 +28,14 @@ class CutPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cut Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169681
+             * line : 116070
              * type : int64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CutPoint extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CutPoint',
             'desc' => [
+                'en' => 'Cut Point',
             ],
         ],
     ];

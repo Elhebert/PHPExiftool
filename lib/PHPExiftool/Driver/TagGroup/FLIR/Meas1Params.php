@@ -28,13 +28,14 @@ class Meas1Params extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meas 1 Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::MeasInfo
-             * line : 123235
+             * line : 86060
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Meas1Params extends AbstractTagGroup
              */
             'id' => 'FLIR::MeasInfo.FLIR:Meas1Params',
             'desc' => [
+                'en' => 'Meas 1 Params',
             ],
         ],
     ];

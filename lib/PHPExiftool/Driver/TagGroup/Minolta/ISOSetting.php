@@ -28,13 +28,14 @@ class ISOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177886
+             * line : 122067
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178756
+             * line : 122423
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179727
+             * line : 122766
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180781
+             * line : 123130
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
     ];

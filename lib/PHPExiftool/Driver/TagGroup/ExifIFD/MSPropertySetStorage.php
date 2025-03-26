@@ -28,13 +28,14 @@ class MSPropertySetStorage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MS Property Set Storage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116290
+             * line : 83313
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MSPropertySetStorage extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MSPropertySetStorage',
             'desc' => [
+                'en' => 'MS Property Set Storage',
             ],
         ],
     ];

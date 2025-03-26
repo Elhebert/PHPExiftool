@@ -28,13 +28,14 @@ class AccelVoltOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accel Volt Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166568
+             * line : 113307
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccelVoltOffset extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AccelVoltOffset',
             'desc' => [
+                'en' => 'Accel Volt Offset',
             ],
         ],
     ];

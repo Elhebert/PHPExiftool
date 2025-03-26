@@ -28,13 +28,14 @@ class TerminatingFillerData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Terminating Filler Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170115
+             * line : 116427
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TerminatingFillerData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TerminatingFillerData',
             'desc' => [
+                'en' => 'Terminating Filler Data',
             ],
         ],
     ];

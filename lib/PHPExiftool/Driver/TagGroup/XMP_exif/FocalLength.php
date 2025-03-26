@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406026
+             * line : 288051
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

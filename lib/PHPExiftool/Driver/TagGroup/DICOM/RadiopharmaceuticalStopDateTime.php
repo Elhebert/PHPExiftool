@@ -28,13 +28,14 @@ class RadiopharmaceuticalStopDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiopharmaceutical Stop Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95736
+             * line : 69184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiopharmaceuticalStopDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiopharmaceuticalStopDateTime',
             'desc' => [
+                'en' => 'Radiopharmaceutical Stop Date Time',
             ],
         ],
     ];

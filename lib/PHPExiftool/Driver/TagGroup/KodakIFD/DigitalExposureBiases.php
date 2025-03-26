@@ -28,13 +28,14 @@ class DigitalExposureBiases extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Exposure Biases',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155738
+             * line : 106949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalExposureBiases extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DigitalExposureBiases',
             'desc' => [
+                'en' => 'Digital Exposure Biases',
             ],
         ],
     ];

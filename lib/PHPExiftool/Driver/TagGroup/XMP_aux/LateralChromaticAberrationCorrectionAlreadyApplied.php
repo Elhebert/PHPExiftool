@@ -28,13 +28,14 @@ class LateralChromaticAberrationCorrectionAlreadyApplied extends AbstractTagGrou
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lateral Chromatic Aberration Correction Already Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397965
+             * line : 281678
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LateralChromaticAberrationCorrectionAlreadyApplied extends AbstractTagGrou
              */
             'id' => 'XMP::aux.XMP-aux:LateralChromaticAberrationCorrectionAlreadyApplied',
             'desc' => [
+                'en' => 'Lateral Chromatic Aberration Correction Already Applied',
             ],
         ],
     ];

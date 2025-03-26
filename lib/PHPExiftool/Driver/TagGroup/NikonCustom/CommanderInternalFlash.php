@@ -28,13 +28,14 @@ class CommanderInternalFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Commander Internal Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228723
+             * line : 153880
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CommanderInternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:CommanderInternalFlash',
             'desc' => [
+                'en' => 'Commander Internal Flash',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229203
+             * line : 154153
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CommanderInternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:CommanderInternalFlash',
             'desc' => [
+                'en' => 'Commander Internal Flash',
             ],
         ],
     ];

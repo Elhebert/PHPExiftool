@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347428
+             * line : 243294
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348916
+             * line : 243966
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 353876
+             * line : 246788
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

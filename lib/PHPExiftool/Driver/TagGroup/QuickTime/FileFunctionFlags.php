@@ -28,13 +28,14 @@ class FileFunctionFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Function Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::FileProf
-             * line : 312717
+             * line : 218588
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileFunctionFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::FileProf.QuickTime:FileFunctionFlags',
             'desc' => [
+                'en' => 'File Function Flags',
             ],
         ],
     ];

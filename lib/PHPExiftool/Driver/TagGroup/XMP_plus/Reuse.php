@@ -28,13 +28,14 @@ class Reuse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reuse',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272346
+             * line : 190270
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Reuse extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:Reuse',
             'desc' => [
+                'en' => 'Reuse',
             ],
         ],
     ];

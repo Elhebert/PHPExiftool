@@ -28,13 +28,14 @@ class ImageActualDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Actual Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95166
+             * line : 68638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageActualDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageActualDate',
             'desc' => [
+                'en' => 'Image Actual Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Track extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1638
+             * line : 799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Track extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Track',
             'desc' => [
+                'en' => 'Track',
             ],
         ],
     ];

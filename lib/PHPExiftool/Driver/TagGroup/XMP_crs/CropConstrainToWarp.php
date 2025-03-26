@@ -28,13 +28,14 @@ class CropConstrainToWarp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Constrain To Warp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402140
+             * line : 285326
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropConstrainToWarp extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CropConstrainToWarp',
             'desc' => [
+                'en' => 'Crop Constrain To Warp',
             ],
         ],
     ];

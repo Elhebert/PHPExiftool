@@ -28,13 +28,14 @@ class ShadingCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shading Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277574
+             * line : 193063
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadingCompensation extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ShadingCompensation',
             'desc' => [
+                'en' => 'Shading Compensation',
             ],
         ],
     ];

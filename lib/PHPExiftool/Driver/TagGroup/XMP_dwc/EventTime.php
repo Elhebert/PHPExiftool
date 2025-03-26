@@ -28,13 +28,14 @@ class EventTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106089
+             * line : 78464
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventTime extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventTime',
             'desc' => [
+                'en' => 'Event Time',
             ],
         ],
     ];

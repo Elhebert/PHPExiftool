@@ -28,13 +28,14 @@ class QueryRetrieveLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Query Retrieve Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94749
+             * line : 68236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QueryRetrieveLevel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:QueryRetrieveLevel',
             'desc' => [
+                'en' => 'Query Retrieve Level',
             ],
         ],
     ];

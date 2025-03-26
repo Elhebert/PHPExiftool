@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139490
+             * line : 97629
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : GoPro::fdsc
-             * line : 140059
+             * line : 97911
              * type : string
              * writable : false
              * count : 15
@@ -55,6 +57,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'GoPro::fdsc.GoPro:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExpandFlashLamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expand Flash Lamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118050
+             * line : 83736
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpandFlashLamp extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExpandFlashLamp',
             'desc' => [
+                'en' => 'Expand Flash Lamp',
             ],
         ],
     ];

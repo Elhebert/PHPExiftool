@@ -28,13 +28,14 @@ class FrameIncrementPointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Increment Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98670
+             * line : 71953
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameIncrementPointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameIncrementPointer',
             'desc' => [
+                'en' => 'Frame Increment Pointer',
             ],
         ],
     ];

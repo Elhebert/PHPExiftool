@@ -28,13 +28,14 @@ class PartialDataDisplayHandling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial Data Display Handling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101592
+             * line : 74736
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialDataDisplayHandling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PartialDataDisplayHandling',
             'desc' => [
+                'en' => 'Partial Data Display Handling',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HiddenSlides extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hidden Slides',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249131
+             * line : 171761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HiddenSlides extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:HiddenSlides',
             'desc' => [
+                'en' => 'Hidden Slides',
             ],
         ],
     ];

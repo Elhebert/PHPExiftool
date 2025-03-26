@@ -28,13 +28,14 @@ class InvolvedPeople extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Involved People',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149439
+             * line : 103624
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvolvedPeople extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:InvolvedPeople',
             'desc' => [
+                'en' => 'Involved People',
             ],
         ],
     ];

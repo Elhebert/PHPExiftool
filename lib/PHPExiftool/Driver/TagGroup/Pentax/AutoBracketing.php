@@ -28,13 +28,14 @@ class AutoBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297476
+             * line : 207739
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoBracketing extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AutoBracketing',
             'desc' => [
+                'en' => 'Auto Bracketing',
             ],
         ],
     ];

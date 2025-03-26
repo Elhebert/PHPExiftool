@@ -28,13 +28,14 @@ class ExposureProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175431
+             * line : 120780
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureProgram extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ExposureProgram',
             'desc' => [
+                'en' => 'Exposure Program',
             ],
         ],
     ];

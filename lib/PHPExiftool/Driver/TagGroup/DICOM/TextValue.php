@@ -28,13 +28,14 @@ class TextValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100158
+             * line : 73335
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TextValue',
             'desc' => [
+                'en' => 'Text Value',
             ],
         ],
     ];

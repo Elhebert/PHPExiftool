@@ -28,13 +28,14 @@ class AuthoringSoftwareRelease extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Authoring Software Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303683
+             * line : 210962
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class AuthoringSoftwareRelease extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:AuthoringSoftwareRelease',
             'desc' => [
+                'en' => 'Authoring Software Release',
             ],
         ],
     ];

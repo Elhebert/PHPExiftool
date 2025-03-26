@@ -28,13 +28,14 @@ class VideoCodec extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::MovieInfo
-             * line : 66908
+             * line : 50801
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class VideoCodec extends AbstractTagGroup
              */
             'id' => 'Canon::MovieInfo.Canon:VideoCodec',
             'desc' => [
+                'en' => 'Video Codec',
             ],
         ],
     ];

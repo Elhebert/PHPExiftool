@@ -28,13 +28,14 @@ class BillingSuppliesAndDevicesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Billing Supplies And Devices Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99756
+             * line : 72960
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BillingSuppliesAndDevicesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BillingSuppliesAndDevicesSequence',
             'desc' => [
+                'en' => 'Billing Supplies And Devices Sequence',
             ],
         ],
     ];

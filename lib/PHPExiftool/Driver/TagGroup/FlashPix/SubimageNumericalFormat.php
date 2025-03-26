@@ -28,13 +28,14 @@ class SubimageNumericalFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subimage Numerical Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124771
+             * line : 87204
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubimageNumericalFormat extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:SubimageNumericalFormat',
             'desc' => [
+                'en' => 'Subimage Numerical Format',
             ],
         ],
     ];

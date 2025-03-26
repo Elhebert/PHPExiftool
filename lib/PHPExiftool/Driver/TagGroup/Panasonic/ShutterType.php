@@ -28,13 +28,14 @@ class ShutterType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277767
+             * line : 193187
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ShutterType',
             'desc' => [
+                'en' => 'Shutter Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MetadataCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124153
+             * line : 86765
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataCreator extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:MetadataCreator',
             'desc' => [
+                'en' => 'Metadata Creator',
             ],
         ],
     ];

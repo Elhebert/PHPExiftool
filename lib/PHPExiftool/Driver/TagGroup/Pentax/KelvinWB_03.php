@@ -28,13 +28,14 @@ class KelvinWB_03 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kelvin WB 03',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::KelvinWB
-             * line : 288439
+             * line : 200085
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class KelvinWB_03 extends AbstractTagGroup
              */
             'id' => 'Pentax::KelvinWB.Pentax:KelvinWB_03',
             'desc' => [
+                'en' => 'Kelvin WB 03',
             ],
         ],
     ];

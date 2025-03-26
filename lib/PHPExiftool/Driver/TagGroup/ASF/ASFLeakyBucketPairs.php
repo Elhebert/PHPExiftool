@@ -28,13 +28,14 @@ class ASFLeakyBucketPairs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF Leaky Bucket Pairs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1020
+             * line : 388
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASFLeakyBucketPairs extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ASFLeakyBucketPairs',
             'desc' => [
+                'en' => 'ASF Leaky Bucket Pairs',
             ],
         ],
     ];

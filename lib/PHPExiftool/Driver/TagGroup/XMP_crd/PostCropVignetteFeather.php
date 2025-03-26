@@ -28,13 +28,14 @@ class PostCropVignetteFeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Post Crop Vignette Feather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400591
+             * line : 284078
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PostCropVignetteFeather extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PostCropVignetteFeather',
             'desc' => [
+                'en' => 'Post Crop Vignette Feather',
             ],
         ],
     ];

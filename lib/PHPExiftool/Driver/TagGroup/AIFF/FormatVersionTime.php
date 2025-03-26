@@ -28,13 +28,14 @@ class FormatVersionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Format Version Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::FormatVers
-             * line : 185
+             * line : 99
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FormatVersionTime extends AbstractTagGroup
              */
             'id' => 'AIFF::FormatVers.AIFF:FormatVersionTime',
             'desc' => [
+                'en' => 'Format Version Time',
             ],
         ],
     ];

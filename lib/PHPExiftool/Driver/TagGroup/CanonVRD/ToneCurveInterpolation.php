@@ -28,13 +28,14 @@ class ToneCurveInterpolation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Interpolation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82442
+             * line : 60383
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveInterpolation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:ToneCurveInterpolation',
             'desc' => [
+                'en' => 'Tone Curve Interpolation',
             ],
         ],
     ];

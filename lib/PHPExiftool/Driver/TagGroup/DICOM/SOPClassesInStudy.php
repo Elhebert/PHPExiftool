@@ -28,13 +28,14 @@ class SOPClassesInStudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SOP Classes In Study',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94767
+             * line : 68254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SOPClassesInStudy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SOPClassesInStudy',
             'desc' => [
+                'en' => 'SOP Classes In Study',
             ],
         ],
     ];

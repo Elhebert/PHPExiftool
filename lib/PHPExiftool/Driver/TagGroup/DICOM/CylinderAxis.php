@@ -28,13 +28,14 @@ class CylinderAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cylinder Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98321
+             * line : 71656
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CylinderAxis extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CylinderAxis',
             'desc' => [
+                'en' => 'Cylinder Axis',
             ],
         ],
     ];

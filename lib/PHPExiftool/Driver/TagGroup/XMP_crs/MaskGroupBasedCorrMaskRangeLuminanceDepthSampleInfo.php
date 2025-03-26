@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskRangeLuminanceDepthSampleInfo extends AbstractTagGro
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Range Luminance Depth Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403016
+             * line : 286152
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskRangeLuminanceDepthSampleInfo extends AbstractTagGro
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskRangeLuminanceDepthSampleInfo',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Range Luminance Depth Sample Info',
             ],
         ],
     ];

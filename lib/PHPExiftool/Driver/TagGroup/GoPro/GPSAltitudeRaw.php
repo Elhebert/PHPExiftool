@@ -28,13 +28,14 @@ class GPSAltitudeRaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Altitude Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPRI
-             * line : 139872
+             * line : 97818
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSAltitudeRaw extends AbstractTagGroup
              */
             'id' => 'GoPro::GPRI.GoPro:GPSAltitudeRaw',
             'desc' => [
+                'en' => 'GPS Altitude Raw',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MDItemInterestingDateRanking extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Interesting Date Ranking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172840
+             * line : 118924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemInterestingDateRanking extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemInterestingDateRanking',
             'desc' => [
+                'en' => 'MD Item Interesting Date Ranking',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Hook3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hook 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207147
+             * line : 139365
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Hook3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:Hook3',
             'desc' => [
+                'en' => 'Hook 3',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207944
+             * line : 140078
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Hook3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:Hook3',
             'desc' => [
+                'en' => 'Hook 3',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209339
+             * line : 141185
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Hook3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:Hook3',
             'desc' => [
+                'en' => 'Hook 3',
             ],
         ],
     ];

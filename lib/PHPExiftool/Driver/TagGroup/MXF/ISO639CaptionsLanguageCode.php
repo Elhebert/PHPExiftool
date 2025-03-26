@@ -28,13 +28,14 @@ class ISO639CaptionsLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO639 Captions Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170717
+             * line : 116952
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO639CaptionsLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISO639CaptionsLanguageCode',
             'desc' => [
+                'en' => 'ISO639 Captions Language Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RGBCurves extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RGB Curves',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331588
+             * line : 233082
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RGBCurves extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:RGBCurves',
             'desc' => [
+                'en' => 'RGB Curves',
             ],
         ],
     ];

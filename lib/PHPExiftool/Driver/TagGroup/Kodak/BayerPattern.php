@@ -28,13 +28,14 @@ class BayerPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bayer Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154360
+             * line : 105986
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BayerPattern extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:BayerPattern',
             'desc' => [
+                'en' => 'Bayer Pattern',
             ],
         ],
     ];

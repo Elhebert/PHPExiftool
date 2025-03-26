@@ -28,13 +28,14 @@ class SonyModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 356054
+             * line : 248408
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SonyModelID extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:SonyModelID',
             'desc' => [
+                'en' => 'Sony Model ID',
             ],
         ],
     ];

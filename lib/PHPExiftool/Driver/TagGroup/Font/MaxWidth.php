@@ -28,13 +28,14 @@ class MaxWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128082
+             * line : 88879
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxWidth extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:MaxWidth',
             'desc' => [
+                'en' => 'Max Width',
             ],
         ],
     ];

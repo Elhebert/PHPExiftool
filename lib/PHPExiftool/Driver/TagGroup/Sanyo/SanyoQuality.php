@@ -28,13 +28,14 @@ class SanyoQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sanyo Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336124
+             * line : 235647
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SanyoQuality extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SanyoQuality',
             'desc' => [
+                'en' => 'Sanyo Quality',
             ],
         ],
     ];

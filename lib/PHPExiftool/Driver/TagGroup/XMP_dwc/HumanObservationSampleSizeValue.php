@@ -28,13 +28,14 @@ class HumanObservationSampleSizeValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Human Observation Sample Size Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106289
+             * line : 78614
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HumanObservationSampleSizeValue extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:HumanObservationSampleSizeValue',
             'desc' => [
+                'en' => 'Human Observation Sample Size Value',
             ],
         ],
     ];

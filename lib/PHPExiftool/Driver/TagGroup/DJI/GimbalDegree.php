@@ -28,13 +28,14 @@ class GimbalDegree extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gimbal Degree',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104443
+             * line : 77515
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GimbalDegree extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:GimbalDegree',
             'desc' => [
+                'en' => 'Gimbal Degree',
             ],
         ],
     ];

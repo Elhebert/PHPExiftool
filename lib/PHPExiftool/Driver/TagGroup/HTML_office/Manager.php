@@ -28,13 +28,14 @@ class Manager extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manager',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142640
+             * line : 98566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manager extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Manager',
             'desc' => [
+                'en' => 'Manager',
             ],
         ],
     ];

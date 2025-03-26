@@ -28,13 +28,14 @@ class ASF5BrtSmthPercent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Brt Smth Percent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306747
+             * line : 213245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5BrtSmthPercent extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5BrtSmthPercent',
             'desc' => [
+                'en' => 'ASF5 Brt Smth Percent',
             ],
         ],
     ];

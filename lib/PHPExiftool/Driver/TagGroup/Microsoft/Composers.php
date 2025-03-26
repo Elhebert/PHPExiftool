@@ -28,13 +28,14 @@ class Composers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175936
+             * line : 121059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Composers extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Composers',
             'desc' => [
+                'en' => 'Composers',
             ],
         ],
     ];

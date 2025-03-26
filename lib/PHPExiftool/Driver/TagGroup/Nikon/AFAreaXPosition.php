@@ -28,13 +28,14 @@ class AFAreaXPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area X Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189956
+             * line : 128895
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaXPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaXPosition',
             'desc' => [
+                'en' => 'AF Area X Position',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190012
+             * line : 128927
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAreaXPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaXPosition',
             'desc' => [
+                'en' => 'AF Area X Position',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190979
+             * line : 129796
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFAreaXPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaXPosition',
             'desc' => [
+                'en' => 'AF Area X Position',
             ],
         ],
     ];

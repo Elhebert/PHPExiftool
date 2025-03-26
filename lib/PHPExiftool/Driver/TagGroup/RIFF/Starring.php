@@ -28,13 +28,14 @@ class Starring extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Starring',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328460
+             * line : 231631
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Starring extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Starring',
             'desc' => [
+                'en' => 'Starring',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Info
-             * line : 328513
+             * line : 231661
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Starring extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Starring',
             'desc' => [
+                'en' => 'Starring',
             ],
         ],
     ];

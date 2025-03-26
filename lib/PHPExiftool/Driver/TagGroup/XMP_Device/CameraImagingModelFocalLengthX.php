@@ -28,13 +28,14 @@ class CameraImagingModelFocalLengthX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Imaging Model Focal Length X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396576
+             * line : 280793
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraImagingModelFocalLengthX extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraImagingModelFocalLengthX',
             'desc' => [
+                'en' => 'Camera Imaging Model Focal Length X',
             ],
         ],
     ];

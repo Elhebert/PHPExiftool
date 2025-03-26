@@ -28,13 +28,14 @@ class WB_RGBLevels3200K extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels 3200K',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361860
+             * line : 251955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevels3200K extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevels3200K',
             'desc' => [
+                'en' => 'WB RGB Levels 3200K',
             ],
         ],
     ];

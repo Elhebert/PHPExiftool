@@ -28,13 +28,14 @@ class ScheduledPatientInstitResidence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Patient Instit Residence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99408
+             * line : 72624
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledPatientInstitResidence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledPatientInstitResidence',
             'desc' => [
+                'en' => 'Scheduled Patient Instit Residence',
             ],
         ],
     ];

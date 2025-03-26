@@ -28,13 +28,14 @@ class ColorHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197359
+             * line : 133155
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorHue extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ColorHue',
             'desc' => [
+                'en' => 'Color Hue',
             ],
         ],
     ];

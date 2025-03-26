@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164600
+             * line : 111849
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164934
+             * line : 112092
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

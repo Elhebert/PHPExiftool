@@ -28,13 +28,14 @@ class ThumbnailLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278831
+             * line : 193843
              * type : int32uRev
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThumbnailLength extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:ThumbnailLength',
             'desc' => [
+                'en' => 'Thumbnail Length',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278870
+             * line : 193855
              * type : int32uRev
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ThumbnailLength extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:ThumbnailLength',
             'desc' => [
+                'en' => 'Thumbnail Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TransactionUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transaction UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94967
+             * line : 68449
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransactionUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransactionUID',
             'desc' => [
+                'en' => 'Transaction UID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UserComment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78658
+             * line : 57242
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class UserComment extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:UserComment',
             'desc' => [
+                'en' => 'User Comment',
             ],
         ],
     ];

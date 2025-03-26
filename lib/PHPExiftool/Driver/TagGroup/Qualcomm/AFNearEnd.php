@@ -28,13 +28,14 @@ class AFNearEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Near End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306252
+             * line : 212750
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFNearEnd extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFNearEnd',
             'desc' => [
+                'en' => 'AF Near End',
             ],
         ],
     ];

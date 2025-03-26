@@ -28,13 +28,14 @@ class Format extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3744
+             * line : 2290
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Format extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:Format',
             'desc' => [
+                'en' => 'Format',
             ],
         ],
     ];

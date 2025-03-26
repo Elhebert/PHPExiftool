@@ -28,13 +28,14 @@ class RealWorldValueMappingSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Real World Value Mapping Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100026
+             * line : 73227
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RealWorldValueMappingSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RealWorldValueMappingSequence',
             'desc' => [
+                'en' => 'Real World Value Mapping Sequence',
             ],
         ],
     ];

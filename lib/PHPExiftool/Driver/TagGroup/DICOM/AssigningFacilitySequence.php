@@ -28,13 +28,14 @@ class AssigningFacilitySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Assigning Facility Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99639
+             * line : 72846
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssigningFacilitySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AssigningFacilitySequence',
             'desc' => [
+                'en' => 'Assigning Facility Sequence',
             ],
         ],
     ];

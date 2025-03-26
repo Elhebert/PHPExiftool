@@ -28,13 +28,14 @@ class RWaveTimeVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R Wave Time Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96385
+             * line : 69793
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RWaveTimeVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RWaveTimeVector',
             'desc' => [
+                'en' => 'R Wave Time Vector',
             ],
         ],
     ];

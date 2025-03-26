@@ -28,13 +28,14 @@ class FirmwareVersion3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209306
+             * line : 141152
              * type : string
              * writable : true
              * count : 8
@@ -42,12 +43,13 @@ class FirmwareVersion3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:FirmwareVersion3',
             'desc' => [
+                'en' => 'Firmware Version 3',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209389
+             * line : 141219
              * type : string
              * writable : true
              * count : 8
@@ -55,6 +57,7 @@ class FirmwareVersion3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:FirmwareVersion3',
             'desc' => [
+                'en' => 'Firmware Version 3',
             ],
         ],
     ];

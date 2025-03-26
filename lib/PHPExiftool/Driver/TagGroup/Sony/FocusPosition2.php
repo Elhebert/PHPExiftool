@@ -28,13 +28,14 @@ class FocusPosition2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Position 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360995
+             * line : 251507
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusPosition2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusPosition2',
             'desc' => [
+                'en' => 'Focus Position 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361016
+             * line : 251527
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusPosition2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusPosition2',
             'desc' => [
+                'en' => 'Focus Position 2',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361089
+             * line : 251583
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusPosition2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusPosition2',
             'desc' => [
+                'en' => 'Focus Position 2',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9402
-             * line : 384800
+             * line : 271331
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocusPosition2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9402.Sony:FocusPosition2',
             'desc' => [
+                'en' => 'Focus Position 2',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9404b
-             * line : 385329
+             * line : 271588
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FocusPosition2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9404b.Sony:FocusPosition2',
             'desc' => [
+                'en' => 'Focus Position 2',
             ],
         ],
     ];

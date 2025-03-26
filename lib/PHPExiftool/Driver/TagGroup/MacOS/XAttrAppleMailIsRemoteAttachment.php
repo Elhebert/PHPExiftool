@@ -28,13 +28,14 @@ class XAttrAppleMailIsRemoteAttachment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr Apple Mail Is Remote Attachment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173128
+             * line : 119141
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrAppleMailIsRemoteAttachment extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrAppleMailIsRemoteAttachment',
             'desc' => [
+                'en' => 'X Attr Apple Mail Is Remote Attachment',
             ],
         ],
     ];

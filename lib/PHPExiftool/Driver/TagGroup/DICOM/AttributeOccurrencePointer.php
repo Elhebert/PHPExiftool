@@ -28,13 +28,14 @@ class AttributeOccurrencePointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attribute Occurrence Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101799
+             * line : 74940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttributeOccurrencePointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttributeOccurrencePointer',
             'desc' => [
+                'en' => 'Attribute Occurrence Pointer',
             ],
         ],
     ];

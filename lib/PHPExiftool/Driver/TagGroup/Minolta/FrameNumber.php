@@ -28,13 +28,14 @@ class FrameNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185484
+             * line : 125820
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:FrameNumber',
             'desc' => [
+                'en' => 'Frame Number',
             ],
         ],
     ];

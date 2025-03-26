@@ -28,13 +28,14 @@ class MovieFunc2Button extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Func 2 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246807
+             * line : 169500
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MovieFunc2Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieFunc2Button',
             'desc' => [
+                'en' => 'Movie Func 2 Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246884
+             * line : 169577
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MovieFunc2Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieFunc2Button',
             'desc' => [
+                'en' => 'Movie Func 2 Button',
             ],
         ],
     ];

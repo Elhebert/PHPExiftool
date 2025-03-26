@@ -28,13 +28,14 @@ class DisplayedAreaTopLeft extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Displayed Area Top Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101303
+             * line : 74451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayedAreaTopLeft extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplayedAreaTopLeft',
             'desc' => [
+                'en' => 'Displayed Area Top Left',
             ],
         ],
     ];

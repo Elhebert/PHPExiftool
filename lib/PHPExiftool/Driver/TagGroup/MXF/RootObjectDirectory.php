@@ -28,13 +28,14 @@ class RootObjectDirectory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Root Object Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172279
+             * line : 118444
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RootObjectDirectory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RootObjectDirectory',
             'desc' => [
+                'en' => 'Root Object Directory',
             ],
         ],
     ];

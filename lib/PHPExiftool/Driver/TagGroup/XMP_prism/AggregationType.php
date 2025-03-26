@@ -28,13 +28,14 @@ class AggregationType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aggregation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410736
+             * line : 290017
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AggregationType extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:AggregationType',
             'desc' => [
+                'en' => 'Aggregation Type',
             ],
         ],
     ];

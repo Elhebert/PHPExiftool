@@ -28,13 +28,14 @@ class FocusDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96187
+             * line : 69604
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusDepth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FocusDepth',
             'desc' => [
+                'en' => 'Focus Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraCalibrationSig extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Calibration Sig',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120060
+             * line : 84414
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraCalibrationSig extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CameraCalibrationSig',
             'desc' => [
+                'en' => 'Camera Calibration Sig',
             ],
         ],
     ];

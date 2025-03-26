@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskRangeDepthFeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Range Depth Feather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399682
+             * line : 283188
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskRangeDepthFeather extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrMaskRangeDepthFeather',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Range Depth Feather',
             ],
         ],
     ];

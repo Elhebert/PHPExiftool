@@ -28,13 +28,14 @@ class AdvancedSceneMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advanced Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93059
+             * line : 67584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdvancedSceneMode extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:AdvancedSceneMode',
             'desc' => [
+                'en' => 'Advanced Scene Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileInodeChangeDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Inode Change Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121266
+             * line : 85133
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileInodeChangeDate extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileInodeChangeDate',
             'desc' => [
+                'en' => 'File Inode Change Date/Time',
             ],
         ],
     ];

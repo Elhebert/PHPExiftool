@@ -28,13 +28,14 @@ class FileAs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File As',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176516
+             * line : 121455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileAs extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FileAs',
             'desc' => [
+                'en' => 'File As',
             ],
         ],
     ];

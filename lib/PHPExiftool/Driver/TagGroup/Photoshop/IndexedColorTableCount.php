@@ -28,13 +28,14 @@ class IndexedColorTableCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Indexed Color Table Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305558
+             * line : 212319
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexedColorTableCount extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:IndexedColorTableCount',
             'desc' => [
+                'en' => 'Indexed Color Table Count',
             ],
         ],
     ];

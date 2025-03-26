@@ -28,13 +28,14 @@ class History extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410293
+             * line : 289788
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class History extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:History',
             'desc' => [
+                'en' => 'History',
             ],
         ],
     ];

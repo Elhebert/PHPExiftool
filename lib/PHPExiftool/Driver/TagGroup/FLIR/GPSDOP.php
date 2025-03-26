@@ -28,13 +28,14 @@ class GPSDOP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Dilution Of Precision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 122855
+             * line : 85941
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSDOP extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSDOP',
             'desc' => [
+                'en' => 'GPS Dilution Of Precision',
             ],
         ],
     ];

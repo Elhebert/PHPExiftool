@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nintendo::CameraInfo
-             * line : 248992
+             * line : 171663
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Nintendo::CameraInfo.Nintendo:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileHardLinks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Hard Links',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121262
+             * line : 85130
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileHardLinks extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileHardLinks',
             'desc' => [
+                'en' => 'File Hard Links',
             ],
         ],
     ];

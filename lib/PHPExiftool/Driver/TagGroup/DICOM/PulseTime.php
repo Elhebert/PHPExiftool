@@ -28,13 +28,14 @@ class PulseTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pulse Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97604
+             * line : 70987
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PulseTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PulseTime',
             'desc' => [
+                'en' => 'Pulse Time',
             ],
         ],
     ];

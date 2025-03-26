@@ -28,13 +28,14 @@ class NumChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Header
-             * line : 304989
+             * line : 211976
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumChannels extends AbstractTagGroup
              */
             'id' => 'Photoshop::Header.Photoshop:NumChannels',
             'desc' => [
+                'en' => 'Num Channels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125119
+             * line : 87371
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

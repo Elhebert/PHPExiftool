@@ -28,13 +28,14 @@ class Mean extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mean',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326688
+             * line : 230423
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Mean extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Mean',
             'desc' => [
+                'en' => 'Mean',
             ],
         ],
     ];

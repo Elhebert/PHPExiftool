@@ -28,13 +28,14 @@ class LanguageName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170107
+             * line : 116421
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LanguageName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LanguageName',
             'desc' => [
+                'en' => 'Language Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170111
+             * line : 116424
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LanguageName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LanguageName',
             'desc' => [
+                'en' => 'Language Name',
             ],
         ],
     ];

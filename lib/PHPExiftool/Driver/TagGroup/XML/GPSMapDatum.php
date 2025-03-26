@@ -28,13 +28,14 @@ class GPSMapDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Map Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265169
+             * line : 183312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
     ];

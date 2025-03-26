@@ -28,13 +28,14 @@ class ModifiedType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modified Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249398
+             * line : 171916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifiedType extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:ModifiedType',
             'desc' => [
+                'en' => 'Modified Type',
             ],
         ],
     ];

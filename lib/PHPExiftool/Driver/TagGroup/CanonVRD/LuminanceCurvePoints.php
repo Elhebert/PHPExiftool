@@ -28,13 +28,14 @@ class LuminanceCurvePoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance Curve Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82436
+             * line : 60377
              * type : int16u
              * writable : true
              * count : 21
@@ -42,6 +43,7 @@ class LuminanceCurvePoints extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:LuminanceCurvePoints',
             'desc' => [
+                'en' => 'Luminance Curve Points',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HasselbladExif extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hasselblad Exif',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118758
+             * line : 84039
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasselbladExif extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:HasselbladExif',
             'desc' => [
+                'en' => 'Hasselblad Exif',
             ],
         ],
     ];

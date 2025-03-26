@@ -28,13 +28,14 @@ class ReferencedFilmSessionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Film Session Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102121
+             * line : 75252
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedFilmSessionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedFilmSessionSequence',
             'desc' => [
+                'en' => 'Referenced Film Session Sequence',
             ],
         ],
     ];

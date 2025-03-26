@@ -28,13 +28,14 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length In 35mm Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406044
+             * line : 288054
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FocalLengthIn35mmFormat',
             'desc' => [
+                'en' => 'Focal Length In 35mm Format',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ParentClass extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parent Class',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169600
+             * line : 115992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParentClass extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ParentClass',
             'desc' => [
+                'en' => 'Parent Class',
             ],
         ],
     ];

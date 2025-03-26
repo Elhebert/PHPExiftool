@@ -28,13 +28,14 @@ class TableHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95787
+             * line : 69235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableHeight extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableHeight',
             'desc' => [
+                'en' => 'Table Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Label extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154253
+             * line : 105912
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Label extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:Label',
             'desc' => [
+                'en' => 'Label',
             ],
         ],
     ];

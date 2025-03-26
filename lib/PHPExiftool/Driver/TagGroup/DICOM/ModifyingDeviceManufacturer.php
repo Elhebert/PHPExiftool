@@ -28,13 +28,14 @@ class ModifyingDeviceManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modifying Device Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98024
+             * line : 71371
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyingDeviceManufacturer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModifyingDeviceManufacturer',
             'desc' => [
+                'en' => 'Modifying Device Manufacturer',
             ],
         ],
     ];

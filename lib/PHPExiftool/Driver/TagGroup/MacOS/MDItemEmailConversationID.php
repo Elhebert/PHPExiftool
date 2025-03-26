@@ -28,13 +28,14 @@ class MDItemEmailConversationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Email Conversation ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172682
+             * line : 118805
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemEmailConversationID extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemEmailConversationID',
             'desc' => [
+                'en' => 'MD Item Email Conversation ID',
             ],
         ],
     ];

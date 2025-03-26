@@ -28,13 +28,14 @@ class OutputImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Output Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::CaptureOutput
-             * line : 191915
+             * line : 130081
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutputImageHeight extends AbstractTagGroup
              */
             'id' => 'Nikon::CaptureOutput.Nikon:OutputImageHeight',
             'desc' => [
+                'en' => 'Output Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintCorrectionRangeMaskAreaModelsComponents extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Range Mask Area Models Components',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403742
+             * line : 286859
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionRangeMaskAreaModelsComponents extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionRangeMaskAreaModelsComponents',
             'desc' => [
+                'en' => 'Paint Correction Range Mask Area Models Components',
             ],
         ],
     ];

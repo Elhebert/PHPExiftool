@@ -28,13 +28,14 @@ class RowInterleaveFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Row Interleave Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120329
+             * line : 84511
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RowInterleaveFactor extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:RowInterleaveFactor',
             'desc' => [
+                'en' => 'Row Interleave Factor',
             ],
         ],
     ];

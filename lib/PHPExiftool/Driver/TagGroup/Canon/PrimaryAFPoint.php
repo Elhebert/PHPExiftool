@@ -28,13 +28,14 @@ class PrimaryAFPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4098
+             * line : 2577
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4108
+             * line : 2583
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4270
+             * line : 2679
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
     ];

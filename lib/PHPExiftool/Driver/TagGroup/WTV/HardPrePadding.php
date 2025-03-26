@@ -28,13 +28,14 @@ class HardPrePadding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hard Pre Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396349
+             * line : 280602
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HardPrePadding extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:HardPrePadding',
             'desc' => [
+                'en' => 'Hard Pre Padding',
             ],
         ],
     ];

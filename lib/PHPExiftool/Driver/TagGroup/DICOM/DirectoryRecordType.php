@@ -28,13 +28,14 @@ class DirectoryRecordType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Directory Record Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94619
+             * line : 68119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DirectoryRecordType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DirectoryRecordType',
             'desc' => [
+                'en' => 'Directory Record Type',
             ],
         ],
     ];

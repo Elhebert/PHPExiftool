@@ -28,13 +28,14 @@ class RawFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303295
+             * line : 210790
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawFormat extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:RawFormat',
             'desc' => [
+                'en' => 'Raw Format',
             ],
         ],
     ];

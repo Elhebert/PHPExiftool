@@ -28,13 +28,14 @@ class SaveID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Save ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414282
+             * line : 292300
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SaveID extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:SaveID',
             'desc' => [
+                'en' => 'Save ID',
             ],
         ],
     ];

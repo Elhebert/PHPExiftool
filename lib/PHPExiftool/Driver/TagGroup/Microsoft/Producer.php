@@ -28,13 +28,14 @@ class Producer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175177
+             * line : 120633
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Producer extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Producer',
             'desc' => [
+                'en' => 'Producer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ABLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AB Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395236
+             * line : 279932
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ABLabel extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:ABLabel',
             'desc' => [
+                'en' => 'AB Label',
             ],
         ],
     ];

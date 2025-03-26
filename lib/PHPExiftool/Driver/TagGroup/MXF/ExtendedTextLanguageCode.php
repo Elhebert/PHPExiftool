@@ -28,13 +28,14 @@ class ExtendedTextLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Text Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171661
+             * line : 117853
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtendedTextLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ExtendedTextLanguageCode',
             'desc' => [
+                'en' => 'Extended Text Language Code',
             ],
         ],
     ];

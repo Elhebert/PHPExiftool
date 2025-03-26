@@ -28,13 +28,14 @@ class FilmMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Film Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274886
+             * line : 191643
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilmMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:FilmMode',
             'desc' => [
+                'en' => 'Film Mode',
             ],
         ],
     ];

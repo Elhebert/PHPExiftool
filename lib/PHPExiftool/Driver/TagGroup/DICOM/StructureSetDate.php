@@ -28,13 +28,14 @@ class StructureSetDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Structure Set Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102522
+             * line : 75621
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StructureSetDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StructureSetDate',
             'desc' => [
+                'en' => 'Structure Set Date',
             ],
         ],
     ];

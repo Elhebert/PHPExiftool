@@ -28,13 +28,14 @@ class PoseYawDegrees extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pose Yaw Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::prhd
-             * line : 326725
+             * line : 230454
              * type : fixed32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PoseYawDegrees extends AbstractTagGroup
              */
             'id' => 'QuickTime::prhd.QuickTime:PoseYawDegrees',
             'desc' => [
+                'en' => 'Pose Yaw Degrees',
             ],
         ],
     ];

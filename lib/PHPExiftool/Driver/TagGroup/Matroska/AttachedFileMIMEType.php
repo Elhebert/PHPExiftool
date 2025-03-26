@@ -28,13 +28,14 @@ class AttachedFileMIMEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attached File MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173538
+             * line : 119467
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttachedFileMIMEType extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AttachedFileMIMEType',
             'desc' => [
+                'en' => 'Attached File MIME Type',
             ],
         ],
     ];

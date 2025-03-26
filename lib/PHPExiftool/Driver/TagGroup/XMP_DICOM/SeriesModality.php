@@ -28,13 +28,14 @@ class SeriesModality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Series Modality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396464
+             * line : 280687
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SeriesModality extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:SeriesModality',
             'desc' => [
+                'en' => 'Series Modality',
             ],
         ],
     ];

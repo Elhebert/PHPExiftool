@@ -28,13 +28,14 @@ class BreastImplantPresent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Breast Implant Present',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99035
+             * line : 72267
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BreastImplantPresent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BreastImplantPresent',
             'desc' => [
+                'en' => 'Breast Implant Present',
             ],
         ],
     ];

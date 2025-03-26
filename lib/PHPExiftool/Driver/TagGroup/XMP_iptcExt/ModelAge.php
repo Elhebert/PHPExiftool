@@ -28,13 +28,14 @@ class ModelAge extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Model Age',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409532
+             * line : 289306
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModelAge extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ModelAge',
             'desc' => [
+                'en' => 'Model Age',
             ],
         ],
     ];

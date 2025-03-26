@@ -28,13 +28,14 @@ class LCDDisplayReturnToShoot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LCD Display Return To Shoot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77777
+             * line : 56730
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LCDDisplayReturnToShoot extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:LCDDisplayReturnToShoot',
             'desc' => [
+                'en' => 'LCD Display Return To Shoot',
             ],
         ],
     ];

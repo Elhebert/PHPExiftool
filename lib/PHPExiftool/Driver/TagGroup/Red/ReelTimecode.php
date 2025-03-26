@@ -28,13 +28,14 @@ class ReelTimecode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reel Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331465
+             * line : 233025
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReelTimecode extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:ReelTimecode',
             'desc' => [
+                'en' => 'Reel Timecode',
             ],
         ],
     ];

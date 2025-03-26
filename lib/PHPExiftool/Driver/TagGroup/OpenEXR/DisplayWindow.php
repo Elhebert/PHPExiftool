@@ -28,13 +28,14 @@ class DisplayWindow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Window',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263517
+             * line : 182322
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayWindow extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:DisplayWindow',
             'desc' => [
+                'en' => 'Display Window',
             ],
         ],
     ];

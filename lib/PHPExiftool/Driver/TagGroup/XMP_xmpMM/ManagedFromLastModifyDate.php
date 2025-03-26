@@ -28,13 +28,14 @@ class ManagedFromLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414008
+             * line : 292033
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromLastModifyDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromLastModifyDate',
             'desc' => [
+                'en' => 'Managed From Last Modify Date',
             ],
         ],
     ];

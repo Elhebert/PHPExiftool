@@ -28,13 +28,14 @@ class FlashStatusExternal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Status External',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351197
+             * line : 245191
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashStatusExternal extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashStatusExternal',
             'desc' => [
+                'en' => 'Flash Status External',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351376
+             * line : 245317
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashStatusExternal extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashStatusExternal',
             'desc' => [
+                'en' => 'Flash Status External',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 275033
+             * line : 191710
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTint extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:ColorTint',
             'desc' => [
+                'en' => 'Color Tint',
             ],
         ],
     ];

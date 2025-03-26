@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70628
+             * line : 52789
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Compensation',
             ],
         ],
     ];

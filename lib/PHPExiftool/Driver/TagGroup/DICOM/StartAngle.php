@@ -28,13 +28,14 @@ class StartAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100904
+             * line : 74064
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartAngle',
             'desc' => [
+                'en' => 'Start Angle',
             ],
         ],
     ];

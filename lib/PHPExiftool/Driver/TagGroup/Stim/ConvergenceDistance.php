@@ -28,13 +28,14 @@ class ConvergenceDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Convergence Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394698
+             * line : 279614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConvergenceDistance extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ConvergenceDistance',
             'desc' => [
+                'en' => 'Convergence Distance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Creator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142714
+             * line : 98603
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Creator extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Creator',
             'desc' => [
+                'en' => 'Creator',
             ],
         ],
     ];

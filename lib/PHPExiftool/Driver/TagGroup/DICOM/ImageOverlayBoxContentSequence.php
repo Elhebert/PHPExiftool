@@ -28,13 +28,14 @@ class ImageOverlayBoxContentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Overlay Box Content Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102311
+             * line : 75411
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageOverlayBoxContentSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageOverlayBoxContentSequence',
             'desc' => [
+                'en' => 'Image Overlay Box Content Sequence',
             ],
         ],
     ];

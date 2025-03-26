@@ -28,13 +28,14 @@ class AWBMaxGGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Max G Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307098
+             * line : 213596
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBMaxGGain extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBMaxGGain',
             'desc' => [
+                'en' => 'AWB Max G Gain',
             ],
         ],
     ];

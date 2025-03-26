@@ -28,13 +28,14 @@ class HueAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197404
+             * line : 133164
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HueAdjustment extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:HueAdjustment',
             'desc' => [
+                'en' => 'Hue Adjustment',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203752
+             * line : 137373
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HueAdjustment extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:HueAdjustment',
             'desc' => [
+                'en' => 'Hue Adjustment',
             ],
         ],
     ];

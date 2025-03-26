@@ -28,13 +28,14 @@ class PositionTableCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position Table Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171411
+             * line : 117613
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionTableCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PositionTableCount',
             'desc' => [
+                'en' => 'Position Table Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PresentationTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124450
+             * line : 86944
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationTarget extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:PresentationTarget',
             'desc' => [
+                'en' => 'Presentation Target',
             ],
         ],
     ];

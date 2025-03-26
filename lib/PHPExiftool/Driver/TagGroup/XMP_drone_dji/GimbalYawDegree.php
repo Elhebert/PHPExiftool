@@ -28,13 +28,14 @@ class GimbalYawDegree extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gimbal Yaw Degree',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104665
+             * line : 77692
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GimbalYawDegree extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:GimbalYawDegree',
             'desc' => [
+                'en' => 'Gimbal Yaw Degree',
             ],
         ],
     ];

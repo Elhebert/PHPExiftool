@@ -28,13 +28,14 @@ class ContentEncodingType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Encoding Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173622
+             * line : 119548
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentEncodingType extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentEncodingType',
             'desc' => [
+                'en' => 'Content Encoding Type',
             ],
         ],
     ];

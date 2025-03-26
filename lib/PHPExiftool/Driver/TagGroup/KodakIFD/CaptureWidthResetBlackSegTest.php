@@ -28,13 +28,14 @@ class CaptureWidthResetBlackSegTest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Width Reset Black Seg Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157254
+             * line : 108446
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureWidthResetBlackSegTest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureWidthResetBlackSegTest',
             'desc' => [
+                'en' => 'Capture Width Reset Black Seg Test',
             ],
         ],
     ];

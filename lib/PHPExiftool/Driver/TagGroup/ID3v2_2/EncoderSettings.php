@@ -28,13 +28,14 @@ class EncoderSettings extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148442
+             * line : 103092
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncoderSettings extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:EncoderSettings',
             'desc' => [
+                'en' => 'Encoder Settings',
             ],
         ],
     ];

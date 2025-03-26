@@ -28,13 +28,14 @@ class WB_GRBGLevelsAuto extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB GRBG Levels Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361694
+             * line : 251871
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_GRBGLevelsAuto extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_GRBGLevelsAuto',
             'desc' => [
+                'en' => 'WB GRBG Levels Auto',
             ],
         ],
     ];

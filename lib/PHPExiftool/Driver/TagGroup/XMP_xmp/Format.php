@@ -28,13 +28,14 @@ class Format extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412618
+             * line : 290918
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Format extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:Format',
             'desc' => [
+                'en' => 'Format',
             ],
         ],
     ];

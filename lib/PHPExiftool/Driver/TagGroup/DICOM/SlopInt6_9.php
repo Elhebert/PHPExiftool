@@ -28,13 +28,14 @@ class SlopInt6_9 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slop Int 6-9',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100448
+             * line : 73620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlopInt6_9 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SlopInt6-9',
             'desc' => [
+                'en' => 'Slop Int 6-9',
             ],
         ],
     ];

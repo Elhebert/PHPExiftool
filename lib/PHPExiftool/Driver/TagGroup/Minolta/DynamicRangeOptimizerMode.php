@@ -28,13 +28,14 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185121
+             * line : 125664
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:DynamicRangeOptimizerMode',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Mode',
             ],
         ],
     ];

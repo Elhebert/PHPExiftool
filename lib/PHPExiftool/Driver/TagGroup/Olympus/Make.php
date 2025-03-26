@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::AVI
-             * line : 249415
+             * line : 171926
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Olympus::AVI.Olympus:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::MOV1
-             * line : 255610
+             * line : 176401
              * type : string
              * writable : false
              * count : 24
@@ -55,12 +57,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV1.Olympus:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::MOV2
-             * line : 256592
+             * line : 177307
              * type : string
              * writable : false
              * count : 24
@@ -68,12 +71,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV2.Olympus:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         3 => [
             /**
              * table_name : Olympus::MP4
-             * line : 256719
+             * line : 177332
              * type : string
              * writable : false
              * count : 24
@@ -81,12 +85,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Olympus::MP4.Olympus:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         4 => [
             /**
              * table_name : Olympus::OLYM
-             * line : 259244
+             * line : 178857
              * type : string
              * writable : false
              * count : 26
@@ -94,12 +99,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Olympus::OLYM.Olympus:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         5 => [
             /**
              * table_name : Olympus::prms
-             * line : 262325
+             * line : 181316
              * type : string
              * writable : false
              * count : 24
@@ -107,6 +113,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Olympus::prms.Olympus:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

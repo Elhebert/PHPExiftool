@@ -28,13 +28,14 @@ class CameraDepthMapFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Depth Map Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396540
+             * line : 280757
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDepthMapFormat extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraDepthMapFormat',
             'desc' => [
+                'en' => 'Camera Depth Map Format',
             ],
         ],
     ];

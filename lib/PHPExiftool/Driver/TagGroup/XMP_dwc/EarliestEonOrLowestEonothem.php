@@ -28,13 +28,14 @@ class EarliestEonOrLowestEonothem extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earliest Eon Or Lowest Eonothem',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106165
+             * line : 78521
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarliestEonOrLowestEonothem extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EarliestEonOrLowestEonothem',
             'desc' => [
+                'en' => 'Earliest Eon Or Lowest Eonothem',
             ],
         ],
     ];

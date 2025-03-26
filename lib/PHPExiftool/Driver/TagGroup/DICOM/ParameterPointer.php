@@ -28,13 +28,14 @@ class ParameterPointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parameter Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102774
+             * line : 75870
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParameterPointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParameterPointer',
             'desc' => [
+                'en' => 'Parameter Pointer',
             ],
         ],
     ];

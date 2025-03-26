@@ -28,13 +28,14 @@ class SurfaceProcessing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Processing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101145
+             * line : 74295
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceProcessing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceProcessing',
             'desc' => [
+                'en' => 'Surface Processing',
             ],
         ],
     ];

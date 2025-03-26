@@ -28,13 +28,14 @@ class AnalogDataCodingKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Analog Data Coding Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168027
+             * line : 114533
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnalogDataCodingKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnalogDataCodingKind',
             'desc' => [
+                'en' => 'Analog Data Coding Kind',
             ],
         ],
     ];

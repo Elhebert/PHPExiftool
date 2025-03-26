@@ -28,13 +28,14 @@ class Hue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187613
+             * line : 127169
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Hue extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:Hue',
             'desc' => [
+                'en' => 'Hue',
             ],
         ],
     ];

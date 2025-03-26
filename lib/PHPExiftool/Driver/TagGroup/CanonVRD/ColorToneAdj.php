@@ -28,13 +28,14 @@ class ColorToneAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80483
+             * line : 58702
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ColorToneAdj',
             'desc' => [
+                'en' => 'Color Tone Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82430
+             * line : 60374
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ColorToneAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:ColorToneAdj',
             'desc' => [
+                'en' => 'Color Tone Adj',
             ],
         ],
     ];

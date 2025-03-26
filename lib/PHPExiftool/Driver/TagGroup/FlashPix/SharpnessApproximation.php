@@ -28,13 +28,14 @@ class SharpnessApproximation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpness Approximation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124938
+             * line : 87288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpnessApproximation extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SharpnessApproximation',
             'desc' => [
+                'en' => 'Sharpness Approximation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaIsSAP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is SAP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1391
+             * line : 637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsSAP extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaIsSAP',
             'desc' => [
+                'en' => 'Media Is SAP',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawThermalImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Thermal Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::RawData
-             * line : 123680
+             * line : 86480
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawThermalImageWidth extends AbstractTagGroup
              */
             'id' => 'FLIR::RawData.FLIR:RawThermalImageWidth',
             'desc' => [
+                'en' => 'Raw Thermal Image Width',
             ],
         ],
     ];

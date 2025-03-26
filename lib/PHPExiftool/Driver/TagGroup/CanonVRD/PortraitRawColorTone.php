@@ -28,13 +28,14 @@ class PortraitRawColorTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Raw Color Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82788
+             * line : 60630
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitRawColorTone extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:PortraitRawColorTone',
             'desc' => [
+                'en' => 'Portrait Raw Color Tone',
             ],
         ],
     ];

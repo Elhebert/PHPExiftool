@@ -28,13 +28,14 @@ class SceneType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117024
+             * line : 83495
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SceneType',
             'desc' => [
+                'en' => 'Scene Type',
             ],
         ],
     ];

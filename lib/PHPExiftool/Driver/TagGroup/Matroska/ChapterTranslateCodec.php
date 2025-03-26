@@ -28,13 +28,14 @@ class ChapterTranslateCodec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Translate Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173849
+             * line : 119747
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterTranslateCodec extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterTranslateCodec',
             'desc' => [
+                'en' => 'Chapter Translate Codec',
             ],
         ],
     ];

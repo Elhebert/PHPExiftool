@@ -28,13 +28,14 @@ class DisplayEnvironmentSpatialPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Environment Spatial Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101563
+             * line : 74709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayEnvironmentSpatialPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplayEnvironmentSpatialPosition',
             'desc' => [
+                'en' => 'Display Environment Spatial Position',
             ],
         ],
     ];

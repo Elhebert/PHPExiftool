@@ -28,13 +28,14 @@ class PixelShiftFrameRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Shift Frame Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99240
+             * line : 72459
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelShiftFrameRange extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelShiftFrameRange',
             'desc' => [
+                'en' => 'Pixel Shift Frame Range',
             ],
         ],
     ];

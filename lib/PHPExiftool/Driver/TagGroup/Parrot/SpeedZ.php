@@ -28,13 +28,14 @@ class SpeedZ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Speed Z',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282168
+             * line : 195964
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpeedZ extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:SpeedZ',
             'desc' => [
+                'en' => 'Speed Z',
             ],
         ],
     ];

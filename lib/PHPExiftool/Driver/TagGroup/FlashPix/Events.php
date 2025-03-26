@@ -28,13 +28,14 @@ class Events extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Events',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125037
+             * line : 87350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Events extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:Events',
             'desc' => [
+                'en' => 'Events',
             ],
         ],
     ];

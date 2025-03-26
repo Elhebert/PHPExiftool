@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::Type4
-             * line : 142185
+             * line : 98416
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'HP::Type4.HP:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : HP::Type6
-             * line : 142264
+             * line : 98435
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'HP::Type6.HP:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

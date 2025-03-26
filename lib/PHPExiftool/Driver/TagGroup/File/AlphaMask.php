@@ -28,13 +28,14 @@ class AlphaMask extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Mask',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3358
+             * line : 2080
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaMask extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:AlphaMask',
             'desc' => [
+                'en' => 'Alpha Mask',
             ],
         ],
     ];

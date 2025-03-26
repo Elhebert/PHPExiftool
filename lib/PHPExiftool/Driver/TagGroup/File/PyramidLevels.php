@@ -28,13 +28,14 @@ class PyramidLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pyramid Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PGF::Main
-             * line : 264505
+             * line : 182816
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PyramidLevels extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:PyramidLevels',
             'desc' => [
+                'en' => 'Pyramid Levels',
             ],
         ],
     ];

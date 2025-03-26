@@ -28,13 +28,14 @@ class TotalNumberOfExposures extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Number Of Exposures',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99716
+             * line : 72921
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalNumberOfExposures extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalNumberOfExposures',
             'desc' => [
+                'en' => 'Total Number Of Exposures',
             ],
         ],
     ];

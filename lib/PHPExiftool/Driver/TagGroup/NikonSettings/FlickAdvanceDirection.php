@@ -28,13 +28,14 @@ class FlickAdvanceDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flick Advance Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244860
+             * line : 167619
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlickAdvanceDirection extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FlickAdvanceDirection',
             'desc' => [
+                'en' => 'Flick Advance Direction',
             ],
         ],
     ];

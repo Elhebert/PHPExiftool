@@ -28,13 +28,14 @@ class BorderColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Border Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164253
+             * line : 111697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BorderColor extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:BorderColor',
             'desc' => [
+                'en' => 'Border Color',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FontName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264746
+             * line : 182981
              * type : FontName
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
     ];

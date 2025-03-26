@@ -28,13 +28,14 @@ class LensTypeModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278054
+             * line : 193433
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensTypeModel extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:LensTypeModel',
             'desc' => [
+                'en' => 'Lens Type Model',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278104
+             * line : 193470
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LensTypeModel extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:LensTypeModel',
             'desc' => [
+                'en' => 'Lens Type Model',
             ],
         ],
     ];

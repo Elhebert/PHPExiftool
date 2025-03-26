@@ -28,13 +28,14 @@ class VolumeBasedCalculationTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Based Calculation Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95120
+             * line : 68602
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeBasedCalculationTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VolumeBasedCalculationTechnique',
             'desc' => [
+                'en' => 'Volume Based Calculation Technique',
             ],
         ],
     ];

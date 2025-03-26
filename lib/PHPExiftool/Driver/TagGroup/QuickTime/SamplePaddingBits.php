@@ -28,13 +28,14 @@ class SamplePaddingBits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Padding Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324413
+             * line : 229203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplePaddingBits extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:SamplePaddingBits',
             'desc' => [
+                'en' => 'Sample Padding Bits',
             ],
         ],
     ];

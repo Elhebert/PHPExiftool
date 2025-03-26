@@ -28,13 +28,14 @@ class BackgroundAlpha extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Background Alpha',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::swf
-             * line : 411352
+             * line : 290514
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BackgroundAlpha extends AbstractTagGroup
              */
             'id' => 'XMP::swf.XMP-swf:BackgroundAlpha',
             'desc' => [
+                'en' => 'Background Alpha',
             ],
         ],
     ];

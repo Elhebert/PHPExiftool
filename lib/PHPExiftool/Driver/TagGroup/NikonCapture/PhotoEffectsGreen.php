@@ -28,13 +28,14 @@ class PhotoEffectsGreen extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photo Effects Green',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::PhotoEffects
-             * line : 211177
+             * line : 142003
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotoEffectsGreen extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PhotoEffects.NikonCapture:PhotoEffectsGreen',
             'desc' => [
+                'en' => 'Photo Effects Green',
             ],
         ],
     ];

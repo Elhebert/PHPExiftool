@@ -28,13 +28,14 @@ class GradientBasedCorrLuminanceNoise extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Luminance Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402679
+             * line : 285816
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrLuminanceNoise extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrLuminanceNoise',
             'desc' => [
+                'en' => 'Gradient Based Corr Luminance Noise',
             ],
         ],
     ];

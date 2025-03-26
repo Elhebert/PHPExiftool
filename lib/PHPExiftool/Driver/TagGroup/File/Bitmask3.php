@@ -28,13 +28,14 @@ class Bitmask3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitmask 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166650
+             * line : 113388
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Bitmask3 extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Bitmask3',
             'desc' => [
+                'en' => 'Bitmask 3',
             ],
         ],
     ];

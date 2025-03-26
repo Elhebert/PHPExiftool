@@ -28,13 +28,14 @@ class PartialPalette extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial Palette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165211
+             * line : 112304
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialPalette extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:PartialPalette',
             'desc' => [
+                'en' => 'Partial Palette',
             ],
         ],
     ];

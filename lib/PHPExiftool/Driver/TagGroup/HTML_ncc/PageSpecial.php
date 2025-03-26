@@ -28,13 +28,14 @@ class PageSpecial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Special',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142991
+             * line : 98749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageSpecial extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:PageSpecial',
             'desc' => [
+                'en' => 'Page Special',
             ],
         ],
     ];

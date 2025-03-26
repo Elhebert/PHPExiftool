@@ -28,13 +28,14 @@ class InterscanDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interscan Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97494
+             * line : 70882
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterscanDelay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterscanDelay',
             'desc' => [
+                'en' => 'Interscan Delay',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocalTargetID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Target ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169776
+             * line : 116130
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LocalTargetID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalTargetID',
             'desc' => [
+                'en' => 'Local Target ID',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171989
+             * line : 118174
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LocalTargetID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalTargetID',
             'desc' => [
+                'en' => 'Local Target ID',
             ],
         ],
     ];

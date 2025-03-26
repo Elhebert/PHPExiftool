@@ -28,13 +28,14 @@ class DigitalZoomRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405415
+             * line : 287900
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalZoomRatio extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:DigitalZoomRatio',
             'desc' => [
+                'en' => 'Digital Zoom Ratio',
             ],
         ],
     ];

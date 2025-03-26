@@ -28,13 +28,14 @@ class AWBRedGainAdjRef5 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Red Gain Adj Ref5',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307197
+             * line : 213695
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBRedGainAdjRef5 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBRedGainAdjRef5',
             'desc' => [
+                'en' => 'AWB Red Gain Adj Ref5',
             ],
         ],
     ];

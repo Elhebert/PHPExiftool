@@ -28,13 +28,14 @@ class SubtitleDatafileFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subtitle Datafile Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169444
+             * line : 115848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubtitleDatafileFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SubtitleDatafileFlag',
             'desc' => [
+                'en' => 'Subtitle Datafile Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IntelligentExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intelligent Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277289
+             * line : 192902
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntelligentExposure extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:IntelligentExposure',
             'desc' => [
+                'en' => 'Intelligent Exposure',
             ],
         ],
     ];

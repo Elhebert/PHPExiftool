@@ -28,13 +28,14 @@ class TemporalPositionIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temporal Position Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97948
+             * line : 71299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemporalPositionIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemporalPositionIdentifier',
             'desc' => [
+                'en' => 'Temporal Position Identifier',
             ],
         ],
     ];

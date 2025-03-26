@@ -28,13 +28,14 @@ class SeriesRecordChecksum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Record Checksum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98189
+             * line : 71533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesRecordChecksum extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesRecordChecksum',
             'desc' => [
+                'en' => 'Series Record Checksum',
             ],
         ],
     ];

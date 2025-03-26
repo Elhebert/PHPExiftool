@@ -28,13 +28,14 @@ class MaskFrameNumbers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Frame Numbers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99153
+             * line : 72372
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskFrameNumbers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskFrameNumbers',
             'desc' => [
+                'en' => 'Mask Frame Numbers',
             ],
         ],
     ];

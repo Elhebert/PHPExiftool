@@ -28,13 +28,14 @@ class RetouchAreaMaskMaskName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Mask Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400762
+             * line : 284243
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskMaskName extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskMaskName',
             'desc' => [
+                'en' => 'Retouch Area Mask Mask Name',
             ],
         ],
     ];

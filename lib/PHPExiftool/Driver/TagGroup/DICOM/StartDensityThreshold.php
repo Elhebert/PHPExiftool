@@ -28,13 +28,14 @@ class StartDensityThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Density Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97315
+             * line : 70711
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartDensityThreshold extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartDensityThreshold',
             'desc' => [
+                'en' => 'Start Density Threshold',
             ],
         ],
     ];

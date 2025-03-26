@@ -28,13 +28,14 @@ class PanoramicStitchMapType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panoramic Stitch Map Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Stitch
-             * line : 174276
+             * line : 120031
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramicStitchMapType extends AbstractTagGroup
              */
             'id' => 'Microsoft::Stitch.Microsoft:PanoramicStitchMapType',
             'desc' => [
+                'en' => 'Panoramic Stitch Map Type',
             ],
         ],
     ];

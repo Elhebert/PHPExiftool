@@ -28,13 +28,14 @@ class BracketingOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracketing Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208612
+             * line : 140513
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketingOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:BracketingOffset',
             'desc' => [
+                'en' => 'Bracketing Offset',
             ],
         ],
     ];

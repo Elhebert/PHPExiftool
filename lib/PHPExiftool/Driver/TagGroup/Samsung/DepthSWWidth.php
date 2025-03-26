@@ -28,13 +28,14 @@ class DepthSWWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth SW Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334181
+             * line : 234261
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthSWWidth extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:DepthSWWidth',
             'desc' => [
+                'en' => 'Depth SW Width',
             ],
         ],
     ];

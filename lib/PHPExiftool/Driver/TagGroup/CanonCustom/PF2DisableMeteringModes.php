@@ -28,13 +28,14 @@ class PF2DisableMeteringModes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF2 Disable Metering Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78359
+             * line : 57060
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF2DisableMeteringModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF2DisableMeteringModes',
             'desc' => [
+                'en' => 'PF2 Disable Metering Modes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class YhiYloConvLumaV0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Yhi Ylo Conv Luma V0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310243
+             * line : 216155
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YhiYloConvLumaV0 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:YhiYloConvLumaV0',
             'desc' => [
+                'en' => 'Yhi Ylo Conv Luma V0',
             ],
         ],
     ];

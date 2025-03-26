@@ -28,13 +28,14 @@ class VideoColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413702
+             * line : 291746
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoColorSpace extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoColorSpace',
             'desc' => [
+                'en' => 'Video Color Space',
             ],
         ],
     ];

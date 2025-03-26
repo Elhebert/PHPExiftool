@@ -28,13 +28,14 @@ class GPSHPositioningError extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Horizontal Positioning Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132723
+             * line : 91028
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSHPositioningError extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSHPositioningError',
             'desc' => [
+                'en' => 'GPS Horizontal Positioning Error',
             ],
         ],
     ];

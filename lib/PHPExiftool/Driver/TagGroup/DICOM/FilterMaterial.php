@@ -28,13 +28,14 @@ class FilterMaterial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Material',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96484
+             * line : 69892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterMaterial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterMaterial',
             'desc' => [
+                'en' => 'Filter Material',
             ],
         ],
     ];

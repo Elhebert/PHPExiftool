@@ -28,13 +28,14 @@ class ThumbnailHash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Hash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3776
+             * line : 2305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailHash extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:ThumbnailHash',
             'desc' => [
+                'en' => 'Thumbnail Hash',
             ],
         ],
     ];

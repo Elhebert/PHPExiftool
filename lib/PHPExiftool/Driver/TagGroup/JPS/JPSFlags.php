@@ -28,13 +28,14 @@ class JPSFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPS Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::JPS
-             * line : 152499
+             * line : 104960
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPSFlags extends AbstractTagGroup
              */
             'id' => 'JPEG::JPS.JPS:JPSFlags',
             'desc' => [
+                'en' => 'JPS Flags',
             ],
         ],
     ];

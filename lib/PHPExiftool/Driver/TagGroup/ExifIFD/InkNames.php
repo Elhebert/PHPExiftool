@@ -28,13 +28,14 @@ class InkNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ink Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111661
+             * line : 81728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InkNames extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:InkNames',
             'desc' => [
+                'en' => 'Ink Names',
             ],
         ],
     ];

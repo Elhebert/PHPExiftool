@@ -28,13 +28,14 @@ class UnknownBlock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown Block',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274925
+             * line : 191659
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnknownBlock extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:UnknownBlock',
             'desc' => [
+                'en' => 'Unknown Block',
             ],
         ],
     ];

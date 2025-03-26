@@ -28,13 +28,14 @@ class ThumbnailImageValidArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Image Valid Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65699
+             * line : 49961
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ThumbnailImageValidArea extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:ThumbnailImageValidArea',
             'desc' => [
+                'en' => 'Thumbnail Image Valid Area',
             ],
         ],
     ];

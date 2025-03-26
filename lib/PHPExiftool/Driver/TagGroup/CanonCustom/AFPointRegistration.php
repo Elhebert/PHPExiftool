@@ -28,13 +28,14 @@ class AFPointRegistration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Registration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71489
+             * line : 53287
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointRegistration extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:AFPointRegistration',
             'desc' => [
+                'en' => 'AF Point Registration',
             ],
         ],
     ];

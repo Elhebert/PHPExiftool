@@ -28,13 +28,14 @@ class RelatedImageFileFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Related Image File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112638
+             * line : 82111
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelatedImageFileFormat extends AbstractTagGroup
              */
             'id' => 'Exif::Main.InteropIFD:RelatedImageFileFormat',
             'desc' => [
+                'en' => 'Related Image File Format',
             ],
         ],
     ];

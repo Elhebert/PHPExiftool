@@ -28,13 +28,14 @@ class ColorAdjustmentMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Adjustment Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336433
+             * line : 235781
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorAdjustmentMode extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:ColorAdjustmentMode',
             'desc' => [
+                'en' => 'Color Adjustment Mode',
             ],
         ],
     ];

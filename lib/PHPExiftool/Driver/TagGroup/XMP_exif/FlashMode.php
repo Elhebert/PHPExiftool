@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405900
+             * line : 288003
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

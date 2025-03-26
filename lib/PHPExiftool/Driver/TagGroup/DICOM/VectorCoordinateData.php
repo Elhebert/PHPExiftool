@@ -28,13 +28,14 @@ class VectorCoordinateData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vector Coordinate Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101190
+             * line : 74340
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VectorCoordinateData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VectorCoordinateData',
             'desc' => [
+                'en' => 'Vector Coordinate Data',
             ],
         ],
     ];

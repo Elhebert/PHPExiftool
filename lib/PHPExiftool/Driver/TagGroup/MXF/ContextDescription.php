@@ -28,13 +28,14 @@ class ContextDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Context Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170228
+             * line : 116505
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContextDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContextDescription',
             'desc' => [
+                'en' => 'Context Description',
             ],
         ],
     ];

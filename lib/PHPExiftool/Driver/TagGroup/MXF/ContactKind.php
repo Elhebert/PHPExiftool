@@ -28,13 +28,14 @@ class ContactKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167557
+             * line : 114171
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ContactKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContactKind',
             'desc' => [
+                'en' => 'Contact Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170050
+             * line : 116370
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ContactKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContactKind',
             'desc' => [
+                'en' => 'Contact Kind',
             ],
         ],
     ];

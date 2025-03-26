@@ -28,13 +28,14 @@ class MovieActiveD_Lighting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Active D-Lighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200216
+             * line : 135180
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieActiveD_Lighting extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieActiveD-Lighting',
             'desc' => [
+                'en' => 'Movie Active D-Lighting',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201493
+             * line : 136387
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MovieActiveD_Lighting extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieActiveD-Lighting',
             'desc' => [
+                'en' => 'Movie Active D-Lighting',
             ],
         ],
     ];

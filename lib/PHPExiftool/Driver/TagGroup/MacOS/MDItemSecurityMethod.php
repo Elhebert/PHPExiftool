@@ -28,13 +28,14 @@ class MDItemSecurityMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Security Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172980
+             * line : 119029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemSecurityMethod extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemSecurityMethod',
             'desc' => [
+                'en' => 'MD Item Security Method',
             ],
         ],
     ];

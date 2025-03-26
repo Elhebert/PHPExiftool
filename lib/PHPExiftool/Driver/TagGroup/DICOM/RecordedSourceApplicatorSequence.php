@@ -28,13 +28,14 @@ class RecordedSourceApplicatorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Source Applicator Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102882
+             * line : 75978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedSourceApplicatorSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordedSourceApplicatorSequence',
             'desc' => [
+                'en' => 'Recorded Source Applicator Sequence',
             ],
         ],
     ];

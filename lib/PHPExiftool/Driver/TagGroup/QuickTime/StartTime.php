@@ -28,13 +28,14 @@ class StartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Pittasoft
-             * line : 324206
+             * line : 229079
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Pittasoft.QuickTime:StartTime',
             'desc' => [
+                'en' => 'Start Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocationAreaCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Area Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cell
-             * line : 398164
+             * line : 281797
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationAreaCode extends AbstractTagGroup
              */
             'id' => 'XMP::cell.XMP-cell:LocationAreaCode',
             'desc' => [
+                'en' => 'Location Area Code',
             ],
         ],
     ];

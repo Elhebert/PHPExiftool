@@ -28,13 +28,14 @@ class AxisLabels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axis Labels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104167
+             * line : 77253
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxisLabels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxisLabels',
             'desc' => [
+                'en' => 'Axis Labels',
             ],
         ],
     ];

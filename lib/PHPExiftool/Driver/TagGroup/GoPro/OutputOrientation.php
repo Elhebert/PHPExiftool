@@ -28,13 +28,14 @@ class OutputOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139639
+             * line : 97693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputOrientation extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:OutputOrientation',
             'desc' => [
+                'en' => 'Output Orientation',
             ],
         ],
     ];

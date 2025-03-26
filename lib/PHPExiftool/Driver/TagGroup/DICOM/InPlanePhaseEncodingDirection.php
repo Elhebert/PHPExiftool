@@ -28,13 +28,14 @@ class InPlanePhaseEncodingDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'In Plane Phase Encoding Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95980
+             * line : 69403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InPlanePhaseEncodingDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InPlanePhaseEncodingDirection',
             'desc' => [
+                'en' => 'In Plane Phase Encoding Direction',
             ],
         ],
     ];

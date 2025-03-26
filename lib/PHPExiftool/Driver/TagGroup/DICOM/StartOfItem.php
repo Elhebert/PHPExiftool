@@ -28,13 +28,14 @@ class StartOfItem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Of Item',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104423
+             * line : 77496
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartOfItem extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartOfItem',
             'desc' => [
+                'en' => 'Start Of Item',
             ],
         ],
     ];

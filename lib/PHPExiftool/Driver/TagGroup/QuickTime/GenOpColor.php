@@ -28,13 +28,14 @@ class GenOpColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Op Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GenMediaInfo
-             * line : 313345
+             * line : 219092
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class GenOpColor extends AbstractTagGroup
              */
             'id' => 'QuickTime::GenMediaInfo.QuickTime:GenOpColor',
             'desc' => [
+                'en' => 'Gen Op Color',
             ],
         ],
     ];

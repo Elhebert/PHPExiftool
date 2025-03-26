@@ -28,13 +28,14 @@ class Unknown_AACR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown AACR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314079
+             * line : 219731
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Unknown_AACR extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Unknown_AACR',
             'desc' => [
+                'en' => 'Unknown AACR',
             ],
         ],
     ];

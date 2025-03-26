@@ -28,13 +28,14 @@ class PseudoColorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pseudo Color Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101698
+             * line : 74841
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PseudoColorType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PseudoColorType',
             'desc' => [
+                'en' => 'Pseudo Color Type',
             ],
         ],
     ];

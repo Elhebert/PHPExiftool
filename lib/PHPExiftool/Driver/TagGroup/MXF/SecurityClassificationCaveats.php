@@ -28,13 +28,14 @@ class SecurityClassificationCaveats extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Security Classification Caveats',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169979
+             * line : 116304
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SecurityClassificationCaveats extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecurityClassificationCaveats',
             'desc' => [
+                'en' => 'Security Classification Caveats',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172027
+             * line : 118201
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SecurityClassificationCaveats extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecurityClassificationCaveats',
             'desc' => [
+                'en' => 'Security Classification Caveats',
             ],
         ],
     ];

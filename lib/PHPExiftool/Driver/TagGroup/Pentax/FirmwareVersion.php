@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300876
+             * line : 209688
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Type4
-             * line : 303030
+             * line : 210699
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Pentax::Type4.Pentax:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

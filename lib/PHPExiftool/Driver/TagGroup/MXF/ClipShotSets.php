@@ -28,13 +28,14 @@ class ClipShotSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip Shot Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171547
+             * line : 117745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipShotSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClipShotSets',
             'desc' => [
+                'en' => 'Clip Shot Sets',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompensatorColumnOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Column Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103732
+             * line : 76821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorColumnOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorColumnOffset',
             'desc' => [
+                'en' => 'Compensator Column Offset',
             ],
         ],
     ];

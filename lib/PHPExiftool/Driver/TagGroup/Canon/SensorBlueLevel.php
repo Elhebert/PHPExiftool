@@ -28,13 +28,14 @@ class SensorBlueLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Blue Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Processing
-             * line : 69552
+             * line : 52415
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorBlueLevel extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:SensorBlueLevel',
             'desc' => [
+                'en' => 'Sensor Blue Level',
             ],
         ],
     ];

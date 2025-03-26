@@ -28,13 +28,14 @@ class PerceptualRenderingIntentGamut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Perceptual Rendering Intent Gamut',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146586
+             * line : 101871
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerceptualRenderingIntentGamut extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:PerceptualRenderingIntentGamut',
             'desc' => [
+                'en' => 'Perceptual Rendering Intent Gamut',
             ],
         ],
     ];

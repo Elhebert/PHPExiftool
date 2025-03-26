@@ -28,13 +28,14 @@ class IonControlPointVerificationSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Control Point Verification Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101793
+             * line : 74934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonControlPointVerificationSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonControlPointVerificationSeq',
             'desc' => [
+                'en' => 'Ion Control Point Verification Seq',
             ],
         ],
     ];

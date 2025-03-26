@@ -28,13 +28,14 @@ class LensTableIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Table Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155557
+             * line : 106769
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensTableIndex extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LensTableIndex',
             'desc' => [
+                'en' => 'Lens Table Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VC_1InitializationMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Initialization Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172379
+             * line : 118540
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1InitializationMetadata extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1InitializationMetadata',
             'desc' => [
+                'en' => 'VC-1 Initialization Metadata',
             ],
         ],
     ];

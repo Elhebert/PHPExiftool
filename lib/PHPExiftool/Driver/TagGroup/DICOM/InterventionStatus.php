@@ -28,13 +28,14 @@ class InterventionStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervention Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95476
+             * line : 68935
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterventionStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterventionStatus',
             'desc' => [
+                'en' => 'Intervention Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Depth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142951
+             * line : 98719
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Depth extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Depth',
             'desc' => [
+                'en' => 'Depth',
             ],
         ],
     ];

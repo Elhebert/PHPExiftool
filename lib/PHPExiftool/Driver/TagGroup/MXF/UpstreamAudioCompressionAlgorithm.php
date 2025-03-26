@@ -28,13 +28,14 @@ class UpstreamAudioCompressionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Upstream Audio Compression Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168226
+             * line : 114722
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UpstreamAudioCompressionAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UpstreamAudioCompressionAlgorithm',
             'desc' => [
+                'en' => 'Upstream Audio Compression Algorithm',
             ],
         ],
     ];

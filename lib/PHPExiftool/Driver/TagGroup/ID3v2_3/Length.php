@@ -28,13 +28,14 @@ class Length extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148904
+             * line : 103325
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Length extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:Length',
             'desc' => [
+                'en' => 'Length',
             ],
         ],
     ];

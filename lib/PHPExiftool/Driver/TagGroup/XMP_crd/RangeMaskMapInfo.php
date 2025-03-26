@@ -28,13 +28,14 @@ class RangeMaskMapInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Range Mask Map Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400615
+             * line : 284102
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RangeMaskMapInfo extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RangeMaskMapInfo',
             'desc' => [
+                'en' => 'Range Mask Map Info',
             ],
         ],
     ];

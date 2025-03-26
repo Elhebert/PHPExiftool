@@ -28,13 +28,14 @@ class PresentationFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249212
+             * line : 171822
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationFormat extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:PresentationFormat',
             'desc' => [
+                'en' => 'Presentation Format',
             ],
         ],
     ];

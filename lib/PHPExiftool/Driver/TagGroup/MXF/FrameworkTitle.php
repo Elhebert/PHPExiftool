@@ -28,13 +28,14 @@ class FrameworkTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Framework Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171024
+             * line : 117249
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FrameworkTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameworkTitle',
             'desc' => [
+                'en' => 'Framework Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171027
+             * line : 117252
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FrameworkTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameworkTitle',
             'desc' => [
+                'en' => 'Framework Title',
             ],
         ],
     ];

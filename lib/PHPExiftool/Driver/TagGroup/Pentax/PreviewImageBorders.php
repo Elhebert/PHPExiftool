@@ -28,13 +28,14 @@ class PreviewImageBorders extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Borders',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299514
+             * line : 208878
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class PreviewImageBorders extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:PreviewImageBorders',
             'desc' => [
+                'en' => 'Preview Image Borders',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AssignMB_D17AF_OnButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign MB-D17 AF-On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221883
+             * line : 149784
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AssignMB_D17AF_OnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMB-D17AF-OnButton',
             'desc' => [
+                'en' => 'Assign MB-D17 AF-On Button',
             ],
         ],
     ];

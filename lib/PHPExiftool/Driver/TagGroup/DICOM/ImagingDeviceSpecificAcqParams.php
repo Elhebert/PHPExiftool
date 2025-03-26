@@ -28,13 +28,14 @@ class ImagingDeviceSpecificAcqParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imaging Device Specific Acq Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103179
+             * line : 76275
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagingDeviceSpecificAcqParams extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagingDeviceSpecificAcqParams',
             'desc' => [
+                'en' => 'Imaging Device Specific Acq Params',
             ],
         ],
     ];

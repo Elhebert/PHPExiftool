@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::PixelLive
-             * line : 397495
+             * line : 281456
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'XMP::PixelLive.XMP-PixelLive:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

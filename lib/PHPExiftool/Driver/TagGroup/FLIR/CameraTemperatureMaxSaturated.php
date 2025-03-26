@@ -28,13 +28,14 @@ class CameraTemperatureMaxSaturated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Temperature Max Saturated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122249
+             * line : 85638
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraTemperatureMaxSaturated extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureMaxSaturated',
             'desc' => [
+                'en' => 'Camera Temperature Max Saturated',
             ],
         ],
     ];

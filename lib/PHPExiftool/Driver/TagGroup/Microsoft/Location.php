@@ -28,13 +28,14 @@ class Location extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174697
+             * line : 120266
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Location extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176629
+             * line : 121503
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Location extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
     ];

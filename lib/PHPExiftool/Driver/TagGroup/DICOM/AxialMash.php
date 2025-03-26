@@ -28,13 +28,14 @@ class AxialMash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axial Mash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100995
+             * line : 74145
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxialMash extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxialMash',
             'desc' => [
+                'en' => 'Axial Mash',
             ],
         ],
     ];

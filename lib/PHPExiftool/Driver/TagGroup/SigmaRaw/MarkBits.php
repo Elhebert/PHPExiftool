@@ -28,13 +28,14 @@ class MarkBits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mark Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339332
+             * line : 237506
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MarkBits extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:MarkBits',
             'desc' => [
+                'en' => 'Mark Bits',
             ],
         ],
     ];

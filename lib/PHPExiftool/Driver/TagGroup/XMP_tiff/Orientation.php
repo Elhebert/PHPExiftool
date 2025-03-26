@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411859
+             * line : 290712
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

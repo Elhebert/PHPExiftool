@@ -28,13 +28,14 @@ class MediaOriginalRunTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Original Run Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396155
+             * line : 280451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaOriginalRunTime extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaOriginalRunTime',
             'desc' => [
+                'en' => 'Media Original Run Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VmaPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vma Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98501
+             * line : 71833
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VmaPhase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VmaPhase',
             'desc' => [
+                'en' => 'Vma Phase',
             ],
         ],
     ];

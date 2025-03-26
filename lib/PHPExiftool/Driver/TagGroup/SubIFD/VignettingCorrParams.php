@@ -28,13 +28,14 @@ class VignettingCorrParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112775
+             * line : 82169
              * type : int16s
              * writable : true
              * count : 17
@@ -42,6 +43,7 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
     ];

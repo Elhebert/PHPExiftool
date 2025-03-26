@@ -28,13 +28,14 @@ class RimNonlinearity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rim Nonlinearity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155843
+             * line : 107054
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RimNonlinearity extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RimNonlinearity',
             'desc' => [
+                'en' => 'Rim Nonlinearity',
             ],
         ],
     ];

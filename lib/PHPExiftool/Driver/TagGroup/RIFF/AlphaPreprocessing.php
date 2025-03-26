@@ -28,13 +28,14 @@ class AlphaPreprocessing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Preprocessing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::ALPH
-             * line : 326848
+             * line : 230511
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaPreprocessing extends AbstractTagGroup
              */
             'id' => 'RIFF::ALPH.RIFF:AlphaPreprocessing',
             'desc' => [
+                'en' => 'Alpha Preprocessing',
             ],
         ],
     ];

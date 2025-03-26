@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411836
+             * line : 290706
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

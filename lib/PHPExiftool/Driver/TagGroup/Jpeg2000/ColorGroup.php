@@ -28,13 +28,14 @@ class ColorGroup extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154168
+             * line : 105855
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorGroup extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:ColorGroup',
             'desc' => [
+                'en' => 'Color Group',
             ],
         ],
     ];

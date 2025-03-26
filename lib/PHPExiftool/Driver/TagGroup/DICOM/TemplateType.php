@@ -28,13 +28,14 @@ class TemplateType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103597
+             * line : 76689
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemplateType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemplateType',
             'desc' => [
+                'en' => 'Template Type',
             ],
         ],
     ];

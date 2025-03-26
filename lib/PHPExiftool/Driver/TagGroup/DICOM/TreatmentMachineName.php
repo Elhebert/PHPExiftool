@@ -28,13 +28,14 @@ class TreatmentMachineName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Machine Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103128
+             * line : 76224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentMachineName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentMachineName',
             'desc' => [
+                'en' => 'Treatment Machine Name',
             ],
         ],
     ];

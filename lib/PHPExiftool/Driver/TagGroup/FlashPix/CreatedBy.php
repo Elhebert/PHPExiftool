@@ -28,13 +28,14 @@ class CreatedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Created By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127311
+             * line : 88350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatedBy extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:CreatedBy',
             'desc' => [
+                'en' => 'Created By',
             ],
         ],
     ];

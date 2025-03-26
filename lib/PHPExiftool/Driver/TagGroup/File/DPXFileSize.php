@@ -28,13 +28,14 @@ class DPXFileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DPX File Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105311
+             * line : 78051
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DPXFileSize extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:DPXFileSize',
             'desc' => [
+                'en' => 'DPX File Size',
             ],
         ],
     ];

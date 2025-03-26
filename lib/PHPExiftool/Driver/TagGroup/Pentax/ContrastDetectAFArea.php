@@ -28,13 +28,14 @@ class ContrastDetectAFArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Detect AF Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300886
+             * line : 209691
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ContrastDetectAFArea extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ContrastDetectAFArea',
             'desc' => [
+                'en' => 'Contrast Detect AF Area',
             ],
         ],
     ];

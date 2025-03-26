@@ -28,13 +28,14 @@ class EncodingProcess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SOF
-             * line : 152896
+             * line : 105190
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodingProcess extends AbstractTagGroup
              */
             'id' => 'JPEG::SOF.File:EncodingProcess',
             'desc' => [
+                'en' => 'Encoding Process',
             ],
         ],
     ];

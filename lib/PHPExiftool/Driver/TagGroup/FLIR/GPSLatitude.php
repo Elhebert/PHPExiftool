@@ -28,13 +28,14 @@ class GPSLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 122801
+             * line : 85932
              * type : double
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::GPS_UUID
-             * line : 123125
+             * line : 85996
              * type : float
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'FLIR::GPS_UUID.FLIR:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
     ];

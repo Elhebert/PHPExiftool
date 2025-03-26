@@ -28,13 +28,14 @@ class SteeringAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Steering Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96310
+             * line : 69718
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SteeringAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SteeringAngle',
             'desc' => [
+                'en' => 'Steering Angle',
             ],
         ],
     ];

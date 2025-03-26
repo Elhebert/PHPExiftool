@@ -28,13 +28,14 @@ class RawDevMemoryColorEmphasis extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Memory Color Emphasis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260251
+             * line : 179784
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawDevMemoryColorEmphasis extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevMemoryColorEmphasis',
             'desc' => [
+                'en' => 'Raw Dev Memory Color Emphasis',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260469
+             * line : 179929
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawDevMemoryColorEmphasis extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevMemoryColorEmphasis',
             'desc' => [
+                'en' => 'Raw Dev Memory Color Emphasis',
             ],
         ],
     ];

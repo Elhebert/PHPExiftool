@@ -28,13 +28,14 @@ class MediaIsSubtitled extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Subtitled',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396117
+             * line : 280417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsSubtitled extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsSubtitled',
             'desc' => [
+                'en' => 'Media Is Subtitled',
             ],
         ],
     ];

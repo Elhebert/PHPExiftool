@@ -28,13 +28,14 @@ class AudioCompression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75660
+             * line : 55715
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioCompression extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AudioCompression',
             'desc' => [
+                'en' => 'Audio Compression',
             ],
         ],
     ];

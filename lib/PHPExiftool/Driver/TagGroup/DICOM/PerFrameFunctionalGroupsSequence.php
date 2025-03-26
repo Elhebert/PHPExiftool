@@ -28,13 +28,14 @@ class PerFrameFunctionalGroupsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Per Frame Functional Groups Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104245
+             * line : 77319
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerFrameFunctionalGroupsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerFrameFunctionalGroupsSequence',
             'desc' => [
+                'en' => 'Per Frame Functional Groups Sequence',
             ],
         ],
     ];

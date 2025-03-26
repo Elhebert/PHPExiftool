@@ -28,13 +28,14 @@ class AffineB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Affine B',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aas
-             * line : 397592
+             * line : 281495
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AffineB extends AbstractTagGroup
              */
             'id' => 'XMP::aas.XMP-aas:AffineB',
             'desc' => [
+                'en' => 'Affine B',
             ],
         ],
     ];

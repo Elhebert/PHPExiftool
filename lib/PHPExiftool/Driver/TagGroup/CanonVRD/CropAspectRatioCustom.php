@@ -28,13 +28,14 @@ class CropAspectRatioCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Aspect Ratio Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80825
+             * line : 58937
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropAspectRatioCustom extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:CropAspectRatioCustom',
             'desc' => [
+                'en' => 'Crop Aspect Ratio Custom',
             ],
         ],
     ];

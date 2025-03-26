@@ -28,13 +28,14 @@ class PF28NoQuickDialExpComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF28 No Quick Dial Exp Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78428
+             * line : 57129
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF28NoQuickDialExpComp extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF28NoQuickDialExpComp',
             'desc' => [
+                'en' => 'PF28 No Quick Dial Exp Comp',
             ],
         ],
     ];

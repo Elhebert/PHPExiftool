@@ -28,13 +28,14 @@ class BAHPVer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BAHP Ver',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123602
+             * line : 86403
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BAHPVer extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:BAHPVer',
             'desc' => [
+                'en' => 'BAHP Ver',
             ],
         ],
     ];

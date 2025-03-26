@@ -28,13 +28,14 @@ class FlashInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192344
+             * line : 130311
              * type : string
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 192851
+             * line : 130646
              * type : string
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193423
+             * line : 131013
              * type : string
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194047
+             * line : 131421
              * type : string
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194659
+             * line : 131820
              * type : string
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::FlashInfo0300
-             * line : 195146
+             * line : 132163
              * type : string
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0300.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::FlashInfoUnknown
-             * line : 195242
+             * line : 132237
              * type : string
              * writable : true
              * count : 4
@@ -120,6 +127,7 @@ class FlashInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfoUnknown.Nikon:FlashInfoVersion',
             'desc' => [
+                'en' => 'Flash Info Version',
             ],
         ],
     ];

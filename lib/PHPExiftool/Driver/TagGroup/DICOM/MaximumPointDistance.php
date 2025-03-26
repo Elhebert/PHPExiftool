@@ -28,13 +28,14 @@ class MaximumPointDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Point Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101172
+             * line : 74322
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumPointDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumPointDistance',
             'desc' => [
+                'en' => 'Maximum Point Distance',
             ],
         ],
     ];

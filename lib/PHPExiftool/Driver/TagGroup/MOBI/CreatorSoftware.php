@@ -28,13 +28,14 @@ class CreatorSoftware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273566
+             * line : 190772
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorSoftware extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:CreatorSoftware',
             'desc' => [
+                'en' => 'Creator Software',
             ],
         ],
     ];

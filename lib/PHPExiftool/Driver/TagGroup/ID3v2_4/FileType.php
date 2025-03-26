@@ -28,13 +28,14 @@ class FileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149418
+             * line : 103618
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileType extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:FileType',
             'desc' => [
+                'en' => 'File Type',
             ],
         ],
     ];

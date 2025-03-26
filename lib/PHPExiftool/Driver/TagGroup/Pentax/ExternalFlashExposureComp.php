@@ -28,13 +28,14 @@ class ExternalFlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 288202
+             * line : 199982
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashExposureComp',
             'desc' => [
+                'en' => 'External Flash Exposure Comp',
             ],
         ],
     ];

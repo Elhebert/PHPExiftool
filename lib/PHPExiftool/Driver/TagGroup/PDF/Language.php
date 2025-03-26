@@ -28,13 +28,14 @@ class Language extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Root
-             * line : 264325
+             * line : 182704
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Language extends AbstractTagGroup
              */
             'id' => 'PDF::Root.PDF:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
     ];

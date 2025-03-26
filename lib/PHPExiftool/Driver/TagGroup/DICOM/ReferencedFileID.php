@@ -28,13 +28,14 @@ class ReferencedFileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced File ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94625
+             * line : 68125
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedFileID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedFileID',
             'desc' => [
+                'en' => 'Referenced File ID',
             ],
         ],
     ];

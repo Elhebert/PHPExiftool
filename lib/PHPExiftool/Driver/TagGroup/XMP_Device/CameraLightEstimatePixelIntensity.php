@@ -28,13 +28,14 @@ class CameraLightEstimatePixelIntensity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Light Estimate Pixel Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396612
+             * line : 280829
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraLightEstimatePixelIntensity extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraLightEstimatePixelIntensity',
             'desc' => [
+                'en' => 'Camera Light Estimate Pixel Intensity',
             ],
         ],
     ];

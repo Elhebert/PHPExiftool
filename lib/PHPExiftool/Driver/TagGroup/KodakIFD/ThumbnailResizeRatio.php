@@ -28,13 +28,14 @@ class ThumbnailResizeRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Resize Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155460
+             * line : 106673
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailResizeRatio extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ThumbnailResizeRatio',
             'desc' => [
+                'en' => 'Thumbnail Resize Ratio',
             ],
         ],
     ];

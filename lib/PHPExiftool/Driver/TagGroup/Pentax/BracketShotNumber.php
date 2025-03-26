@@ -28,13 +28,14 @@ class BracketShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284891
+             * line : 197674
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketShotNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:BracketShotNumber',
             'desc' => [
+                'en' => 'Bracket Shot Number',
             ],
         ],
     ];

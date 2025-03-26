@@ -28,13 +28,14 @@ class RASLetterForAnteriorPosterior extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RAS Letter For Anterior Posterior',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98584
+             * line : 71914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RASLetterForAnteriorPosterior extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RASLetterForAnteriorPosterior',
             'desc' => [
+                'en' => 'RAS Letter For Anterior Posterior',
             ],
         ],
     ];

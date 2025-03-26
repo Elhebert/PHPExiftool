@@ -28,13 +28,14 @@ class Delay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164325
+             * line : 111715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Delay extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Delay',
             'desc' => [
+                'en' => 'Delay',
             ],
         ],
     ];

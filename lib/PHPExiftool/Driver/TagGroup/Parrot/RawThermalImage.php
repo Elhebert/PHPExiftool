@@ -28,13 +28,14 @@ class RawThermalImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Thermal Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152562
+             * line : 105023
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawThermalImage extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.Parrot:RawThermalImage',
             'desc' => [
+                'en' => 'Raw Thermal Image',
             ],
         ],
     ];

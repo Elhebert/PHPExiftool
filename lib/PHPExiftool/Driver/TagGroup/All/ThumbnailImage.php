@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90530
+             * line : 65215
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Composite.All:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

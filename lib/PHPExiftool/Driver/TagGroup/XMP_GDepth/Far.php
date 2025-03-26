@@ -28,13 +28,14 @@ class Far extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Far',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396926
+             * line : 281116
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Far extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Far',
             'desc' => [
+                'en' => 'Far',
             ],
         ],
     ];

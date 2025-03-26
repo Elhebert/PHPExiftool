@@ -28,13 +28,14 @@ class DMWindowThresholdFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DM Window Threshold Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155753
+             * line : 106964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DMWindowThresholdFactor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMWindowThresholdFactor',
             'desc' => [
+                'en' => 'DM Window Threshold Factor',
             ],
         ],
     ];

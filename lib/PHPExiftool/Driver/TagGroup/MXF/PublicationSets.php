@@ -28,13 +28,14 @@ class PublicationSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publication Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171519
+             * line : 117718
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PublicationSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublicationSets',
             'desc' => [
+                'en' => 'Publication Sets',
             ],
         ],
     ];

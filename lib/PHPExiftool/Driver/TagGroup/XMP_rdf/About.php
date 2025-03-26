@@ -28,13 +28,14 @@ class About extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'About',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::rdf
-             * line : 411343
+             * line : 290507
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class About extends AbstractTagGroup
              */
             'id' => 'XMP::rdf.XMP-rdf:About',
             'desc' => [
+                'en' => 'About',
             ],
         ],
     ];

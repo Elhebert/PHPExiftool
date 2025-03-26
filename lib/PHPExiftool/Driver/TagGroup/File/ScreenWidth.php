@@ -28,13 +28,14 @@ class ScreenWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 264018
+             * line : 182540
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenWidth extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:ScreenWidth',
             'desc' => [
+                'en' => 'Screen Width',
             ],
         ],
     ];

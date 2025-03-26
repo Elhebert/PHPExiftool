@@ -28,13 +28,14 @@ class LensAttached extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Attached',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279733
+             * line : 194281
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensAttached extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:LensAttached',
             'desc' => [
+                'en' => 'Lens Attached',
             ],
         ],
     ];

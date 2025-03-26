@@ -28,13 +28,14 @@ class ZipUncompressedSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip Uncompressed Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414930
+             * line : 292746
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipUncompressedSize extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipUncompressedSize',
             'desc' => [
+                'en' => 'Zip Uncompressed Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PointPositionAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Point Position Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101166
+             * line : 74316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PointPositionAccuracy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PointPositionAccuracy',
             'desc' => [
+                'en' => 'Point Position Accuracy',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaStationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Station Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396161
+             * line : 280457
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaStationName extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaStationName',
             'desc' => [
+                'en' => 'Media Station Name',
             ],
         ],
     ];

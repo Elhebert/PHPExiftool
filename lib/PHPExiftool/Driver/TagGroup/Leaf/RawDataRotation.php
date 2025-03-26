@@ -28,13 +28,14 @@ class RawDataRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161733
+             * line : 110482
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataRotation extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:RawDataRotation',
             'desc' => [
+                'en' => 'Raw Data Rotation',
             ],
         ],
     ];

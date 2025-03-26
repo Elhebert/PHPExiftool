@@ -28,13 +28,14 @@ class ModifiedSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66484
+             * line : 50581
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedSharpness extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedSharpness',
             'desc' => [
+                'en' => 'Modified Sharpness',
             ],
         ],
     ];

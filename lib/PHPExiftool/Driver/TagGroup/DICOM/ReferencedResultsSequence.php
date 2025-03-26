@@ -28,13 +28,14 @@ class ReferencedResultsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Results Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94910
+             * line : 68392
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedResultsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedResultsSequence',
             'desc' => [
+                'en' => 'Referenced Results Sequence',
             ],
         ],
     ];

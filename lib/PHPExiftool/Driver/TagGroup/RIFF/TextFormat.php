@@ -28,13 +28,14 @@ class TextFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Stream
-             * line : 328748
+             * line : 231834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextFormat extends AbstractTagGroup
              */
             'id' => 'RIFF::Stream.RIFF:TextFormat',
             'desc' => [
+                'en' => 'Text Format',
             ],
         ],
     ];

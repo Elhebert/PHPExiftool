@@ -28,13 +28,14 @@ class WBRedDaylight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Red Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361962
+             * line : 252011
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBRedDaylight extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:WBRedDaylight',
             'desc' => [
+                'en' => 'WB Red Daylight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SampleRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Audio
-             * line : 162783
+             * line : 111244
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SampleRate extends AbstractTagGroup
              */
             'id' => 'MIE::Audio.MIE-Audio:SampleRate',
             'desc' => [
+                'en' => 'Sample Rate',
             ],
         ],
     ];

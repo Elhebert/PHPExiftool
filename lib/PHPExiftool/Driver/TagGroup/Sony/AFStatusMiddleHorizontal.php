@@ -28,13 +28,14 @@ class AFStatusMiddleHorizontal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Middle Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345824
+             * line : 242462
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusMiddleHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusMiddleHorizontal',
             'desc' => [
+                'en' => 'AF Status Middle Horizontal',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346537
+             * line : 242851
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFStatusMiddleHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusMiddleHorizontal',
             'desc' => [
+                'en' => 'AF Status Middle Horizontal',
             ],
         ],
     ];

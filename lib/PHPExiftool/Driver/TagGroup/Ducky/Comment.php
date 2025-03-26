@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::Ducky
-             * line : 468
+             * line : 206
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'APP12::Ducky.Ducky:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

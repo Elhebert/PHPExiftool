@@ -28,13 +28,14 @@ class ImageQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275058
+             * line : 191720
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageQuality extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ImageQuality',
             'desc' => [
+                'en' => 'Image Quality',
             ],
         ],
     ];

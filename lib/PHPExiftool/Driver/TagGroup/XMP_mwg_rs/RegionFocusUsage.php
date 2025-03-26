@@ -28,13 +28,14 @@ class RegionFocusUsage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Focus Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MWG::Regions
-             * line : 167180
+             * line : 113826
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionFocusUsage extends AbstractTagGroup
              */
             'id' => 'MWG::Regions.XMP-mwg-rs:RegionFocusUsage',
             'desc' => [
+                'en' => 'Region Focus Usage',
             ],
         ],
     ];

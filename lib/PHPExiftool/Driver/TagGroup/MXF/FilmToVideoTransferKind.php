@@ -28,13 +28,14 @@ class FilmToVideoTransferKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film To Video Transfer Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169435
+             * line : 115839
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmToVideoTransferKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmToVideoTransferKind',
             'desc' => [
+                'en' => 'Film To Video Transfer Kind',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AdvertisingMaterialReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advertising Material Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168235
+             * line : 114731
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdvertisingMaterialReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AdvertisingMaterialReference',
             'desc' => [
+                'en' => 'Advertising Material Reference',
             ],
         ],
     ];

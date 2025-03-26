@@ -28,13 +28,14 @@ class AEMeteringSegments extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Metering Segments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185631
+             * line : 125931
              * type : int8u
              * writable : true
              * count : 40
@@ -42,6 +43,7 @@ class AEMeteringSegments extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:AEMeteringSegments',
             'desc' => [
+                'en' => 'AE Metering Segments',
             ],
         ],
     ];

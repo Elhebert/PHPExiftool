@@ -28,13 +28,14 @@ class AbsoluteAltitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Absolute Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104601
+             * line : 77644
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AbsoluteAltitude extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:AbsoluteAltitude',
             'desc' => [
+                'en' => 'Absolute Altitude',
             ],
         ],
     ];

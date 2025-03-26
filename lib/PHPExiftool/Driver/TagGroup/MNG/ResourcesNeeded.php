@@ -28,13 +28,14 @@ class ResourcesNeeded extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resources Needed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165220
+             * line : 112313
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResourcesNeeded extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:ResourcesNeeded',
             'desc' => [
+                'en' => 'Resources Needed',
             ],
         ],
     ];

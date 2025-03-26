@@ -28,13 +28,14 @@ class EVFImageFrame extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EVF Image Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239358
+             * line : 162434
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EVFImageFrame extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:EVFImageFrame',
             'desc' => [
+                'en' => 'EVF Image Frame',
             ],
         ],
     ];

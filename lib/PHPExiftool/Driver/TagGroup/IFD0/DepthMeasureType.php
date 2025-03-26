@@ -28,13 +28,14 @@ class DepthMeasureType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Depth Measure Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120644
+             * line : 84767
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DepthMeasureType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DepthMeasureType',
             'desc' => [
+                'en' => 'Depth Measure Type',
             ],
         ],
     ];

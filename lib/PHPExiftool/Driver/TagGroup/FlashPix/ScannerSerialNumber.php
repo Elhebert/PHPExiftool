@@ -28,13 +28,14 @@ class ScannerSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126470
+             * line : 87689
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScannerSerialNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ScannerSerialNumber',
             'desc' => [
+                'en' => 'Scanner Serial Number',
             ],
         ],
     ];

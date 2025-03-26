@@ -28,13 +28,14 @@ class IdenticalDocumentsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identical Documents Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100227
+             * line : 73401
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdenticalDocumentsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IdenticalDocumentsSequence',
             'desc' => [
+                'en' => 'Identical Documents Sequence',
             ],
         ],
     ];

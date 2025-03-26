@@ -28,13 +28,14 @@ class CueRefTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Ref Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173220
+             * line : 119221
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueRefTime extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueRefTime',
             'desc' => [
+                'en' => 'Cue Ref Time',
             ],
         ],
     ];

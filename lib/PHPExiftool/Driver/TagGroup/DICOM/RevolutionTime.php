@@ -28,13 +28,14 @@ class RevolutionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revolution Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96953
+             * line : 70354
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RevolutionTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RevolutionTime',
             'desc' => [
+                'en' => 'Revolution Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97902
+             * line : 71275
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageOrientation',
             'desc' => [
+                'en' => 'Image Orientation',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98232
+             * line : 71575
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageOrientation',
             'desc' => [
+                'en' => 'Image Orientation',
             ],
         ],
     ];

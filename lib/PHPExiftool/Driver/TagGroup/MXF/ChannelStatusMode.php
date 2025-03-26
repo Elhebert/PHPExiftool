@@ -28,13 +28,14 @@ class ChannelStatusMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Status Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171305
+             * line : 117509
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelStatusMode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ChannelStatusMode',
             'desc' => [
+                'en' => 'Channel Status Mode',
             ],
         ],
     ];

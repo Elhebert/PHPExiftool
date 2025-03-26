@@ -28,13 +28,14 @@ class MaximumUseCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Use Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167466
+             * line : 114081
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumUseCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaximumUseCount',
             'desc' => [
+                'en' => 'Maximum Use Count',
             ],
         ],
     ];

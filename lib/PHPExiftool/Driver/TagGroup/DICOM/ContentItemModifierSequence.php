@@ -28,13 +28,14 @@ class ContentItemModifierSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Item Modifier Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99771
+             * line : 72975
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentItemModifierSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentItemModifierSequence',
             'desc' => [
+                'en' => 'Content Item Modifier Sequence',
             ],
         ],
     ];

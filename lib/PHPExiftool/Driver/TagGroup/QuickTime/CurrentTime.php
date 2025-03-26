@@ -28,13 +28,14 @@ class CurrentTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324155
+             * line : 229047
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:CurrentTime',
             'desc' => [
+                'en' => 'Current Time',
             ],
         ],
     ];

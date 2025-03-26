@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412628
+             * line : 290924
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

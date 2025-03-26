@@ -28,13 +28,14 @@ class ProfileDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3472
+             * line : 2144
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileDataOffset extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:ProfileDataOffset',
             'desc' => [
+                'en' => 'Profile Data Offset',
             ],
         ],
     ];

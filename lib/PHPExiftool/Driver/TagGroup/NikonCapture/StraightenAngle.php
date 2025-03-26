@@ -28,13 +28,14 @@ class StraightenAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Straighten Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210496
+             * line : 141708
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StraightenAngle extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:StraightenAngle',
             'desc' => [
+                'en' => 'Straighten Angle',
             ],
         ],
     ];

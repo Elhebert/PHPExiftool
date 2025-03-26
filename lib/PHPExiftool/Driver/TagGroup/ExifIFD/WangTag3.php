@@ -28,13 +28,14 @@ class WangTag3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wang Tag 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112868
+             * line : 82224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WangTag3 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WangTag3',
             'desc' => [
+                'en' => 'Wang Tag 3',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SignalNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signal Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Loop
-             * line : 165049
+             * line : 112183
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignalNumber extends AbstractTagGroup
              */
             'id' => 'MNG::Loop.MNG:SignalNumber',
             'desc' => [
+                'en' => 'Signal Number',
             ],
         ],
     ];

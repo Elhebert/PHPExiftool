@@ -28,13 +28,14 @@ class FullHDHighSpeedRec extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Full HD High Speed Rec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130942
+             * line : 90440
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FullHDHighSpeedRec extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FullHDHighSpeedRec',
             'desc' => [
+                'en' => 'Full HD High Speed Rec',
             ],
         ],
     ];

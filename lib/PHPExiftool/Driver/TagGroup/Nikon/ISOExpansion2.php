@@ -28,13 +28,14 @@ class ISOExpansion2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Expansion 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ISOInfo
-             * line : 195484
+             * line : 132421
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOExpansion2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ISOInfo.Nikon:ISOExpansion2',
             'desc' => [
+                'en' => 'ISO Expansion 2',
             ],
         ],
     ];

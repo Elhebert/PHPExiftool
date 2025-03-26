@@ -28,13 +28,14 @@ class HasMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124106
+             * line : 86741
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasMetadata extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:HasMetadata',
             'desc' => [
+                'en' => 'Has Metadata',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BitmapOfPrescanOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitmap Of Prescan Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100288
+             * line : 73461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitmapOfPrescanOptions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BitmapOfPrescanOptions',
             'desc' => [
+                'en' => 'Bitmap Of Prescan Options',
             ],
         ],
     ];

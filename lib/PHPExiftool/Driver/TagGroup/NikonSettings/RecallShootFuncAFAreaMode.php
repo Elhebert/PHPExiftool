@@ -28,13 +28,14 @@ class RecallShootFuncAFAreaMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248058
+             * line : 170746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncAFAreaMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncAFAreaMode',
             'desc' => [
+                'en' => 'Recall Shoot Func AF Area Mode',
             ],
         ],
     ];

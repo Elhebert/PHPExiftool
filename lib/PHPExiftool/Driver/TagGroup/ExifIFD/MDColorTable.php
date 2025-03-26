@@ -28,13 +28,14 @@ class MDColorTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Color Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113075
+             * line : 82302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDColorTable extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MDColorTable',
             'desc' => [
+                'en' => 'MD Color Table',
             ],
         ],
     ];

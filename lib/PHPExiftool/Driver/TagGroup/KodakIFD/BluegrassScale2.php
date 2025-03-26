@@ -28,13 +28,14 @@ class BluegrassScale2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bluegrass Scale 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156176
+             * line : 107387
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BluegrassScale2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BluegrassScale2',
             'desc' => [
+                'en' => 'Bluegrass Scale 2',
             ],
         ],
     ];

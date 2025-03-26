@@ -28,13 +28,14 @@ class LookSupportsAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Supports Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402914
+             * line : 286050
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookSupportsAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookSupportsAmount',
             'desc' => [
+                'en' => 'Look Supports Amount',
             ],
         ],
     ];

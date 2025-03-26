@@ -28,13 +28,14 @@ class LCDSharpeningF3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Sharpening F3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156693
+             * line : 107897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDSharpeningF3 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDSharpeningF3',
             'desc' => [
+                'en' => 'LCD Sharpening F3',
             ],
         ],
     ];

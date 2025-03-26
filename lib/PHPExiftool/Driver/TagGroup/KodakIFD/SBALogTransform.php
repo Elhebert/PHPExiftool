@@ -28,13 +28,14 @@ class SBALogTransform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SBA Log Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155861
+             * line : 107072
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SBALogTransform extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBALogTransform',
             'desc' => [
+                'en' => 'SBA Log Transform',
             ],
         ],
     ];

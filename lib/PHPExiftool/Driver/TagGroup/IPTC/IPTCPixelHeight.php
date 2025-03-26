@@ -28,13 +28,14 @@ class IPTCPixelHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Pixel Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151389
+             * line : 104401
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCPixelHeight extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:IPTCPixelHeight',
             'desc' => [
+                'en' => 'IPTC Pixel Height',
             ],
         ],
     ];

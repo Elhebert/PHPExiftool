@@ -28,13 +28,14 @@ class RNoiseLines extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R Noise Lines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157203
+             * line : 108395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RNoiseLines extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RNoiseLines',
             'desc' => [
+                'en' => 'R Noise Lines',
             ],
         ],
     ];

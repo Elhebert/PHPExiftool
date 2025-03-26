@@ -28,13 +28,14 @@ class SlowSync extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Slow Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129834
+             * line : 89738
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SlowSync extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:SlowSync',
             'desc' => [
+                'en' => 'Slow Sync',
             ],
         ],
     ];

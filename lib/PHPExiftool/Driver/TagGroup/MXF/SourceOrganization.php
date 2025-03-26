@@ -28,13 +28,14 @@ class SourceOrganization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Organization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167431
+             * line : 114048
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SourceOrganization extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceOrganization',
             'desc' => [
+                'en' => 'Source Organization',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172007
+             * line : 118192
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SourceOrganization extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceOrganization',
             'desc' => [
+                'en' => 'Source Organization',
             ],
         ],
     ];

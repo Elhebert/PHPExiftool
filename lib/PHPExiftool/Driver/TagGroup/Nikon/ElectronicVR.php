@@ -28,13 +28,14 @@ class ElectronicVR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Electronic VR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202262
+             * line : 136947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElectronicVR extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:ElectronicVR',
             'desc' => [
+                'en' => 'Electronic VR',
             ],
         ],
     ];

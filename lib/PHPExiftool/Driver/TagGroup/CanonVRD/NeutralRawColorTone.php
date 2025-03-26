@@ -28,13 +28,14 @@ class NeutralRawColorTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Raw Color Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82862
+             * line : 60700
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralRawColorTone extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralRawColorTone',
             'desc' => [
+                'en' => 'Neutral Raw Color Tone',
             ],
         ],
     ];

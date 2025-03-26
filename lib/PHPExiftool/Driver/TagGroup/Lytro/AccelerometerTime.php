@@ -28,13 +28,14 @@ class AccelerometerTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162207
+             * line : 110830
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccelerometerTime extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:AccelerometerTime',
             'desc' => [
+                'en' => 'Accelerometer Time',
             ],
         ],
     ];

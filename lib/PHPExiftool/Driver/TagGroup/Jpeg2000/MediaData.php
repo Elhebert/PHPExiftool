@@ -28,13 +28,14 @@ class MediaData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154258
+             * line : 105915
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaData extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:MediaData',
             'desc' => [
+                'en' => 'Media Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GrayResponseCurve extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gray Response Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111177
+             * line : 81584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GrayResponseCurve extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:GrayResponseCurve',
             'desc' => [
+                'en' => 'Gray Response Curve',
             ],
         ],
     ];

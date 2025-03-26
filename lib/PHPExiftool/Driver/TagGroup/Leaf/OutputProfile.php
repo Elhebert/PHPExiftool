@@ -28,13 +28,14 @@ class OutputProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ColorSetup
-             * line : 161820
+             * line : 110547
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputProfile extends AbstractTagGroup
              */
             'id' => 'Leaf::ColorSetup.Leaf:OutputProfile',
             'desc' => [
+                'en' => 'Output Profile',
             ],
         ],
     ];

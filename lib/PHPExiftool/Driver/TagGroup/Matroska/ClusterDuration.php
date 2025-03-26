@@ -28,13 +28,14 @@ class ClusterDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cluster Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173375
+             * line : 119331
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClusterDuration extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ClusterDuration',
             'desc' => [
+                'en' => 'Cluster Duration',
             ],
         ],
     ];

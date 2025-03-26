@@ -28,13 +28,14 @@ class AutoBracket extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracket',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337436
+             * line : 236108
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoBracket extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:AutoBracket',
             'desc' => [
+                'en' => 'Auto Bracket',
             ],
         ],
     ];

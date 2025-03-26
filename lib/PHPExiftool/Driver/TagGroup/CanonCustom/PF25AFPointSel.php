@@ -28,13 +28,14 @@ class PF25AFPointSel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF25 AF Point Sel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78328
+             * line : 57032
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF25AFPointSel extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25AFPointSel',
             'desc' => [
+                'en' => 'PF25 AF Point Sel',
             ],
         ],
     ];

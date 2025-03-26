@@ -28,13 +28,14 @@ class SeriesNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167411
+             * line : 114030
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SeriesNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SeriesNumber',
             'desc' => [
+                'en' => 'Series Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169813
+             * line : 116166
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SeriesNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SeriesNumber',
             'desc' => [
+                'en' => 'Series Number',
             ],
         ],
     ];

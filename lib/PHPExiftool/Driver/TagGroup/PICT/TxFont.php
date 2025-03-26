@@ -28,13 +28,14 @@ class TxFont extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264615
+             * line : 182873
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TxFont extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:TxFont',
             'desc' => [
+                'en' => 'Font Number',
             ],
         ],
     ];

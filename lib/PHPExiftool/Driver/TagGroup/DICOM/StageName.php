@@ -28,13 +28,14 @@ class StageName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stage Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94994
+             * line : 68476
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StageName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StageName',
             'desc' => [
+                'en' => 'Stage Name',
             ],
         ],
     ];

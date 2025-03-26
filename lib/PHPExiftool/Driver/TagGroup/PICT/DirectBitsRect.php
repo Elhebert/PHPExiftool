@@ -28,13 +28,14 @@ class DirectBitsRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Direct Bits Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265005
+             * line : 183224
              * type : DirectBitsRect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DirectBitsRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:DirectBitsRect',
             'desc' => [
+                'en' => 'Direct Bits Rect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Reference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97980
+             * line : 71329
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Reference extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Reference',
             'desc' => [
+                'en' => 'Reference',
             ],
         ],
     ];

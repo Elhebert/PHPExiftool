@@ -28,13 +28,14 @@ class Director extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Director',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175023
+             * line : 120509
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Director extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Director',
             'desc' => [
+                'en' => 'Director',
             ],
         ],
     ];

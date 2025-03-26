@@ -28,13 +28,14 @@ class VectorGridData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vector Grid Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101124
+             * line : 74274
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VectorGridData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VectorGridData',
             'desc' => [
+                'en' => 'Vector Grid Data',
             ],
         ],
     ];

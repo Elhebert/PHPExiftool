@@ -28,13 +28,14 @@ class PrevSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prev Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173292
+             * line : 119287
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrevSize extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:PrevSize',
             'desc' => [
+                'en' => 'Prev Size',
             ],
         ],
     ];

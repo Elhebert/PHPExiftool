@@ -28,13 +28,14 @@ class MaximumOffsetShiftValueUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Offset Shift Value Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100582
+             * line : 73752
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumOffsetShiftValueUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumOffsetShiftValueUsed',
             'desc' => [
+                'en' => 'Maximum Offset Shift Value Used',
             ],
         ],
     ];

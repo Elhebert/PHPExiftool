@@ -28,13 +28,14 @@ class PixelClockFrequency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Clock Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154898
+             * line : 106190
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelClockFrequency extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PixelClockFrequency',
             'desc' => [
+                'en' => 'Pixel Clock Frequency',
             ],
         ],
     ];

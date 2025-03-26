@@ -28,13 +28,14 @@ class FrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123923
+             * line : 86657
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameCount extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:FrameCount',
             'desc' => [
+                'en' => 'Frame Count',
             ],
         ],
     ];

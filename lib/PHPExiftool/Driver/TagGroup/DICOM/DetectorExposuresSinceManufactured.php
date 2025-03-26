@@ -28,13 +28,14 @@ class DetectorExposuresSinceManufactured extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Exposures Since Manufactured',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96418
+             * line : 69826
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorExposuresSinceManufactured extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorExposuresSinceManufactured',
             'desc' => [
+                'en' => 'Detector Exposures Since Manufactured',
             ],
         ],
     ];

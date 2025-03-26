@@ -28,13 +28,14 @@ class CompressionRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compression Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Image
-             * line : 163856
+             * line : 111518
              * type : rational32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressionRatio extends AbstractTagGroup
              */
             'id' => 'MIE::Image.MIE-Image:CompressionRatio',
             'desc' => [
+                'en' => 'Compression Ratio',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReasonForTheAttributeModification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reason For The Attribute Modification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101956
+             * line : 75096
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReasonForTheAttributeModification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReasonForTheAttributeModification',
             'desc' => [
+                'en' => 'Reason For The Attribute Modification',
             ],
         ],
     ];

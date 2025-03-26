@@ -28,13 +28,14 @@ class FocalType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 12795
+             * line : 9477
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocalType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:FocalType',
             'desc' => [
+                'en' => 'Focal Type',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::FocalLength
-             * line : 64065
+             * line : 48663
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocalType extends AbstractTagGroup
              */
             'id' => 'Canon::FocalLength.Canon:FocalType',
             'desc' => [
+                'en' => 'Focal Type',
             ],
         ],
     ];

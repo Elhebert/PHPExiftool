@@ -28,13 +28,14 @@ class AudioMinimumDelayMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Minimum Delay Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312661
+             * line : 218533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioMinimumDelayMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioMinimumDelayMode',
             'desc' => [
+                'en' => 'Audio Minimum Delay Mode',
             ],
         ],
     ];

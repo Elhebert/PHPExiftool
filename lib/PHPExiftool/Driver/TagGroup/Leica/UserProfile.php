@@ -28,13 +28,14 @@ class UserProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274314
+             * line : 191325
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class UserProfile extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:UserProfile',
             'desc' => [
+                'en' => 'User Profile',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 275000
+             * line : 191693
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class UserProfile extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:UserProfile',
             'desc' => [
+                'en' => 'User Profile',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279360
+             * line : 193994
              * type : string
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class UserProfile extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:UserProfile',
             'desc' => [
+                'en' => 'User Profile',
             ],
         ],
     ];

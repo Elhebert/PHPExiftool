@@ -28,13 +28,14 @@ class ProjectionEponymousNameCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Eponymous Name Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96233
+             * line : 69646
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionEponymousNameCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProjectionEponymousNameCodeSeq',
             'desc' => [
+                'en' => 'Projection Eponymous Name Code Seq',
             ],
         ],
     ];

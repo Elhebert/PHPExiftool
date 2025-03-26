@@ -28,13 +28,14 @@ class GridPeriod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96478
+             * line : 69886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridPeriod extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridPeriod',
             'desc' => [
+                'en' => 'Grid Period',
             ],
         ],
     ];

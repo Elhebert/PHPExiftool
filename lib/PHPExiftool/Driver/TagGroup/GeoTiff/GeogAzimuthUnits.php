@@ -28,13 +28,14 @@ class GeogAzimuthUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Azimuth Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134114
+             * line : 92407
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogAzimuthUnits extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogAzimuthUnits',
             'desc' => [
+                'en' => 'Geog Azimuth Units',
             ],
         ],
     ];

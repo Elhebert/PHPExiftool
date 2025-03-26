@@ -28,13 +28,14 @@ class MakerNotePentax4 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Pentax 4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105093
+             * line : 77921
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNotePentax4 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNotePentax4',
             'desc' => [
+                'en' => 'Maker Note Pentax 4',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116054
+             * line : 83214
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNotePentax4 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNotePentax4',
             'desc' => [
+                'en' => 'Maker Note Pentax 4',
             ],
         ],
     ];

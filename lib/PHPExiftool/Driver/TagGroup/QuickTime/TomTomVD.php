@@ -28,13 +28,14 @@ class TomTomVD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tom Tom VD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TomTom
-             * line : 325022
+             * line : 229480
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TomTomVD extends AbstractTagGroup
              */
             'id' => 'QuickTime::TomTom.QuickTime:TomTomVD',
             'desc' => [
+                'en' => 'Tom Tom VD',
             ],
         ],
     ];

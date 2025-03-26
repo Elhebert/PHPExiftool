@@ -28,13 +28,14 @@ class BookVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Book Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273530
+             * line : 190745
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BookVersion extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:BookVersion',
             'desc' => [
+                'en' => 'Book Version',
             ],
         ],
     ];

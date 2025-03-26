@@ -28,13 +28,14 @@ class EnergyWindowLowerLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Window Lower Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100808
+             * line : 73968
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyWindowLowerLimit extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EnergyWindowLowerLimit',
             'desc' => [
+                'en' => 'Energy Window Lower Limit',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScannerSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303778
+             * line : 211021
              * type : string
              * writable : false
              * count : 20
@@ -42,6 +43,7 @@ class ScannerSerialNumber extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ScannerSerialNumber',
             'desc' => [
+                'en' => 'Scanner Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PanoramaDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130358
+             * line : 90069
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaDirection extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:PanoramaDirection',
             'desc' => [
+                'en' => 'Panorama Direction',
             ],
         ],
     ];

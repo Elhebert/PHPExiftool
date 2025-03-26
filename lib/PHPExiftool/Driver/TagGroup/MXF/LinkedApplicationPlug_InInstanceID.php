@@ -28,13 +28,14 @@ class LinkedApplicationPlug_InInstanceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Application Plug-In Instance ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172424
+             * line : 118585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedApplicationPlug_InInstanceID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkedApplicationPlug-InInstanceID',
             'desc' => [
+                'en' => 'Linked Application Plug-In Instance ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureBias extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159513
+             * line : 109426
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureBias extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:ExposureBias',
             'desc' => [
+                'en' => 'Exposure Bias',
             ],
         ],
     ];

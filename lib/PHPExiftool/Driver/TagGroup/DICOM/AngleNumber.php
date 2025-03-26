@@ -28,13 +28,14 @@ class AngleNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angle Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97878
+             * line : 71251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngleNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AngleNumber',
             'desc' => [
+                'en' => 'Angle Number',
             ],
         ],
     ];

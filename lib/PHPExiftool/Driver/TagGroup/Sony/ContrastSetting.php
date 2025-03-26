@@ -28,13 +28,14 @@ class ContrastSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350365
+             * line : 244633
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ContrastSetting',
             'desc' => [
+                'en' => 'Contrast Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360234
+             * line : 251093
              * type : int8s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ContrastSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ContrastSetting',
             'desc' => [
+                'en' => 'Contrast Setting',
             ],
         ],
     ];

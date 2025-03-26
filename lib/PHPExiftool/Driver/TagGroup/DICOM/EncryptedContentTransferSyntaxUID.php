@@ -28,13 +28,14 @@ class EncryptedContentTransferSyntaxUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encrypted Content Transfer Syntax UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101935
+             * line : 75075
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncryptedContentTransferSyntaxUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EncryptedContentTransferSyntaxUID',
             'desc' => [
+                'en' => 'Encrypted Content Transfer Syntax UID',
             ],
         ],
     ];

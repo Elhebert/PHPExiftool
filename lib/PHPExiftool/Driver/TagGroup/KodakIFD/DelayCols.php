@@ -28,13 +28,14 @@ class DelayCols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delay Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155999
+             * line : 107210
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DelayCols extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DelayCols',
             'desc' => [
+                'en' => 'Delay Cols',
             ],
         ],
     ];

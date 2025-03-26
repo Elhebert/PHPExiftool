@@ -28,13 +28,14 @@ class FailedAttributesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Failed Attributes Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101784
+             * line : 74925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FailedAttributesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FailedAttributesSequence',
             'desc' => [
+                'en' => 'Failed Attributes Sequence',
             ],
         ],
     ];

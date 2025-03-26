@@ -28,13 +28,14 @@ class MDItemOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172908
+             * line : 118975
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemOrientation extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemOrientation',
             'desc' => [
+                'en' => 'MD Item Orientation',
             ],
         ],
     ];

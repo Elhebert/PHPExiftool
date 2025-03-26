@@ -28,13 +28,14 @@ class ColorBooster extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Booster',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210515
+             * line : 141725
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorBooster extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:ColorBooster',
             'desc' => [
+                'en' => 'Color Booster',
             ],
         ],
     ];

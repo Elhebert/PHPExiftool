@@ -28,13 +28,14 @@ class SaturationRecovery extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Saturation Recovery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96566
+             * line : 69970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaturationRecovery extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SaturationRecovery',
             'desc' => [
+                'en' => 'Saturation Recovery',
             ],
         ],
     ];

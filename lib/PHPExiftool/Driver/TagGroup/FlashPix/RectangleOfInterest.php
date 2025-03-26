@@ -28,13 +28,14 @@ class RectangleOfInterest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rectangle Of Interest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127370
+             * line : 88402
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RectangleOfInterest extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:RectangleOfInterest',
             'desc' => [
+                'en' => 'Rectangle Of Interest',
             ],
         ],
     ];

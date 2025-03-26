@@ -28,13 +28,14 @@ class DistributedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distributed By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328234
+             * line : 231538
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistributedBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:DistributedBy',
             'desc' => [
+                'en' => 'Distributed By',
             ],
         ],
     ];

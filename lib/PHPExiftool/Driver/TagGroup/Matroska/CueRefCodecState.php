@@ -28,13 +28,14 @@ class CueRefCodecState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Ref Codec State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173390
+             * line : 119343
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueRefCodecState extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueRefCodecState',
             'desc' => [
+                'en' => 'Cue Ref Codec State',
             ],
         ],
     ];

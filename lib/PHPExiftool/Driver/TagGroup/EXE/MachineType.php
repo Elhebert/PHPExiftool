@@ -28,13 +28,14 @@ class MachineType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Machine Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108694
+             * line : 80334
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MachineType extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:MachineType',
             'desc' => [
+                'en' => 'Machine Type',
             ],
         ],
     ];

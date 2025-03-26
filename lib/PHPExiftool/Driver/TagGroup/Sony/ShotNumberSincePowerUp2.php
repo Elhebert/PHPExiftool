@@ -28,13 +28,14 @@ class ShotNumberSincePowerUp2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Number Since Power Up 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351280
+             * line : 245250
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShotNumberSincePowerUp2 extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ShotNumberSincePowerUp2',
             'desc' => [
+                'en' => 'Shot Number Since Power Up 2',
             ],
         ],
     ];

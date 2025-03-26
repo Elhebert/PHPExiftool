@@ -28,13 +28,14 @@ class VmaMamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vma Mamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98498
+             * line : 71830
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VmaMamp extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VmaMamp',
             'desc' => [
+                'en' => 'Vma Mamp',
             ],
         ],
     ];

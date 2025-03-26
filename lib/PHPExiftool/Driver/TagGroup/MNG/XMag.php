@@ -28,13 +28,14 @@ class XMag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Mag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165146
+             * line : 112244
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XMag extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:XMag',
             'desc' => [
+                'en' => 'X Mag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MeanZError extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mean Z Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100591
+             * line : 73761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeanZError extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MeanZError',
             'desc' => [
+                'en' => 'Mean Z Error',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CircGradBasedCorrMaskRangeLumMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Mask Range Lum Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401644
+             * line : 284879
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrMaskRangeLumMax extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrMaskRangeLumMax',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Mask Range Lum Max',
             ],
         ],
     ];

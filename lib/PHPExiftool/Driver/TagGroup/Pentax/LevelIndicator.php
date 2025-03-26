@@ -28,13 +28,14 @@ class LevelIndicator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Level Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 283015
+             * line : 196466
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LevelIndicator extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:LevelIndicator',
             'desc' => [
+                'en' => 'Level Indicator',
             ],
         ],
     ];

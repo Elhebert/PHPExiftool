@@ -28,13 +28,14 @@ class FlashMasterControlMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Master Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200030
+             * line : 134994
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMasterControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FlashMasterControlMode',
             'desc' => [
+                'en' => 'Flash Master Control Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208197
+             * line : 140296
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMasterControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FlashMasterControlMode',
             'desc' => [
+                'en' => 'Flash Master Control Mode',
             ],
         ],
     ];

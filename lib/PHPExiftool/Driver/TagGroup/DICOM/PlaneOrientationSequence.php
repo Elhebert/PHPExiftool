@@ -28,13 +28,14 @@ class PlaneOrientationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plane Orientation Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98060
+             * line : 71407
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaneOrientationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlaneOrientationSequence',
             'desc' => [
+                'en' => 'Plane Orientation Sequence',
             ],
         ],
     ];

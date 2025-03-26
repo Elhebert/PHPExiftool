@@ -28,13 +28,14 @@ class AppVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'App Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166422
+             * line : 113163
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class AppVersion extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AppVersion',
             'desc' => [
+                'en' => 'App Version',
             ],
         ],
     ];

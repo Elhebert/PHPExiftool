@@ -28,13 +28,14 @@ class PolarCharacteristic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Polar Characteristic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168108
+             * line : 114608
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PolarCharacteristic extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PolarCharacteristic',
             'desc' => [
+                'en' => 'Polar Characteristic',
             ],
         ],
     ];

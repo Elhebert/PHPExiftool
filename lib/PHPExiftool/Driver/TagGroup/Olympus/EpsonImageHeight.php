@@ -28,13 +28,14 @@ class EpsonImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Epson Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257925
+             * line : 178334
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EpsonImageHeight extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:EpsonImageHeight',
             'desc' => [
+                'en' => 'Epson Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShadowFilePath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shadow File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174812
+             * line : 120353
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShadowFilePath extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ShadowFilePath',
             'desc' => [
+                'en' => 'Shadow File Path',
             ],
         ],
     ];

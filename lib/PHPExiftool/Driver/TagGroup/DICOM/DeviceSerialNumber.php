@@ -28,13 +28,14 @@ class DeviceSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95564
+             * line : 69019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceSerialNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeviceSerialNumber',
             'desc' => [
+                'en' => 'Device Serial Number',
             ],
         ],
     ];

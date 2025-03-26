@@ -28,13 +28,14 @@ class TermsAndConditionsURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Terms And Conditions URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272366
+             * line : 190284
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TermsAndConditionsURL extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:TermsAndConditionsURL',
             'desc' => [
+                'en' => 'Terms And Conditions URL',
             ],
         ],
     ];

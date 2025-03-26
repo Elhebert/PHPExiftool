@@ -28,13 +28,14 @@ class Highlight2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402766
+             * line : 285903
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Highlight2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Highlight2012',
             'desc' => [
+                'en' => 'Highlight 2012',
             ],
         ],
     ];

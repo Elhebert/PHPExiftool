@@ -28,13 +28,14 @@ class AFPointAreaExpansion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Area Expansion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73760
+             * line : 54517
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointAreaExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFPointAreaExpansion',
             'desc' => [
+                'en' => 'AF Point Area Expansion',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73783
+             * line : 54528
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointAreaExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFPointAreaExpansion',
             'desc' => [
+                'en' => 'AF Point Area Expansion',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73805
+             * line : 54542
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFPointAreaExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFPointAreaExpansion',
             'desc' => [
+                'en' => 'AF Point Area Expansion',
             ],
         ],
     ];

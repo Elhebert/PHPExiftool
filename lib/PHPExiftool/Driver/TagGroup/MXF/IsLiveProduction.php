@@ -28,13 +28,14 @@ class IsLiveProduction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Live Production',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168654
+             * line : 115130
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsLiveProduction extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsLiveProduction',
             'desc' => [
+                'en' => 'Is Live Production',
             ],
         ],
     ];

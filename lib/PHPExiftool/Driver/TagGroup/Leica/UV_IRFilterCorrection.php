@@ -28,13 +28,14 @@ class UV_IRFilterCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'UV/IR Filter Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274732
+             * line : 191574
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UV_IRFilterCorrection extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:UV-IRFilterCorrection',
             'desc' => [
+                'en' => 'UV/IR Filter Correction',
             ],
         ],
     ];

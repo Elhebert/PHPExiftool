@@ -28,13 +28,14 @@ class AutoShadows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Shadows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398199
+             * line : 281828
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoShadows extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:AutoShadows',
             'desc' => [
+                'en' => 'Auto Shadows',
             ],
         ],
     ];

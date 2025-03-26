@@ -28,13 +28,14 @@ class MovieHeaderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Header Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324079
+             * line : 229008
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieHeaderVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:MovieHeaderVersion',
             'desc' => [
+                'en' => 'Movie Header Version',
             ],
         ],
     ];

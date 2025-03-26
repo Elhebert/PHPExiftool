@@ -28,13 +28,14 @@ class Directory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328026
+             * line : 231454
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Directory extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Directory',
             'desc' => [
+                'en' => 'Directory',
             ],
         ],
     ];

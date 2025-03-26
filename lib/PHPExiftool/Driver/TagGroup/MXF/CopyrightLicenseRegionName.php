@@ -28,13 +28,14 @@ class CopyrightLicenseRegionName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright License Region Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170477
+             * line : 116721
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CopyrightLicenseRegionName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CopyrightLicenseRegionName',
             'desc' => [
+                'en' => 'Copyright License Region Name',
             ],
         ],
     ];

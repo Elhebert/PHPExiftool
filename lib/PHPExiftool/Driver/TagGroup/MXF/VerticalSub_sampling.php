@@ -28,13 +28,14 @@ class VerticalSub_sampling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Sub-sampling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169048
+             * line : 115496
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalSub_sampling extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VerticalSub-sampling',
             'desc' => [
+                'en' => 'Vertical Sub-sampling',
             ],
         ],
     ];

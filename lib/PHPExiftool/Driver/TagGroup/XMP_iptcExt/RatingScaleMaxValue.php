@@ -28,13 +28,14 @@ class RatingScaleMaxValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Scale Max Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409672
+             * line : 289432
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingScaleMaxValue extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingScaleMaxValue',
             'desc' => [
+                'en' => 'Rating Scale Max Value',
             ],
         ],
     ];

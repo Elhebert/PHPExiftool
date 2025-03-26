@@ -28,13 +28,14 @@ class PayloadType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payload Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313787
+             * line : 219525
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PayloadType extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:PayloadType',
             'desc' => [
+                'en' => 'Payload Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FluenceDataSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fluence Data Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102432
+             * line : 75531
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FluenceDataSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FluenceDataSource',
             'desc' => [
+                'en' => 'Fluence Data Source',
             ],
         ],
     ];

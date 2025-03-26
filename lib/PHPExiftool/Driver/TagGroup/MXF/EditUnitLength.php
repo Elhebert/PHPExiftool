@@ -28,13 +28,14 @@ class EditUnitLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edit Unit Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170829
+             * line : 117060
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditUnitLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EditUnitLength',
             'desc' => [
+                'en' => 'Edit Unit Length',
             ],
         ],
     ];

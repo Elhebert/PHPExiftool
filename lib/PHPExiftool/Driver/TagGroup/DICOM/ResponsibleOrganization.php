@@ -28,13 +28,14 @@ class ResponsibleOrganization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Responsible Organization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94846
+             * line : 68332
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ResponsibleOrganization extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResponsibleOrganization',
             'desc' => [
+                'en' => 'Responsible Organization',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 95338
+             * line : 68800
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ResponsibleOrganization extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResponsibleOrganization',
             'desc' => [
+                'en' => 'Responsible Organization',
             ],
         ],
     ];

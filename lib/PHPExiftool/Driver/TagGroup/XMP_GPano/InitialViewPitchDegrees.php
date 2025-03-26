@@ -28,13 +28,14 @@ class InitialViewPitchDegrees extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial View Pitch Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397134
+             * line : 281234
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialViewPitchDegrees extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:InitialViewPitchDegrees',
             'desc' => [
+                'en' => 'Initial View Pitch Degrees',
             ],
         ],
     ];

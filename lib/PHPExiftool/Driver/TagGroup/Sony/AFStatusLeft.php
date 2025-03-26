@@ -28,13 +28,14 @@ class AFStatusLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343384
+             * line : 240334
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusLeft extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusLeft',
             'desc' => [
+                'en' => 'AF Status Left',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345289
+             * line : 242068
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFStatusLeft extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFStatusLeft',
             'desc' => [
+                'en' => 'AF Status Left',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345894
+             * line : 242517
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFStatusLeft extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusLeft',
             'desc' => [
+                'en' => 'AF Status Left',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346607
+             * line : 242906
              * type : int16s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFStatusLeft extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusLeft',
             'desc' => [
+                'en' => 'AF Status Left',
             ],
         ],
     ];

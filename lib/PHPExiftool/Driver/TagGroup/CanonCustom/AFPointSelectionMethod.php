@@ -28,13 +28,14 @@ class AFPointSelectionMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selection Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74120
+             * line : 54717
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointSelectionMethod extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFPointSelectionMethod',
             'desc' => [
+                'en' => 'AF Point Selection Method',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74149
+             * line : 54731
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointSelectionMethod extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFPointSelectionMethod',
             'desc' => [
+                'en' => 'AF Point Selection Method',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76028
+             * line : 55889
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFPointSelectionMethod extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:AFPointSelectionMethod',
             'desc' => [
+                'en' => 'AF Point Selection Method',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76549
+             * line : 56136
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFPointSelectionMethod extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:AFPointSelectionMethod',
             'desc' => [
+                'en' => 'AF Point Selection Method',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77667
+             * line : 56672
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class AFPointSelectionMethod extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:AFPointSelectionMethod',
             'desc' => [
+                'en' => 'AF Point Selection Method',
             ],
         ],
     ];

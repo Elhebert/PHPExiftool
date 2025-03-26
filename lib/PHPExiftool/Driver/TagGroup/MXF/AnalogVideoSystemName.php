@@ -28,13 +28,14 @@ class AnalogVideoSystemName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Analog Video System Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167831
+             * line : 114389
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AnalogVideoSystemName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnalogVideoSystemName',
             'desc' => [
+                'en' => 'Analog Video System Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169045
+             * line : 115493
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AnalogVideoSystemName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnalogVideoSystemName',
             'desc' => [
+                'en' => 'Analog Video System Name',
             ],
         ],
     ];

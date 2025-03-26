@@ -28,13 +28,14 @@ class OmenInitialScaling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Initial Scaling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155639
+             * line : 106850
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenInitialScaling extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenInitialScaling',
             'desc' => [
+                'en' => 'Omen Initial Scaling',
             ],
         ],
     ];

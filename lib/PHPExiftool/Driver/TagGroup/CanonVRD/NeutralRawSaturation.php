@@ -28,13 +28,14 @@ class NeutralRawSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Raw Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82867
+             * line : 60703
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralRawSaturation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralRawSaturation',
             'desc' => [
+                'en' => 'Neutral Raw Saturation',
             ],
         ],
     ];

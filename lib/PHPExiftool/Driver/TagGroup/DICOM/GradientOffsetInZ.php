@@ -28,13 +28,14 @@ class GradientOffsetInZ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gradient Offset In Z',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100297
+             * line : 73470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GradientOffsetInZ extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GradientOffsetInZ',
             'desc' => [
+                'en' => 'Gradient Offset In Z',
             ],
         ],
     ];

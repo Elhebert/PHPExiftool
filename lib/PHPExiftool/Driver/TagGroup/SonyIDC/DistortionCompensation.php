@@ -28,13 +28,14 @@ class DistortionCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394330
+             * line : 279348
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCompensation extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:DistortionCompensation',
             'desc' => [
+                'en' => 'Distortion Compensation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioDeviceParameterSetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Device Parameter Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168183
+             * line : 114680
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioDeviceParameterSetting extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioDeviceParameterSetting',
             'desc' => [
+                'en' => 'Audio Device Parameter Setting',
             ],
         ],
     ];

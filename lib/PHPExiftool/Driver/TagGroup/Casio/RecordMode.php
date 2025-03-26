@@ -28,13 +28,14 @@ class RecordMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85979
+             * line : 62212
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:RecordMode',
             'desc' => [
+                'en' => 'Record Mode',
             ],
         ],
     ];

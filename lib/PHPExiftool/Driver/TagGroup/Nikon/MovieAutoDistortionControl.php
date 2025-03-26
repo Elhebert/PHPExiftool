@@ -28,13 +28,14 @@ class MovieAutoDistortionControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Auto Distortion Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200292
+             * line : 135256
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieAutoDistortionControl extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieAutoDistortionControl',
             'desc' => [
+                'en' => 'Movie Auto Distortion Control',
             ],
         ],
     ];

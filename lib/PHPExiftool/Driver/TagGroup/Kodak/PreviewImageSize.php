@@ -28,13 +28,14 @@ class PreviewImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type10
-             * line : 159843
+             * line : 109519
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class PreviewImageSize extends AbstractTagGroup
              */
             'id' => 'Kodak::Type10.Kodak:PreviewImageSize',
             'desc' => [
+                'en' => 'Preview Image Size',
             ],
         ],
     ];

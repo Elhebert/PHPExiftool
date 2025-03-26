@@ -28,13 +28,14 @@ class TypeDefinitionElementValueList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type Definition Element Value List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168908
+             * line : 115373
              * type : int64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TypeDefinitionElementValueList extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TypeDefinitionElementValueList',
             'desc' => [
+                'en' => 'Type Definition Element Value List',
             ],
         ],
     ];

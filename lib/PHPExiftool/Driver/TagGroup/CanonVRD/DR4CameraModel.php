@@ -28,13 +28,14 @@ class DR4CameraModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DR4 Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4Header
-             * line : 80942
+             * line : 59038
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DR4CameraModel extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4Header.CanonVRD:DR4CameraModel',
             'desc' => [
+                'en' => 'DR4 Camera Model',
             ],
         ],
     ];

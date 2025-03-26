@@ -28,13 +28,14 @@ class OriginalFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ProtectionInfo
-             * line : 324273
+             * line : 229123
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::ProtectionInfo.QuickTime:OriginalFormat',
             'desc' => [
+                'en' => 'Original Format',
             ],
         ],
     ];

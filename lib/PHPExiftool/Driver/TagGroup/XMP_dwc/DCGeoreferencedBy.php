@@ -28,13 +28,14 @@ class DCGeoreferencedBy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Georeferenced By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106918
+             * line : 79085
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCGeoreferencedBy extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCGeoreferencedBy',
             'desc' => [
+                'en' => 'DC Georeferenced By',
             ],
         ],
     ];

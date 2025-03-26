@@ -28,13 +28,14 @@ class NumberOfBeats extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Number Of Beats',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413203
+             * line : 291330
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NumberOfBeats extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:NumberOfBeats',
             'desc' => [
+                'en' => 'Number Of Beats',
             ],
         ],
     ];

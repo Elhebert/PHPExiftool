@@ -28,13 +28,14 @@ class InstructionSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instruction Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154221
+             * line : 105894
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstructionSet extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:InstructionSet',
             'desc' => [
+                'en' => 'Instruction Set',
             ],
         ],
     ];

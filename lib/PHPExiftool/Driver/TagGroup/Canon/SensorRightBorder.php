@@ -28,13 +28,14 @@ class SensorRightBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Right Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::SensorInfo
-             * line : 70089
+             * line : 52610
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorRightBorder extends AbstractTagGroup
              */
             'id' => 'Canon::SensorInfo.Canon:SensorRightBorder',
             'desc' => [
+                'en' => 'Sensor Right Border',
             ],
         ],
     ];

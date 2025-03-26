@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MOV
-             * line : 335793
+             * line : 235577
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Sanyo::MOV.Sanyo:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 336012
+             * line : 235619
              * type : rational64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

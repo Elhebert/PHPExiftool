@@ -28,13 +28,14 @@ class GripBatteryState extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Grip Battery State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283812
+             * line : 196894
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GripBatteryState extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:GripBatteryState',
             'desc' => [
+                'en' => 'Grip Battery State',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283840
+             * line : 196911
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class GripBatteryState extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:GripBatteryState',
             'desc' => [
+                'en' => 'Grip Battery State',
             ],
         ],
     ];

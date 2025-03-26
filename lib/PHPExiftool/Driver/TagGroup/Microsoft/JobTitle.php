@@ -28,13 +28,14 @@ class JobTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Job Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175561
+             * line : 120822
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JobTitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:JobTitle',
             'desc' => [
+                'en' => 'Job Title',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AELock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250495
+             * line : 172869
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AELock extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:AELock',
             'desc' => [
+                'en' => 'AE Lock',
             ],
         ],
     ];

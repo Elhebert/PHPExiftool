@@ -28,13 +28,14 @@ class HasAttachedImages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Attached Images',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1302
+             * line : 568
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasAttachedImages extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:HasAttachedImages',
             'desc' => [
+                'en' => 'Has Attached Images',
             ],
         ],
     ];

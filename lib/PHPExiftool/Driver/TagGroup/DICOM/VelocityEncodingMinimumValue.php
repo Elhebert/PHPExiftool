@@ -28,13 +28,14 @@ class VelocityEncodingMinimumValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Velocity Encoding Minimum Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96732
+             * line : 70135
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VelocityEncodingMinimumValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VelocityEncodingMinimumValue',
             'desc' => [
+                'en' => 'Velocity Encoding Minimum Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CircGradBasedCorrMaskMaskName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Mask Mask Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398379
+             * line : 281984
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrMaskMaskName extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrMaskMaskName',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Mask Mask Name',
             ],
         ],
     ];

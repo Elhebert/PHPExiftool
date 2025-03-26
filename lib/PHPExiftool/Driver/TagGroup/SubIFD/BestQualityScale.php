@@ -28,13 +28,14 @@ class BestQualityScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Best Quality Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119928
+             * line : 84369
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BestQualityScale extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:BestQualityScale',
             'desc' => [
+                'en' => 'Best Quality Scale',
             ],
         ],
     ];

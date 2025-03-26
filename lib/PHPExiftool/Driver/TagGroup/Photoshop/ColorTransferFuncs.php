@@ -28,13 +28,14 @@ class ColorTransferFuncs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Transfer Funcs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305431
+             * line : 212233
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorTransferFuncs extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ColorTransferFuncs',
             'desc' => [
+                'en' => 'Color Transfer Funcs',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ActualReceiveGainAnalog extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Receive Gain Analog',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97587
+             * line : 70972
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualReceiveGainAnalog extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActualReceiveGainAnalog',
             'desc' => [
+                'en' => 'Actual Receive Gain Analog',
             ],
         ],
     ];

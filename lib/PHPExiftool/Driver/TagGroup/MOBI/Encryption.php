@@ -28,13 +28,14 @@ class Encryption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encryption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273717
+             * line : 190872
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Encryption extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:Encryption',
             'desc' => [
+                'en' => 'Encryption',
             ],
         ],
     ];

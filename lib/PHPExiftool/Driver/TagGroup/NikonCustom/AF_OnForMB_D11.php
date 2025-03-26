@@ -28,13 +28,14 @@ class AF_OnForMB_D11 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-On For MB-D11',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226437
+             * line : 152514
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_OnForMB_D11 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:AF-OnForMB-D11',
             'desc' => [
+                'en' => 'AF-On For MB-D11',
             ],
         ],
     ];

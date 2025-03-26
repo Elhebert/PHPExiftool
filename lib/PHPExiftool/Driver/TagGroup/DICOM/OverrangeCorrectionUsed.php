@@ -28,13 +28,14 @@ class OverrangeCorrectionUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overrange Correction Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97818
+             * line : 71197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverrangeCorrectionUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverrangeCorrectionUsed',
             'desc' => [
+                'en' => 'Overrange Correction Used',
             ],
         ],
     ];

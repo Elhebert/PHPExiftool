@@ -28,13 +28,14 @@ class DCVerbatimLongitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Verbatim Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 107018
+             * line : 79160
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCVerbatimLongitude extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCVerbatimLongitude',
             'desc' => [
+                'en' => 'DC Verbatim Longitude',
             ],
         ],
     ];

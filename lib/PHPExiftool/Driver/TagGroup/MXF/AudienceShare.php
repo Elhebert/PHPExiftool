@@ -28,13 +28,14 @@ class AudienceShare extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audience Share',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168865
+             * line : 115331
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudienceShare extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudienceShare',
             'desc' => [
+                'en' => 'Audience Share',
             ],
         ],
     ];

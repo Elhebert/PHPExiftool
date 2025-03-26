@@ -28,13 +28,14 @@ class PhaseDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100844
+             * line : 74004
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhaseDelay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhaseDelay',
             'desc' => [
+                'en' => 'Phase Delay',
             ],
         ],
     ];

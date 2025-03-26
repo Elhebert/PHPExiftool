@@ -28,13 +28,14 @@ class CodeSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108872
+             * line : 80490
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodeSize extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:CodeSize',
             'desc' => [
+                'en' => 'Code Size',
             ],
         ],
     ];

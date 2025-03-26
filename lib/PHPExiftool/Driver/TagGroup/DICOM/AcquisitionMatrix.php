@@ -28,13 +28,14 @@ class AcquisitionMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95976
+             * line : 69400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionMatrix extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionMatrix',
             'desc' => [
+                'en' => 'Acquisition Matrix',
             ],
         ],
     ];

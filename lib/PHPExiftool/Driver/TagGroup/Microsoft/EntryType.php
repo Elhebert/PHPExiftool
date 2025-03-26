@@ -28,13 +28,14 @@ class EntryType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Entry Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176101
+             * line : 121179
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EntryType extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:EntryType',
             'desc' => [
+                'en' => 'Entry Type',
             ],
         ],
     ];

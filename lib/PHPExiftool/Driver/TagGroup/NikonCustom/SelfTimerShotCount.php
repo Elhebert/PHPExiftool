@@ -28,13 +28,14 @@ class SelfTimerShotCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer Shot Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215661
+             * line : 144738
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218274
+             * line : 146672
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220724
+             * line : 148703
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222524
+             * line : 150164
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 223121
+             * line : 150494
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223709
+             * line : 150859
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224238
+             * line : 151191
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227398
+             * line : 153122
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230810
+             * line : 155111
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232623
+             * line : 156521
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234762
+             * line : 158219
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
         11 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235525
+             * line : 158737
              * type : int8u
              * writable : true
              * count :
@@ -185,6 +197,7 @@ class SelfTimerShotCount extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:SelfTimerShotCount',
             'desc' => [
+                'en' => 'Self Timer Shot Count',
             ],
         ],
     ];

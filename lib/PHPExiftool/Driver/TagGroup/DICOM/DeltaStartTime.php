@@ -28,13 +28,14 @@ class DeltaStartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delta Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100375
+             * line : 73548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeltaStartTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeltaStartTime',
             'desc' => [
+                'en' => 'Delta Start Time',
             ],
         ],
     ];

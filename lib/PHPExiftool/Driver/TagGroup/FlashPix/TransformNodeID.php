@@ -28,13 +28,14 @@ class TransformNodeID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transform Node ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127325
+             * line : 88363
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransformNodeID extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:TransformNodeID',
             'desc' => [
+                'en' => 'Transform Node ID',
             ],
         ],
     ];

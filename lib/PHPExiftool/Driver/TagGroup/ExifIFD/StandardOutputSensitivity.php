@@ -28,13 +28,14 @@ class StandardOutputSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard Output Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113933
+             * line : 82630
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StandardOutputSensitivity extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:StandardOutputSensitivity',
             'desc' => [
+                'en' => 'Standard Output Sensitivity',
             ],
         ],
     ];

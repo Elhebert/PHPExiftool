@@ -28,13 +28,14 @@ class GreenAdjust extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Green Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339565
+             * line : 237570
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GreenAdjust extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:GreenAdjust',
             'desc' => [
+                'en' => 'Green Adjust',
             ],
         ],
     ];

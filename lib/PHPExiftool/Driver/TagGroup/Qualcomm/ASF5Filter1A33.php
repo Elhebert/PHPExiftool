@@ -28,13 +28,14 @@ class ASF5Filter1A33 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Filter1 A33',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306798
+             * line : 213296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5Filter1A33 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5Filter1A33',
             'desc' => [
+                'en' => 'ASF5 Filter1 A33',
             ],
         ],
     ];

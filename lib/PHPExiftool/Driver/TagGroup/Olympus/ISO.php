@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::MOV2
-             * line : 256700
+             * line : 177325
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV2.Olympus:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::MovableInfo
-             * line : 259217
+             * line : 178844
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Olympus::MovableInfo.Olympus:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AlphaOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118603
+             * line : 83981
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaOffset extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AlphaOffset',
             'desc' => [
+                'en' => 'Alpha Offset',
             ],
         ],
     ];

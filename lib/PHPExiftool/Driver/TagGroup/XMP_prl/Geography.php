@@ -28,13 +28,14 @@ class Geography extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Geography',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prl
-             * line : 411192
+             * line : 290387
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Geography extends AbstractTagGroup
              */
             'id' => 'XMP::prl.XMP-prl:Geography',
             'desc' => [
+                'en' => 'Geography',
             ],
         ],
     ];

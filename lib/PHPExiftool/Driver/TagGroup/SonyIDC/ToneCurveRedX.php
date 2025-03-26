@@ -28,13 +28,14 @@ class ToneCurveRedX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Red X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394353
+             * line : 279365
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveRedX extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:ToneCurveRedX',
             'desc' => [
+                'en' => 'Tone Curve Red X',
             ],
         ],
     ];

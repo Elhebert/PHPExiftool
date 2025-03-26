@@ -28,13 +28,14 @@ class LookParametersCameraProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Parameters Camera Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402884
+             * line : 286020
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookParametersCameraProfile extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookParametersCameraProfile',
             'desc' => [
+                'en' => 'Look Parameters Camera Profile',
             ],
         ],
     ];

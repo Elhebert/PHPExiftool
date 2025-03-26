@@ -28,13 +28,14 @@ class BlockTransmission extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Transmission',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103315
+             * line : 76410
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockTransmission extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockTransmission',
             'desc' => [
+                'en' => 'Block Transmission',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Thresholding extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thresholding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110468
+             * line : 81418
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Thresholding extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Thresholding',
             'desc' => [
+                'en' => 'Thresholding',
             ],
         ],
     ];

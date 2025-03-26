@@ -28,13 +28,14 @@ class EmbeddedImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Im
-             * line : 264130
+             * line : 182623
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImage extends AbstractTagGroup
              */
             'id' => 'PDF::Im.PDF:EmbeddedImage',
             'desc' => [
+                'en' => 'Embedded Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StudyVerifiedTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Study Verified Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99314
+             * line : 72531
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StudyVerifiedTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StudyVerifiedTime',
             'desc' => [
+                'en' => 'Study Verified Time',
             ],
         ],
     ];

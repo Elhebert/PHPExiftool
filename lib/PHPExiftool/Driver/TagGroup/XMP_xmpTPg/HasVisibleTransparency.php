@@ -28,13 +28,14 @@ class HasVisibleTransparency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Visible Transparency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414522
+             * line : 292474
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasVisibleTransparency extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:HasVisibleTransparency',
             'desc' => [
+                'en' => 'Has Visible Transparency',
             ],
         ],
     ];

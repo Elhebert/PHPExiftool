@@ -28,13 +28,14 @@ class FusionMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fusion Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Fusion360Fly
-             * line : 313110
+             * line : 218940
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FusionMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Fusion360Fly.QuickTime:FusionMode',
             'desc' => [
+                'en' => 'Fusion Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::ContentDescr
-             * line : 330115
+             * line : 232364
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'Real::ContentDescr.Real-CONT:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

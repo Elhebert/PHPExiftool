@@ -28,13 +28,14 @@ class AudioSetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139409
+             * line : 97579
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSetting extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AudioSetting',
             'desc' => [
+                'en' => 'Audio Setting',
             ],
         ],
     ];

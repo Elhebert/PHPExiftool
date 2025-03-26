@@ -28,13 +28,14 @@ class ParameterDataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parameter Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169482
+             * line : 115884
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParameterDataType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ParameterDataType',
             'desc' => [
+                'en' => 'Parameter Data Type',
             ],
         ],
     ];

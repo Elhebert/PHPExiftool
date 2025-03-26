@@ -28,13 +28,14 @@ class SelfTimer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 55665
+             * line : 43386
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfTimer extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:SelfTimer',
             'desc' => [
+                'en' => 'Self Timer',
             ],
         ],
     ];

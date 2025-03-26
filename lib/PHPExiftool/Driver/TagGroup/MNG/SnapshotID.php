@@ -28,13 +28,14 @@ class SnapshotID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Snapshot ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::ExportImage
-             * line : 164835
+             * line : 112038
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SnapshotID extends AbstractTagGroup
              */
             'id' => 'MNG::ExportImage.MNG:SnapshotID',
             'desc' => [
+                'en' => 'Snapshot ID',
             ],
         ],
     ];

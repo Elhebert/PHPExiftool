@@ -28,13 +28,14 @@ class ProjectionPrivate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Private',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Projection
-             * line : 174047
+             * line : 119887
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionPrivate extends AbstractTagGroup
              */
             'id' => 'Matroska::Projection.Matroska:ProjectionPrivate',
             'desc' => [
+                'en' => 'Projection Private',
             ],
         ],
     ];

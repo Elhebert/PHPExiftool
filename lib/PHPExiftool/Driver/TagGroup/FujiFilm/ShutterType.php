@@ -28,13 +28,14 @@ class ShutterType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130256
+             * line : 90009
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterType extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ShutterType',
             'desc' => [
+                'en' => 'Shutter Type',
             ],
         ],
     ];

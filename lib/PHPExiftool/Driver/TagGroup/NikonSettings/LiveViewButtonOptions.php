@@ -28,13 +28,14 @@ class LiveViewButtonOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Live View Button Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246641
+             * line : 169334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LiveViewButtonOptions extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LiveViewButtonOptions',
             'desc' => [
+                'en' => 'Live View Button Options',
             ],
         ],
     ];

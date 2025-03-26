@@ -28,13 +28,14 @@ class AnimationControl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Animation Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BPG::Extensions
-             * line : 3553
+             * line : 2184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnimationControl extends AbstractTagGroup
              */
             'id' => 'BPG::Extensions.File:AnimationControl',
             'desc' => [
+                'en' => 'Animation Control',
             ],
         ],
     ];

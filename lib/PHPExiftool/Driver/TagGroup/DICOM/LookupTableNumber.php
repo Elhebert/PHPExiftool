@@ -28,13 +28,14 @@ class LookupTableNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lookup Table Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97893
+             * line : 71266
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LookupTableNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LookupTableNumber',
             'desc' => [
+                'en' => 'Lookup Table Number',
             ],
         ],
     ];

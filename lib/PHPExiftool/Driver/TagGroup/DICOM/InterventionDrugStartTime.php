@@ -28,13 +28,14 @@ class InterventionDrugStartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervention Drug Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95467
+             * line : 68926
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterventionDrugStartTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterventionDrugStartTime',
             'desc' => [
+                'en' => 'Intervention Drug Start Time',
             ],
         ],
     ];

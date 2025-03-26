@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148487
+             * line : 103113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

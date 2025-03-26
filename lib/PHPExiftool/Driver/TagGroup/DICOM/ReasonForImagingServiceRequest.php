@@ -28,13 +28,14 @@ class ReasonForImagingServiceRequest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reason For Imaging Service Request',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99887
+             * line : 73089
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReasonForImagingServiceRequest extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReasonForImagingServiceRequest',
             'desc' => [
+                'en' => 'Reason For Imaging Service Request',
             ],
         ],
     ];

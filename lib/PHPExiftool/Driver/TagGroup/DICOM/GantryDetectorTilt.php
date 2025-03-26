@@ -28,13 +28,14 @@ class GantryDetectorTilt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry Detector Tilt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95781
+             * line : 69229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryDetectorTilt extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryDetectorTilt',
             'desc' => [
+                'en' => 'Gantry Detector Tilt',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ParallelAcquisition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parallel Acquisition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96696
+             * line : 70099
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParallelAcquisition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParallelAcquisition',
             'desc' => [
+                'en' => 'Parallel Acquisition',
             ],
         ],
     ];

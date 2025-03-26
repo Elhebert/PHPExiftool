@@ -28,13 +28,14 @@ class RentalFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rental Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273631
+             * line : 190824
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RentalFlag extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:RentalFlag',
             'desc' => [
+                'en' => 'Rental Flag',
             ],
         ],
     ];

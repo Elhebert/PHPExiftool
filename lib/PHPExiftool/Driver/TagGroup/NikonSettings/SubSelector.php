@@ -28,13 +28,14 @@ class SubSelector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246228
+             * line : 168930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubSelector extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SubSelector',
             'desc' => [
+                'en' => 'Sub Selector',
             ],
         ],
     ];

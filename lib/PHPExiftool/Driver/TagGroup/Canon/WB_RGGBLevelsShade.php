@@ -28,13 +28,14 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Shade',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58878
+             * line : 45733
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59210
+             * line : 45892
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59488
+             * line : 46034
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59744
+             * line : 46164
              * type : int16s
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60014
+             * line : 46305
              * type : int16s
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60541
+             * line : 46605
              * type : int16s
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60788
+             * line : 46747
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61133
+             * line : 46930
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61507
+             * line : 47170
              * type : int16s
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61895
+             * line : 47383
              * type : int16s
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62316
+             * line : 47623
              * type : int16s
              * writable : true
              * count : 4
@@ -172,12 +183,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62787
+             * line : 47905
              * type : int16s
              * writable : true
              * count : 4
@@ -185,6 +197,7 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToningEffectNeutral extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67347
+             * line : 51081
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningEffectNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ToningEffectNeutral',
             'desc' => [
+                'en' => 'Toning Effect Neutral',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68445
+             * line : 51742
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ToningEffectNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ToningEffectNeutral',
             'desc' => [
+                'en' => 'Toning Effect Neutral',
             ],
         ],
     ];

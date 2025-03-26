@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Pittasoft
-             * line : 324178
+             * line : 229070
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'QuickTime::Pittasoft.QuickTime:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

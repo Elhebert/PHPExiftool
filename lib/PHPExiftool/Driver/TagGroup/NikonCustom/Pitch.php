@@ -28,13 +28,14 @@ class Pitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214598
+             * line : 144066
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229670
+             * line : 154393
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
     ];

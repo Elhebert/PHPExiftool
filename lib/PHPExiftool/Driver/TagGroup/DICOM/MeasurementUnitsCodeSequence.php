@@ -28,13 +28,14 @@ class MeasurementUnitsCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measurement Units Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99833
+             * line : 73035
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasurementUnitsCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MeasurementUnitsCodeSequence',
             'desc' => [
+                'en' => 'Measurement Units Code Sequence',
             ],
         ],
     ];

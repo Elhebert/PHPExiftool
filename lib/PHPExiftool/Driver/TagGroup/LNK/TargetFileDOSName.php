@@ -28,13 +28,14 @@ class TargetFileDOSName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target File DOS Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Item0032
-             * line : 161056
+             * line : 109981
              * type : var_string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetFileDOSName extends AbstractTagGroup
              */
             'id' => 'LNK::Item0032.LNK:TargetFileDOSName',
             'desc' => [
+                'en' => 'Target File DOS Name',
             ],
         ],
     ];

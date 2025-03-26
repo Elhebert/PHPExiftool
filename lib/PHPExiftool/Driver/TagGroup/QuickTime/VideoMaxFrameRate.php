@@ -28,13 +28,14 @@ class VideoMaxFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Max Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoProf
-             * line : 326278
+             * line : 230191
              * type : fixed32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoMaxFrameRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoProf.QuickTime:VideoMaxFrameRate',
             'desc' => [
+                'en' => 'Video Max Frame Rate',
             ],
         ],
     ];

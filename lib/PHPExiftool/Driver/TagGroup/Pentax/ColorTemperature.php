@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299750
+             * line : 208959
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

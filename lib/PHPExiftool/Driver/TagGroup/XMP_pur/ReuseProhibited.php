@@ -28,13 +28,14 @@ class ReuseProhibited extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reuse Prohibited',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411330
+             * line : 290494
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReuseProhibited extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:ReuseProhibited',
             'desc' => [
+                'en' => 'Reuse Prohibited',
             ],
         ],
     ];

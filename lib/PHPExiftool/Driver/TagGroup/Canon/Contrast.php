@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13473
+             * line : 9723
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIIN
-             * line : 17715
+             * line : 13083
              * type : int8s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIIN.Canon:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56545
+             * line : 43885
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

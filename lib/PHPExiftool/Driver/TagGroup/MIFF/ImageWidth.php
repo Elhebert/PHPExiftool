@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164289
+             * line : 111709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PlanarConfiguration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Planar Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98648
+             * line : 71947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlanarConfiguration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlanarConfiguration',
             'desc' => [
+                'en' => 'Planar Configuration',
             ],
         ],
     ];

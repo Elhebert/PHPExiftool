@@ -28,13 +28,14 @@ class LCDHistLUT7 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Hist LUT7',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156783
+             * line : 107987
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDHistLUT7 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDHistLUT7',
             'desc' => [
+                'en' => 'LCD Hist LUT7',
             ],
         ],
     ];

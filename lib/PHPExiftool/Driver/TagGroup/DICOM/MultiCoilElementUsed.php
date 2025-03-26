@@ -28,13 +28,14 @@ class MultiCoilElementUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Coil Element Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96626
+             * line : 70030
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiCoilElementUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiCoilElementUsed',
             'desc' => [
+                'en' => 'Multi Coil Element Used',
             ],
         ],
     ];

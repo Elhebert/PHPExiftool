@@ -28,13 +28,14 @@ class DriftTubeVolt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drift Tube Volt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166571
+             * line : 113310
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DriftTubeVolt extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:DriftTubeVolt',
             'desc' => [
+                'en' => 'Drift Tube Volt',
             ],
         ],
     ];

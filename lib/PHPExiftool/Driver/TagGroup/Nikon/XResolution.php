@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191597
+             * line : 129979
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

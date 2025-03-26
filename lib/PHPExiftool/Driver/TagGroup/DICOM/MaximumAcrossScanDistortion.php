@@ -28,13 +28,14 @@ class MaximumAcrossScanDistortion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Across Scan Distortion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98426
+             * line : 71758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumAcrossScanDistortion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumAcrossScanDistortion',
             'desc' => [
+                'en' => 'Maximum Across Scan Distortion',
             ],
         ],
     ];

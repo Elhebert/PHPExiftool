@@ -28,13 +28,14 @@ class PeristalticFlagOption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peristaltic Flag Option',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100651
+             * line : 73821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeristalticFlagOption extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PeristalticFlagOption',
             'desc' => [
+                'en' => 'Peristaltic Flag Option',
             ],
         ],
     ];

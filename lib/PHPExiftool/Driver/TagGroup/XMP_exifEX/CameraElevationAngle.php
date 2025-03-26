@@ -28,13 +28,14 @@ class CameraElevationAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Elevation Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408473
+             * line : 288551
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraElevationAngle extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:CameraElevationAngle',
             'desc' => [
+                'en' => 'Camera Elevation Angle',
             ],
         ],
     ];

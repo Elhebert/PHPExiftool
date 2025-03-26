@@ -28,13 +28,14 @@ class AlbumArtist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1029
+             * line : 397
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumArtist extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:AlbumArtist',
             'desc' => [
+                'en' => 'Album Artist',
             ],
         ],
     ];

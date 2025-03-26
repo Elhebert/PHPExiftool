@@ -28,13 +28,14 @@ class OffsetMapHorizontal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset Map Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154910
+             * line : 106202
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OffsetMapHorizontal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OffsetMapHorizontal',
             'desc' => [
+                'en' => 'Offset Map Horizontal',
             ],
         ],
     ];

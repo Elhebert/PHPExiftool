@@ -28,13 +28,14 @@ class HDRToningInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDR Toning Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305619
+             * line : 212358
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDRToningInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:HDRToningInfo',
             'desc' => [
+                'en' => 'HDR Toning Info',
             ],
         ],
     ];

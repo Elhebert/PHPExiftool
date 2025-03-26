@@ -28,13 +28,14 @@ class E_mailDisplayName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'E-mail Display Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176280
+             * line : 121302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class E_mailDisplayName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:E-mailDisplayName',
             'desc' => [
+                'en' => 'E-mail Display Name',
             ],
         ],
     ];

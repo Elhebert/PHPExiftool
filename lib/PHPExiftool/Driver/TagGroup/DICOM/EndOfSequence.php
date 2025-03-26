@@ -28,13 +28,14 @@ class EndOfSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Of Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104430
+             * line : 77502
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndOfSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EndOfSequence',
             'desc' => [
+                'en' => 'End Of Sequence',
             ],
         ],
     ];

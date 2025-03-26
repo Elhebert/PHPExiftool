@@ -28,13 +28,14 @@ class DynamicRangeExpansion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Expansion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299946
+             * line : 209086
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DynamicRangeExpansion extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DynamicRangeExpansion',
             'desc' => [
+                'en' => 'Dynamic Range Expansion',
             ],
         ],
     ];

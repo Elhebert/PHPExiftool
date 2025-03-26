@@ -28,13 +28,14 @@ class LevelValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Level Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100372
+             * line : 73545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LevelValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LevelValue',
             'desc' => [
+                'en' => 'Level Value',
             ],
         ],
     ];

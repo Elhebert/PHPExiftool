@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::INFO
-             * line : 333880
+             * line : 234119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Samsung::INFO.Samsung:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

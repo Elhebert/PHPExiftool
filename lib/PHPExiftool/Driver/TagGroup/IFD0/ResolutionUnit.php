@@ -28,13 +28,14 @@ class ResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111241
+             * line : 81609
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ResolutionUnit extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ResolutionUnit',
             'desc' => [
+                'en' => 'Resolution Unit',
             ],
         ],
     ];

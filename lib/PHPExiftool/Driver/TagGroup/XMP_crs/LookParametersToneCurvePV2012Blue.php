@@ -28,13 +28,14 @@ class LookParametersToneCurvePV2012Blue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Parameters Tone Curve PV2012 Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402902
+             * line : 286038
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookParametersToneCurvePV2012Blue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookParametersToneCurvePV2012Blue',
             'desc' => [
+                'en' => 'Look Parameters Tone Curve PV2012 Blue',
             ],
         ],
     ];

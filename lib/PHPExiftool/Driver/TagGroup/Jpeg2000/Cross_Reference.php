@@ -28,13 +28,14 @@ class Cross_Reference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cross-Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154191
+             * line : 105870
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Cross_Reference extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:Cross-Reference',
             'desc' => [
+                'en' => 'Cross-Reference',
             ],
         ],
     ];

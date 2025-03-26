@@ -28,13 +28,14 @@ class ProjectSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Project Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171469
+             * line : 117670
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProjectSet',
             'desc' => [
+                'en' => 'Project Set',
             ],
         ],
     ];

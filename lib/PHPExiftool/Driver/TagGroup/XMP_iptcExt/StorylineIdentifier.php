@@ -28,13 +28,14 @@ class StorylineIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Storyline Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409807
+             * line : 289566
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StorylineIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:StorylineIdentifier',
             'desc' => [
+                'en' => 'Storyline Identifier',
             ],
         ],
     ];

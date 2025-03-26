@@ -28,13 +28,14 @@ class DestinationDST extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Destination DST',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298687
+             * line : 208432
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DestinationDST extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DestinationDST',
             'desc' => [
+                'en' => 'Destination DST',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::TimeInfo
-             * line : 301887
+             * line : 210038
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DestinationDST extends AbstractTagGroup
              */
             'id' => 'Pentax::TimeInfo.Pentax:DestinationDST',
             'desc' => [
+                'en' => 'Destination DST',
             ],
         ],
     ];

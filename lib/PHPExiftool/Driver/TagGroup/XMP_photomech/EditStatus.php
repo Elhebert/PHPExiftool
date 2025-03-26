@@ -28,13 +28,14 @@ class EditStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edit Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304929
+             * line : 211949
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EditStatus extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:EditStatus',
             'desc' => [
+                'en' => 'Edit Status',
             ],
         ],
     ];

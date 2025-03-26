@@ -28,13 +28,14 @@ class CropOriginalWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Original Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::CropInfo
-             * line : 80209
+             * line : 58528
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropOriginalWidth extends AbstractTagGroup
              */
             'id' => 'CanonVRD::CropInfo.CanonVRD:CropOriginalWidth',
             'desc' => [
+                'en' => 'Crop Original Width',
             ],
         ],
     ];

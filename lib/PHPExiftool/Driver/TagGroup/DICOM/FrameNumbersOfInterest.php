@@ -28,13 +28,14 @@ class FrameNumbersOfInterest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Numbers Of Interest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99129
+             * line : 72348
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameNumbersOfInterest extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameNumbersOfInterest',
             'desc' => [
+                'en' => 'Frame Numbers Of Interest',
             ],
         ],
     ];

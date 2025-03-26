@@ -28,13 +28,14 @@ class ModifiedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1418
+             * line : 664
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifiedBy extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ModifiedBy',
             'desc' => [
+                'en' => 'Modified By',
             ],
         ],
     ];

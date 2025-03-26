@@ -28,13 +28,14 @@ class CodeValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94801
+             * line : 68287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodeValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodeValue',
             'desc' => [
+                'en' => 'Code Value',
             ],
         ],
     ];

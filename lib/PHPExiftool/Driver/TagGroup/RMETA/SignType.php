@@ -28,13 +28,14 @@ class SignType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sign Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333685
+             * line : 233987
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignType extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:SignType',
             'desc' => [
+                'en' => 'Sign Type',
             ],
         ],
     ];

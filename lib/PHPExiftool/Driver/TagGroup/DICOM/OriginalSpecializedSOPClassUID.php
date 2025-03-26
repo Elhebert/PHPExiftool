@@ -28,13 +28,14 @@ class OriginalSpecializedSOPClassUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Specialized SOP Class UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94691
+             * line : 68182
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalSpecializedSOPClassUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OriginalSpecializedSOPClassUID',
             'desc' => [
+                'en' => 'Original Specialized SOP Class UID',
             ],
         ],
     ];

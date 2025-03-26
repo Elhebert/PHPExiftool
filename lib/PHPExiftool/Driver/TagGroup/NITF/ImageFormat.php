@@ -28,13 +28,14 @@ class ImageFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152770
+             * line : 105109
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFormat extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:ImageFormat',
             'desc' => [
+                'en' => 'Image Format',
             ],
         ],
     ];

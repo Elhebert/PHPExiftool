@@ -28,13 +28,14 @@ class PregnancyStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pregnancy Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95296
+             * line : 68758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PregnancyStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PregnancyStatus',
             'desc' => [
+                'en' => 'Pregnancy Status',
             ],
         ],
     ];

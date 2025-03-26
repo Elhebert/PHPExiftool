@@ -28,13 +28,14 @@ class RowsPerStrip extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rows Per Strip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110846
+             * line : 81508
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RowsPerStrip extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:RowsPerStrip',
             'desc' => [
+                'en' => 'Rows Per Strip',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280710
+             * line : 194687
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RowsPerStrip extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:RowsPerStrip',
             'desc' => [
+                'en' => 'Rows Per Strip',
             ],
         ],
     ];

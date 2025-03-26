@@ -28,13 +28,14 @@ class ToningEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333290
+             * line : 233736
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToningEffect extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:ToningEffect',
             'desc' => [
+                'en' => 'Toning Effect',
             ],
         ],
     ];

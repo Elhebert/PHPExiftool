@@ -28,13 +28,14 @@ class SerialNumberHash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Serial Number Hash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325194
+             * line : 229581
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SerialNumberHash extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SerialNumberHash',
             'desc' => [
+                'en' => 'Camera Serial Number Hash',
             ],
         ],
     ];

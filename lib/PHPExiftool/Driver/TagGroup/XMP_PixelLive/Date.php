@@ -28,13 +28,14 @@ class Date extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::PixelLive
-             * line : 397485
+             * line : 281453
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Date extends AbstractTagGroup
              */
             'id' => 'XMP::PixelLive.XMP-PixelLive:Date',
             'desc' => [
+                'en' => 'Date',
             ],
         ],
     ];

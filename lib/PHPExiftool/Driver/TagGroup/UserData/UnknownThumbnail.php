@@ -28,13 +28,14 @@ class UnknownThumbnail extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Thumbnail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325676
+             * line : 229790
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownThumbnail extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:UnknownThumbnail',
             'desc' => [
+                'en' => 'Unknown Thumbnail',
             ],
         ],
     ];

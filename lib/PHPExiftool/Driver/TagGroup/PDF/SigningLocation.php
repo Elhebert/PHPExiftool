@@ -28,13 +28,14 @@ class SigningLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signing Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264356
+             * line : 182723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigningLocation extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:SigningLocation',
             'desc' => [
+                'en' => 'Signing Location',
             ],
         ],
     ];

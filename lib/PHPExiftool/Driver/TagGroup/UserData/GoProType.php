@@ -28,13 +28,14 @@ class GoProType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Go Pro Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325242
+             * line : 229599
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GoProType extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:GoProType',
             'desc' => [
+                'en' => 'Go Pro Type',
             ],
         ],
     ];

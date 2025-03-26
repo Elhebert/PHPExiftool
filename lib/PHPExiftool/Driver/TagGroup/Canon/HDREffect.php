@@ -28,13 +28,14 @@ class HDREffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::HDRInfo
-             * line : 64168
+             * line : 48707
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDREffect extends AbstractTagGroup
              */
             'id' => 'Canon::HDRInfo.Canon:HDREffect',
             'desc' => [
+                'en' => 'HDR Effect',
             ],
         ],
     ];

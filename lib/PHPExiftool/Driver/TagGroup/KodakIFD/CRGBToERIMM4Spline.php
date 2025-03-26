@@ -28,13 +28,14 @@ class CRGBToERIMM4Spline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CRGB To ERIMM4 Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156960
+             * line : 108164
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CRGBToERIMM4Spline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CRGBToERIMM4Spline',
             'desc' => [
+                'en' => 'CRGB To ERIMM4 Spline',
             ],
         ],
     ];

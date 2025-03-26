@@ -28,13 +28,14 @@ class MaskedAreas extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Masked Areas',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119982
+             * line : 84387
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskedAreas extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:MaskedAreas',
             'desc' => [
+                'en' => 'Masked Areas',
             ],
         ],
     ];

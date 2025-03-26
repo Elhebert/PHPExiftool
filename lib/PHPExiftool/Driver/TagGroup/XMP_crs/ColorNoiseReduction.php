@@ -28,13 +28,14 @@ class ColorNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402055
+             * line : 285290
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorNoiseReduction extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ColorNoiseReduction',
             'desc' => [
+                'en' => 'Color Noise Reduction',
             ],
         ],
     ];

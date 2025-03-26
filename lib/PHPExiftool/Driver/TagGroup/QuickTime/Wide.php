@@ -28,13 +28,14 @@ class Wide extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wide',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323882
+             * line : 228870
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Wide extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:Wide',
             'desc' => [
+                'en' => 'Wide',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277322
+             * line : 192922
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashWarning extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:FlashWarning',
             'desc' => [
+                'en' => 'Flash Warning',
             ],
         ],
     ];

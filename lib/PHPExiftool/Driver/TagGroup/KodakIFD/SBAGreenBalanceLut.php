@@ -28,13 +28,14 @@ class SBAGreenBalanceLut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SBA Green Balance Lut',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155900
+             * line : 107111
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SBAGreenBalanceLut extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBAGreenBalanceLut',
             'desc' => [
+                'en' => 'SBA Green Balance Lut',
             ],
         ],
     ];

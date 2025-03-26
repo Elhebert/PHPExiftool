@@ -28,13 +28,14 @@ class Private0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Private',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Info
-             * line : 395006
+             * line : 279809
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Private0 extends AbstractTagGroup
              */
             'id' => 'Torrent::Info.Torrent:Private',
             'desc' => [
+                'en' => 'Private',
             ],
         ],
     ];

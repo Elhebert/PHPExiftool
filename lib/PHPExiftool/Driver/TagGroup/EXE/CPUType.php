@@ -28,13 +28,14 @@ class CPUType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CPU Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::ELF
-             * line : 108045
+             * line : 79746
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CPUType extends AbstractTagGroup
              */
             'id' => 'EXE::ELF.EXE:CPUType',
             'desc' => [
+                'en' => 'CPU Type',
             ],
         ],
         1 => [
             /**
              * table_name : EXE::MachO
-             * line : 108171
+             * line : 79851
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CPUType extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:CPUType',
             'desc' => [
+                'en' => 'CPU Type',
             ],
         ],
     ];

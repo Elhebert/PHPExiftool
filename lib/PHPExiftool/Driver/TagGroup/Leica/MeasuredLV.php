@@ -28,13 +28,14 @@ class MeasuredLV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measured LV',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274669
+             * line : 191553
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MeasuredLV extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:MeasuredLV',
             'desc' => [
+                'en' => 'Measured LV',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274953
+             * line : 191671
              * type : rational64s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MeasuredLV extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:MeasuredLV',
             'desc' => [
+                'en' => 'Measured LV',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 274996
+             * line : 191690
              * type : rational64s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MeasuredLV extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:MeasuredLV',
             'desc' => [
+                'en' => 'Measured LV',
             ],
         ],
         3 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279643
+             * line : 194220
              * type : int32s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MeasuredLV extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:MeasuredLV',
             'desc' => [
+                'en' => 'Measured LV',
             ],
         ],
     ];

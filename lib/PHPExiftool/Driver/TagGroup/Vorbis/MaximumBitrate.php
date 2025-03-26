@@ -28,13 +28,14 @@ class MaximumBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Identification
-             * line : 395933
+             * line : 280284
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumBitrate extends AbstractTagGroup
              */
             'id' => 'Vorbis::Identification.Vorbis:MaximumBitrate',
             'desc' => [
+                'en' => 'Maximum Bitrate',
             ],
         ],
     ];

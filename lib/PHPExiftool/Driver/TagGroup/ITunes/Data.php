@@ -28,13 +28,14 @@ class Data extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326663
+             * line : 230402
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Data extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Data',
             'desc' => [
+                'en' => 'Data',
             ],
         ],
     ];

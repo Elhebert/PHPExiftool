@@ -28,13 +28,14 @@ class BitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV5
-             * line : 330074
+             * line : 232345
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'Real::AudioV5.Real-RA5:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CodecDownloadURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Download URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173971
+             * line : 119836
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecDownloadURL extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CodecDownloadURL',
             'desc' => [
+                'en' => 'Codec Download URL',
             ],
         ],
     ];

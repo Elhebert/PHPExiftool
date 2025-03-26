@@ -28,13 +28,14 @@ class ProductionApertureDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Production Aperture Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackAperture
-             * line : 325047
+             * line : 229503
              * type : fixed32u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class ProductionApertureDimensions extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackAperture.Track#:ProductionApertureDimensions',
             'desc' => [
+                'en' => 'Production Aperture Dimensions',
             ],
         ],
     ];

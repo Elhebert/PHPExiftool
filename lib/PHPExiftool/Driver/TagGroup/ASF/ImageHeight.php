@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::StreamProperties
-             * line : 2864
+             * line : 1848
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'ASF::StreamProperties.ASF:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

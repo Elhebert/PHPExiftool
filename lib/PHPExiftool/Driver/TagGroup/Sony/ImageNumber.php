@@ -28,13 +28,14 @@ class ImageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348320
+             * line : 243716
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351266
+             * line : 245247
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351428
+             * line : 245356
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 352063
+             * line : 245976
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
     ];

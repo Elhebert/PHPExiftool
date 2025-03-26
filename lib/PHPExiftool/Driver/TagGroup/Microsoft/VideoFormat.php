@@ -28,13 +28,14 @@ class VideoFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174963
+             * line : 120473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFormat extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:VideoFormat',
             'desc' => [
+                'en' => 'Video Format',
             ],
         ],
     ];

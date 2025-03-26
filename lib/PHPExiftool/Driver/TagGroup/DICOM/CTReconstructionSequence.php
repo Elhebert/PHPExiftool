@@ -28,13 +28,14 @@ class CTReconstructionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Reconstruction Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96980
+             * line : 70381
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTReconstructionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTReconstructionSequence',
             'desc' => [
+                'en' => 'CT Reconstruction Sequence',
             ],
         ],
     ];

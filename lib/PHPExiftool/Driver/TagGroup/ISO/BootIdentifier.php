@@ -28,13 +28,14 @@ class BootIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Boot Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::BootRecord
-             * line : 151982
+             * line : 104678
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class BootIdentifier extends AbstractTagGroup
              */
             'id' => 'ISO::BootRecord.ISO:BootIdentifier',
             'desc' => [
+                'en' => 'Boot Identifier',
             ],
         ],
     ];

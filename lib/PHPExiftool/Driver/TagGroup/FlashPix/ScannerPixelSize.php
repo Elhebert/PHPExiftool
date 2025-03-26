@@ -28,13 +28,14 @@ class ScannerPixelSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Pixel Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126507
+             * line : 87710
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScannerPixelSize extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ScannerPixelSize',
             'desc' => [
+                'en' => 'Scanner Pixel Size',
             ],
         ],
     ];

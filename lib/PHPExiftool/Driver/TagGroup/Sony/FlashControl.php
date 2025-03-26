@@ -28,13 +28,14 @@ class FlashControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347484
+             * line : 243306
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashControl extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FlashControl',
             'desc' => [
+                'en' => 'Flash Control',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348951
+             * line : 243972
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashControl extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FlashControl',
             'desc' => [
+                'en' => 'Flash Control',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350609
+             * line : 244832
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FlashControl extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashControl',
             'desc' => [
+                'en' => 'Flash Control',
             ],
         ],
     ];

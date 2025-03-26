@@ -28,13 +28,14 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185582
+             * line : 125898
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RB Levels Daylight',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185620
+             * line : 125925
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RB Levels Daylight',
             ],
         ],
     ];

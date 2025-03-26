@@ -28,13 +28,14 @@ class RotationOfScannedFilm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation Of Scanned Film',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96156
+             * line : 69574
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotationOfScannedFilm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RotationOfScannedFilm',
             'desc' => [
+                'en' => 'Rotation Of Scanned Film',
             ],
         ],
     ];

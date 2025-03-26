@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273419
+             * line : 190703
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

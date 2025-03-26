@@ -28,13 +28,14 @@ class TileGainDeterminationTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tile Gain Determination Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155566
+             * line : 106778
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TileGainDeterminationTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TileGainDeterminationTable',
             'desc' => [
+                'en' => 'Tile Gain Determination Table',
             ],
         ],
     ];

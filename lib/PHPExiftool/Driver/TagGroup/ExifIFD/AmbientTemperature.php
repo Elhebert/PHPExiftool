@@ -28,13 +28,14 @@ class AmbientTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ambient Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116311
+             * line : 83322
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AmbientTemperature extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AmbientTemperature',
             'desc' => [
+                'en' => 'Ambient Temperature',
             ],
         ],
     ];

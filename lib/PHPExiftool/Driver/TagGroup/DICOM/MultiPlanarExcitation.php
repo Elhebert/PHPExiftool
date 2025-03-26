@@ -28,13 +28,14 @@ class MultiPlanarExcitation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Planar Excitation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96536
+             * line : 69940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiPlanarExcitation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiPlanarExcitation',
             'desc' => [
+                'en' => 'Multi Planar Excitation',
             ],
         ],
     ];

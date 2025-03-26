@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263844
+             * line : 182471
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

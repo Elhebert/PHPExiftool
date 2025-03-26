@@ -28,13 +28,14 @@ class AFPointsUsed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Points Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341654
+             * line : 238930
              * type : int8u
              * writable : true
              * count : 10
@@ -42,12 +43,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 343031
+             * line : 240147
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 355358
+             * line : 247852
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 355462
+             * line : 247917
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AF_OnForMB_D10 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-On For MB-D10',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212174
+             * line : 142555
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AF_OnForMB_D10 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AF-OnForMB-D10',
             'desc' => [
+                'en' => 'AF-On For MB-D10',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224665
+             * line : 151467
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AF_OnForMB_D10 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AF-OnForMB-D10',
             'desc' => [
+                'en' => 'AF-On For MB-D10',
             ],
         ],
     ];

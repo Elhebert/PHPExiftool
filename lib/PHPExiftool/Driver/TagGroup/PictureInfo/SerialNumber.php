@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 745
+             * line : 280
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

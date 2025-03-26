@@ -28,13 +28,14 @@ class Macro extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256922
+             * line : 177404
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Macro extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:Macro',
             'desc' => [
+                'en' => 'Macro',
             ],
         ],
     ];

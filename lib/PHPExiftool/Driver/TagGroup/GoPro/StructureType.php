@@ -28,13 +28,14 @@ class StructureType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Structure Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139812
+             * line : 97770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StructureType extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:StructureType',
             'desc' => [
+                'en' => 'Structure Type',
             ],
         ],
     ];

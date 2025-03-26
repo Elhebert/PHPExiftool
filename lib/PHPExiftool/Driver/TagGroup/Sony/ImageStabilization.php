@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo2
-             * line : 352189
+             * line : 246041
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo2.Sony:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352257
+             * line : 246071
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 356998
+             * line : 248901
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

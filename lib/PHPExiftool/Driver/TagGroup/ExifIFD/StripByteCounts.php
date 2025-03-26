@@ -28,13 +28,14 @@ class StripByteCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Byte Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110864
+             * line : 81511
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StripByteCounts extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:StripByteCounts',
             'desc' => [
+                'en' => 'Strip Byte Counts',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 110882
+             * line : 81514
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StripByteCounts extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:StripByteCounts',
             'desc' => [
+                'en' => 'Strip Byte Counts',
             ],
         ],
     ];

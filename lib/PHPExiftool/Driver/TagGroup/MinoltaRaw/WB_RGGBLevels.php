@@ -28,13 +28,14 @@ class WB_RGGBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::WBG
-             * line : 187813
+             * line : 127214
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_RGGBLevels extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::WBG.MinoltaRaw:WB_RGGBLevels',
             'desc' => [
+                'en' => 'WB RGGB Levels',
             ],
         ],
     ];

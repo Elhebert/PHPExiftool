@@ -28,13 +28,14 @@ class ProgramID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396370
+             * line : 280623
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ProgramID',
             'desc' => [
+                'en' => 'Program ID',
             ],
         ],
     ];

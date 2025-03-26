@@ -28,13 +28,14 @@ class WhiteBalanceTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251173
+             * line : 173245
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceTemperature extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:WhiteBalanceTemperature',
             'desc' => [
+                'en' => 'White Balance Temperature',
             ],
         ],
     ];

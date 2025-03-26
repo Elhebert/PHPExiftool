@@ -28,13 +28,14 @@ class ImageCreatorImageID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Creator Image ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265433
+             * line : 183477
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageCreatorImageID extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:ImageCreatorImageID',
             'desc' => [
+                'en' => 'Image Creator Image ID',
             ],
         ],
     ];

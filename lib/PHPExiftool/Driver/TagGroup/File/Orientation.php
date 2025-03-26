@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105388
+             * line : 78083
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

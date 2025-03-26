@@ -28,13 +28,14 @@ class StereoMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::StereoImage
-             * line : 272753
+             * line : 190485
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StereoMode extends AbstractTagGroup
              */
             'id' => 'PNG::StereoImage.PNG:StereoMode',
             'desc' => [
+                'en' => 'Stereo Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Encryption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encryption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Encrypt
-             * line : 264065
+             * line : 182578
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Encryption extends AbstractTagGroup
              */
             'id' => 'PDF::Encrypt.PDF:Encryption',
             'desc' => [
+                'en' => 'Encryption',
             ],
         ],
     ];

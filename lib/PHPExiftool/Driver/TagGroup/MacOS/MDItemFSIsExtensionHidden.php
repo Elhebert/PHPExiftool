@@ -28,13 +28,14 @@ class MDItemFSIsExtensionHidden extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Is Extension Hidden',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172730
+             * line : 118841
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSIsExtensionHidden extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSIsExtensionHidden',
             'desc' => [
+                'en' => 'MD Item FS Is Extension Hidden',
             ],
         ],
     ];

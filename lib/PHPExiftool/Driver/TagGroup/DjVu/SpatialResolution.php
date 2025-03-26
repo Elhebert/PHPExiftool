@@ -28,13 +28,14 @@ class SpatialResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spatial Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Info
-             * line : 107131
+             * line : 79209
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpatialResolution extends AbstractTagGroup
              */
             'id' => 'DjVu::Info.DjVu:SpatialResolution',
             'desc' => [
+                'en' => 'Spatial Resolution',
             ],
         ],
     ];

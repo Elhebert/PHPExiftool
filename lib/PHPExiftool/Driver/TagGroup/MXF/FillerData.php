@@ -28,13 +28,14 @@ class FillerData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filler Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168923
+             * line : 115388
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillerData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FillerData',
             'desc' => [
+                'en' => 'Filler Data',
             ],
         ],
     ];

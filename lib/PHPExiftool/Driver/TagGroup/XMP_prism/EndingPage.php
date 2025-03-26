@@ -28,13 +28,14 @@ class EndingPage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ending Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410846
+             * line : 290109
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EndingPage extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:EndingPage',
             'desc' => [
+                'en' => 'Ending Page',
             ],
         ],
     ];

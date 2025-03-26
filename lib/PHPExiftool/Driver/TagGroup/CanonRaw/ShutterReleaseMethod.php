@@ -28,13 +28,14 @@ class ShutterReleaseMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Release Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78729
+             * line : 57277
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterReleaseMethod extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:ShutterReleaseMethod',
             'desc' => [
+                'en' => 'Shutter Release Method',
             ],
         ],
     ];

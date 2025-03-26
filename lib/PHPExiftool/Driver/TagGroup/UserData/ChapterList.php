@@ -28,13 +28,14 @@ class ChapterList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325385
+             * line : 229679
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterList extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ChapterList',
             'desc' => [
+                'en' => 'Chapter List',
             ],
         ],
     ];

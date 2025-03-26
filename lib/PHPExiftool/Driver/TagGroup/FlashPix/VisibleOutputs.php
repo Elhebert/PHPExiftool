@@ -28,13 +28,14 @@ class VisibleOutputs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Visible Outputs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124626
+             * line : 87109
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VisibleOutputs extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:VisibleOutputs',
             'desc' => [
+                'en' => 'Visible Outputs',
             ],
         ],
     ];

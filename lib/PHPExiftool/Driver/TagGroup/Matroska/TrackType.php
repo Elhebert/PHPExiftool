@@ -28,13 +28,14 @@ class TrackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173156
+             * line : 119163
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackType extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackType',
             'desc' => [
+                'en' => 'Track Type',
             ],
         ],
     ];

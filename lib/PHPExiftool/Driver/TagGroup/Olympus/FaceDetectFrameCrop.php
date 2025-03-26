@@ -28,13 +28,14 @@ class FaceDetectFrameCrop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detect Frame Crop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255567
+             * line : 176366
              * type : int16s
              * writable : true
              * count : 12
@@ -42,6 +43,7 @@ class FaceDetectFrameCrop extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:FaceDetectFrameCrop',
             'desc' => [
+                'en' => 'Face Detect Frame Crop',
             ],
         ],
     ];

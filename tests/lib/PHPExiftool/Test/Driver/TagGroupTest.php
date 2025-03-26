@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -12,16 +13,13 @@ namespace lib\PHPExiftool\Test\Driver;
 
 use PHPExiftool\Driver\HelperInterface;
 use PHPExiftool\Driver\TagGroupFactory;
+use PHPExiftool\Driver\TagGroupInterface;
 use PHPExiftool\PHPExiftool;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Finder\Finder;
-use PHPExiftool\Driver\TagGroupInterface;
 
 class TagGroupTest extends TestCase
 {
-    /**
-     * @var TagGroupInterface
-     */
     protected TagGroupInterface $object;
 
     /**
@@ -35,32 +33,32 @@ class TagGroupTest extends TestCase
      * @covers AbstractTag::isWritable
      * @covers AbstractTag::isBinary
      */
-    public function testConsistency(): void
+    public function test_consistency(): void
     {
-        $PHPExiftool = new PHPExiftool("/tmp");
+        $PHPExiftool = new PHPExiftool('/tmp');
 
         /** @var HelperInterface $helper */
         $helper = $PHPExiftool->getFactory()->getHelper();
 
-        //return;
-        $finder = new Finder();
-        $finder->files()->in(array('/tmp/TagGroup/'));
+        // return;
+        $finder = new Finder;
+        $finder->files()->in(['/tmp/TagGroup/']);
 
         $n = 0;
         foreach ($finder as $file) {
-            if($file->getFilename() === "Helper.php") {
+            if ($file->getFilename() === 'Helper.php') {
                 continue;
             }
             $n++;
 
             $tagName =
                     str_replace(
-                            '/', ':', $file->getRelativePath() . '/' . $file->getFilenameWithoutExtension()
+                        '/', ':', $file->getRelativePath().'/'.$file->getFilenameWithoutExtension()
                     );
 
-            $tag = TagGroupFactory::getFromRDFTagname("/tmp", $tagName);
+            $tag = TagGroupFactory::getFromRDFTagname('/tmp', $tagName);
 
-            /* @var TagGroupInterface $tag  */
+            /* @var TagGroupInterface $tag */
 
             $this->assertTrue(is_scalar($tag->getId()));
             $this->assertTrue(is_scalar($tag->getName()));
@@ -72,28 +70,27 @@ class TagGroupTest extends TestCase
             // $this->assertTrue(is_scalar($tag->getGroupName()));
             // $this->assertTrue(is_scalar($tag->getTagname()));
 
-//            if ($tag->getValues() !== null)
-//                $this->assertTrue(is_array($tag->getValues()));
-//
-//            if ($tag->isMulti())
-//                $this->assertTrue($tag->isMulti());
-//            else
-//                $this->assertFalse($tag->isMulti());
-//
-//            if ($tag->isWritable())
-//                $this->assertTrue($tag->isWritable());
-//            else
-//                $this->assertFalse($tag->isWritable(), $tag->getTagname() . " is writable");
-//
-//            if ($tag->isBinary())
-//                $this->assertTrue($tag->isBinary());
-//            else
-//                $this->assertFalse($tag->isBinary());
+            //            if ($tag->getValues() !== null)
+            //                $this->assertTrue(is_array($tag->getValues()));
+            //
+            //            if ($tag->isMulti())
+            //                $this->assertTrue($tag->isMulti());
+            //            else
+            //                $this->assertFalse($tag->isMulti());
+            //
+            //            if ($tag->isWritable())
+            //                $this->assertTrue($tag->isWritable());
+            //            else
+            //                $this->assertFalse($tag->isWritable(), $tag->getTagname() . " is writable");
+            //
+            //            if ($tag->isBinary())
+            //                $this->assertTrue($tag->isBinary());
+            //            else
+            //                $this->assertFalse($tag->isBinary());
 
             unset($tag);
         }
 
         self::assertEquals(count($helper->getIndex()), $n);
     }
-
 }

@@ -28,13 +28,14 @@ class TL84ConvChrmB_P extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TL84 Conv Chrm B P',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310174
+             * line : 216086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TL84ConvChrmB_P extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:TL84ConvChrmB_P',
             'desc' => [
+                'en' => 'TL84 Conv Chrm B P',
             ],
         ],
     ];

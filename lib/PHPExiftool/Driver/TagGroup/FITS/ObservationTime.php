@@ -28,13 +28,14 @@ class ObservationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Observation Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121725
+             * line : 85320
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObservationTime extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:ObservationTime',
             'desc' => [
+                'en' => 'Observation Time',
             ],
         ],
     ];

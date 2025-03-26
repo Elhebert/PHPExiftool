@@ -28,13 +28,14 @@ class BillingProcedureStepSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Billing Procedure Step Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99750
+             * line : 72954
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BillingProcedureStepSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BillingProcedureStepSequence',
             'desc' => [
+                'en' => 'Billing Procedure Step Sequence',
             ],
         ],
     ];

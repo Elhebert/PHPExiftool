@@ -28,13 +28,14 @@ class AFAssistLamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Assist Lamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276569
+             * line : 192578
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAssistLamp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AFAssistLamp',
             'desc' => [
+                'en' => 'AF Assist Lamp',
             ],
         ],
     ];

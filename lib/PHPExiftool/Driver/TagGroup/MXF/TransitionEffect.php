@@ -28,13 +28,14 @@ class TransitionEffect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transition Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169504
+             * line : 115902
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransitionEffect extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TransitionEffect',
             'desc' => [
+                'en' => 'Transition Effect',
             ],
         ],
     ];

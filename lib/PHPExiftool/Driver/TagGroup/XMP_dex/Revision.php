@@ -28,13 +28,14 @@ class Revision extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dex
-             * line : 404978
+             * line : 287755
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Revision extends AbstractTagGroup
              */
             'id' => 'XMP::dex.XMP-dex:Revision',
             'desc' => [
+                'en' => 'Revision',
             ],
         ],
     ];

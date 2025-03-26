@@ -28,13 +28,14 @@ class VerificationFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Verification Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100215
+             * line : 73389
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerificationFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerificationFlag',
             'desc' => [
+                'en' => 'Verification Flag',
             ],
         ],
     ];

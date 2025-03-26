@@ -28,13 +28,14 @@ class DateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397747
+             * line : 281589
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateTime extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:DateTime',
             'desc' => [
+                'en' => 'Date Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensControlRing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Control Ring',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247230
+             * line : 169923
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensControlRing extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LensControlRing',
             'desc' => [
+                'en' => 'Lens Control Ring',
             ],
         ],
     ];

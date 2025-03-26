@@ -28,13 +28,14 @@ class ReferencePixelY0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Pixel Y0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96274
+             * line : 69685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencePixelY0 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencePixelY0',
             'desc' => [
+                'en' => 'Reference Pixel Y0',
             ],
         ],
     ];

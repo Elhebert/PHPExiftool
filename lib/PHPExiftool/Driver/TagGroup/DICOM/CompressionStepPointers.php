@@ -28,13 +28,14 @@ class CompressionStepPointers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Step Pointers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98735
+             * line : 72010
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressionStepPointers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompressionStepPointers',
             'desc' => [
+                'en' => 'Compression Step Pointers',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197171
+             * line : 133099
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageAdjustment extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageAdjustment',
             'desc' => [
+                'en' => 'Image Adjustment',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209480
+             * line : 141280
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ImageAdjustment extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:ImageAdjustment',
             'desc' => [
+                'en' => 'Image Adjustment',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239594
+             * line : 162670
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AudioButton',
             'desc' => [
+                'en' => 'Audio Button',
             ],
         ],
     ];

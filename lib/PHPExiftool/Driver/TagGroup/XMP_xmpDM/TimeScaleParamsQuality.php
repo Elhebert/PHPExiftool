@@ -28,13 +28,14 @@ class TimeScaleParamsQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Scale Params Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413475
+             * line : 291567
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeScaleParamsQuality extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TimeScaleParamsQuality',
             'desc' => [
+                'en' => 'Time Scale Params Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageSpatialExtent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Spatial Extent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemPropCont
-             * line : 323221
+             * line : 228539
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSpatialExtent extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemPropCont.QuickTime:ImageSpatialExtent',
             'desc' => [
+                'en' => 'Image Spatial Extent',
             ],
         ],
     ];

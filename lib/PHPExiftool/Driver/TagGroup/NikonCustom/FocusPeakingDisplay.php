@@ -28,13 +28,14 @@ class FocusPeakingDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Peaking Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242536
+             * line : 165607
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusPeakingDisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FocusPeakingDisplay',
             'desc' => [
+                'en' => 'Focus Peaking Display',
             ],
         ],
     ];

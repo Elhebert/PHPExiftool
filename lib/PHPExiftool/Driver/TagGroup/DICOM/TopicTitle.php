@@ -28,13 +28,14 @@ class TopicTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Topic Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101862
+             * line : 75003
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TopicTitle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TopicTitle',
             'desc' => [
+                'en' => 'Topic Title',
             ],
         ],
     ];

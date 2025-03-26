@@ -28,13 +28,14 @@ class RevisionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DOP
-             * line : 124312
+             * line : 86857
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::DOP.MS-DOC:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
     ];

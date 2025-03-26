@@ -28,13 +28,14 @@ class MaxDataRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Data Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313776
+             * line : 219516
              * type : int32u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class MaxDataRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:MaxDataRate',
             'desc' => [
+                'en' => 'Max Data Rate',
             ],
         ],
     ];

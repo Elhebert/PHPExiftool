@@ -28,13 +28,14 @@ class AdmittingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Admitting Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99415
+             * line : 72630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdmittingTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AdmittingTime',
             'desc' => [
+                'en' => 'Admitting Time',
             ],
         ],
     ];

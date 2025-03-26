@@ -28,13 +28,14 @@ class ShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413374
+             * line : 291470
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShotNumber extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ShotNumber',
             'desc' => [
+                'en' => 'Shot Number',
             ],
         ],
     ];

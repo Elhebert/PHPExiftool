@@ -28,13 +28,14 @@ class StartingChannelNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Starting Channel Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100363
+             * line : 73536
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartingChannelNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartingChannelNumber',
             'desc' => [
+                'en' => 'Starting Channel Number',
             ],
         ],
     ];

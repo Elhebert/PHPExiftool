@@ -28,13 +28,14 @@ class ColorRepresentation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Representation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151437
+             * line : 104421
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorRepresentation extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ColorRepresentation',
             'desc' => [
+                'en' => 'Color Representation',
             ],
         ],
     ];

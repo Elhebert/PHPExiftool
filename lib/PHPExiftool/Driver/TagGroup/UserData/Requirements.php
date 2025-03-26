@@ -28,13 +28,14 @@ class Requirements extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Requirements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326008
+             * line : 229961
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Requirements extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Requirements',
             'desc' => [
+                'en' => 'Requirements',
             ],
         ],
     ];

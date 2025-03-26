@@ -28,13 +28,14 @@ class SampleIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169450
+             * line : 115854
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleIndex extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SampleIndex',
             'desc' => [
+                'en' => 'Sample Index',
             ],
         ],
     ];

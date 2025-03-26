@@ -28,13 +28,14 @@ class FilmBoxContentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Box Content Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102302
+             * line : 75402
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmBoxContentSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilmBoxContentSequence',
             'desc' => [
+                'en' => 'Film Box Content Sequence',
             ],
         ],
     ];

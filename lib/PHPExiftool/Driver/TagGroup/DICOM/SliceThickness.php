@@ -28,13 +28,14 @@ class SliceThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95491
+             * line : 68950
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SliceThickness',
             'desc' => [
+                'en' => 'Slice Thickness',
             ],
         ],
     ];

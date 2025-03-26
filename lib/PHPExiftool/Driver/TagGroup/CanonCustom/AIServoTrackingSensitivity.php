@@ -28,13 +28,14 @@ class AIServoTrackingSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AI Servo Tracking Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72360
+             * line : 53758
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AIServoTrackingSensitivity extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:AIServoTrackingSensitivity',
             'desc' => [
+                'en' => 'AI Servo Tracking Sensitivity',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73571
+             * line : 54415
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AIServoTrackingSensitivity extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AIServoTrackingSensitivity',
             'desc' => [
+                'en' => 'AI Servo Tracking Sensitivity',
             ],
         ],
     ];

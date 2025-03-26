@@ -28,13 +28,14 @@ class PhaseNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97866
+             * line : 71242
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhaseNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhaseNumber',
             'desc' => [
+                'en' => 'Phase Number',
             ],
         ],
     ];

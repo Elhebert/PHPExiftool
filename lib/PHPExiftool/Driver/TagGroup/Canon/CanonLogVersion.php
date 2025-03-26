@@ -28,13 +28,14 @@ class CanonLogVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Log Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64539
+             * line : 48876
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonLogVersion extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:CanonLogVersion',
             'desc' => [
+                'en' => 'Canon Log Version',
             ],
         ],
     ];

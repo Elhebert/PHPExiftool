@@ -28,13 +28,14 @@ class SourceCredits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source Credits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326023
+             * line : 229973
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SourceCredits extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SourceCredits',
             'desc' => [
+                'en' => 'Source Credits',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BackLight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Back Light',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126009
+             * line : 87552
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackLight extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:BackLight',
             'desc' => [
+                'en' => 'Back Light',
             ],
         ],
     ];

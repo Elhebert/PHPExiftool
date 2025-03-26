@@ -28,13 +28,14 @@ class RACordOfTargetReconCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RA Cord Of Target Recon Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100424
+             * line : 73596
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RACordOfTargetReconCenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RACordOfTargetReconCenter',
             'desc' => [
+                'en' => 'RA Cord Of Target Recon Center',
             ],
         ],
     ];

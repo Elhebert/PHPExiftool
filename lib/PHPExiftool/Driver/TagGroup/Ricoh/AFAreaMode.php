@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333464
+             * line : 233853
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

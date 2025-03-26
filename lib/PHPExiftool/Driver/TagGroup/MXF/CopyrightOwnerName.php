@@ -28,13 +28,14 @@ class CopyrightOwnerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167447
+             * line : 114063
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CopyrightOwnerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CopyrightOwnerName',
             'desc' => [
+                'en' => 'Copyright Owner Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169916
+             * line : 116253
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CopyrightOwnerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CopyrightOwnerName',
             'desc' => [
+                'en' => 'Copyright Owner Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LinkedGenerationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Generation ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169320
+             * line : 115728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedGenerationID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkedGenerationID',
             'desc' => [
+                'en' => 'Linked Generation ID',
             ],
         ],
     ];

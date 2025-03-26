@@ -28,13 +28,14 @@ class MediaStationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Station Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1415
+             * line : 661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaStationName extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaStationName',
             'desc' => [
+                'en' => 'Media Station Name',
             ],
         ],
     ];

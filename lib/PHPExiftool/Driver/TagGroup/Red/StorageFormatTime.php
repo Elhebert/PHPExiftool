@@ -28,13 +28,14 @@ class StorageFormatTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Format Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331477
+             * line : 233034
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageFormatTime extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:StorageFormatTime',
             'desc' => [
+                'en' => 'Storage Format Time',
             ],
         ],
     ];

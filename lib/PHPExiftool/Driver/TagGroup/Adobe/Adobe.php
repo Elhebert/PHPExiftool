@@ -28,13 +28,14 @@ class Adobe extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Adobe',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 120972
+             * line : 84946
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Adobe extends AbstractTagGroup
              */
             'id' => 'Extra.Adobe:Adobe',
             'desc' => [
+                'en' => 'Adobe',
             ],
         ],
     ];

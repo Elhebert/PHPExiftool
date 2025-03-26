@@ -28,13 +28,14 @@ class FrameDimensionPointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Dimension Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98673
+             * line : 71956
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameDimensionPointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameDimensionPointer',
             'desc' => [
+                'en' => 'Frame Dimension Pointer',
             ],
         ],
     ];

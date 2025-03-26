@@ -28,13 +28,14 @@ class VideoIndexArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Index Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171760
+             * line : 117949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoIndexArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoIndexArray',
             'desc' => [
+                'en' => 'Video Index Array',
             ],
         ],
     ];

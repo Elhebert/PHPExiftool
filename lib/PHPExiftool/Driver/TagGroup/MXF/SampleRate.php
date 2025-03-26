@@ -28,13 +28,14 @@ class SampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168057
+             * line : 114563
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SampleRate',
             'desc' => [
+                'en' => 'Sample Rate',
             ],
         ],
     ];

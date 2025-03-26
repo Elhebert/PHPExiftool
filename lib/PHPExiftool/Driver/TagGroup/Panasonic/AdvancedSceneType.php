@@ -28,13 +28,14 @@ class AdvancedSceneType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Advanced Scene Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276869
+             * line : 192713
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdvancedSceneType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AdvancedSceneType',
             'desc' => [
+                'en' => 'Advanced Scene Type',
             ],
         ],
     ];

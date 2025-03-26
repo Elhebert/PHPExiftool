@@ -28,13 +28,14 @@ class DriveMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332538
+             * line : 233396
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
     ];

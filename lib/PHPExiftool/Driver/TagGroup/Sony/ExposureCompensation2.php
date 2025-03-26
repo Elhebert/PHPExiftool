@@ -28,13 +28,14 @@ class ExposureCompensation2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360908
+             * line : 251469
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ExposureCompensation2',
             'desc' => [
+                'en' => 'Exposure Compensation 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360934
+             * line : 251481
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensation2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ExposureCompensation2',
             'desc' => [
+                'en' => 'Exposure Compensation 2',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361012
+             * line : 251524
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ExposureCompensation2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ExposureCompensation2',
             'desc' => [
+                'en' => 'Exposure Compensation 2',
             ],
         ],
     ];

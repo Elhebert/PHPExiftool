@@ -28,13 +28,14 @@ class BeamDosePointEquivalentDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Dose Point Equivalent Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103110
+             * line : 76206
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamDosePointEquivalentDepth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamDosePointEquivalentDepth',
             'desc' => [
+                'en' => 'Beam Dose Point Equivalent Depth',
             ],
         ],
     ];

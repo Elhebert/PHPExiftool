@@ -28,13 +28,14 @@ class SupplementalType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supplemental Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151398
+             * line : 104404
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupplementalType extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:SupplementalType',
             'desc' => [
+                'en' => 'Supplemental Type',
             ],
         ],
     ];

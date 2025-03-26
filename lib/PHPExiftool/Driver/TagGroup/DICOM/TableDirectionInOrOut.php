@@ -28,13 +28,14 @@ class TableDirectionInOrOut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Direction In Or Out',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100567
+             * line : 73737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableDirectionInOrOut extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableDirectionInOrOut',
             'desc' => [
+                'en' => 'Table Direction In Or Out',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaEventIdDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Event Id Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397310
+             * line : 281359
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaEventIdDate extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:MediaEventIdDate',
             'desc' => [
+                'en' => 'Media Event Id Date',
             ],
         ],
     ];

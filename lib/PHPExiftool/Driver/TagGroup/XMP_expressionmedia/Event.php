@@ -28,13 +28,14 @@ class Event extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ExpressionMedia
-             * line : 396830
+             * line : 281037
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Event extends AbstractTagGroup
              */
             'id' => 'XMP::ExpressionMedia.XMP-expressionmedia:Event',
             'desc' => [
+                'en' => 'Event',
             ],
         ],
     ];

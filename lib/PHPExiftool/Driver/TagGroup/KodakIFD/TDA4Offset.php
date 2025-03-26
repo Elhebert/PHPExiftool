@@ -28,13 +28,14 @@ class TDA4Offset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TDA4 Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157377
+             * line : 108569
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class TDA4Offset extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TDA4Offset',
             'desc' => [
+                'en' => 'TDA4 Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DateTimeEmbeddedFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Embedded Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171402
+             * line : 117604
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeEmbeddedFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DateTimeEmbeddedFlag',
             'desc' => [
+                'en' => 'Date Time Embedded Flag',
             ],
         ],
     ];

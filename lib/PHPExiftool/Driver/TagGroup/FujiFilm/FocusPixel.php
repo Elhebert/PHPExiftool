@@ -28,13 +28,14 @@ class FocusPixel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129828
+             * line : 89735
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FocusPixel extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FocusPixel',
             'desc' => [
+                'en' => 'Focus Pixel',
             ],
         ],
     ];

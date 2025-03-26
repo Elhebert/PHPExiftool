@@ -28,13 +28,14 @@ class StreamPositionIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Position Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169667
+             * line : 116058
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StreamPositionIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamPositionIndicator',
             'desc' => [
+                'en' => 'Stream Position Indicator',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170863
+             * line : 117093
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class StreamPositionIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamPositionIndicator',
             'desc' => [
+                'en' => 'Stream Position Indicator',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 170866
+             * line : 117096
              * type : int32u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class StreamPositionIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamPositionIndicator',
             'desc' => [
+                'en' => 'Stream Position Indicator',
             ],
         ],
         3 => [
             /**
              * table_name : MXF::Main
-             * line : 170869
+             * line : 117099
              * type : int64u
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class StreamPositionIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamPositionIndicator',
             'desc' => [
+                'en' => 'Stream Position Indicator',
             ],
         ],
     ];

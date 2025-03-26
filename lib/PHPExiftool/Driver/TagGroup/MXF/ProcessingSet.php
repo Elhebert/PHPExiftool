@@ -28,13 +28,14 @@ class ProcessingSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Processing Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171466
+             * line : 117667
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcessingSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProcessingSet',
             'desc' => [
+                'en' => 'Processing Set',
             ],
         ],
     ];

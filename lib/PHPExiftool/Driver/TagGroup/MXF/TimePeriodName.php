@@ -28,13 +28,14 @@ class TimePeriodName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Period Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168570
+             * line : 115061
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TimePeriodName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimePeriodName',
             'desc' => [
+                'en' => 'Time Period Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170959
+             * line : 117186
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TimePeriodName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimePeriodName',
             'desc' => [
+                'en' => 'Time Period Name',
             ],
         ],
     ];

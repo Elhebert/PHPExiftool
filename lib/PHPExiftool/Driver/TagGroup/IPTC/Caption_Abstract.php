@@ -28,13 +28,14 @@ class Caption_Abstract extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Caption-Abstract',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150410
+             * line : 103975
              * type : string
              * writable : true
              * count : 2000
@@ -42,6 +43,7 @@ class Caption_Abstract extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Caption-Abstract',
             'desc' => [
+                'en' => 'Caption-Abstract',
             ],
         ],
     ];

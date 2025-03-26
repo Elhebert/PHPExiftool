@@ -28,13 +28,14 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Shade',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300751
+             * line : 209646
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::WBLevels
-             * line : 303052
+             * line : 210709
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsShade extends AbstractTagGroup
              */
             'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsShade',
             'desc' => [
+                'en' => 'WB RGGB Levels Shade',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProfileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272571
+             * line : 190391
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileName extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:ProfileName',
             'desc' => [
+                'en' => 'Profile Name',
             ],
         ],
     ];

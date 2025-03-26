@@ -28,13 +28,14 @@ class DeviceSettings extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146336
+             * line : 101748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceSettings extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:DeviceSettings',
             'desc' => [
+                'en' => 'Device Settings',
             ],
         ],
     ];

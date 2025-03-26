@@ -28,13 +28,14 @@ class IsocenterToBlockTrayDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Block Tray Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103290
+             * line : 76386
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToBlockTrayDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToBlockTrayDistance',
             'desc' => [
+                'en' => 'Isocenter To Block Tray Distance',
             ],
         ],
     ];

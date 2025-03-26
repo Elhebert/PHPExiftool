@@ -28,13 +28,14 @@ class ManualFocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258589
+             * line : 178595
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualFocusDistance extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ManualFocusDistance',
             'desc' => [
+                'en' => 'Manual Focus Distance',
             ],
         ],
     ];

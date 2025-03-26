@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV3
-             * line : 329728
+             * line : 232199
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Real::AudioV3.Real-RA3:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

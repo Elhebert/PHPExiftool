@@ -28,13 +28,14 @@ class CaptureSoftware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Capture Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397083
+             * line : 281195
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptureSoftware extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:CaptureSoftware',
             'desc' => [
+                'en' => 'Capture Software',
             ],
         ],
     ];

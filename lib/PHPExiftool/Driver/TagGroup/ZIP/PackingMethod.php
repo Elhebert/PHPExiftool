@@ -28,13 +28,14 @@ class PackingMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Packing Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::RAR
-             * line : 414998
+             * line : 292788
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackingMethod extends AbstractTagGroup
              */
             'id' => 'ZIP::RAR.ZIP:PackingMethod',
             'desc' => [
+                'en' => 'Packing Method',
             ],
         ],
     ];

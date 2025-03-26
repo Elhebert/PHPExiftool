@@ -28,13 +28,14 @@ class SigmaScalingFactorLowRes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sigma Scaling Factor Low Res',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156362
+             * line : 107566
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SigmaScalingFactorLowRes extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SigmaScalingFactorLowRes',
             'desc' => [
+                'en' => 'Sigma Scaling Factor Low Res',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubjectDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175461
+             * line : 120792
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectDistance extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SubjectDistance',
             'desc' => [
+                'en' => 'Subject Distance',
             ],
         ],
     ];

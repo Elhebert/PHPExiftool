@@ -28,13 +28,14 @@ class OverClockRowsBottom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Over Clock Rows Bottom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156026
+             * line : 107237
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverClockRowsBottom extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OverClockRowsBottom',
             'desc' => [
+                'en' => 'Over Clock Rows Bottom',
             ],
         ],
     ];

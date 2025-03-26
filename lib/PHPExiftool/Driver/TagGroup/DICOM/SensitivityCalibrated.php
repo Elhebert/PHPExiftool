@@ -28,13 +28,14 @@ class SensitivityCalibrated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensitivity Calibrated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97363
+             * line : 70759
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensitivityCalibrated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SensitivityCalibrated',
             'desc' => [
+                'en' => 'Sensitivity Calibrated',
             ],
         ],
     ];

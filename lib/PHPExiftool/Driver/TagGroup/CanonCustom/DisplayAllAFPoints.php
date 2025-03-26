@@ -28,13 +28,14 @@ class DisplayAllAFPoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Display All AF Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74290
+             * line : 54820
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DisplayAllAFPoints extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:DisplayAllAFPoints',
             'desc' => [
+                'en' => 'Display All AF Points',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CTExposureSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Exposure Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97001
+             * line : 70402
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTExposureSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTExposureSequence',
             'desc' => [
+                'en' => 'CT Exposure Sequence',
             ],
         ],
     ];

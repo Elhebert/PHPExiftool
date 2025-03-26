@@ -28,13 +28,14 @@ class FlashFired extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Fired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177556
+             * line : 121968
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashFired extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FlashFired',
             'desc' => [
+                'en' => 'Flash Fired',
             ],
         ],
     ];

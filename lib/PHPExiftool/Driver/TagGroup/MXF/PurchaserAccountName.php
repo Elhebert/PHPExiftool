@@ -28,13 +28,14 @@ class PurchaserAccountName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purchaser Account Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170640
+             * line : 116877
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PurchaserAccountName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PurchaserAccountName',
             'desc' => [
+                'en' => 'Purchaser Account Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170644
+             * line : 116880
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PurchaserAccountName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PurchaserAccountName',
             'desc' => [
+                'en' => 'Purchaser Account Name',
             ],
         ],
     ];

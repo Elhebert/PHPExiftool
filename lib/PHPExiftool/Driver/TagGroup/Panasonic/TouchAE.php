@@ -28,13 +28,14 @@ class TouchAE extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Touch AE',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277864
+             * line : 193278
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TouchAE extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TouchAE',
             'desc' => [
+                'en' => 'Touch AE',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CenterACoordOfPlaneImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center A Coord Of Plane Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98540
+             * line : 71872
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CenterACoordOfPlaneImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CenterACoordOfPlaneImage',
             'desc' => [
+                'en' => 'Center A Coord Of Plane Image',
             ],
         ],
     ];

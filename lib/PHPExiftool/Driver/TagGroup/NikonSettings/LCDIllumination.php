@@ -28,13 +28,14 @@ class LCDIllumination extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244205
+             * line : 167108
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDIllumination extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LCDIllumination',
             'desc' => [
+                'en' => 'LCD Illumination',
             ],
         ],
     ];

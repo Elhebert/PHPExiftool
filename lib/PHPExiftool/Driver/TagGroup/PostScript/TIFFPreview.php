@@ -28,13 +28,14 @@ class TIFFPreview extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TIFF Preview',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306080
+             * line : 212616
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TIFFPreview extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:TIFFPreview',
             'desc' => [
+                'en' => 'TIFF Preview',
             ],
         ],
     ];

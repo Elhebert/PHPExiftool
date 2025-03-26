@@ -28,13 +28,14 @@ class ManifestReferenceMaskMarkers extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Mask Markers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414142
+             * line : 292164
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceMaskMarkers extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceMaskMarkers',
             'desc' => [
+                'en' => 'Manifest Reference Mask Markers',
             ],
         ],
     ];

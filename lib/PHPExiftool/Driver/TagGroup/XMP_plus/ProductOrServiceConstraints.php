@@ -28,13 +28,14 @@ class ProductOrServiceConstraints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product Or Service Constraints',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272309
+             * line : 190244
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductOrServiceConstraints extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:ProductOrServiceConstraints',
             'desc' => [
+                'en' => 'Product Or Service Constraints',
             ],
         ],
     ];

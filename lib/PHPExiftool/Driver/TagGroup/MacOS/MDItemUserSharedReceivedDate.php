@@ -28,13 +28,14 @@ class MDItemUserSharedReceivedDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item User Shared Received Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173028
+             * line : 119065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemUserSharedReceivedDate extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemUserSharedReceivedDate',
             'desc' => [
+                'en' => 'MD Item User Shared Received Date',
             ],
         ],
     ];

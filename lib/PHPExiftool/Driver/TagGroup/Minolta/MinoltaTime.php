@@ -28,13 +28,14 @@ class MinoltaTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minolta Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177590
+             * line : 121982
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinoltaTime extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MinoltaTime',
             'desc' => [
+                'en' => 'Minolta Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DRMIndividualizedVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM Individualized Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174572
+             * line : 120203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRMIndividualizedVersion extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DRMIndividualizedVersion',
             'desc' => [
+                'en' => 'DRM Individualized Version',
             ],
         ],
     ];

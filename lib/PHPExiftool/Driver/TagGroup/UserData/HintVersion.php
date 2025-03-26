@@ -28,13 +28,14 @@ class HintVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hint Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325490
+             * line : 229718
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HintVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:HintVersion',
             'desc' => [
+                'en' => 'Hint Version',
             ],
         ],
     ];

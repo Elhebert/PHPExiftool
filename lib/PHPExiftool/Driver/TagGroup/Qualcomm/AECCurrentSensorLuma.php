@@ -28,13 +28,14 @@ class AECCurrentSensorLuma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Current Sensor Luma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306155
+             * line : 212660
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECCurrentSensorLuma extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECCurrentSensorLuma',
             'desc' => [
+                'en' => 'AEC Current Sensor Luma',
             ],
         ],
     ];

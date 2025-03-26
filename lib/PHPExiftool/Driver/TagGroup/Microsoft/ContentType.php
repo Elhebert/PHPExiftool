@@ -28,13 +28,14 @@ class ContentType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176350
+             * line : 121332
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentType extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ContentType',
             'desc' => [
+                'en' => 'Content Type',
             ],
         ],
     ];

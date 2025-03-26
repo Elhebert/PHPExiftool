@@ -28,13 +28,14 @@ class AISubjectTrackingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AI Subject Tracking Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250825
+             * line : 173028
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AISubjectTrackingMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:AISubjectTrackingMode',
             'desc' => [
+                'en' => 'AI Subject Tracking Mode',
             ],
         ],
     ];

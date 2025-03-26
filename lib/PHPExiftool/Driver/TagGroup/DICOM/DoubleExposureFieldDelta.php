@@ -28,13 +28,14 @@ class DoubleExposureFieldDelta extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Double Exposure Field Delta',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101769
+             * line : 74910
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoubleExposureFieldDelta extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoubleExposureFieldDelta',
             'desc' => [
+                'en' => 'Double Exposure Field Delta',
             ],
         ],
     ];

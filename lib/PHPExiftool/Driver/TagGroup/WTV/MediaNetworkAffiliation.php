@@ -28,13 +28,14 @@ class MediaNetworkAffiliation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Network Affiliation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396143
+             * line : 280439
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaNetworkAffiliation extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaNetworkAffiliation',
             'desc' => [
+                'en' => 'Media Network Affiliation',
             ],
         ],
     ];

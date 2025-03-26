@@ -28,13 +28,14 @@ class BlueBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blue Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258785
+             * line : 178677
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class BlueBalance extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:BlueBalance',
             'desc' => [
+                'en' => 'Blue Balance',
             ],
         ],
     ];

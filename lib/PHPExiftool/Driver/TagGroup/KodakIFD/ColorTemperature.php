@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155186
+             * line : 106436
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

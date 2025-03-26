@@ -28,13 +28,14 @@ class AddPower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Add Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100741
+             * line : 73902
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AddPower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AddPower',
             'desc' => [
+                'en' => 'Add Power',
             ],
         ],
     ];

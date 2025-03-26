@@ -28,13 +28,14 @@ class EnergyWindowCenterline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Window Centerline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95458
+             * line : 68917
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyWindowCenterline extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EnergyWindowCenterline',
             'desc' => [
+                'en' => 'Energy Window Centerline',
             ],
         ],
     ];

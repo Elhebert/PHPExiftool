@@ -28,13 +28,14 @@ class Month extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Month',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107439
+             * line : 79306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Month extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Month',
             'desc' => [
+                'en' => 'Month',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FramePrimaryAngleVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Primary Angle Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96138
+             * line : 69556
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramePrimaryAngleVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FramePrimaryAngleVector',
             'desc' => [
+                'en' => 'Frame Primary Angle Vector',
             ],
         ],
     ];

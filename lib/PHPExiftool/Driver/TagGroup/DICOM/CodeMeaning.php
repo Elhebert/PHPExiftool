@@ -28,13 +28,14 @@ class CodeMeaning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Meaning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94810
+             * line : 68296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodeMeaning extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodeMeaning',
             'desc' => [
+                'en' => 'Code Meaning',
             ],
         ],
     ];

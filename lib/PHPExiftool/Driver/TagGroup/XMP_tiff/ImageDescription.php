@@ -28,13 +28,14 @@ class ImageDescription extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411767
+             * line : 290694
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageDescription extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:ImageDescription',
             'desc' => [
+                'en' => 'Image Description',
             ],
         ],
     ];

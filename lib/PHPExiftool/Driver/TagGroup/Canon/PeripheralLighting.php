@@ -28,13 +28,14 @@ class PeripheralLighting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Peripheral Lighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::VignettingCorr
-             * line : 71106
+             * line : 53052
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PeripheralLighting extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorr.Canon:PeripheralLighting',
             'desc' => [
+                'en' => 'Peripheral Lighting',
             ],
         ],
     ];

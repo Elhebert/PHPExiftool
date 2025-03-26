@@ -28,13 +28,14 @@ class LayerBlendModes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Blend Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305206
+             * line : 212077
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerBlendModes extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerBlendModes',
             'desc' => [
+                'en' => 'Layer Blend Modes',
             ],
         ],
     ];

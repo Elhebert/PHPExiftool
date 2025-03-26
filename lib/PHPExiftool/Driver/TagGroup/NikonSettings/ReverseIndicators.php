@@ -28,13 +28,14 @@ class ReverseIndicators extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reverse Indicators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244753
+             * line : 167555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
     ];

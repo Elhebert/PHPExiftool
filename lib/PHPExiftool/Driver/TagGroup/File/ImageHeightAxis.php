@@ -28,13 +28,14 @@ class ImageHeightAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166920
+             * line : 113609
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeightAxis extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageHeightAxis',
             'desc' => [
+                'en' => 'Image Height Axis',
             ],
         ],
     ];

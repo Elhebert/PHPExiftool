@@ -28,13 +28,14 @@ class CropY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::CropInfo
-             * line : 80188
+             * line : 58516
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropY extends AbstractTagGroup
              */
             'id' => 'CanonVRD::CropInfo.CanonVRD:CropY',
             'desc' => [
+                'en' => 'Crop Y',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContextIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Context Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94831
+             * line : 68317
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContextIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContextIdentifier',
             'desc' => [
+                'en' => 'Context Identifier',
             ],
         ],
     ];

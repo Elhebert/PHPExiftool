@@ -28,13 +28,14 @@ class NinthLanguage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ninth Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328116
+             * line : 231496
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NinthLanguage extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:NinthLanguage',
             'desc' => [
+                'en' => 'Ninth Language',
             ],
         ],
     ];

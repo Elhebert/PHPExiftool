@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279818
+             * line : 194321
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

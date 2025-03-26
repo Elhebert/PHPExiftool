@@ -28,13 +28,14 @@ class EpsonImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Epson Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257919
+             * line : 178331
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EpsonImageWidth extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:EpsonImageWidth',
             'desc' => [
+                'en' => 'Epson Image Width',
             ],
         ],
     ];

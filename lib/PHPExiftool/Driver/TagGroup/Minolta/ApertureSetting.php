@@ -28,13 +28,14 @@ class ApertureSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180272
+             * line : 122954
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ApertureSetting',
             'desc' => [
+                'en' => 'Aperture Setting',
             ],
         ],
     ];

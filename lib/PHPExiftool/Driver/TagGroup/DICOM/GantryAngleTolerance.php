@@ -28,13 +28,14 @@ class GantryAngleTolerance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry Angle Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103035
+             * line : 76131
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryAngleTolerance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryAngleTolerance',
             'desc' => [
+                'en' => 'Gantry Angle Tolerance',
             ],
         ],
     ];

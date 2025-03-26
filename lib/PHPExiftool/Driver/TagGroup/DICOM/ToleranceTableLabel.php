@@ -28,13 +28,14 @@ class ToleranceTableLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tolerance Table Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103032
+             * line : 76128
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToleranceTableLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ToleranceTableLabel',
             'desc' => [
+                'en' => 'Tolerance Table Label',
             ],
         ],
     ];

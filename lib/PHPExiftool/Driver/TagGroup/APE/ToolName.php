@@ -28,13 +28,14 @@ class ToolName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tool Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::Main
-             * line : 312
+             * line : 140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToolName extends AbstractTagGroup
              */
             'id' => 'APE::Main.APE:ToolName',
             'desc' => [
+                'en' => 'Tool Name',
             ],
         ],
     ];

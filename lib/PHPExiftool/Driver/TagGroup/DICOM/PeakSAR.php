@@ -28,13 +28,14 @@ class PeakSAR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak SAR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97575
+             * line : 70960
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakSAR extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PeakSAR',
             'desc' => [
+                'en' => 'Peak SAR',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PositionWithinViewportImageXCoordinate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position Within Viewport Image X Coordinate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168326
+             * line : 114821
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionWithinViewportImageXCoordinate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PositionWithinViewportImageXCoordinate',
             'desc' => [
+                'en' => 'Position Within Viewport Image X Coordinate',
             ],
         ],
     ];

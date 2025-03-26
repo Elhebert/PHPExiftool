@@ -28,13 +28,14 @@ class CryptographicContextLink extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cryptographic Context Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172121
+             * line : 118288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CryptographicContextLink extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CryptographicContextLink',
             'desc' => [
+                'en' => 'Cryptographic Context Link',
             ],
         ],
     ];

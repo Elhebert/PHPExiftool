@@ -28,13 +28,14 @@ class FileIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::ShotInfo
-             * line : 278921
+             * line : 193872
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Panasonic::ShotInfo.Leica:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
     ];

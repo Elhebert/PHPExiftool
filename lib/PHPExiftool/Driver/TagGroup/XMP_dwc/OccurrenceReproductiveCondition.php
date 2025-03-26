@@ -28,13 +28,14 @@ class OccurrenceReproductiveCondition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Reproductive Condition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106585
+             * line : 78836
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceReproductiveCondition extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceReproductiveCondition',
             'desc' => [
+                'en' => 'Occurrence Reproductive Condition',
             ],
         ],
     ];

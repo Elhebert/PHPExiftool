@@ -28,13 +28,14 @@ class HighlightAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80600
+             * line : 58760
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:HighlightAdj',
             'desc' => [
+                'en' => 'Highlight Adj',
             ],
         ],
     ];

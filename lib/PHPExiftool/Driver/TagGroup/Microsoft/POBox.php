@@ -28,13 +28,14 @@ class POBox extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PO Box',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176392
+             * line : 121365
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class POBox extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:POBox',
             'desc' => [
+                'en' => 'PO Box',
             ],
         ],
     ];

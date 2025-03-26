@@ -28,13 +28,14 @@ class MaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58473
+             * line : 45519
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
     ];

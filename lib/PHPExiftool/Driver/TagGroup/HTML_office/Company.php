@@ -28,13 +28,14 @@ class Company extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Company',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142557
+             * line : 98542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Company extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Company',
             'desc' => [
+                'en' => 'Company',
             ],
         ],
     ];

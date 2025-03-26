@@ -28,13 +28,14 @@ class EncodingTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Encoding Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175033
+             * line : 120515
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EncodingTime extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:EncodingTime',
             'desc' => [
+                'en' => 'Encoding Time',
             ],
         ],
     ];

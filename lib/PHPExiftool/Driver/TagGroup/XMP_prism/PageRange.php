@@ -28,13 +28,14 @@ class PageRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Page Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411045
+             * line : 290266
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PageRange extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:PageRange',
             'desc' => [
+                'en' => 'Page Range',
             ],
         ],
     ];

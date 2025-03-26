@@ -28,13 +28,14 @@ class ColumnCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Column Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394725
+             * line : 279638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColumnCount extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:ColumnCount',
             'desc' => [
+                'en' => 'Column Count',
             ],
         ],
     ];

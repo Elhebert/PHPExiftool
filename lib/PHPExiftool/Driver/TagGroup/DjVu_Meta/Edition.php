@@ -28,13 +28,14 @@ class Edition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107414
+             * line : 79288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Edition extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Edition',
             'desc' => [
+                'en' => 'Edition',
             ],
         ],
     ];

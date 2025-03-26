@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110956
+             * line : 81532
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StdOutputColorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Output Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161991
+             * line : 110693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdOutputColorMode extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdOutputColorMode',
             'desc' => [
+                'en' => 'Std Output Color Mode',
             ],
         ],
     ];

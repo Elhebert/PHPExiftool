@@ -28,13 +28,14 @@ class ISOSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175449
+             * line : 120783
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISOSpeed extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ISOSpeed',
             'desc' => [
+                'en' => 'ISO Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageArrangement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Arrangement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394581
+             * line : 279527
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageArrangement extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ImageArrangement',
             'desc' => [
+                'en' => 'Image Arrangement',
             ],
         ],
     ];

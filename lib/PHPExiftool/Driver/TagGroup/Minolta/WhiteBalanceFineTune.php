@@ -28,13 +28,14 @@ class WhiteBalanceFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181448
+             * line : 123451
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::Main
-             * line : 184776
+             * line : 125557
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
     ];

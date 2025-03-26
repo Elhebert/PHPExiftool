@@ -28,13 +28,14 @@ class ZSmoothingFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Smoothing Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100570
+             * line : 73740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZSmoothingFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZSmoothingFactor',
             'desc' => [
+                'en' => 'Z Smoothing Factor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Scrn
-             * line : 158555
+             * line : 109005
              * type : undef
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Kodak::Scrn.Kodak:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::frea
-             * line : 160662
+             * line : 109788
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Kodak::frea.Kodak:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

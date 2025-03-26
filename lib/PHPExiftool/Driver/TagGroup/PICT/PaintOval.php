@@ -28,13 +28,14 @@ class PaintOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264840
+             * line : 183068
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintOval',
             'desc' => [
+                'en' => 'Paint Oval',
             ],
         ],
     ];

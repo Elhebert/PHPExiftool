@@ -28,13 +28,14 @@ class JPEG_HDRVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG-HDR Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152486
+             * line : 104947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEG_HDRVersion extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:JPEG-HDRVersion',
             'desc' => [
+                'en' => 'JPEG-HDR Version',
             ],
         ],
     ];

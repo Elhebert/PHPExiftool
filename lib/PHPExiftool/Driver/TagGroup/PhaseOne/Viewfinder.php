@@ -28,13 +28,14 @@ class Viewfinder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Viewfinder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303575
+             * line : 210894
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Viewfinder extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:Viewfinder',
             'desc' => [
+                'en' => 'Viewfinder',
             ],
         ],
     ];

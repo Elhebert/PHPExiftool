@@ -28,13 +28,14 @@ class TimeOfSecondaryCapture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Of Secondary Capture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95598
+             * line : 69052
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeOfSecondaryCapture extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeOfSecondaryCapture',
             'desc' => [
+                'en' => 'Time Of Secondary Capture',
             ],
         ],
     ];

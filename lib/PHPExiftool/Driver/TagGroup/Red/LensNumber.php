@@ -28,13 +28,14 @@ class LensNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331515
+             * line : 233055
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensNumber extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:LensNumber',
             'desc' => [
+                'en' => 'Lens Number',
             ],
         ],
     ];

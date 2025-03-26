@@ -28,13 +28,14 @@ class ContourImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contour Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102537
+             * line : 75636
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContourImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContourImageSequence',
             'desc' => [
+                'en' => 'Contour Image Sequence',
             ],
         ],
     ];

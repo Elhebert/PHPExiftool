@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208569
+             * line : 140497
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
     ];

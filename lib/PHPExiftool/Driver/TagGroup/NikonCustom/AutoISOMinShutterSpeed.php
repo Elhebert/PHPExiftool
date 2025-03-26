@@ -28,13 +28,14 @@ class AutoISOMinShutterSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto ISO Min Shutter Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216774
+             * line : 145695
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoISOMinShutterSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:AutoISOMinShutterSpeed',
             'desc' => [
+                'en' => 'Auto ISO Min Shutter Speed',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228012
+             * line : 153510
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoISOMinShutterSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AutoISOMinShutterSpeed',
             'desc' => [
+                'en' => 'Auto ISO Min Shutter Speed',
             ],
         ],
     ];

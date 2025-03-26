@@ -28,13 +28,14 @@ class Period extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175173
+             * line : 120630
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Period extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Period',
             'desc' => [
+                'en' => 'Period',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175961
+             * line : 121077
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Period extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Period',
             'desc' => [
+                'en' => 'Period',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChromaticAberrationOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80900
+             * line : 59001
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ChromaticAberrationOn extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ChromaticAberrationOn',
             'desc' => [
+                'en' => 'Chromatic Aberration On',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83445
+             * line : 61152
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ChromaticAberrationOn extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:ChromaticAberrationOn',
             'desc' => [
+                'en' => 'Chromatic Aberration On',
             ],
         ],
     ];

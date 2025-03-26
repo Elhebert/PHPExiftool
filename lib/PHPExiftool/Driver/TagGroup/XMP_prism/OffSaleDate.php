@@ -28,13 +28,14 @@ class OffSaleDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Off Sale Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410969
+             * line : 290196
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OffSaleDate extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:OffSaleDate',
             'desc' => [
+                'en' => 'Off Sale Date',
             ],
         ],
     ];

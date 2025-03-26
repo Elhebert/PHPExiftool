@@ -28,13 +28,14 @@ class WrapModes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wrap Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263712
+             * line : 182413
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WrapModes extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:WrapModes',
             'desc' => [
+                'en' => 'Wrap Modes',
             ],
         ],
     ];

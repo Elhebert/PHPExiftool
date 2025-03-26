@@ -28,13 +28,14 @@ class MaxFocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361952
+             * line : 252008
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
     ];

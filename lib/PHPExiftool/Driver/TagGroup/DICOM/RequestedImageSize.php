@@ -28,13 +28,14 @@ class RequestedImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102136
+             * line : 75267
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedImageSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedImageSize',
             'desc' => [
+                'en' => 'Requested Image Size',
             ],
         ],
     ];

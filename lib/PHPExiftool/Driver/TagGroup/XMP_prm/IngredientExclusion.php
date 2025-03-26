@@ -28,13 +28,14 @@ class IngredientExclusion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredient Exclusion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411231
+             * line : 290421
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientExclusion extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:IngredientExclusion',
             'desc' => [
+                'en' => 'Ingredient Exclusion',
             ],
         ],
     ];

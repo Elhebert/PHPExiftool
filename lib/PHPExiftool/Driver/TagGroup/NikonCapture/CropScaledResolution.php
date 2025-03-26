@@ -28,13 +28,14 @@ class CropScaledResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Scaled Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::CropData
-             * line : 210230
+             * line : 141561
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropScaledResolution extends AbstractTagGroup
              */
             'id' => 'NikonCapture::CropData.NikonCapture:CropScaledResolution',
             'desc' => [
+                'en' => 'Crop Scaled Resolution',
             ],
         ],
     ];

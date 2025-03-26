@@ -28,13 +28,14 @@ class HueAdjustmentMagenta extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Adjustment Magenta',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399465
+             * line : 282972
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HueAdjustmentMagenta extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:HueAdjustmentMagenta',
             'desc' => [
+                'en' => 'Hue Adjustment Magenta',
             ],
         ],
     ];

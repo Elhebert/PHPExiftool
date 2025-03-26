@@ -28,13 +28,14 @@ class ModelType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::MOV1
-             * line : 182578
+             * line : 124249
              * type : string
              * writable : false
              * count : 8
@@ -42,12 +43,13 @@ class ModelType extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV1.Minolta:ModelType',
             'desc' => [
+                'en' => 'Model Type',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::MOV2
-             * line : 182675
+             * line : 124271
              * type : string
              * writable : false
              * count : 8
@@ -55,6 +57,7 @@ class ModelType extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV2.Minolta:ModelType',
             'desc' => [
+                'en' => 'Model Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SceneDetectData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Detect Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254741
+             * line : 175884
              * type : int32u
              * writable : true
              * count : 720
@@ -42,12 +43,13 @@ class SceneDetectData extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:SceneDetectData',
             'desc' => [
+                'en' => 'Scene Detect Data',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259064
+             * line : 178774
              * type : int32u
              * writable : true
              * count : 720
@@ -55,6 +57,7 @@ class SceneDetectData extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SceneDetectData',
             'desc' => [
+                'en' => 'Scene Detect Data',
             ],
         ],
     ];

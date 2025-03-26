@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323807
+             * line : 228846
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323865
+             * line : 228864
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::Pittasoft
-             * line : 324211
+             * line : 229082
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Pittasoft.QuickTime:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         3 => [
             /**
              * table_name : QuickTime::PreviewInfo
-             * line : 324245
+             * line : 229105
              * type : undef
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::PreviewInfo.QuickTime:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

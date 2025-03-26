@@ -28,13 +28,14 @@ class AbstractFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Abstract File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152063
+             * line : 104727
              * type : string
              * writable : false
              * count : 36
@@ -42,6 +43,7 @@ class AbstractFileName extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:AbstractFileName',
             'desc' => [
+                'en' => 'Abstract File Name',
             ],
         ],
     ];

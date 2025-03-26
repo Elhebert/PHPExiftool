@@ -28,13 +28,14 @@ class XMP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'XMP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Main
-             * line : 82087
+             * line : 60156
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XMP extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Main.CanonVRD:XMP',
             'desc' => [
+                'en' => 'XMP',
             ],
         ],
     ];

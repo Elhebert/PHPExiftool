@@ -28,13 +28,14 @@ class Categories extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Categories',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65785
+             * line : 50006
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class Categories extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:Categories',
             'desc' => [
+                'en' => 'Categories',
             ],
         ],
     ];

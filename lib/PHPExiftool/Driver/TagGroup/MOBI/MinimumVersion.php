@@ -28,13 +28,14 @@ class MinimumVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minimum Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273814
+             * line : 190950
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinimumVersion extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:MinimumVersion',
             'desc' => [
+                'en' => 'Minimum Version',
             ],
         ],
     ];

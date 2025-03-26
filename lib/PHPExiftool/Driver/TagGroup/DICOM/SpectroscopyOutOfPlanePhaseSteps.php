@@ -28,13 +28,14 @@ class SpectroscopyOutOfPlanePhaseSteps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectroscopy Out Of Plane Phase Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96811
+             * line : 70213
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectroscopyOutOfPlanePhaseSteps extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectroscopyOutOfPlanePhaseSteps',
             'desc' => [
+                'en' => 'Spectroscopy Out Of Plane Phase Steps',
             ],
         ],
     ];

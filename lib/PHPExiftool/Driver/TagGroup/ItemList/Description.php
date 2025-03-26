@@ -28,13 +28,14 @@ class Description extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314208
+             * line : 219795
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Description extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Description',
             'desc' => [
+                'en' => 'Description',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314223
+             * line : 219801
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Description extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Description',
             'desc' => [
+                'en' => 'Description',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323051
+             * line : 228447
              * type : string
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Description extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Description',
             'desc' => [
+                'en' => 'Description',
             ],
         ],
     ];

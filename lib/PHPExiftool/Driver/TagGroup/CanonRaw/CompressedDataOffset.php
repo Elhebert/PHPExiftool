@@ -28,13 +28,14 @@ class CompressedDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressed Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::DecoderTable
-             * line : 78447
+             * line : 57148
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressedDataOffset extends AbstractTagGroup
              */
             'id' => 'CanonRaw::DecoderTable.CanonRaw:CompressedDataOffset',
             'desc' => [
+                'en' => 'Compressed Data Offset',
             ],
         ],
     ];

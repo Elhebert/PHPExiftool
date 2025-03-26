@@ -28,13 +28,14 @@ class SynchronizationChannel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Synchronization Channel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95703
+             * line : 69151
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SynchronizationChannel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SynchronizationChannel',
             'desc' => [
+                'en' => 'Synchronization Channel',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedTransferSyntaxUIDInFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Transfer Syntax UID In File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94637
+             * line : 68137
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedTransferSyntaxUIDInFile extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedTransferSyntaxUIDInFile',
             'desc' => [
+                'en' => 'Referenced Transfer Syntax UID In File',
             ],
         ],
     ];

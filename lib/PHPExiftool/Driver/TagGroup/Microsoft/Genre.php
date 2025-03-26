@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175038
+             * line : 120518
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175721
+             * line : 120942
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

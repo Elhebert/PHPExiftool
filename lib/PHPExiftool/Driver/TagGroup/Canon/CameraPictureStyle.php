@@ -28,13 +28,14 @@ class CameraPictureStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Picture Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 52001
+             * line : 40203
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraPictureStyle extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:CameraPictureStyle',
             'desc' => [
+                'en' => 'Camera Picture Style',
             ],
         ],
     ];

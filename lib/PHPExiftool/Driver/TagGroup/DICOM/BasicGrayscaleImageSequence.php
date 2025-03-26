@@ -28,13 +28,14 @@ class BasicGrayscaleImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Basic Grayscale Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102151
+             * line : 75282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BasicGrayscaleImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BasicGrayscaleImageSequence',
             'desc' => [
+                'en' => 'Basic Grayscale Image Sequence',
             ],
         ],
     ];

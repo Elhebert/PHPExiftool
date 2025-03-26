@@ -28,13 +28,14 @@ class ColorFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187525
+             * line : 127149
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorFilter extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
             'desc' => [
+                'en' => 'Color Filter',
             ],
         ],
         1 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187733
+             * line : 127192
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorFilter extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
             'desc' => [
+                'en' => 'Color Filter',
             ],
         ],
         2 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187773
+             * line : 127198
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorFilter extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
             'desc' => [
+                'en' => 'Color Filter',
             ],
         ],
     ];

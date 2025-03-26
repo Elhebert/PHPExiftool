@@ -28,13 +28,14 @@ class EncryptionKey extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Encryption Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335540
+             * line : 235451
              * type : int32u
              * writable : true
              * count : 11
@@ -42,6 +43,7 @@ class EncryptionKey extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:EncryptionKey',
             'desc' => [
+                'en' => 'Encryption Key',
             ],
         ],
     ];

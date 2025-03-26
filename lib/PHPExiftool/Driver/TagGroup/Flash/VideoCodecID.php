@@ -28,13 +28,14 @@ class VideoCodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124193
+             * line : 86792
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoCodecID extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:VideoCodecID',
             'desc' => [
+                'en' => 'Video Codec ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetouchAreaMaskRangeLumFeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Range Lum Feather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404021
+             * line : 287132
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskRangeLumFeather extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaMaskRangeLumFeather',
             'desc' => [
+                'en' => 'Retouch Area Mask Range Lum Feather',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CropUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398852
+             * line : 282392
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropUnit extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CropUnit',
             'desc' => [
+                'en' => 'Crop Unit',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LUTDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LUT Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99102
+             * line : 72321
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LUTDescriptor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LUTDescriptor',
             'desc' => [
+                'en' => 'LUT Descriptor',
             ],
         ],
     ];

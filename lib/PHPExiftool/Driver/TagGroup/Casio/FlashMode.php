@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84272
+             * line : 61651
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Main
-             * line : 84332
+             * line : 61671
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

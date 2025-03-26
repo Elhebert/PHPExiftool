@@ -28,13 +28,14 @@ class AWBOudorVfeC3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Oudor Vfe C3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307149
+             * line : 213647
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBOudorVfeC3 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBOudorVfeC3',
             'desc' => [
+                'en' => 'AWB Oudor Vfe C3',
             ],
         ],
     ];

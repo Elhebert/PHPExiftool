@@ -28,13 +28,14 @@ class ModificationNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modification Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::Main
-             * line : 273866
+             * line : 190969
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModificationNumber extends AbstractTagGroup
              */
             'id' => 'Palm::Main.Palm:ModificationNumber',
             'desc' => [
+                'en' => 'Modification Number',
             ],
         ],
     ];

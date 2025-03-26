@@ -28,13 +28,14 @@ class PF24LightLCDDuringBulb extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF24 Light LCD During Bulb',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78416
+             * line : 57117
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF24LightLCDDuringBulb extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF24LightLCDDuringBulb',
             'desc' => [
+                'en' => 'PF24 Light LCD During Bulb',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpecialInstructions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Special Instructions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150002
+             * line : 103872
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class SpecialInstructions extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:SpecialInstructions',
             'desc' => [
+                'en' => 'Special Instructions',
             ],
         ],
     ];

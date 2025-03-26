@@ -28,13 +28,14 @@ class OriginalFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397318
+             * line : 281365
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalFileName extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:OriginalFileName',
             'desc' => [
+                'en' => 'Original File Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReleaseMode3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Mode 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362051
+             * line : 252094
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363049
+             * line : 252756
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364072
+             * line : 253427
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365073
+             * line : 254092
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366057
+             * line : 254743
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369064
+             * line : 257373
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370094
+             * line : 258038
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373095
+             * line : 260662
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376096
+             * line : 263286
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class ReleaseMode3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:ReleaseMode3',
             'desc' => [
+                'en' => 'Release Mode 3',
             ],
         ],
     ];

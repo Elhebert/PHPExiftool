@@ -28,13 +28,14 @@ class SampledHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sampled Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167855
+             * line : 114410
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampledHeight extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SampledHeight',
             'desc' => [
+                'en' => 'Sampled Height',
             ],
         ],
     ];

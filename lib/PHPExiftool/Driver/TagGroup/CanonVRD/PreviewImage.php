@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::IHL
-             * line : 82064
+             * line : 60143
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'CanonVRD::IHL.CanonVRD:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

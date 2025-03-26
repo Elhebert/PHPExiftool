@@ -28,13 +28,14 @@ class LookParametersClarity2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Parameters Clarity 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399568
+             * line : 283074
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookParametersClarity2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LookParametersClarity2012',
             'desc' => [
+                'en' => 'Look Parameters Clarity 2012',
             ],
         ],
     ];

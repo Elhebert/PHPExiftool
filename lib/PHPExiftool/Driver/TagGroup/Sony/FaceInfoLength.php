@@ -28,13 +28,14 @@ class FaceInfoLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Info Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362041
+             * line : 252084
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceInfoLength extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:FaceInfoLength',
             'desc' => [
+                'en' => 'Face Info Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SynchronizedScrollingSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Synchronized Scrolling Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101595
+             * line : 74739
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SynchronizedScrollingSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SynchronizedScrollingSequence',
             'desc' => [
+                'en' => 'Synchronized Scrolling Sequence',
             ],
         ],
     ];

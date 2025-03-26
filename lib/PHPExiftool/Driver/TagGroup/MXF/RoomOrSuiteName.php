@@ -28,13 +28,14 @@ class RoomOrSuiteName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Room Or Suite Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171606
+             * line : 117802
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RoomOrSuiteName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoomOrSuiteName',
             'desc' => [
+                'en' => 'Room Or Suite Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171610
+             * line : 117805
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RoomOrSuiteName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoomOrSuiteName',
             'desc' => [
+                'en' => 'Room Or Suite Name',
             ],
         ],
     ];

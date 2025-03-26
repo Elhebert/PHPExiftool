@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276908
+             * line : 192730
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KernelDenominators extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kernel Denominators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155415
+             * line : 106628
              * type : int16u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class KernelDenominators extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KernelDenominators',
             'desc' => [
+                'en' => 'Kernel Denominators',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PictureFinish extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Finish',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 179115
+             * line : 122536
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureFinish extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:PictureFinish',
             'desc' => [
+                'en' => 'Picture Finish',
             ],
         ],
     ];

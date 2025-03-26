@@ -28,13 +28,14 @@ class DNGBackwardVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DNG Backward Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118824
+             * line : 84079
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DNGBackwardVersion extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DNGBackwardVersion',
             'desc' => [
+                'en' => 'DNG Backward Version',
             ],
         ],
     ];

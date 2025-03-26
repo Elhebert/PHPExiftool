@@ -28,13 +28,14 @@ class ChromaticAdaptation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chromatic Adaptation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146227
+             * line : 101670
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromaticAdaptation extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ChromaticAdaptation',
             'desc' => [
+                'en' => 'Chromatic Adaptation',
             ],
         ],
     ];

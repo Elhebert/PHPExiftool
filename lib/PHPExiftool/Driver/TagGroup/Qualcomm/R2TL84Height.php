@@ -28,13 +28,14 @@ class R2TL84Height extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 TL84 Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 309776
+             * line : 215756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2TL84Height extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2TL84Height',
             'desc' => [
+                'en' => 'R2 TL84 Height',
             ],
         ],
     ];

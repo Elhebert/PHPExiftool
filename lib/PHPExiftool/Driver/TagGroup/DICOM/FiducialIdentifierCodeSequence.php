@@ -28,13 +28,14 @@ class FiducialIdentifierCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fiducial Identifier Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101381
+             * line : 74529
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FiducialIdentifierCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FiducialIdentifierCodeSequence',
             'desc' => [
+                'en' => 'Fiducial Identifier Code Sequence',
             ],
         ],
     ];

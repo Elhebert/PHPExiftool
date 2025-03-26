@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174462
+             * line : 120149
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Author extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176579
+             * line : 121488
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

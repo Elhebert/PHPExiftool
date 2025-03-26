@@ -28,13 +28,14 @@ class ImageGeometryType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Geometry Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97942
+             * line : 71293
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageGeometryType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageGeometryType',
             'desc' => [
+                'en' => 'Image Geometry Type',
             ],
         ],
     ];

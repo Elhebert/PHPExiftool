@@ -28,13 +28,14 @@ class KeyCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167382
+             * line : 114003
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyCode',
             'desc' => [
+                'en' => 'Key Code',
             ],
         ],
     ];

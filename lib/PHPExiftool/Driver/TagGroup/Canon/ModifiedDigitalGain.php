@@ -28,13 +28,14 @@ class ModifiedDigitalGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Digital Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66835
+             * line : 50770
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedDigitalGain extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedDigitalGain',
             'desc' => [
+                'en' => 'Modified Digital Gain',
             ],
         ],
     ];

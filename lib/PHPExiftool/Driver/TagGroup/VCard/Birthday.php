@@ -28,13 +28,14 @@ class Birthday extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Birthday',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395114
+             * line : 279863
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Birthday extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Birthday',
             'desc' => [
+                'en' => 'Birthday',
             ],
         ],
     ];

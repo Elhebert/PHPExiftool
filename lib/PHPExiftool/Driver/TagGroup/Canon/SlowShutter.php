@@ -28,13 +28,14 @@ class SlowShutter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Slow Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70475
+             * line : 52728
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SlowShutter extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:SlowShutter',
             'desc' => [
+                'en' => 'Slow Shutter',
             ],
         ],
     ];

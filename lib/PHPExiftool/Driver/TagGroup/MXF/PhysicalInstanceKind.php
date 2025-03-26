@@ -28,13 +28,14 @@ class PhysicalInstanceKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Instance Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168121
+             * line : 114620
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalInstanceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PhysicalInstanceKind',
             'desc' => [
+                'en' => 'Physical Instance Kind',
             ],
         ],
     ];

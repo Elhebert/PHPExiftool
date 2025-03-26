@@ -28,13 +28,14 @@ class DefaultStyle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142869
+             * line : 98664
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultStyle extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:DefaultStyle',
             'desc' => [
+                'en' => 'Default Style',
             ],
         ],
     ];

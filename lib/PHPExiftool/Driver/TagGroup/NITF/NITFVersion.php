@@ -28,13 +28,14 @@ class NITFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NITF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152767
+             * line : 105106
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class NITFVersion extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:NITFVersion',
             'desc' => [
+                'en' => 'NITF Version',
             ],
         ],
     ];

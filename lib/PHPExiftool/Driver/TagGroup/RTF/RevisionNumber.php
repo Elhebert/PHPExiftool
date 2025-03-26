@@ -28,13 +28,14 @@ class RevisionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329352
+             * line : 232077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
     ];

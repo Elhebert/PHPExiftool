@@ -28,13 +28,14 @@ class GlobalNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Global Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169755
+             * line : 116109
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GlobalNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GlobalNumber',
             'desc' => [
+                'en' => 'Global Number',
             ],
         ],
     ];

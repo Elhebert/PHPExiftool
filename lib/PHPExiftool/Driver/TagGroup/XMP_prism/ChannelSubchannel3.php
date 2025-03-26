@@ -28,13 +28,14 @@ class ChannelSubchannel3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Channel Subchannel 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410779
+             * line : 290059
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChannelSubchannel3 extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ChannelSubchannel3',
             'desc' => [
+                'en' => 'Channel Subchannel 3',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AbstractPriorValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Abstract Prior Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101477
+             * line : 74625
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AbstractPriorValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AbstractPriorValue',
             'desc' => [
+                'en' => 'Abstract Prior Value',
             ],
         ],
     ];

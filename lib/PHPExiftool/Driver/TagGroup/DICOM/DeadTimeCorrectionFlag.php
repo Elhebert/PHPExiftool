@@ -28,13 +28,14 @@ class DeadTimeCorrectionFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dead Time Correction Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101040
+             * line : 74190
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeadTimeCorrectionFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeadTimeCorrectionFlag',
             'desc' => [
+                'en' => 'Dead Time Correction Flag',
             ],
         ],
     ];

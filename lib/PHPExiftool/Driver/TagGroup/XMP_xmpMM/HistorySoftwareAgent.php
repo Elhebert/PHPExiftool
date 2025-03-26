@@ -28,13 +28,14 @@ class HistorySoftwareAgent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'History Software Agent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413896
+             * line : 291923
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HistorySoftwareAgent extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:HistorySoftwareAgent',
             'desc' => [
+                'en' => 'History Software Agent',
             ],
         ],
     ];

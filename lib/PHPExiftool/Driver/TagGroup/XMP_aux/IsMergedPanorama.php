@@ -28,13 +28,14 @@ class IsMergedPanorama extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Is Merged Panorama',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397961
+             * line : 281675
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IsMergedPanorama extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:IsMergedPanorama',
             'desc' => [
+                'en' => 'Is Merged Panorama',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Skip extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Skip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323820
+             * line : 228849
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Skip extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:Skip',
             'desc' => [
+                'en' => 'Skip',
             ],
         ],
     ];

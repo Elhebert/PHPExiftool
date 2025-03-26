@@ -28,13 +28,14 @@ class ParentalRating extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parental Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175166
+             * line : 120624
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ParentalRating extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ParentalRating',
             'desc' => [
+                'en' => 'Parental Rating',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175942
+             * line : 121065
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ParentalRating extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ParentalRating',
             'desc' => [
+                'en' => 'Parental Rating',
             ],
         ],
     ];

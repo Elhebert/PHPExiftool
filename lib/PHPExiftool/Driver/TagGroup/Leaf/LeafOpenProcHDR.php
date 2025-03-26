@@ -28,13 +28,14 @@ class LeafOpenProcHDR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leaf Open Proc HDR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161964
+             * line : 110666
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeafOpenProcHDR extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:LeafOpenProcHDR',
             'desc' => [
+                'en' => 'Leaf Open Proc HDR',
             ],
         ],
     ];

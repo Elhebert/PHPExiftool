@@ -28,13 +28,14 @@ class ColorpopStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorpop Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334169
+             * line : 234249
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorpopStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:ColorpopStrength',
             'desc' => [
+                'en' => 'Colorpop Strength',
             ],
         ],
     ];

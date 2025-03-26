@@ -28,13 +28,14 @@ class LookHeadVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Look Head Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::LookHeader
-             * line : 161869
+             * line : 110591
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LookHeadVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::LookHeader.Leaf:LookHeadVersion',
             'desc' => [
+                'en' => 'Look Head Version',
             ],
         ],
     ];

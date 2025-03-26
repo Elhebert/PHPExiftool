@@ -28,13 +28,14 @@ class Preroll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preroll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Properties
-             * line : 330531
+             * line : 232577
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Preroll extends AbstractTagGroup
              */
             'id' => 'Real::Properties.Real-PROP:Preroll',
             'desc' => [
+                'en' => 'Preroll',
             ],
         ],
     ];

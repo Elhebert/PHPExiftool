@@ -28,13 +28,14 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length In 35mm Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117304
+             * line : 83563
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FocalLengthIn35mmFormat',
             'desc' => [
+                'en' => 'Focal Length In 35mm Format',
             ],
         ],
     ];

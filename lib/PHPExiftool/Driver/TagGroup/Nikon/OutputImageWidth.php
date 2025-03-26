@@ -28,13 +28,14 @@ class OutputImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Output Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::CaptureOutput
-             * line : 191910
+             * line : 130078
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutputImageWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::CaptureOutput.Nikon:OutputImageWidth',
             'desc' => [
+                'en' => 'Output Image Width',
             ],
         ],
     ];

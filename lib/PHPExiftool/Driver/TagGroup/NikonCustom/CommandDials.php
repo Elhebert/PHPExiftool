@@ -28,13 +28,14 @@ class CommandDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Command Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228320
+             * line : 153705
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CommandDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:CommandDials',
             'desc' => [
+                'en' => 'Command Dials',
             ],
         ],
     ];

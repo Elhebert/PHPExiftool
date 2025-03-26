@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112692
+             * line : 82120
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

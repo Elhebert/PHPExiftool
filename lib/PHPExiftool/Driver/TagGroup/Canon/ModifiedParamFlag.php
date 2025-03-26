@@ -28,13 +28,14 @@ class ModifiedParamFlag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Param Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Flags
-             * line : 64035
+             * line : 48649
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedParamFlag extends AbstractTagGroup
              */
             'id' => 'Canon::Flags.Canon:ModifiedParamFlag',
             'desc' => [
+                'en' => 'Modified Param Flag',
             ],
         ],
     ];

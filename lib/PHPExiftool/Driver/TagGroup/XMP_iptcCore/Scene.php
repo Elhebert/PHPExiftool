@@ -28,13 +28,14 @@ class Scene extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 409039
+             * line : 288873
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Scene extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:Scene',
             'desc' => [
+                'en' => 'Scene',
             ],
         ],
     ];

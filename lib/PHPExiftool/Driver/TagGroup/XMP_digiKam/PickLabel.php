@@ -28,13 +28,14 @@ class PickLabel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pick Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::digiKam
-             * line : 405055
+             * line : 287786
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PickLabel extends AbstractTagGroup
              */
             'id' => 'XMP::digiKam.XMP-digiKam:PickLabel',
             'desc' => [
+                'en' => 'Pick Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DataObjectStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Object Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124382
+             * line : 86906
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataObjectStatus extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:DataObjectStatus',
             'desc' => [
+                'en' => 'Data Object Status',
             ],
         ],
     ];

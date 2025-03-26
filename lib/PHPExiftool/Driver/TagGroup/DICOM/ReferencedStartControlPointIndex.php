@@ -28,13 +28,14 @@ class ReferencedStartControlPointIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Start Control Point Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104029
+             * line : 77118
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedStartControlPointIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedStartControlPointIndex',
             'desc' => [
+                'en' => 'Referenced Start Control Point Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117594
+             * line : 83620
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 120923
+             * line : 84930
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

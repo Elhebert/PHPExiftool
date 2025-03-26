@@ -28,13 +28,14 @@ class ColorGradeBlending extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Blending',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402028
+             * line : 285263
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeBlending extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ColorGradeBlending',
             'desc' => [
+                'en' => 'Color Grade Blending',
             ],
         ],
     ];

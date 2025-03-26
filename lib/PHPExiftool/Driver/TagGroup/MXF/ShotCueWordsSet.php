@@ -28,13 +28,14 @@ class ShotCueWordsSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot Cue Words Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171479
+             * line : 117679
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShotCueWordsSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotCueWordsSet',
             'desc' => [
+                'en' => 'Shot Cue Words Set',
             ],
         ],
     ];

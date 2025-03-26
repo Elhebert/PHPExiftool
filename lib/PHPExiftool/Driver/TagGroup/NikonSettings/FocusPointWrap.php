@@ -28,13 +28,14 @@ class FocusPointWrap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Point Wrap',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243618
+             * line : 166676
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
     ];

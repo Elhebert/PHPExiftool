@@ -28,13 +28,14 @@ class Snapshot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Snapshot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409742
+             * line : 289501
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Snapshot extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:Snapshot',
             'desc' => [
+                'en' => 'Snapshot',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CTPositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Position Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97017
+             * line : 70417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTPositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTPositionSequence',
             'desc' => [
+                'en' => 'CT Position Sequence',
             ],
         ],
     ];

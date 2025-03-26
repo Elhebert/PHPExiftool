@@ -28,13 +28,14 @@ class AutoRedEye extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Red Eye',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210899
+             * line : 141877
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoRedEye extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:AutoRedEye',
             'desc' => [
+                'en' => 'Auto Red Eye',
             ],
         ],
     ];

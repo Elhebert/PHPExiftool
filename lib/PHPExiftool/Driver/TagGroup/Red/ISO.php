@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331600
+             * line : 233091
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

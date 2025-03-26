@@ -28,13 +28,14 @@ class Value0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Value 0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::TextInfo
-             * line : 123737
+             * line : 86530
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Value0 extends AbstractTagGroup
              */
             'id' => 'FLIR::TextInfo.FLIR:Value0',
             'desc' => [
+                'en' => 'Value 0',
             ],
         ],
     ];

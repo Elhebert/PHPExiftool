@@ -28,13 +28,14 @@ class NextTrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Next Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324158
+             * line : 229050
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NextTrackID extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:NextTrackID',
             'desc' => [
+                'en' => 'Next Track ID',
             ],
         ],
     ];

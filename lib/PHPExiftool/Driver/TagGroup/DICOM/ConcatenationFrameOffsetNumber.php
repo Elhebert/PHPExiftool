@@ -28,13 +28,14 @@ class ConcatenationFrameOffsetNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Concatenation Frame Offset Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98105
+             * line : 71452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConcatenationFrameOffsetNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConcatenationFrameOffsetNumber',
             'desc' => [
+                'en' => 'Concatenation Frame Offset Number',
             ],
         ],
     ];

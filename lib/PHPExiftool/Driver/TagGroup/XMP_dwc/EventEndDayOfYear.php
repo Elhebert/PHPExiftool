@@ -28,13 +28,14 @@ class EventEndDayOfYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event End Day Of Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106073
+             * line : 78452
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventEndDayOfYear extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventEndDayOfYear',
             'desc' => [
+                'en' => 'Event End Day Of Year',
             ],
         ],
     ];

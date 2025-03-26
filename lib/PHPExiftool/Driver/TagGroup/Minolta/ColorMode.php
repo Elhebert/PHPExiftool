@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177985
+             * line : 122141
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180892
+             * line : 123187
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::Main
-             * line : 183100
+             * line : 124388
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::Main
-             * line : 183246
+             * line : 124438
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185356
+             * line : 125788
              * type : int16u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

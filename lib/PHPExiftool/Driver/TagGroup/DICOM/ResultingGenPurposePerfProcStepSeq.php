@@ -28,13 +28,14 @@ class ResultingGenPurposePerfProcStepSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resulting Gen Purpose Perf Proc Step Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99953
+             * line : 73155
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResultingGenPurposePerfProcStepSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResultingGenPurposePerfProcStepSeq',
             'desc' => [
+                'en' => 'Resulting Gen Purpose Perf Proc Step Seq',
             ],
         ],
     ];

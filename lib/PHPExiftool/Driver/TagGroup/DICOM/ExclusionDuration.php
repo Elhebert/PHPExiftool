@@ -28,13 +28,14 @@ class ExclusionDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exclusion Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97373
+             * line : 70768
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExclusionDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExclusionDuration',
             'desc' => [
+                'en' => 'Exclusion Duration',
             ],
         ],
     ];

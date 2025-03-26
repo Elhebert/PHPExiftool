@@ -28,13 +28,14 @@ class LightCondition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Condition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258518
+             * line : 178570
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightCondition extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:LightCondition',
             'desc' => [
+                'en' => 'Light Condition',
             ],
         ],
     ];

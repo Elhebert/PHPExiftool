@@ -28,13 +28,14 @@ class FocusPeakingHighlightColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Peaking Highlight Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245012
+             * line : 167771
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPeakingHighlightColor extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FocusPeakingHighlightColor',
             'desc' => [
+                'en' => 'Focus Peaking Highlight Color',
             ],
         ],
     ];

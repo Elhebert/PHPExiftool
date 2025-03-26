@@ -28,13 +28,14 @@ class HuffmanTableSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Huffman Table Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101965
+             * line : 75105
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HuffmanTableSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HuffmanTableSize',
             'desc' => [
+                'en' => 'Huffman Table Size',
             ],
         ],
     ];

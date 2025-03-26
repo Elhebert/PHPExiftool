@@ -28,13 +28,14 @@ class SensorArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258004
+             * line : 178369
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class SensorArea extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SensorArea',
             'desc' => [
+                'en' => 'Sensor Area',
             ],
         ],
     ];

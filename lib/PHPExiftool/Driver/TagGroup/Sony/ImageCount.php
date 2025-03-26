@@ -28,13 +28,14 @@ class ImageCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreInfo0201
-             * line : 359759
+             * line : 250869
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageCount extends AbstractTagGroup
              */
             'id' => 'Sony::MoreInfo0201.Sony:ImageCount',
             'desc' => [
+                'en' => 'Image Count',
             ],
         ],
     ];

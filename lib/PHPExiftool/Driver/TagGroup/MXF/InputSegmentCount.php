@@ -28,13 +28,14 @@ class InputSegmentCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Segment Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168214
+             * line : 114710
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputSegmentCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InputSegmentCount',
             'desc' => [
+                'en' => 'Input Segment Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SurfaceProcessingRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Processing Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101148
+             * line : 74298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceProcessingRatio extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceProcessingRatio',
             'desc' => [
+                'en' => 'Surface Processing Ratio',
             ],
         ],
     ];

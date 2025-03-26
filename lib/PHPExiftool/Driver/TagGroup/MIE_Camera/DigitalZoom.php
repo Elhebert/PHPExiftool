@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162863
+             * line : 111266
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

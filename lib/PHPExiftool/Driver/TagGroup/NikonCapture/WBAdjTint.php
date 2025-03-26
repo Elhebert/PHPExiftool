@@ -28,13 +28,14 @@ class WBAdjTint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Tint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::WBAdjData
-             * line : 211748
+             * line : 142320
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBAdjTint extends AbstractTagGroup
              */
             'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjTint',
             'desc' => [
+                'en' => 'WB Adj Tint',
             ],
         ],
     ];

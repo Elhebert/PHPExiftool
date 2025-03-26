@@ -28,13 +28,14 @@ class CoordinateStepValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coordinate Step Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104188
+             * line : 77274
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoordinateStepValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CoordinateStepValue',
             'desc' => [
+                'en' => 'Coordinate Step Value',
             ],
         ],
     ];

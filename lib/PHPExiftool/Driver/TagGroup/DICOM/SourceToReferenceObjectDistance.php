@@ -28,13 +28,14 @@ class SourceToReferenceObjectDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source To Reference Object Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102413
+             * line : 75513
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceToReferenceObjectDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceToReferenceObjectDistance',
             'desc' => [
+                'en' => 'Source To Reference Object Distance',
             ],
         ],
     ];

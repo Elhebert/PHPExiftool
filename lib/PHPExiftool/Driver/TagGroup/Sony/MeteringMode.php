@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347161
+             * line : 243193
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348729
+             * line : 243900
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350109
+             * line : 244517
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360081
+             * line : 251028
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362570
+             * line : 252513
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363568
+             * line : 253175
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364591
+             * line : 253846
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365557
+             * line : 254494
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366576
+             * line : 255162
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369583
+             * line : 257792
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370613
+             * line : 258457
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         11 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373614
+             * line : 261081
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         12 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376615
+             * line : 263705
              * type : int8u
              * writable : true
              * count :
@@ -198,6 +211,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

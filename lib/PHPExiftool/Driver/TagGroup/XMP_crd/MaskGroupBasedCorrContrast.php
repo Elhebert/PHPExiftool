@@ -28,13 +28,14 @@ class MaskGroupBasedCorrContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400009
+             * line : 283515
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrContrast extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrContrast',
             'desc' => [
+                'en' => 'Mask Group Based Corr Contrast',
             ],
         ],
     ];

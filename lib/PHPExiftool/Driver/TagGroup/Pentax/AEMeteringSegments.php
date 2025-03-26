@@ -28,13 +28,14 @@ class AEMeteringSegments extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Metering Segments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300719
+             * line : 209634
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEMeteringSegments extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AEMeteringSegments',
             'desc' => [
+                'en' => 'AE Metering Segments',
             ],
         ],
     ];

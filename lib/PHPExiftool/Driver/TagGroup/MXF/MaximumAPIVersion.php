@@ -28,13 +28,14 @@ class MaximumAPIVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum API Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169357
+             * line : 115764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumAPIVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaximumAPIVersion',
             'desc' => [
+                'en' => 'Maximum API Version',
             ],
         ],
     ];

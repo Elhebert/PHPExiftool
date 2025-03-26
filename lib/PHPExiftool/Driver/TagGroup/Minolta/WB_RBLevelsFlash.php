@@ -28,13 +28,14 @@ class WB_RBLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185566
+             * line : 125889
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class WB_RBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RBLevelsFlash',
             'desc' => [
+                'en' => 'WB RB Levels Flash',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185593
+             * line : 125904
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class WB_RBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RBLevelsFlash',
             'desc' => [
+                'en' => 'WB RB Levels Flash',
             ],
         ],
     ];

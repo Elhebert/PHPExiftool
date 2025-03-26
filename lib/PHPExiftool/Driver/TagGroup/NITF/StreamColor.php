@@ -28,13 +28,14 @@ class StreamColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152840
+             * line : 105159
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamColor extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:StreamColor',
             'desc' => [
+                'en' => 'Stream Color',
             ],
         ],
     ];

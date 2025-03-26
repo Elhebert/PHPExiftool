@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 109982
+             * line : 81210
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280339
+             * line : 194566
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Camera2
-             * line : 140298
+             * line : 97985
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'H264::Camera2.H264:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

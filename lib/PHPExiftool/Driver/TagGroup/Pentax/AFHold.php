@@ -28,13 +28,14 @@ class AFHold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Hold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AFInfo
-             * line : 283629
+             * line : 196774
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFHold extends AbstractTagGroup
              */
             'id' => 'Pentax::AFInfo.Pentax:AFHold',
             'desc' => [
+                'en' => 'AF Hold',
             ],
         ],
     ];

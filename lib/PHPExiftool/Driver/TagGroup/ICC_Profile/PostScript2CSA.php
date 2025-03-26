@@ -28,13 +28,14 @@ class PostScript2CSA extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Post Script 2 CSA',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146514
+             * line : 101829
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PostScript2CSA extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:PostScript2CSA',
             'desc' => [
+                'en' => 'Post Script 2 CSA',
             ],
         ],
     ];

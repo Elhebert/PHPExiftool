@@ -28,13 +28,14 @@ class TimeZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ThetaSubdir
-             * line : 333832
+             * line : 234079
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeZone extends AbstractTagGroup
              */
             'id' => 'Ricoh::ThetaSubdir.Ricoh:TimeZone',
             'desc' => [
+                'en' => 'Time Zone',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioStreamType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Stream Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : M2TS::Main
-             * line : 162502
+             * line : 110981
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioStreamType extends AbstractTagGroup
              */
             'id' => 'M2TS::Main.M2TS:AudioStreamType',
             'desc' => [
+                'en' => 'Audio Stream Type',
             ],
         ],
     ];

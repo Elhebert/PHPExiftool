@@ -28,13 +28,14 @@ class ManifestReferenceLinkCategory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Link Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414124
+             * line : 292146
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceLinkCategory extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceLinkCategory',
             'desc' => [
+                'en' => 'Manifest Reference Link Category',
             ],
         ],
     ];

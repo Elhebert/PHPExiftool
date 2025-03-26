@@ -28,13 +28,14 @@ class BufferAverage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Buffer Average',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1100
+             * line : 445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BufferAverage extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:BufferAverage',
             'desc' => [
+                'en' => 'Buffer Average',
             ],
         ],
     ];

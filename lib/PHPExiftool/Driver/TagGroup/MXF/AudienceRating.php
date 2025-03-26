@@ -28,13 +28,14 @@ class AudienceRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audience Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167526
+             * line : 114141
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudienceRating extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudienceRating',
             'desc' => [
+                'en' => 'Audience Rating',
             ],
         ],
     ];

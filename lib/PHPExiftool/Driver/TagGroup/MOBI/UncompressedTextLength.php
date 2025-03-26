@@ -28,13 +28,14 @@ class UncompressedTextLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Uncompressed Text Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273713
+             * line : 190869
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UncompressedTextLength extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:UncompressedTextLength',
             'desc' => [
+                'en' => 'Uncompressed Text Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VerticesOfPolygonalShutter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertices Of Polygonal Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96081
+             * line : 69502
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticesOfPolygonalShutter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerticesOfPolygonalShutter',
             'desc' => [
+                'en' => 'Vertices Of Polygonal Shutter',
             ],
         ],
     ];

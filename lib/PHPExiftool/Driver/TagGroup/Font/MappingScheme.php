@@ -28,13 +28,14 @@ class MappingScheme extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mapping Scheme',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127783
+             * line : 88723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MappingScheme extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:MappingScheme',
             'desc' => [
+                'en' => 'Mapping Scheme',
             ],
         ],
     ];

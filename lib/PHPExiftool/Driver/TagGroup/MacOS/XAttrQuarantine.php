@@ -28,13 +28,14 @@ class XAttrQuarantine extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'X Attr Quarantine',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173148
+             * line : 119156
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XAttrQuarantine extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrQuarantine',
             'desc' => [
+                'en' => 'X Attr Quarantine',
             ],
         ],
     ];

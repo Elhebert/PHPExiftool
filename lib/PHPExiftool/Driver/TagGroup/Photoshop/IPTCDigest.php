@@ -28,13 +28,14 @@ class IPTCDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305593
+             * line : 212343
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCDigest extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:IPTCDigest',
             'desc' => [
+                'en' => 'IPTC Digest',
             ],
         ],
     ];

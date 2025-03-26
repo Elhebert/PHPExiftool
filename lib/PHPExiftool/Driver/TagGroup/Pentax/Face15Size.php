@@ -28,13 +28,14 @@ class Face15Size extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 15 Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FaceSize
-             * line : 285846
+             * line : 198164
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class Face15Size extends AbstractTagGroup
              */
             'id' => 'Pentax::FaceSize.Pentax:Face15Size',
             'desc' => [
+                'en' => 'Face 15 Size',
             ],
         ],
     ];

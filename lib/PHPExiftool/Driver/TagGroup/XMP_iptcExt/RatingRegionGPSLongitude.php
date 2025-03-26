@@ -28,13 +28,14 @@ class RatingRegionGPSLongitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Region GPS Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409651
+             * line : 289411
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingRegionGPSLongitude extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingRegionGPSLongitude',
             'desc' => [
+                'en' => 'Rating Region GPS Longitude',
             ],
         ],
     ];

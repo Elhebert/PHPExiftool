@@ -28,13 +28,14 @@ class TimelineInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timeline Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305641
+             * line : 212373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimelineInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:TimelineInfo',
             'desc' => [
+                'en' => 'Timeline Info',
             ],
         ],
     ];

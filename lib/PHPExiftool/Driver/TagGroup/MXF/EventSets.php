@@ -28,13 +28,14 @@ class EventSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171516
+             * line : 117715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventSets',
             'desc' => [
+                'en' => 'Event Sets',
             ],
         ],
     ];

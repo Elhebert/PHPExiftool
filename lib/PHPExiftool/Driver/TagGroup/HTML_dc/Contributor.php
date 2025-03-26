@@ -28,13 +28,14 @@ class Contributor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contributor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142702
+             * line : 98597
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Contributor extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Contributor',
             'desc' => [
+                'en' => 'Contributor',
             ],
         ],
     ];

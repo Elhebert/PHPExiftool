@@ -28,13 +28,14 @@ class PF17DisableAFPointSel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF17 Disable AF Point Sel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78398
+             * line : 57099
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF17DisableAFPointSel extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF17DisableAFPointSel',
             'desc' => [
+                'en' => 'PF17 Disable AF Point Sel',
             ],
         ],
     ];

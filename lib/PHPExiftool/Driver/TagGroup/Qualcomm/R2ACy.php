@@ -28,13 +28,14 @@ class R2ACy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 A Cy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307753
+             * line : 214187
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2ACy extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2ACy',
             'desc' => [
+                'en' => 'R2 A Cy',
             ],
         ],
     ];

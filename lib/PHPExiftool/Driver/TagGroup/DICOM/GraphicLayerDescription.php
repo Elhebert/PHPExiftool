@@ -28,13 +28,14 @@ class GraphicLayerDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Layer Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101324
+             * line : 74472
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicLayerDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicLayerDescription',
             'desc' => [
+                'en' => 'Graphic Layer Description',
             ],
         ],
     ];

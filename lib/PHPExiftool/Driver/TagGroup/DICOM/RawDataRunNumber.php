@@ -28,13 +28,14 @@ class RawDataRunNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Run Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97649
+             * line : 71032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataRunNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RawDataRunNumber',
             'desc' => [
+                'en' => 'Raw Data Run Number',
             ],
         ],
     ];

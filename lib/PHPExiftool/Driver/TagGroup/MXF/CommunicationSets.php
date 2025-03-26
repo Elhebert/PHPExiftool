@@ -28,13 +28,14 @@ class CommunicationSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Communication Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171570
+             * line : 117766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommunicationSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CommunicationSets',
             'desc' => [
+                'en' => 'Communication Sets',
             ],
         ],
     ];

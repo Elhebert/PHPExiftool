@@ -28,13 +28,14 @@ class FlashColorFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Color Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193784
+             * line : 131271
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashColorFilter extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashColorFilter',
             'desc' => [
+                'en' => 'Flash Color Filter',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194388
+             * line : 131673
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashColorFilter extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashColorFilter',
             'desc' => [
+                'en' => 'Flash Color Filter',
             ],
         ],
     ];

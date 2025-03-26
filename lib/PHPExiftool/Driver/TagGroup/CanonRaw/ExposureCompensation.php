@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ExposureInfo
-             * line : 78457
+             * line : 57158
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ExposureInfo.CanonRaw:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

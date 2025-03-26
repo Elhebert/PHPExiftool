@@ -28,13 +28,14 @@ class CreatorAppVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator App Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Creator
-             * line : 273184
+             * line : 190627
              * type : int8u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class CreatorAppVersion extends AbstractTagGroup
              */
             'id' => 'PSP::Creator.PSP:CreatorAppVersion',
             'desc' => [
+                'en' => 'Creator App Version',
             ],
         ],
     ];

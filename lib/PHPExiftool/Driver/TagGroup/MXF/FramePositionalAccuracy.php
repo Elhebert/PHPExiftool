@@ -28,13 +28,14 @@ class FramePositionalAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Positional Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168290
+             * line : 114785
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramePositionalAccuracy extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FramePositionalAccuracy',
             'desc' => [
+                'en' => 'Frame Positional Accuracy',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ModDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mod Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pdf
-             * line : 410011
+             * line : 289696
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModDate extends AbstractTagGroup
              */
             'id' => 'XMP::pdf.XMP-pdf:ModDate',
             'desc' => [
+                'en' => 'Mod Date',
             ],
         ],
     ];

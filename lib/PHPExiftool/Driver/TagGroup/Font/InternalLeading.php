@@ -28,13 +28,14 @@ class InternalLeading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Internal Leading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128030
+             * line : 88846
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InternalLeading extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:InternalLeading',
             'desc' => [
+                'en' => 'Internal Leading',
             ],
         ],
     ];

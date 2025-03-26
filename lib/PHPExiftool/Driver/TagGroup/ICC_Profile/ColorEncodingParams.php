@@ -28,13 +28,14 @@ class ColorEncodingParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Encoding Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146224
+             * line : 101667
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorEncodingParams extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ColorEncodingParams',
             'desc' => [
+                'en' => 'Color Encoding Params',
             ],
         ],
     ];

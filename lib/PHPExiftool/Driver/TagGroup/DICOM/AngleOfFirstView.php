@@ -28,13 +28,14 @@ class AngleOfFirstView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angle Of First View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97473
+             * line : 70861
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngleOfFirstView extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AngleOfFirstView',
             'desc' => [
+                'en' => 'Angle Of First View',
             ],
         ],
     ];

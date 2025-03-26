@@ -28,13 +28,14 @@ class CropActive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::CropInfo
-             * line : 80156
+             * line : 58496
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CropActive extends AbstractTagGroup
              */
             'id' => 'CanonVRD::CropInfo.CanonVRD:CropActive',
             'desc' => [
+                'en' => 'Crop Active',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82484
+             * line : 60418
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CropActive extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:CropActive',
             'desc' => [
+                'en' => 'Crop Active',
             ],
         ],
     ];

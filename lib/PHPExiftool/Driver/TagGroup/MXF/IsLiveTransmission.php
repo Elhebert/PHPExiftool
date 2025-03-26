@@ -28,13 +28,14 @@ class IsLiveTransmission extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Live Transmission',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168657
+             * line : 115133
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsLiveTransmission extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsLiveTransmission',
             'desc' => [
+                'en' => 'Is Live Transmission',
             ],
         ],
     ];

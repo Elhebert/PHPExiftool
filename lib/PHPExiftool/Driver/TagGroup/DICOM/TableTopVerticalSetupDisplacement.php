@@ -28,13 +28,14 @@ class TableTopVerticalSetupDisplacement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Vertical Setup Displacement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103513
+             * line : 76608
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopVerticalSetupDisplacement extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopVerticalSetupDisplacement',
             'desc' => [
+                'en' => 'Table Top Vertical Setup Displacement',
             ],
         ],
     ];

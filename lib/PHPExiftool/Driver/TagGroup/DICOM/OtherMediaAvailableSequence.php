@@ -28,13 +28,14 @@ class OtherMediaAvailableSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Media Available Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102034
+             * line : 75171
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherMediaAvailableSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OtherMediaAvailableSequence',
             'desc' => [
+                'en' => 'Other Media Available Sequence',
             ],
         ],
     ];

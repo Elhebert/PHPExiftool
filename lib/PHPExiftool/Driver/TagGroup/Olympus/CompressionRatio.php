@@ -28,13 +28,14 @@ class CompressionRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compression Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259068
+             * line : 178777
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressionRatio extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:CompressionRatio',
             'desc' => [
+                'en' => 'Compression Ratio',
             ],
         ],
     ];

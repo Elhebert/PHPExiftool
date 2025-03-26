@@ -28,13 +28,14 @@ class VisualColor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Visual Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409891
+             * line : 289648
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VisualColor extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:VisualColor',
             'desc' => [
+                'en' => 'Visual Color',
             ],
         ],
     ];

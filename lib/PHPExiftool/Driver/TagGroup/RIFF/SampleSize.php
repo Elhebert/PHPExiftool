@@ -28,13 +28,14 @@ class SampleSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamHeader
-             * line : 328840
+             * line : 231904
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleSize extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamHeader.RIFF:SampleSize',
             'desc' => [
+                'en' => 'Sample Size',
             ],
         ],
     ];

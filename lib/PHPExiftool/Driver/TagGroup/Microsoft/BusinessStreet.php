@@ -28,13 +28,14 @@ class BusinessStreet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Business Street',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176386
+             * line : 121359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BusinessStreet extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BusinessStreet',
             'desc' => [
+                'en' => 'Business Street',
             ],
         ],
     ];

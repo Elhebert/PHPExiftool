@@ -28,13 +28,14 @@ class CodingMethods extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding Methods',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112173
+             * line : 81923
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingMethods extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CodingMethods',
             'desc' => [
+                'en' => 'Coding Methods',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DevelopmentDynamicRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Development Dynamic Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130668
+             * line : 90264
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DevelopmentDynamicRange extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:DevelopmentDynamicRange',
             'desc' => [
+                'en' => 'Development Dynamic Range',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ParametricShadowSplit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parametric Shadow Split',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400561
+             * line : 284048
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParametricShadowSplit extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ParametricShadowSplit',
             'desc' => [
+                'en' => 'Parametric Shadow Split',
             ],
         ],
     ];

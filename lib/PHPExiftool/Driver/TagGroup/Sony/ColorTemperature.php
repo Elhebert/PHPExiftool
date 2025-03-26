@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 356463
+             * line : 248754
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintCorrectionTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400522
+             * line : 284009
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionTemperature extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionTemperature',
             'desc' => [
+                'en' => 'Paint Correction Temperature',
             ],
         ],
     ];

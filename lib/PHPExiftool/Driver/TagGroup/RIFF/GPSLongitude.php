@@ -28,13 +28,14 @@ class GPSLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::UserText
-             * line : 328908
+             * line : 231923
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'RIFF::UserText.RIFF:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecognizedFace3Name extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recognized Face 3 Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::FaceRecInfo
-             * line : 274229
+             * line : 191291
              * type : string
              * writable : true
              * count : 20
@@ -42,6 +43,7 @@ class RecognizedFace3Name extends AbstractTagGroup
              */
             'id' => 'Panasonic::FaceRecInfo.Panasonic:RecognizedFace3Name',
             'desc' => [
+                'en' => 'Recognized Face 3 Name',
             ],
         ],
     ];

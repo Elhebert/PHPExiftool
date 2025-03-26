@@ -28,13 +28,14 @@ class PreferredSubfamily extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preferred Subfamily',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127930
+             * line : 88803
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreferredSubfamily extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:PreferredSubfamily',
             'desc' => [
+                'en' => 'Preferred Subfamily',
             ],
         ],
     ];

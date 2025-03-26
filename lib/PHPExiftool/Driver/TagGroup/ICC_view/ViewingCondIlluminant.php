@@ -28,13 +28,14 @@ class ViewingCondIlluminant extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewing Cond Illuminant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::ViewingConditions
-             * line : 147035
+             * line : 102093
              * type : fixed32s
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class ViewingCondIlluminant extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::ViewingConditions.ICC-view:ViewingCondIlluminant',
             'desc' => [
+                'en' => 'Viewing Cond Illuminant',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130824
+             * line : 90353
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageCount extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ImageCount',
             'desc' => [
+                'en' => 'Image Count',
             ],
         ],
     ];

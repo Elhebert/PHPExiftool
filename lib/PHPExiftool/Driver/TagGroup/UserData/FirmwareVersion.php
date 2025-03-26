@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325200
+             * line : 229587
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325228
+             * line : 229593
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

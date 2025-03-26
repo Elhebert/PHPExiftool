@@ -28,13 +28,14 @@ class SlideShow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slide Show',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Video
-             * line : 326105
+             * line : 230033
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlideShow extends AbstractTagGroup
              */
             'id' => 'QuickTime::Video.QuickTime:SlideShow',
             'desc' => [
+                'en' => 'Slide Show',
             ],
         ],
     ];

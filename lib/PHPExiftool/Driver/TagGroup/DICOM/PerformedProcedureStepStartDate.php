@@ -28,13 +28,14 @@ class PerformedProcedureStepStartDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Procedure Step Start Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99657
+             * line : 72864
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedProcedureStepStartDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedProcedureStepStartDate',
             'desc' => [
+                'en' => 'Performed Procedure Step Start Date',
             ],
         ],
     ];

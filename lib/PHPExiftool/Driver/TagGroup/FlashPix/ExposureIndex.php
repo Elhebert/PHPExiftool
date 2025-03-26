@@ -28,13 +28,14 @@ class ExposureIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126042
+             * line : 87569
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureIndex extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ExposureIndex',
             'desc' => [
+                'en' => 'Exposure Index',
             ],
         ],
     ];

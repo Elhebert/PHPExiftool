@@ -28,13 +28,14 @@ class Units extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::UserData
-             * line : 123759
+             * line : 86552
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Units extends AbstractTagGroup
              */
             'id' => 'FLIR::UserData.FLIR:Units',
             'desc' => [
+                'en' => 'Units',
             ],
         ],
     ];

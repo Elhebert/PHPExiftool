@@ -28,13 +28,14 @@ class AudioOutcue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Outcue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150711
+             * line : 104072
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class AudioOutcue extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:AudioOutcue',
             'desc' => [
+                'en' => 'Audio Outcue',
             ],
         ],
     ];

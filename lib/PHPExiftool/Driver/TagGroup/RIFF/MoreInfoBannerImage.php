@@ -28,13 +28,14 @@ class MoreInfoBannerImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'More Info Banner Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328306
+             * line : 231568
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MoreInfoBannerImage extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:MoreInfoBannerImage',
             'desc' => [
+                'en' => 'More Info Banner Image',
             ],
         ],
     ];

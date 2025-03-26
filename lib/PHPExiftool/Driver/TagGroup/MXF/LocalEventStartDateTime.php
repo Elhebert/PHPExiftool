@@ -28,13 +28,14 @@ class LocalEventStartDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Event Start Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168528
+             * line : 115019
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LocalEventStartDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalEventStartDateTime',
             'desc' => [
+                'en' => 'Local Event Start Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170947
+             * line : 117174
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LocalEventStartDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalEventStartDateTime',
             'desc' => [
+                'en' => 'Local Event Start Date Time',
             ],
         ],
     ];

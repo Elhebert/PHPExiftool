@@ -28,13 +28,14 @@ class FrameNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 131014
+             * line : 90486
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameNumber extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FrameNumber',
             'desc' => [
+                'en' => 'Frame Number',
             ],
         ],
     ];

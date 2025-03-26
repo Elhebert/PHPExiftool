@@ -28,13 +28,14 @@ class WaterReferencedPhaseCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Water Referenced Phase Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96886
+             * line : 70288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaterReferencedPhaseCorrection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaterReferencedPhaseCorrection',
             'desc' => [
+                'en' => 'Water Referenced Phase Correction',
             ],
         ],
     ];

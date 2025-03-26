@@ -28,13 +28,14 @@ class AudioBitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173744
+             * line : 119646
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitsPerSample extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AudioBitsPerSample',
             'desc' => [
+                'en' => 'Audio Bits Per Sample',
             ],
         ],
     ];

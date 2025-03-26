@@ -28,13 +28,14 @@ class UIC4Tag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UIC4 Tag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113141
+             * line : 82338
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UIC4Tag extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:UIC4Tag',
             'desc' => [
+                'en' => 'UIC4 Tag',
             ],
         ],
     ];

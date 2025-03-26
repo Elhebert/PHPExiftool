@@ -28,13 +28,14 @@ class OriginalDocumentSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Document Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126513
+             * line : 87716
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalDocumentSize extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:OriginalDocumentSize',
             'desc' => [
+                'en' => 'Original Document Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFDAndBarData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AFD And Bar Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172373
+             * line : 118534
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFDAndBarData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AFDAndBarData',
             'desc' => [
+                'en' => 'AFD And Bar Data',
             ],
         ],
     ];

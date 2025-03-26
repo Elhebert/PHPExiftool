@@ -28,13 +28,14 @@ class ExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 358733
+             * line : 250322
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
     ];

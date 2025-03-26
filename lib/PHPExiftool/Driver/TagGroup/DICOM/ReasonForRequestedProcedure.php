@@ -28,13 +28,14 @@ class ReasonForRequestedProcedure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reason For Requested Procedure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99842
+             * line : 73044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReasonForRequestedProcedure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReasonForRequestedProcedure',
             'desc' => [
+                'en' => 'Reason For Requested Procedure',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencePriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173405
+             * line : 119358
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencePriority extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ReferencePriority',
             'desc' => [
+                'en' => 'Reference Priority',
             ],
         ],
     ];

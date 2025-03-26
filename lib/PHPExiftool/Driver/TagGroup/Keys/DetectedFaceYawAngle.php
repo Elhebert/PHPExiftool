@@ -28,13 +28,14 @@ class DetectedFaceYawAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Detected Face Yaw Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323401
+             * line : 228625
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DetectedFaceYawAngle extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:DetectedFaceYawAngle',
             'desc' => [
+                'en' => 'Detected Face Yaw Angle',
             ],
         ],
     ];

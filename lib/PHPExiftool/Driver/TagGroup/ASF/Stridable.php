@@ -28,13 +28,14 @@ class Stridable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stridable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1581
+             * line : 775
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Stridable extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Stridable',
             'desc' => [
+                'en' => 'Stridable',
             ],
         ],
     ];

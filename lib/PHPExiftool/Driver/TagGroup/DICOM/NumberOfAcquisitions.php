@@ -28,13 +28,14 @@ class NumberOfAcquisitions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Acquisitions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98474
+             * line : 71806
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfAcquisitions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfAcquisitions',
             'desc' => [
+                'en' => 'Number Of Acquisitions',
             ],
         ],
     ];

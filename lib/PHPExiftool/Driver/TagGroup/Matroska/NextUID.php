@@ -28,13 +28,14 @@ class NextUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Next UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 174022
+             * line : 119863
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NextUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:NextUID',
             'desc' => [
+                'en' => 'Next UID',
             ],
         ],
     ];

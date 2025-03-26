@@ -28,13 +28,14 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fine Tune Opt Spot Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212509
+             * line : 142748
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215005
+             * line : 144284
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217675
+             * line : 146204
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220099
+             * line : 148236
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224108
+             * line : 151094
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224878
+             * line : 151572
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230088
+             * line : 154617
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231980
+             * line : 156036
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234422
+             * line : 158008
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235466
+             * line : 158700
              * type : int8s
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
     ];

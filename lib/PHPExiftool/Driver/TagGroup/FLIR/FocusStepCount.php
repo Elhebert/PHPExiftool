@@ -28,13 +28,14 @@ class FocusStepCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Step Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122349
+             * line : 85698
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusStepCount extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:FocusStepCount',
             'desc' => [
+                'en' => 'Focus Step Count',
             ],
         ],
     ];

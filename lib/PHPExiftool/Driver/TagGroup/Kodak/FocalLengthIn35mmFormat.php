@@ -28,13 +28,14 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length In 35mm Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Free
-             * line : 154556
+             * line : 106058
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:FocalLengthIn35mmFormat',
             'desc' => [
+                'en' => 'Focal Length In 35mm Format',
             ],
         ],
     ];

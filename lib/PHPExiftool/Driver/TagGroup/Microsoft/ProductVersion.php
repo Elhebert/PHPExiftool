@@ -28,13 +28,14 @@ class ProductVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175355
+             * line : 120744
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductVersion extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ProductVersion',
             'desc' => [
+                'en' => 'Product Version',
             ],
         ],
     ];

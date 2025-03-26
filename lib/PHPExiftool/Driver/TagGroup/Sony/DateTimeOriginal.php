@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361432
+             * line : 251770
              * type : int8u
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

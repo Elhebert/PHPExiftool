@@ -28,13 +28,14 @@ class CFALayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CFA Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118868
+             * line : 84091
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CFALayout extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:CFALayout',
             'desc' => [
+                'en' => 'CFA Layout',
             ],
         ],
     ];

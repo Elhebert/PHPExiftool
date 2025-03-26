@@ -28,13 +28,14 @@ class ColorGradeShadowLum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Shadow Lum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402052
+             * line : 285287
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeShadowLum extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ColorGradeShadowLum',
             'desc' => [
+                'en' => 'Color Grade Shadow Lum',
             ],
         ],
     ];

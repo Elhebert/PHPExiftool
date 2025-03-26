@@ -28,13 +28,14 @@ class Acceleration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acceleration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GPS360Fly
-             * line : 313219
+             * line : 218974
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Acceleration extends AbstractTagGroup
              */
             'id' => 'QuickTime::GPS360Fly.QuickTime:Acceleration',
             'desc' => [
+                'en' => 'Acceleration',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::camm3
-             * line : 326336
+             * line : 230246
              * type : float
              * writable : false
              * count : 3
@@ -55,6 +57,7 @@ class Acceleration extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm3.QuickTime:Acceleration',
             'desc' => [
+                'en' => 'Acceleration',
             ],
         ],
     ];

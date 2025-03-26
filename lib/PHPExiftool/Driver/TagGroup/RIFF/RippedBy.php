@@ -28,13 +28,14 @@ class RippedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ripped By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328363
+             * line : 231601
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RippedBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:RippedBy',
             'desc' => [
+                'en' => 'Ripped By',
             ],
         ],
     ];

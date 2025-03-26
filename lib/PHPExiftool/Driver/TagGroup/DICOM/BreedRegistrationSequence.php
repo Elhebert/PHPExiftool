@@ -28,13 +28,14 @@ class BreedRegistrationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Breed Registration Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95323
+             * line : 68785
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BreedRegistrationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BreedRegistrationSequence',
             'desc' => [
+                'en' => 'Breed Registration Sequence',
             ],
         ],
     ];

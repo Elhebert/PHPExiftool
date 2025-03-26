@@ -28,13 +28,14 @@ class IlluminationTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Illumination Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98358
+             * line : 71692
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IlluminationTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IlluminationTypeCodeSequence',
             'desc' => [
+                'en' => 'Illumination Type Code Sequence',
             ],
         ],
     ];

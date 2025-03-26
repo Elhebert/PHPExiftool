@@ -28,13 +28,14 @@ class Shadows2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadows 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401029
+             * line : 284483
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Shadows2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Shadows2012',
             'desc' => [
+                'en' => 'Shadows 2012',
             ],
         ],
     ];

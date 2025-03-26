@@ -28,13 +28,14 @@ class OtherConditions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Other Conditions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272285
+             * line : 190226
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OtherConditions extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:OtherConditions',
             'desc' => [
+                'en' => 'Other Conditions',
             ],
         ],
     ];

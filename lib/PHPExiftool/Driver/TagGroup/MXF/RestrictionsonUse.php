@@ -28,13 +28,14 @@ class RestrictionsonUse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Restrictionson Use',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167481
+             * line : 114096
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RestrictionsonUse extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RestrictionsonUse',
             'desc' => [
+                'en' => 'Restrictionson Use',
             ],
         ],
     ];

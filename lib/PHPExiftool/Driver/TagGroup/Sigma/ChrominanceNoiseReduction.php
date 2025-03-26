@@ -28,13 +28,14 @@ class ChrominanceNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chrominance Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337454
+             * line : 236114
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChrominanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ChrominanceNoiseReduction',
             'desc' => [
+                'en' => 'Chrominance Noise Reduction',
             ],
         ],
     ];

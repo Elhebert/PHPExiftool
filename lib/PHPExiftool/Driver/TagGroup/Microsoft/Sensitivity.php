@@ -28,13 +28,14 @@ class Sensitivity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176656
+             * line : 121509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sensitivity extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Sensitivity',
             'desc' => [
+                'en' => 'Sensitivity',
             ],
         ],
     ];

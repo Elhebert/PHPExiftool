@@ -28,13 +28,14 @@ class ISO2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ISOInfo
-             * line : 195479
+             * line : 132418
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ISOInfo.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD300S
-             * line : 205524
+             * line : 138080
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300S.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD300a
-             * line : 205553
+             * line : 138093
              * type : ?
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300a.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::ShotInfoD300b
-             * line : 205723
+             * line : 138237
              * type : ?
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300b.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::ShotInfoD3S
-             * line : 206041
+             * line : 138526
              * type : ?
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3S.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::ShotInfoD3X
-             * line : 206080
+             * line : 138542
              * type : ?
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3X.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::ShotInfoD3a
-             * line : 206109
+             * line : 138555
              * type : ?
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3a.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         7 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206217
+             * line : 138628
              * type : ?
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         8 => [
             /**
              * table_name : Nikon::ShotInfoD5000
-             * line : 207798
+             * line : 140000
              * type : ?
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5000.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         9 => [
             /**
              * table_name : Nikon::ShotInfoD700
-             * line : 208288
+             * line : 140361
              * type : ?
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD700.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
         10 => [
             /**
              * table_name : Nikon::ShotInfoD90
-             * line : 209264
+             * line : 141133
              * type : ?
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ISO2 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD90.Nikon:ISO2',
             'desc' => [
+                'en' => 'ISO2',
             ],
         ],
     ];

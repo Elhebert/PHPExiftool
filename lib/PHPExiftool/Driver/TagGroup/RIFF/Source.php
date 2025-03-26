@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328437
+             * line : 231622
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

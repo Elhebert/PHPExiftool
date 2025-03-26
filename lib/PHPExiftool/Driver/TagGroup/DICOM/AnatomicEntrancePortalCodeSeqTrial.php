@@ -28,13 +28,14 @@ class AnatomicEntrancePortalCodeSeqTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomic Entrance Portal Code Seq Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95075
+             * line : 68557
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicEntrancePortalCodeSeqTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicEntrancePortalCodeSeqTrial',
             'desc' => [
+                'en' => 'Anatomic Entrance Portal Code Seq Trial',
             ],
         ],
     ];

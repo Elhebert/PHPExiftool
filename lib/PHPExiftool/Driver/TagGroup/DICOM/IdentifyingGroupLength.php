@@ -28,13 +28,14 @@ class IdentifyingGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifying Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94646
+             * line : 68146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentifyingGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IdentifyingGroupLength',
             'desc' => [
+                'en' => 'Identifying Group Length',
             ],
         ],
     ];

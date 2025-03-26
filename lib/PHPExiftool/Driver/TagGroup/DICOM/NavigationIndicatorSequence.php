@@ -28,13 +28,14 @@ class NavigationIndicatorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Navigation Indicator Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101601
+             * line : 74745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NavigationIndicatorSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NavigationIndicatorSequence',
             'desc' => [
+                'en' => 'Navigation Indicator Sequence',
             ],
         ],
     ];

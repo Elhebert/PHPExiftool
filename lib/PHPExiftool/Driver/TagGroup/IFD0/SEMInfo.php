@@ -28,13 +28,14 @@ class SEMInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SEM Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113430
+             * line : 82454
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SEMInfo extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:SEMInfo',
             'desc' => [
+                'en' => 'SEM Info',
             ],
         ],
     ];

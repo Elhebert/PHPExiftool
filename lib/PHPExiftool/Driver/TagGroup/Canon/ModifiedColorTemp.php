@@ -28,13 +28,14 @@ class ModifiedColorTemp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Color Temp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66695
+             * line : 50690
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedColorTemp extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedColorTemp',
             'desc' => [
+                'en' => 'Modified Color Temp',
             ],
         ],
     ];

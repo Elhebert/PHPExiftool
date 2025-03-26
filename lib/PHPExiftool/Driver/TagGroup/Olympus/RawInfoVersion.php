@@ -28,13 +28,14 @@ class RawInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260837
+             * line : 180186
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class RawInfoVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:RawInfoVersion',
             'desc' => [
+                'en' => 'Raw Info Version',
             ],
         ],
     ];

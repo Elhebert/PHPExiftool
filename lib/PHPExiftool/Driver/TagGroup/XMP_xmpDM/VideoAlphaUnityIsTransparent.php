@@ -28,13 +28,14 @@ class VideoAlphaUnityIsTransparent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Alpha Unity Is Transparent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413699
+             * line : 291743
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoAlphaUnityIsTransparent extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoAlphaUnityIsTransparent',
             'desc' => [
+                'en' => 'Video Alpha Unity Is Transparent',
             ],
         ],
     ];

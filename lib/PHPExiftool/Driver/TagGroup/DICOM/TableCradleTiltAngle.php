@@ -28,13 +28,14 @@ class TableCradleTiltAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Cradle Tilt Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97215
+             * line : 70612
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableCradleTiltAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableCradleTiltAngle',
             'desc' => [
+                'en' => 'Table Cradle Tilt Angle',
             ],
         ],
     ];

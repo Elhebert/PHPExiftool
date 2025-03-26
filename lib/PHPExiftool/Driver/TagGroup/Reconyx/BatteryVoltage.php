@@ -28,13 +28,14 @@ class BatteryVoltage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Voltage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330805
+             * line : 232709
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BatteryVoltage extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:BatteryVoltage',
             'desc' => [
+                'en' => 'Battery Voltage',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330998
+             * line : 232826
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BatteryVoltage extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:BatteryVoltage',
             'desc' => [
+                'en' => 'Battery Voltage',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331314
+             * line : 232967
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class BatteryVoltage extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:BatteryVoltage',
             'desc' => [
+                'en' => 'Battery Voltage',
             ],
         ],
     ];

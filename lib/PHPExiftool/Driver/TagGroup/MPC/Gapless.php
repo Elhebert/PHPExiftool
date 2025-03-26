@@ -28,13 +28,14 @@ class Gapless extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gapless',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPC::Main
-             * line : 165631
+             * line : 112625
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gapless extends AbstractTagGroup
              */
             'id' => 'MPC::Main.MPC:Gapless',
             'desc' => [
+                'en' => 'Gapless',
             ],
         ],
     ];

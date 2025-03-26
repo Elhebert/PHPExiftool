@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Background
-             * line : 164465
+             * line : 111782
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'MNG::Background.MNG:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

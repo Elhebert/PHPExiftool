@@ -28,13 +28,14 @@ class MediaStationCallSign extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Station Call Sign',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396158
+             * line : 280454
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaStationCallSign extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaStationCallSign',
             'desc' => [
+                'en' => 'Media Station Call Sign',
             ],
         ],
     ];

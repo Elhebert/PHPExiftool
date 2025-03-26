@@ -28,13 +28,14 @@ class PartialViewDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial View Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99041
+             * line : 72273
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialViewDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PartialViewDescription',
             'desc' => [
+                'en' => 'Partial View Description',
             ],
         ],
     ];

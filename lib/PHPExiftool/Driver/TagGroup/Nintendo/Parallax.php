@@ -28,13 +28,14 @@ class Parallax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parallax',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nintendo::CameraInfo
-             * line : 249000
+             * line : 171666
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Parallax extends AbstractTagGroup
              */
             'id' => 'Nintendo::CameraInfo.Nintendo:Parallax',
             'desc' => [
+                'en' => 'Parallax',
             ],
         ],
     ];

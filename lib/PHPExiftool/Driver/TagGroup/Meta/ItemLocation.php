@@ -28,13 +28,14 @@ class ItemLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323931
+             * line : 228915
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemLocation extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:ItemLocation',
             'desc' => [
+                'en' => 'Item Location',
             ],
         ],
     ];

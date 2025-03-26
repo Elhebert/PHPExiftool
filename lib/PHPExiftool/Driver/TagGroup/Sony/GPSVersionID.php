@@ -28,13 +28,14 @@ class GPSVersionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Version ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393506
+             * line : 279013
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FOV extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V3
-             * line : 282580
+             * line : 196184
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class FOV extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:FOV',
             'desc' => [
+                'en' => 'Field Of View',
             ],
         ],
     ];

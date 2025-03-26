@@ -28,13 +28,14 @@ class OmenRatioClipFactors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Ratio Clip Factors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155702
+             * line : 106913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenRatioClipFactors extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenRatioClipFactors',
             'desc' => [
+                'en' => 'Omen Ratio Clip Factors',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AdditionalModelInformation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Additional Model Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409076
+             * line : 288898
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdditionalModelInformation extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:AdditionalModelInformation',
             'desc' => [
+                'en' => 'Additional Model Information',
             ],
         ],
     ];

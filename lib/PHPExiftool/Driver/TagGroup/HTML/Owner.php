@@ -28,13 +28,14 @@ class Owner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142443
+             * line : 98502
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Owner extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Owner',
             'desc' => [
+                'en' => 'Owner',
             ],
         ],
     ];

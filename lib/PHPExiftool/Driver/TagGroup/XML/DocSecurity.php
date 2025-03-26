@@ -28,13 +28,14 @@ class DocSecurity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doc Security',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249088
+             * line : 171726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocSecurity extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:DocSecurity',
             'desc' => [
+                'en' => 'Doc Security',
             ],
         ],
     ];

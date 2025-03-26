@@ -28,13 +28,14 @@ class UserData_uid extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Data uid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326052
+             * line : 229991
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UserData_uid extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:UserData_uid',
             'desc' => [
+                'en' => 'User Data uid',
             ],
         ],
     ];

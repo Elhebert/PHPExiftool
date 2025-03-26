@@ -28,13 +28,14 @@ class MicrophoneFrequencyResponse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Microphone Frequency Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201651
+             * line : 136545
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicrophoneFrequencyResponse extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneFrequencyResponse',
             'desc' => [
+                'en' => 'Microphone Frequency Response',
             ],
         ],
     ];

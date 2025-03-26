@@ -28,13 +28,14 @@ class ImagePositionPatient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Position Patient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97899
+             * line : 71272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePositionPatient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePositionPatient',
             'desc' => [
+                'en' => 'Image Position Patient',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WedgeNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wedge Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103191
+             * line : 76287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WedgeNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WedgeNumber',
             'desc' => [
+                'en' => 'Wedge Number',
             ],
         ],
     ];

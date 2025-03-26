@@ -28,13 +28,14 @@ class AWBLoVfeM1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Lo Vfe M1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307074
+             * line : 213572
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBLoVfeM1 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBLoVfeM1',
             'desc' => [
+                'en' => 'AWB Lo Vfe M1',
             ],
         ],
     ];

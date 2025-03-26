@@ -28,13 +28,14 @@ class ToneCurveRed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Red',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401207
+             * line : 284605
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveRed extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ToneCurveRed',
             'desc' => [
+                'en' => 'Tone Curve Red',
             ],
         ],
     ];

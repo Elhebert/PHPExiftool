@@ -28,13 +28,14 @@ class ColorPrimaries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Primaries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329568
+             * line : 232134
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorPrimaries extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:ColorPrimaries',
             'desc' => [
+                'en' => 'Color Primaries',
             ],
         ],
     ];

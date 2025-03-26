@@ -28,13 +28,14 @@ class Modality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94761
+             * line : 68248
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Modality extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Modality',
             'desc' => [
+                'en' => 'Modality',
             ],
         ],
     ];

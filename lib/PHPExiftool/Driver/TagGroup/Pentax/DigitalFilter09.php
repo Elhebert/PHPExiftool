@@ -28,13 +28,14 @@ class DigitalFilter09 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Filter 09',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FilterInfo
-             * line : 286716
+             * line : 198868
              * type : undef
              * writable : true
              * count : 17
@@ -42,6 +43,7 @@ class DigitalFilter09 extends AbstractTagGroup
              */
             'id' => 'Pentax::FilterInfo.Pentax:DigitalFilter09',
             'desc' => [
+                'en' => 'Digital Filter 09',
             ],
         ],
     ];

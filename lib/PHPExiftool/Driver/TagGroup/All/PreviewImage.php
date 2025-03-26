@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90441
+             * line : 65191
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Composite.All:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : Extra
-             * line : 121489
+             * line : 85223
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Extra.All:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

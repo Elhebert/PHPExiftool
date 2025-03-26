@@ -28,13 +28,14 @@ class ModelReleaseStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Model Release Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272260
+             * line : 190209
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModelReleaseStatus extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:ModelReleaseStatus',
             'desc' => [
+                'en' => 'Model Release Status',
             ],
         ],
     ];

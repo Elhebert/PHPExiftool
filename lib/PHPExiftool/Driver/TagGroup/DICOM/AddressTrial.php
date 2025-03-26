@@ -28,13 +28,14 @@ class AddressTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Address Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100184
+             * line : 73359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AddressTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AddressTrial',
             'desc' => [
+                'en' => 'Address Trial',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageHorizontalFlip extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Horizontal Flip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101289
+             * line : 74439
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHorizontalFlip extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageHorizontalFlip',
             'desc' => [
+                'en' => 'Image Horizontal Flip',
             ],
         ],
     ];

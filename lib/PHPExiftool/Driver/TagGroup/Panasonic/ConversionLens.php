@@ -28,13 +28,14 @@ class ConversionLens extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Conversion Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276676
+             * line : 192623
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConversionLens extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ConversionLens',
             'desc' => [
+                'en' => 'Conversion Lens',
             ],
         ],
     ];

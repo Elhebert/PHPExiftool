@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396963
+             * line : 281133
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

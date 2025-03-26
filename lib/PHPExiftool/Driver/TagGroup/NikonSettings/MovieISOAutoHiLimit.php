@@ -28,13 +28,14 @@ class MovieISOAutoHiLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie ISO Auto Hi Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243282
+             * line : 166353
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MovieISOAutoHiLimit extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieISOAutoHiLimit',
             'desc' => [
+                'en' => 'Movie ISO Auto Hi Limit',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243422
+             * line : 166493
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MovieISOAutoHiLimit extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieISOAutoHiLimit',
             'desc' => [
+                'en' => 'Movie ISO Auto Hi Limit',
             ],
         ],
     ];

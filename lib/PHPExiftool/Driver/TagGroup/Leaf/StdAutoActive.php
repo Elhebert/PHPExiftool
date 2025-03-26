@@ -28,13 +28,14 @@ class StdAutoActive extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Auto Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161976
+             * line : 110678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdAutoActive extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdAutoActive',
             'desc' => [
+                'en' => 'Std Auto Active',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RIMMToCRGB3Spline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RIMM To CRGB3 Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157068
+             * line : 108272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RIMMToCRGB3Spline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RIMMToCRGB3Spline',
             'desc' => [
+                'en' => 'RIMM To CRGB3 Spline',
             ],
         ],
     ];

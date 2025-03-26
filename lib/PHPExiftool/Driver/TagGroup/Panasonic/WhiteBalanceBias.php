@@ -28,13 +28,14 @@ class WhiteBalanceBias extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275979
+             * line : 192209
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceBias extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:WhiteBalanceBias',
             'desc' => [
+                'en' => 'White Balance Bias',
             ],
         ],
     ];

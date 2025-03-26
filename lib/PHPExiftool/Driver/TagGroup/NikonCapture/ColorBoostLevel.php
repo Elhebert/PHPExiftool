@@ -28,13 +28,14 @@ class ColorBoostLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Boost Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::ColorBoost
-             * line : 210185
+             * line : 141536
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorBoostLevel extends AbstractTagGroup
              */
             'id' => 'NikonCapture::ColorBoost.NikonCapture:ColorBoostLevel',
             'desc' => [
+                'en' => 'Color Boost Level',
             ],
         ],
     ];

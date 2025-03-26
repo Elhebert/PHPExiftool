@@ -28,13 +28,14 @@ class WhiteBalanceBracket extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Bracket',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251179
+             * line : 173248
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalanceBracket extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:WhiteBalanceBracket',
             'desc' => [
+                'en' => 'White Balance Bracket',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 257991
+             * line : 178363
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WhiteBalanceBracket extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:WhiteBalanceBracket',
             'desc' => [
+                'en' => 'White Balance Bracket',
             ],
         ],
     ];

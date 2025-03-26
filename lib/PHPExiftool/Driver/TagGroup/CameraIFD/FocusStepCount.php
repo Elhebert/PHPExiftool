@@ -28,13 +28,14 @@ class FocusStepCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Step Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279695
+             * line : 194264
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusStepCount extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:FocusStepCount',
             'desc' => [
+                'en' => 'Focus Step Count',
             ],
         ],
     ];

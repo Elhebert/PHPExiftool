@@ -28,13 +28,14 @@ class DecayCorrectionDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decay Correction Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97312
+             * line : 70708
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecayCorrectionDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DecayCorrectionDateTime',
             'desc' => [
+                'en' => 'Decay Correction Date Time',
             ],
         ],
     ];

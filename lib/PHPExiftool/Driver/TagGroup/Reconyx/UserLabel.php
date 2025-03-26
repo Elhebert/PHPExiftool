@@ -28,13 +28,14 @@ class UserLabel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330809
+             * line : 232712
              * type : string
              * writable : true
              * count : 22
@@ -42,12 +43,13 @@ class UserLabel extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:UserLabel',
             'desc' => [
+                'en' => 'User Label',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 331020
+             * line : 232832
              * type : string
              * writable : true
              * count : 21
@@ -55,12 +57,13 @@ class UserLabel extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:UserLabel',
             'desc' => [
+                'en' => 'User Label',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331326
+             * line : 232976
              * type : string
              * writable : true
              * count : 22
@@ -68,6 +71,7 @@ class UserLabel extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:UserLabel',
             'desc' => [
+                'en' => 'User Label',
             ],
         ],
     ];

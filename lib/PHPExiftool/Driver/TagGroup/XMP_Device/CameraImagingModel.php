@@ -28,13 +28,14 @@ class CameraImagingModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Imaging Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396567
+             * line : 280784
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraImagingModel extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraImagingModel',
             'desc' => [
+                'en' => 'Camera Imaging Model',
             ],
         ],
     ];

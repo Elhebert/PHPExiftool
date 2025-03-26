@@ -28,13 +28,14 @@ class CaptionsAuthorNames extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Captions Author Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::digiKam
-             * line : 405009
+             * line : 287768
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptionsAuthorNames extends AbstractTagGroup
              */
             'id' => 'XMP::digiKam.XMP-digiKam:CaptionsAuthorNames',
             'desc' => [
+                'en' => 'Captions Author Names',
             ],
         ],
     ];

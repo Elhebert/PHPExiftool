@@ -28,13 +28,14 @@ class Album extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Album',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323259
+             * line : 228574
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Album extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Album',
             'desc' => [
+                'en' => 'Album',
             ],
         ],
     ];

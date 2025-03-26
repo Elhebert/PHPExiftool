@@ -28,13 +28,14 @@ class CameraSoftware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122274
+             * line : 85653
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class CameraSoftware extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraSoftware',
             'desc' => [
+                'en' => 'Camera Software',
             ],
         ],
     ];

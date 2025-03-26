@@ -28,13 +28,14 @@ class BlockStartOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Start Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171289
+             * line : 117494
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockStartOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BlockStartOffset',
             'desc' => [
+                'en' => 'Block Start Offset',
             ],
         ],
     ];

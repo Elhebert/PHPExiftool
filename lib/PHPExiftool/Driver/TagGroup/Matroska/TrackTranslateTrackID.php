@@ -28,13 +28,14 @@ class TrackTranslateTrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Translate Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173797
+             * line : 119696
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackTranslateTrackID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackTranslateTrackID',
             'desc' => [
+                'en' => 'Track Translate Track ID',
             ],
         ],
     ];

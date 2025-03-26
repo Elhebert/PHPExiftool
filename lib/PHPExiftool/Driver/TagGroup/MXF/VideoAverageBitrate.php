@@ -28,13 +28,14 @@ class VideoAverageBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Average Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170272
+             * line : 116547
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoAverageBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoAverageBitrate',
             'desc' => [
+                'en' => 'Video Average Bitrate',
             ],
         ],
     ];

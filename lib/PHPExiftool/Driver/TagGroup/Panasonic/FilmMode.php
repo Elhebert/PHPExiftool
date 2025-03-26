@@ -28,13 +28,14 @@ class FilmMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Film Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276981
+             * line : 192746
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilmMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:FilmMode',
             'desc' => [
+                'en' => 'Film Mode',
             ],
         ],
     ];

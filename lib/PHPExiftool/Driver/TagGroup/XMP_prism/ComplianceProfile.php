@@ -28,13 +28,14 @@ class ComplianceProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compliance Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410785
+             * line : 290065
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ComplianceProfile extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ComplianceProfile',
             'desc' => [
+                'en' => 'Compliance Profile',
             ],
         ],
     ];

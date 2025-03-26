@@ -28,13 +28,14 @@ class AF_CTrackingSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-C Tracking Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::AFCSettings
-             * line : 128318
+             * line : 89008
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_CTrackingSensitivity extends AbstractTagGroup
              */
             'id' => 'FujiFilm::AFCSettings.FujiFilm:AF-CTrackingSensitivity',
             'desc' => [
+                'en' => 'AF-C Tracking Sensitivity',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioLayer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Layer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165680
+             * line : 112657
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioLayer extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:AudioLayer',
             'desc' => [
+                'en' => 'Audio Layer',
             ],
         ],
     ];

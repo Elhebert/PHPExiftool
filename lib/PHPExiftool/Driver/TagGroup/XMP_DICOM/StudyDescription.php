@@ -28,13 +28,14 @@ class StudyDescription extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Study Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396476
+             * line : 280696
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StudyDescription extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:StudyDescription',
             'desc' => [
+                'en' => 'Study Description',
             ],
         ],
     ];

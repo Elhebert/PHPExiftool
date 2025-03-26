@@ -28,13 +28,14 @@ class FileURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148501
+             * line : 103119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:FileURL',
             'desc' => [
+                'en' => 'File URL',
             ],
         ],
     ];

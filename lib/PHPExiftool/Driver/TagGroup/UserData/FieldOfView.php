@@ -28,13 +28,14 @@ class FieldOfView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325238
+             * line : 229596
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FieldOfView extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:FieldOfView',
             'desc' => [
+                'en' => 'Field Of View',
             ],
         ],
     ];

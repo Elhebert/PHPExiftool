@@ -28,13 +28,14 @@ class Sony_rtmd_0x060e extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony rtmd 0x060e',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393401
+             * line : 278950
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sony_rtmd_0x060e extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:Sony_rtmd_0x060e',
             'desc' => [
+                'en' => 'Sony rtmd 0x060e',
             ],
         ],
     ];

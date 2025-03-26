@@ -28,13 +28,14 @@ class DVHMaximumDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Maximum Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102507
+             * line : 75606
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHMaximumDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHMaximumDose',
             'desc' => [
+                'en' => 'DVH Maximum Dose',
             ],
         ],
     ];

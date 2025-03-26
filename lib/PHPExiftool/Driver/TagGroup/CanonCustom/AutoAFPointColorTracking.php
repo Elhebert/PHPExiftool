@@ -28,13 +28,14 @@ class AutoAFPointColorTracking extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto AF Point Color Tracking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74387
+             * line : 54906
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoAFPointColorTracking extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AutoAFPointColorTracking',
             'desc' => [
+                'en' => 'Auto AF Point Color Tracking',
             ],
         ],
     ];

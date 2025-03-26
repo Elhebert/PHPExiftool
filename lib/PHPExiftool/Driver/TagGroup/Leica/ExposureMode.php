@@ -28,13 +28,14 @@ class ExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274813
+             * line : 191623
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
     ];

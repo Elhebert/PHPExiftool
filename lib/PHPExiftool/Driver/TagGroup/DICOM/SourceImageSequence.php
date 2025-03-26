@@ -28,13 +28,14 @@ class SourceImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94991
+             * line : 68473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceImageSequence',
             'desc' => [
+                'en' => 'Source Image Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276509
+             * line : 192561
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

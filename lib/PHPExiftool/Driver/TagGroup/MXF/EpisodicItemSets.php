@@ -28,13 +28,14 @@ class EpisodicItemSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Episodic Item Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171510
+             * line : 117709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EpisodicItemSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EpisodicItemSets',
             'desc' => [
+                'en' => 'Episodic Item Sets',
             ],
         ],
     ];

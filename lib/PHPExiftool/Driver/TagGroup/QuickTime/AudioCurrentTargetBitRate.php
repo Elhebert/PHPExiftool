@@ -28,13 +28,14 @@ class AudioCurrentTargetBitRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Current Target Bit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312645
+             * line : 218518
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCurrentTargetBitRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioCurrentTargetBitRate',
             'desc' => [
+                'en' => 'Audio Current Target Bit Rate',
             ],
         ],
     ];

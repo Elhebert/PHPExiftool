@@ -28,13 +28,14 @@ class EmbeddedImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162345
+             * line : 110872
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImage extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:EmbeddedImage',
             'desc' => [
+                'en' => 'Embedded Image',
             ],
         ],
     ];

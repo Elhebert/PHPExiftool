@@ -28,13 +28,14 @@ class PF25MeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF25 Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78319
+             * line : 57023
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF25MeteringMode extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25MeteringMode',
             'desc' => [
+                'en' => 'PF25 Metering Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DustRemovalData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dust Removal Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65893
+             * line : 50056
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DustRemovalData extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:DustRemovalData',
             'desc' => [
+                'en' => 'Dust Removal Data',
             ],
         ],
     ];

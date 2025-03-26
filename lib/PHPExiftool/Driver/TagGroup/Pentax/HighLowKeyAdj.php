@@ -28,13 +28,14 @@ class HighLowKeyAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High/Low Key Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299988
+             * line : 209108
              * type : int16s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class HighLowKeyAdj extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:HighLowKeyAdj',
             'desc' => [
+                'en' => 'High/Low Key Adj',
             ],
         ],
     ];

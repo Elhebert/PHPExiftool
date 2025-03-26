@@ -28,13 +28,14 @@ class DateCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395335
+             * line : 279984
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateCreated extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DateCreated',
             'desc' => [
+                'en' => 'Date Created',
             ],
         ],
     ];

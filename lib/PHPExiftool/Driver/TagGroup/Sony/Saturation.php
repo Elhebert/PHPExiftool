@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347446
+             * line : 243297
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348934
+             * line : 243969
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 353894
+             * line : 246791
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

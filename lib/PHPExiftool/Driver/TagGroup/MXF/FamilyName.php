@@ -28,13 +28,14 @@ class FamilyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Family Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167563
+             * line : 114177
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FamilyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FamilyName',
             'desc' => [
+                'en' => 'Family Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170056
+             * line : 116376
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FamilyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FamilyName',
             'desc' => [
+                'en' => 'Family Name',
             ],
         ],
     ];

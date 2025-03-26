@@ -28,13 +28,14 @@ class MovieFragmentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Fragment Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieFragHdr
-             * line : 324072
+             * line : 229001
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieFragmentSequence extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieFragHdr.QuickTime:MovieFragmentSequence',
             'desc' => [
+                'en' => 'Movie Fragment Sequence',
             ],
         ],
     ];

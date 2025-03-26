@@ -28,13 +28,14 @@ class TaggingDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tagging Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96865
+             * line : 70267
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TaggingDelay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TaggingDelay',
             'desc' => [
+                'en' => 'Tagging Delay',
             ],
         ],
     ];

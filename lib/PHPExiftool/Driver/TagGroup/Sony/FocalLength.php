@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 345947
+             * line : 242557
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::PMP
-             * line : 361522
+             * line : 251785
              * type : int16s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366910
+             * line : 255295
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369911
+             * line : 257919
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370941
+             * line : 258584
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373942
+             * line : 261208
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376943
+             * line : 263832
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393343
+             * line : 278925
              * type : int16u
              * writable : false
              * count :
@@ -133,6 +141,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

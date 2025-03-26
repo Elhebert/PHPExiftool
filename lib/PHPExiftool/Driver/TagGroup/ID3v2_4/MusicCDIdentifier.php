@@ -28,13 +28,14 @@ class MusicCDIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Music CD Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149276
+             * line : 103538
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MusicCDIdentifier extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:MusicCDIdentifier',
             'desc' => [
+                'en' => 'Music CD Identifier',
             ],
         ],
     ];

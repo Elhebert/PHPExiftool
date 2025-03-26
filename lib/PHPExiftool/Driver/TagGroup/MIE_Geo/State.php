@@ -28,13 +28,14 @@ class State extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Geo
-             * line : 163784
+             * line : 111496
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class State extends AbstractTagGroup
              */
             'id' => 'MIE::Geo.MIE-Geo:State',
             'desc' => [
+                'en' => 'State',
             ],
         ],
     ];

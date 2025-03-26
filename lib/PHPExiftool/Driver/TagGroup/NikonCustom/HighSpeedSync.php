@@ -28,13 +28,14 @@ class HighSpeedSync extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High Speed Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235847
+             * line : 159026
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighSpeedSync extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:HighSpeedSync',
             'desc' => [
+                'en' => 'High Speed Sync',
             ],
         ],
     ];

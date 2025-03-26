@@ -28,13 +28,14 @@ class FieldOfViewOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96454
+             * line : 69862
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewOrigin extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FieldOfViewOrigin',
             'desc' => [
+                'en' => 'Field Of View Origin',
             ],
         ],
     ];

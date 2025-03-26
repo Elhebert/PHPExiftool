@@ -28,13 +28,14 @@ class NumberOfWaveformChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Waveform Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99464
+             * line : 72678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfWaveformChannels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfWaveformChannels',
             'desc' => [
+                'en' => 'Number Of Waveform Channels',
             ],
         ],
     ];

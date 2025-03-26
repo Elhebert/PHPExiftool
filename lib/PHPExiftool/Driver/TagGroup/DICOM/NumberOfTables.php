@@ -28,13 +28,14 @@ class NumberOfTables extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Tables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98889
+             * line : 72159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTables extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTables',
             'desc' => [
+                'en' => 'Number Of Tables',
             ],
         ],
     ];

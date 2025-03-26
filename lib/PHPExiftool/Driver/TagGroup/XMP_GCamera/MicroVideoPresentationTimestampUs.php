@@ -28,13 +28,14 @@ class MicroVideoPresentationTimestampUs extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Micro Video Presentation Timestamp Us',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396883
+             * line : 281078
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicroVideoPresentationTimestampUs extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:MicroVideoPresentationTimestampUs',
             'desc' => [
+                'en' => 'Micro Video Presentation Timestamp Us',
             ],
         ],
     ];

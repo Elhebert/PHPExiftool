@@ -28,13 +28,14 @@ class SensorWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279419
+             * line : 194026
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
     ];

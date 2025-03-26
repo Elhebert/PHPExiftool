@@ -28,13 +28,14 @@ class ManifestPlacedXResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Placed X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414094
+             * line : 292116
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestPlacedXResolution extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestPlacedXResolution',
             'desc' => [
+                'en' => 'Manifest Placed X Resolution',
             ],
         ],
     ];

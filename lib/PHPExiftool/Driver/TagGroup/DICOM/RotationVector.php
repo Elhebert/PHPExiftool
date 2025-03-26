@@ -28,13 +28,14 @@ class RotationVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100853
+             * line : 74013
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotationVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RotationVector',
             'desc' => [
+                'en' => 'Rotation Vector',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureControlSensRegionLeftEdge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Control Sens Region Left Edge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97152
+             * line : 70549
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureControlSensRegionLeftEdge extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureControlSensRegionLeftEdge',
             'desc' => [
+                'en' => 'Exposure Control Sens Region Left Edge',
             ],
         ],
     ];

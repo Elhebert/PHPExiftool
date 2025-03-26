@@ -28,13 +28,14 @@ class EncryptedAttributesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encrypted Attributes Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101932
+             * line : 75072
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncryptedAttributesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EncryptedAttributesSequence',
             'desc' => [
+                'en' => 'Encrypted Attributes Sequence',
             ],
         ],
     ];

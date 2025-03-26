@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::MOV
-             * line : 294710
+             * line : 205967
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Pentax::MOV.Pentax:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 297854
+             * line : 207839
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Main
-             * line : 297872
+             * line : 207842
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301034
+             * line : 209731
              * type : int32u
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

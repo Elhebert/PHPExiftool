@@ -28,13 +28,14 @@ class CropRight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crop Right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173717
+             * line : 119623
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CropRight extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CropRight',
             'desc' => [
+                'en' => 'Crop Right',
             ],
         ],
     ];

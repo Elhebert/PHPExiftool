@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333491
+             * line : 233867
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StreamBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152851
+             * line : 105167
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamBitDepth extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:StreamBitDepth',
             'desc' => [
+                'en' => 'Stream Bit Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovieFlickerReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Flicker Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201530
+             * line : 136424
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieFlickerReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieFlickerReduction',
             'desc' => [
+                'en' => 'Movie Flicker Reduction',
             ],
         ],
     ];

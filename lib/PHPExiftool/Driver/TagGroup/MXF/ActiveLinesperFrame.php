@@ -28,13 +28,14 @@ class ActiveLinesperFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Linesper Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167821
+             * line : 114380
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveLinesperFrame extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ActiveLinesperFrame',
             'desc' => [
+                'en' => 'Active Linesper Frame',
             ],
         ],
     ];

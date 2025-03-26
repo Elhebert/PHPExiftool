@@ -28,13 +28,14 @@ class RequestingService extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requesting Service',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99350
+             * line : 72567
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestingService extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestingService',
             'desc' => [
+                'en' => 'Requesting Service',
             ],
         ],
     ];

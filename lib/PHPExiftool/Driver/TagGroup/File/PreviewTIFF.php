@@ -28,13 +28,14 @@ class PreviewTIFF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview TIFF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121511
+             * line : 85232
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewTIFF extends AbstractTagGroup
              */
             'id' => 'Extra.File:PreviewTIFF',
             'desc' => [
+                'en' => 'Preview TIFF',
             ],
         ],
     ];

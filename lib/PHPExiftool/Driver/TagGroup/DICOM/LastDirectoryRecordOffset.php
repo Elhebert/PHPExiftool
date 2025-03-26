@@ -28,13 +28,14 @@ class LastDirectoryRecordOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Directory Record Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94601
+             * line : 68101
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastDirectoryRecordOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LastDirectoryRecordOffset',
             'desc' => [
+                'en' => 'Last Directory Record Offset',
             ],
         ],
     ];

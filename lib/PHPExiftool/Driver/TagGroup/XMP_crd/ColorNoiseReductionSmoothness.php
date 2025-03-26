@@ -28,13 +28,14 @@ class ColorNoiseReductionSmoothness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Noise Reduction Smoothness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398749
+             * line : 282347
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorNoiseReductionSmoothness extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ColorNoiseReductionSmoothness',
             'desc' => [
+                'en' => 'Color Noise Reduction Smoothness',
             ],
         ],
     ];

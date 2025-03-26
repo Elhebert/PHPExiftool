@@ -28,13 +28,14 @@ class MediaWhitePoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146901
+             * line : 102006
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaWhitePoint extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:MediaWhitePoint',
             'desc' => [
+                'en' => 'Media White Point',
             ],
         ],
     ];

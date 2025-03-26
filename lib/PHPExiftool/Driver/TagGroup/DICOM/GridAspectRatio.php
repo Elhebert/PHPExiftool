@@ -28,13 +28,14 @@ class GridAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96475
+             * line : 69883
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridAspectRatio extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridAspectRatio',
             'desc' => [
+                'en' => 'Grid Aspect Ratio',
             ],
         ],
     ];

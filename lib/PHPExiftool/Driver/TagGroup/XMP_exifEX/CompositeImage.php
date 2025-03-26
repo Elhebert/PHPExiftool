@@ -28,13 +28,14 @@ class CompositeImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composite Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408488
+             * line : 288557
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompositeImage extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:CompositeImage',
             'desc' => [
+                'en' => 'Composite Image',
             ],
         ],
     ];

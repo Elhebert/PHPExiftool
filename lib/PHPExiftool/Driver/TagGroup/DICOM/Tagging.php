@@ -28,13 +28,14 @@ class Tagging extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tagging',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96578
+             * line : 69982
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Tagging extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Tagging',
             'desc' => [
+                'en' => 'Tagging',
             ],
         ],
     ];

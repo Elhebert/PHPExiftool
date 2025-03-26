@@ -28,13 +28,14 @@ class LinkedTimecodeTrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Timecode Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172409
+             * line : 118570
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedTimecodeTrackID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkedTimecodeTrackID',
             'desc' => [
+                'en' => 'Linked Timecode Track ID',
             ],
         ],
     ];

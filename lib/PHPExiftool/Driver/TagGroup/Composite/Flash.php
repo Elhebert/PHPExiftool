@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93886
+             * line : 67922
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

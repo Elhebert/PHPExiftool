@@ -28,13 +28,14 @@ class ApplePhotosVariationIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Apple Photos Variation Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323269
+             * line : 228577
              * type : int64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApplePhotosVariationIdentifier extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:ApplePhotosVariationIdentifier',
             'desc' => [
+                'en' => 'Apple Photos Variation Identifier',
             ],
         ],
     ];

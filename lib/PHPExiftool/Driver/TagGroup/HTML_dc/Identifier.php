@@ -28,13 +28,14 @@ class Identifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142751
+             * line : 98615
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Identifier extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Identifier',
             'desc' => [
+                'en' => 'Identifier',
             ],
         ],
     ];

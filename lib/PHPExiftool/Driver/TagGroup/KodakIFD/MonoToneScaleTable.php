@@ -28,13 +28,14 @@ class MonoToneScaleTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mono Tone Scale Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155636
+             * line : 106847
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MonoToneScaleTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MonoToneScaleTable',
             'desc' => [
+                'en' => 'Mono Tone Scale Table',
             ],
         ],
     ];

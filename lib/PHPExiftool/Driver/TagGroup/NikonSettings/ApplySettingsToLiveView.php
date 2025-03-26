@@ -28,13 +28,14 @@ class ApplySettingsToLiveView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apply Settings To Live View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247202
+             * line : 169895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplySettingsToLiveView extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ApplySettingsToLiveView',
             'desc' => [
+                'en' => 'Apply Settings To Live View',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CatalogDataStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Catalog Data Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167645
+             * line : 114251
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CatalogDataStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CatalogDataStatus',
             'desc' => [
+                'en' => 'Catalog Data Status',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 167743
+             * line : 114320
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CatalogDataStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CatalogDataStatus',
             'desc' => [
+                'en' => 'Catalog Data Status',
             ],
         ],
     ];

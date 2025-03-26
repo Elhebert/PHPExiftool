@@ -28,13 +28,14 @@ class XRayTubeCurrent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Tube Current',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95858
+             * line : 69289
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayTubeCurrent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayTubeCurrent',
             'desc' => [
+                'en' => 'X Ray Tube Current',
             ],
         ],
     ];

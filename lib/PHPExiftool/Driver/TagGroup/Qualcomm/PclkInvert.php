@@ -28,13 +28,14 @@ class PclkInvert extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pclk Invert',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307485
+             * line : 213983
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PclkInvert extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:PclkInvert',
             'desc' => [
+                'en' => 'Pclk Invert',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PropertySetIDCodes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Property Set ID Codes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124601
+             * line : 87084
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PropertySetIDCodes extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:PropertySetIDCodes',
             'desc' => [
+                'en' => 'Property Set ID Codes',
             ],
         ],
     ];

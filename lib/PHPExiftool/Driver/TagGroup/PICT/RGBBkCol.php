@@ -28,13 +28,14 @@ class RGBBkCol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264693
+             * line : 182939
              * type : RGBColor
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RGBBkCol extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:RGBBkCol',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

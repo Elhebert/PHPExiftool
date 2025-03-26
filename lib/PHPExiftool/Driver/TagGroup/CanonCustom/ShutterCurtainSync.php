@@ -28,13 +28,14 @@ class ShutterCurtainSync extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Curtain Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71772
+             * line : 53423
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72237
+             * line : 53685
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73366
+             * line : 54287
              * type : int32s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76077
+             * line : 55914
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76598
+             * line : 56161
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::Functions350D
-             * line : 76966
+             * line : 56338
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions350D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         6 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 77232
+             * line : 56462
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         7 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77716
+             * line : 56697
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
         8 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78086
+             * line : 56874
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class ShutterCurtainSync extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:ShutterCurtainSync',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
     ];

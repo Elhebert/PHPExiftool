@@ -28,13 +28,14 @@ class SupportsOutputReferred extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supports Output Referred',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401105
+             * line : 284540
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupportsOutputReferred extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SupportsOutputReferred',
             'desc' => [
+                'en' => 'Supports Output Referred',
             ],
         ],
     ];

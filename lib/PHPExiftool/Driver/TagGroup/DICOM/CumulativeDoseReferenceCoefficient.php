@@ -28,13 +28,14 @@ class CumulativeDoseReferenceCoefficient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cumulative Dose Reference Coefficient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103336
+             * line : 76431
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CumulativeDoseReferenceCoefficient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CumulativeDoseReferenceCoefficient',
             'desc' => [
+                'en' => 'Cumulative Dose Reference Coefficient',
             ],
         ],
     ];

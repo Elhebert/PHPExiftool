@@ -28,13 +28,14 @@ class WhiteBalanceFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129507
+             * line : 89561
              * type : int32s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FaceElementSelected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Element Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130953
+             * line : 90451
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class FaceElementSelected extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FaceElementSelected',
             'desc' => [
+                'en' => 'Face Element Selected',
             ],
         ],
     ];

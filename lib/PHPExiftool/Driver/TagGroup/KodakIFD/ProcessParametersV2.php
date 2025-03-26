@@ -28,13 +28,14 @@ class ProcessParametersV2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Process Parameters V2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157119
+             * line : 108323
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcessParametersV2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ProcessParametersV2',
             'desc' => [
+                'en' => 'Process Parameters V2',
             ],
         ],
     ];

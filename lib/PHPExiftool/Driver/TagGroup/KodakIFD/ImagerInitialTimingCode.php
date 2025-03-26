@@ -28,13 +28,14 @@ class ImagerInitialTimingCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imager Initial Timing Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155069
+             * line : 106319
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagerInitialTimingCode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerInitialTimingCode',
             'desc' => [
+                'en' => 'Imager Initial Timing Code',
             ],
         ],
     ];

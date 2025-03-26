@@ -28,13 +28,14 @@ class Profile1AudioCodec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile 1 Audio Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Profiles
-             * line : 395083
+             * line : 279841
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Profile1AudioCodec extends AbstractTagGroup
              */
             'id' => 'Torrent::Profiles.Torrent:Profile1AudioCodec',
             'desc' => [
+                'en' => 'Profile 1 Audio Codec',
             ],
         ],
     ];

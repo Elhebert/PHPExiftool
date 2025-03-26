@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123927
+             * line : 86660
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
         1 => [
             /**
              * table_name : Flash::Meta
-             * line : 124076
+             * line : 86729
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReaderRequirements extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reader Requirements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154287
+             * line : 105936
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReaderRequirements extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:ReaderRequirements',
             'desc' => [
+                'en' => 'Reader Requirements',
             ],
         ],
     ];

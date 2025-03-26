@@ -28,13 +28,14 @@ class USMParametersLow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'USM Parameters Low',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155473
+             * line : 106685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class USMParametersLow extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:USMParametersLow',
             'desc' => [
+                'en' => 'USM Parameters Low',
             ],
         ],
     ];

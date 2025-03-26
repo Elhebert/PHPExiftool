@@ -28,13 +28,14 @@ class FillRRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill R Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264811
+             * line : 183041
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillRRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillRRect',
             'desc' => [
+                'en' => 'Fill R Rect',
             ],
         ],
     ];

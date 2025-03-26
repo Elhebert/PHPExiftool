@@ -28,13 +28,14 @@ class Calibration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337565
+             * line : 236147
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Calibration extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Calibration',
             'desc' => [
+                'en' => 'Calibration',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 338887
+             * line : 237344
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Calibration extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Calibration',
             'desc' => [
+                'en' => 'Calibration',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256873
+             * line : 177392
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::thmb
-             * line : 263299
+             * line : 182232
              * type : undef
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Olympus::thmb.Olympus:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::thmb2
-             * line : 263342
+             * line : 182248
              * type : undef
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Olympus::thmb2.Olympus:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfVectors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Vectors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101181
+             * line : 74331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfVectors extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfVectors',
             'desc' => [
+                'en' => 'Number Of Vectors',
             ],
         ],
     ];

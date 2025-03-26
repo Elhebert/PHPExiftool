@@ -28,13 +28,14 @@ class HL7StructuredDocumentRefSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HL7 Structured Document Ref Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100206
+             * line : 73380
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HL7StructuredDocumentRefSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HL7StructuredDocumentRefSeq',
             'desc' => [
+                'en' => 'HL7 Structured Document Ref Seq',
             ],
         ],
     ];

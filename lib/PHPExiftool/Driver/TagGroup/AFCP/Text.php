@@ -28,13 +28,14 @@ class Text extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AFCP::Main
-             * line : 38
+             * line : 13
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Text extends AbstractTagGroup
              */
             'id' => 'AFCP::Main.AFCP:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MakeModel
-             * line : 142009
+             * line : 98338
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'H264::MakeModel.H264:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

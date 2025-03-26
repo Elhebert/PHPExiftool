@@ -28,13 +28,14 @@ class BrightnessValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Free
-             * line : 154505
+             * line : 106049
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159459
+             * line : 109411
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
     ];

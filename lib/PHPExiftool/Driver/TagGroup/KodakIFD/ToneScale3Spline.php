@@ -28,13 +28,14 @@ class ToneScale3Spline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Scale 3 Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157008
+             * line : 108212
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneScale3Spline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ToneScale3Spline',
             'desc' => [
+                'en' => 'Tone Scale 3 Spline',
             ],
         ],
     ];

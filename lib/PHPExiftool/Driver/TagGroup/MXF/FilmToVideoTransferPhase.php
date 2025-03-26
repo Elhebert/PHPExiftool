@@ -28,13 +28,14 @@ class FilmToVideoTransferPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film To Video Transfer Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169438
+             * line : 115842
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmToVideoTransferPhase extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmToVideoTransferPhase',
             'desc' => [
+                'en' => 'Film To Video Transfer Phase',
             ],
         ],
     ];

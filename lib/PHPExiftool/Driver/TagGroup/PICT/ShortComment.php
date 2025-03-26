@@ -28,13 +28,14 @@ class ShortComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Short Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265027
+             * line : 183242
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShortComment extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:ShortComment',
             'desc' => [
+                'en' => 'Short Comment',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101327
+             * line : 74475
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentLabel',
             'desc' => [
+                'en' => 'Content Label',
             ],
         ],
     ];

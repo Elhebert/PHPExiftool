@@ -28,13 +28,14 @@ class AcquisitionEndConditionData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition End Condition Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95515
+             * line : 68971
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionEndConditionData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionEndConditionData',
             'desc' => [
+                'en' => 'Acquisition End Condition Data',
             ],
         ],
     ];

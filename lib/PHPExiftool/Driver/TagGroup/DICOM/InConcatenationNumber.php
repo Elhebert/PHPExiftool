@@ -28,13 +28,14 @@ class InConcatenationNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'In Concatenation Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98081
+             * line : 71428
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InConcatenationNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InConcatenationNumber',
             'desc' => [
+                'en' => 'In Concatenation Number',
             ],
         ],
     ];

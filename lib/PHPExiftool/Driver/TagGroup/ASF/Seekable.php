@@ -28,13 +28,14 @@ class Seekable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seekable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1568
+             * line : 763
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Seekable extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Seekable',
             'desc' => [
+                'en' => 'Seekable',
             ],
         ],
     ];

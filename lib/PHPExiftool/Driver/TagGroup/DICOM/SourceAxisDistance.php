@@ -28,13 +28,14 @@ class SourceAxisDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Axis Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103134
+             * line : 76230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceAxisDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceAxisDistance',
             'desc' => [
+                'en' => 'Source Axis Distance',
             ],
         ],
     ];

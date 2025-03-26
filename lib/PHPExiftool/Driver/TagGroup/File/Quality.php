@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PGF::Main
-             * line : 264510
+             * line : 182819
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

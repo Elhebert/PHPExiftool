@@ -28,13 +28,14 @@ class ObjectiveLens extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Objective Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166489
+             * line : 113230
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class ObjectiveLens extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ObjectiveLens',
             'desc' => [
+                'en' => 'Objective Lens',
             ],
         ],
     ];

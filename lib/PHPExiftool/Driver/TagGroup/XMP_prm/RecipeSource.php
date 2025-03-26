@@ -28,13 +28,14 @@ class RecipeSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recipe Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411246
+             * line : 290436
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecipeSource extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:RecipeSource',
             'desc' => [
+                'en' => 'Recipe Source',
             ],
         ],
     ];

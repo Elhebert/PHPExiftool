@@ -28,13 +28,14 @@ class OmenAtCaptureMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen At Capture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155660
+             * line : 106871
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenAtCaptureMode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenAtCaptureMode',
             'desc' => [
+                'en' => 'Omen At Capture Mode',
             ],
         ],
     ];

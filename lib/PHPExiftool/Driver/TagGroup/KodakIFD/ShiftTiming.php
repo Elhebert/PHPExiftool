@@ -28,13 +28,14 @@ class ShiftTiming extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shift Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155054
+             * line : 106304
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShiftTiming extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ShiftTiming',
             'desc' => [
+                'en' => 'Shift Timing',
             ],
         ],
     ];

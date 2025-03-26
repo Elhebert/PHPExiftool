@@ -28,13 +28,14 @@ class ITunesU extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'iTunes U',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148704
+             * line : 103230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ITunesU extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:iTunesU',
             'desc' => [
+                'en' => 'iTunes U',
             ],
         ],
     ];

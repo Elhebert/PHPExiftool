@@ -28,13 +28,14 @@ class SourceImageCenterXCoordinate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Image Center X Coordinate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168332
+             * line : 114827
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceImageCenterXCoordinate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceImageCenterXCoordinate',
             'desc' => [
+                'en' => 'Source Image Center X Coordinate',
             ],
         ],
     ];

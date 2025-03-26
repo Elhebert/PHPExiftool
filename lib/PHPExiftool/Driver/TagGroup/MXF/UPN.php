@@ -28,13 +28,14 @@ class UPN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UPN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167257
+             * line : 113889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UPN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UPN',
             'desc' => [
+                'en' => 'UPN',
             ],
         ],
     ];

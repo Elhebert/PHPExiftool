@@ -28,13 +28,14 @@ class BaselineExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Baseline Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119127
+             * line : 84177
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaselineExposure extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:BaselineExposure',
             'desc' => [
+                'en' => 'Baseline Exposure',
             ],
         ],
     ];

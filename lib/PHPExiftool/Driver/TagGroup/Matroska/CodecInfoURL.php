@@ -28,13 +28,14 @@ class CodecInfoURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Info URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 174008
+             * line : 119851
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecInfoURL extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CodecInfoURL',
             'desc' => [
+                'en' => 'Codec Info URL',
             ],
         ],
     ];

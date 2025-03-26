@@ -28,13 +28,14 @@ class Date extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395760
+             * line : 280205
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Date extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Date',
             'desc' => [
+                'en' => 'Date',
             ],
         ],
     ];

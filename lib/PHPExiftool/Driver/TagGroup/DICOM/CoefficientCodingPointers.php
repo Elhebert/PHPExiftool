@@ -28,13 +28,14 @@ class CoefficientCodingPointers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coefficient Coding Pointers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98855
+             * line : 72126
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoefficientCodingPointers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CoefficientCodingPointers',
             'desc' => [
+                'en' => 'Coefficient Coding Pointers',
             ],
         ],
     ];

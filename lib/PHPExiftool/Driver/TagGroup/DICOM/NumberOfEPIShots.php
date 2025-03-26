@@ -28,13 +28,14 @@ class NumberOfEPIShots extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of EPI Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100303
+             * line : 73476
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfEPIShots extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfEPIShots',
             'desc' => [
+                'en' => 'Number Of EPI Shots',
             ],
         ],
     ];

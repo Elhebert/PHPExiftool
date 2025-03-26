@@ -28,13 +28,14 @@ class MDItemLensModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172880
+             * line : 118954
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemLensModel extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemLensModel',
             'desc' => [
+                'en' => 'MD Item Lens Model',
             ],
         ],
     ];

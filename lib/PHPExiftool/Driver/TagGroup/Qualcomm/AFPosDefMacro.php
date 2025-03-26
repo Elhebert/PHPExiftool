@@ -28,13 +28,14 @@ class AFPosDefMacro extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Pos Def Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306255
+             * line : 212753
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFPosDefMacro extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFPosDefMacro',
             'desc' => [
+                'en' => 'AF Pos Def Macro',
             ],
         ],
     ];

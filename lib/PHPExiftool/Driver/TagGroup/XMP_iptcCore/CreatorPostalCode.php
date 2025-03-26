@@ -28,13 +28,14 @@ class CreatorPostalCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Postal Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 408959
+             * line : 288849
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorPostalCode extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorPostalCode',
             'desc' => [
+                'en' => 'Creator Postal Code',
             ],
         ],
     ];

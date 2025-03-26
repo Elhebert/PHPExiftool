@@ -28,13 +28,14 @@ class IntensityStereo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intensity Stereo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165839
+             * line : 112773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntensityStereo extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:IntensityStereo',
             'desc' => [
+                'en' => 'Intensity Stereo',
             ],
         ],
     ];

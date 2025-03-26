@@ -28,13 +28,14 @@ class BeamStopperPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Stopper Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102924
+             * line : 76020
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamStopperPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamStopperPosition',
             'desc' => [
+                'en' => 'Beam Stopper Position',
             ],
         ],
     ];

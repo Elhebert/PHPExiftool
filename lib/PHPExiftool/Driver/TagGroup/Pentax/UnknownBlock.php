@@ -28,13 +28,14 @@ class UnknownBlock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Block',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300937
+             * line : 209709
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownBlock extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:UnknownBlock',
             'desc' => [
+                'en' => 'Unknown Block',
             ],
         ],
     ];

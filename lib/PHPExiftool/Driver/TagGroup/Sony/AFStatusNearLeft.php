@@ -28,13 +28,14 @@ class AFStatusNearLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Near Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343456
+             * line : 240400
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusNearLeft extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusNearLeft',
             'desc' => [
+                'en' => 'AF Status Near Left',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFStatus19
-             * line : 343733
+             * line : 240668
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFStatusNearLeft extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus19.Sony:AFStatusNearLeft',
             'desc' => [
+                'en' => 'AF Status Near Left',
             ],
         ],
     ];

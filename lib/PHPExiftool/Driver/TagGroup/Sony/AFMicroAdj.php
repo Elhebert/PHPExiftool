@@ -28,13 +28,14 @@ class AFMicroAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Micro Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 343027
+             * line : 240144
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFMicroAdj extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFMicroAdj',
             'desc' => [
+                'en' => 'AF Micro Adj',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 343135
+             * line : 240212
              * type : int8s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFMicroAdj extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFMicroAdj',
             'desc' => [
+                'en' => 'AF Micro Adj',
             ],
         ],
     ];

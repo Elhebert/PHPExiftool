@@ -28,13 +28,14 @@ class AnatomicPerspectiveCodeSeqTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomic Perspective Code Seq Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95084
+             * line : 68566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicPerspectiveCodeSeqTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicPerspectiveCodeSeqTrial',
             'desc' => [
+                'en' => 'Anatomic Perspective Code Seq Trial',
             ],
         ],
     ];

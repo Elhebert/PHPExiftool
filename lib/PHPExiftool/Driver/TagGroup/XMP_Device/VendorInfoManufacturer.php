@@ -28,13 +28,14 @@ class VendorInfoManufacturer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vendor Info Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396812
+             * line : 281021
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VendorInfoManufacturer extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:VendorInfoManufacturer',
             'desc' => [
+                'en' => 'Vendor Info Manufacturer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Converter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Converter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120846
+             * line : 84912
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Converter extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Converter',
             'desc' => [
+                'en' => 'Converter',
             ],
         ],
     ];

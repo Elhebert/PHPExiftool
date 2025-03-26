@@ -28,13 +28,14 @@ class WB_BlueLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Blue Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185527
+             * line : 125850
              * type : int16u
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class WB_BlueLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFlash',
             'desc' => [
+                'en' => 'WB Blue Levels Flash',
             ],
         ],
     ];

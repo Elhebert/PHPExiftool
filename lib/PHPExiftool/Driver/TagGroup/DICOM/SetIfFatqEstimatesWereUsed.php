@@ -28,13 +28,14 @@ class SetIfFatqEstimatesWereUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Set If Fatq Estimates Were Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97545
+             * line : 70930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetIfFatqEstimatesWereUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SetIfFatqEstimatesWereUsed',
             'desc' => [
+                'en' => 'Set If Fatq Estimates Were Used',
             ],
         ],
     ];

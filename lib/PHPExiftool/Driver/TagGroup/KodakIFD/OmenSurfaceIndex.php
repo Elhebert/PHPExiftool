@@ -28,13 +28,14 @@ class OmenSurfaceIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Omen Surface Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155666
+             * line : 106877
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OmenSurfaceIndex extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenSurfaceIndex',
             'desc' => [
+                'en' => 'Omen Surface Index',
             ],
         ],
     ];

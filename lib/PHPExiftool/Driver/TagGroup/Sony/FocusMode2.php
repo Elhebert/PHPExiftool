@@ -28,13 +28,14 @@ class FocusMode2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361019
+             * line : 251530
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusMode2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusMode2',
             'desc' => [
+                'en' => 'Focus Mode 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361051
+             * line : 251555
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusMode2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusMode2',
             'desc' => [
+                'en' => 'Focus Mode 2',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361103
+             * line : 251597
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusMode2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusMode2',
             'desc' => [
+                'en' => 'Focus Mode 2',
             ],
         ],
     ];

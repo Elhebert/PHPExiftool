@@ -28,13 +28,14 @@ class AudioSampleCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamHeader
-             * line : 328815
+             * line : 231892
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSampleCount extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamHeader.RIFF:AudioSampleCount',
             'desc' => [
+                'en' => 'Audio Sample Count',
             ],
         ],
     ];

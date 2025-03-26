@@ -28,13 +28,14 @@ class OmenGradientKernel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Gradient Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155696
+             * line : 106907
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenGradientKernel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenGradientKernel',
             'desc' => [
+                'en' => 'Omen Gradient Kernel',
             ],
         ],
     ];

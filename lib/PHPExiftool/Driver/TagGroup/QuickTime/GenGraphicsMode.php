@@ -28,13 +28,14 @@ class GenGraphicsMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Graphics Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GenMediaInfo
-             * line : 313247
+             * line : 218994
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenGraphicsMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::GenMediaInfo.QuickTime:GenGraphicsMode',
             'desc' => [
+                'en' => 'Gen Graphics Mode',
             ],
         ],
     ];

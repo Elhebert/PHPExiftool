@@ -28,13 +28,14 @@ class ImageDepthAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Depth Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166934
+             * line : 113623
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageDepthAxis extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageDepthAxis',
             'desc' => [
+                'en' => 'Image Depth Axis',
             ],
         ],
     ];

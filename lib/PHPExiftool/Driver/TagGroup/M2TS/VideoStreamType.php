@@ -28,13 +28,14 @@ class VideoStreamType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Stream Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : M2TS::Main
-             * line : 162630
+             * line : 111103
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoStreamType extends AbstractTagGroup
              */
             'id' => 'M2TS::Main.M2TS:VideoStreamType',
             'desc' => [
+                'en' => 'Video Stream Type',
             ],
         ],
     ];

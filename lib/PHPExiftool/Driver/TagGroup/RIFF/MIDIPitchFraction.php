@@ -28,13 +28,14 @@ class MIDIPitchFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIDI Pitch Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328709
+             * line : 231795
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIDIPitchFraction extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:MIDIPitchFraction',
             'desc' => [
+                'en' => 'MIDI Pitch Fraction',
             ],
         ],
     ];

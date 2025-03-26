@@ -28,13 +28,14 @@ class GooglePingURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Ping URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322191
+             * line : 227750
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GooglePingURL extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GooglePingURL',
             'desc' => [
+                'en' => 'Google Ping URL',
             ],
         ],
     ];

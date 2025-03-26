@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251241
+             * line : 173280
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

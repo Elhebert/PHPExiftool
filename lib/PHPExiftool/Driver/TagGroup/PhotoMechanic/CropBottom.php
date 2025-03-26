@@ -28,13 +28,14 @@ class CropBottom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Bottom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::SoftEdit
-             * line : 304760
+             * line : 211849
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropBottom extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:CropBottom',
             'desc' => [
+                'en' => 'Crop Bottom',
             ],
         ],
     ];

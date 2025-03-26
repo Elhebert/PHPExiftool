@@ -28,13 +28,14 @@ class MetaImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meta Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323928
+             * line : 228912
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetaImageSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:MetaImageSize',
             'desc' => [
+                'en' => 'Meta Image Size',
             ],
         ],
     ];

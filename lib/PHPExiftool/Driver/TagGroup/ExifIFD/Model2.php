@@ -28,13 +28,14 @@ class Model2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112957
+             * line : 82275
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Model2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Model2',
             'desc' => [
+                'en' => 'Model 2',
             ],
         ],
     ];

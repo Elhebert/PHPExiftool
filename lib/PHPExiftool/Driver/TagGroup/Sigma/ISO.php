@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 339171
+             * line : 237413
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

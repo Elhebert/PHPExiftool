@@ -28,13 +28,14 @@ class Mime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mime',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396999
+             * line : 281150
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Mime extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Mime',
             'desc' => [
+                'en' => 'Mime',
             ],
         ],
     ];

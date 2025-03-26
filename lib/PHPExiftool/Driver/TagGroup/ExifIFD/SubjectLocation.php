@@ -28,13 +28,14 @@ class SubjectLocation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116749
+             * line : 83443
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class SubjectLocation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SubjectLocation',
             'desc' => [
+                'en' => 'Subject Location',
             ],
         ],
     ];

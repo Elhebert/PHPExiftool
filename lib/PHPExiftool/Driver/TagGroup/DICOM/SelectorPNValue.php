@@ -28,13 +28,14 @@ class SelectorPNValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector PN Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101515
+             * line : 74661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorPNValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorPNValue',
             'desc' => [
+                'en' => 'Selector PN Value',
             ],
         ],
     ];

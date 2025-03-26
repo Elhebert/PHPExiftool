@@ -28,13 +28,14 @@ class AccessDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Access Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161425
+             * line : 110279
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccessDate extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:AccessDate',
             'desc' => [
+                'en' => 'Access Date',
             ],
         ],
     ];

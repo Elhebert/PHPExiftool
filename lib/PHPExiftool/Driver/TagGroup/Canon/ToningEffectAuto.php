@@ -28,13 +28,14 @@ class ToningEffectAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68745
+             * line : 51931
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToningEffectAuto extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ToningEffectAuto',
             'desc' => [
+                'en' => 'Toning Effect Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChannelShieldNominalTransmission extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Shield Nominal Transmission',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103699
+             * line : 76788
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelShieldNominalTransmission extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelShieldNominalTransmission',
             'desc' => [
+                'en' => 'Channel Shield Nominal Transmission',
             ],
         ],
     ];

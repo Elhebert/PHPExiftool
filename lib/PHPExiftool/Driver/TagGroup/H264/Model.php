@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 141947
+             * line : 98321
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

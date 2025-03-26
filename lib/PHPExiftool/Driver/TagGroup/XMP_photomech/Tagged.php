@@ -28,13 +28,14 @@ class Tagged extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tagged',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304949
+             * line : 211958
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Tagged extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:Tagged',
             'desc' => [
+                'en' => 'Tagged',
             ],
         ],
     ];

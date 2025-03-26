@@ -28,13 +28,14 @@ class WMADRCPeakTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WMADRC Peak Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1684
+             * line : 835
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMADRCPeakTarget extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:WMADRCPeakTarget',
             'desc' => [
+                'en' => 'WMADRC Peak Target',
             ],
         ],
     ];

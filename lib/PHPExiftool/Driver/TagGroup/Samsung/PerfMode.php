@@ -28,13 +28,14 @@ class PerfMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Perf Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334220
+             * line : 234300
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerfMode extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:PerfMode',
             'desc' => [
+                'en' => 'Perf Mode',
             ],
         ],
     ];

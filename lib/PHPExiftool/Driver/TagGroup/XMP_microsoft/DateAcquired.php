@@ -28,13 +28,14 @@ class DateAcquired extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Acquired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174341
+             * line : 120076
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateAcquired extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:DateAcquired',
             'desc' => [
+                'en' => 'Date Acquired',
             ],
         ],
     ];

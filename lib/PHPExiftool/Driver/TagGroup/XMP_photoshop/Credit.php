@@ -28,13 +28,14 @@ class Credit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Credit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410231
+             * line : 289773
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Credit extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:Credit',
             'desc' => [
+                'en' => 'Credit',
             ],
         ],
     ];

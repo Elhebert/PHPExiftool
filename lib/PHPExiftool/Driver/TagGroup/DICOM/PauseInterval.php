@@ -28,13 +28,14 @@ class PauseInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pause Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97601
+             * line : 70984
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PauseInterval extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PauseInterval',
             'desc' => [
+                'en' => 'Pause Interval',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OverrideParameterPointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Override Parameter Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102765
+             * line : 75861
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverrideParameterPointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverrideParameterPointer',
             'desc' => [
+                'en' => 'Override Parameter Pointer',
             ],
         ],
     ];

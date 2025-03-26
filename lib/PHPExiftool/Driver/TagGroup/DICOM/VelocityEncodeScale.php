@@ -28,13 +28,14 @@ class VelocityEncodeScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Velocity Encode Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97830
+             * line : 71209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VelocityEncodeScale extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VelocityEncodeScale',
             'desc' => [
+                'en' => 'Velocity Encode Scale',
             ],
         ],
     ];

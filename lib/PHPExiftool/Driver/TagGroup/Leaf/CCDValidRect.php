@@ -28,13 +28,14 @@ class CCDValidRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CCD Valid Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161672
+             * line : 110437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CCDValidRect extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CCDValidRect',
             'desc' => [
+                'en' => 'CCD Valid Rect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ServiceOrganizationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Service Organization Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126479
+             * line : 87698
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ServiceOrganizationName extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ServiceOrganizationName',
             'desc' => [
+                'en' => 'Service Organization Name',
             ],
         ],
     ];

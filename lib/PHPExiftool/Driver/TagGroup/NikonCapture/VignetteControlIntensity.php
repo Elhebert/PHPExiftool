@@ -28,13 +28,14 @@ class VignetteControlIntensity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignette Control Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210836
+             * line : 141849
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VignetteControlIntensity extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:VignetteControlIntensity',
             'desc' => [
+                'en' => 'Vignette Control Intensity',
             ],
         ],
     ];

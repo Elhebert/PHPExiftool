@@ -28,13 +28,14 @@ class BWFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BWF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::BroadcastExt
-             * line : 327802
+             * line : 231358
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BWFVersion extends AbstractTagGroup
              */
             'id' => 'RIFF::BroadcastExt.RIFF:BWFVersion',
             'desc' => [
+                'en' => 'BWF Version',
             ],
         ],
     ];

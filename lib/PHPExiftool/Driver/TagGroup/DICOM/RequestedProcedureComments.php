@@ -28,13 +28,14 @@ class RequestedProcedureComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Procedure Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99884
+             * line : 73086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedProcedureComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedProcedureComments',
             'desc' => [
+                'en' => 'Requested Procedure Comments',
             ],
         ],
     ];

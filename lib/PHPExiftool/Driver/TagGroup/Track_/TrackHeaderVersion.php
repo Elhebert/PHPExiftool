@@ -28,13 +28,14 @@ class TrackHeaderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Header Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackHeader
-             * line : 325054
+             * line : 229510
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackHeaderVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackHeader.Track#:TrackHeaderVersion',
             'desc' => [
+                'en' => 'Track Header Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111371
+             * line : 81635
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

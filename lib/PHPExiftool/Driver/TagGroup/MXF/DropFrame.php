@@ -28,13 +28,14 @@ class DropFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drop Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168042
+             * line : 114548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DropFrame extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DropFrame',
             'desc' => [
+                'en' => 'Drop Frame',
             ],
         ],
     ];

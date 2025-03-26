@@ -28,13 +28,14 @@ class SBAGmOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SBA Gm Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155978
+             * line : 107189
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SBAGmOffset extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBAGmOffset',
             'desc' => [
+                'en' => 'SBA Gm Offset',
             ],
         ],
     ];

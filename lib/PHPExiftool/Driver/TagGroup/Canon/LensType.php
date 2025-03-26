@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4971
+             * line : 2941
              * type : int16uRev
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 6553
+             * line : 4450
              * type : int16uRev
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 9713
+             * line : 6484
              * type : int16uRev
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 11286
+             * line : 7990
              * type : int16uRev
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 14133
+             * line : 9927
              * type : int16uRev
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo1DmkIIN
-             * line : 15733
+             * line : 11442
              * type : int16uRev
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIIN.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 18349
+             * line : 13263
              * type : int16uRev
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 20374
+             * line : 14895
              * type : int16uRev
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 22408
+             * line : 16530
              * type : int16uRev
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24707
+             * line : 18281
              * type : int16uRev
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 27009
+             * line : 20035
              * type : int16uRev
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 29200
+             * line : 21752
              * type : int16uRev
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 30788
+             * line : 23261
              * type : int16uRev
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 32915
+             * line : 24975
              * type : int16uRev
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35714
+             * line : 26985
              * type : int16uRev
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 37853
+             * line : 28674
              * type : int16uRev
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 40062
+             * line : 30400
              * type : int16uRev
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 41815
+             * line : 31952
              * type : int16uRev
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 43951
+             * line : 33638
              * type : int16uRev
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 46109
+             * line : 35333
              * type : int16uRev
              * writable : true
              * count :
@@ -289,12 +309,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         20 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 47809
+             * line : 36871
              * type : int16uRev
              * writable : true
              * count :
@@ -302,12 +323,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         21 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 49944
+             * line : 38557
              * type : int16uRev
              * writable : true
              * count :
@@ -315,12 +337,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         22 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 52098
+             * line : 40252
              * type : int16uRev
              * writable : true
              * count :
@@ -328,12 +351,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         23 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 53798
+             * line : 41790
              * type : int16uRev
              * writable : true
              * count :
@@ -341,12 +365,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         24 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56959
+             * line : 44029
              * type : int16u
              * writable : true
              * count :
@@ -354,6 +379,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

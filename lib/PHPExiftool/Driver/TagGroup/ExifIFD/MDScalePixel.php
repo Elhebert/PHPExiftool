@@ -28,13 +28,14 @@ class MDScalePixel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Scale Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113070
+             * line : 82299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDScalePixel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MDScalePixel',
             'desc' => [
+                'en' => 'MD Scale Pixel',
             ],
         ],
     ];

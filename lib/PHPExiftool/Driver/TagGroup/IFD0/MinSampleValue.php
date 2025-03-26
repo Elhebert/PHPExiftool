@@ -28,13 +28,14 @@ class MinSampleValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Sample Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110928
+             * line : 81526
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinSampleValue extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:MinSampleValue',
             'desc' => [
+                'en' => 'Min Sample Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SceneAssist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Assist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197527
+             * line : 133223
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneAssist extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:SceneAssist',
             'desc' => [
+                'en' => 'Scene Assist',
             ],
         ],
     ];

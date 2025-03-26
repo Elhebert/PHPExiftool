@@ -28,13 +28,14 @@ class TimingBiasCorrectionDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timing Bias Correction Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170121
+             * line : 116433
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimingBiasCorrectionDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimingBiasCorrectionDescription',
             'desc' => [
+                'en' => 'Timing Bias Correction Description',
             ],
         ],
     ];

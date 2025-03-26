@@ -28,13 +28,14 @@ class WB_GRGBLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131116
+             * line : 90570
              * type : int16u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:WB_GRGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB GRGB Levels Tungsten',
             ],
         ],
     ];

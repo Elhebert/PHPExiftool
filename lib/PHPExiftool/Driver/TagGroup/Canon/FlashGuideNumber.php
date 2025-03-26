@@ -28,13 +28,14 @@ class FlashGuideNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Guide Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70551
+             * line : 52757
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashGuideNumber extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:FlashGuideNumber',
             'desc' => [
+                'en' => 'Flash Guide Number',
             ],
         ],
     ];

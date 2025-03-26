@@ -28,13 +28,14 @@ class DirectoryNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Directory Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331038
+             * line : 232842
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DirectoryNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:DirectoryNumber',
             'desc' => [
+                'en' => 'Directory Number',
             ],
         ],
     ];

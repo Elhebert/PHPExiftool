@@ -28,13 +28,14 @@ class PF23SetTimerLengths extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF23 Set Timer Lengths',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78413
+             * line : 57114
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF23SetTimerLengths extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF23SetTimerLengths',
             'desc' => [
+                'en' => 'PF23 Set Timer Lengths',
             ],
         ],
     ];

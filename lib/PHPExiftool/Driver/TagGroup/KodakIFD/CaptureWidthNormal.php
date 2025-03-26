@@ -28,13 +28,14 @@ class CaptureWidthNormal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Capture Width Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157233
+             * line : 108425
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptureWidthNormal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureWidthNormal',
             'desc' => [
+                'en' => 'Capture Width Normal',
             ],
         ],
     ];

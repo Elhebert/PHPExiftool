@@ -28,13 +28,14 @@ class MediumType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Medium Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101990
+             * line : 75129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediumType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MediumType',
             'desc' => [
+                'en' => 'Medium Type',
             ],
         ],
     ];

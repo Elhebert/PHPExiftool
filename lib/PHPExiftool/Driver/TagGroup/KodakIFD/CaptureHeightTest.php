@@ -28,13 +28,14 @@ class CaptureHeightTest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Height Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157251
+             * line : 108443
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureHeightTest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureHeightTest',
             'desc' => [
+                'en' => 'Capture Height Test',
             ],
         ],
     ];

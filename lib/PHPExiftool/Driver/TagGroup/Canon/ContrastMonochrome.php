@@ -28,13 +28,14 @@ class ContrastMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34459
+             * line : 26483
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastMonochrome',
             'desc' => [
+                'en' => 'Contrast Monochrome',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67434
+             * line : 51137
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastMonochrome',
             'desc' => [
+                'en' => 'Contrast Monochrome',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68532
+             * line : 51798
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastMonochrome',
             'desc' => [
+                'en' => 'Contrast Monochrome',
             ],
         ],
     ];

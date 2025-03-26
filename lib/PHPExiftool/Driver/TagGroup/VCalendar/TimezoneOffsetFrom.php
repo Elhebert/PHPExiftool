@@ -28,13 +28,14 @@ class TimezoneOffsetFrom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timezone Offset From',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395534
+             * line : 280077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimezoneOffsetFrom extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:TimezoneOffsetFrom',
             'desc' => [
+                'en' => 'Timezone Offset From',
             ],
         ],
     ];

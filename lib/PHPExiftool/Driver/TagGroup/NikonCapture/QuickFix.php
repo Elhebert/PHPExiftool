@@ -28,13 +28,14 @@ class QuickFix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quick Fix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210504
+             * line : 141714
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QuickFix extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:QuickFix',
             'desc' => [
+                'en' => 'Quick Fix',
             ],
         ],
     ];

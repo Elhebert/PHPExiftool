@@ -28,13 +28,14 @@ class SharpnessAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80603
+             * line : 58763
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:SharpnessAdj',
             'desc' => [
+                'en' => 'Sharpness Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82534
+             * line : 60441
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SharpnessAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:SharpnessAdj',
             'desc' => [
+                'en' => 'Sharpness Adj',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PatternAreaHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pattern Area Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155509
+             * line : 106721
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatternAreaHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternAreaHeight',
             'desc' => [
+                'en' => 'Pattern Area Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AutoAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288559
+             * line : 200179
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:AutoAperture',
             'desc' => [
+                'en' => 'Auto Aperture',
             ],
         ],
     ];

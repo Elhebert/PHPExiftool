@@ -28,13 +28,14 @@ class MonitorBrightness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Monitor Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201852
+             * line : 136733
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MonitorBrightness extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MonitorBrightness',
             'desc' => [
+                'en' => 'Monitor Brightness',
             ],
         ],
     ];

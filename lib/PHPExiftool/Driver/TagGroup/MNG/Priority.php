@@ -28,13 +28,14 @@ class Priority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::FramePriority
-             * line : 164857
+             * line : 112059
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Priority extends AbstractTagGroup
              */
             'id' => 'MNG::FramePriority.MNG:Priority',
             'desc' => [
+                'en' => 'Priority',
             ],
         ],
     ];

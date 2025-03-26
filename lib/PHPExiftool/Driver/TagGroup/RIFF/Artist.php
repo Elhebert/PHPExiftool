@@ -28,13 +28,14 @@ class Artist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328074
+             * line : 231469
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Artist extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Artist',
             'desc' => [
+                'en' => 'Artist',
             ],
         ],
     ];

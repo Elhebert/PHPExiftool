@@ -28,13 +28,14 @@ class LanguageList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1838
+             * line : 937
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LanguageList extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:LanguageList',
             'desc' => [
+                'en' => 'Language List',
             ],
         ],
     ];

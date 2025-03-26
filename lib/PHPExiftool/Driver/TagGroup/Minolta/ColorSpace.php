@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178807
+             * line : 122455
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179786
+             * line : 122795
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181010
+             * line : 123216
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTempKelvin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Kelvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59272
+             * line : 45919
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59550
+             * line : 46061
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60076
+             * line : 46332
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60603
+             * line : 46632
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60850
+             * line : 46774
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61195
+             * line : 46957
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61569
+             * line : 47197
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61957
+             * line : 47410
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62378
+             * line : 47650
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62849
+             * line : 47932
              * type : int16s
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DensityMean extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Density Mean',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166954
+             * line : 113643
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DensityMean extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:DensityMean',
             'desc' => [
+                'en' => 'Density Mean',
             ],
         ],
     ];

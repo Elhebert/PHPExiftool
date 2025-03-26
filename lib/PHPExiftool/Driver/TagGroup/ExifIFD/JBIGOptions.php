@@ -28,13 +28,14 @@ class JBIGOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JBIG Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113598
+             * line : 82545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JBIGOptions extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JBIGOptions',
             'desc' => [
+                'en' => 'JBIG Options',
             ],
         ],
     ];

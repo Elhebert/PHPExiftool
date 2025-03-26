@@ -28,13 +28,14 @@ class VerificationImageTiming extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Verification Image Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101757
+             * line : 74898
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerificationImageTiming extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerificationImageTiming',
             'desc' => [
+                'en' => 'Verification Image Timing',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecordedBrachyAccessoryDeviceSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Brachy Accessory Device Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102855
+             * line : 75951
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedBrachyAccessoryDeviceSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordedBrachyAccessoryDeviceSeq',
             'desc' => [
+                'en' => 'Recorded Brachy Accessory Device Seq',
             ],
         ],
     ];

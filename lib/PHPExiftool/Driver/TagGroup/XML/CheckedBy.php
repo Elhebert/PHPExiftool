@@ -28,13 +28,14 @@ class CheckedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Checked By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249056
+             * line : 171702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CheckedBy extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:CheckedBy',
             'desc' => [
+                'en' => 'Checked By',
             ],
         ],
     ];

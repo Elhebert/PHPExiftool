@@ -28,13 +28,14 @@ class BookName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Book Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273810
+             * line : 190947
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BookName extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:BookName',
             'desc' => [
+                'en' => 'Book Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SharpnessNeutral extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34498
+             * line : 26504
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessNeutral',
             'desc' => [
+                'en' => 'Sharpness Neutral',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67295
+             * line : 51049
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessNeutral',
             'desc' => [
+                'en' => 'Sharpness Neutral',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68393
+             * line : 51710
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessNeutral',
             'desc' => [
+                'en' => 'Sharpness Neutral',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412256
+             * line : 290814
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ResolutionUnit extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:ResolutionUnit',
             'desc' => [
+                'en' => 'Resolution Unit',
             ],
         ],
     ];

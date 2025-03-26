@@ -28,13 +28,14 @@ class EpisodeGlobalUniqueID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Episode Global Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314235
+             * line : 219804
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EpisodeGlobalUniqueID extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:EpisodeGlobalUniqueID',
             'desc' => [
+                'en' => 'Episode Global Unique ID',
             ],
         ],
     ];

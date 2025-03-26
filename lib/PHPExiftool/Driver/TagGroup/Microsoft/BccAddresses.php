@@ -28,13 +28,14 @@ class BccAddresses extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bcc Addresses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176454
+             * line : 121410
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BccAddresses extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BccAddresses',
             'desc' => [
+                'en' => 'Bcc Addresses',
             ],
         ],
     ];

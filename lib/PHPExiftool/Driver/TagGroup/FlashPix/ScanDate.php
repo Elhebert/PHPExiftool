@@ -28,13 +28,14 @@ class ScanDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126486
+             * line : 87704
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ScanDate',
             'desc' => [
+                'en' => 'Scan Date',
             ],
         ],
     ];

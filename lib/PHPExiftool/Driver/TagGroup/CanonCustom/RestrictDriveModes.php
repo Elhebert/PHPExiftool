@@ -28,13 +28,14 @@ class RestrictDriveModes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Restrict Drive Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74535
+             * line : 55003
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RestrictDriveModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:RestrictDriveModes',
             'desc' => [
+                'en' => 'Restrict Drive Modes',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74538
+             * line : 55006
              * type : int32s
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class RestrictDriveModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:RestrictDriveModes',
             'desc' => [
+                'en' => 'Restrict Drive Modes',
             ],
         ],
     ];

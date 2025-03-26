@@ -28,13 +28,14 @@ class CmdDialsChangeMainSub extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cmd Dials Change Main Sub',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244652
+             * line : 167471
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CmdDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsChangeMainSub',
             'desc' => [
+                'en' => 'Cmd Dials Change Main Sub',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244663
+             * line : 167482
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class CmdDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsChangeMainSub',
             'desc' => [
+                'en' => 'Cmd Dials Change Main Sub',
             ],
         ],
         2 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244674
+             * line : 167493
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class CmdDialsChangeMainSub extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsChangeMainSub',
             'desc' => [
+                'en' => 'Cmd Dials Change Main Sub',
             ],
         ],
     ];

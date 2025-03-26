@@ -28,13 +28,14 @@ class TicksPerSecond extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ticks Per Second',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165092
+             * line : 112196
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TicksPerSecond extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:TicksPerSecond',
             'desc' => [
+                'en' => 'Ticks Per Second',
             ],
         ],
     ];

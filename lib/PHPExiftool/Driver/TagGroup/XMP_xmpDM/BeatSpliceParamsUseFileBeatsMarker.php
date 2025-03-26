@@ -28,13 +28,14 @@ class BeatSpliceParamsUseFileBeatsMarker extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Beat Splice Params Use File Beats Marker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412966
+             * line : 291133
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BeatSpliceParamsUseFileBeatsMarker extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:BeatSpliceParamsUseFileBeatsMarker',
             'desc' => [
+                'en' => 'Beat Splice Params Use File Beats Marker',
             ],
         ],
     ];

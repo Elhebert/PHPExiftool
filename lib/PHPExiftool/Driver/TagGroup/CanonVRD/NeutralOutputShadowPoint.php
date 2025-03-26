@@ -28,13 +28,14 @@ class NeutralOutputShadowPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Output Shadow Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82896
+             * line : 60732
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralOutputShadowPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralOutputShadowPoint',
             'desc' => [
+                'en' => 'Neutral Output Shadow Point',
             ],
         ],
     ];

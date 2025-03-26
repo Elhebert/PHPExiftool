@@ -28,13 +28,14 @@ class City extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410142
+             * line : 289738
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class City extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:City',
             'desc' => [
+                'en' => 'City',
             ],
         ],
     ];

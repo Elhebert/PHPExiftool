@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407106
+             * line : 288265
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

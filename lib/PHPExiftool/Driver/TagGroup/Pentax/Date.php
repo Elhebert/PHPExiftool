@@ -28,13 +28,14 @@ class Date extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 295222
+             * line : 206420
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class Date extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Date',
             'desc' => [
+                'en' => 'Date',
             ],
         ],
     ];

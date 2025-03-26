@@ -28,13 +28,14 @@ class RenditionOfFilePath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414206
+             * line : 292226
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfFilePath extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfFilePath',
             'desc' => [
+                'en' => 'Rendition Of File Path',
             ],
         ],
     ];

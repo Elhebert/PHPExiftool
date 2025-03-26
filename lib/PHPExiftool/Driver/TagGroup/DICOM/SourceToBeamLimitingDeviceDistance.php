@@ -28,13 +28,14 @@ class SourceToBeamLimitingDeviceDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source To Beam Limiting Device Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103143
+             * line : 76239
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceToBeamLimitingDeviceDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceToBeamLimitingDeviceDistance',
             'desc' => [
+                'en' => 'Source To Beam Limiting Device Distance',
             ],
         ],
     ];

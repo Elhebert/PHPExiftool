@@ -28,13 +28,14 @@ class DCMinimumElevationInMeters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Minimum Elevation In Meters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106978
+             * line : 79130
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCMinimumElevationInMeters extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCMinimumElevationInMeters',
             'desc' => [
+                'en' => 'DC Minimum Elevation In Meters',
             ],
         ],
     ];

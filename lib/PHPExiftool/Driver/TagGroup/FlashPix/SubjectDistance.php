@@ -28,13 +28,14 @@ class SubjectDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125376
+             * line : 87418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectDistance extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SubjectDistance',
             'desc' => [
+                'en' => 'Subject Distance',
             ],
         ],
     ];

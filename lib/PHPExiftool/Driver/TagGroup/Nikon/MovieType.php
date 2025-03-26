@@ -28,13 +28,14 @@ class MovieType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200107
+             * line : 135071
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieType extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieType',
             'desc' => [
+                'en' => 'Movie Type',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201263
+             * line : 136157
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MovieType extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieType',
             'desc' => [
+                'en' => 'Movie Type',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208231
+             * line : 140330
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class MovieType extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:MovieType',
             'desc' => [
+                'en' => 'Movie Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Take extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Take',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331422
+             * line : 233013
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Take extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:Take',
             'desc' => [
+                'en' => 'Take',
             ],
         ],
     ];

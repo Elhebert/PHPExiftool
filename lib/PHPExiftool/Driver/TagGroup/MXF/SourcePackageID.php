@@ -28,13 +28,14 @@ class SourcePackageID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Package ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169454
+             * line : 115857
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourcePackageID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourcePackageID',
             'desc' => [
+                'en' => 'Source Package ID',
             ],
         ],
     ];

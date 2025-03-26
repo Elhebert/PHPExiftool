@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::Main
-             * line : 287
+             * line : 134
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'APE::Main.APE:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

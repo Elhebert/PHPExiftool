@@ -28,13 +28,14 @@ class AngularPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angular Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95815
+             * line : 69262
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngularPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AngularPosition',
             'desc' => [
+                'en' => 'Angular Position',
             ],
         ],
     ];

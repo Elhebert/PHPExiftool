@@ -28,13 +28,14 @@ class RedMatrixColumn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Matrix Column',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146560
+             * line : 101859
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedMatrixColumn extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:RedMatrixColumn',
             'desc' => [
+                'en' => 'Red Matrix Column',
             ],
         ],
     ];

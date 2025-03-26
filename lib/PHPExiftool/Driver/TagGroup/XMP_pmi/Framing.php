@@ -28,13 +28,14 @@ class Framing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Framing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410555
+             * line : 289913
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Framing extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:Framing',
             'desc' => [
+                'en' => 'Framing',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PictureModeHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251920
+             * line : 173608
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureModeHue extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PictureModeHue',
             'desc' => [
+                'en' => 'Picture Mode Hue',
             ],
         ],
     ];

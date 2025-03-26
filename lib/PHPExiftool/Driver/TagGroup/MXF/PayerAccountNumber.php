@@ -28,13 +28,14 @@ class PayerAccountNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payer Account Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169959
+             * line : 116295
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PayerAccountNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PayerAccountNumber',
             'desc' => [
+                'en' => 'Payer Account Number',
             ],
         ],
     ];

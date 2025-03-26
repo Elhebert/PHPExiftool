@@ -28,13 +28,14 @@ class ApproximateFNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Approximate F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274673
+             * line : 191556
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ApproximateFNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:ApproximateFNumber',
             'desc' => [
+                'en' => 'Approximate F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279639
+             * line : 194217
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ApproximateFNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:ApproximateFNumber',
             'desc' => [
+                'en' => 'Approximate F Number',
             ],
         ],
     ];

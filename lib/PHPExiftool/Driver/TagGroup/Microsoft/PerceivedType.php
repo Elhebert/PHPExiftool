@@ -28,13 +28,14 @@ class PerceivedType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Perceived Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175625
+             * line : 120873
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerceivedType extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PerceivedType',
             'desc' => [
+                'en' => 'Perceived Type',
             ],
         ],
     ];

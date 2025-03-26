@@ -28,13 +28,14 @@ class AFResetLensAfterSnap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Reset Lens After Snap',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306267
+             * line : 212765
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFResetLensAfterSnap extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFResetLensAfterSnap',
             'desc' => [
+                'en' => 'AF Reset Lens After Snap',
             ],
         ],
     ];

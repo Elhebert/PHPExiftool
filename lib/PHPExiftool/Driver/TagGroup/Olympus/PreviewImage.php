@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257936
+             * line : 178340
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::scrn
-             * line : 263275
+             * line : 182222
              * type : undef
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Olympus::scrn.Olympus:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

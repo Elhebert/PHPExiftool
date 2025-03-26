@@ -28,13 +28,14 @@ class ProductType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303763
+             * line : 211006
              * type : string
              * writable : false
              * count : 20
@@ -42,6 +43,7 @@ class ProductType extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ProductType',
             'desc' => [
+                'en' => 'Product Type',
             ],
         ],
     ];

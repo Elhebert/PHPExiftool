@@ -28,13 +28,14 @@ class Tiles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tiles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263681
+             * line : 182395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Tiles extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:Tiles',
             'desc' => [
+                'en' => 'Tiles',
             ],
         ],
     ];

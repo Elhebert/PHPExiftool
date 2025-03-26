@@ -28,13 +28,14 @@ class LensApertureRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Aperture Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338880
+             * line : 237341
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensApertureRange extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensApertureRange',
             'desc' => [
+                'en' => 'Lens Aperture Range',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 339018
+             * line : 237377
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LensApertureRange extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensApertureRange',
             'desc' => [
+                'en' => 'Lens Aperture Range',
             ],
         ],
     ];

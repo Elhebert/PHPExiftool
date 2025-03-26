@@ -28,13 +28,14 @@ class AllColorFlatField1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'All Color Flat Field 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::SensorCalibration
-             * line : 303588
+             * line : 210904
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AllColorFlatField1 extends AbstractTagGroup
              */
             'id' => 'PhaseOne::SensorCalibration.PhaseOne:AllColorFlatField1',
             'desc' => [
+                'en' => 'All Color Flat Field 1',
             ],
         ],
     ];

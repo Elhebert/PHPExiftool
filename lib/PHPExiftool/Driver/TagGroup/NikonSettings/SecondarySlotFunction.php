@@ -28,13 +28,14 @@ class SecondarySlotFunction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Slot Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247454
+             * line : 170147
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondarySlotFunction extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SecondarySlotFunction',
             'desc' => [
+                'en' => 'Secondary Slot Function',
             ],
         ],
     ];

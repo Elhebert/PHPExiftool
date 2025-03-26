@@ -28,13 +28,14 @@ class TrailerSignature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Trailer Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164076
+             * line : 111598
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TrailerSignature extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:TrailerSignature',
             'desc' => [
+                'en' => 'Trailer Signature',
             ],
         ],
     ];

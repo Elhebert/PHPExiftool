@@ -28,13 +28,14 @@ class ApplicableFrameRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Applicable Frame Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99150
+             * line : 72369
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicableFrameRange extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicableFrameRange',
             'desc' => [
+                'en' => 'Applicable Frame Range',
             ],
         ],
     ];

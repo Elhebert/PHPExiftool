@@ -28,13 +28,14 @@ class LinksUpToDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Links Up To Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249163
+             * line : 171784
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinksUpToDate extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:LinksUpToDate',
             'desc' => [
+                'en' => 'Links Up To Date',
             ],
         ],
     ];

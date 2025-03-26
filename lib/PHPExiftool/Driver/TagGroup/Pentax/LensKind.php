@@ -28,13 +28,14 @@ class LensKind extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288619
+             * line : 200210
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensKind extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:LensKind',
             'desc' => [
+                'en' => 'Lens Kind',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureCompAutoCancel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Comp Auto Cancel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73073
+             * line : 54167
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureCompAutoCancel extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ExposureCompAutoCancel',
             'desc' => [
+                'en' => 'Exposure Comp Auto Cancel',
             ],
         ],
     ];

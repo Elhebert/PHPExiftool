@@ -28,13 +28,14 @@ class StdScaledOutput extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Scaled Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 162005
+             * line : 110705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdScaledOutput extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdScaledOutput',
             'desc' => [
+                'en' => 'Std Scaled Output',
             ],
         ],
     ];

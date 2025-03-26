@@ -28,13 +28,14 @@ class ImageCompressionTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Compression Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155352
+             * line : 106565
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageCompressionTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageCompressionTable',
             'desc' => [
+                'en' => 'Image Compression Table',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160765
+             * line : 109823
              * type : string
              * writable : false
              * count : 20
@@ -42,6 +43,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

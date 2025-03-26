@@ -28,13 +28,14 @@ class ExposureModeInManual extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Mode In Manual',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72737
+             * line : 53980
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureModeInManual extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ExposureModeInManual',
             'desc' => [
+                'en' => 'Exposure Mode In Manual',
             ],
         ],
     ];

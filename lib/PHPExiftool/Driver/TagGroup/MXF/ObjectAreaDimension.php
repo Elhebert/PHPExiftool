@@ -28,13 +28,14 @@ class ObjectAreaDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Area Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170243
+             * line : 116520
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectAreaDimension extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectAreaDimension',
             'desc' => [
+                'en' => 'Object Area Dimension',
             ],
         ],
     ];

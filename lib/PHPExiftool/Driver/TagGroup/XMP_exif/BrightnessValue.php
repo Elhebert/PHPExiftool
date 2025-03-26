@@ -28,13 +28,14 @@ class BrightnessValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405083
+             * line : 287799
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
     ];

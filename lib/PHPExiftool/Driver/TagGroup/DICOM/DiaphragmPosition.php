@@ -28,13 +28,14 @@ class DiaphragmPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diaphragm Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102426
+             * line : 75525
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiaphragmPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DiaphragmPosition',
             'desc' => [
+                'en' => 'Diaphragm Position',
             ],
         ],
     ];

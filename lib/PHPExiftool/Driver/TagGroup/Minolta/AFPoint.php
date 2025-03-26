@@ -28,13 +28,14 @@ class AFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraInfoA100
-             * line : 176858
+             * line : 121673
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraInfoA100.Minolta:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
     ];

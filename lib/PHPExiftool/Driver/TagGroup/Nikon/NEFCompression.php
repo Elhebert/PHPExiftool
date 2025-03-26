@@ -28,13 +28,14 @@ class NEFCompression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'NEF Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197413
+             * line : 133167
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NEFCompression extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NEFCompression',
             'desc' => [
+                'en' => 'NEF Compression',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MakerNotes0x51
-             * line : 199653
+             * line : 134680
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NEFCompression extends AbstractTagGroup
              */
             'id' => 'Nikon::MakerNotes0x51.Nikon:NEFCompression',
             'desc' => [
+                'en' => 'NEF Compression',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FullPanoWidthPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Full Pano Width Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397115
+             * line : 281219
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FullPanoWidthPixels extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:FullPanoWidthPixels',
             'desc' => [
+                'en' => 'Full Pano Width Pixels',
             ],
         ],
     ];

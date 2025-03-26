@@ -28,13 +28,14 @@ class ProfileFileSignature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile File Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 144153
+             * line : 99756
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ProfileFileSignature extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:ProfileFileSignature',
             'desc' => [
+                'en' => 'Profile File Signature',
             ],
         ],
     ];

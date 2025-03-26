@@ -28,13 +28,14 @@ class CompositionToDecodeTimelineMapping extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composition To Decode Timeline Mapping',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324407
+             * line : 229197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompositionToDecodeTimelineMapping extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:CompositionToDecodeTimelineMapping',
             'desc' => [
+                'en' => 'Composition To Decode Timeline Mapping',
             ],
         ],
     ];

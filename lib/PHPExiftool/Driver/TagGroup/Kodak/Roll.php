@@ -28,13 +28,14 @@ class Roll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Roll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159988
+             * line : 109576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Roll extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:Roll',
             'desc' => [
+                'en' => 'Roll',
             ],
         ],
     ];

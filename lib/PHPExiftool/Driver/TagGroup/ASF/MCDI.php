@@ -28,13 +28,14 @@ class MCDI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MCDI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1364
+             * line : 610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MCDI extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MCDI',
             'desc' => [
+                'en' => 'MCDI',
             ],
         ],
     ];

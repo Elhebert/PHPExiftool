@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 272907
+             * line : 190551
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

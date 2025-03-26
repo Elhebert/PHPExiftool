@@ -28,13 +28,14 @@ class FilterEffectFaithful extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect Faithful',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67412
+             * line : 51121
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FilterEffectFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:FilterEffectFaithful',
             'desc' => [
+                'en' => 'Filter Effect Faithful',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68510
+             * line : 51782
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FilterEffectFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:FilterEffectFaithful',
             'desc' => [
+                'en' => 'Filter Effect Faithful',
             ],
         ],
     ];

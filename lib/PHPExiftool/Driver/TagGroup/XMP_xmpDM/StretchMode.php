@@ -28,13 +28,14 @@ class StretchMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stretch Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413436
+             * line : 291529
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StretchMode extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:StretchMode',
             'desc' => [
+                'en' => 'Stretch Mode',
             ],
         ],
     ];

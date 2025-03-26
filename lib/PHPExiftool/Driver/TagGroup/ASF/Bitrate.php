@@ -28,13 +28,14 @@ class Bitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1093
+             * line : 439
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Bitrate extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Bitrate',
             'desc' => [
+                'en' => 'Bitrate',
             ],
         ],
     ];

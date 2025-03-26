@@ -28,13 +28,14 @@ class Status extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249288
+             * line : 171874
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Status extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Status',
             'desc' => [
+                'en' => 'Status',
             ],
         ],
     ];

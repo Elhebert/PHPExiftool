@@ -28,13 +28,14 @@ class LithostratigraphicTerms extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lithostratigraphic Terms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106217
+             * line : 78560
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LithostratigraphicTerms extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LithostratigraphicTerms',
             'desc' => [
+                'en' => 'Lithostratigraphic Terms',
             ],
         ],
     ];

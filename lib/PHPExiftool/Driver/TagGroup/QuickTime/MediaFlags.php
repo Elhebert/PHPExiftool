@@ -28,13 +28,14 @@ class MediaFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rights
-             * line : 324366
+             * line : 229156
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rights.QuickTime:MediaFlags',
             'desc' => [
+                'en' => 'Media Flags',
             ],
         ],
     ];

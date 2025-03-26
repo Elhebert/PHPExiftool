@@ -28,13 +28,14 @@ class ContentStyleType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Style Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142861
+             * line : 98658
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentStyleType extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:ContentStyleType',
             'desc' => [
+                'en' => 'Content Style Type',
             ],
         ],
     ];

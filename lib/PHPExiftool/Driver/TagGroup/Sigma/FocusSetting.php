@@ -28,13 +28,14 @@ class FocusSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337010
+             * line : 236005
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusSetting extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:FocusSetting',
             'desc' => [
+                'en' => 'Focus Setting',
             ],
         ],
     ];

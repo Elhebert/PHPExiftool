@@ -28,13 +28,14 @@ class LensFocalRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Focal Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337178
+             * line : 236042
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensFocalRange extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensFocalRange',
             'desc' => [
+                'en' => 'Lens Focal Range',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 338752
+             * line : 237303
              * type : rational64u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class LensFocalRange extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensFocalRange',
             'desc' => [
+                'en' => 'Lens Focal Range',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocalTapeNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Tape Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167364
+             * line : 113985
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalTapeNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalTapeNumber',
             'desc' => [
+                'en' => 'Local Tape Number',
             ],
         ],
     ];

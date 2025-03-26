@@ -28,13 +28,14 @@ class MediaIsSAP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is SAP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396078
+             * line : 280384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsSAP extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsSAP',
             'desc' => [
+                'en' => 'Media Is SAP',
             ],
         ],
     ];

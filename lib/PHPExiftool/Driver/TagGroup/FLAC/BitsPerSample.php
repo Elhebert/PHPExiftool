@@ -28,13 +28,14 @@ class BitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121962
+             * line : 85457
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
     ];

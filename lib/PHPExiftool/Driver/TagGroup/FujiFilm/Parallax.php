@@ -28,13 +28,14 @@ class Parallax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parallax',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 131022
+             * line : 90489
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Parallax extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:Parallax',
             'desc' => [
+                'en' => 'Parallax',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ParentalRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parental Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396199
+             * line : 280493
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParentalRating extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ParentalRating',
             'desc' => [
+                'en' => 'Parental Rating',
             ],
         ],
     ];

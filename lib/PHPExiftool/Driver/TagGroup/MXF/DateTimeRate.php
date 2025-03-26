@@ -28,13 +28,14 @@ class DateTimeRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171396
+             * line : 117598
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DateTimeRate',
             'desc' => [
+                'en' => 'Date Time Rate',
             ],
         ],
     ];

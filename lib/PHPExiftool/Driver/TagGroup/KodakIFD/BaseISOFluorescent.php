@@ -28,13 +28,14 @@ class BaseISOFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base ISO Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155370
+             * line : 106583
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseISOFluorescent extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BaseISOFluorescent',
             'desc' => [
+                'en' => 'Base ISO Fluorescent',
             ],
         ],
     ];

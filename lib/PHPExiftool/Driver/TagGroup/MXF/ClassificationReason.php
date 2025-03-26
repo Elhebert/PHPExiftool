@@ -28,13 +28,14 @@ class ClassificationReason extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classification Reason',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169985
+             * line : 116310
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClassificationReason extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassificationReason',
             'desc' => [
+                'en' => 'Classification Reason',
             ],
         ],
     ];

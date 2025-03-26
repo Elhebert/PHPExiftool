@@ -28,13 +28,14 @@ class TransferCharacteristic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transfer Characteristic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105696
+             * line : 78206
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransferCharacteristic extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:TransferCharacteristic',
             'desc' => [
+                'en' => 'Transfer Characteristic',
             ],
         ],
     ];

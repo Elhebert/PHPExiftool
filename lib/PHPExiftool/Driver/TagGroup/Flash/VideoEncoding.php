@@ -28,13 +28,14 @@ class VideoEncoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Video
-             * line : 124231
+             * line : 86808
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoEncoding extends AbstractTagGroup
              */
             'id' => 'Flash::Video.Flash:VideoEncoding',
             'desc' => [
+                'en' => 'Video Encoding',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323795
+             * line : 228834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaDataOffset extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:MediaDataOffset',
             'desc' => [
+                'en' => 'Media Data Offset',
             ],
         ],
     ];

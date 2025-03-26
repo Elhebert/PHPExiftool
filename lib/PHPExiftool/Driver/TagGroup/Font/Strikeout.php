@@ -28,13 +28,14 @@ class Strikeout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strikeout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128047
+             * line : 88858
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Strikeout extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:Strikeout',
             'desc' => [
+                'en' => 'Strikeout',
             ],
         ],
     ];

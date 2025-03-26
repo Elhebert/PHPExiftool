@@ -28,13 +28,14 @@ class Attendee extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attendee',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395274
+             * line : 279963
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Attendee extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Attendee',
             'desc' => [
+                'en' => 'Attendee',
             ],
         ],
     ];

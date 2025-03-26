@@ -28,13 +28,14 @@ class FlashMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178284
+             * line : 122277
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMetering extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FlashMetering',
             'desc' => [
+                'en' => 'Flash Metering',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181153
+             * line : 123254
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMetering extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FlashMetering',
             'desc' => [
+                'en' => 'Flash Metering',
             ],
         ],
     ];

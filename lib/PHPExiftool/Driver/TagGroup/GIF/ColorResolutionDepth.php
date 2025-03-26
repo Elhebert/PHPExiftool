@@ -28,13 +28,14 @@ class ColorResolutionDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Resolution Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Screen
-             * line : 131422
+             * line : 90710
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorResolutionDepth extends AbstractTagGroup
              */
             'id' => 'GIF::Screen.GIF:ColorResolutionDepth',
             'desc' => [
+                'en' => 'Color Resolution Depth',
             ],
         ],
     ];

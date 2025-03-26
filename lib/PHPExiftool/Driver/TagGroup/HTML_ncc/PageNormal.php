@@ -28,13 +28,14 @@ class PageNormal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142987
+             * line : 98746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageNormal extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:PageNormal',
             'desc' => [
+                'en' => 'Page Normal',
             ],
         ],
     ];

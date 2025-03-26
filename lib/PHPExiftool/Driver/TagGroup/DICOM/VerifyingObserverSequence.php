@@ -28,13 +28,14 @@ class VerifyingObserverSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Verifying Observer Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100071
+             * line : 73272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerifyingObserverSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerifyingObserverSequence',
             'desc' => [
+                'en' => 'Verifying Observer Sequence',
             ],
         ],
     ];

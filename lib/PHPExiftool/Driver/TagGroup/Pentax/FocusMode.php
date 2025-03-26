@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 295938
+             * line : 206823
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 296028
+             * line : 206873
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302482
+             * line : 210541
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

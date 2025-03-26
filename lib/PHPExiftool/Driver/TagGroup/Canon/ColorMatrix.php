@@ -28,13 +28,14 @@ class ColorMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64522
+             * line : 48865
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMatrix extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:ColorMatrix',
             'desc' => [
+                'en' => 'Color Matrix',
             ],
         ],
     ];

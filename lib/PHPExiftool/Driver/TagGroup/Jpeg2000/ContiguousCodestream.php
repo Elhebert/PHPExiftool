@@ -28,13 +28,14 @@ class ContiguousCodestream extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contiguous Codestream',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154233
+             * line : 105903
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContiguousCodestream extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:ContiguousCodestream',
             'desc' => [
+                'en' => 'Contiguous Codestream',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureGainFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Gain Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155269
+             * line : 106490
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureGainFluorescent extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureGainFluorescent',
             'desc' => [
+                'en' => 'Exposure Gain Fluorescent',
             ],
         ],
     ];

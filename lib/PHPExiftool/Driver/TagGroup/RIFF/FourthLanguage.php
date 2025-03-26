@@ -28,13 +28,14 @@ class FourthLanguage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fourth Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328101
+             * line : 231481
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FourthLanguage extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:FourthLanguage',
             'desc' => [
+                'en' => 'Fourth Language',
             ],
         ],
     ];

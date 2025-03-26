@@ -28,13 +28,14 @@ class DataPathID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Path ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99065
+             * line : 72297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataPathID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataPathID',
             'desc' => [
+                'en' => 'Data Path ID',
             ],
         ],
     ];

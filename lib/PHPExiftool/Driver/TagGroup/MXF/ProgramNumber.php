@@ -28,13 +28,14 @@ class ProgramNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168780
+             * line : 115256
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgramNumber',
             'desc' => [
+                'en' => 'Program Number',
             ],
         ],
     ];

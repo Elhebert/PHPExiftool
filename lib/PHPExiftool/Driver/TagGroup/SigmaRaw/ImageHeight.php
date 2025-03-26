@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339355
+             * line : 237514
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Header4
-             * line : 339452
+             * line : 237536
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header4.SigmaRaw:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

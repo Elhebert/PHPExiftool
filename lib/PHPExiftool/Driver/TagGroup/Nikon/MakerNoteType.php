@@ -28,13 +28,14 @@ class MakerNoteType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maker Note Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVIVers
-             * line : 191865
+             * line : 130045
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MakerNoteType extends AbstractTagGroup
              */
             'id' => 'Nikon::AVIVers.Nikon:MakerNoteType',
             'desc' => [
+                'en' => 'Maker Note Type',
             ],
         ],
     ];

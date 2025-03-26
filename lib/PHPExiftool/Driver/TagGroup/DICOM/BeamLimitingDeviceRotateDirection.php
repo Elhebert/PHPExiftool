@@ -28,13 +28,14 @@ class BeamLimitingDeviceRotateDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Limiting Device Rotate Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103378
+             * line : 76473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamLimitingDeviceRotateDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamLimitingDeviceRotateDirection',
             'desc' => [
+                'en' => 'Beam Limiting Device Rotate Direction',
             ],
         ],
     ];

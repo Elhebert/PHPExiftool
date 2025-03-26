@@ -28,13 +28,14 @@ class WriterName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Writer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::VersionInfo
-             * line : 305860
+             * line : 212515
              * type : var_ustr32
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WriterName extends AbstractTagGroup
              */
             'id' => 'Photoshop::VersionInfo.Photoshop:WriterName',
             'desc' => [
+                'en' => 'Writer Name',
             ],
         ],
     ];

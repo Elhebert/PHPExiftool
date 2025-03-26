@@ -28,13 +28,14 @@ class LocalDatumAbsolutePositionAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Datum Absolute Position Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168260
+             * line : 114755
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalDatumAbsolutePositionAccuracy extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalDatumAbsolutePositionAccuracy',
             'desc' => [
+                'en' => 'Local Datum Absolute Position Accuracy',
             ],
         ],
     ];

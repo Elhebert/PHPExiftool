@@ -28,13 +28,14 @@ class CameraElevationAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Elevation Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116331
+             * line : 83337
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraElevationAngle extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CameraElevationAngle',
             'desc' => [
+                'en' => 'Camera Elevation Angle',
             ],
         ],
     ];

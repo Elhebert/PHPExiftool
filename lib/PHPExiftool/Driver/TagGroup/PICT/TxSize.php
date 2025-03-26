@@ -28,13 +28,14 @@ class TxSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264648
+             * line : 182903
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TxSize extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:TxSize',
             'desc' => [
+                'en' => 'Text Size',
             ],
         ],
     ];

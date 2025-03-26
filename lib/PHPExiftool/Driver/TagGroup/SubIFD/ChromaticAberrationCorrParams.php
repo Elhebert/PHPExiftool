@@ -28,13 +28,14 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112800
+             * line : 82186
              * type : int16s
              * writable : true
              * count : 33
@@ -42,6 +43,7 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
     ];

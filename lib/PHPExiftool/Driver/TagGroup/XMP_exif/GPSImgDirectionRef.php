@@ -28,13 +28,14 @@ class GPSImgDirectionRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Img Direction Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406648
+             * line : 288177
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSImgDirectionRef extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSImgDirectionRef',
             'desc' => [
+                'en' => 'GPS Img Direction Ref',
             ],
         ],
     ];

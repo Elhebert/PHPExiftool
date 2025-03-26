@@ -28,13 +28,14 @@ class CellTowerID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cell Tower ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cell
-             * line : 398158
+             * line : 281791
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CellTowerID extends AbstractTagGroup
              */
             'id' => 'XMP::cell.XMP-cell:CellTowerID',
             'desc' => [
+                'en' => 'Cell Tower ID',
             ],
         ],
     ];

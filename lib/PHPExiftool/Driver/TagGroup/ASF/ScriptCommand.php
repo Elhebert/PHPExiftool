@@ -28,13 +28,14 @@ class ScriptCommand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Script Command',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1791
+             * line : 897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScriptCommand extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:ScriptCommand',
             'desc' => [
+                'en' => 'Script Command',
             ],
         ],
     ];

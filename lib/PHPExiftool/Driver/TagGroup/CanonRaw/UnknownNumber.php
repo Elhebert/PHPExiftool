@@ -28,13 +28,14 @@ class UnknownNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78890
+             * line : 57343
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownNumber extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:UnknownNumber',
             'desc' => [
+                'en' => 'Unknown Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TransferTimeTest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transfer Time Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157287
+             * line : 108479
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TransferTimeTest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TransferTimeTest',
             'desc' => [
+                'en' => 'Transfer Time Test',
             ],
         ],
     ];

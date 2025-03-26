@@ -28,13 +28,14 @@ class HighBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'High Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310304
+             * line : 216216
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HighBitDepth extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:HighBitDepth',
             'desc' => [
+                'en' => 'High Bit Depth',
             ],
         ],
     ];

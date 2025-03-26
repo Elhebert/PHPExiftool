@@ -28,13 +28,14 @@ class AWBSnapshotRGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Snapshot R Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307239
+             * line : 213737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBSnapshotRGain extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBSnapshotRGain',
             'desc' => [
+                'en' => 'AWB Snapshot R Gain',
             ],
         ],
     ];

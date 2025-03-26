@@ -28,13 +28,14 @@ class RelativeLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemPropCont
-             * line : 323232
+             * line : 228548
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeLocation extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemPropCont.QuickTime:RelativeLocation',
             'desc' => [
+                'en' => 'Relative Location',
             ],
         ],
     ];

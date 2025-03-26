@@ -28,13 +28,14 @@ class LensTypeMake extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279744
+             * line : 194292
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensTypeMake extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:LensTypeMake',
             'desc' => [
+                'en' => 'Lens Type Make',
             ],
         ],
     ];

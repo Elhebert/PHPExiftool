@@ -28,13 +28,14 @@ class SigmaNoiseThreshTableV2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sigma Noise Thresh Table V2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156371
+             * line : 107575
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigmaNoiseThreshTableV2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SigmaNoiseThreshTableV2',
             'desc' => [
+                'en' => 'Sigma Noise Thresh Table V2',
             ],
         ],
     ];

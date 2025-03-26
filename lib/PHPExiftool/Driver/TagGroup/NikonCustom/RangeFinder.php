@@ -28,13 +28,14 @@ class RangeFinder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Range Finder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222184
+             * line : 149970
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RangeFinder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:RangeFinder',
             'desc' => [
+                'en' => 'Range Finder',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222794
+             * line : 150311
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class RangeFinder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:RangeFinder',
             'desc' => [
+                'en' => 'Range Finder',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223385
+             * line : 150647
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class RangeFinder extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:RangeFinder',
             'desc' => [
+                'en' => 'Range Finder',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PeakFrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171932
+             * line : 118117
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakFrameCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PeakFrameCount',
             'desc' => [
+                'en' => 'Peak Frame Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GPS360Fly
-             * line : 313123
+             * line : 218953
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::GPS360Fly.QuickTime:GPSMode',
             'desc' => [
+                'en' => 'GPS Mode',
             ],
         ],
     ];

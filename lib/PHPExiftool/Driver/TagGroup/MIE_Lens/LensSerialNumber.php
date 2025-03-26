@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 164018
+             * line : 111567
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

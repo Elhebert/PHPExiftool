@@ -28,13 +28,14 @@ class DetectorTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96391
+             * line : 69799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorTemperature extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorTemperature',
             'desc' => [
+                'en' => 'Detector Temperature',
             ],
         ],
     ];

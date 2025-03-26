@@ -28,13 +28,14 @@ class Language extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175055
+             * line : 120527
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Language extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176358
+             * line : 121338
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Language extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
     ];

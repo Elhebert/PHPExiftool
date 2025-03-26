@@ -28,13 +28,14 @@ class GeologicalContextGroup extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Geological Context Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106189
+             * line : 78539
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GeologicalContextGroup extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:GeologicalContextGroup',
             'desc' => [
+                'en' => 'Geological Context Group',
             ],
         ],
     ];

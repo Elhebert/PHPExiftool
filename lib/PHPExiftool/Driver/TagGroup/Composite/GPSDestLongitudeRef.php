@@ -28,13 +28,14 @@ class GPSDestLongitudeRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Dest Longitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 94382
+             * line : 68019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSDestLongitudeRef extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSDestLongitudeRef',
             'desc' => [
+                'en' => 'GPS Dest Longitude Ref',
             ],
         ],
     ];

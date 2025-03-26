@@ -28,13 +28,14 @@ class OriginalImageIdentNomenclature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Image Ident Nomenclature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98039
+             * line : 71386
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalImageIdentNomenclature extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OriginalImageIdentNomenclature',
             'desc' => [
+                'en' => 'Original Image Ident Nomenclature',
             ],
         ],
     ];

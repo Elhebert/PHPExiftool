@@ -28,13 +28,14 @@ class MDItemAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172560
+             * line : 118715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemAltitude extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemAltitude',
             'desc' => [
+                'en' => 'MD Item Altitude',
             ],
         ],
     ];

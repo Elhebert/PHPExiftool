@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153122
+             * line : 105302
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PositionOfIsocenterProjection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position Of Isocenter Projection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97137
+             * line : 70534
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionOfIsocenterProjection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PositionOfIsocenterProjection',
             'desc' => [
+                'en' => 'Position Of Isocenter Projection',
             ],
         ],
     ];

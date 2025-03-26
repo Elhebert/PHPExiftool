@@ -28,13 +28,14 @@ class TapeName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328527
+             * line : 231675
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TapeName extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:TapeName',
             'desc' => [
+                'en' => 'Tape Name',
             ],
         ],
     ];

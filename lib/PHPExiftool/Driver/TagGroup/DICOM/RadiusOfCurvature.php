@@ -28,13 +28,14 @@ class RadiusOfCurvature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radius Of Curvature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100706
+             * line : 73875
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiusOfCurvature extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiusOfCurvature',
             'desc' => [
+                'en' => 'Radius Of Curvature',
             ],
         ],
     ];

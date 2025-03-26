@@ -28,13 +28,14 @@ class Properties extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169603
+             * line : 115995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Properties extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Properties',
             'desc' => [
+                'en' => 'Properties',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DerivedFromMaskMarkers extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Mask Markers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413836
+             * line : 291867
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromMaskMarkers extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromMaskMarkers',
             'desc' => [
+                'en' => 'Derived From Mask Markers',
             ],
         ],
     ];

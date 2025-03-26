@@ -28,13 +28,14 @@ class TimecodeStartDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Start Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168504
+             * line : 114995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeStartDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeStartDateTime',
             'desc' => [
+                'en' => 'Timecode Start Date Time',
             ],
         ],
     ];

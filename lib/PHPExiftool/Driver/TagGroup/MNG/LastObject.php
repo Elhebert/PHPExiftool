@@ -28,13 +28,14 @@ class LastObject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::ClipObjects
-             * line : 164680
+             * line : 111898
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LastObject extends AbstractTagGroup
              */
             'id' => 'MNG::ClipObjects.MNG:LastObject',
             'desc' => [
+                'en' => 'Last Object',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::MoveObjects
-             * line : 165232
+             * line : 112323
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class LastObject extends AbstractTagGroup
              */
             'id' => 'MNG::MoveObjects.MNG:LastObject',
             'desc' => [
+                'en' => 'Last Object',
             ],
         ],
         2 => [
             /**
              * table_name : MNG::ShowObjects
-             * line : 165385
+             * line : 112454
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class LastObject extends AbstractTagGroup
              */
             'id' => 'MNG::ShowObjects.MNG:LastObject',
             'desc' => [
+                'en' => 'Last Object',
             ],
         ],
     ];

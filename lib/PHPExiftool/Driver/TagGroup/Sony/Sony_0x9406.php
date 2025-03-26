@@ -28,13 +28,14 @@ class Sony_0x9406 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony 0x9406',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355965
+             * line : 248334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sony_0x9406 extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Sony_0x9406',
             'desc' => [
+                'en' => 'Sony 0x9406',
             ],
         ],
     ];

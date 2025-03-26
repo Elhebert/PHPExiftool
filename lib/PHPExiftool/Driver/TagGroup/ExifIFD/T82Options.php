@@ -28,13 +28,14 @@ class T82Options extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'T82 Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112248
+             * line : 81961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class T82Options extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:T82Options',
             'desc' => [
+                'en' => 'T82 Options',
             ],
         ],
     ];

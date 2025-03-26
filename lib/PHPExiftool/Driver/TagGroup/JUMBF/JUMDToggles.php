@@ -28,13 +28,14 @@ class JUMDToggles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JUMD Toggles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::JUMD
-             * line : 154121
+             * line : 105816
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JUMDToggles extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::JUMD.JUMBF:JUMDToggles',
             'desc' => [
+                'en' => 'JUMD Toggles',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98645
+             * line : 71944
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageDimensions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageDimensions',
             'desc' => [
+                'en' => 'Image Dimensions',
             ],
         ],
     ];

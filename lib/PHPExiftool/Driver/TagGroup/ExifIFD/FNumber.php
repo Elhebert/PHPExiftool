@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113047
+             * line : 82293
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

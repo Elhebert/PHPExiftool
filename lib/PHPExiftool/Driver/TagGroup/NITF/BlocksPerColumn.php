@@ -28,13 +28,14 @@ class BlocksPerColumn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blocks Per Column',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152781
+             * line : 105120
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlocksPerColumn extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:BlocksPerColumn',
             'desc' => [
+                'en' => 'Blocks Per Column',
             ],
         ],
     ];

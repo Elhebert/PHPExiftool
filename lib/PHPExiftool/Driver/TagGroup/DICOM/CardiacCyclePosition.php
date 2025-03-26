@@ -28,13 +28,14 @@ class CardiacCyclePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Cycle Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96922
+             * line : 70324
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacCyclePosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacCyclePosition',
             'desc' => [
+                'en' => 'Cardiac Cycle Position',
             ],
         ],
     ];

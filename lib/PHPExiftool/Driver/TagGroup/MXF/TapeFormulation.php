@@ -28,13 +28,14 @@ class TapeFormulation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Formulation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169146
+             * line : 115588
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TapeFormulation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeFormulation',
             'desc' => [
+                'en' => 'Tape Formulation',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169149
+             * line : 115591
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TapeFormulation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeFormulation',
             'desc' => [
+                'en' => 'Tape Formulation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PictureMIMEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149112
+             * line : 103455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureMIMEType extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:PictureMIMEType',
             'desc' => [
+                'en' => 'Picture MIME Type',
             ],
         ],
     ];

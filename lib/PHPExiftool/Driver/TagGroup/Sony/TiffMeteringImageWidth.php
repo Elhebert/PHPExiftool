@@ -28,13 +28,14 @@ class TiffMeteringImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tiff Metering Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag940e
-             * line : 391018
+             * line : 276753
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TiffMeteringImageWidth extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940e.Sony:TiffMeteringImageWidth',
             'desc' => [
+                'en' => 'Tiff Metering Image Width',
             ],
         ],
     ];

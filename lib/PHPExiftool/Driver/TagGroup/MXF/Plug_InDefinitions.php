@@ -28,13 +28,14 @@ class Plug_InDefinitions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plug-In Definitions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169554
+             * line : 115947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Plug_InDefinitions extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Plug-InDefinitions',
             'desc' => [
+                'en' => 'Plug-In Definitions',
             ],
         ],
     ];

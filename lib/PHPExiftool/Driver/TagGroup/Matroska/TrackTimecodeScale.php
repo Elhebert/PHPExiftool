@@ -28,13 +28,14 @@ class TrackTimecodeScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Timecode Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173934
+             * line : 119815
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackTimecodeScale extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackTimecodeScale',
             'desc' => [
+                'en' => 'Track Timecode Scale',
             ],
         ],
     ];

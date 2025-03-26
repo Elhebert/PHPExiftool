@@ -28,13 +28,14 @@ class StationCallSign extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Station Call Sign',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176045
+             * line : 121125
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StationCallSign extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:StationCallSign',
             'desc' => [
+                'en' => 'Station Call Sign',
             ],
         ],
     ];

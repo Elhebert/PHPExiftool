@@ -28,13 +28,14 @@ class Groups extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Groups',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V2
-             * line : 282422
+             * line : 196129
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Groups extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:Groups',
             'desc' => [
+                'en' => 'Groups',
             ],
         ],
     ];

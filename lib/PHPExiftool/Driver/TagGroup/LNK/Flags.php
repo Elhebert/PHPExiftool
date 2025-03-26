@@ -28,13 +28,14 @@ class Flags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161241
+             * line : 110146
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flags extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:Flags',
             'desc' => [
+                'en' => 'Flags',
             ],
         ],
     ];

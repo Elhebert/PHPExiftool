@@ -28,13 +28,14 @@ class ClosedCompleteBodyPartition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Closed Complete Body Partition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172496
+             * line : 118657
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClosedCompleteBodyPartition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClosedCompleteBodyPartition',
             'desc' => [
+                'en' => 'Closed Complete Body Partition',
             ],
         ],
     ];

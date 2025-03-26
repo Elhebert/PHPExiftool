@@ -28,13 +28,14 @@ class CamReverse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cam Reverse',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104617
+             * line : 77656
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CamReverse extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:CamReverse',
             'desc' => [
+                'en' => 'Cam Reverse',
             ],
         ],
     ];

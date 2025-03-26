@@ -28,13 +28,14 @@ class DataPreparer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Preparer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152038
+             * line : 104718
              * type : string
              * writable : false
              * count : 128
@@ -42,6 +43,7 @@ class DataPreparer extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:DataPreparer',
             'desc' => [
+                'en' => 'Data Preparer',
             ],
         ],
     ];

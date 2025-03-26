@@ -28,13 +28,14 @@ class RegisterVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172313
+             * line : 118474
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterVersion',
             'desc' => [
+                'en' => 'Register Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 6480
+             * line : 4428
              * type : string
              * writable : true
              * count : 6
@@ -42,12 +43,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 11222
+             * line : 7971
              * type : string
              * writable : true
              * count : 6
@@ -55,12 +57,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 15642
+             * line : 11414
              * type : string
              * writable : true
              * count : 6
@@ -68,12 +71,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 19858
+             * line : 14750
              * type : string
              * writable : true
              * count : 6
@@ -81,12 +85,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 21883
+             * line : 16382
              * type : string
              * writable : true
              * count : 6
@@ -94,12 +99,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 23897
+             * line : 18011
              * type : string
              * writable : true
              * count : 6
@@ -107,12 +113,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 26216
+             * line : 19768
              * type : string
              * writable : true
              * count : 6
@@ -120,12 +127,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 28518
+             * line : 21522
              * type : string
              * writable : true
              * count : 6
@@ -133,12 +141,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 30709
+             * line : 23239
              * type : string
              * writable : true
              * count : 6
@@ -146,12 +155,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 37223
+             * line : 28472
              * type : string
              * writable : true
              * count : 6
@@ -159,12 +169,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 39373
+             * line : 30164
              * type : string
              * writable : true
              * count : 6
@@ -172,12 +183,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 41571
+             * line : 31887
              * type : string
              * writable : true
              * count : 6
@@ -185,12 +197,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 43324
+             * line : 33439
              * type : string
              * writable : true
              * count : 6
@@ -198,12 +211,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 45460
+             * line : 35125
              * type : string
              * writable : true
              * count : 6
@@ -211,12 +225,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 45470
+             * line : 35128
              * type : string
              * writable : true
              * count : 6
@@ -224,12 +239,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 47618
+             * line : 36820
              * type : string
              * writable : true
              * count : 6
@@ -237,12 +253,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 49318
+             * line : 38358
              * type : string
              * writable : true
              * count : 6
@@ -250,12 +267,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 51453
+             * line : 40044
              * type : string
              * writable : true
              * count : 6
@@ -263,12 +281,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 51463
+             * line : 40047
              * type : string
              * writable : true
              * count : 6
@@ -276,12 +295,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 53607
+             * line : 41739
              * type : string
              * writable : true
              * count : 6
@@ -289,12 +309,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         20 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 55307
+             * line : 43277
              * type : string
              * writable : true
              * count : 6
@@ -302,12 +323,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         21 => [
             /**
              * table_name : Canon::CameraInfoUnknown
-             * line : 55556
+             * line : 43346
              * type : string
              * writable : true
              * count : 6
@@ -315,6 +337,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown.Canon:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

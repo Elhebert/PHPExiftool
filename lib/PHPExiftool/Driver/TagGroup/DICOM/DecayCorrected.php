@@ -28,13 +28,14 @@ class DecayCorrected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decay Corrected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97342
+             * line : 70738
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecayCorrected extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DecayCorrected',
             'desc' => [
+                'en' => 'Decay Corrected',
             ],
         ],
     ];

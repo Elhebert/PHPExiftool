@@ -28,13 +28,14 @@ class BlackLevelTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154722
+             * line : 106110
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackLevelTop extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackLevelTop',
             'desc' => [
+                'en' => 'Black Level Top',
             ],
         ],
     ];

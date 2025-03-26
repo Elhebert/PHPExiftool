@@ -28,13 +28,14 @@ class DVBParentalRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVB Parental Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168729
+             * line : 115205
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVBParentalRating extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DVBParentalRating',
             'desc' => [
+                'en' => 'DVB Parental Rating',
             ],
         ],
     ];

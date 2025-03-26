@@ -28,13 +28,14 @@ class PositionerType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Positioner Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96039
+             * line : 69460
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionerType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PositionerType',
             'desc' => [
+                'en' => 'Positioner Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BannerImageURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Banner Image URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentBranding
-             * line : 924
+             * line : 359
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BannerImageURL extends AbstractTagGroup
              */
             'id' => 'ASF::ContentBranding.ASF:BannerImageURL',
             'desc' => [
+                'en' => 'Banner Image URL',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1086
+             * line : 433
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BannerImageURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:BannerImageURL',
             'desc' => [
+                'en' => 'Banner Image URL',
             ],
         ],
     ];

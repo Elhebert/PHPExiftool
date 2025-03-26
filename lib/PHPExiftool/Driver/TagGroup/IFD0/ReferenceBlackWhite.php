@@ -28,13 +28,14 @@ class ReferenceBlackWhite extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reference Black White',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112607
+             * line : 82099
              * type : rational64u
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class ReferenceBlackWhite extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ReferenceBlackWhite',
             'desc' => [
+                'en' => 'Reference Black White',
             ],
         ],
     ];

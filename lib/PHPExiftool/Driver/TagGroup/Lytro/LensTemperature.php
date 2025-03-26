@@ -28,13 +28,14 @@ class LensTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162277
+             * line : 110851
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensTemperature extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:LensTemperature',
             'desc' => [
+                'en' => 'Lens Temperature',
             ],
         ],
     ];

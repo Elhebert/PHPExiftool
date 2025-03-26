@@ -28,13 +28,14 @@ class CanonModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 64658
+             * line : 48924
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonModelID extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:CanonModelID',
             'desc' => [
+                'en' => 'Canon Model ID',
             ],
         ],
     ];

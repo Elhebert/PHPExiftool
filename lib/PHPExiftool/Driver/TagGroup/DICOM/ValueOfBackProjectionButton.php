@@ -28,13 +28,14 @@ class ValueOfBackProjectionButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Value Of Back Projection Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97542
+             * line : 70927
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ValueOfBackProjectionButton extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ValueOfBackProjectionButton',
             'desc' => [
+                'en' => 'Value Of Back Projection Button',
             ],
         ],
     ];

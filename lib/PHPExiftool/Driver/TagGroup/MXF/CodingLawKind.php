@@ -28,13 +28,14 @@ class CodingLawKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding Law Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169089
+             * line : 115532
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingLawKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodingLawKind',
             'desc' => [
+                'en' => 'Coding Law Kind',
             ],
         ],
     ];

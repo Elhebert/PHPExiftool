@@ -28,13 +28,14 @@ class StandardOutputHighlightPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard Output Highlight Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82782
+             * line : 60624
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StandardOutputHighlightPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:StandardOutputHighlightPoint',
             'desc' => [
+                'en' => 'Standard Output Highlight Point',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ModificationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modification Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410954
+             * line : 290184
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModificationDate extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ModificationDate',
             'desc' => [
+                'en' => 'Modification Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSVersionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Version ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407070
+             * line : 288259
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280471
+             * line : 194631
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawFormat extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:RawFormat',
             'desc' => [
+                'en' => 'Raw Format',
             ],
         ],
     ];

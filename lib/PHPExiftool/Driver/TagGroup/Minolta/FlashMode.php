@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177095
+             * line : 121793
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178652
+             * line : 122395
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179693
+             * line : 122752
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180670
+             * line : 123096
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

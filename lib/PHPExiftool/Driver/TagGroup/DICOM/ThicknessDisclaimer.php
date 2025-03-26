@@ -28,13 +28,14 @@ class ThicknessDisclaimer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thickness Disclaimer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97774
+             * line : 71155
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThicknessDisclaimer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ThicknessDisclaimer',
             'desc' => [
+                'en' => 'Thickness Disclaimer',
             ],
         ],
     ];

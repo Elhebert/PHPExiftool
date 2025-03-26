@@ -28,13 +28,14 @@ class ColorTempDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59203
+             * line : 45889
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59481
+             * line : 46031
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59737
+             * line : 46161
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60007
+             * line : 46302
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60534
+             * line : 46602
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60781
+             * line : 46744
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61126
+             * line : 46927
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61500
+             * line : 47167
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61888
+             * line : 47380
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62309
+             * line : 47620
              * type : int16s
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62780
+             * line : 47902
              * type : int16s
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
     ];

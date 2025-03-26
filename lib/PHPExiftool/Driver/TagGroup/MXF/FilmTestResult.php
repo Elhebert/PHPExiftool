@@ -28,13 +28,14 @@ class FilmTestResult extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Test Result',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167963
+             * line : 114485
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FilmTestResult extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmTestResult',
             'desc' => [
+                'en' => 'Film Test Result',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 167966
+             * line : 114488
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FilmTestResult extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmTestResult',
             'desc' => [
+                'en' => 'Film Test Result',
             ],
         ],
     ];

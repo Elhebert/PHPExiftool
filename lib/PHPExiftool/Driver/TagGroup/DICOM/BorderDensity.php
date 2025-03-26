@@ -28,13 +28,14 @@ class BorderDensity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Border Density',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102082
+             * line : 75219
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BorderDensity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BorderDensity',
             'desc' => [
+                'en' => 'Border Density',
             ],
         ],
     ];

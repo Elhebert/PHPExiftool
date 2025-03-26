@@ -28,13 +28,14 @@ class SampleText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127939
+             * line : 88809
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleText extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:SampleText',
             'desc' => [
+                'en' => 'Sample Text',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReplayTrackPeak extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Replay Track Peak',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326710
+             * line : 230441
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReplayTrackPeak extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:ReplayTrackPeak',
             'desc' => [
+                'en' => 'Replay Track Peak',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Part extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Part',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328503
+             * line : 231652
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Part extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Part',
             'desc' => [
+                'en' => 'Part',
             ],
         ],
     ];

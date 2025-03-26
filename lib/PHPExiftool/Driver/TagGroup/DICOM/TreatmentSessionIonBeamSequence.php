@@ -28,13 +28,14 @@ class TreatmentSessionIonBeamSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Session Ion Beam Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102678
+             * line : 75774
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentSessionIonBeamSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentSessionIonBeamSequence',
             'desc' => [
+                'en' => 'Treatment Session Ion Beam Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ComponentsConfiguration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Components Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Image
-             * line : 163838
+             * line : 111515
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ComponentsConfiguration extends AbstractTagGroup
              */
             'id' => 'MIE::Image.MIE-Image:ComponentsConfiguration',
             'desc' => [
+                'en' => 'Components Configuration',
             ],
         ],
     ];

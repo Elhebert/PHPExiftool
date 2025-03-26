@@ -28,13 +28,14 @@ class LimitAF_AreaModeSelPinpoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit AF-Area Mode Sel Pinpoint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235254
+             * line : 158553
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LimitAF_AreaModeSelPinpoint extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitAF-AreaModeSelPinpoint',
             'desc' => [
+                'en' => 'Limit AF-Area Mode Sel Pinpoint',
             ],
         ],
     ];

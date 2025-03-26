@@ -28,13 +28,14 @@ class TissueHeterogeneityCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tissue Heterogeneity Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102474
+             * line : 75573
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TissueHeterogeneityCorrection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TissueHeterogeneityCorrection',
             'desc' => [
+                'en' => 'Tissue Heterogeneity Correction',
             ],
         ],
     ];

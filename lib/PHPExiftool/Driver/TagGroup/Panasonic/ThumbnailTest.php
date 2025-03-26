@@ -28,13 +28,14 @@ class ThumbnailTest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278782
+             * line : 193825
              * type : undef
              * writable : false
              * count : 600
@@ -42,6 +43,7 @@ class ThumbnailTest extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:ThumbnailTest',
             'desc' => [
+                'en' => 'Thumbnail Test',
             ],
         ],
     ];

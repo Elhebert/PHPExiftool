@@ -28,13 +28,14 @@ class PitchRollYaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pitch Roll Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393962
+             * line : 279119
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PitchRollYaw extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:PitchRollYaw',
             'desc' => [
+                'en' => 'Pitch Roll Yaw',
             ],
         ],
     ];

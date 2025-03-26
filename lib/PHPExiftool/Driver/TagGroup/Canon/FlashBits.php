@@ -28,13 +28,14 @@ class FlashBits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58505
+             * line : 45528
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashBits extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:FlashBits',
             'desc' => [
+                'en' => 'Flash Bits',
             ],
         ],
     ];

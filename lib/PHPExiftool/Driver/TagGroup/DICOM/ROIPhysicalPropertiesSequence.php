@@ -28,13 +28,14 @@ class ROIPhysicalPropertiesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Physical Properties Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102630
+             * line : 75726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIPhysicalPropertiesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIPhysicalPropertiesSequence',
             'desc' => [
+                'en' => 'ROI Physical Properties Sequence',
             ],
         ],
     ];

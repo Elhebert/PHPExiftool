@@ -28,13 +28,14 @@ class FirstFlushSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Flush Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155081
+             * line : 106331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstFlushSequence extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FirstFlushSequence',
             'desc' => [
+                'en' => 'First Flush Sequence',
             ],
         ],
     ];

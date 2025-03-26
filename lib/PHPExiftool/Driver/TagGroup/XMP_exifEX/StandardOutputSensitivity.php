@@ -28,13 +28,14 @@ class StandardOutputSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard Output Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408751
+             * line : 288689
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StandardOutputSensitivity extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:StandardOutputSensitivity',
             'desc' => [
+                'en' => 'Standard Output Sensitivity',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Footer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Footer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172499
+             * line : 118660
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Footer extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Footer',
             'desc' => [
+                'en' => 'Footer',
             ],
         ],
     ];

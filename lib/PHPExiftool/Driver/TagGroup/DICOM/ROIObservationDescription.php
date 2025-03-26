@@ -28,13 +28,14 @@ class ROIObservationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Observation Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102618
+             * line : 75714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIObservationDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIObservationDescription',
             'desc' => [
+                'en' => 'ROI Observation Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubjectArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408234
+             * line : 288501
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectArea extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:SubjectArea',
             'desc' => [
+                'en' => 'Subject Area',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChemicalShiftsMinIntegrateLimitPPM extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chemical Shifts Min Integrate Limit PPM',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96934
+             * line : 70336
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChemicalShiftsMinIntegrateLimitPPM extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChemicalShiftsMinIntegrateLimitPPM',
             'desc' => [
+                'en' => 'Chemical Shifts Min Integrate Limit PPM',
             ],
         ],
     ];

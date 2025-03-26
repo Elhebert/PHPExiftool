@@ -28,13 +28,14 @@ class UnshiftedNote extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unshifted Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Instrument
-             * line : 328604
+             * line : 231715
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnshiftedNote extends AbstractTagGroup
              */
             'id' => 'RIFF::Instrument.RIFF:UnshiftedNote',
             'desc' => [
+                'en' => 'Unshifted Note',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HometownCityCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hometown City Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Type2
-             * line : 303010
+             * line : 210689
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class HometownCityCode extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:HometownCityCode',
             'desc' => [
+                'en' => 'Hometown City Code',
             ],
         ],
     ];

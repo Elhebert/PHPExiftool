@@ -28,13 +28,14 @@ class ExposureControlSensingRegionShape extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Control Sensing Region Shape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97149
+             * line : 70546
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureControlSensingRegionShape extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureControlSensingRegionShape',
             'desc' => [
+                'en' => 'Exposure Control Sensing Region Shape',
             ],
         ],
     ];

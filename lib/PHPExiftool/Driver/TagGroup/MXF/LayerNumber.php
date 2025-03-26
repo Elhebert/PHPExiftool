@@ -28,13 +28,14 @@ class LayerNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169095
+             * line : 115538
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LayerNumber',
             'desc' => [
+                'en' => 'Layer Number',
             ],
         ],
     ];

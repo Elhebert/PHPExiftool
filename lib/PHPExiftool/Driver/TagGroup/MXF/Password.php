@@ -28,13 +28,14 @@ class Password extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Password',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167493
+             * line : 114108
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Password extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Password',
             'desc' => [
+                'en' => 'Password',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 167496
+             * line : 114111
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Password extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Password',
             'desc' => [
+                'en' => 'Password',
             ],
         ],
     ];

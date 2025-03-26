@@ -28,13 +28,14 @@ class TriggerOnPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger On Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100451
+             * line : 73623
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerOnPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerOnPosition',
             'desc' => [
+                'en' => 'Trigger On Position',
             ],
         ],
     ];

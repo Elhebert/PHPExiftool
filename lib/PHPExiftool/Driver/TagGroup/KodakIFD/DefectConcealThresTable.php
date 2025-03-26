@@ -28,13 +28,14 @@ class DefectConcealThresTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Defect Conceal Thres Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155627
+             * line : 106838
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefectConcealThresTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DefectConcealThresTable',
             'desc' => [
+                'en' => 'Defect Conceal Thres Table',
             ],
         ],
     ];

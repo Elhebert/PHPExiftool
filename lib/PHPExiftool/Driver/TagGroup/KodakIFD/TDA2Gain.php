@@ -28,13 +28,14 @@ class TDA2Gain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TDA2 Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157359
+             * line : 108551
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class TDA2Gain extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TDA2Gain',
             'desc' => [
+                'en' => 'TDA2 Gain',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FiniteVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Finite Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101151
+             * line : 74301
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FiniteVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FiniteVolume',
             'desc' => [
+                'en' => 'Finite Volume',
             ],
         ],
     ];

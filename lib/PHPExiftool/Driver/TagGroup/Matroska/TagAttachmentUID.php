@@ -28,13 +28,14 @@ class TagAttachmentUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Attachment UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173785
+             * line : 119684
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagAttachmentUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TagAttachmentUID',
             'desc' => [
+                'en' => 'Tag Attachment UID',
             ],
         ],
     ];

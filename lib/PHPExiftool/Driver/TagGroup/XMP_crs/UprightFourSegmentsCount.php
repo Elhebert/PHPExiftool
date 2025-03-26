@@ -28,13 +28,14 @@ class UprightFourSegmentsCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Four Segments Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404551
+             * line : 287578
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightFourSegmentsCount extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:UprightFourSegmentsCount',
             'desc' => [
+                'en' => 'Upright Four Segments Count',
             ],
         ],
     ];

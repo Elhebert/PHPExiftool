@@ -28,13 +28,14 @@ class SpeedChangeEffectFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Speed Change Effect Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168211
+             * line : 114707
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpeedChangeEffectFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SpeedChangeEffectFlag',
             'desc' => [
+                'en' => 'Speed Change Effect Flag',
             ],
         ],
     ];

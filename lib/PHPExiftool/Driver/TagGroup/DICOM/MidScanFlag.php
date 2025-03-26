@@ -28,13 +28,14 @@ class MidScanFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mid Scan Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97455
+             * line : 70843
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MidScanFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MidScanFlag',
             'desc' => [
+                'en' => 'Mid Scan Flag',
             ],
         ],
     ];

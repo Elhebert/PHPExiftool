@@ -28,13 +28,14 @@ class KeepExposureWithTeleconverter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keep Exposure With Teleconverter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248945
+             * line : 171625
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeepExposureWithTeleconverter extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:KeepExposureWithTeleconverter',
             'desc' => [
+                'en' => 'Keep Exposure With Teleconverter',
             ],
         ],
     ];

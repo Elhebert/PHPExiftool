@@ -28,13 +28,14 @@ class DimensionOrganizationUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimension Organization UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98087
+             * line : 71434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DimensionOrganizationUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DimensionOrganizationUID',
             'desc' => [
+                'en' => 'Dimension Organization UID',
             ],
         ],
     ];

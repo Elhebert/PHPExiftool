@@ -28,13 +28,14 @@ class System extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303373
+             * line : 210825
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class System extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:System',
             'desc' => [
+                'en' => 'System',
             ],
         ],
     ];

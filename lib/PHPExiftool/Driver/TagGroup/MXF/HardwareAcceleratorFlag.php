@@ -28,13 +28,14 @@ class HardwareAcceleratorFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hardware Accelerator Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169363
+             * line : 115770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HardwareAcceleratorFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HardwareAcceleratorFlag',
             'desc' => [
+                'en' => 'Hardware Accelerator Flag',
             ],
         ],
     ];

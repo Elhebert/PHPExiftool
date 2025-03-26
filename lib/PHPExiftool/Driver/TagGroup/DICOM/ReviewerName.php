@@ -28,13 +28,14 @@ class ReviewerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reviewer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104053
+             * line : 77142
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReviewerName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReviewerName',
             'desc' => [
+                'en' => 'Reviewer Name',
             ],
         ],
     ];

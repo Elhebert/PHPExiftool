@@ -28,13 +28,14 @@ class HighNote extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'High Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Instrument
-             * line : 328616
+             * line : 231727
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HighNote extends AbstractTagGroup
              */
             'id' => 'RIFF::Instrument.RIFF:HighNote',
             'desc' => [
+                'en' => 'High Note',
             ],
         ],
     ];

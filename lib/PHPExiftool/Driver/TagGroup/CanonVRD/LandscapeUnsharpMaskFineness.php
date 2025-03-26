@@ -28,13 +28,14 @@ class LandscapeUnsharpMaskFineness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Landscape Unsharp Mask Fineness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83709
+             * line : 61351
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LandscapeUnsharpMaskFineness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LandscapeUnsharpMaskFineness',
             'desc' => [
+                'en' => 'Landscape Unsharp Mask Fineness',
             ],
         ],
     ];

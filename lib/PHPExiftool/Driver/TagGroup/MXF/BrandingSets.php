@@ -28,13 +28,14 @@ class BrandingSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Branding Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171513
+             * line : 117712
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrandingSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BrandingSets',
             'desc' => [
+                'en' => 'Branding Sets',
             ],
         ],
     ];

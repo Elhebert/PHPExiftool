@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaData
-             * line : 323957
+             * line : 228940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaData.QuickTime:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

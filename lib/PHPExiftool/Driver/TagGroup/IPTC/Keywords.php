@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149918
+             * line : 103851
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210799
+             * line : 141835
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

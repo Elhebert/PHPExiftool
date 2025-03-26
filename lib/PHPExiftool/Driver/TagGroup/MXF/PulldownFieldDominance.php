@@ -28,13 +28,14 @@ class PulldownFieldDominance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pulldown Field Dominance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167939
+             * line : 114461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PulldownFieldDominance extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PulldownFieldDominance',
             'desc' => [
+                'en' => 'Pulldown Field Dominance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InputStackFilename extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Stack Filename',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166730
+             * line : 113467
              * type : string
              * writable : false
              * count : 80
@@ -42,6 +43,7 @@ class InputStackFilename extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:InputStackFilename',
             'desc' => [
+                'en' => 'Input Stack Filename',
             ],
         ],
     ];

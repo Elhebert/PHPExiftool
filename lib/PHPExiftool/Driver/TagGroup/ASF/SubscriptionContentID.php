@@ -28,13 +28,14 @@ class SubscriptionContentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subscription Content ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1595
+             * line : 784
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubscriptionContentID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:SubscriptionContentID',
             'desc' => [
+                'en' => 'Subscription Content ID',
             ],
         ],
     ];

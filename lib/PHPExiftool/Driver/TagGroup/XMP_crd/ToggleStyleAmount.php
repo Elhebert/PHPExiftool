@@ -28,13 +28,14 @@ class ToggleStyleAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toggle Style Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401141
+             * line : 284558
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToggleStyleAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ToggleStyleAmount',
             'desc' => [
+                'en' => 'Toggle Style Amount',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SigmaImpulseParameters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sigma Impulse Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156368
+             * line : 107572
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SigmaImpulseParameters extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SigmaImpulseParameters',
             'desc' => [
+                'en' => 'Sigma Impulse Parameters',
             ],
         ],
     ];

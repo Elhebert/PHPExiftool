@@ -28,13 +28,14 @@ class FirstTransmissionInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Transmission Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168711
+             * line : 115187
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstTransmissionInfo extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FirstTransmissionInfo',
             'desc' => [
+                'en' => 'First Transmission Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PEFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PEF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEF
-             * line : 108978
+             * line : 80567
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PEFVersion extends AbstractTagGroup
              */
             'id' => 'EXE::PEF.EXE:PEFVersion',
             'desc' => [
+                'en' => 'PEF Version',
             ],
         ],
     ];

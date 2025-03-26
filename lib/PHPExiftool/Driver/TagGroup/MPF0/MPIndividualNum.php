@@ -28,13 +28,14 @@ class MPIndividualNum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MP Individual Num',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166265
+             * line : 113053
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPIndividualNum extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:MPIndividualNum',
             'desc' => [
+                'en' => 'MP Individual Num',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocaleIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Locale Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127318
+             * line : 88356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocaleIndicator extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:LocaleIndicator',
             'desc' => [
+                'en' => 'Locale Indicator',
             ],
         ],
     ];

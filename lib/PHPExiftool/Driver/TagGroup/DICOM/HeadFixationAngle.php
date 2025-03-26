@@ -28,13 +28,14 @@ class HeadFixationAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Head Fixation Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103429
+             * line : 76524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeadFixationAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HeadFixationAngle',
             'desc' => [
+                'en' => 'Head Fixation Angle',
             ],
         ],
     ];

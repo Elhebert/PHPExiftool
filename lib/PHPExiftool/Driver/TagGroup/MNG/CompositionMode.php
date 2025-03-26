@@ -28,13 +28,14 @@ class CompositionMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composition Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165275
+             * line : 112364
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompositionMode extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:CompositionMode',
             'desc' => [
+                'en' => 'Composition Mode',
             ],
         ],
     ];

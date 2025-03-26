@@ -28,13 +28,14 @@ class MultiBurstMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Burst Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 353825
+             * line : 246765
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiBurstMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:MultiBurstMode',
             'desc' => [
+                'en' => 'Multi Burst Mode',
             ],
         ],
     ];

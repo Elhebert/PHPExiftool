@@ -28,13 +28,14 @@ class CanonImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13126
+             * line : 9562
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CanonImageSize extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:CanonImageSize',
             'desc' => [
+                'en' => 'Canon Image Size',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56021
+             * line : 43576
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CanonImageSize extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:CanonImageSize',
             'desc' => [
+                'en' => 'Canon Image Size',
             ],
         ],
     ];

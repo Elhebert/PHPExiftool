@@ -28,13 +28,14 @@ class CropTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398844
+             * line : 282389
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropTop extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CropTop',
             'desc' => [
+                'en' => 'Crop Top',
             ],
         ],
     ];

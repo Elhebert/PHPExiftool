@@ -28,13 +28,14 @@ class FrameSameOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Same Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264856
+             * line : 183083
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameSameOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FrameSameOval',
             'desc' => [
+                'en' => 'Frame Same Oval',
             ],
         ],
     ];

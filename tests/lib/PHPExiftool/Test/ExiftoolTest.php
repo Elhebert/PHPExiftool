@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -11,8 +12,8 @@
 namespace lib\PHPExiftool\Test;
 
 use Exception;
-use Monolog\Logger;
 use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 use PHPExiftool\Exception\RuntimeException;
 use PHPExiftool\Exiftool;
 use PHPUnit\Framework\TestCase;
@@ -21,9 +22,10 @@ class ExiftoolTest extends TestCase
 {
     /**
      * @covers \PHPExiftool\Exiftool::executeCommand
+     *
      * @throws Exception
      */
-    public function testExecuteCommand()
+    public function test_execute_command()
     {
         $exiftool = new Exiftool($this->getlogger());
         $this->assertMatchesRegularExpression('/\d+\.\d+/', $exiftool->executeCommand(['-ver']));
@@ -32,9 +34,10 @@ class ExiftoolTest extends TestCase
     /**
      * @covers \PHPExiftool\Exiftool::executeCommand
      * @covers \PHPExiftool\Exception\RuntimeException
+     *
      * @throws Exception
      */
-    public function testExecuteCommandFailed()
+    public function test_execute_command_failed()
     {
         $this->expectException(RuntimeException::class);
         $exiftool = new Exiftool($this->getlogger());
@@ -44,9 +47,8 @@ class ExiftoolTest extends TestCase
     private function getlogger(): Logger
     {
         $logger = new Logger('Tests');
-        $logger->pushHandler(new NullHandler());
+        $logger->pushHandler(new NullHandler);
 
         return $logger;
     }
 }
-

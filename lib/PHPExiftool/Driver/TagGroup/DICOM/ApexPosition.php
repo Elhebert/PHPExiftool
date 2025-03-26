@@ -28,13 +28,14 @@ class ApexPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apex Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98161
+             * line : 71506
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApexPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApexPosition',
             'desc' => [
+                'en' => 'Apex Position',
             ],
         ],
     ];

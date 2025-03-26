@@ -28,13 +28,14 @@ class PrimaryAFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Primary AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188408
+             * line : 127567
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188580
+             * line : 127728
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188670
+             * line : 127769
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188806
+             * line : 127894
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189225
+             * line : 128307
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189242
+             * line : 128318
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189259
+             * line : 128329
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         7 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189732
+             * line : 128796
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         8 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189749
+             * line : 128807
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         9 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190051
+             * line : 128948
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         10 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190380
+             * line : 129271
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         11 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190853
+             * line : 129738
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
         12 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190943
+             * line : 129779
              * type : int8u
              * writable : true
              * count :
@@ -198,6 +211,7 @@ class PrimaryAFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:PrimaryAFPoint',
             'desc' => [
+                'en' => 'Primary AF Point',
             ],
         ],
     ];

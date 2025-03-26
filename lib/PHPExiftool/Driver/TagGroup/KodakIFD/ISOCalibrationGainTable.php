@@ -28,13 +28,14 @@ class ISOCalibrationGainTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO Calibration Gain Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155287
+             * line : 106508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISOCalibrationGainTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ISOCalibrationGainTable',
             'desc' => [
+                'en' => 'ISO Calibration Gain Table',
             ],
         ],
     ];

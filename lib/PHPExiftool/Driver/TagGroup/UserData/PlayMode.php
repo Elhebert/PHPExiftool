@@ -28,13 +28,14 @@ class PlayMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Play Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325291
+             * line : 229625
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlayMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:PlayMode',
             'desc' => [
+                'en' => 'Play Mode',
             ],
         ],
     ];

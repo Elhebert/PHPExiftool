@@ -28,13 +28,14 @@ class FlashType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182329
+             * line : 124155
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashType extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FlashType',
             'desc' => [
+                'en' => 'Flash Type',
             ],
         ],
     ];

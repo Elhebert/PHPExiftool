@@ -28,13 +28,14 @@ class SonyImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361303
+             * line : 251733
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SonyImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:SonyImageHeight',
             'desc' => [
+                'en' => 'Sony Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362026
+             * line : 252075
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SonyImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:SonyImageHeight',
             'desc' => [
+                'en' => 'Sony Image Height',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 384171
+             * line : 270854
              * type : int16u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class SonyImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:SonyImageHeight',
             'desc' => [
+                'en' => 'Sony Image Height',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384404
+             * line : 271027
              * type : int16u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class SonyImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:SonyImageHeight',
             'desc' => [
+                'en' => 'Sony Image Height',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384674
+             * line : 271250
              * type : int16u
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class SonyImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:SonyImageHeight',
             'desc' => [
+                'en' => 'Sony Image Height',
             ],
         ],
     ];

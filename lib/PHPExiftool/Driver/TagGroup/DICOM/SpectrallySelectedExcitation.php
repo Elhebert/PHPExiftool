@@ -28,13 +28,14 @@ class SpectrallySelectedExcitation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectrally Selected Excitation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96572
+             * line : 69976
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectrallySelectedExcitation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectrallySelectedExcitation',
             'desc' => [
+                'en' => 'Spectrally Selected Excitation',
             ],
         ],
     ];

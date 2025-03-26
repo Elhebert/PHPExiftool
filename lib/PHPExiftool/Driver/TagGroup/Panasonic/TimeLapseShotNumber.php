@@ -28,13 +28,14 @@ class TimeLapseShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Lapse Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::TimeInfo
-             * line : 279658
+             * line : 194233
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeLapseShotNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::TimeInfo.Panasonic:TimeLapseShotNumber',
             'desc' => [
+                'en' => 'Time Lapse Shot Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SettingCountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168398
+             * line : 114893
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SettingCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingCountryCode',
             'desc' => [
+                'en' => 'Setting Country Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303356
+             * line : 210822
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

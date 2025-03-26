@@ -28,13 +28,14 @@ class AlphaInterlace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Interlace',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164998
+             * line : 112133
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaInterlace extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:AlphaInterlace',
             'desc' => [
+                'en' => 'Alpha Interlace',
             ],
         ],
     ];

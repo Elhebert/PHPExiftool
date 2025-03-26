@@ -28,13 +28,14 @@ class PupilSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pupil Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100691
+             * line : 73860
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PupilSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PupilSize',
             'desc' => [
+                'en' => 'Pupil Size',
             ],
         ],
     ];

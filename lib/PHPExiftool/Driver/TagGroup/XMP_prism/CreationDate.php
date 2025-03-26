@@ -28,13 +28,14 @@ class CreationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410809
+             * line : 290088
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreationDate extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:CreationDate',
             'desc' => [
+                'en' => 'Creation Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EventStartDayOfYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Start Day Of Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106133
+             * line : 78497
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventStartDayOfYear extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventStartDayOfYear',
             'desc' => [
+                'en' => 'Event Start Day Of Year',
             ],
         ],
     ];

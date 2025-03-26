@@ -28,13 +28,14 @@ class FilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277781
+             * line : 193201
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilterEffect extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:FilterEffect',
             'desc' => [
+                'en' => 'Filter Effect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DCCoordinateUncertaintyInMeters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Coordinate Uncertainty In Meters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106862
+             * line : 79043
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCCoordinateUncertaintyInMeters extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCCoordinateUncertaintyInMeters',
             'desc' => [
+                'en' => 'DC Coordinate Uncertainty In Meters',
             ],
         ],
     ];

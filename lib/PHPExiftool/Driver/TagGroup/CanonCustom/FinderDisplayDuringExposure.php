@@ -28,13 +28,14 @@ class FinderDisplayDuringExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finder Display During Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 71873
+             * line : 53483
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinderDisplayDuringExposure extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:FinderDisplayDuringExposure',
             'desc' => [
+                'en' => 'Finder Display During Exposure',
             ],
         ],
     ];

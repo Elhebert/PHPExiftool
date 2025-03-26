@@ -28,13 +28,14 @@ class AmbientTemperatureFahrenheit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ambient Temperature Fahrenheit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330689
+             * line : 232674
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AmbientTemperatureFahrenheit extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:AmbientTemperatureFahrenheit',
             'desc' => [
+                'en' => 'Ambient Temperature Fahrenheit',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330958
+             * line : 232809
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AmbientTemperatureFahrenheit extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:AmbientTemperatureFahrenheit',
             'desc' => [
+                'en' => 'Ambient Temperature Fahrenheit',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331183
+             * line : 232929
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AmbientTemperatureFahrenheit extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:AmbientTemperatureFahrenheit',
             'desc' => [
+                'en' => 'Ambient Temperature Fahrenheit',
             ],
         ],
     ];

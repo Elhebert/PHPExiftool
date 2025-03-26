@@ -28,13 +28,14 @@ class AFStatusActiveSensor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Active Sensor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 340842
+             * line : 238385
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 342783
+             * line : 240029
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345264
+             * line : 242046
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345768
+             * line : 242418
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346181
+             * line : 242664
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346509
+             * line : 242829
              * type : int16s
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
     ];

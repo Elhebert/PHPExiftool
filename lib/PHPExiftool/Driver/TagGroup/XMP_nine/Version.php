@@ -28,13 +28,14 @@ class Version extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::nine
-             * line : 210090
+             * line : 141484
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Version extends AbstractTagGroup
              */
             'id' => 'Nikon::nine.XMP-nine:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IFCameraModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IF Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155596
+             * line : 106808
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IFCameraModel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IFCameraModel',
             'desc' => [
+                'en' => 'IF Camera Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104212
+             * line : 77289
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfSamples extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfSamples',
             'desc' => [
+                'en' => 'Number Of Samples',
             ],
         ],
     ];

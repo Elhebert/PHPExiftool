@@ -28,13 +28,14 @@ class SectorSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sector Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170740
+             * line : 116973
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SectorSize extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SectorSize',
             'desc' => [
+                'en' => 'Sector Size',
             ],
         ],
     ];

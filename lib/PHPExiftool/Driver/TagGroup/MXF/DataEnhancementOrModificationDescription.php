@@ -28,13 +28,14 @@ class DataEnhancementOrModificationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Enhancement Or Modification Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168186
+             * line : 114683
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataEnhancementOrModificationDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DataEnhancementOrModificationDescription',
             'desc' => [
+                'en' => 'Data Enhancement Or Modification Description',
             ],
         ],
     ];

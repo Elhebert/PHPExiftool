@@ -28,13 +28,14 @@ class PlayAllFrames extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Play All Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325191
+             * line : 229578
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlayAllFrames extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:PlayAllFrames',
             'desc' => [
+                'en' => 'Play All Frames',
             ],
         ],
     ];

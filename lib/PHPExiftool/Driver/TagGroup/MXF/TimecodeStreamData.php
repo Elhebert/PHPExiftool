@@ -28,13 +28,14 @@ class TimecodeStreamData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Stream Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169133
+             * line : 115576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeStreamData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeStreamData',
             'desc' => [
+                'en' => 'Timecode Stream Data',
             ],
         ],
     ];

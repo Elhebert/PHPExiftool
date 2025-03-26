@@ -28,13 +28,14 @@ class ReferencedRTPlanSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced RT Plan Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103951
+             * line : 77040
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedRTPlanSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedRTPlanSequence',
             'desc' => [
+                'en' => 'Referenced RT Plan Sequence',
             ],
         ],
     ];

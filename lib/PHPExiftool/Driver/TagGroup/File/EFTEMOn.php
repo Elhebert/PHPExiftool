@@ -28,13 +28,14 @@ class EFTEMOn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EFTEM On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166506
+             * line : 113247
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EFTEMOn extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:EFTEMOn',
             'desc' => [
+                'en' => 'EFTEM On',
             ],
         ],
     ];

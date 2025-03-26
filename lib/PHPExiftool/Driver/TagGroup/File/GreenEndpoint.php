@@ -28,13 +28,14 @@ class GreenEndpoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Green Endpoint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3422
+             * line : 2112
              * type : int32u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class GreenEndpoint extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:GreenEndpoint',
             'desc' => [
+                'en' => 'Green Endpoint',
             ],
         ],
     ];

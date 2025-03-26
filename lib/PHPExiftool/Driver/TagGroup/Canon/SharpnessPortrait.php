@@ -28,13 +28,14 @@ class SharpnessPortrait extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Portrait',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34486
+             * line : 26498
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessPortrait',
             'desc' => [
+                'en' => 'Sharpness Portrait',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67143
+             * line : 50953
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessPortrait',
             'desc' => [
+                'en' => 'Sharpness Portrait',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68241
+             * line : 51614
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessPortrait',
             'desc' => [
+                'en' => 'Sharpness Portrait',
             ],
         ],
     ];

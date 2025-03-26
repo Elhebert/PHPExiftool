@@ -28,13 +28,14 @@ class DateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100104
+             * line : 73305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DateTime',
             'desc' => [
+                'en' => 'Date Time',
             ],
         ],
     ];

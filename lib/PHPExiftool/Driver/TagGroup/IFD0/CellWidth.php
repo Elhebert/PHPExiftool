@@ -28,13 +28,14 @@ class CellWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cell Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110495
+             * line : 81432
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CellWidth extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CellWidth',
             'desc' => [
+                'en' => 'Cell Width',
             ],
         ],
     ];

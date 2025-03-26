@@ -28,13 +28,14 @@ class CharacterSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Character Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109010
+             * line : 80583
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CharacterSet extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:CharacterSet',
             'desc' => [
+                'en' => 'Character Set',
             ],
         ],
     ];

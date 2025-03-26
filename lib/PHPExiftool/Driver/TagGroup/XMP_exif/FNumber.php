@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406008
+             * line : 288048
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

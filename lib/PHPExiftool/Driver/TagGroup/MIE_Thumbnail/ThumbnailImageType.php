@@ -28,13 +28,14 @@ class ThumbnailImageType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Thumbnail
-             * line : 164152
+             * line : 111640
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailImageType extends AbstractTagGroup
              */
             'id' => 'MIE::Thumbnail.MIE-Thumbnail:ThumbnailImageType',
             'desc' => [
+                'en' => 'Thumbnail Image Type',
             ],
         ],
     ];

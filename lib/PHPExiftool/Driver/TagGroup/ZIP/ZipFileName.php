@@ -28,13 +28,14 @@ class ZipFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414939
+             * line : 292752
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipFileName extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipFileName',
             'desc' => [
+                'en' => 'Zip File Name',
             ],
         ],
     ];

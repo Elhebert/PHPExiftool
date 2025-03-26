@@ -28,13 +28,14 @@ class UserCustom2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Custom 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174922
+             * line : 120434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserCustom2 extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:UserCustom2',
             'desc' => [
+                'en' => 'User Custom 2',
             ],
         ],
     ];

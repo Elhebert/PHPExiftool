@@ -28,13 +28,14 @@ class ContentDistributorDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Distributor Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174539
+             * line : 120185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentDistributorDuration extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ContentDistributorDuration',
             'desc' => [
+                'en' => 'Content Distributor Duration',
             ],
         ],
     ];

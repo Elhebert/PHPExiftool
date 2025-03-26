@@ -28,13 +28,14 @@ class FirmwareRevision2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Revision 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::FirmwareInfo
-             * line : 331915
+             * line : 233192
              * type : string
              * writable : true
              * count : 12
@@ -42,6 +43,7 @@ class FirmwareRevision2 extends AbstractTagGroup
              */
             'id' => 'Ricoh::FirmwareInfo.Ricoh:FirmwareRevision2',
             'desc' => [
+                'en' => 'Firmware Revision 2',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GradientBasedCorrMaskCenterValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Center Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402307
+             * line : 285444
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskCenterValue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskCenterValue',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Center Value',
             ],
         ],
     ];

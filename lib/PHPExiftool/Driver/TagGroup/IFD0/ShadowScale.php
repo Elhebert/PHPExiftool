@@ -28,13 +28,14 @@ class ShadowScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadow Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119213
+             * line : 84204
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadowScale extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ShadowScale',
             'desc' => [
+                'en' => 'Shadow Scale',
             ],
         ],
     ];

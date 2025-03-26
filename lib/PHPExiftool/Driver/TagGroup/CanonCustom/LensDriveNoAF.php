@@ -28,13 +28,14 @@ class LensDriveNoAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Drive No AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73663
+             * line : 54463
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensDriveNoAF extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LensDriveNoAF',
             'desc' => [
+                'en' => 'Lens Drive No AF',
             ],
         ],
     ];

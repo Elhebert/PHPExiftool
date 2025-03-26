@@ -28,13 +28,14 @@ class BracketStep extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177490
+             * line : 121942
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketStep extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:BracketStep',
             'desc' => [
+                'en' => 'Bracket Step',
             ],
         ],
     ];

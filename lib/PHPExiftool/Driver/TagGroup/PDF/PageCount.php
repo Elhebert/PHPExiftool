@@ -28,13 +28,14 @@ class PageCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Pages
-             * line : 264316
+             * line : 182697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageCount extends AbstractTagGroup
              */
             'id' => 'PDF::Pages.PDF:PageCount',
             'desc' => [
+                'en' => 'Page Count',
             ],
         ],
     ];

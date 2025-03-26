@@ -28,13 +28,14 @@ class ColorFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302975
+             * line : 210675
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorFilter extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:ColorFilter',
             'desc' => [
+                'en' => 'Color Filter',
             ],
         ],
     ];

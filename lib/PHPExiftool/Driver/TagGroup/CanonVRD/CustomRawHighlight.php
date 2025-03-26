@@ -28,13 +28,14 @@ class CustomRawHighlight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Raw Highlight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83608
+             * line : 61266
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomRawHighlight extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomRawHighlight',
             'desc' => [
+                'en' => 'Custom Raw Highlight',
             ],
         ],
     ];

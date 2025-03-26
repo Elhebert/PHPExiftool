@@ -28,13 +28,14 @@ class GPSLog extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Log',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323859
+             * line : 228858
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSLog extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:GPSLog',
             'desc' => [
+                'en' => 'GPS Log',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Pittasoft
-             * line : 324196
+             * line : 229073
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSLog extends AbstractTagGroup
              */
             'id' => 'QuickTime::Pittasoft.QuickTime:GPSLog',
             'desc' => [
+                'en' => 'GPS Log',
             ],
         ],
     ];

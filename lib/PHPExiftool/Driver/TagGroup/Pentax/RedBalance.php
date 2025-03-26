@@ -28,13 +28,14 @@ class RedBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297844
+             * line : 207836
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedBalance extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:RedBalance',
             'desc' => [
+                'en' => 'Red Balance',
             ],
         ],
     ];

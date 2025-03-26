@@ -28,13 +28,14 @@ class About extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'About',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::nine
-             * line : 210085
+             * line : 141481
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class About extends AbstractTagGroup
              */
             'id' => 'Nikon::nine.XMP-nine:About',
             'desc' => [
+                'en' => 'About',
             ],
         ],
     ];

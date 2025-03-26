@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361306
+             * line : 251736
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Transparency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transparency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272651
+             * line : 190429
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Transparency extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:Transparency',
             'desc' => [
+                'en' => 'Transparency',
             ],
         ],
     ];

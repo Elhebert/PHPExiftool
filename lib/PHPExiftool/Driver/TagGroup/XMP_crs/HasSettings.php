@@ -28,13 +28,14 @@ class HasSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402763
+             * line : 285900
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasSettings extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:HasSettings',
             'desc' => [
+                'en' => 'Has Settings',
             ],
         ],
     ];

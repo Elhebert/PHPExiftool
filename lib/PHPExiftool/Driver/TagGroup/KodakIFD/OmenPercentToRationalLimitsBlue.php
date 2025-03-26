@@ -28,13 +28,14 @@ class OmenPercentToRationalLimitsBlue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Percent To Rational Limits Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155675
+             * line : 106886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenPercentToRationalLimitsBlue extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenPercentToRationalLimitsBlue',
             'desc' => [
+                'en' => 'Omen Percent To Rational Limits Blue',
             ],
         ],
     ];

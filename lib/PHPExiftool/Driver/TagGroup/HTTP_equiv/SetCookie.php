@@ -28,13 +28,14 @@ class SetCookie extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Set Cookie',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142915
+             * line : 98697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetCookie extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:SetCookie',
             'desc' => [
+                'en' => 'Set Cookie',
             ],
         ],
     ];

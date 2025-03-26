@@ -28,13 +28,14 @@ class TableTopVerticalPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Vertical Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103396
+             * line : 76491
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopVerticalPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopVerticalPosition',
             'desc' => [
+                'en' => 'Table Top Vertical Position',
             ],
         ],
     ];

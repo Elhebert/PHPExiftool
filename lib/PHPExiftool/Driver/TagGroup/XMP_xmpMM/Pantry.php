@@ -28,13 +28,14 @@ class Pantry extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pantry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414185
+             * line : 292205
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Pantry extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:Pantry',
             'desc' => [
+                'en' => 'Pantry',
             ],
         ],
     ];

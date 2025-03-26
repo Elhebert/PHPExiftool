@@ -28,13 +28,14 @@ class MDItemIsExistingThread extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Is Existing Thread',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172852
+             * line : 118933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemIsExistingThread extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemIsExistingThread',
             'desc' => [
+                'en' => 'MD Item Is Existing Thread',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DarkFrameCountFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dark Frame Count Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156143
+             * line : 107354
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DarkFrameCountFactor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkFrameCountFactor',
             'desc' => [
+                'en' => 'Dark Frame Count Factor',
             ],
         ],
     ];

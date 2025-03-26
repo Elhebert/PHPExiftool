@@ -28,13 +28,14 @@ class FilmToVideoTransferDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film To Video Transfer Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169432
+             * line : 115836
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmToVideoTransferDirection extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmToVideoTransferDirection',
             'desc' => [
+                'en' => 'Film To Video Transfer Direction',
             ],
         ],
     ];

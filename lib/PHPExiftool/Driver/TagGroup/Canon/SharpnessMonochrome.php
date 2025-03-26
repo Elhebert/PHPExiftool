@@ -28,13 +28,14 @@ class SharpnessMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34510
+             * line : 26510
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessMonochrome',
             'desc' => [
+                'en' => 'Sharpness Monochrome',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67447
+             * line : 51145
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessMonochrome',
             'desc' => [
+                'en' => 'Sharpness Monochrome',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68545
+             * line : 51806
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessMonochrome',
             'desc' => [
+                'en' => 'Sharpness Monochrome',
             ],
         ],
     ];

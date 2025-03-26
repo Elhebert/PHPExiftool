@@ -28,13 +28,14 @@ class NielsenStreamIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nielsen Stream Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168648
+             * line : 115124
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NielsenStreamIdentifier extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NielsenStreamIdentifier',
             'desc' => [
+                'en' => 'Nielsen Stream Identifier',
             ],
         ],
     ];

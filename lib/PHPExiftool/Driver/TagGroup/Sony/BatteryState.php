@@ -28,13 +28,14 @@ class BatteryState extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348100
+             * line : 243600
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BatteryState extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:BatteryState',
             'desc' => [
+                'en' => 'Battery State',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352291
+             * line : 246082
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BatteryState extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:BatteryState',
             'desc' => [
+                'en' => 'Battery State',
             ],
         ],
     ];

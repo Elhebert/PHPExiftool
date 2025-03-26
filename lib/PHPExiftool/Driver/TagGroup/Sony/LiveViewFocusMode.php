@@ -28,13 +28,14 @@ class LiveViewFocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351211
+             * line : 245205
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LiveViewFocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LiveViewFocusMode',
             'desc' => [
+                'en' => 'Live View Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351390
+             * line : 245331
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LiveViewFocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LiveViewFocusMode',
             'desc' => [
+                'en' => 'Live View Focus Mode',
             ],
         ],
     ];

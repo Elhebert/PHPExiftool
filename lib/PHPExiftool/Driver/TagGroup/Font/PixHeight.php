@@ -28,13 +28,14 @@ class PixHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pix Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128070
+             * line : 88870
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixHeight extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:PixHeight',
             'desc' => [
+                'en' => 'Pix Height',
             ],
         ],
     ];

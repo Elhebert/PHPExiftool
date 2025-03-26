@@ -28,13 +28,14 @@ class AssignMovieRecordButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Movie Record Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218678
+             * line : 147041
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignMovieRecordButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignMovieRecordButtonPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Record Button Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221127
+             * line : 149072
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AssignMovieRecordButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMovieRecordButtonPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Record Button Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233027
+             * line : 156890
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AssignMovieRecordButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMovieRecordButtonPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Record Button Plus Dials',
             ],
         ],
     ];

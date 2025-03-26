@@ -28,13 +28,14 @@ class NumberOfTemporalPositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Temporal Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97951
+             * line : 71302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTemporalPositions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTemporalPositions',
             'desc' => [
+                'en' => 'Number Of Temporal Positions',
             ],
         ],
     ];

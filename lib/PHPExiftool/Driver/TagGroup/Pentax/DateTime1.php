@@ -28,13 +28,14 @@ class DateTime1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Junk2
-             * line : 288381
+             * line : 200054
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class DateTime1 extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk2.Pentax:DateTime1',
             'desc' => [
+                'en' => 'Date Time 1',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301052
+             * line : 209734
              * type : string
              * writable : false
              * count : 24
@@ -55,6 +57,7 @@ class DateTime1 extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:DateTime1',
             'desc' => [
+                'en' => 'Date Time 1',
             ],
         ],
     ];

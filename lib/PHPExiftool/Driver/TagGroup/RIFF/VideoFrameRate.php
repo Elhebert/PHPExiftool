@@ -28,13 +28,14 @@ class VideoFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamHeader
-             * line : 328809
+             * line : 231886
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFrameRate extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamHeader.RIFF:VideoFrameRate',
             'desc' => [
+                'en' => 'Video Frame Rate',
             ],
         ],
     ];

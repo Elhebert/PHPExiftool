@@ -28,13 +28,14 @@ class FileAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121092
+             * line : 85004
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileAttributes extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileAttributes',
             'desc' => [
+                'en' => 'File Attributes',
             ],
         ],
     ];

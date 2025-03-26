@@ -28,13 +28,14 @@ class ImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Image
-             * line : 163862
+             * line : 111521
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSize extends AbstractTagGroup
              */
             'id' => 'MIE::Image.MIE-Image:ImageSize',
             'desc' => [
+                'en' => 'Image Size',
             ],
         ],
     ];

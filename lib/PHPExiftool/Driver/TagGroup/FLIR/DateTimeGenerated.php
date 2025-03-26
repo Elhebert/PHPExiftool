@@ -28,13 +28,14 @@ class DateTimeGenerated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Generated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::ParamInfo
-             * line : 123552
+             * line : 86356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeGenerated extends AbstractTagGroup
              */
             'id' => 'FLIR::ParamInfo.FLIR:DateTimeGenerated',
             'desc' => [
+                'en' => 'Date/Time Generated',
             ],
         ],
     ];

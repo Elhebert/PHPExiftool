@@ -28,13 +28,14 @@ class WB_GRGBLevelsAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::WBInfo
-             * line : 71250
+             * line : 53156
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsAuto extends AbstractTagGroup
              */
             'id' => 'Canon::WBInfo.Canon:WB_GRGBLevelsAuto',
             'desc' => [
+                'en' => 'WB GRGB Levels Auto',
             ],
         ],
     ];

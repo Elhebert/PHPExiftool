@@ -28,13 +28,14 @@ class E_DialInProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'E-Dial In Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284535
+             * line : 197470
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class E_DialInProgram extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:E-DialInProgram',
             'desc' => [
+                'en' => 'E-Dial In Program',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MakerNoteSigma extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Sigma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105187
+             * line : 77972
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteSigma extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteSigma',
             'desc' => [
+                'en' => 'Maker Note Sigma',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116148
+             * line : 83265
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteSigma extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteSigma',
             'desc' => [
+                'en' => 'Maker Note Sigma',
             ],
         ],
     ];

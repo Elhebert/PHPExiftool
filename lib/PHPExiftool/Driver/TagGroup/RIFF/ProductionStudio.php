@@ -28,13 +28,14 @@ class ProductionStudio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Production Studio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328457
+             * line : 231628
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductionStudio extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:ProductionStudio',
             'desc' => [
+                'en' => 'Production Studio',
             ],
         ],
     ];

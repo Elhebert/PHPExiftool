@@ -28,13 +28,14 @@ class ReuseAllowed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reuse Allowed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpPLUS
-             * line : 414354
+             * line : 292359
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReuseAllowed extends AbstractTagGroup
              */
             'id' => 'XMP::xmpPLUS.XMP-xmpPLUS:ReuseAllowed',
             'desc' => [
+                'en' => 'Reuse Allowed',
             ],
         ],
     ];

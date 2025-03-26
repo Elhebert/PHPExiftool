@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : iWork::Main
-             * line : 415080
+             * line : 292837
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'iWork::Main.XML:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

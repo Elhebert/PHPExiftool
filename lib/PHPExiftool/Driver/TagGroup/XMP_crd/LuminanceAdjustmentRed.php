@@ -28,13 +28,14 @@ class LuminanceAdjustmentRed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance Adjustment Red',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399625
+             * line : 283131
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LuminanceAdjustmentRed extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LuminanceAdjustmentRed',
             'desc' => [
+                'en' => 'Luminance Adjustment Red',
             ],
         ],
     ];

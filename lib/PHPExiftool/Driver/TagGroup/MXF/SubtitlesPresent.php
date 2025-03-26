@@ -28,13 +28,14 @@ class SubtitlesPresent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subtitles Present',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168678
+             * line : 115154
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubtitlesPresent extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SubtitlesPresent',
             'desc' => [
+                'en' => 'Subtitles Present',
             ],
         ],
     ];

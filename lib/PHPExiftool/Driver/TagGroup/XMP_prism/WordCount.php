@@ -28,13 +28,14 @@ class WordCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Word Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411185
+             * line : 290380
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WordCount extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:WordCount',
             'desc' => [
+                'en' => 'Word Count',
             ],
         ],
     ];

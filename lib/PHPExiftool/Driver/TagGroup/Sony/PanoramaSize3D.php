@@ -28,13 +28,14 @@ class PanoramaSize3D extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => '3D Panorama Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351082
+             * line : 245110
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaSize3D extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:PanoramaSize3D',
             'desc' => [
+                'en' => '3D Panorama Size',
             ],
         ],
     ];

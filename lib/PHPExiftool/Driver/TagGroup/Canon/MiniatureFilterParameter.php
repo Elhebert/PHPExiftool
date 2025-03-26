@@ -28,13 +28,14 @@ class MiniatureFilterParameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Miniature Filter Parameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 64002
+             * line : 48618
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MiniatureFilterParameter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:MiniatureFilterParameter',
             'desc' => [
+                'en' => 'Miniature Filter Parameter',
             ],
         ],
     ];

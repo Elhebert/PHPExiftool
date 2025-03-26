@@ -28,13 +28,14 @@ class RollAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LevelInfo
-             * line : 294492
+             * line : 205913
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Pentax::LevelInfo.Pentax:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
     ];

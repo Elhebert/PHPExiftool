@@ -28,13 +28,14 @@ class SonyImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181484
+             * line : 123460
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SonyImageSize extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:SonyImageSize',
             'desc' => [
+                'en' => 'Sony Image Size',
             ],
         ],
     ];

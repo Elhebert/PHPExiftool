@@ -28,13 +28,14 @@ class OrientationHook extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Orientation Hook',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209422
+             * line : 141252
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OrientationHook extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:OrientationHook',
             'desc' => [
+                'en' => 'Orientation Hook',
             ],
         ],
     ];

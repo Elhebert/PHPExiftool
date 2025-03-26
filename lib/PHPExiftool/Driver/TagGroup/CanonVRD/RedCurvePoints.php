@@ -28,13 +28,14 @@ class RedCurvePoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Curve Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::ToneCurve
-             * line : 82157
+             * line : 60214
              * type : int32u
              * writable : true
              * count : 21
@@ -42,12 +43,13 @@ class RedCurvePoints extends AbstractTagGroup
              */
             'id' => 'CanonVRD::ToneCurve.CanonVRD:RedCurvePoints',
             'desc' => [
+                'en' => 'Red Curve Points',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82456
+             * line : 60394
              * type : int16u
              * writable : true
              * count : 21
@@ -55,6 +57,7 @@ class RedCurvePoints extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RedCurvePoints',
             'desc' => [
+                'en' => 'Red Curve Points',
             ],
         ],
     ];

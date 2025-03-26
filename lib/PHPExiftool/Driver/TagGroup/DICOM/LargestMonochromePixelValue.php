@@ -28,13 +28,14 @@ class LargestMonochromePixelValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Largest Monochrome Pixel Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99180
+             * line : 72399
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargestMonochromePixelValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LargestMonochromePixelValue',
             'desc' => [
+                'en' => 'Largest Monochrome Pixel Value',
             ],
         ],
     ];

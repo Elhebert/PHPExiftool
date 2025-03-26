@@ -28,13 +28,14 @@ class PrinterPixelSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Printer Pixel Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102118
+             * line : 75249
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrinterPixelSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrinterPixelSpacing',
             'desc' => [
+                'en' => 'Printer Pixel Spacing',
             ],
         ],
     ];

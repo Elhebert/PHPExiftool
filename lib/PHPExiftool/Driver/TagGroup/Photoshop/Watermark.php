@@ -28,13 +28,14 @@ class Watermark extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Watermark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305532
+             * line : 212301
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Watermark extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:Watermark',
             'desc' => [
+                'en' => 'Watermark',
             ],
         ],
     ];

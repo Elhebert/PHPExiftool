@@ -28,13 +28,14 @@ class SupportsAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supports Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404409
+             * line : 287474
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupportsAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:SupportsAmount',
             'desc' => [
+                'en' => 'Supports Amount',
             ],
         ],
     ];

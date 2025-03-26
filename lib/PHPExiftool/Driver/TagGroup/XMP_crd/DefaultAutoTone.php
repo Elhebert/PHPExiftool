@@ -28,13 +28,14 @@ class DefaultAutoTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Default Auto Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398903
+             * line : 282426
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefaultAutoTone extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:DefaultAutoTone',
             'desc' => [
+                'en' => 'Default Auto Tone',
             ],
         ],
     ];

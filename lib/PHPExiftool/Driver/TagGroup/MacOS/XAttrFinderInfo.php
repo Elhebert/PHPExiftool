@@ -28,13 +28,14 @@ class XAttrFinderInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr Finder Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173108
+             * line : 119126
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrFinderInfo extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrFinderInfo',
             'desc' => [
+                'en' => 'X Attr Finder Info',
             ],
         ],
     ];

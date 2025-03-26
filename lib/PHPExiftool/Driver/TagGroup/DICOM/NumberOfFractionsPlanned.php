@@ -28,13 +28,14 @@ class NumberOfFractionsPlanned extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Fractions Planned',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103083
+             * line : 76179
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFractionsPlanned extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFractionsPlanned',
             'desc' => [
+                'en' => 'Number Of Fractions Planned',
             ],
         ],
     ];

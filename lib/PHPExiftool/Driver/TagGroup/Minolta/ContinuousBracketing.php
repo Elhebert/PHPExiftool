@@ -28,13 +28,14 @@ class ContinuousBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Continuous Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181248
+             * line : 123310
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContinuousBracketing extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ContinuousBracketing',
             'desc' => [
+                'en' => 'Continuous Bracketing',
             ],
         ],
     ];

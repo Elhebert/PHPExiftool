@@ -28,13 +28,14 @@ class Fac170Per extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fac 170 Per',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156723
+             * line : 107927
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Fac170Per extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Fac170Per',
             'desc' => [
+                'en' => 'Fac 170 Per',
             ],
         ],
     ];

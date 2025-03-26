@@ -28,13 +28,14 @@ class CroppedImageLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cropped Image Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AspectInfo
-             * line : 4393
+             * line : 2775
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CroppedImageLeft extends AbstractTagGroup
              */
             'id' => 'Canon::AspectInfo.Canon:CroppedImageLeft',
             'desc' => [
+                'en' => 'Cropped Image Left',
             ],
         ],
     ];

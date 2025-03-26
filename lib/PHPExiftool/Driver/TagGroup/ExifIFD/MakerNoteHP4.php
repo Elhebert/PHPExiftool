@@ -28,13 +28,14 @@ class MakerNoteHP4 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note HP4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104822
+             * line : 77774
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteHP4 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteHP4',
             'desc' => [
+                'en' => 'Maker Note HP4',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115783
+             * line : 83067
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteHP4 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteHP4',
             'desc' => [
+                'en' => 'Maker Note HP4',
             ],
         ],
     ];

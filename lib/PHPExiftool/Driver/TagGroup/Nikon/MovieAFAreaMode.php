@@ -28,13 +28,14 @@ class MovieAFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201578
+             * line : 136472
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieAFAreaMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieAFAreaMode',
             'desc' => [
+                'en' => 'Movie AF Area Mode',
             ],
         ],
     ];

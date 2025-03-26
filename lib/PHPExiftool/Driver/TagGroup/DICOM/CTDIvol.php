@@ -28,13 +28,14 @@ class CTDIvol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CTD Ivol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97066
+             * line : 70465
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTDIvol extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTDIvol',
             'desc' => [
+                'en' => 'CTD Ivol',
             ],
         ],
     ];

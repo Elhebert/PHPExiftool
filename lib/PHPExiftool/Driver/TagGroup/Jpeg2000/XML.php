@@ -28,13 +28,14 @@ class XML extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'XML',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154306
+             * line : 105951
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XML extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:XML',
             'desc' => [
+                'en' => 'XML',
             ],
         ],
     ];

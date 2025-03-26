@@ -28,13 +28,14 @@ class LimitAFAreaModeSelection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit AF Area Mode Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216468
+             * line : 145481
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LimitAFAreaModeSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:LimitAFAreaModeSelection',
             'desc' => [
+                'en' => 'Limit AF Area Mode Selection',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218795
+             * line : 147139
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LimitAFAreaModeSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:LimitAFAreaModeSelection',
             'desc' => [
+                'en' => 'Limit AF Area Mode Selection',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221255
+             * line : 149181
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LimitAFAreaModeSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:LimitAFAreaModeSelection',
             'desc' => [
+                'en' => 'Limit AF Area Mode Selection',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231389
+             * line : 155629
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LimitAFAreaModeSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:LimitAFAreaModeSelection',
             'desc' => [
+                'en' => 'Limit AF Area Mode Selection',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233144
+             * line : 156988
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class LimitAFAreaModeSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:LimitAFAreaModeSelection',
             'desc' => [
+                'en' => 'Limit AF Area Mode Selection',
             ],
         ],
     ];

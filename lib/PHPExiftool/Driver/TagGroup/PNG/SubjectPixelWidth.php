@@ -28,13 +28,14 @@ class SubjectPixelWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Pixel Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::SubjectScale
-             * line : 272787
+             * line : 190511
              * type : var_string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectPixelWidth extends AbstractTagGroup
              */
             'id' => 'PNG::SubjectScale.PNG:SubjectPixelWidth',
             'desc' => [
+                'en' => 'Subject Pixel Width',
             ],
         ],
     ];

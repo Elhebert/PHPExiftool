@@ -28,13 +28,14 @@ class EraseSameRRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Same R Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264824
+             * line : 183053
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseSameRRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseSameRRect',
             'desc' => [
+                'en' => 'Erase Same R Rect',
             ],
         ],
     ];

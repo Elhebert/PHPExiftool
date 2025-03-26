@@ -28,13 +28,14 @@ class AspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331489
+             * line : 233043
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
     ];

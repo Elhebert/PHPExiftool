@@ -28,13 +28,14 @@ class DataDump extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Dump',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196758
+             * line : 132878
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataDump extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:DataDump',
             'desc' => [
+                'en' => 'Data Dump',
             ],
         ],
     ];

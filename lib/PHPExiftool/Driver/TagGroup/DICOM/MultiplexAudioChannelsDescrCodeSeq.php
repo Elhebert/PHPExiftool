@@ -28,13 +28,14 @@ class MultiplexAudioChannelsDescrCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multiplex Audio Channels Descr Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99570
+             * line : 72780
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiplexAudioChannelsDescrCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiplexAudioChannelsDescrCodeSeq',
             'desc' => [
+                'en' => 'Multiplex Audio Channels Descr Code Seq',
             ],
         ],
     ];

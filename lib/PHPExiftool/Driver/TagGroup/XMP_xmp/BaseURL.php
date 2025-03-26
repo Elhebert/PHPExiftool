@@ -28,13 +28,14 @@ class BaseURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412577
+             * line : 290906
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseURL extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:BaseURL',
             'desc' => [
+                'en' => 'Base URL',
             ],
         ],
     ];

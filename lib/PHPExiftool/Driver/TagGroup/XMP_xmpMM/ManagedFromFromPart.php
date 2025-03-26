@@ -28,13 +28,14 @@ class ManagedFromFromPart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From From Part',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414002
+             * line : 292027
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromFromPart extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromFromPart',
             'desc' => [
+                'en' => 'Managed From From Part',
             ],
         ],
     ];

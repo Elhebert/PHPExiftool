@@ -28,13 +28,14 @@ class MDItemAcquisitionModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Acquisition Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172556
+             * line : 118712
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemAcquisitionModel extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemAcquisitionModel',
             'desc' => [
+                'en' => 'MD Item Acquisition Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KeyFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167675
+             * line : 114266
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyFrames extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyFrames',
             'desc' => [
+                'en' => 'Key Frames',
             ],
         ],
     ];

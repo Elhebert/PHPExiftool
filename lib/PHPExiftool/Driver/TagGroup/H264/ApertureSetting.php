@@ -28,13 +28,14 @@ class ApertureSetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Camera1
-             * line : 140113
+             * line : 97927
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApertureSetting extends AbstractTagGroup
              */
             'id' => 'H264::Camera1.H264:ApertureSetting',
             'desc' => [
+                'en' => 'Aperture Setting',
             ],
         ],
     ];

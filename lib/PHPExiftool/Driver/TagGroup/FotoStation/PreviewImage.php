@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::Main
-             * line : 128210
+             * line : 88947
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'FotoStation::Main.FotoStation:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

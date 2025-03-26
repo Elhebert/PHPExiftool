@@ -28,13 +28,14 @@ class SpectrallySelectedSuppression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectrally Selected Suppression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96569
+             * line : 69973
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectrallySelectedSuppression extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectrallySelectedSuppression',
             'desc' => [
+                'en' => 'Spectrally Selected Suppression',
             ],
         ],
     ];

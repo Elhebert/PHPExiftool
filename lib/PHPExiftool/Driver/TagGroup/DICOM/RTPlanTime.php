@@ -28,13 +28,14 @@ class RTPlanTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Plan Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102948
+             * line : 76044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTPlanTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTPlanTime',
             'desc' => [
+                'en' => 'RT Plan Time',
             ],
         ],
     ];

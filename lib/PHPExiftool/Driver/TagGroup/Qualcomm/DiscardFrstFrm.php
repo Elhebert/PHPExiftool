@@ -28,13 +28,14 @@ class DiscardFrstFrm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Discard Frst Frm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307413
+             * line : 213911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiscardFrstFrm extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DiscardFrstFrm',
             'desc' => [
+                'en' => 'Discard Frst Frm',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258524
+             * line : 178573
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusRange extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FocusRange',
             'desc' => [
+                'en' => 'Focus Range',
             ],
         ],
     ];

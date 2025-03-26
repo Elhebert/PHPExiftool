@@ -28,13 +28,14 @@ class SamplerDataLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sampler Data Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328738
+             * line : 231824
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplerDataLen extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:SamplerDataLen',
             'desc' => [
+                'en' => 'Sampler Data Len',
             ],
         ],
     ];

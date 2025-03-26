@@ -28,13 +28,14 @@ class MRSpectroscopyAcquisitionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Spectroscopy Acquisition Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96889
+             * line : 70291
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRSpectroscopyAcquisitionType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRSpectroscopyAcquisitionType',
             'desc' => [
+                'en' => 'MR Spectroscopy Acquisition Type',
             ],
         ],
     ];

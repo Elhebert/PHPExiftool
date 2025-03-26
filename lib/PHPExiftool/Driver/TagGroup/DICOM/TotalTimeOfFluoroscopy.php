@@ -28,13 +28,14 @@ class TotalTimeOfFluoroscopy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Time Of Fluoroscopy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99713
+             * line : 72918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalTimeOfFluoroscopy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalTimeOfFluoroscopy',
             'desc' => [
+                'en' => 'Total Time Of Fluoroscopy',
             ],
         ],
     ];

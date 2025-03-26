@@ -28,13 +28,14 @@ class Emissivity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Emissivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::ThermalParams
-             * line : 104575
+             * line : 77619
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Emissivity extends AbstractTagGroup
              */
             'id' => 'DJI::ThermalParams.DJI:Emissivity',
             'desc' => [
+                'en' => 'Emissivity',
             ],
         ],
     ];

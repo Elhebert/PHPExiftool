@@ -28,13 +28,14 @@ class HDRInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::HDRInfo
-             * line : 195264
+             * line : 132251
              * type : string
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class HDRInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::HDRInfo.Nikon:HDRInfoVersion',
             'desc' => [
+                'en' => 'HDR Info Version',
             ],
         ],
     ];

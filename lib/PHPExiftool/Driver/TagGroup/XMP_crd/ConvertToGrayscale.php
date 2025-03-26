@@ -28,13 +28,14 @@ class ConvertToGrayscale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Convert To Grayscale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398790
+             * line : 282365
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConvertToGrayscale extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ConvertToGrayscale',
             'desc' => [
+                'en' => 'Convert To Grayscale',
             ],
         ],
     ];

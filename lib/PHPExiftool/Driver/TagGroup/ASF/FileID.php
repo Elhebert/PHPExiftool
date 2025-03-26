@@ -28,13 +28,14 @@ class FileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1713
+             * line : 857
              * type : binary
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class FileID extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:FileID',
             'desc' => [
+                'en' => 'File ID',
             ],
         ],
     ];

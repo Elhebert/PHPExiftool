@@ -28,13 +28,14 @@ class AcquisitionDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94700
+             * line : 68191
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionDate',
             'desc' => [
+                'en' => 'Acquisition Date',
             ],
         ],
     ];

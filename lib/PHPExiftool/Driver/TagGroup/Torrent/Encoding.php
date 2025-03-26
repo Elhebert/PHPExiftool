@@ -28,13 +28,14 @@ class Encoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Main
-             * line : 395069
+             * line : 279831
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Encoding extends AbstractTagGroup
              */
             'id' => 'Torrent::Main.Torrent:Encoding',
             'desc' => [
+                'en' => 'Encoding',
             ],
         ],
     ];

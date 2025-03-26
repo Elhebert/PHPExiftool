@@ -28,13 +28,14 @@ class ColorTempFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59261
+             * line : 45913
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59539
+             * line : 46055
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59795
+             * line : 46185
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60065
+             * line : 46326
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60592
+             * line : 46626
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60839
+             * line : 46768
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61184
+             * line : 46951
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61558
+             * line : 47191
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61946
+             * line : 47404
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62367
+             * line : 47644
              * type : int16s
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62838
+             * line : 47926
              * type : int16s
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ColorTempFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempFluorescent',
             'desc' => [
+                'en' => 'Color Temp Fluorescent',
             ],
         ],
     ];

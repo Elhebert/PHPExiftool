@@ -28,13 +28,14 @@ class ParametricLights extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parametric Lights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400552
+             * line : 284039
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParametricLights extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ParametricLights',
             'desc' => [
+                'en' => 'Parametric Lights',
             ],
         ],
     ];

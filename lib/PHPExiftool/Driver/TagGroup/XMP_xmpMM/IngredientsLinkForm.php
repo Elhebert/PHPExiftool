@@ -28,13 +28,14 @@ class IngredientsLinkForm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Link Form',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413929
+             * line : 291956
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsLinkForm extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsLinkForm',
             'desc' => [
+                'en' => 'Ingredients Link Form',
             ],
         ],
     ];

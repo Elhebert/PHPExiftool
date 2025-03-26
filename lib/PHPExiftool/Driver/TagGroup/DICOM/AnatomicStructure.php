@@ -28,13 +28,14 @@ class AnatomicStructure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomic Structure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95045
+             * line : 68527
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicStructure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicStructure',
             'desc' => [
+                'en' => 'Anatomic Structure',
             ],
         ],
     ];

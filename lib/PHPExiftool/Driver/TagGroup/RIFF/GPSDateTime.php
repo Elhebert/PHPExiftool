@@ -28,13 +28,14 @@ class GPSDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::UserText
-             * line : 328926
+             * line : 231926
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'RIFF::UserText.RIFF:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date/Time',
             ],
         ],
     ];

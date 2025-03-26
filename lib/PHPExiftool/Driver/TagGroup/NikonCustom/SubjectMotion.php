@@ -28,13 +28,14 @@ class SubjectMotion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Motion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219359
+             * line : 147703
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SubjectMotion extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:SubjectMotion',
             'desc' => [
+                'en' => 'Subject Motion',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221819
+             * line : 149745
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SubjectMotion extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:SubjectMotion',
             'desc' => [
+                'en' => 'Subject Motion',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233743
+             * line : 157587
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SubjectMotion extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:SubjectMotion',
             'desc' => [
+                'en' => 'Subject Motion',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238380
+             * line : 161469
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class SubjectMotion extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:SubjectMotion',
             'desc' => [
+                'en' => 'Subject Motion',
             ],
         ],
     ];

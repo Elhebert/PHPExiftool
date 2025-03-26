@@ -28,13 +28,14 @@ class CameraBurstID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Burst ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCreations
-             * line : 396907
+             * line : 281100
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraBurstID extends AbstractTagGroup
              */
             'id' => 'XMP::GCreations.XMP-GCreations:CameraBurstID',
             'desc' => [
+                'en' => 'Camera Burst ID',
             ],
         ],
     ];

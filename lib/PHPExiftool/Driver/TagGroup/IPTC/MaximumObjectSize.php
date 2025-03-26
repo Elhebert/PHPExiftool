@@ -28,13 +28,14 @@ class MaximumObjectSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Object Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::PreObjectData
-             * line : 151970
+             * line : 104668
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumObjectSize extends AbstractTagGroup
              */
             'id' => 'IPTC::PreObjectData.IPTC:MaximumObjectSize',
             'desc' => [
+                'en' => 'Maximum Object Size',
             ],
         ],
     ];

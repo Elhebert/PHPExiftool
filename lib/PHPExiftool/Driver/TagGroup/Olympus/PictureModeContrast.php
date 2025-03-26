@@ -28,13 +28,14 @@ class PictureModeContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251926
+             * line : 173611
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class PictureModeContrast extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PictureModeContrast',
             'desc' => [
+                'en' => 'Picture Mode Contrast',
             ],
         ],
     ];

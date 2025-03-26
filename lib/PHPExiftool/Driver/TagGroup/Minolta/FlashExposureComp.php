@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177868
+             * line : 122064
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::Main
-             * line : 183678
+             * line : 124590
              * type : rational64s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 186622
+             * line : 126845
              * type : int8s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Compensation',
             ],
         ],
     ];

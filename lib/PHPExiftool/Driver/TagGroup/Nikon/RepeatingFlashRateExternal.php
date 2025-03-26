@@ -28,13 +28,14 @@ class RepeatingFlashRateExternal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Rate External',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208551
+             * line : 140482
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RepeatingFlashRateExternal extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:RepeatingFlashRateExternal',
             'desc' => [
+                'en' => 'Repeating Flash Rate External',
             ],
         ],
     ];

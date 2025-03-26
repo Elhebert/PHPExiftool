@@ -28,13 +28,14 @@ class GPSDifferential extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Differential',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406550
+             * line : 288157
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDifferential extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSDifferential',
             'desc' => [
+                'en' => 'GPS Differential',
             ],
         ],
     ];

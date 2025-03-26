@@ -28,13 +28,14 @@ class CLModeShootingSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CL Mode Shooting Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244104
+             * line : 167046
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247847
+             * line : 170540
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
     ];

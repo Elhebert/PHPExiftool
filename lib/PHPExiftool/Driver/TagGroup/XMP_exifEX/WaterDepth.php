@@ -28,13 +28,14 @@ class WaterDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Water Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408760
+             * line : 288695
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WaterDepth extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:WaterDepth',
             'desc' => [
+                'en' => 'Water Depth',
             ],
         ],
     ];

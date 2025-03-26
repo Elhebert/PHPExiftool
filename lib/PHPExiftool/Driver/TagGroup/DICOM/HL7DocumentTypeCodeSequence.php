@@ -28,13 +28,14 @@ class HL7DocumentTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HL7 Document Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100263
+             * line : 73437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HL7DocumentTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HL7DocumentTypeCodeSequence',
             'desc' => [
+                'en' => 'HL7 Document Type Code Sequence',
             ],
         ],
     ];

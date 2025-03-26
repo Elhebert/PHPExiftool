@@ -28,13 +28,14 @@ class WindowCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98913
+             * line : 72183
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowCenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WindowCenter',
             'desc' => [
+                'en' => 'Window Center',
             ],
         ],
     ];

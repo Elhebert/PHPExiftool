@@ -28,13 +28,14 @@ class CodecFlavorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Flavor ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV5
-             * line : 330009
+             * line : 232315
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecFlavorID extends AbstractTagGroup
              */
             'id' => 'Real::AudioV5.Real-RA5:CodecFlavorID',
             'desc' => [
+                'en' => 'Codec Flavor ID',
             ],
         ],
     ];

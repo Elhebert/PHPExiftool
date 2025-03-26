@@ -28,13 +28,14 @@ class FaceID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::apple_fi
-             * line : 397900
+             * line : 281647
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceID extends AbstractTagGroup
              */
             'id' => 'XMP::apple_fi.XMP-apple-fi:FaceID',
             'desc' => [
+                'en' => 'Face ID',
             ],
         ],
     ];

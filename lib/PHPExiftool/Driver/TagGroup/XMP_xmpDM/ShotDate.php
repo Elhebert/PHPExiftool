@@ -28,13 +28,14 @@ class ShotDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413358
+             * line : 291458
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShotDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ShotDate',
             'desc' => [
+                'en' => 'Shot Date',
             ],
         ],
     ];

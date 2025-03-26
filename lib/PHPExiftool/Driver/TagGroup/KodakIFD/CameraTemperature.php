@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154863
+             * line : 106172
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154874
+             * line : 106175
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

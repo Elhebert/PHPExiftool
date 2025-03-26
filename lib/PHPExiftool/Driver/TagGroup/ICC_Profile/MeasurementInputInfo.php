@@ -28,13 +28,14 @@ class MeasurementInputInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measurement Input Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146435
+             * line : 101796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasurementInputInfo extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:MeasurementInputInfo',
             'desc' => [
+                'en' => 'Measurement Input Info',
             ],
         ],
     ];

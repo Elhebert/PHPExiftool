@@ -28,13 +28,14 @@ class CommentBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocTable
-             * line : 124401
+             * line : 86925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommentBy extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocTable.MS-DOC:CommentBy',
             'desc' => [
+                'en' => 'Comment By',
             ],
         ],
     ];

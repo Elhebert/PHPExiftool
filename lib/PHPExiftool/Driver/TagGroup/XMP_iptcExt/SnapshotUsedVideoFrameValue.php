@@ -28,13 +28,14 @@ class SnapshotUsedVideoFrameValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Snapshot Used Video Frame Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409801
+             * line : 289560
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SnapshotUsedVideoFrameValue extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SnapshotUsedVideoFrameValue',
             'desc' => [
+                'en' => 'Snapshot Used Video Frame Value',
             ],
         ],
     ];

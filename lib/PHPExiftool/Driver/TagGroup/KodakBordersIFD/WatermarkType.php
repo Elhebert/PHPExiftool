@@ -28,13 +28,14 @@ class WatermarkType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Watermark Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Borders
-             * line : 154333
+             * line : 105973
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WatermarkType extends AbstractTagGroup
              */
             'id' => 'Kodak::Borders.KodakBordersIFD:WatermarkType',
             'desc' => [
+                'en' => 'Watermark Type',
             ],
         ],
     ];

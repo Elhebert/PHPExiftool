@@ -28,13 +28,14 @@ class OverlayCompressionStepPointers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Compression Step Pointers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104321
+             * line : 77394
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayCompressionStepPointers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayCompressionStepPointers',
             'desc' => [
+                'en' => 'Overlay Compression Step Pointers',
             ],
         ],
     ];

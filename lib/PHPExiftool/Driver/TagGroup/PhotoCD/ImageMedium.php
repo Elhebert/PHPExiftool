@@ -28,13 +28,14 @@ class ImageMedium extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Medium',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303725
+             * line : 210974
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageMedium extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ImageMedium',
             'desc' => [
+                'en' => 'Image Medium',
             ],
         ],
     ];

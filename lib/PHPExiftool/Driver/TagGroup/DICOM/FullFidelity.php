@@ -28,13 +28,14 @@ class FullFidelity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Full Fidelity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95148
+             * line : 68629
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FullFidelity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FullFidelity',
             'desc' => [
+                'en' => 'Full Fidelity',
             ],
         ],
     ];

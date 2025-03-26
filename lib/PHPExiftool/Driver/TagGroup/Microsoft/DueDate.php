@@ -28,13 +28,14 @@ class DueDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Due Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175661
+             * line : 120900
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DueDate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DueDate',
             'desc' => [
+                'en' => 'Due Date',
             ],
         ],
     ];

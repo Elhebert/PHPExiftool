@@ -28,13 +28,14 @@ class NumberOfUnarchivedSeries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Unarchived Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98447
+             * line : 71779
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfUnarchivedSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfUnarchivedSeries',
             'desc' => [
+                'en' => 'Number Of Unarchived Series',
             ],
         ],
     ];

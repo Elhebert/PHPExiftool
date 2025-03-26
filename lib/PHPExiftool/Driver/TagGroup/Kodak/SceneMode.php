@@ -28,13 +28,14 @@ class SceneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158588
+             * line : 109025
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
     ];

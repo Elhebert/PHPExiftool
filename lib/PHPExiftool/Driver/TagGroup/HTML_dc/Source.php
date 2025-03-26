@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142784
+             * line : 98630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

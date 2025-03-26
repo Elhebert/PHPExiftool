@@ -28,13 +28,14 @@ class IdentifierKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifier Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170595
+             * line : 116835
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentifierKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdentifierKind',
             'desc' => [
+                'en' => 'Identifier Kind',
             ],
         ],
     ];

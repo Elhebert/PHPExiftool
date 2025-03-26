@@ -28,13 +28,14 @@ class WB_RGBLevelsUnknown1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Unknown 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::WBSettings2
-             * line : 339273
+             * line : 237469
              * type : float
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBLevelsUnknown1 extends AbstractTagGroup
              */
             'id' => 'Sigma::WBSettings2.Sigma:WB_RGBLevelsUnknown1',
             'desc' => [
+                'en' => 'WB RGB Levels Unknown 1',
             ],
         ],
     ];

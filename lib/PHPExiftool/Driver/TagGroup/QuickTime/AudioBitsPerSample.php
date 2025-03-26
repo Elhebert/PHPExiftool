@@ -28,13 +28,14 @@ class AudioBitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioSampleDesc
-             * line : 310495
+             * line : 216393
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitsPerSample extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioBitsPerSample',
             'desc' => [
+                'en' => 'Audio Bits Per Sample',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExclusivityEndDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exclusivity End Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411303
+             * line : 290476
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExclusivityEndDate extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:ExclusivityEndDate',
             'desc' => [
+                'en' => 'Exclusivity End Date',
             ],
         ],
     ];

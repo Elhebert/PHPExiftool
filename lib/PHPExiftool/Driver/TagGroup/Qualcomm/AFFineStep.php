@@ -28,13 +28,14 @@ class AFFineStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Fine Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306233
+             * line : 212738
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFFineStep extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFFineStep',
             'desc' => [
+                'en' => 'AF Fine Step',
             ],
         ],
     ];

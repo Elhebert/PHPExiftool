@@ -28,13 +28,14 @@ class PCSCitation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PCS Citation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 137230
+             * line : 95480
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PCSCitation extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:PCSCitation',
             'desc' => [
+                'en' => 'PCS Citation',
             ],
         ],
     ];

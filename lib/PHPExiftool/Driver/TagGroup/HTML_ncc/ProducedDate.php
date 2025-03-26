@@ -28,13 +28,14 @@ class ProducedDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Produced Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142999
+             * line : 98755
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProducedDate extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:ProducedDate',
             'desc' => [
+                'en' => 'Produced Date',
             ],
         ],
     ];

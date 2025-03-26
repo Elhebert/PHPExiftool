@@ -28,13 +28,14 @@ class BackgroundColorValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113350
+             * line : 82422
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundColorValue extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:BackgroundColorValue',
             'desc' => [
+                'en' => 'Background Color Value',
             ],
         ],
     ];

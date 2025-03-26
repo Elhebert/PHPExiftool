@@ -28,13 +28,14 @@ class TableMotion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Motion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95793
+             * line : 69241
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableMotion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableMotion',
             'desc' => [
+                'en' => 'Table Motion',
             ],
         ],
     ];

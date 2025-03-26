@@ -28,13 +28,14 @@ class FrameExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162319
+             * line : 110863
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameExposureTime extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:FrameExposureTime',
             'desc' => [
+                'en' => 'Frame Exposure Time',
             ],
         ],
     ];

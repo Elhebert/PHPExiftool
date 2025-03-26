@@ -28,13 +28,14 @@ class StreamingDataProtocol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Streaming Data Protocol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintInfo
-             * line : 313733
+             * line : 219475
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamingDataProtocol extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintInfo.QuickTime:StreamingDataProtocol',
             'desc' => [
+                'en' => 'Streaming Data Protocol',
             ],
         ],
     ];

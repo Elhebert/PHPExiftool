@@ -28,13 +28,14 @@ class RawDataByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::AFF1
-             * line : 122127
+             * line : 85546
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RawDataByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::AFF1.FLIR:RawDataByteOrder',
             'desc' => [
+                'en' => 'Raw Data Byte Order',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::AFF5
-             * line : 122153
+             * line : 85559
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class RawDataByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::AFF5.FLIR:RawDataByteOrder',
             'desc' => [
+                'en' => 'Raw Data Byte Order',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::RawData
-             * line : 123676
+             * line : 86477
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class RawDataByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::RawData.FLIR:RawDataByteOrder',
             'desc' => [
+                'en' => 'Raw Data Byte Order',
             ],
         ],
     ];

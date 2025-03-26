@@ -28,13 +28,14 @@ class ScriptVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Script Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157146
+             * line : 108350
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ScriptVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ScriptVersion',
             'desc' => [
+                'en' => 'Script Version',
             ],
         ],
     ];

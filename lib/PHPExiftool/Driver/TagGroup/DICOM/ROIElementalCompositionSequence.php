@@ -28,13 +28,14 @@ class ROIElementalCompositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Elemental Composition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102639
+             * line : 75735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIElementalCompositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIElementalCompositionSequence',
             'desc' => [
+                'en' => 'ROI Elemental Composition Sequence',
             ],
         ],
     ];

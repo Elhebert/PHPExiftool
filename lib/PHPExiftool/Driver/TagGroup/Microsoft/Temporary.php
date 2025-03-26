@@ -28,13 +28,14 @@ class Temporary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temporary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174887
+             * line : 120416
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Temporary extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Temporary',
             'desc' => [
+                'en' => 'Temporary',
             ],
         ],
     ];

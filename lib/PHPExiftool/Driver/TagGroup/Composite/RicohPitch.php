@@ -28,13 +28,14 @@ class RicohPitch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ricoh Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93790
+             * line : 67886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RicohPitch extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:RicohPitch',
             'desc' => [
+                'en' => 'Ricoh Pitch',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UpperRangeOfPixels2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Upper Range Of Pixels 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99282
+             * line : 72501
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UpperRangeOfPixels2 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UpperRangeOfPixels2',
             'desc' => [
+                'en' => 'Upper Range Of Pixels 2',
             ],
         ],
     ];

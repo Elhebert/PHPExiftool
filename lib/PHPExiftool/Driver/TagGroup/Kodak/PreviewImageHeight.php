@@ -28,13 +28,14 @@ class PreviewImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Scrn
-             * line : 158539
+             * line : 108999
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::Scrn.Kodak:PreviewImageHeight',
             'desc' => [
+                'en' => 'Preview Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158932
+             * line : 109144
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PreviewImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:PreviewImageHeight',
             'desc' => [
+                'en' => 'Preview Image Height',
             ],
         ],
     ];

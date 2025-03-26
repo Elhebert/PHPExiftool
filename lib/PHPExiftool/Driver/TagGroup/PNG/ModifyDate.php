@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272633
+             * line : 190426
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

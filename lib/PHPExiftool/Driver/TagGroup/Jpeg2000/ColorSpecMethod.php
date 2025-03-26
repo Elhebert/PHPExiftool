@@ -28,13 +28,14 @@ class ColorSpecMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Spec Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ColorSpec
-             * line : 153675
+             * line : 105543
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpecMethod extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecMethod',
             'desc' => [
+                'en' => 'Color Spec Method',
             ],
         ],
     ];

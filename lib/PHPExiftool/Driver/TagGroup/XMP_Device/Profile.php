@@ -28,13 +28,14 @@ class Profile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396794
+             * line : 281009
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Profile extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:Profile',
             'desc' => [
+                'en' => 'Profile',
             ],
         ],
     ];

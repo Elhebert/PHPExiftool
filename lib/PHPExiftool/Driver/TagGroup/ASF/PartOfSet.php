@@ -28,13 +28,14 @@ class PartOfSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Part Of Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1486
+             * line : 715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartOfSet extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:PartOfSet',
             'desc' => [
+                'en' => 'Part Of Set',
             ],
         ],
     ];

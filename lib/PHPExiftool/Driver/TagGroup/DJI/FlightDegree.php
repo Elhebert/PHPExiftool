@@ -28,13 +28,14 @@ class FlightDegree extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flight Degree',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104437
+             * line : 77509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlightDegree extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:FlightDegree',
             'desc' => [
+                'en' => 'Flight Degree',
             ],
         ],
     ];

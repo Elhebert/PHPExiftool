@@ -28,13 +28,14 @@ class ISOAutoShutterTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO Auto Shutter Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243084
+             * line : 166155
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISOAutoShutterTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ISOAutoShutterTime',
             'desc' => [
+                'en' => 'ISO Auto Shutter Time',
             ],
         ],
     ];

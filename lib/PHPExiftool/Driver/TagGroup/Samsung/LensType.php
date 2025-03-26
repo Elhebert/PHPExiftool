@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335335
+             * line : 235346
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

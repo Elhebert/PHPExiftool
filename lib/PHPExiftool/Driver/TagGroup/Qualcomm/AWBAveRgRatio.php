@@ -28,13 +28,14 @@ class AWBAveRgRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Ave Rg Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306993
+             * line : 213491
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBAveRgRatio extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBAveRgRatio',
             'desc' => [
+                'en' => 'AWB Ave Rg Ratio',
             ],
         ],
     ];

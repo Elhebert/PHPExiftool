@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191822
+             * line : 130032
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196404
+             * line : 132800
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::Main
-             * line : 196642
+             * line : 132848
              * type : string
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203134
+             * line : 137120
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209493
+             * line : 141286
              * type : ?
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

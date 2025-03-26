@@ -28,13 +28,14 @@ class MotionSynchronizationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Motion Synchronization Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103930
+             * line : 77019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MotionSynchronizationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MotionSynchronizationSequence',
             'desc' => [
+                'en' => 'Motion Synchronization Sequence',
             ],
         ],
     ];

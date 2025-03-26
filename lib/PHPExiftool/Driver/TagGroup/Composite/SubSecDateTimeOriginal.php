@@ -28,13 +28,14 @@ class SubSecDateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90508
+             * line : 65209
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubSecDateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:SubSecDateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

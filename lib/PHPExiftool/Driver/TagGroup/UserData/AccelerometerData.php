@@ -28,13 +28,14 @@ class AccelerometerData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325711
+             * line : 229808
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccelerometerData extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:AccelerometerData',
             'desc' => [
+                'en' => 'Accelerometer Data',
             ],
         ],
     ];

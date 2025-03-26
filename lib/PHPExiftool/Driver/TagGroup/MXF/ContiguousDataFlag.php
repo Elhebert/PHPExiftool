@@ -28,13 +28,14 @@ class ContiguousDataFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contiguous Data Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168242
+             * line : 114737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContiguousDataFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContiguousDataFlag',
             'desc' => [
+                'en' => 'Contiguous Data Flag',
             ],
         ],
     ];

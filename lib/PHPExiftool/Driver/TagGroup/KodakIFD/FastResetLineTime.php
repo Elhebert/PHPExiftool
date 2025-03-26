@@ -28,13 +28,14 @@ class FastResetLineTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fast Reset Line Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157272
+             * line : 108464
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FastResetLineTime extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FastResetLineTime',
             'desc' => [
+                'en' => 'Fast Reset Line Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167657
+             * line : 114263
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170148
+             * line : 116454
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

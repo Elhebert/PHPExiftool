@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127836
+             * line : 88755
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PFM
-             * line : 127967
+             * line : 88828
              * type : string
              * writable : false
              * count : 60
@@ -55,12 +57,13 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
         2 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128112
+             * line : 88901
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

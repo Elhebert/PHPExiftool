@@ -28,13 +28,14 @@ class PortraitMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Portrait Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155394
+             * line : 106607
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PortraitMatrix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PortraitMatrix',
             'desc' => [
+                'en' => 'Portrait Matrix',
             ],
         ],
     ];

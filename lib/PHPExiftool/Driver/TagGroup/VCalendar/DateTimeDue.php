@@ -28,13 +28,14 @@ class DateTimeDue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Due',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395378
+             * line : 279999
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeDue extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DateTimeDue',
             'desc' => [
+                'en' => 'Date Time Due',
             ],
         ],
     ];

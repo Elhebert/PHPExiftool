@@ -28,13 +28,14 @@ class FocusPointBrightness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Point Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247827
+             * line : 170520
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FocusPointBrightness',
             'desc' => [
+                'en' => 'Focus Point Brightness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusMode2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284699
+             * line : 197552
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusMode2 extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:FocusMode2',
             'desc' => [
+                'en' => 'Focus Mode 2',
             ],
         ],
     ];

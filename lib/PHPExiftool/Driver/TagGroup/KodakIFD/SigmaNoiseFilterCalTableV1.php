@@ -28,13 +28,14 @@ class SigmaNoiseFilterCalTableV1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sigma Noise Filter Cal Table V1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156380
+             * line : 107584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigmaNoiseFilterCalTableV1 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SigmaNoiseFilterCalTableV1',
             'desc' => [
+                'en' => 'Sigma Noise Filter Cal Table V1',
             ],
         ],
     ];

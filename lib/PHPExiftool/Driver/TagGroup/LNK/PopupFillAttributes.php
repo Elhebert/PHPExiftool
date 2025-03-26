@@ -28,13 +28,14 @@ class PopupFillAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Popup Fill Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160951
+             * line : 109902
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PopupFillAttributes extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:PopupFillAttributes',
             'desc' => [
+                'en' => 'Popup Fill Attributes',
             ],
         ],
     ];

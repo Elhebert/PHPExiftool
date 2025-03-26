@@ -28,13 +28,14 @@ class MetaFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meta Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaSampleDesc
-             * line : 324051
+             * line : 228981
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MetaFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaSampleDesc.QuickTime:MetaFormat',
             'desc' => [
+                'en' => 'Meta Format',
             ],
         ],
     ];

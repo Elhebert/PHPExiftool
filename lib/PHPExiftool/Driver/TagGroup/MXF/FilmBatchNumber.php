@@ -28,13 +28,14 @@ class FilmBatchNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Batch Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169191
+             * line : 115633
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FilmBatchNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmBatchNumber',
             'desc' => [
+                'en' => 'Film Batch Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169194
+             * line : 115636
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FilmBatchNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmBatchNumber',
             'desc' => [
+                'en' => 'Film Batch Number',
             ],
         ],
     ];

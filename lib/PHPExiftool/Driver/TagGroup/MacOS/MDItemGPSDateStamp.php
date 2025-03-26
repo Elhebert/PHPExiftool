@@ -28,13 +28,14 @@ class MDItemGPSDateStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item GPS Date Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172812
+             * line : 118903
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemGPSDateStamp extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemGPSDateStamp',
             'desc' => [
+                'en' => 'MD Item GPS Date Stamp',
             ],
         ],
     ];

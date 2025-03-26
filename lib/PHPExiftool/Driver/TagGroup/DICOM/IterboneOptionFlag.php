@@ -28,13 +28,14 @@ class IterboneOptionFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Iterbone Option Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100648
+             * line : 73818
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IterboneOptionFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IterboneOptionFlag',
             'desc' => [
+                'en' => 'Iterbone Option Flag',
             ],
         ],
     ];

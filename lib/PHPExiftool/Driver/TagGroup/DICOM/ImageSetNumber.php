@@ -28,13 +28,14 @@ class ImageSetNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Set Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101465
+             * line : 74613
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSetNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageSetNumber',
             'desc' => [
+                'en' => 'Image Set Number',
             ],
         ],
     ];

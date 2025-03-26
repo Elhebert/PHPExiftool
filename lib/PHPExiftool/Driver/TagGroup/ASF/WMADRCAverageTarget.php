@@ -28,13 +28,14 @@ class WMADRCAverageTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WMADRC Average Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1678
+             * line : 829
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMADRCAverageTarget extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:WMADRCAverageTarget',
             'desc' => [
+                'en' => 'WMADRC Average Target',
             ],
         ],
     ];

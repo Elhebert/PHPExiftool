@@ -28,13 +28,14 @@ class SubjectAbsoluteSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Absolute Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168350
+             * line : 114845
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectAbsoluteSpeed extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SubjectAbsoluteSpeed',
             'desc' => [
+                'en' => 'Subject Absolute Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaximumImageIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Image Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124629
+             * line : 87112
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumImageIndex extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumImageIndex',
             'desc' => [
+                'en' => 'Maximum Image Index',
             ],
         ],
     ];

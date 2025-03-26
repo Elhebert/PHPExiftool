@@ -28,13 +28,14 @@ class DateSent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Sent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151274
+             * line : 104364
              * type : digits
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class DateSent extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:DateSent',
             'desc' => [
+                'en' => 'Date Sent',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraInfoA100
-             * line : 176999
+             * line : 121758
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraInfoA100.Minolta:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180645
+             * line : 123082
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DigitalSignatureUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signature UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101898
+             * line : 75039
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignatureUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitalSignatureUID',
             'desc' => [
+                'en' => 'Digital Signature UID',
             ],
         ],
     ];

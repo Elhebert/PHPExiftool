@@ -28,13 +28,14 @@ class PictureWizardMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Wizard Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::PictureWizard
-             * line : 334081
+             * line : 234177
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureWizardMode extends AbstractTagGroup
              */
             'id' => 'Samsung::PictureWizard.Samsung:PictureWizardMode',
             'desc' => [
+                'en' => 'Picture Wizard Mode',
             ],
         ],
     ];

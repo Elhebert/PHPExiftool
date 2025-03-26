@@ -28,13 +28,14 @@ class WhiteBalance1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174234
+             * line : 120001
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance1 extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:WhiteBalance1',
             'desc' => [
+                'en' => 'White Balance 1',
             ],
         ],
     ];

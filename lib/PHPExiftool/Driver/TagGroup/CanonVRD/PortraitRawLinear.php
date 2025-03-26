@@ -28,13 +28,14 @@ class PortraitRawLinear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Raw Linear',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82799
+             * line : 60639
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitRawLinear extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:PortraitRawLinear',
             'desc' => [
+                'en' => 'Portrait Raw Linear',
             ],
         ],
     ];

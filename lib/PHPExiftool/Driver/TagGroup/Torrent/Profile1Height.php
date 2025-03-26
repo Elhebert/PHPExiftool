@@ -28,13 +28,14 @@ class Profile1Height extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile 1 Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Profiles
-             * line : 395087
+             * line : 279844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Profile1Height extends AbstractTagGroup
              */
             'id' => 'Torrent::Profiles.Torrent:Profile1Height',
             'desc' => [
+                'en' => 'Profile 1 Height',
             ],
         ],
     ];

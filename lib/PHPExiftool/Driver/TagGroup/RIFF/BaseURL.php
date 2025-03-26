@@ -28,13 +28,14 @@ class BaseURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Base URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328119
+             * line : 231499
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BaseURL extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:BaseURL',
             'desc' => [
+                'en' => 'Base URL',
             ],
         ],
     ];

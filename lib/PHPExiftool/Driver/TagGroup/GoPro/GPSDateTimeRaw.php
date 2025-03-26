@@ -28,13 +28,14 @@ class GPSDateTimeRaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Date Time Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPRI
-             * line : 139860
+             * line : 97809
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSDateTimeRaw extends AbstractTagGroup
              */
             'id' => 'GoPro::GPRI.GoPro:GPSDateTimeRaw',
             'desc' => [
+                'en' => 'GPS Date Time Raw',
             ],
         ],
     ];

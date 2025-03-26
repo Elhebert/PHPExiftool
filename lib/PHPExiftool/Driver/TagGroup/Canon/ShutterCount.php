@@ -28,13 +28,14 @@ class ShutterCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 15659
+             * line : 11420
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63394
+             * line : 48216
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63405
+             * line : 48219
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
     ];

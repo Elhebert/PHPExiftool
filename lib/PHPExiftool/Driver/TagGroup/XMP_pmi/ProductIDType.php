@@ -28,13 +28,14 @@ class ProductIDType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product ID Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410669
+             * line : 289957
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductIDType extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:ProductIDType',
             'desc' => [
+                'en' => 'Product ID Type',
             ],
         ],
     ];

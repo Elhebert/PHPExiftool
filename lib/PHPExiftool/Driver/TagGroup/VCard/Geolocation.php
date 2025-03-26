@@ -28,13 +28,14 @@ class Geolocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geolocation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395130
+             * line : 279875
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Geolocation extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Geolocation',
             'desc' => [
+                'en' => 'Geolocation',
             ],
         ],
     ];

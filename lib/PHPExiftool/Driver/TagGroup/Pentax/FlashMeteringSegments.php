@@ -28,13 +28,14 @@ class FlashMeteringSegments extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Metering Segments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300727
+             * line : 209637
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashMeteringSegments extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FlashMeteringSegments',
             'desc' => [
+                'en' => 'Flash Metering Segments',
             ],
         ],
     ];

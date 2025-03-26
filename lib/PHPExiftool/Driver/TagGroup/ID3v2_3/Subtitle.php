@@ -28,13 +28,14 @@ class Subtitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subtitle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148881
+             * line : 103313
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subtitle extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:Subtitle',
             'desc' => [
+                'en' => 'Subtitle',
             ],
         ],
     ];

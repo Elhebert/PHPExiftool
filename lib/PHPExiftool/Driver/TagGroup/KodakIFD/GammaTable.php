@@ -28,13 +28,14 @@ class GammaTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155316
+             * line : 106532
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GammaTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:GammaTable',
             'desc' => [
+                'en' => 'Gamma Table',
             ],
         ],
     ];

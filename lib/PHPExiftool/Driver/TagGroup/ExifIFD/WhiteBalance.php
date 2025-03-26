@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117230
+             * line : 83549
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 120854
+             * line : 84915
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

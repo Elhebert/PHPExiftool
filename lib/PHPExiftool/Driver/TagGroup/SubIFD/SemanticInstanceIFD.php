@@ -28,13 +28,14 @@ class SemanticInstanceIFD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Semantic Instance IFD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120667
+             * line : 84790
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SemanticInstanceIFD extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:SemanticInstanceIFD',
             'desc' => [
+                'en' => 'Semantic Instance IFD',
             ],
         ],
     ];

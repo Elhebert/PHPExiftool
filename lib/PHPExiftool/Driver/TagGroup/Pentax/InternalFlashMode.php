@@ -28,13 +28,14 @@ class InternalFlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 287950
+             * line : 199858
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalFlashMode extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:InternalFlashMode',
             'desc' => [
+                'en' => 'Internal Flash Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskGroupBasedCorrShadows2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Shadows 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400042
+             * line : 283548
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrShadows2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrShadows2012',
             'desc' => [
+                'en' => 'Mask Group Based Corr Shadows 2012',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskOperation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Operation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99147
+             * line : 72366
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskOperation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskOperation',
             'desc' => [
+                'en' => 'Mask Operation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SourceProfilePrefix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source Profile Prefix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157113
+             * line : 108317
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SourceProfilePrefix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SourceProfilePrefix',
             'desc' => [
+                'en' => 'Source Profile Prefix',
             ],
         ],
     ];

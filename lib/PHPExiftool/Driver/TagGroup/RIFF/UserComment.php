@@ -28,13 +28,14 @@ class UserComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Exif
-             * line : 327919
+             * line : 231415
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserComment extends AbstractTagGroup
              */
             'id' => 'RIFF::Exif.RIFF:UserComment',
             'desc' => [
+                'en' => 'User Comment',
             ],
         ],
     ];

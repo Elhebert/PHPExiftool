@@ -28,13 +28,14 @@ class AnnotationDisplayFormatID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation Display Format ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102049
+             * line : 75186
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnnotationDisplayFormatID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnnotationDisplayFormatID',
             'desc' => [
+                'en' => 'Annotation Display Format ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScannerFirmwareDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Firmware Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303775
+             * line : 211018
              * type : string
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class ScannerFirmwareDate extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ScannerFirmwareDate',
             'desc' => [
+                'en' => 'Scanner Firmware Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GeogSemiMinorAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Semi Minor Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134108
+             * line : 92401
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogSemiMinorAxis extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogSemiMinorAxis',
             'desc' => [
+                'en' => 'Geog Semi Minor Axis',
             ],
         ],
     ];

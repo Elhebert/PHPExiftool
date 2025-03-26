@@ -28,13 +28,14 @@ class MPEGVideoRecodingDataset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MPEG Video Recoding Dataset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168223
+             * line : 114719
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPEGVideoRecodingDataset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MPEGVideoRecodingDataset',
             'desc' => [
+                'en' => 'MPEG Video Recoding Dataset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EditionFlagOrdered extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edition Flag Ordered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173532
+             * line : 119461
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditionFlagOrdered extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:EditionFlagOrdered',
             'desc' => [
+                'en' => 'Edition Flag Ordered',
             ],
         ],
     ];

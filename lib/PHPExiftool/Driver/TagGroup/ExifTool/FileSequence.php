@@ -28,13 +28,14 @@ class FileSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121321
+             * line : 85151
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSequence extends AbstractTagGroup
              */
             'id' => 'Extra.ExifTool:FileSequence',
             'desc' => [
+                'en' => 'File Sequence',
             ],
         ],
     ];

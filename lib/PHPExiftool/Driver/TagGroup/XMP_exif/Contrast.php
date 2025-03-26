@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405234
+             * line : 287857
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

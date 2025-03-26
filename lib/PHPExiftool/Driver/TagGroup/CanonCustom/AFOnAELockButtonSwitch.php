@@ -28,13 +28,14 @@ class AFOnAELockButtonSwitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF On AE Lock Button Switch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74680
+             * line : 55091
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFOnAELockButtonSwitch extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFOnAELockButtonSwitch',
             'desc' => [
+                'en' => 'AF On AE Lock Button Switch',
             ],
         ],
     ];

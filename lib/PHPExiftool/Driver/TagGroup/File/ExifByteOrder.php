@@ -28,13 +28,14 @@ class ExifByteOrder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121040
+             * line : 84976
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifByteOrder extends AbstractTagGroup
              */
             'id' => 'Extra.File:ExifByteOrder',
             'desc' => [
+                'en' => 'Exif Byte Order',
             ],
         ],
     ];

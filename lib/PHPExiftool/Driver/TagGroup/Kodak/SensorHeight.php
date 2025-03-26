@@ -28,13 +28,14 @@ class SensorHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154351
+             * line : 105983
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158826
+             * line : 109111
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::UserText
-             * line : 328872
+             * line : 231917
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'RIFF::UserText.RIFF:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

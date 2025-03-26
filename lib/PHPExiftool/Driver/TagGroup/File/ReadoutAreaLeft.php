@@ -28,13 +28,14 @@ class ReadoutAreaLeft extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Readout Area Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166602
+             * line : 113340
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReadoutAreaLeft extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ReadoutAreaLeft',
             'desc' => [
+                'en' => 'Readout Area Left',
             ],
         ],
     ];

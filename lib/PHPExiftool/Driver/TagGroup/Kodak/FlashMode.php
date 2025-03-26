@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158093
+             * line : 108790
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type5
-             * line : 160288
+             * line : 109677
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Kodak::Type5.Kodak:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

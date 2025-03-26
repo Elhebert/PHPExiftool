@@ -28,13 +28,14 @@ class SimplicityProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Simplicity Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165104
+             * line : 112208
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SimplicityProfile extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:SimplicityProfile',
             'desc' => [
+                'en' => 'Simplicity Profile',
             ],
         ],
     ];

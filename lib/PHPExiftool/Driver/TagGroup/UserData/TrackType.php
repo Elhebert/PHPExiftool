@@ -28,13 +28,14 @@ class TrackType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Track Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325499
+             * line : 229727
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TrackType extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:TrackType',
             'desc' => [
+                'en' => 'Track Type',
             ],
         ],
     ];

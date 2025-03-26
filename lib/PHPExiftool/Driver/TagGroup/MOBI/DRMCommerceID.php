@@ -28,13 +28,14 @@ class DRMCommerceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM Commerce ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273411
+             * line : 190697
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRMCommerceID extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:DRMCommerceID',
             'desc' => [
+                'en' => 'DRM Commerce ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NghtshtFps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nghtsht Fps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307476
+             * line : 213974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NghtshtFps extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:NghtshtFps',
             'desc' => [
+                'en' => 'Nghtsht Fps',
             ],
         ],
     ];

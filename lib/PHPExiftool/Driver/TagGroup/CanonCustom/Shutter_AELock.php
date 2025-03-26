@@ -28,13 +28,14 @@ class Shutter_AELock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter-AE Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71396
+             * line : 53242
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74549
+             * line : 55017
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74582
+             * line : 55034
              * type : int32s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 75785
+             * line : 55772
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76306
+             * line : 56019
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::Functions350D
-             * line : 76841
+             * line : 56274
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions350D.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         6 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 77107
+             * line : 56398
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         7 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77430
+             * line : 56558
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
         8 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 77916
+             * line : 56790
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class Shutter_AELock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:Shutter-AELock',
             'desc' => [
+                'en' => 'Shutter-AE Lock',
             ],
         ],
     ];

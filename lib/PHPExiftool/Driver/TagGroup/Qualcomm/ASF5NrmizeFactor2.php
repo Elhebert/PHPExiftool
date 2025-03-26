@@ -28,13 +28,14 @@ class ASF5NrmizeFactor2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Nrmize Factor2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306978
+             * line : 213476
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5NrmizeFactor2 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5NrmizeFactor2',
             'desc' => [
+                'en' => 'ASF5 Nrmize Factor2',
             ],
         ],
     ];

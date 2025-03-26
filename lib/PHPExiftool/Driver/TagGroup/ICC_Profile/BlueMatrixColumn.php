@@ -28,13 +28,14 @@ class BlueMatrixColumn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Matrix Column',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146163
+             * line : 101628
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueMatrixColumn extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:BlueMatrixColumn',
             'desc' => [
+                'en' => 'Blue Matrix Column',
             ],
         ],
     ];

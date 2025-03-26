@@ -28,13 +28,14 @@ class ExternalFlashFirmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192371
+             * line : 130328
              * type : int8u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class ExternalFlashFirmware extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:ExternalFlashFirmware',
             'desc' => [
+                'en' => 'External Flash Firmware',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 192878
+             * line : 130663
              * type : int8u
              * writable : true
              * count : 2
@@ -55,12 +57,13 @@ class ExternalFlashFirmware extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:ExternalFlashFirmware',
             'desc' => [
+                'en' => 'External Flash Firmware',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193450
+             * line : 131030
              * type : int8u
              * writable : true
              * count : 2
@@ -68,12 +71,13 @@ class ExternalFlashFirmware extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:ExternalFlashFirmware',
             'desc' => [
+                'en' => 'External Flash Firmware',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194074
+             * line : 131438
              * type : int8u
              * writable : true
              * count : 2
@@ -81,12 +85,13 @@ class ExternalFlashFirmware extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:ExternalFlashFirmware',
             'desc' => [
+                'en' => 'External Flash Firmware',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194686
+             * line : 131837
              * type : int8u
              * writable : true
              * count : 2
@@ -94,12 +99,13 @@ class ExternalFlashFirmware extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:ExternalFlashFirmware',
             'desc' => [
+                'en' => 'External Flash Firmware',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::FlashInfo0300
-             * line : 195173
+             * line : 132180
              * type : int8u
              * writable : true
              * count : 2
@@ -107,6 +113,7 @@ class ExternalFlashFirmware extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0300.Nikon:ExternalFlashFirmware',
             'desc' => [
+                'en' => 'External Flash Firmware',
             ],
         ],
     ];

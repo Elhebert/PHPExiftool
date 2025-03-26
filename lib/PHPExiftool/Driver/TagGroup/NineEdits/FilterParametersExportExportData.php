@@ -28,13 +28,14 @@ class FilterParametersExportExportData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Parameters Export Export Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NineEdits
-             * line : 203608
+             * line : 137328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterParametersExportExportData extends AbstractTagGroup
              */
             'id' => 'Nikon::NineEdits.NineEdits:FilterParametersExportExportData',
             'desc' => [
+                'en' => 'Filter Parameters Export Export Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorMatrixB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix B',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300713
+             * line : 209631
              * type : int16s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class ColorMatrixB extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorMatrixB',
             'desc' => [
+                'en' => 'Color Matrix B',
             ],
         ],
     ];

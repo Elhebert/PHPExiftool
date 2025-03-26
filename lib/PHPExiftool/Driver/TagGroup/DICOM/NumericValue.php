@@ -28,13 +28,14 @@ class NumericValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Numeric Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100181
+             * line : 73356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumericValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumericValue',
             'desc' => [
+                'en' => 'Numeric Value',
             ],
         ],
     ];

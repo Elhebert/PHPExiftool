@@ -28,13 +28,14 @@ class ApplicationVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RSRC::Main
-             * line : 329124
+             * line : 232001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationVersion extends AbstractTagGroup
              */
             'id' => 'RSRC::Main.RSRC:ApplicationVersion',
             'desc' => [
+                'en' => 'Application Version',
             ],
         ],
     ];

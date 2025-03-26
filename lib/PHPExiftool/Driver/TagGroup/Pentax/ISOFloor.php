@@ -28,13 +28,14 @@ class ISOFloor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Floor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284799
+             * line : 197610
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOFloor extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:ISOFloor',
             'desc' => [
+                'en' => 'ISO Floor',
             ],
         ],
     ];

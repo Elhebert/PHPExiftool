@@ -28,13 +28,14 @@ class CropRightMargin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Right Margin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CropInfo
-             * line : 63201
+             * line : 48130
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropRightMargin extends AbstractTagGroup
              */
             'id' => 'Canon::CropInfo.Canon:CropRightMargin',
             'desc' => [
+                'en' => 'Crop Right Margin',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DischargeDiagnosisCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Discharge Diagnosis Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99428
+             * line : 72642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DischargeDiagnosisCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DischargeDiagnosisCodeSequence',
             'desc' => [
+                'en' => 'Discharge Diagnosis Code Sequence',
             ],
         ],
     ];

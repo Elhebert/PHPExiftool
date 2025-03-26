@@ -28,13 +28,14 @@ class TaxonRank extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Rank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106830
+             * line : 79019
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonRank extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonRank',
             'desc' => [
+                'en' => 'Taxon Rank',
             ],
         ],
     ];

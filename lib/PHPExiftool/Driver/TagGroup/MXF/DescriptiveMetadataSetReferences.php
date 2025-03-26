@@ -28,13 +28,14 @@ class DescriptiveMetadataSetReferences extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Descriptive Metadata Set References',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170856
+             * line : 117087
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DescriptiveMetadataSetReferences extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveMetadataSetReferences',
             'desc' => [
+                'en' => 'Descriptive Metadata Set References',
             ],
         ],
     ];

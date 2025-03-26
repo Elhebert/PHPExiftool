@@ -28,13 +28,14 @@ class IPTCLastEdited extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Last Edited',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409431
+             * line : 289207
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCLastEdited extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:IPTCLastEdited',
             'desc' => [
+                'en' => 'IPTC Last Edited',
             ],
         ],
     ];

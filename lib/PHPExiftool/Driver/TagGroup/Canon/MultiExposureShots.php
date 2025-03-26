@@ -28,13 +28,14 @@ class MultiExposureShots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Exposure Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::MultiExp
-             * line : 66953
+             * line : 50839
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiExposureShots extends AbstractTagGroup
              */
             'id' => 'Canon::MultiExp.Canon:MultiExposureShots',
             'desc' => [
+                'en' => 'Multi Exposure Shots',
             ],
         ],
     ];

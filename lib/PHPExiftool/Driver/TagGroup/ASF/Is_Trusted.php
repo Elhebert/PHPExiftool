@@ -28,13 +28,14 @@ class Is_Trusted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Trusted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1342
+             * line : 598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Is_Trusted extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Is_Trusted',
             'desc' => [
+                'en' => 'Is Trusted',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277921
+             * line : 193312
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
     ];

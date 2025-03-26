@@ -28,13 +28,14 @@ class ColorToneFaithful extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Faithful',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34666
+             * line : 26581
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorToneFaithful',
             'desc' => [
+                'en' => 'Color Tone Faithful',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67397
+             * line : 51113
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorToneFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorToneFaithful',
             'desc' => [
+                'en' => 'Color Tone Faithful',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68495
+             * line : 51774
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorToneFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneFaithful',
             'desc' => [
+                'en' => 'Color Tone Faithful',
             ],
         ],
     ];

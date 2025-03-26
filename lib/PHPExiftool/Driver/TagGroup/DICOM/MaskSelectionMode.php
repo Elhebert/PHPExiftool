@@ -28,13 +28,14 @@ class MaskSelectionMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Selection Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99222
+             * line : 72441
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskSelectionMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskSelectionMode',
             'desc' => [
+                'en' => 'Mask Selection Mode',
             ],
         ],
     ];

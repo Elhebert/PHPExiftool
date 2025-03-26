@@ -28,13 +28,14 @@ class IonWedgeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Wedge Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103918
+             * line : 77007
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonWedgeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonWedgeSequence',
             'desc' => [
+                'en' => 'Ion Wedge Sequence',
             ],
         ],
     ];

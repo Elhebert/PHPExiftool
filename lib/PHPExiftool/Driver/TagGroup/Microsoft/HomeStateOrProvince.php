@@ -28,13 +28,14 @@ class HomeStateOrProvince extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Home State Or Province',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176259
+             * line : 121296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HomeStateOrProvince extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:HomeStateOrProvince',
             'desc' => [
+                'en' => 'Home State Or Province',
             ],
         ],
     ];

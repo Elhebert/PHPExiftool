@@ -28,13 +28,14 @@ class OriginPlatform extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Origin Platform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411001
+             * line : 290226
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginPlatform extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:OriginPlatform',
             'desc' => [
+                'en' => 'Origin Platform',
             ],
         ],
     ];

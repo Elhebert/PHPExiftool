@@ -28,13 +28,14 @@ class Language extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244781
+             * line : 167577
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Language extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
     ];

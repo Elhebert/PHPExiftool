@@ -28,13 +28,14 @@ class OphthalmicFrameLocationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ophthalmic Frame Location Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98394
+             * line : 71728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OphthalmicFrameLocationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OphthalmicFrameLocationSequence',
             'desc' => [
+                'en' => 'Ophthalmic Frame Location Sequence',
             ],
         ],
     ];

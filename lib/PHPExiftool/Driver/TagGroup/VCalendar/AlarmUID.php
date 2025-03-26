@@ -28,13 +28,14 @@ class AlarmUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alarm UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395642
+             * line : 280159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlarmUID extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:AlarmUID',
             'desc' => [
+                'en' => 'Alarm UID',
             ],
         ],
     ];

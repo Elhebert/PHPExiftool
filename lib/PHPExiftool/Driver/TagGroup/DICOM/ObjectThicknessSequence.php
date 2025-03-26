@@ -28,13 +28,14 @@ class ObjectThicknessSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Thickness Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97179
+             * line : 70576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectThicknessSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ObjectThicknessSequence',
             'desc' => [
+                'en' => 'Object Thickness Sequence',
             ],
         ],
     ];

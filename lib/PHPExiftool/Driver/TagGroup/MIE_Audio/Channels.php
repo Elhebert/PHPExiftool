@@ -28,13 +28,14 @@ class Channels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Audio
-             * line : 162760
+             * line : 111232
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'MIE::Audio.MIE-Audio:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
     ];

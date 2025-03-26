@@ -28,13 +28,14 @@ class ProjRectifiedGridAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Rectified Grid Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138749
+             * line : 96998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjRectifiedGridAngle extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjRectifiedGridAngle',
             'desc' => [
+                'en' => 'Proj Rectified Grid Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToningEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199552
+             * line : 134612
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ToningEffect',
             'desc' => [
+                'en' => 'Toning Effect',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203825
+             * line : 137399
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ToningEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:ToningEffect',
             'desc' => [
+                'en' => 'Toning Effect',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204148
+             * line : 137511
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ToningEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:ToningEffect',
             'desc' => [
+                'en' => 'Toning Effect',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204474
+             * line : 137626
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ToningEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:ToningEffect',
             'desc' => [
+                'en' => 'Toning Effect',
             ],
         ],
     ];

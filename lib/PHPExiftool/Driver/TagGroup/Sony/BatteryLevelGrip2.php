@@ -28,13 +28,14 @@ class BatteryLevelGrip2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Level Grip 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9406
-             * line : 390276
+             * line : 276021
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BatteryLevelGrip2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9406.Sony:BatteryLevelGrip2',
             'desc' => [
+                'en' => 'Battery Level Grip 2',
             ],
         ],
     ];

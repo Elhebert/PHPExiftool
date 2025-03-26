@@ -28,13 +28,14 @@ class MaxLeftChanOverViews extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Left Chan Over Views',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97554
+             * line : 70939
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxLeftChanOverViews extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaxLeftChanOverViews',
             'desc' => [
+                'en' => 'Max Left Chan Over Views',
             ],
         ],
     ];

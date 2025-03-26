@@ -28,13 +28,14 @@ class SourceLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172084
+             * line : 118252
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceLength',
             'desc' => [
+                'en' => 'Source Length',
             ],
         ],
     ];

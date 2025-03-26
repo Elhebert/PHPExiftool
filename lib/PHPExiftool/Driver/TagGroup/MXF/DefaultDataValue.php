@@ -28,13 +28,14 @@ class DefaultDataValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Data Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168892
+             * line : 115358
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultDataValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefaultDataValue',
             'desc' => [
+                'en' => 'Default Data Value',
             ],
         ],
     ];

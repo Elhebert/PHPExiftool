@@ -28,13 +28,14 @@ class PortraitRawShadowPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Raw Shadow Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82816
+             * line : 60656
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitRawShadowPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:PortraitRawShadowPoint',
             'desc' => [
+                'en' => 'Portrait Raw Shadow Point',
             ],
         ],
     ];

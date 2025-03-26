@@ -28,13 +28,14 @@ class WhiteBalanceSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279847
+             * line : 194344
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceSet extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:WhiteBalanceSet',
             'desc' => [
+                'en' => 'White Balance Set',
             ],
         ],
     ];

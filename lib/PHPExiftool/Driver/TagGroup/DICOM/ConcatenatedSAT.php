@@ -28,13 +28,14 @@ class ConcatenatedSAT extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Concatenated SAT',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97806
+             * line : 71185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConcatenatedSAT extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConcatenatedSAT',
             'desc' => [
+                'en' => 'Concatenated SAT',
             ],
         ],
     ];

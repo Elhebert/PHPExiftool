@@ -28,13 +28,14 @@ class Brightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203717
+             * line : 137367
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204031
+             * line : 137479
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204357
+             * line : 137594
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::GZIP
-             * line : 414648
+             * line : 292567
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'ZIP::GZIP.ZIP:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

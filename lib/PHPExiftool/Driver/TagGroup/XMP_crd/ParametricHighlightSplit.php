@@ -28,13 +28,14 @@ class ParametricHighlightSplit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parametric Highlight Split',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400549
+             * line : 284036
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParametricHighlightSplit extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ParametricHighlightSplit',
             'desc' => [
+                'en' => 'Parametric Highlight Split',
             ],
         ],
     ];

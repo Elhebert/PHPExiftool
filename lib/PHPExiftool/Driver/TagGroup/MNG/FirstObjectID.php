@@ -28,13 +28,14 @@ class FirstObjectID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Object ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165111
+             * line : 112215
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstObjectID extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:FirstObjectID',
             'desc' => [
+                'en' => 'First Object ID',
             ],
         ],
     ];

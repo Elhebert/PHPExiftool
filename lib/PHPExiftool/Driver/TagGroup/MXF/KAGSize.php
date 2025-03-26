@@ -28,13 +28,14 @@ class KAGSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KAG Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171085
+             * line : 117306
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KAGSize extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KAGSize',
             'desc' => [
+                'en' => 'KAG Size',
             ],
         ],
     ];

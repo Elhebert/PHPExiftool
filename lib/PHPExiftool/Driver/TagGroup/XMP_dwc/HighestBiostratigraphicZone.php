@@ -28,13 +28,14 @@ class HighestBiostratigraphicZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highest Biostratigraphic Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106193
+             * line : 78542
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighestBiostratigraphicZone extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:HighestBiostratigraphicZone',
             'desc' => [
+                'en' => 'Highest Biostratigraphic Zone',
             ],
         ],
     ];

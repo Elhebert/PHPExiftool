@@ -28,13 +28,14 @@ class RGBCurveLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'RGB Curve Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82480
+             * line : 60415
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class RGBCurveLimits extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RGBCurveLimits',
             'desc' => [
+                'en' => 'RGB Curve Limits',
             ],
         ],
     ];

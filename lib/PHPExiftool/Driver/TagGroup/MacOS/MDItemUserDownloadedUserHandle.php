@@ -28,13 +28,14 @@ class MDItemUserDownloadedUserHandle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item User Downloaded User Handle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173024
+             * line : 119062
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemUserDownloadedUserHandle extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemUserDownloadedUserHandle',
             'desc' => [
+                'en' => 'MD Item User Downloaded User Handle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlueBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90280
+             * line : 65143
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueBalance extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:BlueBalance',
             'desc' => [
+                'en' => 'Blue Balance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255489
+             * line : 176304
              * type : int8u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
     ];

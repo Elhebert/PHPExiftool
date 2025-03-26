@@ -28,13 +28,14 @@ class TaskOwner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Task Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175295
+             * line : 120717
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TaskOwner extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TaskOwner',
             'desc' => [
+                'en' => 'Task Owner',
             ],
         ],
     ];

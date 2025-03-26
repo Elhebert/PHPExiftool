@@ -28,13 +28,14 @@ class ChannelWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100687
+             * line : 73857
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelWidth',
             'desc' => [
+                'en' => 'Channel Width',
             ],
         ],
     ];

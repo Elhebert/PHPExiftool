@@ -28,13 +28,14 @@ class CropArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crop Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331596
+             * line : 233088
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CropArea extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:CropArea',
             'desc' => [
+                'en' => 'Crop Area',
             ],
         ],
     ];

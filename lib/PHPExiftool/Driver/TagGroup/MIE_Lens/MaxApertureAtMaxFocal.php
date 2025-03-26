@@ -28,13 +28,14 @@ class MaxApertureAtMaxFocal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture At Max Focal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 163967
+             * line : 111549
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxApertureAtMaxFocal extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:MaxApertureAtMaxFocal',
             'desc' => [
+                'en' => 'Max Aperture At Max Focal',
             ],
         ],
     ];

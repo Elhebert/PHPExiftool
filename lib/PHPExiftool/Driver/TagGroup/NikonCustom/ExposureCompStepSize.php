@@ -28,13 +28,14 @@ class ExposureCompStepSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Comp Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212372
+             * line : 142674
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214934
+             * line : 144244
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217604
+             * line : 146164
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220028
+             * line : 148196
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224778
+             * line : 151521
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230017
+             * line : 154577
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231909
+             * line : 155996
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class ExposureCompStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ExposureCompStepSize',
             'desc' => [
+                'en' => 'Exposure Comp Step Size',
             ],
         ],
     ];

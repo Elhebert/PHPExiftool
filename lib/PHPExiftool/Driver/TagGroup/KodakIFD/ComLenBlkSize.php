@@ -28,13 +28,14 @@ class ComLenBlkSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Com Len Blk Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157389
+             * line : 108581
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ComLenBlkSize extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ComLenBlkSize',
             'desc' => [
+                'en' => 'Com Len Blk Size',
             ],
         ],
     ];

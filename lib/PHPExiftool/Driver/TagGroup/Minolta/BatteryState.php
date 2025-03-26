@@ -28,13 +28,14 @@ class BatteryState extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182468
+             * line : 124200
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BatteryState extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:BatteryState',
             'desc' => [
+                'en' => 'Battery State',
             ],
         ],
     ];

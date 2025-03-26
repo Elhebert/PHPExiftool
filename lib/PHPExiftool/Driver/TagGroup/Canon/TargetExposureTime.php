@@ -28,13 +28,14 @@ class TargetExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Target Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70159
+             * line : 52651
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TargetExposureTime extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:TargetExposureTime',
             'desc' => [
+                'en' => 'Target Exposure Time',
             ],
         ],
     ];

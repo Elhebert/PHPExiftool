@@ -28,13 +28,14 @@ class PixelExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm1
-             * line : 326319
+             * line : 230229
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelExposureTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm1.QuickTime:PixelExposureTime',
             'desc' => [
+                'en' => 'Pixel Exposure Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UserWebURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Web URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175965
+             * line : 121080
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserWebURL extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:UserWebURL',
             'desc' => [
+                'en' => 'User Web URL',
             ],
         ],
     ];

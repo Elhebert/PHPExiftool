@@ -28,13 +28,14 @@ class CenterPixel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Center Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154901
+             * line : 106193
              * type : int16u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class CenterPixel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CenterPixel',
             'desc' => [
+                'en' => 'Center Pixel',
             ],
         ],
     ];

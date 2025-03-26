@@ -28,13 +28,14 @@ class PeakSpectralSensitivity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Spectral Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90560
+             * line : 65224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakSpectralSensitivity extends AbstractTagGroup
              */
             'id' => 'Composite.FLIR:PeakSpectralSensitivity',
             'desc' => [
+                'en' => 'Peak Spectral Sensitivity',
             ],
         ],
     ];

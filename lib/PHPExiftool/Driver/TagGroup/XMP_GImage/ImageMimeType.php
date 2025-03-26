@@ -28,13 +28,14 @@ class ImageMimeType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Mime Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GImage
-             * line : 397075
+             * line : 281188
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageMimeType extends AbstractTagGroup
              */
             'id' => 'XMP::GImage.XMP-GImage:ImageMimeType',
             'desc' => [
+                'en' => 'Image Mime Type',
             ],
         ],
     ];

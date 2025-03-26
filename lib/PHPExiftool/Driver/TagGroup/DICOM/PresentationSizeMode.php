@@ -28,13 +28,14 @@ class PresentationSizeMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Size Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101345
+             * line : 74493
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationSizeMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PresentationSizeMode',
             'desc' => [
+                'en' => 'Presentation Size Mode',
             ],
         ],
     ];

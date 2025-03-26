@@ -28,13 +28,14 @@ class Encoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIF::Main
-             * line : 122113
+             * line : 85534
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Encoding extends AbstractTagGroup
              */
             'id' => 'FLIF::Main.File:Encoding',
             'desc' => [
+                'en' => 'Encoding',
             ],
         ],
         1 => [
             /**
              * table_name : PCX::Main
-             * line : 263881
+             * line : 182491
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Encoding extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:Encoding',
             'desc' => [
+                'en' => 'Encoding',
             ],
         ],
     ];

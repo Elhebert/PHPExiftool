@@ -28,13 +28,14 @@ class RootFormatVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Root Format Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172282
+             * line : 118447
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RootFormatVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RootFormatVersion',
             'desc' => [
+                'en' => 'Root Format Version',
             ],
         ],
     ];

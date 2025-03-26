@@ -28,13 +28,14 @@ class Industry extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Industry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prl
-             * line : 411195
+             * line : 290390
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Industry extends AbstractTagGroup
              */
             'id' => 'XMP::prl.XMP-prl:Industry',
             'desc' => [
+                'en' => 'Industry',
             ],
         ],
     ];

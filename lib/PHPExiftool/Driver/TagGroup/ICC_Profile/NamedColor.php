@@ -28,13 +28,14 @@ class NamedColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Named Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146462
+             * line : 101808
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NamedColor extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:NamedColor',
             'desc' => [
+                'en' => 'Named Color',
             ],
         ],
         1 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146476
+             * line : 101814
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NamedColor extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:NamedColor',
             'desc' => [
+                'en' => 'Named Color',
             ],
         ],
     ];

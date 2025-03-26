@@ -28,13 +28,14 @@ class ConfidenceMime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Confidence Mime',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396918
+             * line : 281110
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConfidenceMime extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:ConfidenceMime',
             'desc' => [
+                'en' => 'Confidence Mime',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AssignBktButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Bkt Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212270
+             * line : 142604
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215451
+             * line : 144605
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218073
+             * line : 146530
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220523
+             * line : 148561
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230480
+             * line : 154884
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232422
+             * line : 156379
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class AssignBktButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignBktButton',
             'desc' => [
+                'en' => 'Assign Bkt Button',
             ],
         ],
     ];

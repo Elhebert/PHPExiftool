@@ -28,13 +28,14 @@ class DynamicRangeOptimizerSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350282
+             * line : 244582
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DynamicRangeOptimizerSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:DynamicRangeOptimizerSetting',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360151
+             * line : 251042
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DynamicRangeOptimizerSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:DynamicRangeOptimizerSetting',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfPaintings extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Paintings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103900
+             * line : 76989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPaintings extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfPaintings',
             'desc' => [
+                'en' => 'Number Of Paintings',
             ],
         ],
     ];

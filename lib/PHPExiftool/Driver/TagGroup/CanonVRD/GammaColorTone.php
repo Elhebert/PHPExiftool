@@ -28,13 +28,14 @@ class GammaColorTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Color Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82001
+             * line : 60097
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaColorTone extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaColorTone',
             'desc' => [
+                'en' => 'Gamma Color Tone',
             ],
         ],
     ];

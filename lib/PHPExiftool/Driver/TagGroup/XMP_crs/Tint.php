@@ -28,13 +28,14 @@ class Tint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404456
+             * line : 287504
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Tint extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Tint',
             'desc' => [
+                'en' => 'Tint',
             ],
         ],
     ];

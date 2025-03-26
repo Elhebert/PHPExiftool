@@ -28,13 +28,14 @@ class ClientID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Client ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175605
+             * line : 120858
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClientID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ClientID',
             'desc' => [
+                'en' => 'Client ID',
             ],
         ],
     ];

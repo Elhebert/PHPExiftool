@@ -28,13 +28,14 @@ class GPSImgDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Img Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132303
+             * line : 90943
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GPSImgDirection extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSImgDirection',
             'desc' => [
+                'en' => 'GPS Img Direction',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141893
+             * line : 98312
              * type : rational32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSImgDirection extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSImgDirection',
             'desc' => [
+                'en' => 'GPS Img Direction',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203069
+             * line : 137108
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class GPSImgDirection extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSImgDirection',
             'desc' => [
+                'en' => 'GPS Img Direction',
             ],
         ],
     ];

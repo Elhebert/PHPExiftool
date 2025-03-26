@@ -28,13 +28,14 @@ class PatientSupportAccessoryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Support Accessory Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103840
+             * line : 76929
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientSupportAccessoryCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientSupportAccessoryCode',
             'desc' => [
+                'en' => 'Patient Support Accessory Code',
             ],
         ],
     ];

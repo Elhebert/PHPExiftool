@@ -28,13 +28,14 @@ class LimitSelectableImageArea1To1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit Selectable Image Area 1 To 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235723
+             * line : 158925
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LimitSelectableImageArea1To1 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitSelectableImageArea1To1',
             'desc' => [
+                'en' => 'Limit Selectable Image Area 1 To 1',
             ],
         ],
     ];

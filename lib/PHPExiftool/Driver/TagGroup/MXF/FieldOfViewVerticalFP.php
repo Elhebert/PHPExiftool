@@ -28,13 +28,14 @@ class FieldOfViewVerticalFP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Vertical FP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171775
+             * line : 117964
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewVerticalFP extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FieldOfViewVerticalFP',
             'desc' => [
+                'en' => 'Field Of View Vertical FP',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HDR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300532
+             * line : 209508
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class HDR extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:HDR',
             'desc' => [
+                'en' => 'HDR',
             ],
         ],
     ];

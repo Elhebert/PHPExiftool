@@ -28,13 +28,14 @@ class ImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::DeltaPNGHeader
-             * line : 164769
+             * line : 111985
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageType extends AbstractTagGroup
              */
             'id' => 'MNG::DeltaPNGHeader.MNG:ImageType',
             'desc' => [
+                'en' => 'Image Type',
             ],
         ],
     ];

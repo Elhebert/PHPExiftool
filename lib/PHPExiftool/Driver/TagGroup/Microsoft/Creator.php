@@ -28,13 +28,14 @@ class Creator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176286
+             * line : 121308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Creator extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Creator',
             'desc' => [
+                'en' => 'Creator',
             ],
         ],
     ];

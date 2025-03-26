@@ -28,13 +28,14 @@ class JPEGImageLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121449
+             * line : 85199
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGImageLength extends AbstractTagGroup
              */
             'id' => 'Extra.File:JPEGImageLength',
             'desc' => [
+                'en' => 'JPEG Image Length',
             ],
         ],
     ];

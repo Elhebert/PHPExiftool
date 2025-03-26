@@ -28,13 +28,14 @@ class ContributionDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contribution Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97398
+             * line : 70786
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContributionDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContributionDescription',
             'desc' => [
+                'en' => 'Contribution Description',
             ],
         ],
     ];

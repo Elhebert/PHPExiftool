@@ -28,13 +28,14 @@ class Palette extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123544
+             * line : 86349
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Palette extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:Palette',
             'desc' => [
+                'en' => 'Palette',
             ],
         ],
     ];

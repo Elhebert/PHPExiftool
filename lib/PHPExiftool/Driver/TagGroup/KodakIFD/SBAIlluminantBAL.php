@@ -28,13 +28,14 @@ class SBAIlluminantBAL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SBA Illuminant BAL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155912
+             * line : 107123
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SBAIlluminantBAL extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBAIlluminantBAL',
             'desc' => [
+                'en' => 'SBA Illuminant BAL',
             ],
         ],
     ];

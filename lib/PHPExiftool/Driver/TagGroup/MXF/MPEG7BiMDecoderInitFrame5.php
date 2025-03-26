@@ -28,13 +28,14 @@ class MPEG7BiMDecoderInitFrame5 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MPEG7 Bi M Decoder Init Frame 5',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171703
+             * line : 117895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPEG7BiMDecoderInitFrame5 extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MPEG7BiMDecoderInitFrame5',
             'desc' => [
+                'en' => 'MPEG7 Bi M Decoder Init Frame 5',
             ],
         ],
     ];

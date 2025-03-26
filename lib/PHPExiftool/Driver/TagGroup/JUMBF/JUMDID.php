@@ -28,13 +28,14 @@ class JUMDID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JUMD ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::JUMD
-             * line : 154112
+             * line : 105807
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JUMDID extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::JUMD.JUMBF:JUMDID',
             'desc' => [
+                'en' => 'JUMD ID',
             ],
         ],
     ];

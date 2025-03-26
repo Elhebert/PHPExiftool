@@ -28,13 +28,14 @@ class KLVDataValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KLV Data Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168926
+             * line : 115391
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KLVDataValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KLVDataValue',
             'desc' => [
+                'en' => 'KLV Data Value',
             ],
         ],
     ];

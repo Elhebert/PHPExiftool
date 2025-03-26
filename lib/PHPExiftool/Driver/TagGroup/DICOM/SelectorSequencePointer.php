@@ -28,13 +28,14 @@ class SelectorSequencePointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector Sequence Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101491
+             * line : 74637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorSequencePointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorSequencePointer',
             'desc' => [
+                'en' => 'Selector Sequence Pointer',
             ],
         ],
     ];

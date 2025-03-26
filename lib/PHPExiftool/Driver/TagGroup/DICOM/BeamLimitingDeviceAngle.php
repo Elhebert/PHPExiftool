@@ -28,13 +28,14 @@ class BeamLimitingDeviceAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Limiting Device Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103375
+             * line : 76470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamLimitingDeviceAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamLimitingDeviceAngle',
             'desc' => [
+                'en' => 'Beam Limiting Device Angle',
             ],
         ],
     ];

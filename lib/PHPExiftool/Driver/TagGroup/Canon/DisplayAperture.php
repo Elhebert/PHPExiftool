@@ -28,13 +28,14 @@ class DisplayAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Display Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58679
+             * line : 45632
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DisplayAperture extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:DisplayAperture',
             'desc' => [
+                'en' => 'Display Aperture',
             ],
         ],
     ];

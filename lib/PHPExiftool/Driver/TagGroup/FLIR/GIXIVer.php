@@ -28,13 +28,14 @@ class GIXIVer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GIXI Ver',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123635
+             * line : 86436
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GIXIVer extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:GIXIVer',
             'desc' => [
+                'en' => 'GIXI Ver',
             ],
         ],
     ];

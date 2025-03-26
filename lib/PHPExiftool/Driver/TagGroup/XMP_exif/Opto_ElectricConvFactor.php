@@ -28,13 +28,14 @@ class Opto_ElectricConvFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Opto-Electric Conv Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407648
+             * line : 288374
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Opto_ElectricConvFactor extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:Opto-ElectricConvFactor',
             'desc' => [
+                'en' => 'Opto-Electric Conv Factor',
             ],
         ],
     ];

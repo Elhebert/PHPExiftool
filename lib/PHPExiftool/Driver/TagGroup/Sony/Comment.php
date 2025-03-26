@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361414
+             * line : 251767
              * type : string
              * writable : false
              * count : 19
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

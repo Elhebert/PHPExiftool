@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84217
+             * line : 61631
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85331
+             * line : 62043
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 86185
+             * line : 62290
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

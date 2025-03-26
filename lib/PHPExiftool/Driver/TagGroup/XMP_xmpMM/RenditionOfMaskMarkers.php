@@ -28,13 +28,14 @@ class RenditionOfMaskMarkers extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Mask Markers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414239
+             * line : 292259
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfMaskMarkers extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfMaskMarkers',
             'desc' => [
+                'en' => 'Rendition Of Mask Markers',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetractLensOnPowerOff extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retract Lens On Power Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75638
+             * line : 55693
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetractLensOnPowerOff extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:RetractLensOnPowerOff',
             'desc' => [
+                'en' => 'Retract Lens On Power Off',
             ],
         ],
     ];

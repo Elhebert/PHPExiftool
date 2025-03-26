@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410124
+             * line : 289735
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

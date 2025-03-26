@@ -28,13 +28,14 @@ class HueAdjust extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333351
+             * line : 233765
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HueAdjust extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:HueAdjust',
             'desc' => [
+                'en' => 'Hue Adjust',
             ],
         ],
     ];

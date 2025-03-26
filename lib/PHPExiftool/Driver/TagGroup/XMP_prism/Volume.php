@@ -28,13 +28,14 @@ class Volume extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411180
+             * line : 290377
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Volume extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Volume',
             'desc' => [
+                'en' => 'Volume',
             ],
         ],
     ];

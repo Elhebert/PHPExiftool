@@ -28,13 +28,14 @@ class CueSheet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Sheet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Main
-             * line : 121754
+             * line : 85336
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueSheet extends AbstractTagGroup
              */
             'id' => 'FLAC::Main.FLAC:CueSheet',
             'desc' => [
+                'en' => 'Cue Sheet',
             ],
         ],
     ];

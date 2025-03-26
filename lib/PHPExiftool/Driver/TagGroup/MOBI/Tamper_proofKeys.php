@@ -28,13 +28,14 @@ class Tamper_proofKeys extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tamper-proof Keys',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273605
+             * line : 190804
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Tamper_proofKeys extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Tamper-proofKeys',
             'desc' => [
+                'en' => 'Tamper-proof Keys',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DimensionDescriptionLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimension Description Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98164
+             * line : 71509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DimensionDescriptionLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DimensionDescriptionLabel',
             'desc' => [
+                'en' => 'Dimension Description Label',
             ],
         ],
     ];

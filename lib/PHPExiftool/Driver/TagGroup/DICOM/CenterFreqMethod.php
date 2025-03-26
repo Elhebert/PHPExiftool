@@ -28,13 +28,14 @@ class CenterFreqMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center Freq Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97625
+             * line : 71008
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CenterFreqMethod extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CenterFreqMethod',
             'desc' => [
+                'en' => 'Center Freq Method',
             ],
         ],
     ];

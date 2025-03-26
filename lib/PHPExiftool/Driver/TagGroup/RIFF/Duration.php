@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::ANMF
-             * line : 326906
+             * line : 230564
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'RIFF::ANMF.RIFF:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

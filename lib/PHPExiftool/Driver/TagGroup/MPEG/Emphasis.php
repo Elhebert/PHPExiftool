@@ -28,13 +28,14 @@ class Emphasis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Emphasis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165895
+             * line : 112806
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Emphasis extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:Emphasis',
             'desc' => [
+                'en' => 'Emphasis',
             ],
         ],
     ];

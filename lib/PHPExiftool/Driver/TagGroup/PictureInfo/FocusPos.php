@@ -28,13 +28,14 @@ class FocusPos extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Pos',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 652
+             * line : 248
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPos extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:FocusPos',
             'desc' => [
+                'en' => 'Focus Pos',
             ],
         ],
     ];

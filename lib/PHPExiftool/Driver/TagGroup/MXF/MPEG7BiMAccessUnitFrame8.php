@@ -28,13 +28,14 @@ class MPEG7BiMAccessUnitFrame8 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MPEG7 Bi M Access Unit Frame 8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171736
+             * line : 117928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPEG7BiMAccessUnitFrame8 extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MPEG7BiMAccessUnitFrame8',
             'desc' => [
+                'en' => 'MPEG7 Bi M Access Unit Frame 8',
             ],
         ],
     ];

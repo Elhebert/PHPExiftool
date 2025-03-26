@@ -28,13 +28,14 @@ class ShutterReleaseButtonAE_L extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Release Button AE-L',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243855
+             * line : 166816
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterReleaseButtonAE_L extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ShutterReleaseButtonAE-L',
             'desc' => [
+                'en' => 'Shutter Release Button AE-L',
             ],
         ],
     ];

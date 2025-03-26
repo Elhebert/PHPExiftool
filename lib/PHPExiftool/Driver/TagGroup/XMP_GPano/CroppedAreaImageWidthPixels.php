@@ -28,13 +28,14 @@ class CroppedAreaImageWidthPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cropped Area Image Width Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397091
+             * line : 281201
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CroppedAreaImageWidthPixels extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:CroppedAreaImageWidthPixels',
             'desc' => [
+                'en' => 'Cropped Area Image Width Pixels',
             ],
         ],
     ];

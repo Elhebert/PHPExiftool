@@ -28,13 +28,14 @@ class LCDStepYvaluesChickFix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Step Yvalues Chick Fix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156798
+             * line : 108002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDStepYvaluesChickFix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDStepYvaluesChickFix',
             'desc' => [
+                'en' => 'LCD Step Yvalues Chick Fix',
             ],
         ],
     ];

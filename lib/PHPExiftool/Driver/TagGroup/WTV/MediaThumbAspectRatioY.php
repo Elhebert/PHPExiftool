@@ -28,13 +28,14 @@ class MediaThumbAspectRatioY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Thumb Aspect Ratio Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396167
+             * line : 280463
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaThumbAspectRatioY extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaThumbAspectRatioY',
             'desc' => [
+                'en' => 'Media Thumb Aspect Ratio Y',
             ],
         ],
     ];

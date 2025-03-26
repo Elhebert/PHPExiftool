@@ -28,13 +28,14 @@ class LocalID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169613
+             * line : 116004
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalID',
             'desc' => [
+                'en' => 'Local ID',
             ],
         ],
     ];

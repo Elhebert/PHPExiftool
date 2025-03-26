@@ -28,13 +28,14 @@ class ApplicationEnvironmentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Environment ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172436
+             * line : 118597
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationEnvironmentID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationEnvironmentID',
             'desc' => [
+                'en' => 'Application Environment ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskRoundness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Roundness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399907
+             * line : 283413
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskRoundness extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrMaskRoundness',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Roundness',
             ],
         ],
     ];

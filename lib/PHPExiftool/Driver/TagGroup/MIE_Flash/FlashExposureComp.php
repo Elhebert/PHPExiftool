@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Flash
-             * line : 163363
+             * line : 111392
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'MIE::Flash.MIE-Flash:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
     ];

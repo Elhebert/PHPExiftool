@@ -28,13 +28,14 @@ class Face2Name extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Face 2 Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FaceRecInfo
-             * line : 128436
+             * line : 89102
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Face2Name extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FaceRecInfo.FujiFilm:Face2Name',
             'desc' => [
+                'en' => 'Face 2 Name',
             ],
         ],
     ];

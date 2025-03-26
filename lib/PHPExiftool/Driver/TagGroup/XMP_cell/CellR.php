@@ -28,13 +28,14 @@ class CellR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cell R',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cell
-             * line : 398173
+             * line : 281806
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CellR extends AbstractTagGroup
              */
             'id' => 'XMP::cell.XMP-cell:CellR',
             'desc' => [
+                'en' => 'Cell R',
             ],
         ],
     ];

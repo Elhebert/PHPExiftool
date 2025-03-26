@@ -28,13 +28,14 @@ class SubscriptionListStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subscription List Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101847
+             * line : 74988
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubscriptionListStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SubscriptionListStatus',
             'desc' => [
+                'en' => 'Subscription List Status',
             ],
         ],
     ];

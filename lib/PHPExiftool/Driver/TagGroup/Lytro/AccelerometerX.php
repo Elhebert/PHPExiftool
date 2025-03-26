@@ -28,13 +28,14 @@ class AccelerometerX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162211
+             * line : 110833
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccelerometerX extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:AccelerometerX',
             'desc' => [
+                'en' => 'Accelerometer X',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DefHilite extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Use Default Highlight Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264706
+             * line : 182948
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefHilite extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:DefHilite',
             'desc' => [
+                'en' => 'Use Default Highlight Color',
             ],
         ],
     ];

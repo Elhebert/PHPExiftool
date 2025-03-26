@@ -28,13 +28,14 @@ class XAttrMDItemFinderComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr MD Item Finder Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173136
+             * line : 119147
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrMDItemFinderComment extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrMDItemFinderComment',
             'desc' => [
+                'en' => 'X Attr MD Item Finder Comment',
             ],
         ],
     ];

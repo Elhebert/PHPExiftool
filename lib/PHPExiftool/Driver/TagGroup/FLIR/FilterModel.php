@@ -28,13 +28,14 @@ class FilterModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122304
+             * line : 85668
              * type : string
              * writable : false
              * count : 16
@@ -42,12 +43,13 @@ class FilterModel extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:FilterModel',
             'desc' => [
+                'en' => 'Filter Model',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122578
+             * line : 85832
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class FilterModel extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:FilterModel',
             'desc' => [
+                'en' => 'Filter Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StimVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stim Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394573
+             * line : 279521
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StimVersion extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:StimVersion',
             'desc' => [
+                'en' => 'Stim Version',
             ],
         ],
     ];

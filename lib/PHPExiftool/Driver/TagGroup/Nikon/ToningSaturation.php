@@ -28,13 +28,14 @@ class ToningSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203914
+             * line : 137437
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningSaturation extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:ToningSaturation',
             'desc' => [
+                'en' => 'Toning Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204237
+             * line : 137549
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ToningSaturation extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:ToningSaturation',
             'desc' => [
+                'en' => 'Toning Saturation',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204563
+             * line : 137664
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ToningSaturation extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:ToningSaturation',
             'desc' => [
+                'en' => 'Toning Saturation',
             ],
         ],
     ];

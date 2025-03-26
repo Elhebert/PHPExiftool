@@ -28,13 +28,14 @@ class CPUSubtype extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CPU Subtype',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::MachO
-             * line : 108241
+             * line : 79913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CPUSubtype extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:CPUSubtype',
             'desc' => [
+                'en' => 'CPU Subtype',
             ],
         ],
     ];

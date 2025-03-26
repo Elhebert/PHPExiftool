@@ -28,13 +28,14 @@ class TimeOfFlightContrast extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Of Flight Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96542
+             * line : 69946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeOfFlightContrast extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeOfFlightContrast',
             'desc' => [
+                'en' => 'Time Of Flight Contrast',
             ],
         ],
     ];

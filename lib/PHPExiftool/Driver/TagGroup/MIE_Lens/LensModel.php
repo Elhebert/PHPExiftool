@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 164005
+             * line : 111561
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

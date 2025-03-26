@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328381
+             * line : 231607
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

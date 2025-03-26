@@ -28,13 +28,14 @@ class Unknown_CDEK extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown CDEK',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314082
+             * line : 219734
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Unknown_CDEK extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Unknown_CDEK',
             'desc' => [
+                'en' => 'Unknown CDEK',
             ],
         ],
     ];

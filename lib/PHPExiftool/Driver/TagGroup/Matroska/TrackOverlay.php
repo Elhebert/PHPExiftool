@@ -28,13 +28,14 @@ class TrackOverlay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Overlay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173875
+             * line : 119773
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackOverlay extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackOverlay',
             'desc' => [
+                'en' => 'Track Overlay',
             ],
         ],
     ];

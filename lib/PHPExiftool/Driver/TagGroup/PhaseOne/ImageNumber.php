@@ -28,13 +28,14 @@ class ImageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303342
+             * line : 210819
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
     ];

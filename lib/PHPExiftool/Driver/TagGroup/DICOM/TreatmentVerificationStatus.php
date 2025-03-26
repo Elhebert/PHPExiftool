@@ -28,13 +28,14 @@ class TreatmentVerificationStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Verification Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102696
+             * line : 75792
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentVerificationStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentVerificationStatus',
             'desc' => [
+                'en' => 'Treatment Verification Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PanOverlapV extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pan Overlap V',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166346
+             * line : 113105
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PanOverlapV extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:PanOverlapV',
             'desc' => [
+                'en' => 'Pan Overlap V',
             ],
         ],
     ];

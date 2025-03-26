@@ -28,13 +28,14 @@ class SubjectCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 409049
+             * line : 288876
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectCode extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:SubjectCode',
             'desc' => [
+                'en' => 'Subject Code',
             ],
         ],
     ];

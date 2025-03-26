@@ -28,13 +28,14 @@ class BlockDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173242
+             * line : 119241
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockDuration extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:BlockDuration',
             'desc' => [
+                'en' => 'Block Duration',
             ],
         ],
     ];

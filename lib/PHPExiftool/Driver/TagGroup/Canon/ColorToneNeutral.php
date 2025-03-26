@@ -28,13 +28,14 @@ class ColorToneNeutral extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34658
+             * line : 26578
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorToneNeutral',
             'desc' => [
+                'en' => 'Color Tone Neutral',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67321
+             * line : 51065
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorToneNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorToneNeutral',
             'desc' => [
+                'en' => 'Color Tone Neutral',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68419
+             * line : 51726
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorToneNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneNeutral',
             'desc' => [
+                'en' => 'Color Tone Neutral',
             ],
         ],
     ];

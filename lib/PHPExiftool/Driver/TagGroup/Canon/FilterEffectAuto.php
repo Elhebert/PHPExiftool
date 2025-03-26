@@ -28,13 +28,14 @@ class FilterEffectAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68722
+             * line : 51908
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilterEffectAuto extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:FilterEffectAuto',
             'desc' => [
+                'en' => 'Filter Effect Auto',
             ],
         ],
     ];

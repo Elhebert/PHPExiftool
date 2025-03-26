@@ -28,13 +28,14 @@ class LastPrinted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Printed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329294
+             * line : 232062
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastPrinted extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:LastPrinted',
             'desc' => [
+                'en' => 'Last Printed',
             ],
         ],
     ];

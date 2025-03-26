@@ -28,13 +28,14 @@ class Rect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162048
+             * line : 110733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rect extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:Rect',
             'desc' => [
+                'en' => 'Rect',
             ],
         ],
     ];

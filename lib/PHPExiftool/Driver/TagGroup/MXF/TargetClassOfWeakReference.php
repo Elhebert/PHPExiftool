@@ -28,13 +28,14 @@ class TargetClassOfWeakReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Class Of Weak Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169628
+             * line : 116019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetClassOfWeakReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TargetClassOfWeakReference',
             'desc' => [
+                'en' => 'Target Class Of Weak Reference',
             ],
         ],
     ];

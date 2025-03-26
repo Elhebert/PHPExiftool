@@ -28,13 +28,14 @@ class VFDisplayIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'VF Display Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3982
+             * line : 2501
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VFDisplayIllumination extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:VFDisplayIllumination',
             'desc' => [
+                'en' => 'VF Display Illumination',
             ],
         ],
     ];

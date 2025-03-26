@@ -28,13 +28,14 @@ class PreviewButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245285
+             * line : 167992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:PreviewButton',
             'desc' => [
+                'en' => 'Preview Button',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OSVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'OS Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108890
+             * line : 80502
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class OSVersion extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:OSVersion',
             'desc' => [
+                'en' => 'OS Version',
             ],
         ],
     ];

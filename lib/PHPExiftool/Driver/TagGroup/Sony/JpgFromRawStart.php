@@ -28,13 +28,14 @@ class JpgFromRawStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Jpg From Raw Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361288
+             * line : 251724
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JpgFromRawStart extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:JpgFromRawStart',
             'desc' => [
+                'en' => 'Jpg From Raw Start',
             ],
         ],
     ];

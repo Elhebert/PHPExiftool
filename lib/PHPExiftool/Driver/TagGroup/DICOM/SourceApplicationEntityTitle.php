@@ -28,13 +28,14 @@ class SourceApplicationEntityTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Application Entity Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94579
+             * line : 68080
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceApplicationEntityTitle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceApplicationEntityTitle',
             'desc' => [
+                'en' => 'Source Application Entity Title',
             ],
         ],
     ];

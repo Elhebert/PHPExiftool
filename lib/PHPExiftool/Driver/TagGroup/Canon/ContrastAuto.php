@@ -28,13 +28,14 @@ class ContrastAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68688
+             * line : 51876
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContrastAuto extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastAuto',
             'desc' => [
+                'en' => 'Contrast Auto',
             ],
         ],
     ];

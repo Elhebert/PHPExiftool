@@ -28,13 +28,14 @@ class Brightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401545
+             * line : 284801
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
     ];

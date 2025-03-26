@@ -28,13 +28,14 @@ class MeasuredDoseValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measured Dose Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102672
+             * line : 75768
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasuredDoseValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MeasuredDoseValue',
             'desc' => [
+                'en' => 'Measured Dose Value',
             ],
         ],
     ];

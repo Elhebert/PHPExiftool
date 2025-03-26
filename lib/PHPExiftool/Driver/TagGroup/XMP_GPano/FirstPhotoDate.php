@@ -28,13 +28,14 @@ class FirstPhotoDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'First Photo Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397107
+             * line : 281213
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FirstPhotoDate extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:FirstPhotoDate',
             'desc' => [
+                'en' => 'First Photo Date',
             ],
         ],
     ];

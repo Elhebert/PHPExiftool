@@ -28,13 +28,14 @@ class MinimumSupportedPlatformVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minimum Supported Platform Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169336
+             * line : 115743
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinimumSupportedPlatformVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MinimumSupportedPlatformVersion',
             'desc' => [
+                'en' => 'Minimum Supported Platform Version',
             ],
         ],
     ];

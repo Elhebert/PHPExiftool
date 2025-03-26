@@ -28,13 +28,14 @@ class Files extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Files',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142955
+             * line : 98722
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Files extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Files',
             'desc' => [
+                'en' => 'Files',
             ],
         ],
     ];

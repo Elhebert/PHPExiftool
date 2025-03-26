@@ -28,13 +28,14 @@ class Filtering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filtering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127373
+             * line : 88405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Filtering extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:Filtering',
             'desc' => [
+                'en' => 'Filtering',
             ],
         ],
     ];

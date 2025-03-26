@@ -28,13 +28,14 @@ class CompensatorRelStoppingPowerRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Rel Stopping Power Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103738
+             * line : 76827
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorRelStoppingPowerRatio extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorRelStoppingPowerRatio',
             'desc' => [
+                'en' => 'Compensator Rel Stopping Power Ratio',
             ],
         ],
     ];

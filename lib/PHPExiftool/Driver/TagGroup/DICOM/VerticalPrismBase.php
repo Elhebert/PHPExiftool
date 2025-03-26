@@ -28,13 +28,14 @@ class VerticalPrismBase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Prism Base',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100678
+             * line : 73848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalPrismBase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerticalPrismBase',
             'desc' => [
+                'en' => 'Vertical Prism Base',
             ],
         ],
     ];

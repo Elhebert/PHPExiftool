@@ -28,13 +28,14 @@ class KeyCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263582
+             * line : 182348
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyCode extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:KeyCode',
             'desc' => [
+                'en' => 'Key Code',
             ],
         ],
     ];

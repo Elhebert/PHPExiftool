@@ -28,13 +28,14 @@ class Composer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148769
+             * line : 103274
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Composer extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:Composer',
             'desc' => [
+                'en' => 'Composer',
             ],
         ],
     ];

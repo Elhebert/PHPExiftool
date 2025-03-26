@@ -28,13 +28,14 @@ class MDItemMailDateReceived_Ranking extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Mail Date Received Ranking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172892
+             * line : 118963
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemMailDateReceived_Ranking extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemMailDateReceived_Ranking',
             'desc' => [
+                'en' => 'MD Item Mail Date Received Ranking',
             ],
         ],
     ];

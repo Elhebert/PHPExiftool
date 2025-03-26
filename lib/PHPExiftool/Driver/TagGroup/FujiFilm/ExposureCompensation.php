@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::MOV
-             * line : 128811
+             * line : 89340
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'FujiFilm::MOV.FujiFilm:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InternalFlashStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Flash Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 288162
+             * line : 199964
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalFlashStrength extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:InternalFlashStrength',
             'desc' => [
+                'en' => 'Internal Flash Strength',
             ],
         ],
     ];

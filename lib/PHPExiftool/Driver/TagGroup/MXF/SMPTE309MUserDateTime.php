@@ -28,13 +28,14 @@ class SMPTE309MUserDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SMPTE309M User Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168492
+             * line : 114983
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SMPTE309MUserDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SMPTE309MUserDateTime',
             'desc' => [
+                'en' => 'SMPTE309M User Date Time',
             ],
         ],
     ];

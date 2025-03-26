@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Preview
-             * line : 164135
+             * line : 111633
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'MIE::Preview.MIE-Preview:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

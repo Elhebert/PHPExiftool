@@ -28,13 +28,14 @@ class ExtremityCoilFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extremity Coil Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97646
+             * line : 71029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtremityCoilFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExtremityCoilFlag',
             'desc' => [
+                'en' => 'Extremity Coil Flag',
             ],
         ],
     ];

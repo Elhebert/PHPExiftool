@@ -28,13 +28,14 @@ class DerivedFromPartMapping extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Part Mapping',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413852
+             * line : 291881
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromPartMapping extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromPartMapping',
             'desc' => [
+                'en' => 'Derived From Part Mapping',
             ],
         ],
     ];

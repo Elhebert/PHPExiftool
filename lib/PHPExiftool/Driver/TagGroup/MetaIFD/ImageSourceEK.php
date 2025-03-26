@@ -28,13 +28,14 @@ class ImageSourceEK extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Source EK',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158371
+             * line : 108892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSourceEK extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:ImageSourceEK',
             'desc' => [
+                'en' => 'Image Source EK',
             ],
         ],
     ];

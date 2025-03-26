@@ -28,13 +28,14 @@ class ReleaseDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322307
+             * line : 227830
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:ReleaseDate',
             'desc' => [
+                'en' => 'Release Date',
             ],
         ],
     ];

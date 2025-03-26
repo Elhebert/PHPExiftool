@@ -28,13 +28,14 @@ class RASLetterOfImageLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RAS Letter Of Image Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98531
+             * line : 71863
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RASLetterOfImageLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RASLetterOfImageLocation',
             'desc' => [
+                'en' => 'RAS Letter Of Image Location',
             ],
         ],
     ];

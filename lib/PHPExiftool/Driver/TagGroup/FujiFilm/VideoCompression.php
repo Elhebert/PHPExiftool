@@ -28,13 +28,14 @@ class VideoCompression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130902
+             * line : 90420
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoCompression extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:VideoCompression',
             'desc' => [
+                'en' => 'Video Compression',
             ],
         ],
     ];

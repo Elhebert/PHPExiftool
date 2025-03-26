@@ -28,13 +28,14 @@ class ImagePathFilterPassThroughWavelen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Path Filter Pass Through Wavelen',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98303
+             * line : 71638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePathFilterPassThroughWavelen extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePathFilterPassThroughWavelen',
             'desc' => [
+                'en' => 'Image Path Filter Pass Through Wavelen',
             ],
         ],
     ];

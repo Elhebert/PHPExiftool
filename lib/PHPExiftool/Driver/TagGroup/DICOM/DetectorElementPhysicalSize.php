@@ -28,13 +28,14 @@ class DetectorElementPhysicalSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Element Physical Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96433
+             * line : 69841
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorElementPhysicalSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorElementPhysicalSize',
             'desc' => [
+                'en' => 'Detector Element Physical Size',
             ],
         ],
     ];

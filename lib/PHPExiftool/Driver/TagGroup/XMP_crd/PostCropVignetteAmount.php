@@ -28,13 +28,14 @@ class PostCropVignetteAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Post Crop Vignette Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400588
+             * line : 284075
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PostCropVignetteAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PostCropVignetteAmount',
             'desc' => [
+                'en' => 'Post Crop Vignette Amount',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GyroMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gyro Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Gyro360Fly
-             * line : 313357
+             * line : 219102
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GyroMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Gyro360Fly.QuickTime:GyroMode',
             'desc' => [
+                'en' => 'Gyro Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecommendedDisplayFrameRateInFloat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recommended Display Frame Rate In Float',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95142
+             * line : 68623
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecommendedDisplayFrameRateInFloat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecommendedDisplayFrameRateInFloat',
             'desc' => [
+                'en' => 'Recommended Display Frame Rate In Float',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FaceDetectFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detect Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::FaceInfo1
-             * line : 83875
+             * line : 61491
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class FaceDetectFrameSize extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo1.Casio:FaceDetectFrameSize',
             'desc' => [
+                'en' => 'Face Detect Frame Size',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::FaceInfo2
-             * line : 83952
+             * line : 61531
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class FaceDetectFrameSize extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo2.Casio:FaceDetectFrameSize',
             'desc' => [
+                'en' => 'Face Detect Frame Size',
             ],
         ],
     ];

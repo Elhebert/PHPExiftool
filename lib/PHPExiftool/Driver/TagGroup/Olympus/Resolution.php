@@ -28,13 +28,14 @@ class Resolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::TextInfo
-             * line : 261273
+             * line : 180336
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Resolution extends AbstractTagGroup
              */
             'id' => 'Olympus::TextInfo.Olympus:Resolution',
             'desc' => [
+                'en' => 'Resolution',
             ],
         ],
     ];

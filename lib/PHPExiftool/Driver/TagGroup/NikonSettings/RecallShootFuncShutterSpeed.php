@@ -28,13 +28,14 @@ class RecallShootFuncShutterSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func Shutter Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247992
+             * line : 170680
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncShutterSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncShutterSpeed',
             'desc' => [
+                'en' => 'Recall Shoot Func Shutter Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OccurrenceAssociatedReferences extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Associated References',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106501
+             * line : 78773
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceAssociatedReferences extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceAssociatedReferences',
             'desc' => [
+                'en' => 'Occurrence Associated References',
             ],
         ],
     ];

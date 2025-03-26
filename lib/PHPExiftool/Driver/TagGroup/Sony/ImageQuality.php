@@ -28,13 +28,14 @@ class ImageQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361393
+             * line : 251753
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageQuality extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:ImageQuality',
             'desc' => [
+                'en' => 'Image Quality',
             ],
         ],
     ];

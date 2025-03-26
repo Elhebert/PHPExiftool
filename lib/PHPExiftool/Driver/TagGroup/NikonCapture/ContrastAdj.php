@@ -28,13 +28,14 @@ class ContrastAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211233
+             * line : 142033
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContrastAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:ContrastAdj',
             'desc' => [
+                'en' => 'Contrast Adj',
             ],
         ],
     ];

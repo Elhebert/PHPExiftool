@@ -28,13 +28,14 @@ class Performer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Performer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322255
+             * line : 227801
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Performer extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Performer',
             'desc' => [
+                'en' => 'Performer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DischargeDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Discharge Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99419
+             * line : 72633
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DischargeDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DischargeDate',
             'desc' => [
+                'en' => 'Discharge Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawzorCreatorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rawzor Creator Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Rawzor::Main
-             * line : 329616
+             * line : 232156
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawzorCreatorVersion extends AbstractTagGroup
              */
             'id' => 'Rawzor::Main.Rawzor:RawzorCreatorVersion',
             'desc' => [
+                'en' => 'Rawzor Creator Version',
             ],
         ],
     ];

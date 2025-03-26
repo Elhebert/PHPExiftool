@@ -28,13 +28,14 @@ class DialDirectionTvAv extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dial Direction Tv Av',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75085
+             * line : 55305
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DialDirectionTvAv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:DialDirectionTvAv',
             'desc' => [
+                'en' => 'Dial Direction Tv Av',
             ],
         ],
     ];

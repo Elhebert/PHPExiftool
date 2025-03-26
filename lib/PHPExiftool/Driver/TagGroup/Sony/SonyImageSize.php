@@ -28,13 +28,14 @@ class SonyImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348160
+             * line : 243640
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyImageSize extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:SonyImageSize',
             'desc' => [
+                'en' => 'Sony Image Size',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349508
+             * line : 244212
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SonyImageSize extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:SonyImageSize',
             'desc' => [
+                'en' => 'Sony Image Size',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350179
+             * line : 244531
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SonyImageSize extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:SonyImageSize',
             'desc' => [
+                'en' => 'Sony Image Size',
             ],
         ],
     ];

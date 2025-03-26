@@ -28,13 +28,14 @@ class MDItemAudioChannelCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Audio Channel Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172572
+             * line : 118724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemAudioChannelCount extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemAudioChannelCount',
             'desc' => [
+                'en' => 'MD Item Audio Channel Count',
             ],
         ],
     ];

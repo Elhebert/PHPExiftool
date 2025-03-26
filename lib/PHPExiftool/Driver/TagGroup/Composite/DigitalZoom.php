@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90051
+             * line : 65069
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

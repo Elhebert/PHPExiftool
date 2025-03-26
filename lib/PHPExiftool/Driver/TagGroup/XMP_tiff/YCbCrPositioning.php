@@ -28,13 +28,14 @@ class YCbCrPositioning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Positioning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412428
+             * line : 290846
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YCbCrPositioning extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:YCbCrPositioning',
             'desc' => [
+                'en' => 'Y Cb Cr Positioning',
             ],
         ],
     ];

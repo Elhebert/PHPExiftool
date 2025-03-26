@@ -28,13 +28,14 @@ class Conductor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Conductor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148964
+             * line : 103355
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Conductor extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:Conductor',
             'desc' => [
+                'en' => 'Conductor',
             ],
         ],
     ];

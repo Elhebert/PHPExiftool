@@ -28,13 +28,14 @@ class OpEndPic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End of picture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265043
+             * line : 183254
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpEndPic extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:OpEndPic',
             'desc' => [
+                'en' => 'End of picture',
             ],
         ],
     ];

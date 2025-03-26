@@ -28,13 +28,14 @@ class ReflectionPrintOutputColorimetry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reflection Print Output Colorimetry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146602
+             * line : 101887
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReflectionPrintOutputColorimetry extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ReflectionPrintOutputColorimetry',
             'desc' => [
+                'en' => 'Reflection Print Output Colorimetry',
             ],
         ],
     ];

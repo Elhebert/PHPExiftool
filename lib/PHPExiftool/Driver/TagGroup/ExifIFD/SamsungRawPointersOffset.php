@@ -28,13 +28,14 @@ class SamsungRawPointersOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Samsung Raw Pointers Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116531
+             * line : 83387
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamsungRawPointersOffset extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SamsungRawPointersOffset',
             'desc' => [
+                'en' => 'Samsung Raw Pointers Offset',
             ],
         ],
     ];

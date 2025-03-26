@@ -28,13 +28,14 @@ class LuminanceConsts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Luminance Consts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161720
+             * line : 110470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LuminanceConsts extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:LuminanceConsts',
             'desc' => [
+                'en' => 'Luminance Consts',
             ],
         ],
     ];

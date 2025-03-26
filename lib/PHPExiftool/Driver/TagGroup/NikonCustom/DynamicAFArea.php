@@ -28,13 +28,14 @@ class DynamicAFArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic AF Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211865
+             * line : 142391
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DynamicAFArea extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:DynamicAFArea',
             'desc' => [
+                'en' => 'Dynamic AF Area',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224474
+             * line : 151380
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DynamicAFArea extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:DynamicAFArea',
             'desc' => [
+                'en' => 'Dynamic AF Area',
             ],
         ],
     ];

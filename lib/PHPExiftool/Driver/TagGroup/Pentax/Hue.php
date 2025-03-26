@@ -28,13 +28,14 @@ class Hue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299893
+             * line : 209051
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Hue extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Hue',
             'desc' => [
+                'en' => 'Hue',
             ],
         ],
     ];

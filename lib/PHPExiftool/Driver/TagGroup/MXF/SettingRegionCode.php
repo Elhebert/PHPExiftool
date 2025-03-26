@@ -28,13 +28,14 @@ class SettingRegionCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Region Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168413
+             * line : 114908
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SettingRegionCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingRegionCode',
             'desc' => [
+                'en' => 'Setting Region Code',
             ],
         ],
     ];

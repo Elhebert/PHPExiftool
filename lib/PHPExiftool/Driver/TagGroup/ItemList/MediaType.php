@@ -28,13 +28,14 @@ class MediaType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322858
+             * line : 228352
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaType extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:MediaType',
             'desc' => [
+                'en' => 'Media Type',
             ],
         ],
     ];

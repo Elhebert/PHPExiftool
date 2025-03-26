@@ -28,13 +28,14 @@ class USMLensElectronicMF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'USM Lens Electronic MF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72027
+             * line : 53564
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class USMLensElectronicMF extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:USMLensElectronicMF',
             'desc' => [
+                'en' => 'USM Lens Electronic MF',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73545
+             * line : 54401
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class USMLensElectronicMF extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:USMLensElectronicMF',
             'desc' => [
+                'en' => 'USM Lens Electronic MF',
             ],
         ],
     ];

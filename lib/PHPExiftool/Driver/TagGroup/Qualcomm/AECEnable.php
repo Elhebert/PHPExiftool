@@ -28,13 +28,14 @@ class AECEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306158
+             * line : 212663
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECEnable',
             'desc' => [
+                'en' => 'AEC Enable',
             ],
         ],
     ];

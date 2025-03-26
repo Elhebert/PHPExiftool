@@ -28,13 +28,14 @@ class PF16AutoFocusPointShoot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF16 Auto Focus Point Shoot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78395
+             * line : 57096
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF16AutoFocusPointShoot extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF16AutoFocusPointShoot',
             'desc' => [
+                'en' => 'PF16 Auto Focus Point Shoot',
             ],
         ],
     ];

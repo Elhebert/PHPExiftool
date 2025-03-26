@@ -28,13 +28,14 @@ class Signature_Name extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1574
+             * line : 769
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Signature_Name extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Signature_Name',
             'desc' => [
+                'en' => 'Signature Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HighISONoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199463
+             * line : 134586
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203509
+             * line : 137292
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
     ];

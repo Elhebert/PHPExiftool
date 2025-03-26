@@ -28,13 +28,14 @@ class SourceImageDirectory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Image Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158498
+             * line : 108970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceImageDirectory extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:SourceImageDirectory',
             'desc' => [
+                'en' => 'Source Image Directory',
             ],
         ],
     ];

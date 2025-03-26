@@ -28,13 +28,14 @@ class RawData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303319
+             * line : 210813
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawData extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:RawData',
             'desc' => [
+                'en' => 'Raw Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Header
-             * line : 131484
+             * line : 90743
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'GIMP::Header.GIMP:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

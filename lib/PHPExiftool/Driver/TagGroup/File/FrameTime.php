@@ -28,13 +28,14 @@ class FrameTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166676
+             * line : 113414
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameTime extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:FrameTime',
             'desc' => [
+                'en' => 'Frame Time',
             ],
         ],
     ];

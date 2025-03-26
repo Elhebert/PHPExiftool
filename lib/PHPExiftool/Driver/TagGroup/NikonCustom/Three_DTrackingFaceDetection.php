@@ -28,13 +28,14 @@ class Three_DTrackingFaceDetection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Three-D Tracking Face Detection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217331
+             * line : 146011
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Three_DTrackingFaceDetection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:Three-DTrackingFaceDetection',
             'desc' => [
+                'en' => 'Three-D Tracking Face Detection',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219755
+             * line : 148043
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Three_DTrackingFaceDetection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:Three-DTrackingFaceDetection',
             'desc' => [
+                'en' => 'Three-D Tracking Face Detection',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231623
+             * line : 155826
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Three_DTrackingFaceDetection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:Three-DTrackingFaceDetection',
             'desc' => [
+                'en' => 'Three-D Tracking Face Detection',
             ],
         ],
     ];

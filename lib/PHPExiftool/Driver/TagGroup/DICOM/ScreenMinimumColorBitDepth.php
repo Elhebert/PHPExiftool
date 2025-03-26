@@ -28,13 +28,14 @@ class ScreenMinimumColorBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Minimum Color Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101569
+             * line : 74715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenMinimumColorBitDepth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScreenMinimumColorBitDepth',
             'desc' => [
+                'en' => 'Screen Minimum Color Bit Depth',
             ],
         ],
     ];

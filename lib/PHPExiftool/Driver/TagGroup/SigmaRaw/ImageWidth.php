@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339337
+             * line : 237511
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Header4
-             * line : 339434
+             * line : 237533
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header4.SigmaRaw:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

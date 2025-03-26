@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::MOV
-             * line : 157553
+             * line : 108630
              * type : string
              * writable : false
              * count : 21
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Kodak::MOV.Kodak:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

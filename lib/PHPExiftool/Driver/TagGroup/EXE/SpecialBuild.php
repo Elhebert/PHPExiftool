@@ -28,13 +28,14 @@ class SpecialBuild extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Special Build',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109568
+             * line : 81004
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecialBuild extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:SpecialBuild',
             'desc' => [
+                'en' => 'Special Build',
             ],
         ],
     ];

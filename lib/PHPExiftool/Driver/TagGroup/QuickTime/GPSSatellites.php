@@ -28,13 +28,14 @@ class GPSSatellites extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Satellites',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324665
+             * line : 229329
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
     ];

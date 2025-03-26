@@ -28,13 +28,14 @@ class TargetFileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target File Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161449
+             * line : 110285
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetFileSize extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:TargetFileSize',
             'desc' => [
+                'en' => 'Target File Size',
             ],
         ],
     ];

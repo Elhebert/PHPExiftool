@@ -28,13 +28,14 @@ class SensorHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303242
+             * line : 210775
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
     ];

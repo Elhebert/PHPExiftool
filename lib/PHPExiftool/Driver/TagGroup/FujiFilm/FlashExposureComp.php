@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129712
+             * line : 89690
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
     ];

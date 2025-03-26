@@ -28,13 +28,14 @@ class AspectRatioY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aspect Ratio Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1043
+             * line : 409
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AspectRatioY extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:AspectRatioY',
             'desc' => [
+                'en' => 'Aspect Ratio Y',
             ],
         ],
     ];

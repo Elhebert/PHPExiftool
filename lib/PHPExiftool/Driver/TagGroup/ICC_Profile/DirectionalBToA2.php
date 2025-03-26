@@ -28,13 +28,14 @@ class DirectionalBToA2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Directional B To A2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146295
+             * line : 101715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DirectionalBToA2 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:DirectionalBToA2',
             'desc' => [
+                'en' => 'Directional B To A2',
             ],
         ],
     ];

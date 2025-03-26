@@ -28,13 +28,14 @@ class AnchorOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anchor Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170826
+             * line : 117057
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnchorOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnchorOffset',
             'desc' => [
+                'en' => 'Anchor Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SliceLocationVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Location Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96144
+             * line : 69562
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceLocationVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SliceLocationVector',
             'desc' => [
+                'en' => 'Slice Location Vector',
             ],
         ],
     ];

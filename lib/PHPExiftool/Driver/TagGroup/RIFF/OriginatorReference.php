@@ -28,13 +28,14 @@ class OriginatorReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Originator Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::BroadcastExt
-             * line : 327778
+             * line : 231349
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class OriginatorReference extends AbstractTagGroup
              */
             'id' => 'RIFF::BroadcastExt.RIFF:OriginatorReference',
             'desc' => [
+                'en' => 'Originator Reference',
             ],
         ],
     ];

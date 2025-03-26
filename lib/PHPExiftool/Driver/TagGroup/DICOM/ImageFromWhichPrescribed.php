@@ -28,13 +28,14 @@ class ImageFromWhichPrescribed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image From Which Prescribed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98205
+             * line : 71548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFromWhichPrescribed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageFromWhichPrescribed',
             'desc' => [
+                'en' => 'Image From Which Prescribed',
             ],
         ],
     ];

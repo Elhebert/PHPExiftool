@@ -28,13 +28,14 @@ class InversionTimes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inversion Times',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96702
+             * line : 70105
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InversionTimes extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InversionTimes',
             'desc' => [
+                'en' => 'Inversion Times',
             ],
         ],
     ];

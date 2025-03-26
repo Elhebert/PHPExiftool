@@ -28,13 +28,14 @@ class FixedArrayElementType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixed Array Element Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169634
+             * line : 116025
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixedArrayElementType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FixedArrayElementType',
             'desc' => [
+                'en' => 'Fixed Array Element Type',
             ],
         ],
     ];

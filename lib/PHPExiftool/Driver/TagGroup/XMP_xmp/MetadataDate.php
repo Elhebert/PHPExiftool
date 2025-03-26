@@ -28,13 +28,14 @@ class MetadataDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metadata Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412651
+             * line : 290930
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MetadataDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:MetadataDate',
             'desc' => [
+                'en' => 'Metadata Date',
             ],
         ],
     ];

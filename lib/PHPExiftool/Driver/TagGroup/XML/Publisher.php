@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249220
+             * line : 171828
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AntiBadingPixelClk extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anti Bading Pixel Clk',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306663
+             * line : 213161
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AntiBadingPixelClk extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AntiBadingPixelClk',
             'desc' => [
+                'en' => 'Anti Bading Pixel Clk',
             ],
         ],
     ];

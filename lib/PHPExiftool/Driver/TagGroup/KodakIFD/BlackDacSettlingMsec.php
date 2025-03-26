@@ -28,13 +28,14 @@ class BlackDacSettlingMsec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Dac Settling Msec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155105
+             * line : 106355
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackDacSettlingMsec extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackDacSettlingMsec',
             'desc' => [
+                'en' => 'Black Dac Settling Msec',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::Main
-             * line : 331
+             * line : 149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'APE::Main.APE:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

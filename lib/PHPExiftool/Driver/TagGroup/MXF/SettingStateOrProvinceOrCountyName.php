@@ -28,13 +28,14 @@ class SettingStateOrProvinceOrCountyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting State Or Province Or County Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168464
+             * line : 114956
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingStateOrProvinceOrCountyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingStateOrProvinceOrCountyName',
             'desc' => [
+                'en' => 'Setting State Or Province Or County Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170525
+             * line : 116766
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingStateOrProvinceOrCountyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingStateOrProvinceOrCountyName',
             'desc' => [
+                'en' => 'Setting State Or Province Or County Name',
             ],
         ],
     ];

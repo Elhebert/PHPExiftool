@@ -28,13 +28,14 @@ class CreatedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Created By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124037
+             * line : 86714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatedBy extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:CreatedBy',
             'desc' => [
+                'en' => 'Created By',
             ],
         ],
     ];

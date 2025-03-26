@@ -28,13 +28,14 @@ class TempTest2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Temp Test 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9403
-             * line : 384807
+             * line : 271338
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TempTest2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9403.Sony:TempTest2',
             'desc' => [
+                'en' => 'Temp Test 2',
             ],
         ],
     ];

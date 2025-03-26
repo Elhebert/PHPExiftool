@@ -28,13 +28,14 @@ class DirectorPhotography extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Director Photography',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413055
+             * line : 291196
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DirectorPhotography extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:DirectorPhotography',
             'desc' => [
+                'en' => 'Director Photography',
             ],
         ],
     ];

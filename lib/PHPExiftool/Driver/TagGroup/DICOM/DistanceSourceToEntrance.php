@@ -28,13 +28,14 @@ class DistanceSourceToEntrance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Source To Entrance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99726
+             * line : 72930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceSourceToEntrance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceSourceToEntrance',
             'desc' => [
+                'en' => 'Distance Source To Entrance',
             ],
         ],
     ];

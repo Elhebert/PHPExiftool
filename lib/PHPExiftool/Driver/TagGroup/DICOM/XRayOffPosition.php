@@ -28,13 +28,14 @@ class XRayOffPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Off Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97467
+             * line : 70855
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayOffPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayOffPosition',
             'desc' => [
+                'en' => 'X Ray Off Position',
             ],
         ],
     ];

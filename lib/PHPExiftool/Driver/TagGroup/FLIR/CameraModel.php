@@ -28,13 +28,14 @@ class CameraModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122255
+             * line : 85644
              * type : string
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class CameraModel extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraModel',
             'desc' => [
+                'en' => 'Camera Model',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122530
+             * line : 85808
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class CameraModel extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:CameraModel',
             'desc' => [
+                'en' => 'Camera Model',
             ],
         ],
     ];

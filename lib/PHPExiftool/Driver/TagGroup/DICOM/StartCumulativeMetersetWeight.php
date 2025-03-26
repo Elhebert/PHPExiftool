@@ -28,13 +28,14 @@ class StartCumulativeMetersetWeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Cumulative Meterset Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103963
+             * line : 77052
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartCumulativeMetersetWeight extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartCumulativeMetersetWeight',
             'desc' => [
+                'en' => 'Start Cumulative Meterset Weight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BWFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'BW Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187545
+             * line : 127152
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BWFilter extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:BWFilter',
             'desc' => [
+                'en' => 'BW Filter',
             ],
         ],
     ];

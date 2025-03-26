@@ -28,13 +28,14 @@ class RadiationChargeState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiation Charge State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103756
+             * line : 76845
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiationChargeState extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiationChargeState',
             'desc' => [
+                'en' => 'Radiation Charge State',
             ],
         ],
     ];

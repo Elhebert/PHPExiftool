@@ -28,13 +28,14 @@ class DateTimeCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90696
+             * line : 65251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeCreated extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DateTimeCreated',
             'desc' => [
+                'en' => 'Date/Time Created',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashMat2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Mat 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156533
+             * line : 107737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashMat2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FlashMat2',
             'desc' => [
+                'en' => 'Flash Mat 2',
             ],
         ],
     ];

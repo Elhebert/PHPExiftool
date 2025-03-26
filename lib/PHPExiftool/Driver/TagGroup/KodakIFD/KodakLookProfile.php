@@ -28,13 +28,14 @@ class KodakLookProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Look Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157107
+             * line : 108311
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class KodakLookProfile extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KodakLookProfile',
             'desc' => [
+                'en' => 'Kodak Look Profile',
             ],
         ],
     ];

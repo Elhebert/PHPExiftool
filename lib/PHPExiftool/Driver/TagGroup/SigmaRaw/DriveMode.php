@@ -28,13 +28,14 @@ class DriveMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339833
+             * line : 237649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
     ];

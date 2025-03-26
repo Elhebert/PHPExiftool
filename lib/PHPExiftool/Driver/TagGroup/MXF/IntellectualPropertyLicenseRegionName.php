@@ -28,13 +28,14 @@ class IntellectualPropertyLicenseRegionName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intellectual Property License Region Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170480
+             * line : 116724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntellectualPropertyLicenseRegionName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntellectualPropertyLicenseRegionName',
             'desc' => [
+                'en' => 'Intellectual Property License Region Name',
             ],
         ],
     ];

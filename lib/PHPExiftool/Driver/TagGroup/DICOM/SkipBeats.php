@@ -28,13 +28,14 @@ class SkipBeats extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Skip Beats',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95757
+             * line : 69205
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SkipBeats extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SkipBeats',
             'desc' => [
+                'en' => 'Skip Beats',
             ],
         ],
     ];

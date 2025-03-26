@@ -28,13 +28,14 @@ class GPSLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393654
+             * line : 279041
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
     ];

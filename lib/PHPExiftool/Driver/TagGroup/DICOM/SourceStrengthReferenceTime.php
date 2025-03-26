@@ -28,13 +28,14 @@ class SourceStrengthReferenceTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Strength Reference Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103576
+             * line : 76668
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceStrengthReferenceTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceStrengthReferenceTime',
             'desc' => [
+                'en' => 'Source Strength Reference Time',
             ],
         ],
     ];

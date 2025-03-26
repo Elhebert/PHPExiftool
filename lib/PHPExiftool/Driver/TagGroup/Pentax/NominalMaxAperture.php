@@ -28,13 +28,14 @@ class NominalMaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nominal Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288764
+             * line : 200334
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NominalMaxAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:NominalMaxAperture',
             'desc' => [
+                'en' => 'Nominal Max Aperture',
             ],
         ],
     ];

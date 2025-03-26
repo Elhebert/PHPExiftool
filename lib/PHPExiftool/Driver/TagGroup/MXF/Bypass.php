@@ -28,13 +28,14 @@ class Bypass extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bypass',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168217
+             * line : 114713
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Bypass extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Bypass',
             'desc' => [
+                'en' => 'Bypass',
             ],
         ],
     ];

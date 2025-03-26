@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191804
+             * line : 130029
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 196660
+             * line : 132851
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203681
+             * line : 137361
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 203992
+             * line : 137470
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204315
+             * line : 137582
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

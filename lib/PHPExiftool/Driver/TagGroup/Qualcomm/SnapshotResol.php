@@ -28,13 +28,14 @@ class SnapshotResol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Snapshot Resol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310162
+             * line : 216074
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SnapshotResol extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:SnapshotResol',
             'desc' => [
+                'en' => 'Snapshot Resol',
             ],
         ],
     ];

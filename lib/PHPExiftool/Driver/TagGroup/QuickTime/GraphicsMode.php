@@ -28,13 +28,14 @@ class GraphicsMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphics Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoHeader
-             * line : 326130
+             * line : 230048
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicsMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoHeader.QuickTime:GraphicsMode',
             'desc' => [
+                'en' => 'Graphics Mode',
             ],
         ],
     ];

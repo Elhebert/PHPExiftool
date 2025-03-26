@@ -28,13 +28,14 @@ class AdjustedTbnImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Adjusted Tbn Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155009
+             * line : 106259
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdjustedTbnImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AdjustedTbnImageHeight',
             'desc' => [
+                'en' => 'Adjusted Tbn Image Height',
             ],
         ],
     ];

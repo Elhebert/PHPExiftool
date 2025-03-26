@@ -28,13 +28,14 @@ class HomePhone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Home Phone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175545
+             * line : 120807
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HomePhone extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:HomePhone',
             'desc' => [
+                'en' => 'Home Phone',
             ],
         ],
     ];

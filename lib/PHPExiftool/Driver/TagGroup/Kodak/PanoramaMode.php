@@ -28,13 +28,14 @@ class PanoramaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157992
+             * line : 108767
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaMode extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:PanoramaMode',
             'desc' => [
+                'en' => 'Panorama Mode',
             ],
         ],
     ];

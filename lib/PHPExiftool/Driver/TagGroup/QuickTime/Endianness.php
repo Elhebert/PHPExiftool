@@ -28,13 +28,14 @@ class Endianness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Endianness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ProtectionInfo
-             * line : 324262
+             * line : 229112
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Endianness extends AbstractTagGroup
              */
             'id' => 'QuickTime::ProtectionInfo.QuickTime:Endianness',
             'desc' => [
+                'en' => 'Endianness',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Wave
-             * line : 326294
+             * line : 230204
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Endianness extends AbstractTagGroup
              */
             'id' => 'QuickTime::Wave.QuickTime:Endianness',
             'desc' => [
+                'en' => 'Endianness',
             ],
         ],
     ];

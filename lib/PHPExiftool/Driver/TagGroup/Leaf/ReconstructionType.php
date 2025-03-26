@@ -28,13 +28,14 @@ class ReconstructionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161736
+             * line : 110485
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionType extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:ReconstructionType',
             'desc' => [
+                'en' => 'Reconstruction Type',
             ],
         ],
     ];

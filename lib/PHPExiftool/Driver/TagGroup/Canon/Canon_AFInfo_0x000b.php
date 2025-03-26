@@ -28,13 +28,14 @@ class Canon_AFInfo_0x000b extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Canon AF Info 0x000b',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4105
+             * line : 2580
              * type : int16u
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class Canon_AFInfo_0x000b extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:Canon_AFInfo_0x000b',
             'desc' => [
+                'en' => 'Canon AF Info 0x000b',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186761
+             * line : 126884
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

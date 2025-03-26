@@ -28,13 +28,14 @@ class DynamicRangeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130634
+             * line : 90241
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeSetting extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:DynamicRangeSetting',
             'desc' => [
+                'en' => 'Dynamic Range Setting',
             ],
         ],
     ];

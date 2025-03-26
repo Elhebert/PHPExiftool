@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89757
+             * line : 64876
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
     ];

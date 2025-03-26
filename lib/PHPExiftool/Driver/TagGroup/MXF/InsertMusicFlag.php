@@ -28,13 +28,14 @@ class InsertMusicFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Insert Music Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171439
+             * line : 117640
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InsertMusicFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InsertMusicFlag',
             'desc' => [
+                'en' => 'Insert Music Flag',
             ],
         ],
     ];

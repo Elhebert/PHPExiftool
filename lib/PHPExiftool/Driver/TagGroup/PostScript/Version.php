@@ -28,13 +28,14 @@ class Version extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306104
+             * line : 212622
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Version extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

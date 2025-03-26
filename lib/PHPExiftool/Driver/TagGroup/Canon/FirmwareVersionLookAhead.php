@@ -28,13 +28,14 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version Look Ahead',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 9111
+             * line : 6295
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:FirmwareVersionLookAhead',
             'desc' => [
+                'en' => 'Firmware Version Look Ahead',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 17829
+             * line : 13114
              * type : undef
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:FirmwareVersionLookAhead',
             'desc' => [
+                'en' => 'Firmware Version Look Ahead',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26244
+             * line : 19781
              * type : undef
              * writable : true
              * count : 164
@@ -68,12 +71,13 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:FirmwareVersionLookAhead',
             'desc' => [
+                'en' => 'Firmware Version Look Ahead',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 34945
+             * line : 26728
              * type : undef
              * writable : true
              * count : 184
@@ -81,12 +85,13 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:FirmwareVersionLookAhead',
             'desc' => [
+                'en' => 'Firmware Version Look Ahead',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 37251
+             * line : 28485
              * type : undef
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:FirmwareVersionLookAhead',
             'desc' => [
+                'en' => 'Firmware Version Look Ahead',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51478
+             * line : 40054
              * type : undef
              * writable : true
              * count : 2
@@ -107,6 +113,7 @@ class FirmwareVersionLookAhead extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:FirmwareVersionLookAhead',
             'desc' => [
+                'en' => 'Firmware Version Look Ahead',
             ],
         ],
     ];

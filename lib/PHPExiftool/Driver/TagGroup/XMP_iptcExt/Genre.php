@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409315
+             * line : 289110
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

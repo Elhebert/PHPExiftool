@@ -28,13 +28,14 @@ class SaveObjBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Save Obj Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161952
+             * line : 110654
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaveObjBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:SaveObjBackType',
             'desc' => [
+                'en' => 'Save Obj Back Type',
             ],
         ],
     ];

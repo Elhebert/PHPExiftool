@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250908
+             * line : 173085
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258875
+             * line : 178710
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
     ];

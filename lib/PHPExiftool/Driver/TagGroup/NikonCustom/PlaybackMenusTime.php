@@ -28,13 +28,14 @@ class PlaybackMenusTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Playback Menus Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222553
+             * line : 150187
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PlaybackMenusTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:PlaybackMenusTime',
             'desc' => [
+                'en' => 'Playback Menus Time',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 223173
+             * line : 150540
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PlaybackMenusTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:PlaybackMenusTime',
             'desc' => [
+                'en' => 'Playback Menus Time',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223758
+             * line : 150902
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class PlaybackMenusTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:PlaybackMenusTime',
             'desc' => [
+                'en' => 'Playback Menus Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PictureMode2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284355
+             * line : 197389
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureMode2 extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:PictureMode2',
             'desc' => [
+                'en' => 'Picture Mode 2',
             ],
         ],
     ];

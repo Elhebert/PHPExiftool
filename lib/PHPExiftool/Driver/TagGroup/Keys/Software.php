@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323634
+             * line : 228749
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

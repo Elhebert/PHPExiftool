@@ -28,13 +28,14 @@ class Weighting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Weighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168024
+             * line : 114530
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Weighting extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Weighting',
             'desc' => [
+                'en' => 'Weighting',
             ],
         ],
     ];

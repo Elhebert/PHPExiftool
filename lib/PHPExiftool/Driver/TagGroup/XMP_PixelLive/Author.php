@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::PixelLive
-             * line : 397442
+             * line : 281444
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'XMP::PixelLive.XMP-PixelLive:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HJRTextureThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HJR Texture Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306146
+             * line : 212651
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HJRTextureThreshold extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:HJRTextureThreshold',
             'desc' => [
+                'en' => 'HJR Texture Threshold',
             ],
         ],
     ];

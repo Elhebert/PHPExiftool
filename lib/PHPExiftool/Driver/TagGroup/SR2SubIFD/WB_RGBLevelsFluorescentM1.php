@@ -28,13 +28,14 @@ class WB_RGBLevelsFluorescentM1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Fluorescent M1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361851
+             * line : 251946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsFluorescentM1 extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFluorescentM1',
             'desc' => [
+                'en' => 'WB RGB Levels Fluorescent M1',
             ],
         ],
     ];

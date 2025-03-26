@@ -28,13 +28,14 @@ class VerticalCitation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Citation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138879
+             * line : 97126
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalCitation extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:VerticalCitation',
             'desc' => [
+                'en' => 'Vertical Citation',
             ],
         ],
     ];

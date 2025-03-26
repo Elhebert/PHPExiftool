@@ -28,13 +28,14 @@ class FinishNoise extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finish Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156264
+             * line : 107468
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinishNoise extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishNoise',
             'desc' => [
+                'en' => 'Finish Noise',
             ],
         ],
     ];

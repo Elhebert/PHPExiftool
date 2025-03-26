@@ -28,13 +28,14 @@ class Highlights extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aas
-             * line : 397684
+             * line : 281564
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Highlights extends AbstractTagGroup
              */
             'id' => 'XMP::aas.XMP-aas:Highlights',
             'desc' => [
+                'en' => 'Highlights',
             ],
         ],
     ];

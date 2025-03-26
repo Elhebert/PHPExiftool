@@ -28,13 +28,14 @@ class TaxonVernacularName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Vernacular Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106846
+             * line : 79031
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonVernacularName extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonVernacularName',
             'desc' => [
+                'en' => 'Taxon Vernacular Name',
             ],
         ],
     ];

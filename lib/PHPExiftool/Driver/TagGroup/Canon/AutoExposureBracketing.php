@@ -28,13 +28,14 @@ class AutoExposureBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Exposure Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70646
+             * line : 52792
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoExposureBracketing extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:AutoExposureBracketing',
             'desc' => [
+                'en' => 'Auto Exposure Bracketing',
             ],
         ],
     ];

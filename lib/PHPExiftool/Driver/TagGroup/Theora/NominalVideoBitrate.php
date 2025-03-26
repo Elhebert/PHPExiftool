@@ -28,13 +28,14 @@ class NominalVideoBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Video Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394896
+             * line : 279740
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalVideoBitrate extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:NominalVideoBitrate',
             'desc' => [
+                'en' => 'Nominal Video Bitrate',
             ],
         ],
     ];

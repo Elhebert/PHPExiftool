@@ -28,13 +28,14 @@ class OriginalImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128228
+             * line : 88954
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalImageWidth extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:OriginalImageWidth',
             'desc' => [
+                'en' => 'Original Image Width',
             ],
         ],
     ];

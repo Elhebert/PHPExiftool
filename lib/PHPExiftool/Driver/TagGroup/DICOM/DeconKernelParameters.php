@@ -28,13 +28,14 @@ class DeconKernelParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decon Kernel Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100342
+             * line : 73515
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeconKernelParameters extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeconKernelParameters',
             'desc' => [
+                'en' => 'Decon Kernel Parameters',
             ],
         ],
     ];

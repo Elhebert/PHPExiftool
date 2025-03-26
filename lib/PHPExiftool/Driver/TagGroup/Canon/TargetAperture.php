@@ -28,13 +28,14 @@ class TargetAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Target Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70153
+             * line : 52648
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TargetAperture extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:TargetAperture',
             'desc' => [
+                'en' => 'Target Aperture',
             ],
         ],
     ];

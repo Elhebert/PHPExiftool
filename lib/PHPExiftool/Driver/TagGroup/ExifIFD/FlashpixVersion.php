@@ -28,13 +28,14 @@ class FlashpixVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flashpix Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116390
+             * line : 83355
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashpixVersion extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FlashpixVersion',
             'desc' => [
+                'en' => 'Flashpix Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ROIGenerationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Generation Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102573
+             * line : 75669
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIGenerationDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIGenerationDescription',
             'desc' => [
+                'en' => 'ROI Generation Description',
             ],
         ],
     ];

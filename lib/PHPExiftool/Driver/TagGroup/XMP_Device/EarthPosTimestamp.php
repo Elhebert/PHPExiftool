@@ -28,13 +28,14 @@ class EarthPosTimestamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earth Pos Timestamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396714
+             * line : 280931
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarthPosTimestamp extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:EarthPosTimestamp',
             'desc' => [
+                'en' => 'Earth Pos Timestamp',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExcursionTolerance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Excursion Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151873
+             * line : 104613
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExcursionTolerance extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ExcursionTolerance',
             'desc' => [
+                'en' => 'Excursion Tolerance',
             ],
         ],
     ];

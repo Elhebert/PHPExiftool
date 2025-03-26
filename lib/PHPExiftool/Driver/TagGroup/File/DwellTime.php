@@ -28,13 +28,14 @@ class DwellTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dwell Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166673
+             * line : 113411
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DwellTime extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:DwellTime',
             'desc' => [
+                'en' => 'Dwell Time',
             ],
         ],
     ];

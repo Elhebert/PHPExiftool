@@ -28,13 +28,14 @@ class ImageOverlayFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Overlay Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102016
+             * line : 75153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageOverlayFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageOverlayFlag',
             'desc' => [
+                'en' => 'Image Overlay Flag',
             ],
         ],
     ];

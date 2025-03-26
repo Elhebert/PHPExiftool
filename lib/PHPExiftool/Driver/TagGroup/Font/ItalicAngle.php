@@ -28,13 +28,14 @@ class ItalicAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Italic Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128153
+             * line : 88919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItalicAngle extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:ItalicAngle',
             'desc' => [
+                'en' => 'Italic Angle',
             ],
         ],
     ];

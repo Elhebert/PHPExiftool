@@ -28,13 +28,14 @@ class ImageRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ics
-             * line : 408808
+             * line : 288740
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageRef extends AbstractTagGroup
              */
             'id' => 'XMP::ics.XMP-ics:ImageRef',
             'desc' => [
+                'en' => 'Image Ref',
             ],
         ],
     ];

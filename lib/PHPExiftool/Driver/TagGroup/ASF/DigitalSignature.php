@@ -28,13 +28,14 @@ class DigitalSignature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1797
+             * line : 903
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignature extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:DigitalSignature',
             'desc' => [
+                'en' => 'Digital Signature',
             ],
         ],
     ];

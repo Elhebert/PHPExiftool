@@ -28,13 +28,14 @@ class EventDay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Day',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106065
+             * line : 78446
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventDay extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventDay',
             'desc' => [
+                'en' => 'Event Day',
             ],
         ],
     ];

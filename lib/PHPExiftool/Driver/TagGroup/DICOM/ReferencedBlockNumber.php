@@ -28,13 +28,14 @@ class ReferencedBlockNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Block Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104020
+             * line : 77109
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedBlockNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedBlockNumber',
             'desc' => [
+                'en' => 'Referenced Block Number',
             ],
         ],
     ];

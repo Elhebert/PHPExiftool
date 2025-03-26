@@ -28,13 +28,14 @@ class ISRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISRC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167281
+             * line : 113913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISRC extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISRC',
             'desc' => [
+                'en' => 'ISRC',
             ],
         ],
     ];

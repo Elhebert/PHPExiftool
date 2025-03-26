@@ -28,13 +28,14 @@ class AFStatusActiveSensor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Active Sensor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraInfoA100
-             * line : 176715
+             * line : 121557
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusActiveSensor extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraInfoA100.Minolta:AFStatusActiveSensor',
             'desc' => [
+                'en' => 'AF Status Active Sensor',
             ],
         ],
     ];

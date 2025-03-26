@@ -28,13 +28,14 @@ class NeutralDensityFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Density Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300610
+             * line : 209564
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralDensityFilter extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:NeutralDensityFilter',
             'desc' => [
+                'en' => 'Neutral Density Filter',
             ],
         ],
     ];

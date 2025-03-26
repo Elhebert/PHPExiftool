@@ -28,13 +28,14 @@ class PrivateBuild extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Private Build',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109556
+             * line : 80995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrivateBuild extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:PrivateBuild',
             'desc' => [
+                'en' => 'Private Build',
             ],
         ],
     ];

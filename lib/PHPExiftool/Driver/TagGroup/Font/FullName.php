@@ -28,13 +28,14 @@ class FullName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Full Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127772
+             * line : 88714
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FullName extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:FullName',
             'desc' => [
+                'en' => 'Full Name',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128149
+             * line : 88916
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FullName extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:FullName',
             'desc' => [
+                'en' => 'Full Name',
             ],
         ],
     ];

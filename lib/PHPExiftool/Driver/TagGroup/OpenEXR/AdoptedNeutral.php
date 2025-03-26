@@ -28,13 +28,14 @@ class AdoptedNeutral extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Adopted Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263383
+             * line : 182269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdoptedNeutral extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:AdoptedNeutral',
             'desc' => [
+                'en' => 'Adopted Neutral',
             ],
         ],
     ];

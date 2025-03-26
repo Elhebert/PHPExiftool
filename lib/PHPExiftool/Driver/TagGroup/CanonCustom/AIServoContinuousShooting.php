@@ -28,13 +28,14 @@ class AIServoContinuousShooting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AI Servo Continuous Shooting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72396
+             * line : 53778
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AIServoContinuousShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:AIServoContinuousShooting',
             'desc' => [
+                'en' => 'AI Servo Continuous Shooting',
             ],
         ],
     ];

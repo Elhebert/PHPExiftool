@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395734
+             * line : 280196
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

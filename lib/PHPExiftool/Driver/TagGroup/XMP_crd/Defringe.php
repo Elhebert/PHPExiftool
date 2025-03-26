@@ -28,13 +28,14 @@ class Defringe extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Defringe',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398912
+             * line : 282435
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Defringe extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Defringe',
             'desc' => [
+                'en' => 'Defringe',
             ],
         ],
     ];

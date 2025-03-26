@@ -28,13 +28,14 @@ class DB_Dt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DB-Dt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95992
+             * line : 69415
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DB_Dt extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DB-Dt',
             'desc' => [
+                'en' => 'DB-Dt',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DefinitionObjectName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Definition Object Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168831
+             * line : 115298
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DefinitionObjectName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefinitionObjectName',
             'desc' => [
+                'en' => 'Definition Object Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168834
+             * line : 115301
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DefinitionObjectName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefinitionObjectName',
             'desc' => [
+                'en' => 'Definition Object Name',
             ],
         ],
     ];

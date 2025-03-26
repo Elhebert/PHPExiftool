@@ -28,13 +28,14 @@ class OriginalMedium extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Medium',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126516
+             * line : 87719
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalMedium extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:OriginalMedium',
             'desc' => [
+                'en' => 'Original Medium',
             ],
         ],
     ];

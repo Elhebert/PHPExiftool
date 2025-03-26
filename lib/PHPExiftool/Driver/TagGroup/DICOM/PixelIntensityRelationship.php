@@ -28,13 +28,14 @@ class PixelIntensityRelationship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Intensity Relationship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98907
+             * line : 72177
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelIntensityRelationship extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelIntensityRelationship',
             'desc' => [
+                'en' => 'Pixel Intensity Relationship',
             ],
         ],
     ];

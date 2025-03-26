@@ -28,13 +28,14 @@ class Sony_0x940c extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony 0x940c',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355983
+             * line : 248352
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sony_0x940c extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Sony_0x940c',
             'desc' => [
+                'en' => 'Sony 0x940c',
             ],
         ],
     ];

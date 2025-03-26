@@ -28,13 +28,14 @@ class ON1_SettingsMetadataModified extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ON1 Settings Metadata Modified',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JSON::Main
-             * line : 153381
+             * line : 105399
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ON1_SettingsMetadataModified extends AbstractTagGroup
              */
             'id' => 'JSON::Main.JSON:ON1_SettingsMetadataModified',
             'desc' => [
+                'en' => 'ON1 Settings Metadata Modified',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SyncState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sync State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174884
+             * line : 120413
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SyncState extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SyncState',
             'desc' => [
+                'en' => 'Sync State',
             ],
         ],
     ];

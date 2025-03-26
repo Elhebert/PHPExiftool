@@ -28,13 +28,14 @@ class DiffTileGains24t852822 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diff Tile Gains 24t 852822',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155563
+             * line : 106775
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiffTileGains24t852822 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DiffTileGains24t852822',
             'desc' => [
+                'en' => 'Diff Tile Gains 24t 852822',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RoundedTimecodeTimebase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rounded Timecode Timebase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169101
+             * line : 115544
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RoundedTimecodeTimebase extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoundedTimecodeTimebase',
             'desc' => [
+                'en' => 'Rounded Timecode Timebase',
             ],
         ],
     ];

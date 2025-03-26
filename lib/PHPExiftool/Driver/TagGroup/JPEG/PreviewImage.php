@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152565
+             * line : 105026
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : JPEG::Main
-             * line : 152581
+             * line : 105032
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         2 => [
             /**
              * table_name : JPEG::Main
-             * line : 152594
+             * line : 105035
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         3 => [
             /**
              * table_name : JPEG::Main
-             * line : 152610
+             * line : 105041
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         4 => [
             /**
              * table_name : JPEG::Main
-             * line : 152680
+             * line : 105068
              * type : undef
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

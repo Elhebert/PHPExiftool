@@ -28,13 +28,14 @@ class RenditionClass extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Class',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414194
+             * line : 292214
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionClass extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionClass',
             'desc' => [
+                'en' => 'Rendition Class',
             ],
         ],
     ];

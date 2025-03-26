@@ -28,13 +28,14 @@ class PixelFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394922
+             * line : 279751
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelFormat extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:PixelFormat',
             'desc' => [
+                'en' => 'Pixel Format',
             ],
         ],
     ];

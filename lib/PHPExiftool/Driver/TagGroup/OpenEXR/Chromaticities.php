@@ -28,13 +28,14 @@ class Chromaticities extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chromaticities',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263449
+             * line : 182284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Chromaticities extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:Chromaticities',
             'desc' => [
+                'en' => 'Chromaticities',
             ],
         ],
     ];

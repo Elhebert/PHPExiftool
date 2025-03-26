@@ -28,13 +28,14 @@ class OpticalTrack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optical Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168015
+             * line : 114521
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpticalTrack extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OpticalTrack',
             'desc' => [
+                'en' => 'Optical Track',
             ],
         ],
     ];

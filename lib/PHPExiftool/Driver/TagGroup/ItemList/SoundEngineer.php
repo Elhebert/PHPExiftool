@@ -28,13 +28,14 @@ class SoundEngineer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sound Engineer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323141
+             * line : 228489
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SoundEngineer extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:SoundEngineer',
             'desc' => [
+                'en' => 'Sound Engineer',
             ],
         ],
     ];

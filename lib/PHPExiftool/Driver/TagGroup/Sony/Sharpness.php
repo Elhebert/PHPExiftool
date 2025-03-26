@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347410
+             * line : 243291
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348898
+             * line : 243963
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 353911
+             * line : 246794
              * type : int32s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 388211
+             * line : 274010
              * type : int8s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

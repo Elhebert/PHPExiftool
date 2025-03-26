@@ -28,13 +28,14 @@ class Warning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121568
+             * line : 85259
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Warning extends AbstractTagGroup
              */
             'id' => 'Extra.ExifTool:Warning',
             'desc' => [
+                'en' => 'Warning',
             ],
         ],
     ];

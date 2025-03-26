@@ -28,13 +28,14 @@ class LicensorCity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265651
+             * line : 183643
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorCity extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorCity',
             'desc' => [
+                'en' => 'Licensor City',
             ],
         ],
     ];

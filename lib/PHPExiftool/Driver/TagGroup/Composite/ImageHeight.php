@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93413
+             * line : 67790
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 93460
+             * line : 67799
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

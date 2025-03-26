@@ -28,13 +28,14 @@ class CropTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280481
+             * line : 194637
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropTop extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:CropTop',
             'desc' => [
+                'en' => 'Crop Top',
             ],
         ],
     ];

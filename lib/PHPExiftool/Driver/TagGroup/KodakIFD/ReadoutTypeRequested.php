@@ -28,13 +28,14 @@ class ReadoutTypeRequested extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Readout Type Requested',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157320
+             * line : 108512
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReadoutTypeRequested extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ReadoutTypeRequested',
             'desc' => [
+                'en' => 'Readout Type Requested',
             ],
         ],
     ];

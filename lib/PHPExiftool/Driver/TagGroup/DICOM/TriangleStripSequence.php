@@ -28,13 +28,14 @@ class TriangleStripSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Triangle Strip Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101202
+             * line : 74352
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriangleStripSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriangleStripSequence',
             'desc' => [
+                'en' => 'Triangle Strip Sequence',
             ],
         ],
     ];

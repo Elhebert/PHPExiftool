@@ -28,13 +28,14 @@ class ClinicalTrialProtocolName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clinical Trial Protocol Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95356
+             * line : 68818
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClinicalTrialProtocolName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ClinicalTrialProtocolName',
             'desc' => [
+                'en' => 'Clinical Trial Protocol Name',
             ],
         ],
     ];

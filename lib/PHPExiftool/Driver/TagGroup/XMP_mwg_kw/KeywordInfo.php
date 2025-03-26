@@ -28,13 +28,14 @@ class KeywordInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keyword Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MWG::Keywords
-             * line : 167033
+             * line : 113717
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class KeywordInfo extends AbstractTagGroup
              */
             'id' => 'MWG::Keywords.XMP-mwg-kw:KeywordInfo',
             'desc' => [
+                'en' => 'Keyword Info',
             ],
         ],
     ];

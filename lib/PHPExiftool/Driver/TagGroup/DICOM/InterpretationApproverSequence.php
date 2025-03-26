@@ -28,13 +28,14 @@ class InterpretationApproverSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpretation Approver Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104104
+             * line : 77190
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretationApproverSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterpretationApproverSequence',
             'desc' => [
+                'en' => 'Interpretation Approver Sequence',
             ],
         ],
     ];

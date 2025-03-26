@@ -28,13 +28,14 @@ class MovieAF_OnButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie AF-On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247413
+             * line : 170106
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieAF_OnButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieAF-OnButton',
             'desc' => [
+                'en' => 'Movie AF-On Button',
             ],
         ],
     ];

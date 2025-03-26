@@ -28,13 +28,14 @@ class PaintArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264878
+             * line : 183104
              * type : Arc
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintArc',
             'desc' => [
+                'en' => 'Paint Arc',
             ],
         ],
     ];

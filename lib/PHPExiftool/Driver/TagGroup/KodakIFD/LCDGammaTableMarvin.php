@@ -28,13 +28,14 @@ class LCDGammaTableMarvin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Gamma Table Marvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156681
+             * line : 107885
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDGammaTableMarvin extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDGammaTableMarvin',
             'desc' => [
+                'en' => 'LCD Gamma Table Marvin',
             ],
         ],
     ];

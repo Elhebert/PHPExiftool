@@ -28,13 +28,14 @@ class PETPositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PET Position Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97327
+             * line : 70723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PETPositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PETPositionSequence',
             'desc' => [
+                'en' => 'PET Position Sequence',
             ],
         ],
     ];

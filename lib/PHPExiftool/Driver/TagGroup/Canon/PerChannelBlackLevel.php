@@ -28,13 +28,14 @@ class PerChannelBlackLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Per Channel Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60280
+             * line : 46455
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60725
+             * line : 46707
              * type : int16u
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61258
+             * line : 46990
              * type : int16u
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61324
+             * line : 47041
              * type : int16u
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61336
+             * line : 47053
              * type : int16u
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61342
+             * line : 47059
              * type : int16u
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData5
-             * line : 61378
+             * line : 47092
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData5.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData5
-             * line : 61381
+             * line : 47095
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData5.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61708
+             * line : 47272
              * type : int16u
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62096
+             * line : 47485
              * type : int16u
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62112
+             * line : 47500
              * type : int16u
              * writable : true
              * count : 4
@@ -172,12 +183,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62582
+             * line : 47776
              * type : int16u
              * writable : true
              * count : 4
@@ -185,12 +197,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62594
+             * line : 47788
              * type : int16u
              * writable : true
              * count : 4
@@ -198,12 +211,13 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 63053
+             * line : 48055
              * type : int16u
              * writable : true
              * count : 4
@@ -211,6 +225,7 @@ class PerChannelBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:PerChannelBlackLevel',
             'desc' => [
+                'en' => 'Per Channel Black Level',
             ],
         ],
     ];

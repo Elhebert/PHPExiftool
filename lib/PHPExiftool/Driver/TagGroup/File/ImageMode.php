@@ -28,13 +28,14 @@ class ImageMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166849
+             * line : 113548
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageMode extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageMode',
             'desc' => [
+                'en' => 'Image Mode',
             ],
         ],
     ];

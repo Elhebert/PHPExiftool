@@ -28,13 +28,14 @@ class ATSCContent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ATSC Content',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396244
+             * line : 280525
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ATSCContent extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ATSCContent',
             'desc' => [
+                'en' => 'ATSC Content',
             ],
         ],
     ];

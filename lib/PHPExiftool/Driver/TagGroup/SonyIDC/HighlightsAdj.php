@@ -28,13 +28,14 @@ class HighlightsAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlights Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394477
+             * line : 279448
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightsAdj extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:HighlightsAdj',
             'desc' => [
+                'en' => 'Highlights Adj',
             ],
         ],
     ];

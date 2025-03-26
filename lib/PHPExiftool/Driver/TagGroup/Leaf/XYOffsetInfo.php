@@ -28,13 +28,14 @@ class XYOffsetInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XY Offset Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161751
+             * line : 110500
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XYOffsetInfo extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:XYOffsetInfo',
             'desc' => [
+                'en' => 'XY Offset Info',
             ],
         ],
     ];

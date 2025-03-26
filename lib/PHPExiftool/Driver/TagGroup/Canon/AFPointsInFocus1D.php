@@ -28,13 +28,14 @@ class AFPointsInFocus1D extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Points In Focus 1D',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65869
+             * line : 50047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFPointsInFocus1D extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:AFPointsInFocus1D',
             'desc' => [
+                'en' => 'AF Points In Focus 1D',
             ],
         ],
     ];

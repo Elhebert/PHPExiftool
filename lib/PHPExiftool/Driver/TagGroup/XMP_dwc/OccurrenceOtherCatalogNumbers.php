@@ -28,13 +28,14 @@ class OccurrenceOtherCatalogNumbers extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Other Catalog Numbers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106565
+             * line : 78821
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceOtherCatalogNumbers extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceOtherCatalogNumbers',
             'desc' => [
+                'en' => 'Occurrence Other Catalog Numbers',
             ],
         ],
     ];

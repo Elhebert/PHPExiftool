@@ -28,13 +28,14 @@ class ASF5LumaFilter08 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Luma Filter 08',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306954
+             * line : 213452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5LumaFilter08 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5LumaFilter08',
             'desc' => [
+                'en' => 'ASF5 Luma Filter 08',
             ],
         ],
     ];

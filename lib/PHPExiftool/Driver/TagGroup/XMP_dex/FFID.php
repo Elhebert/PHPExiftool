@@ -28,13 +28,14 @@ class FFID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'FFID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dex
-             * line : 404918
+             * line : 287717
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FFID extends AbstractTagGroup
              */
             'id' => 'XMP::dex.XMP-dex:FFID',
             'desc' => [
+                'en' => 'FFID',
             ],
         ],
     ];

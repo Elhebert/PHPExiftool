@@ -28,13 +28,14 @@ class ModelAndVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model And Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158439
+             * line : 108925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModelAndVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:ModelAndVersion',
             'desc' => [
+                'en' => 'Model And Version',
             ],
         ],
     ];

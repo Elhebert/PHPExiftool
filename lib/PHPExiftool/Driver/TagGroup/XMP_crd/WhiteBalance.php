@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401289
+             * line : 284677
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

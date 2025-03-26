@@ -28,13 +28,14 @@ class RP217DataStreamPID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RP217 Data Stream PID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172001
+             * line : 118186
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RP217DataStreamPID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RP217DataStreamPID',
             'desc' => [
+                'en' => 'RP217 Data Stream PID',
             ],
         ],
     ];

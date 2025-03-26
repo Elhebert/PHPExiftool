@@ -28,13 +28,14 @@ class BWAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'BW Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130222
+             * line : 89975
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BWAdjustment extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:BWAdjustment',
             'desc' => [
+                'en' => 'BW Adjustment',
             ],
         ],
     ];

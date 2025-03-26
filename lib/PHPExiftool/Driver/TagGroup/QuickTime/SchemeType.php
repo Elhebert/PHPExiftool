@@ -28,13 +28,14 @@ class SchemeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheme Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SchemeType
-             * line : 324486
+             * line : 229271
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class SchemeType extends AbstractTagGroup
              */
             'id' => 'QuickTime::SchemeType.QuickTime:SchemeType',
             'desc' => [
+                'en' => 'Scheme Type',
             ],
         ],
     ];

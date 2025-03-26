@@ -28,13 +28,14 @@ class RenderingIntent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rendering Intent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3442
+             * line : 2127
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RenderingIntent extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:RenderingIntent',
             'desc' => [
+                'en' => 'Rendering Intent',
             ],
         ],
     ];

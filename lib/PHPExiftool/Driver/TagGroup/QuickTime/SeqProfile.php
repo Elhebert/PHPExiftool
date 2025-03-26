@@ -28,13 +28,14 @@ class SeqProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seq Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310295
+             * line : 216207
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeqProfile extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:SeqProfile',
             'desc' => [
+                'en' => 'Seq Profile',
             ],
         ],
     ];

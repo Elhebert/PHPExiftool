@@ -28,13 +28,14 @@ class SetupReferenceDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setup Reference Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103510
+             * line : 76605
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetupReferenceDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SetupReferenceDescription',
             'desc' => [
+                'en' => 'Setup Reference Description',
             ],
         ],
     ];

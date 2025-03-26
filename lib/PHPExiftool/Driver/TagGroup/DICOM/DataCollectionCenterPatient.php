@@ -28,13 +28,14 @@ class DataCollectionCenterPatient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Collection Center Patient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96977
+             * line : 70378
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataCollectionCenterPatient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataCollectionCenterPatient',
             'desc' => [
+                'en' => 'Data Collection Center Patient',
             ],
         ],
     ];

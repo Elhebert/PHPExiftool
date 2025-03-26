@@ -28,13 +28,14 @@ class NoiseReductionParametersHost6MP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Parameters Host 6 MP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156657
+             * line : 107861
              * type : int16u
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class NoiseReductionParametersHost6MP extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NoiseReductionParametersHost6MP',
             'desc' => [
+                'en' => 'Noise Reduction Parameters Host 6 MP',
             ],
         ],
     ];

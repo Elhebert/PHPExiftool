@@ -28,13 +28,14 @@ class ExposureLevelIncrements extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Level Increments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348272
+             * line : 243691
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureLevelIncrements extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ExposureLevelIncrements',
             'desc' => [
+                'en' => 'Exposure Level Increments',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349620
+             * line : 244263
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureLevelIncrements extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ExposureLevelIncrements',
             'desc' => [
+                'en' => 'Exposure Level Increments',
             ],
         ],
     ];

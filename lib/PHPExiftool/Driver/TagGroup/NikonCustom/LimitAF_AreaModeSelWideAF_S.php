@@ -28,13 +28,14 @@ class LimitAF_AreaModeSelWideAF_S extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit AF-Area Mode Sel Wide AF S',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235265
+             * line : 158564
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LimitAF_AreaModeSelWideAF_S extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitAF-AreaModeSelWideAF_S',
             'desc' => [
+                'en' => 'Limit AF-Area Mode Sel Wide AF S',
             ],
         ],
     ];

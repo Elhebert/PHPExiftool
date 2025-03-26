@@ -28,13 +28,14 @@ class BracketShot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracket Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339729
+             * line : 237625
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BracketShot extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:BracketShot',
             'desc' => [
+                'en' => 'Bracket Shot',
             ],
         ],
     ];

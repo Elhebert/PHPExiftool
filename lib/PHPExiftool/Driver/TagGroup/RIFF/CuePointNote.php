@@ -28,13 +28,14 @@ class CuePointNote extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Point Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328675
+             * line : 231770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CuePointNote extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:CuePointNote',
             'desc' => [
+                'en' => 'Cue Point Note',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LuminanceNR_TIFF_JPEG extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance NR TIFF JPEG',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83521
+             * line : 61214
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LuminanceNR_TIFF_JPEG extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LuminanceNR_TIFF_JPEG',
             'desc' => [
+                'en' => 'Luminance NR TIFF JPEG',
             ],
         ],
     ];

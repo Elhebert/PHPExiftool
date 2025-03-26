@@ -28,13 +28,14 @@ class FrameView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282040
+             * line : 195925
              * type : int16s
              * writable : false
              * count : 4
@@ -42,12 +43,13 @@ class FrameView extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:FrameView',
             'desc' => [
+                'en' => 'Frame View',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282313
+             * line : 196047
              * type : int16s
              * writable : false
              * count : 4
@@ -55,12 +57,13 @@ class FrameView extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:FrameView',
             'desc' => [
+                'en' => 'Frame View',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282523
+             * line : 196169
              * type : int16s
              * writable : false
              * count : 4
@@ -68,6 +71,7 @@ class FrameView extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:FrameView',
             'desc' => [
+                'en' => 'Frame View',
             ],
         ],
     ];

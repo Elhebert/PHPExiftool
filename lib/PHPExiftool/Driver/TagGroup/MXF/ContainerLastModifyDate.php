@@ -28,13 +28,14 @@ class ContainerLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169726
+             * line : 116085
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerLastModifyDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContainerLastModifyDate',
             'desc' => [
+                'en' => 'Container Last Modify Date',
             ],
         ],
     ];

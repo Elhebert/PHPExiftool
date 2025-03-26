@@ -28,13 +28,14 @@ class ManualAFPointSelectPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual AF Point Select Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74278
+             * line : 54809
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualAFPointSelectPattern extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ManualAFPointSelectPattern',
             'desc' => [
+                'en' => 'Manual AF Point Select Pattern',
             ],
         ],
     ];

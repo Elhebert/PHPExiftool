@@ -28,13 +28,14 @@ class Flags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152854
+             * line : 105170
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flags extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:Flags',
             'desc' => [
+                'en' => 'Flags',
             ],
         ],
     ];

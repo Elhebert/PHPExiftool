@@ -28,13 +28,14 @@ class CodeTableLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Table Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98892
+             * line : 72162
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodeTableLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodeTableLocation',
             'desc' => [
+                'en' => 'Code Table Location',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Converter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Converter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209536
+             * line : 141295
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Converter extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:Converter',
             'desc' => [
+                'en' => 'Converter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OverlayCompressionOriginator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Compression Originator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104312
+             * line : 77385
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayCompressionOriginator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayCompressionOriginator',
             'desc' => [
+                'en' => 'Overlay Compression Originator',
             ],
         ],
     ];

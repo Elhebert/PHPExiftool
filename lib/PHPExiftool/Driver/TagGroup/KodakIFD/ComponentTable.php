@@ -28,13 +28,14 @@ class ComponentTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154857
+             * line : 106166
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ComponentTable',
             'desc' => [
+                'en' => 'Component Table',
             ],
         ],
     ];

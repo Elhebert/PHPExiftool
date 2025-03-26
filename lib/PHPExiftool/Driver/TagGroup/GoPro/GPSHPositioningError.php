@@ -28,13 +28,14 @@ class GPSHPositioningError extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Horizontal Positioning Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139557
+             * line : 97646
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSHPositioningError extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:GPSHPositioningError',
             'desc' => [
+                'en' => 'GPS Horizontal Positioning Error',
             ],
         ],
     ];

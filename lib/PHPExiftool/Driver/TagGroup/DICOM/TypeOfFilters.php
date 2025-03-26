@@ -28,13 +28,14 @@ class TypeOfFilters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type Of Filters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95890
+             * line : 69316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TypeOfFilters extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TypeOfFilters',
             'desc' => [
+                'en' => 'Type Of Filters',
             ],
         ],
     ];

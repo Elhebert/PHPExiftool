@@ -28,13 +28,14 @@ class GlobalAltitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Global Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305568
+             * line : 212325
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GlobalAltitude extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:GlobalAltitude',
             'desc' => [
+                'en' => 'Global Altitude',
             ],
         ],
     ];

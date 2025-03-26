@@ -28,13 +28,14 @@ class DASType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100558
+             * line : 73728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASType',
             'desc' => [
+                'en' => 'DAS Type',
             ],
         ],
     ];

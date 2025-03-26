@@ -28,13 +28,14 @@ class SharedUserRating extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shared User Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175212
+             * line : 120654
              * type : int64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharedUserRating extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SharedUserRating',
             'desc' => [
+                'en' => 'Shared User Rating',
             ],
         ],
     ];

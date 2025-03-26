@@ -28,13 +28,14 @@ class AIColorUsage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI Color Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305877
+             * line : 212528
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIColorUsage extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AIColorUsage',
             'desc' => [
+                'en' => 'AI Color Usage',
             ],
         ],
     ];

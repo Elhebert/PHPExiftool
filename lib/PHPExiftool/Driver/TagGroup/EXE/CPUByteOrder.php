@@ -28,13 +28,14 @@ class CPUByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CPU Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::ELF
-             * line : 107993
+             * line : 79715
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CPUByteOrder extends AbstractTagGroup
              */
             'id' => 'EXE::ELF.EXE:CPUByteOrder',
             'desc' => [
+                'en' => 'CPU Byte Order',
             ],
         ],
         1 => [
             /**
              * table_name : EXE::MachO
-             * line : 108161
+             * line : 79845
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CPUByteOrder extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:CPUByteOrder',
             'desc' => [
+                'en' => 'CPU Byte Order',
             ],
         ],
     ];

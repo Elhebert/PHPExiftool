@@ -28,13 +28,14 @@ class IDCPreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IDC Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93873
+             * line : 67916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IDCPreviewImage extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:IDCPreviewImage',
             'desc' => [
+                'en' => 'IDC Preview Image',
             ],
         ],
     ];

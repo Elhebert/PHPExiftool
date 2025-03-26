@@ -28,13 +28,14 @@ class Comments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263453
+             * line : 182287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comments extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:Comments',
             'desc' => [
+                'en' => 'Comments',
             ],
         ],
     ];

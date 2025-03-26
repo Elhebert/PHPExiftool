@@ -28,13 +28,14 @@ class Places extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Places',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125041
+             * line : 87353
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Places extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:Places',
             'desc' => [
+                'en' => 'Places',
             ],
         ],
     ];

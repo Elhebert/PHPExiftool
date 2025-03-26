@@ -28,13 +28,14 @@ class SharpenRadius extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpen Radius',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401042
+             * line : 284495
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpenRadius extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SharpenRadius',
             'desc' => [
+                'en' => 'Sharpen Radius',
             ],
         ],
     ];

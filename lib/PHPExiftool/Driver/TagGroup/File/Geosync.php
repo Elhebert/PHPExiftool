@@ -28,13 +28,14 @@ class Geosync extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Geosync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121374
+             * line : 85169
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Geosync extends AbstractTagGroup
              */
             'id' => 'Extra.File:Geosync',
             'desc' => [
+                'en' => 'Geosync',
             ],
         ],
     ];

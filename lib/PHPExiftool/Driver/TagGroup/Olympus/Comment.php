@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::DSS
-             * line : 253056
+             * line : 174423
              * type : string
              * writable : false
              * count : 100
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Olympus::DSS.Olympus:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

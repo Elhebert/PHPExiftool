@@ -28,13 +28,14 @@ class VC_1CodedContentType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Coded Content Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172385
+             * line : 118546
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1CodedContentType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1CodedContentType',
             'desc' => [
+                'en' => 'VC-1 Coded Content Type',
             ],
         ],
     ];

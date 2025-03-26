@@ -28,13 +28,14 @@ class CoverArt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cover Art',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395752
+             * line : 280199
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoverArt extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:CoverArt',
             'desc' => [
+                'en' => 'Cover Art',
             ],
         ],
     ];

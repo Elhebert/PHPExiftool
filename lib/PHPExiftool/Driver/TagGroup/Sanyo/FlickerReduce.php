@@ -28,13 +28,14 @@ class FlickerReduce extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flicker Reduce',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336582
+             * line : 235836
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlickerReduce extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:FlickerReduce',
             'desc' => [
+                'en' => 'Flicker Reduce',
             ],
         ],
     ];

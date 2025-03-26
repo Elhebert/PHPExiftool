@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249271
+             * line : 171871
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

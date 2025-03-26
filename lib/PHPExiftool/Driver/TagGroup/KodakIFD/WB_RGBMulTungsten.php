@@ -28,13 +28,14 @@ class WB_RGBMulTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Mul Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155242
+             * line : 106463
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBMulTungsten extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBMulTungsten',
             'desc' => [
+                'en' => 'WB RGB Mul Tungsten',
             ],
         ],
     ];

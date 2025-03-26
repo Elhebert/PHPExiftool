@@ -28,13 +28,14 @@ class AudioChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::StreamProperties
-             * line : 2854
+             * line : 1842
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'ASF::StreamProperties.ASF:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
     ];

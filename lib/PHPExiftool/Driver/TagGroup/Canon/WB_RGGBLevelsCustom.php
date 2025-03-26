@@ -28,13 +28,14 @@ class WB_RGGBLevelsCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58916
+             * line : 45748
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsCustom extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBLevelsCustom',
             'desc' => [
+                'en' => 'WB RGGB Levels Custom',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61247
+             * line : 46984
              * type : int16s
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsCustom extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsCustom',
             'desc' => [
+                'en' => 'WB RGGB Levels Custom',
             ],
         ],
     ];

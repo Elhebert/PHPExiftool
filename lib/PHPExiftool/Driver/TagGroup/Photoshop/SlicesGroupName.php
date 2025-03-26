@@ -28,13 +28,14 @@ class SlicesGroupName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slices Group Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::SliceInfo
-             * line : 305834
+             * line : 212494
              * type : var_ustr32
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlicesGroupName extends AbstractTagGroup
              */
             'id' => 'Photoshop::SliceInfo.Photoshop:SlicesGroupName',
             'desc' => [
+                'en' => 'Slices Group Name',
             ],
         ],
     ];

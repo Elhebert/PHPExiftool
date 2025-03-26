@@ -28,13 +28,14 @@ class KeyFramesTimes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Frames Times',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124141
+             * line : 86756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyFramesTimes extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:KeyFramesTimes',
             'desc' => [
+                'en' => 'Key Frames Times',
             ],
         ],
     ];

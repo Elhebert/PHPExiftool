@@ -28,13 +28,14 @@ class CFARepeatPatternDim extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Repeat Pattern Dim',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112970
+             * line : 82278
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class CFARepeatPatternDim extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:CFARepeatPatternDim',
             'desc' => [
+                'en' => 'CFA Repeat Pattern Dim',
             ],
         ],
     ];

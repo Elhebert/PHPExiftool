@@ -28,13 +28,14 @@ class GradientBasedCorrTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399375
+             * line : 282882
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrTemperature extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrTemperature',
             'desc' => [
+                'en' => 'Gradient Based Corr Temperature',
             ],
         ],
     ];

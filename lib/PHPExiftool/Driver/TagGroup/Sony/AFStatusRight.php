@@ -28,13 +28,14 @@ class AFStatusRight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343536
+             * line : 240477
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusRight extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusRight',
             'desc' => [
+                'en' => 'AF Status Right',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345507
+             * line : 242277
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFStatusRight extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFStatusRight',
             'desc' => [
+                'en' => 'AF Status Right',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345922
+             * line : 242539
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFStatusRight extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusRight',
             'desc' => [
+                'en' => 'AF Status Right',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346635
+             * line : 242928
              * type : int16s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFStatusRight extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusRight',
             'desc' => [
+                'en' => 'AF Status Right',
             ],
         ],
     ];

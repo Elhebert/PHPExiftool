@@ -28,13 +28,14 @@ class DerivationImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Derivation Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95108
+             * line : 68590
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DerivationImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DerivationImageSequence',
             'desc' => [
+                'en' => 'Derivation Image Sequence',
             ],
         ],
     ];

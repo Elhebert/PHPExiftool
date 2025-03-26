@@ -28,13 +28,14 @@ class Email extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Email',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395118
+             * line : 279866
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Email extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Email',
             'desc' => [
+                'en' => 'Email',
             ],
         ],
     ];

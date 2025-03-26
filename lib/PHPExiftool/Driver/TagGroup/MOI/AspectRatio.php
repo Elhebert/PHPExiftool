@@ -28,13 +28,14 @@ class AspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MOI::Main
-             * line : 165467
+             * line : 112514
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'MOI::Main.MOI:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
     ];

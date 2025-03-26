@@ -28,13 +28,14 @@ class TL84ConvLumaV0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TL84 Conv Luma V0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310198
+             * line : 216110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TL84ConvLumaV0 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:TL84ConvLumaV0',
             'desc' => [
+                'en' => 'TL84 Conv Luma V0',
             ],
         ],
     ];

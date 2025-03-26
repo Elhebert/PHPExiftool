@@ -28,13 +28,14 @@ class CompressionFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compression Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251783
+             * line : 173527
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressionFactor extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:CompressionFactor',
             'desc' => [
+                'en' => 'Compression Factor',
             ],
         ],
     ];

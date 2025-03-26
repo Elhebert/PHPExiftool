@@ -28,13 +28,14 @@ class GPSSatellites extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Satellites',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282136
+             * line : 195949
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282280
+             * line : 196029
              * type : int32s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282487
+             * line : 196148
              * type : int32s
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
     ];

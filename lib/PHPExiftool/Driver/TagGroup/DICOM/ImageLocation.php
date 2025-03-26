@@ -28,13 +28,14 @@ class ImageLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98534
+             * line : 71866
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageLocation',
             'desc' => [
+                'en' => 'Image Location',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98827
+             * line : 72099
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageLocation',
             'desc' => [
+                'en' => 'Image Location',
             ],
         ],
     ];

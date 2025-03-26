@@ -28,13 +28,14 @@ class Color extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410501
+             * line : 289863
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Color extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:Color',
             'desc' => [
+                'en' => 'Color',
             ],
         ],
     ];

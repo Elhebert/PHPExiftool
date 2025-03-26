@@ -28,13 +28,14 @@ class WaveformBitsStored extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Bits Stored',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99524
+             * line : 72735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformBitsStored extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformBitsStored',
             'desc' => [
+                'en' => 'Waveform Bits Stored',
             ],
         ],
     ];

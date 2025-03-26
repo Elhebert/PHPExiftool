@@ -28,13 +28,14 @@ class TextInfo1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Info 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PIC
-             * line : 361245
+             * line : 251700
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextInfo1 extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:TextInfo1',
             'desc' => [
+                'en' => 'Text Info 1',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AEMaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282916
+             * line : 196394
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AEMaxAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEMaxAperture',
             'desc' => [
+                'en' => 'AE Max Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283237
+             * line : 196568
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AEMaxAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:AEMaxAperture',
             'desc' => [
+                'en' => 'AE Max Aperture',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::AEInfo3
-             * line : 283293
+             * line : 196593
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AEMaxAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo3.Pentax:AEMaxAperture',
             'desc' => [
+                'en' => 'AE Max Aperture',
             ],
         ],
     ];

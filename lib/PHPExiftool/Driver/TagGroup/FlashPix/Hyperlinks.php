@@ -28,13 +28,14 @@ class Hyperlinks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hyperlinks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124545
+             * line : 87030
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Hyperlinks extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:Hyperlinks',
             'desc' => [
+                'en' => 'Hyperlinks',
             ],
         ],
     ];

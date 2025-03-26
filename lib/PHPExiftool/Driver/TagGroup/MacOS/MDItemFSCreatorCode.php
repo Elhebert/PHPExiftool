@@ -28,13 +28,14 @@ class MDItemFSCreatorCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Creator Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172714
+             * line : 118829
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSCreatorCode extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSCreatorCode',
             'desc' => [
+                'en' => 'MD Item FS Creator Code',
             ],
         ],
     ];

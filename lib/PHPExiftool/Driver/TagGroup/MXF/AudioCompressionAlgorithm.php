@@ -28,13 +28,14 @@ class AudioCompressionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Compression Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168148
+             * line : 114647
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCompressionAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioCompressionAlgorithm',
             'desc' => [
+                'en' => 'Audio Compression Algorithm',
             ],
         ],
     ];

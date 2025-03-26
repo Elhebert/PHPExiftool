@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328395
+             * line : 231610
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

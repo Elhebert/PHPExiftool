@@ -28,13 +28,14 @@ class PowerUpTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Power Up Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199560
+             * line : 134615
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PowerUpTime extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:PowerUpTime',
             'desc' => [
+                'en' => 'Power Up Time',
             ],
         ],
     ];

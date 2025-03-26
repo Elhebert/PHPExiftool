@@ -28,13 +28,14 @@ class AlbumTitleID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Album Title ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314123
+             * line : 219766
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AlbumTitleID extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:AlbumTitleID',
             'desc' => [
+                'en' => 'Album Title ID',
             ],
         ],
     ];

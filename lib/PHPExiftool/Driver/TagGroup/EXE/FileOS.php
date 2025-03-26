@@ -28,13 +28,14 @@ class FileOS extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File OS',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEVersion
-             * line : 109616
+             * line : 81043
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileOS extends AbstractTagGroup
              */
             'id' => 'EXE::PEVersion.EXE:FileOS',
             'desc' => [
+                'en' => 'File OS',
             ],
         ],
     ];

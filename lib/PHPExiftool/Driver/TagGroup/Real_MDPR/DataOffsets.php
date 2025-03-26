@@ -28,13 +28,14 @@ class DataOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330442
+             * line : 232517
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataOffsets extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:DataOffsets',
             'desc' => [
+                'en' => 'Data Offsets',
             ],
         ],
     ];

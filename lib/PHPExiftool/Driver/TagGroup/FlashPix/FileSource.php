@@ -28,13 +28,14 @@ class FileSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124820
+             * line : 87245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSource extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FileSource',
             'desc' => [
+                'en' => 'File Source',
             ],
         ],
     ];

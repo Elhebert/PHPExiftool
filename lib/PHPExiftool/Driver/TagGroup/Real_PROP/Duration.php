@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Properties
-             * line : 330523
+             * line : 232574
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Real::Properties.Real-PROP:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

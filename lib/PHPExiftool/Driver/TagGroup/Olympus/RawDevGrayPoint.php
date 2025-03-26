@@ -28,13 +28,14 @@ class RawDevGrayPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Gray Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260241
+             * line : 179778
              * type : int16u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class RawDevGrayPoint extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevGrayPoint',
             'desc' => [
+                'en' => 'Raw Dev Gray Point',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260449
+             * line : 179917
              * type : int16u
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class RawDevGrayPoint extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevGrayPoint',
             'desc' => [
+                'en' => 'Raw Dev Gray Point',
             ],
         ],
     ];

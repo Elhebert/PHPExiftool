@@ -28,13 +28,14 @@ class Layout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::cbmp
-             * line : 326560
+             * line : 230328
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Layout extends AbstractTagGroup
              */
             'id' => 'QuickTime::cbmp.QuickTime:Layout',
             'desc' => [
+                'en' => 'Layout',
             ],
         ],
     ];

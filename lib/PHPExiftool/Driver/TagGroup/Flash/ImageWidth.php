@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123962
+             * line : 86666
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : Flash::Meta
-             * line : 124207
+             * line : 86801
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

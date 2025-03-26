@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 275012
+             * line : 191704
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

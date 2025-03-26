@@ -28,13 +28,14 @@ class RefractiveStateSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Refractive State Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98373
+             * line : 71707
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RefractiveStateSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RefractiveStateSequence',
             'desc' => [
+                'en' => 'Refractive State Sequence',
             ],
         ],
     ];

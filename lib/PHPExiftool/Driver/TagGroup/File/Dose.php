@@ -28,13 +28,14 @@ class Dose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166428
+             * line : 113169
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dose extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Dose',
             'desc' => [
+                'en' => 'Dose',
             ],
         ],
     ];

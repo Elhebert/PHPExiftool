@@ -28,13 +28,14 @@ class GrayMixerPurple extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gray Mixer Purple',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399423
+             * line : 282930
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GrayMixerPurple extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GrayMixerPurple',
             'desc' => [
+                'en' => 'Gray Mixer Purple',
             ],
         ],
     ];

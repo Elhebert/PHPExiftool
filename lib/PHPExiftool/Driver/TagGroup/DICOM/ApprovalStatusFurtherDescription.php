@@ -28,13 +28,14 @@ class ApprovalStatusFurtherDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Approval Status Further Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100514
+             * line : 73686
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApprovalStatusFurtherDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApprovalStatusFurtherDescription',
             'desc' => [
+                'en' => 'Approval Status Further Description',
             ],
         ],
     ];

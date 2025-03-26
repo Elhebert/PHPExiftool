@@ -28,13 +28,14 @@ class GPSMeasureMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Measure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326421
+             * line : 230276
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
     ];

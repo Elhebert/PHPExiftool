@@ -28,13 +28,14 @@ class TeletextSubtitlesAvailable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Teletext Subtitles Available',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168714
+             * line : 115190
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TeletextSubtitlesAvailable extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TeletextSubtitlesAvailable',
             'desc' => [
+                'en' => 'Teletext Subtitles Available',
             ],
         ],
     ];

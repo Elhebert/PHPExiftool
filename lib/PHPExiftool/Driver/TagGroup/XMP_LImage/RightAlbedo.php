@@ -28,13 +28,14 @@ class RightAlbedo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Right Albedo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::LImage
-             * line : 397369
+             * line : 281402
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RightAlbedo extends AbstractTagGroup
              */
             'id' => 'XMP::LImage.XMP-LImage:RightAlbedo',
             'desc' => [
+                'en' => 'Right Albedo',
             ],
         ],
     ];

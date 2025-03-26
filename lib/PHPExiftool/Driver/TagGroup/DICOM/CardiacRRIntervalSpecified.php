@@ -28,13 +28,14 @@ class CardiacRRIntervalSpecified extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac RR Interval Specified',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96680
+             * line : 70084
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacRRIntervalSpecified extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacRRIntervalSpecified',
             'desc' => [
+                'en' => 'Cardiac RR Interval Specified',
             ],
         ],
     ];

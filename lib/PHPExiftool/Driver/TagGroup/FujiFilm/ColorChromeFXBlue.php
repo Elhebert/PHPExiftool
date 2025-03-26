@@ -28,13 +28,14 @@ class ColorChromeFXBlue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Chrome FX Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130242
+             * line : 89995
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorChromeFXBlue extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ColorChromeFXBlue',
             'desc' => [
+                'en' => 'Color Chrome FX Blue',
             ],
         ],
     ];

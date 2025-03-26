@@ -28,13 +28,14 @@ class ExternalFlashAE2_0 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash AE2 0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258829
+             * line : 178689
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashAE2_0 extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ExternalFlashAE2_0',
             'desc' => [
+                'en' => 'External Flash AE2 0',
             ],
         ],
     ];

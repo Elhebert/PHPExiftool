@@ -28,13 +28,14 @@ class Texture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Texture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401131
+             * line : 284549
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Texture extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Texture',
             'desc' => [
+                'en' => 'Texture',
             ],
         ],
     ];

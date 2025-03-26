@@ -28,13 +28,14 @@ class ReceivedFrom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Received From',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249232
+             * line : 171834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReceivedFrom extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:ReceivedFrom',
             'desc' => [
+                'en' => 'Received From',
             ],
         ],
     ];

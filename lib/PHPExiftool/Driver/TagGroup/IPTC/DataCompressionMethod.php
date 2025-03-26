@@ -28,13 +28,14 @@ class DataCompressionMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Compression Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151790
+             * line : 104578
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataCompressionMethod extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:DataCompressionMethod',
             'desc' => [
+                'en' => 'Data Compression Method',
             ],
         ],
     ];

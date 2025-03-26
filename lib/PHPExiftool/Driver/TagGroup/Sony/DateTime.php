@@ -28,13 +28,14 @@ class DateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393944
+             * line : 279110
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTime extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:DateTime',
             'desc' => [
+                'en' => 'Date Time',
             ],
         ],
     ];

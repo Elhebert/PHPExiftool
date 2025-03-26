@@ -28,13 +28,14 @@ class TimecodeIndexParms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Index Parms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1831
+             * line : 931
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeIndexParms extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:TimecodeIndexParms',
             'desc' => [
+                'en' => 'Timecode Index Parms',
             ],
         ],
     ];

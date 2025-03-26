@@ -28,13 +28,14 @@ class VerticalAFOnButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical AF On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212148
+             * line : 142529
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VerticalAFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:VerticalAFOnButton',
             'desc' => [
+                'en' => 'Vertical AF On Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216261
+             * line : 145279
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class VerticalAFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:VerticalAFOnButton',
             'desc' => [
+                'en' => 'Vertical AF On Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219423
+             * line : 147742
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class VerticalAFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:VerticalAFOnButton',
             'desc' => [
+                'en' => 'Vertical AF On Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238855
+             * line : 161944
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class VerticalAFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:VerticalAFOnButton',
             'desc' => [
+                'en' => 'Vertical AF On Button',
             ],
         ],
     ];

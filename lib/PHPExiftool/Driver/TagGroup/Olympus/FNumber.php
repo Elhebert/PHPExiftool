@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::AVI
-             * line : 250335
+             * line : 172816
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::AVI.Olympus:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::MOV1
-             * line : 256534
+             * line : 177294
              * type : rational64u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV1.Olympus:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::MOV2
-             * line : 256646
+             * line : 177316
              * type : rational64u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV2.Olympus:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         3 => [
             /**
              * table_name : Olympus::MP4
-             * line : 256784
+             * line : 177367
              * type : rational64u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::MP4.Olympus:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         4 => [
             /**
              * table_name : Olympus::OLYM
-             * line : 260164
+             * line : 179747
              * type : rational64u
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::OLYM.Olympus:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

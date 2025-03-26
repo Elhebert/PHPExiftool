@@ -28,13 +28,14 @@ class ExposureCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130085
+             * line : 89853
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureCount extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ExposureCount',
             'desc' => [
+                'en' => 'Exposure Count',
             ],
         ],
     ];

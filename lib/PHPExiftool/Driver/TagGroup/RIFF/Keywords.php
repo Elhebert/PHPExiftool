@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328256
+             * line : 231553
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

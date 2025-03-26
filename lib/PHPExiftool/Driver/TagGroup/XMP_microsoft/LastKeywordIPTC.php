@@ -28,13 +28,14 @@ class LastKeywordIPTC extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Last Keyword IPTC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174364
+             * line : 120088
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LastKeywordIPTC extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:LastKeywordIPTC',
             'desc' => [
+                'en' => 'Last Keyword IPTC',
             ],
         ],
     ];

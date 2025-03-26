@@ -28,13 +28,14 @@ class ModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nintendo::CameraInfo
-             * line : 248977
+             * line : 171657
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ModelID extends AbstractTagGroup
              */
             'id' => 'Nintendo::CameraInfo.Nintendo:ModelID',
             'desc' => [
+                'en' => 'Model ID',
             ],
         ],
     ];

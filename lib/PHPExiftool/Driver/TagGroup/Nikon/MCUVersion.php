@@ -28,13 +28,14 @@ class MCUVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MCU Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData00
-             * line : 195608
+             * line : 132490
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MCUVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData00.Nikon:MCUVersion',
             'desc' => [
+                'en' => 'MCU Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195740
+             * line : 132533
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MCUVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:MCUVersion',
             'desc' => [
+                'en' => 'MCU Version',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195881
+             * line : 132579
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MCUVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:MCUVersion',
             'desc' => [
+                'en' => 'MCU Version',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196088
+             * line : 132658
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MCUVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:MCUVersion',
             'desc' => [
+                'en' => 'MCU Version',
             ],
         ],
     ];

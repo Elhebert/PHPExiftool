@@ -28,13 +28,14 @@ class ActualHumanPerformersSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Human Performers Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100007
+             * line : 73209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualHumanPerformersSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActualHumanPerformersSequence',
             'desc' => [
+                'en' => 'Actual Human Performers Sequence',
             ],
         ],
     ];

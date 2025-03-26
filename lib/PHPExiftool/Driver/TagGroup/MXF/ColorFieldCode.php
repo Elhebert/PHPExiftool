@@ -28,13 +28,14 @@ class ColorFieldCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Field Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167787
+             * line : 114362
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorFieldCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorFieldCode',
             'desc' => [
+                'en' => 'Color Field Code',
             ],
         ],
     ];

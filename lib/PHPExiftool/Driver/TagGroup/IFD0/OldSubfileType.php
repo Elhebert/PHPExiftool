@@ -28,13 +28,14 @@ class OldSubfileType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Old Subfile Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 109895
+             * line : 81187
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OldSubfileType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:OldSubfileType',
             'desc' => [
+                'en' => 'Old Subfile Type',
             ],
         ],
     ];

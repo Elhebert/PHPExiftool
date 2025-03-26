@@ -28,13 +28,14 @@ class HEVCConfigurationVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HEVC Configuration Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313370
+             * line : 219115
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HEVCConfigurationVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:HEVCConfigurationVersion',
             'desc' => [
+                'en' => 'HEVC Configuration Version',
             ],
         ],
     ];

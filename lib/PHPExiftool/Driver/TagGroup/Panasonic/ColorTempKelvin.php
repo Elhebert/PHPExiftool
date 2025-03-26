@@ -28,13 +28,14 @@ class ColorTempKelvin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Kelvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277104
+             * line : 192801
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4951
+             * line : 2938
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 8470
+             * line : 6057
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 8943
+             * line : 6211
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 9550
+             * line : 6404
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13106
+             * line : 9559
              * type : int16uRev
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 13970
+             * line : 9847
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo1DmkIIN
-             * line : 17534
+             * line : 13000
              * type : int16uRev
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIIN.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 18329
+             * line : 13260
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 20354
+             * line : 14892
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 22388
+             * line : 16527
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24436
+             * line : 18167
              * type : int16u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26738
+             * line : 19921
              * type : int16u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 29037
+             * line : 21672
              * type : int16u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 32732
+             * line : 24889
              * type : int16u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35443
+             * line : 26871
              * type : int16u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 37690
+             * line : 28594
              * type : int16u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 39899
+             * line : 30320
              * type : int16u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 41795
+             * line : 31949
              * type : int16u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 43788
+             * line : 33558
              * type : int16u
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 45946
+             * line : 35253
              * type : int16u
              * writable : true
              * count :
@@ -289,12 +309,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         20 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 47789
+             * line : 36868
              * type : int16u
              * writable : true
              * count :
@@ -302,12 +323,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         21 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 49781
+             * line : 38477
              * type : int16u
              * writable : true
              * count :
@@ -315,12 +337,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         22 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51981
+             * line : 40200
              * type : int16u
              * writable : true
              * count :
@@ -328,12 +351,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         23 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 53778
+             * line : 41787
              * type : int16u
              * writable : true
              * count :
@@ -341,12 +365,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         24 => [
             /**
              * table_name : Canon::Main
-             * line : 65917
+             * line : 50071
              * type : int16u
              * writable : true
              * count :
@@ -354,12 +379,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         25 => [
             /**
              * table_name : Canon::Processing
-             * line : 69859
+             * line : 52495
              * type : int16s
              * writable : true
              * count :
@@ -367,6 +393,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

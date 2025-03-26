@@ -28,13 +28,14 @@ class ID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 658
+             * line : 251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ID extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ID',
             'desc' => [
+                'en' => 'ID',
             ],
         ],
     ];

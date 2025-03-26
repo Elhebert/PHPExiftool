@@ -28,13 +28,14 @@ class RawDevPMPictureTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev PM Picture Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260620
+             * line : 180023
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDevPMPictureTone extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPMPictureTone',
             'desc' => [
+                'en' => 'Raw Dev PM Picture Tone',
             ],
         ],
     ];

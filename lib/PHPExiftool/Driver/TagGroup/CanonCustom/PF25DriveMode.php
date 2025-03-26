@@ -28,13 +28,14 @@ class PF25DriveMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF25 Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78322
+             * line : 57026
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF25DriveMode extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25DriveMode',
             'desc' => [
+                'en' => 'PF25 Drive Mode',
             ],
         ],
     ];

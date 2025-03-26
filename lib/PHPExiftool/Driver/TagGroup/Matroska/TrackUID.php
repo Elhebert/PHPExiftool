@@ -28,13 +28,14 @@ class TrackUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173887
+             * line : 119785
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackUID',
             'desc' => [
+                'en' => 'Track UID',
             ],
         ],
     ];

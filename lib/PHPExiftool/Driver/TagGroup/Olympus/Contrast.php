@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258945
+             * line : 178736
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

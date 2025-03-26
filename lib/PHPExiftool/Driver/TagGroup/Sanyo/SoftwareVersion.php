@@ -28,13 +28,14 @@ class SoftwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336336
+             * line : 235744
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SoftwareVersion extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SoftwareVersion',
             'desc' => [
+                'en' => 'Software Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ManufactureCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacture Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::QVCI
-             * line : 85232
+             * line : 61987
              * type : string
              * writable : false
              * count : 9
@@ -42,6 +43,7 @@ class ManufactureCode extends AbstractTagGroup
              */
             'id' => 'Casio::QVCI.Casio:ManufactureCode',
             'desc' => [
+                'en' => 'Manufacture Code',
             ],
         ],
     ];

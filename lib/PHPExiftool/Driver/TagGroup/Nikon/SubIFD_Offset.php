@@ -28,13 +28,14 @@ class SubIFD_Offset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub IFD Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::CaptureOffsets
-             * line : 191903
+             * line : 130071
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubIFD_Offset extends AbstractTagGroup
              */
             'id' => 'Nikon::CaptureOffsets.Nikon:SubIFD_Offset',
             'desc' => [
+                'en' => 'Sub IFD Offset',
             ],
         ],
     ];

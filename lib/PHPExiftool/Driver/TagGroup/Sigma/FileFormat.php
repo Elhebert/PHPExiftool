@@ -28,13 +28,14 @@ class FileFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337547
+             * line : 236144
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FileFormat extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:FileFormat',
             'desc' => [
+                'en' => 'File Format',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337568
+             * line : 236150
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FileFormat extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:FileFormat',
             'desc' => [
+                'en' => 'File Format',
             ],
         ],
     ];

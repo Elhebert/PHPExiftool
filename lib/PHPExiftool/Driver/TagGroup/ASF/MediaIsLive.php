@@ -28,13 +28,14 @@ class MediaIsLive extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Live',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1382
+             * line : 628
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsLive extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaIsLive',
             'desc' => [
+                'en' => 'Media Is Live',
             ],
         ],
     ];

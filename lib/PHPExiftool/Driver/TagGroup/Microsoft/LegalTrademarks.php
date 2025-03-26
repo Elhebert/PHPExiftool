@@ -28,13 +28,14 @@ class LegalTrademarks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Legal Trademarks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175359
+             * line : 120747
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LegalTrademarks extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LegalTrademarks',
             'desc' => [
+                'en' => 'Legal Trademarks',
             ],
         ],
     ];

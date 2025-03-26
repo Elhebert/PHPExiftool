@@ -28,13 +28,14 @@ class MaxFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254485
+             * line : 175751
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
     ];

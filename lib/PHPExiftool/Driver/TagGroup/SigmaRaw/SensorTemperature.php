@@ -28,13 +28,14 @@ class SensorTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340031
+             * line : 237731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
     ];

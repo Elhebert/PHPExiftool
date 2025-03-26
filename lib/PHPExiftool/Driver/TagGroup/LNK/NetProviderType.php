@@ -28,13 +28,14 @@ class NetProviderType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Net Provider Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161124
+             * line : 110032
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NetProviderType extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:NetProviderType',
             'desc' => [
+                'en' => 'Net Provider Type',
             ],
         ],
     ];

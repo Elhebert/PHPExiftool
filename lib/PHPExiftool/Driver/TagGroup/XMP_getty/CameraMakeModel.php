@@ -28,13 +28,14 @@ class CameraMakeModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Make Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397280
+             * line : 281341
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraMakeModel extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:CameraMakeModel',
             'desc' => [
+                'en' => 'Camera Make Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WAVESummary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WAVE Summary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169012
+             * line : 115463
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WAVESummary extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:WAVESummary',
             'desc' => [
+                'en' => 'WAVE Summary',
             ],
         ],
     ];

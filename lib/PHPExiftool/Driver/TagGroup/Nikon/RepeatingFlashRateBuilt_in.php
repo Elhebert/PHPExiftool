@@ -28,13 +28,14 @@ class RepeatingFlashRateBuilt_in extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Rate Built-in',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208563
+             * line : 140491
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RepeatingFlashRateBuilt_in extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:RepeatingFlashRateBuilt-in',
             'desc' => [
+                'en' => 'Repeating Flash Rate Built-in',
             ],
         ],
     ];

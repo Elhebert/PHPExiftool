@@ -28,13 +28,14 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300759
+             * line : 209649
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::WBLevels
-             * line : 303060
+             * line : 210712
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
     ];

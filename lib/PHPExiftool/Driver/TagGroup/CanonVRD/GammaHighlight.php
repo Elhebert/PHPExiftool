@@ -28,13 +28,14 @@ class GammaHighlight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Highlight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82024
+             * line : 60118
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaHighlight extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaHighlight',
             'desc' => [
+                'en' => 'Gamma Highlight',
             ],
         ],
     ];

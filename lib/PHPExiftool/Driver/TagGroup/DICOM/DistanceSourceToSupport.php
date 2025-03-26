@@ -28,13 +28,14 @@ class DistanceSourceToSupport extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Source To Support',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99729
+             * line : 72933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceSourceToSupport extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceSourceToSupport',
             'desc' => [
+                'en' => 'Distance Source To Support',
             ],
         ],
     ];

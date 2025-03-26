@@ -28,13 +28,14 @@ class TitleSortOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title Sort Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148446
+             * line : 103095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitleSortOrder extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:TitleSortOrder',
             'desc' => [
+                'en' => 'Title Sort Order',
             ],
         ],
     ];

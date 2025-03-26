@@ -28,13 +28,14 @@ class Project extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Project',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105361
+             * line : 78074
              * type : string
              * writable : false
              * count : 200
@@ -42,6 +43,7 @@ class Project extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:Project',
             'desc' => [
+                'en' => 'Project',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HistogramXML extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Histogram XML',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210440
+             * line : 141683
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HistogramXML extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:HistogramXML',
             'desc' => [
+                'en' => 'Histogram XML',
             ],
         ],
     ];

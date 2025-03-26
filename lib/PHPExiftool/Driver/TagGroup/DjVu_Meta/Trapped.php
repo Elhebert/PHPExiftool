@@ -28,13 +28,14 @@ class Trapped extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trapped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107364
+             * line : 79267
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Trapped extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Trapped',
             'desc' => [
+                'en' => 'Trapped',
             ],
         ],
     ];

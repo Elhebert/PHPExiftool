@@ -28,13 +28,14 @@ class Smoothness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Smoothness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404386
+             * line : 287453
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Smoothness extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Smoothness',
             'desc' => [
+                'en' => 'Smoothness',
             ],
         ],
     ];

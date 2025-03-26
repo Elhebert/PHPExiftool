@@ -28,13 +28,14 @@ class DCS3XXProcessingInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DCS3 XX Processing Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156218
+             * line : 107422
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DCS3XXProcessingInfo extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DCS3XXProcessingInfo',
             'desc' => [
+                'en' => 'DCS3 XX Processing Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PF13DrivePriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF13 Drive Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78386
+             * line : 57087
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF13DrivePriority extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF13DrivePriority',
             'desc' => [
+                'en' => 'PF13 Drive Priority',
             ],
         ],
     ];

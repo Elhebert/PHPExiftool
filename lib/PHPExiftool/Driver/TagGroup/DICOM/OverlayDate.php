@@ -28,13 +28,14 @@ class OverlayDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94707
+             * line : 68197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayDate',
             'desc' => [
+                'en' => 'Overlay Date',
             ],
         ],
     ];

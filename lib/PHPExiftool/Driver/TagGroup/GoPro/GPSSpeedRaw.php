@@ -28,13 +28,14 @@ class GPSSpeedRaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Speed Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPRI
-             * line : 139884
+             * line : 97827
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSSpeedRaw extends AbstractTagGroup
              */
             'id' => 'GoPro::GPRI.GoPro:GPSSpeedRaw',
             'desc' => [
+                'en' => 'GPS Speed Raw',
             ],
         ],
     ];

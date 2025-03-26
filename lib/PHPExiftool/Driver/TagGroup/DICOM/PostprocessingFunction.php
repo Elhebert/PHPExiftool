@@ -28,13 +28,14 @@ class PostprocessingFunction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Postprocessing Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96193
+             * line : 69610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PostprocessingFunction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PostprocessingFunction',
             'desc' => [
+                'en' => 'Postprocessing Function',
             ],
         ],
     ];

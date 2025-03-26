@@ -28,13 +28,14 @@ class WhitePointX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Point X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::PrimaryChromaticities
-             * line : 272699
+             * line : 190457
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhitePointX extends AbstractTagGroup
              */
             'id' => 'PNG::PrimaryChromaticities.PNG:WhitePointX',
             'desc' => [
+                'en' => 'White Point X',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraFilename extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Filename',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397276
+             * line : 281338
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraFilename extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:CameraFilename',
             'desc' => [
+                'en' => 'Camera Filename',
             ],
         ],
     ];

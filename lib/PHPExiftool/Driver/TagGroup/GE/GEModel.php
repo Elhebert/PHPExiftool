@@ -28,13 +28,14 @@ class GEModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GE Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GE::Main
-             * line : 131220
+             * line : 90619
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GEModel extends AbstractTagGroup
              */
             'id' => 'GE::Main.GE:GEModel',
             'desc' => [
+                'en' => 'GE Model',
             ],
         ],
     ];

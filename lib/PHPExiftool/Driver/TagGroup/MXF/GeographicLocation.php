@@ -28,13 +28,14 @@ class GeographicLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geographic Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172133
+             * line : 118300
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeographicLocation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GeographicLocation',
             'desc' => [
+                'en' => 'Geographic Location',
             ],
         ],
     ];

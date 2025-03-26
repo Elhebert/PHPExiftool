@@ -28,13 +28,14 @@ class PixelCorrectionGains extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Correction Gains',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155542
+             * line : 106754
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelCorrectionGains extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PixelCorrectionGains',
             'desc' => [
+                'en' => 'Pixel Correction Gains',
             ],
         ],
     ];

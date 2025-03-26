@@ -28,13 +28,14 @@ class PortraitRawSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Raw Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82793
+             * line : 60633
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitRawSaturation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:PortraitRawSaturation',
             'desc' => [
+                'en' => 'Portrait Raw Saturation',
             ],
         ],
     ];

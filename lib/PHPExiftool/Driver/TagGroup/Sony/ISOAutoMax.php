@@ -28,13 +28,14 @@ class ISOAutoMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Auto Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ISOInfo
-             * line : 353460
+             * line : 246647
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOAutoMax extends AbstractTagGroup
              */
             'id' => 'Sony::ISOInfo.Sony:ISOAutoMax',
             'desc' => [
+                'en' => 'ISO Auto Max',
             ],
         ],
     ];

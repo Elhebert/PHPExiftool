@@ -28,13 +28,14 @@ class StandardWhiteCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard White Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155168
+             * line : 106418
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class StandardWhiteCustom extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:StandardWhiteCustom',
             'desc' => [
+                'en' => 'Standard White Custom',
             ],
         ],
     ];

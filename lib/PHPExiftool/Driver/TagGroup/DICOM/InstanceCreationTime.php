@@ -28,13 +28,14 @@ class InstanceCreationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance Creation Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94676
+             * line : 68167
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceCreationTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstanceCreationTime',
             'desc' => [
+                'en' => 'Instance Creation Time',
             ],
         ],
     ];

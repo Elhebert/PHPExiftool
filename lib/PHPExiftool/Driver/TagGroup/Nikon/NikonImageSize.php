@@ -28,13 +28,14 @@ class NikonImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD3a
-             * line : 206125
+             * line : 138561
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NikonImageSize extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3a.Nikon:NikonImageSize',
             'desc' => [
+                'en' => 'Nikon Image Size',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206247
+             * line : 138640
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NikonImageSize extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:NikonImageSize',
             'desc' => [
+                'en' => 'Nikon Image Size',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD80
-             * line : 208470
+             * line : 140429
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class NikonImageSize extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD80.Nikon:NikonImageSize',
             'desc' => [
+                'en' => 'Nikon Image Size',
             ],
         ],
     ];

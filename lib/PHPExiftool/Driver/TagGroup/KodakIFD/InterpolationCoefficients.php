@@ -28,13 +28,14 @@ class InterpolationCoefficients extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpolation Coefficients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156804
+             * line : 108008
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpolationCoefficients extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:InterpolationCoefficients',
             'desc' => [
+                'en' => 'Interpolation Coefficients',
             ],
         ],
     ];

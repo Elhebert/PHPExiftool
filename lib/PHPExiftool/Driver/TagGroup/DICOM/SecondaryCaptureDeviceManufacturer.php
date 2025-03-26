@@ -28,13 +28,14 @@ class SecondaryCaptureDeviceManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Capture Device Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95601
+             * line : 69055
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryCaptureDeviceManufacturer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryCaptureDeviceManufacturer',
             'desc' => [
+                'en' => 'Secondary Capture Device Manufacturer',
             ],
         ],
     ];

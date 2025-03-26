@@ -28,13 +28,14 @@ class ParameterItemIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parameter Item Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102768
+             * line : 75864
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParameterItemIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParameterItemIndex',
             'desc' => [
+                'en' => 'Parameter Item Index',
             ],
         ],
     ];

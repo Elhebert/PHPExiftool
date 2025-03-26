@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162880
+             * line : 111269
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

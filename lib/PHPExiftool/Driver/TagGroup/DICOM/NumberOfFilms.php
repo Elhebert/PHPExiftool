@@ -28,13 +28,14 @@ class NumberOfFilms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Films',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102267
+             * line : 75369
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFilms extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFilms',
             'desc' => [
+                'en' => 'Number Of Films',
             ],
         ],
     ];

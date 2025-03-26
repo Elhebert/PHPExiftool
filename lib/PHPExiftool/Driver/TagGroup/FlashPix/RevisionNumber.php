@@ -28,13 +28,14 @@ class RevisionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124364
+             * line : 86894
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
         1 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127195
+             * line : 88300
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
         2 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127340
+             * line : 88378
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
     ];

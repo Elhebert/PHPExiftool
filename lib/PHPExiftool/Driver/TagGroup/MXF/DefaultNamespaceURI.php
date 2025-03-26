@@ -28,13 +28,14 @@ class DefaultNamespaceURI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Namespace URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171869
+             * line : 118054
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DefaultNamespaceURI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefaultNamespaceURI',
             'desc' => [
+                'en' => 'Default Namespace URI',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171872
+             * line : 118057
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DefaultNamespaceURI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefaultNamespaceURI',
             'desc' => [
+                'en' => 'Default Namespace URI',
             ],
         ],
     ];

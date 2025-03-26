@@ -28,13 +28,14 @@ class IRWindowTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IR Window Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122198
+             * line : 85587
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IRWindowTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:IRWindowTemperature',
             'desc' => [
+                'en' => 'IR Window Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122614
+             * line : 85865
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class IRWindowTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:IRWindowTemperature',
             'desc' => [
+                'en' => 'IR Window Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Params
-             * line : 123592
+             * line : 86393
              * type : float
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class IRWindowTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:IRWindowTemperature',
             'desc' => [
+                'en' => 'IR Window Temperature',
             ],
         ],
     ];

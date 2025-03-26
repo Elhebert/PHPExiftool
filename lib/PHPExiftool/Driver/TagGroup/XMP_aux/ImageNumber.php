@@ -28,13 +28,14 @@ class ImageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397943
+             * line : 281669
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
     ];

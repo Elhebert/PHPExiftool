@@ -28,13 +28,14 @@ class BlockData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103321
+             * line : 76416
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockData',
             'desc' => [
+                'en' => 'Block Data',
             ],
         ],
     ];

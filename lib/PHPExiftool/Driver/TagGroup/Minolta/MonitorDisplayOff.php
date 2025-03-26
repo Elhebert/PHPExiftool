@@ -28,13 +28,14 @@ class MonitorDisplayOff extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monitor Display Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181784
+             * line : 123660
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonitorDisplayOff extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:MonitorDisplayOff',
             'desc' => [
+                'en' => 'Monitor Display Off',
             ],
         ],
     ];

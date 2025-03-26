@@ -28,13 +28,14 @@ class DisplayUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173665
+             * line : 119586
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayUnit extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:DisplayUnit',
             'desc' => [
+                'en' => 'Display Unit',
             ],
         ],
     ];

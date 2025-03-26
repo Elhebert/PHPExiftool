@@ -28,13 +28,14 @@ class ImageArchiveFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Archive Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98492
+             * line : 71824
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageArchiveFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageArchiveFlag',
             'desc' => [
+                'en' => 'Image Archive Flag',
             ],
         ],
     ];

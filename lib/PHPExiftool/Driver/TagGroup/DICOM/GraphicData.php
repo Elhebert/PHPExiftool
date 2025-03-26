@@ -28,13 +28,14 @@ class GraphicData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101277
+             * line : 74427
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicData',
             'desc' => [
+                'en' => 'Graphic Data',
             ],
         ],
     ];

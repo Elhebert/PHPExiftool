@@ -28,13 +28,14 @@ class Npts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Npts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ToneCurve
-             * line : 162127
+             * line : 110802
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Npts extends AbstractTagGroup
              */
             'id' => 'Leaf::ToneCurve.Leaf:Npts',
             'desc' => [
+                'en' => 'Npts',
             ],
         ],
     ];

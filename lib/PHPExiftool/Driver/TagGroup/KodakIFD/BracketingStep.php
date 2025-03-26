@@ -28,13 +28,14 @@ class BracketingStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracketing Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155018
+             * line : 106268
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BracketingStep extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BracketingStep',
             'desc' => [
+                'en' => 'Bracketing Step',
             ],
         ],
     ];

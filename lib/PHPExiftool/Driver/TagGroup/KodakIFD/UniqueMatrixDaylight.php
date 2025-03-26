@@ -28,13 +28,14 @@ class UniqueMatrixDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Matrix Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155138
+             * line : 106388
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class UniqueMatrixDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UniqueMatrixDaylight',
             'desc' => [
+                'en' => 'Unique Matrix Daylight',
             ],
         ],
     ];

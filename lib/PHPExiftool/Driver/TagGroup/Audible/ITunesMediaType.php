@@ -28,13 +28,14 @@ class ITunesMediaType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'iTunes Media Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::meta
-             * line : 3145
+             * line : 1974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ITunesMediaType extends AbstractTagGroup
              */
             'id' => 'Audible::meta.Audible:iTunesMediaType',
             'desc' => [
+                'en' => 'iTunes Media Type',
             ],
         ],
     ];

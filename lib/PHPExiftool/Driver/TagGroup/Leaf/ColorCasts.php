@@ -28,13 +28,14 @@ class ColorCasts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Casts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161925
+             * line : 110629
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorCasts extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:ColorCasts',
             'desc' => [
+                'en' => 'Color Casts',
             ],
         ],
     ];

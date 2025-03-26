@@ -28,13 +28,14 @@ class Version extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127791
+             * line : 88729
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Version extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128177
+             * line : 88937
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Version extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubtitleDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subtitle Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1590
+             * line : 781
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubtitleDescription extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:SubtitleDescription',
             'desc' => [
+                'en' => 'Subtitle Description',
             ],
         ],
     ];

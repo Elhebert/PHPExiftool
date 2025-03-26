@@ -28,13 +28,14 @@ class SchedProcStepModificationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sched Proc Step Modification Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99947
+             * line : 73149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SchedProcStepModificationDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SchedProcStepModificationDateTime',
             'desc' => [
+                'en' => 'Sched Proc Step Modification Date Time',
             ],
         ],
     ];

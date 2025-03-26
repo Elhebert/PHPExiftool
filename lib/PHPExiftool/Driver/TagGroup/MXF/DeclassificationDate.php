@@ -28,13 +28,14 @@ class DeclassificationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Declassification Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169988
+             * line : 116313
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeclassificationDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeclassificationDate',
             'desc' => [
+                'en' => 'Declassification Date',
             ],
         ],
     ];

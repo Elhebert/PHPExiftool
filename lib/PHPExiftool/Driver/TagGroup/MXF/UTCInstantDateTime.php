@@ -28,13 +28,14 @@ class UTCInstantDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UTC Instant Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172163
+             * line : 118330
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class UTCInstantDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCInstantDateTime',
             'desc' => [
+                'en' => 'UTC Instant Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172166
+             * line : 118333
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class UTCInstantDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCInstantDateTime',
             'desc' => [
+                'en' => 'UTC Instant Date Time',
             ],
         ],
     ];

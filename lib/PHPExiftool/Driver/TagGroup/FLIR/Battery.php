@@ -28,13 +28,14 @@ class Battery extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123608
+             * line : 86409
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Battery extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:Battery',
             'desc' => [
+                'en' => 'Battery',
             ],
         ],
     ];

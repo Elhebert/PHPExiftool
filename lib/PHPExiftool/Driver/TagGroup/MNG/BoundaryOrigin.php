@@ -28,13 +28,14 @@ class BoundaryOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Boundary Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165340
+             * line : 112412
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoundaryOrigin extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:BoundaryOrigin',
             'desc' => [
+                'en' => 'Boundary Origin',
             ],
         ],
     ];

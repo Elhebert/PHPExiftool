@@ -28,13 +28,14 @@ class ObservationNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Observation Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102606
+             * line : 75702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObservationNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ObservationNumber',
             'desc' => [
+                'en' => 'Observation Number',
             ],
         ],
     ];

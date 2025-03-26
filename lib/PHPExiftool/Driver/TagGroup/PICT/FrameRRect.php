@@ -28,13 +28,14 @@ class FrameRRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame R Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264799
+             * line : 183029
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameRRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FrameRRect',
             'desc' => [
+                'en' => 'Frame R Rect',
             ],
         ],
     ];

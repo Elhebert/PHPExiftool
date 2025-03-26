@@ -28,13 +28,14 @@ class LockedPropertyList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Locked Property List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124355
+             * line : 86885
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LockedPropertyList extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:LockedPropertyList',
             'desc' => [
+                'en' => 'Locked Property List',
             ],
         ],
         1 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124617
+             * line : 87100
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class LockedPropertyList extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:LockedPropertyList',
             'desc' => [
+                'en' => 'Locked Property List',
             ],
         ],
         2 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127331
+             * line : 88369
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class LockedPropertyList extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:LockedPropertyList',
             'desc' => [
+                'en' => 'Locked Property List',
             ],
         ],
     ];

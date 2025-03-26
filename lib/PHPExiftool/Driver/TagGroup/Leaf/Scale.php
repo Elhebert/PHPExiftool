@@ -28,13 +28,14 @@ class Scale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162059
+             * line : 110739
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Scale extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:Scale',
             'desc' => [
+                'en' => 'Scale',
             ],
         ],
     ];

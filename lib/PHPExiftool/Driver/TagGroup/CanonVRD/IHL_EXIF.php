@@ -28,13 +28,14 @@ class IHL_EXIF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IHL EXIF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::IHL
-             * line : 82043
+             * line : 60137
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IHL_EXIF extends AbstractTagGroup
              */
             'id' => 'CanonVRD::IHL.CanonVRD:IHL_EXIF',
             'desc' => [
+                'en' => 'IHL EXIF',
             ],
         ],
     ];

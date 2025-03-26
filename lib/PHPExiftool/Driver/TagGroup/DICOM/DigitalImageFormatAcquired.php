@@ -28,13 +28,14 @@ class DigitalImageFormatAcquired extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Image Format Acquired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95629
+             * line : 69079
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalImageFormatAcquired extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitalImageFormatAcquired',
             'desc' => [
+                'en' => 'Digital Image Format Acquired',
             ],
         ],
     ];

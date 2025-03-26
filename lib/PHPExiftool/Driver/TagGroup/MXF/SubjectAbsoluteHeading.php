@@ -28,13 +28,14 @@ class SubjectAbsoluteHeading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Absolute Heading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168353
+             * line : 114848
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectAbsoluteHeading extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SubjectAbsoluteHeading',
             'desc' => [
+                'en' => 'Subject Absolute Heading',
             ],
         ],
     ];

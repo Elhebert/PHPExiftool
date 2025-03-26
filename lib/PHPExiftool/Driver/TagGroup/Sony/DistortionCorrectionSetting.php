@@ -28,13 +28,14 @@ class DistortionCorrectionSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354419
+             * line : 247082
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrectionSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:DistortionCorrectionSetting',
             'desc' => [
+                'en' => 'Distortion Correction Setting',
             ],
         ],
     ];

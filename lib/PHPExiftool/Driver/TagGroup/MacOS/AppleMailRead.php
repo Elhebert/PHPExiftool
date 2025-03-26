@@ -28,13 +28,14 @@ class AppleMailRead extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Read',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173096
+             * line : 119116
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailRead extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailRead',
             'desc' => [
+                'en' => 'Apple Mail Read',
             ],
         ],
     ];

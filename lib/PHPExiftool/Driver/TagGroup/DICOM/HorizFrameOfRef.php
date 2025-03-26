@@ -28,13 +28,14 @@ class HorizFrameOfRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Horiz Frame Of Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97410
+             * line : 70798
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HorizFrameOfRef extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HorizFrameOfRef',
             'desc' => [
+                'en' => 'Horiz Frame Of Ref',
             ],
         ],
     ];

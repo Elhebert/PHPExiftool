@@ -28,13 +28,14 @@ class StatReconFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stat Recon Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97482
+             * line : 70870
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StatReconFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StatReconFlag',
             'desc' => [
+                'en' => 'Stat Recon Flag',
             ],
         ],
     ];

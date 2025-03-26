@@ -28,13 +28,14 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187483
+             * line : 127122
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:WB_RBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RB Levels Daylight',
             ],
         ],
     ];

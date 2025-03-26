@@ -28,13 +28,14 @@ class ProjectionBoundsLeft extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Bounds Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::equi
-             * line : 326586
+             * line : 230344
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionBoundsLeft extends AbstractTagGroup
              */
             'id' => 'QuickTime::equi.QuickTime:ProjectionBoundsLeft',
             'desc' => [
+                'en' => 'Projection Bounds Left',
             ],
         ],
     ];

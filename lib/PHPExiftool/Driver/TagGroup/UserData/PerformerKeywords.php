@@ -28,13 +28,14 @@ class PerformerKeywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Performer Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326002
+             * line : 229955
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PerformerKeywords extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:PerformerKeywords',
             'desc' => [
+                'en' => 'Performer Keywords',
             ],
         ],
     ];

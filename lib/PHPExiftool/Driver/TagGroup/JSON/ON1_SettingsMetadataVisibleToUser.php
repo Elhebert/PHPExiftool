@@ -28,13 +28,14 @@ class ON1_SettingsMetadataVisibleToUser extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ON1 Settings Metadata Visible To User',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JSON::Main
-             * line : 153396
+             * line : 105414
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ON1_SettingsMetadataVisibleToUser extends AbstractTagGroup
              */
             'id' => 'JSON::Main.JSON:ON1_SettingsMetadataVisibleToUser',
             'desc' => [
+                'en' => 'ON1 Settings Metadata Visible To User',
             ],
         ],
     ];

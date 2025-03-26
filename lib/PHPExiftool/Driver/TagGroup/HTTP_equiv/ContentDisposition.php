@@ -28,13 +28,14 @@ class ContentDisposition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Disposition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142849
+             * line : 98649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentDisposition extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:ContentDisposition',
             'desc' => [
+                'en' => 'Content Disposition',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileFlagsMask extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Flags Mask',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEVersion
-             * line : 109585
+             * line : 81017
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileFlagsMask extends AbstractTagGroup
              */
             'id' => 'EXE::PEVersion.EXE:FileFlagsMask',
             'desc' => [
+                'en' => 'File Flags Mask',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawDevPictureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Picture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260539
+             * line : 179974
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDevPictureMode extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPictureMode',
             'desc' => [
+                'en' => 'Raw Dev Picture Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ManagedFromLinkCategory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From Link Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414014
+             * line : 292039
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromLinkCategory extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromLinkCategory',
             'desc' => [
+                'en' => 'Managed From Link Category',
             ],
         ],
     ];

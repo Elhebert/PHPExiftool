@@ -28,13 +28,14 @@ class NationalCatalogNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'National Catalog Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410957
+             * line : 290187
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NationalCatalogNumber extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:NationalCatalogNumber',
             'desc' => [
+                'en' => 'National Catalog Number',
             ],
         ],
     ];

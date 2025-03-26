@@ -28,13 +28,14 @@ class Comments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109071
+             * line : 80627
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comments extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:Comments',
             'desc' => [
+                'en' => 'Comments',
             ],
         ],
     ];

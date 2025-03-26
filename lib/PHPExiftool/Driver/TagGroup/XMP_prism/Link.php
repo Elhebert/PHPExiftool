@@ -28,13 +28,14 @@ class Link extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410934
+             * line : 290178
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Link extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Link',
             'desc' => [
+                'en' => 'Link',
             ],
         ],
     ];

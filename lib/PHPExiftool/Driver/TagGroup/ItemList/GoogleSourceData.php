@@ -28,13 +28,14 @@ class GoogleSourceData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Source Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322194
+             * line : 227753
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GoogleSourceData extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GoogleSourceData',
             'desc' => [
+                'en' => 'Google Source Data',
             ],
         ],
     ];

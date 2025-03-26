@@ -28,13 +28,14 @@ class ProcedureStepRelationshipType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Procedure Step Relationship Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101829
+             * line : 74970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcedureStepRelationshipType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProcedureStepRelationshipType',
             'desc' => [
+                'en' => 'Procedure Step Relationship Type',
             ],
         ],
     ];

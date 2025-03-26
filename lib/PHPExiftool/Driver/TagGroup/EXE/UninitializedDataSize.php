@@ -28,13 +28,14 @@ class UninitializedDataSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Uninitialized Data Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108881
+             * line : 80496
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UninitializedDataSize extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:UninitializedDataSize',
             'desc' => [
+                'en' => 'Uninitialized Data Size',
             ],
         ],
     ];

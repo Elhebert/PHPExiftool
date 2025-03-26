@@ -28,13 +28,14 @@ class AssumedDistanceView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Assumed Distance View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394671
+             * line : 279594
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssumedDistanceView extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:AssumedDistanceView',
             'desc' => [
+                'en' => 'Assumed Distance View',
             ],
         ],
     ];

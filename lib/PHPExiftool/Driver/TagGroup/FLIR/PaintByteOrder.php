@@ -28,13 +28,14 @@ class PaintByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaintData
-             * line : 123478
+             * line : 86297
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::PaintData.FLIR:PaintByteOrder',
             'desc' => [
+                'en' => 'Paint Byte Order',
             ],
         ],
     ];

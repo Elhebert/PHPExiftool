@@ -28,13 +28,14 @@ class DeviceModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 145035
+             * line : 100609
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class DeviceModel extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:DeviceModel',
             'desc' => [
+                'en' => 'Device Model',
             ],
         ],
     ];

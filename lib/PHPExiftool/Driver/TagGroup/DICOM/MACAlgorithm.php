@@ -28,13 +28,14 @@ class MACAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MAC Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101892
+             * line : 75033
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MACAlgorithm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MACAlgorithm',
             'desc' => [
+                'en' => 'MAC Algorithm',
             ],
         ],
     ];

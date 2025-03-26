@@ -28,13 +28,14 @@ class PaymentsSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payments Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171579
+             * line : 117775
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaymentsSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PaymentsSets',
             'desc' => [
+                'en' => 'Payments Sets',
             ],
         ],
     ];

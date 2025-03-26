@@ -28,13 +28,14 @@ class ExposureBracketShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Bracket Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185179
+             * line : 125706
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureBracketShotNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ExposureBracketShotNumber',
             'desc' => [
+                'en' => 'Exposure Bracket Shot Number',
             ],
         ],
     ];

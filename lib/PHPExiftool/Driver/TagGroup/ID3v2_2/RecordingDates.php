@@ -28,13 +28,14 @@ class RecordingDates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recording Dates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148411
+             * line : 103071
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordingDates extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:RecordingDates',
             'desc' => [
+                'en' => 'Recording Dates',
             ],
         ],
     ];

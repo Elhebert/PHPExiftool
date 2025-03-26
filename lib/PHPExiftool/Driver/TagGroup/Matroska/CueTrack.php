@@ -28,13 +28,14 @@ class CueTrack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173402
+             * line : 119355
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueTrack extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueTrack',
             'desc' => [
+                'en' => 'Cue Track',
             ],
         ],
     ];

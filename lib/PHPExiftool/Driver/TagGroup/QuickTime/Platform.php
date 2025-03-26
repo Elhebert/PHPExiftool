@@ -28,13 +28,14 @@ class Platform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Platform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rights
-             * line : 324372
+             * line : 229162
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Platform extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rights.QuickTime:Platform',
             'desc' => [
+                'en' => 'Platform',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreatorAppID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator App ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Creator
-             * line : 273168
+             * line : 190616
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorAppID extends AbstractTagGroup
              */
             'id' => 'PSP::Creator.PSP:CreatorAppID',
             'desc' => [
+                'en' => 'Creator App ID',
             ],
         ],
     ];

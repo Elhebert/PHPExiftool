@@ -28,13 +28,14 @@ class LicensorRegion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265679
+             * line : 183664
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorRegion extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorRegion',
             'desc' => [
+                'en' => 'Licensor Region',
             ],
         ],
     ];

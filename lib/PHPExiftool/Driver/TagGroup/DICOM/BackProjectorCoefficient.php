@@ -28,13 +28,14 @@ class BackProjectorCoefficient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Back Projector Coefficient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97812
+             * line : 71191
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackProjectorCoefficient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BackProjectorCoefficient',
             'desc' => [
+                'en' => 'Back Projector Coefficient',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::Type2
-             * line : 142131
+             * line : 98403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'HP::Type2.HP:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

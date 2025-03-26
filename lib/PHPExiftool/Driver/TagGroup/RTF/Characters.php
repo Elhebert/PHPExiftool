@@ -28,13 +28,14 @@ class Characters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329271
+             * line : 232047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Characters extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:Characters',
             'desc' => [
+                'en' => 'Characters',
             ],
         ],
     ];

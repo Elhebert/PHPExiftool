@@ -28,13 +28,14 @@ class ConvergenceBaseImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Convergence Base Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394649
+             * line : 279577
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConvergenceBaseImage extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ConvergenceBaseImage',
             'desc' => [
+                'en' => 'Convergence Base Image',
             ],
         ],
     ];

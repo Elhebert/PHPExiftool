@@ -28,13 +28,14 @@ class Revision extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395192
+             * line : 279905
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Revision extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Revision',
             'desc' => [
+                'en' => 'Revision',
             ],
         ],
     ];

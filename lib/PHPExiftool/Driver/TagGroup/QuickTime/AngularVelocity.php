@@ -28,13 +28,14 @@ class AngularVelocity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angular Velocity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324506
+             * line : 229290
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AngularVelocity extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:AngularVelocity',
             'desc' => [
+                'en' => 'Angular Velocity',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::camm2
-             * line : 326329
+             * line : 230239
              * type : float
              * writable : false
              * count : 3
@@ -55,6 +57,7 @@ class AngularVelocity extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm2.QuickTime:AngularVelocity',
             'desc' => [
+                'en' => 'Angular Velocity',
             ],
         ],
     ];

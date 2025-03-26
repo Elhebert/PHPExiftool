@@ -28,13 +28,14 @@ class Producer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264231
+             * line : 182651
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Producer extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:Producer',
             'desc' => [
+                'en' => 'Producer',
             ],
         ],
     ];

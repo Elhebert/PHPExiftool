@@ -28,13 +28,14 @@ class PoseHeadingDegrees extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pose Heading Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397162
+             * line : 281255
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PoseHeadingDegrees extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:PoseHeadingDegrees',
             'desc' => [
+                'en' => 'Pose Heading Degrees',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130436
+             * line : 90130
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

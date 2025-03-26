@@ -28,13 +28,14 @@ class DCFootprintSRS extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Footprint SRS',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106886
+             * line : 79061
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCFootprintSRS extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCFootprintSRS',
             'desc' => [
+                'en' => 'DC Footprint SRS',
             ],
         ],
     ];

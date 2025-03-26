@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412582
+             * line : 290909
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScramblingKeyValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scrambling Key Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167502
+             * line : 114117
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScramblingKeyValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ScramblingKeyValue',
             'desc' => [
+                'en' => 'Scrambling Key Value',
             ],
         ],
     ];

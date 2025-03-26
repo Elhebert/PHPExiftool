@@ -28,13 +28,14 @@ class AudioIsInitialized extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Is Initialized',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312654
+             * line : 218527
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioIsInitialized extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioIsInitialized',
             'desc' => [
+                'en' => 'Audio Is Initialized',
             ],
         ],
     ];

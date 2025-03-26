@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196915
+             * line : 132958
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203231
+             * line : 137179
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

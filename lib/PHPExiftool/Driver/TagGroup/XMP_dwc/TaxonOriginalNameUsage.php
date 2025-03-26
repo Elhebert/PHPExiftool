@@ -28,13 +28,14 @@ class TaxonOriginalNameUsage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Original Name Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106782
+             * line : 78983
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonOriginalNameUsage extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonOriginalNameUsage',
             'desc' => [
+                'en' => 'Taxon Original Name Usage',
             ],
         ],
     ];

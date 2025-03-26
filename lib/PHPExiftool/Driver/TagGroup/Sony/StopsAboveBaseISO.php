@@ -28,13 +28,14 @@ class StopsAboveBaseISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stops Above Base ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362215
+             * line : 252231
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363213
+             * line : 252893
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364236
+             * line : 253564
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365237
+             * line : 254229
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366221
+             * line : 254880
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369228
+             * line : 257510
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370258
+             * line : 258175
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373259
+             * line : 260799
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376260
+             * line : 263423
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387584
+             * line : 273689
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391037
+             * line : 276772
              * type : int16u
              * writable : false
              * count :
@@ -172,6 +183,7 @@ class StopsAboveBaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:StopsAboveBaseISO',
             'desc' => [
+                'en' => 'Stops Above Base ISO',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152342
+             * line : 104834
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailWidth extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:ThumbnailWidth',
             'desc' => [
+                'en' => 'Thumbnail Width',
             ],
         ],
     ];

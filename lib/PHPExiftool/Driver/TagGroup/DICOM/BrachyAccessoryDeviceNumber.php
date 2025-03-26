@@ -28,13 +28,14 @@ class BrachyAccessoryDeviceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brachy Accessory Device Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103609
+             * line : 76701
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrachyAccessoryDeviceNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BrachyAccessoryDeviceNumber',
             'desc' => [
+                'en' => 'Brachy Accessory Device Number',
             ],
         ],
     ];

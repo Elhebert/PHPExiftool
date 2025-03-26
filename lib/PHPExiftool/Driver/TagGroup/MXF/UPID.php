@@ -28,13 +28,14 @@ class UPID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UPID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167254
+             * line : 113886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UPID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UPID',
             'desc' => [
+                'en' => 'UPID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TableLongitudinalIncrement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Longitudinal Increment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95802
+             * line : 69250
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableLongitudinalIncrement extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableLongitudinalIncrement',
             'desc' => [
+                'en' => 'Table Longitudinal Increment',
             ],
         ],
     ];

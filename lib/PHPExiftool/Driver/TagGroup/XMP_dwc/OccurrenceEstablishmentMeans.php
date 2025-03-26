@@ -28,13 +28,14 @@ class OccurrenceEstablishmentMeans extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Establishment Means',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106525
+             * line : 78791
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceEstablishmentMeans extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceEstablishmentMeans',
             'desc' => [
+                'en' => 'Occurrence Establishment Means',
             ],
         ],
     ];

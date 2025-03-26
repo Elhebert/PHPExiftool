@@ -28,13 +28,14 @@ class DeliveredTreatmentTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivered Treatment Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102717
+             * line : 75813
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveredTreatmentTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveredTreatmentTime',
             'desc' => [
+                'en' => 'Delivered Treatment Time',
             ],
         ],
     ];

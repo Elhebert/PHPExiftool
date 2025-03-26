@@ -28,13 +28,14 @@ class GripBatteryADNoLoad extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Grip Battery A/D No Load',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283873
+             * line : 196929
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GripBatteryADNoLoad extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:GripBatteryADNoLoad',
             'desc' => [
+                'en' => 'Grip Battery A/D No Load',
             ],
         ],
     ];

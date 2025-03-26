@@ -28,13 +28,14 @@ class RawDevContrastValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Contrast Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260258
+             * line : 179787
              * type : int16s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class RawDevContrastValue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevContrastValue',
             'desc' => [
+                'en' => 'Raw Dev Contrast Value',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260454
+             * line : 179920
              * type : int16s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class RawDevContrastValue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevContrastValue',
             'desc' => [
+                'en' => 'Raw Dev Contrast Value',
             ],
         ],
     ];

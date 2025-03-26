@@ -28,13 +28,14 @@ class WhiteBalanceFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332811
+             * line : 233468
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
     ];

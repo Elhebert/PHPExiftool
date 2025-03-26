@@ -28,13 +28,14 @@ class XML extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XML',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121574
+             * line : 85262
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XML extends AbstractTagGroup
              */
             'id' => 'Extra.XML:XML',
             'desc' => [
+                'en' => 'XML',
             ],
         ],
     ];

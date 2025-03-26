@@ -28,13 +28,14 @@ class CountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::CSET
-             * line : 327819
+             * line : 231374
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CountryCode extends AbstractTagGroup
              */
             'id' => 'RIFF::CSET.RIFF:CountryCode',
             'desc' => [
+                'en' => 'Country Code',
             ],
         ],
     ];

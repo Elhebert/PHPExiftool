@@ -28,13 +28,14 @@ class ExternalFlashZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255039
+             * line : 176057
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExternalFlashZoom extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:ExternalFlashZoom',
             'desc' => [
+                'en' => 'External Flash Zoom',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258930
+             * line : 178730
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExternalFlashZoom extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ExternalFlashZoom',
             'desc' => [
+                'en' => 'External Flash Zoom',
             ],
         ],
     ];

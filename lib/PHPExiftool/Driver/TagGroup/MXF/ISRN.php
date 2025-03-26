@@ -28,13 +28,14 @@ class ISRN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISRN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167284
+             * line : 113916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISRN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISRN',
             'desc' => [
+                'en' => 'ISRN',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WhiteBalanceTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65912
+             * line : 50068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceTable extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:WhiteBalanceTable',
             'desc' => [
+                'en' => 'White Balance Table',
             ],
         ],
     ];

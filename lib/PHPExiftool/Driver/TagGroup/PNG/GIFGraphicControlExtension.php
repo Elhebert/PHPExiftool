@@ -28,13 +28,14 @@ class GIFGraphicControlExtension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GIF Graphic Control Extension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272555
+             * line : 190379
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GIFGraphicControlExtension extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:GIFGraphicControlExtension',
             'desc' => [
+                'en' => 'GIF Graphic Control Extension',
             ],
         ],
     ];

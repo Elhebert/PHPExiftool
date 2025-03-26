@@ -28,13 +28,14 @@ class Bitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396264
+             * line : 280542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Bitrate extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:Bitrate',
             'desc' => [
+                'en' => 'Bitrate',
             ],
         ],
     ];

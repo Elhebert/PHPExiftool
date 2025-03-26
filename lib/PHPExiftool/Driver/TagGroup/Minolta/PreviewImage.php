@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 182781
+             * line : 124299
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

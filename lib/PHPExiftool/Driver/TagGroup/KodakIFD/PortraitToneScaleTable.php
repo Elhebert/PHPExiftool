@@ -28,13 +28,14 @@ class PortraitToneScaleTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Portrait Tone Scale Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155397
+             * line : 106610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PortraitToneScaleTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PortraitToneScaleTable',
             'desc' => [
+                'en' => 'Portrait Tone Scale Table',
             ],
         ],
     ];

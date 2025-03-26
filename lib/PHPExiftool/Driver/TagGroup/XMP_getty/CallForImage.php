@@ -28,13 +28,14 @@ class CallForImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Call For Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397272
+             * line : 281335
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CallForImage extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:CallForImage',
             'desc' => [
+                'en' => 'Call For Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PresetWhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preset White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394090
+             * line : 279205
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PresetWhiteBalance extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:PresetWhiteBalance',
             'desc' => [
+                'en' => 'Preset White Balance',
             ],
         ],
     ];

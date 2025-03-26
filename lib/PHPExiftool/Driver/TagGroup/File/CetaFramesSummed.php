@@ -28,13 +28,14 @@ class CetaFramesSummed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ceta Frames Summed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166625
+             * line : 113363
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CetaFramesSummed extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:CetaFramesSummed',
             'desc' => [
+                'en' => 'Ceta Frames Summed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LookModTransform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Look Mod Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263641
+             * line : 182371
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LookModTransform extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:LookModTransform',
             'desc' => [
+                'en' => 'Look Mod Transform',
             ],
         ],
     ];

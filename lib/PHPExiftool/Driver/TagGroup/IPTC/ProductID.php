@@ -28,13 +28,14 @@ class ProductID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151175
+             * line : 104326
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class ProductID extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:ProductID',
             'desc' => [
+                'en' => 'Product ID',
             ],
         ],
     ];

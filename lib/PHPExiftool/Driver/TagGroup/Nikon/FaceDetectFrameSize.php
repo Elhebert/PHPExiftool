@@ -28,13 +28,14 @@ class FaceDetectFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detect Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FaceDetect
-             * line : 192224
+             * line : 130249
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FaceDetectFrameSize extends AbstractTagGroup
              */
             'id' => 'Nikon::FaceDetect.Nikon:FaceDetectFrameSize',
             'desc' => [
+                'en' => 'Face Detect Frame Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VolumeNormalization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Normalization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326671
+             * line : 230408
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeNormalization extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:VolumeNormalization',
             'desc' => [
+                'en' => 'Volume Normalization',
             ],
         ],
     ];

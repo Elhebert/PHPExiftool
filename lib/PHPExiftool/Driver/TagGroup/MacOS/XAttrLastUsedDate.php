@@ -28,13 +28,14 @@ class XAttrLastUsedDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr Last Used Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173116
+             * line : 119132
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrLastUsedDate extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrLastUsedDate',
             'desc' => [
+                'en' => 'X Attr Last Used Date',
             ],
         ],
     ];

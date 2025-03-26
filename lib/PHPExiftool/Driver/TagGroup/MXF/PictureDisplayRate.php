@@ -28,13 +28,14 @@ class PictureDisplayRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Display Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170269
+             * line : 116544
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureDisplayRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PictureDisplayRate',
             'desc' => [
+                'en' => 'Picture Display Rate',
             ],
         ],
     ];

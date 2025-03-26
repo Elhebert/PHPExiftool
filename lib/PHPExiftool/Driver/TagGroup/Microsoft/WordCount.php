@@ -28,13 +28,14 @@ class WordCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Word Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176540
+             * line : 121476
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WordCount extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WordCount',
             'desc' => [
+                'en' => 'Word Count',
             ],
         ],
     ];

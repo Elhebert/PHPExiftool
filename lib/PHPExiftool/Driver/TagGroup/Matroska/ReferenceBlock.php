@@ -28,13 +28,14 @@ class ReferenceBlock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Block',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173409
+             * line : 119361
              * type : signed
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceBlock extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ReferenceBlock',
             'desc' => [
+                'en' => 'Reference Block',
             ],
         ],
     ];

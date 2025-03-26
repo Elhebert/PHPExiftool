@@ -28,13 +28,14 @@ class GPSAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GPS360Fly
-             * line : 313165
+             * line : 218965
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::GPS360Fly.QuickTime:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324582
+             * line : 229314
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::camm5
-             * line : 326388
+             * line : 230266
              * type : double
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm5.QuickTime:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
         3 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326513
+             * line : 230296
              * type : float
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
         4 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326747
+             * line : 230474
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
     ];

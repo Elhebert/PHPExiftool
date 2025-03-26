@@ -28,13 +28,14 @@ class VBEEndOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBE End Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172264
+             * line : 118429
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBEEndOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VBEEndOffset',
             'desc' => [
+                'en' => 'VBE End Offset',
             ],
         ],
     ];

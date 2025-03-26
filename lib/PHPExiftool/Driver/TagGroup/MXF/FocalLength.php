@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169218
+             * line : 115660
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170311
+             * line : 116586
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

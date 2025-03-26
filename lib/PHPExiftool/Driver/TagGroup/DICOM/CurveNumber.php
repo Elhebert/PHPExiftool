@@ -28,13 +28,14 @@ class CurveNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curve Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97890
+             * line : 71263
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurveNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurveNumber',
             'desc' => [
+                'en' => 'Curve Number',
             ],
         ],
     ];

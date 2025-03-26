@@ -28,13 +28,14 @@ class ObjectCountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168392
+             * line : 114887
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ObjectCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectCountryCode',
             'desc' => [
+                'en' => 'Object Country Code',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170453
+             * line : 116697
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ObjectCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectCountryCode',
             'desc' => [
+                'en' => 'Object Country Code',
             ],
         ],
     ];

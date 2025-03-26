@@ -28,13 +28,14 @@ class VOIType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VOI Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101695
+             * line : 74838
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VOIType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VOIType',
             'desc' => [
+                'en' => 'VOI Type',
             ],
         ],
     ];

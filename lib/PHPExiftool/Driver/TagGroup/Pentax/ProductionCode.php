@@ -28,13 +28,14 @@ class ProductionCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Production Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraInfo
-             * line : 284337
+             * line : 197379
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ProductionCode extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraInfo.Pentax:ProductionCode',
             'desc' => [
+                'en' => 'Production Code',
             ],
         ],
     ];

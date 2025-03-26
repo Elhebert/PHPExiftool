@@ -28,13 +28,14 @@ class MediaClassPrimaryID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Class Primary ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 395991
+             * line : 280309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaClassPrimaryID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaClassPrimaryID',
             'desc' => [
+                'en' => 'Media Class Primary ID',
             ],
         ],
     ];

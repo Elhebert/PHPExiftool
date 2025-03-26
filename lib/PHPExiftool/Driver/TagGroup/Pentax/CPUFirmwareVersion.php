@@ -28,13 +28,14 @@ class CPUFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CPU Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298725
+             * line : 208446
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CPUFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:CPUFirmwareVersion',
             'desc' => [
+                'en' => 'CPU Firmware Version',
             ],
         ],
     ];

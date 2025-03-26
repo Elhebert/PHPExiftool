@@ -28,13 +28,14 @@ class CreatorTool extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Tool',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::meta
-             * line : 3112
+             * line : 1965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorTool extends AbstractTagGroup
              */
             'id' => 'Audible::meta.Audible:CreatorTool',
             'desc' => [
+                'en' => 'Creator Tool',
             ],
         ],
     ];

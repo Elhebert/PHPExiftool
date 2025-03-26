@@ -28,13 +28,14 @@ class Profile1Width extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile 1 Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Profiles
-             * line : 395095
+             * line : 279850
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Profile1Width extends AbstractTagGroup
              */
             'id' => 'Torrent::Profiles.Torrent:Profile1Width',
             'desc' => [
+                'en' => 'Profile 1 Width',
             ],
         ],
     ];

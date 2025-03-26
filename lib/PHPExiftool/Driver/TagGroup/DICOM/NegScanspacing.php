@@ -28,13 +28,14 @@ class NegScanspacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Neg Scanspacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100430
+             * line : 73602
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NegScanspacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NegScanspacing',
             'desc' => [
+                'en' => 'Neg Scanspacing',
             ],
         ],
     ];

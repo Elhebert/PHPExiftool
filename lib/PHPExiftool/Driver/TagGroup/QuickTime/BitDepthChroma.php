@@ -28,13 +28,14 @@ class BitDepthChroma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth Chroma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313506
+             * line : 219251
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepthChroma extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:BitDepthChroma',
             'desc' => [
+                'en' => 'Bit Depth Chroma',
             ],
         ],
     ];

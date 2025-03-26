@@ -28,13 +28,14 @@ class ColorResponseUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Response Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111323
+             * line : 81626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorResponseUnit extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ColorResponseUnit',
             'desc' => [
+                'en' => 'Color Response Unit',
             ],
         ],
     ];

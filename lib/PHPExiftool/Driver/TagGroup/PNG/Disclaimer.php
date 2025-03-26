@@ -28,13 +28,14 @@ class Disclaimer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Disclaimer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 272892
+             * line : 190542
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Disclaimer extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:Disclaimer',
             'desc' => [
+                'en' => 'Disclaimer',
             ],
         ],
     ];

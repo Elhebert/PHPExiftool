@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Info
-             * line : 107135
+             * line : 79212
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'DjVu::Info.DjVu:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

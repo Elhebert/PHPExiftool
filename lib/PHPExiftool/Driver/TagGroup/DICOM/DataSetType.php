@@ -28,13 +28,14 @@ class DataSetType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Set Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94736
+             * line : 68224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataSetType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataSetType',
             'desc' => [
+                'en' => 'Data Set Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MajorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Major Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170732
+             * line : 116967
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MajorVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MajorVersion',
             'desc' => [
+                'en' => 'Major Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HL7DocumentEffectiveTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HL7 Document Effective Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100260
+             * line : 73434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HL7DocumentEffectiveTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HL7DocumentEffectiveTime',
             'desc' => [
+                'en' => 'HL7 Document Effective Time',
             ],
         ],
     ];

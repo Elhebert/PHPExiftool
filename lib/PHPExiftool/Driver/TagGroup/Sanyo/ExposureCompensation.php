@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MOV
-             * line : 335811
+             * line : 235580
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sanyo::MOV.Sanyo:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 336030
+             * line : 235622
              * type : rational64s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

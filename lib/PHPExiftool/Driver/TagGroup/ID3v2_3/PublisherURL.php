@@ -28,13 +28,14 @@ class PublisherURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publisher URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149076
+             * line : 103430
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PublisherURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:PublisherURL',
             'desc' => [
+                'en' => 'Publisher URL',
             ],
         ],
     ];

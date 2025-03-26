@@ -28,13 +28,14 @@ class DigitalSignaturesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signatures Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104417
+             * line : 77490
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignaturesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitalSignaturesSequence',
             'desc' => [
+                'en' => 'Digital Signatures Sequence',
             ],
         ],
     ];

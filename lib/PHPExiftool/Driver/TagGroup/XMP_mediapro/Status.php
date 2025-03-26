@@ -28,13 +28,14 @@ class Status extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::MediaPro
-             * line : 397429
+             * line : 281434
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Status extends AbstractTagGroup
              */
             'id' => 'XMP::MediaPro.XMP-mediapro:Status',
             'desc' => [
+                'en' => 'Status',
             ],
         ],
     ];

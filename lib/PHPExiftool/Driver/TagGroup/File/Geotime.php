@@ -28,13 +28,14 @@ class Geotime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Geotime',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121382
+             * line : 85175
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Geotime extends AbstractTagGroup
              */
             'id' => 'Extra.File:Geotime',
             'desc' => [
+                'en' => 'Geotime',
             ],
         ],
     ];

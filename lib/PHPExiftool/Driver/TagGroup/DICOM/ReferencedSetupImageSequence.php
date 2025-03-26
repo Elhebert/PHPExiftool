@@ -28,13 +28,14 @@ class ReferencedSetupImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Setup Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103924
+             * line : 77013
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSetupImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSetupImageSequence',
             'desc' => [
+                'en' => 'Referenced Setup Image Sequence',
             ],
         ],
     ];

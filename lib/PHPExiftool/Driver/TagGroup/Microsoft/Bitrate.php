@@ -28,13 +28,14 @@ class Bitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174488
+             * line : 120158
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Bitrate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Bitrate',
             'desc' => [
+                'en' => 'Bitrate',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175860
+             * line : 121026
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Bitrate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Bitrate',
             'desc' => [
+                'en' => 'Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SynchronizationFrameOfReferenceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Synchronization Frame Of Reference UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97957
+             * line : 71308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SynchronizationFrameOfReferenceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SynchronizationFrameOfReferenceUID',
             'desc' => [
+                'en' => 'Synchronization Frame Of Reference UID',
             ],
         ],
     ];

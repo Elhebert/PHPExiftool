@@ -28,13 +28,14 @@ class GradientBasedCorrActive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398970
+             * line : 282477
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrActive extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrActive',
             'desc' => [
+                'en' => 'Gradient Based Corr Active',
             ],
         ],
     ];

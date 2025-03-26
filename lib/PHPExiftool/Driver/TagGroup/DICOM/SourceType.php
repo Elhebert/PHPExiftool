@@ -28,13 +28,14 @@ class SourceType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103537
+             * line : 76632
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceType',
             'desc' => [
+                'en' => 'Source Type',
             ],
         ],
     ];

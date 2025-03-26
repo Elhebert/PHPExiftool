@@ -28,6 +28,7 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
@@ -42,6 +43,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'AFCP::Main.AFCP:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

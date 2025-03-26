@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 140349
+             * line : 98016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

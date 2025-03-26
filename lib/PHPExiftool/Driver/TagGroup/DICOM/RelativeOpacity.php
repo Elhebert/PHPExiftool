@@ -28,13 +28,14 @@ class RelativeOpacity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Opacity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101408
+             * line : 74556
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeOpacity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelativeOpacity',
             'desc' => [
+                'en' => 'Relative Opacity',
             ],
         ],
     ];

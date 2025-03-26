@@ -28,13 +28,14 @@ class HasAudio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Audio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1306
+             * line : 571
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasAudio extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:HasAudio',
             'desc' => [
+                'en' => 'Has Audio',
             ],
         ],
     ];

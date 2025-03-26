@@ -28,13 +28,14 @@ class DistortionControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205314
+             * line : 137991
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionControl extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:DistortionControl',
             'desc' => [
+                'en' => 'Distortion Control',
             ],
         ],
     ];

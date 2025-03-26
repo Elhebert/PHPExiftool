@@ -28,13 +28,14 @@ class BitsPerSample extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 109964
+             * line : 81207
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280321
+             * line : 194563
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
     ];

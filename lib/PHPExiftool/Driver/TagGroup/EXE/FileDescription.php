@@ -28,13 +28,14 @@ class FileDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109100
+             * line : 80636
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileDescription extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:FileDescription',
             'desc' => [
+                'en' => 'File Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PlanarConfiguration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Planar Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412164
+             * line : 290797
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlanarConfiguration extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:PlanarConfiguration',
             'desc' => [
+                'en' => 'Planar Configuration',
             ],
         ],
     ];

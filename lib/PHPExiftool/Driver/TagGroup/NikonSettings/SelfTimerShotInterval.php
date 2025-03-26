@@ -28,13 +28,14 @@ class SelfTimerShotInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Self Timer Shot Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243969
+             * line : 166911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
     ];

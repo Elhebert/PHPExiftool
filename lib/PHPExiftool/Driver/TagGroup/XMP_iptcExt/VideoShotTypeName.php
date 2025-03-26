@@ -28,13 +28,14 @@ class VideoShotTypeName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Shot Type Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409885
+             * line : 289642
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoShotTypeName extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:VideoShotTypeName',
             'desc' => [
+                'en' => 'Video Shot Type Name',
             ],
         ],
     ];

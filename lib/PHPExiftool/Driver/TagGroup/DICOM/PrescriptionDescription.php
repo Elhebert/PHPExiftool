@@ -28,13 +28,14 @@ class PrescriptionDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prescription Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102963
+             * line : 76059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrescriptionDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrescriptionDescription',
             'desc' => [
+                'en' => 'Prescription Description',
             ],
         ],
     ];

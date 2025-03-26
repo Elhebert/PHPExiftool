@@ -28,13 +28,14 @@ class BlackPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300681
+             * line : 209622
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class BlackPoint extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:BlackPoint',
             'desc' => [
+                'en' => 'Black Point',
             ],
         ],
     ];

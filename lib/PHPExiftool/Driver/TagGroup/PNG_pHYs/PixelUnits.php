@@ -28,13 +28,14 @@ class PixelUnits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::PhysicalPixel
-             * line : 272670
+             * line : 190442
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelUnits extends AbstractTagGroup
              */
             'id' => 'PNG::PhysicalPixel.PNG-pHYs:PixelUnits',
             'desc' => [
+                'en' => 'Pixel Units',
             ],
         ],
     ];

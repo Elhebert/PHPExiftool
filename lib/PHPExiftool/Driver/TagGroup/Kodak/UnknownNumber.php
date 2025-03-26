@@ -28,13 +28,14 @@ class UnknownNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type9
-             * line : 160652
+             * line : 109778
              * type : string
              * writable : true
              * count : 12
@@ -42,12 +43,13 @@ class UnknownNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Type9.Kodak:UnknownNumber',
             'desc' => [
+                'en' => 'Unknown Number',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type9
-             * line : 160655
+             * line : 109781
              * type : string
              * writable : true
              * count : 12
@@ -55,6 +57,7 @@ class UnknownNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Type9.Kodak:UnknownNumber',
             'desc' => [
+                'en' => 'Unknown Number',
             ],
         ],
     ];

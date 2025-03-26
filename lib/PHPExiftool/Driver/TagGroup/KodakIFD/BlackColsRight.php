@@ -28,13 +28,14 @@ class BlackColsRight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Cols Right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156008
+             * line : 107219
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackColsRight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackColsRight',
             'desc' => [
+                'en' => 'Black Cols Right',
             ],
         ],
     ];

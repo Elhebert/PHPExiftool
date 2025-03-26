@@ -28,13 +28,14 @@ class MetadataSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166394
+             * line : 113142
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataSize extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:MetadataSize',
             'desc' => [
+                'en' => 'Metadata Size',
             ],
         ],
     ];

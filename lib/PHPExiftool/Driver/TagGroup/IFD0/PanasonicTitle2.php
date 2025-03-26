@@ -28,13 +28,14 @@ class PanasonicTitle2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panasonic Title 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120055
+             * line : 84411
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanasonicTitle2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PanasonicTitle2',
             'desc' => [
+                'en' => 'Panasonic Title 2',
             ],
         ],
     ];

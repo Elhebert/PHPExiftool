@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330572
+             * line : 232610
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TableAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95805
+             * line : 69253
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableAngle',
             'desc' => [
+                'en' => 'Table Angle',
             ],
         ],
     ];

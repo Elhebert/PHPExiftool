@@ -28,13 +28,14 @@ class ImageDuplicationConstraints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Duplication Constraints',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265437
+             * line : 183480
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageDuplicationConstraints extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:ImageDuplicationConstraints',
             'desc' => [
+                'en' => 'Image Duplication Constraints',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HJR_NReductionFlat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HJR N Reduction Flat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306137
+             * line : 212642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HJR_NReductionFlat extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:HJR_NReductionFlat',
             'desc' => [
+                'en' => 'HJR N Reduction Flat',
             ],
         ],
     ];

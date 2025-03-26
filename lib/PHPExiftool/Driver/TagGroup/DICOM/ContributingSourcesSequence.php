@@ -28,13 +28,14 @@ class ContributingSourcesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contributing Sources Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97237
+             * line : 70633
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContributingSourcesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContributingSourcesSequence',
             'desc' => [
+                'en' => 'Contributing Sources Sequence',
             ],
         ],
     ];

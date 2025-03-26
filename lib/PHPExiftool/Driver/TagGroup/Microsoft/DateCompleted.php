@@ -28,13 +28,14 @@ class DateCompleted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Completed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176062
+             * line : 121140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateCompleted extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DateCompleted',
             'desc' => [
+                'en' => 'Date Completed',
             ],
         ],
     ];

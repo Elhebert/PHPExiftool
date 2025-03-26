@@ -28,13 +28,14 @@ class MasterGainAdjustment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Master Gain Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393479
+             * line : 278998
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MasterGainAdjustment extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:MasterGainAdjustment',
             'desc' => [
+                'en' => 'Master Gain Adjustment',
             ],
         ],
     ];

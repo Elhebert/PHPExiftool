@@ -28,13 +28,14 @@ class BlckLvlOddCols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blck Lvl Odd Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307245
+             * line : 213743
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlckLvlOddCols extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:BlckLvlOddCols',
             'desc' => [
+                'en' => 'Blck Lvl Odd Cols',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DepthMapName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth Map Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 335010
+             * line : 235066
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthMapName extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:DepthMapName',
             'desc' => [
+                'en' => 'Depth Map Name',
             ],
         ],
     ];

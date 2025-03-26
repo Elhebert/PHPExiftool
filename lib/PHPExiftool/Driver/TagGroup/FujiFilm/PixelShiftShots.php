@@ -28,13 +28,14 @@ class PixelShiftShots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Shift Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130349
+             * line : 90060
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelShiftShots extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:PixelShiftShots',
             'desc' => [
+                'en' => 'Pixel Shift Shots',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PackBitsRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Packed CopyBits with Clipped Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265002
+             * line : 183221
              * type : BitsRgn#
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackBitsRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PackBitsRgn',
             'desc' => [
+                'en' => 'Packed CopyBits with Clipped Region',
             ],
         ],
     ];

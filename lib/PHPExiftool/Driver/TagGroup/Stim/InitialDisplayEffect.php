@@ -28,13 +28,14 @@ class InitialDisplayEffect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Display Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394683
+             * line : 279603
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialDisplayEffect extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:InitialDisplayEffect',
             'desc' => [
+                'en' => 'Initial Display Effect',
             ],
         ],
     ];

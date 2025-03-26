@@ -28,13 +28,14 @@ class CountsSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Counts Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100968
+             * line : 74118
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CountsSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CountsSource',
             'desc' => [
+                'en' => 'Counts Source',
             ],
         ],
     ];

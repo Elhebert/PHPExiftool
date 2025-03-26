@@ -28,13 +28,14 @@ class ExternalFlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196806
+             * line : 132890
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ExternalFlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ExternalFlashExposureComp',
             'desc' => [
+                'en' => 'External Flash Exposure Comp',
             ],
         ],
     ];

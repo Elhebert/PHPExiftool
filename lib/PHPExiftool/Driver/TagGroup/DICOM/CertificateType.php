@@ -28,13 +28,14 @@ class CertificateType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Certificate Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101904
+             * line : 75045
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CertificateType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CertificateType',
             'desc' => [
+                'en' => 'Certificate Type',
             ],
         ],
     ];

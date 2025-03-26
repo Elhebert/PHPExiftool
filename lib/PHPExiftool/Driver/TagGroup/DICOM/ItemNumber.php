@@ -28,13 +28,14 @@ class ItemNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97881
+             * line : 71254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ItemNumber',
             'desc' => [
+                'en' => 'Item Number',
             ],
         ],
     ];

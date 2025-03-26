@@ -28,13 +28,14 @@ class BitsPerPixel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263891
+             * line : 182499
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BitsPerPixel extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:BitsPerPixel',
             'desc' => [
+                'en' => 'Bits Per Pixel',
             ],
         ],
         1 => [
             /**
              * table_name : PGF::Main
-             * line : 264526
+             * line : 182822
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BitsPerPixel extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:BitsPerPixel',
             'desc' => [
+                'en' => 'Bits Per Pixel',
             ],
         ],
     ];

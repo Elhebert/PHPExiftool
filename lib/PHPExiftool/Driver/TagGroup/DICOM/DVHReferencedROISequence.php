@@ -28,13 +28,14 @@ class DVHReferencedROISequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Referenced ROI Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102498
+             * line : 75597
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHReferencedROISequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHReferencedROISequence',
             'desc' => [
+                'en' => 'DVH Referenced ROI Sequence',
             ],
         ],
     ];

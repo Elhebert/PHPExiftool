@@ -28,13 +28,14 @@ class MovieSubSelectorAssignment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Sub Selector Assignment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216301
+             * line : 145319
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieSubSelectorAssignment extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MovieSubSelectorAssignment',
             'desc' => [
+                'en' => 'Movie Sub Selector Assignment',
             ],
         ],
     ];

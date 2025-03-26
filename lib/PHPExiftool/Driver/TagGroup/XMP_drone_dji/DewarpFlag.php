@@ -28,13 +28,14 @@ class DewarpFlag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dewarp Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104625
+             * line : 77662
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DewarpFlag extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:DewarpFlag',
             'desc' => [
+                'en' => 'Dewarp Flag',
             ],
         ],
     ];

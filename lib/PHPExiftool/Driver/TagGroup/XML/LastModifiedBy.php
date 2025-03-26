@@ -28,13 +28,14 @@ class LastModifiedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Modified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249372
+             * line : 171907
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastModifiedBy extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:LastModifiedBy',
             'desc' => [
+                'en' => 'Last Modified By',
             ],
         ],
     ];

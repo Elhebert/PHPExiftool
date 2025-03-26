@@ -28,13 +28,14 @@ class UniqueDocumentID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150754
+             * line : 104084
              * type : string
              * writable : true
              * count : 128
@@ -42,6 +43,7 @@ class UniqueDocumentID extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:UniqueDocumentID',
             'desc' => [
+                'en' => 'Unique Document ID',
             ],
         ],
     ];

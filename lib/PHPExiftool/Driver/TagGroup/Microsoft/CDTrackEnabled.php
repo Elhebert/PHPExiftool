@@ -28,13 +28,14 @@ class CDTrackEnabled extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CD Track Enabled',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174498
+             * line : 120167
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CDTrackEnabled extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CDTrackEnabled',
             'desc' => [
+                'en' => 'CD Track Enabled',
             ],
         ],
     ];

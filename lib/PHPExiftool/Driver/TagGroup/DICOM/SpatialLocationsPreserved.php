@@ -28,13 +28,14 @@ class SpatialLocationsPreserved extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spatial Locations Preserved',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99047
+             * line : 72279
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpatialLocationsPreserved extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpatialLocationsPreserved',
             'desc' => [
+                'en' => 'Spatial Locations Preserved',
             ],
         ],
     ];

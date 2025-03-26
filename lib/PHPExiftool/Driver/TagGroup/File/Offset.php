@@ -28,13 +28,14 @@ class Offset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166670
+             * line : 113408
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Offset extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Offset',
             'desc' => [
+                'en' => 'Offset',
             ],
         ],
     ];

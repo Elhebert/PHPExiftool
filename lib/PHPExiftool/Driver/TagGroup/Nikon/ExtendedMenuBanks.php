@@ -28,13 +28,14 @@ class ExtendedMenuBanks extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extended Menu Banks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200429
+             * line : 135384
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtendedMenuBanks extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:ExtendedMenuBanks',
             'desc' => [
+                'en' => 'Extended Menu Banks',
             ],
         ],
     ];

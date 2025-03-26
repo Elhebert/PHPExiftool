@@ -28,13 +28,14 @@ class NumRules extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Rules',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330446
+             * line : 232520
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumRules extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:NumRules',
             'desc' => [
+                'en' => 'Num Rules',
             ],
         ],
     ];

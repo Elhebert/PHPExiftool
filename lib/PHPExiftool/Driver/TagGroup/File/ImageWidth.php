@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3200
+             * line : 2021
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : BMP::OS2
-             * line : 3496
+             * line : 2165
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'BMP::OS2.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         2 => [
             /**
              * table_name : BPG::Main
-             * line : 3692
+             * line : 2271
              * type : var_ue7
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         3 => [
             /**
              * table_name : DPX::Main
-             * line : 105539
+             * line : 78115
              * type : int32u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         4 => [
             /**
              * table_name : Extra
-             * line : 121426
+             * line : 85193
              * type : ?
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Extra.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         5 => [
             /**
              * table_name : FLIF::Main
-             * line : 122073
+             * line : 85525
              * type : ?
              * writable : false
              * count :
@@ -107,12 +113,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'FLIF::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         6 => [
             /**
              * table_name : JPEG::SOF
-             * line : 152991
+             * line : 105237
              * type : ?
              * writable : false
              * count :
@@ -120,12 +127,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'JPEG::SOF.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         7 => [
             /**
              * table_name : MRC::Main
-             * line : 166804
+             * line : 113539
              * type : int32u
              * writable : false
              * count :
@@ -133,12 +141,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         8 => [
             /**
              * table_name : Other::PFM
-             * line : 263813
+             * line : 182456
              * type : ?
              * writable : false
              * count :
@@ -146,12 +155,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Other::PFM.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         9 => [
             /**
              * table_name : PCX::Main
-             * line : 263904
+             * line : 182508
              * type : int16u
              * writable : false
              * count :
@@ -159,12 +169,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         10 => [
             /**
              * table_name : PGF::Main
-             * line : 264469
+             * line : 182810
              * type : int32u
              * writable : false
              * count :
@@ -172,6 +183,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

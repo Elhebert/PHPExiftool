@@ -28,13 +28,14 @@ class SensorBitDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279437
+             * line : 194032
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorBitDepth extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:SensorBitDepth',
             'desc' => [
+                'en' => 'Sensor Bit Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RTPlanLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Plan Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102936
+             * line : 76032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTPlanLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTPlanLabel',
             'desc' => [
+                'en' => 'RT Plan Label',
             ],
         ],
     ];

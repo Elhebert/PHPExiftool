@@ -28,13 +28,14 @@ class ISSN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISSN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167269
+             * line : 113901
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISSN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISSN',
             'desc' => [
+                'en' => 'ISSN',
             ],
         ],
     ];

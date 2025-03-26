@@ -28,13 +28,14 @@ class IndexEntryArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index Entry Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171417
+             * line : 117619
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexEntryArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IndexEntryArray',
             'desc' => [
+                'en' => 'Index Entry Array',
             ],
         ],
     ];

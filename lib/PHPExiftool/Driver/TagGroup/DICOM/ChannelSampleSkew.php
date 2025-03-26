@@ -28,13 +28,14 @@ class ChannelSampleSkew extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Sample Skew',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99518
+             * line : 72729
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelSampleSkew extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelSampleSkew',
             'desc' => [
+                'en' => 'Channel Sample Skew',
             ],
         ],
     ];

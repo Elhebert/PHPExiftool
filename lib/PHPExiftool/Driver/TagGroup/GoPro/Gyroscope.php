@@ -28,13 +28,14 @@ class Gyroscope extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gyroscope',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139574
+             * line : 97652
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gyroscope extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Gyroscope',
             'desc' => [
+                'en' => 'Gyroscope',
             ],
         ],
     ];

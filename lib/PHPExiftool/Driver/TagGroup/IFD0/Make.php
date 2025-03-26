@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110581
+             * line : 81455
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280509
+             * line : 194649
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

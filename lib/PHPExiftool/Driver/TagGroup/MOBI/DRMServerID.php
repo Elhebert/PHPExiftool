@@ -28,13 +28,14 @@ class DRMServerID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM Server ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273407
+             * line : 190694
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRMServerID extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:DRMServerID',
             'desc' => [
+                'en' => 'DRM Server ID',
             ],
         ],
     ];

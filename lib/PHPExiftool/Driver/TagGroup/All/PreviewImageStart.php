@@ -28,13 +28,14 @@ class PreviewImageStart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110664
+             * line : 81470
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Exif::Main.All:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InputDeviceSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Device Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105882
+             * line : 78366
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class InputDeviceSerialNumber extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:InputDeviceSerialNumber',
             'desc' => [
+                'en' => 'Input Device Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTempCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299784
+             * line : 208968
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
     ];

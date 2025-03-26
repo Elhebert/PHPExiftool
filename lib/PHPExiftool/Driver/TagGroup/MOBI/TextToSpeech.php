@@ -28,13 +28,14 @@ class TextToSpeech extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text To Speech',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273617
+             * line : 190813
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextToSpeech extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:TextToSpeech',
             'desc' => [
+                'en' => 'Text To Speech',
             ],
         ],
     ];

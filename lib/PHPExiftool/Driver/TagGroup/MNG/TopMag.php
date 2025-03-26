@@ -28,13 +28,14 @@ class TopMag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Top Mag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165158
+             * line : 112256
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TopMag extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:TopMag',
             'desc' => [
+                'en' => 'Top Mag',
             ],
         ],
     ];

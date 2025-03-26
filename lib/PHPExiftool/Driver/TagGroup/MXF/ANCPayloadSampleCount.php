@@ -28,13 +28,14 @@ class ANCPayloadSampleCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ANC Payload Sample Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172205
+             * line : 118372
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ANCPayloadSampleCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ANCPayloadSampleCount',
             'desc' => [
+                'en' => 'ANC Payload Sample Count',
             ],
         ],
     ];

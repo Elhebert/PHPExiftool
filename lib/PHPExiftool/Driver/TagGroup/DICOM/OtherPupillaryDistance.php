@@ -28,13 +28,14 @@ class OtherPupillaryDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Pupillary Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100703
+             * line : 73872
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherPupillaryDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OtherPupillaryDistance',
             'desc' => [
+                'en' => 'Other Pupillary Distance',
             ],
         ],
     ];

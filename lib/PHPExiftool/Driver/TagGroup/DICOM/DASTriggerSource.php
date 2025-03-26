@@ -28,13 +28,14 @@ class DASTriggerSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Trigger Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100457
+             * line : 73629
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASTriggerSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASTriggerSource',
             'desc' => [
+                'en' => 'DAS Trigger Source',
             ],
         ],
     ];

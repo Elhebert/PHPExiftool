@@ -28,13 +28,14 @@ class GeometricMaximumDistortion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geometric Maximum Distortion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99216
+             * line : 72435
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeometricMaximumDistortion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeometricMaximumDistortion',
             'desc' => [
+                'en' => 'Geometric Maximum Distortion',
             ],
         ],
     ];

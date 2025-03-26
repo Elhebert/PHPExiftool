@@ -28,13 +28,14 @@ class NominalBeamEnergyUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Beam Energy Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102978
+             * line : 76074
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalBeamEnergyUnit extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalBeamEnergyUnit',
             'desc' => [
+                'en' => 'Nominal Beam Energy Unit',
             ],
         ],
     ];

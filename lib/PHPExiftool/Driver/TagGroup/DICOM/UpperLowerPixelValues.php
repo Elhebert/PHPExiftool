@@ -28,13 +28,14 @@ class UpperLowerPixelValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Upper Lower Pixel Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95942
+             * line : 69367
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UpperLowerPixelValues extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UpperLowerPixelValues',
             'desc' => [
+                'en' => 'Upper Lower Pixel Values',
             ],
         ],
     ];

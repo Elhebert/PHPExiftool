@@ -28,13 +28,14 @@ class ClarityControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clarity Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300673
+             * line : 209614
              * type : int8s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ClarityControl extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ClarityControl',
             'desc' => [
+                'en' => 'Clarity Control',
             ],
         ],
     ];

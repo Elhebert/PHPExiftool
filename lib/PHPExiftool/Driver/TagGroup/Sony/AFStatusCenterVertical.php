@@ -28,13 +28,14 @@ class AFStatusCenterVertical extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Center Vertical',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343489
+             * line : 240433
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusCenterVertical extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusCenterVertical',
             'desc' => [
+                'en' => 'AF Status Center Vertical',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFStatus19
-             * line : 343777
+             * line : 240712
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFStatusCenterVertical extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus19.Sony:AFStatusCenterVertical',
             'desc' => [
+                'en' => 'AF Status Center Vertical',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345838
+             * line : 242473
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFStatusCenterVertical extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusCenterVertical',
             'desc' => [
+                'en' => 'AF Status Center Vertical',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346551
+             * line : 242862
              * type : int16s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFStatusCenterVertical extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusCenterVertical',
             'desc' => [
+                'en' => 'AF Status Center Vertical',
             ],
         ],
     ];

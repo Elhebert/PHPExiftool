@@ -28,13 +28,14 @@ class DisplayUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124689
+             * line : 87140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayUnits extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:DisplayUnits',
             'desc' => [
+                'en' => 'Display Units',
             ],
         ],
     ];

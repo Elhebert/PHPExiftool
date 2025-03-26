@@ -28,13 +28,14 @@ class PreviewImageLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::PXTH
-             * line : 301516
+             * line : 209832
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImageLength extends AbstractTagGroup
              */
             'id' => 'Pentax::PXTH.Pentax:PreviewImageLength',
             'desc' => [
+                'en' => 'Preview Image Length',
             ],
         ],
     ];

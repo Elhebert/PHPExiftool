@@ -28,13 +28,14 @@ class PalmFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palm File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::Main
-             * line : 273870
+             * line : 190972
              * type : undef
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class PalmFileType extends AbstractTagGroup
              */
             'id' => 'Palm::Main.Palm:PalmFileType',
             'desc' => [
+                'en' => 'Palm File Type',
             ],
         ],
     ];

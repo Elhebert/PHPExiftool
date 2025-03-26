@@ -28,13 +28,14 @@ class IncrementalTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Incremental Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402799
+             * line : 285936
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IncrementalTemperature extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:IncrementalTemperature',
             'desc' => [
+                'en' => 'Incremental Temperature',
             ],
         ],
     ];

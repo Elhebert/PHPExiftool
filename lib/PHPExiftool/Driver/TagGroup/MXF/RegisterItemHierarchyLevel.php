@@ -28,13 +28,14 @@ class RegisterItemHierarchyLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Item Hierarchy Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172343
+             * line : 118504
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterItemHierarchyLevel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterItemHierarchyLevel',
             'desc' => [
+                'en' => 'Register Item Hierarchy Level',
             ],
         ],
     ];

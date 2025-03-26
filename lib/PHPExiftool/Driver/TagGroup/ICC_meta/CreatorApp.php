@@ -28,13 +28,14 @@ class CreatorApp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator App',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Metadata
-             * line : 147017
+             * line : 102077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorApp extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Metadata.ICC-meta:CreatorApp',
             'desc' => [
+                'en' => 'Creator App',
             ],
         ],
     ];

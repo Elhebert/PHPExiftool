@@ -28,13 +28,14 @@ class FlashCurtain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Curtain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277151
+             * line : 192836
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashCurtain extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:FlashCurtain',
             'desc' => [
+                'en' => 'Flash Curtain',
             ],
         ],
     ];

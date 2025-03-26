@@ -28,13 +28,14 @@ class ImageCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199381
+             * line : 134562
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageCount extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageCount',
             'desc' => [
+                'en' => 'Image Count',
             ],
         ],
     ];

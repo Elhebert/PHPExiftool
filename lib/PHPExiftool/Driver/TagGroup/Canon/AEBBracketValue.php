@@ -28,13 +28,14 @@ class AEBBracketValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AEB Bracket Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70685
+             * line : 52812
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEBBracketValue extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:AEBBracketValue',
             'desc' => [
+                'en' => 'AEB Bracket Value',
             ],
         ],
     ];

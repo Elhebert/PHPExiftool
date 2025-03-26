@@ -28,13 +28,14 @@ class LocalBasePath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Base Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161116
+             * line : 110026
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalBasePath extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:LocalBasePath',
             'desc' => [
+                'en' => 'Local Base Path',
             ],
         ],
     ];

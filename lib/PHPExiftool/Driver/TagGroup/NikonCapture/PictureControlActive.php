@@ -28,13 +28,14 @@ class PictureControlActive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211191
+             * line : 142013
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureControlActive extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:PictureControlActive',
             'desc' => [
+                'en' => 'Picture Control Active',
             ],
         ],
     ];

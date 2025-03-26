@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167795
+             * line : 114368
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

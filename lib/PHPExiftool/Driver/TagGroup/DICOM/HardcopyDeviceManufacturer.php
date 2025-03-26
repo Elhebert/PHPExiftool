@@ -28,13 +28,14 @@ class HardcopyDeviceManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hardcopy Device Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95604
+             * line : 69058
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HardcopyDeviceManufacturer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HardcopyDeviceManufacturer',
             'desc' => [
+                'en' => 'Hardcopy Device Manufacturer',
             ],
         ],
     ];

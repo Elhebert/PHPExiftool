@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163075
+             * line : 111311
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

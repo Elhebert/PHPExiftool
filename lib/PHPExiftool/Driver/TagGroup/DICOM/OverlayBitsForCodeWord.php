@@ -28,13 +28,14 @@ class OverlayBitsForCodeWord extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Bits For Code Word',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104351
+             * line : 77424
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayBitsForCodeWord extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayBitsForCodeWord',
             'desc' => [
+                'en' => 'Overlay Bits For Code Word',
             ],
         ],
     ];

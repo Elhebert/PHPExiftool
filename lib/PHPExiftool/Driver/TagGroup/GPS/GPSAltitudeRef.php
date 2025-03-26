@@ -28,13 +28,14 @@ class GPSAltitudeRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Altitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131854
+             * line : 90856
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GPSAltitudeRef extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSAltitudeRef',
             'desc' => [
+                'en' => 'GPS Altitude Ref',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141462
+             * line : 98228
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSAltitudeRef extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSAltitudeRef',
             'desc' => [
+                'en' => 'GPS Altitude Ref',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202913
+             * line : 137077
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSAltitudeRef extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSAltitudeRef',
             'desc' => [
+                'en' => 'GPS Altitude Ref',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301239
+             * line : 209774
              * type : int8u
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class GPSAltitudeRef extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSAltitudeRef',
             'desc' => [
+                'en' => 'GPS Altitude Ref',
             ],
         ],
     ];

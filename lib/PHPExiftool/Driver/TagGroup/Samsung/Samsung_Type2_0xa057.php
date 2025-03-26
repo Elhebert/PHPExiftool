@@ -28,13 +28,14 @@ class Samsung_Type2_0xa057 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Samsung Type 2 0xa057',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335636
+             * line : 235529
              * type : int32s
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class Samsung_Type2_0xa057 extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:Samsung_Type2_0xa057',
             'desc' => [
+                'en' => 'Samsung Type 2 0xa057',
             ],
         ],
     ];

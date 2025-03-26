@@ -28,13 +28,14 @@ class ImageEffects extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Effects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333170
+             * line : 233661
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageEffects extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:ImageEffects',
             'desc' => [
+                'en' => 'Image Effects',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProductPackageIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Package Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100508
+             * line : 73680
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductPackageIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProductPackageIdentifier',
             'desc' => [
+                'en' => 'Product Package Identifier',
             ],
         ],
     ];

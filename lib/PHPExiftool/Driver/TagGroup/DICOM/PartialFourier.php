@@ -28,13 +28,14 @@ class PartialFourier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial Fourier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96708
+             * line : 70111
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialFourier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PartialFourier',
             'desc' => [
+                'en' => 'Partial Fourier',
             ],
         ],
     ];

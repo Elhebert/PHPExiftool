@@ -28,13 +28,14 @@ class ACoordOfTopRightCorner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'A Coord Of Top Right Corner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98558
+             * line : 71890
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ACoordOfTopRightCorner extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ACoordOfTopRightCorner',
             'desc' => [
+                'en' => 'A Coord Of Top Right Corner',
             ],
         ],
     ];

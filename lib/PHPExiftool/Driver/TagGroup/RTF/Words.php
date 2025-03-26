@@ -28,13 +28,14 @@ class Words extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Words',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329286
+             * line : 232056
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Words extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:Words',
             'desc' => [
+                'en' => 'Words',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LicenseInfoURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'License Info URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127921
+             * line : 88797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LicenseInfoURL extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:LicenseInfoURL',
             'desc' => [
+                'en' => 'License Info URL',
             ],
         ],
     ];

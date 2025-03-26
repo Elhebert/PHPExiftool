@@ -28,13 +28,14 @@ class AbsPeakAudioFilePath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Abs Peak Audio File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412807
+             * line : 291001
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AbsPeakAudioFilePath extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AbsPeakAudioFilePath',
             'desc' => [
+                'en' => 'Abs Peak Audio File Path',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ControllerBoardVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Controller Board Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274750
+             * line : 191591
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ControllerBoardVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:ControllerBoardVersion',
             'desc' => [
+                'en' => 'Controller Board Version',
             ],
         ],
     ];

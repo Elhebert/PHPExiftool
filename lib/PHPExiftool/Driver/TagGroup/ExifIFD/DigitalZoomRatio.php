@@ -28,13 +28,14 @@ class DigitalZoomRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117286
+             * line : 83560
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalZoomRatio extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:DigitalZoomRatio',
             'desc' => [
+                'en' => 'Digital Zoom Ratio',
             ],
         ],
     ];

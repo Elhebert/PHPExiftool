@@ -28,13 +28,14 @@ class Unknown_adzc extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown adzc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325331
+             * line : 229649
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Unknown_adzc extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Unknown_adzc',
             'desc' => [
+                'en' => 'Unknown adzc',
             ],
         ],
     ];

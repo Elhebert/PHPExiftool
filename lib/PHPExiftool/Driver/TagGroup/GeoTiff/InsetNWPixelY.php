@@ -28,13 +28,14 @@ class InsetNWPixelY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inset NW Pixel Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139280
+             * line : 97526
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InsetNWPixelY extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:InsetNWPixelY',
             'desc' => [
+                'en' => 'Inset NW Pixel Y',
             ],
         ],
     ];

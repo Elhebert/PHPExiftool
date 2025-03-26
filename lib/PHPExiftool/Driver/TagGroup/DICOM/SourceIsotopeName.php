@@ -28,13 +28,14 @@ class SourceIsotopeName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Isotope Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103558
+             * line : 76650
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceIsotopeName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceIsotopeName',
             'desc' => [
+                'en' => 'Source Isotope Name',
             ],
         ],
     ];

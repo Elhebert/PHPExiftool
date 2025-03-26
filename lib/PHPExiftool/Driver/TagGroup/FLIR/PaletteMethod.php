@@ -28,13 +28,14 @@ class PaletteMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palette Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123532
+             * line : 86337
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaletteMethod extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:PaletteMethod',
             'desc' => [
+                'en' => 'Palette Method',
             ],
         ],
     ];

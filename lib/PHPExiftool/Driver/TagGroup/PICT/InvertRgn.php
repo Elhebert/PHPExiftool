@@ -28,13 +28,14 @@ class InvertRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Rgn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264960
+             * line : 183182
              * type : Rgn
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertRgn',
             'desc' => [
+                'en' => 'Invert Rgn',
             ],
         ],
     ];

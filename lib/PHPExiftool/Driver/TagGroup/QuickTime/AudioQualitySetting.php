@@ -28,13 +28,14 @@ class AudioQualitySetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Quality Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312688
+             * line : 218560
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioQualitySetting extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioQualitySetting',
             'desc' => [
+                'en' => 'Audio Quality Setting',
             ],
         ],
     ];

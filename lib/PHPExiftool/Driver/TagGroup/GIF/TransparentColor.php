@@ -28,13 +28,14 @@ class TransparentColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transparent Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Main
-             * line : 131362
+             * line : 90686
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransparentColor extends AbstractTagGroup
              */
             'id' => 'GIF::Main.GIF:TransparentColor',
             'desc' => [
+                'en' => 'Transparent Color',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PlayerVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Player Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323613
+             * line : 228737
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlayerVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:PlayerVersion',
             'desc' => [
+                'en' => 'Player Version',
             ],
         ],
     ];

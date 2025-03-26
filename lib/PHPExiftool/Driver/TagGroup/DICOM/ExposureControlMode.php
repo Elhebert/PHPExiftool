@@ -28,13 +28,14 @@ class ExposureControlMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96493
+             * line : 69901
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureControlMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureControlMode',
             'desc' => [
+                'en' => 'Exposure Control Mode',
             ],
         ],
     ];

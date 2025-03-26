@@ -28,13 +28,14 @@ class AWBCcBias extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Cc Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307044
+             * line : 213542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBCcBias extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBCcBias',
             'desc' => [
+                'en' => 'AWB Cc Bias',
             ],
         ],
     ];

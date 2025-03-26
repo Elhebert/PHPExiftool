@@ -28,13 +28,14 @@ class RunTimeScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Run Time Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::RunTime
-             * line : 2967
+             * line : 1905
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RunTimeScale extends AbstractTagGroup
              */
             'id' => 'Apple::RunTime.Apple:RunTimeScale',
             'desc' => [
+                'en' => 'Run Time Scale',
             ],
         ],
     ];

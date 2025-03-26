@@ -28,13 +28,14 @@ class FontName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161007
+             * line : 109943
              * type : undef
              * writable : false
              * count : 64
@@ -42,6 +43,7 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MagneticField extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnetic Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm7
-             * line : 326553
+             * line : 230321
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class MagneticField extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm7.QuickTime:MagneticField',
             'desc' => [
+                'en' => 'Magnetic Field',
             ],
         ],
     ];

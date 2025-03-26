@@ -28,13 +28,14 @@ class IngredientsToPart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients To Part',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413978
+             * line : 292003
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsToPart extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsToPart',
             'desc' => [
+                'en' => 'Ingredients To Part',
             ],
         ],
     ];

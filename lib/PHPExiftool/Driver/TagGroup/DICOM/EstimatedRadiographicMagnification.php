@@ -28,13 +28,14 @@ class EstimatedRadiographicMagnification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Estimated Radiographic Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95778
+             * line : 69226
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EstimatedRadiographicMagnification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EstimatedRadiographicMagnification',
             'desc' => [
+                'en' => 'Estimated Radiographic Magnification',
             ],
         ],
     ];

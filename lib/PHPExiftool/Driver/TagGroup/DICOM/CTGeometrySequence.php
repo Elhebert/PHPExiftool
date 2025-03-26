@@ -28,13 +28,14 @@ class CTGeometrySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Geometry Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96974
+             * line : 70375
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTGeometrySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTGeometrySequence',
             'desc' => [
+                'en' => 'CT Geometry Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChromSupress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chrom Supress',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307269
+             * line : 213767
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromSupress extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ChromSupress',
             'desc' => [
+                'en' => 'Chrom Supress',
             ],
         ],
     ];

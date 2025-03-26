@@ -28,13 +28,14 @@ class CameraInfoByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Info Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122179
+             * line : 85572
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraInfoByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraInfoByteOrder',
             'desc' => [
+                'en' => 'Camera Info Byte Order',
             ],
         ],
     ];

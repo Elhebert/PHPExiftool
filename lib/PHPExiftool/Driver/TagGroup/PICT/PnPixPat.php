@@ -28,13 +28,14 @@ class PnPixPat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pen Pixel Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264671
+             * line : 182921
              * type : PixPat
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PnPixPat extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PnPixPat',
             'desc' => [
+                'en' => 'Pen Pixel Pattern',
             ],
         ],
     ];

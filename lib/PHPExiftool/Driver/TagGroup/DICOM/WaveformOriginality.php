@@ -28,13 +28,14 @@ class WaveformOriginality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Originality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99461
+             * line : 72675
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformOriginality extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformOriginality',
             'desc' => [
+                'en' => 'Waveform Originality',
             ],
         ],
     ];

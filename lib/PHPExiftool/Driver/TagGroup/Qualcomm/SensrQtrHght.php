@@ -28,13 +28,14 @@ class SensrQtrHght extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensr Qtr Hght',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310156
+             * line : 216068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensrQtrHght extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:SensrQtrHght',
             'desc' => [
+                'en' => 'Sensr Qtr Hght',
             ],
         ],
     ];

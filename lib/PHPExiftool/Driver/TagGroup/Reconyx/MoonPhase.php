@@ -28,13 +28,14 @@ class MoonPhase extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Moon Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330651
+             * line : 232645
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MoonPhase extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:MoonPhase',
             'desc' => [
+                'en' => 'Moon Phase',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330920
+             * line : 232780
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MoonPhase extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:MoonPhase',
             'desc' => [
+                'en' => 'Moon Phase',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331145
+             * line : 232900
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class MoonPhase extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:MoonPhase',
             'desc' => [
+                'en' => 'Moon Phase',
             ],
         ],
     ];

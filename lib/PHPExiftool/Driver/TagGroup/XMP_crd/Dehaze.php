@@ -28,13 +28,14 @@ class Dehaze extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dehaze',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398933
+             * line : 282456
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Dehaze extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Dehaze',
             'desc' => [
+                'en' => 'Dehaze',
             ],
         ],
     ];

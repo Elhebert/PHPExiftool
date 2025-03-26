@@ -28,13 +28,14 @@ class EssenceLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Essence Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168063
+             * line : 114566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EssenceLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceLength',
             'desc' => [
+                'en' => 'Essence Length',
             ],
         ],
     ];

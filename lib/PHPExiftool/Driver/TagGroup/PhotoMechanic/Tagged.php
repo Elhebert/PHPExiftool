@@ -28,13 +28,14 @@ class Tagged extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tagged',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::SoftEdit
-             * line : 304766
+             * line : 211852
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Tagged extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:Tagged',
             'desc' => [
+                'en' => 'Tagged',
             ],
         ],
     ];

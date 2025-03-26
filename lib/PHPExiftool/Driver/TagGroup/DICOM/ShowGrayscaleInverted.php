@@ -28,13 +28,14 @@ class ShowGrayscaleInverted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Show Grayscale Inverted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101703
+             * line : 74844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShowGrayscaleInverted extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShowGrayscaleInverted',
             'desc' => [
+                'en' => 'Show Grayscale Inverted',
             ],
         ],
     ];

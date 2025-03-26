@@ -28,13 +28,14 @@ class PaintCorrectionMaskMasksWholeImageArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Masks Whole Image Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400339
+             * line : 283826
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskMasksWholeImageArea extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionMaskMasksWholeImageArea',
             'desc' => [
+                'en' => 'Paint Correction Mask Masks Whole Image Area',
             ],
         ],
     ];

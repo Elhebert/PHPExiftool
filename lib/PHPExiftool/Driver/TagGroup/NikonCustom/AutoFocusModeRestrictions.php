@@ -28,13 +28,14 @@ class AutoFocusModeRestrictions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Focus Mode Restrictions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238402
+             * line : 161491
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoFocusModeRestrictions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AutoFocusModeRestrictions',
             'desc' => [
+                'en' => 'Auto Focus Mode Restrictions',
             ],
         ],
     ];

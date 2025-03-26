@@ -28,13 +28,14 @@ class FillSameRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Same Rgn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264982
+             * line : 183203
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillSameRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillSameRgn',
             'desc' => [
+                'en' => 'Fill Same Rgn',
             ],
         ],
     ];

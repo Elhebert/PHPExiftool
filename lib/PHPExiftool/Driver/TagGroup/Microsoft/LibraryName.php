@@ -28,13 +28,14 @@ class LibraryName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Library Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174694
+             * line : 120263
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LibraryName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LibraryName',
             'desc' => [
+                'en' => 'Library Name',
             ],
         ],
     ];

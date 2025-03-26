@@ -28,13 +28,14 @@ class DerivedImageRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Derived Image Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemRef
-             * line : 323245
+             * line : 228561
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DerivedImageRef extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemRef.QuickTime:DerivedImageRef',
             'desc' => [
+                'en' => 'Derived Image Ref',
             ],
         ],
     ];

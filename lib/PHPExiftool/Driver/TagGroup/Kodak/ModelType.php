@@ -28,13 +28,14 @@ class ModelType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::MOV
-             * line : 157589
+             * line : 108636
              * type : string
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class ModelType extends AbstractTagGroup
              */
             'id' => 'Kodak::MOV.Kodak:ModelType',
             'desc' => [
+                'en' => 'Model Type',
             ],
         ],
     ];

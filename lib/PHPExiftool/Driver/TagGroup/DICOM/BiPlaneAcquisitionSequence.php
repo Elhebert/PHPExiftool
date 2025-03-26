@@ -28,13 +28,14 @@ class BiPlaneAcquisitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bi Plane Acquisition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99123
+             * line : 72342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BiPlaneAcquisitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BiPlaneAcquisitionSequence',
             'desc' => [
+                'en' => 'Bi Plane Acquisition Sequence',
             ],
         ],
     ];

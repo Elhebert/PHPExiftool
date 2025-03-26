@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303180
+             * line : 210760
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : PhaseOne::SensorCalibration
-             * line : 303606
+             * line : 210916
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'PhaseOne::SensorCalibration.PhaseOne:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

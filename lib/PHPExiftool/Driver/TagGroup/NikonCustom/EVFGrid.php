@@ -28,13 +28,14 @@ class EVFGrid extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EVF Grid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239369
+             * line : 162445
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EVFGrid extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:EVFGrid',
             'desc' => [
+                'en' => 'EVF Grid',
             ],
         ],
     ];

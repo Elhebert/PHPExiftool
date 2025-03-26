@@ -28,13 +28,14 @@ class GPSSatellites extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Satellites',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406819
+             * line : 288211
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
     ];

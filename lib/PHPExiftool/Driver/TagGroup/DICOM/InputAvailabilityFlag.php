@@ -28,13 +28,14 @@ class InputAvailabilityFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Availability Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99965
+             * line : 73167
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputAvailabilityFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InputAvailabilityFlag',
             'desc' => [
+                'en' => 'Input Availability Flag',
             ],
         ],
     ];

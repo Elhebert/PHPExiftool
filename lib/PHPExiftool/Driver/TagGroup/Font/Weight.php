@@ -28,13 +28,14 @@ class Weight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127802
+             * line : 88732
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Weight extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:Weight',
             'desc' => [
+                'en' => 'Weight',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PFM
-             * line : 128051
+             * line : 88861
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Weight extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:Weight',
             'desc' => [
+                'en' => 'Weight',
             ],
         ],
         2 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128169
+             * line : 88931
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Weight extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:Weight',
             'desc' => [
+                'en' => 'Weight',
             ],
         ],
     ];

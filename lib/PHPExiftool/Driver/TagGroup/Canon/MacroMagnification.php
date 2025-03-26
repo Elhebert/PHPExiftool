@@ -28,13 +28,14 @@ class MacroMagnification extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4573
+             * line : 2841
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 13592
+             * line : 9750
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 19976
+             * line : 14795
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 22010
+             * line : 16430
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 32288
+             * line : 24745
              * type : int8s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35065
+             * line : 26774
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63765
+             * line : 48419
              * type : int16s
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class MacroMagnification extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:MacroMagnification',
             'desc' => [
+                'en' => 'Macro Magnification',
             ],
         ],
     ];

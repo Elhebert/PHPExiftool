@@ -28,13 +28,14 @@ class DerivedFromFilePath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413803
+             * line : 291834
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromFilePath extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromFilePath',
             'desc' => [
+                'en' => 'Derived From File Path',
             ],
         ],
     ];

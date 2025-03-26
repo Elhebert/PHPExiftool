@@ -28,13 +28,14 @@ class DataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112901
+             * line : 82245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:DataType',
             'desc' => [
+                'en' => 'Data Type',
             ],
         ],
     ];

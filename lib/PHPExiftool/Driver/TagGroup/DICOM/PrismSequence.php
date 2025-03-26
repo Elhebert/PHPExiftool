@@ -28,13 +28,14 @@ class PrismSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prism Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100666
+             * line : 73836
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrismSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrismSequence',
             'desc' => [
+                'en' => 'Prism Sequence',
             ],
         ],
     ];

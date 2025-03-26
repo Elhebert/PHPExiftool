@@ -28,13 +28,14 @@ class PanoramaFullHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Full Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Panorama
-             * line : 361601
+             * line : 251806
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaFullHeight extends AbstractTagGroup
              */
             'id' => 'Sony::Panorama.Sony:PanoramaFullHeight',
             'desc' => [
+                'en' => 'Panorama Full Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RRIntervalTimeNominal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RR Interval Time Nominal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98132
+             * line : 71479
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RRIntervalTimeNominal extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RRIntervalTimeNominal',
             'desc' => [
+                'en' => 'RR Interval Time Nominal',
             ],
         ],
     ];

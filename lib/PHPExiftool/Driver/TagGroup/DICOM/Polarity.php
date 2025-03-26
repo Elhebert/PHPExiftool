@@ -28,13 +28,14 @@ class Polarity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Polarity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102133
+             * line : 75264
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Polarity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Polarity',
             'desc' => [
+                'en' => 'Polarity',
             ],
         ],
     ];

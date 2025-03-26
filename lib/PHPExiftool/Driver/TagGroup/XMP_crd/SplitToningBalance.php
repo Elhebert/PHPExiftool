@@ -28,13 +28,14 @@ class SplitToningBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Split Toning Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401075
+             * line : 284510
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SplitToningBalance extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SplitToningBalance',
             'desc' => [
+                'en' => 'Split Toning Balance',
             ],
         ],
     ];

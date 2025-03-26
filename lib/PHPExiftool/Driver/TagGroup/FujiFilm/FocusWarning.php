@@ -28,13 +28,14 @@ class FocusWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130504
+             * line : 90155
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusWarning extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FocusWarning',
             'desc' => [
+                'en' => 'Focus Warning',
             ],
         ],
     ];

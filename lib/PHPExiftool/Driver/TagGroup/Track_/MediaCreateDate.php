@@ -28,13 +28,14 @@ class MediaCreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MediaHeader
-             * line : 323895
+             * line : 228880
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaCreateDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::MediaHeader.Track#:MediaCreateDate',
             'desc' => [
+                'en' => 'Media Create Date',
             ],
         ],
     ];

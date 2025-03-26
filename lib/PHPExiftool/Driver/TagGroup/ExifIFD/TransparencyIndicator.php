@@ -28,13 +28,14 @@ class TransparencyIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transparency Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113372
+             * line : 82428
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransparencyIndicator extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TransparencyIndicator',
             'desc' => [
+                'en' => 'Transparency Indicator',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SOF
-             * line : 152869
+             * line : 105184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'JPEG::SOF.File:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
     ];

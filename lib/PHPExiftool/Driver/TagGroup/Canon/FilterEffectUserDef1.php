@@ -28,13 +28,14 @@ class FilterEffectUserDef1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect User Def 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67640
+             * line : 51247
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FilterEffectUserDef1 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:FilterEffectUserDef1',
             'desc' => [
+                'en' => 'Filter Effect User Def 1',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68818
+             * line : 51986
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FilterEffectUserDef1 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:FilterEffectUserDef1',
             'desc' => [
+                'en' => 'Filter Effect User Def 1',
             ],
         ],
     ];

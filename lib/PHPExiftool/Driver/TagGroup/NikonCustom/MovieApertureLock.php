@@ -28,13 +28,14 @@ class MovieApertureLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Aperture Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242606
+             * line : 165677
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieApertureLock',
             'desc' => [
+                'en' => 'Movie Aperture Lock',
             ],
         ],
     ];

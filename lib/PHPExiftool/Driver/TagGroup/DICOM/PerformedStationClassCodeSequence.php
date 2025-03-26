@@ -28,13 +28,14 @@ class PerformedStationClassCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Station Class Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99989
+             * line : 73191
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedStationClassCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedStationClassCodeSequence',
             'desc' => [
+                'en' => 'Performed Station Class Code Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DisplayInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305390
+             * line : 212206
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DisplayInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:DisplayInfo',
             'desc' => [
+                'en' => 'Display Info',
             ],
         ],
         1 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305648
+             * line : 212379
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DisplayInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:DisplayInfo',
             'desc' => [
+                'en' => 'Display Info',
             ],
         ],
     ];

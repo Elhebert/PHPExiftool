@@ -28,13 +28,14 @@ class HangingProtocolCreationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hanging Protocol Creation Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101429
+             * line : 74577
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HangingProtocolCreationDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HangingProtocolCreationDateTime',
             'desc' => [
+                'en' => 'Hanging Protocol Creation Date Time',
             ],
         ],
     ];

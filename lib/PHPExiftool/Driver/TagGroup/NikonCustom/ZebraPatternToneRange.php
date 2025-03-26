@@ -28,13 +28,14 @@ class ZebraPatternToneRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zebra Pattern Tone Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242421
+             * line : 165497
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZebraPatternToneRange extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ZebraPatternToneRange',
             'desc' => [
+                'en' => 'Zebra Pattern Tone Range',
             ],
         ],
     ];

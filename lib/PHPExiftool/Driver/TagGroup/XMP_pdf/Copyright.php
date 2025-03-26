@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pdf
-             * line : 409943
+             * line : 289681
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'XMP::pdf.XMP-pdf:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

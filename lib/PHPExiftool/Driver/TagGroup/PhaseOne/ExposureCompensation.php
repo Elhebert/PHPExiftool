@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303504
+             * line : 210876
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

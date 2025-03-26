@@ -28,13 +28,14 @@ class SafePositionReturnDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Safe Position Return Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102903
+             * line : 75999
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SafePositionReturnDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SafePositionReturnDate',
             'desc' => [
+                'en' => 'Safe Position Return Date',
             ],
         ],
     ];

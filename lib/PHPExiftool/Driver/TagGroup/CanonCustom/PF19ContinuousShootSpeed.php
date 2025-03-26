@@ -28,13 +28,14 @@ class PF19ContinuousShootSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF19 Continuous Shoot Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78404
+             * line : 57105
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF19ContinuousShootSpeed extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF19ContinuousShootSpeed',
             'desc' => [
+                'en' => 'PF19 Continuous Shoot Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LameLowPassFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lame Low Pass Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Lame
-             * line : 165966
+             * line : 112856
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LameLowPassFilter extends AbstractTagGroup
              */
             'id' => 'MPEG::Lame.MPEG:LameLowPassFilter',
             'desc' => [
+                'en' => 'Lame Low Pass Filter',
             ],
         ],
     ];

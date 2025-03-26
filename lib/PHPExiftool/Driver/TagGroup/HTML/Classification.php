@@ -28,13 +28,14 @@ class Classification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142347
+             * line : 98457
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Classification extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Classification',
             'desc' => [
+                'en' => 'Classification',
             ],
         ],
     ];

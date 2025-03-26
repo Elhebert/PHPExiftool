@@ -28,13 +28,14 @@ class SourceImageVolumeName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Image Volume Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158506
+             * line : 108976
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceImageVolumeName extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:SourceImageVolumeName',
             'desc' => [
+                'en' => 'Source Image Volume Name',
             ],
         ],
     ];

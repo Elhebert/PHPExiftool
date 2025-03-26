@@ -28,13 +28,14 @@ class ContainerDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99780
+             * line : 72984
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContainerDescription',
             'desc' => [
+                'en' => 'Container Description',
             ],
         ],
     ];

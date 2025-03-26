@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330769
+             * line : 232692
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331245
+             * line : 232944
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

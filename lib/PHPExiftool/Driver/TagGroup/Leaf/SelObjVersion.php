@@ -28,13 +28,14 @@ class SelObjVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sel Obj Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162065
+             * line : 110745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelObjVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:SelObjVersion',
             'desc' => [
+                'en' => 'Sel Obj Version',
             ],
         ],
     ];

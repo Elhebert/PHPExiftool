@@ -28,13 +28,14 @@ class PredictorConstants extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Predictor Constants',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98758
+             * line : 72031
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PredictorConstants extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PredictorConstants',
             'desc' => [
+                'en' => 'Predictor Constants',
             ],
         ],
     ];

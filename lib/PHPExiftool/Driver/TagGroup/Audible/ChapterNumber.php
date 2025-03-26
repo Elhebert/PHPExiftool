@@ -28,13 +28,14 @@ class ChapterNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::tseg
-             * line : 3157
+             * line : 1984
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterNumber extends AbstractTagGroup
              */
             'id' => 'Audible::tseg.Audible:ChapterNumber',
             'desc' => [
+                'en' => 'Chapter Number',
             ],
         ],
     ];

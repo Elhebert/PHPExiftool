@@ -28,13 +28,14 @@ class MinFocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361787
+             * line : 251913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
     ];

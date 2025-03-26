@@ -28,13 +28,14 @@ class FlashFired extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Fired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158151
+             * line : 108816
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashFired extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:FlashFired',
             'desc' => [
+                'en' => 'Flash Fired',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159618
+             * line : 109455
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FlashFired extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:FlashFired',
             'desc' => [
+                'en' => 'Flash Fired',
             ],
         ],
     ];

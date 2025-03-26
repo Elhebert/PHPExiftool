@@ -28,13 +28,14 @@ class SampleFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273534
+             * line : 190748
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleFlag extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:SampleFlag',
             'desc' => [
+                'en' => 'Sample Flag',
             ],
         ],
     ];

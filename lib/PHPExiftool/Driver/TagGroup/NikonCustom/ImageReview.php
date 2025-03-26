@@ -28,13 +28,14 @@ class ImageReview extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Review',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216697
+             * line : 145659
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageReview extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:ImageReview',
             'desc' => [
+                'en' => 'Image Review',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227848
+             * line : 153438
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ImageReview extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:ImageReview',
             'desc' => [
+                'en' => 'Image Review',
             ],
         ],
     ];

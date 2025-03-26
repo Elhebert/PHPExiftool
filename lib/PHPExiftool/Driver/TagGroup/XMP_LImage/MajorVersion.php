@@ -28,13 +28,14 @@ class MajorVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Major Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::LImage
-             * line : 397361
+             * line : 281396
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MajorVersion extends AbstractTagGroup
              */
             'id' => 'XMP::LImage.XMP-LImage:MajorVersion',
             'desc' => [
+                'en' => 'Major Version',
             ],
         ],
     ];

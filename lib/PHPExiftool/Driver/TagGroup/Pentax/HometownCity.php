@@ -28,13 +28,14 @@ class HometownCity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hometown City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298171
+             * line : 207961
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HometownCity extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:HometownCity',
             'desc' => [
+                'en' => 'Hometown City',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::TimeInfo
-             * line : 301917
+             * line : 210049
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HometownCity extends AbstractTagGroup
              */
             'id' => 'Pentax::TimeInfo.Pentax:HometownCity',
             'desc' => [
+                'en' => 'Hometown City',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BurnedInAnnotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Burned In Annotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98834
+             * line : 72105
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BurnedInAnnotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BurnedInAnnotation',
             'desc' => [
+                'en' => 'Burned In Annotation',
             ],
         ],
     ];

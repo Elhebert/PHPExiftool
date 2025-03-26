@@ -28,13 +28,14 @@ class CropArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197156
+             * line : 133087
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class CropArea extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:CropArea',
             'desc' => [
+                'en' => 'Crop Area',
             ],
         ],
     ];

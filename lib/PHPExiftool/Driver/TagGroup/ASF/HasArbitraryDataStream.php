@@ -28,13 +28,14 @@ class HasArbitraryDataStream extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Arbitrary Data Stream',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1299
+             * line : 565
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasArbitraryDataStream extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:HasArbitraryDataStream',
             'desc' => [
+                'en' => 'Has Arbitrary Data Stream',
             ],
         ],
     ];

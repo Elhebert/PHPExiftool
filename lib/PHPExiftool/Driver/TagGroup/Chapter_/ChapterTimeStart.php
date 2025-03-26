@@ -28,13 +28,14 @@ class ChapterTimeStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Time Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173214
+             * line : 119215
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterTimeStart extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Chapter#:ChapterTimeStart',
             'desc' => [
+                'en' => 'Chapter Time Start',
             ],
         ],
     ];

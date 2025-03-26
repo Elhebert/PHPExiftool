@@ -28,13 +28,14 @@ class Beta extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beta',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152471
+             * line : 104932
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Beta extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:Beta',
             'desc' => [
+                'en' => 'Beta',
             ],
         ],
     ];

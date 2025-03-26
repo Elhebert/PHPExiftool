@@ -28,13 +28,14 @@ class CopyrightYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410797
+             * line : 290076
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CopyrightYear extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:CopyrightYear',
             'desc' => [
+                'en' => 'Copyright Year',
             ],
         ],
     ];

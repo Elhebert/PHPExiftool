@@ -28,13 +28,14 @@ class RegionSpatialFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Spatial Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96249
+             * line : 69661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionSpatialFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegionSpatialFormat',
             'desc' => [
+                'en' => 'Region Spatial Format',
             ],
         ],
     ];

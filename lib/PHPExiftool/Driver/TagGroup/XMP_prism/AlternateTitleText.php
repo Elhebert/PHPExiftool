@@ -28,13 +28,14 @@ class AlternateTitleText extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Alternate Title Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410748
+             * line : 290029
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AlternateTitleText extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:AlternateTitleText',
             'desc' => [
+                'en' => 'Alternate Title Text',
             ],
         ],
     ];

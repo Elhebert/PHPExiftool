@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ToneCurve
-             * line : 162116
+             * line : 110796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'Leaf::ToneCurve.Leaf:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

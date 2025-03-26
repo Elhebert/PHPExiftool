@@ -28,13 +28,14 @@ class InterventionDrugDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervention Drug Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95442
+             * line : 68902
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterventionDrugDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterventionDrugDose',
             'desc' => [
+                'en' => 'Intervention Drug Dose',
             ],
         ],
     ];

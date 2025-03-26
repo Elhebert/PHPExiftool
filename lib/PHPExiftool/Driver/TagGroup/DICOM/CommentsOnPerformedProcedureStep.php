@@ -28,13 +28,14 @@ class CommentsOnPerformedProcedureStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments On Performed Procedure Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99693
+             * line : 72900
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommentsOnPerformedProcedureStep extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CommentsOnPerformedProcedureStep',
             'desc' => [
+                'en' => 'Comments On Performed Procedure Step',
             ],
         ],
     ];

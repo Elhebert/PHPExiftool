@@ -28,13 +28,14 @@ class RepeatingFlashOutputExternal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Output External',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208548
+             * line : 140479
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RepeatingFlashOutputExternal extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:RepeatingFlashOutputExternal',
             'desc' => [
+                'en' => 'Repeating Flash Output External',
             ],
         ],
     ];

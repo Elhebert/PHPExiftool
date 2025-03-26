@@ -28,13 +28,14 @@ class ScannerProductID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Product ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303769
+             * line : 211012
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class ScannerProductID extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ScannerProductID',
             'desc' => [
+                'en' => 'Scanner Product ID',
             ],
         ],
     ];

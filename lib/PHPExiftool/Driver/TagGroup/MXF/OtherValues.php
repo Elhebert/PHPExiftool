@@ -28,13 +28,14 @@ class OtherValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167740
+             * line : 114317
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherValues extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OtherValues',
             'desc' => [
+                'en' => 'Other Values',
             ],
         ],
     ];

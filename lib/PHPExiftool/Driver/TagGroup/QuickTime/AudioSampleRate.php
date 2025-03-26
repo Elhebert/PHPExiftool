@@ -28,13 +28,14 @@ class AudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioProf
-             * line : 310408
+             * line : 216315
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioProf.QuickTime:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::AudioSampleDesc
-             * line : 310499
+             * line : 216396
              * type : fixed32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
     ];

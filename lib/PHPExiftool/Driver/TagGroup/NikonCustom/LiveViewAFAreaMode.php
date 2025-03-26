@@ -28,13 +28,14 @@ class LiveViewAFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227703
+             * line : 153350
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LiveViewAFAreaMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:LiveViewAFAreaMode',
             'desc' => [
+                'en' => 'Live View AF Area Mode',
             ],
         ],
     ];

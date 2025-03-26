@@ -28,13 +28,14 @@ class UsePanoramaViewer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Use Panorama Viewer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397186
+             * line : 281273
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UsePanoramaViewer extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:UsePanoramaViewer',
             'desc' => [
+                'en' => 'Use Panorama Viewer',
             ],
         ],
     ];

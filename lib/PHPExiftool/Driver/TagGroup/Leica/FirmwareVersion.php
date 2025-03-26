@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274957
+             * line : 191674
              * type : int8u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279403
+             * line : 194020
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

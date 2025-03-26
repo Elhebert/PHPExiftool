@@ -28,13 +28,14 @@ class CISACLegalEntityID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CISAC Legal Entity ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167425
+             * line : 114042
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CISACLegalEntityID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CISACLegalEntityID',
             'desc' => [
+                'en' => 'CISAC Legal Entity ID',
             ],
         ],
     ];

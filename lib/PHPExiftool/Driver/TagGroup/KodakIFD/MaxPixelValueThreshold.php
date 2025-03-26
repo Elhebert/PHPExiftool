@@ -28,13 +28,14 @@ class MaxPixelValueThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Pixel Value Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156119
+             * line : 107330
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxPixelValueThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MaxPixelValueThreshold',
             'desc' => [
+                'en' => 'Max Pixel Value Threshold',
             ],
         ],
     ];

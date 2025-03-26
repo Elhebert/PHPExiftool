@@ -28,13 +28,14 @@ class RetouchInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::RetouchInfo
-             * line : 205199
+             * line : 137925
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class RetouchInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::RetouchInfo.Nikon:RetouchInfoVersion',
             'desc' => [
+                'en' => 'Retouch Info Version',
             ],
         ],
     ];

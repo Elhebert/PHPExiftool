@@ -28,13 +28,14 @@ class CustomUnsharpMaskStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Unsharp Mask Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83742
+             * line : 61384
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomUnsharpMaskStrength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomUnsharpMaskStrength',
             'desc' => [
+                'en' => 'Custom Unsharp Mask Strength',
             ],
         ],
     ];

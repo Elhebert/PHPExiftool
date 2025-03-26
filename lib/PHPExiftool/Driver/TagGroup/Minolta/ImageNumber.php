@@ -28,13 +28,14 @@ class ImageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 179174
+             * line : 122571
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179998
+             * line : 122850
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
     ];

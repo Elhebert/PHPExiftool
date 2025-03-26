@@ -28,13 +28,14 @@ class GradientBasedCorrHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399357
+             * line : 282864
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrHue extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrHue',
             'desc' => [
+                'en' => 'Gradient Based Corr Hue',
             ],
         ],
     ];

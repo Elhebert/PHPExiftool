@@ -28,13 +28,14 @@ class ExposureBracketingIndicatorLast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Bracketing Indicator Last',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181963
+             * line : 123835
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureBracketingIndicatorLast extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ExposureBracketingIndicatorLast',
             'desc' => [
+                'en' => 'Exposure Bracketing Indicator Last',
             ],
         ],
     ];

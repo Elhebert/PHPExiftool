@@ -28,13 +28,14 @@ class FileSecurityReport extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Security Report',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171292
+             * line : 117497
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSecurityReport extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FileSecurityReport',
             'desc' => [
+                'en' => 'File Security Report',
             ],
         ],
     ];

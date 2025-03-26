@@ -28,13 +28,14 @@ class FrameHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130936
+             * line : 90437
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameHeight extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FrameHeight',
             'desc' => [
+                'en' => 'Frame Height',
             ],
         ],
     ];

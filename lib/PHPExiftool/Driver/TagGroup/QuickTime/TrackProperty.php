@@ -28,13 +28,14 @@ class TrackProperty extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Property',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaData
-             * line : 323999
+             * line : 228952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackProperty extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaData.QuickTime:TrackProperty',
             'desc' => [
+                'en' => 'Track Property',
             ],
         ],
     ];

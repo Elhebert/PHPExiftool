@@ -28,13 +28,14 @@ class MobileCountryCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mobile Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cell
-             * line : 398167
+             * line : 281800
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MobileCountryCode extends AbstractTagGroup
              */
             'id' => 'XMP::cell.XMP-cell:MobileCountryCode',
             'desc' => [
+                'en' => 'Mobile Country Code',
             ],
         ],
     ];

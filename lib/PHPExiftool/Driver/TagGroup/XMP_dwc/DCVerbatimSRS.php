@@ -28,13 +28,14 @@ class DCVerbatimSRS extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Verbatim SRS',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 107022
+             * line : 79163
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCVerbatimSRS extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCVerbatimSRS',
             'desc' => [
+                'en' => 'DC Verbatim SRS',
             ],
         ],
     ];

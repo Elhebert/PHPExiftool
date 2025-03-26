@@ -28,13 +28,14 @@ class AudioAverageBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Average Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169083
+             * line : 115526
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioAverageBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioAverageBitrate',
             'desc' => [
+                'en' => 'Audio Average Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MobiType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mobi Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273737
+             * line : 190886
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MobiType extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:MobiType',
             'desc' => [
+                'en' => 'Mobi Type',
             ],
         ],
     ];

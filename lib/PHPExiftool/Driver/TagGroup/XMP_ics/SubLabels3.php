@@ -28,13 +28,14 @@ class SubLabels3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Labels 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ics
-             * line : 408859
+             * line : 288788
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubLabels3 extends AbstractTagGroup
              */
             'id' => 'XMP::ics.XMP-ics:SubLabels3',
             'desc' => [
+                'en' => 'Sub Labels 3',
             ],
         ],
     ];

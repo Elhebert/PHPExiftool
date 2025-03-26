@@ -28,13 +28,14 @@ class SubSecModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90519
+             * line : 65212
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubSecModifyDate extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:SubSecModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

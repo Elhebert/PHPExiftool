@@ -28,13 +28,14 @@ class ReferencedRequestSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Request Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100194
+             * line : 73368
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedRequestSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedRequestSequence',
             'desc' => [
+                'en' => 'Referenced Request Sequence',
             ],
         ],
     ];

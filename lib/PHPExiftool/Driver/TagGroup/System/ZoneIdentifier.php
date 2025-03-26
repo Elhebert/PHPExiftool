@@ -28,13 +28,14 @@ class ZoneIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zone Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121621
+             * line : 85274
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoneIdentifier extends AbstractTagGroup
              */
             'id' => 'Extra.System:ZoneIdentifier',
             'desc' => [
+                'en' => 'Zone Identifier',
             ],
         ],
     ];

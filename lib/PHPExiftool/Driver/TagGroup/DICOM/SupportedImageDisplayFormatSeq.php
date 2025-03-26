@@ -28,13 +28,14 @@ class SupportedImageDisplayFormatSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Supported Image Display Format Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102037
+             * line : 75174
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SupportedImageDisplayFormatSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SupportedImageDisplayFormatSeq',
             'desc' => [
+                'en' => 'Supported Image Display Format Seq',
             ],
         ],
     ];

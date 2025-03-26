@@ -28,13 +28,14 @@ class DRM_LASignatureRootCert extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM LA Signature Root Cert',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1217
+             * line : 526
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_LASignatureRootCert extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM_LASignatureRootCert',
             'desc' => [
+                'en' => 'DRM LA Signature Root Cert',
             ],
         ],
     ];

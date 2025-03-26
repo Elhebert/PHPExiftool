@@ -28,13 +28,14 @@ class CreatorOpenWithUIOptions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Open With UI Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174337
+             * line : 120073
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorOpenWithUIOptions extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:CreatorOpenWithUIOptions',
             'desc' => [
+                'en' => 'Creator Open With UI Options',
             ],
         ],
     ];

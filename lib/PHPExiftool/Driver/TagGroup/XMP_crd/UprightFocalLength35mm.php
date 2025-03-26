@@ -28,13 +28,14 @@ class UprightFocalLength35mm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Focal Length 35mm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401226
+             * line : 284623
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightFocalLength35mm extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:UprightFocalLength35mm',
             'desc' => [
+                'en' => 'Upright Focal Length 35mm',
             ],
         ],
     ];

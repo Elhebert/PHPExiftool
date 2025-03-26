@@ -28,13 +28,14 @@ class SeekID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seek ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173647
+             * line : 119571
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeekID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SeekID',
             'desc' => [
+                'en' => 'Seek ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISOAutoFlashLimit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Auto Flash Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200584
+             * line : 135521
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOAutoFlashLimit extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:ISOAutoFlashLimit',
             'desc' => [
+                'en' => 'ISO Auto Flash Limit',
             ],
         ],
     ];

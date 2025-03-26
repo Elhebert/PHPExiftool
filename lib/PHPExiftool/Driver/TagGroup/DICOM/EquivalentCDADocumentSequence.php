@@ -28,13 +28,14 @@ class EquivalentCDADocumentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Equivalent CDA Document Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100098
+             * line : 73299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EquivalentCDADocumentSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EquivalentCDADocumentSequence',
             'desc' => [
+                'en' => 'Equivalent CDA Document Sequence',
             ],
         ],
     ];

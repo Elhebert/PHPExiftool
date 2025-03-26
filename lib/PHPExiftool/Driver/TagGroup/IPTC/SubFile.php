@@ -28,13 +28,14 @@ class SubFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ObjectData
-             * line : 151930
+             * line : 104637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubFile extends AbstractTagGroup
              */
             'id' => 'IPTC::ObjectData.IPTC:SubFile',
             'desc' => [
+                'en' => 'Sub File',
             ],
         ],
     ];

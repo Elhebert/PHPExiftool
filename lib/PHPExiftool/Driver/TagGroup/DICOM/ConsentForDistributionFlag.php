@@ -28,13 +28,14 @@ class ConsentForDistributionFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Consent For Distribution Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95398
+             * line : 68860
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConsentForDistributionFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConsentForDistributionFlag',
             'desc' => [
+                'en' => 'Consent For Distribution Flag',
             ],
         ],
     ];

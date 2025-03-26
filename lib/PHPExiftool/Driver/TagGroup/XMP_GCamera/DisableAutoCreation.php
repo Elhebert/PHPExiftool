@@ -28,13 +28,14 @@ class DisableAutoCreation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Disable Auto Creation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396871
+             * line : 281066
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DisableAutoCreation extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:DisableAutoCreation',
             'desc' => [
+                'en' => 'Disable Auto Creation',
             ],
         ],
     ];

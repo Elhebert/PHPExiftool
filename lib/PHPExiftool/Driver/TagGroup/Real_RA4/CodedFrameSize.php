@@ -28,13 +28,14 @@ class CodedFrameSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coded Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329771
+             * line : 232221
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodedFrameSize extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:CodedFrameSize',
             'desc' => [
+                'en' => 'Coded Frame Size',
             ],
         ],
     ];

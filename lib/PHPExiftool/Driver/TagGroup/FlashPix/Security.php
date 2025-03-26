@@ -28,13 +28,14 @@ class Security extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Security',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127282
+             * line : 88330
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Security extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:Security',
             'desc' => [
+                'en' => 'Security',
             ],
         ],
     ];

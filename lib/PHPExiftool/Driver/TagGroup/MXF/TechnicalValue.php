@@ -28,13 +28,14 @@ class TechnicalValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Technical Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167737
+             * line : 114314
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TechnicalValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TechnicalValue',
             'desc' => [
+                'en' => 'Technical Value',
             ],
         ],
     ];

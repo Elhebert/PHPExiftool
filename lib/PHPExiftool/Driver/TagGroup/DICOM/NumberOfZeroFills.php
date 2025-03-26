@@ -28,13 +28,14 @@ class NumberOfZeroFills extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Zero Fills',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96671
+             * line : 70075
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfZeroFills extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfZeroFills',
             'desc' => [
+                'en' => 'Number Of Zero Fills',
             ],
         ],
     ];

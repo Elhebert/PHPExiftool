@@ -28,13 +28,14 @@ class Interlace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interlace',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164635
+             * line : 111865
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Interlace extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:Interlace',
             'desc' => [
+                'en' => 'Interlace',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164957
+             * line : 112100
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Interlace extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:Interlace',
             'desc' => [
+                'en' => 'Interlace',
             ],
         ],
     ];

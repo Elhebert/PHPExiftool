@@ -28,13 +28,14 @@ class LimitSelectableImageArea5To4 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit Selectable Image Area 5 To 4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247047
+             * line : 169740
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LimitSelectableImageArea5To4 extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitSelectableImageArea5To4',
             'desc' => [
+                'en' => 'Limit Selectable Image Area 5 To 4',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247169
+             * line : 169862
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LimitSelectableImageArea5To4 extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitSelectableImageArea5To4',
             'desc' => [
+                'en' => 'Limit Selectable Image Area 5 To 4',
             ],
         ],
     ];

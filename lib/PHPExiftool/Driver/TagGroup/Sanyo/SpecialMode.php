@@ -28,13 +28,14 @@ class SpecialMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Special Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336116
+             * line : 235644
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class SpecialMode extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SpecialMode',
             'desc' => [
+                'en' => 'Special Mode',
             ],
         ],
     ];

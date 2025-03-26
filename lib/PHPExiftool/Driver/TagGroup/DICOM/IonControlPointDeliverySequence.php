@@ -28,13 +28,14 @@ class IonControlPointDeliverySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Control Point Delivery Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102723
+             * line : 75819
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonControlPointDeliverySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonControlPointDeliverySequence',
             'desc' => [
+                'en' => 'Ion Control Point Delivery Sequence',
             ],
         ],
     ];

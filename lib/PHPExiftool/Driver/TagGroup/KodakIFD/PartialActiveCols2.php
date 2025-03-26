@@ -28,13 +28,14 @@ class PartialActiveCols2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Partial Active Cols 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157218
+             * line : 108410
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PartialActiveCols2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PartialActiveCols2',
             'desc' => [
+                'en' => 'Partial Active Cols 2',
             ],
         ],
     ];

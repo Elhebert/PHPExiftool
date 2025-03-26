@@ -28,13 +28,14 @@ class ElectricalBlackColumns extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Electrical Black Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157227
+             * line : 108419
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ElectricalBlackColumns extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ElectricalBlackColumns',
             'desc' => [
+                'en' => 'Electrical Black Columns',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254670
+             * line : 175850
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class FlashSerialNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:FlashSerialNumber',
             'desc' => [
+                'en' => 'Flash Serial Number',
             ],
         ],
     ];

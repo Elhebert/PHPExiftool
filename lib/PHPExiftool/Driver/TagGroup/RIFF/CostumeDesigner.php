@@ -28,13 +28,14 @@ class CostumeDesigner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Costume Designer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328127
+             * line : 231505
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CostumeDesigner extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:CostumeDesigner',
             'desc' => [
+                'en' => 'Costume Designer',
             ],
         ],
     ];

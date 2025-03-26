@@ -28,13 +28,14 @@ class AuthenticationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Authentication Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264368
+             * line : 182732
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthenticationTime extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:AuthenticationTime',
             'desc' => [
+                'en' => 'Authentication Time',
             ],
         ],
     ];

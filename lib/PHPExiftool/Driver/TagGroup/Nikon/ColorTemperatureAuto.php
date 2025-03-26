@@ -28,13 +28,14 @@ class ColorTemperatureAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197163
+             * line : 133093
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperatureAuto extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ColorTemperatureAuto',
             'desc' => [
+                'en' => 'Color Temperature Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewSettingsDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Settings Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120241
+             * line : 84476
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewSettingsDigest extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PreviewSettingsDigest',
             'desc' => [
+                'en' => 'Preview Settings Digest',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VideoCardGamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Card Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146884
+             * line : 102000
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoCardGamma extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:VideoCardGamma',
             'desc' => [
+                'en' => 'Video Card Gamma',
             ],
         ],
     ];

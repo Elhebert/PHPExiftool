@@ -28,13 +28,14 @@ class AltTimecode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Alt Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412824
+             * line : 291010
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AltTimecode extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AltTimecode',
             'desc' => [
+                'en' => 'Alt Timecode',
             ],
         ],
     ];

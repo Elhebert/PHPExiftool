@@ -28,13 +28,14 @@ class VerticalFuncButtonPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical Func Button Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 241050
+             * line : 164126
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VerticalFuncButtonPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:VerticalFuncButtonPlaybackMode',
             'desc' => [
+                'en' => 'Vertical Func Button Playback Mode',
             ],
         ],
     ];

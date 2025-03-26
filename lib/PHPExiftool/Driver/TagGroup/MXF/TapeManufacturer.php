@@ -28,13 +28,14 @@ class TapeManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169155
+             * line : 115597
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TapeManufacturer extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeManufacturer',
             'desc' => [
+                'en' => 'Tape Manufacturer',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169158
+             * line : 115600
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TapeManufacturer extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeManufacturer',
             'desc' => [
+                'en' => 'Tape Manufacturer',
             ],
         ],
     ];

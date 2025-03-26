@@ -28,13 +28,14 @@ class PeakEnvelopeVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Envelope Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171917
+             * line : 118102
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakEnvelopeVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PeakEnvelopeVersion',
             'desc' => [
+                'en' => 'Peak Envelope Version',
             ],
         ],
     ];

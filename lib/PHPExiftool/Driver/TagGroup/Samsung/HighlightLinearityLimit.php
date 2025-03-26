@@ -28,13 +28,14 @@ class HighlightLinearityLimit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Linearity Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335557
+             * line : 235466
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightLinearityLimit extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:HighlightLinearityLimit',
             'desc' => [
+                'en' => 'Highlight Linearity Limit',
             ],
         ],
     ];

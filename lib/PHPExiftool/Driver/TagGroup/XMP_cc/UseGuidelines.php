@@ -28,13 +28,14 @@ class UseGuidelines extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Use Guidelines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398151
+             * line : 281784
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UseGuidelines extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:UseGuidelines',
             'desc' => [
+                'en' => 'Use Guidelines',
             ],
         ],
     ];

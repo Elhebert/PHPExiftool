@@ -28,13 +28,14 @@ class InstanceID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Instance ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413984
+             * line : 292009
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InstanceID extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:InstanceID',
             'desc' => [
+                'en' => 'Instance ID',
             ],
         ],
     ];

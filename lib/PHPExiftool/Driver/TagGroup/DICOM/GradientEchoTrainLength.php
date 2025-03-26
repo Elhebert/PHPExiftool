@@ -28,13 +28,14 @@ class GradientEchoTrainLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gradient Echo Train Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96931
+             * line : 70333
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GradientEchoTrainLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GradientEchoTrainLength',
             'desc' => [
+                'en' => 'Gradient Echo Train Length',
             ],
         ],
     ];

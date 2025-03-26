@@ -28,13 +28,14 @@ class BaselineCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Baseline Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96674
+             * line : 70078
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BaselineCorrection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BaselineCorrection',
             'desc' => [
+                'en' => 'Baseline Correction',
             ],
         ],
     ];

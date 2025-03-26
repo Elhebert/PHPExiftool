@@ -28,13 +28,14 @@ class FileSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405757
+             * line : 287961
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileSource extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FileSource',
             'desc' => [
+                'en' => 'File Source',
             ],
         ],
     ];

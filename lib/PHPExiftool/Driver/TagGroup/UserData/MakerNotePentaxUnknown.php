@@ -28,13 +28,14 @@ class MakerNotePentaxUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Pentax Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325275
+             * line : 229619
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNotePentaxUnknown extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:MakerNotePentaxUnknown',
             'desc' => [
+                'en' => 'Maker Note Pentax Unknown',
             ],
         ],
     ];

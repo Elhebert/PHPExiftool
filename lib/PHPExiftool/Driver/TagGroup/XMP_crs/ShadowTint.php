@@ -28,13 +28,14 @@ class ShadowTint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadow Tint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404351
+             * line : 287435
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadowTint extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ShadowTint',
             'desc' => [
+                'en' => 'Shadow Tint',
             ],
         ],
     ];

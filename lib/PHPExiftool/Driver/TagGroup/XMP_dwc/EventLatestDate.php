@@ -28,13 +28,14 @@ class EventLatestDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Latest Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106105
+             * line : 78476
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventLatestDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventLatestDate',
             'desc' => [
+                'en' => 'Event Latest Date',
             ],
         ],
     ];

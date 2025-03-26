@@ -28,13 +28,14 @@ class AnalogMetadataCarrier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Analog Metadata Carrier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168048
+             * line : 114554
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnalogMetadataCarrier extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnalogMetadataCarrier',
             'desc' => [
+                'en' => 'Analog Metadata Carrier',
             ],
         ],
     ];

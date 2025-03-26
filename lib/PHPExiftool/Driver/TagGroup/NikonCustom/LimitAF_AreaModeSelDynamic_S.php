@@ -28,13 +28,14 @@ class LimitAF_AreaModeSelDynamic_S extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit AF-Area Mode Sel Dynamic S',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239230
+             * line : 162319
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LimitAF_AreaModeSelDynamic_S extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitAF-AreaModeSelDynamic_S',
             'desc' => [
+                'en' => 'Limit AF-Area Mode Sel Dynamic S',
             ],
         ],
     ];

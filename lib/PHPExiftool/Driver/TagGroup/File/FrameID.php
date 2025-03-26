@@ -28,13 +28,14 @@ class FrameID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105899
+             * line : 78378
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class FrameID extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:FrameID',
             'desc' => [
+                'en' => 'Frame ID',
             ],
         ],
     ];

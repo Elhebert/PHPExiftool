@@ -28,13 +28,14 @@ class CY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CY',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159995
+             * line : 109582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CY extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:CY',
             'desc' => [
+                'en' => 'CY',
             ],
         ],
     ];

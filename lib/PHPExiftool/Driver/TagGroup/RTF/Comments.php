@@ -28,13 +28,14 @@ class Comments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329230
+             * line : 232029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comments extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:Comments',
             'desc' => [
+                'en' => 'Comments',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensManufacturer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174376
+             * line : 120094
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensManufacturer extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:LensManufacturer',
             'desc' => [
+                'en' => 'Lens Manufacturer',
             ],
         ],
     ];

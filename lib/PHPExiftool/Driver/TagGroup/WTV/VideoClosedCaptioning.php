@@ -28,13 +28,14 @@ class VideoClosedCaptioning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Closed Captioning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396230
+             * line : 280514
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoClosedCaptioning extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:VideoClosedCaptioning',
             'desc' => [
+                'en' => 'Video Closed Captioning',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSDestBearingRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Dest Bearing Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406390
+             * line : 288123
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDestBearingRef extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSDestBearingRef',
             'desc' => [
+                'en' => 'GPS Dest Bearing Ref',
             ],
         ],
     ];

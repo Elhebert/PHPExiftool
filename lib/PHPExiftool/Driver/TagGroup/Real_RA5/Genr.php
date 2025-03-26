@@ -28,13 +28,14 @@ class Genr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV5
-             * line : 330099
+             * line : 232351
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Genr extends AbstractTagGroup
              */
             'id' => 'Real::AudioV5.Real-RA5:Genr',
             'desc' => [
+                'en' => 'Genr',
             ],
         ],
     ];

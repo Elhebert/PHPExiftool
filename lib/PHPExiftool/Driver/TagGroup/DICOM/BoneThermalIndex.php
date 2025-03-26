@@ -28,13 +28,14 @@ class BoneThermalIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bone Thermal Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96200
+             * line : 69616
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoneThermalIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BoneThermalIndex',
             'desc' => [
+                'en' => 'Bone Thermal Index',
             ],
         ],
     ];

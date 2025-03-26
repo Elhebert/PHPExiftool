@@ -28,13 +28,14 @@ class VariableNextDataGroup extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Variable Next Data Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104405
+             * line : 77478
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VariableNextDataGroup extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VariableNextDataGroup',
             'desc' => [
+                'en' => 'Variable Next Data Group',
             ],
         ],
     ];

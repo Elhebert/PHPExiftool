@@ -28,13 +28,14 @@ class Adobe extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Adobe',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152644
+             * line : 105050
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Adobe extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:Adobe',
             'desc' => [
+                'en' => 'Adobe',
             ],
         ],
     ];

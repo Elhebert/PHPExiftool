@@ -28,13 +28,14 @@ class MaskVisibilityPercentage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Visibility Percentage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99228
+             * line : 72447
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskVisibilityPercentage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskVisibilityPercentage',
             'desc' => [
+                'en' => 'Mask Visibility Percentage',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LinkQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Link Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V3
-             * line : 282590
+             * line : 196190
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkQuality extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:LinkQuality',
             'desc' => [
+                'en' => 'Link Quality',
             ],
         ],
     ];

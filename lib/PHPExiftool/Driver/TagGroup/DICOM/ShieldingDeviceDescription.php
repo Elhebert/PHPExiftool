@@ -28,13 +28,14 @@ class ShieldingDeviceDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shielding Device Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103483
+             * line : 76578
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShieldingDeviceDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShieldingDeviceDescription',
             'desc' => [
+                'en' => 'Shielding Device Description',
             ],
         ],
     ];

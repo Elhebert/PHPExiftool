@@ -28,13 +28,14 @@ class RecordDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181796
+             * line : 123671
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordDisplay extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:RecordDisplay',
             'desc' => [
+                'en' => 'Record Display',
             ],
         ],
     ];

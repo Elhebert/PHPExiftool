@@ -28,13 +28,14 @@ class FrequencyCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frequency Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96754
+             * line : 70156
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrequencyCorrection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrequencyCorrection',
             'desc' => [
+                'en' => 'Frequency Correction',
             ],
         ],
     ];

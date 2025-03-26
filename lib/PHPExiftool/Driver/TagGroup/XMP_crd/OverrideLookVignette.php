@@ -28,13 +28,14 @@ class OverrideLookVignette extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Override Look Vignette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400111
+             * line : 283598
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OverrideLookVignette extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:OverrideLookVignette',
             'desc' => [
+                'en' => 'Override Look Vignette',
             ],
         ],
     ];

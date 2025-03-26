@@ -28,13 +28,14 @@ class AFAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195636
+             * line : 132503
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:AFAperture',
             'desc' => [
+                'en' => 'AF Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195777
+             * line : 132549
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:AFAperture',
             'desc' => [
+                'en' => 'AF Aperture',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 195984
+             * line : 132628
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:AFAperture',
             'desc' => [
+                'en' => 'AF Aperture',
             ],
         ],
     ];

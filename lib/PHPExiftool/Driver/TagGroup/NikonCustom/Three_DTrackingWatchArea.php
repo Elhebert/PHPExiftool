@@ -28,13 +28,14 @@ class Three_DTrackingWatchArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Three-D Tracking Watch Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219348
+             * line : 147692
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Three_DTrackingWatchArea extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:Three-DTrackingWatchArea',
             'desc' => [
+                'en' => 'Three-D Tracking Watch Area',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221808
+             * line : 149734
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Three_DTrackingWatchArea extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:Three-DTrackingWatchArea',
             'desc' => [
+                'en' => 'Three-D Tracking Watch Area',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233732
+             * line : 157576
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Three_DTrackingWatchArea extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:Three-DTrackingWatchArea',
             'desc' => [
+                'en' => 'Three-D Tracking Watch Area',
             ],
         ],
     ];

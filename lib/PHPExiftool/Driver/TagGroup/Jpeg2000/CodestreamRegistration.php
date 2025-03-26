@@ -28,13 +28,14 @@ class CodestreamRegistration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codestream Registration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154195
+             * line : 105873
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodestreamRegistration extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:CodestreamRegistration',
             'desc' => [
+                'en' => 'Codestream Registration',
             ],
         ],
     ];

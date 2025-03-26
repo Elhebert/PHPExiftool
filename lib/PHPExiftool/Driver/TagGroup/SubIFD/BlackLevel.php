@@ -28,13 +28,14 @@ class BlackLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118961
+             * line : 84129
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
     ];

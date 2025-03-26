@@ -28,13 +28,14 @@ class UltrasoundColorDataPresent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ultrasound Color Data Present',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98687
+             * line : 71968
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UltrasoundColorDataPresent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UltrasoundColorDataPresent',
             'desc' => [
+                'en' => 'Ultrasound Color Data Present',
             ],
         ],
     ];

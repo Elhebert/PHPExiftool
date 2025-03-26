@@ -28,13 +28,14 @@ class WBFineTuneTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Fine Tune Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82300
+             * line : 60285
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBFineTuneTone extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:WBFineTuneTone',
             'desc' => [
+                'en' => 'WB Fine Tune Tone',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BodyBatteryVoltage4 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Body Battery Voltage 4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283891
+             * line : 196941
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BodyBatteryVoltage4 extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryVoltage4',
             'desc' => [
+                'en' => 'Body Battery Voltage 4',
             ],
         ],
     ];

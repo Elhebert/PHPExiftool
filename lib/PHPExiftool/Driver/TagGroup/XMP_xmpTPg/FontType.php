@@ -28,13 +28,14 @@ class FontType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Font Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414510
+             * line : 292465
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FontType extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:FontType',
             'desc' => [
+                'en' => 'Font Type',
             ],
         ],
     ];

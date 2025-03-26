@@ -28,13 +28,14 @@ class ReelOrRollNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reel Or Roll Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167361
+             * line : 113982
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReelOrRollNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ReelOrRollNumber',
             'desc' => [
+                'en' => 'Reel Or Roll Number',
             ],
         ],
     ];

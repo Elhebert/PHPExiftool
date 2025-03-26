@@ -28,13 +28,14 @@ class DPP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DPP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397759
+             * line : 281592
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DPP extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:DPP',
             'desc' => [
+                'en' => 'DPP',
             ],
         ],
     ];

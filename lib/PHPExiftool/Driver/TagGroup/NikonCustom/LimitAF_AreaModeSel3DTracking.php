@@ -28,13 +28,14 @@ class LimitAF_AreaModeSel3DTracking extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit AF-Area Mode Sel 3D Tracking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239263
+             * line : 162352
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LimitAF_AreaModeSel3DTracking extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitAF-AreaModeSel3DTracking',
             'desc' => [
+                'en' => 'Limit AF-Area Mode Sel 3D Tracking',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageTemperatureMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Temperature Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Main
-             * line : 123210
+             * line : 86035
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageTemperatureMax extends AbstractTagGroup
              */
             'id' => 'FLIR::Main.FLIR:ImageTemperatureMax',
             'desc' => [
+                'en' => 'Image Temperature Max',
             ],
         ],
     ];

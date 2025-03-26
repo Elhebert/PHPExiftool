@@ -28,13 +28,14 @@ class FlashOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61261
+             * line : 46993
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70936
+             * line : 52907
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
     ];

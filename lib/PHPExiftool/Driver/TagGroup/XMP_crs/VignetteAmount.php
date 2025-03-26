@@ -28,13 +28,14 @@ class VignetteAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignette Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404599
+             * line : 287617
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VignetteAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:VignetteAmount',
             'desc' => [
+                'en' => 'Vignette Amount',
             ],
         ],
     ];

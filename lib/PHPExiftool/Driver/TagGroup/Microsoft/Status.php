@@ -28,13 +28,14 @@ class Status extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176354
+             * line : 121335
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Status extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Status',
             'desc' => [
+                'en' => 'Status',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176376
+             * line : 121350
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Status extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Status',
             'desc' => [
+                'en' => 'Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FilterByAttributePresence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter By Attribute Presence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101652
+             * line : 74796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterByAttributePresence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterByAttributePresence',
             'desc' => [
+                'en' => 'Filter By Attribute Presence',
             ],
         ],
     ];

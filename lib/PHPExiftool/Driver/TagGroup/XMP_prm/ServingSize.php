@@ -28,13 +28,14 @@ class ServingSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serving Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411255
+             * line : 290445
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ServingSize extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:ServingSize',
             'desc' => [
+                'en' => 'Serving Size',
             ],
         ],
     ];

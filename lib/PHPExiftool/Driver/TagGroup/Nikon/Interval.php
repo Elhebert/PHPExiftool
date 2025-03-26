@@ -28,13 +28,14 @@ class Interval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207116
+             * line : 139334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Interval extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:Interval',
             'desc' => [
+                'en' => 'Interval',
             ],
         ],
     ];

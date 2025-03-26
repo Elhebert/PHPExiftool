@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dc
-             * line : 404835
+             * line : 287689
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'XMP::dc.XMP-dc:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureAdj2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Adj 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Exposure
-             * line : 210303
+             * line : 141612
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureAdj2 extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Exposure.NikonCapture:ExposureAdj2',
             'desc' => [
+                'en' => 'Exposure Adj 2',
             ],
         ],
     ];

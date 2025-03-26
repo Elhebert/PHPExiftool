@@ -28,13 +28,14 @@ class CompressionLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::NewHeader
-             * line : 345
+             * line : 156
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CompressionLevel extends AbstractTagGroup
              */
             'id' => 'APE::NewHeader.MAC:CompressionLevel',
             'desc' => [
+                'en' => 'Compression Level',
             ],
         ],
         1 => [
             /**
              * table_name : APE::OldHeader
-             * line : 417
+             * line : 184
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CompressionLevel extends AbstractTagGroup
              */
             'id' => 'APE::OldHeader.MAC:CompressionLevel',
             'desc' => [
+                'en' => 'Compression Level',
             ],
         ],
     ];

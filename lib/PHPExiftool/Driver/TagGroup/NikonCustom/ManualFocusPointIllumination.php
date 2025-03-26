@@ -28,13 +28,14 @@ class ManualFocusPointIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual Focus Point Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235321
+             * line : 158608
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualFocusPointIllumination extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ManualFocusPointIllumination',
             'desc' => [
+                'en' => 'Manual Focus Point Illumination',
             ],
         ],
     ];

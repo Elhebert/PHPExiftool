@@ -28,13 +28,14 @@ class TerminationAction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Termination Action',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::TerminationAction
-             * line : 165395
+             * line : 112464
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TerminationAction extends AbstractTagGroup
              */
             'id' => 'MNG::TerminationAction.MNG:TerminationAction',
             'desc' => [
+                'en' => 'Termination Action',
             ],
         ],
     ];

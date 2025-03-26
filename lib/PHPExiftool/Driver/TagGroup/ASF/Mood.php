@@ -28,13 +28,14 @@ class Mood extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mood',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1422
+             * line : 667
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Mood extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Mood',
             'desc' => [
+                'en' => 'Mood',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ApplicationProductID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Product ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169317
+             * line : 115725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationProductID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationProductID',
             'desc' => [
+                'en' => 'Application Product ID',
             ],
         ],
     ];

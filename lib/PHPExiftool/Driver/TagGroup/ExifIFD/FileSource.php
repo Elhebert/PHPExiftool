@@ -28,13 +28,14 @@ class FileSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116944
+             * line : 83478
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileSource extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FileSource',
             'desc' => [
+                'en' => 'File Source',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Smoothness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Smoothness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120958
+             * line : 84936
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Smoothness extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Smoothness',
             'desc' => [
+                'en' => 'Smoothness',
             ],
         ],
     ];

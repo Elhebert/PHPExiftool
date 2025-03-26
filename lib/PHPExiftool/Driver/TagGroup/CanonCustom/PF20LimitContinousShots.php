@@ -28,13 +28,14 @@ class PF20LimitContinousShots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF20 Limit Continous Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78407
+             * line : 57108
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF20LimitContinousShots extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF20LimitContinousShots',
             'desc' => [
+                'en' => 'PF20 Limit Continous Shots',
             ],
         ],
     ];

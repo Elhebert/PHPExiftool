@@ -28,13 +28,14 @@ class ManifestReferenceLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414118
+             * line : 292140
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceLastModifyDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceLastModifyDate',
             'desc' => [
+                'en' => 'Manifest Reference Last Modify Date',
             ],
         ],
     ];

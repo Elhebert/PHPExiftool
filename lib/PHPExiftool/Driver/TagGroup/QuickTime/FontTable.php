@@ -28,13 +28,14 @@ class FontTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::OtherSampleDesc
-             * line : 324168
+             * line : 229060
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FontTable extends AbstractTagGroup
              */
             'id' => 'QuickTime::OtherSampleDesc.QuickTime:FontTable',
             'desc' => [
+                'en' => 'Font Table',
             ],
         ],
     ];

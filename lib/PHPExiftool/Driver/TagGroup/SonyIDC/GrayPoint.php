@@ -28,13 +28,14 @@ class GrayPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gray Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394237
+             * line : 279293
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class GrayPoint extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:GrayPoint',
             'desc' => [
+                'en' => 'Gray Point',
             ],
         ],
     ];

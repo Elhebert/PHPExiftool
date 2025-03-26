@@ -28,13 +28,14 @@ class PageProgressionDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Page Progression Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411034
+             * line : 290255
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PageProgressionDirection extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:PageProgressionDirection',
             'desc' => [
+                'en' => 'Page Progression Direction',
             ],
         ],
     ];

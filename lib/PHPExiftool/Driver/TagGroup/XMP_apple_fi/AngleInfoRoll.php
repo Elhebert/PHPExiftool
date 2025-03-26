@@ -28,13 +28,14 @@ class AngleInfoRoll extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Angle Info Roll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::apple_fi
-             * line : 397888
+             * line : 281638
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AngleInfoRoll extends AbstractTagGroup
              */
             'id' => 'XMP::apple_fi.XMP-apple-fi:AngleInfoRoll',
             'desc' => [
+                'en' => 'Angle Info Roll',
             ],
         ],
     ];

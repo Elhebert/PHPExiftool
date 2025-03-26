@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152824
+             * line : 105156
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StreamMaxBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Max Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330373
+             * line : 232469
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamMaxBitrate extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamMaxBitrate',
             'desc' => [
+                'en' => 'Stream Max Bitrate',
             ],
         ],
     ];

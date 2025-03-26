@@ -28,13 +28,14 @@ class BlurStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blur Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334163
+             * line : 234243
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlurStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:BlurStrength',
             'desc' => [
+                'en' => 'Blur Strength',
             ],
         ],
     ];

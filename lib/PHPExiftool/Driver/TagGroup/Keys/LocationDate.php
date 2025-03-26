@@ -28,13 +28,14 @@ class LocationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323468
+             * line : 228670
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LocationDate',
             'desc' => [
+                'en' => 'Location Date',
             ],
         ],
     ];

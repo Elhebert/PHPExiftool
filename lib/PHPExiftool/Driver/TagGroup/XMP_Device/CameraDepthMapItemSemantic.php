@@ -28,13 +28,14 @@ class CameraDepthMapItemSemantic extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Depth Map Item Semantic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396543
+             * line : 280760
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDepthMapItemSemantic extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraDepthMapItemSemantic',
             'desc' => [
+                'en' => 'Camera Depth Map Item Semantic',
             ],
         ],
     ];

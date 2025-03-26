@@ -28,13 +28,14 @@ class RasterPadding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raster Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113217
+             * line : 82368
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RasterPadding extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:RasterPadding',
             'desc' => [
+                'en' => 'Raster Padding',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaddingBits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Padding Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169215
+             * line : 115657
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaddingBits extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PaddingBits',
             'desc' => [
+                'en' => 'Padding Bits',
             ],
         ],
     ];

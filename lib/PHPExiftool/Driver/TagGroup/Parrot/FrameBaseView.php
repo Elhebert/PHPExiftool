@@ -28,13 +28,14 @@ class FrameBaseView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Base View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V3
-             * line : 282520
+             * line : 196166
              * type : int16s
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class FrameBaseView extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:FrameBaseView',
             'desc' => [
+                'en' => 'Frame Base View',
             ],
         ],
     ];

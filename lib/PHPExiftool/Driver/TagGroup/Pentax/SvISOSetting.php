@@ -28,13 +28,14 @@ class SvISOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sv ISO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285533
+             * line : 197966
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SvISOSetting extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:SvISOSetting',
             'desc' => [
+                'en' => 'Sv ISO Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFGrossStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Gross Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306239
+             * line : 212744
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFGrossStep extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFGrossStep',
             'desc' => [
+                'en' => 'AF Gross Step',
             ],
         ],
     ];

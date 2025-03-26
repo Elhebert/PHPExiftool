@@ -28,13 +28,14 @@ class JPEGTables extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Tables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112047
+             * line : 81866
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class JPEGTables extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JPEGTables',
             'desc' => [
+                'en' => 'JPEG Tables',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 112254
+             * line : 81964
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class JPEGTables extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JPEGTables',
             'desc' => [
+                'en' => 'JPEG Tables',
             ],
         ],
     ];

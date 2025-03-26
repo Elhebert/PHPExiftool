@@ -28,13 +28,14 @@ class ContrastBolusRoute extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Bolus Route',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95636
+             * line : 69085
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastBolusRoute extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastBolusRoute',
             'desc' => [
+                'en' => 'Contrast Bolus Route',
             ],
         ],
     ];

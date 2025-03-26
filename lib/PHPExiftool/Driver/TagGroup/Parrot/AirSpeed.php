@@ -28,13 +28,14 @@ class AirSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Air Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V2
-             * line : 282307
+             * line : 196041
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AirSpeed extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:AirSpeed',
             'desc' => [
+                'en' => 'Air Speed',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V3
-             * line : 282514
+             * line : 196160
              * type : int16s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AirSpeed extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:AirSpeed',
             'desc' => [
+                'en' => 'Air Speed',
             ],
         ],
     ];

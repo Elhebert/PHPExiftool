@@ -28,13 +28,14 @@ class MovieFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200053
+             * line : 135017
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieFrameSize extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieFrameSize',
             'desc' => [
+                'en' => 'Movie Frame Size',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201687
+             * line : 136581
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MovieFrameSize extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieFrameSize',
             'desc' => [
+                'en' => 'Movie Frame Size',
             ],
         ],
     ];

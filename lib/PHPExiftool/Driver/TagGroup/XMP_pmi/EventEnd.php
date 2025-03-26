@@ -28,13 +28,14 @@ class EventEnd extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410540
+             * line : 289898
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventEnd extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:EventEnd',
             'desc' => [
+                'en' => 'Event End',
             ],
         ],
     ];

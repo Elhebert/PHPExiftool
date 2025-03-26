@@ -28,13 +28,14 @@ class SaveObjects extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Save Objects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165214
+             * line : 112307
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaveObjects extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:SaveObjects',
             'desc' => [
+                'en' => 'Save Objects',
             ],
         ],
     ];

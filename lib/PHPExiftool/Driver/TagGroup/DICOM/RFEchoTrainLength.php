@@ -28,13 +28,14 @@ class RFEchoTrainLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RF Echo Train Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96928
+             * line : 70330
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RFEchoTrainLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RFEchoTrainLength',
             'desc' => [
+                'en' => 'RF Echo Train Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PerformedProcessingParametersSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Processing Parameters Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101820
+             * line : 74961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedProcessingParametersSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedProcessingParametersSeq',
             'desc' => [
+                'en' => 'Performed Processing Parameters Seq',
             ],
         ],
     ];

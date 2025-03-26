@@ -28,13 +28,14 @@ class Sensitivity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96242
+             * line : 69655
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sensitivity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Sensitivity',
             'desc' => [
+                'en' => 'Sensitivity',
             ],
         ],
     ];

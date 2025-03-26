@@ -28,13 +28,14 @@ class RealWorldValueSlope extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Real World Value Slope',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100047
+             * line : 73248
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RealWorldValueSlope extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RealWorldValueSlope',
             'desc' => [
+                'en' => 'Real World Value Slope',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MOI::Main
-             * line : 165486
+             * line : 112528
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'MOI::Main.MOI:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
     ];

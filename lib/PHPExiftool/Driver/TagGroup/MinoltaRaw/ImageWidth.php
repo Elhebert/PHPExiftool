@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186779
+             * line : 126887
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

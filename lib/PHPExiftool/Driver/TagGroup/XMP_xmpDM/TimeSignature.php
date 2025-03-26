@@ -28,13 +28,14 @@ class TimeSignature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413499
+             * line : 291581
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeSignature extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TimeSignature',
             'desc' => [
+                'en' => 'Time Signature',
             ],
         ],
     ];

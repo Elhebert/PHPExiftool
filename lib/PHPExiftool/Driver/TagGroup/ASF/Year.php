@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1700
+             * line : 850
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

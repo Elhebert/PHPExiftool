@@ -28,13 +28,14 @@ class M16CVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'M16C Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274753
+             * line : 191594
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class M16CVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:M16CVersion',
             'desc' => [
+                'en' => 'M16C Version',
             ],
         ],
     ];

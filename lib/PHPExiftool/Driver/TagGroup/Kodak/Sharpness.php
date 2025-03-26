@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158326
+             * line : 108877
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type3
-             * line : 160045
+             * line : 109620
              * type : int8s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Kodak::Type3.Kodak:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

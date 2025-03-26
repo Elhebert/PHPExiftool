@@ -28,13 +28,14 @@ class Cuisine extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cuisine',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411214
+             * line : 290409
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Cuisine extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:Cuisine',
             'desc' => [
+                'en' => 'Cuisine',
             ],
         ],
     ];

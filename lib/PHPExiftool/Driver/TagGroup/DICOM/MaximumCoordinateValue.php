@@ -28,13 +28,14 @@ class MaximumCoordinateValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Coordinate Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104176
+             * line : 77262
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumCoordinateValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumCoordinateValue',
             'desc' => [
+                'en' => 'Maximum Coordinate Value',
             ],
         ],
     ];

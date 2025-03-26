@@ -28,13 +28,14 @@ class Nikon_AVITags_0x0019 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nikon AVI Tags 0x0019',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191764
+             * line : 130017
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Nikon_AVITags_0x0019 extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:Nikon_AVITags_0x0019',
             'desc' => [
+                'en' => 'Nikon AVI Tags 0x0019',
             ],
         ],
     ];

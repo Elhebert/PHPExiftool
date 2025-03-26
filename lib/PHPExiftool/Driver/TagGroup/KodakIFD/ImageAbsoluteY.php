@@ -28,13 +28,14 @@ class ImageAbsoluteY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Absolute Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154835
+             * line : 106151
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageAbsoluteY extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageAbsoluteY',
             'desc' => [
+                'en' => 'Image Absolute Y',
             ],
         ],
     ];

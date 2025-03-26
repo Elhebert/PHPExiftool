@@ -28,13 +28,14 @@ class OpticalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Optical Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 164014
+             * line : 111564
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OpticalZoom extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:OpticalZoom',
             'desc' => [
+                'en' => 'Optical Zoom',
             ],
         ],
     ];

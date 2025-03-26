@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128010
+             * line : 88840
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EventStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169684
+             * line : 116073
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventStart extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventStart',
             'desc' => [
+                'en' => 'Event Start',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Instructions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Instructions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410304
+             * line : 289794
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Instructions extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:Instructions',
             'desc' => [
+                'en' => 'Instructions',
             ],
         ],
     ];

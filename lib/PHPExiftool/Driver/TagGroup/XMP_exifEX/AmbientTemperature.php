@@ -28,13 +28,14 @@ class AmbientTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ambient Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408756
+             * line : 288692
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AmbientTemperature extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:AmbientTemperature',
             'desc' => [
+                'en' => 'Ambient Temperature',
             ],
         ],
     ];

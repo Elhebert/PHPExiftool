@@ -28,13 +28,14 @@ class ImageReviewMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Review Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244055
+             * line : 166997
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageReviewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ImageReviewMonitorOffTime',
             'desc' => [
+                'en' => 'Image Review Monitor Off Time',
             ],
         ],
     ];

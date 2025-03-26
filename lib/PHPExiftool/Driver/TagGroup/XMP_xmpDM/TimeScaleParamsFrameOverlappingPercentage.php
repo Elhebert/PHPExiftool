@@ -28,13 +28,14 @@ class TimeScaleParamsFrameOverlappingPercentage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Scale Params Frame Overlapping Percentage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413469
+             * line : 291561
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeScaleParamsFrameOverlappingPercentage extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TimeScaleParamsFrameOverlappingPercentage',
             'desc' => [
+                'en' => 'Time Scale Params Frame Overlapping Percentage',
             ],
         ],
     ];

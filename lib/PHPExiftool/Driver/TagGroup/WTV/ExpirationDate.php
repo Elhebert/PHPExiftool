@@ -28,13 +28,14 @@ class ExpirationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expiration Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396317
+             * line : 280582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpirationDate extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ExpirationDate',
             'desc' => [
+                'en' => 'Expiration Date',
             ],
         ],
     ];

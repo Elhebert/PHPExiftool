@@ -28,13 +28,14 @@ class TextureFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Texture Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112937
+             * line : 82260
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextureFormat extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TextureFormat',
             'desc' => [
+                'en' => 'Texture Format',
             ],
         ],
     ];

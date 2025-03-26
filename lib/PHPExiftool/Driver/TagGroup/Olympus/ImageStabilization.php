@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252870
+             * line : 174311
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255132
+             * line : 176097
              * type : undef
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class YClipPathUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Clip Path Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112014
+             * line : 81852
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YClipPathUnits extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:YClipPathUnits',
             'desc' => [
+                'en' => 'Y Clip Path Units',
             ],
         ],
     ];

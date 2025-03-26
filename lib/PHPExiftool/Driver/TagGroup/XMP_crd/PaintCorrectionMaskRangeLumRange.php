@@ -28,13 +28,14 @@ class PaintCorrectionMaskRangeLumRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Range Lum Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400180
+             * line : 283667
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskRangeLumRange extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionMaskRangeLumRange',
             'desc' => [
+                'en' => 'Paint Correction Mask Range Lum Range',
             ],
         ],
     ];

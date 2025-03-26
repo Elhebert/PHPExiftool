@@ -28,13 +28,14 @@ class Mute extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mute',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323538
+             * line : 228708
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Mute extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Mute',
             'desc' => [
+                'en' => 'Mute',
             ],
         ],
     ];

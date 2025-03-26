@@ -28,13 +28,14 @@ class TTL_DA_ADown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TTL DA A Down',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 288176
+             * line : 199970
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TTL_DA_ADown extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:TTL_DA_ADown',
             'desc' => [
+                'en' => 'TTL DA A Down',
             ],
         ],
     ];

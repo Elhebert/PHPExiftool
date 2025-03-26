@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123944
+             * line : 86663
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Flash::Meta
-             * line : 124115
+             * line : 86747
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

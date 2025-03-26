@@ -28,13 +28,14 @@ class ExposureDelayMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Delay Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244119
+             * line : 167052
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureDelayMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ExposureDelayMode',
             'desc' => [
+                'en' => 'Exposure Delay Mode',
             ],
         ],
     ];

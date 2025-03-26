@@ -28,13 +28,14 @@ class IdentificationID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Identification ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106321
+             * line : 78638
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IdentificationID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:IdentificationID',
             'desc' => [
+                'en' => 'Identification ID',
             ],
         ],
     ];

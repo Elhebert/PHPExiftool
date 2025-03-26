@@ -28,13 +28,14 @@ class ColorCompensationFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Compensation Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181477
+             * line : 123457
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorCompensationFilter extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorCompensationFilter',
             'desc' => [
+                'en' => 'Color Compensation Filter',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182461
+             * line : 124197
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorCompensationFilter extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorCompensationFilter',
             'desc' => [
+                'en' => 'Color Compensation Filter',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::Main
-             * line : 184769
+             * line : 125554
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorCompensationFilter extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ColorCompensationFilter',
             'desc' => [
+                'en' => 'Color Compensation Filter',
             ],
         ],
     ];

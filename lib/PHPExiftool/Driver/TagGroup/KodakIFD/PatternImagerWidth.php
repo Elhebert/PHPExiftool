@@ -28,13 +28,14 @@ class PatternImagerWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pattern Imager Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155500
+             * line : 106712
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatternImagerWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternImagerWidth',
             'desc' => [
+                'en' => 'Pattern Imager Width',
             ],
         ],
     ];

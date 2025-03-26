@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191840
+             * line : 130035
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 197483
+             * line : 133211
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121628
+             * line : 85281
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

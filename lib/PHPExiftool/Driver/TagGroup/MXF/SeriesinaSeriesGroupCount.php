@@ -28,13 +28,14 @@ class SeriesinaSeriesGroupCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seriesina Series Group Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169870
+             * line : 116211
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesinaSeriesGroupCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SeriesinaSeriesGroupCount',
             'desc' => [
+                'en' => 'Seriesina Series Group Count',
             ],
         ],
     ];

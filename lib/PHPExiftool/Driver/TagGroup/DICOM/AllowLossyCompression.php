@@ -28,13 +28,14 @@ class AllowLossyCompression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Allow Lossy Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102365
+             * line : 75465
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AllowLossyCompression extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AllowLossyCompression',
             'desc' => [
+                'en' => 'Allow Lossy Compression',
             ],
         ],
     ];

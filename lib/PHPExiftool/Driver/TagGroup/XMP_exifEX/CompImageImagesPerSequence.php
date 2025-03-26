@@ -28,13 +28,14 @@ class CompImageImagesPerSequence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comp Image Images Per Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408530
+             * line : 288592
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompImageImagesPerSequence extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:CompImageImagesPerSequence',
             'desc' => [
+                'en' => 'Comp Image Images Per Sequence',
             ],
         ],
     ];

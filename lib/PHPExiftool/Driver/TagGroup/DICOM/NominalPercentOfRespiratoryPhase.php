@@ -28,13 +28,14 @@ class NominalPercentOfRespiratoryPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Percent Of Respiratory Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98114
+             * line : 71461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalPercentOfRespiratoryPhase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalPercentOfRespiratoryPhase',
             'desc' => [
+                'en' => 'Nominal Percent Of Respiratory Phase',
             ],
         ],
     ];

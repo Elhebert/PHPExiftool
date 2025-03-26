@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125394
+             * line : 87421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

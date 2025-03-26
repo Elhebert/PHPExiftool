@@ -28,13 +28,14 @@ class BlackLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceC
-             * line : 192095
+             * line : 130181
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceC.Nikon:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 197132
+             * line : 133070
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
     ];

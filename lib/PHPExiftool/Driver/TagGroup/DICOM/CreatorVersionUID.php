@@ -28,13 +28,14 @@ class CreatorVersionUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Version UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95105
+             * line : 68587
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorVersionUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CreatorVersionUID',
             'desc' => [
+                'en' => 'Creator Version UID',
             ],
         ],
     ];

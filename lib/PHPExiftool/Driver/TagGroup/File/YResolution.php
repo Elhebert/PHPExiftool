@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121605
+             * line : 85271
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'Extra.File:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
         1 => [
             /**
              * table_name : PCX::Main
-             * line : 263956
+             * line : 182517
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetailPrice extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Retail Price',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273546
+             * line : 190757
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RetailPrice extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:RetailPrice',
             'desc' => [
+                'en' => 'Retail Price',
             ],
         ],
     ];

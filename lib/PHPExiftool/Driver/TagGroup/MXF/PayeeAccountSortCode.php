@@ -28,13 +28,14 @@ class PayeeAccountSortCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payee Account Sort Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169950
+             * line : 116286
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PayeeAccountSortCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PayeeAccountSortCode',
             'desc' => [
+                'en' => 'Payee Account Sort Code',
             ],
         ],
     ];

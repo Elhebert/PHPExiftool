@@ -28,13 +28,14 @@ class SafetyShift extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Safety Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72658
+             * line : 53938
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SafetyShift extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SafetyShift',
             'desc' => [
+                'en' => 'Safety Shift',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChartWGSNSShift extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart WGSNS Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139274
+             * line : 97520
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartWGSNSShift extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartWGSNSShift',
             'desc' => [
+                'en' => 'Chart WGSNS Shift',
             ],
         ],
     ];

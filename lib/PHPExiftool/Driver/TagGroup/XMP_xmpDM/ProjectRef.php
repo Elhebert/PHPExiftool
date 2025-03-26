@@ -28,13 +28,14 @@ class ProjectRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Project Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413222
+             * line : 291348
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProjectRef extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ProjectRef',
             'desc' => [
+                'en' => 'Project Ref',
             ],
         ],
     ];

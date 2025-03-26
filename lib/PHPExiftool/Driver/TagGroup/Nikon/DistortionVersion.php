@@ -28,13 +28,14 @@ class DistortionVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::DistortInfo
-             * line : 192197
+             * line : 130228
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DistortionVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::DistortInfo.Nikon:DistortionVersion',
             'desc' => [
+                'en' => 'Distortion Version',
             ],
         ],
     ];

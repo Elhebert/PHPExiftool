@@ -28,13 +28,14 @@ class DetectedFaceBounds extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Detected Face Bounds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323392
+             * line : 228616
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DetectedFaceBounds extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:DetectedFaceBounds',
             'desc' => [
+                'en' => 'Detected Face Bounds',
             ],
         ],
     ];

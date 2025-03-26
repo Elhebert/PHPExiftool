@@ -28,13 +28,14 @@ class CameraColorCalibration02 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Color Calibration 02',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCalib
-             * line : 58941
+             * line : 45767
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class CameraColorCalibration02 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCalib.Canon:CameraColorCalibration02',
             'desc' => [
+                'en' => 'Camera Color Calibration 02',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCalib2
-             * line : 59050
+             * line : 45816
              * type : int16s
              * writable : true
              * count : 5
@@ -55,6 +57,7 @@ class CameraColorCalibration02 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCalib2.Canon:CameraColorCalibration02',
             'desc' => [
+                'en' => 'Camera Color Calibration 02',
             ],
         ],
     ];

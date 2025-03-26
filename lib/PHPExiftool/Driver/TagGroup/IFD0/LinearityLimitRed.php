@@ -28,13 +28,14 @@ class LinearityLimitRed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Linearity Limit Red',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280371
+             * line : 194583
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LinearityLimitRed extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:LinearityLimitRed',
             'desc' => [
+                'en' => 'Linearity Limit Red',
             ],
         ],
     ];

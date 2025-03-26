@@ -28,13 +28,14 @@ class SensorSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162315
+             * line : 110860
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorSerialNumber extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:SensorSerialNumber',
             'desc' => [
+                'en' => 'Sensor Serial Number',
             ],
         ],
     ];

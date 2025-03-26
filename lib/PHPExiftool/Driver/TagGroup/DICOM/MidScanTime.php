@@ -28,13 +28,14 @@ class MidScanTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mid Scan Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97452
+             * line : 70840
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MidScanTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MidScanTime',
             'desc' => [
+                'en' => 'Mid Scan Time',
             ],
         ],
     ];

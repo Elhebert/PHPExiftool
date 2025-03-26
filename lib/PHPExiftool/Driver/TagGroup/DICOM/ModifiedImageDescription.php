@@ -28,13 +28,14 @@ class ModifiedImageDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modified Image Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98030
+             * line : 71377
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifiedImageDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModifiedImageDescription',
             'desc' => [
+                'en' => 'Modified Image Description',
             ],
         ],
     ];

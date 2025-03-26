@@ -28,13 +28,14 @@ class InterMarkerDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inter Marker Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100787
+             * line : 73947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterMarkerDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterMarkerDistance',
             'desc' => [
+                'en' => 'Inter Marker Distance',
             ],
         ],
     ];

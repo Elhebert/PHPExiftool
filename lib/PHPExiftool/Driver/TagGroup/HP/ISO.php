@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::Type4
-             * line : 142208
+             * line : 98422
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'HP::Type4.HP:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : HP::Type6
-             * line : 142287
+             * line : 98441
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'HP::Type6.HP:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

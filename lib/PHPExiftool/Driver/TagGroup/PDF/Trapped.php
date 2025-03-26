@@ -28,13 +28,14 @@ class Trapped extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Trapped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264270
+             * line : 182660
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Trapped extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:Trapped',
             'desc' => [
+                'en' => 'Trapped',
             ],
         ],
     ];

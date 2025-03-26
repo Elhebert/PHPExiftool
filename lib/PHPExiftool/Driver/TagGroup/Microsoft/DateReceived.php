@@ -28,13 +28,14 @@ class DateReceived extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Received',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176457
+             * line : 121413
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateReceived extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DateReceived',
             'desc' => [
+                'en' => 'Date Received',
             ],
         ],
     ];

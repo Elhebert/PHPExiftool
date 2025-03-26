@@ -28,13 +28,14 @@ class DataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ITC::Header
-             * line : 152092
+             * line : 104749
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class DataType extends AbstractTagGroup
              */
             'id' => 'ITC::Header.ITC:DataType',
             'desc' => [
+                'en' => 'Data Type',
             ],
         ],
     ];

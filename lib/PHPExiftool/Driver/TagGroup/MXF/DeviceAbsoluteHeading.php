@@ -28,13 +28,14 @@ class DeviceAbsoluteHeading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Absolute Heading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168347
+             * line : 114842
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceAbsoluteHeading extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceAbsoluteHeading',
             'desc' => [
+                'en' => 'Device Absolute Heading',
             ],
         ],
     ];

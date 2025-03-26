@@ -28,13 +28,14 @@ class RenditionOfPlacedResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Placed Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414258
+             * line : 292276
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfPlacedResolutionUnit extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfPlacedResolutionUnit',
             'desc' => [
+                'en' => 'Rendition Of Placed Resolution Unit',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EmbeddedImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::EmbeddedImage
-             * line : 122419
+             * line : 85739
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class EmbeddedImageType extends AbstractTagGroup
              */
             'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageType',
             'desc' => [
+                'en' => 'Embedded Image Type',
             ],
         ],
     ];

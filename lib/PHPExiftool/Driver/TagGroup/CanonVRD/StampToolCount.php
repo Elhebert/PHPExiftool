@@ -28,13 +28,14 @@ class StampToolCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stamp Tool Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::StampInfo
-             * line : 82103
+             * line : 60163
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StampToolCount extends AbstractTagGroup
              */
             'id' => 'CanonVRD::StampInfo.CanonVRD:StampToolCount',
             'desc' => [
+                'en' => 'Stamp Tool Count',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::StampTool
-             * line : 82110
+             * line : 60170
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StampToolCount extends AbstractTagGroup
              */
             'id' => 'CanonVRD::StampTool.CanonVRD:StampToolCount',
             'desc' => [
+                'en' => 'Stamp Tool Count',
             ],
         ],
     ];

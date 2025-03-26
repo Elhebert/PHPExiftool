@@ -28,13 +28,14 @@ class IPTCBitsPerSample extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151633
+             * line : 104515
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCBitsPerSample extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:IPTCBitsPerSample',
             'desc' => [
+                'en' => 'IPTC Bits Per Sample',
             ],
         ],
     ];

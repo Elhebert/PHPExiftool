@@ -28,13 +28,14 @@ class FramePixelDataPropertiesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Pixel Data Properties Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99210
+             * line : 72429
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramePixelDataPropertiesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FramePixelDataPropertiesSequence',
             'desc' => [
+                'en' => 'Frame Pixel Data Properties Sequence',
             ],
         ],
     ];

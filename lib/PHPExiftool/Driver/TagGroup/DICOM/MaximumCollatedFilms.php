@@ -28,13 +28,14 @@ class MaximumCollatedFilms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Collated Films',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102103
+             * line : 75240
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumCollatedFilms extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumCollatedFilms',
             'desc' => [
+                'en' => 'Maximum Collated Films',
             ],
         ],
     ];

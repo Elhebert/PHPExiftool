@@ -28,13 +28,14 @@ class LastPrinted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Printed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127208
+             * line : 88306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastPrinted extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:LastPrinted',
             'desc' => [
+                'en' => 'Last Printed',
             ],
         ],
     ];

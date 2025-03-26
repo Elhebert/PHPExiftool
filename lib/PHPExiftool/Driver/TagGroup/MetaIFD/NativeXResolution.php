@@ -28,13 +28,14 @@ class NativeXResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Native X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158486
+             * line : 108961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NativeXResolution extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:NativeXResolution',
             'desc' => [
+                'en' => 'Native X Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BinaryData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Binary Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154152
+             * line : 105846
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BinaryData extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:BinaryData',
             'desc' => [
+                'en' => 'Binary Data',
             ],
         ],
     ];

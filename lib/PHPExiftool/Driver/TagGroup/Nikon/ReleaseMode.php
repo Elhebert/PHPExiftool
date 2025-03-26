@@ -28,13 +28,14 @@ class ReleaseMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206654
+             * line : 138976
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseMode extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.Nikon:ReleaseMode',
             'desc' => [
+                'en' => 'Release Mode',
             ],
         ],
     ];

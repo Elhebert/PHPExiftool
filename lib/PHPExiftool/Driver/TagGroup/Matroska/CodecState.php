@@ -28,13 +28,14 @@ class CodecState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173271
+             * line : 119267
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecState extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CodecState',
             'desc' => [
+                'en' => 'Codec State',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BaseISOTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base ISO Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155367
+             * line : 106580
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseISOTungsten extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BaseISOTungsten',
             'desc' => [
+                'en' => 'Base ISO Tungsten',
             ],
         ],
     ];

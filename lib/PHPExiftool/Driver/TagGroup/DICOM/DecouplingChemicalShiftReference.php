@@ -28,13 +28,14 @@ class DecouplingChemicalShiftReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decoupling Chemical Shift Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96662
+             * line : 70066
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecouplingChemicalShiftReference extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DecouplingChemicalShiftReference',
             'desc' => [
+                'en' => 'Decoupling Chemical Shift Reference',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaxDensity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Density',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102091
+             * line : 75228
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxDensity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaxDensity',
             'desc' => [
+                'en' => 'Max Density',
             ],
         ],
     ];

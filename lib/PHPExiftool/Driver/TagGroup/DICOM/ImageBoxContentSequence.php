@@ -28,13 +28,14 @@ class ImageBoxContentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Content Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102305
+             * line : 75405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxContentSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxContentSequence',
             'desc' => [
+                'en' => 'Image Box Content Sequence',
             ],
         ],
     ];

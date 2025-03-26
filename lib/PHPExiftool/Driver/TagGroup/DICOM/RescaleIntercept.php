@@ -28,13 +28,14 @@ class RescaleIntercept extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rescale Intercept',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98919
+             * line : 72189
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RescaleIntercept extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RescaleIntercept',
             'desc' => [
+                'en' => 'Rescale Intercept',
             ],
         ],
     ];

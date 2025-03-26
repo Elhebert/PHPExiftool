@@ -28,13 +28,14 @@ class ContentClassification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Classification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167654
+             * line : 114260
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ContentClassification extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentClassification',
             'desc' => [
+                'en' => 'Content Classification',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168726
+             * line : 115202
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ContentClassification extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentClassification',
             'desc' => [
+                'en' => 'Content Classification',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PhasePlate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase Plate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166653
+             * line : 113391
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhasePlate extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:PhasePlate',
             'desc' => [
+                'en' => 'Phase Plate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160783
+             * line : 109826
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UnderlineThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Underline Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128165
+             * line : 88928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnderlineThickness extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:UnderlineThickness',
             'desc' => [
+                'en' => 'Underline Thickness',
             ],
         ],
     ];

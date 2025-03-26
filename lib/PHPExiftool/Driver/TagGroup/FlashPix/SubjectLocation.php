@@ -28,13 +28,14 @@ class SubjectLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126024
+             * line : 87566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectLocation extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SubjectLocation',
             'desc' => [
+                'en' => 'Subject Location',
             ],
         ],
     ];

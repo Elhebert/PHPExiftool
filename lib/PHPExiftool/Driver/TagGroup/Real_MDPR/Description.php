@@ -28,13 +28,14 @@ class Description extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330264
+             * line : 232424
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Description extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:Description',
             'desc' => [
+                'en' => 'Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SweepPanoramaFieldOfView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sweep Panorama Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277696
+             * line : 193138
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SweepPanoramaFieldOfView extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:SweepPanoramaFieldOfView',
             'desc' => [
+                'en' => 'Sweep Panorama Field Of View',
             ],
         ],
     ];

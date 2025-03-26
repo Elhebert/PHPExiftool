@@ -28,13 +28,14 @@ class CopyrightLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::ContentDescr
-             * line : 330155
+             * line : 232373
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CopyrightLen extends AbstractTagGroup
              */
             'id' => 'Real::ContentDescr.Real-CONT:CopyrightLen',
             'desc' => [
+                'en' => 'Copyright Len',
             ],
         ],
     ];

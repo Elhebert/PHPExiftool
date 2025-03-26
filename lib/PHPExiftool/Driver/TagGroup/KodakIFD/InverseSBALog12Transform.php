@@ -28,13 +28,14 @@ class InverseSBALog12Transform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inverse SBA Log 12 Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156404
+             * line : 107608
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InverseSBALog12Transform extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:InverseSBALog12Transform',
             'desc' => [
+                'en' => 'Inverse SBA Log 12 Transform',
             ],
         ],
     ];

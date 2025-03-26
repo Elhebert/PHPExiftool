@@ -28,13 +28,14 @@ class ProfileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112080
+             * line : 81880
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ProfileType',
             'desc' => [
+                'en' => 'Profile Type',
             ],
         ],
     ];

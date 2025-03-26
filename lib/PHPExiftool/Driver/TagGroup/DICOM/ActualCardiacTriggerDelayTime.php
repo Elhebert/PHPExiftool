@@ -28,13 +28,14 @@ class ActualCardiacTriggerDelayTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Cardiac Trigger Delay Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98135
+             * line : 71482
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualCardiacTriggerDelayTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActualCardiacTriggerDelayTime',
             'desc' => [
+                'en' => 'Actual Cardiac Trigger Delay Time',
             ],
         ],
     ];

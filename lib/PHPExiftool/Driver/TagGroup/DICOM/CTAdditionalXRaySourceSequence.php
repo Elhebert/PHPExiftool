@@ -28,13 +28,14 @@ class CTAdditionalXRaySourceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Additional X Ray Source Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97081
+             * line : 70480
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTAdditionalXRaySourceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTAdditionalXRaySourceSequence',
             'desc' => [
+                'en' => 'CT Additional X Ray Source Sequence',
             ],
         ],
     ];

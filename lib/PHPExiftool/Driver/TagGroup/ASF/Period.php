@@ -28,13 +28,14 @@ class Period extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1497
+             * line : 724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Period extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Period',
             'desc' => [
+                'en' => 'Period',
             ],
         ],
     ];

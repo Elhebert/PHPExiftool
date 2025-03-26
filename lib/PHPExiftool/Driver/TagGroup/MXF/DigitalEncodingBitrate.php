@@ -28,13 +28,14 @@ class DigitalEncodingBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Encoding Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170290
+             * line : 116565
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalEncodingBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DigitalEncodingBitrate',
             'desc' => [
+                'en' => 'Digital Encoding Bitrate',
             ],
         ],
     ];

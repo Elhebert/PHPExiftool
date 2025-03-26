@@ -28,13 +28,14 @@ class EmbeddedFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306007
+             * line : 212592
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedFileName extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:EmbeddedFileName',
             'desc' => [
+                'en' => 'Embedded File Name',
             ],
         ],
     ];

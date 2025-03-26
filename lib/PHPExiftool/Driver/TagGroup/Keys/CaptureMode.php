@@ -28,13 +28,14 @@ class CaptureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Capture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323324
+             * line : 228601
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptureMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:CaptureMode',
             'desc' => [
+                'en' => 'Capture Mode',
             ],
         ],
     ];

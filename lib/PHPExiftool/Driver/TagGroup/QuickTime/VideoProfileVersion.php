@@ -28,13 +28,14 @@ class VideoProfileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Profile Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoProf
-             * line : 326237
+             * line : 230153
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoProfileVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoProf.QuickTime:VideoProfileVersion',
             'desc' => [
+                'en' => 'Video Profile Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FieldOfViewDimensionsInFloat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Dimensions In Float',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97185
+             * line : 70582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewDimensionsInFloat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FieldOfViewDimensionsInFloat',
             'desc' => [
+                'en' => 'Field Of View Dimensions In Float',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreatorIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409204
+             * line : 289005
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:CreatorIdentifier',
             'desc' => [
+                'en' => 'Creator Identifier',
             ],
         ],
     ];

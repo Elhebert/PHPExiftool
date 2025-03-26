@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 128852
+             * line : 89353
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

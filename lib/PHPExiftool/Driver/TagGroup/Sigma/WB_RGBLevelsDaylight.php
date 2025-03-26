@@ -28,13 +28,14 @@ class WB_RGBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::WBSettings
-             * line : 339227
+             * line : 237435
              * type : float
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Sigma::WBSettings.Sigma:WB_RGBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RGB Levels Daylight',
             ],
         ],
     ];

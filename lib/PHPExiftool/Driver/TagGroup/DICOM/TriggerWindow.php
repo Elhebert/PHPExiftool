@@ -28,13 +28,14 @@ class TriggerWindow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Window',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95766
+             * line : 69214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerWindow extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerWindow',
             'desc' => [
+                'en' => 'Trigger Window',
             ],
         ],
     ];

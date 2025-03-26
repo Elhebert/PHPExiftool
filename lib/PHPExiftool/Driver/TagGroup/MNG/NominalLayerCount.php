@@ -28,13 +28,14 @@ class NominalLayerCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Layer Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165095
+             * line : 112199
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalLayerCount extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:NominalLayerCount',
             'desc' => [
+                'en' => 'Nominal Layer Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118583
+             * line : 83975
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageOffset extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageOffset',
             'desc' => [
+                'en' => 'Image Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Focus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209511
+             * line : 141289
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Focus extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:Focus',
             'desc' => [
+                'en' => 'Focus',
             ],
         ],
     ];

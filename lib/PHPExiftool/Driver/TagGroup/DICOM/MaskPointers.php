@@ -28,13 +28,14 @@ class MaskPointers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Pointers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99138
+             * line : 72357
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskPointers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskPointers',
             'desc' => [
+                'en' => 'Mask Pointers',
             ],
         ],
     ];

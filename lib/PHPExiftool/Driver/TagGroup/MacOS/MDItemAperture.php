@@ -28,13 +28,14 @@ class MDItemAperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172564
+             * line : 118718
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemAperture extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemAperture',
             'desc' => [
+                'en' => 'MD Item Aperture',
             ],
         ],
     ];

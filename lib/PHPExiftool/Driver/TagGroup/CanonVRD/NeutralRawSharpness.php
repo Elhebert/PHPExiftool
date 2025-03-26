@@ -28,13 +28,14 @@ class NeutralRawSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Raw Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82884
+             * line : 60720
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralRawSharpness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralRawSharpness',
             'desc' => [
+                'en' => 'Neutral Raw Sharpness',
             ],
         ],
     ];

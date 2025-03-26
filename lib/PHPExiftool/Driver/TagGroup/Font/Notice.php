@@ -28,13 +28,14 @@ class Notice extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Notice',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127787
+             * line : 88726
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Notice extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:Notice',
             'desc' => [
+                'en' => 'Notice',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128157
+             * line : 88922
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Notice extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:Notice',
             'desc' => [
+                'en' => 'Notice',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StorageMediaKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Media Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168696
+             * line : 115172
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageMediaKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StorageMediaKind',
             'desc' => [
+                'en' => 'Storage Media Kind',
             ],
         ],
     ];

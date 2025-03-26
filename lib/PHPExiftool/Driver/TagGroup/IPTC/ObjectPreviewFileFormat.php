@@ -28,13 +28,14 @@ class ObjectPreviewFileFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Preview File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150776
+             * line : 104090
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ObjectPreviewFileFormat extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ObjectPreviewFileFormat',
             'desc' => [
+                'en' => 'Object Preview File Format',
             ],
         ],
     ];

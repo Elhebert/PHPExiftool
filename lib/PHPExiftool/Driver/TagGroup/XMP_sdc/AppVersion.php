@@ -28,13 +28,14 @@ class AppVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'App Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::sdc
-             * line : 210113
+             * line : 141497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::sdc.XMP-sdc:AppVersion',
             'desc' => [
+                'en' => 'App Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class URN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167342
+             * line : 113964
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:URN',
             'desc' => [
+                'en' => 'URN',
             ],
         ],
     ];

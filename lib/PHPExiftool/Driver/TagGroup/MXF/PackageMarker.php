@@ -28,13 +28,14 @@ class PackageMarker extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Marker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172454
+             * line : 118615
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageMarker extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageMarker',
             'desc' => [
+                'en' => 'Package Marker',
             ],
         ],
     ];

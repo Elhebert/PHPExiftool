@@ -28,13 +28,14 @@ class StreamAvgPacketSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Avg Packet Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330385
+             * line : 232478
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamAvgPacketSize extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamAvgPacketSize',
             'desc' => [
+                'en' => 'Stream Avg Packet Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskRangeLumMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Range Lum Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403022
+             * line : 286158
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskRangeLumMin extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskRangeLumMin',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Range Lum Min',
             ],
         ],
     ];

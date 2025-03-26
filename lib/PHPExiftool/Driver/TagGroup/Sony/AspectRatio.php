@@ -28,13 +28,14 @@ class AspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348178
+             * line : 243654
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349526
+             * line : 244226
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350209
+             * line : 244554
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
     ];

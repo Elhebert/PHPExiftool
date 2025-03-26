@@ -28,13 +28,14 @@ class DCVerbatimCoordinateSystem extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Verbatim Coordinate System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106994
+             * line : 79142
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCVerbatimCoordinateSystem extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCVerbatimCoordinateSystem',
             'desc' => [
+                'en' => 'DC Verbatim Coordinate System',
             ],
         ],
     ];

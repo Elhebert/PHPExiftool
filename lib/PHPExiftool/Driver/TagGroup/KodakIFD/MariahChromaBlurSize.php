@@ -28,13 +28,14 @@ class MariahChromaBlurSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mariah Chroma Blur Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156831
+             * line : 108035
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MariahChromaBlurSize extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MariahChromaBlurSize',
             'desc' => [
+                'en' => 'Mariah Chroma Blur Size',
             ],
         ],
     ];

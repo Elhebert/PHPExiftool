@@ -28,13 +28,14 @@ class SceneCaptureType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Capture Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339402
+             * line : 237523
              * type : string
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class SceneCaptureType extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:SceneCaptureType',
             'desc' => [
+                'en' => 'Scene Capture Type',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339795
+             * line : 237643
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SceneCaptureType extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:SceneCaptureType',
             'desc' => [
+                'en' => 'Scene Capture Type',
             ],
         ],
     ];

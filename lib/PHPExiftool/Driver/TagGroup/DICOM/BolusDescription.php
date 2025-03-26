@@ -28,13 +28,14 @@ class BolusDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bolus Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103224
+             * line : 76320
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BolusDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BolusDescription',
             'desc' => [
+                'en' => 'Bolus Description',
             ],
         ],
     ];

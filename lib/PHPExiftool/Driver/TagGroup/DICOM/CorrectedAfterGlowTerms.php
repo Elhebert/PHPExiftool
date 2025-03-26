@@ -28,13 +28,14 @@ class CorrectedAfterGlowTerms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Corrected After Glow Terms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100384
+             * line : 73557
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CorrectedAfterGlowTerms extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CorrectedAfterGlowTerms',
             'desc' => [
+                'en' => 'Corrected After Glow Terms',
             ],
         ],
     ];

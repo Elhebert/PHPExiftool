@@ -28,13 +28,14 @@ class HasFileTransferStream extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has File Transfer Stream',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1311
+             * line : 574
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasFileTransferStream extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:HasFileTransferStream',
             'desc' => [
+                'en' => 'Has File Transfer Stream',
             ],
         ],
     ];

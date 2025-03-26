@@ -28,13 +28,14 @@ class Compressed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123895
+             * line : 86640
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compressed extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:Compressed',
             'desc' => [
+                'en' => 'Compressed',
             ],
         ],
     ];

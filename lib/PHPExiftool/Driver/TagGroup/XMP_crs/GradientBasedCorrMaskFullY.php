@@ -28,13 +28,14 @@ class GradientBasedCorrMaskFullY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Full Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402379
+             * line : 285516
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskFullY extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskFullY',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Full Y',
             ],
         ],
     ];

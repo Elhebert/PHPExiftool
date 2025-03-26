@@ -28,13 +28,14 @@ class FaceRecognition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Recognition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335299
+             * line : 235326
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceRecognition extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:FaceRecognition',
             'desc' => [
+                'en' => 'Face Recognition',
             ],
         ],
     ];

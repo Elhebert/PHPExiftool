@@ -28,13 +28,14 @@ class NumAFPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num AF Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4028
+             * line : 2544
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NumAFPoints extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:NumAFPoints',
             'desc' => [
+                'en' => 'Num AF Points',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4190
+             * line : 2640
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NumAFPoints extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:NumAFPoints',
             'desc' => [
+                'en' => 'Num AF Points',
             ],
         ],
     ];

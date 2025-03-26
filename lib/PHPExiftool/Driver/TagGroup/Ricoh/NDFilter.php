@@ -28,13 +28,14 @@ class NDFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ND Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333406
+             * line : 233816
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NDFilter extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:NDFilter',
             'desc' => [
+                'en' => 'ND Filter',
             ],
         ],
     ];

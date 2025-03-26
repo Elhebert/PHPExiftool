@@ -28,13 +28,14 @@ class ComponentVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Component Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78683
+             * line : 57248
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ComponentVersion extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:ComponentVersion',
             'desc' => [
+                'en' => 'Component Version',
             ],
         ],
     ];

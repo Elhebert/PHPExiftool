@@ -28,13 +28,14 @@ class ResourceForkSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resource Fork Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121535
+             * line : 85244
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResourceForkSize extends AbstractTagGroup
              */
             'id' => 'Extra.System:ResourceForkSize',
             'desc' => [
+                'en' => 'Resource Fork Size',
             ],
         ],
     ];

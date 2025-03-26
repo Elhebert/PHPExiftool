@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::AVI
-             * line : 83845
+             * line : 61481
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Casio::AVI.Casio:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

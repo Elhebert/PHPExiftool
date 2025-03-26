@@ -28,13 +28,14 @@ class LightSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Light Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125554
+             * line : 87450
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightSource extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:LightSource',
             'desc' => [
+                'en' => 'Light Source',
             ],
         ],
     ];

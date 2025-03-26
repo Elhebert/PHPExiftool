@@ -28,13 +28,14 @@ class Shared extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shared',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176507
+             * line : 121446
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Shared extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Shared',
             'desc' => [
+                'en' => 'Shared',
             ],
         ],
     ];

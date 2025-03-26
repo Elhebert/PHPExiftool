@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249380
+             * line : 171913
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

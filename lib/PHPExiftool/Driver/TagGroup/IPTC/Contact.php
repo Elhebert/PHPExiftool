@@ -28,13 +28,14 @@ class Contact extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contact',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150400
+             * line : 103972
              * type : string
              * writable : true
              * count : 128
@@ -42,6 +43,7 @@ class Contact extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Contact',
             'desc' => [
+                'en' => 'Contact',
             ],
         ],
     ];

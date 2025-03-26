@@ -28,13 +28,14 @@ class ActiveState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168201
+             * line : 114698
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveState extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ActiveState',
             'desc' => [
+                'en' => 'Active State',
             ],
         ],
     ];

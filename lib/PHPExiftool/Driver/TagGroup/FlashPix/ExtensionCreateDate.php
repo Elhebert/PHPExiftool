@@ -28,13 +28,14 @@ class ExtensionCreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extension Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124577
+             * line : 87060
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtensionCreateDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:ExtensionCreateDate',
             'desc' => [
+                'en' => 'Extension Create Date',
             ],
         ],
     ];

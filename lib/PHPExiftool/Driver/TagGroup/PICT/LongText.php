@@ -28,13 +28,14 @@ class LongText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Long Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264733
+             * line : 182969
              * type : PointText
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LongText extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:LongText',
             'desc' => [
+                'en' => 'Long Text',
             ],
         ],
     ];

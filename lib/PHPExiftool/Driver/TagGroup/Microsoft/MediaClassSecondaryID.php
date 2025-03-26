@@ -28,13 +28,14 @@ class MediaClassSecondaryID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Class Secondary ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175089
+             * line : 120553
              * type : GUID
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaClassSecondaryID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MediaClassSecondaryID',
             'desc' => [
+                'en' => 'Media Class Secondary ID',
             ],
         ],
     ];

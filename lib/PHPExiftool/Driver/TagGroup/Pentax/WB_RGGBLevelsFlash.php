@@ -28,13 +28,14 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300799
+             * line : 209664
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::WBLevels
-             * line : 303100
+             * line : 210727
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
     ];

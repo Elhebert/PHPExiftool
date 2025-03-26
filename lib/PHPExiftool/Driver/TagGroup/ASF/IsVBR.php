@@ -28,13 +28,14 @@ class IsVBR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is VBR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1335
+             * line : 592
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsVBR extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:IsVBR',
             'desc' => [
+                'en' => 'Is VBR',
             ],
         ],
     ];

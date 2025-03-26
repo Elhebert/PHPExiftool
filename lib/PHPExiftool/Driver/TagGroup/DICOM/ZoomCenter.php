@@ -28,13 +28,14 @@ class ZoomCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zoom Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98699
+             * line : 71977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZoomCenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZoomCenter',
             'desc' => [
+                'en' => 'Zoom Center',
             ],
         ],
     ];

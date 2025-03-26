@@ -28,13 +28,14 @@ class DisplayHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173697
+             * line : 119614
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayHeight extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:DisplayHeight',
             'desc' => [
+                'en' => 'Display Height',
             ],
         ],
     ];

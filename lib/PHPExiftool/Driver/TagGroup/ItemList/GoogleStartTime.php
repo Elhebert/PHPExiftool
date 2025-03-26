@@ -28,13 +28,14 @@ class GoogleStartTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322197
+             * line : 227756
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GoogleStartTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GoogleStartTime',
             'desc' => [
+                'en' => 'Google Start Time',
             ],
         ],
     ];

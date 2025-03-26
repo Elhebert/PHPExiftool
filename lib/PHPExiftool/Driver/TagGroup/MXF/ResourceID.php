@@ -28,13 +28,14 @@ class ResourceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resource ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172299
+             * line : 118462
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResourceID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ResourceID',
             'desc' => [
+                'en' => 'Resource ID',
             ],
         ],
     ];

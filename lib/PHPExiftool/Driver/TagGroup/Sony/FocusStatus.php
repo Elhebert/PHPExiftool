@@ -28,13 +28,14 @@ class FocusStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346161
+             * line : 242644
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusStatus extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:FocusStatus',
             'desc' => [
+                'en' => 'Focus Status',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348141
+             * line : 243623
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusStatus extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FocusStatus',
             'desc' => [
+                'en' => 'Focus Status',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349489
+             * line : 244195
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusStatus extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FocusStatus',
             'desc' => [
+                'en' => 'Focus Status',
             ],
         ],
     ];

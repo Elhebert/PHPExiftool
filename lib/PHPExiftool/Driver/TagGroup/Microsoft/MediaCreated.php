@@ -28,13 +28,14 @@ class MediaCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175640
+             * line : 120882
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaCreated extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MediaCreated',
             'desc' => [
+                'en' => 'Media Created',
             ],
         ],
     ];

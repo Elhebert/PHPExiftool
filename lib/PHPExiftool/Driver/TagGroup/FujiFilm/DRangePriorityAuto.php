@@ -28,13 +28,14 @@ class DRangePriorityAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'D Range Priority Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130844
+             * line : 90367
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DRangePriorityAuto extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:DRangePriorityAuto',
             'desc' => [
+                'en' => 'D Range Priority Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162845
+             * line : 111263
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SensitivityAdjust extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensitivity Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299523
+             * line : 208881
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensitivityAdjust extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:SensitivityAdjust',
             'desc' => [
+                'en' => 'Sensitivity Adjust',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FillArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264887
+             * line : 183113
              * type : Arc
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillArc',
             'desc' => [
+                'en' => 'Fill Arc',
             ],
         ],
     ];

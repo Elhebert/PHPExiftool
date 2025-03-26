@@ -28,13 +28,14 @@ class RelevantInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relevant Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99971
+             * line : 73173
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelevantInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelevantInformationSequence',
             'desc' => [
+                'en' => 'Relevant Information Sequence',
             ],
         ],
     ];

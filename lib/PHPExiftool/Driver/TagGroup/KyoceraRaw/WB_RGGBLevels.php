@@ -28,13 +28,14 @@ class WB_RGGBLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160857
+             * line : 109873
              * type : int32u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class WB_RGGBLevels extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:WB_RGGBLevels',
             'desc' => [
+                'en' => 'WB RGGB Levels',
             ],
         ],
     ];

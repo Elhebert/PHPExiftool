@@ -28,13 +28,14 @@ class WB_RBLevelsUsed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260844
+             * line : 180189
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsUsed extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsUsed',
             'desc' => [
+                'en' => 'WB RB Levels Used',
             ],
         ],
     ];

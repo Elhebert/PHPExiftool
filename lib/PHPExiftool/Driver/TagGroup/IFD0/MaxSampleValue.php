@@ -28,13 +28,14 @@ class MaxSampleValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Sample Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110942
+             * line : 81529
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxSampleValue extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:MaxSampleValue',
             'desc' => [
+                'en' => 'Max Sample Value',
             ],
         ],
     ];

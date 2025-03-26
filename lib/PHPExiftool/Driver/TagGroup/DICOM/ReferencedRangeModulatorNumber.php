@@ -28,13 +28,14 @@ class ReferencedRangeModulatorNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Range Modulator Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104041
+             * line : 77130
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedRangeModulatorNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedRangeModulatorNumber',
             'desc' => [
+                'en' => 'Referenced Range Modulator Number',
             ],
         ],
     ];

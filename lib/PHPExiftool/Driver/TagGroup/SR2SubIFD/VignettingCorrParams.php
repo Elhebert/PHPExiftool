@@ -28,13 +28,14 @@ class VignettingCorrParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vignetting Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361876
+             * line : 251964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StripOffsets extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Strip Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303393
+             * line : 210837
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StripOffsets extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:StripOffsets',
             'desc' => [
+                'en' => 'Strip Offsets',
             ],
         ],
     ];

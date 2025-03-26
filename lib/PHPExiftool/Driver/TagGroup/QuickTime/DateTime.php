@@ -28,13 +28,14 @@ class DateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326765
+             * line : 230477
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:DateTime',
             'desc' => [
+                'en' => 'Date Time',
             ],
         ],
     ];

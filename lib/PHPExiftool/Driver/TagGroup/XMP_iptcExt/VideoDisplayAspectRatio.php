@@ -28,13 +28,14 @@ class VideoDisplayAspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Display Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409873
+             * line : 289630
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoDisplayAspectRatio extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:VideoDisplayAspectRatio',
             'desc' => [
+                'en' => 'Video Display Aspect Ratio',
             ],
         ],
     ];

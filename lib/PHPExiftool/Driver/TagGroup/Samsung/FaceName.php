@@ -28,13 +28,14 @@ class FaceName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335310
+             * line : 235337
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceName extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:FaceName',
             'desc' => [
+                'en' => 'Face Name',
             ],
         ],
     ];

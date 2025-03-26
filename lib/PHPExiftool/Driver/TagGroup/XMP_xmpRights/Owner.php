@@ -28,13 +28,14 @@ class Owner extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpRights
-             * line : 414372
+             * line : 292372
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Owner extends AbstractTagGroup
              */
             'id' => 'XMP::xmpRights.XMP-xmpRights:Owner',
             'desc' => [
+                'en' => 'Owner',
             ],
         ],
     ];

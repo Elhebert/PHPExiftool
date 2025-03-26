@@ -28,13 +28,14 @@ class BlockVirtual extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Virtual',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173265
+             * line : 119261
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockVirtual extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:BlockVirtual',
             'desc' => [
+                'en' => 'Block Virtual',
             ],
         ],
     ];

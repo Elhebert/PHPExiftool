@@ -28,13 +28,14 @@ class Sync07 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sync 07',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174851
+             * line : 120380
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sync07 extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Sync07',
             'desc' => [
+                'en' => 'Sync 07',
             ],
         ],
     ];

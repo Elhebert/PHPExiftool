@@ -28,13 +28,14 @@ class AutoDistortionControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Distortion Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::DistortInfo
-             * line : 192201
+             * line : 130231
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoDistortionControl extends AbstractTagGroup
              */
             'id' => 'Nikon::DistortInfo.Nikon:AutoDistortionControl',
             'desc' => [
+                'en' => 'Auto Distortion Control',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199789
+             * line : 134793
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoDistortionControl extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:AutoDistortionControl',
             'desc' => [
+                'en' => 'Auto Distortion Control',
             ],
         ],
     ];

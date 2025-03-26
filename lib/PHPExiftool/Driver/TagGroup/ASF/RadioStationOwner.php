@@ -28,13 +28,14 @@ class RadioStationOwner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radio Station Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1549
+             * line : 757
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadioStationOwner extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:RadioStationOwner',
             'desc' => [
+                'en' => 'Radio Station Owner',
             ],
         ],
     ];

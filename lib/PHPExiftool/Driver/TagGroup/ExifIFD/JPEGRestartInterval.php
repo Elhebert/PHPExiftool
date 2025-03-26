@@ -28,13 +28,14 @@ class JPEGRestartInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Restart Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112435
+             * line : 82038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGRestartInterval extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JPEGRestartInterval',
             'desc' => [
+                'en' => 'JPEG Restart Interval',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaxStorage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Storage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::swf
-             * line : 411358
+             * line : 290520
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxStorage extends AbstractTagGroup
              */
             'id' => 'XMP::swf.XMP-swf:MaxStorage',
             'desc' => [
+                'en' => 'Max Storage',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RegisterReleaseDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Release Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172481
+             * line : 118642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterReleaseDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterReleaseDateTime',
             'desc' => [
+                'en' => 'Register Release Date Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Main
-             * line : 1892
+             * line : 974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIndex extends AbstractTagGroup
              */
             'id' => 'ASF::Main.ASF:MediaIndex',
             'desc' => [
+                'en' => 'Media Index',
             ],
         ],
     ];

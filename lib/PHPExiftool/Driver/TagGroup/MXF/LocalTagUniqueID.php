@@ -28,13 +28,14 @@ class LocalTagUniqueID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Tag Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171009
+             * line : 117234
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalTagUniqueID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalTagUniqueID',
             'desc' => [
+                'en' => 'Local Tag Unique ID',
             ],
         ],
     ];

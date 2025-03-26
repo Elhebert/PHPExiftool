@@ -28,13 +28,14 @@ class AppVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'App Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249039
+             * line : 171690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppVersion extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:AppVersion',
             'desc' => [
+                'en' => 'App Version',
             ],
         ],
     ];

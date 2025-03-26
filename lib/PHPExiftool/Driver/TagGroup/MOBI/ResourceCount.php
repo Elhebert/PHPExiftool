@@ -28,13 +28,14 @@ class ResourceCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resource Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273554
+             * line : 190763
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResourceCount extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:ResourceCount',
             'desc' => [
+                'en' => 'Resource Count',
             ],
         ],
     ];

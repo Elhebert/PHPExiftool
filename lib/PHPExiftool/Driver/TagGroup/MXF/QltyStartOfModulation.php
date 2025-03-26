@@ -28,13 +28,14 @@ class QltyStartOfModulation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Qlty Start Of Modulation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171354
+             * line : 117556
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class QltyStartOfModulation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyStartOfModulation',
             'desc' => [
+                'en' => 'Qlty Start Of Modulation',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171357
+             * line : 117559
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class QltyStartOfModulation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyStartOfModulation',
             'desc' => [
+                'en' => 'Qlty Start Of Modulation',
             ],
         ],
     ];

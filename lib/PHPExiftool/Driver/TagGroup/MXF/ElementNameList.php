@@ -28,13 +28,14 @@ class ElementNameList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Element Name List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168905
+             * line : 115370
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElementNameList extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ElementNameList',
             'desc' => [
+                'en' => 'Element Name List',
             ],
         ],
     ];

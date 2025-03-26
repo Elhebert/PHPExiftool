@@ -28,13 +28,14 @@ class ReverseFocusRing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reverse Focus Ring',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248621
+             * line : 171309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReverseFocusRing extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ReverseFocusRing',
             'desc' => [
+                'en' => 'Reverse Focus Ring',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NSC_Phone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NSC Phone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1438
+             * line : 682
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NSC_Phone extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:NSC_Phone',
             'desc' => [
+                'en' => 'NSC Phone',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SharpnessOvershoot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Overshoot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394203
+             * line : 279273
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpnessOvershoot extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:SharpnessOvershoot',
             'desc' => [
+                'en' => 'Sharpness Overshoot',
             ],
         ],
     ];

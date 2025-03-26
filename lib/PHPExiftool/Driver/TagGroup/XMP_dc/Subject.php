@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dc
-             * line : 404871
+             * line : 287701
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'XMP::dc.XMP-dc:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

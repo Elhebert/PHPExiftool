@@ -28,13 +28,14 @@ class PurchaserIdentificationKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purchaser Identification Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170628
+             * line : 116868
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PurchaserIdentificationKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PurchaserIdentificationKind',
             'desc' => [
+                'en' => 'Purchaser Identification Kind',
             ],
         ],
     ];

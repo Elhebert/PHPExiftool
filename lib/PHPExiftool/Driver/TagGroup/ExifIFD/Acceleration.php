@@ -28,13 +28,14 @@ class Acceleration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Acceleration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116327
+             * line : 83334
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Acceleration extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Acceleration',
             'desc' => [
+                'en' => 'Acceleration',
             ],
         ],
     ];

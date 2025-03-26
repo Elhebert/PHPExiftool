@@ -28,13 +28,14 @@ class CentralTelephoneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Central Telephone Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170920
+             * line : 117150
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CentralTelephoneNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CentralTelephoneNumber',
             'desc' => [
+                'en' => 'Central Telephone Number',
             ],
         ],
     ];

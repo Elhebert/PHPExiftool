@@ -28,13 +28,14 @@ class DisplayedUnitsY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Displayed Units Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Resolution
-             * line : 305809
+             * line : 212479
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DisplayedUnitsY extends AbstractTagGroup
              */
             'id' => 'Photoshop::Resolution.Photoshop:DisplayedUnitsY',
             'desc' => [
+                'en' => 'Displayed Units Y',
             ],
         ],
     ];

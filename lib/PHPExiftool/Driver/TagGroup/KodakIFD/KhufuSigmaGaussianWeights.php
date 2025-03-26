@@ -28,13 +28,14 @@ class KhufuSigmaGaussianWeights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Khufu Sigma Gaussian Weights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156861
+             * line : 108065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KhufuSigmaGaussianWeights extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KhufuSigmaGaussianWeights',
             'desc' => [
+                'en' => 'Khufu Sigma Gaussian Weights',
             ],
         ],
     ];

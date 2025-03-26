@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322940
+             * line : 228414
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

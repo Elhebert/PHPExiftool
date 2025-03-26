@@ -28,13 +28,14 @@ class ProjScaleAtCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Scale At Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138740
+             * line : 96989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjScaleAtCenter extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjScaleAtCenter',
             'desc' => [
+                'en' => 'Proj Scale At Center',
             ],
         ],
     ];

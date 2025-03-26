@@ -28,13 +28,14 @@ class AEWhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282963
+             * line : 196417
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEWhiteBalance extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEWhiteBalance',
             'desc' => [
+                'en' => 'AE White Balance',
             ],
         ],
     ];

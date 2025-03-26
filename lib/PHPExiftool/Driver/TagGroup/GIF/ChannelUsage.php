@@ -28,13 +28,14 @@ class ChannelUsage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::MIDIControl
-             * line : 131296
+             * line : 90661
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelUsage extends AbstractTagGroup
              */
             'id' => 'GIF::MIDIControl.GIF:ChannelUsage',
             'desc' => [
+                'en' => 'Channel Usage',
             ],
         ],
     ];

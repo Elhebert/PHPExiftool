@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142662
+             * line : 98578
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

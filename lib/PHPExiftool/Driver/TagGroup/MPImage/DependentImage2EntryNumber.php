@@ -28,13 +28,14 @@ class DependentImage2EntryNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dependent Image 2 Entry Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::MPImage
-             * line : 166237
+             * line : 113034
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DependentImage2EntryNumber extends AbstractTagGroup
              */
             'id' => 'MPF::MPImage.MPImage:DependentImage2EntryNumber',
             'desc' => [
+                'en' => 'Dependent Image 2 Entry Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocationInformation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325521
+             * line : 229733
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationInformation extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:LocationInformation',
             'desc' => [
+                'en' => 'Location Information',
             ],
         ],
     ];

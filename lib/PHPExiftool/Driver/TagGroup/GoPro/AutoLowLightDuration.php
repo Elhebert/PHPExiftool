@@ -28,13 +28,14 @@ class AutoLowLightDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Low Light Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139397
+             * line : 97570
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoLowLightDuration extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AutoLowLightDuration',
             'desc' => [
+                'en' => 'Auto Low Light Duration',
             ],
         ],
     ];

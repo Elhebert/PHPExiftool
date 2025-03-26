@@ -28,13 +28,14 @@ class PreferredPlaybackSequencing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preferred Playback Sequencing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95952
+             * line : 69376
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreferredPlaybackSequencing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PreferredPlaybackSequencing',
             'desc' => [
+                'en' => 'Preferred Playback Sequencing',
             ],
         ],
     ];

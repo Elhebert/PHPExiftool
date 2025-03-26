@@ -28,13 +28,14 @@ class OtherImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Other Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90435
+             * line : 65188
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OtherImage extends AbstractTagGroup
              */
             'id' => 'Composite.All:OtherImage',
             'desc' => [
+                'en' => 'Other Image',
             ],
         ],
     ];

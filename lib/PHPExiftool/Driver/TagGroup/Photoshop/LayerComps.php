@@ -28,13 +28,14 @@ class LayerComps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Comps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305599
+             * line : 212346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerComps extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:LayerComps',
             'desc' => [
+                'en' => 'Layer Comps',
             ],
         ],
     ];

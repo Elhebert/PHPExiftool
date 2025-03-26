@@ -28,13 +28,14 @@ class DetectorBinning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Binning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96430
+             * line : 69838
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorBinning extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorBinning',
             'desc' => [
+                'en' => 'Detector Binning',
             ],
         ],
     ];

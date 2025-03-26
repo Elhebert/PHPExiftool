@@ -28,13 +28,14 @@ class NITFLayerTargetID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NITF Layer Target ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171992
+             * line : 118177
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NITFLayerTargetID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NITFLayerTargetID',
             'desc' => [
+                'en' => 'NITF Layer Target ID',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171995
+             * line : 118180
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NITFLayerTargetID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NITFLayerTargetID',
             'desc' => [
+                'en' => 'NITF Layer Target ID',
             ],
         ],
     ];

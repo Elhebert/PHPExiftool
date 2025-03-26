@@ -28,13 +28,14 @@ class ContentProtectedPercent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Protected Percent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396290
+             * line : 280562
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentProtectedPercent extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ContentProtectedPercent',
             'desc' => [
+                'en' => 'Content Protected Percent',
             ],
         ],
     ];

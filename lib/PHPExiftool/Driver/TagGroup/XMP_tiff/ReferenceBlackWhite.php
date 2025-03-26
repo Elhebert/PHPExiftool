@@ -28,13 +28,14 @@ class ReferenceBlackWhite extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reference Black White',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412238
+             * line : 290811
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReferenceBlackWhite extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:ReferenceBlackWhite',
             'desc' => [
+                'en' => 'Reference Black White',
             ],
         ],
     ];

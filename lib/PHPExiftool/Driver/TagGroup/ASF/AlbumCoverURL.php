@@ -28,13 +28,14 @@ class AlbumCoverURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album Cover URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1033
+             * line : 400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumCoverURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:AlbumCoverURL',
             'desc' => [
+                'en' => 'Album Cover URL',
             ],
         ],
     ];

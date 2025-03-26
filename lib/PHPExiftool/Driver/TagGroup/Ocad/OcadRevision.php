@@ -28,13 +28,14 @@ class OcadRevision extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ocad Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Ocad
-             * line : 152862
+             * line : 105177
              * type : string
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class OcadRevision extends AbstractTagGroup
              */
             'id' => 'JPEG::Ocad.Ocad:OcadRevision',
             'desc' => [
+                'en' => 'Ocad Revision',
             ],
         ],
     ];

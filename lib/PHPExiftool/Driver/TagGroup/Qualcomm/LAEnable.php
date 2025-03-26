@@ -28,13 +28,14 @@ class LAEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LA Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307467
+             * line : 213965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LAEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:LAEnable',
             'desc' => [
+                'en' => 'LA Enable',
             ],
         ],
     ];

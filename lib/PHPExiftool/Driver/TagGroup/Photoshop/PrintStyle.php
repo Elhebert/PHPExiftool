@@ -28,13 +28,14 @@ class PrintStyle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305663
+             * line : 212391
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PrintStyle extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:PrintStyle',
             'desc' => [
+                'en' => 'Print Style',
             ],
         ],
         1 => [
             /**
              * table_name : Photoshop::PrintScaleInfo
-             * line : 305724
+             * line : 212438
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PrintStyle extends AbstractTagGroup
              */
             'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintStyle',
             'desc' => [
+                'en' => 'Print Style',
             ],
         ],
     ];

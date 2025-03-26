@@ -28,13 +28,14 @@ class ToWindowLevelLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'To Window Level Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98282
+             * line : 71617
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToWindowLevelLevel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ToWindowLevelLevel',
             'desc' => [
+                'en' => 'To Window Level Level',
             ],
         ],
     ];

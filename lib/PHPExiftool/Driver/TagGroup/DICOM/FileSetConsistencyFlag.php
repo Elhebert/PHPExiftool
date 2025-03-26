@@ -28,13 +28,14 @@ class FileSetConsistencyFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Set Consistency Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94604
+             * line : 68104
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSetConsistencyFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FileSetConsistencyFlag',
             'desc' => [
+                'en' => 'File Set Consistency Flag',
             ],
         ],
     ];

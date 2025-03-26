@@ -28,13 +28,14 @@ class HistogramFirstBinValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Histogram First Bin Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101049
+             * line : 74199
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistogramFirstBinValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HistogramFirstBinValue',
             'desc' => [
+                'en' => 'Histogram First Bin Value',
             ],
         ],
     ];

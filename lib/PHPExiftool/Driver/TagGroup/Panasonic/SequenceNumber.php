@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276134
+             * line : 192287
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
     ];

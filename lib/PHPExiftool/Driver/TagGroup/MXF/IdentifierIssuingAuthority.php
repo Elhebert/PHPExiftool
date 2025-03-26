@@ -28,13 +28,14 @@ class IdentifierIssuingAuthority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifier Issuing Authority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170669
+             * line : 116904
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IdentifierIssuingAuthority extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdentifierIssuingAuthority',
             'desc' => [
+                'en' => 'Identifier Issuing Authority',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171049
+             * line : 117270
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class IdentifierIssuingAuthority extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdentifierIssuingAuthority',
             'desc' => [
+                'en' => 'Identifier Issuing Authority',
             ],
         ],
     ];

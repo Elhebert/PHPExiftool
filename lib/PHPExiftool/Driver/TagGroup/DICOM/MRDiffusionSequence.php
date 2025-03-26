@@ -28,13 +28,14 @@ class MRDiffusionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Diffusion Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96781
+             * line : 70183
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRDiffusionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRDiffusionSequence',
             'desc' => [
+                'en' => 'MR Diffusion Sequence',
             ],
         ],
     ];

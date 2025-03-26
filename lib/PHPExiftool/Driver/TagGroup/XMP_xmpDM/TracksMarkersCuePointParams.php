@@ -28,13 +28,14 @@ class TracksMarkersCuePointParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tracks Markers Cue Point Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413550
+             * line : 291628
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TracksMarkersCuePointParams extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TracksMarkersCuePointParams',
             'desc' => [
+                'en' => 'Tracks Markers Cue Point Params',
             ],
         ],
     ];

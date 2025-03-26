@@ -28,13 +28,14 @@ class ImageBoxPresentationLUTFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Presentation LUT Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102022
+             * line : 75159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxPresentationLUTFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxPresentationLUTFlag',
             'desc' => [
+                'en' => 'Image Box Presentation LUT Flag',
             ],
         ],
     ];

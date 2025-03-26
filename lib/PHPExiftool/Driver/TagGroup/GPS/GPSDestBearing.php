@@ -28,13 +28,14 @@ class GPSDestBearing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Dest Bearing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132517
+             * line : 90988
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDestBearing extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSDestBearing',
             'desc' => [
+                'en' => 'GPS Dest Bearing',
             ],
         ],
     ];

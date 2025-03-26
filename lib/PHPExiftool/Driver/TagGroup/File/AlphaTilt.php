@@ -28,13 +28,14 @@ class AlphaTilt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Tilt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166431
+             * line : 113172
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaTilt extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AlphaTilt',
             'desc' => [
+                'en' => 'Alpha Tilt',
             ],
         ],
     ];

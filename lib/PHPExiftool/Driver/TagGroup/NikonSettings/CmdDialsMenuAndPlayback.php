@@ -28,13 +28,14 @@ class CmdDialsMenuAndPlayback extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cmd Dials Menu And Playback',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244685
+             * line : 167504
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CmdDialsMenuAndPlayback extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsMenuAndPlayback',
             'desc' => [
+                'en' => 'Cmd Dials Menu And Playback',
             ],
         ],
     ];

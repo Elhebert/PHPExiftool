@@ -28,13 +28,14 @@ class SingleFrameBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Single Frame Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181266
+             * line : 123321
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SingleFrameBracketing extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:SingleFrameBracketing',
             'desc' => [
+                'en' => 'Single Frame Bracketing',
             ],
         ],
     ];

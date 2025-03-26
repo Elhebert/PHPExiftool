@@ -28,13 +28,14 @@ class ContractParticipantSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contract Participant Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171485
+             * line : 117685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContractParticipantSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractParticipantSets',
             'desc' => [
+                'en' => 'Contract Participant Sets',
             ],
         ],
     ];

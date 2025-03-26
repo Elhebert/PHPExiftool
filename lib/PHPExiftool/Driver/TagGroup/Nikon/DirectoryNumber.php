@@ -28,13 +28,14 @@ class DirectoryNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Directory Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FileInfo
-             * line : 192321
+             * line : 130301
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DirectoryNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::FileInfo.Nikon:DirectoryNumber',
             'desc' => [
+                'en' => 'Directory Number',
             ],
         ],
     ];

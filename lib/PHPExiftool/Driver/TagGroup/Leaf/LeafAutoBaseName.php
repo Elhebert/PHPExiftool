@@ -28,13 +28,14 @@ class LeafAutoBaseName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leaf Auto Base Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161958
+             * line : 110660
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeafAutoBaseName extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:LeafAutoBaseName',
             'desc' => [
+                'en' => 'Leaf Auto Base Name',
             ],
         ],
     ];

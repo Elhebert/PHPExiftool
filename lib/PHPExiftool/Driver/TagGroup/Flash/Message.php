@@ -28,13 +28,14 @@ class Message extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Message',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124164
+             * line : 86771
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Message extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:Message',
             'desc' => [
+                'en' => 'Message',
             ],
         ],
     ];

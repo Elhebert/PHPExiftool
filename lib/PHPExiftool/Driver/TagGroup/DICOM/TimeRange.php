@@ -28,13 +28,14 @@ class TimeRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94961
+             * line : 68443
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeRange extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeRange',
             'desc' => [
+                'en' => 'Time Range',
             ],
         ],
     ];

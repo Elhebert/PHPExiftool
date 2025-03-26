@@ -28,13 +28,14 @@ class CrossProcessParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cross Process Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300890
+             * line : 209694
              * type : undef
              * writable : true
              * count : 10
@@ -42,6 +43,7 @@ class CrossProcessParams extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:CrossProcessParams',
             'desc' => [
+                'en' => 'Cross Process Params',
             ],
         ],
     ];

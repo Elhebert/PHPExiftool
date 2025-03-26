@@ -28,13 +28,14 @@ class PF25ImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF25 Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78331
+             * line : 57035
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF25ImageSize extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25ImageSize',
             'desc' => [
+                'en' => 'PF25 Image Size',
             ],
         ],
     ];

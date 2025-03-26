@@ -28,13 +28,14 @@ class DeviceVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100784
+             * line : 73944
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeviceVolume',
             'desc' => [
+                'en' => 'Device Volume',
             ],
         ],
     ];

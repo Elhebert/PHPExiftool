@@ -28,13 +28,14 @@ class ImageRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394595
+             * line : 279538
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageRotation extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ImageRotation',
             'desc' => [
+                'en' => 'Image Rotation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107289
+             * line : 79252
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

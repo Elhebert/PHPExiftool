@@ -28,13 +28,14 @@ class SubsystemVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subsystem Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108898
+             * line : 80508
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class SubsystemVersion extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:SubsystemVersion',
             'desc' => [
+                'en' => 'Subsystem Version',
             ],
         ],
     ];

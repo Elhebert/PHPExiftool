@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105907
+             * line : 78384
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

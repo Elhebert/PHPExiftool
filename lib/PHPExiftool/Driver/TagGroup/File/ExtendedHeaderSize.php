@@ -28,13 +28,14 @@ class ExtendedHeaderSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Header Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166960
+             * line : 113649
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtendedHeaderSize extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ExtendedHeaderSize',
             'desc' => [
+                'en' => 'Extended Header Size',
             ],
         ],
     ];

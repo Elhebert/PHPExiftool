@@ -28,13 +28,14 @@ class DataDump extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Dump',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300911
+             * line : 209700
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataDump extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DataDump',
             'desc' => [
+                'en' => 'Data Dump',
             ],
         ],
     ];

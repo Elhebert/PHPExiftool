@@ -28,13 +28,14 @@ class PeripheralLighting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Peripheral Lighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130886
+             * line : 90409
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PeripheralLighting extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:PeripheralLighting',
             'desc' => [
+                'en' => 'Peripheral Lighting',
             ],
         ],
     ];

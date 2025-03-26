@@ -28,13 +28,14 @@ class JobStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Job Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::extensis
-             * line : 408781
+             * line : 288714
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JobStatus extends AbstractTagGroup
              */
             'id' => 'XMP::extensis.XMP-extensis:JobStatus',
             'desc' => [
+                'en' => 'Job Status',
             ],
         ],
     ];

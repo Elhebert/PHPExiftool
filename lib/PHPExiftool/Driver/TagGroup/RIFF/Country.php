@@ -28,13 +28,14 @@ class Country extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328154
+             * line : 231517
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Country extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Country',
             'desc' => [
+                'en' => 'Country',
             ],
         ],
     ];

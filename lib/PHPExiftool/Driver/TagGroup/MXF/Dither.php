@@ -28,13 +28,14 @@ class Dither extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dither',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168012
+             * line : 114518
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dither extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Dither',
             'desc' => [
+                'en' => 'Dither',
             ],
         ],
     ];

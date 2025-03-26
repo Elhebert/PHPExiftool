@@ -28,13 +28,14 @@ class MenuButtonReturn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Menu Button Return',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78147
+             * line : 56910
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MenuButtonReturn extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:MenuButtonReturn',
             'desc' => [
+                'en' => 'Menu Button Return',
             ],
         ],
     ];

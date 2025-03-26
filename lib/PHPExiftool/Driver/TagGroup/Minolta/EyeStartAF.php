@@ -28,13 +28,14 @@ class EyeStartAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Eye Start AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181579
+             * line : 123519
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EyeStartAF extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:EyeStartAF',
             'desc' => [
+                'en' => 'Eye Start AF',
             ],
         ],
     ];

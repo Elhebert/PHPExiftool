@@ -28,13 +28,14 @@ class MediaIsLive extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Live',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396026
+             * line : 280340
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsLive extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsLive',
             'desc' => [
+                'en' => 'Media Is Live',
             ],
         ],
     ];

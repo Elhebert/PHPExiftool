@@ -28,13 +28,14 @@ class ParallelismType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parallelism Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313483
+             * line : 219228
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParallelismType extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:ParallelismType',
             'desc' => [
+                'en' => 'Parallelism Type',
             ],
         ],
     ];

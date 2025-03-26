@@ -28,13 +28,14 @@ class ScanningDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanning Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171194
+             * line : 117411
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanningDirection extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ScanningDirection',
             'desc' => [
+                'en' => 'Scanning Direction',
             ],
         ],
     ];

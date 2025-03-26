@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 273004
+             * line : 190569
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

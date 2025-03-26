@@ -28,13 +28,14 @@ class Indexable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Indexable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330298
+             * line : 232433
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Indexable extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:Indexable',
             'desc' => [
+                'en' => 'Indexable',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SimpleFlaggingCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Simple Flagging Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168130
+             * line : 114629
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SimpleFlaggingCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SimpleFlaggingCount',
             'desc' => [
+                'en' => 'Simple Flagging Count',
             ],
         ],
     ];

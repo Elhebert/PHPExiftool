@@ -28,13 +28,14 @@ class ContrastBolusVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Bolus Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95639
+             * line : 69088
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastBolusVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastBolusVolume',
             'desc' => [
+                'en' => 'Contrast Bolus Volume',
             ],
         ],
     ];

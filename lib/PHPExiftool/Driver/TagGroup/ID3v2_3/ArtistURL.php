@@ -28,13 +28,14 @@ class ArtistURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Artist URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149060
+             * line : 103418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ArtistURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:ArtistURL',
             'desc' => [
+                'en' => 'Artist URL',
             ],
         ],
     ];

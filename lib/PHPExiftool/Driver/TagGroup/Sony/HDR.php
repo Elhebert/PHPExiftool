@@ -28,13 +28,14 @@ class HDR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354095
+             * line : 246846
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class HDR extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:HDR',
             'desc' => [
+                'en' => 'HDR',
             ],
         ],
     ];

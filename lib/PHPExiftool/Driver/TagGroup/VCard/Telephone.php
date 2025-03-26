@@ -28,13 +28,14 @@ class Telephone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Telephone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395201
+             * line : 279911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Telephone extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Telephone',
             'desc' => [
+                'en' => 'Telephone',
             ],
         ],
     ];

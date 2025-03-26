@@ -28,13 +28,14 @@ class BW_HalftoningInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BW Halftoning Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305413
+             * line : 212221
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BW_HalftoningInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:BW_HalftoningInfo',
             'desc' => [
+                'en' => 'BW Halftoning Info',
             ],
         ],
     ];

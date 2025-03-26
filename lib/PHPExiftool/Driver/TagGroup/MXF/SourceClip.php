@@ -28,13 +28,14 @@ class SourceClip extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Clip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172516
+             * line : 118675
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceClip extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceClip',
             'desc' => [
+                'en' => 'Source Clip',
             ],
         ],
     ];

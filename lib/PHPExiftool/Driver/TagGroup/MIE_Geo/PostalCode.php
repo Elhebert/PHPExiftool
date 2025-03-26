@@ -28,13 +28,14 @@ class PostalCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Postal Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Geo
-             * line : 163779
+             * line : 111493
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PostalCode extends AbstractTagGroup
              */
             'id' => 'MIE::Geo.MIE-Geo:PostalCode',
             'desc' => [
+                'en' => 'Postal Code',
             ],
         ],
     ];

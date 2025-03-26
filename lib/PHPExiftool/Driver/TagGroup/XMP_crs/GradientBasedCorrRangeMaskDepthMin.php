@@ -28,13 +28,14 @@ class GradientBasedCorrRangeMaskDepthMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Range Mask Depth Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402610
+             * line : 285747
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrRangeMaskDepthMin extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrRangeMaskDepthMin',
             'desc' => [
+                'en' => 'Gradient Based Corr Range Mask Depth Min',
             ],
         ],
     ];

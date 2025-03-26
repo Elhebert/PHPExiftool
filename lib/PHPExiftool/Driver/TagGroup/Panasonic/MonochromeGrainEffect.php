@@ -28,13 +28,14 @@ class MonochromeGrainEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Grain Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278084
+             * line : 193450
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeGrainEffect extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:MonochromeGrainEffect',
             'desc' => [
+                'en' => 'Monochrome Grain Effect',
             ],
         ],
     ];

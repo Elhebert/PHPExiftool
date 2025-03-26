@@ -28,13 +28,14 @@ class VerticalUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139007
+             * line : 97254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalUnits extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:VerticalUnits',
             'desc' => [
+                'en' => 'Vertical Units',
             ],
         ],
     ];

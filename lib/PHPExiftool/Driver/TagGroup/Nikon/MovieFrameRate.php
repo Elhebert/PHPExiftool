@@ -28,13 +28,14 @@ class MovieFrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200067
+             * line : 135031
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieFrameRate extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieFrameRate',
             'desc' => [
+                'en' => 'Movie Frame Rate',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201701
+             * line : 136595
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MovieFrameRate extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieFrameRate',
             'desc' => [
+                'en' => 'Movie Frame Rate',
             ],
         ],
     ];

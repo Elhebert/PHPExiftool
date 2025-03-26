@@ -28,13 +28,14 @@ class BodyPartExamined extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Body Part Examined',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95414
+             * line : 68875
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BodyPartExamined extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BodyPartExamined',
             'desc' => [
+                'en' => 'Body Part Examined',
             ],
         ],
     ];

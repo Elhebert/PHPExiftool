@@ -28,13 +28,14 @@ class SourceFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105870
+             * line : 78357
              * type : string
              * writable : false
              * count : 100
@@ -42,6 +43,7 @@ class SourceFileName extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:SourceFileName',
             'desc' => [
+                'en' => 'Source File Name',
             ],
         ],
     ];

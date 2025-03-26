@@ -28,13 +28,14 @@ class CameraTemperatureMinWarn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Temperature Min Warn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122246
+             * line : 85635
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraTemperatureMinWarn extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureMinWarn',
             'desc' => [
+                'en' => 'Camera Temperature Min Warn',
             ],
         ],
     ];

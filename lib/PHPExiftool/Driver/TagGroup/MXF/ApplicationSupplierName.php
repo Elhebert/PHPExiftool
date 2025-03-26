@@ -28,13 +28,14 @@ class ApplicationSupplierName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Supplier Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169290
+             * line : 115698
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ApplicationSupplierName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationSupplierName',
             'desc' => [
+                'en' => 'Application Supplier Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169293
+             * line : 115701
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ApplicationSupplierName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationSupplierName',
             'desc' => [
+                'en' => 'Application Supplier Name',
             ],
         ],
     ];

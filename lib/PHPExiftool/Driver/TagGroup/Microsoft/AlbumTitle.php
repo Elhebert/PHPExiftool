@@ -28,13 +28,14 @@ class AlbumTitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Album Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174974
+             * line : 120482
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AlbumTitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AlbumTitle',
             'desc' => [
+                'en' => 'Album Title',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175775
+             * line : 120969
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AlbumTitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AlbumTitle',
             'desc' => [
+                'en' => 'Album Title',
             ],
         ],
     ];

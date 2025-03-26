@@ -28,13 +28,14 @@ class EarthPosRotationY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earth Pos Rotation Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396708
+             * line : 280925
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarthPosRotationY extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:EarthPosRotationY',
             'desc' => [
+                'en' => 'Earth Pos Rotation Y',
             ],
         ],
     ];

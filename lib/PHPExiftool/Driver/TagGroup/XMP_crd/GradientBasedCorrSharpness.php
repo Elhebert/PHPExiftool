@@ -28,13 +28,14 @@ class GradientBasedCorrSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399372
+             * line : 282879
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrSharpness extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrSharpness',
             'desc' => [
+                'en' => 'Gradient Based Corr Sharpness',
             ],
         ],
     ];

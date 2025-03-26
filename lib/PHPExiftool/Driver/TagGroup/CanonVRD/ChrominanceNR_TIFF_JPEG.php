@@ -28,13 +28,14 @@ class ChrominanceNR_TIFF_JPEG extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chrominance NR TIFF JPEG',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83345
+             * line : 61070
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ChrominanceNR_TIFF_JPEG extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNR_TIFF_JPEG',
             'desc' => [
+                'en' => 'Chrominance NR TIFF JPEG',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83377
+             * line : 61084
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ChrominanceNR_TIFF_JPEG extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNR_TIFF_JPEG',
             'desc' => [
+                'en' => 'Chrominance NR TIFF JPEG',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AlbumName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Metadata
-             * line : 330463
+             * line : 232533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumName extends AbstractTagGroup
              */
             'id' => 'Real::Metadata.Real-RJMD:AlbumName',
             'desc' => [
+                'en' => 'Album Name',
             ],
         ],
     ];

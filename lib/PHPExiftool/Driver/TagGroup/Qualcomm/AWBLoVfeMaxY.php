@@ -28,13 +28,14 @@ class AWBLoVfeMaxY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Lo Vfe Max Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307086
+             * line : 213584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBLoVfeMaxY extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBLoVfeMaxY',
             'desc' => [
+                'en' => 'AWB Lo Vfe Max Y',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Creator
-             * line : 273066
+             * line : 190598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'PSP::Creator.PSP:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

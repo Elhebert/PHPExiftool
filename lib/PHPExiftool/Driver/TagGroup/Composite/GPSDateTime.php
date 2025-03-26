@@ -28,13 +28,14 @@ class GPSDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90595
+             * line : 65233
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date/Time',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 93449
+             * line : 67796
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date/Time',
             ],
         ],
         2 => [
             /**
              * table_name : Composite
-             * line : 93826
+             * line : 67907
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date/Time',
             ],
         ],
     ];

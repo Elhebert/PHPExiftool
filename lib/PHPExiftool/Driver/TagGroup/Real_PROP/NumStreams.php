@@ -28,13 +28,14 @@ class NumStreams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Streams',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Properties
-             * line : 330542
+             * line : 232586
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumStreams extends AbstractTagGroup
              */
             'id' => 'Real::Properties.Real-PROP:NumStreams',
             'desc' => [
+                'en' => 'Num Streams',
             ],
         ],
     ];

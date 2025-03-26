@@ -28,13 +28,14 @@ class GeneralLevelIDC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'General Level IDC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313477
+             * line : 219222
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneralLevelIDC extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:GeneralLevelIDC',
             'desc' => [
+                'en' => 'General Level IDC',
             ],
         ],
     ];

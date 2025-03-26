@@ -28,13 +28,14 @@ class GradientBasedCorrCorrectionName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Correction Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402586
+             * line : 285723
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrCorrectionName extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrCorrectionName',
             'desc' => [
+                'en' => 'Gradient Based Corr Correction Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DotsPerInch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dots Per Inch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328231
+             * line : 231535
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DotsPerInch extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:DotsPerInch',
             'desc' => [
+                'en' => 'Dots Per Inch',
             ],
         ],
     ];

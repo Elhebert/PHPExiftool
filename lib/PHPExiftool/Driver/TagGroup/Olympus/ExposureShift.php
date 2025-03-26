@@ -28,13 +28,14 @@ class ExposureShift extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250603
+             * line : 172903
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureShift extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ExposureShift',
             'desc' => [
+                'en' => 'Exposure Shift',
             ],
         ],
     ];

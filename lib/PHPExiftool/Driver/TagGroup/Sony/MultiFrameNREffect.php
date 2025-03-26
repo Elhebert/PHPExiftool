@@ -28,13 +28,14 @@ class MultiFrameNREffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Frame NR Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355698
+             * line : 248147
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiFrameNREffect extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:MultiFrameNREffect',
             'desc' => [
+                'en' => 'Multi Frame NR Effect',
             ],
         ],
     ];

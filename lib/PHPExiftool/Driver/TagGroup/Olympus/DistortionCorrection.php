@@ -28,13 +28,14 @@ class DistortionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251714
+             * line : 173505
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
     ];

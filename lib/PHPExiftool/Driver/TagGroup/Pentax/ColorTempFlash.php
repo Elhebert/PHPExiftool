@@ -28,13 +28,14 @@ class ColorTempFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299813
+             * line : 208983
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ColorTempFlash extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTempFlash',
             'desc' => [
+                'en' => 'Color Temp Flash',
             ],
         ],
     ];

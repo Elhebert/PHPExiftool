@@ -28,13 +28,14 @@ class CountsAccumulated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Counts Accumulated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95497
+             * line : 68956
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CountsAccumulated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CountsAccumulated',
             'desc' => [
+                'en' => 'Counts Accumulated',
             ],
         ],
     ];

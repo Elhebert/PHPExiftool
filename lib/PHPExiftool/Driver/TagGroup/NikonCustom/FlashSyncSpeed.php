@@ -28,13 +28,14 @@ class FlashSyncSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Sync Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213865
+             * line : 143600
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213900
+             * line : 143629
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215777
+             * line : 144853
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218373
+             * line : 146770
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220823
+             * line : 148801
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225346
+             * line : 151850
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227499
+             * line : 153217
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229059
+             * line : 154048
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230909
+             * line : 155209
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232722
+             * line : 156619
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235816
+             * line : 159000
              * type : int8u
              * writable : false
              * count :
@@ -172,6 +183,7 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313941
+             * line : 219646
              * type : fixed32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

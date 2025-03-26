@@ -28,13 +28,14 @@ class BitsPerExtendedRunLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Extended Run Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113260
+             * line : 82391
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerExtendedRunLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:BitsPerExtendedRunLength',
             'desc' => [
+                'en' => 'Bits Per Extended Run Length',
             ],
         ],
     ];

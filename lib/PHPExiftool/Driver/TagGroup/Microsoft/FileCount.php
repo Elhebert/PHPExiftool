@@ -28,13 +28,14 @@ class FileCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175616
+             * line : 120864
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileCount extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FileCount',
             'desc' => [
+                'en' => 'File Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFResponse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199455
+             * line : 134583
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFResponse extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:AFResponse',
             'desc' => [
+                'en' => 'AF Response',
             ],
         ],
     ];

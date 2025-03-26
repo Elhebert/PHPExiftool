@@ -28,13 +28,14 @@ class HJR_NReductionTexture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HJR N Reduction Texture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306140
+             * line : 212645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HJR_NReductionTexture extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:HJR_NReductionTexture',
             'desc' => [
+                'en' => 'HJR N Reduction Texture',
             ],
         ],
     ];

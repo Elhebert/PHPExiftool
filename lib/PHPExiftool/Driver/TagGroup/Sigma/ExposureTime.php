@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338908
+             * line : 237350
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 339043
+             * line : 237383
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

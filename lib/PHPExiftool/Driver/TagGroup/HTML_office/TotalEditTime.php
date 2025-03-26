@@ -28,13 +28,14 @@ class TotalEditTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Edit Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142681
+             * line : 98584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalEditTime extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:TotalEditTime',
             'desc' => [
+                'en' => 'Total Edit Time',
             ],
         ],
     ];

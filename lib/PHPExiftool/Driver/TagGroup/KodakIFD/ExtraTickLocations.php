@@ -28,13 +28,14 @@ class ExtraTickLocations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extra Tick Locations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156729
+             * line : 107933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtraTickLocations extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExtraTickLocations',
             'desc' => [
+                'en' => 'Extra Tick Locations',
             ],
         ],
     ];

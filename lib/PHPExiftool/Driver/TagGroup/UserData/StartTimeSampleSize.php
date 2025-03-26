@@ -28,13 +28,14 @@ class StartTimeSampleSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Start Time Sample Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325748
+             * line : 229823
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartTimeSampleSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:StartTimeSampleSize',
             'desc' => [
+                'en' => 'Start Time Sample Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashExposureCompArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244345
+             * line : 167214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashExposureCompArea extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FlashExposureCompArea',
             'desc' => [
+                'en' => 'Flash Exposure Comp Area',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WB_RGBLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155227
+             * line : 106451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGB Levels Flash',
             ],
         ],
     ];

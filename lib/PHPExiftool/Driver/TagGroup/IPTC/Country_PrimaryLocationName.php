@@ -28,13 +28,14 @@ class Country_PrimaryLocationName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Country-Primary Location Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150300
+             * line : 103954
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class Country_PrimaryLocationName extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Country-PrimaryLocationName',
             'desc' => [
+                'en' => 'Country-Primary Location Name',
             ],
         ],
     ];

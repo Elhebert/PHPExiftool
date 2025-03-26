@@ -28,13 +28,14 @@ class ProcedureStepLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Procedure Step Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101814
+             * line : 74955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcedureStepLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProcedureStepLabel',
             'desc' => [
+                'en' => 'Procedure Step Label',
             ],
         ],
     ];

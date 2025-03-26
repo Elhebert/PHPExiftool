@@ -28,13 +28,14 @@ class Lin12ToKlut12 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lin 12 To Klut 12',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156392
+             * line : 107596
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lin12ToKlut12 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Lin12ToKlut12',
             'desc' => [
+                'en' => 'Lin 12 To Klut 12',
             ],
         ],
     ];

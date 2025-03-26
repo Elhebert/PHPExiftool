@@ -28,13 +28,14 @@ class FocusPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195645
+             * line : 132506
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:FocusPosition',
             'desc' => [
+                'en' => 'Focus Position',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195786
+             * line : 132552
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:FocusPosition',
             'desc' => [
+                'en' => 'Focus Position',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 195993
+             * line : 132631
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:FocusPosition',
             'desc' => [
+                'en' => 'Focus Position',
             ],
         ],
     ];

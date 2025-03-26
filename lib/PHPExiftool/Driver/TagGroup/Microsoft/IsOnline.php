@@ -28,13 +28,14 @@ class IsOnline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Online',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176247
+             * line : 121284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsOnline extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsOnline',
             'desc' => [
+                'en' => 'Is Online',
             ],
         ],
     ];

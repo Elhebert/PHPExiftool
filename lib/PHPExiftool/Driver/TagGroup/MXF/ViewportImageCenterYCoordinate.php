@@ -28,13 +28,14 @@ class ViewportImageCenterYCoordinate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewport Image Center Y Coordinate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168341
+             * line : 114836
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewportImageCenterYCoordinate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ViewportImageCenterYCoordinate',
             'desc' => [
+                'en' => 'Viewport Image Center Y Coordinate',
             ],
         ],
     ];

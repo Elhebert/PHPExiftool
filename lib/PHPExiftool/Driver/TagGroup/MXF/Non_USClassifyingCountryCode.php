@@ -28,13 +28,14 @@ class Non_USClassifyingCountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Non-US Classifying Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170462
+             * line : 116706
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Non_USClassifyingCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Non-USClassifyingCountryCode',
             'desc' => [
+                'en' => 'Non-US Classifying Country Code',
             ],
         ],
     ];

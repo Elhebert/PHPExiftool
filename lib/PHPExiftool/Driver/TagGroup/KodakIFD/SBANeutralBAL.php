@@ -28,13 +28,14 @@ class SBANeutralBAL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SBA Neutral BAL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155906
+             * line : 107117
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SBANeutralBAL extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBANeutralBAL',
             'desc' => [
+                'en' => 'SBA Neutral BAL',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196786
+             * line : 132884
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
     ];

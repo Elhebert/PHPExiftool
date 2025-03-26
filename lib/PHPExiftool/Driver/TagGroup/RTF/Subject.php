@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329316
+             * line : 232068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

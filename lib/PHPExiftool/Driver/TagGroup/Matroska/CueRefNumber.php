@@ -28,13 +28,14 @@ class CueRefNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Ref Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173634
+             * line : 119559
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueRefNumber extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueRefNumber',
             'desc' => [
+                'en' => 'Cue Ref Number',
             ],
         ],
     ];

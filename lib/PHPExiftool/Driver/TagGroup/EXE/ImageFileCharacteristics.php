@@ -28,13 +28,14 @@ class ImageFileCharacteristics extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image File Characteristics',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108803
+             * line : 80423
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFileCharacteristics extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:ImageFileCharacteristics',
             'desc' => [
+                'en' => 'Image File Characteristics',
             ],
         ],
     ];

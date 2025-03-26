@@ -28,13 +28,14 @@ class GradientBasedCorrMaskMasksFlipped extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Masks Flipped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402427
+             * line : 285564
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskMasksFlipped extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskMasksFlipped',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Masks Flipped',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashRemoteControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Remote Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200011
+             * line : 134980
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashRemoteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FlashRemoteControl',
             'desc' => [
+                'en' => 'Flash Remote Control',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201051
+             * line : 135958
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashRemoteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FlashRemoteControl',
             'desc' => [
+                'en' => 'Flash Remote Control',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208178
+             * line : 140282
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FlashRemoteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FlashRemoteControl',
             'desc' => [
+                'en' => 'Flash Remote Control',
             ],
         ],
     ];

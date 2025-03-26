@@ -28,13 +28,14 @@ class CountryCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LocationInfo
-             * line : 196282
+             * line : 132772
              * type : undef
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class CountryCode extends AbstractTagGroup
              */
             'id' => 'Nikon::LocationInfo.Nikon:CountryCode',
             'desc' => [
+                'en' => 'Country Code',
             ],
         ],
     ];

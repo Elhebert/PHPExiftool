@@ -28,13 +28,14 @@ class QTableMedium50Pct extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Q Table Medium 50 Pct',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155948
+             * line : 107159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QTableMedium50Pct extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:QTableMedium50Pct',
             'desc' => [
+                'en' => 'Q Table Medium 50 Pct',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DOI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DOI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167305
+             * line : 113937
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DOI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DOI',
             'desc' => [
+                'en' => 'DOI',
             ],
         ],
     ];

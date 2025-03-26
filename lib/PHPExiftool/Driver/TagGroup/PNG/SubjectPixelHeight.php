@@ -28,13 +28,14 @@ class SubjectPixelHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Pixel Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::SubjectScale
-             * line : 272791
+             * line : 190514
              * type : var_string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectPixelHeight extends AbstractTagGroup
              */
             'id' => 'PNG::SubjectScale.PNG:SubjectPixelHeight',
             'desc' => [
+                'en' => 'Subject Pixel Height',
             ],
         ],
     ];

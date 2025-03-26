@@ -28,13 +28,14 @@ class CurveDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curve Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104152
+             * line : 77238
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurveDimensions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurveDimensions',
             'desc' => [
+                'en' => 'Curve Dimensions',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFIntegrationTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Integration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AFInfo
-             * line : 283468
+             * line : 196703
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFIntegrationTime extends AbstractTagGroup
              */
             'id' => 'Pentax::AFInfo.Pentax:AFIntegrationTime',
             'desc' => [
+                'en' => 'AF Integration Time',
             ],
         ],
     ];

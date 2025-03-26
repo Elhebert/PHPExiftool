@@ -28,13 +28,14 @@ class Battery extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282079
+             * line : 195937
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Battery extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:Battery',
             'desc' => [
+                'en' => 'Battery',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282419
+             * line : 196126
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Battery extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:Battery',
             'desc' => [
+                'en' => 'Battery',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282596
+             * line : 196196
              * type : int8u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Battery extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:Battery',
             'desc' => [
+                'en' => 'Battery',
             ],
         ],
     ];

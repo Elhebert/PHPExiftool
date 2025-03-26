@@ -28,13 +28,14 @@ class DynamicRangeOptimizerBracket extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer Bracket',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353074
+             * line : 246491
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeOptimizerBracket extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerBracket',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Bracket',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaximumTransformIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Transform Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124632
+             * line : 87115
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumTransformIndex extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumTransformIndex',
             'desc' => [
+                'en' => 'Maximum Transform Index',
             ],
         ],
     ];

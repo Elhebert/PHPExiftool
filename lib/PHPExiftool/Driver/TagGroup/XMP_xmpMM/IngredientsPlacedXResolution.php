@@ -28,13 +28,14 @@ class IngredientsPlacedXResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Placed X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413966
+             * line : 291991
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsPlacedXResolution extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsPlacedXResolution',
             'desc' => [
+                'en' => 'Ingredients Placed X Resolution',
             ],
         ],
     ];

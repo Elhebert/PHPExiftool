@@ -28,13 +28,14 @@ class SubSecTimeDigitized extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Sec Time Digitized',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116266
+             * line : 83307
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubSecTimeDigitized extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SubSecTimeDigitized',
             'desc' => [
+                'en' => 'Sub Sec Time Digitized',
             ],
         ],
     ];

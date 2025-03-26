@@ -28,13 +28,14 @@ class ColorTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13434
+             * line : 9712
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTone extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:ColorTone',
             'desc' => [
+                'en' => 'Color Tone',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIIN
-             * line : 17788
+             * line : 13099
              * type : int8s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTone extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIIN.Canon:ColorTone',
             'desc' => [
+                'en' => 'Color Tone',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58820
+             * line : 45701
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTone extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:ColorTone',
             'desc' => [
+                'en' => 'Color Tone',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorInfo
-             * line : 63115
+             * line : 48086
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTone extends AbstractTagGroup
              */
             'id' => 'Canon::ColorInfo.Canon:ColorTone',
             'desc' => [
+                'en' => 'Color Tone',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64487
+             * line : 48843
              * type : int32s
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class ColorTone extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:ColorTone',
             'desc' => [
+                'en' => 'Color Tone',
             ],
         ],
     ];

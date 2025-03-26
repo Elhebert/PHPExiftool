@@ -28,13 +28,14 @@ class SigningDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signing Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264360
+             * line : 182726
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigningDate extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:SigningDate',
             'desc' => [
+                'en' => 'Signing Date',
             ],
         ],
     ];

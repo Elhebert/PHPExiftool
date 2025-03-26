@@ -28,13 +28,14 @@ class LicensorURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265747
+             * line : 183716
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorURL extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorURL',
             'desc' => [
+                'en' => 'Licensor URL',
             ],
         ],
     ];

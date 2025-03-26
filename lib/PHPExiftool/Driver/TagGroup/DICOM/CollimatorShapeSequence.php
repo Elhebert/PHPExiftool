@@ -28,13 +28,14 @@ class CollimatorShapeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collimator Shape Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97102
+             * line : 70501
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollimatorShapeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollimatorShapeSequence',
             'desc' => [
+                'en' => 'Collimator Shape Sequence',
             ],
         ],
     ];

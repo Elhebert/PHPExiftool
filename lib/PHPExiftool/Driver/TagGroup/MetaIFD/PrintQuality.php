@@ -28,13 +28,14 @@ class PrintQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158510
+             * line : 108979
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintQuality extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:PrintQuality',
             'desc' => [
+                'en' => 'Print Quality',
             ],
         ],
     ];

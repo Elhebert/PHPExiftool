@@ -28,13 +28,14 @@ class OverlayCompressionLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Compression Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104315
+             * line : 77388
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayCompressionLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayCompressionLabel',
             'desc' => [
+                'en' => 'Overlay Compression Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimeScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324118
+             * line : 229017
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeScale extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:TimeScale',
             'desc' => [
+                'en' => 'Time Scale',
             ],
         ],
     ];

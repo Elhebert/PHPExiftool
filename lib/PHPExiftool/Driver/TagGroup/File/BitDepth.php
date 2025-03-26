@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3241
+             * line : 2030
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
         1 => [
             /**
              * table_name : BMP::OS2
-             * line : 3537
+             * line : 2174
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'BMP::OS2.File:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
         2 => [
             /**
              * table_name : BPG::Main
-             * line : 3625
+             * line : 2231
              * type : int16u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
         3 => [
             /**
              * table_name : DPX::Main
-             * line : 105820
+             * line : 78330
              * type : int8u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
         4 => [
             /**
              * table_name : FLIF::Main
-             * line : 122054
+             * line : 85511
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'FLIF::Main.File:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

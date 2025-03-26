@@ -28,13 +28,14 @@ class AnnotationParticipantSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation Participant Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171797
+             * line : 117985
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnnotationParticipantSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnnotationParticipantSets',
             'desc' => [
+                'en' => 'Annotation Participant Sets',
             ],
         ],
     ];

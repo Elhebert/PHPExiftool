@@ -28,13 +28,14 @@ class PixelShiftResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Shift Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::PixelShiftInfo
-             * line : 301544
+             * line : 209842
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelShiftResolution extends AbstractTagGroup
              */
             'id' => 'Pentax::PixelShiftInfo.Pentax:PixelShiftResolution',
             'desc' => [
+                'en' => 'Pixel Shift Resolution',
             ],
         ],
     ];

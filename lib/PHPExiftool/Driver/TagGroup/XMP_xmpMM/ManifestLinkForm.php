@@ -28,13 +28,14 @@ class ManifestLinkForm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Link Form',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414088
+             * line : 292110
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestLinkForm extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestLinkForm',
             'desc' => [
+                'en' => 'Manifest Link Form',
             ],
         ],
     ];

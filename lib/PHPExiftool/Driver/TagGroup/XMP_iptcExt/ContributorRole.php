@@ -28,13 +28,14 @@ class ContributorRole extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributor Role',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409188
+             * line : 288996
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributorRole extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ContributorRole',
             'desc' => [
+                'en' => 'Contributor Role',
             ],
         ],
     ];

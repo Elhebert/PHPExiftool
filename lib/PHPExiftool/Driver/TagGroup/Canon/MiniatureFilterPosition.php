@@ -28,13 +28,14 @@ class MiniatureFilterPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Miniature Filter Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 63999
+             * line : 48615
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MiniatureFilterPosition extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:MiniatureFilterPosition',
             'desc' => [
+                'en' => 'Miniature Filter Position',
             ],
         ],
     ];

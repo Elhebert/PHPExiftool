@@ -28,13 +28,14 @@ class FujiLayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fuji Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131086
+             * line : 90540
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FujiLayout extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:FujiLayout',
             'desc' => [
+                'en' => 'Fuji Layout',
             ],
         ],
     ];

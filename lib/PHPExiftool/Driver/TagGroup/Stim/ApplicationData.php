@@ -28,13 +28,14 @@ class ApplicationData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394577
+             * line : 279524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationData extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ApplicationData',
             'desc' => [
+                'en' => 'Application Data',
             ],
         ],
     ];

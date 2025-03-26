@@ -28,13 +28,14 @@ class PlatformPitchAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Platform Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171816
+             * line : 118003
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlatformPitchAngle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlatformPitchAngle',
             'desc' => [
+                'en' => 'Platform Pitch Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MultiBurstImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Burst Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 353844
+             * line : 246779
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiBurstImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:MultiBurstImageHeight',
             'desc' => [
+                'en' => 'Multi Burst Image Height',
             ],
         ],
     ];

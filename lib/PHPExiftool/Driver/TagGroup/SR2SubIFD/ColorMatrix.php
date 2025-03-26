@@ -28,13 +28,14 @@ class ColorMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361797
+             * line : 251916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMatrix extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:ColorMatrix',
             'desc' => [
+                'en' => 'Color Matrix',
             ],
         ],
     ];

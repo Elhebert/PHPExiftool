@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Creator
-             * line : 273084
+             * line : 190601
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'PSP::Creator.PSP:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

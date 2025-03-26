@@ -28,13 +28,14 @@ class ImageSetSelectorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Set Selector Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101450
+             * line : 74598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSetSelectorSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageSetSelectorSequence',
             'desc' => [
+                'en' => 'Image Set Selector Sequence',
             ],
         ],
     ];

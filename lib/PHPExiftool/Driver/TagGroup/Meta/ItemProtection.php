@@ -28,13 +28,14 @@ class ItemProtection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item Protection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323937
+             * line : 228921
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemProtection extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:ItemProtection',
             'desc' => [
+                'en' => 'Item Protection',
             ],
         ],
     ];

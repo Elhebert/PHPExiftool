@@ -28,13 +28,14 @@ class AH2GreenInterpolationThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AH2 Green Interpolation Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156563
+             * line : 107767
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AH2GreenInterpolationThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AH2GreenInterpolationThreshold',
             'desc' => [
+                'en' => 'AH2 Green Interpolation Threshold',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TreatmentTerminationCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Termination Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102693
+             * line : 75789
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentTerminationCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentTerminationCode',
             'desc' => [
+                'en' => 'Treatment Termination Code',
             ],
         ],
     ];

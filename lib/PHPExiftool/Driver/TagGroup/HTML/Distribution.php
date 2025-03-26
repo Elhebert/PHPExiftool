@@ -28,13 +28,14 @@ class Distribution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distribution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142385
+             * line : 98469
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Distribution extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Distribution',
             'desc' => [
+                'en' => 'Distribution',
             ],
         ],
     ];

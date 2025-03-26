@@ -28,13 +28,14 @@ class Contact extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395724
+             * line : 280193
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Contact extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Contact',
             'desc' => [
+                'en' => 'Contact',
             ],
         ],
     ];

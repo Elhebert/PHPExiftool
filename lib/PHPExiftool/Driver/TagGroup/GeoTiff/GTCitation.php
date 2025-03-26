@@ -28,13 +28,14 @@ class GTCitation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GT Citation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 132768
+             * line : 91069
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GTCitation extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GTCitation',
             'desc' => [
+                'en' => 'GT Citation',
             ],
         ],
     ];

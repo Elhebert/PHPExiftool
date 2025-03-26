@@ -28,13 +28,14 @@ class ReconstructionPixelSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Pixel Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97004
+             * line : 70405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionPixelSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconstructionPixelSpacing',
             'desc' => [
+                'en' => 'Reconstruction Pixel Spacing',
             ],
         ],
     ];

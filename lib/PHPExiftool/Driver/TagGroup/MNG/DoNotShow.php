@@ -28,13 +28,14 @@ class DoNotShow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Do Not Show',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::CloneObject
-             * line : 164722
+             * line : 111939
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DoNotShow extends AbstractTagGroup
              */
             'id' => 'MNG::CloneObject.MNG:DoNotShow',
             'desc' => [
+                'en' => 'Do Not Show',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::DefineObject
-             * line : 164750
+             * line : 111966
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DoNotShow extends AbstractTagGroup
              */
             'id' => 'MNG::DefineObject.MNG:DoNotShow',
             'desc' => [
+                'en' => 'Do Not Show',
             ],
         ],
     ];

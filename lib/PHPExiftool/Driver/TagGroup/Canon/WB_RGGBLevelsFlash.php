@@ -28,13 +28,14 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58908
+             * line : 45745
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59279
+             * line : 45922
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59557
+             * line : 46064
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59802
+             * line : 46188
              * type : int16s
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60083
+             * line : 46335
              * type : int16s
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60610
+             * line : 46635
              * type : int16s
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60857
+             * line : 46777
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61202
+             * line : 46960
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61576
+             * line : 47200
              * type : int16s
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61964
+             * line : 47413
              * type : int16s
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62385
+             * line : 47653
              * type : int16s
              * writable : true
              * count : 4
@@ -172,12 +183,13 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62856
+             * line : 47935
              * type : int16s
              * writable : true
              * count : 4
@@ -185,6 +197,7 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
     ];

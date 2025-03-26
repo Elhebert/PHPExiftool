@@ -28,13 +28,14 @@ class ComponentMinimumRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component Minimum Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171205
+             * line : 117417
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentMinimumRef extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComponentMinimumRef',
             'desc' => [
+                'en' => 'Component Minimum Ref',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraTemperatureRangeMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature Range Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122234
+             * line : 85623
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraTemperatureRangeMin extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureRangeMin',
             'desc' => [
+                'en' => 'Camera Temperature Range Min',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122549
+             * line : 85817
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class CameraTemperatureRangeMin extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:CameraTemperatureRangeMin',
             'desc' => [
+                'en' => 'Camera Temperature Range Min',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Main
-             * line : 123225
+             * line : 86050
              * type : rational64u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class CameraTemperatureRangeMin extends AbstractTagGroup
              */
             'id' => 'FLIR::Main.FLIR:CameraTemperatureRangeMin',
             'desc' => [
+                'en' => 'Camera Temperature Range Min',
             ],
         ],
     ];

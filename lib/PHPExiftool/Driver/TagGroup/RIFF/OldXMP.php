@@ -28,13 +28,14 @@ class OldXMP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Old XMP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328654
+             * line : 231749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OldXMP extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:OldXMP',
             'desc' => [
+                'en' => 'Old XMP',
             ],
         ],
     ];

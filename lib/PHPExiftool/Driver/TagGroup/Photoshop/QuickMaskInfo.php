@@ -28,13 +28,14 @@ class QuickMaskInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quick Mask Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305457
+             * line : 212251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QuickMaskInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:QuickMaskInfo',
             'desc' => [
+                'en' => 'Quick Mask Info',
             ],
         ],
     ];

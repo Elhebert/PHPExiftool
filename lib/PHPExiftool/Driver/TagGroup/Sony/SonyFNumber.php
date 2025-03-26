@@ -28,13 +28,14 @@ class SonyFNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379131
+             * line : 265955
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyFNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:SonyFNumber',
             'desc' => [
+                'en' => 'Sony F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381353
+             * line : 268139
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SonyFNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:SonyFNumber',
             'desc' => [
+                'en' => 'Sony F Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383768
+             * line : 270521
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SonyFNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:SonyFNumber',
             'desc' => [
+                'en' => 'Sony F Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383851
+             * line : 270604
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SonyFNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:SonyFNumber',
             'desc' => [
+                'en' => 'Sony F Number',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387608
+             * line : 273698
              * type : int16u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class SonyFNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:SonyFNumber',
             'desc' => [
+                'en' => 'Sony F Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PackageUsageKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Usage Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171778
+             * line : 117967
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageUsageKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageUsageKind',
             'desc' => [
+                'en' => 'Package Usage Kind',
             ],
         ],
     ];

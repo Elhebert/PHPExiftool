@@ -28,13 +28,14 @@ class ConnectionSpaceIlluminant extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Connection Space Illuminant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 145107
+             * line : 100632
              * type : fixed32s
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class ConnectionSpaceIlluminant extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:ConnectionSpaceIlluminant',
             'desc' => [
+                'en' => 'Connection Space Illuminant',
             ],
         ],
     ];

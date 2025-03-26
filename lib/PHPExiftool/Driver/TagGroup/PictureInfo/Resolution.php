@@ -28,13 +28,14 @@ class Resolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 737
+             * line : 277
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Resolution extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:Resolution',
             'desc' => [
+                'en' => 'Resolution',
             ],
         ],
     ];

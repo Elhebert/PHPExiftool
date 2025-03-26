@@ -28,13 +28,14 @@ class WhiteBalanceSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284960
+             * line : 197712
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceSet extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:WhiteBalanceSet',
             'desc' => [
+                'en' => 'White Balance Set',
             ],
         ],
     ];

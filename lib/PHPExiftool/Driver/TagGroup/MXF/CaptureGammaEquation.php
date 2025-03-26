@@ -28,13 +28,14 @@ class CaptureGammaEquation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Gamma Equation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167770
+             * line : 114347
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CaptureGammaEquation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptureGammaEquation',
             'desc' => [
+                'en' => 'Capture Gamma Equation',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 167773
+             * line : 114350
              * type : rational64s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class CaptureGammaEquation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptureGammaEquation',
             'desc' => [
+                'en' => 'Capture Gamma Equation',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 169025
+             * line : 115475
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class CaptureGammaEquation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptureGammaEquation',
             'desc' => [
+                'en' => 'Capture Gamma Equation',
             ],
         ],
     ];

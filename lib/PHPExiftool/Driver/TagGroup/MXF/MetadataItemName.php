@@ -28,13 +28,14 @@ class MetadataItemName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Item Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168983
+             * line : 115439
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MetadataItemName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MetadataItemName',
             'desc' => [
+                'en' => 'Metadata Item Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172063
+             * line : 118237
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MetadataItemName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MetadataItemName',
             'desc' => [
+                'en' => 'Metadata Item Name',
             ],
         ],
     ];

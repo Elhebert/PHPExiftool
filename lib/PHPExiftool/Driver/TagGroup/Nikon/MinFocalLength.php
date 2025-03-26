@@ -28,13 +28,14 @@ class MinFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData00
-             * line : 195568
+             * line : 132478
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData00.Nikon:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195700
+             * line : 132521
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195841
+             * line : 132567
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196048
+             * line : 132646
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
     ];

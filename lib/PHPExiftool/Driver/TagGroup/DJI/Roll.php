@@ -28,13 +28,14 @@ class Roll extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Roll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Main
-             * line : 104525
+             * line : 77576
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Roll extends AbstractTagGroup
              */
             'id' => 'DJI::Main.DJI:Roll',
             'desc' => [
+                'en' => 'Roll',
             ],
         ],
     ];

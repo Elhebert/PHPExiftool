@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412527
+             * line : 290886
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

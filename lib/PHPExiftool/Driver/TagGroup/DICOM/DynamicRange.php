@@ -28,13 +28,14 @@ class DynamicRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dynamic Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96215
+             * line : 69631
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DynamicRange extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DynamicRange',
             'desc' => [
+                'en' => 'Dynamic Range',
             ],
         ],
     ];

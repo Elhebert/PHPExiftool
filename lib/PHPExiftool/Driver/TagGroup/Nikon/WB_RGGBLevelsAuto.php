@@ -28,13 +28,14 @@ class WB_RGGBLevelsAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceB
-             * line : 192077
+             * line : 130171
              * type : int32u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsAuto extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceB.Nikon:WB_RGGBLevelsAuto',
             'desc' => [
+                'en' => 'WB RGGB Levels Auto',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ColorBalanceC
-             * line : 192175
+             * line : 130214
              * type : int32u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsAuto extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceC.Nikon:WB_RGGBLevelsAuto',
             'desc' => [
+                'en' => 'WB RGGB Levels Auto',
             ],
         ],
     ];

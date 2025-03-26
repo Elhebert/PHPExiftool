@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::SerialInfo
-             * line : 333719
+             * line : 234020
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Ricoh::SerialInfo.Ricoh:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

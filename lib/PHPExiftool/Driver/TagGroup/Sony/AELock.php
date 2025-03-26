@@ -28,13 +28,14 @@ class AELock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347983
+             * line : 243537
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AELock extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:AELock',
             'desc' => [
+                'en' => 'AE Lock',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349375
+             * line : 244135
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AELock extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:AELock',
             'desc' => [
+                'en' => 'AE Lock',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351150
+             * line : 245169
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AELock extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:AELock',
             'desc' => [
+                'en' => 'AE Lock',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351329
+             * line : 245295
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AELock extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:AELock',
             'desc' => [
+                'en' => 'AE Lock',
             ],
         ],
     ];

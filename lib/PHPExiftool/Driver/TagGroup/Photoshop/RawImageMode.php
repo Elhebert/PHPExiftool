@@ -28,13 +28,14 @@ class RawImageMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305482
+             * line : 212269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawImageMode extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:RawImageMode',
             'desc' => [
+                'en' => 'Raw Image Mode',
             ],
         ],
     ];

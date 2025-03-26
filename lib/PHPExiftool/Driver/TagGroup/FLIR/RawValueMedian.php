@@ -28,13 +28,14 @@ class RawValueMedian extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Value Median',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122325
+             * line : 85689
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawValueMedian extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:RawValueMedian',
             'desc' => [
+                'en' => 'Raw Value Median',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MDSampleInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113087
+             * line : 82308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDSampleInfo extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MDSampleInfo',
             'desc' => [
+                'en' => 'MD Sample Info',
             ],
         ],
     ];

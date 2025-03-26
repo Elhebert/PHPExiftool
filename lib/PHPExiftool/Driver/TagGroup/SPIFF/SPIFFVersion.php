@@ -28,13 +28,14 @@ class SPIFFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SPIFF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153057
+             * line : 105273
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class SPIFFVersion extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:SPIFFVersion',
             'desc' => [
+                'en' => 'SPIFF Version',
             ],
         ],
     ];

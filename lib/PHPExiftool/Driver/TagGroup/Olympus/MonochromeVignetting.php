@@ -28,13 +28,14 @@ class MonochromeVignetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Vignetting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252794
+             * line : 174259
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeVignetting extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:MonochromeVignetting',
             'desc' => [
+                'en' => 'Monochrome Vignetting',
             ],
         ],
     ];

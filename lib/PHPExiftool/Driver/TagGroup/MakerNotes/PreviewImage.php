@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Flip
-             * line : 313093
+             * line : 218933
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Flip.MakerNotes:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 140371
+             * line : 98022
              * type : rational32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : H264::Shutter
-             * line : 142072
+             * line : 98383
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'H264::Shutter.H264:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

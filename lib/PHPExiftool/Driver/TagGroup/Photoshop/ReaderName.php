@@ -28,13 +28,14 @@ class ReaderName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reader Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::VersionInfo
-             * line : 305864
+             * line : 212518
              * type : var_ustr32
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReaderName extends AbstractTagGroup
              */
             'id' => 'Photoshop::VersionInfo.Photoshop:ReaderName',
             'desc' => [
+                'en' => 'Reader Name',
             ],
         ],
     ];

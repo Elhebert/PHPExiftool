@@ -28,13 +28,14 @@ class VersionsEventSoftwareAgent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Versions Event Software Agent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414325
+             * line : 292330
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionsEventSoftwareAgent extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:VersionsEventSoftwareAgent',
             'desc' => [
+                'en' => 'Versions Event Software Agent',
             ],
         ],
     ];

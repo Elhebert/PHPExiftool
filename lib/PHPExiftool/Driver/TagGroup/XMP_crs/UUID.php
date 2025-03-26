@@ -28,13 +28,14 @@ class UUID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'UUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404581
+             * line : 287608
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UUID extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:UUID',
             'desc' => [
+                'en' => 'UUID',
             ],
         ],
     ];

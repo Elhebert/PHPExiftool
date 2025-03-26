@@ -28,13 +28,14 @@ class NikonCaptureOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon Capture Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199613
+             * line : 134650
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NikonCaptureOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NikonCaptureOutput',
             'desc' => [
+                'en' => 'Nikon Capture Output',
             ],
         ],
     ];

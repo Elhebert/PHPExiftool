@@ -28,13 +28,14 @@ class CompressionCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98720
+             * line : 71995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressionCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompressionCode',
             'desc' => [
+                'en' => 'Compression Code',
             ],
         ],
     ];

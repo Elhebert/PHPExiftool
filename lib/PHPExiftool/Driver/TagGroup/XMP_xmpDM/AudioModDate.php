@@ -28,13 +28,14 @@ class AudioModDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Mod Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412914
+             * line : 291083
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioModDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AudioModDate',
             'desc' => [
+                'en' => 'Audio Mod Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class YCbCrSubSampling extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Sub Sampling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112508
+             * line : 82059
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class YCbCrSubSampling extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:YCbCrSubSampling',
             'desc' => [
+                'en' => 'Y Cb Cr Sub Sampling',
             ],
         ],
     ];

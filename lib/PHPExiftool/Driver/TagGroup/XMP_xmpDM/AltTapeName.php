@@ -28,13 +28,14 @@ class AltTapeName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Alt Tape Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412821
+             * line : 291007
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AltTapeName extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AltTapeName',
             'desc' => [
+                'en' => 'Alt Tape Name',
             ],
         ],
     ];

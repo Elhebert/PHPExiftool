@@ -28,13 +28,14 @@ class NumberOfPriorsReferenced extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Priors Referenced',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101444
+             * line : 74592
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPriorsReferenced extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfPriorsReferenced',
             'desc' => [
+                'en' => 'Number Of Priors Referenced',
             ],
         ],
     ];

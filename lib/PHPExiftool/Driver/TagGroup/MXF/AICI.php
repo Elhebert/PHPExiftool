@@ -28,13 +28,14 @@ class AICI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AICI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167299
+             * line : 113931
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AICI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AICI',
             'desc' => [
+                'en' => 'AICI',
             ],
         ],
     ];

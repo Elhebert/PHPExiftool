@@ -28,13 +28,14 @@ class PF3ManualExposureMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF3 Manual Exposure Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78362
+             * line : 57063
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF3ManualExposureMetering extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF3ManualExposureMetering',
             'desc' => [
+                'en' => 'PF3 Manual Exposure Metering',
             ],
         ],
     ];

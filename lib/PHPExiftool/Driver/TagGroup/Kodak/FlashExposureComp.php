@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159600
+             * line : 109452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
     ];

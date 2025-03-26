@@ -28,13 +28,14 @@ class MinorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::FileType
-             * line : 153967
+             * line : 105749
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MinorVersion extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::FileType.Jpeg2000:MinorVersion',
             'desc' => [
+                'en' => 'Minor Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PatternCorrectionOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pattern Correction Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155515
+             * line : 106727
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatternCorrectionOffsets extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternCorrectionOffsets',
             'desc' => [
+                'en' => 'Pattern Correction Offsets',
             ],
         ],
     ];

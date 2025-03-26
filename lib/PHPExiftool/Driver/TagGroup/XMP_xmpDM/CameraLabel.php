@@ -28,13 +28,14 @@ class CameraLabel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412973
+             * line : 291139
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraLabel extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:CameraLabel',
             'desc' => [
+                'en' => 'Camera Label',
             ],
         ],
     ];

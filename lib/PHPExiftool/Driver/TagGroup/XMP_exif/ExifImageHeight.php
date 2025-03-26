@@ -28,13 +28,14 @@ class ExifImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407700
+             * line : 288392
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifImageHeight extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ExifImageHeight',
             'desc' => [
+                'en' => 'Exif Image Height',
             ],
         ],
     ];

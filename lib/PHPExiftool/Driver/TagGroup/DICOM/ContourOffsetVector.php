@@ -28,13 +28,14 @@ class ContourOffsetVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contour Offset Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102588
+             * line : 75684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContourOffsetVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContourOffsetVector',
             'desc' => [
+                'en' => 'Contour Offset Vector',
             ],
         ],
     ];

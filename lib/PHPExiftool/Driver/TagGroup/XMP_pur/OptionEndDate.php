@@ -28,13 +28,14 @@ class OptionEndDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Option End Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411320
+             * line : 290485
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OptionEndDate extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:OptionEndDate',
             'desc' => [
+                'en' => 'Option End Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FieldOfView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122300
+             * line : 85665
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfView extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:FieldOfView',
             'desc' => [
+                'en' => 'Field Of View',
             ],
         ],
     ];

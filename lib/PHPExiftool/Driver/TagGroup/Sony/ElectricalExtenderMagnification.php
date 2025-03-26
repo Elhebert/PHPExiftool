@@ -28,13 +28,14 @@ class ElectricalExtenderMagnification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Electrical Extender Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393497
+             * line : 279004
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElectricalExtenderMagnification extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:ElectricalExtenderMagnification',
             'desc' => [
+                'en' => 'Electrical Extender Magnification',
             ],
         ],
     ];

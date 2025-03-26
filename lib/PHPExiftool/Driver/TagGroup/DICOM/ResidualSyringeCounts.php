@@ -28,13 +28,14 @@ class ResidualSyringeCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Residual Syringe Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100817
+             * line : 73977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResidualSyringeCounts extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResidualSyringeCounts',
             'desc' => [
+                'en' => 'Residual Syringe Counts',
             ],
         ],
     ];

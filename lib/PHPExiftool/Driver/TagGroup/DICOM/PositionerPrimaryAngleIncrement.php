@@ -28,13 +28,14 @@ class PositionerPrimaryAngleIncrement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Positioner Primary Angle Increment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96048
+             * line : 69469
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionerPrimaryAngleIncrement extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PositionerPrimaryAngleIncrement',
             'desc' => [
+                'en' => 'Positioner Primary Angle Increment',
             ],
         ],
     ];

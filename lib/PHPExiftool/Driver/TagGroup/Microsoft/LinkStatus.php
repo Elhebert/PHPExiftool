@@ -28,13 +28,14 @@ class LinkStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Link Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176234
+             * line : 121272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkStatus extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LinkStatus',
             'desc' => [
+                'en' => 'Link Status',
             ],
         ],
     ];

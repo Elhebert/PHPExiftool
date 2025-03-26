@@ -28,13 +28,14 @@ class RawImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAFData
-             * line : 131152
+             * line : 90592
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RawImageHeight extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAFData.FujiFilm:RawImageHeight',
             'desc' => [
+                'en' => 'Raw Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : FujiFilm::RAFData
-             * line : 131168
+             * line : 90598
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class RawImageHeight extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAFData.FujiFilm:RawImageHeight',
             'desc' => [
+                'en' => 'Raw Image Height',
             ],
         ],
         2 => [
             /**
              * table_name : FujiFilm::RAFData
-             * line : 131176
+             * line : 90601
              * type : int32u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class RawImageHeight extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAFData.FujiFilm:RawImageHeight',
             'desc' => [
+                'en' => 'Raw Image Height',
             ],
         ],
     ];

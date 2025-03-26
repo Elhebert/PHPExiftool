@@ -28,13 +28,14 @@ class AudioFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174457
+             * line : 120146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioFormat extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AudioFormat',
             'desc' => [
+                'en' => 'Audio Format',
             ],
         ],
     ];

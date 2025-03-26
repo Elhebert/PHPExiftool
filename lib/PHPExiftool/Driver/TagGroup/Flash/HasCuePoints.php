@@ -28,13 +28,14 @@ class HasCuePoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Cue Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124098
+             * line : 86735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasCuePoints extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:HasCuePoints',
             'desc' => [
+                'en' => 'Has Cue Points',
             ],
         ],
     ];

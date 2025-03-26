@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskRangeSampleType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Range Sample Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403028
+             * line : 286164
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskRangeSampleType extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskRangeSampleType',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Range Sample Type',
             ],
         ],
     ];

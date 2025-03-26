@@ -28,13 +28,14 @@ class IncrementalTint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Incremental Tint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402802
+             * line : 285939
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IncrementalTint extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:IncrementalTint',
             'desc' => [
+                'en' => 'Incremental Tint',
             ],
         ],
     ];

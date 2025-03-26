@@ -28,13 +28,14 @@ class BinningWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Binning Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166592
+             * line : 113331
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BinningWidth extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:BinningWidth',
             'desc' => [
+                'en' => 'Binning Width',
             ],
         ],
     ];

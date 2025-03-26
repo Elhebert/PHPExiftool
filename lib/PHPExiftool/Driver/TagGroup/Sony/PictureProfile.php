@@ -28,13 +28,14 @@ class PictureProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362346
+             * line : 252298
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362423
+             * line : 252375
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363344
+             * line : 252960
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363421
+             * line : 253037
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364367
+             * line : 253631
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364444
+             * line : 253708
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365350
+             * line : 254293
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365427
+             * line : 254370
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366352
+             * line : 254947
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366429
+             * line : 255024
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369359
+             * line : 257577
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         11 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369436
+             * line : 257654
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         12 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370389
+             * line : 258242
              * type : int8u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         13 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370466
+             * line : 258319
              * type : int8u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         14 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373390
+             * line : 260866
              * type : int8u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         15 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373467
+             * line : 260943
              * type : int8u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         16 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376391
+             * line : 263490
              * type : int8u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         17 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376468
+             * line : 263567
              * type : int8u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
         18 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393266
+             * line : 278848
              * type : int8u
              * writable : false
              * count :
@@ -276,6 +295,7 @@ class PictureProfile extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:PictureProfile',
             'desc' => [
+                'en' => 'Picture Profile',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFPointsInFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Points In Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AFInfo
-             * line : 283476
+             * line : 196706
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Pentax::AFInfo.Pentax:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::AFPointInfo
-             * line : 283656
+             * line : 196798
              * type : int8u
              * writable : false
              * count : 9
@@ -55,12 +57,13 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Pentax::AFPointInfo.Pentax:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Main
-             * line : 296787
+             * line : 207332
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::Main
-             * line : 296949
+             * line : 207421
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
         4 => [
             /**
              * table_name : Pentax::Main
-             * line : 299417
+             * line : 208834
              * type : int32u
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class AFPointsInFocus extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFPointsInFocus',
             'desc' => [
+                'en' => 'AF Points In Focus',
             ],
         ],
     ];

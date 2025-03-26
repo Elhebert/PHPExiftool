@@ -28,13 +28,14 @@ class MakerNoteSamsung1b extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Samsung 1b',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105157
+             * line : 77957
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteSamsung1b extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteSamsung1b',
             'desc' => [
+                'en' => 'Maker Note Samsung 1b',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116118
+             * line : 83250
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteSamsung1b extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteSamsung1b',
             'desc' => [
+                'en' => 'Maker Note Samsung 1b',
             ],
         ],
     ];

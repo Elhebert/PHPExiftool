@@ -28,13 +28,14 @@ class CompressorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::uuid
-             * line : 71284
+             * line : 53190
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressorVersion extends AbstractTagGroup
              */
             'id' => 'Canon::uuid.Canon:CompressorVersion',
             'desc' => [
+                'en' => 'Compressor Version',
             ],
         ],
     ];

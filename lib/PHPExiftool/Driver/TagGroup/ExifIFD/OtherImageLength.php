@@ -28,13 +28,14 @@ class OtherImageLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112429
+             * line : 82035
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherImageLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OtherImageLength',
             'desc' => [
+                'en' => 'Other Image Length',
             ],
         ],
     ];

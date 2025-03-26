@@ -28,13 +28,14 @@ class OmenROICoordinates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen ROI Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155711
+             * line : 106922
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenROICoordinates extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenROICoordinates',
             'desc' => [
+                'en' => 'Omen ROI Coordinates',
             ],
         ],
     ];

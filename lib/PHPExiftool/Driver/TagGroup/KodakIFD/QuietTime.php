@@ -28,13 +28,14 @@ class QuietTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quiet Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157290
+             * line : 108482
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QuietTime extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:QuietTime',
             'desc' => [
+                'en' => 'Quiet Time',
             ],
         ],
     ];

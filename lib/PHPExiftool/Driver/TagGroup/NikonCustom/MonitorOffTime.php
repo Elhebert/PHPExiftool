@@ -28,13 +28,14 @@ class MonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213841
+             * line : 143580
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:MonitorOffTime',
             'desc' => [
+                'en' => 'Monitor Off Time',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216832
+             * line : 145744
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:MonitorOffTime',
             'desc' => [
+                'en' => 'Monitor Off Time',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228108
+             * line : 153576
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class MonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:MonitorOffTime',
             'desc' => [
+                'en' => 'Monitor Off Time',
             ],
         ],
     ];

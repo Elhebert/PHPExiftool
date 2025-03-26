@@ -28,13 +28,14 @@ class SortName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sort Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404391
+             * line : 287456
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SortName extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:SortName',
             'desc' => [
+                'en' => 'Sort Name',
             ],
         ],
     ];

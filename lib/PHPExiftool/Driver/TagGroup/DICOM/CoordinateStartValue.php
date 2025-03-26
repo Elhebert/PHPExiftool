@@ -28,13 +28,14 @@ class CoordinateStartValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coordinate Start Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104185
+             * line : 77271
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoordinateStartValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CoordinateStartValue',
             'desc' => [
+                'en' => 'Coordinate Start Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioSampleDesc
-             * line : 310422
+             * line : 216325
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class AudioFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioFormat',
             'desc' => [
+                'en' => 'Audio Format',
             ],
         ],
     ];

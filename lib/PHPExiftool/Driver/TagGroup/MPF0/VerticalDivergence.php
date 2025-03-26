@@ -28,13 +28,14 @@ class VerticalDivergence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Divergence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166362
+             * line : 113117
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalDivergence extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:VerticalDivergence',
             'desc' => [
+                'en' => 'Vertical Divergence',
             ],
         ],
     ];

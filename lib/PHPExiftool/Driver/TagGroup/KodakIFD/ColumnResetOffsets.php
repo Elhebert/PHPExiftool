@@ -28,13 +28,14 @@ class ColumnResetOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Column Reset Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156152
+             * line : 107363
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColumnResetOffsets extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ColumnResetOffsets',
             'desc' => [
+                'en' => 'Column Reset Offsets',
             ],
         ],
     ];

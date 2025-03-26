@@ -28,13 +28,14 @@ class Subsystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subsystem',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108902
+             * line : 80511
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subsystem extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:Subsystem',
             'desc' => [
+                'en' => 'Subsystem',
             ],
         ],
     ];

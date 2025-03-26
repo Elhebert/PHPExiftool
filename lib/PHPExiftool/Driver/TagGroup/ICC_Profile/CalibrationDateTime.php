@@ -28,13 +28,14 @@ class CalibrationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calibration Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146216
+             * line : 101664
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalibrationDateTime extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:CalibrationDateTime',
             'desc' => [
+                'en' => 'Calibration Date Time',
             ],
         ],
     ];

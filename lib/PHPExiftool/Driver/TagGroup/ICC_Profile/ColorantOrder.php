@@ -28,13 +28,14 @@ class ColorantOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorant Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146251
+             * line : 101685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorantOrder extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ColorantOrder',
             'desc' => [
+                'en' => 'Colorant Order',
             ],
         ],
     ];

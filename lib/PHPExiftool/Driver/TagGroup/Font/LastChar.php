@@ -28,13 +28,14 @@ class LastChar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Char',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128091
+             * line : 88885
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastChar extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:LastChar',
             'desc' => [
+                'en' => 'Last Char',
             ],
         ],
     ];

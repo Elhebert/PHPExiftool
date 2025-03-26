@@ -28,13 +28,14 @@ class TimepointValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timepoint Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169417
+             * line : 115821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimepointValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimepointValue',
             'desc' => [
+                'en' => 'Timepoint Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TotalGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96221
+             * line : 69634
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalGain extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalGain',
             'desc' => [
+                'en' => 'Total Gain',
             ],
         ],
     ];

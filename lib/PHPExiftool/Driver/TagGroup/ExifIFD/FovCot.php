@@ -28,13 +28,14 @@ class FovCot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fov Cot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112945
+             * line : 82266
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FovCot extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FovCot',
             'desc' => [
+                'en' => 'Fov Cot',
             ],
         ],
     ];

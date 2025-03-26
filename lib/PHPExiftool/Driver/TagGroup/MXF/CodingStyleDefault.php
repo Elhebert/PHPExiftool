@@ -28,13 +28,14 @@ class CodingStyleDefault extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding Style Default',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172250
+             * line : 118417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingStyleDefault extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodingStyleDefault',
             'desc' => [
+                'en' => 'Coding Style Default',
             ],
         ],
     ];

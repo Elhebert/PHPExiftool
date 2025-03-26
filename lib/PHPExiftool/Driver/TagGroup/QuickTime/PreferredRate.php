@@ -28,13 +28,14 @@ class PreferredRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preferred Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324129
+             * line : 229023
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreferredRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:PreferredRate',
             'desc' => [
+                'en' => 'Preferred Rate',
             ],
         ],
     ];

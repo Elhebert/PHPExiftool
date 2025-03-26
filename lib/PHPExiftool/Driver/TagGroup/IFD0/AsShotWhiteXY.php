@@ -28,13 +28,14 @@ class AsShotWhiteXY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'As Shot White XY',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119117
+             * line : 84174
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class AsShotWhiteXY extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:AsShotWhiteXY',
             'desc' => [
+                'en' => 'As Shot White XY',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SVGVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SVG Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::SVG
-             * line : 397549
+             * line : 281475
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SVGVersion extends AbstractTagGroup
              */
             'id' => 'XMP::SVG.SVG:SVGVersion',
             'desc' => [
+                'en' => 'SVG Version',
             ],
         ],
     ];

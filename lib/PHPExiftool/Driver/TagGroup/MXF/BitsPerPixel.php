@@ -28,13 +28,14 @@ class BitsPerPixel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167919
+             * line : 114443
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BitsPerPixel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BitsPerPixel',
             'desc' => [
+                'en' => 'Bits Per Pixel',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169051
+             * line : 115499
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BitsPerPixel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BitsPerPixel',
             'desc' => [
+                'en' => 'Bits Per Pixel',
             ],
         ],
     ];

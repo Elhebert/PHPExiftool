@@ -28,13 +28,14 @@ class SaturationRenderingIntentGamut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Saturation Rendering Intent Gamut',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146594
+             * line : 101879
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaturationRenderingIntentGamut extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:SaturationRenderingIntentGamut',
             'desc' => [
+                'en' => 'Saturation Rendering Intent Gamut',
             ],
         ],
     ];

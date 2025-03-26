@@ -28,13 +28,14 @@ class Date extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159503
+             * line : 109423
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Date extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:Date',
             'desc' => [
+                'en' => 'Date',
             ],
         ],
     ];

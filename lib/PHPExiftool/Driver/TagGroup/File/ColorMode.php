@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263983
+             * line : 182526
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         1 => [
             /**
              * table_name : PGF::Main
-             * line : 264540
+             * line : 182828
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

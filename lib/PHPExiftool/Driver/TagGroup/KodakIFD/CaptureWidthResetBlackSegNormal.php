@@ -28,13 +28,14 @@ class CaptureWidthResetBlackSegNormal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Width Reset Black Seg Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157239
+             * line : 108431
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureWidthResetBlackSegNormal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureWidthResetBlackSegNormal',
             'desc' => [
+                'en' => 'Capture Width Reset Black Seg Normal',
             ],
         ],
     ];

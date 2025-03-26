@@ -28,13 +28,14 @@ class ERIMMNonLinearitySpline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ERIMM Non Linearity Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156978
+             * line : 108182
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ERIMMNonLinearitySpline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ERIMMNonLinearitySpline',
             'desc' => [
+                'en' => 'ERIMM Non Linearity Spline',
             ],
         ],
     ];

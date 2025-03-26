@@ -28,13 +28,14 @@ class LensMaker extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Maker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176486
+             * line : 121440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensMaker extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LensMaker',
             'desc' => [
+                'en' => 'Lens Maker',
             ],
         ],
     ];

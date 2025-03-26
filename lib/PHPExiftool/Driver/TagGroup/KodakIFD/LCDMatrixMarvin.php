@@ -28,13 +28,14 @@ class LCDMatrixMarvin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LCD Matrix Marvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156675
+             * line : 107879
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class LCDMatrixMarvin extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDMatrixMarvin',
             'desc' => [
+                'en' => 'LCD Matrix Marvin',
             ],
         ],
     ];

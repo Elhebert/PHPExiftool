@@ -28,13 +28,14 @@ class ColorBalanceVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Balance Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceB
-             * line : 192016
+             * line : 130147
              * type : undef
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class ColorBalanceVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceB.Nikon:ColorBalanceVersion',
             'desc' => [
+                'en' => 'Color Balance Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ColorBalanceC
-             * line : 192085
+             * line : 130178
              * type : undef
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class ColorBalanceVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceC.Nikon:ColorBalanceVersion',
             'desc' => [
+                'en' => 'Color Balance Version',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ColorBalanceUnknown
-             * line : 192183
+             * line : 130221
              * type : undef
              * writable : true
              * count : 4
@@ -68,6 +71,7 @@ class ColorBalanceVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceUnknown.Nikon:ColorBalanceVersion',
             'desc' => [
+                'en' => 'Color Balance Version',
             ],
         ],
     ];

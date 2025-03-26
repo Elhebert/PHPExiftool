@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 333991
+             * line : 234141
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335471
+             * line : 235439
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

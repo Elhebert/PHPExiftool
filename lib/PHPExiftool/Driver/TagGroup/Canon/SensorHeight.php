@@ -28,13 +28,14 @@ class SensorHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::SensorInfo
-             * line : 70064
+             * line : 52601
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'Canon::SensorInfo.Canon:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
     ];

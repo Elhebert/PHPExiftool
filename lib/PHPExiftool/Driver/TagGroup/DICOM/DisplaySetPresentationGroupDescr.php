@@ -28,13 +28,14 @@ class DisplaySetPresentationGroupDescr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Set Presentation Group Descr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101589
+             * line : 74733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplaySetPresentationGroupDescr extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplaySetPresentationGroupDescr',
             'desc' => [
+                'en' => 'Display Set Presentation Group Descr',
             ],
         ],
     ];

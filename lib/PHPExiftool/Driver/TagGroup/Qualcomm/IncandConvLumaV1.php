@@ -28,13 +28,14 @@ class IncandConvLumaV1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Incand Conv Luma V1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307458
+             * line : 213956
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncandConvLumaV1 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:IncandConvLumaV1',
             'desc' => [
+                'en' => 'Incand Conv Luma V1',
             ],
         ],
     ];

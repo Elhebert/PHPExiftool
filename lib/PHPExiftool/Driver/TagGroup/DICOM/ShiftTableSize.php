@@ -28,13 +28,14 @@ class ShiftTableSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shift Table Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101971
+             * line : 75111
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShiftTableSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShiftTableSize',
             'desc' => [
+                'en' => 'Shift Table Size',
             ],
         ],
     ];

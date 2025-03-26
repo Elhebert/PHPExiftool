@@ -28,13 +28,14 @@ class FirstLineTransferTiming extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Line Transfer Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155051
+             * line : 106301
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstLineTransferTiming extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FirstLineTransferTiming',
             'desc' => [
+                'en' => 'First Line Transfer Timing',
             ],
         ],
     ];

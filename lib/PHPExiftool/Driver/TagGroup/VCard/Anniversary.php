@@ -28,13 +28,14 @@ class Anniversary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anniversary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395110
+             * line : 279860
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Anniversary extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Anniversary',
             'desc' => [
+                'en' => 'Anniversary',
             ],
         ],
     ];

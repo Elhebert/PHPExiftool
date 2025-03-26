@@ -28,13 +28,14 @@ class GPSMapDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Map Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393799
+             * line : 279069
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
     ];

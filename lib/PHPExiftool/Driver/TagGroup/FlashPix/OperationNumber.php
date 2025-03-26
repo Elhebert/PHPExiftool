@@ -28,13 +28,14 @@ class OperationNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operation Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127364
+             * line : 88396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperationNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:OperationNumber',
             'desc' => [
+                'en' => 'Operation Number',
             ],
         ],
     ];

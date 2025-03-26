@@ -28,13 +28,14 @@ class AECMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306179
+             * line : 212684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECMode extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECMode',
             'desc' => [
+                'en' => 'AEC Mode',
             ],
         ],
     ];

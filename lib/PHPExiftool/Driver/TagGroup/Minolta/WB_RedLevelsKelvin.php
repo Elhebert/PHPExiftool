@@ -28,13 +28,14 @@ class WB_RedLevelsKelvin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Red Levels Kelvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185560
+             * line : 125883
              * type : int16u
              * writable : true
              * count : 75
@@ -42,6 +43,7 @@ class WB_RedLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RedLevelsKelvin',
             'desc' => [
+                'en' => 'WB Red Levels Kelvin',
             ],
         ],
     ];

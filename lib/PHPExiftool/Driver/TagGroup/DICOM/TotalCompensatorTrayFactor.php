@@ -28,13 +28,14 @@ class TotalCompensatorTrayFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Compensator Tray Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103233
+             * line : 76329
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalCompensatorTrayFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalCompensatorTrayFactor',
             'desc' => [
+                'en' => 'Total Compensator Tray Factor',
             ],
         ],
     ];

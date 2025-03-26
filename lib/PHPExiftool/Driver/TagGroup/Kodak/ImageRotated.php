@@ -28,13 +28,14 @@ class ImageRotated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Rotated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type5
-             * line : 160335
+             * line : 109694
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageRotated extends AbstractTagGroup
              */
             'id' => 'Kodak::Type5.Kodak:ImageRotated',
             'desc' => [
+                'en' => 'Image Rotated',
             ],
         ],
     ];

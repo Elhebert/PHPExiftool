@@ -28,13 +28,14 @@ class AEAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282673
+             * line : 196267
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AEAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEAperture',
             'desc' => [
+                'en' => 'AE Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283031
+             * line : 196476
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AEAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:AEAperture',
             'desc' => [
+                'en' => 'AE Aperture',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::AEInfo3
-             * line : 283276
+             * line : 196587
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AEAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo3.Pentax:AEAperture',
             'desc' => [
+                'en' => 'AE Aperture',
             ],
         ],
     ];

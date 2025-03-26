@@ -28,13 +28,14 @@ class EarliestEpochOrLowestSeries extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earliest Epoch Or Lowest Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106169
+             * line : 78524
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarliestEpochOrLowestSeries extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EarliestEpochOrLowestSeries',
             'desc' => [
+                'en' => 'Earliest Epoch Or Lowest Series',
             ],
         ],
     ];

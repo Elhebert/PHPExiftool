@@ -28,13 +28,14 @@ class AudioCodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124001
+             * line : 86687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodecID extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:AudioCodecID',
             'desc' => [
+                'en' => 'Audio Codec ID',
             ],
         ],
     ];

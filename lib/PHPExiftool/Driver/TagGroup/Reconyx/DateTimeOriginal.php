@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330633
+             * line : 232642
              * type : int16u
              * writable : true
              * count : 6
@@ -42,12 +43,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330868
+             * line : 232751
              * type : int8u
              * writable : true
              * count : 7
@@ -55,12 +57,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331093
+             * line : 232871
              * type : int16u
              * writable : true
              * count : 6
@@ -68,6 +71,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

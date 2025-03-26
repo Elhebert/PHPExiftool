@@ -28,13 +28,14 @@ class ChartRasterEdition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Raster Edition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139138
+             * line : 97384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartRasterEdition extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartRasterEdition',
             'desc' => [
+                'en' => 'Chart Raster Edition',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KeyText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167389
+             * line : 114009
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyText extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyText',
             'desc' => [
+                'en' => 'Key Text',
             ],
         ],
     ];

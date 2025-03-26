@@ -28,13 +28,14 @@ class SpaceUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Space Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176135
+             * line : 121206
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpaceUsed extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SpaceUsed',
             'desc' => [
+                'en' => 'Space Used',
             ],
         ],
     ];

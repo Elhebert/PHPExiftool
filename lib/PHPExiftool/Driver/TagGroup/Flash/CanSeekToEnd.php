@@ -28,13 +28,14 @@ class CanSeekToEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Can Seek To End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124029
+             * line : 86708
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CanSeekToEnd extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:CanSeekToEnd',
             'desc' => [
+                'en' => 'Can Seek To End',
             ],
         ],
     ];

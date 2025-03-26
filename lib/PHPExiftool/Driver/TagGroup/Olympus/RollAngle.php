@@ -28,13 +28,14 @@ class RollAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 253005
+             * line : 174398
              * type : int16s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
     ];

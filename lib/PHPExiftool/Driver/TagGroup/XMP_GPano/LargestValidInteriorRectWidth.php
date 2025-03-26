@@ -28,13 +28,14 @@ class LargestValidInteriorRectWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Largest Valid Interior Rect Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397154
+             * line : 281249
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LargestValidInteriorRectWidth extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:LargestValidInteriorRectWidth',
             'desc' => [
+                'en' => 'Largest Valid Interior Rect Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DustDeleteApplied extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dust Delete Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DustInfo
-             * line : 81983
+             * line : 60079
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DustDeleteApplied extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DustInfo.CanonVRD:DustDeleteApplied',
             'desc' => [
+                'en' => 'Dust Delete Applied',
             ],
         ],
     ];

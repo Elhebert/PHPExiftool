@@ -28,13 +28,14 @@ class DirectoryRecordSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Directory Record Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94607
+             * line : 68107
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DirectoryRecordSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DirectoryRecordSequence',
             'desc' => [
+                'en' => 'Directory Record Sequence',
             ],
         ],
     ];

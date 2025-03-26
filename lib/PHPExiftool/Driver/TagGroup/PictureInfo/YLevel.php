@@ -28,13 +28,14 @@ class YLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 860
+             * line : 310
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YLevel extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:YLevel',
             'desc' => [
+                'en' => 'Y Level',
             ],
         ],
     ];

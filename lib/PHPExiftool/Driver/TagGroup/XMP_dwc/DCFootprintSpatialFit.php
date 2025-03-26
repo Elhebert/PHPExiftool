@@ -28,13 +28,14 @@ class DCFootprintSpatialFit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Footprint Spatial Fit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106890
+             * line : 79064
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCFootprintSpatialFit extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCFootprintSpatialFit',
             'desc' => [
+                'en' => 'DC Footprint Spatial Fit',
             ],
         ],
     ];

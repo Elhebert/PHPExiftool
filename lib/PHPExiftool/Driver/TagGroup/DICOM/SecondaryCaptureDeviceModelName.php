@@ -28,13 +28,14 @@ class SecondaryCaptureDeviceModelName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Capture Device Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95607
+             * line : 69061
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryCaptureDeviceModelName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryCaptureDeviceModelName',
             'desc' => [
+                'en' => 'Secondary Capture Device Model Name',
             ],
         ],
     ];

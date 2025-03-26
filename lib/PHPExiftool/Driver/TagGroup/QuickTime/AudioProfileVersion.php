@@ -28,13 +28,14 @@ class AudioProfileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Profile Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioProf
-             * line : 310371
+             * line : 216283
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioProfileVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioProf.QuickTime:AudioProfileVersion',
             'desc' => [
+                'en' => 'Audio Profile Version',
             ],
         ],
     ];

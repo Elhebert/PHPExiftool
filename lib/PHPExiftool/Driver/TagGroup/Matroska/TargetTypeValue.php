@@ -28,13 +28,14 @@ class TargetTypeValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Type Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173814
+             * line : 119713
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetTypeValue extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TargetTypeValue',
             'desc' => [
+                'en' => 'Target Type Value',
             ],
         ],
     ];

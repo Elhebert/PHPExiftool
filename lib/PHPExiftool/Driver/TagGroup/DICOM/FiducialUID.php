@@ -28,13 +28,14 @@ class FiducialUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fiducial UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101393
+             * line : 74541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FiducialUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FiducialUID',
             'desc' => [
+                'en' => 'Fiducial UID',
             ],
         ],
     ];

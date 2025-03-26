@@ -28,13 +28,14 @@ class ReferenceDisplaySets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Display Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101607
+             * line : 74751
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceDisplaySets extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceDisplaySets',
             'desc' => [
+                'en' => 'Reference Display Sets',
             ],
         ],
     ];

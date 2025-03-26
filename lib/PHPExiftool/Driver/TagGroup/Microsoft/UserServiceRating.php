@@ -28,13 +28,14 @@ class UserServiceRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Service Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174955
+             * line : 120467
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserServiceRating extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:UserServiceRating',
             'desc' => [
+                'en' => 'User Service Rating',
             ],
         ],
     ];

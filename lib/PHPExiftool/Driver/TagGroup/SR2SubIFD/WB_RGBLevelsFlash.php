@@ -28,13 +28,14 @@ class WB_RGBLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361742
+             * line : 251895
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WB_RGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGB Levels Flash',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361824
+             * line : 251928
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WB_RGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGB Levels Flash',
             ],
         ],
     ];

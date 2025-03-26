@@ -28,13 +28,14 @@ class MonitorSAR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Monitor SAR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97578
+             * line : 70963
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MonitorSAR extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MonitorSAR',
             'desc' => [
+                'en' => 'Monitor SAR',
             ],
         ],
     ];

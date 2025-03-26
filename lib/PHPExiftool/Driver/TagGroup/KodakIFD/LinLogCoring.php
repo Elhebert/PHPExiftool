@@ -28,13 +28,14 @@ class LinLogCoring extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lin Log Coring',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155328
+             * line : 106541
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LinLogCoring extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LinLogCoring',
             'desc' => [
+                'en' => 'Lin Log Coring',
             ],
         ],
     ];

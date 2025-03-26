@@ -28,13 +28,14 @@ class PhototimerSetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phototimer Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96505
+             * line : 69910
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhototimerSetting extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhototimerSetting',
             'desc' => [
+                'en' => 'Phototimer Setting',
             ],
         ],
     ];

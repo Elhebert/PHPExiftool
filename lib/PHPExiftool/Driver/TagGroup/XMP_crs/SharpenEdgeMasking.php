@@ -28,13 +28,14 @@ class SharpenEdgeMasking extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpen Edge Masking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404358
+             * line : 287441
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpenEdgeMasking extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:SharpenEdgeMasking',
             'desc' => [
+                'en' => 'Sharpen Edge Masking',
             ],
         ],
     ];

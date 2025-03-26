@@ -28,13 +28,14 @@ class ColorCalibrationMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Calibration Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151595
+             * line : 104503
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorCalibrationMatrix extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ColorCalibrationMatrix',
             'desc' => [
+                'en' => 'Color Calibration Matrix',
             ],
         ],
     ];

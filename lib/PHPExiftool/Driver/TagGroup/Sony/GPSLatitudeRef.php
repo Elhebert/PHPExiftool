@@ -28,13 +28,14 @@ class GPSLatitudeRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Latitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393524
+             * line : 279016
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSLatitudeRef extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSLatitudeRef',
             'desc' => [
+                'en' => 'GPS Latitude Ref',
             ],
         ],
     ];

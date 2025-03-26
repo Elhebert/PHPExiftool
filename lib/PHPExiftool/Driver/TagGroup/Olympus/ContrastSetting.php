@@ -28,13 +28,14 @@ class ContrastSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251228
+             * line : 173274
              * type : int16s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class ContrastSetting extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ContrastSetting',
             'desc' => [
+                'en' => 'Contrast Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261208
+             * line : 180302
              * type : int16s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class ContrastSetting extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:ContrastSetting',
             'desc' => [
+                'en' => 'Contrast Setting',
             ],
         ],
     ];

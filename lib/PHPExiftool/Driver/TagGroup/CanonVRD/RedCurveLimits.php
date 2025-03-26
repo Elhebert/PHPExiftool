@@ -28,13 +28,14 @@ class RedCurveLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Curve Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82460
+             * line : 60397
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class RedCurveLimits extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RedCurveLimits',
             'desc' => [
+                'en' => 'Red Curve Limits',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Units extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 397042
+             * line : 281162
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Units extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Units',
             'desc' => [
+                'en' => 'Units',
             ],
         ],
     ];

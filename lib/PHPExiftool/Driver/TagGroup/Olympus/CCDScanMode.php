@@ -28,13 +28,14 @@ class CCDScanMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CCD Scan Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259128
+             * line : 178800
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CCDScanMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:CCDScanMode',
             'desc' => [
+                'en' => 'CCD Scan Mode',
             ],
         ],
     ];

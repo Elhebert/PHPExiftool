@@ -28,13 +28,14 @@ class GPSMapDatum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Map Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406730
+             * line : 288194
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
     ];

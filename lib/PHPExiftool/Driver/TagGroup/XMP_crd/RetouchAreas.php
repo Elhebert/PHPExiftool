@@ -28,13 +28,14 @@ class RetouchAreas extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Areas',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400651
+             * line : 284132
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreas extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RetouchAreas',
             'desc' => [
+                'en' => 'Retouch Areas',
             ],
         ],
     ];

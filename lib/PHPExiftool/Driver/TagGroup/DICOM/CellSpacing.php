@@ -28,13 +28,14 @@ class CellSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cell Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97407
+             * line : 70795
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CellSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CellSpacing',
             'desc' => [
+                'en' => 'Cell Spacing',
             ],
         ],
     ];

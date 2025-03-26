@@ -28,13 +28,14 @@ class AITargetResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI Target Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305919
+             * line : 212560
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AITargetResolution extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AITargetResolution',
             'desc' => [
+                'en' => 'AI Target Resolution',
             ],
         ],
     ];

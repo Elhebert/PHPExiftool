@@ -28,13 +28,14 @@ class ASIN2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASIN2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273651
+             * line : 190839
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASIN2 extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:ASIN2',
             'desc' => [
+                'en' => 'ASIN2',
             ],
         ],
     ];

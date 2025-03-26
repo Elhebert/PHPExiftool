@@ -28,13 +28,14 @@ class RadioBand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radio Band',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174755
+             * line : 120305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadioBand extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RadioBand',
             'desc' => [
+                'en' => 'Radio Band',
             ],
         ],
     ];

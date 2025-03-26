@@ -28,13 +28,14 @@ class DOF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth Of Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90315
+             * line : 65152
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DOF extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DOF',
             'desc' => [
+                'en' => 'Depth Of Field',
             ],
         ],
     ];

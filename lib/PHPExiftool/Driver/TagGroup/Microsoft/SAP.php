@@ -28,13 +28,14 @@ class SAP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SAP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176036
+             * line : 121116
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SAP extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SAP',
             'desc' => [
+                'en' => 'SAP',
             ],
         ],
     ];

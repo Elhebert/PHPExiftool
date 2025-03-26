@@ -28,13 +28,14 @@ class EncodeTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encode Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396308
+             * line : 280576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodeTime extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:EncodeTime',
             'desc' => [
+                'en' => 'Encode Time',
             ],
         ],
     ];

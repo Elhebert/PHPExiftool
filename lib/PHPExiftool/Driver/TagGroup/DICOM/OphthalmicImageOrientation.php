@@ -28,13 +28,14 @@ class OphthalmicImageOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ophthalmic Image Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98413
+             * line : 71746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OphthalmicImageOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OphthalmicImageOrientation',
             'desc' => [
+                'en' => 'Ophthalmic Image Orientation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WBAdjRedBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Red Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::WBAdjData
-             * line : 211578
+             * line : 142214
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBAdjRedBalance extends AbstractTagGroup
              */
             'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjRedBalance',
             'desc' => [
+                'en' => 'WB Adj Red Balance',
             ],
         ],
     ];

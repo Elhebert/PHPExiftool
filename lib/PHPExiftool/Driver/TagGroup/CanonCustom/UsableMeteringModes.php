@@ -28,13 +28,14 @@ class UsableMeteringModes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Usable Metering Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72710
+             * line : 53966
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class UsableMeteringModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:UsableMeteringModes',
             'desc' => [
+                'en' => 'Usable Metering Modes',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72716
+             * line : 53969
              * type : int32s
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class UsableMeteringModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:UsableMeteringModes',
             'desc' => [
+                'en' => 'Usable Metering Modes',
             ],
         ],
     ];

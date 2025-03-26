@@ -28,13 +28,14 @@ class TimecodeModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168582
+             * line : 115073
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeModifyDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeModifyDate',
             'desc' => [
+                'en' => 'Timecode Modify Date',
             ],
         ],
     ];

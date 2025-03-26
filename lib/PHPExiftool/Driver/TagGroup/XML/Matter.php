@@ -28,13 +28,14 @@ class Matter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249184
+             * line : 171804
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Matter extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Matter',
             'desc' => [
+                'en' => 'Matter',
             ],
         ],
     ];

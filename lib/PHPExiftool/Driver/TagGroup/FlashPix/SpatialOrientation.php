@@ -28,13 +28,14 @@ class SpatialOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spatial Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127376
+             * line : 88408
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpatialOrientation extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:SpatialOrientation',
             'desc' => [
+                'en' => 'Spatial Orientation',
             ],
         ],
     ];

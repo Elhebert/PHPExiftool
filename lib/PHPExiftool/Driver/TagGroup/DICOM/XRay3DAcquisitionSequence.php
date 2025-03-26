@@ -28,13 +28,14 @@ class XRay3DAcquisitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray 3D Acquisition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97240
+             * line : 70636
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRay3DAcquisitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRay3DAcquisitionSequence',
             'desc' => [
+                'en' => 'X Ray 3D Acquisition Sequence',
             ],
         ],
     ];

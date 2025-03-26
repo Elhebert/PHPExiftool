@@ -28,13 +28,14 @@ class UnknownSerial4 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown Serial 4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::SerialNums
-             * line : 123705
+             * line : 86505
              * type : string
              * writable : false
              * count : 11
@@ -42,6 +43,7 @@ class UnknownSerial4 extends AbstractTagGroup
              */
             'id' => 'FLIR::SerialNums.FLIR:UnknownSerial4',
             'desc' => [
+                'en' => 'Unknown Serial 4',
             ],
         ],
     ];

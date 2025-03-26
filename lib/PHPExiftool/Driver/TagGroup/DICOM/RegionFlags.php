@@ -28,13 +28,14 @@ class RegionFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96255
+             * line : 69667
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionFlags extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegionFlags',
             'desc' => [
+                'en' => 'Region Flags',
             ],
         ],
     ];

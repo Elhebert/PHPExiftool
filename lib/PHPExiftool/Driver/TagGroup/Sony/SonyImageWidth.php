@@ -28,13 +28,14 @@ class SonyImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361300
+             * line : 251730
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SonyImageWidth extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:SonyImageWidth',
             'desc' => [
+                'en' => 'Sony Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362029
+             * line : 252078
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SonyImageWidth extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:SonyImageWidth',
             'desc' => [
+                'en' => 'Sony Image Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Routing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Routing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306062
+             * line : 212610
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Routing extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:Routing',
             'desc' => [
+                'en' => 'Routing',
             ],
         ],
     ];

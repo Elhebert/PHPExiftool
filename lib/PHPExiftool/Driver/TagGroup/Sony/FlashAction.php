@@ -28,13 +28,14 @@ class FlashAction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Action',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347917
+             * line : 243506
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashAction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FlashAction',
             'desc' => [
+                'en' => 'Flash Action',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349309
+             * line : 244104
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashAction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FlashAction',
             'desc' => [
+                'en' => 'Flash Action',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 354449
+             * line : 247110
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashAction extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FlashAction',
             'desc' => [
+                'en' => 'Flash Action',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361001
+             * line : 251513
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashAction extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashAction',
             'desc' => [
+                'en' => 'Flash Action',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361036
+             * line : 251541
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashAction extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashAction',
             'desc' => [
+                'en' => 'Flash Action',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361092
+             * line : 251586
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class FlashAction extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashAction',
             'desc' => [
+                'en' => 'Flash Action',
             ],
         ],
     ];

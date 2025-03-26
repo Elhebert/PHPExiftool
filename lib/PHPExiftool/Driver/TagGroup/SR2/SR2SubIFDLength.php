@@ -28,13 +28,14 @@ class SR2SubIFDLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SR2 Sub IFD Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2Private
-             * line : 361674
+             * line : 251858
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SR2SubIFDLength extends AbstractTagGroup
              */
             'id' => 'Sony::SR2Private.SR2:SR2SubIFDLength',
             'desc' => [
+                'en' => 'SR2 Sub IFD Length',
             ],
         ],
     ];

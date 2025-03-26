@@ -28,13 +28,14 @@ class HighSpeedSync extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High Speed Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180256
+             * line : 122940
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighSpeedSync extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:HighSpeedSync',
             'desc' => [
+                'en' => 'High Speed Sync',
             ],
         ],
     ];

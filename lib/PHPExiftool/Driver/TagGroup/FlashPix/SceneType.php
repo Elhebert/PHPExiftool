@@ -28,13 +28,14 @@ class SceneType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124900
+             * line : 87265
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneType extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SceneType',
             'desc' => [
+                'en' => 'Scene Type',
             ],
         ],
     ];

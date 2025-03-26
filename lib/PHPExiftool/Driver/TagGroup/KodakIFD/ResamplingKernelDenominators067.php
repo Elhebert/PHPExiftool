@@ -28,13 +28,14 @@ class ResamplingKernelDenominators067 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resampling Kernel Denominators 067',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156566
+             * line : 107770
              * type : int16u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ResamplingKernelDenominators067 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ResamplingKernelDenominators067',
             'desc' => [
+                'en' => 'Resampling Kernel Denominators 067',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InterpretationApprovalTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpretation Approval Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104110
+             * line : 77196
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretationApprovalTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterpretationApprovalTime',
             'desc' => [
+                'en' => 'Interpretation Approval Time',
             ],
         ],
     ];

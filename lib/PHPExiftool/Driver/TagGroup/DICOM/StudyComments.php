@@ -28,13 +28,14 @@ class StudyComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Study Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99377
+             * line : 72594
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StudyComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StudyComments',
             'desc' => [
+                'en' => 'Study Comments',
             ],
         ],
     ];

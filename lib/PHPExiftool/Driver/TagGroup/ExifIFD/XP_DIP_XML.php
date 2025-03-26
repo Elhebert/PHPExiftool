@@ -28,13 +28,14 @@ class XP_DIP_XML extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XP DIP XML',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112707
+             * line : 82123
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XP_DIP_XML extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:XP_DIP_XML',
             'desc' => [
+                'en' => 'XP DIP XML',
             ],
         ],
     ];

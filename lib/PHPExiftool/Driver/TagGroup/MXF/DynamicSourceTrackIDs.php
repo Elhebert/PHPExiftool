@@ -28,13 +28,14 @@ class DynamicSourceTrackIDs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dynamic Source Track I Ds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172099
+             * line : 118267
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DynamicSourceTrackIDs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DynamicSourceTrackIDs',
             'desc' => [
+                'en' => 'Dynamic Source Track I Ds',
             ],
         ],
     ];

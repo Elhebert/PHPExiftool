@@ -28,13 +28,14 @@ class OversamplingPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oversampling Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96581
+             * line : 69985
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OversamplingPhase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OversamplingPhase',
             'desc' => [
+                'en' => 'Oversampling Phase',
             ],
         ],
     ];

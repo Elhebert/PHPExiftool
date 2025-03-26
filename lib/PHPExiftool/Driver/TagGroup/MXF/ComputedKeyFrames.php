@@ -28,13 +28,14 @@ class ComputedKeyFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Computed Key Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167752
+             * line : 114329
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComputedKeyFrames extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedKeyFrames',
             'desc' => [
+                'en' => 'Computed Key Frames',
             ],
         ],
     ];

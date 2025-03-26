@@ -28,13 +28,14 @@ class VideoBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174958
+             * line : 120470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoBitrate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:VideoBitrate',
             'desc' => [
+                'en' => 'Video Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PanOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pan Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166269
+             * line : 113056
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PanOrientation extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:PanOrientation',
             'desc' => [
+                'en' => 'Pan Orientation',
             ],
         ],
     ];

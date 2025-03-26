@@ -28,13 +28,14 @@ class IncludedFileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Included File ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Main
-             * line : 107234
+             * line : 79236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncludedFileID extends AbstractTagGroup
              */
             'id' => 'DjVu::Main.DjVu:IncludedFileID',
             'desc' => [
+                'en' => 'Included File ID',
             ],
         ],
     ];

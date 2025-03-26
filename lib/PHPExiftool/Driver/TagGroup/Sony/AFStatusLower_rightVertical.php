@@ -28,13 +28,14 @@ class AFStatusLower_rightVertical extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Lower-right Vertical',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus19
-             * line : 343912
+             * line : 240844
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusLower_rightVertical extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus19.Sony:AFStatusLower-rightVertical',
             'desc' => [
+                'en' => 'AF Status Lower-right Vertical',
             ],
         ],
     ];

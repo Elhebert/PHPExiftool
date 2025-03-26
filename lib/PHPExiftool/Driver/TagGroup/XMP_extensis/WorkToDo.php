@@ -28,13 +28,14 @@ class WorkToDo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Work To Do',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::extensis
-             * line : 408791
+             * line : 288723
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WorkToDo extends AbstractTagGroup
              */
             'id' => 'XMP::extensis.XMP-extensis:WorkToDo',
             'desc' => [
+                'en' => 'Work To Do',
             ],
         ],
     ];

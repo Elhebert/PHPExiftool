@@ -28,13 +28,14 @@ class AFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 340904
+             * line : 238416
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341016
+             * line : 238475
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341860
+             * line : 239130
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345135
+             * line : 241972
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345718
+             * line : 242389
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346111
+             * line : 242615
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346392
+             * line : 242767
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
     ];

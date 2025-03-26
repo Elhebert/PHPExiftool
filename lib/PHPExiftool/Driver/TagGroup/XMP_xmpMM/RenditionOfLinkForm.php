@@ -28,13 +28,14 @@ class RenditionOfLinkForm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Link Form',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414224
+             * line : 292244
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfLinkForm extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfLinkForm',
             'desc' => [
+                'en' => 'Rendition Of Link Form',
             ],
         ],
     ];

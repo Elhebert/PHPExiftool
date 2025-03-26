@@ -28,13 +28,14 @@ class MaxBlockAdditionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Block Addition ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173735
+             * line : 119637
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxBlockAdditionID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:MaxBlockAdditionID',
             'desc' => [
+                'en' => 'Max Block Addition ID',
             ],
         ],
     ];

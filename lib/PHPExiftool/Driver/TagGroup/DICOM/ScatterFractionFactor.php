@@ -28,13 +28,14 @@ class ScatterFractionFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scatter Fraction Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101028
+             * line : 74178
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScatterFractionFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScatterFractionFactor',
             'desc' => [
+                'en' => 'Scatter Fraction Factor',
             ],
         ],
     ];

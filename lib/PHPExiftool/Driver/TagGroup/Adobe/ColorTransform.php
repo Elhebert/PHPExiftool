@@ -28,13 +28,14 @@ class ColorTransform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Adobe
-             * line : 152405
+             * line : 104887
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorTransform extends AbstractTagGroup
              */
             'id' => 'JPEG::Adobe.Adobe:ColorTransform',
             'desc' => [
+                'en' => 'Color Transform',
             ],
         ],
     ];

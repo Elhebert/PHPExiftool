@@ -28,13 +28,14 @@ class SelfTimerMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113861
+             * line : 82598
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfTimerMode extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SelfTimerMode',
             'desc' => [
+                'en' => 'Self Timer Mode',
             ],
         ],
     ];

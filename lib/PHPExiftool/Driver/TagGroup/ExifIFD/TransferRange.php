@@ -28,13 +28,14 @@ class TransferRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transfer Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111986
+             * line : 81843
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransferRange extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TransferRange',
             'desc' => [
+                'en' => 'Transfer Range',
             ],
         ],
     ];

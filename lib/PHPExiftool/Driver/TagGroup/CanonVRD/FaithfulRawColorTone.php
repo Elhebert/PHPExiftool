@@ -28,13 +28,14 @@ class FaithfulRawColorTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faithful Raw Color Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82899
+             * line : 60735
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaithfulRawColorTone extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:FaithfulRawColorTone',
             'desc' => [
+                'en' => 'Faithful Raw Color Tone',
             ],
         ],
     ];

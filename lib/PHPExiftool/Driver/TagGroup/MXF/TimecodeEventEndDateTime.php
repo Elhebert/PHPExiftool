@@ -28,13 +28,14 @@ class TimecodeEventEndDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Event End Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168540
+             * line : 115031
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeEventEndDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeEventEndDateTime',
             'desc' => [
+                'en' => 'Timecode Event End Date Time',
             ],
         ],
     ];

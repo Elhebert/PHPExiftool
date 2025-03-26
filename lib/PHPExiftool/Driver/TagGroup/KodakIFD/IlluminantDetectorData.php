@@ -28,13 +28,14 @@ class IlluminantDetectorData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Illuminant Detector Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154895
+             * line : 106187
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IlluminantDetectorData extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IlluminantDetectorData',
             'desc' => [
+                'en' => 'Illuminant Detector Data',
             ],
         ],
     ];

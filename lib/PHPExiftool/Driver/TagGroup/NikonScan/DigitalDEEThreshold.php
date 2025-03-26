@@ -28,13 +28,14 @@ class DigitalDEEThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital DEE Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205283
+             * line : 137975
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalDEEThreshold extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:DigitalDEEThreshold',
             'desc' => [
+                'en' => 'Digital DEE Threshold',
             ],
         ],
     ];

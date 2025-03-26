@@ -28,13 +28,14 @@ class MaskSubArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Sub Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120759
+             * line : 84882
              * type : ?
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MaskSubArea extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:MaskSubArea',
             'desc' => [
+                'en' => 'Mask Sub Area',
             ],
         ],
     ];

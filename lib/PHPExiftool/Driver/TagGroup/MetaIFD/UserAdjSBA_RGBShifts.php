@@ -28,13 +28,14 @@ class UserAdjSBA_RGBShifts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Adj SBA RGB Shifts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158463
+             * line : 108943
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserAdjSBA_RGBShifts extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:UserAdjSBA_RGBShifts',
             'desc' => [
+                'en' => 'User Adj SBA RGB Shifts',
             ],
         ],
     ];

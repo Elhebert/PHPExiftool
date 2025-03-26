@@ -28,13 +28,14 @@ class AFPredictor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Predictor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AFInfo
-             * line : 283453
+             * line : 196697
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPredictor extends AbstractTagGroup
              */
             'id' => 'Pentax::AFInfo.Pentax:AFPredictor',
             'desc' => [
+                'en' => 'AF Predictor',
             ],
         ],
     ];

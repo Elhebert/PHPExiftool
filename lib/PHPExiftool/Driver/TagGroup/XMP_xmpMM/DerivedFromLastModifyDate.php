@@ -28,13 +28,14 @@ class DerivedFromLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413812
+             * line : 291843
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromLastModifyDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromLastModifyDate',
             'desc' => [
+                'en' => 'Derived From Last Modify Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ObjectDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122186
+             * line : 85578
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ObjectDistance extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:ObjectDistance',
             'desc' => [
+                'en' => 'Object Distance',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122590
+             * line : 85844
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ObjectDistance extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ObjectDistance',
             'desc' => [
+                'en' => 'Object Distance',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Params
-             * line : 123580
+             * line : 86384
              * type : float
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ObjectDistance extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:ObjectDistance',
             'desc' => [
+                'en' => 'Object Distance',
             ],
         ],
     ];

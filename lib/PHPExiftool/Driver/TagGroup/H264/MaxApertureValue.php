@@ -28,13 +28,14 @@ class MaxApertureValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 140618
+             * line : 98066
              * type : rational32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxApertureValue extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:MaxApertureValue',
             'desc' => [
+                'en' => 'Max Aperture Value',
             ],
         ],
     ];

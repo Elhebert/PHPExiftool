@@ -28,13 +28,14 @@ class CorporateEntity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Corporate Entity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410800
+             * line : 290079
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CorporateEntity extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:CorporateEntity',
             'desc' => [
+                'en' => 'Corporate Entity',
             ],
         ],
     ];

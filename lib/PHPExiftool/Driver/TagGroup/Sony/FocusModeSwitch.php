@@ -28,13 +28,14 @@ class FocusModeSwitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode Switch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347722
+             * line : 243431
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusModeSwitch extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FocusModeSwitch',
             'desc' => [
+                'en' => 'Focus Mode Switch',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompensatorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103236
+             * line : 76332
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorSequence',
             'desc' => [
+                'en' => 'Compensator Sequence',
             ],
         ],
     ];

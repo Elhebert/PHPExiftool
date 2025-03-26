@@ -28,13 +28,14 @@ class ArtworkSourceInventoryNo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork Source Inventory No',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409128
+             * line : 288943
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtworkSourceInventoryNo extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkSourceInventoryNo',
             'desc' => [
+                'en' => 'Artwork Source Inventory No',
             ],
         ],
     ];

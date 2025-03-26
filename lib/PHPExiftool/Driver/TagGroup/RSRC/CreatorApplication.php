@@ -28,13 +28,14 @@ class CreatorApplication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Application',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RSRC::Main
-             * line : 329087
+             * line : 231989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorApplication extends AbstractTagGroup
              */
             'id' => 'RSRC::Main.RSRC:CreatorApplication',
             'desc' => [
+                'en' => 'Creator Application',
             ],
         ],
     ];

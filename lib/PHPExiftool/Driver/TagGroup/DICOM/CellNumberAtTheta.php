@@ -28,13 +28,14 @@ class CellNumberAtTheta extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cell Number At Theta',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97404
+             * line : 70792
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CellNumberAtTheta extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CellNumberAtTheta',
             'desc' => [
+                'en' => 'Cell Number At Theta',
             ],
         ],
     ];

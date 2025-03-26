@@ -28,13 +28,14 @@ class PrimaryPositionerScanStartAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Positioner Scan Start Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97249
+             * line : 70645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryPositionerScanStartAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimaryPositionerScanStartAngle',
             'desc' => [
+                'en' => 'Primary Positioner Scan Start Angle',
             ],
         ],
     ];

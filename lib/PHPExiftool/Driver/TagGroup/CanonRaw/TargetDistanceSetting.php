@@ -28,13 +28,14 @@ class TargetDistanceSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Target Distance Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78851
+             * line : 57334
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TargetDistanceSetting extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:TargetDistanceSetting',
             'desc' => [
+                'en' => 'Target Distance Setting',
             ],
         ],
     ];

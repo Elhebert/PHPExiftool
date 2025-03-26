@@ -28,13 +28,14 @@ class AutoISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216726
+             * line : 145670
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoISO extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:AutoISO',
             'desc' => [
+                'en' => 'Auto ISO',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227961
+             * line : 153482
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoISO extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AutoISO',
             'desc' => [
+                'en' => 'Auto ISO',
             ],
         ],
     ];

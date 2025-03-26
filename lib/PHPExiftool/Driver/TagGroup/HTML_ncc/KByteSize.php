@@ -28,13 +28,14 @@ class KByteSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'K Byte Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142968
+             * line : 98731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KByteSize extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:KByteSize',
             'desc' => [
+                'en' => 'K Byte Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SATLocationR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SAT Location R',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97741
+             * line : 71122
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SATLocationR extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SATLocationR',
             'desc' => [
+                'en' => 'SAT Location R',
             ],
         ],
     ];

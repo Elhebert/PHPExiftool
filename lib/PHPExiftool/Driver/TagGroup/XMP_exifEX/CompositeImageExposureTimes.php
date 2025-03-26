@@ -28,13 +28,14 @@ class CompositeImageExposureTimes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composite Image Exposure Times',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408514
+             * line : 288577
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompositeImageExposureTimes extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:CompositeImageExposureTimes',
             'desc' => [
+                'en' => 'Composite Image Exposure Times',
             ],
         ],
     ];

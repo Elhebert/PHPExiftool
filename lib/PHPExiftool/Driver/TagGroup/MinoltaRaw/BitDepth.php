@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186802
+             * line : 126893
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PixelCorrectionOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Correction Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155554
+             * line : 106766
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelCorrectionOffset extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PixelCorrectionOffset',
             'desc' => [
+                'en' => 'Pixel Correction Offset',
             ],
         ],
     ];

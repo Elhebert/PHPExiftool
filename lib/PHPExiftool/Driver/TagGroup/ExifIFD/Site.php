@@ -28,13 +28,14 @@ class Site extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Site',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113188
+             * line : 82359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Site extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Site',
             'desc' => [
+                'en' => 'Site',
             ],
         ],
     ];

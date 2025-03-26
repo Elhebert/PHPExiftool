@@ -28,13 +28,14 @@ class LocationInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LocationInfo
-             * line : 196262
+             * line : 132755
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class LocationInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::LocationInfo.Nikon:LocationInfoVersion',
             'desc' => [
+                'en' => 'Location Info Version',
             ],
         ],
     ];

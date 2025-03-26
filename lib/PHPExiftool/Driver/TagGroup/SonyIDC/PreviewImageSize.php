@@ -28,13 +28,14 @@ class PreviewImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394442
+             * line : 279425
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class PreviewImageSize extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:PreviewImageSize',
             'desc' => [
+                'en' => 'Preview Image Size',
             ],
         ],
     ];

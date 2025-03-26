@@ -28,13 +28,14 @@ class LeafPositionBoundaries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leaf Position Boundaries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103152
+             * line : 76248
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeafPositionBoundaries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LeafPositionBoundaries',
             'desc' => [
+                'en' => 'Leaf Position Boundaries',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProgramShift extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Program Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196732
+             * line : 132869
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ProgramShift extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ProgramShift',
             'desc' => [
+                'en' => 'Program Shift',
             ],
         ],
     ];

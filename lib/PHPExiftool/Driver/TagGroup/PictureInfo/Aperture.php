@@ -28,13 +28,14 @@ class Aperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 510
+             * line : 216
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Aperture extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:Aperture',
             'desc' => [
+                'en' => 'Aperture',
             ],
         ],
     ];

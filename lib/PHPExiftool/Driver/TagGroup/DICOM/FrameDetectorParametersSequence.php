@@ -28,13 +28,14 @@ class FrameDetectorParametersSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Detector Parameters Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97170
+             * line : 70567
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameDetectorParametersSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameDetectorParametersSequence',
             'desc' => [
+                'en' => 'Frame Detector Parameters Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KeepExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keep Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242547
+             * line : 165618
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class KeepExposure extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:KeepExposure',
             'desc' => [
+                'en' => 'Keep Exposure',
             ],
         ],
     ];

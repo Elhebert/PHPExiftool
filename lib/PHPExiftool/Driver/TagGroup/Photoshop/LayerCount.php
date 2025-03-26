@@ -28,13 +28,14 @@ class LayerCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305334
+             * line : 212166
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerCount extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerCount',
             'desc' => [
+                'en' => 'Layer Count',
             ],
         ],
     ];

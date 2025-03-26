@@ -28,13 +28,14 @@ class AcquisitionContextSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Context Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99798
+             * line : 73002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionContextSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionContextSequence',
             'desc' => [
+                'en' => 'Acquisition Context Sequence',
             ],
         ],
     ];

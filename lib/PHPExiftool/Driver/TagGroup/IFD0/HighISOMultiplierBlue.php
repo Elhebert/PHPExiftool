@@ -28,13 +28,14 @@ class HighISOMultiplierBlue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Multiplier Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280427
+             * line : 194607
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighISOMultiplierBlue extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:HighISOMultiplierBlue',
             'desc' => [
+                'en' => 'High ISO Multiplier Blue',
             ],
         ],
     ];

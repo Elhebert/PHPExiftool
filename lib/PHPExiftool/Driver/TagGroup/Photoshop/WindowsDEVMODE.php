@@ -28,13 +28,14 @@ class WindowsDEVMODE extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Windows DEVMODE',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305671
+             * line : 212397
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowsDEVMODE extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:WindowsDEVMODE',
             'desc' => [
+                'en' => 'Windows DEVMODE',
             ],
         ],
     ];

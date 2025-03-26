@@ -28,13 +28,14 @@ class RatioImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ratio Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152464
+             * line : 104926
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RatioImage extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:RatioImage',
             'desc' => [
+                'en' => 'Ratio Image',
             ],
         ],
     ];

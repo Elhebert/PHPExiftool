@@ -28,13 +28,14 @@ class StreamNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::StreamProperties
-             * line : 2092
+             * line : 1102
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamNumber extends AbstractTagGroup
              */
             'id' => 'ASF::StreamProperties.ASF:StreamNumber',
             'desc' => [
+                'en' => 'Stream Number',
             ],
         ],
     ];

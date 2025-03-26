@@ -28,13 +28,14 @@ class WhiteBalanceSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346780
+             * line : 243007
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalanceSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:WhiteBalanceSetting',
             'desc' => [
+                'en' => 'White Balance Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348389
+             * line : 243743
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalanceSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:WhiteBalanceSetting',
             'desc' => [
+                'en' => 'White Balance Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350384
+             * line : 244642
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class WhiteBalanceSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:WhiteBalanceSetting',
             'desc' => [
+                'en' => 'White Balance Setting',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360253
+             * line : 251102
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class WhiteBalanceSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:WhiteBalanceSetting',
             'desc' => [
+                'en' => 'White Balance Setting',
             ],
         ],
     ];

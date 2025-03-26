@@ -28,13 +28,14 @@ class InterpretedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpreted By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148969
+             * line : 103358
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretedBy extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:InterpretedBy',
             'desc' => [
+                'en' => 'Interpreted By',
             ],
         ],
     ];

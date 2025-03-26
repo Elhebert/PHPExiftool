@@ -28,13 +28,14 @@ class SubjectUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::SubjectScale
-             * line : 272770
+             * line : 190500
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectUnits extends AbstractTagGroup
              */
             'id' => 'PNG::SubjectScale.PNG:SubjectUnits',
             'desc' => [
+                'en' => 'Subject Units',
             ],
         ],
     ];

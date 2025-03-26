@@ -28,13 +28,14 @@ class CameraLightEstimateColorCorrectionG extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Light Estimate Color Correction G',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396606
+             * line : 280823
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraLightEstimateColorCorrectionG extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraLightEstimateColorCorrectionG',
             'desc' => [
+                'en' => 'Camera Light Estimate Color Correction G',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NominalScreenDefinitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Screen Definition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101554
+             * line : 74700
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalScreenDefinitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalScreenDefinitionSequence',
             'desc' => [
+                'en' => 'Nominal Screen Definition Sequence',
             ],
         ],
     ];

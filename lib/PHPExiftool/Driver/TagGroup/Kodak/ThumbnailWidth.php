@@ -28,13 +28,14 @@ class ThumbnailWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158913
+             * line : 109135
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:ThumbnailWidth',
             'desc' => [
+                'en' => 'Thumbnail Width',
             ],
         ],
     ];

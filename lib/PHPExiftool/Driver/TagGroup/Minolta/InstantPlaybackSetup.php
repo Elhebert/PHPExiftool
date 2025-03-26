@@ -28,13 +28,14 @@ class InstantPlaybackSetup extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Instant Playback Setup',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181523
+             * line : 123494
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InstantPlaybackSetup extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:InstantPlaybackSetup',
             'desc' => [
+                'en' => 'Instant Playback Setup',
             ],
         ],
     ];

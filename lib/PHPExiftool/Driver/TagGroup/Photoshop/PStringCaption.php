@@ -28,13 +28,14 @@ class PStringCaption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'P String Caption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305393
+             * line : 212209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PStringCaption extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:PStringCaption',
             'desc' => [
+                'en' => 'P String Caption',
             ],
         ],
     ];

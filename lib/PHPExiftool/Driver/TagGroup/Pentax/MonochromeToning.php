@@ -28,13 +28,14 @@ class MonochromeToning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Toning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300299
+             * line : 209323
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeToning extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:MonochromeToning',
             'desc' => [
+                'en' => 'Monochrome Toning',
             ],
         ],
     ];

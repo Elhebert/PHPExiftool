@@ -28,13 +28,14 @@ class FractionalEcho extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fractional Echo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97794
+             * line : 71173
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FractionalEcho extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FractionalEcho',
             'desc' => [
+                'en' => 'Fractional Echo',
             ],
         ],
     ];

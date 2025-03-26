@@ -28,13 +28,14 @@ class ClippingBoundary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clipping Boundary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::DefineObject
-             * line : 164759
+             * line : 111975
              * type : int32u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ClippingBoundary extends AbstractTagGroup
              */
             'id' => 'MNG::DefineObject.MNG:ClippingBoundary',
             'desc' => [
+                'en' => 'Clipping Boundary',
             ],
         ],
     ];

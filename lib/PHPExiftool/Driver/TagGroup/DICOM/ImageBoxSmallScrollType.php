@@ -28,13 +28,14 @@ class ImageBoxSmallScrollType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Small Scroll Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101628
+             * line : 74772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxSmallScrollType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxSmallScrollType',
             'desc' => [
+                'en' => 'Image Box Small Scroll Type',
             ],
         ],
     ];

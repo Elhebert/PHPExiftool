@@ -28,13 +28,14 @@ class DopesheetLinkLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dopesheet Link Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409260
+             * line : 289059
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DopesheetLinkLink extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:DopesheetLinkLink',
             'desc' => [
+                'en' => 'Dopesheet Link Link',
             ],
         ],
     ];

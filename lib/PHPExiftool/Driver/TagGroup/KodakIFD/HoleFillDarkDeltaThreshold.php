@@ -28,13 +28,14 @@ class HoleFillDarkDeltaThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hole Fill Dark Delta Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156146
+             * line : 107357
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HoleFillDarkDeltaThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HoleFillDarkDeltaThreshold',
             'desc' => [
+                'en' => 'Hole Fill Dark Delta Threshold',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubVersions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Versions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ics
-             * line : 408811
+             * line : 288743
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubVersions extends AbstractTagGroup
              */
             'id' => 'XMP::ics.XMP-ics:SubVersions',
             'desc' => [
+                'en' => 'Sub Versions',
             ],
         ],
     ];

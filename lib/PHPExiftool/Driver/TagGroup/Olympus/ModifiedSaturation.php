@@ -28,13 +28,14 @@ class ModifiedSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251191
+             * line : 173254
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedSaturation extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ModifiedSaturation',
             'desc' => [
+                'en' => 'Modified Saturation',
             ],
         ],
     ];

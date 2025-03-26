@@ -28,13 +28,14 @@ class CoverArt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cover Art',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::Main
-             * line : 2983
+             * line : 1918
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CoverArt extends AbstractTagGroup
              */
             'id' => 'Audible::Main.Audible:CoverArt',
             'desc' => [
+                'en' => 'Cover Art',
             ],
         ],
         1 => [
             /**
              * table_name : Audible::cvrx
-             * line : 3036
+             * line : 1937
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CoverArt extends AbstractTagGroup
              */
             'id' => 'Audible::cvrx.Audible:CoverArt',
             'desc' => [
+                'en' => 'Cover Art',
             ],
         ],
     ];

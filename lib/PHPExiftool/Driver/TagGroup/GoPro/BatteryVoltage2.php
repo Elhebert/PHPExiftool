@@ -28,13 +28,14 @@ class BatteryVoltage2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery Voltage 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::KBAT
-             * line : 140004
+             * line : 97877
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BatteryVoltage2 extends AbstractTagGroup
              */
             'id' => 'GoPro::KBAT.GoPro:BatteryVoltage2',
             'desc' => [
+                'en' => 'Battery Voltage 2',
             ],
         ],
     ];

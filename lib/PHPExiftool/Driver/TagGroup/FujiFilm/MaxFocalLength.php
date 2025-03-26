@@ -28,13 +28,14 @@ class MaxFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130684
+             * line : 90270
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DataKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF
-             * line : 361895
+             * line : 251980
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataKey extends AbstractTagGroup
              */
             'id' => 'Sony::SRF.SRF#:DataKey',
             'desc' => [
+                'en' => 'Data Key',
             ],
         ],
     ];

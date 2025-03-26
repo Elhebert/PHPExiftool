@@ -28,13 +28,14 @@ class CarPhone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Car Phone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176095
+             * line : 121173
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CarPhone extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CarPhone',
             'desc' => [
+                'en' => 'Car Phone',
             ],
         ],
     ];

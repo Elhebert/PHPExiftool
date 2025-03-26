@@ -28,13 +28,14 @@ class ISOAutoHiLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO Auto Hi Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 242632
+             * line : 165703
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISOAutoHiLimit extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ISOAutoHiLimit',
             'desc' => [
+                'en' => 'ISO Auto Hi Limit',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 242772
+             * line : 165843
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ISOAutoHiLimit extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ISOAutoHiLimit',
             'desc' => [
+                'en' => 'ISO Auto Hi Limit',
             ],
         ],
     ];

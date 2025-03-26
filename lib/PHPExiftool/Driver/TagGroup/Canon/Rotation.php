@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfoPowerShot
-             * line : 55386
+             * line : 43299
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot.Canon:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55475
+             * line : 43321
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

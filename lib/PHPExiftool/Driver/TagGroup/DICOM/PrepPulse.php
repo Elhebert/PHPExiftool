@@ -28,13 +28,14 @@ class PrepPulse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prep Pulse',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97797
+             * line : 71176
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrepPulse extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrepPulse',
             'desc' => [
+                'en' => 'Prep Pulse',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AuthenticationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Authentication Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264372
+             * line : 182735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthenticationType extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:AuthenticationType',
             'desc' => [
+                'en' => 'Authentication Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShutterRightVerticalEdge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Right Vertical Edge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96066
+             * line : 69487
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterRightVerticalEdge extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShutterRightVerticalEdge',
             'desc' => [
+                'en' => 'Shutter Right Vertical Edge',
             ],
         ],
     ];

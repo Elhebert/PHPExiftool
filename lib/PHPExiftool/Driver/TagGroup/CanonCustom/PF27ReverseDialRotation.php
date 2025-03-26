@@ -28,13 +28,14 @@ class PF27ReverseDialRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF27 Reverse Dial Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78425
+             * line : 57126
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF27ReverseDialRotation extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF27ReverseDialRotation',
             'desc' => [
+                'en' => 'PF27 Reverse Dial Rotation',
             ],
         ],
     ];

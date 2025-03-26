@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264167
+             * line : 182639
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

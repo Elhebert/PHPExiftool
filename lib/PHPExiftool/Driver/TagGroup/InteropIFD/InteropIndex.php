@@ -28,13 +28,14 @@ class InteropIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interoperability Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 109710
+             * line : 81120
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InteropIndex extends AbstractTagGroup
              */
             'id' => 'Exif::Main.InteropIFD:InteropIndex',
             'desc' => [
+                'en' => 'Interoperability Index',
             ],
         ],
     ];

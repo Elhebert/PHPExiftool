@@ -28,13 +28,14 @@ class TrafficID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Traffic ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167358
+             * line : 113979
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrafficID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TrafficID',
             'desc' => [
+                'en' => 'Traffic ID',
             ],
         ],
     ];

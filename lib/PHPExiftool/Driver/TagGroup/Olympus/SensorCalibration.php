@@ -28,13 +28,14 @@ class SensorCalibration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255379
+             * line : 176239
              * type : int16s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class SensorCalibration extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:SensorCalibration',
             'desc' => [
+                'en' => 'Sensor Calibration',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NameUTF_8 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Name UTF-8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Info
-             * line : 394994
+             * line : 279800
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NameUTF_8 extends AbstractTagGroup
              */
             'id' => 'Torrent::Info.Torrent:NameUTF-8',
             'desc' => [
+                'en' => 'Name UTF-8',
             ],
         ],
     ];

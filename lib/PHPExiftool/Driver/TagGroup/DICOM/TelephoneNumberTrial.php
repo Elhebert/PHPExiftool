@@ -28,13 +28,14 @@ class TelephoneNumberTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Telephone Number Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100188
+             * line : 73362
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TelephoneNumberTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TelephoneNumberTrial',
             'desc' => [
+                'en' => 'Telephone Number Trial',
             ],
         ],
     ];

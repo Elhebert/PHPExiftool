@@ -28,13 +28,14 @@ class AlphaTiltMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Tilt Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166736
+             * line : 113473
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaTiltMin extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AlphaTiltMin',
             'desc' => [
+                'en' => 'Alpha Tilt Min',
             ],
         ],
     ];

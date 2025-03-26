@@ -28,13 +28,14 @@ class MaximumSupportedEngineVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Supported Engine Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169348
+             * line : 115755
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumSupportedEngineVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaximumSupportedEngineVersion',
             'desc' => [
+                'en' => 'Maximum Supported Engine Version',
             ],
         ],
     ];

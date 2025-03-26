@@ -28,13 +28,14 @@ class MaximumOperationIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Operation Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124635
+             * line : 87118
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumOperationIndex extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumOperationIndex',
             'desc' => [
+                'en' => 'Maximum Operation Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MultiProfiles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Profiles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113490
+             * line : 82489
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiProfiles extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MultiProfiles',
             'desc' => [
+                'en' => 'Multi Profiles',
             ],
         ],
     ];

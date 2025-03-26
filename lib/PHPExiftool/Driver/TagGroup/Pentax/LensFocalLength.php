@@ -28,13 +28,14 @@ class LensFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288758
+             * line : 200328
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensFocalLength extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:LensFocalLength',
             'desc' => [
+                'en' => 'Lens Focal Length',
             ],
         ],
     ];

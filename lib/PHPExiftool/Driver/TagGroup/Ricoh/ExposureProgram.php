@@ -28,13 +28,14 @@ class ExposureProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332437
+             * line : 233370
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureProgram extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:ExposureProgram',
             'desc' => [
+                'en' => 'Exposure Program',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258385
+             * line : 178527
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureValue extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ApertureValue',
             'desc' => [
+                'en' => 'Aperture Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GridFrameOffsetVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Frame Offset Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102462
+             * line : 75561
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridFrameOffsetVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridFrameOffsetVector',
             'desc' => [
+                'en' => 'Grid Frame Offset Vector',
             ],
         ],
     ];

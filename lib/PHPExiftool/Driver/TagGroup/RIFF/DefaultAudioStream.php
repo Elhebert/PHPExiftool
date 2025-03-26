@@ -28,13 +28,14 @@ class DefaultAudioStream extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Audio Stream',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328124
+             * line : 231502
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultAudioStream extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:DefaultAudioStream',
             'desc' => [
+                'en' => 'Default Audio Stream',
             ],
         ],
     ];

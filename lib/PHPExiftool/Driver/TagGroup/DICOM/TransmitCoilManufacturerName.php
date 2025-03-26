@@ -28,13 +28,14 @@ class TransmitCoilManufacturerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transmit Coil Manufacturer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96632
+             * line : 70036
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransmitCoilManufacturerName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransmitCoilManufacturerName',
             'desc' => [
+                'en' => 'Transmit Coil Manufacturer Name',
             ],
         ],
     ];

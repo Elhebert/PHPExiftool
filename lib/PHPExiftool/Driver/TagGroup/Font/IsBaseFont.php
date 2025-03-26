@@ -28,13 +28,14 @@ class IsBaseFont extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Base Font',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127776
+             * line : 88717
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsBaseFont extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:IsBaseFont',
             'desc' => [
+                'en' => 'Is Base Font',
             ],
         ],
     ];

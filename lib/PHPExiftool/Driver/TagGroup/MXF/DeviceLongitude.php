@@ -28,13 +28,14 @@ class DeviceLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168278
+             * line : 114773
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DeviceLongitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceLongitude',
             'desc' => [
+                'en' => 'Device Longitude',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168281
+             * line : 114776
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class DeviceLongitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceLongitude',
             'desc' => [
+                'en' => 'Device Longitude',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 170375
+             * line : 116634
              * type : double
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class DeviceLongitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceLongitude',
             'desc' => [
+                'en' => 'Device Longitude',
             ],
         ],
     ];

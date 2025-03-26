@@ -28,13 +28,14 @@ class VP8Version extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VP8 Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::VP8
-             * line : 328941
+             * line : 231933
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VP8Version extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8.RIFF:VP8Version',
             'desc' => [
+                'en' => 'VP8 Version',
             ],
         ],
     ];

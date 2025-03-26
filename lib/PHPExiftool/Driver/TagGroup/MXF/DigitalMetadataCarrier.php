@@ -28,13 +28,14 @@ class DigitalMetadataCarrier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Metadata Carrier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168051
+             * line : 114557
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalMetadataCarrier extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DigitalMetadataCarrier',
             'desc' => [
+                'en' => 'Digital Metadata Carrier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Nop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'No Operation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264606
+             * line : 182864
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Nop extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:Nop',
             'desc' => [
+                'en' => 'No Operation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSProcessingMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Processing Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406801
+             * line : 288208
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSProcessingMethod extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSProcessingMethod',
             'desc' => [
+                'en' => 'GPS Processing Method',
             ],
         ],
     ];

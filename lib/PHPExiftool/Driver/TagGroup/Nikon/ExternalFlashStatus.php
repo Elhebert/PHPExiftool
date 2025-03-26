@@ -28,13 +28,14 @@ class ExternalFlashStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194751
+             * line : 131898
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashStatus extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:ExternalFlashStatus',
             'desc' => [
+                'en' => 'External Flash Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SourceKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172093
+             * line : 118261
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceKey extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceKey',
             'desc' => [
+                'en' => 'Source Key',
             ],
         ],
     ];

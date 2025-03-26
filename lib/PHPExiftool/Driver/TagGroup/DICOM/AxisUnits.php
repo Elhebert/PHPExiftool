@@ -28,13 +28,14 @@ class AxisUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axis Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104164
+             * line : 77250
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxisUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxisUnits',
             'desc' => [
+                'en' => 'Axis Units',
             ],
         ],
     ];

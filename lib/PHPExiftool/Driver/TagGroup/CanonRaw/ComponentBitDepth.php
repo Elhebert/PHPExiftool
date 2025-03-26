@@ -28,13 +28,14 @@ class ComponentBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ImageInfo
-             * line : 78623
+             * line : 57217
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentBitDepth extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ImageInfo.CanonRaw:ComponentBitDepth',
             'desc' => [
+                'en' => 'Component Bit Depth',
             ],
         ],
     ];

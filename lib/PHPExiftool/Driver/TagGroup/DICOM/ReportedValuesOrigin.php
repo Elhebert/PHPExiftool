@@ -28,13 +28,14 @@ class ReportedValuesOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reported Values Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102380
+             * line : 75480
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReportedValuesOrigin extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReportedValuesOrigin',
             'desc' => [
+                'en' => 'Reported Values Origin',
             ],
         ],
     ];

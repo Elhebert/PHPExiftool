@@ -28,13 +28,14 @@ class DateLastSaved extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Last Saved',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176532
+             * line : 121470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateLastSaved extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DateLastSaved',
             'desc' => [
+                'en' => 'Date Last Saved',
             ],
         ],
     ];

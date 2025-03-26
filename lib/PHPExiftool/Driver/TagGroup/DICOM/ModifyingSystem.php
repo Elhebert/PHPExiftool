@@ -28,13 +28,14 @@ class ModifyingSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modifying System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101950
+             * line : 75090
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyingSystem extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModifyingSystem',
             'desc' => [
+                'en' => 'Modifying System',
             ],
         ],
     ];

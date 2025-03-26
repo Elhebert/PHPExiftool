@@ -28,13 +28,14 @@ class ImageSegmentStartLine extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Segment Start Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157263
+             * line : 108455
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSegmentStartLine extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageSegmentStartLine',
             'desc' => [
+                'en' => 'Image Segment Start Line',
             ],
         ],
     ];

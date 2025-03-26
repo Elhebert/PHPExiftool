@@ -28,13 +28,14 @@ class PageMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Root
-             * line : 264338
+             * line : 182710
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageMode extends AbstractTagGroup
              */
             'id' => 'PDF::Root.PDF:PageMode',
             'desc' => [
+                'en' => 'Page Mode',
             ],
         ],
     ];

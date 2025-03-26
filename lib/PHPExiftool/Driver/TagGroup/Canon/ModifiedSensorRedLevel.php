@@ -28,13 +28,14 @@ class ModifiedSensorRedLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Sensor Red Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66535
+             * line : 50607
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedSensorRedLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedSensorRedLevel',
             'desc' => [
+                'en' => 'Modified Sensor Red Level',
             ],
         ],
     ];

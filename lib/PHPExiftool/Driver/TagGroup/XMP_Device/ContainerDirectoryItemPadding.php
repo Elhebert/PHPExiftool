@@ -28,13 +28,14 @@ class ContainerDirectoryItemPadding extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Container Directory Item Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396687
+             * line : 280904
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContainerDirectoryItemPadding extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:ContainerDirectoryItemPadding',
             'desc' => [
+                'en' => 'Container Directory Item Padding',
             ],
         ],
     ];

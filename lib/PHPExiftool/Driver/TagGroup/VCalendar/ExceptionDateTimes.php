@@ -28,13 +28,14 @@ class ExceptionDateTimes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exception Date Times',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395390
+             * line : 280005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExceptionDateTimes extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:ExceptionDateTimes',
             'desc' => [
+                'en' => 'Exception Date Times',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328663
+             * line : 231758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfSamples extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:NumberOfSamples',
             'desc' => [
+                'en' => 'Number Of Samples',
             ],
         ],
     ];

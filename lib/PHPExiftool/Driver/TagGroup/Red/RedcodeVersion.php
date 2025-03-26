@@ -28,13 +28,14 @@ class RedcodeVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Redcode Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::RED1
-             * line : 331665
+             * line : 233107
              * type : string
              * writable : false
              * count : 1
@@ -42,12 +43,13 @@ class RedcodeVersion extends AbstractTagGroup
              */
             'id' => 'Red::RED1.Red:RedcodeVersion',
             'desc' => [
+                'en' => 'Redcode Version',
             ],
         ],
         1 => [
             /**
              * table_name : Red::RED2
-             * line : 331733
+             * line : 233126
              * type : string
              * writable : false
              * count : 1
@@ -55,6 +57,7 @@ class RedcodeVersion extends AbstractTagGroup
              */
             'id' => 'Red::RED2.Red:RedcodeVersion',
             'desc' => [
+                'en' => 'Redcode Version',
             ],
         ],
     ];

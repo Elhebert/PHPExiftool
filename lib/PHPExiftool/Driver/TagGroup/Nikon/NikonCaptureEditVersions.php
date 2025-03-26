@@ -28,13 +28,14 @@ class NikonCaptureEditVersions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon Capture Edit Versions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199602
+             * line : 134641
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NikonCaptureEditVersions extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NikonCaptureEditVersions',
             'desc' => [
+                'en' => 'Nikon Capture Edit Versions',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 199605
+             * line : 134644
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NikonCaptureEditVersions extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NikonCaptureEditVersions',
             'desc' => [
+                'en' => 'Nikon Capture Edit Versions',
             ],
         ],
     ];

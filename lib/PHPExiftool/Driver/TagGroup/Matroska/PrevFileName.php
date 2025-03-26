@@ -28,13 +28,14 @@ class PrevFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prev File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 174011
+             * line : 119854
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrevFileName extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:PrevFileName',
             'desc' => [
+                'en' => 'Prev File Name',
             ],
         ],
     ];

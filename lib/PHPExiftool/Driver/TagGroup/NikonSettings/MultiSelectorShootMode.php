@@ -28,13 +28,14 @@ class MultiSelectorShootMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Selector Shoot Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244496
+             * line : 167362
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244521
+             * line : 167379
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
     ];

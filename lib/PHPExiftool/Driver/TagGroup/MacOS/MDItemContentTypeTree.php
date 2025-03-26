@@ -28,13 +28,14 @@ class MDItemContentTypeTree extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Content Type Tree',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172630
+             * line : 118766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemContentTypeTree extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemContentTypeTree',
             'desc' => [
+                'en' => 'MD Item Content Type Tree',
             ],
         ],
     ];

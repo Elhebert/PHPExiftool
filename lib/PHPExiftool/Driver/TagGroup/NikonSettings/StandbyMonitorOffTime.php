@@ -28,13 +28,14 @@ class StandbyMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Standby Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243881
+             * line : 166830
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StandbyMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:StandbyMonitorOffTime',
             'desc' => [
+                'en' => 'Standby Monitor Off Time',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243913
+             * line : 166862
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StandbyMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:StandbyMonitorOffTime',
             'desc' => [
+                'en' => 'Standby Monitor Off Time',
             ],
         ],
     ];

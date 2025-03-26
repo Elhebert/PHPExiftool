@@ -28,13 +28,14 @@ class InStackPositionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'In Stack Position Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98045
+             * line : 71392
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InStackPositionNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InStackPositionNumber',
             'desc' => [
+                'en' => 'In Stack Position Number',
             ],
         ],
     ];

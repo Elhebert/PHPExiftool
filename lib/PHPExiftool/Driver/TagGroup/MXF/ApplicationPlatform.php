@@ -28,13 +28,14 @@ class ApplicationPlatform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Platform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169311
+             * line : 115719
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ApplicationPlatform extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationPlatform',
             'desc' => [
+                'en' => 'Application Platform',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169314
+             * line : 115722
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ApplicationPlatform extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationPlatform',
             'desc' => [
+                'en' => 'Application Platform',
             ],
         ],
     ];

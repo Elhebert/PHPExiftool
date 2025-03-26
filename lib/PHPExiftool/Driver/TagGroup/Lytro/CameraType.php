@@ -28,13 +28,14 @@ class CameraType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162399
+             * line : 110892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
     ];

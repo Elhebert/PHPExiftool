@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164307
+             * line : 111712
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

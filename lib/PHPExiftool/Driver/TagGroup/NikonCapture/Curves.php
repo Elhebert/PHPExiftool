@@ -28,13 +28,14 @@ class Curves extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Curves',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210635
+             * line : 141769
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Curves extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:Curves',
             'desc' => [
+                'en' => 'Curves',
             ],
         ],
     ];

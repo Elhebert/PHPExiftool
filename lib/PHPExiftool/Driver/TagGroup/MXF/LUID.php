@@ -28,13 +28,14 @@ class LUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167367
+             * line : 113988
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LUID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LUID',
             'desc' => [
+                'en' => 'LUID',
             ],
         ],
     ];

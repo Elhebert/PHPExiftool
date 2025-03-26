@@ -28,13 +28,14 @@ class VerifyingObserverName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Verifying Observer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100074
+             * line : 73275
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerifyingObserverName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerifyingObserverName',
             'desc' => [
+                'en' => 'Verifying Observer Name',
             ],
         ],
     ];

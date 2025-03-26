@@ -28,13 +28,14 @@ class GammaCurveOutputRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Curve Output Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82036
+             * line : 60130
              * type : double
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class GammaCurveOutputRange extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaCurveOutputRange',
             'desc' => [
+                'en' => 'Gamma Curve Output Range',
             ],
         ],
     ];

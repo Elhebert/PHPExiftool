@@ -28,13 +28,14 @@ class ADLBracketingType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ADL Bracketing Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207411
+             * line : 139629
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ADLBracketingType extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:ADLBracketingType',
             'desc' => [
+                'en' => 'ADL Bracketing Type',
             ],
         ],
     ];

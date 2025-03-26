@@ -28,13 +28,14 @@ class IPTCImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151370
+             * line : 104395
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCImageHeight extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:IPTCImageHeight',
             'desc' => [
+                'en' => 'IPTC Image Height',
             ],
         ],
     ];

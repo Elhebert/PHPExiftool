@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ImageHeader
-             * line : 153999
+             * line : 105762
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ImageHeader.Jpeg2000:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

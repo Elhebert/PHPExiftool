@@ -28,13 +28,14 @@ class ROIVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102561
+             * line : 75657
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIVolume',
             'desc' => [
+                'en' => 'ROI Volume',
             ],
         ],
     ];

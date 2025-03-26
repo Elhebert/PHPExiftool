@@ -28,13 +28,14 @@ class TreatmentProtocols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Protocols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102951
+             * line : 76047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentProtocols extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentProtocols',
             'desc' => [
+                'en' => 'Treatment Protocols',
             ],
         ],
     ];

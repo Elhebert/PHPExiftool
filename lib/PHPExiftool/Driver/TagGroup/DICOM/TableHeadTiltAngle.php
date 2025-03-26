@@ -28,13 +28,14 @@ class TableHeadTiltAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Head Tilt Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97212
+             * line : 70609
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableHeadTiltAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableHeadTiltAngle',
             'desc' => [
+                'en' => 'Table Head Tilt Angle',
             ],
         ],
     ];

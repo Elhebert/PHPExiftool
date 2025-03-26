@@ -28,13 +28,14 @@ class Detector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123620
+             * line : 86421
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Detector extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:Detector',
             'desc' => [
+                'en' => 'Detector',
             ],
         ],
     ];

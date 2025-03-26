@@ -28,13 +28,14 @@ class BlueSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blue Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401541
+             * line : 284798
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlueSaturation extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:BlueSaturation',
             'desc' => [
+                'en' => 'Blue Saturation',
             ],
         ],
     ];

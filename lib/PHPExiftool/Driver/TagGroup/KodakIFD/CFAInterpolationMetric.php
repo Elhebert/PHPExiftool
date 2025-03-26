@@ -28,13 +28,14 @@ class CFAInterpolationMetric extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Interpolation Metric',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156616
+             * line : 107820
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAInterpolationMetric extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CFAInterpolationMetric',
             'desc' => [
+                'en' => 'CFA Interpolation Metric',
             ],
         ],
     ];

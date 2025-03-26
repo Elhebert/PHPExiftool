@@ -28,13 +28,14 @@ class AECOutdoorGammaIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Outdoor Gamma Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306200
+             * line : 212705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECOutdoorGammaIndex extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECOutdoorGammaIndex',
             'desc' => [
+                'en' => 'AEC Outdoor Gamma Index',
             ],
         ],
     ];

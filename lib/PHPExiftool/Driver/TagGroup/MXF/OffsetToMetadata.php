@@ -28,13 +28,14 @@ class OffsetToMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset To Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170872
+             * line : 117102
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OffsetToMetadata extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OffsetToMetadata',
             'desc' => [
+                'en' => 'Offset To Metadata',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170875
+             * line : 117105
              * type : int64s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OffsetToMetadata extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OffsetToMetadata',
             'desc' => [
+                'en' => 'Offset To Metadata',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorGradeMidtoneLum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Midtone Lum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398727
+             * line : 282332
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeMidtoneLum extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ColorGradeMidtoneLum',
             'desc' => [
+                'en' => 'Color Grade Midtone Lum',
             ],
         ],
     ];

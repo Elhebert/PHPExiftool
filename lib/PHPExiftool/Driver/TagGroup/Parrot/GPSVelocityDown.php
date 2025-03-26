@@ -28,13 +28,14 @@ class GPSVelocityDown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Velocity Down',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V2
-             * line : 282304
+             * line : 196038
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSVelocityDown extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:GPSVelocityDown',
             'desc' => [
+                'en' => 'GPS Velocity Down',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V3
-             * line : 282511
+             * line : 196157
              * type : int16s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSVelocityDown extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:GPSVelocityDown',
             'desc' => [
+                'en' => 'GPS Velocity Down',
             ],
         ],
     ];

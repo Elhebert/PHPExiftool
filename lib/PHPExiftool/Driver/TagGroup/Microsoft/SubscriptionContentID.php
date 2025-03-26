@@ -28,13 +28,14 @@ class SubscriptionContentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subscription Content ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175226
+             * line : 120663
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubscriptionContentID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SubscriptionContentID',
             'desc' => [
+                'en' => 'Subscription Content ID',
             ],
         ],
     ];

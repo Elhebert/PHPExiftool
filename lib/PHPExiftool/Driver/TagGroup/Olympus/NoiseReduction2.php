@@ -28,13 +28,14 @@ class NoiseReduction2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255382
+             * line : 176242
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReduction2 extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:NoiseReduction2',
             'desc' => [
+                'en' => 'Noise Reduction 2',
             ],
         ],
     ];

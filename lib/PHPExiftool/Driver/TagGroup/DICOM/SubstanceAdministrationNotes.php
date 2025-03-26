@@ -28,13 +28,14 @@ class SubstanceAdministrationNotes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Substance Administration Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100540
+             * line : 73710
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubstanceAdministrationNotes extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SubstanceAdministrationNotes',
             'desc' => [
+                'en' => 'Substance Administration Notes',
             ],
         ],
     ];

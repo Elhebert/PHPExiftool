@@ -28,13 +28,14 @@ class AnimationFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Animation Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIF::Main
-             * line : 122109
+             * line : 85531
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnimationFrames extends AbstractTagGroup
              */
             'id' => 'FLIF::Main.File:AnimationFrames',
             'desc' => [
+                'en' => 'Animation Frames',
             ],
         ],
     ];

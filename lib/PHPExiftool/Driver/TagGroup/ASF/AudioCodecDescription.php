@@ -28,13 +28,14 @@ class AudioCodecDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::CodecList
-             * line : 868
+             * line : 317
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodecDescription extends AbstractTagGroup
              */
             'id' => 'ASF::CodecList.ASF:AudioCodecDescription',
             'desc' => [
+                'en' => 'Audio Codec Description',
             ],
         ],
     ];

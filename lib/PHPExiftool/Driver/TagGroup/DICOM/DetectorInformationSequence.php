@@ -28,13 +28,14 @@ class DetectorInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100829
+             * line : 73989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorInformationSequence',
             'desc' => [
+                'en' => 'Detector Information Sequence',
             ],
         ],
     ];

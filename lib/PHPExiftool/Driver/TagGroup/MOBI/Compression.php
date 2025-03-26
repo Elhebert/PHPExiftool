@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273675
+             * line : 190855
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

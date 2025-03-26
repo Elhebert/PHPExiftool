@@ -28,13 +28,14 @@ class CardiacBeatRejectionTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Beat Rejection Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96820
+             * line : 70222
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacBeatRejectionTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacBeatRejectionTechnique',
             'desc' => [
+                'en' => 'Cardiac Beat Rejection Technique',
             ],
         ],
     ];

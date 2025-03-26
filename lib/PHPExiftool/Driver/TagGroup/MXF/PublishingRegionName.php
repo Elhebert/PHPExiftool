@@ -28,13 +28,14 @@ class PublishingRegionName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publishing Region Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170690
+             * line : 116925
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PublishingRegionName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublishingRegionName',
             'desc' => [
+                'en' => 'Publishing Region Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170693
+             * line : 116928
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PublishingRegionName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublishingRegionName',
             'desc' => [
+                'en' => 'Publishing Region Name',
             ],
         ],
     ];

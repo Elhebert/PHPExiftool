@@ -28,13 +28,14 @@ class GainBase extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gain Base',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255335
+             * line : 176215
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GainBase extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:GainBase',
             'desc' => [
+                'en' => 'Gain Base',
             ],
         ],
     ];

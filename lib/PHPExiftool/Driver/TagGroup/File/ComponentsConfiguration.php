@@ -28,13 +28,14 @@ class ComponentsConfiguration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Components Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105589
+             * line : 78132
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentsConfiguration extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ComponentsConfiguration',
             'desc' => [
+                'en' => 'Components Configuration',
             ],
         ],
     ];

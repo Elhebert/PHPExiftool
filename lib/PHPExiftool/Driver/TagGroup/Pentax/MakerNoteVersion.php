@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::S1
-             * line : 301559
+             * line : 209857
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Pentax::S1.Pentax:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

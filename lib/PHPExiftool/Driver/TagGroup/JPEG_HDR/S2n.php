@@ -28,13 +28,14 @@ class S2n extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'S2n',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152483
+             * line : 104944
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class S2n extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:S2n',
             'desc' => [
+                'en' => 'S2n',
             ],
         ],
     ];

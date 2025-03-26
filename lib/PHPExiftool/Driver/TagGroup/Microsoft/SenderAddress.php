@@ -28,13 +28,14 @@ class SenderAddress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sender Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175325
+             * line : 120732
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SenderAddress extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SenderAddress',
             'desc' => [
+                'en' => 'Sender Address',
             ],
         ],
     ];

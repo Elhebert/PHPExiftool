@@ -28,13 +28,14 @@ class RecallShootFuncMeteringMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248036
+             * line : 170724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncMeteringMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncMeteringMode',
             'desc' => [
+                'en' => 'Recall Shoot Func Metering Mode',
             ],
         ],
     ];

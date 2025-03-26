@@ -28,13 +28,14 @@ class XRayOnPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray On Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97464
+             * line : 70852
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayOnPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayOnPosition',
             'desc' => [
+                'en' => 'X Ray On Position',
             ],
         ],
     ];

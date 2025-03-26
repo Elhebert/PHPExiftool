@@ -28,13 +28,14 @@ class OriginalAlbum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Album',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148362
+             * line : 103047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalAlbum extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:OriginalAlbum',
             'desc' => [
+                'en' => 'Original Album',
             ],
         ],
     ];

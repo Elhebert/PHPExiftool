@@ -28,13 +28,14 @@ class ChannelDerivationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Derivation Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99500
+             * line : 72711
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelDerivationDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelDerivationDescription',
             'desc' => [
+                'en' => 'Channel Derivation Description',
             ],
         ],
     ];

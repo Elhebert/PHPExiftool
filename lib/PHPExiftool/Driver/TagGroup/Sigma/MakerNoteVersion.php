@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337493
+             * line : 236129
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337536
+             * line : 236141
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

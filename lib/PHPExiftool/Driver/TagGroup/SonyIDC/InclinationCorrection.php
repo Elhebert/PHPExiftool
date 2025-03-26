@@ -28,13 +28,14 @@ class InclinationCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Inclination Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394406
+             * line : 279397
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InclinationCorrection extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:InclinationCorrection',
             'desc' => [
+                'en' => 'Inclination Correction',
             ],
         ],
     ];

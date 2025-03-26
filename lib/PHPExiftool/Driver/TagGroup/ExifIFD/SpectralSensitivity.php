@@ -28,13 +28,14 @@ class SpectralSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Spectral Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113790
+             * line : 82583
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpectralSensitivity extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SpectralSensitivity',
             'desc' => [
+                'en' => 'Spectral Sensitivity',
             ],
         ],
     ];

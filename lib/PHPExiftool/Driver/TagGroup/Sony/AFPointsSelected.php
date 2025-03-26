@@ -28,13 +28,14 @@ class AFPointsSelected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Points Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag940a
-             * line : 390283
+             * line : 276028
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointsSelected extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940a.Sony:AFPointsSelected',
             'desc' => [
+                'en' => 'AF Points Selected',
             ],
         ],
     ];

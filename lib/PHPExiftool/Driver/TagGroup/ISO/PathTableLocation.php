@@ -28,13 +28,14 @@ class PathTableLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Path Table Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152018
+             * line : 104706
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PathTableLocation extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:PathTableLocation',
             'desc' => [
+                'en' => 'Path Table Location',
             ],
         ],
     ];

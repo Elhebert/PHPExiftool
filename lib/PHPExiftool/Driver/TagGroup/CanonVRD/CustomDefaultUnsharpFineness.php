@@ -28,13 +28,14 @@ class CustomDefaultUnsharpFineness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Default Unsharp Fineness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83754
+             * line : 61396
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomDefaultUnsharpFineness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomDefaultUnsharpFineness',
             'desc' => [
+                'en' => 'Custom Default Unsharp Fineness',
             ],
         ],
     ];

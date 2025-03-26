@@ -28,13 +28,14 @@ class SourceSpecies extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Species',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172105
+             * line : 118273
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceSpecies extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceSpecies',
             'desc' => [
+                'en' => 'Source Species',
             ],
         ],
     ];

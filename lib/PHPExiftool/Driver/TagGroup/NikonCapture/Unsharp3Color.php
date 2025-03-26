@@ -28,13 +28,14 @@ class Unsharp3Color extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unsharp 3 Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::UnsharpData
-             * line : 211436
+             * line : 142140
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Unsharp3Color extends AbstractTagGroup
              */
             'id' => 'NikonCapture::UnsharpData.NikonCapture:Unsharp3Color',
             'desc' => [
+                'en' => 'Unsharp 3 Color',
             ],
         ],
     ];

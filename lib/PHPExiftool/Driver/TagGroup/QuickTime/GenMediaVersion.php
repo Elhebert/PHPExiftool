@@ -28,13 +28,14 @@ class GenMediaVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Media Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GenMediaInfo
-             * line : 313241
+             * line : 218988
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenMediaVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::GenMediaInfo.QuickTime:GenMediaVersion',
             'desc' => [
+                'en' => 'Gen Media Version',
             ],
         ],
     ];

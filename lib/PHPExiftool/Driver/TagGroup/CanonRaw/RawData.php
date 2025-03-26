@@ -28,13 +28,14 @@ class RawData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 79966
+             * line : 58400
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawData extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:RawData',
             'desc' => [
+                'en' => 'Raw Data',
             ],
         ],
     ];

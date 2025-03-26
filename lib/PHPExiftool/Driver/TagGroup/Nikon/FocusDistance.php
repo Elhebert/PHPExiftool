@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195654
+             * line : 132509
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195795
+             * line : 132555
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196002
+             * line : 132634
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196236
+             * line : 132741
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

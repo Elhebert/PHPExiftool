@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentDescr
-             * line : 953
+             * line : 372
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Author extends AbstractTagGroup
              */
             'id' => 'ASF::ContentDescr.ASF:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1053
+             * line : 418
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

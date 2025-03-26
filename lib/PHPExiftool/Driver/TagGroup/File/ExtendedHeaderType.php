@@ -28,13 +28,14 @@ class ExtendedHeaderType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Header Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166963
+             * line : 113652
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ExtendedHeaderType extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ExtendedHeaderType',
             'desc' => [
+                'en' => 'Extended Header Type',
             ],
         ],
     ];

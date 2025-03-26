@@ -28,13 +28,14 @@ class GantryDetectorSlew extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry Detector Slew',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95784
+             * line : 69232
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryDetectorSlew extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryDetectorSlew',
             'desc' => [
+                'en' => 'Gantry Detector Slew',
             ],
         ],
     ];

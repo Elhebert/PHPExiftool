@@ -28,13 +28,14 @@ class AccelMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accel Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Accel360Fly
-             * line : 310351
+             * line : 216263
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccelMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Accel360Fly.QuickTime:AccelMode',
             'desc' => [
+                'en' => 'Accel Mode',
             ],
         ],
     ];

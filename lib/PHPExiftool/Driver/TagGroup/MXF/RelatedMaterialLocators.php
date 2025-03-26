@@ -28,13 +28,14 @@ class RelatedMaterialLocators extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related Material Locators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171597
+             * line : 117793
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelatedMaterialLocators extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelatedMaterialLocators',
             'desc' => [
+                'en' => 'Related Material Locators',
             ],
         ],
     ];

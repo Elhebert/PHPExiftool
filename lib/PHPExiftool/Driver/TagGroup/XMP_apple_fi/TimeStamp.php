@@ -28,13 +28,14 @@ class TimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::apple_fi
-             * line : 397904
+             * line : 281650
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'XMP::apple_fi.XMP-apple-fi:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
     ];

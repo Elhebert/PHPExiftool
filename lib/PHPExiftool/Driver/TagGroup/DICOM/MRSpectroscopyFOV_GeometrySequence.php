@@ -28,13 +28,14 @@ class MRSpectroscopyFOV_GeometrySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Spectroscopy FOV-Geometry Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96757
+             * line : 70159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRSpectroscopyFOV_GeometrySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRSpectroscopyFOV-GeometrySequence',
             'desc' => [
+                'en' => 'MR Spectroscopy FOV-Geometry Sequence',
             ],
         ],
     ];

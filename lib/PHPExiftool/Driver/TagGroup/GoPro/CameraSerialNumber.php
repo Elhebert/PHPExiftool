@@ -28,13 +28,14 @@ class CameraSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139417
+             * line : 97585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraSerialNumber extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:CameraSerialNumber',
             'desc' => [
+                'en' => 'Camera Serial Number',
             ],
         ],
     ];

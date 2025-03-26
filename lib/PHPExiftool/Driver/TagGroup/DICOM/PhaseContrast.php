@@ -28,13 +28,14 @@ class PhaseContrast extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96539
+             * line : 69943
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhaseContrast extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhaseContrast',
             'desc' => [
+                'en' => 'Phase Contrast',
             ],
         ],
     ];

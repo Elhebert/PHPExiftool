@@ -28,13 +28,14 @@ class CalibratedFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Calibrated Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104605
+             * line : 77647
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CalibratedFocalLength extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:CalibratedFocalLength',
             'desc' => [
+                'en' => 'Calibrated Focal Length',
             ],
         ],
     ];

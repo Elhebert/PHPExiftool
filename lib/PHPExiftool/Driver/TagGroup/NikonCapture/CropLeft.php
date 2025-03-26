@@ -28,13 +28,14 @@ class CropLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::CropData
-             * line : 210196
+             * line : 141543
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'NikonCapture::CropData.NikonCapture:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StartTimecode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Start Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325741
+             * line : 229817
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartTimecode extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:StartTimecode',
             'desc' => [
+                'en' => 'Start Timecode',
             ],
         ],
     ];

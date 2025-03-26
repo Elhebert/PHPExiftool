@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraInfo
-             * line : 284343
+             * line : 197382
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraInfo.Pentax:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

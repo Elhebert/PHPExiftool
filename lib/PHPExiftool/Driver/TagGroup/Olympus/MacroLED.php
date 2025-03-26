@@ -28,13 +28,14 @@ class MacroLED extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro LED',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255101
+             * line : 176080
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacroLED extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:MacroLED',
             'desc' => [
+                'en' => 'Macro LED',
             ],
         ],
     ];

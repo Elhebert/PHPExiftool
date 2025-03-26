@@ -28,13 +28,14 @@ class AssumedDisplaySize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Assumed Display Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394667
+             * line : 279591
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssumedDisplaySize extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:AssumedDisplaySize',
             'desc' => [
+                'en' => 'Assumed Display Size',
             ],
         ],
     ];

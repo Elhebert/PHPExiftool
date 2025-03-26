@@ -28,13 +28,14 @@ class MainBoard extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Main Board',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123638
+             * line : 86439
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MainBoard extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:MainBoard',
             'desc' => [
+                'en' => 'Main Board',
             ],
         ],
     ];

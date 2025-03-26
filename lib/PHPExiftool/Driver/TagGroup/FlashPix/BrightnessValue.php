@@ -28,13 +28,14 @@ class BrightnessValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125343
+             * line : 87412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
     ];

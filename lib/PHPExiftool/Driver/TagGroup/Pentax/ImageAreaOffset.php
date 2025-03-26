@@ -28,13 +28,14 @@ class ImageAreaOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Area Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299400
+             * line : 208828
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ImageAreaOffset extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ImageAreaOffset',
             'desc' => [
+                'en' => 'Image Area Offset',
             ],
         ],
     ];

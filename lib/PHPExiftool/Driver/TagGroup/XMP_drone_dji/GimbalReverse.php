@@ -28,13 +28,14 @@ class GimbalReverse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gimbal Reverse',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104657
+             * line : 77686
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GimbalReverse extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:GimbalReverse',
             'desc' => [
+                'en' => 'Gimbal Reverse',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CanSeekOnTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Can Seek On Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124033
+             * line : 86711
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CanSeekOnTime extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:CanSeekOnTime',
             'desc' => [
+                'en' => 'Can Seek On Time',
             ],
         ],
     ];

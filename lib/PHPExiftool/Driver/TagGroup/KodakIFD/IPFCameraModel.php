@@ -28,13 +28,14 @@ class IPFCameraModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPF Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156560
+             * line : 107764
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPFCameraModel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IPFCameraModel',
             'desc' => [
+                'en' => 'IPF Camera Model',
             ],
         ],
     ];

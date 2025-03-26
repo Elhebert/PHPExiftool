@@ -28,13 +28,14 @@ class BasicColorImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Basic Color Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102154
+             * line : 75285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BasicColorImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BasicColorImageSequence',
             'desc' => [
+                'en' => 'Basic Color Image Sequence',
             ],
         ],
     ];

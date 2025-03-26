@@ -28,13 +28,14 @@ class SweepPanoramaDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sweep Panorama Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350908
+             * line : 245006
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SweepPanoramaDirection extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:SweepPanoramaDirection',
             'desc' => [
+                'en' => 'Sweep Panorama Direction',
             ],
         ],
     ];

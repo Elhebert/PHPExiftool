@@ -28,13 +28,14 @@ class DefaultMagnificationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Magnification Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102070
+             * line : 75207
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultMagnificationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DefaultMagnificationType',
             'desc' => [
+                'en' => 'Default Magnification Type',
             ],
         ],
     ];

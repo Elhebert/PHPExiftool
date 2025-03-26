@@ -28,13 +28,14 @@ class EventAlias extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Alias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410537
+             * line : 289895
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventAlias extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:EventAlias',
             'desc' => [
+                'en' => 'Event Alias',
             ],
         ],
     ];

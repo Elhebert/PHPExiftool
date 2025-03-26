@@ -28,13 +28,14 @@ class FaxRecvTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fax Recv Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113984
+             * line : 82651
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FaxRecvTime extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FaxRecvTime',
             'desc' => [
+                'en' => 'Fax Recv Time',
             ],
         ],
     ];

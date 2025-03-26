@@ -28,13 +28,14 @@ class ChroSupChroThres1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chro Sup Chro Thres 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307251
+             * line : 213749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChroSupChroThres1 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ChroSupChroThres1',
             'desc' => [
+                'en' => 'Chro Sup Chro Thres 1',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RenditionOfPlacedXResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Placed X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414261
+             * line : 292279
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfPlacedXResolution extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfPlacedXResolution',
             'desc' => [
+                'en' => 'Rendition Of Placed X Resolution',
             ],
         ],
     ];

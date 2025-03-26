@@ -28,13 +28,14 @@ class ApertureLock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245051
+             * line : 167810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
     ];

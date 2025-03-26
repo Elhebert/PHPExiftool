@@ -28,13 +28,14 @@ class EncodedBy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Encoded By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175027
+             * line : 120512
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class EncodedBy extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:EncodedBy',
             'desc' => [
+                'en' => 'Encoded By',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175968
+             * line : 121083
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EncodedBy extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:EncodedBy',
             'desc' => [
+                'en' => 'Encoded By',
             ],
         ],
     ];

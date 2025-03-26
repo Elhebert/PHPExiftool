@@ -28,13 +28,14 @@ class FileInfoVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330425
+             * line : 232508
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileInfoVersion extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:FileInfoVersion',
             'desc' => [
+                'en' => 'File Info Version',
             ],
         ],
     ];

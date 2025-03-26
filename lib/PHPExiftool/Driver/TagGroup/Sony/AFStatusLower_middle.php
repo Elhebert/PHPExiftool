@@ -28,13 +28,14 @@ class AFStatusLower_middle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Lower-middle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343572
+             * line : 240510
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusLower_middle extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusLower-middle',
             'desc' => [
+                'en' => 'AF Status Lower-middle',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFStatus19
-             * line : 343791
+             * line : 240723
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFStatusLower_middle extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus19.Sony:AFStatusLower-middle',
             'desc' => [
+                'en' => 'AF Status Lower-middle',
             ],
         ],
     ];

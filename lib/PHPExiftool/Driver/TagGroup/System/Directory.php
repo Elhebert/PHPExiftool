@@ -28,13 +28,14 @@ class Directory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121009
+             * line : 84964
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Directory extends AbstractTagGroup
              */
             'id' => 'Extra.System:Directory',
             'desc' => [
+                'en' => 'Directory',
             ],
         ],
     ];

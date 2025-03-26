@@ -28,13 +28,14 @@ class MDItemFlashOnOff extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Flash On Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172804
+             * line : 118897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFlashOnOff extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFlashOnOff',
             'desc' => [
+                'en' => 'MD Item Flash On Off',
             ],
         ],
     ];

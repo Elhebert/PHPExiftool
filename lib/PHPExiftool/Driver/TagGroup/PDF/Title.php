@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264252
+             * line : 182657
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

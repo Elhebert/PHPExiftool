@@ -28,13 +28,14 @@ class RawImageCenter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Image Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197509
+             * line : 133217
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class RawImageCenter extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:RawImageCenter',
             'desc' => [
+                'en' => 'Raw Image Center',
             ],
         ],
     ];

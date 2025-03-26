@@ -28,13 +28,14 @@ class AlphaCompression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::ALPH
-             * line : 326876
+             * line : 230539
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaCompression extends AbstractTagGroup
              */
             'id' => 'RIFF::ALPH.RIFF:AlphaCompression',
             'desc' => [
+                'en' => 'Alpha Compression',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScaledIMU extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scaled IMU',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139769
+             * line : 97746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScaledIMU extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ScaledIMU',
             'desc' => [
+                'en' => 'Scaled IMU',
             ],
         ],
     ];

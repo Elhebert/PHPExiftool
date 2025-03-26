@@ -28,13 +28,14 @@ class OccurrenceOrganismQuantityType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Organism Quantity Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106561
+             * line : 78818
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceOrganismQuantityType extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceOrganismQuantityType',
             'desc' => [
+                'en' => 'Occurrence Organism Quantity Type',
             ],
         ],
     ];

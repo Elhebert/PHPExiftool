@@ -28,13 +28,14 @@ class RealWorldValueLUTData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Real World Value LUT Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100038
+             * line : 73239
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RealWorldValueLUTData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RealWorldValueLUTData',
             'desc' => [
+                'en' => 'Real World Value LUT Data',
             ],
         ],
     ];

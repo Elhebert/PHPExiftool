@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130717
+             * line : 90282
              * type : int16u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

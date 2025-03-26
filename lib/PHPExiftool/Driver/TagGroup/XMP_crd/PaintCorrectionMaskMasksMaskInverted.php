@@ -28,13 +28,14 @@ class PaintCorrectionMaskMasksMaskInverted extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Masks Mask Inverted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400282
+             * line : 283769
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskMasksMaskInverted extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionMaskMasksMaskInverted',
             'desc' => [
+                'en' => 'Paint Correction Mask Masks Mask Inverted',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UPSProgressInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UPS Progress Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101727
+             * line : 74868
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UPSProgressInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UPSProgressInformationSequence',
             'desc' => [
+                'en' => 'UPS Progress Information Sequence',
             ],
         ],
     ];

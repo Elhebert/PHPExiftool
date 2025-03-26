@@ -28,13 +28,14 @@ class VerticalGraphicsSafePercentage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Graphics Safe Percentage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170255
+             * line : 116532
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalGraphicsSafePercentage extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VerticalGraphicsSafePercentage',
             'desc' => [
+                'en' => 'Vertical Graphics Safe Percentage',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Office extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Office',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249193
+             * line : 171810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Office extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Office',
             'desc' => [
+                'en' => 'Office',
             ],
         ],
     ];

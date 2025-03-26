@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84701
+             * line : 61780
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85609
+             * line : 62111
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 89499
+             * line : 64763
              * type : undef
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

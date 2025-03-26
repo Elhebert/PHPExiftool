@@ -28,13 +28,14 @@ class DataSign extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Sign',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105575
+             * line : 78121
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataSign extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:DataSign',
             'desc' => [
+                'en' => 'Data Sign',
             ],
         ],
     ];

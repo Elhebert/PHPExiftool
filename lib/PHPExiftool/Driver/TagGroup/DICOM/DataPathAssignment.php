@@ -28,13 +28,14 @@ class DataPathAssignment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Path Assignment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99050
+             * line : 72282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataPathAssignment extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataPathAssignment',
             'desc' => [
+                'en' => 'Data Path Assignment',
             ],
         ],
     ];

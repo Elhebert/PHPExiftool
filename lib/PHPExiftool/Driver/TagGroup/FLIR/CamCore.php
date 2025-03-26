@@ -28,13 +28,14 @@ class CamCore extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cam Core',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123614
+             * line : 86415
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CamCore extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:CamCore',
             'desc' => [
+                'en' => 'Cam Core',
             ],
         ],
     ];

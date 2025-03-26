@@ -28,13 +28,14 @@ class UUID_Unknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UUID-Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154302
+             * line : 105948
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UUID_Unknown extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:UUID-Unknown',
             'desc' => [
+                'en' => 'UUID-Unknown',
             ],
         ],
     ];

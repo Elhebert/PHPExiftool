@@ -28,13 +28,14 @@ class DVHMinimumDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Minimum Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102504
+             * line : 75603
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHMinimumDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHMinimumDose',
             'desc' => [
+                'en' => 'DVH Minimum Dose',
             ],
         ],
     ];

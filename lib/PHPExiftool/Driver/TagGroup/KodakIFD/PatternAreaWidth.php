@@ -28,13 +28,14 @@ class PatternAreaWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pattern Area Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155506
+             * line : 106718
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatternAreaWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternAreaWidth',
             'desc' => [
+                'en' => 'Pattern Area Width',
             ],
         ],
     ];

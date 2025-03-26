@@ -28,13 +28,14 @@ class MicrophonePlacementTechniques extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Microphone Placement Techniques',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168127
+             * line : 114626
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MicrophonePlacementTechniques extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MicrophonePlacementTechniques',
             'desc' => [
+                'en' => 'Microphone Placement Techniques',
             ],
         ],
     ];

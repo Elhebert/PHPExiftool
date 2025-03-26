@@ -28,13 +28,14 @@ class ShutterSpeedDisplayed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Speed Displayed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340777
+             * line : 238355
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedDisplayed extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:ShutterSpeedDisplayed',
             'desc' => [
+                'en' => 'Shutter Speed Displayed',
             ],
         ],
     ];

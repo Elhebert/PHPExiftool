@@ -28,13 +28,14 @@ class WorkingTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Working Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170574
+             * line : 116814
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WorkingTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:WorkingTitle',
             'desc' => [
+                'en' => 'Working Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170577
+             * line : 116817
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WorkingTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:WorkingTitle',
             'desc' => [
+                'en' => 'Working Title',
             ],
         ],
     ];

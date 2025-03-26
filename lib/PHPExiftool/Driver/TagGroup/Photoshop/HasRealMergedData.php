@@ -28,13 +28,14 @@ class HasRealMergedData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Real Merged Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::VersionInfo
-             * line : 305846
+             * line : 212504
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasRealMergedData extends AbstractTagGroup
              */
             'id' => 'Photoshop::VersionInfo.Photoshop:HasRealMergedData',
             'desc' => [
+                'en' => 'Has Real Merged Data',
             ],
         ],
     ];

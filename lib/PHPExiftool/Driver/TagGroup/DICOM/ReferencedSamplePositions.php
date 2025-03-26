@@ -28,13 +28,14 @@ class ReferencedSamplePositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Sample Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100146
+             * line : 73323
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSamplePositions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSamplePositions',
             'desc' => [
+                'en' => 'Referenced Sample Positions',
             ],
         ],
     ];

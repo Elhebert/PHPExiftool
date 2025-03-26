@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249354
+             * line : 171904
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
         1 => [
             /**
              * table_name : iWork::Main
-             * line : 415116
+             * line : 292843
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'iWork::Main.XML:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

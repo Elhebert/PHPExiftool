@@ -28,13 +28,14 @@ class CRDInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CRD Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146271
+             * line : 101691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CRDInfo extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:CRDInfo',
             'desc' => [
+                'en' => 'CRD Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ASFPacketCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF Packet Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1023
+             * line : 391
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASFPacketCount extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ASFPacketCount',
             'desc' => [
+                'en' => 'ASF Packet Count',
             ],
         ],
     ];

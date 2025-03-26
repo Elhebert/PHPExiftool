@@ -28,13 +28,14 @@ class SortingOperationsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sorting Operations Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101683
+             * line : 74826
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SortingOperationsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SortingOperationsSequence',
             'desc' => [
+                'en' => 'Sorting Operations Sequence',
             ],
         ],
     ];

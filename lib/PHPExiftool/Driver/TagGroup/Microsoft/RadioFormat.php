@@ -28,13 +28,14 @@ class RadioFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radio Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174758
+             * line : 120308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadioFormat extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RadioFormat',
             'desc' => [
+                'en' => 'Radio Format',
             ],
         ],
     ];

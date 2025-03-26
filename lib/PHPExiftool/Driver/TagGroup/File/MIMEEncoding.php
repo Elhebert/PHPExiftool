@@ -28,13 +28,14 @@ class MIMEEncoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIME Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394748
+             * line : 279661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIMEEncoding extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:MIMEEncoding',
             'desc' => [
+                'en' => 'MIME Encoding',
             ],
         ],
     ];

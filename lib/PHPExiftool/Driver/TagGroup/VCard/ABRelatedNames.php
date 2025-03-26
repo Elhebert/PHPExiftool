@@ -28,13 +28,14 @@ class ABRelatedNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AB Related Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395240
+             * line : 279935
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ABRelatedNames extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:ABRelatedNames',
             'desc' => [
+                'en' => 'AB Related Names',
             ],
         ],
     ];

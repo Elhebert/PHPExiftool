@@ -28,13 +28,14 @@ class ISOSensitivityStep extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Sensitivity Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224052
+             * line : 151057
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISOSensitivityStep extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:ISOSensitivityStep',
             'desc' => [
+                'en' => 'ISO Sensitivity Step',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226777
+             * line : 152715
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ISOSensitivityStep extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:ISOSensitivityStep',
             'desc' => [
+                'en' => 'ISO Sensitivity Step',
             ],
         ],
     ];

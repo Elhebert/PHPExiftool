@@ -28,13 +28,14 @@ class SharpnessStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80616
+             * line : 58774
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpnessStrength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:SharpnessStrength',
             'desc' => [
+                'en' => 'Sharpness Strength',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SizeMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Size Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::PreObjectData
-             * line : 151948
+             * line : 104651
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SizeMode extends AbstractTagGroup
              */
             'id' => 'IPTC::PreObjectData.IPTC:SizeMode',
             'desc' => [
+                'en' => 'Size Mode',
             ],
         ],
     ];

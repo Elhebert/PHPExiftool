@@ -28,13 +28,14 @@ class AudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412917
+             * line : 291086
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
     ];

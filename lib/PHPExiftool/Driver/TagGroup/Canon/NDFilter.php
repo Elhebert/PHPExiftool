@@ -28,13 +28,14 @@ class NDFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ND Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70897
+             * line : 52890
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NDFilter extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:NDFilter',
             'desc' => [
+                'en' => 'ND Filter',
             ],
         ],
     ];

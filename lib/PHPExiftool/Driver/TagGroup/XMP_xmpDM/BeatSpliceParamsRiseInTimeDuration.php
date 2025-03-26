@@ -28,13 +28,14 @@ class BeatSpliceParamsRiseInTimeDuration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Beat Splice Params Rise In Time Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412957
+             * line : 291124
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BeatSpliceParamsRiseInTimeDuration extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:BeatSpliceParamsRiseInTimeDuration',
             'desc' => [
+                'en' => 'Beat Splice Params Rise In Time Duration',
             ],
         ],
     ];

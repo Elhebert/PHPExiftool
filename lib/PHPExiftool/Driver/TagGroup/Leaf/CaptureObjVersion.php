@@ -28,13 +28,14 @@ class CaptureObjVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Obj Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureSetup
-             * line : 161773
+             * line : 110522
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureObjVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureSetup.Leaf:CaptureObjVersion',
             'desc' => [
+                'en' => 'Capture Obj Version',
             ],
         ],
     ];

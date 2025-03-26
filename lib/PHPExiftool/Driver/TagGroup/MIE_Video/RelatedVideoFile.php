@@ -28,13 +28,14 @@ class RelatedVideoFile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Related Video File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Video
-             * line : 164234
+             * line : 111684
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelatedVideoFile extends AbstractTagGroup
              */
             'id' => 'MIE::Video.MIE-Video:RelatedVideoFile',
             'desc' => [
+                'en' => 'Related Video File',
             ],
         ],
     ];

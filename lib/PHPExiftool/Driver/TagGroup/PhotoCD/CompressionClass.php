@@ -28,13 +28,14 @@ class CompressionClass extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Class',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 304657
+             * line : 211781
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressionClass extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:CompressionClass',
             'desc' => [
+                'en' => 'Compression Class',
             ],
         ],
     ];

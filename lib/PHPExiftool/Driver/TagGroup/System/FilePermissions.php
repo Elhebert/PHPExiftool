@@ -28,13 +28,14 @@ class FilePermissions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Permissions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121314
+             * line : 85148
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilePermissions extends AbstractTagGroup
              */
             'id' => 'Extra.System:FilePermissions',
             'desc' => [
+                'en' => 'File Permissions',
             ],
         ],
     ];

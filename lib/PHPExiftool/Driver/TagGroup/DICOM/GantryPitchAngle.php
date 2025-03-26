@@ -28,13 +28,14 @@ class GantryPitchAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103432
+             * line : 76527
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryPitchAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryPitchAngle',
             'desc' => [
+                'en' => 'Gantry Pitch Angle',
             ],
         ],
     ];

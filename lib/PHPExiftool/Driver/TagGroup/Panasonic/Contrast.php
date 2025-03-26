@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276760
+             * line : 192669
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

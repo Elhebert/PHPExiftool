@@ -28,13 +28,14 @@ class FileNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262229
+             * line : 181249
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PortraitVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396895
+             * line : 281090
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitVersion extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:PortraitVersion',
             'desc' => [
+                'en' => 'Portrait Version',
             ],
         ],
     ];

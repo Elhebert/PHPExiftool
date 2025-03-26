@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122289
+             * line : 85662
              * type : string
              * writable : false
              * count : 16
@@ -42,12 +43,13 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122567
+             * line : 85829
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

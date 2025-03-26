@@ -28,13 +28,14 @@ class DMSmoothRejThresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DM Smooth Rej Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155759
+             * line : 106970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DMSmoothRejThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMSmoothRejThresh',
             'desc' => [
+                'en' => 'DM Smooth Rej Thresh',
             ],
         ],
     ];

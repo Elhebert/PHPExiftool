@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255542
+             * line : 176354
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

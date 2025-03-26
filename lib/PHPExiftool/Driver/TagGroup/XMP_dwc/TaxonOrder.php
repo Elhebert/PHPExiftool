@@ -28,13 +28,14 @@ class TaxonOrder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106778
+             * line : 78980
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonOrder extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonOrder',
             'desc' => [
+                'en' => 'Taxon Order',
             ],
         ],
     ];

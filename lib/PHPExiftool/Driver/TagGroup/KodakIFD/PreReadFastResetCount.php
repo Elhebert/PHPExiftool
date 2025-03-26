@@ -28,13 +28,14 @@ class PreReadFastResetCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pre Read Fast Reset Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157281
+             * line : 108473
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreReadFastResetCount extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PreReadFastResetCount',
             'desc' => [
+                'en' => 'Pre Read Fast Reset Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlackLevelBlue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280443
+             * line : 194619
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackLevelBlue extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:BlackLevelBlue',
             'desc' => [
+                'en' => 'Black Level Blue',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 179188
+             * line : 122574
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 180012
+             * line : 122853
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181537
+             * line : 123508
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

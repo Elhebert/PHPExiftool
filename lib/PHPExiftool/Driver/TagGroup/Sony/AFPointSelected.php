@@ -28,13 +28,14 @@ class AFPointSelected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345027
+             * line : 241931
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345577
+             * line : 242334
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 345968
+             * line : 242563
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346195
+             * line : 242675
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Main
-             * line : 354620
+             * line : 247227
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Main
-             * line : 354760
+             * line : 247292
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Main
-             * line : 355018
+             * line : 247537
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Main
-             * line : 355276
+             * line : 247782
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Main
-             * line : 355317
+             * line : 247817
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
     ];

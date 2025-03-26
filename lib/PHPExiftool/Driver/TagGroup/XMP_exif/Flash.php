@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405831
+             * line : 287975
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

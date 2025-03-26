@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191787
+             * line : 130026
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 196609
+             * line : 132842
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209463
+             * line : 141277
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

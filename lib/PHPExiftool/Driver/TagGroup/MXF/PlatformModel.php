@@ -28,13 +28,14 @@ class PlatformModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Platform Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169770
+             * line : 116124
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlatformModel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlatformModel',
             'desc' => [
+                'en' => 'Platform Model',
             ],
         ],
     ];

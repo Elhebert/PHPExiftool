@@ -28,13 +28,14 @@ class RadionuclideHalfLife extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radionuclide Half Life',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95724
+             * line : 69172
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadionuclideHalfLife extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadionuclideHalfLife',
             'desc' => [
+                'en' => 'Radionuclide Half Life',
             ],
         ],
     ];

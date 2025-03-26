@@ -28,13 +28,14 @@ class ObliquityAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Obliquity Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168386
+             * line : 114881
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObliquityAngle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObliquityAngle',
             'desc' => [
+                'en' => 'Obliquity Angle',
             ],
         ],
     ];

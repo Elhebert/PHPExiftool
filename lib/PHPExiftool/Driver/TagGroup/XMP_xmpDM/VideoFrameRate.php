@@ -28,13 +28,14 @@ class VideoFrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413740
+             * line : 291777
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoFrameRate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoFrameRate',
             'desc' => [
+                'en' => 'Video Frame Rate',
             ],
         ],
     ];

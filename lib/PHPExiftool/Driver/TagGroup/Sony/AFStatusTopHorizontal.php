@@ -28,13 +28,14 @@ class AFStatusTopHorizontal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Top Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343420
+             * line : 240367
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusTopHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusTopHorizontal',
             'desc' => [
+                'en' => 'AF Status Top Horizontal',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFStatus19
-             * line : 343697
+             * line : 240635
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFStatusTopHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus19.Sony:AFStatusTopHorizontal',
             'desc' => [
+                'en' => 'AF Status Top Horizontal',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VOI_LUTFunction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VOI LUT Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98931
+             * line : 72201
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VOI_LUTFunction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VOI_LUTFunction',
             'desc' => [
+                'en' => 'VOI LUT Function',
             ],
         ],
     ];

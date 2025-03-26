@@ -28,13 +28,14 @@ class BeatSpliceParamsRiseInDecibel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Beat Splice Params Rise In Decibel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412954
+             * line : 291121
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BeatSpliceParamsRiseInDecibel extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:BeatSpliceParamsRiseInDecibel',
             'desc' => [
+                'en' => 'Beat Splice Params Rise In Decibel',
             ],
         ],
     ];

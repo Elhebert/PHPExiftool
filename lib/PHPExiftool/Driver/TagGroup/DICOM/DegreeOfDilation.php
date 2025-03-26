@@ -28,13 +28,14 @@ class DegreeOfDilation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Degree Of Dilation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98336
+             * line : 71671
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DegreeOfDilation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DegreeOfDilation',
             'desc' => [
+                'en' => 'Degree Of Dilation',
             ],
         ],
     ];

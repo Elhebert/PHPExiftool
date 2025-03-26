@@ -28,13 +28,14 @@ class ISOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 186958
+             * line : 126957
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
     ];

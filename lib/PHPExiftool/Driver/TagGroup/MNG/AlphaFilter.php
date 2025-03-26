@@ -28,13 +28,14 @@ class AlphaFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164990
+             * line : 112125
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaFilter extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:AlphaFilter',
             'desc' => [
+                'en' => 'Alpha Filter',
             ],
         ],
     ];

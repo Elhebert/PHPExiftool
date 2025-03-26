@@ -28,13 +28,14 @@ class ColorGradeGlobalHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Global Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402031
+             * line : 285266
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeGlobalHue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ColorGradeGlobalHue',
             'desc' => [
+                'en' => 'Color Grade Global Hue',
             ],
         ],
     ];

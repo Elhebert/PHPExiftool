@@ -28,13 +28,14 @@ class BoundingBoxAnnotationUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bounding Box Annotation Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101238
+             * line : 74388
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoundingBoxAnnotationUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BoundingBoxAnnotationUnits',
             'desc' => [
+                'en' => 'Bounding Box Annotation Units',
             ],
         ],
     ];

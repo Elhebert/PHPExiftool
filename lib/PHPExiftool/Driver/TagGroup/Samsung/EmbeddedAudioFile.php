@@ -28,13 +28,14 @@ class EmbeddedAudioFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Audio File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 334288
+             * line : 234350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedAudioFile extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:EmbeddedAudioFile',
             'desc' => [
+                'en' => 'Embedded Audio File',
             ],
         ],
     ];

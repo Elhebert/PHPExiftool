@@ -28,13 +28,14 @@ class RasterizedCaption extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rasterized Caption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150450
+             * line : 103984
              * type : undef
              * writable : true
              * count : 7360
@@ -42,6 +43,7 @@ class RasterizedCaption extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:RasterizedCaption',
             'desc' => [
+                'en' => 'Rasterized Caption',
             ],
         ],
     ];

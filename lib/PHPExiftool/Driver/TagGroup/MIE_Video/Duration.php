@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Video
-             * line : 164226
+             * line : 111681
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'MIE::Video.MIE-Video:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

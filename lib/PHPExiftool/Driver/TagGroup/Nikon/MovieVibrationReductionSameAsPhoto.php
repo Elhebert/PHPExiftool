@@ -28,13 +28,14 @@ class MovieVibrationReductionSameAsPhoto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Vibration Reduction Same As Photo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200334
+             * line : 135298
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieVibrationReductionSameAsPhoto extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieVibrationReductionSameAsPhoto',
             'desc' => [
+                'en' => 'Movie Vibration Reduction Same As Photo',
             ],
         ],
     ];

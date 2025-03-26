@@ -28,13 +28,14 @@ class AnchorPointVisibility extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anchor Point Visibility',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101268
+             * line : 74418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnchorPointVisibility extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnchorPointVisibility',
             'desc' => [
+                'en' => 'Anchor Point Visibility',
             ],
         ],
     ];

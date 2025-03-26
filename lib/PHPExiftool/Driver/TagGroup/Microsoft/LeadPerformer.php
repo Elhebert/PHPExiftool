@@ -28,13 +28,14 @@ class LeadPerformer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lead Performer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174687
+             * line : 120257
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeadPerformer extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LeadPerformer',
             'desc' => [
+                'en' => 'Lead Performer',
             ],
         ],
     ];

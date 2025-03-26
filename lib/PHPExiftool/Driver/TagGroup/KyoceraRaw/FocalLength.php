@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160900
+             * line : 109882
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

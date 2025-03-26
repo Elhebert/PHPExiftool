@@ -28,13 +28,14 @@ class SelfTimerTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78842
+             * line : 57331
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfTimerTime extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:SelfTimerTime',
             'desc' => [
+                'en' => 'Self Timer Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TextFont extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Font',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TCMediaInfo
-             * line : 324946
+             * line : 229421
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextFont extends AbstractTagGroup
              */
             'id' => 'QuickTime::TCMediaInfo.QuickTime:TextFont',
             'desc' => [
+                'en' => 'Text Font',
             ],
         ],
     ];

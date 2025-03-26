@@ -28,13 +28,14 @@ class IntervalPriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interval Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199747
+             * line : 134751
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class IntervalPriority extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:IntervalPriority',
             'desc' => [
+                'en' => 'Interval Priority',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207964
+             * line : 140098
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class IntervalPriority extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:IntervalPriority',
             'desc' => [
+                'en' => 'Interval Priority',
             ],
         ],
     ];

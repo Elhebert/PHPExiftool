@@ -28,13 +28,14 @@ class CbCrGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cb Cr Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335593
+             * line : 235490
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class CbCrGain extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:CbCrGain',
             'desc' => [
+                'en' => 'Cb Cr Gain',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dex
-             * line : 404988
+             * line : 287761
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'XMP::dex.XMP-dex:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

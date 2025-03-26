@@ -28,13 +28,14 @@ class CmdDialsChangeMainSubExposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cmd Dials Change Main Sub Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244649
+             * line : 167468
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CmdDialsChangeMainSubExposure extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsChangeMainSubExposure',
             'desc' => [
+                'en' => 'Cmd Dials Change Main Sub Exposure',
             ],
         ],
     ];

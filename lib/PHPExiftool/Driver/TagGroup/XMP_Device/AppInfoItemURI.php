@@ -28,13 +28,14 @@ class AppInfoItemURI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'App Info Item URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396498
+             * line : 280715
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AppInfoItemURI extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:AppInfoItemURI',
             'desc' => [
+                'en' => 'App Info Item URI',
             ],
         ],
     ];

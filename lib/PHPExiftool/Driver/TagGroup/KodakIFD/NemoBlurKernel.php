@@ -28,13 +28,14 @@ class NemoBlurKernel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nemo Blur Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155569
+             * line : 106781
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NemoBlurKernel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NemoBlurKernel',
             'desc' => [
+                'en' => 'Nemo Blur Kernel',
             ],
         ],
     ];

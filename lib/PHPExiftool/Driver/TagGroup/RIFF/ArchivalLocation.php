@@ -28,13 +28,14 @@ class ArchivalLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Archival Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328071
+             * line : 231466
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ArchivalLocation extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:ArchivalLocation',
             'desc' => [
+                'en' => 'Archival Location',
             ],
         ],
     ];

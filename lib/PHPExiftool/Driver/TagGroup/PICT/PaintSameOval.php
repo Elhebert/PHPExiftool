@@ -28,13 +28,14 @@ class PaintSameOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Same Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264859
+             * line : 183086
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintSameOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintSameOval',
             'desc' => [
+                'en' => 'Paint Same Oval',
             ],
         ],
     ];

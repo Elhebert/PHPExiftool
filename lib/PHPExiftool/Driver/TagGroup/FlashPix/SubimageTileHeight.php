@@ -28,13 +28,14 @@ class SubimageTileHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subimage Tile Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SubimageHdr
-             * line : 126625
+             * line : 87805
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubimageTileHeight extends AbstractTagGroup
              */
             'id' => 'FlashPix::SubimageHdr.FlashPix:SubimageTileHeight',
             'desc' => [
+                'en' => 'Subimage Tile Height',
             ],
         ],
     ];

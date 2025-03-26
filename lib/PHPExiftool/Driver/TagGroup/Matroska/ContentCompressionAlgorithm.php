@@ -28,13 +28,14 @@ class ContentCompressionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Compression Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173417
+             * line : 119367
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentCompressionAlgorithm extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentCompressionAlgorithm',
             'desc' => [
+                'en' => 'Content Compression Algorithm',
             ],
         ],
     ];

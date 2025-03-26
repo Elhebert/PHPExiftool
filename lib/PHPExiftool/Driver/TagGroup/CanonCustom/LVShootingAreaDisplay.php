@@ -28,13 +28,14 @@ class LVShootingAreaDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LV Shooting Area Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73523
+             * line : 54379
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LVShootingAreaDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LVShootingAreaDisplay',
             'desc' => [
+                'en' => 'LV Shooting Area Display',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73534
+             * line : 54390
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LVShootingAreaDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LVShootingAreaDisplay',
             'desc' => [
+                'en' => 'LV Shooting Area Display',
             ],
         ],
     ];

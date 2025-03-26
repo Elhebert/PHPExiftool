@@ -28,13 +28,14 @@ class WindowCenterAndWidthExplanation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Center And Width Explanation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98928
+             * line : 72198
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowCenterAndWidthExplanation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WindowCenterAndWidthExplanation',
             'desc' => [
+                'en' => 'Window Center And Width Explanation',
             ],
         ],
     ];

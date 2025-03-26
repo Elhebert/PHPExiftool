@@ -28,13 +28,14 @@ class InitialViewRollDegrees extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial View Roll Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397138
+             * line : 281237
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialViewRollDegrees extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:InitialViewRollDegrees',
             'desc' => [
+                'en' => 'Initial View Roll Degrees',
             ],
         ],
     ];

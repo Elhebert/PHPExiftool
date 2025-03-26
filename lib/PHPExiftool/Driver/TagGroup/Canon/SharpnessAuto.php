@@ -28,13 +28,14 @@ class SharpnessAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68696
+             * line : 51884
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpnessAuto extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessAuto',
             'desc' => [
+                'en' => 'Sharpness Auto',
             ],
         ],
     ];

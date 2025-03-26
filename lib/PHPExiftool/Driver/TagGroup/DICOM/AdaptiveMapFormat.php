@@ -28,13 +28,14 @@ class AdaptiveMapFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Adaptive Map Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98879
+             * line : 72150
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdaptiveMapFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AdaptiveMapFormat',
             'desc' => [
+                'en' => 'Adaptive Map Format',
             ],
         ],
     ];

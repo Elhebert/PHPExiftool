@@ -28,13 +28,14 @@ class JPEGTableID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Table ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169272
+             * line : 115681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGTableID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:JPEGTableID',
             'desc' => [
+                'en' => 'JPEG Table ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::ImageHeader
-             * line : 272435
+             * line : 190313
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorType extends AbstractTagGroup
              */
             'id' => 'PNG::ImageHeader.PNG:ColorType',
             'desc' => [
+                'en' => 'Color Type',
             ],
         ],
     ];

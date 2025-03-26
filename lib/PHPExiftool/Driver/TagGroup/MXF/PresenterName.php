@@ -28,13 +28,14 @@ class PresenterName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presenter Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168765
+             * line : 115241
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresenterName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PresenterName',
             'desc' => [
+                'en' => 'Presenter Name',
             ],
         ],
     ];

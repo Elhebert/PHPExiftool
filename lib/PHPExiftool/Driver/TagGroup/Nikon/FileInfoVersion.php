@@ -28,13 +28,14 @@ class FileInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FileInfo
-             * line : 192309
+             * line : 130295
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class FileInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::FileInfo.Nikon:FileInfoVersion',
             'desc' => [
+                'en' => 'File Info Version',
             ],
         ],
     ];

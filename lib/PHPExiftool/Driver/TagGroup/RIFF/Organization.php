@@ -28,13 +28,14 @@ class Organization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328560
+             * line : 231690
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Organization extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Organization',
             'desc' => [
+                'en' => 'Organization',
             ],
         ],
     ];

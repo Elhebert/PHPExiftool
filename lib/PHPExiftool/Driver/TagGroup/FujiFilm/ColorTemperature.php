@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129414
+             * line : 89544
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NearPupillaryDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Near Pupillary Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100700
+             * line : 73869
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NearPupillaryDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NearPupillaryDistance',
             'desc' => [
+                'en' => 'Near Pupillary Distance',
             ],
         ],
     ];

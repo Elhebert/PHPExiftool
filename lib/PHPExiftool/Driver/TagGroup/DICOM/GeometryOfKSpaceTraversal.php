@@ -28,13 +28,14 @@ class GeometryOfKSpaceTraversal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geometry Of K Space Traversal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96587
+             * line : 69991
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeometryOfKSpaceTraversal extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeometryOfKSpaceTraversal',
             'desc' => [
+                'en' => 'Geometry Of K Space Traversal',
             ],
         ],
     ];

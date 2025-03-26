@@ -28,13 +28,14 @@ class OriginalAlbumTitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Album Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175151
+             * line : 120615
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalAlbumTitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OriginalAlbumTitle',
             'desc' => [
+                'en' => 'Original Album Title',
             ],
         ],
     ];

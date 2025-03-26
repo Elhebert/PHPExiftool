@@ -28,13 +28,14 @@ class WBBracketingSteps extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Bracketing Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206568
+             * line : 138890
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WBBracketingSteps extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.Nikon:WBBracketingSteps',
             'desc' => [
+                'en' => 'WB Bracketing Steps',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207302
+             * line : 139520
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WBBracketingSteps extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:WBBracketingSteps',
             'desc' => [
+                'en' => 'WB Bracketing Steps',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208790
+             * line : 140691
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class WBBracketingSteps extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:WBBracketingSteps',
             'desc' => [
+                'en' => 'WB Bracketing Steps',
             ],
         ],
     ];

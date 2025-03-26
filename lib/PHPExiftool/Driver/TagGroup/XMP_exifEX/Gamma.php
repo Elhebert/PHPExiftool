@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408548
+             * line : 288610
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

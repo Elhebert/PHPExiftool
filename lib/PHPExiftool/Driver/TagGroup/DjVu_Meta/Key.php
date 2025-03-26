@@ -28,13 +28,14 @@ class Key extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107434
+             * line : 79303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Key extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Key',
             'desc' => [
+                'en' => 'Key',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class XAttrResourceFork extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr Resource Fork',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173112
+             * line : 119129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrResourceFork extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrResourceFork',
             'desc' => [
+                'en' => 'X Attr Resource Fork',
             ],
         ],
     ];

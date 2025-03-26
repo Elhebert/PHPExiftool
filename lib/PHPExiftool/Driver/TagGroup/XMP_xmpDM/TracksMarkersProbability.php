@@ -28,13 +28,14 @@ class TracksMarkersProbability extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tracks Markers Probability',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413571
+             * line : 291649
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TracksMarkersProbability extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TracksMarkersProbability',
             'desc' => [
+                'en' => 'Tracks Markers Probability',
             ],
         ],
     ];

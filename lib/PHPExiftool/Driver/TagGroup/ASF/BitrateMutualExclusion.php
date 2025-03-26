@@ -28,13 +28,14 @@ class BitrateMutualExclusion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitrate Mutual Exclusion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1813
+             * line : 915
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitrateMutualExclusion extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:BitrateMutualExclusion',
             'desc' => [
+                'en' => 'Bitrate Mutual Exclusion',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class QuantizationMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quantization Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151798
+             * line : 104581
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QuantizationMethod extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:QuantizationMethod',
             'desc' => [
+                'en' => 'Quantization Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330246
+             * line : 232421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

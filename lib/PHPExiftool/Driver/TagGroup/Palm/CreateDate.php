@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::Main
-             * line : 273826
+             * line : 190960
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Palm::Main.Palm:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

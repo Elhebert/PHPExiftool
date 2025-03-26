@@ -28,13 +28,14 @@ class MapScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Map Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155837
+             * line : 107048
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MapScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MapScale',
             'desc' => [
+                'en' => 'Map Scale',
             ],
         ],
     ];

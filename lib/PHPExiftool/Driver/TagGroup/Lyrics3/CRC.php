@@ -28,13 +28,14 @@ class CRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CRC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147101
+             * line : 102135
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CRC extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:CRC',
             'desc' => [
+                'en' => 'CRC',
             ],
         ],
     ];

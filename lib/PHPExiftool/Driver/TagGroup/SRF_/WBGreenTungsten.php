@@ -28,13 +28,14 @@ class WBGreenTungsten extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Green Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361992
+             * line : 252041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBGreenTungsten extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:WBGreenTungsten',
             'desc' => [
+                'en' => 'WB Green Tungsten',
             ],
         ],
     ];

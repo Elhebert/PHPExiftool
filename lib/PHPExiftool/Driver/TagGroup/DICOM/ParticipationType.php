@@ -28,13 +28,14 @@ class ParticipationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Participation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100086
+             * line : 73287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParticipationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParticipationType',
             'desc' => [
+                'en' => 'Participation Type',
             ],
         ],
     ];

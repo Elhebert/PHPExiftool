@@ -28,13 +28,14 @@ class PixelMagicJBIGOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Magic JBIG Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113435
+             * line : 82457
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelMagicJBIGOptions extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:PixelMagicJBIGOptions',
             'desc' => [
+                'en' => 'Pixel Magic JBIG Options',
             ],
         ],
     ];

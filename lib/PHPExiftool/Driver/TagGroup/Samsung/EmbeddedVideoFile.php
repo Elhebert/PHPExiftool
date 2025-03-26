@@ -28,13 +28,14 @@ class EmbeddedVideoFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Video File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 334315
+             * line : 234371
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedVideoFile extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:EmbeddedVideoFile',
             'desc' => [
+                'en' => 'Embedded Video File',
             ],
         ],
     ];

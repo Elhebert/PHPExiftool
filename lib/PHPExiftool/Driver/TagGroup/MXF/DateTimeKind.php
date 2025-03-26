@@ -28,13 +28,14 @@ class DateTimeKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171405
+             * line : 117607
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DateTimeKind',
             'desc' => [
+                'en' => 'Date Time Kind',
             ],
         ],
     ];

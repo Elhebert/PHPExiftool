@@ -28,13 +28,14 @@ class TemplateExtensionCreatorUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template Extension Creator UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100251
+             * line : 73425
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemplateExtensionCreatorUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemplateExtensionCreatorUID',
             'desc' => [
+                'en' => 'Template Extension Creator UID',
             ],
         ],
     ];

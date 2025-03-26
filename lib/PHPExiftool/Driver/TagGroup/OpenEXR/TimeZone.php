@@ -28,13 +28,14 @@ class TimeZone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263690
+             * line : 182401
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeZone extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:TimeZone',
             'desc' => [
+                'en' => 'Time Zone',
             ],
         ],
     ];

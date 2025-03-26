@@ -28,13 +28,14 @@ class LastPulseSequenceUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Pulse Sequence Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98465
+             * line : 71797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastPulseSequenceUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LastPulseSequenceUsed',
             'desc' => [
+                'en' => 'Last Pulse Sequence Used',
             ],
         ],
     ];

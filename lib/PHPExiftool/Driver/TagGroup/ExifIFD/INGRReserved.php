@@ -28,13 +28,14 @@ class INGRReserved extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'INGR Reserved',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113175
+             * line : 82353
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class INGRReserved extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:INGRReserved',
             'desc' => [
+                'en' => 'INGR Reserved',
             ],
         ],
     ];

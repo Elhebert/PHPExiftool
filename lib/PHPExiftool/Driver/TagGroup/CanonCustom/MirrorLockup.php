@@ -28,13 +28,14 @@ class MirrorLockup extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mirror Lockup',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71690
+             * line : 53381
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72171
+             * line : 53646
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74439
+             * line : 54953
              * type : int32s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76007
+             * line : 55878
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76528
+             * line : 56125
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::Functions350D
-             * line : 76925
+             * line : 56316
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions350D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         6 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 77191
+             * line : 56440
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         7 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77646
+             * line : 56661
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
         8 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 77946
+             * line : 56807
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class MirrorLockup extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:MirrorLockup',
             'desc' => [
+                'en' => 'Mirror Lockup',
             ],
         ],
     ];

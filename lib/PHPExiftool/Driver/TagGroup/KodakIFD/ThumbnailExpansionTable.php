@@ -28,13 +28,14 @@ class ThumbnailExpansionTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Expansion Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155349
+             * line : 106562
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailExpansionTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ThumbnailExpansionTable',
             'desc' => [
+                'en' => 'Thumbnail Expansion Table',
             ],
         ],
     ];

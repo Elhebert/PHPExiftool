@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197255
+             * line : 133120
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203422
+             * line : 137260
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

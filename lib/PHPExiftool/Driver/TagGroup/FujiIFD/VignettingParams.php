@@ -28,13 +28,14 @@ class VignettingParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vignetting Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128732
+             * line : 89321
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VignettingParams extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:VignettingParams',
             'desc' => [
+                'en' => 'Vignetting Params',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DisplayFilterPercentage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Filter Percentage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99198
+             * line : 72417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayFilterPercentage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplayFilterPercentage',
             'desc' => [
+                'en' => 'Display Filter Percentage',
             ],
         ],
     ];

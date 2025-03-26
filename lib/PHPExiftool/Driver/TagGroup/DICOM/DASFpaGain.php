@@ -28,13 +28,14 @@ class DASFpaGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Fpa Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100460
+             * line : 73632
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASFpaGain extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASFpaGain',
             'desc' => [
+                'en' => 'DAS Fpa Gain',
             ],
         ],
     ];

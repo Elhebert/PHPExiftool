@@ -28,13 +28,14 @@ class PreviewImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Scrn
-             * line : 158534
+             * line : 108996
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::Scrn.Kodak:PreviewImageWidth',
             'desc' => [
+                'en' => 'Preview Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158927
+             * line : 109141
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PreviewImageWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:PreviewImageWidth',
             'desc' => [
+                'en' => 'Preview Image Width',
             ],
         ],
     ];

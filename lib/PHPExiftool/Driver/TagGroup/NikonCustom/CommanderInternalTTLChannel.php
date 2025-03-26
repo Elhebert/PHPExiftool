@@ -28,13 +28,14 @@ class CommanderInternalTTLChannel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Commander Internal TTL Channel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225483
+             * line : 151952
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CommanderInternalTTLChannel extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CommanderInternalTTLChannel',
             'desc' => [
+                'en' => 'Commander Internal TTL Channel',
             ],
         ],
     ];

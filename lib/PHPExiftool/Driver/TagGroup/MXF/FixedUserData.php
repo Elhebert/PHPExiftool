@@ -28,13 +28,14 @@ class FixedUserData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixed User Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171335
+             * line : 117538
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixedUserData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FixedUserData',
             'desc' => [
+                'en' => 'Fixed User Data',
             ],
         ],
     ];

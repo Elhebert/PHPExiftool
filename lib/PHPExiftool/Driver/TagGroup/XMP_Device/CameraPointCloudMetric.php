@@ -28,13 +28,14 @@ class CameraPointCloudMetric extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Point Cloud Metric',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396618
+             * line : 280835
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraPointCloudMetric extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraPointCloudMetric',
             'desc' => [
+                'en' => 'Camera Point Cloud Metric',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VerticesOfPolygonalCollimator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertices Of Polygonal Collimator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96116
+             * line : 69535
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticesOfPolygonalCollimator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerticesOfPolygonalCollimator',
             'desc' => [
+                'en' => 'Vertices Of Polygonal Collimator',
             ],
         ],
     ];

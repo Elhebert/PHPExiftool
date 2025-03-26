@@ -28,13 +28,14 @@ class IssueTeaser extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Issue Teaser',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410902
+             * line : 290157
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IssueTeaser extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:IssueTeaser',
             'desc' => [
+                'en' => 'Issue Teaser',
             ],
         ],
     ];

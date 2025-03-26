@@ -28,13 +28,14 @@ class OriginalTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170580
+             * line : 116820
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OriginalTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OriginalTitle',
             'desc' => [
+                'en' => 'Original Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170583
+             * line : 116823
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OriginalTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OriginalTitle',
             'desc' => [
+                'en' => 'Original Title',
             ],
         ],
     ];

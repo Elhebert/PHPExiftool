@@ -28,13 +28,14 @@ class CornerLatitudePoint2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Corner Latitude Point 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170390
+             * line : 116649
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CornerLatitudePoint2 extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CornerLatitudePoint2',
             'desc' => [
+                'en' => 'Corner Latitude Point 2',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170393
+             * line : 116652
              * type : double
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CornerLatitudePoint2 extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CornerLatitudePoint2',
             'desc' => [
+                'en' => 'Corner Latitude Point 2',
             ],
         ],
     ];

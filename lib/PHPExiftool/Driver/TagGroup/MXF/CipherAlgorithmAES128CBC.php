@@ -28,13 +28,14 @@ class CipherAlgorithmAES128CBC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cipher Algorithm AES128 CBC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172528
+             * line : 118687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CipherAlgorithmAES128CBC extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CipherAlgorithmAES128CBC',
             'desc' => [
+                'en' => 'Cipher Algorithm AES128 CBC',
             ],
         ],
     ];

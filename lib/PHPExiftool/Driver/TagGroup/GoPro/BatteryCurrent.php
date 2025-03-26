@@ -28,13 +28,14 @@ class BatteryCurrent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery Current',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::KBAT
-             * line : 139984
+             * line : 97862
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BatteryCurrent extends AbstractTagGroup
              */
             'id' => 'GoPro::KBAT.GoPro:BatteryCurrent',
             'desc' => [
+                'en' => 'Battery Current',
             ],
         ],
     ];

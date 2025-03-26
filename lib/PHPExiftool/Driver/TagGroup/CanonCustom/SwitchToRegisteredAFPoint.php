@@ -28,13 +28,14 @@ class SwitchToRegisteredAFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Switch To Registered AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72299
+             * line : 53721
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SwitchToRegisteredAFPoint extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:SwitchToRegisteredAFPoint',
             'desc' => [
+                'en' => 'Switch To Registered AF Point',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73916
+             * line : 54602
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SwitchToRegisteredAFPoint extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SwitchToRegisteredAFPoint',
             'desc' => [
+                'en' => 'Switch To Registered AF Point',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73939
+             * line : 54616
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SwitchToRegisteredAFPoint extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SwitchToRegisteredAFPoint',
             'desc' => [
+                'en' => 'Switch To Registered AF Point',
             ],
         ],
     ];

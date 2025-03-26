@@ -28,13 +28,14 @@ class Flags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1758
+             * line : 878
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flags extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:Flags',
             'desc' => [
+                'en' => 'Flags',
             ],
         ],
     ];

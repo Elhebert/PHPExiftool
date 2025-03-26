@@ -28,13 +28,14 @@ class TriggerTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95670
+             * line : 69118
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerTime',
             'desc' => [
+                'en' => 'Trigger Time',
             ],
         ],
     ];

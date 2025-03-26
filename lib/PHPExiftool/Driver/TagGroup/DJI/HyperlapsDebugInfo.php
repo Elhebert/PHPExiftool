@@ -28,13 +28,14 @@ class HyperlapsDebugInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hyperlaps Debug Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104473
+             * line : 77545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HyperlapsDebugInfo extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:HyperlapsDebugInfo',
             'desc' => [
+                'en' => 'Hyperlaps Debug Info',
             ],
         ],
     ];

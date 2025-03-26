@@ -28,13 +28,14 @@ class LastKeywordXMP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Last Keyword XMP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174370
+             * line : 120091
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LastKeywordXMP extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:LastKeywordXMP',
             'desc' => [
+                'en' => 'Last Keyword XMP',
             ],
         ],
     ];

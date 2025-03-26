@@ -28,13 +28,14 @@ class AEMinExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Min Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282704
+             * line : 196279
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AEMinExposureTime extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEMinExposureTime',
             'desc' => [
+                'en' => 'AE Min Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283257
+             * line : 196577
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AEMinExposureTime extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:AEMinExposureTime',
             'desc' => [
+                'en' => 'AE Min Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::AEInfo3
-             * line : 283313
+             * line : 196602
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AEMinExposureTime extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo3.Pentax:AEMinExposureTime',
             'desc' => [
+                'en' => 'AE Min Exposure Time',
             ],
         ],
     ];

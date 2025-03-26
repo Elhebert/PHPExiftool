@@ -28,13 +28,14 @@ class RegisterItemSymbol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Item Symbol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172328
+             * line : 118489
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterItemSymbol extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterItemSymbol',
             'desc' => [
+                'en' => 'Register Item Symbol',
             ],
         ],
     ];

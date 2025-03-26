@@ -28,13 +28,14 @@ class MB_D80BatteryType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MB-D80 Battery Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234088
+             * line : 157833
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MB_D80BatteryType extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:MB-D80BatteryType',
             'desc' => [
+                'en' => 'MB-D80 Battery Type',
             ],
         ],
     ];

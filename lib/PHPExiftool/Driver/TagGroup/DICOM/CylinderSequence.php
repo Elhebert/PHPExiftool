@@ -28,13 +28,14 @@ class CylinderSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cylinder Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100663
+             * line : 73833
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CylinderSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CylinderSequence',
             'desc' => [
+                'en' => 'Cylinder Sequence',
             ],
         ],
     ];

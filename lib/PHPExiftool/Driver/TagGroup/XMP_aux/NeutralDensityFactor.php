@@ -28,13 +28,14 @@ class NeutralDensityFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Density Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 398032
+             * line : 281696
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralDensityFactor extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:NeutralDensityFactor',
             'desc' => [
+                'en' => 'Neutral Density Factor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailBPG extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail BPG',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BPG::Extensions
-             * line : 3549
+             * line : 2181
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailBPG extends AbstractTagGroup
              */
             'id' => 'BPG::Extensions.File:ThumbnailBPG',
             'desc' => [
+                'en' => 'Thumbnail BPG',
             ],
         ],
     ];

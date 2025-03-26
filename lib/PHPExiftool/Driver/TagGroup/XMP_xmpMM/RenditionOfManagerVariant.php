@@ -28,13 +28,14 @@ class RenditionOfManagerVariant extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Manager Variant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414230
+             * line : 292250
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfManagerVariant extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfManagerVariant',
             'desc' => [
+                'en' => 'Rendition Of Manager Variant',
             ],
         ],
     ];

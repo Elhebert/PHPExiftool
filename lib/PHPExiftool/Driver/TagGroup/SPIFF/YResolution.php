@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153342
+             * line : 105386
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

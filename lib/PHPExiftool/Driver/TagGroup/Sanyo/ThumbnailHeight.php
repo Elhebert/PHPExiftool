@@ -28,13 +28,14 @@ class ThumbnailHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Thumbnail
-             * line : 336908
+             * line : 235964
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailHeight extends AbstractTagGroup
              */
             'id' => 'Sanyo::Thumbnail.Sanyo:ThumbnailHeight',
             'desc' => [
+                'en' => 'Thumbnail Height',
             ],
         ],
     ];

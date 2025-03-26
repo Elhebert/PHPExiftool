@@ -28,13 +28,14 @@ class FieldRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167792
+             * line : 114365
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FieldRate',
             'desc' => [
+                'en' => 'Field Rate',
             ],
         ],
     ];

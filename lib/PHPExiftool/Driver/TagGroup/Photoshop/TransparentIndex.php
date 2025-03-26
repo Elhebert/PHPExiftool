@@ -28,13 +28,14 @@ class TransparentIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transparent Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305564
+             * line : 212322
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransparentIndex extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:TransparentIndex',
             'desc' => [
+                'en' => 'Transparent Index',
             ],
         ],
     ];

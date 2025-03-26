@@ -28,13 +28,14 @@ class IPAVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPA Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156221
+             * line : 107425
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPAVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IPAVersion',
             'desc' => [
+                'en' => 'IPA Version',
             ],
         ],
     ];

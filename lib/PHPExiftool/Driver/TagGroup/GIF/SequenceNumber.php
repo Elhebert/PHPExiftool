@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::MIDIControl
-             * line : 131279
+             * line : 90652
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'GIF::MIDIControl.GIF:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GraphicsTechnologyStandardOutput extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphics Technology Standard Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154218
+             * line : 105891
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicsTechnologyStandardOutput extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:GraphicsTechnologyStandardOutput',
             'desc' => [
+                'en' => 'Graphics Technology Standard Output',
             ],
         ],
     ];

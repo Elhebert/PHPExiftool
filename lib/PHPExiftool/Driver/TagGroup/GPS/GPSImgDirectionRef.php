@@ -28,13 +28,14 @@ class GPSImgDirectionRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Img Direction Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132257
+             * line : 90932
              * type : string
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class GPSImgDirectionRef extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSImgDirectionRef',
             'desc' => [
+                'en' => 'GPS Img Direction Ref',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141847
+             * line : 98301
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSImgDirectionRef extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSImgDirectionRef',
             'desc' => [
+                'en' => 'GPS Img Direction Ref',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203023
+             * line : 137097
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class GPSImgDirectionRef extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSImgDirectionRef',
             'desc' => [
+                'en' => 'GPS Img Direction Ref',
             ],
         ],
     ];

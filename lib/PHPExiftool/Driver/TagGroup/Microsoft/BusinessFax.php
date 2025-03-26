@@ -28,13 +28,14 @@ class BusinessFax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Business Fax',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176098
+             * line : 121176
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BusinessFax extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BusinessFax',
             'desc' => [
+                'en' => 'Business Fax',
             ],
         ],
     ];

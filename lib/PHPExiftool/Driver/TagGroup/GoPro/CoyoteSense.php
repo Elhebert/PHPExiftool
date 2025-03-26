@@ -28,13 +28,14 @@ class CoyoteSense extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coyote Sense',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139427
+             * line : 97588
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoyoteSense extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:CoyoteSense',
             'desc' => [
+                'en' => 'Coyote Sense',
             ],
         ],
     ];

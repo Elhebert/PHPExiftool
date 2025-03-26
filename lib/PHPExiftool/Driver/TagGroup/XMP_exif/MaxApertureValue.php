@@ -28,13 +28,14 @@ class MaxApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407486
+             * line : 288342
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxApertureValue extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:MaxApertureValue',
             'desc' => [
+                'en' => 'Max Aperture Value',
             ],
         ],
     ];

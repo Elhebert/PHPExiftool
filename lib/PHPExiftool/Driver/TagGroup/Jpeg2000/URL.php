@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154295
+             * line : 105942
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

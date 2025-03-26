@@ -28,13 +28,14 @@ class ContentMaturityRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Maturity Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168732
+             * line : 115208
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentMaturityRating extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentMaturityRating',
             'desc' => [
+                'en' => 'Content Maturity Rating',
             ],
         ],
     ];

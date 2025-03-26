@@ -28,13 +28,14 @@ class Preview extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263660
+             * line : 182383
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Preview extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:Preview',
             'desc' => [
+                'en' => 'Preview',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142355
+             * line : 98463
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

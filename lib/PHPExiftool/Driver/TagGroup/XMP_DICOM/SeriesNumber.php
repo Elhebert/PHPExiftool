@@ -28,13 +28,14 @@ class SeriesNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Series Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396468
+             * line : 280690
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SeriesNumber extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:SeriesNumber',
             'desc' => [
+                'en' => 'Series Number',
             ],
         ],
     ];

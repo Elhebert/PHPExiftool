@@ -28,13 +28,14 @@ class XA_XRFFrameCharacteristicsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XA-XRF Frame Characteristics Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97105
+             * line : 70504
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XA_XRFFrameCharacteristicsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XA-XRFFrameCharacteristicsSequence',
             'desc' => [
+                'en' => 'XA-XRF Frame Characteristics Sequence',
             ],
         ],
     ];

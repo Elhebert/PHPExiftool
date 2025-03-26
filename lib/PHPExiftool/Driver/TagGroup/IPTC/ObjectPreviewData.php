@@ -28,13 +28,14 @@ class ObjectPreviewData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Preview Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150911
+             * line : 104188
              * type : undef
              * writable : true
              * count : 256000
@@ -42,6 +43,7 @@ class ObjectPreviewData extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ObjectPreviewData',
             'desc' => [
+                'en' => 'Object Preview Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InstitutionCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Institution Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94786
+             * line : 68272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstitutionCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstitutionCodeSequence',
             'desc' => [
+                'en' => 'Institution Code Sequence',
             ],
         ],
     ];

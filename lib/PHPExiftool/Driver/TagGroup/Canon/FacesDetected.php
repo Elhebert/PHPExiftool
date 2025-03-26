@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FaceDetect1
-             * line : 63272
+             * line : 48156
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Canon::FaceDetect1.Canon:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::FaceDetect2
-             * line : 63348
+             * line : 48196
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Canon::FaceDetect2.Canon:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::FaceDetect3
-             * line : 63361
+             * line : 48203
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Canon::FaceDetect3.Canon:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

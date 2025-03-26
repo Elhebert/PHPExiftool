@@ -28,13 +28,14 @@ class VRDVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VRD Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82171
+             * line : 60227
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VRDVersion extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:VRDVersion',
             'desc' => [
+                'en' => 'VRD Version',
             ],
         ],
     ];

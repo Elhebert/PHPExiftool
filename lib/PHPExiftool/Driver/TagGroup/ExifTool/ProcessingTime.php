@@ -28,13 +28,14 @@ class ProcessingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Processing Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121520
+             * line : 85238
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcessingTime extends AbstractTagGroup
              */
             'id' => 'Extra.ExifTool:ProcessingTime',
             'desc' => [
+                'en' => 'Processing Time',
             ],
         ],
     ];

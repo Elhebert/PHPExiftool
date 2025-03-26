@@ -28,13 +28,14 @@ class PS2RenderingIntent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PS2 Rendering Intent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146511
+             * line : 101826
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PS2RenderingIntent extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:PS2RenderingIntent',
             'desc' => [
+                'en' => 'PS2 Rendering Intent',
             ],
         ],
     ];

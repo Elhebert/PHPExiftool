@@ -28,13 +28,14 @@ class CameraByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::DcMD
-             * line : 154456
+             * line : 106020
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraByteOrder extends AbstractTagGroup
              */
             'id' => 'Kodak::DcMD.Kodak:CameraByteOrder',
             'desc' => [
+                'en' => 'Camera Byte Order',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::DcMD
-             * line : 154469
+             * line : 106031
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraByteOrder extends AbstractTagGroup
              */
             'id' => 'Kodak::DcMD.Kodak:CameraByteOrder',
             'desc' => [
+                'en' => 'Camera Byte Order',
             ],
         ],
     ];

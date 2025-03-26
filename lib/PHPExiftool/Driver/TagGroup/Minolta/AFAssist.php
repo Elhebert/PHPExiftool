@@ -28,13 +28,14 @@ class AFAssist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Assist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181704
+             * line : 123613
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraPartNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Part Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122261
+             * line : 85647
              * type : string
              * writable : false
              * count : 16
@@ -42,12 +43,13 @@ class CameraPartNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:CameraPartNumber',
             'desc' => [
+                'en' => 'Camera Part Number',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122536
+             * line : 85811
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class CameraPartNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:CameraPartNumber',
             'desc' => [
+                'en' => 'Camera Part Number',
             ],
         ],
     ];

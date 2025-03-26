@@ -28,13 +28,14 @@ class BlocksPerFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blocks Per Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::NewHeader
-             * line : 352
+             * line : 159
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlocksPerFrame extends AbstractTagGroup
              */
             'id' => 'APE::NewHeader.MAC:BlocksPerFrame',
             'desc' => [
+                'en' => 'Blocks Per Frame',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PixelData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104402
+             * line : 77475
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelData',
             'desc' => [
+                'en' => 'Pixel Data',
             ],
         ],
     ];

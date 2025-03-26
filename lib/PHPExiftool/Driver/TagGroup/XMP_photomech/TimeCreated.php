@@ -28,13 +28,14 @@ class TimeCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304973
+             * line : 211969
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeCreated extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:TimeCreated',
             'desc' => [
+                'en' => 'Time Created',
             ],
         ],
     ];

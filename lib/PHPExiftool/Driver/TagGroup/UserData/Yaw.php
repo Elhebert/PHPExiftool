@@ -28,13 +28,14 @@ class Yaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325327
+             * line : 229646
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Yaw extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Yaw',
             'desc' => [
+                'en' => 'Yaw',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325865
+             * line : 229895
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Yaw extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Yaw',
             'desc' => [
+                'en' => 'Yaw',
             ],
         ],
     ];

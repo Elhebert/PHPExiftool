@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199445
+             * line : 134580
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

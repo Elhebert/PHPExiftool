@@ -28,13 +28,14 @@ class CIP3Side extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CIP3 Side',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115696
+             * line : 83019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CIP3Side extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CIP3Side',
             'desc' => [
+                'en' => 'CIP3 Side',
             ],
         ],
     ];

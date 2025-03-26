@@ -28,13 +28,14 @@ class NumFaceElements extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Num Face Elements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130970
+             * line : 90460
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NumFaceElements extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:NumFaceElements',
             'desc' => [
+                'en' => 'Num Face Elements',
             ],
         ],
     ];

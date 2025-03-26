@@ -28,13 +28,14 @@ class Writer_Editor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Writer-Editor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150432
+             * line : 103981
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class Writer_Editor extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Writer-Editor',
             'desc' => [
+                'en' => 'Writer-Editor',
             ],
         ],
     ];

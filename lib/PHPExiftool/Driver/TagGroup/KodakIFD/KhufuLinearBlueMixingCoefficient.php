@@ -28,13 +28,14 @@ class KhufuLinearBlueMixingCoefficient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Khufu Linear Blue Mixing Coefficient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156855
+             * line : 108059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KhufuLinearBlueMixingCoefficient extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KhufuLinearBlueMixingCoefficient',
             'desc' => [
+                'en' => 'Khufu Linear Blue Mixing Coefficient',
             ],
         ],
     ];

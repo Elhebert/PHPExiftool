@@ -28,13 +28,14 @@ class ComputedObjectKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Computed Object Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168994
+             * line : 115448
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ComputedObjectKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedObjectKind',
             'desc' => [
+                'en' => 'Computed Object Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168997
+             * line : 115451
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ComputedObjectKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedObjectKind',
             'desc' => [
+                'en' => 'Computed Object Kind',
             ],
         ],
     ];

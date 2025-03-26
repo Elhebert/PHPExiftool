@@ -28,13 +28,14 @@ class FreeOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Free Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111084
+             * line : 81558
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FreeOffsets extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FreeOffsets',
             'desc' => [
+                'en' => 'Free Offsets',
             ],
         ],
     ];

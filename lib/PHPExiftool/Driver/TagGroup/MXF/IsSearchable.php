@@ -28,13 +28,14 @@ class IsSearchable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Searchable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168886
+             * line : 115352
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsSearchable extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsSearchable',
             'desc' => [
+                'en' => 'Is Searchable',
             ],
         ],
     ];

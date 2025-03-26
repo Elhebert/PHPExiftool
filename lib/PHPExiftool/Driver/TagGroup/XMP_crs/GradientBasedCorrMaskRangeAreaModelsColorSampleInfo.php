@@ -28,13 +28,14 @@ class GradientBasedCorrMaskRangeAreaModelsColorSampleInfo extends AbstractTagGro
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Range Area Models Color Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402322
+             * line : 285459
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskRangeAreaModelsColorSampleInfo extends AbstractTagGro
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskRangeAreaModelsColorSampleInfo',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Range Area Models Color Sample Info',
             ],
         ],
     ];

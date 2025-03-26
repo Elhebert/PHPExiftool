@@ -28,13 +28,14 @@ class VideoImageFormatAcquired extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Image Format Acquired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95626
+             * line : 69076
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoImageFormatAcquired extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VideoImageFormatAcquired',
             'desc' => [
+                'en' => 'Video Image Format Acquired',
             ],
         ],
     ];

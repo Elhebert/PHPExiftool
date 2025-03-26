@@ -28,13 +28,14 @@ class LoopStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Loop Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325256
+             * line : 229605
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LoopStyle extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:LoopStyle',
             'desc' => [
+                'en' => 'Loop Style',
             ],
         ],
     ];

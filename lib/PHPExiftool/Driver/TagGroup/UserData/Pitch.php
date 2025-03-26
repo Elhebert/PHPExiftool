@@ -28,13 +28,14 @@ class Pitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325593
+             * line : 229760
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325857
+             * line : 229889
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
     ];

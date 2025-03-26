@@ -28,13 +28,14 @@ class IntegrationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Integration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166589
+             * line : 113328
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntegrationTime extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:IntegrationTime',
             'desc' => [
+                'en' => 'Integration Time',
             ],
         ],
     ];

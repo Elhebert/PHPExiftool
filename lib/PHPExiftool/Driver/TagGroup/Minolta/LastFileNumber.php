@@ -28,13 +28,14 @@ class LastFileNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Last File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177640
+             * line : 121999
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LastFileNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:LastFileNumber',
             'desc' => [
+                'en' => 'Last File Number',
             ],
         ],
     ];

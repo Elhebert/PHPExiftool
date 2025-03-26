@@ -28,13 +28,14 @@ class EscapeTriplet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Escape Triplet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101959
+             * line : 75099
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EscapeTriplet extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EscapeTriplet',
             'desc' => [
+                'en' => 'Escape Triplet',
             ],
         ],
     ];

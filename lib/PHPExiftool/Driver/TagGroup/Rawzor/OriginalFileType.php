@@ -28,13 +28,14 @@ class OriginalFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Rawzor::Main
-             * line : 329611
+             * line : 232153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalFileType extends AbstractTagGroup
              */
             'id' => 'Rawzor::Main.Rawzor:OriginalFileType',
             'desc' => [
+                'en' => 'Original File Type',
             ],
         ],
     ];

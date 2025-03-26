@@ -28,13 +28,14 @@ class ImageFileFormatAsDelivered extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image File Format As Delivered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265477
+             * line : 183511
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageFileFormatAsDelivered extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:ImageFileFormatAsDelivered',
             'desc' => [
+                'en' => 'Image File Format As Delivered',
             ],
         ],
     ];

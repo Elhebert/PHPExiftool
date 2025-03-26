@@ -28,13 +28,14 @@ class PreviewApplicationName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Application Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120214
+             * line : 84467
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewApplicationName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PreviewApplicationName',
             'desc' => [
+                'en' => 'Preview Application Name',
             ],
         ],
     ];

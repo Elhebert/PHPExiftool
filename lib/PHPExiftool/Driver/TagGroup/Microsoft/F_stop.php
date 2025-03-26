@@ -28,13 +28,14 @@ class F_stop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F-stop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175428
+             * line : 120777
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class F_stop extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:F-stop',
             'desc' => [
+                'en' => 'F-stop',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ListType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'List Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328669
+             * line : 231764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ListType extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:ListType',
             'desc' => [
+                'en' => 'List Type',
             ],
         ],
     ];

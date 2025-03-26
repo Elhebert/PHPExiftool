@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 179230
+             * line : 122585
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 180059
+             * line : 122867
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182283
+             * line : 124133
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::ISInfoA100
-             * line : 182493
+             * line : 124221
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::ISInfoA100.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::Main
-             * line : 182765
+             * line : 124293
              * type : ?
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         5 => [
             /**
              * table_name : Minolta::Main
-             * line : 183737
+             * line : 124625
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         6 => [
             /**
              * table_name : Minolta::Main
-             * line : 184785
+             * line : 125560
              * type : int32u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
         7 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 186640
+             * line : 126848
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

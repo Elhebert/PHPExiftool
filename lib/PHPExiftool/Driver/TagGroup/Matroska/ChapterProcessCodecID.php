@@ -28,13 +28,14 @@ class ChapterProcessCodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Process Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173835
+             * line : 119733
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterProcessCodecID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterProcessCodecID',
             'desc' => [
+                'en' => 'Chapter Process Codec ID',
             ],
         ],
     ];

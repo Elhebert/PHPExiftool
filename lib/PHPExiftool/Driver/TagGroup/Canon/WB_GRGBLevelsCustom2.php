@@ -28,13 +28,14 @@ class WB_GRGBLevelsCustom2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Custom 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::WBInfo
-             * line : 71277
+             * line : 53183
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsCustom2 extends AbstractTagGroup
              */
             'id' => 'Canon::WBInfo.Canon:WB_GRGBLevelsCustom2',
             'desc' => [
+                'en' => 'WB GRGB Levels Custom 2',
             ],
         ],
     ];

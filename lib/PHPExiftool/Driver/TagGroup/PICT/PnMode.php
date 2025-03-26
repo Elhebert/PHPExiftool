@@ -28,13 +28,14 @@ class PnMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pen Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264632
+             * line : 182888
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PnMode extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PnMode',
             'desc' => [
+                'en' => 'Pen Mode',
             ],
         ],
     ];

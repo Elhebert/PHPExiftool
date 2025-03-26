@@ -28,13 +28,14 @@ class ApplicationScheme extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Scheme',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172415
+             * line : 118576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationScheme extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApplicationScheme',
             'desc' => [
+                'en' => 'Application Scheme',
             ],
         ],
     ];

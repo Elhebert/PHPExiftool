@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122488
+             * line : 85796
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

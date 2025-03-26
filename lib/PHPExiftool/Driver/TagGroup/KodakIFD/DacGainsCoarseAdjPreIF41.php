@@ -28,13 +28,14 @@ class DacGainsCoarseAdjPreIF41 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dac Gains Coarse Adj Pre IF41',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156377
+             * line : 107581
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DacGainsCoarseAdjPreIF41 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DacGainsCoarseAdjPreIF41',
             'desc' => [
+                'en' => 'Dac Gains Coarse Adj Pre IF41',
             ],
         ],
     ];

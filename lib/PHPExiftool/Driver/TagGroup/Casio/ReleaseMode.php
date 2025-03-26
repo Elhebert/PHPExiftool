@@ -28,13 +28,14 @@ class ReleaseMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 86104
+             * line : 62256
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:ReleaseMode',
             'desc' => [
+                'en' => 'Release Mode',
             ],
         ],
     ];

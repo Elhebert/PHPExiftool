@@ -28,13 +28,14 @@ class NumberOfViewsInRow1b extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Views In Row 1b',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100621
+             * line : 73791
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfViewsInRow1b extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfViewsInRow1b',
             'desc' => [
+                'en' => 'Number Of Views In Row 1b',
             ],
         ],
     ];

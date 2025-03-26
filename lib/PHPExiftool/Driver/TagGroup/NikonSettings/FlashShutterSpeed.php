@@ -28,13 +28,14 @@ class FlashShutterSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Shutter Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244311
+             * line : 167185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashShutterSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FlashShutterSpeed',
             'desc' => [
+                'en' => 'Flash Shutter Speed',
             ],
         ],
     ];

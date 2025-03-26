@@ -28,13 +28,14 @@ class ImageStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ImageProfile
-             * line : 161840
+             * line : 110563
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageStatus extends AbstractTagGroup
              */
             'id' => 'Leaf::ImageProfile.Leaf:ImageStatus',
             'desc' => [
+                'en' => 'Image Status',
             ],
         ],
     ];

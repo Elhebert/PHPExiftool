@@ -28,13 +28,14 @@ class RawImageAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131065
+             * line : 90531
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class RawImageAspectRatio extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:RawImageAspectRatio',
             'desc' => [
+                'en' => 'Raw Image Aspect Ratio',
             ],
         ],
     ];

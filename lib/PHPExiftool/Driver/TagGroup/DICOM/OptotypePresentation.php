@@ -28,13 +28,14 @@ class OptotypePresentation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optotype Presentation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100726
+             * line : 73890
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OptotypePresentation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OptotypePresentation',
             'desc' => [
+                'en' => 'Optotype Presentation',
             ],
         ],
     ];

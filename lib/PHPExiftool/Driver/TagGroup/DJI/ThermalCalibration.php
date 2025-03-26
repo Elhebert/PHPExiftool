@@ -28,13 +28,14 @@ class ThermalCalibration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thermal Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152607
+             * line : 105038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThermalCalibration extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.DJI:ThermalCalibration',
             'desc' => [
+                'en' => 'Thermal Calibration',
             ],
         ],
     ];

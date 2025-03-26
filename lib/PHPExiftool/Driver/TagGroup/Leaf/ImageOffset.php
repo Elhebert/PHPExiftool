@@ -28,13 +28,14 @@ class ImageOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161707
+             * line : 110464
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageOffset extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:ImageOffset',
             'desc' => [
+                'en' => 'Image Offset',
             ],
         ],
         1 => [
             /**
              * table_name : Leaf::Main
-             * line : 161905
+             * line : 110616
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageOffset extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:ImageOffset',
             'desc' => [
+                'en' => 'Image Offset',
             ],
         ],
     ];

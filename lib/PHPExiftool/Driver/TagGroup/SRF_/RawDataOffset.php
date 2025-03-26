@@ -28,13 +28,14 @@ class RawDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361908
+             * line : 251993
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataOffset extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:RawDataOffset',
             'desc' => [
+                'en' => 'Raw Data Offset',
             ],
         ],
     ];

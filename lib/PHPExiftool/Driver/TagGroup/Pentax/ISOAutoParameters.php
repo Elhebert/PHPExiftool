@@ -28,13 +28,14 @@ class ISOAutoParameters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Auto Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300381
+             * line : 209393
              * type : int8u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ISOAutoParameters extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ISOAutoParameters',
             'desc' => [
+                'en' => 'ISO Auto Parameters',
             ],
         ],
     ];

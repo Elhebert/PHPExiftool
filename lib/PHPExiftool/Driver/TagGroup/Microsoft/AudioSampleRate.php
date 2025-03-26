@@ -28,13 +28,14 @@ class AudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175864
+             * line : 121029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
     ];

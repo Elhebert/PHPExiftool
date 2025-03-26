@@ -28,13 +28,14 @@ class ThumbnailURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3779
+             * line : 2308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailURL extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:ThumbnailURL',
             'desc' => [
+                'en' => 'Thumbnail URL',
             ],
         ],
     ];

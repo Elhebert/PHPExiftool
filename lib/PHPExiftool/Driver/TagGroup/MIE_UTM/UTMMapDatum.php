@@ -28,13 +28,14 @@ class UTMMapDatum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'UTM Map Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::UTM
-             * line : 164201
+             * line : 111656
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UTMMapDatum extends AbstractTagGroup
              */
             'id' => 'MIE::UTM.MIE-UTM:UTMMapDatum',
             'desc' => [
+                'en' => 'UTM Map Datum',
             ],
         ],
     ];

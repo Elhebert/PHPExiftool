@@ -28,13 +28,14 @@ class BusinessPostalCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Business Postal Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176410
+             * line : 121377
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BusinessPostalCode extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BusinessPostalCode',
             'desc' => [
+                'en' => 'Business Postal Code',
             ],
         ],
     ];

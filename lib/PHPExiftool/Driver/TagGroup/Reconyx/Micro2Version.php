@@ -28,13 +28,14 @@ class Micro2Version extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Micro 2 Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330835
+             * line : 232728
              * type : undef
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class Micro2Version extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:Micro2Version',
             'desc' => [
+                'en' => 'Micro 2 Version',
             ],
         ],
     ];

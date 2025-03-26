@@ -28,13 +28,14 @@ class EnergyWeightingFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Weighting Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97078
+             * line : 70477
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyWeightingFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EnergyWeightingFactor',
             'desc' => [
+                'en' => 'Energy Weighting Factor',
             ],
         ],
     ];

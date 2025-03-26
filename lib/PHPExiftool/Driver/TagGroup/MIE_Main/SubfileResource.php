@@ -28,13 +28,14 @@ class SubfileResource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subfile Resource',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164069
+             * line : 111592
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubfileResource extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:SubfileResource',
             'desc' => [
+                'en' => 'Subfile Resource',
             ],
         ],
     ];

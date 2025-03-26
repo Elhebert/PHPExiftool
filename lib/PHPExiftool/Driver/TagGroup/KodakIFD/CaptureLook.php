@@ -28,13 +28,14 @@ class CaptureLook extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Capture Look',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155972
+             * line : 107183
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptureLook extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureLook',
             'desc' => [
+                'en' => 'Capture Look',
             ],
         ],
     ];

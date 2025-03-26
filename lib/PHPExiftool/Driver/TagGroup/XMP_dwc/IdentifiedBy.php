@@ -28,13 +28,14 @@ class IdentifiedBy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Identified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106341
+             * line : 78653
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IdentifiedBy extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:IdentifiedBy',
             'desc' => [
+                'en' => 'Identified By',
             ],
         ],
     ];

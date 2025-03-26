@@ -28,13 +28,14 @@ class VertexPointIndexList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertex Point Index List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101199
+             * line : 74349
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VertexPointIndexList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VertexPointIndexList',
             'desc' => [
+                'en' => 'Vertex Point Index List',
             ],
         ],
     ];

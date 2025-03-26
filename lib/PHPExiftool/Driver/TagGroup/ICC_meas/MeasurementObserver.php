@@ -28,13 +28,14 @@ class MeasurementObserver extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measurement Observer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Measurement
-             * line : 146917
+             * line : 102013
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasurementObserver extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementObserver',
             'desc' => [
+                'en' => 'Measurement Observer',
             ],
         ],
     ];

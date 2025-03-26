@@ -28,13 +28,14 @@ class OverlayCodeTableLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Code Table Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104348
+             * line : 77421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayCodeTableLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayCodeTableLocation',
             'desc' => [
+                'en' => 'Overlay Code Table Location',
             ],
         ],
     ];

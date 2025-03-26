@@ -28,13 +28,14 @@ class CameraISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56636
+             * line : 43904
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraISO extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:CameraISO',
             'desc' => [
+                'en' => 'Camera ISO',
             ],
         ],
     ];

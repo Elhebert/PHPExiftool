@@ -28,13 +28,14 @@ class ImageWidthAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166906
+             * line : 113595
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidthAxis extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageWidthAxis',
             'desc' => [
+                'en' => 'Image Width Axis',
             ],
         ],
     ];

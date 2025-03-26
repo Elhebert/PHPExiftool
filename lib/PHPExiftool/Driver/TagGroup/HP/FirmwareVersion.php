@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::TDHD
-             * line : 142112
+             * line : 98393
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'HP::TDHD.HP:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

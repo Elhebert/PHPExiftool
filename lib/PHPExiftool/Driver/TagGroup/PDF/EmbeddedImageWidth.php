@@ -28,13 +28,14 @@ class EmbeddedImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Im
-             * line : 264135
+             * line : 182626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImageWidth extends AbstractTagGroup
              */
             'id' => 'PDF::Im.PDF:EmbeddedImageWidth',
             'desc' => [
+                'en' => 'Embedded Image Width',
             ],
         ],
     ];

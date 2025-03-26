@@ -28,13 +28,14 @@ class File1PathUTF_8 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File 1 Path UTF-8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Files
-             * line : 394961
+             * line : 279778
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class File1PathUTF_8 extends AbstractTagGroup
              */
             'id' => 'Torrent::Files.Torrent:File1PathUTF-8',
             'desc' => [
+                'en' => 'File 1 Path UTF-8',
             ],
         ],
     ];

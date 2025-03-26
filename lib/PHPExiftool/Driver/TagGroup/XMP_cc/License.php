@@ -28,13 +28,14 @@ class License extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'License',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398087
+             * line : 281727
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class License extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:License',
             'desc' => [
+                'en' => 'License',
             ],
         ],
     ];

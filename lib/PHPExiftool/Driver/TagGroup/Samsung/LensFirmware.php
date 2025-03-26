@@ -28,13 +28,14 @@ class LensFirmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335402
+             * line : 235405
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensFirmware extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:LensFirmware',
             'desc' => [
+                'en' => 'Lens Firmware',
             ],
         ],
     ];

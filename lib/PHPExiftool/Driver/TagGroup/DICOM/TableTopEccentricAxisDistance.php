@@ -28,13 +28,14 @@ class TableTopEccentricAxisDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Eccentric Axis Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103387
+             * line : 76482
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopEccentricAxisDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopEccentricAxisDistance',
             'desc' => [
+                'en' => 'Table Top Eccentric Axis Distance',
             ],
         ],
     ];

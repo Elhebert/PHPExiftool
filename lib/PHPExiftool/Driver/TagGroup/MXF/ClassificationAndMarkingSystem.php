@@ -28,13 +28,14 @@ class ClassificationAndMarkingSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classification And Marking System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169997
+             * line : 116322
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClassificationAndMarkingSystem extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassificationAndMarkingSystem',
             'desc' => [
+                'en' => 'Classification And Marking System',
             ],
         ],
     ];

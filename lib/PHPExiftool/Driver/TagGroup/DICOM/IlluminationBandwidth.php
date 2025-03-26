@@ -28,13 +28,14 @@ class IlluminationBandwidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Illumination Bandwidth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98438
+             * line : 71770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IlluminationBandwidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IlluminationBandwidth',
             'desc' => [
+                'en' => 'Illumination Bandwidth',
             ],
         ],
     ];

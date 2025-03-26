@@ -28,13 +28,14 @@ class FlashUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154955
+             * line : 106235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashUsed extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FlashUsed',
             'desc' => [
+                'en' => 'Flash Used',
             ],
         ],
     ];

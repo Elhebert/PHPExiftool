@@ -28,13 +28,14 @@ class AudioBitrate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409142
+             * line : 288955
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
     ];

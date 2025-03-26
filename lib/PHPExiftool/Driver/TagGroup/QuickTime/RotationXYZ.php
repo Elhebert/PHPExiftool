@@ -28,13 +28,14 @@ class RotationXYZ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation XYZ',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rot360Fly
-             * line : 324397
+             * line : 229187
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class RotationXYZ extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rot360Fly.QuickTime:RotationXYZ',
             'desc' => [
+                'en' => 'Rotation XYZ',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PrintIMVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PrintIM Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PrintIM::Main
-             * line : 306121
+             * line : 212629
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintIMVersion extends AbstractTagGroup
              */
             'id' => 'PrintIM::Main.PrintIM:PrintIMVersion',
             'desc' => [
+                'en' => 'PrintIM Version',
             ],
         ],
     ];

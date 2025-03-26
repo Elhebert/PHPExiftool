@@ -28,13 +28,14 @@ class HighSpeedSync extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High Speed Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346689
+             * line : 242949
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HighSpeedSync extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:HighSpeedSync',
             'desc' => [
+                'en' => 'High Speed Sync',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348374
+             * line : 243729
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HighSpeedSync extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:HighSpeedSync',
             'desc' => [
+                'en' => 'High Speed Sync',
             ],
         ],
     ];

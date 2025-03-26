@@ -28,13 +28,14 @@ class ChromaticAberrationCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensCorr
-             * line : 288515
+             * line : 200142
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationCorrection extends AbstractTagGroup
              */
             'id' => 'Pentax::LensCorr.Pentax:ChromaticAberrationCorrection',
             'desc' => [
+                'en' => 'Chromatic Aberration Correction',
             ],
         ],
     ];

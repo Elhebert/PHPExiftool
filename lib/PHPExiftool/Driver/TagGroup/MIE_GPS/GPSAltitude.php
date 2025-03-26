@@ -28,13 +28,14 @@ class GPSAltitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::GPS
-             * line : 163466
+             * line : 111428
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'MIE::GPS.MIE-GPS:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
     ];

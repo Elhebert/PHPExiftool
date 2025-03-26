@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -14,31 +15,35 @@ use PHPExiftool\Driver;
 use PHPExiftool\Driver\Metadata\Metadata;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 use PHPExiftool\Driver\TagGroupInterface;
+use PHPExiftool\Exception\EmptyCollectionException;
 use PHPExiftool\Exception\InvalidArgumentException;
 use PHPExiftool\PHPExiftool;
-use PHPExiftool\Writer;
 use PHPExiftool\Reader;
-use PHPExiftool\Exception\EmptyCollectionException;
+use PHPExiftool\Writer;
 use PHPUnit\Framework\TestCase;
 
 class WriterTest extends TestCase
 {
     protected ?PHPExiftool $PHPExiftool = null;
-    protected string $in = "";
-    protected string $inWithICC = "";
-    protected string $inPlace = "";
-    protected string $out = "";
+
+    protected string $in = '';
+
+    protected string $inWithICC = '';
+
+    protected string $inPlace = '';
+
+    protected string $out = '';
 
     protected function setUp(): void
     {
         parent::setUp();
-        $this->in = __DIR__ . '/../../files/ExifTool.jpg';
-        $this->inWithICC = __DIR__ . '/../../files/pixelWithIcc.jpg';
-        $this->out = __DIR__ . '/../../files/ExifTool_erased.jpg';
-        $this->inPlace = __DIR__ . '/../../files/ExifToolCopied.jpg';
+        $this->in = __DIR__.'/../../files/ExifTool.jpg';
+        $this->inWithICC = __DIR__.'/../../files/pixelWithIcc.jpg';
+        $this->out = __DIR__.'/../../files/ExifTool_erased.jpg';
+        $this->inPlace = __DIR__.'/../../files/ExifToolCopied.jpg';
         copy($this->in, $this->inPlace);
 
-        $this->PHPExiftool = new PHPExiftool("/tmp");
+        $this->PHPExiftool = new PHPExiftool('/tmp');
     }
 
     protected function tearDown(): void
@@ -70,7 +75,7 @@ class WriterTest extends TestCase
      * @covers Writer::setMode
      * @covers Writer::isMode
      */
-    public function testSetMode(): void
+    public function test_set_mode(): void
     {
         $writer = $this->createWriter();
 
@@ -86,13 +91,14 @@ class WriterTest extends TestCase
 
     /**
      * @covers Writer::copy
+     *
      * @throws EmptyCollectionException
      */
-    public function testCopy(): void
+    public function test_copy(): void
     {
         $writer = $this->createWriter();
 
-        $metadatas = new MetadataBag();
+        $metadatas = new MetadataBag;
         $writer->erase(true, true);
         $changedFiles = $writer->write($this->inWithICC, $metadatas, $this->out);
         $this->assertEquals(1, $changedFiles);
@@ -105,14 +111,14 @@ class WriterTest extends TestCase
 
         $metadatasRead = $reader->files($this->out)->first()->getMetadatas();
         $this->assertTrue(is_object($metadatasRead->get('IPTC:ObjectName')));
-        $this->assertEquals("Test IPTC picture", $metadatasRead->get('IPTC:ObjectName')->getValue()->asString());
+        $this->assertEquals('Test IPTC picture', $metadatasRead->get('IPTC:ObjectName')->getValue()->asString());
     }
 
     /**
      * @covers Writer::setModule
      * @covers Writer::hasModule
      */
-    public function testSetModule(): void
+    public function test_set_module(): void
     {
         $writer = $this->createWriter();
 
@@ -126,18 +132,19 @@ class WriterTest extends TestCase
     /**
      * @covers Writer::write
      * @covers Writer::erase
+     *
      * @throws EmptyCollectionException
      */
-    public function testEraseWithoutICC(): void
+    public function test_erase_without_icc(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
 
         $uniqueId = 'UNI-QUE-ID';
 
-        $metadatas = new MetadataBag();
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:UniqueDocumentID"), new Driver\Value\Mono($uniqueId)));
-        $metadatas->add(new Metadata($this->createTagGroup("XMP_exif:ImageUniqueID"), new Driver\Value\Mono($uniqueId)));
+        $metadatas = new MetadataBag;
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:UniqueDocumentID'), new Driver\Value\Mono($uniqueId)));
+        $metadatas->add(new Metadata($this->createTagGroup('XMP_exif:ImageUniqueID'), new Driver\Value\Mono($uniqueId)));
 
         $writer->erase(true, false);
         $changedFiles = $writer->write($this->inWithICC, $metadatas, $this->out);
@@ -172,13 +179,13 @@ class WriterTest extends TestCase
             $found = false;
 
             foreach ($acceptedMetas as $accepted) {
-                if (preg_match('/' . $accepted . '/i', $meta->getTagGroup()->getId())) {
+                if (preg_match('/'.$accepted.'/i', $meta->getTagGroup()->getId())) {
                     $found = true;
                     break;
                 }
             }
 
-            if (!$found) {
+            if (! $found) {
                 $this->fail(sprintf('Unexpected meta %s found', $meta->getTagGroup()->getId()));
             }
         }
@@ -187,16 +194,16 @@ class WriterTest extends TestCase
     /**
      * @throws EmptyCollectionException
      */
-    public function testEraseWithICC(): void
+    public function test_erase_with_icc(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
 
         $uniqueId = 'UNI-QUE-ID';
 
-        $metadatas = new MetadataBag();
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:UniqueDocumentID"), new Driver\Value\Mono($uniqueId)));
-        $metadatas->add(new Metadata($this->createTagGroup("XMP_exif:ImageUniqueID"), new Driver\Value\Mono($uniqueId)));
+        $metadatas = new MetadataBag;
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:UniqueDocumentID'), new Driver\Value\Mono($uniqueId)));
+        $metadatas->add(new Metadata($this->createTagGroup('XMP_exif:ImageUniqueID'), new Driver\Value\Mono($uniqueId)));
 
         $writer->erase(true, true);
         $changedFiles = $writer->write($this->inWithICC, $metadatas, $this->out);
@@ -231,13 +238,13 @@ class WriterTest extends TestCase
             $found = false;
 
             foreach ($acceptedMetas as $accepted) {
-                if (preg_match('/' . $accepted . '/i', $meta->getTagGroup()->getId())) {
+                if (preg_match('/'.$accepted.'/i', $meta->getTagGroup()->getId())) {
                     $found = true;
                     break;
                 }
             }
 
-            if (!$found) {
+            if (! $found) {
                 $this->fail(sprintf('Unexpected meta %s found', $meta->getTagGroup()->getId()));
             }
         }
@@ -245,17 +252,18 @@ class WriterTest extends TestCase
 
     /**
      * @covers Writer::write
+     *
      * @throws EmptyCollectionException
      */
-    public function testWrite(): void
+    public function test_write(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
 
-        $metadatas = new MetadataBag();
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:ObjectName"), new Driver\Value\Mono('Beautiful Object')));
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:ObjectName"), new Driver\Value\Mono('Beautiful Object')));
-        $metadatas->add(new Metadata($this->createTagGroup("XMP_iptcExt:PersonInImage"), new Driver\Value\Multi(['Romain', 'Nicolas'])));
+        $metadatas = new MetadataBag;
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:ObjectName'), new Driver\Value\Mono('Beautiful Object')));
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:ObjectName'), new Driver\Value\Mono('Beautiful Object')));
+        $metadatas->add(new Metadata($this->createTagGroup('XMP_iptcExt:PersonInImage'), new Driver\Value\Multi(['Romain', 'Nicolas'])));
 
         $changedFiles = $writer->write($this->in, $metadatas, $this->out);
 
@@ -271,17 +279,18 @@ class WriterTest extends TestCase
 
     /**
      * @covers Writer::write
+     *
      * @throws EmptyCollectionException
      */
-    public function testWriteInPlace(): void
+    public function test_write_in_place(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
 
-        $metadatas = new MetadataBag();
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:ObjectName"), new Driver\Value\Mono('Beautiful Object')));
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:ObjectName"), new Driver\Value\Mono('Beautiful Object')));
-        $metadatas->add(new Metadata($this->createTagGroup("XMP_iptcExt:PersonInImage"), new Driver\Value\Multi(['Romain', 'Nicolas'])));
+        $metadatas = new MetadataBag;
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:ObjectName'), new Driver\Value\Mono('Beautiful Object')));
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:ObjectName'), new Driver\Value\Mono('Beautiful Object')));
+        $metadatas->add(new Metadata($this->createTagGroup('XMP_iptcExt:PersonInImage'), new Driver\Value\Multi(['Romain', 'Nicolas'])));
 
         $changedFiles = $writer->write($this->inPlace, $metadatas);
 
@@ -297,17 +306,18 @@ class WriterTest extends TestCase
 
     /**
      * @covers Writer::write
+     *
      * @throws EmptyCollectionException
      */
-    public function testWriteInPlaceErased(): void
+    public function test_write_in_place_erased(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
 
-        $metadatas = new MetadataBag();
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:ObjectName"), new Driver\Value\Mono('Beautiful Object')));
-        $metadatas->add(new Metadata($this->createTagGroup("IPTC:ObjectName"), new Driver\Value\Mono('Beautiful Object')));
-        $metadatas->add(new Metadata($this->createTagGroup("XMP_iptcExt:PersonInImage"), new Driver\Value\Multi(['Romain', 'Nicolas'])));
+        $metadatas = new MetadataBag;
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:ObjectName'), new Driver\Value\Mono('Beautiful Object')));
+        $metadatas->add(new Metadata($this->createTagGroup('IPTC:ObjectName'), new Driver\Value\Mono('Beautiful Object')));
+        $metadatas->add(new Metadata($this->createTagGroup('XMP_iptcExt:PersonInImage'), new Driver\Value\Multi(['Romain', 'Nicolas'])));
 
         $writer->erase(true);
         $changedFiles = $writer->write($this->inPlace, $metadatas);
@@ -326,18 +336,18 @@ class WriterTest extends TestCase
      * @covers Writer::write
      * @covers InvalidArgumentException
      */
-    public function testWriteFail(): void
+    public function test_write_fail(): void
     {
         $writer = $this->createWriter();
 
         $this->expectException(InvalidArgumentException::class);
-        $writer->write('ici', new MetadataBag());
+        $writer->write('ici', new MetadataBag);
     }
 
     /**
      * @covers Writer::addMetadatasArg
      */
-    public function testAddMetadatasArg(): void
+    public function test_add_metadatas_arg(): void
     {
         $this->markTestIncomplete();
 
@@ -392,9 +402,7 @@ class WriterTest extends TestCase
         foreach ($modes as $mode) {
             $this->assertContains($mode[1], $a);
             $p = array_search($mode[1], $a, true);
-            $this->assertTrue(is_int($p) && $p > 0 && $a[$p - 1] === $mode[0], sprintf("missing \"%s\" before \"%s\"", $mode[0], $mode[1]));
+            $this->assertTrue(is_int($p) && $p > 0 && $a[$p - 1] === $mode[0], sprintf('missing "%s" before "%s"', $mode[0], $mode[1]));
         }
     }
 }
-
-

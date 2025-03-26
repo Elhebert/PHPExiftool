@@ -28,13 +28,14 @@ class PersonIdentificationCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Person Identification Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99875
+             * line : 73077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PersonIdentificationCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PersonIdentificationCodeSequence',
             'desc' => [
+                'en' => 'Person Identification Code Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewImageStart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PreviewImageInfo
-             * line : 69432
+             * line : 52365
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Canon::PreviewImageInfo.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85261
+             * line : 62000
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         2 => [
             /**
              * table_name : Exif::Main
-             * line : 112310
+             * line : 81987
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Exif::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::Main
-             * line : 182794
+             * line : 124302
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::PreviewIFD
-             * line : 205109
+             * line : 137897
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Nikon::PreviewIFD.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         5 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250398
+             * line : 172843
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         6 => [
             /**
              * table_name : Olympus::Main
-             * line : 259101
+             * line : 178791
              * type : int32u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         7 => [
             /**
              * table_name : Pentax::Main
-             * line : 294780
+             * line : 205989
              * type : int32u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         8 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 331940
+             * line : 233208
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         9 => [
             /**
              * table_name : Samsung::Main
-             * line : 334038
+             * line : 234154
              * type : int32u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Samsung::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         10 => [
             /**
              * table_name : Sigma::Main
-             * line : 337443
+             * line : 236111
              * type : int32u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         11 => [
             /**
              * table_name : Sigma::Main
-             * line : 337482
+             * line : 236126
              * type : int32u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
         12 => [
             /**
              * table_name : Sony::Ericsson
-             * line : 352084
+             * line : 245986
              * type : int32u
              * writable : true
              * count :
@@ -198,6 +211,7 @@ class PreviewImageStart extends AbstractTagGroup
              */
             'id' => 'Sony::Ericsson.MakerNotes:PreviewImageStart',
             'desc' => [
+                'en' => 'Preview Image Start',
             ],
         ],
     ];

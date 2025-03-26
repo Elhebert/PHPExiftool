@@ -28,13 +28,14 @@ class BuildVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Build Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109006
+             * line : 80580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BuildVersion extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:BuildVersion',
             'desc' => [
+                'en' => 'Build Version',
             ],
         ],
     ];

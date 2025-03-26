@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1245
+             * line : 544
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1744
+             * line : 869
              * type : int64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

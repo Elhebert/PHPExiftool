@@ -28,13 +28,14 @@ class PlanIntent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plan Intent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102954
+             * line : 76050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlanIntent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlanIntent',
             'desc' => [
+                'en' => 'Plan Intent',
             ],
         ],
     ];

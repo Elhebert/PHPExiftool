@@ -28,13 +28,14 @@ class SimilarityIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Similarity Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150937
+             * line : 104197
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class SimilarityIndex extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:SimilarityIndex',
             'desc' => [
+                'en' => 'Similarity Index',
             ],
         ],
     ];

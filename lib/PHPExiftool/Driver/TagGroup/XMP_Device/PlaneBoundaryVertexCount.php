@@ -28,13 +28,14 @@ class PlaneBoundaryVertexCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Plane Boundary Vertex Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396728
+             * line : 280943
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlaneBoundaryVertexCount extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:PlaneBoundaryVertexCount',
             'desc' => [
+                'en' => 'Plane Boundary Vertex Count',
             ],
         ],
     ];

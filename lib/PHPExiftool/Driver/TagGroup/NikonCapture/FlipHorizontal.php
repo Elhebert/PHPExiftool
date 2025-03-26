@@ -28,13 +28,14 @@ class FlipHorizontal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flip Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210776
+             * line : 141824
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlipHorizontal extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:FlipHorizontal',
             'desc' => [
+                'en' => 'Flip Horizontal',
             ],
         ],
     ];

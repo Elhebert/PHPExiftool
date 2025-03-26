@@ -28,13 +28,14 @@ class TotalIncome extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Income',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169953
+             * line : 116289
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalIncome extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TotalIncome',
             'desc' => [
+                'en' => 'Total Income',
             ],
         ],
     ];

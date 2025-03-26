@@ -28,13 +28,14 @@ class InitialKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326683
+             * line : 230420
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialKey extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:InitialKey',
             'desc' => [
+                'en' => 'Initial Key',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OriginatingProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Originating Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150148
+             * line : 103916
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class OriginatingProgram extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:OriginatingProgram',
             'desc' => [
+                'en' => 'Originating Program',
             ],
         ],
     ];

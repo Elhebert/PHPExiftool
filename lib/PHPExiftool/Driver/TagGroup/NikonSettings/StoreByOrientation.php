@@ -28,13 +28,14 @@ class StoreByOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Store By Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245144
+             * line : 167903
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245158
+             * line : 167917
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
     ];

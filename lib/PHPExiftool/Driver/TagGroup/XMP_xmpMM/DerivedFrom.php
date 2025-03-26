@@ -28,13 +28,14 @@ class DerivedFrom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413794
+             * line : 291825
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFrom extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFrom',
             'desc' => [
+                'en' => 'Derived From',
             ],
         ],
     ];

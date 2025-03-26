@@ -28,13 +28,14 @@ class EventOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171633
+             * line : 117826
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventOrigin extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventOrigin',
             'desc' => [
+                'en' => 'Event Origin',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Flags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BPG::Main
-             * line : 3674
+             * line : 2257
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flags extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:Flags',
             'desc' => [
+                'en' => 'Flags',
             ],
         ],
     ];

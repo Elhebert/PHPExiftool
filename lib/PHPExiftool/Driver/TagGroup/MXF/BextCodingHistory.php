@@ -28,13 +28,14 @@ class BextCodingHistory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bext Coding History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171342
+             * line : 117544
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BextCodingHistory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BextCodingHistory',
             'desc' => [
+                'en' => 'Bext Coding History',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171345
+             * line : 117547
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BextCodingHistory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BextCodingHistory',
             'desc' => [
+                'en' => 'Bext Coding History',
             ],
         ],
     ];

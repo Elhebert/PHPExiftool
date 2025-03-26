@@ -28,13 +28,14 @@ class CustomDefaultUnsharpThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Default Unsharp Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83757
+             * line : 61399
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomDefaultUnsharpThreshold extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomDefaultUnsharpThreshold',
             'desc' => [
+                'en' => 'Custom Default Unsharp Threshold',
             ],
         ],
     ];

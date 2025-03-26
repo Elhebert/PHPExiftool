@@ -28,13 +28,14 @@ class AmbientTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ambient Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::ThermalParams
-             * line : 104581
+             * line : 77625
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AmbientTemperature extends AbstractTagGroup
              */
             'id' => 'DJI::ThermalParams.DJI:AmbientTemperature',
             'desc' => [
+                'en' => 'Ambient Temperature',
             ],
         ],
     ];

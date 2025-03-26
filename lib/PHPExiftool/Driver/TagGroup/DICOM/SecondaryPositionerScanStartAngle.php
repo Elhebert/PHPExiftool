@@ -28,13 +28,14 @@ class SecondaryPositionerScanStartAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Positioner Scan Start Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97252
+             * line : 70648
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryPositionerScanStartAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryPositionerScanStartAngle',
             'desc' => [
+                'en' => 'Secondary Positioner Scan Start Angle',
             ],
         ],
     ];

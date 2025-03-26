@@ -28,13 +28,14 @@ class RecordLocationData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Location Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201936
+             * line : 136811
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordLocationData extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:RecordLocationData',
             'desc' => [
+                'en' => 'Record Location Data',
             ],
         ],
     ];

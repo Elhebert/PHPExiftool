@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -29,7 +30,7 @@ class MonoTest extends TestCase
     /**
      * @covers Mono::getType
      */
-    public function testGetType(): void
+    public function test_get_type(): void
     {
         $this->assertEquals(ValueInterface::TYPE_MONO, $this->object->getType());
     }
@@ -37,7 +38,7 @@ class MonoTest extends TestCase
     /**
      * @covers Mono::asString
      */
-    public function testAsString(): void
+    public function test_as_string(): void
     {
         $this->assertEquals('Hello !', $this->object->asString());
     }
@@ -45,7 +46,7 @@ class MonoTest extends TestCase
     /**
      * @covers Mono::set
      */
-    public function testSetValue(): void
+    public function test_set_value(): void
     {
         $this->object->set('World !');
         $this->assertEquals('World !', $this->object->asString());

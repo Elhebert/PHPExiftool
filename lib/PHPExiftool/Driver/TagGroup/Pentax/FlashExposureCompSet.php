@@ -28,13 +28,14 @@ class FlashExposureCompSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp. Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 283009
+             * line : 196463
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureCompSet extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:FlashExposureCompSet',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting',
             ],
         ],
     ];

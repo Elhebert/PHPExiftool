@@ -28,13 +28,14 @@ class RangeMaskMapInfoLumEq extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Range Mask Map Info Lum Eq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403943
+             * line : 287060
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RangeMaskMapInfoLumEq extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RangeMaskMapInfoLumEq',
             'desc' => [
+                'en' => 'Range Mask Map Info Lum Eq',
             ],
         ],
     ];

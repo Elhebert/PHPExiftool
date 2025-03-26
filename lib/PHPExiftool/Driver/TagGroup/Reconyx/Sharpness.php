@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330751
+             * line : 232689
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331227
+             * line : 232941
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

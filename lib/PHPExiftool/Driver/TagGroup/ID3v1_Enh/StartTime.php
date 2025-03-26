@@ -28,13 +28,14 @@ class StartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v1_Enh
-             * line : 148007
+             * line : 102874
              * type : string
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class StartTime extends AbstractTagGroup
              */
             'id' => 'ID3::v1_Enh.ID3v1_Enh:StartTime',
             'desc' => [
+                'en' => 'Start Time',
             ],
         ],
     ];

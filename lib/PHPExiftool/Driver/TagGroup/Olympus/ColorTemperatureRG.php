@@ -28,13 +28,14 @@ class ColorTemperatureRG extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature RG',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258714
+             * line : 178630
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperatureRG extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ColorTemperatureRG',
             'desc' => [
+                'en' => 'Color Temperature RG',
             ],
         ],
     ];

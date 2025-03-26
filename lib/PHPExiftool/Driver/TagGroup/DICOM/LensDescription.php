@@ -28,13 +28,14 @@ class LensDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100654
+             * line : 73824
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LensDescription',
             'desc' => [
+                'en' => 'Lens Description',
             ],
         ],
     ];

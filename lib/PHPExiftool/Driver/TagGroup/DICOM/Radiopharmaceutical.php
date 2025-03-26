@@ -28,13 +28,14 @@ class Radiopharmaceutical extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiopharmaceutical',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95455
+             * line : 68914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Radiopharmaceutical extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Radiopharmaceutical',
             'desc' => [
+                'en' => 'Radiopharmaceutical',
             ],
         ],
     ];

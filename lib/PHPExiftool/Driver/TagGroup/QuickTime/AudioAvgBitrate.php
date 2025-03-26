@@ -28,13 +28,14 @@ class AudioAvgBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Avg Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioProf
-             * line : 310402
+             * line : 216309
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioAvgBitrate extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioProf.QuickTime:AudioAvgBitrate',
             'desc' => [
+                'en' => 'Audio Avg Bitrate',
             ],
         ],
     ];

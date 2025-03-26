@@ -28,13 +28,14 @@ class FaceDetected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Face Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139482
+             * line : 97623
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FaceDetected extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:FaceDetected',
             'desc' => [
+                'en' => 'Face Detected',
             ],
         ],
     ];

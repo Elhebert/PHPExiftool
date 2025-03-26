@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::nine
-             * line : 210067
+             * line : 141475
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'Nikon::nine.XMP-nine:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

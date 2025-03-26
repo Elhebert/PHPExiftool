@@ -28,13 +28,14 @@ class BitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::NewHeader
-             * line : 369
+             * line : 168
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerSample extends AbstractTagGroup
              */
             'id' => 'APE::NewHeader.MAC:BitsPerSample',
             'desc' => [
+                'en' => 'Bits Per Sample',
             ],
         ],
     ];

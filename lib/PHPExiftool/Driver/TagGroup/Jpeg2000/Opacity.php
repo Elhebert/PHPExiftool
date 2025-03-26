@@ -28,13 +28,14 @@ class Opacity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Opacity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154270
+             * line : 105924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Opacity extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:Opacity',
             'desc' => [
+                'en' => 'Opacity',
             ],
         ],
     ];

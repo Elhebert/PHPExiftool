@@ -28,13 +28,14 @@ class FrameSameArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Same Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264894
+             * line : 183119
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameSameArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FrameSameArc',
             'desc' => [
+                'en' => 'Frame Same Arc',
             ],
         ],
     ];

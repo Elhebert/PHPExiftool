@@ -28,13 +28,14 @@ class FlashType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196705
+             * line : 132860
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashType extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:FlashType',
             'desc' => [
+                'en' => 'Flash Type',
             ],
         ],
     ];

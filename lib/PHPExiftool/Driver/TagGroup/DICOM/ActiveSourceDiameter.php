@@ -28,13 +28,14 @@ class ActiveSourceDiameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Source Diameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103544
+             * line : 76638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveSourceDiameter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActiveSourceDiameter',
             'desc' => [
+                'en' => 'Active Source Diameter',
             ],
         ],
     ];

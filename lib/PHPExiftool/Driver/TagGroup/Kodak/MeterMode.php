@@ -28,13 +28,14 @@ class MeterMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meter Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159733
+             * line : 109482
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeterMode extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:MeterMode',
             'desc' => [
+                'en' => 'Meter Mode',
             ],
         ],
     ];

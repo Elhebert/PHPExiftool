@@ -28,13 +28,14 @@ class RawCFAComponentAverages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw CFA Component Averages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155993
+             * line : 107204
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawCFAComponentAverages extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RawCFAComponentAverages',
             'desc' => [
+                'en' => 'Raw CFA Component Averages',
             ],
         ],
     ];

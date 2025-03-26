@@ -28,13 +28,14 @@ class RepresentativeImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Representative Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394635
+             * line : 279566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepresentativeImage extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:RepresentativeImage',
             'desc' => [
+                'en' => 'Representative Image',
             ],
         ],
     ];

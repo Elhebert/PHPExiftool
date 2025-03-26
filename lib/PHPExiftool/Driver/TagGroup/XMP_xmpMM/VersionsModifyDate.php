@@ -28,13 +28,14 @@ class VersionsModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Versions Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414334
+             * line : 292339
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionsModifyDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:VersionsModifyDate',
             'desc' => [
+                'en' => 'Versions Modify Date',
             ],
         ],
     ];

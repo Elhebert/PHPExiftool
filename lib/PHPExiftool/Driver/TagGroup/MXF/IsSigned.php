@@ -28,13 +28,14 @@ class IsSigned extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Signed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168899
+             * line : 115364
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsSigned extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsSigned',
             'desc' => [
+                'en' => 'Is Signed',
             ],
         ],
     ];

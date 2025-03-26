@@ -28,13 +28,14 @@ class RawCustomTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Custom Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82331
+             * line : 60305
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawCustomTone extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RawCustomTone',
             'desc' => [
+                'en' => 'Raw Custom Tone',
             ],
         ],
     ];

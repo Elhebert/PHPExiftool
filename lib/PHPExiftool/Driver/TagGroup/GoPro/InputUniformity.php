@@ -28,13 +28,14 @@ class InputUniformity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Uniformity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139816
+             * line : 97773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputUniformity extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:InputUniformity',
             'desc' => [
+                'en' => 'Input Uniformity',
             ],
         ],
     ];

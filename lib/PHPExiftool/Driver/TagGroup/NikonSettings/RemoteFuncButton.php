@@ -28,13 +28,14 @@ class RemoteFuncButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Remote Func Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244911
+             * line : 167670
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RemoteFuncButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RemoteFuncButton',
             'desc' => [
+                'en' => 'Remote Func Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244952
+             * line : 167711
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RemoteFuncButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RemoteFuncButton',
             'desc' => [
+                'en' => 'Remote Func Button',
             ],
         ],
     ];

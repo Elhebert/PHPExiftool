@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142617
+             * line : 98560
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LightSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260995
+             * line : 180252
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightSource extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:LightSource',
             'desc' => [
+                'en' => 'Light Source',
             ],
         ],
     ];

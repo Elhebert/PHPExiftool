@@ -28,13 +28,14 @@ class DefaultScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Default Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119001
+             * line : 84141
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class DefaultScale extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:DefaultScale',
             'desc' => [
+                'en' => 'Default Scale',
             ],
         ],
     ];

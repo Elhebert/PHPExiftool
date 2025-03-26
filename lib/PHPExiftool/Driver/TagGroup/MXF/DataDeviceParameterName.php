@@ -28,13 +28,14 @@ class DataDeviceParameterName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Device Parameter Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168192
+             * line : 114689
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataDeviceParameterName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DataDeviceParameterName',
             'desc' => [
+                'en' => 'Data Device Parameter Name',
             ],
         ],
     ];

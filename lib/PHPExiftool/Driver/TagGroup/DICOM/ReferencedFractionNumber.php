@@ -28,13 +28,14 @@ class ReferencedFractionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Fraction Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102918
+             * line : 76014
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedFractionNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedFractionNumber',
             'desc' => [
+                'en' => 'Referenced Fraction Number',
             ],
         ],
     ];

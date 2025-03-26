@@ -28,13 +28,14 @@ class OverlaySubtype extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Subtype',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104297
+             * line : 77370
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlaySubtype extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlaySubtype',
             'desc' => [
+                'en' => 'Overlay Subtype',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MariahSigmaThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mariah Sigma Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156834
+             * line : 108038
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MariahSigmaThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MariahSigmaThreshold',
             'desc' => [
+                'en' => 'Mariah Sigma Threshold',
             ],
         ],
     ];

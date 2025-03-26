@@ -28,13 +28,14 @@ class DateTimeDigitized extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date/Time Digitized',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405363
+             * line : 287882
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateTimeDigitized extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:DateTimeDigitized',
             'desc' => [
+                'en' => 'Date/Time Digitized',
             ],
         ],
     ];

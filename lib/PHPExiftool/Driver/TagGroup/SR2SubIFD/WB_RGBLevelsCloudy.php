@@ -28,13 +28,14 @@ class WB_RGBLevelsCloudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361730
+             * line : 251889
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WB_RGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGB Levels Cloudy',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361812
+             * line : 251922
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WB_RGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGB Levels Cloudy',
             ],
         ],
     ];

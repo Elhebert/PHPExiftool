@@ -28,13 +28,14 @@ class TransformVersionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transform Version Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98840
+             * line : 72111
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransformVersionNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransformVersionNumber',
             'desc' => [
+                'en' => 'Transform Version Number',
             ],
         ],
     ];

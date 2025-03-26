@@ -28,13 +28,14 @@ class Application extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Main
-             * line : 121746
+             * line : 85330
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Application extends AbstractTagGroup
              */
             'id' => 'FLAC::Main.FLAC:Application',
             'desc' => [
+                'en' => 'Application',
             ],
         ],
     ];

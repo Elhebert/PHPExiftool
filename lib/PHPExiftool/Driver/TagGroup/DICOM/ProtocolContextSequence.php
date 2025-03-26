@@ -28,13 +28,14 @@ class ProtocolContextSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Protocol Context Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99768
+             * line : 72972
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProtocolContextSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProtocolContextSequence',
             'desc' => [
+                'en' => 'Protocol Context Sequence',
             ],
         ],
     ];

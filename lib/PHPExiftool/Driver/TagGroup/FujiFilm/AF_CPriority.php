@@ -28,13 +28,14 @@ class AF_CPriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-C Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::PrioritySettings
-             * line : 131040
+             * line : 90507
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_CPriority extends AbstractTagGroup
              */
             'id' => 'FujiFilm::PrioritySettings.FujiFilm:AF-CPriority',
             'desc' => [
+                'en' => 'AF-C Priority',
             ],
         ],
     ];

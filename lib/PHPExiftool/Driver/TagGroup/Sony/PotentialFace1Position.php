@@ -28,13 +28,14 @@ class PotentialFace1Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Potential Face 1 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FaceInfoA
-             * line : 352804
+             * line : 246319
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class PotentialFace1Position extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfoA.Sony:PotentialFace1Position',
             'desc' => [
+                'en' => 'Potential Face 1 Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TravelDay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Travel Day',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276715
+             * line : 192640
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TravelDay extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TravelDay',
             'desc' => [
+                'en' => 'Travel Day',
             ],
         ],
     ];

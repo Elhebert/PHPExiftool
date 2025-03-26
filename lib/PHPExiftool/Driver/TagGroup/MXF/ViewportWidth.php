@@ -28,13 +28,14 @@ class ViewportWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewport Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168377
+             * line : 114872
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewportWidth extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ViewportWidth',
             'desc' => [
+                'en' => 'Viewport Width',
             ],
         ],
     ];

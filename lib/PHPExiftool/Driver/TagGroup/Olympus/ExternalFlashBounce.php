@@ -28,13 +28,14 @@ class ExternalFlashBounce extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Bounce',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255019
+             * line : 176046
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExternalFlashBounce extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:ExternalFlashBounce',
             'desc' => [
+                'en' => 'External Flash Bounce',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258903
+             * line : 178719
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExternalFlashBounce extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ExternalFlashBounce',
             'desc' => [
+                'en' => 'External Flash Bounce',
             ],
         ],
     ];

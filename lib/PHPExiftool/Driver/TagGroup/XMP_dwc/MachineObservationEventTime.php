@@ -28,13 +28,14 @@ class MachineObservationEventTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Event Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106385
+             * line : 78686
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationEventTime extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationEventTime',
             'desc' => [
+                'en' => 'Machine Observation Event Time',
             ],
         ],
     ];

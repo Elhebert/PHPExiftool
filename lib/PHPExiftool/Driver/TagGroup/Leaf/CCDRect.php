@@ -28,13 +28,14 @@ class CCDRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CCD Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161669
+             * line : 110434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CCDRect extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CCDRect',
             'desc' => [
+                'en' => 'CCD Rect',
             ],
         ],
     ];

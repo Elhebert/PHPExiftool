@@ -28,13 +28,14 @@ class FlashLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217161
+             * line : 145917
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashLevel extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:FlashLevel',
             'desc' => [
+                'en' => 'Flash Level',
             ],
         ],
     ];

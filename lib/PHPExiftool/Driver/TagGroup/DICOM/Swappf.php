@@ -28,13 +28,14 @@ class Swappf extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Swappf',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97598
+             * line : 70981
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Swappf extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Swappf',
             'desc' => [
+                'en' => 'Swappf',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensDriveWhenAFImpossible extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Drive When AF Impossible',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3888
+             * line : 2411
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensDriveWhenAFImpossible extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:LensDriveWhenAFImpossible',
             'desc' => [
+                'en' => 'Lens Drive When AF Impossible',
             ],
         ],
     ];

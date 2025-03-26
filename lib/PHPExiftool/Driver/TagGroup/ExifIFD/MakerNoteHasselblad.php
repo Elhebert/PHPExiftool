@@ -28,13 +28,14 @@ class MakerNoteHasselblad extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Hasselblad',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104804
+             * line : 77765
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteHasselblad extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteHasselblad',
             'desc' => [
+                'en' => 'Maker Note Hasselblad',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115765
+             * line : 83058
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteHasselblad extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteHasselblad',
             'desc' => [
+                'en' => 'Maker Note Hasselblad',
             ],
         ],
     ];

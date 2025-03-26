@@ -28,13 +28,14 @@ class MachineObservationEndDayOfYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation End Day Of Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106369
+             * line : 78674
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationEndDayOfYear extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationEndDayOfYear',
             'desc' => [
+                'en' => 'Machine Observation End Day Of Year',
             ],
         ],
     ];

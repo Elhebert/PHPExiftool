@@ -28,13 +28,14 @@ class ImageStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347659
+             * line : 243381
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageStyle extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ImageStyle',
             'desc' => [
+                'en' => 'Image Style',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349090
+             * line : 244014
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ImageStyle extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ImageStyle',
             'desc' => [
+                'en' => 'Image Style',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InputInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99968
+             * line : 73170
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InputInformationSequence',
             'desc' => [
+                'en' => 'Input Information Sequence',
             ],
         ],
     ];

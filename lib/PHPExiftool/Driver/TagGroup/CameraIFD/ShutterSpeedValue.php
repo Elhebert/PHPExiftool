@@ -28,13 +28,14 @@ class ShutterSpeedValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279786
+             * line : 194304
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedValue extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:ShutterSpeedValue',
             'desc' => [
+                'en' => 'Shutter Speed Value',
             ],
         ],
     ];

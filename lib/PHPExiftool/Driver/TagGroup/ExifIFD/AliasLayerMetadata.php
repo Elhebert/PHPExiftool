@@ -28,13 +28,14 @@ class AliasLayerMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alias Layer Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119947
+             * line : 84375
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AliasLayerMetadata extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AliasLayerMetadata',
             'desc' => [
+                'en' => 'Alias Layer Metadata',
             ],
         ],
     ];

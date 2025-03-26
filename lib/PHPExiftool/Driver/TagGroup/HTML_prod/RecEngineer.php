@@ -28,13 +28,14 @@ class RecEngineer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rec Engineer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::prod
-             * line : 143067
+             * line : 98798
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecEngineer extends AbstractTagGroup
              */
             'id' => 'HTML::prod.HTML-prod:RecEngineer',
             'desc' => [
+                'en' => 'Rec Engineer',
             ],
         ],
     ];

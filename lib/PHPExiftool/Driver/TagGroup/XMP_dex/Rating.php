@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dex
-             * line : 404963
+             * line : 287752
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'XMP::dex.XMP-dex:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

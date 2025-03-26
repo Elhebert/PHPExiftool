@@ -28,13 +28,14 @@ class OriginalRawResource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Raw Resource',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105260
+             * line : 78012
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalRawResource extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalRawResource',
             'desc' => [
+                'en' => 'Original Raw Resource',
             ],
         ],
     ];

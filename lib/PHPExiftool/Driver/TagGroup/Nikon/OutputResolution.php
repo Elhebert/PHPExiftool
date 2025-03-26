@@ -28,13 +28,14 @@ class OutputResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Output Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::CaptureOutput
-             * line : 191920
+             * line : 130084
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutputResolution extends AbstractTagGroup
              */
             'id' => 'Nikon::CaptureOutput.Nikon:OutputResolution',
             'desc' => [
+                'en' => 'Output Resolution',
             ],
         ],
     ];

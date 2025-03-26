@@ -28,13 +28,14 @@ class Alignment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alignment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273663
+             * line : 190845
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Alignment extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Alignment',
             'desc' => [
+                'en' => 'Alignment',
             ],
         ],
     ];

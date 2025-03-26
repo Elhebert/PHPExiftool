@@ -28,13 +28,14 @@ class BrightnessValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258403
+             * line : 178530
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
     ];

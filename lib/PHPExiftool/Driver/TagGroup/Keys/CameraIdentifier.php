@@ -28,13 +28,14 @@ class CameraIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323314
+             * line : 228592
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraIdentifier extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:CameraIdentifier',
             'desc' => [
+                'en' => 'Camera Identifier',
             ],
         ],
     ];

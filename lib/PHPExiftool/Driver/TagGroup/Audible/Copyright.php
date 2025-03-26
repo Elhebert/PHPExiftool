@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::Main
-             * line : 3005
+             * line : 1924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Audible::Main.Audible:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AsShotNeutral extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'As Shot Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119107
+             * line : 84171
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AsShotNeutral extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:AsShotNeutral',
             'desc' => [
+                'en' => 'As Shot Neutral',
             ],
         ],
     ];

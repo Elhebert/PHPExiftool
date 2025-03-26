@@ -28,13 +28,14 @@ class CacheVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cache Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120605
+             * line : 84730
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class CacheVersion extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD2:CacheVersion',
             'desc' => [
+                'en' => 'Cache Version',
             ],
         ],
     ];

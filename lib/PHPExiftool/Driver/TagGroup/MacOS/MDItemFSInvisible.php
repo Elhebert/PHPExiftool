@@ -28,13 +28,14 @@ class MDItemFSInvisible extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Invisible',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172726
+             * line : 118838
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSInvisible extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSInvisible',
             'desc' => [
+                'en' => 'MD Item FS Invisible',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Landmark extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Landmark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277433
+             * line : 192954
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Landmark extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Landmark',
             'desc' => [
+                'en' => 'Landmark',
             ],
         ],
     ];

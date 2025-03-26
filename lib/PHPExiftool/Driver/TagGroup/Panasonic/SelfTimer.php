@@ -28,13 +28,14 @@ class SelfTimer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276464
+             * line : 192532
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfTimer extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:SelfTimer',
             'desc' => [
+                'en' => 'Self Timer',
             ],
         ],
     ];

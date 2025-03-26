@@ -28,13 +28,14 @@ class PF21EnableQuietOperation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF21 Enable Quiet Operation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78410
+             * line : 57111
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF21EnableQuietOperation extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF21EnableQuietOperation',
             'desc' => [
+                'en' => 'PF21 Enable Quiet Operation',
             ],
         ],
     ];

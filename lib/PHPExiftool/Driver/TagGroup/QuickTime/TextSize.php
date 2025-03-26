@@ -28,13 +28,14 @@ class TextSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TCMediaInfo
-             * line : 324989
+             * line : 229458
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::TCMediaInfo.QuickTime:TextSize',
             'desc' => [
+                'en' => 'Text Size',
             ],
         ],
     ];

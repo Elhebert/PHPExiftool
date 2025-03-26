@@ -28,13 +28,14 @@ class MDItemEXIFGPSVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item EXIF GPS Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172674
+             * line : 118799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemEXIFGPSVersion extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemEXIFGPSVersion',
             'desc' => [
+                'en' => 'MD Item EXIF GPS Version',
             ],
         ],
     ];

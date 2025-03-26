@@ -28,13 +28,14 @@ class TripletSequenceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Triplet Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172127
+             * line : 118294
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TripletSequenceNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TripletSequenceNumber',
             'desc' => [
+                'en' => 'Triplet Sequence Number',
             ],
         ],
     ];

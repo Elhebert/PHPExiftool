@@ -28,13 +28,14 @@ class CropHiSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Hi Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196841
+             * line : 132902
              * type : int16u
              * writable : true
              * count : 7
@@ -42,12 +43,13 @@ class CropHiSpeed extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:CropHiSpeed',
             'desc' => [
+                'en' => 'Crop Hi Speed',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203179
+             * line : 137129
              * type : int16u
              * writable : true
              * count : 7
@@ -55,6 +57,7 @@ class CropHiSpeed extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:CropHiSpeed',
             'desc' => [
+                'en' => 'Crop Hi Speed',
             ],
         ],
     ];

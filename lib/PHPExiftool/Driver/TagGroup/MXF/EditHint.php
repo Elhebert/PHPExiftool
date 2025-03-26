@@ -28,13 +28,14 @@ class EditHint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edit Hint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169397
+             * line : 115803
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditHint extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EditHint',
             'desc' => [
+                'en' => 'Edit Hint',
             ],
         ],
     ];

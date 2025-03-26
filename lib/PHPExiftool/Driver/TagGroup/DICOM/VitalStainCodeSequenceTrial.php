@@ -28,13 +28,14 @@ class VitalStainCodeSequenceTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vital Stain Code Sequence Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99836
+             * line : 73038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VitalStainCodeSequenceTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VitalStainCodeSequenceTrial',
             'desc' => [
+                'en' => 'Vital Stain Code Sequence Trial',
             ],
         ],
     ];

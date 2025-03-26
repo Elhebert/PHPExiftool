@@ -28,13 +28,14 @@ class NativeDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Native Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411854
+             * line : 290709
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NativeDigest extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:NativeDigest',
             'desc' => [
+                'en' => 'Native Digest',
             ],
         ],
     ];

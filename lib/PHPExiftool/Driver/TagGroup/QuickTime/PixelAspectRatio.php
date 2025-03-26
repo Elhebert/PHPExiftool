@@ -28,13 +28,14 @@ class PixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 314025
+             * line : 219681
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemPropCont
-             * line : 323224
+             * line : 228542
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemPropCont.QuickTime:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::VideoProf
-             * line : 326285
+             * line : 230197
              * type : int16u
              * writable : false
              * count : 2
@@ -68,6 +71,7 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoProf.QuickTime:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
     ];

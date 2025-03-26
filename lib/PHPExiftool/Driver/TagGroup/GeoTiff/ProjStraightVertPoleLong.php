@@ -28,13 +28,14 @@ class ProjStraightVertPoleLong extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Straight Vert Pole Long',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138746
+             * line : 96995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjStraightVertPoleLong extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjStraightVertPoleLong',
             'desc' => [
+                'en' => 'Proj Straight Vert Pole Long',
             ],
         ],
     ];

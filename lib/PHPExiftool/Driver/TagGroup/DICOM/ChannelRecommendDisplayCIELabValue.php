@@ -28,13 +28,14 @@ class ChannelRecommendDisplayCIELabValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Recommend Display CIE Lab Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99554
+             * line : 72765
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelRecommendDisplayCIELabValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelRecommendDisplayCIELabValue',
             'desc' => [
+                'en' => 'Channel Recommend Display CIE Lab Value',
             ],
         ],
     ];

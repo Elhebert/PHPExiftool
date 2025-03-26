@@ -28,13 +28,14 @@ class NumberOfTableBreakPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Table Break Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96367
+             * line : 69775
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTableBreakPoints extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTableBreakPoints',
             'desc' => [
+                'en' => 'Number Of Table Break Points',
             ],
         ],
     ];

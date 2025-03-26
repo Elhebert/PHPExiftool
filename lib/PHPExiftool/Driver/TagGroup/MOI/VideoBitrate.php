@@ -28,13 +28,14 @@ class VideoBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MOI::Main
-             * line : 165490
+             * line : 112531
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoBitrate extends AbstractTagGroup
              */
             'id' => 'MOI::Main.MOI:VideoBitrate',
             'desc' => [
+                'en' => 'Video Bitrate',
             ],
         ],
     ];

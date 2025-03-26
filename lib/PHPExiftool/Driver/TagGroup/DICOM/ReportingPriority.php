@@ -28,13 +28,14 @@ class ReportingPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reporting Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99863
+             * line : 73065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReportingPriority extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReportingPriority',
             'desc' => [
+                'en' => 'Reporting Priority',
             ],
         ],
     ];

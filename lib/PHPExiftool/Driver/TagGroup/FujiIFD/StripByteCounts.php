@@ -28,13 +28,14 @@ class StripByteCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Byte Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128689
+             * line : 89300
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StripByteCounts extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:StripByteCounts',
             'desc' => [
+                'en' => 'Strip Byte Counts',
             ],
         ],
     ];

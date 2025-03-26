@@ -28,13 +28,14 @@ class LandscapeRawContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Landscape Raw Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82833
+             * line : 60671
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LandscapeRawContrast extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LandscapeRawContrast',
             'desc' => [
+                'en' => 'Landscape Raw Contrast',
             ],
         ],
     ];

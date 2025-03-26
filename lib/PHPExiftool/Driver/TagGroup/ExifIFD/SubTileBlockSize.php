@@ -28,13 +28,14 @@ class SubTileBlockSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub Tile Block Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120320
+             * line : 84508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubTileBlockSize extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SubTileBlockSize',
             'desc' => [
+                'en' => 'Sub Tile Block Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OverlayOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104300
+             * line : 77373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayOrigin extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayOrigin',
             'desc' => [
+                'en' => 'Overlay Origin',
             ],
         ],
     ];

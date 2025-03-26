@@ -28,13 +28,14 @@ class Speed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v1_Enh
-             * line : 147978
+             * line : 102854
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Speed extends AbstractTagGroup
              */
             'id' => 'ID3::v1_Enh.ID3v1_Enh:Speed',
             'desc' => [
+                'en' => 'Speed',
             ],
         ],
     ];

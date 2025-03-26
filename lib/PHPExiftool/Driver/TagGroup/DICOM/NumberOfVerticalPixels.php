@@ -28,13 +28,14 @@ class NumberOfVerticalPixels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Vertical Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101557
+             * line : 74703
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfVerticalPixels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfVerticalPixels',
             'desc' => [
+                'en' => 'Number Of Vertical Pixels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecommendedExposureIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recommended Exposure Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113938
+             * line : 82633
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecommendedExposureIndex extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:RecommendedExposureIndex',
             'desc' => [
+                'en' => 'Recommended Exposure Index',
             ],
         ],
     ];

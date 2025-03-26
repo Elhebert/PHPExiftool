@@ -28,13 +28,14 @@ class TracksFrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tracks Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413541
+             * line : 291619
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TracksFrameRate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TracksFrameRate',
             'desc' => [
+                'en' => 'Tracks Frame Rate',
             ],
         ],
     ];

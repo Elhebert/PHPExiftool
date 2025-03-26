@@ -28,13 +28,14 @@ class BinningHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Binning Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166595
+             * line : 113334
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BinningHeight extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:BinningHeight',
             'desc' => [
+                'en' => 'Binning Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DecayFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decay Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101022
+             * line : 74172
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecayFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DecayFactor',
             'desc' => [
+                'en' => 'Decay Factor',
             ],
         ],
     ];

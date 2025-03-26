@@ -28,13 +28,14 @@ class USBPowerDelivery extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'USB Power Delivery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248577
+             * line : 171265
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class USBPowerDelivery extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:USBPowerDelivery',
             'desc' => [
+                'en' => 'USB Power Delivery',
             ],
         ],
     ];

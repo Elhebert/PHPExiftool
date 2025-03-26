@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4562
+             * line : 2838
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 9165
+             * line : 6307
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 13581
+             * line : 9747
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 17944
+             * line : 13163
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 19965
+             * line : 14792
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 21999
+             * line : 16427
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24051
+             * line : 18070
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26353
+             * line : 19824
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 28652
+             * line : 21575
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 32277
+             * line : 24742
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35054
+             * line : 26771
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 37305
+             * line : 28497
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 39514
+             * line : 30223
              * type : int8u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 41650
+             * line : 31909
              * type : int8u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 43403
+             * line : 33461
              * type : int8u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 45561
+             * line : 35156
              * type : int8u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 47696
+             * line : 36842
              * type : int8u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 49396
+             * line : 38380
              * type : int8u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51596
+             * line : 40103
              * type : int8u
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 53685
+             * line : 41761
              * type : int8u
              * writable : true
              * count :
@@ -289,12 +309,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         20 => [
             /**
              * table_name : Canon::CameraInfoPowerShot
-             * line : 55397
+             * line : 43302
              * type : int32s
              * writable : true
              * count :
@@ -302,12 +323,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         21 => [
             /**
              * table_name : Canon::CameraInfoPowerShot
-             * line : 55408
+             * line : 43305
              * type : int32s
              * writable : true
              * count :
@@ -315,12 +337,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         22 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55486
+             * line : 43324
              * type : int32s
              * writable : true
              * count :
@@ -328,12 +351,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         23 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55497
+             * line : 43327
              * type : int32s
              * writable : true
              * count :
@@ -341,12 +365,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         24 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55508
+             * line : 43330
              * type : int32s
              * writable : true
              * count :
@@ -354,12 +379,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         25 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55519
+             * line : 43333
              * type : int32s
              * writable : true
              * count :
@@ -367,12 +393,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         26 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55530
+             * line : 43336
              * type : int32s
              * writable : true
              * count :
@@ -380,12 +407,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         27 => [
             /**
              * table_name : Canon::CameraInfoUnknown32
-             * line : 55571
+             * line : 43353
              * type : int32s
              * writable : true
              * count :
@@ -393,12 +421,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown32.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         28 => [
             /**
              * table_name : Canon::CameraInfoUnknown32
-             * line : 55582
+             * line : 43356
              * type : int32s
              * writable : true
              * count :
@@ -406,12 +435,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown32.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         29 => [
             /**
              * table_name : Canon::CameraInfoUnknown32
-             * line : 55593
+             * line : 43359
              * type : int32s
              * writable : true
              * count :
@@ -419,12 +449,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown32.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         30 => [
             /**
              * table_name : Canon::CameraInfoUnknown32
-             * line : 55604
+             * line : 43362
              * type : int32s
              * writable : true
              * count :
@@ -432,12 +463,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown32.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         31 => [
             /**
              * table_name : Canon::CameraInfoUnknown32
-             * line : 55615
+             * line : 43365
              * type : int32s
              * writable : true
              * count :
@@ -445,12 +477,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown32.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         32 => [
             /**
              * table_name : Canon::CameraInfoUnknown32
-             * line : 55626
+             * line : 43368
              * type : int32s
              * writable : true
              * count :
@@ -458,12 +491,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown32.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         33 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70540
+             * line : 52754
              * type : int16s
              * writable : true
              * count :
@@ -471,6 +505,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MelodicPolyphony extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Melodic Polyphony',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::MIDIControl
-             * line : 131288
+             * line : 90655
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MelodicPolyphony extends AbstractTagGroup
              */
             'id' => 'GIF::MIDIControl.GIF:MelodicPolyphony',
             'desc' => [
+                'en' => 'Melodic Polyphony',
             ],
         ],
     ];

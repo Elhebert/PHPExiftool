@@ -28,13 +28,14 @@ class FilmSessionLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Session Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101996
+             * line : 75135
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmSessionLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilmSessionLabel',
             'desc' => [
+                'en' => 'Film Session Label',
             ],
         ],
     ];

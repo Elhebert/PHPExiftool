@@ -28,13 +28,14 @@ class PF5ApertureLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF5 Aperture Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78368
+             * line : 57069
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF5ApertureLimits extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF5ApertureLimits',
             'desc' => [
+                'en' => 'PF5 Aperture Limits',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InstrumentMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instrument Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166467
+             * line : 113208
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstrumentMode extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:InstrumentMode',
             'desc' => [
+                'en' => 'Instrument Mode',
             ],
         ],
     ];

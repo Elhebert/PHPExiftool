@@ -28,13 +28,14 @@ class RASLetterForSideOfImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RAS Letter For Side Of Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98581
+             * line : 71911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RASLetterForSideOfImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RASLetterForSideOfImage',
             'desc' => [
+                'en' => 'RAS Letter For Side Of Image',
             ],
         ],
     ];

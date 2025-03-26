@@ -28,13 +28,14 @@ class ColorantOrderOut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorant Order Out',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146243
+             * line : 101679
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorantOrderOut extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ColorantOrderOut',
             'desc' => [
+                'en' => 'Colorant Order Out',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetouchHistory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197565
+             * line : 133243
              * type : int16u
              * writable : true
              * count : 10
@@ -42,6 +43,7 @@ class RetouchHistory extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:RetouchHistory',
             'desc' => [
+                'en' => 'Retouch History',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PhotometricInterpretation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photometric Interpretation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110310
+             * line : 81362
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotometricInterpretation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PhotometricInterpretation',
             'desc' => [
+                'en' => 'Photometric Interpretation',
             ],
         ],
     ];

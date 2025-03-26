@@ -28,13 +28,14 @@ class DeliveryVerificationImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivery Verification Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101754
+             * line : 74895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveryVerificationImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveryVerificationImageSequence',
             'desc' => [
+                'en' => 'Delivery Verification Image Sequence',
             ],
         ],
     ];

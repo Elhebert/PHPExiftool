@@ -28,13 +28,14 @@ class MovieFocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200303
+             * line : 135267
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieFocusMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieFocusMode',
             'desc' => [
+                'en' => 'Movie Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201561
+             * line : 136455
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MovieFocusMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieFocusMode',
             'desc' => [
+                'en' => 'Movie Focus Mode',
             ],
         ],
     ];

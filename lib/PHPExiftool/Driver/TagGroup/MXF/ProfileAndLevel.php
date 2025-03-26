@@ -28,13 +28,14 @@ class ProfileAndLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile And Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171262
+             * line : 117470
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileAndLevel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProfileAndLevel',
             'desc' => [
+                'en' => 'Profile And Level',
             ],
         ],
     ];

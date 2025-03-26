@@ -28,13 +28,14 @@ class FilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203761
+             * line : 137376
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FilterEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:FilterEffect',
             'desc' => [
+                'en' => 'Filter Effect',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204084
+             * line : 137488
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FilterEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:FilterEffect',
             'desc' => [
+                'en' => 'Filter Effect',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204410
+             * line : 137603
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FilterEffect extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:FilterEffect',
             'desc' => [
+                'en' => 'Filter Effect',
             ],
         ],
     ];

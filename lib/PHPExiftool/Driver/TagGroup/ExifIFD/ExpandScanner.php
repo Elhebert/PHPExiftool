@@ -28,13 +28,14 @@ class ExpandScanner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expand Scanner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118037
+             * line : 83733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpandScanner extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExpandScanner',
             'desc' => [
+                'en' => 'Expand Scanner',
             ],
         ],
     ];

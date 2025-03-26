@@ -28,13 +28,14 @@ class AssignMoviePreviewButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Movie Preview Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219315
+             * line : 147659
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignMoviePreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignMoviePreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Preview Button Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221775
+             * line : 149701
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AssignMoviePreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMoviePreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Preview Button Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233688
+             * line : 157532
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AssignMoviePreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMoviePreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Preview Button Plus Dials',
             ],
         ],
     ];

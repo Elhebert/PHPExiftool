@@ -28,13 +28,14 @@ class CircGradBasedCorrMaskMaskBlendMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Mask Mask Blend Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401689
+             * line : 284924
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrMaskMaskBlendMode extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrMaskMaskBlendMode',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Mask Mask Blend Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SequentialShot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequential Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336358
+             * line : 235753
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequentialShot extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SequentialShot',
             'desc' => [
+                'en' => 'Sequential Shot',
             ],
         ],
     ];

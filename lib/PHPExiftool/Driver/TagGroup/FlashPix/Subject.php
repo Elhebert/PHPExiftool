@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127129
+             * line : 88282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

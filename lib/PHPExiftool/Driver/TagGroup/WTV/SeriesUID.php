@@ -28,13 +28,14 @@ class SeriesUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396397
+             * line : 280635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesUID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:SeriesUID',
             'desc' => [
+                'en' => 'Series UID',
             ],
         ],
     ];

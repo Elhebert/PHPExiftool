@@ -28,13 +28,14 @@ class Client extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Client',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412988
+             * line : 291148
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Client extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Client',
             'desc' => [
+                'en' => 'Client',
             ],
         ],
     ];

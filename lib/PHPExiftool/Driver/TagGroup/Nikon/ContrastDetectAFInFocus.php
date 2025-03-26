@@ -28,13 +28,14 @@ class ContrastDetectAFInFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Detect AF In Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189978
+             * line : 128907
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastDetectAFInFocus extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:ContrastDetectAFInFocus',
             'desc' => [
+                'en' => 'Contrast Detect AF In Focus',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 191001
+             * line : 129808
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ContrastDetectAFInFocus extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:ContrastDetectAFInFocus',
             'desc' => [
+                'en' => 'Contrast Detect AF In Focus',
             ],
         ],
     ];

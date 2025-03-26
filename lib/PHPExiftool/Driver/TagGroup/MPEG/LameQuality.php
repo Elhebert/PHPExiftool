@@ -28,13 +28,14 @@ class LameQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lame Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Xing
-             * line : 166147
+             * line : 112970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LameQuality extends AbstractTagGroup
              */
             'id' => 'MPEG::Xing.MPEG:LameQuality',
             'desc' => [
+                'en' => 'Lame Quality',
             ],
         ],
     ];

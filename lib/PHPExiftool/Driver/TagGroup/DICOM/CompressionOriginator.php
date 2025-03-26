@@ -28,13 +28,14 @@ class CompressionOriginator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Originator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98723
+             * line : 71998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressionOriginator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompressionOriginator',
             'desc' => [
+                'en' => 'Compression Originator',
             ],
         ],
     ];

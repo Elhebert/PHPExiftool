@@ -28,13 +28,14 @@ class CountryCodeMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Country Code Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170459
+             * line : 116703
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CountryCodeMethod extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CountryCodeMethod',
             'desc' => [
+                'en' => 'Country Code Method',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172151
+             * line : 118318
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CountryCodeMethod extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CountryCodeMethod',
             'desc' => [
+                'en' => 'Country Code Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174658
+             * line : 120242
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175898
+             * line : 121050
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

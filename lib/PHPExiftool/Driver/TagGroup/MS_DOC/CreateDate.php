@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DOP
-             * line : 124272
+             * line : 86848
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::DOP.MS-DOC:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

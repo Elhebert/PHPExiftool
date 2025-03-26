@@ -28,13 +28,14 @@ class TextlessMaterial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Textless Material',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168687
+             * line : 115163
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextlessMaterial extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TextlessMaterial',
             'desc' => [
+                'en' => 'Textless Material',
             ],
         ],
     ];

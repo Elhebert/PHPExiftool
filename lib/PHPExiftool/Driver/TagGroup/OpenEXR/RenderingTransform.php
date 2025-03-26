@@ -28,13 +28,14 @@ class RenderingTransform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rendering Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263669
+             * line : 182386
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RenderingTransform extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:RenderingTransform',
             'desc' => [
+                'en' => 'Rendering Transform',
             ],
         ],
     ];

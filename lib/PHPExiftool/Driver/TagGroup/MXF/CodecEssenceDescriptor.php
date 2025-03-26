@@ -28,13 +28,14 @@ class CodecEssenceDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Essence Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169485
+             * line : 115887
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecEssenceDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodecEssenceDescriptor',
             'desc' => [
+                'en' => 'Codec Essence Descriptor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EXIF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EXIF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121026
+             * line : 84967
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EXIF extends AbstractTagGroup
              */
             'id' => 'Extra.EXIF:EXIF',
             'desc' => [
+                'en' => 'EXIF',
             ],
         ],
     ];

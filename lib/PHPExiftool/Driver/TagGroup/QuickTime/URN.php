@@ -28,13 +28,14 @@ class URN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::DataRef
-             * line : 312617
+             * line : 218492
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URN extends AbstractTagGroup
              */
             'id' => 'QuickTime::DataRef.QuickTime:URN',
             'desc' => [
+                'en' => 'URN',
             ],
         ],
     ];

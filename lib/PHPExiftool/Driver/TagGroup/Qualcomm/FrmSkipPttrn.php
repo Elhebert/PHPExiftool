@@ -28,13 +28,14 @@ class FrmSkipPttrn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frm Skip Pttrn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307416
+             * line : 213914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrmSkipPttrn extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:FrmSkipPttrn',
             'desc' => [
+                'en' => 'Frm Skip Pttrn',
             ],
         ],
     ];

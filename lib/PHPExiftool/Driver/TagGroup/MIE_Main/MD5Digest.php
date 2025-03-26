@@ -28,13 +28,14 @@ class MD5Digest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MD5 Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164072
+             * line : 111595
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MD5Digest extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:MD5Digest',
             'desc' => [
+                'en' => 'MD5 Digest',
             ],
         ],
     ];

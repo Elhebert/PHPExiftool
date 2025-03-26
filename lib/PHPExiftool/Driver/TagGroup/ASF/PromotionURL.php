@@ -28,13 +28,14 @@ class PromotionURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Promotion URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1512
+             * line : 733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PromotionURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:PromotionURL',
             'desc' => [
+                'en' => 'Promotion URL',
             ],
         ],
     ];

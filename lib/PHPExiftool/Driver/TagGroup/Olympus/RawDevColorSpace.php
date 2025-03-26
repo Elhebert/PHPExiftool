@@ -28,13 +28,14 @@ class RawDevColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260268
+             * line : 179793
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawDevColorSpace extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevColorSpace',
             'desc' => [
+                'en' => 'Raw Dev Color Space',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260476
+             * line : 179932
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawDevColorSpace extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevColorSpace',
             'desc' => [
+                'en' => 'Raw Dev Color Space',
             ],
         ],
     ];

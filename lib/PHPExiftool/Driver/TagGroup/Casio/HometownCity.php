@@ -28,13 +28,14 @@ class HometownCity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hometown City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 86243
+             * line : 62316
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HometownCity extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:HometownCity',
             'desc' => [
+                'en' => 'Hometown City',
             ],
         ],
     ];

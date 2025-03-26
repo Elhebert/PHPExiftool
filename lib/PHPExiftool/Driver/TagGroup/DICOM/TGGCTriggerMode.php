@@ -28,13 +28,14 @@ class TGGCTriggerMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TGGC Trigger Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100487
+             * line : 73659
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TGGCTriggerMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TGGCTriggerMode',
             'desc' => [
+                'en' => 'TGGC Trigger Mode',
             ],
         ],
     ];

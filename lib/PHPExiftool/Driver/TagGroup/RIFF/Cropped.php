@@ -28,13 +28,14 @@ class Cropped extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cropped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328207
+             * line : 231526
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Cropped extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Cropped',
             'desc' => [
+                'en' => 'Cropped',
             ],
         ],
     ];

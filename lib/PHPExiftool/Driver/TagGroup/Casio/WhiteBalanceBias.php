@@ -28,13 +28,14 @@ class WhiteBalanceBias extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85775
+             * line : 62145
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WhiteBalanceBias extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:WhiteBalanceBias',
             'desc' => [
+                'en' => 'White Balance Bias',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PF23PostReleaseTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF23 Post Release Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78313
+             * line : 57017
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF23PostReleaseTime extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF23PostReleaseTime',
             'desc' => [
+                'en' => 'PF23 Post Release Time',
             ],
         ],
     ];

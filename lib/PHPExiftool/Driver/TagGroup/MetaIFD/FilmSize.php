@@ -28,13 +28,14 @@ class FilmSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158443
+             * line : 108928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmSize extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:FilmSize',
             'desc' => [
+                'en' => 'Film Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SurfaceCoilIntensity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Coil Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97738
+             * line : 71119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceCoilIntensity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceCoilIntensity',
             'desc' => [
+                'en' => 'Surface Coil Intensity',
             ],
         ],
     ];

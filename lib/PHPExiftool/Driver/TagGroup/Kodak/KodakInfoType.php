@@ -28,13 +28,14 @@ class KodakInfoType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Info Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154379
+             * line : 106001
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class KodakInfoType extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:KodakInfoType',
             'desc' => [
+                'en' => 'Kodak Info Type',
             ],
         ],
     ];

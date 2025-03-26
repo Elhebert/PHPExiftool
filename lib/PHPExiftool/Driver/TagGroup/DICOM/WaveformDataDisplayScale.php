@@ -28,13 +28,14 @@ class WaveformDataDisplayScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Data Display Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99539
+             * line : 72750
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformDataDisplayScale extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformDataDisplayScale',
             'desc' => [
+                'en' => 'Waveform Data Display Scale',
             ],
         ],
     ];

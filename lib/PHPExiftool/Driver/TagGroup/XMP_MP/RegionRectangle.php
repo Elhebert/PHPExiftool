@@ -28,13 +28,14 @@ class RegionRectangle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Rectangle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP
-             * line : 174092
+             * line : 119924
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionRectangle extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP.XMP-MP:RegionRectangle',
             'desc' => [
+                'en' => 'Region Rectangle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpatialFrequencyResponse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spatial Frequency Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126379
+             * line : 87656
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpatialFrequencyResponse extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SpatialFrequencyResponse',
             'desc' => [
+                'en' => 'Spatial Frequency Response',
             ],
         ],
     ];

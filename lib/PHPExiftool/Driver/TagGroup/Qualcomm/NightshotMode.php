@@ -28,13 +28,14 @@ class NightshotMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nightshot Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307479
+             * line : 213977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NightshotMode extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:NightshotMode',
             'desc' => [
+                'en' => 'Nightshot Mode',
             ],
         ],
     ];

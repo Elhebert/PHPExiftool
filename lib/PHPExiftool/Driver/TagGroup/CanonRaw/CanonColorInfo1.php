@@ -28,13 +28,14 @@ class CanonColorInfo1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Color Info 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78649
+             * line : 57236
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonColorInfo1 extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:CanonColorInfo1',
             'desc' => [
+                'en' => 'Canon Color Info 1',
             ],
         ],
     ];

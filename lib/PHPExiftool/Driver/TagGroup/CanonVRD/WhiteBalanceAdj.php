@@ -28,13 +28,14 @@ class WhiteBalanceAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80300
+             * line : 58606
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalanceAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:WhiteBalanceAdj',
             'desc' => [
+                'en' => 'White Balance Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82184
+             * line : 60233
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WhiteBalanceAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:WhiteBalanceAdj',
             'desc' => [
+                'en' => 'White Balance Adj',
             ],
         ],
     ];

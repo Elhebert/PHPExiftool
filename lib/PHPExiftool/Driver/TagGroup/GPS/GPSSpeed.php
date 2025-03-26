@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132165
+             * line : 90915
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141755
+             * line : 98284
              * type : rational32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

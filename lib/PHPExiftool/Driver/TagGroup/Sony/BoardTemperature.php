@@ -28,13 +28,14 @@ class BoardTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Board Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PIC
-             * line : 361242
+             * line : 251697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoardTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:BoardTemperature',
             'desc' => [
+                'en' => 'Board Temperature',
             ],
         ],
     ];

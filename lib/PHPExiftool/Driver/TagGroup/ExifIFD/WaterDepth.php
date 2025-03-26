@@ -28,13 +28,14 @@ class WaterDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Water Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116323
+             * line : 83331
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WaterDepth extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WaterDepth',
             'desc' => [
+                'en' => 'Water Depth',
             ],
         ],
     ];

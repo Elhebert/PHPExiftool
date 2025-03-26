@@ -28,13 +28,14 @@ class WhiteBalanceComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261190
+             * line : 180293
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WhiteBalanceComp extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:WhiteBalanceComp',
             'desc' => [
+                'en' => 'White Balance Comp',
             ],
         ],
     ];

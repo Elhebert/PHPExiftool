@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Main
-             * line : 131328
+             * line : 90674
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'GIF::Main.GIF:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

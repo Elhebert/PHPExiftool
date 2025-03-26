@@ -28,13 +28,14 @@ class HDRLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350825
+             * line : 244927
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HDRLevel extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:HDRLevel',
             'desc' => [
+                'en' => 'HDR Level',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360702
+             * line : 251365
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HDRLevel extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:HDRLevel',
             'desc' => [
+                'en' => 'HDR Level',
             ],
         ],
     ];

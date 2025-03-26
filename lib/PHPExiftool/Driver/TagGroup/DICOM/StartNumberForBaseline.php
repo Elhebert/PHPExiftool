@@ -28,13 +28,14 @@ class StartNumberForBaseline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Number For Baseline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97419
+             * line : 70807
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartNumberForBaseline extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartNumberForBaseline',
             'desc' => [
+                'en' => 'Start Number For Baseline',
             ],
         ],
     ];

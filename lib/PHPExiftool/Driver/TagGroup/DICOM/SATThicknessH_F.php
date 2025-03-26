@@ -28,13 +28,14 @@ class SATThicknessH_F extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SAT Thickness H-F',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97765
+             * line : 71146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SATThicknessH_F extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SATThicknessH-F',
             'desc' => [
+                'en' => 'SAT Thickness H-F',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Creator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Main
-             * line : 395041
+             * line : 279825
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Creator extends AbstractTagGroup
              */
             'id' => 'Torrent::Main.Torrent:Creator',
             'desc' => [
+                'en' => 'Creator',
             ],
         ],
     ];

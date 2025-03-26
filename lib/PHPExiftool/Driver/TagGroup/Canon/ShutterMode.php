@@ -28,13 +28,14 @@ class ShutterMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63806
+             * line : 48439
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterMode extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:ShutterMode',
             'desc' => [
+                'en' => 'Shutter Mode',
             ],
         ],
     ];

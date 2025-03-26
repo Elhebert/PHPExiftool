@@ -28,13 +28,14 @@ class FlashDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85938
+             * line : 62186
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashDistance extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FlashDistance',
             'desc' => [
+                'en' => 'Flash Distance',
             ],
         ],
     ];

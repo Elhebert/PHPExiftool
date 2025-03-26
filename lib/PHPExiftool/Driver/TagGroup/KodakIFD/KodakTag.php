@@ -28,13 +28,14 @@ class KodakTag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Tag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154693
+             * line : 106095
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class KodakTag extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KodakTag',
             'desc' => [
+                'en' => 'Kodak Tag',
             ],
         ],
     ];

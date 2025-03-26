@@ -28,13 +28,14 @@ class Track extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v1
-             * line : 147280
+             * line : 102248
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class Track extends AbstractTagGroup
              */
             'id' => 'ID3::v1.ID3v1:Track',
             'desc' => [
+                'en' => 'Track',
             ],
         ],
     ];

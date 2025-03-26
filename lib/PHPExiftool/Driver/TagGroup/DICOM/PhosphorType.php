@@ -28,13 +28,14 @@ class PhosphorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phosphor Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95964
+             * line : 69388
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhosphorType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhosphorType',
             'desc' => [
+                'en' => 'Phosphor Type',
             ],
         ],
     ];

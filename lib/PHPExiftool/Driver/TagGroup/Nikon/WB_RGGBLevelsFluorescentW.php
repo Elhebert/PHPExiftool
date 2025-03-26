@@ -28,13 +28,14 @@ class WB_RGGBLevelsFluorescentW extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Fluorescent W',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceB
-             * line : 192057
+             * line : 130162
              * type : int32u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsFluorescentW extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceB.Nikon:WB_RGGBLevelsFluorescentW',
             'desc' => [
+                'en' => 'WB RGGB Levels Fluorescent W',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ColorBalanceC
-             * line : 192144
+             * line : 130199
              * type : int32u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsFluorescentW extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceC.Nikon:WB_RGGBLevelsFluorescentW',
             'desc' => [
+                'en' => 'WB RGGB Levels Fluorescent W',
             ],
         ],
     ];

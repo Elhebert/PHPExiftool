@@ -28,13 +28,14 @@ class AspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105886
+             * line : 78369
              * type : int32u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
     ];

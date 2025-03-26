@@ -28,13 +28,14 @@ class ProductionScriptReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Production Script Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170354
+             * line : 116613
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ProductionScriptReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductionScriptReference',
             'desc' => [
+                'en' => 'Production Script Reference',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170357
+             * line : 116616
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ProductionScriptReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductionScriptReference',
             'desc' => [
+                'en' => 'Production Script Reference',
             ],
         ],
     ];

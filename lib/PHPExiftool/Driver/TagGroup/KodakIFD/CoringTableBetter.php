@@ -28,13 +28,14 @@ class CoringTableBetter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coring Table Better',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155885
+             * line : 107096
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoringTableBetter extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CoringTableBetter',
             'desc' => [
+                'en' => 'Coring Table Better',
             ],
         ],
     ];

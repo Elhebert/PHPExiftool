@@ -28,13 +28,14 @@ class FlashExposureBracketValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Bracket Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196814
+             * line : 132893
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class FlashExposureBracketValue extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:FlashExposureBracketValue',
             'desc' => [
+                'en' => 'Flash Exposure Bracket Value',
             ],
         ],
     ];

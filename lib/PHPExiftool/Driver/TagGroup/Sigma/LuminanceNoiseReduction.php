@@ -28,13 +28,14 @@ class LuminanceNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337468
+             * line : 236120
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LuminanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LuminanceNoiseReduction',
             'desc' => [
+                'en' => 'Luminance Noise Reduction',
             ],
         ],
     ];

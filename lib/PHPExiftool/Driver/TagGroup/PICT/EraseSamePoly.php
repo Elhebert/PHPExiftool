@@ -28,13 +28,14 @@ class EraseSamePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Same Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264938
+             * line : 183161
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseSamePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseSamePoly',
             'desc' => [
+                'en' => 'Erase Same Poly',
             ],
         ],
     ];

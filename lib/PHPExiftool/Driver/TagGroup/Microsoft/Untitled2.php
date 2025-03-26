@@ -28,13 +28,14 @@ class Untitled2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Untitled 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176529
+             * line : 121467
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Untitled2 extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Untitled2',
             'desc' => [
+                'en' => 'Untitled 2',
             ],
         ],
     ];

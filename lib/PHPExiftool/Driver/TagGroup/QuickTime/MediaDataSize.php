@@ -28,13 +28,14 @@ class MediaDataSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Data Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323798
+             * line : 228837
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaDataSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:MediaDataSize',
             'desc' => [
+                'en' => 'Media Data Size',
             ],
         ],
     ];

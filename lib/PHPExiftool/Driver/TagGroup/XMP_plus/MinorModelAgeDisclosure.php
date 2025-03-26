@@ -28,13 +28,14 @@ class MinorModelAgeDisclosure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minor Model Age Disclosure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272198
+             * line : 190162
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinorModelAgeDisclosure extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:MinorModelAgeDisclosure',
             'desc' => [
+                'en' => 'Minor Model Age Disclosure',
             ],
         ],
     ];

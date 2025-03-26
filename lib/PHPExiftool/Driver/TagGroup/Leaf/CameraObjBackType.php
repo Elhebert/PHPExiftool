@@ -28,13 +28,14 @@ class CameraObjBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Obj Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraSetup
-             * line : 161613
+             * line : 110406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraObjBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraSetup.Leaf:CameraObjBackType',
             'desc' => [
+                'en' => 'Camera Obj Back Type',
             ],
         ],
     ];

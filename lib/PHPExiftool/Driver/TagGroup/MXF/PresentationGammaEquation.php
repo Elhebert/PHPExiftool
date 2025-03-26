@@ -28,13 +28,14 @@ class PresentationGammaEquation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Gamma Equation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169033
+             * line : 115481
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PresentationGammaEquation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PresentationGammaEquation',
             'desc' => [
+                'en' => 'Presentation Gamma Equation',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169036
+             * line : 115484
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PresentationGammaEquation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PresentationGammaEquation',
             'desc' => [
+                'en' => 'Presentation Gamma Equation',
             ],
         ],
     ];

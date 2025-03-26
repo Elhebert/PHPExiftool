@@ -28,13 +28,14 @@ class FrameLaterality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Laterality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98051
+             * line : 71398
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameLaterality extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameLaterality',
             'desc' => [
+                'en' => 'Frame Laterality',
             ],
         ],
     ];

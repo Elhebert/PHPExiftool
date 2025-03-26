@@ -28,13 +28,14 @@ class Advisory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Advisory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412554
+             * line : 290900
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Advisory extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:Advisory',
             'desc' => [
+                'en' => 'Advisory',
             ],
         ],
     ];

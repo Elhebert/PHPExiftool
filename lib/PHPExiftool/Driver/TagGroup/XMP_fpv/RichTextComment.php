@@ -28,13 +28,14 @@ class RichTextComment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rich Text Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::fpv
-             * line : 408798
+             * line : 288730
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RichTextComment extends AbstractTagGroup
              */
             'id' => 'XMP::fpv.XMP-fpv:RichTextComment',
             'desc' => [
+                'en' => 'Rich Text Comment',
             ],
         ],
     ];

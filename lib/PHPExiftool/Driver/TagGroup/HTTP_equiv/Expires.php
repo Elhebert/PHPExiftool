@@ -28,13 +28,14 @@ class Expires extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expires',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142873
+             * line : 98667
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Expires extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:Expires',
             'desc' => [
+                'en' => 'Expires',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class JpgRecordedPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Jpg Recorded Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285209
+             * line : 197817
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JpgRecordedPixels extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:JpgRecordedPixels',
             'desc' => [
+                'en' => 'Jpg Recorded Pixels',
             ],
         ],
     ];

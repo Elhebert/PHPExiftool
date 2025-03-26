@@ -28,13 +28,14 @@ class HomeStreet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Home Street',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175319
+             * line : 120726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HomeStreet extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:HomeStreet',
             'desc' => [
+                'en' => 'Home Street',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AvgBytesPerSec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Bytes Per Sec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AudioFormat
-             * line : 327737
+             * line : 231333
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgBytesPerSec extends AbstractTagGroup
              */
             'id' => 'RIFF::AudioFormat.RIFF:AvgBytesPerSec',
             'desc' => [
+                'en' => 'Avg Bytes Per Sec',
             ],
         ],
     ];

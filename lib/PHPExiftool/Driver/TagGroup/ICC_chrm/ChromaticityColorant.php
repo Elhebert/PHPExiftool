@@ -28,13 +28,14 @@ class ChromaticityColorant extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chromaticity Colorant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Chromaticity
-             * line : 143090
+             * line : 98818
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromaticityColorant extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Chromaticity.ICC-chrm:ChromaticityColorant',
             'desc' => [
+                'en' => 'Chromaticity Colorant',
             ],
         ],
     ];

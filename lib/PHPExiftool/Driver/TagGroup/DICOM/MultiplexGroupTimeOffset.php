@@ -28,13 +28,14 @@ class MultiplexGroupTimeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multiplex Group Time Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95694
+             * line : 69142
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiplexGroupTimeOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiplexGroupTimeOffset',
             'desc' => [
+                'en' => 'Multiplex Group Time Offset',
             ],
         ],
     ];

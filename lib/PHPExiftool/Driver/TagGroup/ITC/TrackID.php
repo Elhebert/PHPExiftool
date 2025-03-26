@@ -28,13 +28,14 @@ class TrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ITC::Item
-             * line : 152117
+             * line : 104764
              * type : undef
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class TrackID extends AbstractTagGroup
              */
             'id' => 'ITC::Item.ITC:TrackID',
             'desc' => [
+                'en' => 'Track ID',
             ],
         ],
     ];

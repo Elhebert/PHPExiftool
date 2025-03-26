@@ -28,13 +28,14 @@ class DiffusionGradientOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diffusion Gradient Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96726
+             * line : 70129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiffusionGradientOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DiffusionGradientOrientation',
             'desc' => [
+                'en' => 'Diffusion Gradient Orientation',
             ],
         ],
     ];

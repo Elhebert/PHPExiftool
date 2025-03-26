@@ -28,13 +28,14 @@ class BrachyAppSetupDoseSpecPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brachy App Setup Dose Spec Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103119
+             * line : 76215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrachyAppSetupDoseSpecPoint extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BrachyAppSetupDoseSpecPoint',
             'desc' => [
+                'en' => 'Brachy App Setup Dose Spec Point',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureModulationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Modulation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97007
+             * line : 70408
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureModulationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureModulationType',
             'desc' => [
+                'en' => 'Exposure Modulation Type',
             ],
         ],
     ];

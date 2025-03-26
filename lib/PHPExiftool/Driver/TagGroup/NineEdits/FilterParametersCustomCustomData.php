@@ -28,13 +28,14 @@ class FilterParametersCustomCustomData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Parameters Custom Custom Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NineEdits
-             * line : 203605
+             * line : 137325
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterParametersCustomCustomData extends AbstractTagGroup
              */
             'id' => 'Nikon::NineEdits.NineEdits:FilterParametersCustomCustomData',
             'desc' => [
+                'en' => 'Filter Parameters Custom Custom Data',
             ],
         ],
     ];

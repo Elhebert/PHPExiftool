@@ -28,13 +28,14 @@ class CopyrightFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165864
+             * line : 112784
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CopyrightFlag extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:CopyrightFlag',
             'desc' => [
+                'en' => 'Copyright Flag',
             ],
         ],
     ];

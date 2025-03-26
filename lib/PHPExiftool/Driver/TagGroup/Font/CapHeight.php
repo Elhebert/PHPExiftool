@@ -28,13 +28,14 @@ class CapHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cap Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127711
+             * line : 88687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CapHeight extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:CapHeight',
             'desc' => [
+                'en' => 'Cap Height',
             ],
         ],
     ];

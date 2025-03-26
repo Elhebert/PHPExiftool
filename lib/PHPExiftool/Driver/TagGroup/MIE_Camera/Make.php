@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163022
+             * line : 111299
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

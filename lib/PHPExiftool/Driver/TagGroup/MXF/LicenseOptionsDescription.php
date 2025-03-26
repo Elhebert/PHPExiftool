@@ -28,13 +28,14 @@ class LicenseOptionsDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'License Options Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167469
+             * line : 114084
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LicenseOptionsDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LicenseOptionsDescription',
             'desc' => [
+                'en' => 'License Options Description',
             ],
         ],
     ];

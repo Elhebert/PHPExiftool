@@ -28,13 +28,14 @@ class LeftLensSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Left Lens Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100660
+             * line : 73830
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeftLensSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LeftLensSequence',
             'desc' => [
+                'en' => 'Left Lens Sequence',
             ],
         ],
     ];

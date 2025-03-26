@@ -28,13 +28,14 @@ class JpgFromRaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Jpg From Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90395
+             * line : 65173
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JpgFromRaw extends AbstractTagGroup
              */
             'id' => 'Composite.All:JpgFromRaw',
             'desc' => [
+                'en' => 'Jpg From Raw',
             ],
         ],
     ];

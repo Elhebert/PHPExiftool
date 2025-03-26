@@ -28,13 +28,14 @@ class SnapshotHeightPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Snapshot Height Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409748
+             * line : 289507
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SnapshotHeightPixels extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SnapshotHeightPixels',
             'desc' => [
+                'en' => 'Snapshot Height Pixels',
             ],
         ],
     ];

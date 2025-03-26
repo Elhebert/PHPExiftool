@@ -28,13 +28,14 @@ class FlashIntensity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251016
+             * line : 173149
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashIntensity extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FlashIntensity',
             'desc' => [
+                'en' => 'Flash Intensity',
             ],
         ],
     ];

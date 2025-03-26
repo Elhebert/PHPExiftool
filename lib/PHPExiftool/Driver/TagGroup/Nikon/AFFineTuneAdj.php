@@ -28,13 +28,14 @@ class AFFineTuneAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Fine Tune Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFTune
-             * line : 191090
+             * line : 129868
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFFineTuneAdj extends AbstractTagGroup
              */
             'id' => 'Nikon::AFTune.Nikon:AFFineTuneAdj',
             'desc' => [
+                'en' => 'AF Fine Tune Adj',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD300a
-             * line : 205569
+             * line : 138099
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFFineTuneAdj extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300a.Nikon:AFFineTuneAdj',
             'desc' => [
+                'en' => 'AF Fine Tune Adj',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD300b
-             * line : 205739
+             * line : 138243
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFFineTuneAdj extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300b.Nikon:AFFineTuneAdj',
             'desc' => [
+                'en' => 'AF Fine Tune Adj',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::ShotInfoD300b
-             * line : 205870
+             * line : 138371
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFFineTuneAdj extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300b.Nikon:AFFineTuneAdj',
             'desc' => [
+                'en' => 'AF Fine Tune Adj',
             ],
         ],
     ];

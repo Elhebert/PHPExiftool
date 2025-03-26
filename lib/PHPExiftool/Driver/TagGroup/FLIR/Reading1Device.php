@@ -28,13 +28,14 @@ class Reading1Device extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reading 1 Device',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::MeterLink
-             * line : 123311
+             * line : 86136
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class Reading1Device extends AbstractTagGroup
              */
             'id' => 'FLIR::MeterLink.FLIR:Reading1Device',
             'desc' => [
+                'en' => 'Reading 1 Device',
             ],
         ],
     ];

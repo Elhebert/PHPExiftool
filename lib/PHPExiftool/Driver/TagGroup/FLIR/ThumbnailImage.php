@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::UserData
-             * line : 123764
+             * line : 86555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'FLIR::UserData.FLIR:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

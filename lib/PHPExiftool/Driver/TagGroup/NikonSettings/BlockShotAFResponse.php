@@ -28,13 +28,14 @@ class BlockShotAFResponse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Shot AF Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245102
+             * line : 167861
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockShotAFResponse extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BlockShotAFResponse',
             'desc' => [
+                'en' => 'Block Shot AF Response',
             ],
         ],
     ];

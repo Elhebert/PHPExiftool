@@ -28,13 +28,14 @@ class ColorToneUserDef3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone User Def 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34738
+             * line : 26613
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorToneUserDef3',
             'desc' => [
+                'en' => 'Color Tone User Def 3',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67874
+             * line : 51395
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorToneUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorToneUserDef3',
             'desc' => [
+                'en' => 'Color Tone User Def 3',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 69052
+             * line : 52134
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorToneUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneUserDef3',
             'desc' => [
+                'en' => 'Color Tone User Def 3',
             ],
         ],
     ];

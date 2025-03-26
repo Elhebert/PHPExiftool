@@ -28,13 +28,14 @@ class GPSLongitudeRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Longitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131780
+             * line : 90842
              * type : string
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class GPSLongitudeRef extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSLongitudeRef',
             'desc' => [
+                'en' => 'GPS Longitude Ref',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141388
+             * line : 98214
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSLongitudeRef extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSLongitudeRef',
             'desc' => [
+                'en' => 'GPS Longitude Ref',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202839
+             * line : 137063
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSLongitudeRef extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSLongitudeRef',
             'desc' => [
+                'en' => 'GPS Longitude Ref',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301165
+             * line : 209760
              * type : string
              * writable : false
              * count : 2
@@ -81,6 +85,7 @@ class GPSLongitudeRef extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSLongitudeRef',
             'desc' => [
+                'en' => 'GPS Longitude Ref',
             ],
         ],
     ];

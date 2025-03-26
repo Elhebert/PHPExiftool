@@ -28,13 +28,14 @@ class IRWindowTransmission extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IR Window Transmission',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122201
+             * line : 85590
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IRWindowTransmission extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:IRWindowTransmission',
             'desc' => [
+                'en' => 'IR Window Transmission',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122617
+             * line : 85868
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class IRWindowTransmission extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:IRWindowTransmission',
             'desc' => [
+                'en' => 'IR Window Transmission',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Params
-             * line : 123595
+             * line : 86396
              * type : float
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class IRWindowTransmission extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:IRWindowTransmission',
             'desc' => [
+                'en' => 'IR Window Transmission',
             ],
         ],
     ];

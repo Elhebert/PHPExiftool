@@ -28,13 +28,14 @@ class TagBinary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Binary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173500
+             * line : 119434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagBinary extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TagBinary',
             'desc' => [
+                'en' => 'Tag Binary',
             ],
         ],
     ];

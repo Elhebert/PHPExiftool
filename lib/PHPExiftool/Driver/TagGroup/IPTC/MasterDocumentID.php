@@ -28,13 +28,14 @@ class MasterDocumentID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Master Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150732
+             * line : 104078
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class MasterDocumentID extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:MasterDocumentID',
             'desc' => [
+                'en' => 'Master Document ID',
             ],
         ],
     ];

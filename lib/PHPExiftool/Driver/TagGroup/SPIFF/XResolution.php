@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153358
+             * line : 105389
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HighlightWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278566
+             * line : 193724
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightWarning extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:HighlightWarning',
             'desc' => [
+                'en' => 'Highlight Warning',
             ],
         ],
     ];

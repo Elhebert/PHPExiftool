@@ -28,13 +28,14 @@ class AFRSlower2Trigger extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AFR Slower 2 Trigger',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306648
+             * line : 213146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFRSlower2Trigger extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFRSlower2Trigger',
             'desc' => [
+                'en' => 'AFR Slower 2 Trigger',
             ],
         ],
     ];

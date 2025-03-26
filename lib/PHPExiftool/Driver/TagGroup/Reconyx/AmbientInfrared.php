@@ -28,13 +28,14 @@ class AmbientInfrared extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ambient Infrared',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331302
+             * line : 232958
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AmbientInfrared extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:AmbientInfrared',
             'desc' => [
+                'en' => 'Ambient Infrared',
             ],
         ],
     ];

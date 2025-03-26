@@ -28,13 +28,14 @@ class Command extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Command',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329366
+             * line : 232084
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Command extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:Command',
             'desc' => [
+                'en' => 'Command',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashFiring extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Firing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73386
+             * line : 54298
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashFiring extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:FlashFiring',
             'desc' => [
+                'en' => 'Flash Firing',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 75869
+             * line : 55814
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashFiring extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:FlashFiring',
             'desc' => [
+                'en' => 'Flash Firing',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76390
+             * line : 56061
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashFiring extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:FlashFiring',
             'desc' => [
+                'en' => 'Flash Firing',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77508
+             * line : 56597
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FlashFiring extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:FlashFiring',
             'desc' => [
+                'en' => 'Flash Firing',
             ],
         ],
     ];

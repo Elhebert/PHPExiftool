@@ -28,13 +28,14 @@ class RotationDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95811
+             * line : 69259
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotationDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RotationDirection',
             'desc' => [
+                'en' => 'Rotation Direction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BracketSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277111
+             * line : 192804
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketSettings extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:BracketSettings',
             'desc' => [
+                'en' => 'Bracket Settings',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Trapped extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Trapped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pdf
-             * line : 410060
+             * line : 289711
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Trapped extends AbstractTagGroup
              */
             'id' => 'XMP::pdf.XMP-pdf:Trapped',
             'desc' => [
+                'en' => 'Trapped',
             ],
         ],
     ];

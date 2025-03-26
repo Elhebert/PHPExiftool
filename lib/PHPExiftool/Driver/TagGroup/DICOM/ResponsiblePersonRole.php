@@ -28,13 +28,14 @@ class ResponsiblePersonRole extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Responsible Person Role',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95335
+             * line : 68797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResponsiblePersonRole extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResponsiblePersonRole',
             'desc' => [
+                'en' => 'Responsible Person Role',
             ],
         ],
     ];

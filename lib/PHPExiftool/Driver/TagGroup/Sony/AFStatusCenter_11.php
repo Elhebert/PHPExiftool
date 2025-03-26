@@ -28,13 +28,14 @@ class AFStatusCenter_11 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Center-11',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345405
+             * line : 242178
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusCenter_11 extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFStatusCenter-11',
             'desc' => [
+                'en' => 'AF Status Center-11',
             ],
         ],
     ];

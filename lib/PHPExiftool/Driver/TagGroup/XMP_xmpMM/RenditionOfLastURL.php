@@ -28,13 +28,14 @@ class RenditionOfLastURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Last URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414218
+             * line : 292238
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfLastURL extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfLastURL',
             'desc' => [
+                'en' => 'Rendition Of Last URL',
             ],
         ],
     ];

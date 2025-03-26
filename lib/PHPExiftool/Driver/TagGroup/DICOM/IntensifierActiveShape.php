@@ -28,13 +28,14 @@ class IntensifierActiveShape extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intensifier Active Shape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97128
+             * line : 70525
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntensifierActiveShape extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntensifierActiveShape',
             'desc' => [
+                'en' => 'Intensifier Active Shape',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PhaseVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100832
+             * line : 73992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhaseVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhaseVector',
             'desc' => [
+                'en' => 'Phase Vector',
             ],
         ],
     ];

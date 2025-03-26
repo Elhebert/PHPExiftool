@@ -28,13 +28,14 @@ class AFActivation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Activation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211946
+             * line : 142425
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214551
+             * line : 144044
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219373
+             * line : 147717
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221833
+             * line : 149759
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224512
+             * line : 151397
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229541
+             * line : 154321
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233757
+             * line : 157601
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235219
+             * line : 158531
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
     ];

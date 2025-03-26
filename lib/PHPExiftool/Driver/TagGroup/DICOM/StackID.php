@@ -28,13 +28,14 @@ class StackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stack ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98042
+             * line : 71389
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StackID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StackID',
             'desc' => [
+                'en' => 'Stack ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HDContent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HD Content',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396332
+             * line : 280588
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDContent extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:HDContent',
             'desc' => [
+                'en' => 'HD Content',
             ],
         ],
     ];

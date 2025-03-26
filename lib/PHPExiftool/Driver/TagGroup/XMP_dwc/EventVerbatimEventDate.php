@@ -28,13 +28,14 @@ class EventVerbatimEventDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Verbatim Event Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106137
+             * line : 78500
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventVerbatimEventDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventVerbatimEventDate',
             'desc' => [
+                'en' => 'Event Verbatim Event Date',
             ],
         ],
     ];

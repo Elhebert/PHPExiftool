@@ -28,13 +28,14 @@ class SourcePhotosCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source Photos Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397178
+             * line : 281267
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SourcePhotosCount extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:SourcePhotosCount',
             'desc' => [
+                'en' => 'Source Photos Count',
             ],
         ],
     ];

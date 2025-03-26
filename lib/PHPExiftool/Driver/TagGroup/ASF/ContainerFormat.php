@@ -28,13 +28,14 @@ class ContainerFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1141
+             * line : 466
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerFormat extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ContainerFormat',
             'desc' => [
+                'en' => 'Container Format',
             ],
         ],
     ];

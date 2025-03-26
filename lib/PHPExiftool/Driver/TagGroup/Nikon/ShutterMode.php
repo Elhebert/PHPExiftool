@@ -28,13 +28,14 @@ class ShutterMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197106
+             * line : 133044
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ShutterMode',
             'desc' => [
+                'en' => 'Shutter Mode',
             ],
         ],
     ];

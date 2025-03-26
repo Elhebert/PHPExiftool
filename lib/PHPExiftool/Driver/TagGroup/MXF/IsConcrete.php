@@ -28,13 +28,14 @@ class IsConcrete extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Concrete',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169607
+             * line : 115998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsConcrete extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsConcrete',
             'desc' => [
+                'en' => 'Is Concrete',
             ],
         ],
     ];

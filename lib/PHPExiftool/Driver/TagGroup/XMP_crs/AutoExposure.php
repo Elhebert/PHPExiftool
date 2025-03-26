@@ -28,13 +28,14 @@ class AutoExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401511
+             * line : 284771
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoExposure extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:AutoExposure',
             'desc' => [
+                'en' => 'Auto Exposure',
             ],
         ],
     ];

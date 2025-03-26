@@ -28,13 +28,14 @@ class DataEssenceCodingID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Essence Coding ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170293
+             * line : 116568
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataEssenceCodingID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DataEssenceCodingID',
             'desc' => [
+                'en' => 'Data Essence Coding ID',
             ],
         ],
     ];

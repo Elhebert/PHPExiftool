@@ -28,13 +28,14 @@ class MicrophoneSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Microphone Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201637
+             * line : 136531
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicrophoneSensitivity extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneSensitivity',
             'desc' => [
+                'en' => 'Microphone Sensitivity',
             ],
         ],
     ];

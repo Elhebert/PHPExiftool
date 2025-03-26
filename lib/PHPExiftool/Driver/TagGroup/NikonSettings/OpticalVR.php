@@ -28,13 +28,14 @@ class OpticalVR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optical VR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244234
+             * line : 167119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpticalVR extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:OpticalVR',
             'desc' => [
+                'en' => 'Optical VR',
             ],
         ],
     ];

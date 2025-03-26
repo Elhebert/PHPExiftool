@@ -28,13 +28,14 @@ class ContrastCurve extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197350
+             * line : 133152
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContrastCurve extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ContrastCurve',
             'desc' => [
+                'en' => 'Contrast Curve',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompressedDataLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressed Data Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::DecoderTable
-             * line : 78450
+             * line : 57151
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressedDataLength extends AbstractTagGroup
              */
             'id' => 'CanonRaw::DecoderTable.CanonRaw:CompressedDataLength',
             'desc' => [
+                'en' => 'Compressed Data Length',
             ],
         ],
     ];

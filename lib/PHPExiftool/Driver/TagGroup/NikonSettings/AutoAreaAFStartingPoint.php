@@ -28,13 +28,14 @@ class AutoAreaAFStartingPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Area AF Starting Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247747
+             * line : 170440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoAreaAFStartingPoint extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AutoAreaAFStartingPoint',
             'desc' => [
+                'en' => 'Auto Area AF Starting Point',
             ],
         ],
     ];

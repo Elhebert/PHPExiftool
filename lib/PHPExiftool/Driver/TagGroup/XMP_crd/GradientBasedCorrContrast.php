@@ -28,13 +28,14 @@ class GradientBasedCorrContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399336
+             * line : 282843
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrContrast extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrContrast',
             'desc' => [
+                'en' => 'Gradient Based Corr Contrast',
             ],
         ],
     ];

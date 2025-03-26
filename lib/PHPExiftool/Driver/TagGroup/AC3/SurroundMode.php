@@ -28,13 +28,14 @@ class SurroundMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surround Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : M2TS::AC3
-             * line : 162482
+             * line : 110963
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurroundMode extends AbstractTagGroup
              */
             'id' => 'M2TS::AC3.AC3:SurroundMode',
             'desc' => [
+                'en' => 'Surround Mode',
             ],
         ],
     ];

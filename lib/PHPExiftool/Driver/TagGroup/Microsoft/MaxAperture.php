@@ -28,13 +28,14 @@ class MaxAperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175298
+             * line : 120720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
     ];

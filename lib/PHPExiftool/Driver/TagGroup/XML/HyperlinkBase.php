@@ -28,13 +28,14 @@ class HyperlinkBase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hyperlink Base',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249134
+             * line : 171764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HyperlinkBase extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:HyperlinkBase',
             'desc' => [
+                'en' => 'Hyperlink Base',
             ],
         ],
     ];

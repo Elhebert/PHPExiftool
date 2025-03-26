@@ -28,13 +28,14 @@ class HighISONoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73157
+             * line : 54209
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73222
+             * line : 54226
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
     ];

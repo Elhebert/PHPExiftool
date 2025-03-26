@@ -28,13 +28,14 @@ class PositionerPositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Positioner Position Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97096
+             * line : 70495
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionerPositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PositionerPositionSequence',
             'desc' => [
+                'en' => 'Positioner Position Sequence',
             ],
         ],
     ];

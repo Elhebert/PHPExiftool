@@ -28,13 +28,14 @@ class MSDocumentText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MS Document Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116285
+             * line : 83310
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MSDocumentText extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MSDocumentText',
             'desc' => [
+                'en' => 'MS Document Text',
             ],
         ],
     ];

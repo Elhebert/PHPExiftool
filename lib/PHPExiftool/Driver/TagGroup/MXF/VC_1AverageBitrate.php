@@ -28,13 +28,14 @@ class VC_1AverageBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Average Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172397
+             * line : 118558
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1AverageBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1AverageBitrate',
             'desc' => [
+                'en' => 'VC-1 Average Bitrate',
             ],
         ],
     ];

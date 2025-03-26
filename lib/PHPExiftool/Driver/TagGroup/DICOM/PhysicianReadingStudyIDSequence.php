@@ -28,13 +28,14 @@ class PhysicianReadingStudyIDSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physician Reading Study ID Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94890
+             * line : 68374
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicianReadingStudyIDSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhysicianReadingStudyIDSequence',
             'desc' => [
+                'en' => 'Physician Reading Study ID Sequence',
             ],
         ],
     ];

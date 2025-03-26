@@ -28,13 +28,14 @@ class Format extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142746
+             * line : 98612
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Format extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Format',
             'desc' => [
+                'en' => 'Format',
             ],
         ],
     ];

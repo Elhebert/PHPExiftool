@@ -28,13 +28,14 @@ class DCPointRadiusSpatialFit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Point Radius Spatial Fit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106986
+             * line : 79136
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCPointRadiusSpatialFit extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCPointRadiusSpatialFit',
             'desc' => [
+                'en' => 'DC Point Radius Spatial Fit',
             ],
         ],
     ];

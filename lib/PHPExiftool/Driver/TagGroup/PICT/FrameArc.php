@@ -28,13 +28,14 @@ class FrameArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264875
+             * line : 183101
              * type : Arc
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FrameArc',
             'desc' => [
+                'en' => 'Frame Arc',
             ],
         ],
     ];

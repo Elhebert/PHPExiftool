@@ -28,13 +28,14 @@ class ProductInImageGTIN extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product In Image GTIN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409600
+             * line : 289372
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductInImageGTIN extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ProductInImageGTIN',
             'desc' => [
+                'en' => 'Product In Image GTIN',
             ],
         ],
     ];

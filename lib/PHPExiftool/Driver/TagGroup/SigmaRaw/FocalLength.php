@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339960
+             * line : 237705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

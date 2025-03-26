@@ -28,13 +28,14 @@ class CropMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130225
+             * line : 89978
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropMode extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:CropMode',
             'desc' => [
+                'en' => 'Crop Mode',
             ],
         ],
     ];

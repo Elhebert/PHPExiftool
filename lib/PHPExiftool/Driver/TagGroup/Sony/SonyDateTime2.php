@@ -28,13 +28,14 @@ class SonyDateTime2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Date Time 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379211
+             * line : 266035
              * type : undef
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class SonyDateTime2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:SonyDateTime2',
             'desc' => [
+                'en' => 'Sony Date Time 2',
             ],
         ],
     ];

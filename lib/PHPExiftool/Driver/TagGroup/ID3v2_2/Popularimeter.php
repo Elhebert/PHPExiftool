@@ -28,13 +28,14 @@ class Popularimeter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Popularimeter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148197
+             * line : 102976
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Popularimeter extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Popularimeter',
             'desc' => [
+                'en' => 'Popularimeter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Label extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176107
+             * line : 121185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Label extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Label',
             'desc' => [
+                'en' => 'Label',
             ],
         ],
     ];

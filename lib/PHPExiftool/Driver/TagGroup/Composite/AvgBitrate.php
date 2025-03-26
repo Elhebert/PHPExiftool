@@ -28,13 +28,14 @@ class AvgBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93496
+             * line : 67805
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgBitrate extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:AvgBitrate',
             'desc' => [
+                'en' => 'Avg Bitrate',
             ],
         ],
     ];

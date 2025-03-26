@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84605
+             * line : 61757
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85682
+             * line : 62125
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 89481
+             * line : 64760
              * type : undef
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

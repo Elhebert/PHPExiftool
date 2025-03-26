@@ -28,13 +28,14 @@ class Date extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::MediaJukebox
-             * line : 152712
+             * line : 105081
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Date extends AbstractTagGroup
              */
             'id' => 'JPEG::MediaJukebox.MediaJukebox:Date',
             'desc' => [
+                'en' => 'Date',
             ],
         ],
     ];

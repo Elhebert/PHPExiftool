@@ -28,13 +28,14 @@ class AFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56827
+             * line : 43968
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
     ];

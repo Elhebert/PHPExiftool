@@ -28,13 +28,14 @@ class LineCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Line Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394745
+             * line : 279658
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LineCount extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:LineCount',
             'desc' => [
+                'en' => 'Line Count',
             ],
         ],
     ];

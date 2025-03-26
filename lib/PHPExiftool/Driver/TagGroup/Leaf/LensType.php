@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraSetup
-             * line : 161639
+             * line : 110415
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraSetup.Leaf:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

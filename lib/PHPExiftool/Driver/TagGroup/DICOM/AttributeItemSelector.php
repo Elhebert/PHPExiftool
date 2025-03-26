@@ -28,13 +28,14 @@ class AttributeItemSelector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attribute Item Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101802
+             * line : 74943
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttributeItemSelector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttributeItemSelector',
             'desc' => [
+                'en' => 'Attribute Item Selector',
             ],
         ],
     ];

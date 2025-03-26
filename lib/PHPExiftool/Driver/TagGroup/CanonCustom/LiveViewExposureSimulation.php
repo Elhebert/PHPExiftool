@@ -28,13 +28,14 @@ class LiveViewExposureSimulation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View Exposure Simulation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75568
+             * line : 55643
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LiveViewExposureSimulation extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LiveViewExposureSimulation',
             'desc' => [
+                'en' => 'Live View Exposure Simulation',
             ],
         ],
     ];

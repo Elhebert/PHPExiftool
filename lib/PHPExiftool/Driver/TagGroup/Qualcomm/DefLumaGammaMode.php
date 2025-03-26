@@ -28,13 +28,14 @@ class DefLumaGammaMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Def Luma Gamma Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307398
+             * line : 213896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefLumaGammaMode extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DefLumaGammaMode',
             'desc' => [
+                'en' => 'Def Luma Gamma Mode',
             ],
         ],
     ];

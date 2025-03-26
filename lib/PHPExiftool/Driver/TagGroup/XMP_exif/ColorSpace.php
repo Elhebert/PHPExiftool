@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405128
+             * line : 287814
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

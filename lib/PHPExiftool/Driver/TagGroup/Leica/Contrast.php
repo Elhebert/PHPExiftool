@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 278932
+             * line : 193879
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

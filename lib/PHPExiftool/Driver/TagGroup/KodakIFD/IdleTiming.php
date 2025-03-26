@@ -28,13 +28,14 @@ class IdleTiming extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Idle Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155039
+             * line : 106289
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdleTiming extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IdleTiming',
             'desc' => [
+                'en' => 'Idle Timing',
             ],
         ],
     ];

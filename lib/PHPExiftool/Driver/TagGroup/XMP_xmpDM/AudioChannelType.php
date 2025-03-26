@@ -28,13 +28,14 @@ class AudioChannelType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Channel Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412886
+             * line : 291057
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioChannelType extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AudioChannelType',
             'desc' => [
+                'en' => 'Audio Channel Type',
             ],
         ],
     ];

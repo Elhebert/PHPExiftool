@@ -28,13 +28,14 @@ class TopDarkRow1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Top Dark Row 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155786
+             * line : 106997
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TopDarkRow1 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TopDarkRow1',
             'desc' => [
+                'en' => 'Top Dark Row 1',
             ],
         ],
     ];

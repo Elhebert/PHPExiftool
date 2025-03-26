@@ -28,13 +28,14 @@ class NumberOfCellsIInDetector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Cells I In Detector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97401
+             * line : 70789
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfCellsIInDetector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfCellsIInDetector',
             'desc' => [
+                'en' => 'Number Of Cells I In Detector',
             ],
         ],
     ];

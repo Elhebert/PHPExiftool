@@ -28,13 +28,14 @@ class PropertyVectorElements extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Property Vector Elements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124604
+             * line : 87087
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PropertyVectorElements extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:PropertyVectorElements',
             'desc' => [
+                'en' => 'Property Vector Elements',
             ],
         ],
     ];

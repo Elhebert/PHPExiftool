@@ -28,13 +28,14 @@ class BlendingPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blending Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101414
+             * line : 74562
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlendingPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlendingPosition',
             'desc' => [
+                'en' => 'Blending Position',
             ],
         ],
     ];

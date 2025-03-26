@@ -28,13 +28,14 @@ class CommentLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329966
+             * line : 232293
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommentLen extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:CommentLen',
             'desc' => [
+                'en' => 'Comment Len',
             ],
         ],
     ];

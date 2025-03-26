@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395175
+             * line : 279902
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

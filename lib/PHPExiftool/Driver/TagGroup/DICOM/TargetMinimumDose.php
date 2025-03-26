@@ -28,13 +28,14 @@ class TargetMinimumDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Minimum Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103002
+             * line : 76098
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetMinimumDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TargetMinimumDose',
             'desc' => [
+                'en' => 'Target Minimum Dose',
             ],
         ],
     ];

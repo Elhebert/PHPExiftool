@@ -28,13 +28,14 @@ class AutoBracketOrder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracket Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181634
+             * line : 123552
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoBracketOrder extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:AutoBracketOrder',
             'desc' => [
+                'en' => 'Auto Bracket Order',
             ],
         ],
     ];

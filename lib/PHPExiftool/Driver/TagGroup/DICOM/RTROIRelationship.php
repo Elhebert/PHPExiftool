@@ -28,13 +28,14 @@ class RTROIRelationship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RTROI Relationship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102567
+             * line : 75663
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTROIRelationship extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTROIRelationship',
             'desc' => [
+                'en' => 'RTROI Relationship',
             ],
         ],
     ];

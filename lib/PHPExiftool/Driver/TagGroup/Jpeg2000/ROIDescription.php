@@ -28,13 +28,14 @@ class ROIDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154283
+             * line : 105933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIDescription extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:ROIDescription',
             'desc' => [
+                'en' => 'ROI Description',
             ],
         ],
     ];

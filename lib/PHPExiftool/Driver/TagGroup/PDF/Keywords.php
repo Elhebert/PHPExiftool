@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264195
+             * line : 182645
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

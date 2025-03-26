@@ -28,13 +28,14 @@ class MinIntegrationRows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Integration Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157278
+             * line : 108470
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinIntegrationRows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MinIntegrationRows',
             'desc' => [
+                'en' => 'Min Integration Rows',
             ],
         ],
     ];

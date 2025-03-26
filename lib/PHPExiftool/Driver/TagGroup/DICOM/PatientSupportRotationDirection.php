@@ -28,13 +28,14 @@ class PatientSupportRotationDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Support Rotation Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103384
+             * line : 76479
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientSupportRotationDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientSupportRotationDirection',
             'desc' => [
+                'en' => 'Patient Support Rotation Direction',
             ],
         ],
     ];

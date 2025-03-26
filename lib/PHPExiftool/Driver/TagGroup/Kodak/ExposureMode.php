@@ -28,13 +28,14 @@ class ExposureMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159517
+             * line : 109429
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303522
+             * line : 210879
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

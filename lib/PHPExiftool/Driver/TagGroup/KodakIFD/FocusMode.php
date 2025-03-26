@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154754
+             * line : 106125
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

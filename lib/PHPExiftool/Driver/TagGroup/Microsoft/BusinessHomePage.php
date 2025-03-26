@@ -28,13 +28,14 @@ class BusinessHomePage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Business Home Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175718
+             * line : 120939
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BusinessHomePage extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BusinessHomePage',
             'desc' => [
+                'en' => 'Business Home Page',
             ],
         ],
     ];

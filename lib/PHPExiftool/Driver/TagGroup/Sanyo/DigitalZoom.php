@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336319
+             * line : 235741
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

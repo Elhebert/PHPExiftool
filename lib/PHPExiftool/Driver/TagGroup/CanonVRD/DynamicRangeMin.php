@@ -28,13 +28,14 @@ class DynamicRangeMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82373
+             * line : 60337
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeMin extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:DynamicRangeMin',
             'desc' => [
+                'en' => 'Dynamic Range Min',
             ],
         ],
     ];

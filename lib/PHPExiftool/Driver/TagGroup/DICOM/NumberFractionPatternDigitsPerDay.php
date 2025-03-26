@@ -28,13 +28,14 @@ class NumberFractionPatternDigitsPerDay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Fraction Pattern Digits Per Day',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103086
+             * line : 76182
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberFractionPatternDigitsPerDay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberFractionPatternDigitsPerDay',
             'desc' => [
+                'en' => 'Number Fraction Pattern Digits Per Day',
             ],
         ],
     ];

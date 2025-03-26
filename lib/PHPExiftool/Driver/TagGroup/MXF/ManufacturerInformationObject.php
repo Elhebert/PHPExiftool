@@ -28,13 +28,14 @@ class ManufacturerInformationObject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturer Information Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169527
+             * line : 115920
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ManufacturerInformationObject extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ManufacturerInformationObject',
             'desc' => [
+                'en' => 'Manufacturer Information Object',
             ],
         ],
     ];

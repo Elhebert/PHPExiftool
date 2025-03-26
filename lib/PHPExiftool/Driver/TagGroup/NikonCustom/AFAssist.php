@@ -28,13 +28,14 @@ class AFAssist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Assist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212095
+             * line : 142495
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216642
+             * line : 145637
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222015
+             * line : 149901
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222654
+             * line : 150253
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223245
+             * line : 150589
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 223979
+             * line : 151021
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224598
+             * line : 151433
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226387
+             * line : 152492
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227793
+             * line : 153416
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229606
+             * line : 154357
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 233970
+             * line : 157771
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
     ];

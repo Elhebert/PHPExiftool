@@ -28,13 +28,14 @@ class CameraAppInfoItemURI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera App Info Item URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396516
+             * line : 280733
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraAppInfoItemURI extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraAppInfoItemURI',
             'desc' => [
+                'en' => 'Camera App Info Item URI',
             ],
         ],
     ];

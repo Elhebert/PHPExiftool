@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Free
-             * line : 154592
+             * line : 106064
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::MOV
-             * line : 157646
+             * line : 108648
              * type : rational64u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Kodak::MOV.Kodak:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159631
+             * line : 109461
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Kodak::Type10
-             * line : 159905
+             * line : 109531
              * type : int32u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Kodak::Type10.Kodak:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

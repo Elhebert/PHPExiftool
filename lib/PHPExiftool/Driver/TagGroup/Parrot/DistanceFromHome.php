@@ -28,13 +28,14 @@ class DistanceFromHome extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance From Home',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282157
+             * line : 195955
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceFromHome extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:DistanceFromHome',
             'desc' => [
+                'en' => 'Distance From Home',
             ],
         ],
     ];

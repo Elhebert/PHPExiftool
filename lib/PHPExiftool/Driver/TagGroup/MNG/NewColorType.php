@@ -28,13 +28,14 @@ class NewColorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'New Color Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PromoteParent
-             * line : 165358
+             * line : 112430
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NewColorType extends AbstractTagGroup
              */
             'id' => 'MNG::PromoteParent.MNG:NewColorType',
             'desc' => [
+                'en' => 'New Color Type',
             ],
         ],
     ];

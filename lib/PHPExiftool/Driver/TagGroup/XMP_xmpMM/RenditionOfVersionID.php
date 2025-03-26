@@ -28,13 +28,14 @@ class RenditionOfVersionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Version ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414276
+             * line : 292294
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfVersionID extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfVersionID',
             'desc' => [
+                'en' => 'Rendition Of Version ID',
             ],
         ],
     ];

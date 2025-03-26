@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329370
+             * line : 232087
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

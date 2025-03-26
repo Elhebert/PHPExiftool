@@ -28,13 +28,14 @@ class ThesaurusName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thesaurus Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167648
+             * line : 114254
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThesaurusName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ThesaurusName',
             'desc' => [
+                'en' => 'Thesaurus Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170747
+             * line : 116979
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ThesaurusName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ThesaurusName',
             'desc' => [
+                'en' => 'Thesaurus Name',
             ],
         ],
     ];

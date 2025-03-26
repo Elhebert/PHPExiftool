@@ -28,13 +28,14 @@ class RedEyeRemoval extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Eye Removal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277961
+             * line : 193340
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedEyeRemoval extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:RedEyeRemoval',
             'desc' => [
+                'en' => 'Red Eye Removal',
             ],
         ],
     ];

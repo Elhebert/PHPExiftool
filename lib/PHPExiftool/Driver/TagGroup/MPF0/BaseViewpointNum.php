@@ -28,13 +28,14 @@ class BaseViewpointNum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Base Viewpoint Num',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166350
+             * line : 113108
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BaseViewpointNum extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:BaseViewpointNum',
             'desc' => [
+                'en' => 'Base Viewpoint Num',
             ],
         ],
     ];

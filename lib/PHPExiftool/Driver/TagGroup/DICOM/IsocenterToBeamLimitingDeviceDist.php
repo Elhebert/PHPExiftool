@@ -28,13 +28,14 @@ class IsocenterToBeamLimitingDeviceDist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Beam Limiting Device Dist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103146
+             * line : 76242
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToBeamLimitingDeviceDist extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToBeamLimitingDeviceDist',
             'desc' => [
+                'en' => 'Isocenter To Beam Limiting Device Dist',
             ],
         ],
     ];

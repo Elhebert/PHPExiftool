@@ -28,13 +28,14 @@ class AutoAFPointSelEOSiTRAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto AF Point Sel EOS iTR AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3877
+             * line : 2400
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoAFPointSelEOSiTRAF extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AutoAFPointSelEOSiTRAF',
             'desc' => [
+                'en' => 'Auto AF Point Sel EOS iTR AF',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EffectStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effect Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334187
+             * line : 234267
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:EffectStrength',
             'desc' => [
+                'en' => 'Effect Strength',
             ],
         ],
     ];

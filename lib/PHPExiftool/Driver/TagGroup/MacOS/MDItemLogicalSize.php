@@ -28,13 +28,14 @@ class MDItemLogicalSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Logical Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172884
+             * line : 118957
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemLogicalSize extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemLogicalSize',
             'desc' => [
+                'en' => 'MD Item Logical Size',
             ],
         ],
     ];

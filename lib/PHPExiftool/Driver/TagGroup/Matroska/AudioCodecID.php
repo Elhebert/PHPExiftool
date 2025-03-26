@@ -28,13 +28,14 @@ class AudioCodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173191
+             * line : 119195
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodecID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AudioCodecID',
             'desc' => [
+                'en' => 'Audio Codec ID',
             ],
         ],
     ];

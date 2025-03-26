@@ -28,13 +28,14 @@ class AutoBracket extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Bracket',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159452
+             * line : 109408
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoBracket extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:AutoBracket',
             'desc' => [
+                'en' => 'Auto Bracket',
             ],
         ],
     ];

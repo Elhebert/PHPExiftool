@@ -28,13 +28,14 @@ class ExposureCompensationMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181691
+             * line : 123602
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensationMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ExposureCompensationMode',
             'desc' => [
+                'en' => 'Exposure Compensation Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185139
+             * line : 125678
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureCompensationMode extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ExposureCompensationMode',
             'desc' => [
+                'en' => 'Exposure Compensation Mode',
             ],
         ],
     ];

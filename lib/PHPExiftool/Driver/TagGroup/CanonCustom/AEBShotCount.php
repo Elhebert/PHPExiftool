@@ -28,13 +28,14 @@ class AEBShotCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AEB Shot Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72578
+             * line : 53876
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AEBShotCount extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AEBShotCount',
             'desc' => [
+                'en' => 'AEB Shot Count',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72598
+             * line : 53893
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AEBShotCount extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AEBShotCount',
             'desc' => [
+                'en' => 'AEB Shot Count',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72618
+             * line : 53910
              * type : int32s
              * writable : true
              * count : 2
@@ -68,6 +71,7 @@ class AEBShotCount extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AEBShotCount',
             'desc' => [
+                'en' => 'AEB Shot Count',
             ],
         ],
     ];

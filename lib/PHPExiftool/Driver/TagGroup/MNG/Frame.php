@@ -28,13 +28,14 @@ class Frame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165205
+             * line : 112298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Frame extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:Frame',
             'desc' => [
+                'en' => 'Frame',
             ],
         ],
     ];

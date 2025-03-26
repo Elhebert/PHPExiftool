@@ -28,13 +28,14 @@ class Strobe extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strobe',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraSetup
-             * line : 161654
+             * line : 110421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Strobe extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraSetup.Leaf:Strobe',
             'desc' => [
+                'en' => 'Strobe',
             ],
         ],
     ];

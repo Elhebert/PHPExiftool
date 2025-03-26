@@ -28,13 +28,14 @@ class MDItemFSNodeCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Node Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172780
+             * line : 118879
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSNodeCount extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSNodeCount',
             'desc' => [
+                'en' => 'MD Item FS Node Count',
             ],
         ],
     ];

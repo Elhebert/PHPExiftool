@@ -28,13 +28,14 @@ class TemporalOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temporal Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170823
+             * line : 117054
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemporalOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TemporalOffset',
             'desc' => [
+                'en' => 'Temporal Offset',
             ],
         ],
     ];

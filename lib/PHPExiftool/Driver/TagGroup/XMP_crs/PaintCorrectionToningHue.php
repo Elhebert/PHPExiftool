@@ -28,13 +28,14 @@ class PaintCorrectionToningHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Toning Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403850
+             * line : 286967
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionToningHue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionToningHue',
             'desc' => [
+                'en' => 'Paint Correction Toning Hue',
             ],
         ],
     ];

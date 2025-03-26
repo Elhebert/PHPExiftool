@@ -28,13 +28,14 @@ class BatteryVoltage1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Voltage 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352249
+             * line : 246065
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BatteryVoltage1 extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:BatteryVoltage1',
             'desc' => [
+                'en' => 'Battery Voltage 1',
             ],
         ],
     ];

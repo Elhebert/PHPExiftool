@@ -28,13 +28,14 @@ class SoftTissueThermalIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Soft Tissue Thermal Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96206
+             * line : 69622
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoftTissueThermalIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SoftTissueThermalIndex',
             'desc' => [
+                'en' => 'Soft Tissue Thermal Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UCRBG extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Under Color Removal and Black Gen.',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146185
+             * line : 101643
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UCRBG extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:UCRBG',
             'desc' => [
+                'en' => 'Under Color Removal and Black Gen.',
             ],
         ],
     ];

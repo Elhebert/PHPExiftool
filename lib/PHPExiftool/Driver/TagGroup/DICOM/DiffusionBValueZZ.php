@@ -28,13 +28,14 @@ class DiffusionBValueZZ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diffusion B Value ZZ',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97309
+             * line : 70705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiffusionBValueZZ extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DiffusionBValueZZ',
             'desc' => [
+                'en' => 'Diffusion B Value ZZ',
             ],
         ],
     ];

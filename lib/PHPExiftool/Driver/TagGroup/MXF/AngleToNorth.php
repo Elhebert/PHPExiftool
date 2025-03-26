@@ -28,13 +28,14 @@ class AngleToNorth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angle To North',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168383
+             * line : 114878
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngleToNorth extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AngleToNorth',
             'desc' => [
+                'en' => 'Angle To North',
             ],
         ],
     ];

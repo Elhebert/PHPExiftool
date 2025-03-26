@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::MMA
-             * line : 182531
+             * line : 124236
              * type : string
              * writable : false
              * count : 20
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Minolta::MMA.Minolta:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::MOV1
-             * line : 182560
+             * line : 124246
              * type : string
              * writable : false
              * count : 32
@@ -55,12 +57,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV1.Minolta:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::MOV2
-             * line : 182657
+             * line : 124268
              * type : string
              * writable : false
              * count : 32
@@ -68,6 +71,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV2.Minolta:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

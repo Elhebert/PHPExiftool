@@ -28,13 +28,14 @@ class EmbeddedFileUsageRights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded File Usage Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264411
+             * line : 182765
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedFileUsageRights extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:EmbeddedFileUsageRights',
             'desc' => [
+                'en' => 'Embedded File Usage Rights',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ControlPointOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Control Point Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103933
+             * line : 77022
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ControlPointOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ControlPointOrientation',
             'desc' => [
+                'en' => 'Control Point Orientation',
             ],
         ],
     ];

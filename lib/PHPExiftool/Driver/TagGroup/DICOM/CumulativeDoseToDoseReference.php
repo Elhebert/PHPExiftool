@@ -28,13 +28,14 @@ class CumulativeDoseToDoseReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cumulative Dose To Dose Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102747
+             * line : 75843
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CumulativeDoseToDoseReference extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CumulativeDoseToDoseReference',
             'desc' => [
+                'en' => 'Cumulative Dose To Dose Reference',
             ],
         ],
     ];

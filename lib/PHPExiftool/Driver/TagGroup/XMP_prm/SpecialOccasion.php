@@ -28,13 +28,14 @@ class SpecialOccasion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Special Occasion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411261
+             * line : 290451
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpecialOccasion extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:SpecialOccasion',
             'desc' => [
+                'en' => 'Special Occasion',
             ],
         ],
     ];

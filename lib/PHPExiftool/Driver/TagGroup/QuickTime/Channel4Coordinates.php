@@ -28,13 +28,14 @@ class Channel4Coordinates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel 4 Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ChannelLayout
-             * line : 311730
+             * line : 217607
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class Channel4Coordinates extends AbstractTagGroup
              */
             'id' => 'QuickTime::ChannelLayout.QuickTime:Channel4Coordinates',
             'desc' => [
+                'en' => 'Channel 4 Coordinates',
             ],
         ],
     ];

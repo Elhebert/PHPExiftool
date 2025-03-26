@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128250
+             * line : 88966
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

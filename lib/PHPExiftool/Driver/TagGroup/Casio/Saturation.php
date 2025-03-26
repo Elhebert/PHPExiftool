@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84797
+             * line : 61803
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85537
+             * line : 62097
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 89517
+             * line : 64766
              * type : undef
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

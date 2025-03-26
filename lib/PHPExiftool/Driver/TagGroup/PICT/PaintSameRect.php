@@ -28,13 +28,14 @@ class PaintSameRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Same Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264783
+             * line : 183014
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintSameRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintSameRect',
             'desc' => [
+                'en' => 'Paint Same Rect',
             ],
         ],
     ];

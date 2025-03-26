@@ -28,13 +28,14 @@ class GradientBasedCorrDefringe extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Defringe',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399342
+             * line : 282849
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrDefringe extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrDefringe',
             'desc' => [
+                'en' => 'Gradient Based Corr Defringe',
             ],
         ],
     ];

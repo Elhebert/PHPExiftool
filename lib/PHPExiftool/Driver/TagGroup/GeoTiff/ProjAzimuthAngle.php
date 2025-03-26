@@ -28,13 +28,14 @@ class ProjAzimuthAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Azimuth Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138743
+             * line : 96992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjAzimuthAngle extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjAzimuthAngle',
             'desc' => [
+                'en' => 'Proj Azimuth Angle',
             ],
         ],
     ];

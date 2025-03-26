@@ -28,13 +28,14 @@ class ProjectionPoseRoll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Pose Roll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Projection
-             * line : 174056
+             * line : 119896
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionPoseRoll extends AbstractTagGroup
              */
             'id' => 'Matroska::Projection.Matroska:ProjectionPoseRoll',
             'desc' => [
+                'en' => 'Projection Pose Roll',
             ],
         ],
     ];

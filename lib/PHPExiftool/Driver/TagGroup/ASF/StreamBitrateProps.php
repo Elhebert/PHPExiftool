@@ -28,13 +28,14 @@ class StreamBitrateProps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Bitrate Props',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1810
+             * line : 912
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamBitrateProps extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:StreamBitrateProps',
             'desc' => [
+                'en' => 'Stream Bitrate Props',
             ],
         ],
     ];

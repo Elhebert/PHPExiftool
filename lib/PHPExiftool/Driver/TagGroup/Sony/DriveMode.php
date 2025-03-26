@@ -28,13 +28,14 @@ class DriveMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346704
+             * line : 242963
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349635
+             * line : 244274
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350928
+             * line : 245023
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
     ];

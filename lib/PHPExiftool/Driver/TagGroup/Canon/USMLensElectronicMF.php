@@ -28,13 +28,14 @@ class USMLensElectronicMF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'USM Lens Electronic MF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3832
+             * line : 2361
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class USMLensElectronicMF extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:USMLensElectronicMF',
             'desc' => [
+                'en' => 'USM Lens Electronic MF',
             ],
         ],
     ];

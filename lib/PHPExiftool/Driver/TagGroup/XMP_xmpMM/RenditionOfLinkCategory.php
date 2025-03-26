@@ -28,13 +28,14 @@ class RenditionOfLinkCategory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Link Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414221
+             * line : 292241
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfLinkCategory extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfLinkCategory',
             'desc' => [
+                'en' => 'Rendition Of Link Category',
             ],
         ],
     ];

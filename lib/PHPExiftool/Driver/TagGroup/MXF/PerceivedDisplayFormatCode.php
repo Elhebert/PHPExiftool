@@ -28,13 +28,14 @@ class PerceivedDisplayFormatCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Perceived Display Format Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170261
+             * line : 116538
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerceivedDisplayFormatCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PerceivedDisplayFormatCode',
             'desc' => [
+                'en' => 'Perceived Display Format Code',
             ],
         ],
     ];

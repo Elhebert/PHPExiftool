@@ -28,13 +28,14 @@ class Parameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::INSV_MakerNotes
-             * line : 313863
+             * line : 219568
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Parameters extends AbstractTagGroup
              */
             'id' => 'QuickTime::INSV_MakerNotes.MakerNotes:Parameters',
             'desc' => [
+                'en' => 'Parameters',
             ],
         ],
     ];

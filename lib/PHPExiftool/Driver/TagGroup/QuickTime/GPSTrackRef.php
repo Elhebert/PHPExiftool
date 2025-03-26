@@ -28,13 +28,14 @@ class GPSTrackRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Track Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324811
+             * line : 229355
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSTrackRef extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSTrackRef',
             'desc' => [
+                'en' => 'GPS Track Ref',
             ],
         ],
     ];

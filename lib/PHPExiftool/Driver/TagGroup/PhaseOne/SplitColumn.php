@@ -28,13 +28,14 @@ class SplitColumn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Split Column',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303421
+             * line : 210843
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SplitColumn extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:SplitColumn',
             'desc' => [
+                'en' => 'Split Column',
             ],
         ],
     ];

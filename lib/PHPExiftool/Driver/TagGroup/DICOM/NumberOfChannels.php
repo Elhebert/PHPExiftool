@@ -28,13 +28,14 @@ class NumberOfChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97520
+             * line : 70906
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NumberOfChannels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfChannels',
             'desc' => [
+                'en' => 'Number Of Channels',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 104208
+             * line : 77286
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NumberOfChannels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfChannels',
             'desc' => [
+                'en' => 'Number Of Channels',
             ],
         ],
     ];

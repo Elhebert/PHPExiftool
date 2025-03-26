@@ -28,13 +28,14 @@ class TrackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328466
+             * line : 231637
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Info
-             * line : 328565
+             * line : 231693
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
     ];

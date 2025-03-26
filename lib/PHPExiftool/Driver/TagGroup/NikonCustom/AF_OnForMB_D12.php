@@ -28,13 +28,14 @@ class AF_OnForMB_D12 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-On For MB-D12',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231415
+             * line : 155655
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_OnForMB_D12 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AF-OnForMB-D12',
             'desc' => [
+                'en' => 'AF-On For MB-D12',
             ],
         ],
     ];

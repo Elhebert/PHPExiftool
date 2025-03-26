@@ -28,13 +28,14 @@ class SlideshowName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Slideshow Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410711
+             * line : 289992
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SlideshowName extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:SlideshowName',
             'desc' => [
+                'en' => 'Slideshow Name',
             ],
         ],
     ];

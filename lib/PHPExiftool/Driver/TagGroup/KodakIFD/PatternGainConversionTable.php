@@ -28,13 +28,14 @@ class PatternGainConversionTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pattern Gain Conversion Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155331
+             * line : 106544
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatternGainConversionTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternGainConversionTable',
             'desc' => [
+                'en' => 'Pattern Gain Conversion Table',
             ],
         ],
     ];

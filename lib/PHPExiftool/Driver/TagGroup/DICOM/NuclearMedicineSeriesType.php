@@ -28,13 +28,14 @@ class NuclearMedicineSeriesType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nuclear Medicine Series Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94742
+             * line : 68230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NuclearMedicineSeriesType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NuclearMedicineSeriesType',
             'desc' => [
+                'en' => 'Nuclear Medicine Series Type',
             ],
         ],
     ];

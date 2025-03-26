@@ -28,13 +28,14 @@ class LensTypeModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279747
+             * line : 194295
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensTypeModel extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:LensTypeModel',
             'desc' => [
+                'en' => 'Lens Type Model',
             ],
         ],
     ];

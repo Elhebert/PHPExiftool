@@ -28,13 +28,14 @@ class AudioRequiresPacketDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Requires Packet Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312679
+             * line : 218551
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioRequiresPacketDescription extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioRequiresPacketDescription',
             'desc' => [
+                'en' => 'Audio Requires Packet Description',
             ],
         ],
     ];

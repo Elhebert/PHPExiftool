@@ -28,13 +28,14 @@ class MaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177595
+             * line : 121985
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 186689
+             * line : 126862
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
     ];

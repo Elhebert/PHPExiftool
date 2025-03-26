@@ -28,13 +28,14 @@ class FieldFrameTypeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Frame Type Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167933
+             * line : 114455
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldFrameTypeCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FieldFrameTypeCode',
             'desc' => [
+                'en' => 'Field Frame Type Code',
             ],
         ],
     ];

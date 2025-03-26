@@ -28,13 +28,14 @@ class Pressure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pressure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116319
+             * line : 83328
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Pressure extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Pressure',
             'desc' => [
+                'en' => 'Pressure',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageTriggerDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Trigger Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95691
+             * line : 69139
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageTriggerDelay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageTriggerDelay',
             'desc' => [
+                'en' => 'Image Trigger Delay',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BabyName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Baby Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277360
+             * line : 192939
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BabyName extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:BabyName',
             'desc' => [
+                'en' => 'Baby Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompensatorDivergence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Divergence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103717
+             * line : 76806
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorDivergence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorDivergence',
             'desc' => [
+                'en' => 'Compensator Divergence',
             ],
         ],
     ];

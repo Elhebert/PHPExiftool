@@ -28,13 +28,14 @@ class AlgorithmFamilyCodeSequ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Algorithm Family Code Sequ',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101217
+             * line : 74367
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlgorithmFamilyCodeSequ extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlgorithmFamilyCodeSequ',
             'desc' => [
+                'en' => 'Algorithm Family Code Sequ',
             ],
         ],
     ];

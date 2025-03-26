@@ -28,13 +28,14 @@ class ColorClass extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Class',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304875
+             * line : 211914
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorClass extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:ColorClass',
             'desc' => [
+                'en' => 'Color Class',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToggleStyleDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toggle Style Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404463
+             * line : 287510
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToggleStyleDigest extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ToggleStyleDigest',
             'desc' => [
+                'en' => 'Toggle Style Digest',
             ],
         ],
     ];

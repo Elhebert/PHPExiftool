@@ -28,13 +28,14 @@ class SmallestImagePixelValueInPlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Smallest Image Pixel Value In Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98815
+             * line : 72087
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SmallestImagePixelValueInPlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SmallestImagePixelValueInPlane',
             'desc' => [
+                'en' => 'Smallest Image Pixel Value In Plane',
             ],
         ],
     ];

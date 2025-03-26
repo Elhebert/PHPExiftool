@@ -28,13 +28,14 @@ class AFCollectEndStat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Collect End Stat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306221
+             * line : 212726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFCollectEndStat extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFCollectEndStat',
             'desc' => [
+                'en' => 'AF Collect End Stat',
             ],
         ],
     ];

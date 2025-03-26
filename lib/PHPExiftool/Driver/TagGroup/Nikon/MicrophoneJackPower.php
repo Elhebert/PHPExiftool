@@ -28,13 +28,14 @@ class MicrophoneJackPower extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Microphone Jack Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201727
+             * line : 136621
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicrophoneJackPower extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneJackPower',
             'desc' => [
+                'en' => 'Microphone Jack Power',
             ],
         ],
     ];

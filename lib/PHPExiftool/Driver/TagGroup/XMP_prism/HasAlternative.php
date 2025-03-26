@@ -28,13 +28,14 @@ class HasAlternative extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Alternative',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410863
+             * line : 290118
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasAlternative extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:HasAlternative',
             'desc' => [
+                'en' => 'Has Alternative',
             ],
         ],
     ];

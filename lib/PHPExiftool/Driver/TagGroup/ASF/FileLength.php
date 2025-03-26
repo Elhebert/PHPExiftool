@@ -28,13 +28,14 @@ class FileLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1718
+             * line : 860
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileLength extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:FileLength',
             'desc' => [
+                'en' => 'File Length',
             ],
         ],
     ];

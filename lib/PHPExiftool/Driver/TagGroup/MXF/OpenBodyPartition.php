@@ -28,13 +28,14 @@ class OpenBodyPartition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Open Body Partition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172487
+             * line : 118648
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpenBodyPartition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OpenBodyPartition',
             'desc' => [
+                'en' => 'Open Body Partition',
             ],
         ],
     ];

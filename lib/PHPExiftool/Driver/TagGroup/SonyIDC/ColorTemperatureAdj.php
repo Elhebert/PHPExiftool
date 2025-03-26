@@ -28,13 +28,14 @@ class ColorTemperatureAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394158
+             * line : 279249
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperatureAdj extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:ColorTemperatureAdj',
             'desc' => [
+                'en' => 'Color Temperature Adj',
             ],
         ],
     ];

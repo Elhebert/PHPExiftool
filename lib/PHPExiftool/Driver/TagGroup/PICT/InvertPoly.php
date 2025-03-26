@@ -28,13 +28,14 @@ class InvertPoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264922
+             * line : 183146
              * type : Polygon
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertPoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertPoly',
             'desc' => [
+                'en' => 'Invert Poly',
             ],
         ],
     ];

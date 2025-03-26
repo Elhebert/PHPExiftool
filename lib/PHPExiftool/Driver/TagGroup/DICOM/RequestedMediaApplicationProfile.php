@@ -28,13 +28,14 @@ class RequestedMediaApplicationProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Media Application Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102356
+             * line : 75456
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedMediaApplicationProfile extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedMediaApplicationProfile',
             'desc' => [
+                'en' => 'Requested Media Application Profile',
             ],
         ],
     ];

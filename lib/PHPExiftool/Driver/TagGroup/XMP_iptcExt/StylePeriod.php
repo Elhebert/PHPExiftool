@@ -28,13 +28,14 @@ class StylePeriod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Style Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409824
+             * line : 289583
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StylePeriod extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:StylePeriod',
             'desc' => [
+                'en' => 'Style Period',
             ],
         ],
     ];

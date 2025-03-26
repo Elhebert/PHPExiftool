@@ -28,13 +28,14 @@ class FilmGauge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Gauge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169197
+             * line : 115639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmGauge extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmGauge',
             'desc' => [
+                'en' => 'Film Gauge',
             ],
         ],
     ];

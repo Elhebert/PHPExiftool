@@ -28,13 +28,14 @@ class WhiteBalance2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251043
+             * line : 173171
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance2 extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:WhiteBalance2',
             'desc' => [
+                'en' => 'White Balance 2',
             ],
         ],
     ];

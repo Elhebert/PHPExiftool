@@ -28,13 +28,14 @@ class TransformCreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transform Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127349
+             * line : 88381
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransformCreateDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:TransformCreateDate',
             'desc' => [
+                'en' => 'Transform Create Date',
             ],
         ],
     ];

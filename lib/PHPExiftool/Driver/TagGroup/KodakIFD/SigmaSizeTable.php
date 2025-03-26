@@ -28,13 +28,14 @@ class SigmaSizeTable extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sigma Size Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156374
+             * line : 107578
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SigmaSizeTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SigmaSizeTable',
             'desc' => [
+                'en' => 'Sigma Size Table',
             ],
         ],
     ];

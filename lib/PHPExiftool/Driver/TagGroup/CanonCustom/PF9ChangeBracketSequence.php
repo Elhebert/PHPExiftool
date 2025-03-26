@@ -28,13 +28,14 @@ class PF9ChangeBracketSequence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF9 Change Bracket Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78380
+             * line : 57081
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF9ChangeBracketSequence extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF9ChangeBracketSequence',
             'desc' => [
+                'en' => 'PF9 Change Bracket Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AssignMovieSubselectorPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Movie Subselector Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219326
+             * line : 147670
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignMovieSubselectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignMovieSubselectorPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Subselector Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221786
+             * line : 149712
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AssignMovieSubselectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMovieSubselectorPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Subselector Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233699
+             * line : 157543
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AssignMovieSubselectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMovieSubselectorPlusDials',
             'desc' => [
+                'en' => 'Assign Movie Subselector Plus Dials',
             ],
         ],
     ];

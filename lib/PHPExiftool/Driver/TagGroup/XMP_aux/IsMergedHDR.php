@@ -28,13 +28,14 @@ class IsMergedHDR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Is Merged HDR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397957
+             * line : 281672
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IsMergedHDR extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:IsMergedHDR',
             'desc' => [
+                'en' => 'Is Merged HDR',
             ],
         ],
     ];

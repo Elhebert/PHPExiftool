@@ -28,13 +28,14 @@ class TotalSegmentsRequested extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Segments Requested',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97491
+             * line : 70879
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalSegmentsRequested extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalSegmentsRequested',
             'desc' => [
+                'en' => 'Total Segments Requested',
             ],
         ],
     ];

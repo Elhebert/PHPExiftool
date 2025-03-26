@@ -28,13 +28,14 @@ class NumberOfFractionsDelivered extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Fractions Delivered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102756
+             * line : 75852
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFractionsDelivered extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFractionsDelivered',
             'desc' => [
+                'en' => 'Number Of Fractions Delivered',
             ],
         ],
     ];

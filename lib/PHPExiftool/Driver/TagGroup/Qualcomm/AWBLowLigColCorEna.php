@@ -28,13 +28,14 @@ class AWBLowLigColCorEna extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Low Lig Col Cor Ena',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307092
+             * line : 213590
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBLowLigColCorEna extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBLowLigColCorEna',
             'desc' => [
+                'en' => 'AWB Low Lig Col Cor Ena',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191138
+             * line : 129888
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196314
+             * line : 132785
              * type : string
              * writable : false
              * count : 24
@@ -55,12 +57,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202113
+             * line : 136905
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

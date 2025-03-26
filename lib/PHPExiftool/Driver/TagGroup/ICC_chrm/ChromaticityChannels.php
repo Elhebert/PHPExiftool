@@ -28,13 +28,14 @@ class ChromaticityChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chromaticity Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Chromaticity
-             * line : 143087
+             * line : 98815
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromaticityChannels extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Chromaticity.ICC-chrm:ChromaticityChannels',
             'desc' => [
+                'en' => 'Chromaticity Channels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DefaultAlarm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Alarm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395562
+             * line : 280098
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultAlarm extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DefaultAlarm',
             'desc' => [
+                'en' => 'Default Alarm',
             ],
         ],
     ];

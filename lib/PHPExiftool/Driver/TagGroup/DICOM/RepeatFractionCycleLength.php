@@ -28,13 +28,14 @@ class RepeatFractionCycleLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Repeat Fraction Cycle Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103089
+             * line : 76185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepeatFractionCycleLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RepeatFractionCycleLength',
             'desc' => [
+                'en' => 'Repeat Fraction Cycle Length',
             ],
         ],
     ];

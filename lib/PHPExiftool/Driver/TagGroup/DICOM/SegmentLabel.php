@@ -28,13 +28,14 @@ class SegmentLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segment Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101076
+             * line : 74226
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentLabel',
             'desc' => [
+                'en' => 'Segment Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ForeignImageRevision extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Foreign Image Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98513
+             * line : 71845
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ForeignImageRevision extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ForeignImageRevision',
             'desc' => [
+                'en' => 'Foreign Image Revision',
             ],
         ],
     ];

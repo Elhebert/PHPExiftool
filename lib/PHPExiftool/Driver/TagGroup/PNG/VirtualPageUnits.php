@@ -28,13 +28,14 @@ class VirtualPageUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Virtual Page Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::VirtualPage
-             * line : 273053
+             * line : 190591
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VirtualPageUnits extends AbstractTagGroup
              */
             'id' => 'PNG::VirtualPage.PNG:VirtualPageUnits',
             'desc' => [
+                'en' => 'Virtual Page Units',
             ],
         ],
     ];

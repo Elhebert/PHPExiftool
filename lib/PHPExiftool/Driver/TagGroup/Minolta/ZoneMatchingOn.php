@@ -28,13 +28,14 @@ class ZoneMatchingOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zone Matching On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 180093
+             * line : 122878
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoneMatchingOn extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ZoneMatchingOn',
             'desc' => [
+                'en' => 'Zone Matching On',
             ],
         ],
     ];

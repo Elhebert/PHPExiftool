@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : iWork::Main
-             * line : 415139
+             * line : 292849
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'iWork::Main.XML:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

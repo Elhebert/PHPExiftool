@@ -28,13 +28,14 @@ class TransferFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transfer Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111336
+             * line : 81629
              * type : int16u
              * writable : true
              * count : 768
@@ -42,6 +43,7 @@ class TransferFunction extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:TransferFunction',
             'desc' => [
+                'en' => 'Transfer Function',
             ],
         ],
     ];

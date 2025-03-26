@@ -28,13 +28,14 @@ class SidecarForExtension extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sidecar For Extension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410325
+             * line : 289800
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SidecarForExtension extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:SidecarForExtension',
             'desc' => [
+                'en' => 'Sidecar For Extension',
             ],
         ],
     ];

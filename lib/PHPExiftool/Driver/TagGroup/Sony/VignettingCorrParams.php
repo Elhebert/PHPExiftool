@@ -28,13 +28,14 @@ class VignettingCorrParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405a
-             * line : 387559
+             * line : 273670
              * type : int16s
              * writable : true
              * count : 16
@@ -42,12 +43,13 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405a.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390208
+             * line : 275975
              * type : int16s
              * writable : true
              * count : 16
@@ -55,12 +57,13 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390215
+             * line : 275981
              * type : int16s
              * writable : true
              * count : 16
@@ -68,12 +71,13 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390222
+             * line : 275987
              * type : int16s
              * writable : true
              * count : 16
@@ -81,12 +85,13 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390226
+             * line : 275990
              * type : int16s
              * writable : true
              * count : 16
@@ -94,12 +99,13 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393381
+             * line : 278934
              * type : int16s
              * writable : false
              * count : 16
@@ -107,12 +113,13 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393385
+             * line : 278937
              * type : int16s
              * writable : false
              * count : 16
@@ -120,6 +127,7 @@ class VignettingCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:VignettingCorrParams',
             'desc' => [
+                'en' => 'Vignetting Corr Params',
             ],
         ],
     ];

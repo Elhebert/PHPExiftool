@@ -28,13 +28,14 @@ class MovieMeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201544
+             * line : 136438
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieMeteringMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieMeteringMode',
             'desc' => [
+                'en' => 'Movie Metering Mode',
             ],
         ],
     ];

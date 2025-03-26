@@ -28,13 +28,14 @@ class Album extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Album',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412811
+             * line : 291004
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Album extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Album',
             'desc' => [
+                'en' => 'Album',
             ],
         ],
     ];

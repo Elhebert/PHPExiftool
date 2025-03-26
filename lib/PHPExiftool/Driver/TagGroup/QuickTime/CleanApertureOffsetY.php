@@ -28,13 +28,14 @@ class CleanApertureOffsetY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clean Aperture Offset Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::CleanAperture
-             * line : 312602
+             * line : 218479
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CleanApertureOffsetY extends AbstractTagGroup
              */
             'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureOffsetY',
             'desc' => [
+                'en' => 'Clean Aperture Offset Y',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaThumbRatingAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Thumb Rating Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396173
+             * line : 280469
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaThumbRatingAttributes extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaThumbRatingAttributes',
             'desc' => [
+                'en' => 'Media Thumb Rating Attributes',
             ],
         ],
     ];

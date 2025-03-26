@@ -28,13 +28,14 @@ class WBRedFluorescent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Red Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361980
+             * line : 252029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBRedFluorescent extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:WBRedFluorescent',
             'desc' => [
+                'en' => 'WB Red Fluorescent',
             ],
         ],
     ];

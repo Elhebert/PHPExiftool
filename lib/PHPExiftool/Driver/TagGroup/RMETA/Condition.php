@@ -28,13 +28,14 @@ class Condition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Condition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333616
+             * line : 233942
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Condition extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:Condition',
             'desc' => [
+                'en' => 'Condition',
             ],
         ],
     ];

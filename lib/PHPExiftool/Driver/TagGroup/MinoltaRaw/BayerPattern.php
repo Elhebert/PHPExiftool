@@ -28,13 +28,14 @@ class BayerPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bayer Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186823
+             * line : 126907
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BayerPattern extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:BayerPattern',
             'desc' => [
+                'en' => 'Bayer Pattern',
             ],
         ],
     ];

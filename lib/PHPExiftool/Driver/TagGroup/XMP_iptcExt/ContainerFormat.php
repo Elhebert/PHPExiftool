@@ -28,13 +28,14 @@ class ContainerFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Container Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409167
+             * line : 288978
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContainerFormat extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ContainerFormat',
             'desc' => [
+                'en' => 'Container Format',
             ],
         ],
     ];

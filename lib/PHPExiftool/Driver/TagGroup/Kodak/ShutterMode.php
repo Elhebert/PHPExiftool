@@ -28,13 +28,14 @@ class ShutterMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157779
+             * line : 108698
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterMode extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:ShutterMode',
             'desc' => [
+                'en' => 'Shutter Mode',
             ],
         ],
     ];

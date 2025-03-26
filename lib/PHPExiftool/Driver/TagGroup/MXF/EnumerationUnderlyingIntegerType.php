@@ -28,13 +28,14 @@ class EnumerationUnderlyingIntegerType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Enumeration Underlying Integer Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169631
+             * line : 116022
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnumerationUnderlyingIntegerType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EnumerationUnderlyingIntegerType',
             'desc' => [
+                'en' => 'Enumeration Underlying Integer Type',
             ],
         ],
     ];

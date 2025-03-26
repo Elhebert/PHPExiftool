@@ -28,13 +28,14 @@ class BrightnessValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185643
+             * line : 125937
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 186674
+             * line : 126859
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
     ];

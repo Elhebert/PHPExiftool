@@ -28,13 +28,14 @@ class SharpnessThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394213
+             * line : 279279
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpnessThreshold extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:SharpnessThreshold',
             'desc' => [
+                'en' => 'Sharpness Threshold',
             ],
         ],
     ];

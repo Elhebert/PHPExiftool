@@ -28,13 +28,14 @@ class TransverseMash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transverse Mash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100998
+             * line : 74148
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransverseMash extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransverseMash',
             'desc' => [
+                'en' => 'Transverse Mash',
             ],
         ],
     ];

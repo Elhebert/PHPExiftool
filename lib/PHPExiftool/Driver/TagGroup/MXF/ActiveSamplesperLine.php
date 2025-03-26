@@ -28,13 +28,14 @@ class ActiveSamplesperLine extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Samplesper Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167837
+             * line : 114395
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveSamplesperLine extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ActiveSamplesperLine',
             'desc' => [
+                'en' => 'Active Samplesper Line',
             ],
         ],
     ];

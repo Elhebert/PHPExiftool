@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162259
+             * line : 110848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

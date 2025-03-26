@@ -28,13 +28,14 @@ class RembrandtPortraitToneScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rembrandt Portrait Tone Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155927
+             * line : 107138
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RembrandtPortraitToneScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RembrandtPortraitToneScale',
             'desc' => [
+                'en' => 'Rembrandt Portrait Tone Scale',
             ],
         ],
     ];

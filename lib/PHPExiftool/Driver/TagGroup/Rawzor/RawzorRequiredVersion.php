@@ -28,13 +28,14 @@ class RawzorRequiredVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rawzor Required Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Rawzor::Main
-             * line : 329620
+             * line : 232159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawzorRequiredVersion extends AbstractTagGroup
              */
             'id' => 'Rawzor::Main.Rawzor:RawzorRequiredVersion',
             'desc' => [
+                'en' => 'Rawzor Required Version',
             ],
         ],
     ];

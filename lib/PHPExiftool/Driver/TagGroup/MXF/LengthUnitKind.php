@@ -28,13 +28,14 @@ class LengthUnitKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Length Unit Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167616
+             * line : 114227
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LengthUnitKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LengthUnitKind',
             'desc' => [
+                'en' => 'Length Unit Kind',
             ],
         ],
     ];

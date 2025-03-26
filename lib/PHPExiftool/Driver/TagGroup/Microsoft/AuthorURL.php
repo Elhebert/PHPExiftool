@@ -28,13 +28,14 @@ class AuthorURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Author URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174977
+             * line : 120485
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AuthorURL extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AuthorURL',
             'desc' => [
+                'en' => 'Author URL',
             ],
         ],
     ];

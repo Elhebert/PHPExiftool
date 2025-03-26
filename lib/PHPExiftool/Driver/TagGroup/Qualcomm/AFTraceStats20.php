@@ -28,13 +28,14 @@ class AFTraceStats20 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Trace Stats 20',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306465
+             * line : 212963
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFTraceStats20 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFTraceStats20',
             'desc' => [
+                'en' => 'AF Trace Stats 20',
             ],
         ],
     ];

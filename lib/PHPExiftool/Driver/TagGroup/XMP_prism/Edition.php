@@ -28,13 +28,14 @@ class Edition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410838
+             * line : 290103
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Edition extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Edition',
             'desc' => [
+                'en' => 'Edition',
             ],
         ],
     ];

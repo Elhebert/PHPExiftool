@@ -28,13 +28,14 @@ class ExposureAdjust extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337219
+             * line : 236051
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureAdjust extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureAdjust',
             'desc' => [
+                'en' => 'Exposure Adjust',
             ],
         ],
     ];

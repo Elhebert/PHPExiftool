@@ -28,13 +28,14 @@ class ModifiedAttributesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modified Attributes Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101941
+             * line : 75081
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifiedAttributesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModifiedAttributesSequence',
             'desc' => [
+                'en' => 'Modified Attributes Sequence',
             ],
         ],
     ];

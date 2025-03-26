@@ -28,13 +28,14 @@ class TherapyDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Therapy Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95479
+             * line : 68938
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TherapyDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TherapyDescription',
             'desc' => [
+                'en' => 'Therapy Description',
             ],
         ],
     ];

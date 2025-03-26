@@ -28,13 +28,14 @@ class FinishedFileProcessingRequest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Finished File Processing Request',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156179
+             * line : 107390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FinishedFileProcessingRequest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishedFileProcessingRequest',
             'desc' => [
+                'en' => 'Finished File Processing Request',
             ],
         ],
     ];

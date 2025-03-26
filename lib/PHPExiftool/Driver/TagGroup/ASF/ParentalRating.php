@@ -28,13 +28,14 @@ class ParentalRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parental Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1480
+             * line : 709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParentalRating extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ParentalRating',
             'desc' => [
+                'en' => 'Parental Rating',
             ],
         ],
     ];

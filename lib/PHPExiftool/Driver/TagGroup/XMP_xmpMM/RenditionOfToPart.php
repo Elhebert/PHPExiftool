@@ -28,13 +28,14 @@ class RenditionOfToPart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of To Part',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414273
+             * line : 292291
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfToPart extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfToPart',
             'desc' => [
+                'en' => 'Rendition Of To Part',
             ],
         ],
     ];

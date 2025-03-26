@@ -28,13 +28,14 @@ class FrameTimeVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Time Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95685
+             * line : 69133
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameTimeVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameTimeVector',
             'desc' => [
+                'en' => 'Frame Time Vector',
             ],
         ],
     ];

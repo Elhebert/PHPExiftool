@@ -28,13 +28,14 @@ class TomTomHL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tom Tom HL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TomTom
-             * line : 325016
+             * line : 229474
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TomTomHL extends AbstractTagGroup
              */
             'id' => 'QuickTime::TomTom.QuickTime:TomTomHL',
             'desc' => [
+                'en' => 'Tom Tom HL',
             ],
         ],
     ];

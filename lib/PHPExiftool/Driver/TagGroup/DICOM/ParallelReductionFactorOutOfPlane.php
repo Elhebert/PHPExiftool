@@ -28,13 +28,14 @@ class ParallelReductionFactorOutOfPlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parallel Reduction Factor Out Of Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96808
+             * line : 70210
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParallelReductionFactorOutOfPlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParallelReductionFactorOutOfPlane',
             'desc' => [
+                'en' => 'Parallel Reduction Factor Out Of Plane',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureDifference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Difference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196740
+             * line : 132872
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ExposureDifference extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ExposureDifference',
             'desc' => [
+                'en' => 'Exposure Difference',
             ],
         ],
     ];

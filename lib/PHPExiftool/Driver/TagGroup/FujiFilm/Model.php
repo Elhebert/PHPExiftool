@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::MOV
-             * line : 128757
+             * line : 89331
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'FujiFilm::MOV.FujiFilm:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

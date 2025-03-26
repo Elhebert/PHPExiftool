@@ -28,13 +28,14 @@ class ProfileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 143999
+             * line : 99703
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileVersion extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:ProfileVersion',
             'desc' => [
+                'en' => 'Profile Version',
             ],
         ],
     ];

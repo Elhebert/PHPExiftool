@@ -28,13 +28,14 @@ class PatientBreedCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Breed Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95320
+             * line : 68782
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientBreedCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientBreedCodeSequence',
             'desc' => [
+                'en' => 'Patient Breed Code Sequence',
             ],
         ],
     ];

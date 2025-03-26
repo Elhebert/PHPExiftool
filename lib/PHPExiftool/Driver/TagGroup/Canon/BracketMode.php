@@ -28,13 +28,14 @@ class BracketMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63416
+             * line : 48222
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketMode extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:BracketMode',
             'desc' => [
+                'en' => 'Bracket Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DistortionCorrParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distortion Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361884
+             * line : 251970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:DistortionCorrParams',
             'desc' => [
+                'en' => 'Distortion Corr Params',
             ],
         ],
     ];

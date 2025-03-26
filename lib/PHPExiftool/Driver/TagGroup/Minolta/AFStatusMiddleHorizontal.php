@@ -28,13 +28,14 @@ class AFStatusMiddleHorizontal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Middle Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraInfoA100
-             * line : 176771
+             * line : 121601
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusMiddleHorizontal extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraInfoA100.Minolta:AFStatusMiddleHorizontal',
             'desc' => [
+                'en' => 'AF Status Middle Horizontal',
             ],
         ],
     ];

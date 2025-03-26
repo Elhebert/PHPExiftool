@@ -28,13 +28,14 @@ class MakerNoteLeica2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Leica 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105013
+             * line : 77876
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteLeica2 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteLeica2',
             'desc' => [
+                'en' => 'Maker Note Leica 2',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115974
+             * line : 83169
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteLeica2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteLeica2',
             'desc' => [
+                'en' => 'Maker Note Leica 2',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlueX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::PrimaryChromaticities
-             * line : 272735
+             * line : 190475
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueX extends AbstractTagGroup
              */
             'id' => 'PNG::PrimaryChromaticities.PNG:BlueX',
             'desc' => [
+                'en' => 'Blue X',
             ],
         ],
     ];

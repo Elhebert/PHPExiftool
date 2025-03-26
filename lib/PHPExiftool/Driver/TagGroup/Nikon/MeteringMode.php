@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191413
+             * line : 129941
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202505
+             * line : 136999
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

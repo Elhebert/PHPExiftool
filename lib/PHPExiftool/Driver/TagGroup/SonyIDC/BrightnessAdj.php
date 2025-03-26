@@ -28,13 +28,14 @@ class BrightnessAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394188
+             * line : 279264
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BrightnessAdj extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:BrightnessAdj',
             'desc' => [
+                'en' => 'Brightness Adj',
             ],
         ],
     ];

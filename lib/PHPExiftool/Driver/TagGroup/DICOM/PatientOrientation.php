@@ -28,13 +28,14 @@ class PatientOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97884
+             * line : 71257
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientOrientation',
             'desc' => [
+                'en' => 'Patient Orientation',
             ],
         ],
     ];

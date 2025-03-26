@@ -28,13 +28,14 @@ class RAWFileType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'RAW File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355735
+             * line : 248184
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RAWFileType extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:RAWFileType',
             'desc' => [
+                'en' => 'RAW File Type',
             ],
         ],
     ];

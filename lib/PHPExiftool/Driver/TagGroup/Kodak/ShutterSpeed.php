@@ -28,13 +28,14 @@ class ShutterSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159783
+             * line : 109497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeed extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:ShutterSpeed',
             'desc' => [
+                'en' => 'Shutter Speed',
             ],
         ],
     ];

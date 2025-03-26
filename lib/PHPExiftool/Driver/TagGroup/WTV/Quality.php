@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396374
+             * line : 280626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

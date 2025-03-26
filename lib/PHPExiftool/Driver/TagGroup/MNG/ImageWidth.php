@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164526
+             * line : 111820
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164866
+             * line : 112066
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         2 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165056
+             * line : 112190
              * type : int32u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

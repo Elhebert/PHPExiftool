@@ -28,13 +28,14 @@ class IncludeSync extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Include Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168039
+             * line : 114545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncludeSync extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IncludeSync',
             'desc' => [
+                'en' => 'Include Sync',
             ],
         ],
     ];

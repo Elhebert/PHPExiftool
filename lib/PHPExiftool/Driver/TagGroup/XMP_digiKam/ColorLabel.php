@@ -28,13 +28,14 @@ class ColorLabel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::digiKam
-             * line : 405015
+             * line : 287774
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorLabel extends AbstractTagGroup
              */
             'id' => 'XMP::digiKam.XMP-digiKam:ColorLabel',
             'desc' => [
+                'en' => 'Color Label',
             ],
         ],
     ];

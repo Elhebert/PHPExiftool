@@ -28,13 +28,14 @@ class PulseSeqMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pulse Seq Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97628
+             * line : 71011
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PulseSeqMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PulseSeqMode',
             'desc' => [
+                'en' => 'Pulse Seq Mode',
             ],
         ],
     ];

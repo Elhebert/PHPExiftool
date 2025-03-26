@@ -28,13 +28,14 @@ class IntervalsRejected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervals Rejected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95751
+             * line : 69199
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntervalsRejected extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntervalsRejected',
             'desc' => [
+                'en' => 'Intervals Rejected',
             ],
         ],
     ];

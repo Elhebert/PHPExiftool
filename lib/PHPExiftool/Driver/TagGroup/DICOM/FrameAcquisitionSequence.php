@@ -28,13 +28,14 @@ class FrameAcquisitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Acquisition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97108
+             * line : 70507
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameAcquisitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameAcquisitionSequence',
             'desc' => [
+                'en' => 'Frame Acquisition Sequence',
             ],
         ],
     ];

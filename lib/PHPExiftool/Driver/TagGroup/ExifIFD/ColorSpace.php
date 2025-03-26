@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116408
+             * line : 83358
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

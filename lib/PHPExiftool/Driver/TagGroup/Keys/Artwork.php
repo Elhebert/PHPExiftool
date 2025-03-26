@@ -28,13 +28,14 @@ class Artwork extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323290
+             * line : 228583
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Artwork extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Artwork',
             'desc' => [
+                'en' => 'Artwork',
             ],
         ],
     ];

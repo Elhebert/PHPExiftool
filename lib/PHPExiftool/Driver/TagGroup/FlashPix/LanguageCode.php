@@ -28,13 +28,14 @@ class LanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::WordDocument
-             * line : 127411
+             * line : 88438
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LanguageCode extends AbstractTagGroup
              */
             'id' => 'FlashPix::WordDocument.FlashPix:LanguageCode',
             'desc' => [
+                'en' => 'Language Code',
             ],
         ],
     ];

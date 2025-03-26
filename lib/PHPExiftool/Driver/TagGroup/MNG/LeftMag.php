@@ -28,13 +28,14 @@ class LeftMag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Left Mag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165152
+             * line : 112250
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeftMag extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:LeftMag',
             'desc' => [
+                'en' => 'Left Mag',
             ],
         ],
     ];

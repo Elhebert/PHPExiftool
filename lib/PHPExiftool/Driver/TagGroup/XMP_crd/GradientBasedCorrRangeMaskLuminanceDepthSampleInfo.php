@@ -28,13 +28,14 @@ class GradientBasedCorrRangeMaskLuminanceDepthSampleInfo extends AbstractTagGrou
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Range Mask Luminance Depth Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399300
+             * line : 282807
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrRangeMaskLuminanceDepthSampleInfo extends AbstractTagGrou
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrRangeMaskLuminanceDepthSampleInfo',
             'desc' => [
+                'en' => 'Gradient Based Corr Range Mask Luminance Depth Sample Info',
             ],
         ],
     ];

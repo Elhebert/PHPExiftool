@@ -28,13 +28,14 @@ class EncodingSettings extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1259
+             * line : 550
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodingSettings extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:EncodingSettings',
             'desc' => [
+                'en' => 'Encoding Settings',
             ],
         ],
     ];

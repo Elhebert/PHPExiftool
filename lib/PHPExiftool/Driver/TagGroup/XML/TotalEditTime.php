@@ -28,13 +28,14 @@ class TotalEditTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Edit Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249304
+             * line : 171886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalEditTime extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:TotalEditTime',
             'desc' => [
+                'en' => 'Total Edit Time',
             ],
         ],
     ];

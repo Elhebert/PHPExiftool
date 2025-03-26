@@ -28,13 +28,14 @@ class VariableEchoflag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Variable Echoflag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97803
+             * line : 71182
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VariableEchoflag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VariableEchoflag',
             'desc' => [
+                'en' => 'Variable Echoflag',
             ],
         ],
     ];

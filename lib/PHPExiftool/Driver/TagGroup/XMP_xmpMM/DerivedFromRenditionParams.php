@@ -28,13 +28,14 @@ class DerivedFromRenditionParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Rendition Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413867
+             * line : 291896
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromRenditionParams extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromRenditionParams',
             'desc' => [
+                'en' => 'Derived From Rendition Params',
             ],
         ],
     ];

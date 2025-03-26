@@ -28,13 +28,14 @@ class EnergySavingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Saving Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248588
+             * line : 171276
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergySavingMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:EnergySavingMode',
             'desc' => [
+                'en' => 'Energy Saving Mode',
             ],
         ],
     ];

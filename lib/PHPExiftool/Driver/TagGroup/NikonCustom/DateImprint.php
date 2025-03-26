@@ -28,13 +28,14 @@ class DateImprint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Imprint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222197
+             * line : 149981
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateImprint extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:DateImprint',
             'desc' => [
+                'en' => 'Date Imprint',
             ],
         ],
     ];

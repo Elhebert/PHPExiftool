@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408643
+             * line : 288642
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

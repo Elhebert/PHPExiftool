@@ -28,13 +28,14 @@ class SliceOffsetOnFreqAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Offset On Freq Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97607
+             * line : 70990
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceOffsetOnFreqAxis extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SliceOffsetOnFreqAxis',
             'desc' => [
+                'en' => 'Slice Offset On Freq Axis',
             ],
         ],
     ];

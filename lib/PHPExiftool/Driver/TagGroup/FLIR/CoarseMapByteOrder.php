@@ -28,13 +28,14 @@ class CoarseMapByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coarse Map Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CoarseData
-             * line : 122386
+             * line : 85711
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoarseMapByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::CoarseData.FLIR:CoarseMapByteOrder',
             'desc' => [
+                'en' => 'Coarse Map Byte Order',
             ],
         ],
     ];

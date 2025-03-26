@@ -28,13 +28,14 @@ class ChapterListTrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter List Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackRef
-             * line : 325128
+             * line : 229550
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterListTrackID extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackRef.Track#:ChapterListTrackID',
             'desc' => [
+                'en' => 'Chapter List Track ID',
             ],
         ],
     ];

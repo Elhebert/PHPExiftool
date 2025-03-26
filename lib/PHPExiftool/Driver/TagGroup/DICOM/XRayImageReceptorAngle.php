@@ -28,13 +28,14 @@ class XRayImageReceptorAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Image Receptor Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102389
+             * line : 75489
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayImageReceptorAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayImageReceptorAngle',
             'desc' => [
+                'en' => 'X Ray Image Receptor Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DisplayWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173662
+             * line : 119583
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayWidth extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:DisplayWidth',
             'desc' => [
+                'en' => 'Display Width',
             ],
         ],
     ];

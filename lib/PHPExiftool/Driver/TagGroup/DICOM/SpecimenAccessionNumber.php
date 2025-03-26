@@ -28,13 +28,14 @@ class SpecimenAccessionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specimen Accession Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99774
+             * line : 72978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecimenAccessionNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecimenAccessionNumber',
             'desc' => [
+                'en' => 'Specimen Accession Number',
             ],
         ],
     ];

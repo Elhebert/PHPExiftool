@@ -28,13 +28,14 @@ class ImageUIDList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image UID List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166254
+             * line : 113047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageUIDList extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:ImageUIDList',
             'desc' => [
+                'en' => 'Image UID List',
             ],
         ],
     ];

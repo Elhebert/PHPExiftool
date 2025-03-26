@@ -28,13 +28,14 @@ class RTBeamLimitingDeviceType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Beam Limiting Device Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103140
+             * line : 76236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTBeamLimitingDeviceType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTBeamLimitingDeviceType',
             'desc' => [
+                'en' => 'RT Beam Limiting Device Type',
             ],
         ],
     ];

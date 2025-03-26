@@ -28,13 +28,14 @@ class WedgeThinEdgePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wedge Thin Edge Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103218
+             * line : 76314
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WedgeThinEdgePosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WedgeThinEdgePosition',
             'desc' => [
+                'en' => 'Wedge Thin Edge Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VoiceMemo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Voice Memo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336530
+             * line : 235814
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VoiceMemo extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:VoiceMemo',
             'desc' => [
+                'en' => 'Voice Memo',
             ],
         ],
     ];

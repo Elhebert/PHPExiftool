@@ -28,13 +28,14 @@ class FixationDeviceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixation Device Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103453
+             * line : 76548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixationDeviceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FixationDeviceSequence',
             'desc' => [
+                'en' => 'Fixation Device Sequence',
             ],
         ],
     ];

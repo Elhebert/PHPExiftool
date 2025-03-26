@@ -28,13 +28,14 @@ class SharpnessLandscape extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Landscape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34492
+             * line : 26501
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessLandscape',
             'desc' => [
+                'en' => 'Sharpness Landscape',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67219
+             * line : 51001
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessLandscape',
             'desc' => [
+                'en' => 'Sharpness Landscape',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68317
+             * line : 51662
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessLandscape',
             'desc' => [
+                'en' => 'Sharpness Landscape',
             ],
         ],
     ];

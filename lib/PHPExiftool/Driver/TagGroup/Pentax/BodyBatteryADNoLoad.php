@@ -28,13 +28,14 @@ class BodyBatteryADNoLoad extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Body Battery A/D No Load',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283846
+             * line : 196914
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BodyBatteryADNoLoad extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryADNoLoad',
             'desc' => [
+                'en' => 'Body Battery A/D No Load',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283852
+             * line : 196917
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BodyBatteryADNoLoad extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryADNoLoad',
             'desc' => [
+                'en' => 'Body Battery A/D No Load',
             ],
         ],
     ];

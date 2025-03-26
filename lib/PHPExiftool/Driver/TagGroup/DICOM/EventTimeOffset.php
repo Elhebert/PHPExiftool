@@ -28,13 +28,14 @@ class EventTimeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Time Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95024
+             * line : 68506
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventTimeOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EventTimeOffset',
             'desc' => [
+                'en' => 'Event Time Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InitialObjectDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Object Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Movie
-             * line : 324061
+             * line : 228991
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialObjectDescriptor extends AbstractTagGroup
              */
             'id' => 'QuickTime::Movie.QuickTime:InitialObjectDescriptor',
             'desc' => [
+                'en' => 'Initial Object Descriptor',
             ],
         ],
     ];

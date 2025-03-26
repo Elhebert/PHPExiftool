@@ -28,13 +28,14 @@ class ICC_Untagged extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ICC Untagged',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305538
+             * line : 212304
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ICC_Untagged extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ICC_Untagged',
             'desc' => [
+                'en' => 'ICC Untagged',
             ],
         ],
     ];

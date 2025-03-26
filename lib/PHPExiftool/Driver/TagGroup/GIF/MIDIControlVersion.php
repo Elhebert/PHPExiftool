@@ -28,13 +28,14 @@ class MIDIControlVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIDI Control Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::MIDIControl
-             * line : 131275
+             * line : 90649
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIDIControlVersion extends AbstractTagGroup
              */
             'id' => 'GIF::MIDIControl.GIF:MIDIControlVersion',
             'desc' => [
+                'en' => 'MIDI Control Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PositionTableIndexing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position Table Indexing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170808
+             * line : 117039
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionTableIndexing extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PositionTableIndexing',
             'desc' => [
+                'en' => 'Position Table Indexing',
             ],
         ],
     ];

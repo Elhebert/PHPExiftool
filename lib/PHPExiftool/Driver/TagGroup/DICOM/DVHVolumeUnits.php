@@ -28,13 +28,14 @@ class DVHVolumeUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Volume Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102489
+             * line : 75588
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHVolumeUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHVolumeUnits',
             'desc' => [
+                'en' => 'DVH Volume Units',
             ],
         ],
     ];

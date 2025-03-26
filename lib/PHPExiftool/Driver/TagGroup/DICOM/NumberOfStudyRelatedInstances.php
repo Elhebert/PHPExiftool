@@ -28,13 +28,14 @@ class NumberOfStudyRelatedInstances extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Study Related Instances',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98006
+             * line : 71353
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfStudyRelatedInstances extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfStudyRelatedInstances',
             'desc' => [
+                'en' => 'Number Of Study Related Instances',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WBMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258719
+             * line : 178633
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WBMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:WBMode',
             'desc' => [
+                'en' => 'WB Mode',
             ],
         ],
     ];

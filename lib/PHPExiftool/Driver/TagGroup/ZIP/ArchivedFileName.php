@@ -28,13 +28,14 @@ class ArchivedFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Archived File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::GZIP
-             * line : 414799
+             * line : 292662
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ArchivedFileName extends AbstractTagGroup
              */
             'id' => 'ZIP::GZIP.ZIP:ArchivedFileName',
             'desc' => [
+                'en' => 'Archived File Name',
             ],
         ],
         1 => [
             /**
              * table_name : ZIP::RAR
-             * line : 415041
+             * line : 292814
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ArchivedFileName extends AbstractTagGroup
              */
             'id' => 'ZIP::RAR.ZIP:ArchivedFileName',
             'desc' => [
+                'en' => 'Archived File Name',
             ],
         ],
     ];

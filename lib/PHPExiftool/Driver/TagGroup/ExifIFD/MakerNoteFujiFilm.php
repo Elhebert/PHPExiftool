@@ -28,13 +28,14 @@ class MakerNoteFujiFilm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Fuji Film',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104786
+             * line : 77756
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteFujiFilm extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteFujiFilm',
             'desc' => [
+                'en' => 'Maker Note Fuji Film',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115747
+             * line : 83049
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteFujiFilm extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteFujiFilm',
             'desc' => [
+                'en' => 'Maker Note Fuji Film',
             ],
         ],
     ];

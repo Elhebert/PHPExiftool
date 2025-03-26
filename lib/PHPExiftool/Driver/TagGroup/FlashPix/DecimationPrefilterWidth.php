@@ -28,13 +28,14 @@ class DecimationPrefilterWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decimation Prefilter Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124796
+             * line : 87229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecimationPrefilterWidth extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:DecimationPrefilterWidth',
             'desc' => [
+                'en' => 'Decimation Prefilter Width',
             ],
         ],
     ];

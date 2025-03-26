@@ -28,13 +28,14 @@ class WifiRSSI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wifi RSSI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282076
+             * line : 195934
              * type : int8s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WifiRSSI extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:WifiRSSI',
             'desc' => [
+                'en' => 'Wifi RSSI',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282416
+             * line : 196123
              * type : int8s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class WifiRSSI extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:WifiRSSI',
             'desc' => [
+                'en' => 'Wifi RSSI',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282593
+             * line : 196193
              * type : int8s
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class WifiRSSI extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:WifiRSSI',
             'desc' => [
+                'en' => 'Wifi RSSI',
             ],
         ],
     ];

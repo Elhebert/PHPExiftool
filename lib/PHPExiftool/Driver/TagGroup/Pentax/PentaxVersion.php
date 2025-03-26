@@ -28,13 +28,14 @@ class PentaxVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pentax Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 294747
+             * line : 205977
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class PentaxVersion extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:PentaxVersion',
             'desc' => [
+                'en' => 'Pentax Version',
             ],
         ],
     ];

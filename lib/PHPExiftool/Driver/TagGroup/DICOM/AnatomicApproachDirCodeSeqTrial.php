@@ -28,13 +28,14 @@ class AnatomicApproachDirCodeSeqTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomic Approach Dir Code Seq Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95078
+             * line : 68560
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicApproachDirCodeSeqTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicApproachDirCodeSeqTrial',
             'desc' => [
+                'en' => 'Anatomic Approach Dir Code Seq Trial',
             ],
         ],
     ];

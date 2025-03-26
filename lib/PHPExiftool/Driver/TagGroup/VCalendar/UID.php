@@ -28,13 +28,14 @@ class UID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395546
+             * line : 280086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UID extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:UID',
             'desc' => [
+                'en' => 'UID',
             ],
         ],
     ];

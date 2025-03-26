@@ -28,13 +28,14 @@ class IDsBaseValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IDs Base Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305550
+             * line : 212313
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IDsBaseValue extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:IDsBaseValue',
             'desc' => [
+                'en' => 'IDs Base Value',
             ],
         ],
     ];

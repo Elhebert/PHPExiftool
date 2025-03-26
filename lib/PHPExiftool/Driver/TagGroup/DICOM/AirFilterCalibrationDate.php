@@ -28,13 +28,14 @@ class AirFilterCalibrationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Air Filter Calibration Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100624
+             * line : 73794
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AirFilterCalibrationDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AirFilterCalibrationDate',
             'desc' => [
+                'en' => 'Air Filter Calibration Date',
             ],
         ],
     ];

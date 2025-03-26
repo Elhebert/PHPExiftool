@@ -28,13 +28,14 @@ class FrameOfReferenceTransformComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Of Reference Transform Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102660
+             * line : 75756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameOfReferenceTransformComment extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameOfReferenceTransformComment',
             'desc' => [
+                'en' => 'Frame Of Reference Transform Comment',
             ],
         ],
     ];

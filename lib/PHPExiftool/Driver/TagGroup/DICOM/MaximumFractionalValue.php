@@ -28,13 +28,14 @@ class MaximumFractionalValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Fractional Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101100
+             * line : 74250
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumFractionalValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumFractionalValue',
             'desc' => [
+                'en' => 'Maximum Fractional Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EVSteps extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EV Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284511
+             * line : 197459
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class EVSteps extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:EVSteps',
             'desc' => [
+                'en' => 'EV Steps',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::EVStepInfo
-             * line : 285571
+             * line : 197986
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class EVSteps extends AbstractTagGroup
              */
             'id' => 'Pentax::EVStepInfo.Pentax:EVSteps',
             'desc' => [
+                'en' => 'EV Steps',
             ],
         ],
     ];

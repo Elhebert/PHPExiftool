@@ -28,13 +28,14 @@ class StartScanToXrayOnDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Scan To Xray On Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100490
+             * line : 73662
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartScanToXrayOnDelay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartScanToXrayOnDelay',
             'desc' => [
+                'en' => 'Start Scan To Xray On Delay',
             ],
         ],
     ];

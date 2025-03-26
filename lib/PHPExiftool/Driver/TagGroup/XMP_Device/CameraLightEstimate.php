@@ -28,13 +28,14 @@ class CameraLightEstimate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Light Estimate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396600
+             * line : 280817
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraLightEstimate extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraLightEstimate',
             'desc' => [
+                'en' => 'Camera Light Estimate',
             ],
         ],
     ];

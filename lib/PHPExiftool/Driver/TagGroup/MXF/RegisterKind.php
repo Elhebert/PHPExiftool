@@ -28,13 +28,14 @@ class RegisterKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172310
+             * line : 118471
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterKind',
             'desc' => [
+                'en' => 'Register Kind',
             ],
         ],
     ];

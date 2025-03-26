@@ -28,13 +28,14 @@ class Incomplete extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Incomplete',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175646
+             * line : 120888
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Incomplete extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Incomplete',
             'desc' => [
+                'en' => 'Incomplete',
             ],
         ],
     ];

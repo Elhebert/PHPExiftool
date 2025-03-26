@@ -28,13 +28,14 @@ class LCDLinearClipValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Linear Clip Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156792
+             * line : 107996
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDLinearClipValue extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDLinearClipValue',
             'desc' => [
+                'en' => 'LCD Linear Clip Value',
             ],
         ],
     ];

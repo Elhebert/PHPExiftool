@@ -28,13 +28,14 @@ class GradientBasedCorrMaskRangeSampleType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Range Sample Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402355
+             * line : 285492
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskRangeSampleType extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskRangeSampleType',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Range Sample Type',
             ],
         ],
     ];

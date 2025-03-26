@@ -28,13 +28,14 @@ class ApertureSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347740
+             * line : 243445
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ApertureSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ApertureSetting',
             'desc' => [
+                'en' => 'Aperture Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349132
+             * line : 244043
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ApertureSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ApertureSetting',
             'desc' => [
+                'en' => 'Aperture Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 349758
+             * line : 244341
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ApertureSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ApertureSetting',
             'desc' => [
+                'en' => 'Aperture Setting',
             ],
         ],
     ];

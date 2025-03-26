@@ -28,13 +28,14 @@ class ApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114147
+             * line : 82710
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureValue extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ApertureValue',
             'desc' => [
+                'en' => 'Aperture Value',
             ],
         ],
     ];

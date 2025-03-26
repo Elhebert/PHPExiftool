@@ -28,13 +28,14 @@ class RelatedMaterialDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related Material Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171166
+             * line : 117384
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RelatedMaterialDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelatedMaterialDescription',
             'desc' => [
+                'en' => 'Related Material Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171169
+             * line : 117387
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RelatedMaterialDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelatedMaterialDescription',
             'desc' => [
+                'en' => 'Related Material Description',
             ],
         ],
     ];

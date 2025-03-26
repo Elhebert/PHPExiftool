@@ -28,13 +28,14 @@ class VideoClipDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Clip Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171860
+             * line : 118045
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoClipDuration extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoClipDuration',
             'desc' => [
+                'en' => 'Video Clip Duration',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AcquiredImageAreaDoseProduct extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquired Image Area Dose Product',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97221
+             * line : 70618
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquiredImageAreaDoseProduct extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquiredImageAreaDoseProduct',
             'desc' => [
+                'en' => 'Acquired Image Area Dose Product',
             ],
         ],
     ];

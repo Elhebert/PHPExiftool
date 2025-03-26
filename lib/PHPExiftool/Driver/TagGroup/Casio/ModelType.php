@@ -28,13 +28,14 @@ class ModelType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::QVCI
-             * line : 85226
+             * line : 61981
              * type : string
              * writable : false
              * count : 7
@@ -42,6 +43,7 @@ class ModelType extends AbstractTagGroup
              */
             'id' => 'Casio::QVCI.Casio:ModelType',
             'desc' => [
+                'en' => 'Model Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProductionSettingPeriodSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Production Setting Period Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171532
+             * line : 117730
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductionSettingPeriodSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductionSettingPeriodSets',
             'desc' => [
+                'en' => 'Production Setting Period Sets',
             ],
         ],
     ];

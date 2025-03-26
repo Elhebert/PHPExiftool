@@ -28,13 +28,14 @@ class GUID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314088
+             * line : 219740
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GUID extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GUID',
             'desc' => [
+                'en' => 'GUID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class QTableLarge67Pct extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Q Table Large 67 Pct',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155942
+             * line : 107153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QTableLarge67Pct extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:QTableLarge67Pct',
             'desc' => [
+                'en' => 'Q Table Large 67 Pct',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NominalFrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165098
+             * line : 112202
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalFrameCount extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:NominalFrameCount',
             'desc' => [
+                'en' => 'Nominal Frame Count',
             ],
         ],
     ];

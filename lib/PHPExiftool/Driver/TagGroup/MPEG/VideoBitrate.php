@@ -28,13 +28,14 @@ class VideoBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Video
-             * line : 166116
+             * line : 112948
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Video.MPEG:VideoBitrate',
             'desc' => [
+                'en' => 'Video Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DepthUnits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Depth Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120633
+             * line : 84756
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DepthUnits extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DepthUnits',
             'desc' => [
+                'en' => 'Depth Units',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChartSoundingDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Sounding Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139141
+             * line : 97387
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartSoundingDatum extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartSoundingDatum',
             'desc' => [
+                'en' => 'Chart Sounding Datum',
             ],
         ],
     ];

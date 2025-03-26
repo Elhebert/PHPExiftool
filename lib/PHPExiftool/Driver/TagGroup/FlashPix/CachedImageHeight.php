@@ -28,13 +28,14 @@ class CachedImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cached Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124391
+             * line : 86915
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CachedImageHeight extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:CachedImageHeight',
             'desc' => [
+                'en' => 'Cached Image Height',
             ],
         ],
     ];

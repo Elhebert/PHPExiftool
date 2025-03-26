@@ -28,13 +28,14 @@ class ObjectPreviewFileVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Preview File Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150901
+             * line : 104185
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ObjectPreviewFileVersion extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ObjectPreviewFileVersion',
             'desc' => [
+                'en' => 'Object Preview File Version',
             ],
         ],
     ];

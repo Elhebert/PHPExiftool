@@ -28,13 +28,14 @@ class LargestValidPixelValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Largest Valid Pixel Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98800
+             * line : 72072
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargestValidPixelValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LargestValidPixelValue',
             'desc' => [
+                'en' => 'Largest Valid Pixel Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338759
+             * line : 237309
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

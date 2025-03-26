@@ -28,13 +28,14 @@ class NominalPlayTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Play Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165101
+             * line : 112205
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalPlayTime extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:NominalPlayTime',
             'desc' => [
+                'en' => 'Nominal Play Time',
             ],
         ],
     ];

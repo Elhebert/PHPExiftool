@@ -28,13 +28,14 @@ class NumberOfOverranges extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Overranges',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100351
+             * line : 73524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfOverranges extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfOverranges',
             'desc' => [
+                'en' => 'Number Of Overranges',
             ],
         ],
     ];

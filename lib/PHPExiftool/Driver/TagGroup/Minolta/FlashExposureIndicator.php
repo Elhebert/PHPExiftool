@@ -28,13 +28,14 @@ class FlashExposureIndicator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182049
+             * line : 123920
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureIndicator extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FlashExposureIndicator',
             'desc' => [
+                'en' => 'Flash Exposure Indicator',
             ],
         ],
     ];

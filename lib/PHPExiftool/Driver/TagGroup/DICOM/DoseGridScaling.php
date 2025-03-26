@@ -28,13 +28,14 @@ class DoseGridScaling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose Grid Scaling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102465
+             * line : 75564
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoseGridScaling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoseGridScaling',
             'desc' => [
+                'en' => 'Dose Grid Scaling',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AverageFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Average Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313509
+             * line : 219254
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AverageFrameRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:AverageFrameRate',
             'desc' => [
+                'en' => 'Average Frame Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Clarity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clarity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355930
+             * line : 248299
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Clarity extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Clarity',
             'desc' => [
+                'en' => 'Clarity',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ZoneMatching extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zone Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 183787
+             * line : 124647
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoneMatching extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ZoneMatching',
             'desc' => [
+                'en' => 'Zone Matching',
             ],
         ],
     ];

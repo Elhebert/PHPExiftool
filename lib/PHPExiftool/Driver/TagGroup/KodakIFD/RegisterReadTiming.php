@@ -28,13 +28,14 @@ class RegisterReadTiming extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Read Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155048
+             * line : 106298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterReadTiming extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RegisterReadTiming',
             'desc' => [
+                'en' => 'Register Read Timing',
             ],
         ],
     ];

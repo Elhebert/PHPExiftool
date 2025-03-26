@@ -28,13 +28,14 @@ class ReferencedSOPClassUIDInFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced SOP Class UID In File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94631
+             * line : 68131
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSOPClassUIDInFile extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSOPClassUIDInFile',
             'desc' => [
+                'en' => 'Referenced SOP Class UID In File',
             ],
         ],
     ];

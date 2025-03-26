@@ -28,13 +28,14 @@ class AutoLateralCA extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Lateral CA',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401515
+             * line : 284774
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoLateralCA extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:AutoLateralCA',
             'desc' => [
+                'en' => 'Auto Lateral CA',
             ],
         ],
     ];

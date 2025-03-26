@@ -28,13 +28,14 @@ class ResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PreviewIFD
-             * line : 205042
+             * line : 137883
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResolutionUnit extends AbstractTagGroup
              */
             'id' => 'Nikon::PreviewIFD.PreviewIFD:ResolutionUnit',
             'desc' => [
+                'en' => 'Resolution Unit',
             ],
         ],
     ];

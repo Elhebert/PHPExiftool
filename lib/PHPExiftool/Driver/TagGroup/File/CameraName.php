@@ -28,13 +28,14 @@ class CameraName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166598
+             * line : 113337
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class CameraName extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:CameraName',
             'desc' => [
+                'en' => 'Camera Name',
             ],
         ],
     ];

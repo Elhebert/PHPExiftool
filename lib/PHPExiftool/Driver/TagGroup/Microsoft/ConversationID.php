@@ -28,13 +28,14 @@ class ConversationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Conversation ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176383
+             * line : 121356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConversationID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ConversationID',
             'desc' => [
+                'en' => 'Conversation ID',
             ],
         ],
     ];

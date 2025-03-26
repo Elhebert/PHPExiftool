@@ -28,13 +28,14 @@ class RecordingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recording Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302407
+             * line : 210513
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordingMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:RecordingMode',
             'desc' => [
+                'en' => 'Recording Mode',
             ],
         ],
     ];

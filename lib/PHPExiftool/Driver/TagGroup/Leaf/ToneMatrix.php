@@ -28,13 +28,14 @@ class ToneMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ICC To Tone Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Main
-             * line : 161899
+             * line : 110610
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneMatrix extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:ToneMatrix',
             'desc' => [
+                'en' => 'ICC To Tone Matrix',
             ],
         ],
     ];

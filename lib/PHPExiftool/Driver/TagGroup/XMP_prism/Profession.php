@@ -28,13 +28,14 @@ class Profession extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profession',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411057
+             * line : 290278
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Profession extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Profession',
             'desc' => [
+                'en' => 'Profession',
             ],
         ],
     ];

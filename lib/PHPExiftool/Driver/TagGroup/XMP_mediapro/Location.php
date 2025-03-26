@@ -28,13 +28,14 @@ class Location extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::MediaPro
-             * line : 397405
+             * line : 281428
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Location extends AbstractTagGroup
              */
             'id' => 'XMP::MediaPro.XMP-mediapro:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
     ];

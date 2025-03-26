@@ -28,13 +28,14 @@ class ByteOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Byte Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170884
+             * line : 117114
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ByteOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ByteOffset',
             'desc' => [
+                'en' => 'Byte Offset',
             ],
         ],
     ];

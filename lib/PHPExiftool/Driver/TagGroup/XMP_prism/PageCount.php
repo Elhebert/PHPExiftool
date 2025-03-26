@@ -28,13 +28,14 @@ class PageCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Page Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411030
+             * line : 290252
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PageCount extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:PageCount',
             'desc' => [
+                'en' => 'Page Count',
             ],
         ],
     ];

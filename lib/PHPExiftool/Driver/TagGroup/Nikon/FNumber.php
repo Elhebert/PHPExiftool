@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191362
+             * line : 129932
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196200
+             * line : 132735
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196368
+             * line : 132794
              * type : rational64u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202291
+             * line : 136961
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

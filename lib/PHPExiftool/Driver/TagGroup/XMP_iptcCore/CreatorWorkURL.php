@@ -28,13 +28,14 @@ class CreatorWorkURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Work URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 408999
+             * line : 288861
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorWorkURL extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorWorkURL',
             'desc' => [
+                'en' => 'Creator Work URL',
             ],
         ],
     ];

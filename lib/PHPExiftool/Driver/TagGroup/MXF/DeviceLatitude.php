@@ -28,13 +28,14 @@ class DeviceLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168272
+             * line : 114767
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DeviceLatitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceLatitude',
             'desc' => [
+                'en' => 'Device Latitude',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168275
+             * line : 114770
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class DeviceLatitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceLatitude',
             'desc' => [
+                'en' => 'Device Latitude',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 170372
+             * line : 116631
              * type : double
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class DeviceLatitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceLatitude',
             'desc' => [
+                'en' => 'Device Latitude',
             ],
         ],
     ];

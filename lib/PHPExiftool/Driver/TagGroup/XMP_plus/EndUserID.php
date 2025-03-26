@@ -28,13 +28,14 @@ class EndUserID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'End User ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265368
+             * line : 183433
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EndUserID extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:EndUserID',
             'desc' => [
+                'en' => 'End User ID',
             ],
         ],
     ];

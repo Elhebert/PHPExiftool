@@ -28,13 +28,14 @@ class MinoltaCameraSettings2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minolta Camera Settings 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 184988
+             * line : 125603
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinoltaCameraSettings2 extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:MinoltaCameraSettings2',
             'desc' => [
+                'en' => 'Minolta Camera Settings 2',
             ],
         ],
     ];

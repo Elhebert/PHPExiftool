@@ -28,13 +28,14 @@ class PeakRateOfChangeOfGradientField extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Rate Of Change Of Gradient Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100318
+             * line : 73491
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakRateOfChangeOfGradientField extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PeakRateOfChangeOfGradientField',
             'desc' => [
+                'en' => 'Peak Rate Of Change Of Gradient Field',
             ],
         ],
     ];

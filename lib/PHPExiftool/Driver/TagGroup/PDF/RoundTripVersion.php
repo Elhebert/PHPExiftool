@@ -28,13 +28,14 @@ class RoundTripVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Round Trip Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::AIPrivate
-             * line : 264038
+             * line : 182556
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RoundTripVersion extends AbstractTagGroup
              */
             'id' => 'PDF::AIPrivate.PDF:RoundTripVersion',
             'desc' => [
+                'en' => 'Round Trip Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InitialCineRunState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Cine Run State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95488
+             * line : 68947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialCineRunState extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InitialCineRunState',
             'desc' => [
+                'en' => 'Initial Cine Run State',
             ],
         ],
     ];

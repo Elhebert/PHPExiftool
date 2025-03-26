@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaData
-             * line : 323978
+             * line : 228946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaData.QuickTime:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

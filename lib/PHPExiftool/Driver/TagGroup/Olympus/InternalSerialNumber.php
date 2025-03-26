@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 253995
+             * line : 175323
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

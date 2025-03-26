@@ -28,13 +28,14 @@ class AcquisitionTimeYear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Time Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174425
+             * line : 120119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionTimeYear extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AcquisitionTimeYear',
             'desc' => [
+                'en' => 'Acquisition Time Year',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedVOILUTBoxSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced VOILUT Box Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102162
+             * line : 75291
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedVOILUTBoxSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedVOILUTBoxSequence',
             'desc' => [
+                'en' => 'Referenced VOILUT Box Sequence',
             ],
         ],
     ];

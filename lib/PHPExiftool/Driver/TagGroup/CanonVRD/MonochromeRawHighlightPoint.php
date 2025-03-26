@@ -28,13 +28,14 @@ class MonochromeRawHighlightPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Raw Highlight Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83057
+             * line : 60827
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeRawHighlightPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:MonochromeRawHighlightPoint',
             'desc' => [
+                'en' => 'Monochrome Raw Highlight Point',
             ],
         ],
     ];

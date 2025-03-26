@@ -28,13 +28,14 @@ class ImageUniqueID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65833
+             * line : 50035
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageUniqueID extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:ImageUniqueID',
             'desc' => [
+                'en' => 'Image Unique ID',
             ],
         ],
     ];

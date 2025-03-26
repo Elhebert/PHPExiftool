@@ -28,13 +28,14 @@ class CompensatorTransmissionData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Transmission Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103260
+             * line : 76356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorTransmissionData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorTransmissionData',
             'desc' => [
+                'en' => 'Compensator Transmission Data',
             ],
         ],
     ];

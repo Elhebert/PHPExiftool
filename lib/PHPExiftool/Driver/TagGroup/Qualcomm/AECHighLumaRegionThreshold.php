@@ -28,13 +28,14 @@ class AECHighLumaRegionThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC High Luma Region Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306167
+             * line : 212672
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECHighLumaRegionThreshold extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECHighLumaRegionThreshold',
             'desc' => [
+                'en' => 'AEC High Luma Region Threshold',
             ],
         ],
     ];

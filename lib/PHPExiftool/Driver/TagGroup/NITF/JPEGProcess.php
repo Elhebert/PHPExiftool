@@ -28,13 +28,14 @@ class JPEGProcess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152813
+             * line : 105145
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGProcess extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:JPEGProcess',
             'desc' => [
+                'en' => 'JPEG Process',
             ],
         ],
     ];

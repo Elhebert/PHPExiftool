@@ -28,13 +28,14 @@ class AlternateDuotoneColors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alternate Duotone Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305603
+             * line : 212349
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlternateDuotoneColors extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:AlternateDuotoneColors',
             'desc' => [
+                'en' => 'Alternate Duotone Colors',
             ],
         ],
     ];

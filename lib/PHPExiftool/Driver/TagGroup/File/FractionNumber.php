@@ -28,13 +28,14 @@ class FractionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fraction Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166721
+             * line : 113458
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FractionNumber extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:FractionNumber',
             'desc' => [
+                'en' => 'Fraction Number',
             ],
         ],
     ];

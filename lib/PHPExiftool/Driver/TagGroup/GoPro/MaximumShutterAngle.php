@@ -28,13 +28,14 @@ class MaximumShutterAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Shutter Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139479
+             * line : 97620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumShutterAngle extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:MaximumShutterAngle',
             'desc' => [
+                'en' => 'Maximum Shutter Angle',
             ],
         ],
     ];

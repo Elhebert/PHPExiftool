@@ -28,13 +28,14 @@ class InitialDelaySamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Delay Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310344
+             * line : 216256
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialDelaySamples extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:InitialDelaySamples',
             'desc' => [
+                'en' => 'Initial Delay Samples',
             ],
         ],
     ];

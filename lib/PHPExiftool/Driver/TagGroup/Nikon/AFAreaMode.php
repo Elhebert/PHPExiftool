@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo
-             * line : 187860
+             * line : 127237
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo.Nikon:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188130
+             * line : 127363
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188264
+             * line : 127452
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201087
+             * line : 135989
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

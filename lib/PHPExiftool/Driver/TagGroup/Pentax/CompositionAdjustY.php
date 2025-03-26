@@ -28,13 +28,14 @@ class CompositionAdjustY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composition Adjust Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LevelInfo
-             * line : 294503
+             * line : 205922
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompositionAdjustY extends AbstractTagGroup
              */
             'id' => 'Pentax::LevelInfo.Pentax:CompositionAdjustY',
             'desc' => [
+                'en' => 'Composition Adjust Y',
             ],
         ],
     ];

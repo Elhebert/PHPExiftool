@@ -28,13 +28,14 @@ class VersionRestrictions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version Restrictions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rights
-             * line : 324363
+             * line : 229153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VersionRestrictions extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rights.QuickTime:VersionRestrictions',
             'desc' => [
+                'en' => 'Version Restrictions',
             ],
         ],
     ];

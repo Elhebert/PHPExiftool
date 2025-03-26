@@ -28,13 +28,14 @@ class IndicatesNoofUpdatesToHeader extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Indicates Noof Updates To Header',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98477
+             * line : 71809
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndicatesNoofUpdatesToHeader extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IndicatesNoofUpdatesToHeader',
             'desc' => [
+                'en' => 'Indicates Noof Updates To Header',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MarkIn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mark In',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171848
+             * line : 118033
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MarkIn extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MarkIn',
             'desc' => [
+                'en' => 'Mark In',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UnformattedTextValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unformatted Text Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101247
+             * line : 74397
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnformattedTextValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UnformattedTextValue',
             'desc' => [
+                'en' => 'Unformatted Text Value',
             ],
         ],
     ];

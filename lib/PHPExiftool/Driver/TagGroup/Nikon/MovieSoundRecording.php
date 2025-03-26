@@ -28,13 +28,14 @@ class MovieSoundRecording extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Sound Recording',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201623
+             * line : 136517
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieSoundRecording extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieSoundRecording',
             'desc' => [
+                'en' => 'Movie Sound Recording',
             ],
         ],
     ];

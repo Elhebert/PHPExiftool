@@ -28,13 +28,14 @@ class RegisterAction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Action',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172349
+             * line : 118510
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterAction extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterAction',
             'desc' => [
+                'en' => 'Register Action',
             ],
         ],
     ];

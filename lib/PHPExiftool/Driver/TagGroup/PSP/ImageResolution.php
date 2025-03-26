@@ -28,13 +28,14 @@ class ImageResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Image
-             * line : 273231
+             * line : 190640
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageResolution extends AbstractTagGroup
              */
             'id' => 'PSP::Image.PSP:ImageResolution',
             'desc' => [
+                'en' => 'Image Resolution',
             ],
         ],
     ];

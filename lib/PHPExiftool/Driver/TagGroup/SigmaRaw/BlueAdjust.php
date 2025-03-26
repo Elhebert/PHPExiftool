@@ -28,13 +28,14 @@ class BlueAdjust extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339569
+             * line : 237573
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueAdjust extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:BlueAdjust',
             'desc' => [
+                'en' => 'Blue Adjust',
             ],
         ],
     ];

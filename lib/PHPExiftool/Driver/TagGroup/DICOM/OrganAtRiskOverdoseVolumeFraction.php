@@ -28,13 +28,14 @@ class OrganAtRiskOverdoseVolumeFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organ At Risk Overdose Volume Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103023
+             * line : 76119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrganAtRiskOverdoseVolumeFraction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrganAtRiskOverdoseVolumeFraction',
             'desc' => [
+                'en' => 'Organ At Risk Overdose Volume Fraction',
             ],
         ],
     ];

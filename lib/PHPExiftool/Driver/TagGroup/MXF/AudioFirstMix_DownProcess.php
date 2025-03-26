@@ -28,13 +28,14 @@ class AudioFirstMix_DownProcess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio First Mix-Down Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168174
+             * line : 114671
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioFirstMix_DownProcess extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioFirstMix-DownProcess',
             'desc' => [
+                'en' => 'Audio First Mix-Down Process',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CustomControls extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Controls',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75237
+             * line : 55389
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomControls extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:CustomControls',
             'desc' => [
+                'en' => 'Custom Controls',
             ],
         ],
     ];

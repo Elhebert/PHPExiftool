@@ -28,13 +28,14 @@ class AudioReferenceLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Reference Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167975
+             * line : 114497
              * type : int8s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AudioReferenceLevel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioReferenceLevel',
             'desc' => [
+                'en' => 'Audio Reference Level',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168690
+             * line : 115166
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AudioReferenceLevel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioReferenceLevel',
             'desc' => [
+                'en' => 'Audio Reference Level',
             ],
         ],
     ];

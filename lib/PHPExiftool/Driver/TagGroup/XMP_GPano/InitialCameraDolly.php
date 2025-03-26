@@ -28,13 +28,14 @@ class InitialCameraDolly extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial Camera Dolly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397119
+             * line : 281222
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialCameraDolly extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:InitialCameraDolly',
             'desc' => [
+                'en' => 'Initial Camera Dolly',
             ],
         ],
     ];

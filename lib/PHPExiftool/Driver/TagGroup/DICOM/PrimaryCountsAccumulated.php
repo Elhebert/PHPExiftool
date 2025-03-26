@@ -28,13 +28,14 @@ class PrimaryCountsAccumulated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Counts Accumulated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101013
+             * line : 74163
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryCountsAccumulated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimaryCountsAccumulated',
             'desc' => [
+                'en' => 'Primary Counts Accumulated',
             ],
         ],
     ];

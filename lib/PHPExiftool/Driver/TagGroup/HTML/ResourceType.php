@@ -28,13 +28,14 @@ class ResourceType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resource Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142475
+             * line : 98514
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResourceType extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:ResourceType',
             'desc' => [
+                'en' => 'Resource Type',
             ],
         ],
     ];

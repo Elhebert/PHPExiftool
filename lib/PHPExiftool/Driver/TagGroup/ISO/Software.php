@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152042
+             * line : 104721
              * type : string
              * writable : false
              * count : 128
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

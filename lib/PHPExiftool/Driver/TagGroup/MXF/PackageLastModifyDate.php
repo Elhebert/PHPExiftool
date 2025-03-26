@@ -28,13 +28,14 @@ class PackageLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169729
+             * line : 116088
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageLastModifyDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageLastModifyDate',
             'desc' => [
+                'en' => 'Package Last Modify Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Refresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Refresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142905
+             * line : 98691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Refresh extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:Refresh',
             'desc' => [
+                'en' => 'Refresh',
             ],
         ],
     ];

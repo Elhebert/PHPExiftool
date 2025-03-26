@@ -28,13 +28,14 @@ class DisableFlagsPresent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Disable Flags Present',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155996
+             * line : 107207
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisableFlagsPresent extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DisableFlagsPresent',
             'desc' => [
+                'en' => 'Disable Flags Present',
             ],
         ],
     ];

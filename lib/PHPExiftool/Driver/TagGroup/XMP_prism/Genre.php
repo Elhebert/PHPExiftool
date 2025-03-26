@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410856
+             * line : 290115
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

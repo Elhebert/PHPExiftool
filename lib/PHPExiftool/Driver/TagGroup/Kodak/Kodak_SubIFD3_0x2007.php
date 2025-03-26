@@ -28,13 +28,14 @@ class Kodak_SubIFD3_0x2007 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Kodak Sub IFD3 0x2007',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::SubIFD3
-             * line : 159342
+             * line : 109322
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Kodak_SubIFD3_0x2007 extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD3.Kodak:Kodak_SubIFD3_0x2007',
             'desc' => [
+                'en' => 'Kodak Sub IFD3 0x2007',
             ],
         ],
     ];

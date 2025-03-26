@@ -28,13 +28,14 @@ class DimensionIndexPointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimension Index Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98090
+             * line : 71437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DimensionIndexPointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DimensionIndexPointer',
             'desc' => [
+                'en' => 'Dimension Index Pointer',
             ],
         ],
     ];

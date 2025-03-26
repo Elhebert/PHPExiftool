@@ -28,13 +28,14 @@ class PaintCorrectionMaskMaskBlendMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Mask Blend Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403538
+             * line : 286655
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskMaskBlendMode extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskMaskBlendMode',
             'desc' => [
+                'en' => 'Paint Correction Mask Mask Blend Mode',
             ],
         ],
     ];

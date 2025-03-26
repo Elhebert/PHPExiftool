@@ -28,13 +28,14 @@ class ClipboardAspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clipboard Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402019
+             * line : 285254
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ClipboardAspectRatio extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ClipboardAspectRatio',
             'desc' => [
+                'en' => 'Clipboard Aspect Ratio',
             ],
         ],
     ];

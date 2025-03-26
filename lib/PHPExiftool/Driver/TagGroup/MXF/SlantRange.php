@@ -28,13 +28,14 @@ class SlantRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slant Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168368
+             * line : 114863
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlantRange extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SlantRange',
             'desc' => [
+                'en' => 'Slant Range',
             ],
         ],
     ];

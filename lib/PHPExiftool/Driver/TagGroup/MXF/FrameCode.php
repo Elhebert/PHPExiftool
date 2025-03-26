@@ -28,13 +28,14 @@ class FrameCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167379
+             * line : 114000
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCode',
             'desc' => [
+                'en' => 'Frame Code',
             ],
         ],
     ];

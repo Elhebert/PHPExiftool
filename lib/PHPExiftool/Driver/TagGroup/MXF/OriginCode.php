@@ -28,13 +28,14 @@ class OriginCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Origin Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169852
+             * line : 116196
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OriginCode',
             'desc' => [
+                'en' => 'Origin Code',
             ],
         ],
     ];

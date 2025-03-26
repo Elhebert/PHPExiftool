@@ -28,13 +28,14 @@ class BlueSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164663
+             * line : 111882
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueSample extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:BlueSample',
             'desc' => [
+                'en' => 'Blue Sample',
             ],
         ],
     ];

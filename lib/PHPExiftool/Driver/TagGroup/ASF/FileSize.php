@@ -28,13 +28,14 @@ class FileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1269
+             * line : 556
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSize extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:FileSize',
             'desc' => [
+                'en' => 'File Size',
             ],
         ],
     ];

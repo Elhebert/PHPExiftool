@@ -28,13 +28,14 @@ class TriggerSourceOrType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Source Or Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95673
+             * line : 69121
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerSourceOrType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerSourceOrType',
             'desc' => [
+                'en' => 'Trigger Source Or Type',
             ],
         ],
     ];

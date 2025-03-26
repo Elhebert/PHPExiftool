@@ -28,13 +28,14 @@ class StdSaveSelection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Save Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 162002
+             * line : 110702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdSaveSelection extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdSaveSelection',
             'desc' => [
+                'en' => 'Std Save Selection',
             ],
         ],
     ];

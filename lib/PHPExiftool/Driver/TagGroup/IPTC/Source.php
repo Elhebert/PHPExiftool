@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150365
+             * line : 103966
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

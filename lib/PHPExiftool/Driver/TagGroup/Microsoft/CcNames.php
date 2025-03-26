@@ -28,13 +28,14 @@ class CcNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cc Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176470
+             * line : 121425
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CcNames extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CcNames',
             'desc' => [
+                'en' => 'Cc Names',
             ],
         ],
     ];

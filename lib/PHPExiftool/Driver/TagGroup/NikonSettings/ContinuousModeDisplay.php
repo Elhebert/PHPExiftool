@@ -28,13 +28,14 @@ class ContinuousModeDisplay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Continuous Mode Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245029
+             * line : 167788
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContinuousModeDisplay extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ContinuousModeDisplay',
             'desc' => [
+                'en' => 'Continuous Mode Display',
             ],
         ],
     ];

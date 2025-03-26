@@ -28,13 +28,14 @@ class NetName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Net Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161120
+             * line : 110029
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NetName extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:NetName',
             'desc' => [
+                'en' => 'Net Name',
             ],
         ],
     ];

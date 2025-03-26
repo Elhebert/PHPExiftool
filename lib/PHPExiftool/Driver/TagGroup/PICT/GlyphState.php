@@ -28,13 +28,14 @@ class GlyphState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Glyph State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264754
+             * line : 182987
              * type : int8u
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class GlyphState extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:GlyphState',
             'desc' => [
+                'en' => 'Glyph State',
             ],
         ],
     ];

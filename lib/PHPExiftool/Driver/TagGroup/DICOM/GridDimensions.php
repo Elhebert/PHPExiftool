@@ -28,13 +28,14 @@ class GridDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101118
+             * line : 74268
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridDimensions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridDimensions',
             'desc' => [
+                'en' => 'Grid Dimensions',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChartCountryOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Country Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139135
+             * line : 97381
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartCountryOrigin extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartCountryOrigin',
             'desc' => [
+                'en' => 'Chart Country Origin',
             ],
         ],
     ];

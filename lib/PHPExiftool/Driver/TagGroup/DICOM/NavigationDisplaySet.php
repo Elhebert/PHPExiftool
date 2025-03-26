@@ -28,13 +28,14 @@ class NavigationDisplaySet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Navigation Display Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101604
+             * line : 74748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NavigationDisplaySet extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NavigationDisplaySet',
             'desc' => [
+                'en' => 'Navigation Display Set',
             ],
         ],
     ];

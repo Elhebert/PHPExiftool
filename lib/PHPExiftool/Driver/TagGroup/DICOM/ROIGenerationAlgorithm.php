@@ -28,13 +28,14 @@ class ROIGenerationAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Generation Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102570
+             * line : 75666
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIGenerationAlgorithm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIGenerationAlgorithm',
             'desc' => [
+                'en' => 'ROI Generation Algorithm',
             ],
         ],
     ];

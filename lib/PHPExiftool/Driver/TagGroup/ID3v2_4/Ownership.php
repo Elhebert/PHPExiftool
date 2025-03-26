@@ -28,13 +28,14 @@ class Ownership extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ownership',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149286
+             * line : 103547
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Ownership extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:Ownership',
             'desc' => [
+                'en' => 'Ownership',
             ],
         ],
     ];

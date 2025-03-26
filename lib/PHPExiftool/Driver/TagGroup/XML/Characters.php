@@ -28,13 +28,14 @@ class Characters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249046
+             * line : 171696
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Characters extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Characters',
             'desc' => [
+                'en' => 'Characters',
             ],
         ],
     ];

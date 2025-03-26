@@ -28,13 +28,14 @@ class CoverArtMIMEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cover Art MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395756
+             * line : 280202
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoverArtMIMEType extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:CoverArtMIMEType',
             'desc' => [
+                'en' => 'Cover Art MIME Type',
             ],
         ],
     ];

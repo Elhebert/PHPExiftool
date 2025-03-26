@@ -28,13 +28,14 @@ class ImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94658
+             * line : 68158
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageType',
             'desc' => [
+                'en' => 'Image Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfResolutions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Resolutions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124642
+             * line : 87125
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfResolutions extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:NumberOfResolutions',
             'desc' => [
+                'en' => 'Number Of Resolutions',
             ],
         ],
     ];

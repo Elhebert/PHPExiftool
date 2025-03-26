@@ -28,13 +28,14 @@ class SoftFocusFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Soft Focus Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 63961
+             * line : 48580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoftFocusFilter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:SoftFocusFilter',
             'desc' => [
+                'en' => 'Soft Focus Filter',
             ],
         ],
     ];

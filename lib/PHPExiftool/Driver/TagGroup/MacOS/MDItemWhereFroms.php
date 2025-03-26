@@ -28,13 +28,14 @@ class MDItemWhereFroms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Where Froms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173064
+             * line : 119092
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemWhereFroms extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemWhereFroms',
             'desc' => [
+                'en' => 'MD Item Where Froms',
             ],
         ],
     ];

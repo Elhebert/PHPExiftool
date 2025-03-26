@@ -28,13 +28,14 @@ class SensorWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154342
+             * line : 105980
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158817
+             * line : 109108
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DisplaySetLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Set Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101583
+             * line : 74727
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplaySetLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplaySetLabel',
             'desc' => [
+                'en' => 'Display Set Label',
             ],
         ],
     ];

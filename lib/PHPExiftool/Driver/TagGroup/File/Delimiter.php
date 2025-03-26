@@ -28,13 +28,14 @@ class Delimiter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delimiter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394728
+             * line : 279641
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Delimiter extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:Delimiter',
             'desc' => [
+                'en' => 'Delimiter',
             ],
         ],
     ];

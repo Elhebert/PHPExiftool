@@ -28,13 +28,14 @@ class ComponentDefinition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component Definition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154164
+             * line : 105852
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentDefinition extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:ComponentDefinition',
             'desc' => [
+                'en' => 'Component Definition',
             ],
         ],
     ];

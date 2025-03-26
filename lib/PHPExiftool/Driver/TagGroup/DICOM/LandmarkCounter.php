@@ -28,13 +28,14 @@ class LandmarkCounter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Landmark Counter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98471
+             * line : 71803
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LandmarkCounter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LandmarkCounter',
             'desc' => [
+                'en' => 'Landmark Counter',
             ],
         ],
     ];

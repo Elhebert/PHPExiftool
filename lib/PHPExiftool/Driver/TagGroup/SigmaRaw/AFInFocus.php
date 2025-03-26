@@ -28,13 +28,14 @@ class AFInFocus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF In Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339684
+             * line : 237613
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFInFocus extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:AFInFocus',
             'desc' => [
+                'en' => 'AF In Focus',
             ],
         ],
     ];

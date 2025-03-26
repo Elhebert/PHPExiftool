@@ -28,13 +28,14 @@ class EventSamplingProtocol extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Sampling Protocol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106129
+             * line : 78494
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventSamplingProtocol extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventSamplingProtocol',
             'desc' => [
+                'en' => 'Event Sampling Protocol',
             ],
         ],
     ];

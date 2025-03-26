@@ -28,13 +28,14 @@ class ShutterSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90480
+             * line : 65203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeed extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ShutterSpeed',
             'desc' => [
+                'en' => 'Shutter Speed',
             ],
         ],
     ];

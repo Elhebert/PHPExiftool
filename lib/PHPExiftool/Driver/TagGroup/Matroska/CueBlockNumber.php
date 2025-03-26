@@ -28,13 +28,14 @@ class CueBlockNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Block Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173641
+             * line : 119565
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueBlockNumber extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueBlockNumber',
             'desc' => [
+                'en' => 'Cue Block Number',
             ],
         ],
     ];

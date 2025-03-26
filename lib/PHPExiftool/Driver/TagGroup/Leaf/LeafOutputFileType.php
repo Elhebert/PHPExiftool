@@ -28,13 +28,14 @@ class LeafOutputFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leaf Output File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161967
+             * line : 110669
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeafOutputFileType extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:LeafOutputFileType',
             'desc' => [
+                'en' => 'Leaf Output File Type',
             ],
         ],
     ];

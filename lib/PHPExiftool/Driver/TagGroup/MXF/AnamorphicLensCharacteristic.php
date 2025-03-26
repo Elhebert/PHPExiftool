@@ -28,13 +28,14 @@ class AnamorphicLensCharacteristic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anamorphic Lens Characteristic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169266
+             * line : 115675
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnamorphicLensCharacteristic extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnamorphicLensCharacteristic',
             'desc' => [
+                'en' => 'Anamorphic Lens Characteristic',
             ],
         ],
     ];

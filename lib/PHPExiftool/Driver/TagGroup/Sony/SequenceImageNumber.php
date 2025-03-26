@@ -28,13 +28,14 @@ class SequenceImageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 362902
+             * line : 252644
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 363907
+             * line : 253312
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 364926
+             * line : 253980
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 365892
+             * line : 254628
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 383948
+             * line : 270691
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384181
+             * line : 270864
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384491
+             * line : 271114
              * type : int32u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387614
+             * line : 273704
              * type : int32u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391067
+             * line : 276787
              * type : int32u
              * writable : false
              * count :
@@ -146,6 +155,7 @@ class SequenceImageNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:SequenceImageNumber',
             'desc' => [
+                'en' => 'Sequence Image Number',
             ],
         ],
     ];

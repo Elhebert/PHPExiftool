@@ -28,13 +28,14 @@ class DynamicRangeOptimizer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 356836
+             * line : 248854
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Main
-             * line : 359360
+             * line : 250659
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362233
+             * line : 252237
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 362985
+             * line : 252727
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363231
+             * line : 252899
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364008
+             * line : 253398
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364254
+             * line : 253570
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365009
+             * line : 254063
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365255
+             * line : 254235
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 365993
+             * line : 254714
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366239
+             * line : 254886
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         11 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369000
+             * line : 257344
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         12 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369246
+             * line : 257516
              * type : int8u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         13 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370030
+             * line : 258009
              * type : int8u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         14 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370276
+             * line : 258181
              * type : int8u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         15 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373031
+             * line : 260633
              * type : int8u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         16 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373277
+             * line : 260805
              * type : int8u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         17 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376032
+             * line : 263257
              * type : int8u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
         18 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376278
+             * line : 263429
              * type : int8u
              * writable : true
              * count :
@@ -276,6 +295,7 @@ class DynamicRangeOptimizer extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:DynamicRangeOptimizer',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer',
             ],
         ],
     ];

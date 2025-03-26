@@ -28,13 +28,14 @@ class RotationAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ImageProfile
-             * line : 161846
+             * line : 110569
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotationAngle extends AbstractTagGroup
              */
             'id' => 'Leaf::ImageProfile.Leaf:RotationAngle',
             'desc' => [
+                'en' => 'Rotation Angle',
             ],
         ],
     ];

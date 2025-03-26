@@ -28,13 +28,14 @@ class IDCPreviewStart extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IDC Preview Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 393976
+             * line : 279132
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IDCPreviewStart extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:IDCPreviewStart',
             'desc' => [
+                'en' => 'IDC Preview Start',
             ],
         ],
     ];

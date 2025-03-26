@@ -28,13 +28,14 @@ class Decode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112233
+             * line : 81955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Decode extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Decode',
             'desc' => [
+                'en' => 'Decode',
             ],
         ],
     ];

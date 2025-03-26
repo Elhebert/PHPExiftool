@@ -28,13 +28,14 @@ class Lens extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159697
+             * line : 109476
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lens extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:Lens',
             'desc' => [
+                'en' => 'Lens',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContinuousModeLiveView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Continuous Mode Live View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233721
+             * line : 157565
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContinuousModeLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ContinuousModeLiveView',
             'desc' => [
+                'en' => 'Continuous Mode Live View',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AssignMovieSubselector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Assign Movie Subselector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246910
+             * line : 169603
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AssignMovieSubselector extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AssignMovieSubselector',
             'desc' => [
+                'en' => 'Assign Movie Subselector',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246948
+             * line : 169641
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AssignMovieSubselector extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AssignMovieSubselector',
             'desc' => [
+                'en' => 'Assign Movie Subselector',
             ],
         ],
     ];

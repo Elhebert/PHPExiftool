@@ -28,13 +28,14 @@ class ClipPath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111995
+             * line : 81846
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipPath extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ClipPath',
             'desc' => [
+                'en' => 'Clip Path',
             ],
         ],
     ];

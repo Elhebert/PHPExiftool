@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121650
+             * line : 85287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

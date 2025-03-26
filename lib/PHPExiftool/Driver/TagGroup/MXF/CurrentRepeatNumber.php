@@ -28,13 +28,14 @@ class CurrentRepeatNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Repeat Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167520
+             * line : 114135
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentRepeatNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CurrentRepeatNumber',
             'desc' => [
+                'en' => 'Current Repeat Number',
             ],
         ],
     ];

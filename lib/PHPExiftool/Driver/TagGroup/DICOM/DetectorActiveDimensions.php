@@ -28,13 +28,14 @@ class DetectorActiveDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Active Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96442
+             * line : 69850
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorActiveDimensions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorActiveDimensions',
             'desc' => [
+                'en' => 'Detector Active Dimensions',
             ],
         ],
     ];

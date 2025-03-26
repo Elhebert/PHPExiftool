@@ -28,13 +28,14 @@ class HighMagnificationMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'High Magnification Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166492
+             * line : 113233
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class HighMagnificationMode extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:HighMagnificationMode',
             'desc' => [
+                'en' => 'High Magnification Mode',
             ],
         ],
     ];

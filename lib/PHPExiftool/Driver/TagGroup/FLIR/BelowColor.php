@@ -28,13 +28,14 @@ class BelowColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Below Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123507
+             * line : 86322
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class BelowColor extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:BelowColor',
             'desc' => [
+                'en' => 'Below Color',
             ],
         ],
     ];

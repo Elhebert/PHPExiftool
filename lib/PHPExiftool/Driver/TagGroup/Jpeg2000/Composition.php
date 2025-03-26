@@ -28,13 +28,14 @@ class Composition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154183
+             * line : 105864
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Composition extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:Composition',
             'desc' => [
+                'en' => 'Composition',
             ],
         ],
     ];

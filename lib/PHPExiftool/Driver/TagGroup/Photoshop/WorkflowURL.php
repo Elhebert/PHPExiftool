@@ -28,13 +28,14 @@ class WorkflowURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Workflow URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305572
+             * line : 212328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WorkflowURL extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:WorkflowURL',
             'desc' => [
+                'en' => 'Workflow URL',
             ],
         ],
     ];

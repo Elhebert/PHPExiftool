@@ -28,13 +28,14 @@ class AFMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraInfoA100
-             * line : 176933
+             * line : 121708
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraInfoA100.Minolta:AFMode',
             'desc' => [
+                'en' => 'AF Mode',
             ],
         ],
     ];

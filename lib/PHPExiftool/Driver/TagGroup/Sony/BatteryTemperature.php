@@ -28,13 +28,14 @@ class BatteryTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo
-             * line : 352121
+             * line : 245999
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BatteryTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo.Sony:BatteryTemperature',
             'desc' => [
+                'en' => 'Battery Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352230
+             * line : 246059
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BatteryTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:BatteryTemperature',
             'desc' => [
+                'en' => 'Battery Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9406
-             * line : 390254
+             * line : 276012
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class BatteryTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9406.Sony:BatteryTemperature',
             'desc' => [
+                'en' => 'Battery Temperature',
             ],
         ],
     ];

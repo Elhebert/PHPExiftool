@@ -28,13 +28,14 @@ class ImagePathFilterPassBand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Path Filter Pass Band',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98306
+             * line : 71641
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePathFilterPassBand extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePathFilterPassBand',
             'desc' => [
+                'en' => 'Image Path Filter Pass Band',
             ],
         ],
     ];

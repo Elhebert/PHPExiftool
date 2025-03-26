@@ -28,13 +28,14 @@ class SecondaryOriginalLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Original Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170729
+             * line : 116964
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryOriginalLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecondaryOriginalLanguageCode',
             'desc' => [
+                'en' => 'Secondary Original Language Code',
             ],
         ],
     ];

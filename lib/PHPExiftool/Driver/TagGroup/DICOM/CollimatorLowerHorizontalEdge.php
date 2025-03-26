@@ -28,13 +28,14 @@ class CollimatorLowerHorizontalEdge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collimator Lower Horizontal Edge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96107
+             * line : 69526
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollimatorLowerHorizontalEdge extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollimatorLowerHorizontalEdge',
             'desc' => [
+                'en' => 'Collimator Lower Horizontal Edge',
             ],
         ],
     ];

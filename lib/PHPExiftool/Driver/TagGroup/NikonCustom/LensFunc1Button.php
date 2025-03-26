@@ -28,13 +28,14 @@ class LensFunc1Button extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Func 1 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 236922
+             * line : 160052
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LensFunc1Button',
             'desc' => [
+                'en' => 'Lens Func 1 Button',
             ],
         ],
     ];

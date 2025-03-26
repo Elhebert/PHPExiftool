@@ -28,13 +28,14 @@ class DetectorActiveOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Active Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96445
+             * line : 69853
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorActiveOrigin extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorActiveOrigin',
             'desc' => [
+                'en' => 'Detector Active Origin',
             ],
         ],
     ];

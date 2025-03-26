@@ -28,13 +28,14 @@ class ScannerStudyID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Study ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100502
+             * line : 73674
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScannerStudyID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScannerStudyID',
             'desc' => [
+                'en' => 'Scanner Study ID',
             ],
         ],
     ];

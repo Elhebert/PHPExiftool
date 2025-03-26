@@ -28,13 +28,14 @@ class ColorPlanes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Planes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128238
+             * line : 88960
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorPlanes extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:ColorPlanes',
             'desc' => [
+                'en' => 'Color Planes',
             ],
         ],
     ];

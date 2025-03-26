@@ -28,13 +28,14 @@ class BoundingBoxTextHorizJustification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bounding Box Text Horiz Justification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101262
+             * line : 74412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoundingBoxTextHorizJustification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BoundingBoxTextHorizJustification',
             'desc' => [
+                'en' => 'Bounding Box Text Horiz Justification',
             ],
         ],
     ];

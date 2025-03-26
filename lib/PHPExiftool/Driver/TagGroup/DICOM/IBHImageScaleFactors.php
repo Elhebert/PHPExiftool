@@ -28,13 +28,14 @@ class IBHImageScaleFactors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IBH Image Scale Factors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100354
+             * line : 73527
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IBHImageScaleFactors extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IBHImageScaleFactors',
             'desc' => [
+                'en' => 'IBH Image Scale Factors',
             ],
         ],
     ];

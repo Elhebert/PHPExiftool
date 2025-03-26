@@ -28,13 +28,14 @@ class Chapter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107405
+             * line : 79282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Chapter extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Chapter',
             'desc' => [
+                'en' => 'Chapter',
             ],
         ],
     ];

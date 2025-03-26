@@ -28,13 +28,14 @@ class FgColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Foreground Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264652
+             * line : 182906
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FgColor extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FgColor',
             'desc' => [
+                'en' => 'Foreground Color',
             ],
         ],
     ];

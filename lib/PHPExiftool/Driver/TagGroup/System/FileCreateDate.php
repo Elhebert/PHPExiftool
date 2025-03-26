@@ -28,13 +28,14 @@ class FileCreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Creation Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121244
+             * line : 85118
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileCreateDate extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileCreateDate',
             'desc' => [
+                'en' => 'File Creation Date/Time',
             ],
         ],
     ];

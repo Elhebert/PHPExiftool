@@ -28,13 +28,14 @@ class JPEGQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'JPEG Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13239
+             * line : 9624
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JPEGQuality extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:JPEGQuality',
             'desc' => [
+                'en' => 'JPEG Quality',
             ],
         ],
     ];

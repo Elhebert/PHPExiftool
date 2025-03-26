@@ -28,13 +28,14 @@ class MultiSelectorShootMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Selector Shoot Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212516
+             * line : 142751
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215012
+             * line : 144287
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217682
+             * line : 146207
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220106
+             * line : 148239
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225630
+             * line : 152034
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230095
+             * line : 154620
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231987
+             * line : 156039
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 237306
+             * line : 160436
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class MultiSelectorShootMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MultiSelectorShootMode',
             'desc' => [
+                'en' => 'Multi Selector Shoot Mode',
             ],
         ],
     ];

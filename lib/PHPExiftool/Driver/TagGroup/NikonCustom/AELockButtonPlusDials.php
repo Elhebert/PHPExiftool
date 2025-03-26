@@ -28,13 +28,14 @@ class AELockButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213556
+             * line : 143432
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AELockButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AELockButtonPlusDials',
             'desc' => [
+                'en' => 'AE Lock Button Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213584
+             * line : 143458
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AELockButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AELockButtonPlusDials',
             'desc' => [
+                'en' => 'AE Lock Button Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 226026
+             * line : 152316
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AELockButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AELockButtonPlusDials',
             'desc' => [
+                'en' => 'AE Lock Button Plus Dials',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231242
+             * line : 155503
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AELockButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AELockButtonPlusDials',
             'desc' => [
+                'en' => 'AE Lock Button Plus Dials',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MarkersCuePointParamsValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Markers Cue Point Params Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413170
+             * line : 291297
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MarkersCuePointParamsValue extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersCuePointParamsValue',
             'desc' => [
+                'en' => 'Markers Cue Point Params Value',
             ],
         ],
     ];

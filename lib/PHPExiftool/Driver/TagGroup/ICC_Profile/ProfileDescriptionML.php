@@ -28,13 +28,14 @@ class ProfileDescriptionML extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Description ML',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146359
+             * line : 101757
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileDescriptionML extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ProfileDescriptionML',
             'desc' => [
+                'en' => 'Profile Description ML',
             ],
         ],
     ];

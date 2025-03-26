@@ -28,13 +28,14 @@ class ChannelCoarseGainAdjust extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Coarse Gain Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155744
+             * line : 106955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelCoarseGainAdjust extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ChannelCoarseGainAdjust',
             'desc' => [
+                'en' => 'Channel Coarse Gain Adjust',
             ],
         ],
     ];

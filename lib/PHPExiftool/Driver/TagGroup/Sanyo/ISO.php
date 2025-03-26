@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 336048
+             * line : 235625
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

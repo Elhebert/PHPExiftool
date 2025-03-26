@@ -28,13 +28,14 @@ class SoftwareComponents extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software Components',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::UserData
-             * line : 123753
+             * line : 86546
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoftwareComponents extends AbstractTagGroup
              */
             'id' => 'FLIR::UserData.FLIR:SoftwareComponents',
             'desc' => [
+                'en' => 'Software Components',
             ],
         ],
     ];

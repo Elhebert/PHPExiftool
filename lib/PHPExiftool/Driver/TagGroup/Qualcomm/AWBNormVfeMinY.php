@@ -28,13 +28,14 @@ class AWBNormVfeMinY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Norm Vfe Min Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307140
+             * line : 213638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBNormVfeMinY extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBNormVfeMinY',
             'desc' => [
+                'en' => 'AWB Norm Vfe Min Y',
             ],
         ],
     ];

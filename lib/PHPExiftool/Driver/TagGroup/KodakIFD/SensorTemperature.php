@@ -28,13 +28,14 @@ class SensorTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154922
+             * line : 106214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
     ];

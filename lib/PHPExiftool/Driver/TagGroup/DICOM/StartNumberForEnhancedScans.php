@@ -28,13 +28,14 @@ class StartNumberForEnhancedScans extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Number For Enhanced Scans',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97425
+             * line : 70813
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartNumberForEnhancedScans extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartNumberForEnhancedScans',
             'desc' => [
+                'en' => 'Start Number For Enhanced Scans',
             ],
         ],
     ];

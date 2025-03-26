@@ -28,13 +28,14 @@ class ParameterSequencePointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parameter Sequence Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102762
+             * line : 75858
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParameterSequencePointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParameterSequencePointer',
             'desc' => [
+                'en' => 'Parameter Sequence Pointer',
             ],
         ],
     ];

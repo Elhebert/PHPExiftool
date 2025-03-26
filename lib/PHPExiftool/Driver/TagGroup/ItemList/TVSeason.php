@@ -28,13 +28,14 @@ class TVSeason extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TV Season',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322937
+             * line : 228411
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TVSeason extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:TVSeason',
             'desc' => [
+                'en' => 'TV Season',
             ],
         ],
     ];

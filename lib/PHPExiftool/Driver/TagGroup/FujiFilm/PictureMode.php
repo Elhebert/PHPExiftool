@@ -28,13 +28,14 @@ class PictureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129859
+             * line : 89749
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureMode extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:PictureMode',
             'desc' => [
+                'en' => 'Picture Mode',
             ],
         ],
     ];

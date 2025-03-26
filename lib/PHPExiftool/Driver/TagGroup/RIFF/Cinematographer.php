@@ -28,13 +28,14 @@ class Cinematographer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cinematographer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328151
+             * line : 231514
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Cinematographer extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Cinematographer',
             'desc' => [
+                'en' => 'Cinematographer',
             ],
         ],
     ];

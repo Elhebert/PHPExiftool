@@ -28,13 +28,14 @@ class ThumbnailWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412761
+             * line : 290975
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailWidth extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:ThumbnailWidth',
             'desc' => [
+                'en' => 'Thumbnail Width',
             ],
         ],
     ];

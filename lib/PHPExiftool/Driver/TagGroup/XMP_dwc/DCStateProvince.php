@@ -28,13 +28,14 @@ class DCStateProvince extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC State Province',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106990
+             * line : 79139
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCStateProvince extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCStateProvince',
             'desc' => [
+                'en' => 'DC State Province',
             ],
         ],
     ];

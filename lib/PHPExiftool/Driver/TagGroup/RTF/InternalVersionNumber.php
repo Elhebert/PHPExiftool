@@ -28,13 +28,14 @@ class InternalVersionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Internal Version Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329348
+             * line : 232074
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InternalVersionNumber extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:InternalVersionNumber',
             'desc' => [
+                'en' => 'Internal Version Number',
             ],
         ],
     ];

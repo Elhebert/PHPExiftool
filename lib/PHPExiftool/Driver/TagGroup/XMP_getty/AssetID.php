@@ -28,13 +28,14 @@ class AssetID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Asset ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397268
+             * line : 281332
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AssetID extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:AssetID',
             'desc' => [
+                'en' => 'Asset ID',
             ],
         ],
     ];

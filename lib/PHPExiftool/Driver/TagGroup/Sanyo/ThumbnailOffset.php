@@ -28,13 +28,14 @@ class ThumbnailOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Thumbnail
-             * line : 336922
+             * line : 235970
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailOffset extends AbstractTagGroup
              */
             'id' => 'Sanyo::Thumbnail.Sanyo:ThumbnailOffset',
             'desc' => [
+                'en' => 'Thumbnail Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SmartScanOnOffFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Smart Scan On Off Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98510
+             * line : 71842
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SmartScanOnOffFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SmartScanOnOffFlag',
             'desc' => [
+                'en' => 'Smart Scan On Off Flag',
             ],
         ],
     ];

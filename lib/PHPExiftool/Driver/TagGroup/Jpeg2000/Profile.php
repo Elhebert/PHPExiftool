@@ -28,13 +28,14 @@ class Profile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154278
+             * line : 105930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Profile extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:Profile',
             'desc' => [
+                'en' => 'Profile',
             ],
         ],
     ];

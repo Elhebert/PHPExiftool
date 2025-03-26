@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152310
+             * line : 104828
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

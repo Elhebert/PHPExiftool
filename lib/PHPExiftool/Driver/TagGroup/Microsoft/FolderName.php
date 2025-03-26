@@ -28,13 +28,14 @@ class FolderName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Folder Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176217
+             * line : 121263
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FolderName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FolderName',
             'desc' => [
+                'en' => 'Folder Name',
             ],
         ],
     ];

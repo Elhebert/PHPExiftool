@@ -28,13 +28,14 @@ class NeutralRawHighlight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Raw Highlight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83596
+             * line : 61254
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralRawHighlight extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralRawHighlight',
             'desc' => [
+                'en' => 'Neutral Raw Highlight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TrackNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322920
+             * line : 228396
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
     ];

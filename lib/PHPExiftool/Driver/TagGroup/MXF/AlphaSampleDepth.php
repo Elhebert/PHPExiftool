@@ -28,13 +28,14 @@ class AlphaSampleDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Sample Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169064
+             * line : 115508
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaSampleDepth extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AlphaSampleDepth',
             'desc' => [
+                'en' => 'Alpha Sample Depth',
             ],
         ],
     ];

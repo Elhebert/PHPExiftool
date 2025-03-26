@@ -28,13 +28,14 @@ class FileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109105
+             * line : 80639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileVersion extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:FileVersion',
             'desc' => [
+                'en' => 'File Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BracketSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracket Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247526
+             * line : 170219
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BracketSet extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketSet',
             'desc' => [
+                'en' => 'Bracket Set',
             ],
         ],
     ];

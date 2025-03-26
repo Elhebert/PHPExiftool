@@ -28,13 +28,14 @@ class Offset3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Offset 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207908
+             * line : 140045
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Offset3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:Offset3',
             'desc' => [
+                'en' => 'Offset 3',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209312
+             * line : 141158
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Offset3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:Offset3',
             'desc' => [
+                'en' => 'Offset 3',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209395
+             * line : 141225
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Offset3 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:Offset3',
             'desc' => [
+                'en' => 'Offset 3',
             ],
         ],
     ];

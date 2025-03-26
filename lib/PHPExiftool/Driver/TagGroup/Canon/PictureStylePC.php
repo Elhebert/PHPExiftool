@@ -28,13 +28,14 @@ class PictureStylePC extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Style PC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 66214
+             * line : 50328
              * type : int16u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class PictureStylePC extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:PictureStylePC',
             'desc' => [
+                'en' => 'Picture Style PC',
             ],
         ],
     ];

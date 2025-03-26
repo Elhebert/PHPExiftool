@@ -28,13 +28,14 @@ class AECLumaTolerance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Luma Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306176
+             * line : 212681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECLumaTolerance extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECLumaTolerance',
             'desc' => [
+                'en' => 'AEC Luma Tolerance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Vignetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333215
+             * line : 233705
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Vignetting extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:Vignetting',
             'desc' => [
+                'en' => 'Vignetting',
             ],
         ],
     ];

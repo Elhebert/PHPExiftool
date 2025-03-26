@@ -28,13 +28,14 @@ class ObjectFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::ELF
-             * line : 108010
+             * line : 79726
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ObjectFileType extends AbstractTagGroup
              */
             'id' => 'EXE::ELF.EXE:ObjectFileType',
             'desc' => [
+                'en' => 'Object File Type',
             ],
         ],
         1 => [
             /**
              * table_name : EXE::MachO
-             * line : 108566
+             * line : 80218
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ObjectFileType extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:ObjectFileType',
             'desc' => [
+                'en' => 'Object File Type',
             ],
         ],
         2 => [
             /**
              * table_name : EXE::PEVersion
-             * line : 109661
+             * line : 81087
              * type : int32u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ObjectFileType extends AbstractTagGroup
              */
             'id' => 'EXE::PEVersion.EXE:ObjectFileType',
             'desc' => [
+                'en' => 'Object File Type',
             ],
         ],
     ];

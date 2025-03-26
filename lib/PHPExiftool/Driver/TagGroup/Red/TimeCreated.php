@@ -28,13 +28,14 @@ class TimeCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331444
+             * line : 233019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCreated extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:TimeCreated',
             'desc' => [
+                'en' => 'Time Created',
             ],
         ],
     ];

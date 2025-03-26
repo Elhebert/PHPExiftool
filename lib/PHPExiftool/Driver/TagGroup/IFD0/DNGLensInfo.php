@@ -28,13 +28,14 @@ class DNGLensInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DNG Lens Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119185
+             * line : 84195
              * type : rational64u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DNGLensInfo extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DNGLensInfo',
             'desc' => [
+                'en' => 'DNG Lens Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LatestAgeOrHighestStage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Latest Age Or Highest Stage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106197
+             * line : 78545
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LatestAgeOrHighestStage extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LatestAgeOrHighestStage',
             'desc' => [
+                'en' => 'Latest Age Or Highest Stage',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensAFStopButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens AF Stop Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71813
+             * line : 53445
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72320
+             * line : 53735
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73683
+             * line : 54474
              * type : int32s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76118
+             * line : 55936
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76659
+             * line : 56194
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77797
+             * line : 56741
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
         6 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78106
+             * line : 56885
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class LensAFStopButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:LensAFStopButton',
             'desc' => [
+                'en' => 'Lens AF Stop Button',
             ],
         ],
     ];

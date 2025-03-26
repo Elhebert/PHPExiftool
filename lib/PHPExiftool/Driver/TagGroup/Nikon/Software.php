@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191174
+             * line : 129894
              * type : undef
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196547
+             * line : 132826
              * type : string
              * writable : false
              * count : 16
@@ -55,12 +57,13 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202149
+             * line : 136911
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

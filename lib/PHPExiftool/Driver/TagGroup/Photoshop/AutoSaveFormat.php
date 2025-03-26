@@ -28,13 +28,14 @@ class AutoSaveFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Save Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305678
+             * line : 212403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoSaveFormat extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:AutoSaveFormat',
             'desc' => [
+                'en' => 'Auto Save Format',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StereoMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stereo Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397242
+             * line : 281316
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StereoMode extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:StereoMode',
             'desc' => [
+                'en' => 'Stereo Mode',
             ],
         ],
     ];

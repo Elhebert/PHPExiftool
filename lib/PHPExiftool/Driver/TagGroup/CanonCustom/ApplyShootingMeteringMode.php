@@ -28,13 +28,14 @@ class ApplyShootingMeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Apply Shooting Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72839
+             * line : 54028
              * type : int32s
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class ApplyShootingMeteringMode extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ApplyShootingMeteringMode',
             'desc' => [
+                'en' => 'Apply Shooting Metering Mode',
             ],
         ],
     ];

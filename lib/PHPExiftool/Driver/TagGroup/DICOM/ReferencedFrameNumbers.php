@@ -28,13 +28,14 @@ class ReferencedFrameNumbers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Frame Numbers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100149
+             * line : 73326
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedFrameNumbers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedFrameNumbers',
             'desc' => [
+                'en' => 'Referenced Frame Numbers',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RicohRoll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ricoh Roll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93794
+             * line : 67889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RicohRoll extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:RicohRoll',
             'desc' => [
+                'en' => 'Ricoh Roll',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeliveredNumberOfPulses extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivered Number Of Pulses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102873
+             * line : 75969
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveredNumberOfPulses extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveredNumberOfPulses',
             'desc' => [
+                'en' => 'Delivered Number Of Pulses',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocalFestivalDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Festival Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171624
+             * line : 117817
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalFestivalDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalFestivalDateTime',
             'desc' => [
+                'en' => 'Local Festival Date Time',
             ],
         ],
     ];

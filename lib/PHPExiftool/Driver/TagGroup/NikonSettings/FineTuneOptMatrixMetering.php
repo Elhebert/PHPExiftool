@@ -28,13 +28,14 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fine Tune Opt Matrix Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243831
+             * line : 166804
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
     ];

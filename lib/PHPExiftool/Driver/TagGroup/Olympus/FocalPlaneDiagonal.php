@@ -28,13 +28,14 @@ class FocalPlaneDiagonal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane Diagonal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254003
+             * line : 175326
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocalPlaneDiagonal extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:FocalPlaneDiagonal',
             'desc' => [
+                'en' => 'Focal Plane Diagonal',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 257004
+             * line : 177435
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocalPlaneDiagonal extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FocalPlaneDiagonal',
             'desc' => [
+                'en' => 'Focal Plane Diagonal',
             ],
         ],
     ];

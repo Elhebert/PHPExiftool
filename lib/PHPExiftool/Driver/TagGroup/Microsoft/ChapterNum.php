@@ -28,13 +28,14 @@ class ChapterNum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Num',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175277
+             * line : 120702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterNum extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ChapterNum',
             'desc' => [
+                'en' => 'Chapter Num',
             ],
         ],
     ];

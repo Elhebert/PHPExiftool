@@ -28,13 +28,14 @@ class ContrastFaithful extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Faithful',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34453
+             * line : 26480
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastFaithful',
             'desc' => [
+                'en' => 'Contrast Faithful',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67358
+             * line : 51089
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastFaithful',
             'desc' => [
+                'en' => 'Contrast Faithful',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68456
+             * line : 51750
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastFaithful',
             'desc' => [
+                'en' => 'Contrast Faithful',
             ],
         ],
     ];

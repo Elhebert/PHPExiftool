@@ -28,13 +28,14 @@ class EvalState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Eval State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339889
+             * line : 237675
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EvalState extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:EvalState',
             'desc' => [
+                'en' => 'Eval State',
             ],
         ],
     ];

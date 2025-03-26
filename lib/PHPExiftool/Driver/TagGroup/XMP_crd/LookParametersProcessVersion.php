@@ -28,13 +28,14 @@ class LookParametersProcessVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Parameters Process Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399577
+             * line : 283083
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookParametersProcessVersion extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LookParametersProcessVersion',
             'desc' => [
+                'en' => 'Look Parameters Process Version',
             ],
         ],
     ];

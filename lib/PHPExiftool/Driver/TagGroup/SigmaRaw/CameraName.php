@@ -28,13 +28,14 @@ class CameraName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339773
+             * line : 237637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraName extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:CameraName',
             'desc' => [
+                'en' => 'Camera Name',
             ],
         ],
     ];

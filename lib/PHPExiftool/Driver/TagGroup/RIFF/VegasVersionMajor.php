@@ -28,13 +28,14 @@ class VegasVersionMajor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vegas Version Major',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328585
+             * line : 231702
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VegasVersionMajor extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:VegasVersionMajor',
             'desc' => [
+                'en' => 'Vegas Version Major',
             ],
         ],
     ];

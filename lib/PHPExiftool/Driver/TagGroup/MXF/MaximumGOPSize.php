@@ -28,13 +28,14 @@ class MaximumGOPSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum GOP Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171256
+             * line : 117464
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumGOPSize extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaximumGOPSize',
             'desc' => [
+                'en' => 'Maximum GOP Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VideoFieldOrder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Field Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413722
+             * line : 291763
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoFieldOrder extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoFieldOrder',
             'desc' => [
+                'en' => 'Video Field Order',
             ],
         ],
     ];

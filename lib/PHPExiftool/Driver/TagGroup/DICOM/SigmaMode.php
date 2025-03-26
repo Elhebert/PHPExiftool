@@ -28,13 +28,14 @@ class SigmaMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sigma Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100606
+             * line : 73776
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigmaMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SigmaMode',
             'desc' => [
+                'en' => 'Sigma Mode',
             ],
         ],
     ];

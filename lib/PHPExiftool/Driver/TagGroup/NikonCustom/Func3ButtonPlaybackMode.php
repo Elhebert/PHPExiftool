@@ -28,13 +28,14 @@ class Func3ButtonPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Func 3 Button Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 240504
+             * line : 163580
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Func3ButtonPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:Func3ButtonPlaybackMode',
             'desc' => [
+                'en' => 'Func 3 Button Playback Mode',
             ],
         ],
     ];

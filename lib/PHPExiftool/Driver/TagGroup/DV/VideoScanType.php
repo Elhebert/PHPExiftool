@@ -28,13 +28,14 @@ class VideoScanType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Scan Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 106053
+             * line : 78436
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoScanType extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:VideoScanType',
             'desc' => [
+                'en' => 'Video Scan Type',
             ],
         ],
     ];

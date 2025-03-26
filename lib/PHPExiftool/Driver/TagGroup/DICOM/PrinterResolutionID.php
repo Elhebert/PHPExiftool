@@ -28,13 +28,14 @@ class PrinterResolutionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Printer Resolution ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102058
+             * line : 75195
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrinterResolutionID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrinterResolutionID',
             'desc' => [
+                'en' => 'Printer Resolution ID',
             ],
         ],
     ];

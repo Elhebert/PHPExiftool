@@ -28,13 +28,14 @@ class Channels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174514
+             * line : 120179
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175872
+             * line : 121035
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
     ];

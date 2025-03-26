@@ -28,13 +28,14 @@ class ScanArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95822
+             * line : 69268
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanArc extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanArc',
             'desc' => [
+                'en' => 'Scan Arc',
             ],
         ],
     ];

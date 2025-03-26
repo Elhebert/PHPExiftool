@@ -28,13 +28,14 @@ class MRMetaboliteMapSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Metabolite Map Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96805
+             * line : 70207
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRMetaboliteMapSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRMetaboliteMapSequence',
             'desc' => [
+                'en' => 'MR Metabolite Map Sequence',
             ],
         ],
     ];

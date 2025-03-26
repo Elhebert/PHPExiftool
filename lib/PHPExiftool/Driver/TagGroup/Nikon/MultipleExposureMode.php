@@ -28,13 +28,14 @@ class MultipleExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multiple Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200360
+             * line : 135324
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultipleExposureMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MultipleExposureMode',
             'desc' => [
+                'en' => 'Multiple Exposure Mode',
             ],
         ],
     ];

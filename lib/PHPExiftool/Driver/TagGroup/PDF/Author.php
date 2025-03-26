@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264149
+             * line : 182636
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

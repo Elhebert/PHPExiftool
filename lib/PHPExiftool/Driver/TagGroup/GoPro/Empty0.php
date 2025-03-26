@@ -28,13 +28,14 @@ class Empty0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Empty',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139472
+             * line : 97614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Empty0 extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Empty',
             'desc' => [
+                'en' => 'Empty',
             ],
         ],
     ];

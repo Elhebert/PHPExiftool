@@ -28,13 +28,14 @@ class MedicalAlerts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Medical Alerts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95266
+             * line : 68731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MedicalAlerts extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MedicalAlerts',
             'desc' => [
+                'en' => 'Medical Alerts',
             ],
         ],
     ];

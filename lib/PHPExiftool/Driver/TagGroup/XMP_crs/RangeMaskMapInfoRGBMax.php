@@ -28,13 +28,14 @@ class RangeMaskMapInfoRGBMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Range Mask Map Info RGB Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403946
+             * line : 287063
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RangeMaskMapInfoRGBMax extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RangeMaskMapInfoRGBMax',
             'desc' => [
+                'en' => 'Range Mask Map Info RGB Max',
             ],
         ],
     ];

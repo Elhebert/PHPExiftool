@@ -28,13 +28,14 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215708
+             * line : 144784
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218304
+             * line : 146701
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220754
+             * line : 148732
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 223150
+             * line : 150517
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223738
+             * line : 150882
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224268
+             * line : 151220
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227430
+             * line : 153148
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230840
+             * line : 155140
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232653
+             * line : 156550
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
     ];

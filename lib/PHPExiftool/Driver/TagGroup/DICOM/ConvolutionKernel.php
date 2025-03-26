@@ -28,13 +28,14 @@ class ConvolutionKernel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Convolution Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95939
+             * line : 69364
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConvolutionKernel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConvolutionKernel',
             'desc' => [
+                'en' => 'Convolution Kernel',
             ],
         ],
     ];

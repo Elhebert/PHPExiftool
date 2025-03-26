@@ -28,13 +28,14 @@ class ColorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113196
+             * line : 82362
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorSequence extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ColorSequence',
             'desc' => [
+                'en' => 'Color Sequence',
             ],
         ],
     ];

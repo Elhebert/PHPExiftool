@@ -28,13 +28,14 @@ class VideoCodecName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Codec Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::CodecList
-             * line : 888
+             * line : 332
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoCodecName extends AbstractTagGroup
              */
             'id' => 'ASF::CodecList.ASF:VideoCodecName',
             'desc' => [
+                'en' => 'Video Codec Name',
             ],
         ],
     ];

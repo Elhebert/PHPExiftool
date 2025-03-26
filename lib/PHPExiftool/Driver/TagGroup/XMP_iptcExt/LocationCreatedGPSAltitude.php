@@ -28,13 +28,14 @@ class LocationCreatedGPSAltitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Created GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409458
+             * line : 289234
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationCreatedGPSAltitude extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:LocationCreatedGPSAltitude',
             'desc' => [
+                'en' => 'Location Created GPS Altitude',
             ],
         ],
     ];

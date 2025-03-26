@@ -28,13 +28,14 @@ class PrescribedFlowAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prescribed Flow Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97768
+             * line : 71149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrescribedFlowAxis extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrescribedFlowAxis',
             'desc' => [
+                'en' => 'Prescribed Flow Axis',
             ],
         ],
     ];

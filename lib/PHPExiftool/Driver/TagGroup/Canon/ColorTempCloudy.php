@@ -28,13 +28,14 @@ class ColorTempCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59233
+             * line : 45901
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59511
+             * line : 46043
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59767
+             * line : 46173
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60037
+             * line : 46314
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60564
+             * line : 46614
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60811
+             * line : 46756
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61156
+             * line : 46939
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61530
+             * line : 47179
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61918
+             * line : 47392
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62339
+             * line : 47632
              * type : int16s
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62810
+             * line : 47914
              * type : int16s
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ColorTempCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempCloudy',
             'desc' => [
+                'en' => 'Color Temp Cloudy',
             ],
         ],
     ];

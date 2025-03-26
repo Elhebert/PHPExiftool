@@ -28,13 +28,14 @@ class GridSpacingMaterial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Spacing Material',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96466
+             * line : 69874
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridSpacingMaterial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridSpacingMaterial',
             'desc' => [
+                'en' => 'Grid Spacing Material',
             ],
         ],
     ];

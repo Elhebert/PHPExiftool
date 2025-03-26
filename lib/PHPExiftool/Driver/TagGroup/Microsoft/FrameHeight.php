@@ -28,13 +28,14 @@ class FrameHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175888
+             * line : 121044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameHeight extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FrameHeight',
             'desc' => [
+                'en' => 'Frame Height',
             ],
         ],
     ];

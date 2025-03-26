@@ -28,13 +28,14 @@ class VerticalResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175842
+             * line : 121017
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalResolution extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:VerticalResolution',
             'desc' => [
+                'en' => 'Vertical Resolution',
             ],
         ],
     ];

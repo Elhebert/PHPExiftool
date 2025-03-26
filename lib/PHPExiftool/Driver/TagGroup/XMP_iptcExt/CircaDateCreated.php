@@ -28,13 +28,14 @@ class CircaDateCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circa Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409164
+             * line : 288975
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircaDateCreated extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:CircaDateCreated',
             'desc' => [
+                'en' => 'Circa Date Created',
             ],
         ],
     ];

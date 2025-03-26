@@ -28,13 +28,14 @@ class NumberOfIterations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Iterations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97330
+             * line : 70726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfIterations extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfIterations',
             'desc' => [
+                'en' => 'Number Of Iterations',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SignaturePublicKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature Public Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173924
+             * line : 119806
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignaturePublicKey extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SignaturePublicKey',
             'desc' => [
+                'en' => 'Signature Public Key',
             ],
         ],
     ];

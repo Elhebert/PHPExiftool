@@ -28,13 +28,14 @@ class SonyToneCurve extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony Tone Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112749
+             * line : 82149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SonyToneCurve extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SonyToneCurve',
             'desc' => [
+                'en' => 'Sony Tone Curve',
             ],
         ],
     ];

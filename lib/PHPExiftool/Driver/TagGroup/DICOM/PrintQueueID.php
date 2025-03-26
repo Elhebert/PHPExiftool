@@ -28,13 +28,14 @@ class PrintQueueID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Queue ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102283
+             * line : 75384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintQueueID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrintQueueID',
             'desc' => [
+                'en' => 'Print Queue ID',
             ],
         ],
     ];

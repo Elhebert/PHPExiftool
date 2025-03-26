@@ -28,13 +28,14 @@ class NetExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Net Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339910
+             * line : 237681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NetExposureCompensation extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:NetExposureCompensation',
             'desc' => [
+                'en' => 'Net Exposure Compensation',
             ],
         ],
     ];

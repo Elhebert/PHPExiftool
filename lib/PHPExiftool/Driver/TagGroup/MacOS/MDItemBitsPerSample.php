@@ -28,13 +28,14 @@ class MDItemBitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172584
+             * line : 118733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemBitsPerSample extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemBitsPerSample',
             'desc' => [
+                'en' => 'MD Item Bits Per Sample',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CustomSettingsAllDefault extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Settings All Default',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211772
+             * line : 142344
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CustomSettingsAllDefault extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CustomSettingsAllDefault',
             'desc' => [
+                'en' => 'Custom Settings All Default',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224381
+             * line : 151333
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CustomSettingsAllDefault extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CustomSettingsAllDefault',
             'desc' => [
+                'en' => 'Custom Settings All Default',
             ],
         ],
     ];

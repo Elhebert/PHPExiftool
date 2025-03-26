@@ -28,13 +28,14 @@ class RecordShutterRelease extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Shutter Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336560
+             * line : 235825
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordShutterRelease extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:RecordShutterRelease',
             'desc' => [
+                'en' => 'Record Shutter Release',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ICC_Profile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ICC Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151586
+             * line : 104500
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ICC_Profile extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ICC_Profile',
             'desc' => [
+                'en' => 'ICC Profile',
             ],
         ],
     ];

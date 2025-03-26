@@ -28,13 +28,14 @@ class NumImportantColors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Important Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3338
+             * line : 2068
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumImportantColors extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:NumImportantColors',
             'desc' => [
+                'en' => 'Num Important Colors',
             ],
         ],
     ];

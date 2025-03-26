@@ -28,13 +28,14 @@ class YearCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Year Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157757
+             * line : 108686
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class YearCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:YearCreated',
             'desc' => [
+                'en' => 'Year Created',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type3
-             * line : 160023
+             * line : 109608
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class YearCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::Type3.Kodak:YearCreated',
             'desc' => [
+                'en' => 'Year Created',
             ],
         ],
     ];

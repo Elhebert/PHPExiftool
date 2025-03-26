@@ -28,13 +28,14 @@ class ItemSubType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Item Sub Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174360
+             * line : 120085
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ItemSubType extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:ItemSubType',
             'desc' => [
+                'en' => 'Item Sub Type',
             ],
         ],
     ];

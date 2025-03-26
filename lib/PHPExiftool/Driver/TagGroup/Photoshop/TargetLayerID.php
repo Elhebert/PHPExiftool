@@ -28,13 +28,14 @@ class TargetLayerID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Layer ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305466
+             * line : 212257
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetLayerID extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:TargetLayerID',
             'desc' => [
+                'en' => 'Target Layer ID',
             ],
         ],
     ];

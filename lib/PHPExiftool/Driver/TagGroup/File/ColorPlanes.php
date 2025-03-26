@@ -28,13 +28,14 @@ class ColorPlanes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Planes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263972
+             * line : 182520
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorPlanes extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:ColorPlanes',
             'desc' => [
+                'en' => 'Color Planes',
             ],
         ],
     ];

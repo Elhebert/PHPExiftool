@@ -28,13 +28,14 @@ class SBABlack extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SBA Black',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155867
+             * line : 107078
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SBABlack extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBABlack',
             'desc' => [
+                'en' => 'SBA Black',
             ],
         ],
     ];

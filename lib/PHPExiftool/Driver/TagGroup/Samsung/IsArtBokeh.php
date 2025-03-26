@@ -28,13 +28,14 @@ class IsArtBokeh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Art Bokeh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334202
+             * line : 234282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsArtBokeh extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:IsArtBokeh',
             'desc' => [
+                'en' => 'Is Art Bokeh',
             ],
         ],
     ];

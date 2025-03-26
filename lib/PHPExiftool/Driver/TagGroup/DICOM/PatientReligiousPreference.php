@@ -28,13 +28,14 @@ class PatientReligiousPreference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Religious Preference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95302
+             * line : 68764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientReligiousPreference extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientReligiousPreference',
             'desc' => [
+                'en' => 'Patient Religious Preference',
             ],
         ],
     ];

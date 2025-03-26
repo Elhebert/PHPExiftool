@@ -28,13 +28,14 @@ class ToneCurveColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::ToneCurve
-             * line : 82117
+             * line : 60177
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveColorSpace extends AbstractTagGroup
              */
             'id' => 'CanonVRD::ToneCurve.CanonVRD:ToneCurveColorSpace',
             'desc' => [
+                'en' => 'Tone Curve Color Space',
             ],
         ],
     ];

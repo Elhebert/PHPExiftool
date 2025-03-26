@@ -28,13 +28,14 @@ class DistortionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80693
+             * line : 58826
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83498
+             * line : 61199
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
     ];

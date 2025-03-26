@@ -28,13 +28,14 @@ class DataSize64 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Size 64',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::DS64
-             * line : 327842
+             * line : 231390
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataSize64 extends AbstractTagGroup
              */
             'id' => 'RIFF::DS64.RIFF:DataSize64',
             'desc' => [
+                'en' => 'Data Size 64',
             ],
         ],
     ];

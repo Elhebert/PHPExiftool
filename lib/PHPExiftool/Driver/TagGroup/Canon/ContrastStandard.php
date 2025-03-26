@@ -28,13 +28,14 @@ class ContrastStandard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34429
+             * line : 26468
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastStandard extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastStandard',
             'desc' => [
+                'en' => 'Contrast Standard',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67054
+             * line : 50897
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastStandard',
             'desc' => [
+                'en' => 'Contrast Standard',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68152
+             * line : 51558
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastStandard',
             'desc' => [
+                'en' => 'Contrast Standard',
             ],
         ],
     ];

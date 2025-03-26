@@ -28,13 +28,14 @@ class VideoEncodingProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Encoding Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409876
+             * line : 289633
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoEncodingProfile extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:VideoEncodingProfile',
             'desc' => [
+                'en' => 'Video Encoding Profile',
             ],
         ],
     ];

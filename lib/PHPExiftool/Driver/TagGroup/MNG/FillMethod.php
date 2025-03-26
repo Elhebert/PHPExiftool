@@ -28,13 +28,14 @@ class FillMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PromoteParent
-             * line : 165366
+             * line : 112436
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillMethod extends AbstractTagGroup
              */
             'id' => 'MNG::PromoteParent.MNG:FillMethod',
             'desc' => [
+                'en' => 'Fill Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85755
+             * line : 62139
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

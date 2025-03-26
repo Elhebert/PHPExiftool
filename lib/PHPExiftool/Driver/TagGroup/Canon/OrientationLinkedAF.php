@@ -28,13 +28,14 @@ class OrientationLinkedAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Orientation Linked AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3933
+             * line : 2456
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OrientationLinkedAF extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:OrientationLinkedAF',
             'desc' => [
+                'en' => 'Orientation Linked AF',
             ],
         ],
     ];

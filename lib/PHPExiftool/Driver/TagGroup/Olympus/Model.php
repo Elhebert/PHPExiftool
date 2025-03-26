@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::AVI
-             * line : 249433
+             * line : 171929
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::AVI.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::DSS
-             * line : 253020
+             * line : 174411
              * type : string
              * writable : false
              * count : 16
@@ -55,12 +57,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::DSS.Olympus:Model',
             'desc' => [
+                'en' => 'Model',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::MOV1
-             * line : 255628
+             * line : 176404
              * type : string
              * writable : false
              * count : 8
@@ -68,12 +71,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV1.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         3 => [
             /**
              * table_name : Olympus::MOV2
-             * line : 256610
+             * line : 177310
              * type : string
              * writable : false
              * count : 24
@@ -81,12 +85,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV2.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         4 => [
             /**
              * table_name : Olympus::MP4
-             * line : 256737
+             * line : 177335
              * type : string
              * writable : false
              * count : 24
@@ -94,12 +99,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::MP4.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         5 => [
             /**
              * table_name : Olympus::OLYM
-             * line : 259262
+             * line : 178860
              * type : string
              * writable : false
              * count : 24
@@ -107,12 +113,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::OLYM.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         6 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262211
+             * line : 181246
              * type : string
              * writable : false
              * count : 16
@@ -120,12 +127,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         7 => [
             /**
              * table_name : Olympus::prms
-             * line : 262343
+             * line : 181319
              * type : string
              * writable : false
              * count : 24
@@ -133,6 +141,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Olympus::prms.Olympus:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

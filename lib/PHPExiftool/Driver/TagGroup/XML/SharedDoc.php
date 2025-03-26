@@ -28,13 +28,14 @@ class SharedDoc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shared Doc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249257
+             * line : 171857
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharedDoc extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:SharedDoc',
             'desc' => [
+                'en' => 'Shared Doc',
             ],
         ],
     ];

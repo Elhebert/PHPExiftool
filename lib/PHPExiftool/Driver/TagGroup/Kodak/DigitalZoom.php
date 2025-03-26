@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158309
+             * line : 108874
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type5
-             * line : 160271
+             * line : 109674
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Kodak::Type5.Kodak:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::Type6
-             * line : 160458
+             * line : 109735
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Kodak::Type6.Kodak:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

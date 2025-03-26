@@ -28,13 +28,14 @@ class Rightsholder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rightsholder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167457
+             * line : 114072
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Rightsholder extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Rightsholder',
             'desc' => [
+                'en' => 'Rightsholder',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169926
+             * line : 116262
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Rightsholder extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Rightsholder',
             'desc' => [
+                'en' => 'Rightsholder',
             ],
         ],
     ];

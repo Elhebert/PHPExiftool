@@ -28,13 +28,14 @@ class AestheticValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aesthetic Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167731
+             * line : 114308
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AestheticValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AestheticValue',
             'desc' => [
+                'en' => 'Aesthetic Value',
             ],
         ],
     ];

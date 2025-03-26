@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Main
-             * line : 395023
+             * line : 279822
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Torrent::Main.Torrent:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

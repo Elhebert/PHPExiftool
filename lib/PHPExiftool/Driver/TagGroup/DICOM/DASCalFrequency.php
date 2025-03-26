@@ -28,13 +28,14 @@ class DASCalFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Cal Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100472
+             * line : 73644
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASCalFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASCalFrequency',
             'desc' => [
+                'en' => 'DAS Cal Frequency',
             ],
         ],
     ];

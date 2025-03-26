@@ -28,13 +28,14 @@ class ChartMagVar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Mag Var',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139265
+             * line : 97511
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartMagVar extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartMagVar',
             'desc' => [
+                'en' => 'Chart Mag Var',
             ],
         ],
     ];

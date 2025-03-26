@@ -28,13 +28,14 @@ class BlackMaskBottomBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Mask Bottom Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::SensorInfo
-             * line : 70113
+             * line : 52625
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackMaskBottomBorder extends AbstractTagGroup
              */
             'id' => 'Canon::SensorInfo.Canon:BlackMaskBottomBorder',
             'desc' => [
+                'en' => 'Black Mask Bottom Border',
             ],
         ],
     ];

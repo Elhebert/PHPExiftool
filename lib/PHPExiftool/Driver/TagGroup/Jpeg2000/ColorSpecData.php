@@ -28,13 +28,14 @@ class ColorSpecData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Spec Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ColorSpec
-             * line : 153819
+             * line : 105645
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpecData extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecData',
             'desc' => [
+                'en' => 'Color Spec Data',
             ],
         ],
     ];

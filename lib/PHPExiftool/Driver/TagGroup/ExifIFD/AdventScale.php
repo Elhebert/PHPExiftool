@@ -28,13 +28,14 @@ class AdventScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advent Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113116
+             * line : 82323
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdventScale extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AdventScale',
             'desc' => [
+                'en' => 'Advent Scale',
             ],
         ],
     ];

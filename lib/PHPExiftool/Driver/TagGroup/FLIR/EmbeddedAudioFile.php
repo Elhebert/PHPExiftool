@@ -28,13 +28,14 @@ class EmbeddedAudioFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Audio File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FFF
-             * line : 122432
+             * line : 85749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedAudioFile extends AbstractTagGroup
              */
             'id' => 'FLIR::FFF.FLIR:EmbeddedAudioFile',
             'desc' => [
+                'en' => 'Embedded Audio File',
             ],
         ],
     ];

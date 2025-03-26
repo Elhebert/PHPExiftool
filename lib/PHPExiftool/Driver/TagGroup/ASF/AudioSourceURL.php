@@ -28,13 +28,14 @@ class AudioSourceURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Source URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1050
+             * line : 415
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSourceURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:AudioSourceURL',
             'desc' => [
+                'en' => 'Audio Source URL',
             ],
         ],
     ];

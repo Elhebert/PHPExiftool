@@ -28,13 +28,14 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300767
+             * line : 209652
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::WBLevels
-             * line : 303068
+             * line : 210715
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
     ];

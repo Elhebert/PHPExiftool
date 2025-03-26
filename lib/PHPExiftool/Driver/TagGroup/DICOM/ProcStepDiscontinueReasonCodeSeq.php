@@ -28,13 +28,14 @@ class ProcStepDiscontinueReasonCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proc Step Discontinue Reason Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99696
+             * line : 72903
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcStepDiscontinueReasonCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProcStepDiscontinueReasonCodeSeq',
             'desc' => [
+                'en' => 'Proc Step Discontinue Reason Code Seq',
             ],
         ],
     ];

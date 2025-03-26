@@ -28,13 +28,14 @@ class TemporalPositionIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temporal Position Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98063
+             * line : 71410
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemporalPositionIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemporalPositionIndex',
             'desc' => [
+                'en' => 'Temporal Position Index',
             ],
         ],
     ];

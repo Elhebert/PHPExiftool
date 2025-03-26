@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162962
+             * line : 111284
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

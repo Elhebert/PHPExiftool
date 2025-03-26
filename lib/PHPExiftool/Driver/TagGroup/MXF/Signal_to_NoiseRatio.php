@@ -28,13 +28,14 @@ class Signal_to_NoiseRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signal-to-Noise Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168021
+             * line : 114527
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Signal_to_NoiseRatio extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Signal-to-NoiseRatio',
             'desc' => [
+                'en' => 'Signal-to-Noise Ratio',
             ],
         ],
     ];

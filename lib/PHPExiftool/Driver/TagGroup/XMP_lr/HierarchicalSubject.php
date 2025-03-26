@@ -28,13 +28,14 @@ class HierarchicalSubject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hierarchical Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Lightroom
-             * line : 397377
+             * line : 281409
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HierarchicalSubject extends AbstractTagGroup
              */
             'id' => 'XMP::Lightroom.XMP-lr:HierarchicalSubject',
             'desc' => [
+                'en' => 'Hierarchical Subject',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SonyExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379128
+             * line : 265952
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyExposureTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:SonyExposureTime',
             'desc' => [
+                'en' => 'Sony Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381350
+             * line : 268136
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SonyExposureTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:SonyExposureTime',
             'desc' => [
+                'en' => 'Sony Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383765
+             * line : 270518
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SonyExposureTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:SonyExposureTime',
             'desc' => [
+                'en' => 'Sony Exposure Time',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383848
+             * line : 270601
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class SonyExposureTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:SonyExposureTime',
             'desc' => [
+                'en' => 'Sony Exposure Time',
             ],
         ],
     ];

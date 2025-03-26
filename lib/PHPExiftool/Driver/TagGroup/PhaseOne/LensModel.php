@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303546
+             * line : 210885
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExtendedTrackTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Track Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147110
+             * line : 102144
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtendedTrackTitle extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:ExtendedTrackTitle',
             'desc' => [
+                'en' => 'Extended Track Title',
             ],
         ],
     ];

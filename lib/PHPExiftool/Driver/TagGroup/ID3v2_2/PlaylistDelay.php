@@ -28,13 +28,14 @@ class PlaylistDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Playlist Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148280
+             * line : 103011
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaylistDelay extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:PlaylistDelay',
             'desc' => [
+                'en' => 'Playlist Delay',
             ],
         ],
     ];

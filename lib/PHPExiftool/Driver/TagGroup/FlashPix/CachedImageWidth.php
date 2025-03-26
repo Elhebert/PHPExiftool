@@ -28,13 +28,14 @@ class CachedImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cached Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124394
+             * line : 86918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CachedImageWidth extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:CachedImageWidth',
             'desc' => [
+                'en' => 'Cached Image Width',
             ],
         ],
     ];

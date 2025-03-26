@@ -28,13 +28,14 @@ class DefringePurpleHueHi extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Defringe Purple Hue Hi',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402246
+             * line : 285399
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefringePurpleHueHi extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:DefringePurpleHueHi',
             'desc' => [
+                'en' => 'Defringe Purple Hue Hi',
             ],
         ],
     ];

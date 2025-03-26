@@ -28,13 +28,14 @@ class DynamicRangeOptimizerLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347264
+             * line : 243227
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DynamicRangeOptimizerLevel extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:DynamicRangeOptimizerLevel',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Level',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348832
+             * line : 243934
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DynamicRangeOptimizerLevel extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:DynamicRangeOptimizerLevel',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Level',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350298
+             * line : 244596
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class DynamicRangeOptimizerLevel extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:DynamicRangeOptimizerLevel',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Level',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353414
+             * line : 246625
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class DynamicRangeOptimizerLevel extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerLevel',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Level',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360167
+             * line : 251056
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class DynamicRangeOptimizerLevel extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:DynamicRangeOptimizerLevel',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Level',
             ],
         ],
     ];

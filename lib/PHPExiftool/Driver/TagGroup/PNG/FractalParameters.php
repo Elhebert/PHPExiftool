@@ -28,13 +28,14 @@ class FractalParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fractal Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272543
+             * line : 190373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FractalParameters extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:FractalParameters',
             'desc' => [
+                'en' => 'Fractal Parameters',
             ],
         ],
     ];

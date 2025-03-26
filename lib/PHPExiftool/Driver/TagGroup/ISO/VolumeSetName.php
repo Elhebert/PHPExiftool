@@ -28,13 +28,14 @@ class VolumeSetName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Set Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152026
+             * line : 104712
              * type : string
              * writable : false
              * count : 128
@@ -42,6 +43,7 @@ class VolumeSetName extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:VolumeSetName',
             'desc' => [
+                'en' => 'Volume Set Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TCMediaInfo
-             * line : 324999
+             * line : 229464
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'QuickTime::TCMediaInfo.QuickTime:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

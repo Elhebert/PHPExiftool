@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323001
+             * line : 228432
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

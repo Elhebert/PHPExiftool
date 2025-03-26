@@ -28,13 +28,14 @@ class Computer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Computer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175622
+             * line : 120870
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Computer extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Computer',
             'desc' => [
+                'en' => 'Computer',
             ],
         ],
     ];

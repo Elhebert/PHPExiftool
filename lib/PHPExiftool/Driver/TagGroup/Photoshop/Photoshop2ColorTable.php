@@ -28,13 +28,14 @@ class Photoshop2ColorTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Photoshop 2 Color Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305378
+             * line : 212200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Photoshop2ColorTable extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:Photoshop2ColorTable',
             'desc' => [
+                'en' => 'Photoshop 2 Color Table',
             ],
         ],
     ];

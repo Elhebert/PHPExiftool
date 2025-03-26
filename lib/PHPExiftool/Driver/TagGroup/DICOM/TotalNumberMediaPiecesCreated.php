@@ -28,13 +28,14 @@ class TotalNumberMediaPiecesCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Number Media Pieces Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102353
+             * line : 75453
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalNumberMediaPiecesCreated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalNumberMediaPiecesCreated',
             'desc' => [
+                'en' => 'Total Number Media Pieces Created',
             ],
         ],
     ];

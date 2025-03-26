@@ -28,13 +28,14 @@ class GroupAreaC1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Group Area C1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247691
+             * line : 170384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GroupAreaC1 extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:GroupAreaC1',
             'desc' => [
+                'en' => 'Group Area C1',
             ],
         ],
     ];

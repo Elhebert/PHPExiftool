@@ -28,13 +28,14 @@ class StarlightView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Starlight View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242561
+             * line : 165632
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StarlightView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:StarlightView',
             'desc' => [
+                'en' => 'Starlight View',
             ],
         ],
     ];

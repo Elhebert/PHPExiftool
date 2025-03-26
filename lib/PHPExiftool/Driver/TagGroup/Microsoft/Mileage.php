@@ -28,13 +28,14 @@ class Mileage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mileage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176666
+             * line : 121518
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Mileage extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Mileage',
             'desc' => [
+                'en' => 'Mileage',
             ],
         ],
     ];

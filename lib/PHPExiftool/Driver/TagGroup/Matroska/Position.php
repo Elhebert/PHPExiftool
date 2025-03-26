@@ -28,13 +28,14 @@ class Position extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173277
+             * line : 119273
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Position extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:Position',
             'desc' => [
+                'en' => 'Position',
             ],
         ],
     ];

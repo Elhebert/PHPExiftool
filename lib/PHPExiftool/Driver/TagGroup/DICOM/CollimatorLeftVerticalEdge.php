@@ -28,13 +28,14 @@ class CollimatorLeftVerticalEdge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collimator Left Vertical Edge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96098
+             * line : 69517
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollimatorLeftVerticalEdge extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollimatorLeftVerticalEdge',
             'desc' => [
+                'en' => 'Collimator Left Vertical Edge',
             ],
         ],
     ];

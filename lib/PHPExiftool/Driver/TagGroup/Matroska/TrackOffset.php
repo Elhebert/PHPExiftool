@@ -28,13 +28,14 @@ class TrackOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173644
+             * line : 119568
              * type : signed
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackOffset extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackOffset',
             'desc' => [
+                'en' => 'Track Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FrameCenterLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Center Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168299
+             * line : 114794
              * type : double
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FrameCenterLongitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterLongitude',
             'desc' => [
+                'en' => 'Frame Center Longitude',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168302
+             * line : 114797
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FrameCenterLongitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterLongitude',
             'desc' => [
+                'en' => 'Frame Center Longitude',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 170381
+             * line : 116640
              * type : double
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FrameCenterLongitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterLongitude',
             'desc' => [
+                'en' => 'Frame Center Longitude',
             ],
         ],
     ];

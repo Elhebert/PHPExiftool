@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331651
+             * line : 233100
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

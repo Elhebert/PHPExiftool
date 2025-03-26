@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263567
+             * line : 182345
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

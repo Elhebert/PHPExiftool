@@ -28,13 +28,14 @@ class H2ResetBlackPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'H2 Reset Black Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157296
+             * line : 108488
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class H2ResetBlackPixels extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:H2ResetBlackPixels',
             'desc' => [
+                'en' => 'H2 Reset Black Pixels',
             ],
         ],
     ];

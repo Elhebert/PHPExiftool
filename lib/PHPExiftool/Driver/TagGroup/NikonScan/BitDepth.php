@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205229
+             * line : 137949
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

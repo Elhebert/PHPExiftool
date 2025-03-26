@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254439
+             * line : 175736
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::prms
-             * line : 263251
+             * line : 182212
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Olympus::prms.Olympus:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

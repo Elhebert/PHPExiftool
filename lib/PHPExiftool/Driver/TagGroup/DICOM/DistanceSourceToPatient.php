@@ -28,13 +28,14 @@ class DistanceSourceToPatient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Source To Patient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95775
+             * line : 69223
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceSourceToPatient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceSourceToPatient',
             'desc' => [
+                'en' => 'Distance Source To Patient',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361450
+             * line : 251773
              * type : int8u
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

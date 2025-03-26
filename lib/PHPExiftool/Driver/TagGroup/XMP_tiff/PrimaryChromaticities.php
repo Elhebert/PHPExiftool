@@ -28,13 +28,14 @@ class PrimaryChromaticities extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Primary Chromaticities',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412220
+             * line : 290808
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrimaryChromaticities extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:PrimaryChromaticities',
             'desc' => [
+                'en' => 'Primary Chromaticities',
             ],
         ],
     ];

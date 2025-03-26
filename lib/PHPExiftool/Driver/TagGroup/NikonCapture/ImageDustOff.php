@@ -28,13 +28,14 @@ class ImageDustOff extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Dust Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210924
+             * line : 141888
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageDustOff extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:ImageDustOff',
             'desc' => [
+                'en' => 'Image Dust Off',
             ],
         ],
     ];

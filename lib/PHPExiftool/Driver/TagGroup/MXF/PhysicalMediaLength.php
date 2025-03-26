@@ -28,13 +28,14 @@ class PhysicalMediaLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Media Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168083
+             * line : 114584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalMediaLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PhysicalMediaLength',
             'desc' => [
+                'en' => 'Physical Media Length',
             ],
         ],
     ];

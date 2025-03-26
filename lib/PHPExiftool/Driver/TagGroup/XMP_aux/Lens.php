@@ -28,13 +28,14 @@ class Lens extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397969
+             * line : 281681
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Lens extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:Lens',
             'desc' => [
+                'en' => 'Lens',
             ],
         ],
     ];

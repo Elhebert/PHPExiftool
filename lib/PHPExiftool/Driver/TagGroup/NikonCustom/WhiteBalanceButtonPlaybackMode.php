@@ -28,13 +28,14 @@ class WhiteBalanceButtonPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Button Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 241596
+             * line : 164672
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceButtonPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:WhiteBalanceButtonPlaybackMode',
             'desc' => [
+                'en' => 'White Balance Button Playback Mode',
             ],
         ],
     ];

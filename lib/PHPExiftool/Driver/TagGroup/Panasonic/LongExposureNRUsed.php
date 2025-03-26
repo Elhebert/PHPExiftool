@@ -28,13 +28,14 @@ class LongExposureNRUsed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Long Exposure NR Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278021
+             * line : 193400
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LongExposureNRUsed extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:LongExposureNRUsed',
             'desc' => [
+                'en' => 'Long Exposure NR Used',
             ],
         ],
     ];

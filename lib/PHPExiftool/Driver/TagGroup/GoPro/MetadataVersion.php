@@ -28,13 +28,14 @@ class MetadataVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139824
+             * line : 97779
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataVersion extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:MetadataVersion',
             'desc' => [
+                'en' => 'Metadata Version',
             ],
         ],
     ];

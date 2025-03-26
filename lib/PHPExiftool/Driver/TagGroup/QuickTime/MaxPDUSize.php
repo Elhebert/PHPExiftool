@@ -28,13 +28,14 @@ class MaxPDUSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max PDU Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintHeader
-             * line : 313712
+             * line : 219456
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxPDUSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintHeader.QuickTime:MaxPDUSize',
             'desc' => [
+                'en' => 'Max PDU Size',
             ],
         ],
     ];

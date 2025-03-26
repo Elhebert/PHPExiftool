@@ -28,13 +28,14 @@ class CropXSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crop X Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394613
+             * line : 279549
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CropXSize extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:CropXSize',
             'desc' => [
+                'en' => 'Crop X Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405a
-             * line : 387563
+             * line : 273673
              * type : int16s
              * writable : true
              * count : 32
@@ -42,12 +43,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405a.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390230
+             * line : 275993
              * type : int16s
              * writable : true
              * count : 32
@@ -55,12 +57,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390234
+             * line : 275996
              * type : int16s
              * writable : true
              * count : 32
@@ -68,12 +71,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390238
+             * line : 275999
              * type : int16s
              * writable : true
              * count : 32
@@ -81,12 +85,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390242
+             * line : 276002
              * type : int16s
              * writable : true
              * count : 32
@@ -94,12 +99,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390246
+             * line : 276005
              * type : int16s
              * writable : true
              * count : 32
@@ -107,12 +113,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393389
+             * line : 278940
              * type : int16s
              * writable : false
              * count : 32
@@ -120,12 +127,13 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393393
+             * line : 278943
              * type : int16s
              * writable : false
              * count : 32
@@ -133,6 +141,7 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
     ];

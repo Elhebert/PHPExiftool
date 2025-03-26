@@ -28,13 +28,14 @@ class PrintIM extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Print Image Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::EPPIM
-             * line : 152435
+             * line : 104912
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrintIM extends AbstractTagGroup
              */
             'id' => 'JPEG::EPPIM.EPPIM:PrintIM',
             'desc' => [
+                'en' => 'Print Image Matching',
             ],
         ],
     ];

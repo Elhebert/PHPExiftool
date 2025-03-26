@@ -28,13 +28,14 @@ class OutCueScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Out Cue Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413209
+             * line : 291336
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutCueScale extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:OutCueScale',
             'desc' => [
+                'en' => 'Out Cue Scale',
             ],
         ],
     ];

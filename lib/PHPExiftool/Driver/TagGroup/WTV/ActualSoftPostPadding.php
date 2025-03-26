@@ -28,13 +28,14 @@ class ActualSoftPostPadding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Soft Post Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396258
+             * line : 280536
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualSoftPostPadding extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ActualSoftPostPadding',
             'desc' => [
+                'en' => 'Actual Soft Post Padding',
             ],
         ],
     ];

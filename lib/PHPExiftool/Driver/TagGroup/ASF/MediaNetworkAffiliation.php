@@ -28,13 +28,14 @@ class MediaNetworkAffiliation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Network Affiliation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1403
+             * line : 649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaNetworkAffiliation extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaNetworkAffiliation',
             'desc' => [
+                'en' => 'Media Network Affiliation',
             ],
         ],
     ];

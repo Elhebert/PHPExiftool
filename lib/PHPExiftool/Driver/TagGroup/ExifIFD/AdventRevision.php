@@ -28,13 +28,14 @@ class AdventRevision extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advent Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113121
+             * line : 82326
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdventRevision extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AdventRevision',
             'desc' => [
+                'en' => 'Advent Revision',
             ],
         ],
     ];

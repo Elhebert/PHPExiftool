@@ -28,13 +28,14 @@ class UnusedBlackRowsBottomOut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unused Black Rows Bottom Out',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156074
+             * line : 107285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnusedBlackRowsBottomOut extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UnusedBlackRowsBottomOut',
             'desc' => [
+                'en' => 'Unused Black Rows Bottom Out',
             ],
         ],
     ];

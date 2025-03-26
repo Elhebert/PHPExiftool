@@ -28,13 +28,14 @@ class PaintRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264764
+             * line : 182996
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintRect',
             'desc' => [
+                'en' => 'Paint Rect',
             ],
         ],
     ];

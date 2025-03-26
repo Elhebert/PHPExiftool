@@ -28,13 +28,14 @@ class FlyingState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flying State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282175
+             * line : 195970
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FlyingState extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:FlyingState',
             'desc' => [
+                'en' => 'Flying State',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282358
+             * line : 196065
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FlyingState extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:FlyingState',
             'desc' => [
+                'en' => 'Flying State',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282602
+             * line : 196202
              * type : int8u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FlyingState extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:FlyingState',
             'desc' => [
+                'en' => 'Flying State',
             ],
         ],
     ];

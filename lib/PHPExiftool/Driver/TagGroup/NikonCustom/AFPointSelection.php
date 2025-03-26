@@ -28,13 +28,14 @@ class AFPointSelection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211838
+             * line : 142380
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AFPointSelection',
             'desc' => [
+                'en' => 'AF Point Selection',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214487
+             * line : 144010
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AFPointSelection',
             'desc' => [
+                'en' => 'AF Point Selection',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224447
+             * line : 151369
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFPointSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AFPointSelection',
             'desc' => [
+                'en' => 'AF Point Selection',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229477
+             * line : 154287
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFPointSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AFPointSelection',
             'desc' => [
+                'en' => 'AF Point Selection',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231605
+             * line : 155815
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class AFPointSelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AFPointSelection',
             'desc' => [
+                'en' => 'AF Point Selection',
             ],
         ],
     ];

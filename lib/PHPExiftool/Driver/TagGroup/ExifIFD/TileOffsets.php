@@ -28,13 +28,14 @@ class TileOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tile Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111558
+             * line : 81688
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TileOffsets extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TileOffsets',
             'desc' => [
+                'en' => 'Tile Offsets',
             ],
         ],
     ];

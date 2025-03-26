@@ -28,13 +28,14 @@ class MaskGroupBasedCorrLuminanceNoise extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Luminance Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403352
+             * line : 286488
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrLuminanceNoise extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrLuminanceNoise',
             'desc' => [
+                'en' => 'Mask Group Based Corr Luminance Noise',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShadowEndPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shadow End Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161939
+             * line : 110641
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShadowEndPoints extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:ShadowEndPoints',
             'desc' => [
+                'en' => 'Shadow End Points',
             ],
         ],
     ];

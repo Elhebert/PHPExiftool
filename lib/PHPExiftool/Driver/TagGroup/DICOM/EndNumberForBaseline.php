@@ -28,13 +28,14 @@ class EndNumberForBaseline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Number For Baseline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97422
+             * line : 70810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndNumberForBaseline extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EndNumberForBaseline',
             'desc' => [
+                'en' => 'End Number For Baseline',
             ],
         ],
     ];

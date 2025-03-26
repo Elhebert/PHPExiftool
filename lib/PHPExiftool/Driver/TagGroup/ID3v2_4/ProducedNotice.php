@@ -28,13 +28,14 @@ class ProducedNotice extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Produced Notice',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149564
+             * line : 103687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProducedNotice extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:ProducedNotice',
             'desc' => [
+                'en' => 'Produced Notice',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawBurstImageCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Burst Image Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::RawBurstInfo
-             * line : 70048
+             * line : 52591
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawBurstImageCount extends AbstractTagGroup
              */
             'id' => 'Canon::RawBurstInfo.Canon:RawBurstImageCount',
             'desc' => [
+                'en' => 'Raw Burst Image Count',
             ],
         ],
     ];

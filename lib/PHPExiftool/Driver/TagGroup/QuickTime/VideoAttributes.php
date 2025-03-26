@@ -28,13 +28,14 @@ class VideoAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoProf
-             * line : 326251
+             * line : 230165
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoAttributes extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoProf.QuickTime:VideoAttributes',
             'desc' => [
+                'en' => 'Video Attributes',
             ],
         ],
     ];

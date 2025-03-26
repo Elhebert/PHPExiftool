@@ -28,13 +28,14 @@ class ColorSpaceData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Space Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 144119
+             * line : 99747
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ColorSpaceData extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:ColorSpaceData',
             'desc' => [
+                'en' => 'Color Space Data',
             ],
         ],
     ];

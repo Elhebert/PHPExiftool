@@ -28,13 +28,14 @@ class VariProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vari Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199437
+             * line : 134577
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VariProgram extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:VariProgram',
             'desc' => [
+                'en' => 'Vari Program',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203501
+             * line : 137289
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class VariProgram extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:VariProgram',
             'desc' => [
+                'en' => 'Vari Program',
             ],
         ],
     ];

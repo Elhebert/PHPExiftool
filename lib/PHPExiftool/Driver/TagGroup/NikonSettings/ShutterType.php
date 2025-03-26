@@ -28,13 +28,14 @@ class ShutterType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248480
+             * line : 171168
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterType extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ShutterType',
             'desc' => [
+                'en' => 'Shutter Type',
             ],
         ],
     ];

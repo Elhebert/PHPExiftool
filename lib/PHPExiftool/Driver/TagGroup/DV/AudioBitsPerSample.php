@@ -28,13 +28,14 @@ class AudioBitsPerSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bits Per Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 105946
+             * line : 78403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitsPerSample extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:AudioBitsPerSample',
             'desc' => [
+                'en' => 'Audio Bits Per Sample',
             ],
         ],
     ];

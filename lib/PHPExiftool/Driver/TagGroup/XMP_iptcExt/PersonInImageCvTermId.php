@@ -28,13 +28,14 @@ class PersonInImageCvTermId extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Person In Image Cv Term Id',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409564
+             * line : 289336
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PersonInImageCvTermId extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:PersonInImageCvTermId',
             'desc' => [
+                'en' => 'Person In Image Cv Term Id',
             ],
         ],
     ];

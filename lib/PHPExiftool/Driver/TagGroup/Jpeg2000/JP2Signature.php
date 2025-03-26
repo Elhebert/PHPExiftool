@@ -28,13 +28,14 @@ class JP2Signature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JP2 Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154225
+             * line : 105897
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class JP2Signature extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:JP2Signature',
             'desc' => [
+                'en' => 'JP2 Signature',
             ],
         ],
         1 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154229
+             * line : 105900
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class JP2Signature extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:JP2Signature',
             'desc' => [
+                'en' => 'JP2 Signature',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LineNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Line Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171191
+             * line : 117408
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LineNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LineNumber',
             'desc' => [
+                'en' => 'Line Number',
             ],
         ],
     ];

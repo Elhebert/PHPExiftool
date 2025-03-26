@@ -28,13 +28,14 @@ class ColorMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255300
+             * line : 176197
              * type : int16u
              * writable : true
              * count : 9
@@ -42,12 +43,13 @@ class ColorMatrix extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:ColorMatrix',
             'desc' => [
+                'en' => 'Color Matrix',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258690
+             * line : 178621
              * type : int16u
              * writable : true
              * count : 9
@@ -55,6 +57,7 @@ class ColorMatrix extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ColorMatrix',
             'desc' => [
+                'en' => 'Color Matrix',
             ],
         ],
     ];

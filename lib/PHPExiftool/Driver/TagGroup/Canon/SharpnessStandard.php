@@ -28,13 +28,14 @@ class SharpnessStandard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34480
+             * line : 26495
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessStandard extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessStandard',
             'desc' => [
+                'en' => 'Sharpness Standard',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67067
+             * line : 50905
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessStandard',
             'desc' => [
+                'en' => 'Sharpness Standard',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68165
+             * line : 51566
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessStandard',
             'desc' => [
+                'en' => 'Sharpness Standard',
             ],
         ],
     ];

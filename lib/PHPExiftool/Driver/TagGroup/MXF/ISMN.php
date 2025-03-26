@@ -28,13 +28,14 @@ class ISMN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISMN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167275
+             * line : 113907
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISMN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISMN',
             'desc' => [
+                'en' => 'ISMN',
             ],
         ],
     ];

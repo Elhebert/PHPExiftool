@@ -28,13 +28,14 @@ class NumberOfFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98666
+             * line : 71950
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFrames extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFrames',
             'desc' => [
+                'en' => 'Number Of Frames',
             ],
         ],
     ];

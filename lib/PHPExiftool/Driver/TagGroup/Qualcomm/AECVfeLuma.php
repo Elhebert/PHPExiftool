@@ -28,13 +28,14 @@ class AECVfeLuma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Vfe Luma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306215
+             * line : 212720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECVfeLuma extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECVfeLuma',
             'desc' => [
+                'en' => 'AEC Vfe Luma',
             ],
         ],
     ];

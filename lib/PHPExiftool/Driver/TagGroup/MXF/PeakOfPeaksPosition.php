@@ -28,13 +28,14 @@ class PeakOfPeaksPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Of Peaks Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171935
+             * line : 118120
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakOfPeaksPosition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PeakOfPeaksPosition',
             'desc' => [
+                'en' => 'Peak Of Peaks Position',
             ],
         ],
     ];

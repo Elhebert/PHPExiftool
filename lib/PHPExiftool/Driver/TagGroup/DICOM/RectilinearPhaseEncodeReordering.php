@@ -28,13 +28,14 @@ class RectilinearPhaseEncodeReordering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rectilinear Phase Encode Reordering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96593
+             * line : 69997
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RectilinearPhaseEncodeReordering extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RectilinearPhaseEncodeReordering',
             'desc' => [
+                'en' => 'Rectilinear Phase Encode Reordering',
             ],
         ],
     ];

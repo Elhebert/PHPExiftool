@@ -28,13 +28,14 @@ class FixedChannelStatusData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixed Channel Status Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171329
+             * line : 117532
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixedChannelStatusData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FixedChannelStatusData',
             'desc' => [
+                'en' => 'Fixed Channel Status Data',
             ],
         ],
     ];

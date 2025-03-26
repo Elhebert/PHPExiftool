@@ -28,13 +28,14 @@ class CompressedImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compressed Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 182775
+             * line : 124296
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressedImageSize extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:CompressedImageSize',
             'desc' => [
+                'en' => 'Compressed Image Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MacAtomApplicationCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mac Atom Application Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401474
+             * line : 284737
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacAtomApplicationCode extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:MacAtomApplicationCode',
             'desc' => [
+                'en' => 'Mac Atom Application Code',
             ],
         ],
     ];

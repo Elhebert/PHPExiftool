@@ -28,13 +28,14 @@ class LogLinTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Log Lin Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155310
+             * line : 106526
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LogLinTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LogLinTable',
             'desc' => [
+                'en' => 'Log Lin Table',
             ],
         ],
     ];

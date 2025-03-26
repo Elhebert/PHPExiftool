@@ -28,13 +28,14 @@ class DisplaySetHorizontalJustification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Set Horizontal Justification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101718
+             * line : 74859
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplaySetHorizontalJustification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplaySetHorizontalJustification',
             'desc' => [
+                'en' => 'Display Set Horizontal Justification',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EchoNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Echo Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95537
+             * line : 68992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EchoNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EchoNumber',
             'desc' => [
+                'en' => 'Echo Number',
             ],
         ],
     ];

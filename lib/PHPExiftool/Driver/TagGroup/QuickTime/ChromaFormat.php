@@ -28,13 +28,14 @@ class ChromaFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chroma Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310310
+             * line : 216222
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ChromaFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:ChromaFormat',
             'desc' => [
+                'en' => 'Chroma Format',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313486
+             * line : 219231
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ChromaFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:ChromaFormat',
             'desc' => [
+                'en' => 'Chroma Format',
             ],
         ],
     ];

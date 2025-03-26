@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 336063
+             * line : 235628
              * type : undef
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
         1 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 336080
+             * line : 235631
              * type : undef
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

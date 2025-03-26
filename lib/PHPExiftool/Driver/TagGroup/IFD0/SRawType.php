@@ -28,13 +28,14 @@ class SRawType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SRaw Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120042
+             * line : 84405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SRawType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:SRawType',
             'desc' => [
+                'en' => 'SRaw Type',
             ],
         ],
     ];

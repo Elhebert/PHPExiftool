@@ -28,13 +28,14 @@ class RelatedTo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related To',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395479
+             * line : 280041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelatedTo extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:RelatedTo',
             'desc' => [
+                'en' => 'Related To',
             ],
         ],
     ];

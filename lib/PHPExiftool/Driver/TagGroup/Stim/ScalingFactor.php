@@ -28,13 +28,14 @@ class ScalingFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scaling Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394609
+             * line : 279546
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScalingFactor extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ScalingFactor',
             'desc' => [
+                'en' => 'Scaling Factor',
             ],
         ],
     ];

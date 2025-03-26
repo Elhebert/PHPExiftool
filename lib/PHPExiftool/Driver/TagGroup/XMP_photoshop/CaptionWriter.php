@@ -28,13 +28,14 @@ class CaptionWriter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Caption Writer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410107
+             * line : 289732
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptionWriter extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:CaptionWriter',
             'desc' => [
+                'en' => 'Caption Writer',
             ],
         ],
     ];

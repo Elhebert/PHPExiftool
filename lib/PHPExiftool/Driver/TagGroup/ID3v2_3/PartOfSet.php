@@ -28,13 +28,14 @@ class PartOfSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Part Of Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148973
+             * line : 103361
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartOfSet extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:PartOfSet',
             'desc' => [
+                'en' => 'Part Of Set',
             ],
         ],
     ];

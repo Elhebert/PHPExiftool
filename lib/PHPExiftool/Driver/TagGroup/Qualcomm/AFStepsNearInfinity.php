@@ -28,13 +28,14 @@ class AFStepsNearInfinity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Steps Near Infinity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306273
+             * line : 212771
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFStepsNearInfinity extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFStepsNearInfinity',
             'desc' => [
+                'en' => 'AF Steps Near Infinity',
             ],
         ],
     ];

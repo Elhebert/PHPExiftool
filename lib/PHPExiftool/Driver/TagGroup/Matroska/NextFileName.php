@@ -28,13 +28,14 @@ class NextFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Next File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 174019
+             * line : 119860
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NextFileName extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:NextFileName',
             'desc' => [
+                'en' => 'Next File Name',
             ],
         ],
     ];

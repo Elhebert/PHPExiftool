@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::MOV
-             * line : 294728
+             * line : 205970
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::MOV.Pentax:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 297102
+             * line : 207468
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Main
-             * line : 300628
+             * line : 209581
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301058
+             * line : 209740
              * type : int32u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         4 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302925
+             * line : 210637
              * type : int16u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

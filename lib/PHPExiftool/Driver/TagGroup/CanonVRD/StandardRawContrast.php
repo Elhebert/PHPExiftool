@@ -28,13 +28,14 @@ class StandardRawContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard Raw Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82759
+             * line : 60601
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StandardRawContrast extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:StandardRawContrast',
             'desc' => [
+                'en' => 'Standard Raw Contrast',
             ],
         ],
     ];

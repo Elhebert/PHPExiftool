@@ -28,13 +28,14 @@ class ProposedStudySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proposed Study Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102317
+             * line : 75417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProposedStudySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProposedStudySequence',
             'desc' => [
+                'en' => 'Proposed Study Sequence',
             ],
         ],
     ];

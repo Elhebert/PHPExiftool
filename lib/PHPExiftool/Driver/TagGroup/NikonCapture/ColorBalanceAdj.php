@@ -28,13 +28,14 @@ class ColorBalanceAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Balance Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210661
+             * line : 141780
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorBalanceAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:ColorBalanceAdj',
             'desc' => [
+                'en' => 'Color Balance Adj',
             ],
         ],
     ];

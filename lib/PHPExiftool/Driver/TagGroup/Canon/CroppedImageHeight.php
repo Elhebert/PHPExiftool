@@ -28,13 +28,14 @@ class CroppedImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cropped Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AspectInfo
-             * line : 4388
+             * line : 2772
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CroppedImageHeight extends AbstractTagGroup
              */
             'id' => 'Canon::AspectInfo.Canon:CroppedImageHeight',
             'desc' => [
+                'en' => 'Cropped Image Height',
             ],
         ],
     ];

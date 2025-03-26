@@ -28,13 +28,14 @@ class InternetRadioStationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Internet Radio Station Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148996
+             * line : 103373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InternetRadioStationName extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:InternetRadioStationName',
             'desc' => [
+                'en' => 'Internet Radio Station Name',
             ],
         ],
     ];

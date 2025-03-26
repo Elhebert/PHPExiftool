@@ -28,13 +28,14 @@ class BannerImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Banner Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentBranding
-             * line : 896
+             * line : 339
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BannerImageType extends AbstractTagGroup
              */
             'id' => 'ASF::ContentBranding.ASF:BannerImageType',
             'desc' => [
+                'en' => 'Banner Image Type',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1083
+             * line : 430
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BannerImageType extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:BannerImageType',
             'desc' => [
+                'en' => 'Banner Image Type',
             ],
         ],
     ];

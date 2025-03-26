@@ -28,13 +28,14 @@ class CaptureXResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::CaptureResolution
-             * line : 153564
+             * line : 105466
              * type : rational32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureXResolution extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::CaptureResolution.Jpeg2000:CaptureXResolution',
             'desc' => [
+                'en' => 'Capture X Resolution',
             ],
         ],
     ];

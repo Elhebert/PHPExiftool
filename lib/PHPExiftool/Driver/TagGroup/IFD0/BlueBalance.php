@@ -28,13 +28,14 @@ class BlueBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blue Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280393
+             * line : 194595
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlueBalance extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:BlueBalance',
             'desc' => [
+                'en' => 'Blue Balance',
             ],
         ],
     ];

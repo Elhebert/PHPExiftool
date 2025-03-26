@@ -28,13 +28,14 @@ class RicohRDC2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ricoh RDC2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::AVI
-             * line : 331795
+             * line : 233142
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RicohRDC2 extends AbstractTagGroup
              */
             'id' => 'Ricoh::AVI.Ricoh:RicohRDC2',
             'desc' => [
+                'en' => 'Ricoh RDC2',
             ],
         ],
     ];

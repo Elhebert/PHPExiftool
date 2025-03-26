@@ -28,13 +28,14 @@ class MRTimingAndRelatedParametersSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Timing And Related Parameters Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96772
+             * line : 70174
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRTimingAndRelatedParametersSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRTimingAndRelatedParametersSeq',
             'desc' => [
+                'en' => 'MR Timing And Related Parameters Seq',
             ],
         ],
     ];

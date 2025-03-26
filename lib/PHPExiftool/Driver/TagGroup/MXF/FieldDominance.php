@@ -28,13 +28,14 @@ class FieldDominance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Dominance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169039
+             * line : 115487
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldDominance extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FieldDominance',
             'desc' => [
+                'en' => 'Field Dominance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TapeShellKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Shell Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169140
+             * line : 115582
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TapeShellKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeShellKind',
             'desc' => [
+                'en' => 'Tape Shell Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169143
+             * line : 115585
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TapeShellKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeShellKind',
             'desc' => [
+                'en' => 'Tape Shell Kind',
             ],
         ],
     ];

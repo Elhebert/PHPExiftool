@@ -28,13 +28,14 @@ class StudyInstanceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Study Instance UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97842
+             * line : 71221
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StudyInstanceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StudyInstanceUID',
             'desc' => [
+                'en' => 'Study Instance UID',
             ],
         ],
     ];

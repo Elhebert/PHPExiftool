@@ -28,13 +28,14 @@ class PictureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 295435
+             * line : 206559
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PictureMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:PictureMode',
             'desc' => [
+                'en' => 'Picture Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 298812
+             * line : 208490
              * type : int8u
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class PictureMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:PictureMode',
             'desc' => [
+                'en' => 'Picture Mode',
             ],
         ],
     ];

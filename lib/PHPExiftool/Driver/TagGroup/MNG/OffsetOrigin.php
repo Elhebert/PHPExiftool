@@ -28,13 +28,14 @@ class OffsetOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165326
+             * line : 112398
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OffsetOrigin extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:OffsetOrigin',
             'desc' => [
+                'en' => 'Offset Origin',
             ],
         ],
     ];

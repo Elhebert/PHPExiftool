@@ -28,13 +28,14 @@ class InitialHorizontalFOVDegrees extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial Horizontal FOV Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397123
+             * line : 281225
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialHorizontalFOVDegrees extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:InitialHorizontalFOVDegrees',
             'desc' => [
+                'en' => 'Initial Horizontal FOV Degrees',
             ],
         ],
     ];

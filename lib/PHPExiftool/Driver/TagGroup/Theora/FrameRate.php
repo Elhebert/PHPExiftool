@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394841
+             * line : 279720
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

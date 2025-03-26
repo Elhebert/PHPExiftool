@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MOI::Main
-             * line : 165459
+             * line : 112511
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'MOI::Main.MOI:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

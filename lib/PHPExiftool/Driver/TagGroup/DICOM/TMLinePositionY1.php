@@ -28,13 +28,14 @@ class TMLinePositionY1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TM Line Position Y1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96346
+             * line : 69754
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TMLinePositionY1 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TMLinePositionY1',
             'desc' => [
+                'en' => 'TM Line Position Y1',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DefectList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Defect List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155337
+             * line : 106550
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefectList extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DefectList',
             'desc' => [
+                'en' => 'Defect List',
             ],
         ],
     ];

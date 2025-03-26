@@ -28,13 +28,14 @@ class SceneAppearanceEstimates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Appearance Estimates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146610
+             * line : 101893
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneAppearanceEstimates extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:SceneAppearanceEstimates',
             'desc' => [
+                'en' => 'Scene Appearance Estimates',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CPUCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CPU Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::MachO
-             * line : 108166
+             * line : 79848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CPUCount extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:CPUCount',
             'desc' => [
+                'en' => 'CPU Count',
             ],
         ],
     ];

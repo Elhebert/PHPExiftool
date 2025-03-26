@@ -28,13 +28,14 @@ class TiltPerImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tilt Per Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166779
+             * line : 113514
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TiltPerImage extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:TiltPerImage',
             'desc' => [
+                'en' => 'Tilt Per Image',
             ],
         ],
     ];

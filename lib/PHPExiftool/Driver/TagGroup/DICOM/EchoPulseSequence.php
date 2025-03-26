@@ -28,13 +28,14 @@ class EchoPulseSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Echo Pulse Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96524
+             * line : 69928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EchoPulseSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EchoPulseSequence',
             'desc' => [
+                'en' => 'Echo Pulse Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProgramMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176020
+             * line : 121104
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramMode extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ProgramMode',
             'desc' => [
+                'en' => 'Program Mode',
             ],
         ],
     ];

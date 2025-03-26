@@ -28,13 +28,14 @@ class ShadingCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shading Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251744
+             * line : 173516
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadingCompensation extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ShadingCompensation',
             'desc' => [
+                'en' => 'Shading Compensation',
             ],
         ],
     ];

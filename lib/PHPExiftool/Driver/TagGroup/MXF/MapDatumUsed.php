@@ -28,13 +28,14 @@ class MapDatumUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Map Datum Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168257
+             * line : 114752
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MapDatumUsed extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MapDatumUsed',
             'desc' => [
+                'en' => 'Map Datum Used',
             ],
         ],
     ];

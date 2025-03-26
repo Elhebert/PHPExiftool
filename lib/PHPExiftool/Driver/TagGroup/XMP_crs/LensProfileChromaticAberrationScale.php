@@ -28,13 +28,14 @@ class LensProfileChromaticAberrationScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Chromatic Aberration Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402811
+             * line : 285948
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileChromaticAberrationScale extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LensProfileChromaticAberrationScale',
             'desc' => [
+                'en' => 'Lens Profile Chromatic Aberration Scale',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DurationOfXrayOn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration Of Xray On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100493
+             * line : 73665
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DurationOfXrayOn extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DurationOfXrayOn',
             'desc' => [
+                'en' => 'Duration Of Xray On',
             ],
         ],
     ];

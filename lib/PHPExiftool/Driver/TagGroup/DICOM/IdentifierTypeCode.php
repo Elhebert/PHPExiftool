@@ -28,13 +28,14 @@ class IdentifierTypeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifier Type Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99636
+             * line : 72843
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentifierTypeCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IdentifierTypeCode',
             'desc' => [
+                'en' => 'Identifier Type Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TileLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tile Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111547
+             * line : 81685
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TileLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:TileLength',
             'desc' => [
+                'en' => 'Tile Length',
             ],
         ],
     ];

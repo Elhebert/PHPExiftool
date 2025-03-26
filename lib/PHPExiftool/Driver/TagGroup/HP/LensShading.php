@@ -28,13 +28,14 @@ class LensShading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Shading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::Type2
-             * line : 142127
+             * line : 98400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensShading extends AbstractTagGroup
              */
             'id' => 'HP::Type2.HP:LensShading',
             'desc' => [
+                'en' => 'Lens Shading',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BeatRejectionFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beat Rejection Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95739
+             * line : 69187
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeatRejectionFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeatRejectionFlag',
             'desc' => [
+                'en' => 'Beat Rejection Flag',
             ],
         ],
     ];

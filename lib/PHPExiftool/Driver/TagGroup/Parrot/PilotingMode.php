@@ -28,13 +28,14 @@ class PilotingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Piloting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282201
+             * line : 195996
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PilotingMode extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:PilotingMode',
             'desc' => [
+                'en' => 'Piloting Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282393
+             * line : 196100
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class PilotingMode extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:PilotingMode',
             'desc' => [
+                'en' => 'Piloting Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282637
+             * line : 196237
              * type : int8u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class PilotingMode extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:PilotingMode',
             'desc' => [
+                'en' => 'Piloting Mode',
             ],
         ],
     ];

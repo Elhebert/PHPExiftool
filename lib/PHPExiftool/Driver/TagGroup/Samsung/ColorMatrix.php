@@ -28,13 +28,14 @@ class ColorMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335563
+             * line : 235472
              * type : int32s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class ColorMatrix extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:ColorMatrix',
             'desc' => [
+                'en' => 'Color Matrix',
             ],
         ],
     ];

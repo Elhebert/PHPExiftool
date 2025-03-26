@@ -28,13 +28,14 @@ class PerformerURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Performer URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326005
+             * line : 229958
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PerformerURL extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:PerformerURL',
             'desc' => [
+                'en' => 'Performer URL',
             ],
         ],
     ];

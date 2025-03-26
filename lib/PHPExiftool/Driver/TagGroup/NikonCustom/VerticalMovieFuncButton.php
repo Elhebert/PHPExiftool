@@ -28,13 +28,14 @@ class VerticalMovieFuncButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical Movie Func Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 241864
+             * line : 164940
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VerticalMovieFuncButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:VerticalMovieFuncButton',
             'desc' => [
+                'en' => 'Vertical Movie Func Button',
             ],
         ],
     ];

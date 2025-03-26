@@ -28,13 +28,14 @@ class CardShutterLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Card Shutter Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181734
+             * line : 123624
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CardShutterLock extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:CardShutterLock',
             'desc' => [
+                'en' => 'Card Shutter Lock',
             ],
         ],
     ];

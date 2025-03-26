@@ -28,13 +28,14 @@ class TitleLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV3
-             * line : 329657
+             * line : 232178
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitleLen extends AbstractTagGroup
              */
             'id' => 'Real::AudioV3.Real-RA3:TitleLen',
             'desc' => [
+                'en' => 'Title Len',
             ],
         ],
     ];

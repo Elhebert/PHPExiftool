@@ -28,13 +28,14 @@ class LabelName1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Label Name 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ics
-             * line : 408823
+             * line : 288755
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LabelName1 extends AbstractTagGroup
              */
             'id' => 'XMP::ics.XMP-ics:LabelName1',
             'desc' => [
+                'en' => 'Label Name 1',
             ],
         ],
     ];

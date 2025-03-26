@@ -28,13 +28,14 @@ class CaptureHeightResetBlackSegNormal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Height Reset Black Seg Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157242
+             * line : 108434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureHeightResetBlackSegNormal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureHeightResetBlackSegNormal',
             'desc' => [
+                'en' => 'Capture Height Reset Black Seg Normal',
             ],
         ],
     ];

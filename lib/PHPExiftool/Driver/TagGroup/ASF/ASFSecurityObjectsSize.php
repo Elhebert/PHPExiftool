@@ -28,13 +28,14 @@ class ASFSecurityObjectsSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF Security Objects Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1026
+             * line : 394
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASFSecurityObjectsSize extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ASFSecurityObjectsSize',
             'desc' => [
+                'en' => 'ASF Security Objects Size',
             ],
         ],
     ];

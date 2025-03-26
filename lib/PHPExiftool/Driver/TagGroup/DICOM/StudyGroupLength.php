@@ -28,13 +28,14 @@ class StudyGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Study Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99299
+             * line : 72516
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StudyGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StudyGroupLength',
             'desc' => [
+                'en' => 'Study Group Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToolVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tool Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1632
+             * line : 796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToolVersion extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ToolVersion',
             'desc' => [
+                'en' => 'Tool Version',
             ],
         ],
     ];

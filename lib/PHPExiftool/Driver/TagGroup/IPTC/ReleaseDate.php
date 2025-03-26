@@ -28,13 +28,14 @@ class ReleaseDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149958
+             * line : 103860
              * type : digits
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class ReleaseDate extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ReleaseDate',
             'desc' => [
+                'en' => 'Release Date',
             ],
         ],
     ];

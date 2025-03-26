@@ -28,13 +28,14 @@ class OffsetMapVertical extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset Map Vertical',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154913
+             * line : 106205
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OffsetMapVertical extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OffsetMapVertical',
             'desc' => [
+                'en' => 'Offset Map Vertical',
             ],
         ],
     ];

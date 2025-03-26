@@ -28,13 +28,14 @@ class TerminationCondition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Termination Condition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Loop
-             * line : 165017
+             * line : 112151
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TerminationCondition extends AbstractTagGroup
              */
             'id' => 'MNG::Loop.MNG:TerminationCondition',
             'desc' => [
+                'en' => 'Termination Condition',
             ],
         ],
     ];

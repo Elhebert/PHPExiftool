@@ -28,13 +28,14 @@ class Country extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410214
+             * line : 289770
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Country extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:Country',
             'desc' => [
+                'en' => 'Country',
             ],
         ],
     ];

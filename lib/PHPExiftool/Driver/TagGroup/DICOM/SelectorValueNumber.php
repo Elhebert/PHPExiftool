@@ -28,13 +28,14 @@ class SelectorValueNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector Value Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101459
+             * line : 74607
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorValueNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorValueNumber',
             'desc' => [
+                'en' => 'Selector Value Number',
             ],
         ],
     ];

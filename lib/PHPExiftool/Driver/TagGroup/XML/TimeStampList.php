@@ -28,13 +28,14 @@ class TimeStampList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Stamp List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LIF::Main
-             * line : 160940
+             * line : 109892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeStampList extends AbstractTagGroup
              */
             'id' => 'LIF::Main.XML:TimeStampList',
             'desc' => [
+                'en' => 'Time Stamp List',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioProf
-             * line : 310412
+             * line : 216318
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioProf.QuickTime:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::AudioSampleDesc
-             * line : 310489
+             * line : 216390
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::ChannelLayout
-             * line : 310809
+             * line : 216689
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'QuickTime::ChannelLayout.QuickTime:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
     ];

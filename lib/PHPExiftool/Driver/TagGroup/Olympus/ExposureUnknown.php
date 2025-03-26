@@ -28,13 +28,14 @@ class ExposureUnknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::MOV1
-             * line : 256530
+             * line : 177291
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureUnknown extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV1.Olympus:ExposureUnknown',
             'desc' => [
+                'en' => 'Exposure Unknown',
             ],
         ],
     ];

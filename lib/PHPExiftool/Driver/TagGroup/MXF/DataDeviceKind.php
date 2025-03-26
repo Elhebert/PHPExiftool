@@ -28,13 +28,14 @@ class DataDeviceKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Device Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168189
+             * line : 114686
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataDeviceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DataDeviceKind',
             'desc' => [
+                'en' => 'Data Device Kind',
             ],
         ],
     ];

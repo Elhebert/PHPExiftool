@@ -28,13 +28,14 @@ class FocusDisplayAIServoAndMF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Display AI Servo And MF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74305
+             * line : 54831
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusDisplayAIServoAndMF extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:FocusDisplayAIServoAndMF',
             'desc' => [
+                'en' => 'Focus Display AI Servo And MF',
             ],
         ],
     ];

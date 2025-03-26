@@ -28,13 +28,14 @@ class HueAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178964
+             * line : 122496
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HueAdjustment extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:HueAdjustment',
             'desc' => [
+                'en' => 'Hue Adjustment',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179898
+             * line : 122824
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class HueAdjustment extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:HueAdjustment',
             'desc' => [
+                'en' => 'Hue Adjustment',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StripOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280545
+             * line : 194655
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StripOffsets extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:StripOffsets',
             'desc' => [
+                'en' => 'Strip Offsets',
             ],
         ],
     ];

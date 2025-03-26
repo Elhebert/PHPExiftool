@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394797
+             * line : 279708
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

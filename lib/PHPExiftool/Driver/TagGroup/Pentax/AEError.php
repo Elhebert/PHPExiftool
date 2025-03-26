@@ -28,13 +28,14 @@ class AEError extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283062
+             * line : 196488
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEError extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:AEError',
             'desc' => [
+                'en' => 'AE Error',
             ],
         ],
     ];

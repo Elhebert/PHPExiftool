@@ -28,13 +28,14 @@ class RoutingExclusions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Routing Exclusions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397345
+             * line : 281383
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RoutingExclusions extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:RoutingExclusions',
             'desc' => [
+                'en' => 'Routing Exclusions',
             ],
         ],
     ];

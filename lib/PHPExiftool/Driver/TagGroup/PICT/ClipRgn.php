@@ -28,13 +28,14 @@ class ClipRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clipping Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264609
+             * line : 182867
              * type : Rgn
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:ClipRgn',
             'desc' => [
+                'en' => 'Clipping Region',
             ],
         ],
     ];

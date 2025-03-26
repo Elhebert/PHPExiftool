@@ -28,13 +28,14 @@ class ColorGradeMidtoneHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Midtone Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398724
+             * line : 282329
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeMidtoneHue extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ColorGradeMidtoneHue',
             'desc' => [
+                'en' => 'Color Grade Midtone Hue',
             ],
         ],
     ];

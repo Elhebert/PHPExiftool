@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411737
+             * line : 290688
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

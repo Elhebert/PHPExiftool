@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337289
+             * line : 236072
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337306
+             * line : 236075
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IVUSPullbackStopFrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IVUS Pullback Stop Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96171
+             * line : 69589
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IVUSPullbackStopFrameNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IVUSPullbackStopFrameNumber',
             'desc' => [
+                'en' => 'IVUS Pullback Stop Frame Number',
             ],
         ],
     ];

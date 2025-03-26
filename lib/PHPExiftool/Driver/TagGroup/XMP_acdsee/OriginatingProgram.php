@@ -28,13 +28,14 @@ class OriginatingProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Originating Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397820
+             * line : 281610
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginatingProgram extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:OriginatingProgram',
             'desc' => [
+                'en' => 'Originating Program',
             ],
         ],
     ];

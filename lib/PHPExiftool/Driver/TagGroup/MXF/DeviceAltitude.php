@@ -28,13 +28,14 @@ class DeviceAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168266
+             * line : 114761
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DeviceAltitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceAltitude',
             'desc' => [
+                'en' => 'Device Altitude',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168269
+             * line : 114764
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DeviceAltitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceAltitude',
             'desc' => [
+                'en' => 'Device Altitude',
             ],
         ],
     ];

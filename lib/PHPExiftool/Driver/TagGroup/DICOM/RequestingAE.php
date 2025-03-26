@@ -28,13 +28,14 @@ class RequestingAE extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requesting AE',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101838
+             * line : 74979
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestingAE extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestingAE',
             'desc' => [
+                'en' => 'Requesting AE',
             ],
         ],
     ];

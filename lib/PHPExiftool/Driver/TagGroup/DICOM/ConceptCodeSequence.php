@@ -28,13 +28,14 @@ class ConceptCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Concept Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100162
+             * line : 73338
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConceptCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConceptCodeSequence',
             'desc' => [
+                'en' => 'Concept Code Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GyroYPR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gyro YPR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Gyro360Fly
-             * line : 313363
+             * line : 219108
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class GyroYPR extends AbstractTagGroup
              */
             'id' => 'QuickTime::Gyro360Fly.QuickTime:GyroYPR',
             'desc' => [
+                'en' => 'Gyro YPR',
             ],
         ],
     ];

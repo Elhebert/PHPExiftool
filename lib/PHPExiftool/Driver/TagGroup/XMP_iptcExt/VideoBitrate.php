@@ -28,13 +28,14 @@ class VideoBitrate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409857
+             * line : 289616
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoBitrate extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:VideoBitrate',
             'desc' => [
+                'en' => 'Video Bitrate',
             ],
         ],
     ];

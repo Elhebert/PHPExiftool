@@ -28,13 +28,14 @@ class BibligraphicFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bibligraphic File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152067
+             * line : 104730
              * type : string
              * writable : false
              * count : 37
@@ -42,6 +43,7 @@ class BibligraphicFileName extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:BibligraphicFileName',
             'desc' => [
+                'en' => 'Bibligraphic File Name',
             ],
         ],
     ];

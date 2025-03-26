@@ -28,13 +28,14 @@ class AssignedCategoryValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Assigned Category Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168941
+             * line : 115406
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AssignedCategoryValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AssignedCategoryValue',
             'desc' => [
+                'en' => 'Assigned Category Value',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168944
+             * line : 115409
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AssignedCategoryValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AssignedCategoryValue',
             'desc' => [
+                'en' => 'Assigned Category Value',
             ],
         ],
     ];

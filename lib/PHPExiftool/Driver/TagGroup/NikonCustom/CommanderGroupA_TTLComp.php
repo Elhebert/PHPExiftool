@@ -28,13 +28,14 @@ class CommanderGroupA_TTLComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Commander Group A TTL Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 235075
+             * line : 158420
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CommanderGroupA_TTLComp extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:CommanderGroupA_TTLComp',
             'desc' => [
+                'en' => 'Commander Group A TTL Comp',
             ],
         ],
     ];

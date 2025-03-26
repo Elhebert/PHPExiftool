@@ -28,13 +28,14 @@ class CameraModelRestriction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model Restriction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398244
+             * line : 281855
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraModelRestriction extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CameraModelRestriction',
             'desc' => [
+                'en' => 'Camera Model Restriction',
             ],
         ],
     ];

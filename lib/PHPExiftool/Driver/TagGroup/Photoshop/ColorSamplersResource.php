@@ -28,13 +28,14 @@ class ColorSamplersResource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Samplers Resource',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305525
+             * line : 212298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorSamplersResource extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ColorSamplersResource',
             'desc' => [
+                'en' => 'Color Samplers Resource',
             ],
         ],
     ];

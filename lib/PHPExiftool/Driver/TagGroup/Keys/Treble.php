@@ -28,13 +28,14 @@ class Treble extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Treble',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323565
+             * line : 228722
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Treble extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Treble',
             'desc' => [
+                'en' => 'Treble',
             ],
         ],
     ];

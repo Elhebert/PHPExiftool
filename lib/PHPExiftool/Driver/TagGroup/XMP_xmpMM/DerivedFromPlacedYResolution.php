@@ -28,13 +28,14 @@ class DerivedFromPlacedYResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Placed Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413861
+             * line : 291890
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromPlacedYResolution extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromPlacedYResolution',
             'desc' => [
+                'en' => 'Derived From Placed Y Resolution',
             ],
         ],
     ];

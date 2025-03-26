@@ -28,13 +28,14 @@ class DefectConcealArtCorrectThres extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Defect Conceal Art Correct Thres',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155609
+             * line : 106820
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefectConcealArtCorrectThres extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DefectConcealArtCorrectThres',
             'desc' => [
+                'en' => 'Defect Conceal Art Correct Thres',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WhiteSampleLeftBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Sample Left Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::WhiteSample
-             * line : 80143
+             * line : 58483
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteSampleLeftBorder extends AbstractTagGroup
              */
             'id' => 'CanonRaw::WhiteSample.CanonRaw:WhiteSampleLeftBorder',
             'desc' => [
+                'en' => 'White Sample Left Border',
             ],
         ],
     ];

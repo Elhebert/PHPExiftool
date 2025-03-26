@@ -28,13 +28,14 @@ class PeakValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174731
+             * line : 120284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakValue extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PeakValue',
             'desc' => [
+                'en' => 'Peak Value',
             ],
         ],
     ];

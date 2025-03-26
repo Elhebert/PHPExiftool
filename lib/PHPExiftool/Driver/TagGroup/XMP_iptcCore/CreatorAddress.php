@@ -28,13 +28,14 @@ class CreatorAddress extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 408949
+             * line : 288846
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorAddress extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorAddress',
             'desc' => [
+                'en' => 'Creator Address',
             ],
         ],
     ];

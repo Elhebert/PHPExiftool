@@ -28,13 +28,14 @@ class Junk extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Junk',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323788
+             * line : 228828
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Junk extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:Junk',
             'desc' => [
+                'en' => 'Junk',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324082
+             * line : 229011
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

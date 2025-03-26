@@ -28,13 +28,14 @@ class AFAreaWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189964
+             * line : 128901
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaWidth',
             'desc' => [
+                'en' => 'AF Area Width',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190037
+             * line : 128942
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAreaWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaWidth',
             'desc' => [
+                'en' => 'AF Area Width',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190987
+             * line : 129802
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFAreaWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFAreaWidth',
             'desc' => [
+                'en' => 'AF Area Width',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::AFInfo2V0400
-             * line : 191044
+             * line : 129838
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFAreaWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2V0400.Nikon:AFAreaWidth',
             'desc' => [
+                'en' => 'AF Area Width',
             ],
         ],
     ];

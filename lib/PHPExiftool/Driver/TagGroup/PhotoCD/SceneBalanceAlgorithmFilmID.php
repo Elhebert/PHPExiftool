@@ -28,13 +28,14 @@ class SceneBalanceAlgorithmFilmID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Balance Algorithm Film ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303855
+             * line : 211082
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneBalanceAlgorithmFilmID extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:SceneBalanceAlgorithmFilmID',
             'desc' => [
+                'en' => 'Scene Balance Algorithm Film ID',
             ],
         ],
     ];

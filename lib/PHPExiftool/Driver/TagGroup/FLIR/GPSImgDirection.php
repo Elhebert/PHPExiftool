@@ -28,13 +28,14 @@ class GPSImgDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Img Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 123085
+             * line : 85986
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSImgDirection extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSImgDirection',
             'desc' => [
+                'en' => 'GPS Img Direction',
             ],
         ],
     ];

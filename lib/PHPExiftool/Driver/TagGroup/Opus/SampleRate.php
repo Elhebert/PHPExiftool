@@ -28,13 +28,14 @@ class SampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Opus::Header
-             * line : 263745
+             * line : 182429
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleRate extends AbstractTagGroup
              */
             'id' => 'Opus::Header.Opus:SampleRate',
             'desc' => [
+                'en' => 'Sample Rate',
             ],
         ],
     ];

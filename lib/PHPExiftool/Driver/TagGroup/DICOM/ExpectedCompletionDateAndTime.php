@@ -28,13 +28,14 @@ class ExpectedCompletionDateAndTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expected Completion Date And Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99950
+             * line : 73152
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpectedCompletionDateAndTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExpectedCompletionDateAndTime',
             'desc' => [
+                'en' => 'Expected Completion Date And Time',
             ],
         ],
     ];

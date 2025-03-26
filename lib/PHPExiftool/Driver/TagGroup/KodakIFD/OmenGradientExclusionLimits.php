@@ -28,13 +28,14 @@ class OmenGradientExclusionLimits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Gradient Exclusion Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155708
+             * line : 106919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenGradientExclusionLimits extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenGradientExclusionLimits',
             'desc' => [
+                'en' => 'Omen Gradient Exclusion Limits',
             ],
         ],
     ];

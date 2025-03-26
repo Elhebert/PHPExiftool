@@ -28,13 +28,14 @@ class IsCompleted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Completed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176157
+             * line : 121224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsCompleted extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsCompleted',
             'desc' => [
+                'en' => 'Is Completed',
             ],
         ],
     ];

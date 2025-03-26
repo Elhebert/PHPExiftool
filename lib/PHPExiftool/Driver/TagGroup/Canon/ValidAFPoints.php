@@ -28,13 +28,14 @@ class ValidAFPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Valid AF Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4034
+             * line : 2547
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ValidAFPoints extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:ValidAFPoints',
             'desc' => [
+                'en' => 'Valid AF Points',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4196
+             * line : 2643
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ValidAFPoints extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:ValidAFPoints',
             'desc' => [
+                'en' => 'Valid AF Points',
             ],
         ],
     ];

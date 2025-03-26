@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::PixelLive
-             * line : 397467
+             * line : 281450
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'XMP::PixelLive.XMP-PixelLive:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

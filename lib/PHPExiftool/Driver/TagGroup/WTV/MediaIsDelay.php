@@ -28,13 +28,14 @@ class MediaIsDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396000
+             * line : 280318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsDelay extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsDelay',
             'desc' => [
+                'en' => 'Media Is Delay',
             ],
         ],
     ];

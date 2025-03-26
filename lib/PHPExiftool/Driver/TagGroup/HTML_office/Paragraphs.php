@@ -28,13 +28,14 @@ class Paragraphs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paragraphs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142649
+             * line : 98572
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Paragraphs extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Paragraphs',
             'desc' => [
+                'en' => 'Paragraphs',
             ],
         ],
     ];

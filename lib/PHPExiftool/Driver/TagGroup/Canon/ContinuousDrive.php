@@ -28,13 +28,14 @@ class ContinuousDrive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Continuous Drive',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 55826
+             * line : 43453
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContinuousDrive extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:ContinuousDrive',
             'desc' => [
+                'en' => 'Continuous Drive',
             ],
         ],
     ];

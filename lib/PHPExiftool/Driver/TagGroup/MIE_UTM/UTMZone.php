@@ -28,13 +28,14 @@ class UTMZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'UTM Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::UTM
-             * line : 164210
+             * line : 111665
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UTMZone extends AbstractTagGroup
              */
             'id' => 'MIE::UTM.MIE-UTM:UTMZone',
             'desc' => [
+                'en' => 'UTM Zone',
             ],
         ],
     ];

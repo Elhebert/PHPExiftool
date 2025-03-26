@@ -28,13 +28,14 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture At Min Focal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254455
+             * line : 175742
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
     ];

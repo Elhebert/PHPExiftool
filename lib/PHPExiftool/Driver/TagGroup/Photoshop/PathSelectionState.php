@@ -28,13 +28,14 @@ class PathSelectionState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Path Selection State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305682
+             * line : 212406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PathSelectionState extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:PathSelectionState',
             'desc' => [
+                'en' => 'Path Selection State',
             ],
         ],
     ];

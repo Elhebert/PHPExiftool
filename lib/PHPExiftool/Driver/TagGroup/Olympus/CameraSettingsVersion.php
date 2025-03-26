@@ -28,13 +28,14 @@ class CameraSettingsVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Settings Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250364
+             * line : 172829
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class CameraSettingsVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:CameraSettingsVersion',
             'desc' => [
+                'en' => 'Camera Settings Version',
             ],
         ],
     ];

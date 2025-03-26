@@ -28,13 +28,14 @@ class AutoISOMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto ISO Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139650
+             * line : 97702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoISOMax extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AutoISOMax',
             'desc' => [
+                'en' => 'Auto ISO Max',
             ],
         ],
     ];

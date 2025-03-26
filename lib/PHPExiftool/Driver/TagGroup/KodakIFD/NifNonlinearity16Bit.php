@@ -28,13 +28,14 @@ class NifNonlinearity16Bit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nif Nonlinearity 16 Bit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155987
+             * line : 107198
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NifNonlinearity16Bit extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NifNonlinearity16Bit',
             'desc' => [
+                'en' => 'Nif Nonlinearity 16 Bit',
             ],
         ],
     ];

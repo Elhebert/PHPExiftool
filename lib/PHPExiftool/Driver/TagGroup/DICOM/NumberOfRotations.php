@@ -28,13 +28,14 @@ class NumberOfRotations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Rotations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100856
+             * line : 74016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfRotations extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfRotations',
             'desc' => [
+                'en' => 'Number Of Rotations',
             ],
         ],
     ];

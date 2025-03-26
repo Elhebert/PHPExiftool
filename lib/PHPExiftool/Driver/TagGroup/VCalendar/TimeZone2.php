@@ -28,13 +28,14 @@ class TimeZone2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Zone 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395658
+             * line : 280171
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeZone2 extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:TimeZone2',
             'desc' => [
+                'en' => 'Time Zone 2',
             ],
         ],
     ];

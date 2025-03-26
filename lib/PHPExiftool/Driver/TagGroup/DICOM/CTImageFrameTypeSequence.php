@@ -28,13 +28,14 @@ class CTImageFrameTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Image Frame Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97027
+             * line : 70426
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTImageFrameTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTImageFrameTypeSequence',
             'desc' => [
+                'en' => 'CT Image Frame Type Sequence',
             ],
         ],
     ];

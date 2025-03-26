@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::AVI
-             * line : 331817
+             * line : 233148
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Ricoh::AVI.Ricoh:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

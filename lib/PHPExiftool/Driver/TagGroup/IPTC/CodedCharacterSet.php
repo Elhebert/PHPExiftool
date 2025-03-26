@@ -28,13 +28,14 @@ class CodedCharacterSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Coded Character Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151297
+             * line : 104370
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class CodedCharacterSet extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:CodedCharacterSet',
             'desc' => [
+                'en' => 'Coded Character Set',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KillDateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kill Date Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410931
+             * line : 290175
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class KillDateDate extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:KillDateDate',
             'desc' => [
+                'en' => 'Kill Date Date',
             ],
         ],
     ];

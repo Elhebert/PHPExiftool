@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280755
+             * line : 194696
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

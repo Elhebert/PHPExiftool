@@ -28,13 +28,14 @@ class ReformattingInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reformatting Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101673
+             * line : 74817
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReformattingInterval extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReformattingInterval',
             'desc' => [
+                'en' => 'Reformatting Interval',
             ],
         ],
     ];

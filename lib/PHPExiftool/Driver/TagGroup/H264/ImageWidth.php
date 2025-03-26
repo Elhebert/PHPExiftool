@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Main
-             * line : 141987
+             * line : 98331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'H264::Main.H264:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

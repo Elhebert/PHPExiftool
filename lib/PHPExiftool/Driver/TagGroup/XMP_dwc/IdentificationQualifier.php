@@ -28,13 +28,14 @@ class IdentificationQualifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Identification Qualifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106325
+             * line : 78641
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IdentificationQualifier extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:IdentificationQualifier',
             'desc' => [
+                'en' => 'Identification Qualifier',
             ],
         ],
     ];

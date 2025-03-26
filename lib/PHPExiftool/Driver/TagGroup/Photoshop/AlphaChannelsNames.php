@@ -28,13 +28,14 @@ class AlphaChannelsNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Channels Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305384
+             * line : 212203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaChannelsNames extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:AlphaChannelsNames',
             'desc' => [
+                'en' => 'Alpha Channels Names',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTempTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299791
+             * line : 208971
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BetaTilt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beta Tilt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166434
+             * line : 113175
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BetaTilt extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:BetaTilt',
             'desc' => [
+                'en' => 'Beta Tilt',
             ],
         ],
     ];

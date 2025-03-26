@@ -28,13 +28,14 @@ class TotalDataRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Data Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124185
+             * line : 86786
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalDataRate extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:TotalDataRate',
             'desc' => [
+                'en' => 'Total Data Rate',
             ],
         ],
     ];

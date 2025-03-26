@@ -28,13 +28,14 @@ class StartReading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Reading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273538
+             * line : 190751
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartReading extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:StartReading',
             'desc' => [
+                'en' => 'Start Reading',
             ],
         ],
     ];

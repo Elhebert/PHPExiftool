@@ -28,13 +28,14 @@ class Iterations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Iterations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164352
+             * line : 111733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Iterations extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Iterations',
             'desc' => [
+                'en' => 'Iterations',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SequenceOfUltrasoundRegions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Of Ultrasound Regions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96246
+             * line : 69658
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceOfUltrasoundRegions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SequenceOfUltrasoundRegions',
             'desc' => [
+                'en' => 'Sequence Of Ultrasound Regions',
             ],
         ],
     ];

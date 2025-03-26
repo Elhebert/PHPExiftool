@@ -28,13 +28,14 @@ class SampleToChunk extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample To Chunk',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324434
+             * line : 229224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleToChunk extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:SampleToChunk',
             'desc' => [
+                'en' => 'Sample To Chunk',
             ],
         ],
     ];

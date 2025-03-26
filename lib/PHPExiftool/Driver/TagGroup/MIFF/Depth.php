@@ -28,13 +28,14 @@ class Depth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164329
+             * line : 111718
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Depth extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Depth',
             'desc' => [
+                'en' => 'Depth',
             ],
         ],
     ];

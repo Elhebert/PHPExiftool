@@ -28,13 +28,14 @@ class WBShiftCreativeControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Shift Creative Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277672
+             * line : 193115
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBShiftCreativeControl extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:WBShiftCreativeControl',
             'desc' => [
+                'en' => 'WB Shift Creative Control',
             ],
         ],
     ];

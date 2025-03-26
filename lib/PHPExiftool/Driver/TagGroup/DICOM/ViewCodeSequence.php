@@ -28,13 +28,14 @@ class ViewCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100916
+             * line : 74076
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewCodeSequence',
             'desc' => [
+                'en' => 'View Code Sequence',
             ],
         ],
     ];

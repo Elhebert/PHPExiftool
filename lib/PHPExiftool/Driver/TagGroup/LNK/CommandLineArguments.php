@@ -28,13 +28,14 @@ class CommandLineArguments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Command Line Arguments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161563
+             * line : 110370
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommandLineArguments extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:CommandLineArguments',
             'desc' => [
+                'en' => 'Command Line Arguments',
             ],
         ],
     ];

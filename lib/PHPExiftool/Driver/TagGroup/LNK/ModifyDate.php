@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161431
+             * line : 110282
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

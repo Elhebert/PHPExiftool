@@ -28,13 +28,14 @@ class PresetWhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preset White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181338
+             * line : 123369
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PresetWhiteBalance extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:PresetWhiteBalance',
             'desc' => [
+                'en' => 'Preset White Balance',
             ],
         ],
     ];

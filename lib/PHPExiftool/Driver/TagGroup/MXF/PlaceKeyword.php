@@ -28,13 +28,14 @@ class PlaceKeyword extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Place Keyword',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168389
+             * line : 114884
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PlaceKeyword extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlaceKeyword',
             'desc' => [
+                'en' => 'Place Keyword',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170450
+             * line : 116694
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PlaceKeyword extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlaceKeyword',
             'desc' => [
+                'en' => 'Place Keyword',
             ],
         ],
     ];

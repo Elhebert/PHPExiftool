@@ -28,13 +28,14 @@ class PictureStyleUserDef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Style User Def',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65989
+             * line : 50103
              * type : int16u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class PictureStyleUserDef extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:PictureStyleUserDef',
             'desc' => [
+                'en' => 'Picture Style User Def',
             ],
         ],
     ];

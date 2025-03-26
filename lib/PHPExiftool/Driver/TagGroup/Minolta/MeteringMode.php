@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177286
+             * line : 121891
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178686
+             * line : 122409
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180711
+             * line : 123116
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

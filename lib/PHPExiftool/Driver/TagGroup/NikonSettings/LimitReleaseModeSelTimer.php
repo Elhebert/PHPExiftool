@@ -28,13 +28,14 @@ class LimitReleaseModeSelTimer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit Release Mode Sel Timer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247920
+             * line : 170608
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitReleaseModeSelTimer extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitReleaseModeSelTimer',
             'desc' => [
+                'en' => 'Limit Release Mode Sel Timer',
             ],
         ],
     ];

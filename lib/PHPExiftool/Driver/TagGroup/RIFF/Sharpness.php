@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328415
+             * line : 231616
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

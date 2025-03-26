@@ -28,13 +28,14 @@ class MinimumBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minimum Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Identification
-             * line : 395941
+             * line : 280290
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinimumBitrate extends AbstractTagGroup
              */
             'id' => 'Vorbis::Identification.Vorbis:MinimumBitrate',
             'desc' => [
+                'en' => 'Minimum Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GeoTiffDoubleParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Geo Tiff Double Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113580
+             * line : 82539
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GeoTiffDoubleParams extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:GeoTiffDoubleParams',
             'desc' => [
+                'en' => 'Geo Tiff Double Params',
             ],
         ],
     ];

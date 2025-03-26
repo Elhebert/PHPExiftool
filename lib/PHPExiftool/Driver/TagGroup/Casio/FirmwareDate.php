@@ -28,13 +28,14 @@ class FirmwareDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84907
+             * line : 61829
              * type : string
              * writable : true
              * count : 18
@@ -42,12 +43,13 @@ class FirmwareDate extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:FirmwareDate',
             'desc' => [
+                'en' => 'Firmware Date',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85768
+             * line : 62142
              * type : string
              * writable : true
              * count : 18
@@ -55,6 +57,7 @@ class FirmwareDate extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FirmwareDate',
             'desc' => [
+                'en' => 'Firmware Date',
             ],
         ],
     ];

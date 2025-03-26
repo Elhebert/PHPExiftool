@@ -28,13 +28,14 @@ class StdOutputBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Output Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161988
+             * line : 110690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdOutputBitDepth extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdOutputBitDepth',
             'desc' => [
+                'en' => 'Std Output Bit Depth',
             ],
         ],
     ];

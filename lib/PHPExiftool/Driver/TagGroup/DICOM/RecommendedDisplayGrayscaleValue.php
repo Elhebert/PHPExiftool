@@ -28,13 +28,14 @@ class RecommendedDisplayGrayscaleValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recommended Display Grayscale Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101094
+             * line : 74244
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecommendedDisplayGrayscaleValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecommendedDisplayGrayscaleValue',
             'desc' => [
+                'en' => 'Recommended Display Grayscale Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioInputBufferSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Input Buffer Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312691
+             * line : 218563
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioInputBufferSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioInputBufferSize',
             'desc' => [
+                'en' => 'Audio Input Buffer Size',
             ],
         ],
     ];

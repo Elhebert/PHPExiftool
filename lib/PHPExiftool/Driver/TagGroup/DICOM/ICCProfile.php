@@ -28,13 +28,14 @@ class ICCProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ICC Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99074
+             * line : 72306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ICCProfile extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ICCProfile',
             'desc' => [
+                'en' => 'ICC Profile',
             ],
         ],
     ];

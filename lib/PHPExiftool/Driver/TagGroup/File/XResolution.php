@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121589
+             * line : 85268
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'Extra.File:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
         1 => [
             /**
              * table_name : PCX::Main
-             * line : 263940
+             * line : 182514
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

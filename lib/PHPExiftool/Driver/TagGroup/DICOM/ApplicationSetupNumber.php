@@ -28,13 +28,14 @@ class ApplicationSetupNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Setup Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103585
+             * line : 76677
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationSetupNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicationSetupNumber',
             'desc' => [
+                'en' => 'Application Setup Number',
             ],
         ],
     ];

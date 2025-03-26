@@ -28,13 +28,14 @@ class RimToNifColorTransform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rim To Nif Color Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155852
+             * line : 107063
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RimToNifColorTransform extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RimToNifColorTransform',
             'desc' => [
+                'en' => 'Rim To Nif Color Transform',
             ],
         ],
     ];

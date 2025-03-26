@@ -28,13 +28,14 @@ class InternalFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178067
+             * line : 122167
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
     ];

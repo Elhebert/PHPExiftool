@@ -28,13 +28,14 @@ class CodeLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98886
+             * line : 72156
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodeLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodeLabel',
             'desc' => [
+                'en' => 'Code Label',
             ],
         ],
     ];

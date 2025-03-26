@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Image
-             * line : 273213
+             * line : 190637
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'PSP::Image.PSP:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

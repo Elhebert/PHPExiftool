@@ -28,13 +28,14 @@ class ClassificationComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classification Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169994
+             * line : 116319
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ClassificationComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassificationComment',
             'desc' => [
+                'en' => 'Classification Comment',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172030
+             * line : 118204
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ClassificationComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassificationComment',
             'desc' => [
+                'en' => 'Classification Comment',
             ],
         ],
     ];

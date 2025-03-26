@@ -28,13 +28,14 @@ class TargetClassOfStrongReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Class Of Strong Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169625
+             * line : 116016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetClassOfStrongReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TargetClassOfStrongReference',
             'desc' => [
+                'en' => 'Target Class Of Strong Reference',
             ],
         ],
     ];

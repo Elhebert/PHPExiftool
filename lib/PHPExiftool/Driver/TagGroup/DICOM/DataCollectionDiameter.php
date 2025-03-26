@@ -28,13 +28,14 @@ class DataCollectionDiameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Collection Diameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95549
+             * line : 69004
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataCollectionDiameter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataCollectionDiameter',
             'desc' => [
+                'en' => 'Data Collection Diameter',
             ],
         ],
     ];

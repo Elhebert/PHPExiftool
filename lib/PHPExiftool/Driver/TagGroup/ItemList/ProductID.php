@@ -28,13 +28,14 @@ class ProductID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322274
+             * line : 227818
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductID extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:ProductID',
             'desc' => [
+                'en' => 'Product ID',
             ],
         ],
     ];

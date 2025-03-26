@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149871
+             * line : 103842
              * type : string
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

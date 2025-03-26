@@ -28,13 +28,14 @@ class AudioVendorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Vendor ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioSampleDesc
-             * line : 310427
+             * line : 216328
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class AudioVendorID extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioVendorID',
             'desc' => [
+                'en' => 'Audio Vendor ID',
             ],
         ],
     ];

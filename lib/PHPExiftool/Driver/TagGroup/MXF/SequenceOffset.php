@@ -28,13 +28,14 @@ class SequenceOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171286
+             * line : 117491
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SequenceOffset',
             'desc' => [
+                'en' => 'Sequence Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CodePage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::MOBI
-             * line : 273793
+             * line : 190933
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodePage extends AbstractTagGroup
              */
             'id' => 'Palm::MOBI.MOBI:CodePage',
             'desc' => [
+                'en' => 'Code Page',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IsocenterToCompensatorDistances extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Compensator Distances',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103735
+             * line : 76824
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToCompensatorDistances extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToCompensatorDistances',
             'desc' => [
+                'en' => 'Isocenter To Compensator Distances',
             ],
         ],
     ];

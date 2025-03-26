@@ -28,13 +28,14 @@ class Mood extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mood',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326625
+             * line : 230378
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Mood extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Mood',
             'desc' => [
+                'en' => 'Mood',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Language extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142756
+             * line : 98618
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Language extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Language',
             'desc' => [
+                'en' => 'Language',
             ],
         ],
     ];

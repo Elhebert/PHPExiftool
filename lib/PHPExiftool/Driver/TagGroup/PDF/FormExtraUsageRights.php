@@ -28,13 +28,14 @@ class FormExtraUsageRights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Form Extra Usage Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264423
+             * line : 182774
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FormExtraUsageRights extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:FormExtraUsageRights',
             'desc' => [
+                'en' => 'Form Extra Usage Rights',
             ],
         ],
     ];

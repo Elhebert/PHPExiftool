@@ -28,13 +28,14 @@ class FrameSizeMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Size Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121945
+             * line : 85448
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameSizeMax extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:FrameSizeMax',
             'desc' => [
+                'en' => 'Frame Size Max',
             ],
         ],
     ];

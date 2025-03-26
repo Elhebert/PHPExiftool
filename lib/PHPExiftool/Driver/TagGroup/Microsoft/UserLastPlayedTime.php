@@ -28,13 +28,14 @@ class UserLastPlayedTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Last Played Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174928
+             * line : 120440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserLastPlayedTime extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:UserLastPlayedTime',
             'desc' => [
+                'en' => 'User Last Played Time',
             ],
         ],
     ];

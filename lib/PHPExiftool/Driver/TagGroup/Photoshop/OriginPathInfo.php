@@ -28,13 +28,14 @@ class OriginPathInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Origin Path Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305690
+             * line : 212412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginPathInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:OriginPathInfo',
             'desc' => [
+                'en' => 'Origin Path Info',
             ],
         ],
     ];

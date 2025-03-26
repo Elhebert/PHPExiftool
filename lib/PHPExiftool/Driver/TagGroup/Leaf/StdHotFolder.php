@@ -28,13 +28,14 @@ class StdHotFolder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Hot Folder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161982
+             * line : 110684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdHotFolder extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdHotFolder',
             'desc' => [
+                'en' => 'Std Hot Folder',
             ],
         ],
     ];

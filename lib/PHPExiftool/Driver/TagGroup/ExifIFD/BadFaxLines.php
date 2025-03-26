@@ -28,13 +28,14 @@ class BadFaxLines extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bad Fax Lines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111580
+             * line : 81694
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BadFaxLines extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:BadFaxLines',
             'desc' => [
+                'en' => 'Bad Fax Lines',
             ],
         ],
     ];

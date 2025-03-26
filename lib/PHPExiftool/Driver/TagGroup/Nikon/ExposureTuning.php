@@ -28,13 +28,14 @@ class ExposureTuning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Tuning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196893
+             * line : 132952
              * type : undef
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ExposureTuning extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ExposureTuning',
             'desc' => [
+                'en' => 'Exposure Tuning',
             ],
         ],
     ];

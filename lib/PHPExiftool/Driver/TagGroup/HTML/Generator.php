@@ -28,13 +28,14 @@ class Generator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142405
+             * line : 98484
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Generator extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Generator',
             'desc' => [
+                'en' => 'Generator',
             ],
         ],
     ];

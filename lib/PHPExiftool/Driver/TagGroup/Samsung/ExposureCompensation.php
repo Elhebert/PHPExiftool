@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 333973
+             * line : 234138
              * type : rational64s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335453
+             * line : 235436
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

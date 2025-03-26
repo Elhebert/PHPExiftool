@@ -28,13 +28,14 @@ class FrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324574
+             * line : 229311
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:FrameNumber',
             'desc' => [
+                'en' => 'Frame Number',
             ],
         ],
     ];

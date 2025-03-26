@@ -28,13 +28,14 @@ class NumberOfFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1441
+             * line : 685
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFrames extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:NumberOfFrames',
             'desc' => [
+                'en' => 'Number Of Frames',
             ],
         ],
     ];

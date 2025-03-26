@@ -28,13 +28,14 @@ class SupportsNormalDynamicRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supports Normal Dynamic Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404421
+             * line : 287486
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupportsNormalDynamicRange extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:SupportsNormalDynamicRange',
             'desc' => [
+                'en' => 'Supports Normal Dynamic Range',
             ],
         ],
     ];

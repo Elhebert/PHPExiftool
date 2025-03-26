@@ -28,13 +28,14 @@ class WideAdapter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Wide Adapter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333381
+             * line : 233791
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WideAdapter extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:WideAdapter',
             'desc' => [
+                'en' => 'Wide Adapter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TargetAudiences extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Audiences',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330349
+             * line : 232450
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetAudiences extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:TargetAudiences',
             'desc' => [
+                'en' => 'Target Audiences',
             ],
         ],
     ];

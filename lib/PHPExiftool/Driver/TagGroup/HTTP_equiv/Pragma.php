@@ -28,13 +28,14 @@ class Pragma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pragma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142901
+             * line : 98688
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pragma extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:Pragma',
             'desc' => [
+                'en' => 'Pragma',
             ],
         ],
     ];

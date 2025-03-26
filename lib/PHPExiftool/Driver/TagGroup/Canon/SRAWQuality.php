@@ -28,13 +28,14 @@ class SRAWQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SRAW Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58841
+             * line : 45709
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SRAWQuality extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:SRAWQuality',
             'desc' => [
+                'en' => 'SRAW Quality',
             ],
         ],
     ];

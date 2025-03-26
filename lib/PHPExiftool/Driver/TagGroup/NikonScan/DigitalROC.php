@@ -28,13 +28,14 @@ class DigitalROC extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital ROC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ROC
-             * line : 205190
+             * line : 137918
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalROC extends AbstractTagGroup
              */
             'id' => 'Nikon::ROC.NikonScan:DigitalROC',
             'desc' => [
+                'en' => 'Digital ROC',
             ],
         ],
     ];

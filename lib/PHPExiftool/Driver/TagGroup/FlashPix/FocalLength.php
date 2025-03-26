@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125903
+             * line : 87521
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

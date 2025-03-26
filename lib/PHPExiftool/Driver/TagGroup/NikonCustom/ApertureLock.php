@@ -28,13 +28,14 @@ class ApertureLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215932
+             * line : 144979
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218533
+             * line : 146899
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220983
+             * line : 148930
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231093
+             * line : 155358
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232882
+             * line : 156748
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 237698
+             * line : 160811
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class ApertureLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ApertureLock',
             'desc' => [
+                'en' => 'Aperture Lock',
             ],
         ],
     ];

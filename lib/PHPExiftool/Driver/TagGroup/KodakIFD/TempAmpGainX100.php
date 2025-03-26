@@ -28,13 +28,14 @@ class TempAmpGainX100 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Temp Amp Gain X100',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157329
+             * line : 108521
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TempAmpGainX100 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TempAmpGainX100',
             'desc' => [
+                'en' => 'Temp Amp Gain X100',
             ],
         ],
     ];

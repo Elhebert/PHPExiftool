@@ -28,13 +28,14 @@ class BracketValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63446
+             * line : 48242
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketValue extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:BracketValue',
             'desc' => [
+                'en' => 'Bracket Value',
             ],
         ],
     ];

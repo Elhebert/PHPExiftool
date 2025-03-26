@@ -28,13 +28,14 @@ class ImageSetSelectorUsageFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Set Selector Usage Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101453
+             * line : 74601
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSetSelectorUsageFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageSetSelectorUsageFlag',
             'desc' => [
+                'en' => 'Image Set Selector Usage Flag',
             ],
         ],
     ];

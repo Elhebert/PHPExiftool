@@ -28,13 +28,14 @@ class MakerNoteISL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note ISL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104834
+             * line : 77780
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteISL extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteISL',
             'desc' => [
+                'en' => 'Maker Note ISL',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115795
+             * line : 83073
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteISL extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteISL',
             'desc' => [
+                'en' => 'Maker Note ISL',
             ],
         ],
     ];

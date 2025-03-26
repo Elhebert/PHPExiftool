@@ -28,13 +28,14 @@ class AFVfeVertOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Vfe Vert Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306594
+             * line : 213092
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFVfeVertOffset extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFVfeVertOffset',
             'desc' => [
+                'en' => 'AF Vfe Vert Offset',
             ],
         ],
     ];

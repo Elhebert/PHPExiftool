@@ -28,13 +28,14 @@ class TypeOfOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type Of Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126530
+             * line : 87733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TypeOfOriginal extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:TypeOfOriginal',
             'desc' => [
+                'en' => 'Type Of Original',
             ],
         ],
     ];

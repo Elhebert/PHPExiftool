@@ -28,13 +28,14 @@ class ImagerFileProductionLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager File Production Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155584
+             * line : 106796
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerFileProductionLevel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerFileProductionLevel',
             'desc' => [
+                'en' => 'Imager File Production Level',
             ],
         ],
     ];

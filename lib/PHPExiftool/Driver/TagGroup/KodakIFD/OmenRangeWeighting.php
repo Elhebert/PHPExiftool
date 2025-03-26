@@ -28,13 +28,14 @@ class OmenRangeWeighting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Range Weighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155717
+             * line : 106928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenRangeWeighting extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenRangeWeighting',
             'desc' => [
+                'en' => 'Omen Range Weighting',
             ],
         ],
     ];

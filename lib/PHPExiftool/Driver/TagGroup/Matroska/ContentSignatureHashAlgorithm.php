@@ -28,13 +28,14 @@ class ContentSignatureHashAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Signature Hash Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173598
+             * line : 119525
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentSignatureHashAlgorithm extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentSignatureHashAlgorithm',
             'desc' => [
+                'en' => 'Content Signature Hash Algorithm',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BoundingBoxTopLeftHandCorner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bounding Box Top Left Hand Corner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101256
+             * line : 74406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoundingBoxTopLeftHandCorner extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BoundingBoxTopLeftHandCorner',
             'desc' => [
+                'en' => 'Bounding Box Top Left Hand Corner',
             ],
         ],
     ];

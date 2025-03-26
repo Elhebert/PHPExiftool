@@ -28,13 +28,14 @@ class TransmitGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transmit Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97613
+             * line : 70996
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransmitGain extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransmitGain',
             'desc' => [
+                'en' => 'Transmit Gain',
             ],
         ],
     ];

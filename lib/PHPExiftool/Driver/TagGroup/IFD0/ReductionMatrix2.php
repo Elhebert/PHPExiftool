@@ -28,13 +28,14 @@ class ReductionMatrix2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reduction Matrix 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119087
+             * line : 84165
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReductionMatrix2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ReductionMatrix2',
             'desc' => [
+                'en' => 'Reduction Matrix 2',
             ],
         ],
     ];

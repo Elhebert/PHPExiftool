@@ -28,13 +28,14 @@ class BootLoaderVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Boot Loader Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330831
+             * line : 232725
              * type : undef
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class BootLoaderVersion extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:BootLoaderVersion',
             'desc' => [
+                'en' => 'Boot Loader Version',
             ],
         ],
     ];

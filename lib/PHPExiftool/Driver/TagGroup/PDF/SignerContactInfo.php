@@ -28,13 +28,14 @@ class SignerContactInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signer Contact Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264352
+             * line : 182720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignerContactInfo extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:SignerContactInfo',
             'desc' => [
+                'en' => 'Signer Contact Info',
             ],
         ],
     ];

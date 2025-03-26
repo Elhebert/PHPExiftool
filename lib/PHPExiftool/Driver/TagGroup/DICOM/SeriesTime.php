@@ -28,13 +28,14 @@ class SeriesTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94720
+             * line : 68209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesTime',
             'desc' => [
+                'en' => 'Series Time',
             ],
         ],
     ];

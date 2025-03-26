@@ -28,13 +28,14 @@ class MovieAELockButtonAssignment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie AE Lock Button Assignment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231126
+             * line : 155391
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieAELockButtonAssignment extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MovieAELockButtonAssignment',
             'desc' => [
+                'en' => 'Movie AE Lock Button Assignment',
             ],
         ],
     ];

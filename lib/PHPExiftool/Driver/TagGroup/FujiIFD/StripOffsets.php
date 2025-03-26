@@ -28,13 +28,14 @@ class StripOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128671
+             * line : 89297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StripOffsets extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:StripOffsets',
             'desc' => [
+                'en' => 'Strip Offsets',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PeakValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Private
-             * line : 147137
+             * line : 102166
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakValue extends AbstractTagGroup
              */
             'id' => 'ID3::Private.ID3:PeakValue',
             'desc' => [
+                'en' => 'Peak Value',
             ],
         ],
     ];

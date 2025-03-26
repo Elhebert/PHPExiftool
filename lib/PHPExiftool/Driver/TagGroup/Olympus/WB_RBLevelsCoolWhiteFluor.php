@@ -28,13 +28,14 @@ class WB_RBLevelsCoolWhiteFluor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Cool White Fluor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260903
+             * line : 180216
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsCoolWhiteFluor extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsCoolWhiteFluor',
             'desc' => [
+                'en' => 'WB RB Levels Cool White Fluor',
             ],
         ],
     ];

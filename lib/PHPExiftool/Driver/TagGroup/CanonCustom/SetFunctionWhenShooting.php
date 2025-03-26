@@ -28,13 +28,14 @@ class SetFunctionWhenShooting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Set Function When Shooting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 75676
+             * line : 55730
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SetFunctionWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:SetFunctionWhenShooting',
             'desc' => [
+                'en' => 'Set Function When Shooting',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76190
+             * line : 55974
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SetFunctionWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:SetFunctionWhenShooting',
             'desc' => [
+                'en' => 'Set Function When Shooting',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77312
+             * line : 56513
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SetFunctionWhenShooting extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:SetFunctionWhenShooting',
             'desc' => [
+                'en' => 'Set Function When Shooting',
             ],
         ],
     ];

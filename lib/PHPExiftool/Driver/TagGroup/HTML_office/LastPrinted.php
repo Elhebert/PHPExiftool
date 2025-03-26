@@ -28,13 +28,14 @@ class LastPrinted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Printed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142613
+             * line : 98557
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastPrinted extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:LastPrinted',
             'desc' => [
+                'en' => 'Last Printed',
             ],
         ],
     ];

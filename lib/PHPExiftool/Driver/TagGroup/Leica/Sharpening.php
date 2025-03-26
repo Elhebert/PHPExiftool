@@ -28,13 +28,14 @@ class Sharpening extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpening',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279019
+             * line : 193899
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sharpening extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:Sharpening',
             'desc' => [
+                'en' => 'Sharpening',
             ],
         ],
     ];

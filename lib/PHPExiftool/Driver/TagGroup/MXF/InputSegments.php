@@ -28,13 +28,14 @@ class InputSegments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Segments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169569
+             * line : 115962
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputSegments extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InputSegments',
             'desc' => [
+                'en' => 'Input Segments',
             ],
         ],
     ];

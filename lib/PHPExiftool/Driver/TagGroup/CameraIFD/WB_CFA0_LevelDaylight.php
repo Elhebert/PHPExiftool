@@ -28,13 +28,14 @@ class WB_CFA0_LevelDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB CFA0 Level Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279835
+             * line : 194332
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WB_CFA0_LevelDaylight extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:WB_CFA0_LevelDaylight',
             'desc' => [
+                'en' => 'WB CFA0 Level Daylight',
             ],
         ],
     ];

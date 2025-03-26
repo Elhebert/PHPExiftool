@@ -28,13 +28,14 @@ class EmbeddedVideo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Video',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152670
+             * line : 105059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedVideo extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:EmbeddedVideo',
             'desc' => [
+                'en' => 'Embedded Video',
             ],
         ],
     ];

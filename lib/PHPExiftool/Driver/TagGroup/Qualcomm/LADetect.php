@@ -28,13 +28,14 @@ class LADetect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LA Detect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307464
+             * line : 213962
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LADetect extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:LADetect',
             'desc' => [
+                'en' => 'LA Detect',
             ],
         ],
     ];

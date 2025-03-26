@@ -28,13 +28,14 @@ class BatteryCapacity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery Capacity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::KBAT
-             * line : 139988
+             * line : 97865
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BatteryCapacity extends AbstractTagGroup
              */
             'id' => 'GoPro::KBAT.GoPro:BatteryCapacity',
             'desc' => [
+                'en' => 'Battery Capacity',
             ],
         ],
     ];

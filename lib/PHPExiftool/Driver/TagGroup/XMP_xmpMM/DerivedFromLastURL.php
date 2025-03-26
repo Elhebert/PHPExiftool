@@ -28,13 +28,14 @@ class DerivedFromLastURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Last URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413815
+             * line : 291846
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromLastURL extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromLastURL',
             'desc' => [
+                'en' => 'Derived From Last URL',
             ],
         ],
     ];

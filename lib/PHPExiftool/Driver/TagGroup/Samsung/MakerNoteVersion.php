@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Main
-             * line : 334027
+             * line : 234151
              * type : undef
              * writable : true
              * count : 8
@@ -42,12 +43,13 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Samsung::Main.Samsung:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335020
+             * line : 235076
              * type : undef
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

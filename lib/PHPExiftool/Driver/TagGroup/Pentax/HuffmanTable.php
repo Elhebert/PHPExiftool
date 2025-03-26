@@ -28,13 +28,14 @@ class HuffmanTable extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Huffman Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300817
+             * line : 209676
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HuffmanTable extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:HuffmanTable',
             'desc' => [
+                'en' => 'Huffman Table',
             ],
         ],
     ];

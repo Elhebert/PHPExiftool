@@ -28,13 +28,14 @@ class AdultContentWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Adult Content Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265213
+             * line : 183340
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdultContentWarning extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:AdultContentWarning',
             'desc' => [
+                'en' => 'Adult Content Warning',
             ],
         ],
     ];

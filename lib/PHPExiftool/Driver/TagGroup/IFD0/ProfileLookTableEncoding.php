@@ -28,13 +28,14 @@ class ProfileLookTableEncoding extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Look Table Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120563
+             * line : 84699
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileLookTableEncoding extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileLookTableEncoding',
             'desc' => [
+                'en' => 'Profile Look Table Encoding',
             ],
         ],
     ];

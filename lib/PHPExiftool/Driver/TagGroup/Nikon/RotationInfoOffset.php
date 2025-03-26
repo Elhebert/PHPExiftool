@@ -28,13 +28,14 @@ class RotationInfoOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation Info Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207032
+             * line : 139293
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RotationInfoOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:RotationInfoOffset',
             'desc' => [
+                'en' => 'Rotation Info Offset',
             ],
         ],
     ];

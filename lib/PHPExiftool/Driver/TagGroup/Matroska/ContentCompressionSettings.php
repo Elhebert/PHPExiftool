@@ -28,13 +28,14 @@ class ContentCompressionSettings extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Compression Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173434
+             * line : 119384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentCompressionSettings extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentCompressionSettings',
             'desc' => [
+                'en' => 'Content Compression Settings',
             ],
         ],
     ];

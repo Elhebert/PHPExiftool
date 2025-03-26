@@ -28,13 +28,14 @@ class WBAdjMagentaGreen extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Magenta Green',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80390
+             * line : 58644
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBAdjMagentaGreen extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:WBAdjMagentaGreen',
             'desc' => [
+                'en' => 'WB Adj Magenta Green',
             ],
         ],
     ];

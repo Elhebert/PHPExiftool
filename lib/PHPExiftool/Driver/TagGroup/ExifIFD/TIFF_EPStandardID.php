@@ -28,13 +28,14 @@ class TIFF_EPStandardID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TIFF-EP Standard ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115515
+             * line : 82981
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TIFF_EPStandardID extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TIFF-EPStandardID',
             'desc' => [
+                'en' => 'TIFF-EP Standard ID',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116785
+             * line : 83449
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TIFF_EPStandardID extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TIFF-EPStandardID',
             'desc' => [
+                'en' => 'TIFF-EP Standard ID',
             ],
         ],
     ];

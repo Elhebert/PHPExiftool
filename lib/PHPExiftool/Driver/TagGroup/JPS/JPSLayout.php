@@ -28,13 +28,14 @@ class JPSLayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPS Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::JPS
-             * line : 152513
+             * line : 104974
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class JPSLayout extends AbstractTagGroup
              */
             'id' => 'JPEG::JPS.JPS:JPSLayout',
             'desc' => [
+                'en' => 'JPS Layout',
             ],
         ],
         1 => [
             /**
              * table_name : JPEG::JPS
-             * line : 152527
+             * line : 104988
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class JPSLayout extends AbstractTagGroup
              */
             'id' => 'JPEG::JPS.JPS:JPSLayout',
             'desc' => [
+                'en' => 'JPS Layout',
             ],
         ],
     ];

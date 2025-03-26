@@ -28,13 +28,14 @@ class RetouchAreaMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404267
+             * line : 287378
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMethod extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaMethod',
             'desc' => [
+                'en' => 'Retouch Area Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class History extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413879
+             * line : 291908
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class History extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:History',
             'desc' => [
+                'en' => 'History',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Summary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Summary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175713
+             * line : 120936
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Summary extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Summary',
             'desc' => [
+                'en' => 'Summary',
             ],
         ],
     ];

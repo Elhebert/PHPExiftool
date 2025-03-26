@@ -28,13 +28,14 @@ class TotalCurrencyAmount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Currency Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170663
+             * line : 116898
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalCurrencyAmount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TotalCurrencyAmount',
             'desc' => [
+                'en' => 'Total Currency Amount',
             ],
         ],
     ];

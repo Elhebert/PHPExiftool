@@ -28,13 +28,14 @@ class SideNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Side Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169862
+             * line : 116205
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SideNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SideNumber',
             'desc' => [
+                'en' => 'Side Number',
             ],
         ],
     ];

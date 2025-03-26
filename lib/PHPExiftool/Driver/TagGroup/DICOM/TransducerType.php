@@ -28,13 +28,14 @@ class TransducerType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transducer Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96301
+             * line : 69709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransducerType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransducerType',
             'desc' => [
+                'en' => 'Transducer Type',
             ],
         ],
     ];

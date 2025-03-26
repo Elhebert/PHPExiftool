@@ -28,13 +28,14 @@ class DoublingMicrovolts extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Doubling Microvolts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156134
+             * line : 107345
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DoublingMicrovolts extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DoublingMicrovolts',
             'desc' => [
+                'en' => 'Doubling Microvolts',
             ],
         ],
     ];

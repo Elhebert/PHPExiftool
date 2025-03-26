@@ -28,13 +28,14 @@ class DCCountryCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106870
+             * line : 79049
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCCountryCode extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCCountryCode',
             'desc' => [
+                'en' => 'DC Country Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskingImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Masking Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97945
+             * line : 71296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskingImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskingImage',
             'desc' => [
+                'en' => 'Masking Image',
             ],
         ],
     ];

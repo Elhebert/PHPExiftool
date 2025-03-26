@@ -28,13 +28,14 @@ class AncillaryResourceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ancillary Resource ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172304
+             * line : 118465
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AncillaryResourceID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AncillaryResourceID',
             'desc' => [
+                'en' => 'Ancillary Resource ID',
             ],
         ],
     ];

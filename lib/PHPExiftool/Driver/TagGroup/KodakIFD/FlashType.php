@@ -28,13 +28,14 @@ class FlashType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154958
+             * line : 106238
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashType extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FlashType',
             'desc' => [
+                'en' => 'Flash Type',
             ],
         ],
     ];

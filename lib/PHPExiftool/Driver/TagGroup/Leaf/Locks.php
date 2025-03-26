@@ -28,13 +28,14 @@ class Locks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Locks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162024
+             * line : 110724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Locks extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:Locks',
             'desc' => [
+                'en' => 'Locks',
             ],
         ],
     ];

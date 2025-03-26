@@ -28,13 +28,14 @@ class DistortionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405a
-             * line : 385598
+             * line : 271725
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405a.Sony:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 388240
+             * line : 274024
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
     ];

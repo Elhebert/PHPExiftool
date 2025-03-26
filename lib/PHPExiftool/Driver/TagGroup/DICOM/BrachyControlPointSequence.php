@@ -28,13 +28,14 @@ class BrachyControlPointSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brachy Control Point Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103705
+             * line : 76794
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrachyControlPointSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BrachyControlPointSequence',
             'desc' => [
+                'en' => 'Brachy Control Point Sequence',
             ],
         ],
     ];

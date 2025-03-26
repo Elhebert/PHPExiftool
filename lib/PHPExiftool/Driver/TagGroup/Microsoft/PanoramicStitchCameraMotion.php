@@ -28,13 +28,14 @@ class PanoramicStitchCameraMotion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panoramic Stitch Camera Motion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Stitch
-             * line : 174254
+             * line : 120014
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramicStitchCameraMotion extends AbstractTagGroup
              */
             'id' => 'Microsoft::Stitch.Microsoft:PanoramicStitchCameraMotion',
             'desc' => [
+                'en' => 'Panoramic Stitch Camera Motion',
             ],
         ],
     ];

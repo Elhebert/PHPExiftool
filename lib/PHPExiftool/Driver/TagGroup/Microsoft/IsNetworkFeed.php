@@ -28,13 +28,14 @@ class IsNetworkFeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Network Feed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174678
+             * line : 120248
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsNetworkFeed extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsNetworkFeed',
             'desc' => [
+                'en' => 'Is Network Feed',
             ],
         ],
     ];

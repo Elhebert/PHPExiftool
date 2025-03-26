@@ -28,13 +28,14 @@ class AudioFrameSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329800
+             * line : 232236
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioFrameSize extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:AudioFrameSize',
             'desc' => [
+                'en' => 'Audio Frame Size',
             ],
         ],
     ];

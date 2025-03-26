@@ -28,13 +28,14 @@ class PrimitivePointIndexList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primitive Point Index List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101211
+             * line : 74361
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimitivePointIndexList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimitivePointIndexList',
             'desc' => [
+                'en' => 'Primitive Point Index List',
             ],
         ],
     ];

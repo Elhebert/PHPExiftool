@@ -28,13 +28,14 @@ class CircGradBasedCorrMaskRangeLumFeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Mask Range Lum Feather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398319
+             * line : 281924
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrMaskRangeLumFeather extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrMaskRangeLumFeather',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Mask Range Lum Feather',
             ],
         ],
     ];

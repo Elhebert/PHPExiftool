@@ -28,13 +28,14 @@ class DensityMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Density Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166948
+             * line : 113637
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DensityMin extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:DensityMin',
             'desc' => [
+                'en' => 'Density Min',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MakerNoteNintendo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Nintendo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104988
+             * line : 77861
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteNintendo extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteNintendo',
             'desc' => [
+                'en' => 'Maker Note Nintendo',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115949
+             * line : 83154
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteNintendo extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteNintendo',
             'desc' => [
+                'en' => 'Maker Note Nintendo',
             ],
         ],
     ];

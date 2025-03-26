@@ -28,13 +28,14 @@ class NegativeCachePath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Negative Cache Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403427
+             * line : 286544
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NegativeCachePath extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:NegativeCachePath',
             'desc' => [
+                'en' => 'Negative Cache Path',
             ],
         ],
     ];

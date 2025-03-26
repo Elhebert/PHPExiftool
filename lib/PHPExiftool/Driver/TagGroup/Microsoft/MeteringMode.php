@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175479
+             * line : 120795
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

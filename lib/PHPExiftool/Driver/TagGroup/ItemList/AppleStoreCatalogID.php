@@ -28,13 +28,14 @@ class AppleStoreCatalogID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Apple Store Catalog ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314162
+             * line : 219775
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AppleStoreCatalogID extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:AppleStoreCatalogID',
             'desc' => [
+                'en' => 'Apple Store Catalog ID',
             ],
         ],
     ];

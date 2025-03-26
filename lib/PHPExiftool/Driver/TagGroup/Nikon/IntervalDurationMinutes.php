@@ -28,13 +28,14 @@ class IntervalDurationMinutes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interval Duration Minutes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199724
+             * line : 134728
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntervalDurationMinutes extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:IntervalDurationMinutes',
             'desc' => [
+                'en' => 'Interval Duration Minutes',
             ],
         ],
     ];

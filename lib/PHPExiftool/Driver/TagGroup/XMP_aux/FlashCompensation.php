@@ -28,13 +28,14 @@ class FlashCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397932
+             * line : 281666
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
     ];

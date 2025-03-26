@@ -28,13 +28,14 @@ class PoseRollDegrees extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pose Roll Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::prhd
-             * line : 326732
+             * line : 230460
              * type : fixed32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PoseRollDegrees extends AbstractTagGroup
              */
             'id' => 'QuickTime::prhd.QuickTime:PoseRollDegrees',
             'desc' => [
+                'en' => 'Pose Roll Degrees',
             ],
         ],
     ];

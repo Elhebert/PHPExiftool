@@ -28,13 +28,14 @@ class ChannelTimeSkew extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Time Skew',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99515
+             * line : 72726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelTimeSkew extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelTimeSkew',
             'desc' => [
+                'en' => 'Channel Time Skew',
             ],
         ],
     ];

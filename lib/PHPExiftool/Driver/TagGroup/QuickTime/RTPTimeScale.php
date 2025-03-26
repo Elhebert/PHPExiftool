@@ -28,13 +28,14 @@ class RTPTimeScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RTP Time Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintSampleDesc
-             * line : 313754
+             * line : 219494
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTPTimeScale extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintSampleDesc.QuickTime:RTPTimeScale',
             'desc' => [
+                'en' => 'RTP Time Scale',
             ],
         ],
     ];

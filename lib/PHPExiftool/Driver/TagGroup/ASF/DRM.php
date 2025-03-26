@@ -28,13 +28,14 @@ class DRM extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1175
+             * line : 484
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM',
             'desc' => [
+                'en' => 'DRM',
             ],
         ],
     ];

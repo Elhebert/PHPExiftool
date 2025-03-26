@@ -28,13 +28,14 @@ class CreatingApplication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creating Application',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124379
+             * line : 86903
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CreatingApplication extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:CreatingApplication',
             'desc' => [
+                'en' => 'Creating Application',
             ],
         ],
         1 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124583
+             * line : 87066
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class CreatingApplication extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:CreatingApplication',
             'desc' => [
+                'en' => 'Creating Application',
             ],
         ],
         2 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127355
+             * line : 88387
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class CreatingApplication extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:CreatingApplication',
             'desc' => [
+                'en' => 'Creating Application',
             ],
         ],
     ];

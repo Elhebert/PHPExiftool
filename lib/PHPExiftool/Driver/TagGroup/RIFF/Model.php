@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Exif
-             * line : 327870
+             * line : 231403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'RIFF::Exif.RIFF:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

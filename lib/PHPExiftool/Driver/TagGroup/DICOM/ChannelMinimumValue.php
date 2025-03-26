@@ -28,13 +28,14 @@ class ChannelMinimumValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Minimum Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104251
+             * line : 77325
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelMinimumValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelMinimumValue',
             'desc' => [
+                'en' => 'Channel Minimum Value',
             ],
         ],
     ];

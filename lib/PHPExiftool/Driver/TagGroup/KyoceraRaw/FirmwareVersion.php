@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160719
+             * line : 109814
              * type : string
              * writable : false
              * count : 10
@@ -42,6 +43,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

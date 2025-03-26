@@ -28,13 +28,14 @@ class PictureControlName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203623
+             * line : 137338
              * type : string
              * writable : true
              * count : 20
@@ -42,12 +43,13 @@ class PictureControlName extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:PictureControlName',
             'desc' => [
+                'en' => 'Picture Control Name',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 203934
+             * line : 137447
              * type : string
              * writable : true
              * count : 20
@@ -55,12 +57,13 @@ class PictureControlName extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:PictureControlName',
             'desc' => [
+                'en' => 'Picture Control Name',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204257
+             * line : 137559
              * type : string
              * writable : true
              * count : 20
@@ -68,6 +71,7 @@ class PictureControlName extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:PictureControlName',
             'desc' => [
+                'en' => 'Picture Control Name',
             ],
         ],
     ];

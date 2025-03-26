@@ -28,13 +28,14 @@ class KelvinWB_Daylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kelvin WB Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::KelvinWB
-             * line : 288430
+             * line : 200076
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class KelvinWB_Daylight extends AbstractTagGroup
              */
             'id' => 'Pentax::KelvinWB.Pentax:KelvinWB_Daylight',
             'desc' => [
+                'en' => 'Kelvin WB Daylight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OwnerAppointmentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Owner Appointment ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395626
+             * line : 280147
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OwnerAppointmentID extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:OwnerAppointmentID',
             'desc' => [
+                'en' => 'Owner Appointment ID',
             ],
         ],
     ];

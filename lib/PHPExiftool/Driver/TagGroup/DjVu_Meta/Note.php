@@ -28,13 +28,14 @@ class Note extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107444
+             * line : 79309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Note extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Note',
             'desc' => [
+                'en' => 'Note',
             ],
         ],
     ];

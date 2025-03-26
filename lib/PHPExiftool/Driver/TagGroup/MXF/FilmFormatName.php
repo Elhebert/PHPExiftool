@@ -28,13 +28,14 @@ class FilmFormatName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Format Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168074
+             * line : 114575
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FilmFormatName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmFormatName',
             'desc' => [
+                'en' => 'Film Format Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169179
+             * line : 115621
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FilmFormatName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmFormatName',
             'desc' => [
+                'en' => 'Film Format Name',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 169182
+             * line : 115624
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FilmFormatName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmFormatName',
             'desc' => [
+                'en' => 'Film Format Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FontFamily extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Font Family',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414496
+             * line : 292456
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FontFamily extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:FontFamily',
             'desc' => [
+                'en' => 'Font Family',
             ],
         ],
     ];

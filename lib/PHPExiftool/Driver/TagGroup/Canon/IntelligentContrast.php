@@ -28,13 +28,14 @@ class IntelligentContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intelligent Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ContrastInfo
-             * line : 63169
+             * line : 48109
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntelligentContrast extends AbstractTagGroup
              */
             'id' => 'Canon::ContrastInfo.Canon:IntelligentContrast',
             'desc' => [
+                'en' => 'Intelligent Contrast',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Main
-             * line : 161889
+             * line : 110601
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewInfo extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:PreviewInfo',
             'desc' => [
+                'en' => 'Preview Info',
             ],
         ],
     ];

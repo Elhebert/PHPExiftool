@@ -28,13 +28,14 @@ class CameraManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174504
+             * line : 120173
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraManufacturer extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CameraManufacturer',
             'desc' => [
+                'en' => 'Camera Manufacturer',
             ],
         ],
     ];

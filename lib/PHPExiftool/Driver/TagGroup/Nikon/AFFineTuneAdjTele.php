@@ -28,13 +28,14 @@ class AFFineTuneAdjTele extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Fine Tune Adj Tele',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFTune
-             * line : 191096
+             * line : 129871
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFFineTuneAdjTele extends AbstractTagGroup
              */
             'id' => 'Nikon::AFTune.Nikon:AFFineTuneAdjTele',
             'desc' => [
+                'en' => 'AF Fine Tune Adj Tele',
             ],
         ],
     ];

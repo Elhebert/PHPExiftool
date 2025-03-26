@@ -28,13 +28,14 @@ class Personality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Personality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397333
+             * line : 281374
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Personality extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:Personality',
             'desc' => [
+                'en' => 'Personality',
             ],
         ],
     ];

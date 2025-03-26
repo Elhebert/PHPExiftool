@@ -28,13 +28,14 @@ class SecondaryCaptureDeviceSoftwareVers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Capture Device Software Vers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95610
+             * line : 69064
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryCaptureDeviceSoftwareVers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryCaptureDeviceSoftwareVers',
             'desc' => [
+                'en' => 'Secondary Capture Device Software Vers',
             ],
         ],
     ];

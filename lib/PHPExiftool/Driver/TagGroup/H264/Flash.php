@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 140633
+             * line : 98069
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

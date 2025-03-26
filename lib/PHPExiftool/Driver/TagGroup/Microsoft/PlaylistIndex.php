@@ -28,13 +28,14 @@ class PlaylistIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Playlist Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174741
+             * line : 120293
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaylistIndex extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PlaylistIndex',
             'desc' => [
+                'en' => 'Playlist Index',
             ],
         ],
     ];

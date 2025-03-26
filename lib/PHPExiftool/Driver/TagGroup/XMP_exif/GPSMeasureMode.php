@@ -28,13 +28,14 @@ class GPSMeasureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Measure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406748
+             * line : 288197
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DoubleExposureMeterset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Double Exposure Meterset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101766
+             * line : 74907
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoubleExposureMeterset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoubleExposureMeterset',
             'desc' => [
+                'en' => 'Double Exposure Meterset',
             ],
         ],
     ];

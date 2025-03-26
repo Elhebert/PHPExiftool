@@ -28,13 +28,14 @@ class FontComposite extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Font Composite',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414490
+             * line : 292450
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FontComposite extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:FontComposite',
             'desc' => [
+                'en' => 'Font Composite',
             ],
         ],
     ];

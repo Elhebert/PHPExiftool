@@ -28,13 +28,14 @@ class Time extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::CuePoint
-             * line : 123872
+             * line : 86630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Time extends AbstractTagGroup
              */
             'id' => 'Flash::CuePoint.Flash:Time',
             'desc' => [
+                'en' => 'Time',
             ],
         ],
     ];

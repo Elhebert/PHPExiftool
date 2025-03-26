@@ -28,13 +28,14 @@ class DRM_DRMHeader_IndividualizedVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM DRM Header Individualized Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1190
+             * line : 499
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_DRMHeader_IndividualizedVersion extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM_DRMHeader_IndividualizedVersion',
             'desc' => [
+                'en' => 'DRM DRM Header Individualized Version',
             ],
         ],
     ];

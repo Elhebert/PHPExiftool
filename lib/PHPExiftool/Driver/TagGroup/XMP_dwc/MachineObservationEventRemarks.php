@@ -28,13 +28,14 @@ class MachineObservationEventRemarks extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Event Remarks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106381
+             * line : 78683
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationEventRemarks extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationEventRemarks',
             'desc' => [
+                'en' => 'Machine Observation Event Remarks',
             ],
         ],
     ];

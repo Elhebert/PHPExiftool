@@ -28,13 +28,14 @@ class AsShotPreProfileMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'As Shot Pre Profile Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120001
+             * line : 84393
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AsShotPreProfileMatrix extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:AsShotPreProfileMatrix',
             'desc' => [
+                'en' => 'As Shot Pre Profile Matrix',
             ],
         ],
     ];

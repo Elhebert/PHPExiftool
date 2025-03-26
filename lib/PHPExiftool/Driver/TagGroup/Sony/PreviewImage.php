@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 353848
+             * line : 246782
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IngredientsAlternatePaths extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Alternate Paths',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413905
+             * line : 291932
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsAlternatePaths extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsAlternatePaths',
             'desc' => [
+                'en' => 'Ingredients Alternate Paths',
             ],
         ],
     ];

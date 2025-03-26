@@ -28,13 +28,14 @@ class MDItemPageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Page Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172936
+             * line : 118996
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemPageWidth extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemPageWidth',
             'desc' => [
+                'en' => 'MD Item Page Width',
             ],
         ],
     ];

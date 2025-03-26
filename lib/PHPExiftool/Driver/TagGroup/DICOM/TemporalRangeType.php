@@ -28,13 +28,14 @@ class TemporalRangeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temporal Range Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100143
+             * line : 73320
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemporalRangeType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemporalRangeType',
             'desc' => [
+                'en' => 'Temporal Range Type',
             ],
         ],
     ];

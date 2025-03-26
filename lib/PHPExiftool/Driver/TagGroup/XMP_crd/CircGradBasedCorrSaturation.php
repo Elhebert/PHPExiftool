@@ -28,13 +28,14 @@ class CircGradBasedCorrSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398664
+             * line : 282269
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrSaturation extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrSaturation',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Saturation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Director extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Director',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323412
+             * line : 228634
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Director extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Director',
             'desc' => [
+                'en' => 'Director',
             ],
         ],
     ];

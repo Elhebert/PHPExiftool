@@ -28,13 +28,14 @@ class PurposeOfReferenceCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purpose Of Reference Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100165
+             * line : 73341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PurposeOfReferenceCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PurposeOfReferenceCodeSequence',
             'desc' => [
+                'en' => 'Purpose Of Reference Code Sequence',
             ],
         ],
     ];

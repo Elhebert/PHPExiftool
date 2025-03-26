@@ -28,13 +28,14 @@ class SidelightStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sidelight Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334229
+             * line : 234309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SidelightStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:SidelightStrength',
             'desc' => [
+                'en' => 'Sidelight Strength',
             ],
         ],
     ];

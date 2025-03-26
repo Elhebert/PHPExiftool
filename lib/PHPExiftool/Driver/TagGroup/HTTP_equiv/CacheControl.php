@@ -28,13 +28,14 @@ class CacheControl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cache Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142845
+             * line : 98646
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CacheControl extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:CacheControl',
             'desc' => [
+                'en' => 'Cache Control',
             ],
         ],
     ];

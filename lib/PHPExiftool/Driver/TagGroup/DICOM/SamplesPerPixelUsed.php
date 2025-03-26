@@ -28,13 +28,14 @@ class SamplesPerPixelUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Samples Per Pixel Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98623
+             * line : 71938
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplesPerPixelUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SamplesPerPixelUsed',
             'desc' => [
+                'en' => 'Samples Per Pixel Used',
             ],
         ],
     ];

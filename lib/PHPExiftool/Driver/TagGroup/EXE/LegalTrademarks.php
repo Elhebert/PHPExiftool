@@ -28,13 +28,14 @@ class LegalTrademarks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Legal Trademarks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109545
+             * line : 80989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LegalTrademarks extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:LegalTrademarks',
             'desc' => [
+                'en' => 'Legal Trademarks',
             ],
         ],
     ];

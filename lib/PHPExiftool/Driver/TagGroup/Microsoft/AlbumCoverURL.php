@@ -28,13 +28,14 @@ class AlbumCoverURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Album Cover URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174971
+             * line : 120479
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AlbumCoverURL extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AlbumCoverURL',
             'desc' => [
+                'en' => 'Album Cover URL',
             ],
         ],
     ];

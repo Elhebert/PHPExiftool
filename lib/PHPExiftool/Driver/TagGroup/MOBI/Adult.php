@@ -28,13 +28,14 @@ class Adult extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Adult',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273542
+             * line : 190754
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Adult extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Adult',
             'desc' => [
+                'en' => 'Adult',
             ],
         ],
     ];

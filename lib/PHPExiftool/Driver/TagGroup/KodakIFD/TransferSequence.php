@@ -28,13 +28,14 @@ class TransferSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transfer Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155090
+             * line : 106340
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransferSequence extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TransferSequence',
             'desc' => [
+                'en' => 'Transfer Sequence',
             ],
         ],
     ];

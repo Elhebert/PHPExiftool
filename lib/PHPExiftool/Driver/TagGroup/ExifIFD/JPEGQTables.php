@@ -28,13 +28,14 @@ class JPEGQTables extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEGQ Tables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112463
+             * line : 82047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGQTables extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JPEGQTables',
             'desc' => [
+                'en' => 'JPEGQ Tables',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RegionAppliedToDimensionsH extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Applied To Dimensions H',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MWG::Regions
-             * line : 167123
+             * line : 113784
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionAppliedToDimensionsH extends AbstractTagGroup
              */
             'id' => 'MWG::Regions.XMP-mwg-rs:RegionAppliedToDimensionsH',
             'desc' => [
+                'en' => 'Region Applied To Dimensions H',
             ],
         ],
     ];

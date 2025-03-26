@@ -28,13 +28,14 @@ class FontName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127767
+             * line : 88711
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
         1 => [
             /**
              * table_name : Font::Main
-             * line : 127816
+             * line : 88742
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'Font::Main.Font:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
         2 => [
             /**
              * table_name : Font::Name
-             * line : 127869
+             * line : 88767
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
         3 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128139
+             * line : 88910
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
     ];

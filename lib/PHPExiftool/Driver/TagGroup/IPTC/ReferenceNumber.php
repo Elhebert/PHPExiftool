@@ -28,13 +28,14 @@ class ReferenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reference Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150086
+             * line : 103901
              * type : digits
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class ReferenceNumber extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ReferenceNumber',
             'desc' => [
+                'en' => 'Reference Number',
             ],
         ],
     ];

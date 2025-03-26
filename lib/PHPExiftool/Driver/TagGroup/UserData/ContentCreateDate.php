@@ -28,13 +28,14 @@ class ContentCreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Content Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325142
+             * line : 229563
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContentCreateDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ContentCreateDate',
             'desc' => [
+                'en' => 'Content Create Date',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325812
+             * line : 229847
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ContentCreateDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ContentCreateDate',
             'desc' => [
+                'en' => 'Content Create Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WBBlueAsShot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Blue As Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 362013
+             * line : 252062
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBBlueAsShot extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:WBBlueAsShot',
             'desc' => [
+                'en' => 'WB Blue As Shot',
             ],
         ],
     ];

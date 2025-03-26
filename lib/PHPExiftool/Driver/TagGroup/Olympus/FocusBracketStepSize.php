@@ -28,13 +28,14 @@ class FocusBracketStepSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Bracket Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250822
+             * line : 173025
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusBracketStepSize extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FocusBracketStepSize',
             'desc' => [
+                'en' => 'Focus Bracket Step Size',
             ],
         ],
     ];

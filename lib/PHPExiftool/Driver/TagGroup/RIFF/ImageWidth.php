@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AVIHeader
-             * line : 326945
+             * line : 230583
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'RIFF::AVIHeader.RIFF:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::VP8
-             * line : 328958
+             * line : 231950
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8.RIFF:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         2 => [
             /**
              * table_name : RIFF::VP8L
-             * line : 329004
+             * line : 231966
              * type : int16u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8L.RIFF:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         3 => [
             /**
              * table_name : RIFF::VP8X
-             * line : 329044
+             * line : 231976
              * type : int32u
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8X.RIFF:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

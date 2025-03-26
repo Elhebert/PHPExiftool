@@ -28,13 +28,14 @@ class CardiacFramingType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Framing Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95682
+             * line : 69130
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacFramingType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacFramingType',
             'desc' => [
+                'en' => 'Cardiac Framing Type',
             ],
         ],
     ];

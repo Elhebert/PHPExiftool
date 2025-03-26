@@ -28,13 +28,14 @@ class EarliestPeriodOrLowestSystem extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earliest Period Or Lowest System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106177
+             * line : 78530
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarliestPeriodOrLowestSystem extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EarliestPeriodOrLowestSystem',
             'desc' => [
+                'en' => 'Earliest Period Or Lowest System',
             ],
         ],
     ];

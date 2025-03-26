@@ -28,13 +28,14 @@ class SpeedZ extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Speed Z',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Main
-             * line : 104513
+             * line : 77567
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpeedZ extends AbstractTagGroup
              */
             'id' => 'DJI::Main.DJI:SpeedZ',
             'desc' => [
+                'en' => 'Speed Z',
             ],
         ],
     ];

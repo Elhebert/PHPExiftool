@@ -28,13 +28,14 @@ class ContentTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94727
+             * line : 68215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentTime',
             'desc' => [
+                'en' => 'Content Time',
             ],
         ],
     ];

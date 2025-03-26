@@ -28,13 +28,14 @@ class ContrastBolusStartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Bolus Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95642
+             * line : 69091
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastBolusStartTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastBolusStartTime',
             'desc' => [
+                'en' => 'Contrast Bolus Start Time',
             ],
         ],
     ];

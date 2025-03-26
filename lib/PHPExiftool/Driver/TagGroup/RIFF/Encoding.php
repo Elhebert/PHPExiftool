@@ -28,13 +28,14 @@ class Encoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AudioFormat
-             * line : 326985
+             * line : 230593
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Encoding extends AbstractTagGroup
              */
             'id' => 'RIFF::AudioFormat.RIFF:Encoding',
             'desc' => [
+                'en' => 'Encoding',
             ],
         ],
     ];

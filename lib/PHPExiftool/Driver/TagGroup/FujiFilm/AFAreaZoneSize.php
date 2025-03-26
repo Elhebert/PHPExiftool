@@ -28,13 +28,14 @@ class AFAreaZoneSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Zone Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FocusSettings
-             * line : 128635
+             * line : 89276
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAreaZoneSize extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FocusSettings.FujiFilm:AFAreaZoneSize',
             'desc' => [
+                'en' => 'AF Area Zone Size',
             ],
         ],
     ];

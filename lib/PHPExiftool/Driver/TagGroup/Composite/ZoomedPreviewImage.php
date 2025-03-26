@@ -28,13 +28,14 @@ class ZoomedPreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zoomed Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93054
+             * line : 67581
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZoomedPreviewImage extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ZoomedPreviewImage',
             'desc' => [
+                'en' => 'Zoomed Preview Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Repeat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Repeat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395483
+             * line : 280044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Repeat extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Repeat',
             'desc' => [
+                'en' => 'Repeat',
             ],
         ],
     ];

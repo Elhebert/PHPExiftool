@@ -28,13 +28,14 @@ class HMColThresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HM Col Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155813
+             * line : 107024
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HMColThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HMColThresh',
             'desc' => [
+                'en' => 'HM Col Thresh',
             ],
         ],
     ];

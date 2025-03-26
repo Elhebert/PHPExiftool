@@ -28,13 +28,14 @@ class LanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::CHM
-             * line : 107554
+             * line : 79359
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LanguageCode extends AbstractTagGroup
              */
             'id' => 'EXE::CHM.EXE:LanguageCode',
             'desc' => [
+                'en' => 'Language Code',
             ],
         ],
         1 => [
             /**
              * table_name : EXE::PEString
-             * line : 109120
+             * line : 80645
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LanguageCode extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:LanguageCode',
             'desc' => [
+                'en' => 'Language Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentDistributor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Content Distributor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175014
+             * line : 120500
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContentDistributor extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ContentDistributor',
             'desc' => [
+                'en' => 'Content Distributor',
             ],
         ],
     ];

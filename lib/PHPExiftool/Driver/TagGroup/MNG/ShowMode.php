@@ -28,13 +28,14 @@ class ShowMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Show Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::ShowObjects
-             * line : 165388
+             * line : 112457
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShowMode extends AbstractTagGroup
              */
             'id' => 'MNG::ShowObjects.MNG:ShowMode',
             'desc' => [
+                'en' => 'Show Mode',
             ],
         ],
     ];

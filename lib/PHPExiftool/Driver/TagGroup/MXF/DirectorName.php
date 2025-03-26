@@ -28,13 +28,14 @@ class DirectorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Director Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168753
+             * line : 115229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DirectorName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DirectorName',
             'desc' => [
+                'en' => 'Director Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpExtra extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extra Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264626
+             * line : 182882
              * type : fixed32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpExtra extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:SpExtra',
             'desc' => [
+                'en' => 'Extra Space',
             ],
         ],
     ];

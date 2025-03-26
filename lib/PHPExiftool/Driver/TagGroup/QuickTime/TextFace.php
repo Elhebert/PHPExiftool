@@ -28,13 +28,14 @@ class TextFace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Face',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TCMediaInfo
-             * line : 324956
+             * line : 229429
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextFace extends AbstractTagGroup
              */
             'id' => 'QuickTime::TCMediaInfo.QuickTime:TextFace',
             'desc' => [
+                'en' => 'Text Face',
             ],
         ],
     ];

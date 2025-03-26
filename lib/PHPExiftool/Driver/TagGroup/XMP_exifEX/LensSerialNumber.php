@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408652
+             * line : 288645
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

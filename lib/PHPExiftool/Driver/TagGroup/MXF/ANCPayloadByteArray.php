@@ -28,13 +28,14 @@ class ANCPayloadByteArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ANC Payload Byte Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172208
+             * line : 118375
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ANCPayloadByteArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ANCPayloadByteArray',
             'desc' => [
+                'en' => 'ANC Payload Byte Array',
             ],
         ],
     ];

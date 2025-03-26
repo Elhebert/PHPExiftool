@@ -28,13 +28,14 @@ class MovieAFTrackingSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie AF Tracking Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238314
+             * line : 161421
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieAFTrackingSensitivity extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieAFTrackingSensitivity',
             'desc' => [
+                'en' => 'Movie AF Tracking Sensitivity',
             ],
         ],
     ];

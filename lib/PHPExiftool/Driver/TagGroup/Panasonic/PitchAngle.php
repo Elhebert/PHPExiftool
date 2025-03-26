@@ -28,13 +28,14 @@ class PitchAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277668
+             * line : 193112
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PitchAngle extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:PitchAngle',
             'desc' => [
+                'en' => 'Pitch Angle',
             ],
         ],
     ];

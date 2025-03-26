@@ -28,13 +28,14 @@ class NumberOfPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104155
+             * line : 77241
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPoints extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfPoints',
             'desc' => [
+                'en' => 'Number Of Points',
             ],
         ],
     ];

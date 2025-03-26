@@ -28,13 +28,14 @@ class PixelAspectRatioX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Aspect Ratio X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174735
+             * line : 120287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelAspectRatioX extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PixelAspectRatioX',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio X',
             ],
         ],
     ];

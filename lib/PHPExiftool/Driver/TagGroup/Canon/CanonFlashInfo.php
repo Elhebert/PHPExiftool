@@ -28,13 +28,14 @@ class CanonFlashInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Canon Flash Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 64560
+             * line : 48897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CanonFlashInfo extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:CanonFlashInfo',
             'desc' => [
+                'en' => 'Canon Flash Info',
             ],
         ],
     ];

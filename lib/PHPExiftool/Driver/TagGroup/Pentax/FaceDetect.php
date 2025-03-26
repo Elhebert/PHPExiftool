@@ -28,13 +28,14 @@ class FaceDetect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300336
+             * line : 209358
              * type : int8u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FaceDetect extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FaceDetect',
             'desc' => [
+                'en' => 'Face Detect',
             ],
         ],
     ];

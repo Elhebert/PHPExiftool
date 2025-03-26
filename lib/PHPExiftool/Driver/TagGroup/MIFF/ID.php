@@ -28,13 +28,14 @@ class ID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164349
+             * line : 111730
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ID extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:ID',
             'desc' => [
+                'en' => 'ID',
             ],
         ],
     ];

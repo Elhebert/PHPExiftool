@@ -28,13 +28,14 @@ class RevisionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142653
+             * line : 98575
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
         1 => [
             /**
              * table_name : HTML::Office
-             * line : 142685
+             * line : 98587
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
     ];

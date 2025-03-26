@@ -28,13 +28,14 @@ class EndTimecode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328530
+             * line : 231678
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndTimecode extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:EndTimecode',
             'desc' => [
+                'en' => 'End Timecode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TMLinePositionX0Retired extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TM Line Position X0 Retired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96325
+             * line : 69733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TMLinePositionX0Retired extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TMLinePositionX0Retired',
             'desc' => [
+                'en' => 'TM Line Position X0 Retired',
             ],
         ],
     ];

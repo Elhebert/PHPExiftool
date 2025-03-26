@@ -28,13 +28,14 @@ class ReasonForStudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reason For Study',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99341
+             * line : 72558
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReasonForStudy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReasonForStudy',
             'desc' => [
+                'en' => 'Reason For Study',
             ],
         ],
     ];

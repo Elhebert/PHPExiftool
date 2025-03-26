@@ -28,13 +28,14 @@ class MariahTextureThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mariah Texture Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156822
+             * line : 108026
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MariahTextureThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MariahTextureThreshold',
             'desc' => [
+                'en' => 'Mariah Texture Threshold',
             ],
         ],
     ];

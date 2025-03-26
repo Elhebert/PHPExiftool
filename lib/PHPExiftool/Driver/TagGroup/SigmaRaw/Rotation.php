@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339373
+             * line : 237517
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Header4
-             * line : 339470
+             * line : 237539
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header4.SigmaRaw:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

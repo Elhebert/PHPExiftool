@@ -28,13 +28,14 @@ class AFPointsUsed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Points Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189771
+             * line : 128818
              * type : undef
              * writable : true
              * count : 7
@@ -42,12 +43,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189780
+             * line : 128821
              * type : undef
              * writable : true
              * count : 2
@@ -55,12 +57,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189870
+             * line : 128865
              * type : undef
              * writable : true
              * count : 5
@@ -68,12 +71,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189879
+             * line : 128868
              * type : undef
              * writable : true
              * count : 17
@@ -81,12 +85,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189888
+             * line : 128871
              * type : undef
              * writable : true
              * count : 21
@@ -94,12 +99,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189897
+             * line : 128874
              * type : undef
              * writable : true
              * count : 29
@@ -107,12 +113,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189906
+             * line : 128877
              * type : undef
              * writable : true
              * count : 20
@@ -120,12 +127,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         7 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189915
+             * line : 128880
              * type : undef
              * writable : true
              * count : 13
@@ -133,12 +141,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         8 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189924
+             * line : 128883
              * type : undef
              * writable : true
              * count : 7
@@ -146,12 +155,13 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
         9 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 189933
+             * line : 128886
              * type : undef
              * writable : true
              * count : 14
@@ -159,6 +169,7 @@ class AFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
             'desc' => [
+                'en' => 'AF Points Used',
             ],
         ],
     ];

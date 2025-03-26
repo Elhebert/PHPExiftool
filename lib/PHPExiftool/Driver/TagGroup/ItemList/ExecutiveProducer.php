@@ -28,13 +28,14 @@ class ExecutiveProducer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Executive Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323175
+             * line : 228510
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExecutiveProducer extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:ExecutiveProducer',
             'desc' => [
+                'en' => 'Executive Producer',
             ],
         ],
     ];

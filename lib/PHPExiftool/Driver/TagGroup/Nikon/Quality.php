@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196626
+             * line : 132845
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209447
+             * line : 141274
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

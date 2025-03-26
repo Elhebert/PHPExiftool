@@ -28,13 +28,14 @@ class ReferenceService extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reference Service',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150064
+             * line : 103895
              * type : string
              * writable : true
              * count : 10
@@ -42,6 +43,7 @@ class ReferenceService extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ReferenceService',
             'desc' => [
+                'en' => 'Reference Service',
             ],
         ],
     ];

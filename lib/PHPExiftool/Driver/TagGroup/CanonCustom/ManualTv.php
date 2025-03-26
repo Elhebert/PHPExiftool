@@ -28,13 +28,14 @@ class ManualTv extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual Tv/Av For M',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 71972
+             * line : 53533
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ManualTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:ManualTv',
             'desc' => [
+                'en' => 'Manual Tv/Av For M',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75065
+             * line : 55294
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ManualTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ManualTv',
             'desc' => [
+                'en' => 'Manual Tv/Av For M',
             ],
         ],
     ];

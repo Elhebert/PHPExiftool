@@ -28,13 +28,14 @@ class JpgFromRawLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Jpg From Raw Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112411
+             * line : 82026
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JpgFromRawLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD2:JpgFromRawLength',
             'desc' => [
+                'en' => 'Jpg From Raw Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IdentifyingComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifying Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95093
+             * line : 68575
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentifyingComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IdentifyingComments',
             'desc' => [
+                'en' => 'Identifying Comments',
             ],
         ],
     ];

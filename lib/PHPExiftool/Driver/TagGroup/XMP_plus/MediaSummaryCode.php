@@ -28,13 +28,14 @@ class MediaSummaryCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Summary Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265763
+             * line : 183728
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaSummaryCode extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:MediaSummaryCode',
             'desc' => [
+                'en' => 'Media Summary Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361540
+             * line : 251788
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

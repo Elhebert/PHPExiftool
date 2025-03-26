@@ -28,13 +28,14 @@ class MultiCoilDefinitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Coil Definition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96617
+             * line : 70021
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiCoilDefinitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiCoilDefinitionSequence',
             'desc' => [
+                'en' => 'Multi Coil Definition Sequence',
             ],
         ],
     ];

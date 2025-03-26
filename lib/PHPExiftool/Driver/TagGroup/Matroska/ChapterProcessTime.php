@@ -28,13 +28,14 @@ class ChapterProcessTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Process Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173817
+             * line : 119716
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterProcessTime extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterProcessTime',
             'desc' => [
+                'en' => 'Chapter Process Time',
             ],
         ],
     ];

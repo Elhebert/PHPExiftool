@@ -28,13 +28,14 @@ class OriginalFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78706
+             * line : 57260
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class OriginalFileName extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:OriginalFileName',
             'desc' => [
+                'en' => 'Original File Name',
             ],
         ],
     ];

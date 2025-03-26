@@ -28,13 +28,14 @@ class DriveSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drive Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161076
+             * line : 109997
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DriveSerialNumber extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:DriveSerialNumber',
             'desc' => [
+                'en' => 'Drive Serial Number',
             ],
         ],
     ];

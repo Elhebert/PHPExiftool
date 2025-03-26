@@ -28,13 +28,14 @@ class TrianglePointIndexList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Triangle Point Index List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101193
+             * line : 74343
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrianglePointIndexList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TrianglePointIndexList',
             'desc' => [
+                'en' => 'Triangle Point Index List',
             ],
         ],
     ];

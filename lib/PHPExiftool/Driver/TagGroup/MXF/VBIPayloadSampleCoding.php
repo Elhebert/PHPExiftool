@@ -28,13 +28,14 @@ class VBIPayloadSampleCoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBI Payload Sample Coding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172211
+             * line : 118378
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBIPayloadSampleCoding extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VBIPayloadSampleCoding',
             'desc' => [
+                'en' => 'VBI Payload Sample Coding',
             ],
         ],
     ];

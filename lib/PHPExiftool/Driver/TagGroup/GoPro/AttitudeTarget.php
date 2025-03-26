@@ -28,13 +28,14 @@ class AttitudeTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attitude Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139405
+             * line : 97576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttitudeTarget extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AttitudeTarget',
             'desc' => [
+                'en' => 'Attitude Target',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ElectronicImageStabilization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Electronic Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139468
+             * line : 97611
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElectronicImageStabilization extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ElectronicImageStabilization',
             'desc' => [
+                'en' => 'Electronic Image Stabilization',
             ],
         ],
     ];

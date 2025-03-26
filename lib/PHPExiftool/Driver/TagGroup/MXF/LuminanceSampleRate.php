@@ -28,13 +28,14 @@ class LuminanceSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Luminance Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167834
+             * line : 114392
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LuminanceSampleRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LuminanceSampleRate',
             'desc' => [
+                'en' => 'Luminance Sample Rate',
             ],
         ],
     ];

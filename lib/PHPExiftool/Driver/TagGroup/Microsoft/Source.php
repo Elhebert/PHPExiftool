@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175995
+             * line : 121095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

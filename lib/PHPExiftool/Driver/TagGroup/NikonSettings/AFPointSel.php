@@ -28,13 +28,14 @@ class AFPointSel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Point Sel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243569
+             * line : 166640
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AFPointSel extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AFPointSel',
             'desc' => [
+                'en' => 'AF Point Sel',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243583
+             * line : 166654
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AFPointSel extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AFPointSel',
             'desc' => [
+                'en' => 'AF Point Sel',
             ],
         ],
     ];

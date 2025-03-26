@@ -28,13 +28,14 @@ class StreamName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330405
+             * line : 232493
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamName extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamName',
             'desc' => [
+                'en' => 'Stream Name',
             ],
         ],
     ];

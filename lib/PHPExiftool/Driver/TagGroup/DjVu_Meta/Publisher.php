@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107462
+             * line : 79321
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

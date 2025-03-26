@@ -28,13 +28,14 @@ class PodcastURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Podcast URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149053
+             * line : 103412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PodcastURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:PodcastURL',
             'desc' => [
+                'en' => 'Podcast URL',
             ],
         ],
     ];

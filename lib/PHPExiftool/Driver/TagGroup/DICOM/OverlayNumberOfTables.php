@@ -28,13 +28,14 @@ class OverlayNumberOfTables extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Number Of Tables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104345
+             * line : 77418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayNumberOfTables extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayNumberOfTables',
             'desc' => [
+                'en' => 'Overlay Number Of Tables',
             ],
         ],
     ];

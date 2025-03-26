@@ -28,13 +28,14 @@ class Sequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169497
+             * line : 115899
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Sequence',
             'desc' => [
+                'en' => 'Sequence',
             ],
         ],
     ];

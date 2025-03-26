@@ -28,13 +28,14 @@ class ImageCropX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Crop X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155000
+             * line : 106250
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageCropX extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageCropX',
             'desc' => [
+                'en' => 'Image Crop X',
             ],
         ],
     ];

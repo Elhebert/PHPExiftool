@@ -28,13 +28,14 @@ class MicroVideoOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Micro Video Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396880
+             * line : 281075
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicroVideoOffset extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:MicroVideoOffset',
             'desc' => [
+                'en' => 'Micro Video Offset',
             ],
         ],
     ];

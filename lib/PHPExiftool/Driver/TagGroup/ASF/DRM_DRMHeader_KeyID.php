@@ -28,13 +28,14 @@ class DRM_DRMHeader_KeyID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM DRM Header Key ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1193
+             * line : 502
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_DRMHeader_KeyID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM_DRMHeader_KeyID',
             'desc' => [
+                'en' => 'DRM DRM Header Key ID',
             ],
         ],
     ];

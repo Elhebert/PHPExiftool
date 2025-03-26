@@ -28,13 +28,14 @@ class RawDevNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260311
+             * line : 179824
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawDevNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevNoiseReduction',
             'desc' => [
+                'en' => 'Raw Dev Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260494
+             * line : 179946
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawDevNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevNoiseReduction',
             'desc' => [
+                'en' => 'Raw Dev Noise Reduction',
             ],
         ],
     ];

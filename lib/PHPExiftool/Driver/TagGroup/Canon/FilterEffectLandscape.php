@@ -28,13 +28,14 @@ class FilterEffectLandscape extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect Landscape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67260
+             * line : 51025
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FilterEffectLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:FilterEffectLandscape',
             'desc' => [
+                'en' => 'Filter Effect Landscape',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68358
+             * line : 51686
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FilterEffectLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:FilterEffectLandscape',
             'desc' => [
+                'en' => 'Filter Effect Landscape',
             ],
         ],
     ];

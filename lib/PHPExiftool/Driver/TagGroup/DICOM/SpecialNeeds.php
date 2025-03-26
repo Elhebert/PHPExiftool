@@ -28,13 +28,14 @@ class SpecialNeeds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Special Needs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99431
+             * line : 72645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecialNeeds extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecialNeeds',
             'desc' => [
+                'en' => 'Special Needs',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InstitutionalDepartmentName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Institutional Department Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94872
+             * line : 68356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstitutionalDepartmentName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstitutionalDepartmentName',
             'desc' => [
+                'en' => 'Institutional Department Name',
             ],
         ],
     ];

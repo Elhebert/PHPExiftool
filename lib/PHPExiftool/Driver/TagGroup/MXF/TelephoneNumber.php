@@ -28,13 +28,14 @@ class TelephoneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Telephone Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168473
+             * line : 114965
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TelephoneNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TelephoneNumber',
             'desc' => [
+                'en' => 'Telephone Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170534
+             * line : 116775
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TelephoneNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TelephoneNumber',
             'desc' => [
+                'en' => 'Telephone Number',
             ],
         ],
     ];

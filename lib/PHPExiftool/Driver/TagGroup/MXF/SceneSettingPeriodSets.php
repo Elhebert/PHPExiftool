@@ -28,13 +28,14 @@ class SceneSettingPeriodSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Setting Period Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171535
+             * line : 117733
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneSettingPeriodSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SceneSettingPeriodSets',
             'desc' => [
+                'en' => 'Scene Setting Period Sets',
             ],
         ],
     ];

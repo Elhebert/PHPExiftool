@@ -28,13 +28,14 @@ class Func4Button extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Func 4 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239412
+             * line : 162488
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Func4Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:Func4Button',
             'desc' => [
+                'en' => 'Func 4 Button',
             ],
         ],
     ];

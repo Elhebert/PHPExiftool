@@ -28,13 +28,14 @@ class TemplateExtensionFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template Extension Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100245
+             * line : 73419
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemplateExtensionFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemplateExtensionFlag',
             'desc' => [
+                'en' => 'Template Extension Flag',
             ],
         ],
     ];

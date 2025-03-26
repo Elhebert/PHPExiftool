@@ -28,13 +28,14 @@ class ChartFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139085
+             * line : 97331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartFormat extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartFormat',
             'desc' => [
+                'en' => 'Chart Format',
             ],
         ],
     ];

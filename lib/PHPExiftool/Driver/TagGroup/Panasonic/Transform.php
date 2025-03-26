@@ -28,13 +28,14 @@ class Transform extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277261
+             * line : 192882
              * type : undef
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class Transform extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Transform',
             'desc' => [
+                'en' => 'Transform',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278670
+             * line : 193783
              * type : undef
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class Transform extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Transform',
             'desc' => [
+                'en' => 'Transform',
             ],
         ],
     ];

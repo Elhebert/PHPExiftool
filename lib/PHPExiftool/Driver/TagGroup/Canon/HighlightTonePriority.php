@@ -28,13 +28,14 @@ class HighlightTonePriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Tone Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 17883
+             * line : 13126
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 23996
+             * line : 18039
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26298
+             * line : 19793
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 28597
+             * line : 21544
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 34999
+             * line : 26740
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 39459
+             * line : 30192
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51532
+             * line : 40066
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::LightingOpt
-             * line : 64261
+             * line : 48766
              * type : int32s
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'Canon::LightingOpt.Canon:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
     ];

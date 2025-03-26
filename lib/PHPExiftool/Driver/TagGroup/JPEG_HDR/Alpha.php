@@ -28,13 +28,14 @@ class Alpha extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152467
+             * line : 104929
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Alpha extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:Alpha',
             'desc' => [
+                'en' => 'Alpha',
             ],
         ],
     ];

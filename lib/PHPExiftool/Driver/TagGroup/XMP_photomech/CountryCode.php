@@ -28,13 +28,14 @@ class CountryCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304921
+             * line : 211946
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CountryCode extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:CountryCode',
             'desc' => [
+                'en' => 'Country Code',
             ],
         ],
     ];

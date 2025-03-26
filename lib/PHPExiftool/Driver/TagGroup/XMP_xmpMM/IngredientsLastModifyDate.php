@@ -28,13 +28,14 @@ class IngredientsLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413920
+             * line : 291947
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsLastModifyDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsLastModifyDate',
             'desc' => [
+                'en' => 'Ingredients Last Modify Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFREnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AFR Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306597
+             * line : 213095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFREnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFREnable',
             'desc' => [
+                'en' => 'AFR Enable',
             ],
         ],
     ];

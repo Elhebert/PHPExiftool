@@ -28,13 +28,14 @@ class LightSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114391
+             * line : 82754
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightSource extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:LightSource',
             'desc' => [
+                'en' => 'Light Source',
             ],
         ],
     ];

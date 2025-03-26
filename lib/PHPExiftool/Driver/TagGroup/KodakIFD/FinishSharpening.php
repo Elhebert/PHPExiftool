@@ -28,13 +28,14 @@ class FinishSharpening extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finish Sharpening',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156278
+             * line : 107482
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinishSharpening extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishSharpening',
             'desc' => [
+                'en' => 'Finish Sharpening',
             ],
         ],
     ];

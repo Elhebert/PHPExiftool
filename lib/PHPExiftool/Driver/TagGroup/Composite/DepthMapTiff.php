@@ -28,13 +28,14 @@ class DepthMapTiff extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth Map Tiff',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93798
+             * line : 67892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthMapTiff extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DepthMapTiff',
             'desc' => [
+                'en' => 'Depth Map Tiff',
             ],
         ],
     ];

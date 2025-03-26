@@ -28,13 +28,14 @@ class ParameterDefinition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parameter Definition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169476
+             * line : 115878
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParameterDefinition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ParameterDefinition',
             'desc' => [
+                'en' => 'Parameter Definition',
             ],
         ],
     ];

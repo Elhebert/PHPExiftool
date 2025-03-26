@@ -28,13 +28,14 @@ class DigitalCreationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150126
+             * line : 103910
              * type : digits
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class DigitalCreationDate extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:DigitalCreationDate',
             'desc' => [
+                'en' => 'Digital Creation Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::MakeModel
-             * line : 79999
+             * line : 58413
              * type : string
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'CanonRaw::MakeModel.CanonRaw:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

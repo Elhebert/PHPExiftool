@@ -28,13 +28,14 @@ class AFPointDisplayDuringFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Display During Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3958
+             * line : 2481
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointDisplayDuringFocus extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFPointDisplayDuringFocus',
             'desc' => [
+                'en' => 'AF Point Display During Focus',
             ],
         ],
     ];

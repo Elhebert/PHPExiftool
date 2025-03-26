@@ -28,13 +28,14 @@ class Conductors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Conductors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175758
+             * line : 120957
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Conductors extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Conductors',
             'desc' => [
+                'en' => 'Conductors',
             ],
         ],
     ];

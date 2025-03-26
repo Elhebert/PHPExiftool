@@ -28,13 +28,14 @@ class MaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196182
+             * line : 132732
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PIC
-             * line : 361221
+             * line : 251691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

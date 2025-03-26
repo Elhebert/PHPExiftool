@@ -28,13 +28,14 @@ class NemoGainFactors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nemo Gain Factors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155575
+             * line : 106787
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NemoGainFactors extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NemoGainFactors',
             'desc' => [
+                'en' => 'Nemo Gain Factors',
             ],
         ],
     ];

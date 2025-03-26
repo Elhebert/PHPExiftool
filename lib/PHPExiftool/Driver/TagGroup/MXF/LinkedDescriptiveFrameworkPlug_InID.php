@@ -28,13 +28,14 @@ class LinkedDescriptiveFrameworkPlug_InID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Descriptive Framework Plug-In ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172427
+             * line : 118588
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedDescriptiveFrameworkPlug_InID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkedDescriptiveFrameworkPlug-InID',
             'desc' => [
+                'en' => 'Linked Descriptive Framework Plug-In ID',
             ],
         ],
     ];

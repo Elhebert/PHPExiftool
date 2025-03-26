@@ -28,13 +28,14 @@ class MRAcqPhaseEncodingStepsInPlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Acq Phase Encoding Steps In Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96913
+             * line : 70315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRAcqPhaseEncodingStepsInPlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRAcqPhaseEncodingStepsInPlane',
             'desc' => [
+                'en' => 'MR Acq Phase Encoding Steps In Plane',
             ],
         ],
     ];

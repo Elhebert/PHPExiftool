@@ -28,13 +28,14 @@ class R2TL84Intervals extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 TL84 Intervals',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 309780
+             * line : 215759
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2TL84Intervals extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2TL84Intervals',
             'desc' => [
+                'en' => 'R2 TL84 Intervals',
             ],
         ],
     ];

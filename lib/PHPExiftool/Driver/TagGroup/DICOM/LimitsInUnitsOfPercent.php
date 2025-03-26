@@ -28,13 +28,14 @@ class LimitsInUnitsOfPercent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limits In Units Of Percent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100321
+             * line : 73494
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitsInUnitsOfPercent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LimitsInUnitsOfPercent',
             'desc' => [
+                'en' => 'Limits In Units Of Percent',
             ],
         ],
     ];

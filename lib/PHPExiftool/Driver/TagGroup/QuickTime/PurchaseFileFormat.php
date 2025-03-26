@@ -28,13 +28,14 @@ class PurchaseFileFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purchase File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Wave
-             * line : 326305
+             * line : 230215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PurchaseFileFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::Wave.QuickTime:PurchaseFileFormat',
             'desc' => [
+                'en' => 'Purchase File Format',
             ],
         ],
     ];

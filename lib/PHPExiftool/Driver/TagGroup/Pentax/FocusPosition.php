@@ -28,13 +28,14 @@ class FocusPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297057
+             * line : 207459
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusPosition extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FocusPosition',
             'desc' => [
+                'en' => 'Focus Position',
             ],
         ],
     ];

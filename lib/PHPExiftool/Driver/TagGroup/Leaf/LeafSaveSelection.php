@@ -28,13 +28,14 @@ class LeafSaveSelection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leaf Save Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161970
+             * line : 110672
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeafSaveSelection extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:LeafSaveSelection',
             'desc' => [
+                'en' => 'Leaf Save Selection',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SigningAuthority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signing Authority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264364
+             * line : 182729
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigningAuthority extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:SigningAuthority',
             'desc' => [
+                'en' => 'Signing Authority',
             ],
         ],
     ];

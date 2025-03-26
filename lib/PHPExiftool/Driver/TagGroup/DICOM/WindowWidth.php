@@ -28,13 +28,14 @@ class WindowWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98916
+             * line : 72186
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WindowWidth',
             'desc' => [
+                'en' => 'Window Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintCorrectionExposure2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Exposure 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403817
+             * line : 286934
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionExposure2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionExposure2012',
             'desc' => [
+                'en' => 'Paint Correction Exposure 2012',
             ],
         ],
     ];

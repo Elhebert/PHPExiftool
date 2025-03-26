@@ -28,13 +28,14 @@ class RoundingLaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rounding Law',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168009
+             * line : 114515
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RoundingLaw extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoundingLaw',
             'desc' => [
+                'en' => 'Rounding Law',
             ],
         ],
     ];

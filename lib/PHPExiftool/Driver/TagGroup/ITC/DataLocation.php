@@ -28,13 +28,14 @@ class DataLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ITC::Item
-             * line : 152122
+             * line : 104767
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class DataLocation extends AbstractTagGroup
              */
             'id' => 'ITC::Item.ITC:DataLocation',
             'desc' => [
+                'en' => 'Data Location',
             ],
         ],
     ];

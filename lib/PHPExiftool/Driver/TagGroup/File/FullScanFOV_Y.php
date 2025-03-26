@@ -28,13 +28,14 @@ class FullScanFOV_Y extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Full Scan FOV Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166694
+             * line : 113432
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FullScanFOV_Y extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:FullScanFOV_Y',
             'desc' => [
+                'en' => 'Full Scan FOV Y',
             ],
         ],
     ];

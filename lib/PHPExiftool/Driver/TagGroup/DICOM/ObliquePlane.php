@@ -28,13 +28,14 @@ class ObliquePlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oblique Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98528
+             * line : 71860
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObliquePlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ObliquePlane',
             'desc' => [
+                'en' => 'Oblique Plane',
             ],
         ],
     ];

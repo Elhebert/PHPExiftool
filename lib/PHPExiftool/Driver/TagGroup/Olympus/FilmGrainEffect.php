@@ -28,13 +28,14 @@ class FilmGrainEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Film Grain Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252772
+             * line : 174239
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilmGrainEffect extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FilmGrainEffect',
             'desc' => [
+                'en' => 'Film Grain Effect',
             ],
         ],
     ];

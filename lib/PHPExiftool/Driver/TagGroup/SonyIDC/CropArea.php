@@ -28,13 +28,14 @@ class CropArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394438
+             * line : 279422
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class CropArea extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:CropArea',
             'desc' => [
+                'en' => 'Crop Area',
             ],
         ],
     ];

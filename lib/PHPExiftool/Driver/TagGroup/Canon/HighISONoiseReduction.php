@@ -28,13 +28,14 @@ class HighISONoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24599
+             * line : 18247
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26901
+             * line : 20001
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35606
+             * line : 26951
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 52033
+             * line : 40235
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::LightingOpt
-             * line : 64344
+             * line : 48791
              * type : int32s
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Canon::LightingOpt.Canon:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
     ];

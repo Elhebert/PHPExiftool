@@ -28,13 +28,14 @@ class IntelligentD_Range extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intelligent D-Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277482
+             * line : 192991
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntelligentD_Range extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:IntelligentD-Range',
             'desc' => [
+                'en' => 'Intelligent D-Range',
             ],
         ],
     ];

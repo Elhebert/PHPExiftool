@@ -28,13 +28,14 @@ class PreAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pre AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FocusSettings
-             * line : 128593
+             * line : 89243
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreAF extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FocusSettings.FujiFilm:PreAF',
             'desc' => [
+                'en' => 'Pre AF',
             ],
         ],
     ];

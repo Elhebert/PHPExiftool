@@ -28,13 +28,14 @@ class HeightResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Height Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118574
+             * line : 83972
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeightResolution extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:HeightResolution',
             'desc' => [
+                'en' => 'Height Resolution',
             ],
         ],
     ];

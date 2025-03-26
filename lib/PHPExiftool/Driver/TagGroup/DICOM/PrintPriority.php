@@ -28,13 +28,14 @@ class PrintPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101986
+             * line : 75126
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintPriority extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrintPriority',
             'desc' => [
+                'en' => 'Print Priority',
             ],
         ],
     ];

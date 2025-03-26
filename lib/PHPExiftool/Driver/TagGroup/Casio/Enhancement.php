@@ -28,13 +28,14 @@ class Enhancement extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Enhancement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84914
+             * line : 61832
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Enhancement extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:Enhancement',
             'desc' => [
+                'en' => 'Enhancement',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 89592
+             * line : 64786
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Enhancement extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:Enhancement',
             'desc' => [
+                'en' => 'Enhancement',
             ],
         ],
     ];

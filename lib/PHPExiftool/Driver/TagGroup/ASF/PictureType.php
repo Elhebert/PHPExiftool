@@ -28,13 +28,14 @@ class PictureType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Picture
-             * line : 1899
+             * line : 981
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureType extends AbstractTagGroup
              */
             'id' => 'ASF::Picture.ASF:PictureType',
             'desc' => [
+                'en' => 'Picture Type',
             ],
         ],
     ];

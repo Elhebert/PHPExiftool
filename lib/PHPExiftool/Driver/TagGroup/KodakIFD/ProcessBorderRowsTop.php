@@ -28,13 +28,14 @@ class ProcessBorderRowsTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Process Border Rows Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156053
+             * line : 107264
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProcessBorderRowsTop extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ProcessBorderRowsTop',
             'desc' => [
+                'en' => 'Process Border Rows Top',
             ],
         ],
     ];

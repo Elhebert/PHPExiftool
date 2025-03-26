@@ -28,13 +28,14 @@ class AnchorPointAnnotationUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anchor Point Annotation Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101241
+             * line : 74391
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnchorPointAnnotationUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnchorPointAnnotationUnits',
             'desc' => [
+                'en' => 'Anchor Point Annotation Units',
             ],
         ],
     ];

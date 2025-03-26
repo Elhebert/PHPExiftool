@@ -28,13 +28,14 @@ class ToneScale3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Scale 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156416
+             * line : 107620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneScale3 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ToneScale3',
             'desc' => [
+                'en' => 'Tone Scale 3',
             ],
         ],
     ];

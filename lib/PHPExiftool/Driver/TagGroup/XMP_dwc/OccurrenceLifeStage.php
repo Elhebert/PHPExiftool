@@ -28,13 +28,14 @@ class OccurrenceLifeStage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Life Stage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106537
+             * line : 78800
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceLifeStage extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceLifeStage',
             'desc' => [
+                'en' => 'Occurrence Life Stage',
             ],
         ],
     ];

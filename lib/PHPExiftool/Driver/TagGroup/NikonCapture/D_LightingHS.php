@@ -28,13 +28,14 @@ class D_LightingHS extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'D-Lighting HS',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210842
+             * line : 141852
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class D_LightingHS extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:D-LightingHS',
             'desc' => [
+                'en' => 'D-Lighting HS',
             ],
         ],
     ];

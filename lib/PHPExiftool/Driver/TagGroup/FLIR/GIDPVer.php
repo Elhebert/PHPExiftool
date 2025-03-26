@@ -28,13 +28,14 @@ class GIDPVer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GIDP Ver',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123626
+             * line : 86427
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GIDPVer extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:GIDPVer',
             'desc' => [
+                'en' => 'GIDP Ver',
             ],
         ],
     ];

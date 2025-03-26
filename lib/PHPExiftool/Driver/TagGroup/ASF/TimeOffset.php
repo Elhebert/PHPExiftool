@@ -28,13 +28,14 @@ class TimeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::StreamProperties
-             * line : 2089
+             * line : 1099
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeOffset extends AbstractTagGroup
              */
             'id' => 'ASF::StreamProperties.ASF:TimeOffset',
             'desc' => [
+                'en' => 'Time Offset',
             ],
         ],
     ];

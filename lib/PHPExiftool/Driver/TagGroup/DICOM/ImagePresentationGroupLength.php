@@ -28,13 +28,14 @@ class ImagePresentationGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Presentation Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98602
+             * line : 71932
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePresentationGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePresentationGroupLength',
             'desc' => [
+                'en' => 'Image Presentation Group Length',
             ],
         ],
     ];

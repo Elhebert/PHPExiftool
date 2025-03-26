@@ -28,13 +28,14 @@ class ContentCreatorIDCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Creator ID Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101342
+             * line : 74490
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentCreatorIDCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentCreatorIDCodeSequence',
             'desc' => [
+                'en' => 'Content Creator ID Code Sequence',
             ],
         ],
     ];

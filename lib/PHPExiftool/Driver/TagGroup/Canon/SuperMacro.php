@@ -28,13 +28,14 @@ class SuperMacro extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Super Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65723
+             * line : 49975
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SuperMacro extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:SuperMacro',
             'desc' => [
+                'en' => 'Super Macro',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ParentMediaEventID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parent Media Event ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397325
+             * line : 281368
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParentMediaEventID extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:ParentMediaEventID',
             'desc' => [
+                'en' => 'Parent Media Event ID',
             ],
         ],
     ];

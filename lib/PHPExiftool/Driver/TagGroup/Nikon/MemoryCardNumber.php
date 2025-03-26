@@ -28,13 +28,14 @@ class MemoryCardNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Memory Card Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FileInfo
-             * line : 192318
+             * line : 130298
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MemoryCardNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::FileInfo.Nikon:MemoryCardNumber',
             'desc' => [
+                'en' => 'Memory Card Number',
             ],
         ],
     ];

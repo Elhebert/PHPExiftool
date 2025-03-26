@@ -28,13 +28,14 @@ class YStage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Stage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166440
+             * line : 113181
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YStage extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:YStage',
             'desc' => [
+                'en' => 'Y Stage',
             ],
         ],
     ];

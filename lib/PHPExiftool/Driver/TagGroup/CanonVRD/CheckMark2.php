@@ -28,13 +28,14 @@ class CheckMark2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Check Mark 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83638
+             * line : 61296
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CheckMark2 extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CheckMark2',
             'desc' => [
+                'en' => 'Check Mark 2',
             ],
         ],
     ];

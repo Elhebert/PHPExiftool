@@ -28,13 +28,14 @@ class PhotometricInterpretation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photometric Interpretation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412006
+             * line : 290741
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotometricInterpretation extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:PhotometricInterpretation',
             'desc' => [
+                'en' => 'Photometric Interpretation',
             ],
         ],
     ];

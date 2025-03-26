@@ -28,13 +28,14 @@ class RAFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RAF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121524
+             * line : 85241
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RAFVersion extends AbstractTagGroup
              */
             'id' => 'Extra.File:RAFVersion',
             'desc' => [
+                'en' => 'RAF Version',
             ],
         ],
     ];

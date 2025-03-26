@@ -28,13 +28,14 @@ class CFAPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405098
+             * line : 287802
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAPattern extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:CFAPattern',
             'desc' => [
+                'en' => 'CFA Pattern',
             ],
         ],
     ];

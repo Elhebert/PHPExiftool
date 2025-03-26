@@ -28,13 +28,14 @@ class FramePixelShiftSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Pixel Shift Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99201
+             * line : 72420
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramePixelShiftSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FramePixelShiftSequence',
             'desc' => [
+                'en' => 'Frame Pixel Shift Sequence',
             ],
         ],
     ];

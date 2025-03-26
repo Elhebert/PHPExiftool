@@ -28,13 +28,14 @@ class CXF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CXF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146030
+             * line : 101508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CXF extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:CXF',
             'desc' => [
+                'en' => 'CXF',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CropYViewpointNumber2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crop Y Viewpoint Number 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::CropY
-             * line : 394561
+             * line : 279511
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CropYViewpointNumber2 extends AbstractTagGroup
              */
             'id' => 'Stim::CropY.Stim:CropYViewpointNumber2',
             'desc' => [
+                'en' => 'Crop Y Viewpoint Number 2',
             ],
         ],
     ];

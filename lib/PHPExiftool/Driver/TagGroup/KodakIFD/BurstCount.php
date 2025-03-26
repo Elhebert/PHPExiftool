@@ -28,13 +28,14 @@ class BurstCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154904
+             * line : 106196
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstCount extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BurstCount',
             'desc' => [
+                'en' => 'Burst Count',
             ],
         ],
     ];

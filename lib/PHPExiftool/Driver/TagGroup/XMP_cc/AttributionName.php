@@ -28,13 +28,14 @@ class AttributionName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Attribution Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398072
+             * line : 281712
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AttributionName extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:AttributionName',
             'desc' => [
+                'en' => 'Attribution Name',
             ],
         ],
     ];

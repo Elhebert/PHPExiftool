@@ -28,13 +28,14 @@ class ReleaseButtonToUseDial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Release Button To Use Dial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244725
+             * line : 167544
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReleaseButtonToUseDial extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ReleaseButtonToUseDial',
             'desc' => [
+                'en' => 'Release Button To Use Dial',
             ],
         ],
     ];

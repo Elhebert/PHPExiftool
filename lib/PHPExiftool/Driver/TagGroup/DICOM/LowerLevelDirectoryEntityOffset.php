@@ -28,13 +28,14 @@ class LowerLevelDirectoryEntityOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lower Level Directory Entity Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94616
+             * line : 68116
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LowerLevelDirectoryEntityOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LowerLevelDirectoryEntityOffset',
             'desc' => [
+                'en' => 'Lower Level Directory Entity Offset',
             ],
         ],
     ];

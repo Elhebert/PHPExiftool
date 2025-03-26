@@ -28,13 +28,14 @@ class DigitalReceiverGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Receiver Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97619
+             * line : 71002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalReceiverGain extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitalReceiverGain',
             'desc' => [
+                'en' => 'Digital Receiver Gain',
             ],
         ],
     ];

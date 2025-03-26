@@ -28,13 +28,14 @@ class AuthorIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3738
+             * line : 2284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthorIdentifier extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:AuthorIdentifier',
             'desc' => [
+                'en' => 'Author Identifier',
             ],
         ],
     ];

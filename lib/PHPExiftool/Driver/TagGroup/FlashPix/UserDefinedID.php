@@ -28,13 +28,14 @@ class UserDefinedID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Defined ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124935
+             * line : 87285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserDefinedID extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:UserDefinedID',
             'desc' => [
+                'en' => 'User Defined ID',
             ],
         ],
     ];

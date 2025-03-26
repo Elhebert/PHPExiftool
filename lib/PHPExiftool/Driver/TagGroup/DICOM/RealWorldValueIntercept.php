@@ -28,13 +28,14 @@ class RealWorldValueIntercept extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Real World Value Intercept',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100044
+             * line : 73245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RealWorldValueIntercept extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RealWorldValueIntercept',
             'desc' => [
+                'en' => 'Real World Value Intercept',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageDataTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Data Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97376
+             * line : 70771
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageDataTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageDataTypeSequence',
             'desc' => [
+                'en' => 'Image Data Type Sequence',
             ],
         ],
     ];

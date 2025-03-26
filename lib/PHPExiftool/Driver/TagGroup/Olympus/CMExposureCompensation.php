@@ -28,13 +28,14 @@ class CMExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CM Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261221
+             * line : 180308
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CMExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CMExposureCompensation',
             'desc' => [
+                'en' => 'CM Exposure Compensation',
             ],
         ],
     ];

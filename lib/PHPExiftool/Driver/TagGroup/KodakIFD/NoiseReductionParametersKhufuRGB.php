@@ -28,13 +28,14 @@ class NoiseReductionParametersKhufuRGB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Parameters Khufu RGB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156630
+             * line : 107834
              * type : int16u
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class NoiseReductionParametersKhufuRGB extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NoiseReductionParametersKhufuRGB',
             'desc' => [
+                'en' => 'Noise Reduction Parameters Khufu RGB',
             ],
         ],
     ];

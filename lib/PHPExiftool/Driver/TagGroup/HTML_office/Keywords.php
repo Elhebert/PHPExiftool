@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142591
+             * line : 98551
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Filter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331554
+             * line : 233070
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Filter extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:Filter',
             'desc' => [
+                'en' => 'Filter',
             ],
         ],
     ];

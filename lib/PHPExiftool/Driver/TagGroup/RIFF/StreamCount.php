@@ -28,13 +28,14 @@ class StreamCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AVIHeader
-             * line : 326942
+             * line : 230580
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamCount extends AbstractTagGroup
              */
             'id' => 'RIFF::AVIHeader.RIFF:StreamCount',
             'desc' => [
+                'en' => 'Stream Count',
             ],
         ],
     ];

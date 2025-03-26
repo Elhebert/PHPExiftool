@@ -28,13 +28,14 @@ class EndNumberForEnhancedScans extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Number For Enhanced Scans',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97428
+             * line : 70816
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndNumberForEnhancedScans extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EndNumberForEnhancedScans',
             'desc' => [
+                'en' => 'End Number For Enhanced Scans',
             ],
         ],
     ];

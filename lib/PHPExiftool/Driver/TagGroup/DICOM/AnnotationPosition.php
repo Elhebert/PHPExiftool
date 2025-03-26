@@ -28,13 +28,14 @@ class AnnotationPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102165
+             * line : 75294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnnotationPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnnotationPosition',
             'desc' => [
+                'en' => 'Annotation Position',
             ],
         ],
     ];

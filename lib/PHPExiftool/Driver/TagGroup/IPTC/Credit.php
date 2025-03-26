@@ -28,13 +28,14 @@ class Credit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Credit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150347
+             * line : 103963
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class Credit extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Credit',
             'desc' => [
+                'en' => 'Credit',
             ],
         ],
     ];

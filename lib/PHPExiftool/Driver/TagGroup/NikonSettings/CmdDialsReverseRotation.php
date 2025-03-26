@@ -28,13 +28,14 @@ class CmdDialsReverseRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cmd Dials Reverse Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244990
+             * line : 167749
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CmdDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsReverseRotation',
             'desc' => [
+                'en' => 'Cmd Dials Reverse Rotation',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245001
+             * line : 167760
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CmdDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsReverseRotation',
             'desc' => [
+                'en' => 'Cmd Dials Reverse Rotation',
             ],
         ],
     ];

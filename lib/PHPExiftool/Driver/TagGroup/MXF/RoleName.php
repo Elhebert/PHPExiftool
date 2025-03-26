@@ -28,13 +28,14 @@ class RoleName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Role Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167553
+             * line : 114168
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RoleName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoleName',
             'desc' => [
+                'en' => 'Role Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170036
+             * line : 116361
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RoleName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoleName',
             'desc' => [
+                'en' => 'Role Name',
             ],
         ],
     ];

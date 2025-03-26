@@ -28,13 +28,14 @@ class ModeFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mode Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rights
-             * line : 324369
+             * line : 229159
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModeFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rights.QuickTime:ModeFlags',
             'desc' => [
+                'en' => 'Mode Flags',
             ],
         ],
     ];

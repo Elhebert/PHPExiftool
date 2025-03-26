@@ -28,13 +28,14 @@ class RollAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166386
+             * line : 113135
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChannelHandle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Handle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168797
+             * line : 115271
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelHandle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ChannelHandle',
             'desc' => [
+                'en' => 'Channel Handle',
             ],
         ],
     ];

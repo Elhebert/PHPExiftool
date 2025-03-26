@@ -28,13 +28,14 @@ class FrameWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130930
+             * line : 90434
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameWidth extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FrameWidth',
             'desc' => [
+                'en' => 'Frame Width',
             ],
         ],
     ];

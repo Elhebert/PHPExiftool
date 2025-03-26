@@ -28,13 +28,14 @@ class GPSLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GPS360Fly
-             * line : 313129
+             * line : 218959
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::GPS360Fly.QuickTime:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::RVMI_gReV
-             * line : 324280
+             * line : 229130
              * type : int32s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::RVMI_gReV.QuickTime:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324629
+             * line : 229323
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         3 => [
             /**
              * table_name : QuickTime::camm5
-             * line : 326352
+             * line : 230260
              * type : double
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm5.QuickTime:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         4 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326477
+             * line : 230290
              * type : double
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         5 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326786
+             * line : 230489
              * type : ?
              * writable : false
              * count :
@@ -107,6 +113,7 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
     ];

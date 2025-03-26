@@ -28,13 +28,14 @@ class IntergraphMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intergraph Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113167
+             * line : 82350
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntergraphMatrix extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:IntergraphMatrix',
             'desc' => [
+                'en' => 'Intergraph Matrix',
             ],
         ],
     ];

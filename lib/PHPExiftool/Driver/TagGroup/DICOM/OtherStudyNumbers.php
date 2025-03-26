@@ -28,13 +28,14 @@ class OtherStudyNumbers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Study Numbers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97991
+             * line : 71338
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherStudyNumbers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OtherStudyNumbers',
             'desc' => [
+                'en' => 'Other Study Numbers',
             ],
         ],
     ];

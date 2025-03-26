@@ -28,13 +28,14 @@ class UnknownEXIF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown EXIF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328630
+             * line : 231740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnknownEXIF extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:UnknownEXIF',
             'desc' => [
+                'en' => 'Unknown EXIF',
             ],
         ],
     ];

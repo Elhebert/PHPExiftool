@@ -28,13 +28,14 @@ class Macro extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 682
+             * line : 260
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Macro extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:Macro',
             'desc' => [
+                'en' => 'Macro',
             ],
         ],
     ];

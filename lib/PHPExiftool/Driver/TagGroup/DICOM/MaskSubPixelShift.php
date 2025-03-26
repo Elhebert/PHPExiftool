@@ -28,13 +28,14 @@ class MaskSubPixelShift extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Sub Pixel Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99159
+             * line : 72378
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskSubPixelShift extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskSubPixelShift',
             'desc' => [
+                'en' => 'Mask Sub Pixel Shift',
             ],
         ],
     ];

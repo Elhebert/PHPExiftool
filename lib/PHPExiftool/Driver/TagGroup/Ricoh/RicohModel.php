@@ -28,13 +28,14 @@ class RicohModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ricoh Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Type2
-             * line : 333846
+             * line : 234086
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RicohModel extends AbstractTagGroup
              */
             'id' => 'Ricoh::Type2.Ricoh:RicohModel',
             'desc' => [
+                'en' => 'Ricoh Model',
             ],
         ],
     ];

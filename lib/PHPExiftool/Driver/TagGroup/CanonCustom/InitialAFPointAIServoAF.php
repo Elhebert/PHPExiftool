@@ -28,13 +28,14 @@ class InitialAFPointAIServoAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial AF Point AI Servo AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74425
+             * line : 54939
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialAFPointAIServoAF extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:InitialAFPointAIServoAF',
             'desc' => [
+                'en' => 'Initial AF Point AI Servo AF',
             ],
         ],
     ];

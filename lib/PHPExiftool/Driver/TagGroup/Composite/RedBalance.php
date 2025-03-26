@@ -28,13 +28,14 @@ class RedBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90465
+             * line : 65197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedBalance extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:RedBalance',
             'desc' => [
+                'en' => 'Red Balance',
             ],
         ],
     ];

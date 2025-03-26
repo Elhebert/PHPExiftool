@@ -28,13 +28,14 @@ class Creator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107279
+             * line : 79249
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Creator extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Creator',
             'desc' => [
+                'en' => 'Creator',
             ],
         ],
     ];

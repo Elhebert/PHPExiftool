@@ -28,13 +28,14 @@ class SourceToBlockTrayDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source To Block Tray Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103287
+             * line : 76383
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceToBlockTrayDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceToBlockTrayDistance',
             'desc' => [
+                'en' => 'Source To Block Tray Distance',
             ],
         ],
     ];

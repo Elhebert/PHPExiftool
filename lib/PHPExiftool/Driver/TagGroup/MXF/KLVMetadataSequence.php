@@ -28,13 +28,14 @@ class KLVMetadataSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KLV Metadata Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171682
+             * line : 117874
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KLVMetadataSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KLVMetadataSequence',
             'desc' => [
+                'en' => 'KLV Metadata Sequence',
             ],
         ],
     ];

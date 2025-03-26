@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274900
+             * line : 191649
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PanoramicStitchVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panoramic Stitch Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Stitch
-             * line : 174251
+             * line : 120011
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramicStitchVersion extends AbstractTagGroup
              */
             'id' => 'Microsoft::Stitch.Microsoft:PanoramicStitchVersion',
             'desc' => [
+                'en' => 'Panoramic Stitch Version',
             ],
         ],
     ];

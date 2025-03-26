@@ -28,13 +28,14 @@ class TimeCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157764
+             * line : 108692
              * type : int8u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class TimeCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:TimeCreated',
             'desc' => [
+                'en' => 'Time Created',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type3
-             * line : 160030
+             * line : 109614
              * type : int8u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class TimeCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::Type3.Kodak:TimeCreated',
             'desc' => [
+                'en' => 'Time Created',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SensorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303377
+             * line : 210828
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
     ];

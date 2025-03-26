@@ -28,13 +28,14 @@ class NamespacePrefixes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Namespace Prefixes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171899
+             * line : 118084
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NamespacePrefixes extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NamespacePrefixes',
             'desc' => [
+                'en' => 'Namespace Prefixes',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171902
+             * line : 118087
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NamespacePrefixes extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NamespacePrefixes',
             'desc' => [
+                'en' => 'Namespace Prefixes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PublishDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publish Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273478
+             * line : 190721
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PublishDate extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:PublishDate',
             'desc' => [
+                'en' => 'Publish Date',
             ],
         ],
     ];

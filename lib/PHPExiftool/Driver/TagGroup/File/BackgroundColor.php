@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PGF::Main
-             * line : 264594
+             * line : 182857
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

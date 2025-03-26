@@ -28,13 +28,14 @@ class NumberOfStudyRelatedSeries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Study Related Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98003
+             * line : 71350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfStudyRelatedSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfStudyRelatedSeries',
             'desc' => [
+                'en' => 'Number Of Study Related Series',
             ],
         ],
     ];

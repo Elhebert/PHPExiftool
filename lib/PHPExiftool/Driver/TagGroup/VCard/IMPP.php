@@ -28,13 +28,14 @@ class IMPP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IMPP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395134
+             * line : 279878
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IMPP extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:IMPP',
             'desc' => [
+                'en' => 'IMPP',
             ],
         ],
     ];

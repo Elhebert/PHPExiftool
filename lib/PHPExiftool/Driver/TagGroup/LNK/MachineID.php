@@ -28,13 +28,14 @@ class MachineID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Machine ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::TrackerData
-             * line : 161575
+             * line : 110380
              * type : var_string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MachineID extends AbstractTagGroup
              */
             'id' => 'LNK::TrackerData.LNK:MachineID',
             'desc' => [
+                'en' => 'Machine ID',
             ],
         ],
     ];

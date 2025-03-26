@@ -28,13 +28,14 @@ class OriginalMedia extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Media',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165880
+             * line : 112795
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalMedia extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:OriginalMedia',
             'desc' => [
+                'en' => 'Original Media',
             ],
         ],
     ];

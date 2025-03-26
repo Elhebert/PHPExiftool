@@ -28,13 +28,14 @@ class MediaIsPremiere extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Premiere',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396052
+             * line : 280362
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsPremiere extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsPremiere',
             'desc' => [
+                'en' => 'Media Is Premiere',
             ],
         ],
     ];

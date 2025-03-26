@@ -28,13 +28,14 @@ class BeamTaskSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Task Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101745
+             * line : 74886
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamTaskSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamTaskSequence',
             'desc' => [
+                'en' => 'Beam Task Sequence',
             ],
         ],
     ];

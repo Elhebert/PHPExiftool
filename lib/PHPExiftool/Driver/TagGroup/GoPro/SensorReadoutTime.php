@@ -28,13 +28,14 @@ class SensorReadoutTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Readout Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139777
+             * line : 97752
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorReadoutTime extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:SensorReadoutTime',
             'desc' => [
+                'en' => 'Sensor Readout Time',
             ],
         ],
     ];

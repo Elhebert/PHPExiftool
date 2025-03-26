@@ -28,13 +28,14 @@ class PS2CRDVMSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PS2 CRDVM Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146546
+             * line : 101853
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PS2CRDVMSize extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:PS2CRDVMSize',
             'desc' => [
+                'en' => 'PS2 CRDVM Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Artist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395682
+             * line : 280184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Artist extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Artist',
             'desc' => [
+                'en' => 'Artist',
             ],
         ],
     ];

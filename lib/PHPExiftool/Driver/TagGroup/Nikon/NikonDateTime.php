@@ -28,13 +28,14 @@ class NikonDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nikon Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202259
+             * line : 136944
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NikonDateTime extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:NikonDateTime',
             'desc' => [
+                'en' => 'Nikon Date Time',
             ],
         ],
     ];

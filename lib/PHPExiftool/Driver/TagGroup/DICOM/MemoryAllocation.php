@@ -28,13 +28,14 @@ class MemoryAllocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Memory Allocation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101999
+             * line : 75138
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MemoryAllocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MemoryAllocation',
             'desc' => [
+                'en' => 'Memory Allocation',
             ],
         ],
     ];

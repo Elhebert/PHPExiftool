@@ -28,13 +28,14 @@ class MeasuredEV3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measured EV 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 17913
+             * line : 13140
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasuredEV3 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:MeasuredEV3',
             'desc' => [
+                'en' => 'Measured EV 3',
             ],
         ],
     ];

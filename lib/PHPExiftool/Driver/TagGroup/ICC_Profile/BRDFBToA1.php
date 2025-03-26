@@ -28,13 +28,14 @@ class BRDFBToA1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BRDFB To A1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146096
+             * line : 101568
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BRDFBToA1 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:BRDFBToA1',
             'desc' => [
+                'en' => 'BRDFB To A1',
             ],
         ],
     ];

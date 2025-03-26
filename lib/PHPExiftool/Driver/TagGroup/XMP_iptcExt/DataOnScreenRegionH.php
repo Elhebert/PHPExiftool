@@ -28,13 +28,14 @@ class DataOnScreenRegionH extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data On Screen Region H',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409225
+             * line : 289026
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataOnScreenRegionH extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:DataOnScreenRegionH',
             'desc' => [
+                'en' => 'Data On Screen Region H',
             ],
         ],
     ];

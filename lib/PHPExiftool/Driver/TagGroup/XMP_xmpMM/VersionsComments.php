@@ -28,13 +28,14 @@ class VersionsComments extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Versions Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414307
+             * line : 292312
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionsComments extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:VersionsComments',
             'desc' => [
+                'en' => 'Versions Comments',
             ],
         ],
     ];

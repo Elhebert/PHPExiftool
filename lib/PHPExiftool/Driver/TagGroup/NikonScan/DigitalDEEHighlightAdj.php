@@ -28,13 +28,14 @@ class DigitalDEEHighlightAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital DEE Highlight Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205287
+             * line : 137978
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalDEEHighlightAdj extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:DigitalDEEHighlightAdj',
             'desc' => [
+                'en' => 'Digital DEE Highlight Adj',
             ],
         ],
     ];

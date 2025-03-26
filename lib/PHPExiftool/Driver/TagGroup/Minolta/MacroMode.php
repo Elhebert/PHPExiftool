@@ -28,13 +28,14 @@ class MacroMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177407
+             * line : 121914
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacroMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MacroMode',
             'desc' => [
+                'en' => 'Macro Mode',
             ],
         ],
     ];

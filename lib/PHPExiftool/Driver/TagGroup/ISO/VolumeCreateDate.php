@@ -28,13 +28,14 @@ class VolumeCreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152071
+             * line : 104733
              * type : undef
              * writable : false
              * count : 17
@@ -42,6 +43,7 @@ class VolumeCreateDate extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:VolumeCreateDate',
             'desc' => [
+                'en' => 'Volume Create Date',
             ],
         ],
     ];

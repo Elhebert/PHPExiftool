@@ -28,13 +28,14 @@ class MultiSelectorLiveView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Selector Live View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212284
+             * line : 142615
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MultiSelectorLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:MultiSelectorLiveView',
             'desc' => [
+                'en' => 'Multi Selector Live View',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218506
+             * line : 146874
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MultiSelectorLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MultiSelectorLiveView',
             'desc' => [
+                'en' => 'Multi Selector Live View',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220956
+             * line : 148905
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MultiSelectorLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MultiSelectorLiveView',
             'desc' => [
+                'en' => 'Multi Selector Live View',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231066
+             * line : 155333
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MultiSelectorLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MultiSelectorLiveView',
             'desc' => [
+                'en' => 'Multi Selector Live View',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232855
+             * line : 156723
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class MultiSelectorLiveView extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MultiSelectorLiveView',
             'desc' => [
+                'en' => 'Multi Selector Live View',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HDRShot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277468
+             * line : 192977
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDRShot extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:HDRShot',
             'desc' => [
+                'en' => 'HDR Shot',
             ],
         ],
     ];

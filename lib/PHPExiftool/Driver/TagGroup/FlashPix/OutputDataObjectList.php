@@ -28,13 +28,14 @@ class OutputDataObjectList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Data Object List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127361
+             * line : 88393
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputDataObjectList extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:OutputDataObjectList',
             'desc' => [
+                'en' => 'Output Data Object List',
             ],
         ],
     ];

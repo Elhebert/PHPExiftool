@@ -28,13 +28,14 @@ class ScheduledStudyStartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Study Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99326
+             * line : 72543
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledStudyStartTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledStudyStartTime',
             'desc' => [
+                'en' => 'Scheduled Study Start Time',
             ],
         ],
     ];

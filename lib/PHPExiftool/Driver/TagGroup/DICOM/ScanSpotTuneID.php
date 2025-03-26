@@ -28,13 +28,14 @@ class ScanSpotTuneID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Spot Tune ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103885
+             * line : 76974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSpotTuneID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanSpotTuneID',
             'desc' => [
+                'en' => 'Scan Spot Tune ID',
             ],
         ],
     ];

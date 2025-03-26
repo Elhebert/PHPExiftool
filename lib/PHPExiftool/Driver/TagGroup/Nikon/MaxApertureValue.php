@@ -28,13 +28,14 @@ class MaxApertureValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191398
+             * line : 129938
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxApertureValue extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:MaxApertureValue',
             'desc' => [
+                'en' => 'Max Aperture Value',
             ],
         ],
     ];

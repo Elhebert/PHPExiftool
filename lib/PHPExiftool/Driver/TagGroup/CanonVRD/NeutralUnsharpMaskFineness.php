@@ -28,13 +28,14 @@ class NeutralUnsharpMaskFineness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Unsharp Mask Fineness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83718
+             * line : 61360
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralUnsharpMaskFineness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralUnsharpMaskFineness',
             'desc' => [
+                'en' => 'Neutral Unsharp Mask Fineness',
             ],
         ],
     ];

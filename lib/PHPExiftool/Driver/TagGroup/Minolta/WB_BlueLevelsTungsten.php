@@ -28,13 +28,14 @@ class WB_BlueLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Blue Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185509
+             * line : 125832
              * type : int16u
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class WB_BlueLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsTungsten',
             'desc' => [
+                'en' => 'WB Blue Levels Tungsten',
             ],
         ],
     ];

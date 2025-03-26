@@ -28,13 +28,14 @@ class KhufuI1Thresholds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Khufu I1 Thresholds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156876
+             * line : 108080
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KhufuI1Thresholds extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KhufuI1Thresholds',
             'desc' => [
+                'en' => 'Khufu I1 Thresholds',
             ],
         ],
     ];

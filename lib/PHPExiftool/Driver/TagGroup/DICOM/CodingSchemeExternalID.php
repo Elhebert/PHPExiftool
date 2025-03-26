@@ -28,13 +28,14 @@ class CodingSchemeExternalID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding Scheme External ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94840
+             * line : 68326
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingSchemeExternalID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodingSchemeExternalID',
             'desc' => [
+                'en' => 'Coding Scheme External ID',
             ],
         ],
     ];

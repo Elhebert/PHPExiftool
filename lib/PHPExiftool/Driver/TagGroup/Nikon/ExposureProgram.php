@@ -28,13 +28,14 @@ class ExposureProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202309
+             * line : 136964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureProgram extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:ExposureProgram',
             'desc' => [
+                'en' => 'Exposure Program',
             ],
         ],
     ];

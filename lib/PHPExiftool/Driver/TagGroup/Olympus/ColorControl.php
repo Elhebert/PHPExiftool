@@ -28,13 +28,14 @@ class ColorControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259024
+             * line : 178753
              * type : int16u
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class ColorControl extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ColorControl',
             'desc' => [
+                'en' => 'Color Control',
             ],
         ],
     ];

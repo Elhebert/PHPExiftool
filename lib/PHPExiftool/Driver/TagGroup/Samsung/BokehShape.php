@@ -28,13 +28,14 @@ class BokehShape extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bokeh Shape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334166
+             * line : 234246
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BokehShape extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:BokehShape',
             'desc' => [
+                'en' => 'Bokeh Shape',
             ],
         ],
     ];

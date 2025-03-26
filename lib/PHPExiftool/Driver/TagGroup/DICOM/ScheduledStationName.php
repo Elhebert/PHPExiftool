@@ -28,13 +28,14 @@ class ScheduledStationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Station Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99615
+             * line : 72822
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledStationName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledStationName',
             'desc' => [
+                'en' => 'Scheduled Station Name',
             ],
         ],
     ];

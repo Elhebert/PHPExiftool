@@ -28,13 +28,14 @@ class AutoBrightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398184
+             * line : 281816
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoBrightness extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:AutoBrightness',
             'desc' => [
+                'en' => 'Auto Brightness',
             ],
         ],
     ];

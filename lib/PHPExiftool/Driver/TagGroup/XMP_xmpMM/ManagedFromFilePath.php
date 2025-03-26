@@ -28,13 +28,14 @@ class ManagedFromFilePath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413999
+             * line : 292024
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromFilePath extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromFilePath',
             'desc' => [
+                'en' => 'Managed From File Path',
             ],
         ],
     ];

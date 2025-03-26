@@ -28,13 +28,14 @@ class ShutterButtonAFOnButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Button AF On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74642
+             * line : 55071
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterButtonAFOnButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ShutterButtonAFOnButton',
             'desc' => [
+                'en' => 'Shutter Button AF On Button',
             ],
         ],
     ];

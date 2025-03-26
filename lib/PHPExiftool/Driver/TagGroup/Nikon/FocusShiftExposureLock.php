@@ -28,13 +28,14 @@ class FocusShiftExposureLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Shift Exposure Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199767
+             * line : 134771
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusShiftExposureLock extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FocusShiftExposureLock',
             'desc' => [
+                'en' => 'Focus Shift Exposure Lock',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200401
+             * line : 135356
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusShiftExposureLock extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FocusShiftExposureLock',
             'desc' => [
+                'en' => 'Focus Shift Exposure Lock',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207984
+             * line : 140118
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusShiftExposureLock extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FocusShiftExposureLock',
             'desc' => [
+                'en' => 'Focus Shift Exposure Lock',
             ],
         ],
     ];

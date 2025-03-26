@@ -28,13 +28,14 @@ class PackageMarkInPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Mark In Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172289
+             * line : 118453
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageMarkInPosition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageMarkInPosition',
             'desc' => [
+                'en' => 'Package Mark In Position',
             ],
         ],
     ];

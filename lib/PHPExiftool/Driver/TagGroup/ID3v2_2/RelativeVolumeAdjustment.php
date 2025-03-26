@@ -28,13 +28,14 @@ class RelativeVolumeAdjustment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Volume Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148200
+             * line : 102979
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeVolumeAdjustment extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:RelativeVolumeAdjustment',
             'desc' => [
+                'en' => 'Relative Volume Adjustment',
             ],
         ],
     ];

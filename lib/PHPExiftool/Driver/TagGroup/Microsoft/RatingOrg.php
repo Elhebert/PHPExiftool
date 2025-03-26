@@ -28,13 +28,14 @@ class RatingOrg extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rating Org',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174761
+             * line : 120311
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RatingOrg extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RatingOrg',
             'desc' => [
+                'en' => 'Rating Org',
             ],
         ],
     ];

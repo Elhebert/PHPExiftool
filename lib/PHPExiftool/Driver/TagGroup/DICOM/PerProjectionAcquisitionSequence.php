@@ -28,13 +28,14 @@ class PerProjectionAcquisitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Per Projection Acquisition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97288
+             * line : 70684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerProjectionAcquisitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerProjectionAcquisitionSequence',
             'desc' => [
+                'en' => 'Per Projection Acquisition Sequence',
             ],
         ],
     ];

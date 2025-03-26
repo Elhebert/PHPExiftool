@@ -28,13 +28,14 @@ class VideoFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173954
+             * line : 119821
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFrameRate extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:VideoFrameRate',
             'desc' => [
+                'en' => 'Video Frame Rate',
             ],
         ],
     ];

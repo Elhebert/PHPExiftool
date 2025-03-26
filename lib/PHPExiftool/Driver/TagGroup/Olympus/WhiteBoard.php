@@ -28,13 +28,14 @@ class WhiteBoard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Board',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257954
+             * line : 178346
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBoard extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:WhiteBoard',
             'desc' => [
+                'en' => 'White Board',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Orientation2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Orientation 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360974
+             * line : 251490
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Orientation2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:Orientation2',
             'desc' => [
+                'en' => 'Orientation 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361068
+             * line : 251566
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Orientation2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:Orientation2',
             'desc' => [
+                'en' => 'Orientation 2',
             ],
         ],
     ];

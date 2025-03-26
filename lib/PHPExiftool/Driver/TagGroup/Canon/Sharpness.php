@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 8111
+             * line : 5960
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 8490
+             * line : 6060
              * type : int8s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13455
+             * line : 9720
              * type : int8s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkIIN
-             * line : 17697
+             * line : 13080
              * type : int8s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIIN.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56618
+             * line : 43901
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64433
+             * line : 48832
              * type : int32s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::Processing
-             * line : 69479
+             * line : 52386
              * type : int16s
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

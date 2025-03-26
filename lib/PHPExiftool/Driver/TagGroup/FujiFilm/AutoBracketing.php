@@ -28,13 +28,14 @@ class AutoBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130273
+             * line : 90026
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoBracketing extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:AutoBracketing',
             'desc' => [
+                'en' => 'Auto Bracketing',
             ],
         ],
         1 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130304
+             * line : 90040
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoBracketing extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:AutoBracketing',
             'desc' => [
+                'en' => 'Auto Bracketing',
             ],
         ],
     ];

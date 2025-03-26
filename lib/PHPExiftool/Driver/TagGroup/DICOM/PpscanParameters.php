@@ -28,13 +28,14 @@ class PpscanParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ppscan Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100366
+             * line : 73539
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PpscanParameters extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PpscanParameters',
             'desc' => [
+                'en' => 'Ppscan Parameters',
             ],
         ],
     ];

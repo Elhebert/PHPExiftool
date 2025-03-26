@@ -28,13 +28,14 @@ class FreeBytes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Free Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78646
+             * line : 57233
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FreeBytes extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:FreeBytes',
             'desc' => [
+                'en' => 'Free Bytes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::AVI
-             * line : 331799
+             * line : 233145
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Ricoh::AVI.Ricoh:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

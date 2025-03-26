@@ -28,13 +28,14 @@ class ThumbnailHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Junk2
-             * line : 288394
+             * line : 200063
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailHeight extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk2.Pentax:ThumbnailHeight',
             'desc' => [
+                'en' => 'Thumbnail Height',
             ],
         ],
     ];

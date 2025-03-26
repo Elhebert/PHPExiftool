@@ -28,13 +28,14 @@ class ConventionalMachineVerificationSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Conventional Machine Verification Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101778
+             * line : 74919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConventionalMachineVerificationSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConventionalMachineVerificationSeq',
             'desc' => [
+                'en' => 'Conventional Machine Verification Seq',
             ],
         ],
     ];

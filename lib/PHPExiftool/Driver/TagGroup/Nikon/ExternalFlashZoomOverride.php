@@ -28,13 +28,14 @@ class ExternalFlashZoomOverride extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Zoom Override',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194740
+             * line : 131887
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashZoomOverride extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:ExternalFlashZoomOverride',
             'desc' => [
+                'en' => 'External Flash Zoom Override',
             ],
         ],
     ];

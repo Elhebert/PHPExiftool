@@ -28,13 +28,14 @@ class CreationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1723
+             * line : 863
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreationDate extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:CreationDate',
             'desc' => [
+                'en' => 'Creation Date',
             ],
         ],
     ];

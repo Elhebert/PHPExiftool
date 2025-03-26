@@ -28,13 +28,14 @@ class ReferencedTimeOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Time Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100152
+             * line : 73329
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedTimeOffsets extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedTimeOffsets',
             'desc' => [
+                'en' => 'Referenced Time Offsets',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394906
+             * line : 279748
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

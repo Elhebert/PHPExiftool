@@ -28,13 +28,14 @@ class ChannelPositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173914
+             * line : 119797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelPositions extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChannelPositions',
             'desc' => [
+                'en' => 'Channel Positions',
             ],
         ],
     ];

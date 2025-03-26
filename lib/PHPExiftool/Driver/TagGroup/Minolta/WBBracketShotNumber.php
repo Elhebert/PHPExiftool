@@ -28,13 +28,14 @@ class WBBracketShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Bracket Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185152
+             * line : 125689
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBBracketShotNumber extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WBBracketShotNumber',
             'desc' => [
+                'en' => 'WB Bracket Shot Number',
             ],
         ],
     ];

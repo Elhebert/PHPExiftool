@@ -28,13 +28,14 @@ class DCVerbatimLatitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Verbatim Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 107010
+             * line : 79154
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCVerbatimLatitude extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCVerbatimLatitude',
             'desc' => [
+                'en' => 'DC Verbatim Latitude',
             ],
         ],
     ];

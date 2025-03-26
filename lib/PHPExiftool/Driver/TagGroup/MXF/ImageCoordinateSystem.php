@@ -28,13 +28,14 @@ class ImageCoordinateSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Coordinate System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168254
+             * line : 114749
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageCoordinateSystem extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ImageCoordinateSystem',
             'desc' => [
+                'en' => 'Image Coordinate System',
             ],
         ],
     ];

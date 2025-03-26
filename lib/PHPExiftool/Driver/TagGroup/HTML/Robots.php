@@ -28,13 +28,14 @@ class Robots extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Robots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142484
+             * line : 98520
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Robots extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Robots',
             'desc' => [
+                'en' => 'Robots',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawDataLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Data Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187793
+             * line : 127201
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDataLength extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:RawDataLength',
             'desc' => [
+                'en' => 'Raw Data Length',
             ],
         ],
     ];

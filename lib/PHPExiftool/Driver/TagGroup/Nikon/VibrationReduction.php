@@ -28,13 +28,14 @@ class VibrationReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vibration Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205375
+             * line : 138022
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:VibrationReduction',
             'desc' => [
+                'en' => 'Vibration Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205411
+             * line : 138039
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class VibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:VibrationReduction',
             'desc' => [
+                'en' => 'Vibration Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205452
+             * line : 138053
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class VibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:VibrationReduction',
             'desc' => [
+                'en' => 'Vibration Reduction',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::ShotInfoD40
-             * line : 206349
+             * line : 138703
              * type : ?
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class VibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD40.Nikon:VibrationReduction',
             'desc' => [
+                'en' => 'Vibration Reduction',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::ShotInfoD80
-             * line : 208422
+             * line : 140407
              * type : ?
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class VibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD80.Nikon:VibrationReduction',
             'desc' => [
+                'en' => 'Vibration Reduction',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::VRInfo
-             * line : 209572
+             * line : 141319
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class VibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::VRInfo.Nikon:VibrationReduction',
             'desc' => [
+                'en' => 'Vibration Reduction',
             ],
         ],
     ];

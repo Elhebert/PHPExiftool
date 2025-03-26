@@ -28,13 +28,14 @@ class EmbeddedPNG extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded PNG',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Extra
-             * line : 3169
+             * line : 1994
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedPNG extends AbstractTagGroup
              */
             'id' => 'BMP::Extra.File:EmbeddedPNG',
             'desc' => [
+                'en' => 'Embedded PNG',
             ],
         ],
     ];

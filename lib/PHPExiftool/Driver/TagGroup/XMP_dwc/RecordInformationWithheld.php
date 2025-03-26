@@ -28,13 +28,14 @@ class RecordInformationWithheld extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Information Withheld',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106665
+             * line : 78896
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordInformationWithheld extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordInformationWithheld',
             'desc' => [
+                'en' => 'Record Information Withheld',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimecodeScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173974
+             * line : 119839
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeScale extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TimecodeScale',
             'desc' => [
+                'en' => 'Timecode Scale',
             ],
         ],
     ];

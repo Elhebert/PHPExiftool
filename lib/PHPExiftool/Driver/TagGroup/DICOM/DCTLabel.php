@@ -28,13 +28,14 @@ class DCTLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DCT Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98858
+             * line : 72129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DCTLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DCTLabel',
             'desc' => [
+                'en' => 'DCT Label',
             ],
         ],
     ];

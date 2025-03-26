@@ -28,13 +28,14 @@ class SRF2Key extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SRF2 Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF
-             * line : 361892
+             * line : 251977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SRF2Key extends AbstractTagGroup
              */
             'id' => 'Sony::SRF.SRF#:SRF2Key',
             'desc' => [
+                'en' => 'SRF2 Key',
             ],
         ],
     ];

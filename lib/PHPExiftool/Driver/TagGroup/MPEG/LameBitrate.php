@@ -28,13 +28,14 @@ class LameBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lame Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Lame
-             * line : 165970
+             * line : 112859
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LameBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Lame.MPEG:LameBitrate',
             'desc' => [
+                'en' => 'Lame Bitrate',
             ],
         ],
     ];

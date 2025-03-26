@@ -28,13 +28,14 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Corr Params Present',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 368900
+             * line : 257244
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 372931
+             * line : 260533
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 375932
+             * line : 263157
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 378933
+             * line : 265781
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381249
+             * line : 268052
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383617
+             * line : 270387
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9405a
-             * line : 385587
+             * line : 271714
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405a.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 388229
+             * line : 274013
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class DistortionCorrParamsPresent extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:DistortionCorrParamsPresent',
             'desc' => [
+                'en' => 'Distortion Corr Params Present',
             ],
         ],
     ];

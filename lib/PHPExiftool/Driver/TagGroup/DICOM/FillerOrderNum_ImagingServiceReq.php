@@ -28,13 +28,14 @@ class FillerOrderNum_ImagingServiceReq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filler Order Num-Imaging Service Req',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99899
+             * line : 73101
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FillerOrderNum_ImagingServiceReq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FillerOrderNum-ImagingServiceReq',
             'desc' => [
+                'en' => 'Filler Order Num-Imaging Service Req',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 99914
+             * line : 73116
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FillerOrderNum_ImagingServiceReq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FillerOrderNum-ImagingServiceReq',
             'desc' => [
+                'en' => 'Filler Order Num-Imaging Service Req',
             ],
         ],
     ];

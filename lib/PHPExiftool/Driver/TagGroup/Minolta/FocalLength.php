@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177528
+             * line : 121962
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::MOV1
-             * line : 182635
+             * line : 124261
              * type : rational64u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV1.Minolta:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::MOV2
-             * line : 182732
+             * line : 124283
              * type : rational64u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV2.Minolta:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

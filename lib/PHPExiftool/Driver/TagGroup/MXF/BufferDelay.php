@@ -28,13 +28,14 @@ class BufferDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Buffer Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168609
+             * line : 115097
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BufferDelay extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BufferDelay',
             'desc' => [
+                'en' => 'Buffer Delay',
             ],
         ],
     ];

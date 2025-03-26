@@ -28,13 +28,14 @@ class CurrentFractionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Fraction Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102681
+             * line : 75777
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentFractionNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurrentFractionNumber',
             'desc' => [
+                'en' => 'Current Fraction Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AveragePulseWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Average Pulse Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95872
+             * line : 69298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AveragePulseWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AveragePulseWidth',
             'desc' => [
+                'en' => 'Average Pulse Width',
             ],
         ],
     ];

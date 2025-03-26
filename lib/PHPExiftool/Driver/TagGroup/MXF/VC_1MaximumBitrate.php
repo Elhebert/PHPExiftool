@@ -28,13 +28,14 @@ class VC_1MaximumBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Maximum Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172400
+             * line : 118561
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1MaximumBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1MaximumBitrate',
             'desc' => [
+                'en' => 'VC-1 Maximum Bitrate',
             ],
         ],
     ];

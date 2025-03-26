@@ -28,13 +28,14 @@ class Keyword extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keyword',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322226
+             * line : 227784
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Keyword extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Keyword',
             'desc' => [
+                'en' => 'Keyword',
             ],
         ],
     ];

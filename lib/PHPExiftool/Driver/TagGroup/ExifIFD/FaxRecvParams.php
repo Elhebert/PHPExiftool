@@ -28,13 +28,14 @@ class FaxRecvParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fax Recv Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113958
+             * line : 82645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FaxRecvParams extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FaxRecvParams',
             'desc' => [
+                'en' => 'Fax Recv Params',
             ],
         ],
     ];

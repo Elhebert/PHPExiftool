@@ -28,13 +28,14 @@ class GPSDateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::GPS
-             * line : 163502
+             * line : 111434
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'MIE::GPS.MIE-GPS:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date Time',
             ],
         ],
     ];

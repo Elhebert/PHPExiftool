@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410160
+             * line : 289741
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

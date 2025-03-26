@@ -28,13 +28,14 @@ class GeneralProfileSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'General Profile Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313373
+             * line : 219118
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneralProfileSpace extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:GeneralProfileSpace',
             'desc' => [
+                'en' => 'General Profile Space',
             ],
         ],
     ];

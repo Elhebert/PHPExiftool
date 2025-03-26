@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::GraphConv
-             * line : 152444
+             * line : 104919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'JPEG::GraphConv.GraphConv:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

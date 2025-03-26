@@ -28,13 +28,14 @@ class MinorVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::LImage
-             * line : 397365
+             * line : 281399
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinorVersion extends AbstractTagGroup
              */
             'id' => 'XMP::LImage.XMP-LImage:MinorVersion',
             'desc' => [
+                'en' => 'Minor Version',
             ],
         ],
     ];

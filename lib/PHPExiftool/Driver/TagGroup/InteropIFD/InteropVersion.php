@@ -28,13 +28,14 @@ class InteropVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interoperability Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 109770
+             * line : 81134
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InteropVersion extends AbstractTagGroup
              */
             'id' => 'Exif::Main.InteropIFD:InteropVersion',
             'desc' => [
+                'en' => 'Interoperability Version',
             ],
         ],
     ];

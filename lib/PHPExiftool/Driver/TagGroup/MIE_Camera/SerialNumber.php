@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163097
+             * line : 111317
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

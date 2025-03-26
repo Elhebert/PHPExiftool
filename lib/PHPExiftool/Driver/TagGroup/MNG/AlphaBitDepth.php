@@ -28,13 +28,14 @@ class AlphaBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164976
+             * line : 112111
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaBitDepth extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:AlphaBitDepth',
             'desc' => [
+                'en' => 'Alpha Bit Depth',
             ],
         ],
     ];

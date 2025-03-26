@@ -28,13 +28,14 @@ class AppointmentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Appointment Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395574
+             * line : 280107
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppointmentSequence extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:AppointmentSequence',
             'desc' => [
+                'en' => 'Appointment Sequence',
             ],
         ],
     ];

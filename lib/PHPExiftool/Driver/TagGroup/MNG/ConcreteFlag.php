@@ -28,13 +28,14 @@ class ConcreteFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Concrete Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::CloneObject
-             * line : 164725
+             * line : 111942
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ConcreteFlag extends AbstractTagGroup
              */
             'id' => 'MNG::CloneObject.MNG:ConcreteFlag',
             'desc' => [
+                'en' => 'Concrete Flag',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::DefineObject
-             * line : 164753
+             * line : 111969
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ConcreteFlag extends AbstractTagGroup
              */
             'id' => 'MNG::DefineObject.MNG:ConcreteFlag',
             'desc' => [
+                'en' => 'Concrete Flag',
             ],
         ],
     ];

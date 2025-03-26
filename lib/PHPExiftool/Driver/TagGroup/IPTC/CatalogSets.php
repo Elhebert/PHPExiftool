@@ -28,13 +28,14 @@ class CatalogSets extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Catalog Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150981
+             * line : 104209
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class CatalogSets extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:CatalogSets',
             'desc' => [
+                'en' => 'Catalog Sets',
             ],
         ],
     ];

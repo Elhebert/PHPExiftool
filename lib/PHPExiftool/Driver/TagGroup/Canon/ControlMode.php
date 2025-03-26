@@ -28,13 +28,14 @@ class ControlMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70691
+             * line : 52815
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ControlMode extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:ControlMode',
             'desc' => [
+                'en' => 'Control Mode',
             ],
         ],
     ];

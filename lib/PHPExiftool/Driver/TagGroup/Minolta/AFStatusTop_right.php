@@ -28,13 +28,14 @@ class AFStatusTop_right extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Top-right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraInfoA100
-             * line : 176729
+             * line : 121568
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusTop_right extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraInfoA100.Minolta:AFStatusTop-right',
             'desc' => [
+                'en' => 'AF Status Top-right',
             ],
         ],
     ];

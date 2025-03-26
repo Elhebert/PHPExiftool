@@ -28,13 +28,14 @@ class StartEdgeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Edge Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331352
+             * line : 232986
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartEdgeCode extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:StartEdgeCode',
             'desc' => [
+                'en' => 'Start Edge Code',
             ],
         ],
     ];

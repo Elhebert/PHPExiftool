@@ -28,13 +28,14 @@ class SaturationAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::HighlightData
-             * line : 210401
+             * line : 141662
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::HighlightData.NikonCapture:SaturationAdj',
             'desc' => [
+                'en' => 'Saturation Adj',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211243
+             * line : 142039
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SaturationAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:SaturationAdj',
             'desc' => [
+                'en' => 'Saturation Adj',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WhiteSampleWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Sample Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::WhiteSample
-             * line : 80137
+             * line : 58477
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteSampleWidth extends AbstractTagGroup
              */
             'id' => 'CanonRaw::WhiteSample.CanonRaw:WhiteSampleWidth',
             'desc' => [
+                'en' => 'White Sample Width',
             ],
         ],
     ];

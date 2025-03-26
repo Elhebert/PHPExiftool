@@ -28,13 +28,14 @@ class SpecimenDescriptionSequenceTrial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specimen Description Sequence Trial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99789
+             * line : 72993
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecimenDescriptionSequenceTrial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecimenDescriptionSequenceTrial',
             'desc' => [
+                'en' => 'Specimen Description Sequence Trial',
             ],
         ],
     ];

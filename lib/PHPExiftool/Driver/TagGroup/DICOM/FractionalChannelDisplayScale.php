@@ -28,13 +28,14 @@ class FractionalChannelDisplayScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fractional Channel Display Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99563
+             * line : 72774
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FractionalChannelDisplayScale extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FractionalChannelDisplayScale',
             'desc' => [
+                'en' => 'Fractional Channel Display Scale',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WM_MediaClassSecondaryID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Media Class Secondary ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Private
-             * line : 147144
+             * line : 102172
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WM_MediaClassSecondaryID extends AbstractTagGroup
              */
             'id' => 'ID3::Private.ID3:WM_MediaClassSecondaryID',
             'desc' => [
+                'en' => 'WM Media Class Secondary ID',
             ],
         ],
     ];

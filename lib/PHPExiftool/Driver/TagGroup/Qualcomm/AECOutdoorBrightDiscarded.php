@@ -28,13 +28,14 @@ class AECOutdoorBrightDiscarded extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Outdoor Bright Discarded',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306185
+             * line : 212690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECOutdoorBrightDiscarded extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECOutdoorBrightDiscarded',
             'desc' => [
+                'en' => 'AEC Outdoor Bright Discarded',
             ],
         ],
     ];

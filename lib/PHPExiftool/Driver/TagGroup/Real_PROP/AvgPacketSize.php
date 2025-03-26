@@ -28,13 +28,14 @@ class AvgPacketSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Packet Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Properties
-             * line : 330515
+             * line : 232568
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgPacketSize extends AbstractTagGroup
              */
             'id' => 'Real::Properties.Real-PROP:AvgPacketSize',
             'desc' => [
+                'en' => 'Avg Packet Size',
             ],
         ],
     ];

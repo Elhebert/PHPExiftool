@@ -28,13 +28,14 @@ class AFPointsInFocus5D extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Points In Focus 5D',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 32362
+             * line : 24765
              * type : int16uRev
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointsInFocus5D extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:AFPointsInFocus5D',
             'desc' => [
+                'en' => 'AF Points In Focus 5D',
             ],
         ],
     ];

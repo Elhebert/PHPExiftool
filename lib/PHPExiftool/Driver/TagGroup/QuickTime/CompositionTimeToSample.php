@@ -28,13 +28,14 @@ class CompositionTimeToSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composition Time To Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324410
+             * line : 229200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompositionTimeToSample extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:CompositionTimeToSample',
             'desc' => [
+                'en' => 'Composition Time To Sample',
             ],
         ],
     ];

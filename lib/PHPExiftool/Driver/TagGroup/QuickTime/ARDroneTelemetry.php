@@ -28,13 +28,14 @@ class ARDroneTelemetry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AR Drone Telemetry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323804
+             * line : 228843
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ARDroneTelemetry extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:ARDroneTelemetry',
             'desc' => [
+                'en' => 'AR Drone Telemetry',
             ],
         ],
     ];

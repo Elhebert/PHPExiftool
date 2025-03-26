@@ -28,13 +28,14 @@ class DecimationMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decimation Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124785
+             * line : 87218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecimationMethod extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:DecimationMethod',
             'desc' => [
+                'en' => 'Decimation Method',
             ],
         ],
     ];

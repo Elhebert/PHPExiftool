@@ -28,13 +28,14 @@ class NeutObjBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Neut Obj Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161922
+             * line : 110626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NeutObjBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:NeutObjBackType',
             'desc' => [
+                'en' => 'Neut Obj Back Type',
             ],
         ],
     ];

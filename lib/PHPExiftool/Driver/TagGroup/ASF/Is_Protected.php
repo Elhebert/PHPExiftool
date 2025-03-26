@@ -28,13 +28,14 @@ class Is_Protected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Protected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1338
+             * line : 595
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Is_Protected extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Is_Protected',
             'desc' => [
+                'en' => 'Is Protected',
             ],
         ],
     ];

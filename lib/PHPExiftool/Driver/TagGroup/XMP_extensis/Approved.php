@@ -28,13 +28,14 @@ class Approved extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Approved',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::extensis
-             * line : 408768
+             * line : 288702
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Approved extends AbstractTagGroup
              */
             'id' => 'XMP::extensis.XMP-extensis:Approved',
             'desc' => [
+                'en' => 'Approved',
             ],
         ],
     ];

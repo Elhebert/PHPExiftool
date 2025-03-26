@@ -28,13 +28,14 @@ class AngularVelocity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angular Velocity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::pose
-             * line : 160712
+             * line : 109807
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngularVelocity extends AbstractTagGroup
              */
             'id' => 'Kodak::pose.Kodak:AngularVelocity',
             'desc' => [
+                'en' => 'Angular Velocity',
             ],
         ],
     ];

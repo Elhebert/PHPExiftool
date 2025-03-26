@@ -28,13 +28,14 @@ class Product extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaData
-             * line : 323995
+             * line : 228949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Product extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaData.QuickTime:Product',
             'desc' => [
+                'en' => 'Product',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CleanApertureWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clean Aperture Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::CleanAperture
-             * line : 312593
+             * line : 218470
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CleanApertureWidth extends AbstractTagGroup
              */
             'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureWidth',
             'desc' => [
+                'en' => 'Clean Aperture Width',
             ],
         ],
     ];

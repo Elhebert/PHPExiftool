@@ -28,13 +28,14 @@ class SpaceFree extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Space Free',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176129
+             * line : 121200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpaceFree extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SpaceFree',
             'desc' => [
+                'en' => 'Space Free',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Destination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Destination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151001
+             * line : 104219
              * type : string
              * writable : true
              * count : 1024
@@ -42,6 +43,7 @@ class Destination extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:Destination',
             'desc' => [
+                'en' => 'Destination',
             ],
         ],
     ];

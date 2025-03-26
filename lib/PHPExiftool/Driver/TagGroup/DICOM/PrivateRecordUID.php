@@ -28,13 +28,14 @@ class PrivateRecordUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Private Record UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94622
+             * line : 68122
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrivateRecordUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrivateRecordUID',
             'desc' => [
+                'en' => 'Private Record UID',
             ],
         ],
     ];

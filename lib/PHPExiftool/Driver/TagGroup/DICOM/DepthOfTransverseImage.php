@@ -28,13 +28,14 @@ class DepthOfTransverseImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth Of Transverse Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98416
+             * line : 71749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthOfTransverseImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DepthOfTransverseImage',
             'desc' => [
+                'en' => 'Depth Of Transverse Image',
             ],
         ],
     ];

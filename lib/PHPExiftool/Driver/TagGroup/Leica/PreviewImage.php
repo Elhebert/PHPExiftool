@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274912
+             * line : 191656
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

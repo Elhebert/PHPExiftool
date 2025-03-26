@@ -28,13 +28,14 @@ class MultishotOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multishot On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279679
+             * line : 194250
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultishotOn extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:MultishotOn',
             'desc' => [
+                'en' => 'Multishot On',
             ],
         ],
     ];

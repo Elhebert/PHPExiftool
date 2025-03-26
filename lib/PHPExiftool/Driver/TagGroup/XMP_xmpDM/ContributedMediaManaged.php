@@ -28,13 +28,14 @@ class ContributedMediaManaged extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributed Media Managed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413012
+             * line : 291169
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributedMediaManaged extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaManaged',
             'desc' => [
+                'en' => 'Contributed Media Managed',
             ],
         ],
     ];

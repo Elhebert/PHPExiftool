@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254767
+             * line : 175899
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

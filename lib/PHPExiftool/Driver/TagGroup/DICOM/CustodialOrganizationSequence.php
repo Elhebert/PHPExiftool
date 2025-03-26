@@ -28,13 +28,14 @@ class CustodialOrganizationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Custodial Organization Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100083
+             * line : 73284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CustodialOrganizationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CustodialOrganizationSequence',
             'desc' => [
+                'en' => 'Custodial Organization Sequence',
             ],
         ],
     ];

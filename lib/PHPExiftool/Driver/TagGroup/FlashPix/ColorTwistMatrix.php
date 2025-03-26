@@ -28,13 +28,14 @@ class ColorTwistMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Twist Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127379
+             * line : 88411
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorTwistMatrix extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:ColorTwistMatrix',
             'desc' => [
+                'en' => 'Color Twist Matrix',
             ],
         ],
     ];

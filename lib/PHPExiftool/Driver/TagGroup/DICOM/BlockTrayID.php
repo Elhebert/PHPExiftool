@@ -28,13 +28,14 @@ class BlockTrayID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Tray ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103284
+             * line : 76380
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockTrayID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockTrayID',
             'desc' => [
+                'en' => 'Block Tray ID',
             ],
         ],
     ];

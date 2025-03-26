@@ -28,13 +28,14 @@ class PullDown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pull Down',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413246
+             * line : 291371
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PullDown extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:PullDown',
             'desc' => [
+                'en' => 'Pull Down',
             ],
         ],
     ];

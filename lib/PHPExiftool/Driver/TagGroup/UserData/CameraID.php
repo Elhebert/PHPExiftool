@@ -28,13 +28,14 @@ class CameraID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325398
+             * line : 229691
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraID extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CameraID',
             'desc' => [
+                'en' => 'Camera ID',
             ],
         ],
     ];

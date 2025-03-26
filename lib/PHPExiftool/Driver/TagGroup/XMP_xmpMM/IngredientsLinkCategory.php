@@ -28,13 +28,14 @@ class IngredientsLinkCategory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Link Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413926
+             * line : 291953
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsLinkCategory extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsLinkCategory',
             'desc' => [
+                'en' => 'Ingredients Link Category',
             ],
         ],
     ];

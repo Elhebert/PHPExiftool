@@ -28,13 +28,14 @@ class ComponentMaximumRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component Maximum Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171202
+             * line : 117414
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentMaximumRef extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComponentMaximumRef',
             'desc' => [
+                'en' => 'Component Maximum Ref',
             ],
         ],
     ];

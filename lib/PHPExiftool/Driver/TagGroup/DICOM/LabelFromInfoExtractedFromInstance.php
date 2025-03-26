@@ -28,13 +28,14 @@ class LabelFromInfoExtractedFromInstance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label From Info Extracted From Instance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102323
+             * line : 75423
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LabelFromInfoExtractedFromInstance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LabelFromInfoExtractedFromInstance',
             'desc' => [
+                'en' => 'Label From Info Extracted From Instance',
             ],
         ],
     ];

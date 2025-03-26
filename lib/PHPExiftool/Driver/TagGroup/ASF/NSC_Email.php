@@ -28,13 +28,14 @@ class NSC_Email extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NSC Email',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1432
+             * line : 676
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NSC_Email extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:NSC_Email',
             'desc' => [
+                'en' => 'NSC Email',
             ],
         ],
     ];

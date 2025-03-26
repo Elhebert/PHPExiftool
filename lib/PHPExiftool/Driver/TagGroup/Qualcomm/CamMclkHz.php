@@ -28,13 +28,14 @@ class CamMclkHz extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cam Mclk Hz',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307248
+             * line : 213746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CamMclkHz extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:CamMclkHz',
             'desc' => [
+                'en' => 'Cam Mclk Hz',
             ],
         ],
     ];

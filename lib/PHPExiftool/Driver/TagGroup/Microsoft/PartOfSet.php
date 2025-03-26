@@ -28,13 +28,14 @@ class PartOfSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Part Of Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174727
+             * line : 120281
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PartOfSet extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PartOfSet',
             'desc' => [
+                'en' => 'Part Of Set',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175169
+             * line : 120627
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class PartOfSet extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PartOfSet',
             'desc' => [
+                'en' => 'Part Of Set',
             ],
         ],
         2 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175762
+             * line : 120960
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class PartOfSet extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PartOfSet',
             'desc' => [
+                'en' => 'Part Of Set',
             ],
         ],
     ];

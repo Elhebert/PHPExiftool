@@ -28,13 +28,14 @@ class Controller extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Controller',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139413
+             * line : 97582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Controller extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Controller',
             'desc' => [
+                'en' => 'Controller',
             ],
         ],
     ];

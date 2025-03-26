@@ -28,13 +28,14 @@ class ShutterCurtainHack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Curtain Sync',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90241
+             * line : 65126
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterCurtainHack extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ShutterCurtainHack',
             'desc' => [
+                'en' => 'Shutter Curtain Sync',
             ],
         ],
     ];

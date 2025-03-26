@@ -28,13 +28,14 @@ class FocusProcess extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250744
+             * line : 172983
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusProcess extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FocusProcess',
             'desc' => [
+                'en' => 'Focus Process',
             ],
         ],
     ];

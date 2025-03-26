@@ -28,13 +28,14 @@ class PanoramicStitchMapType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panoramic Stitch Map Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174180
+             * line : 119960
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramicStitchMapType extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:PanoramicStitchMapType',
             'desc' => [
+                'en' => 'Panoramic Stitch Map Type',
             ],
         ],
     ];

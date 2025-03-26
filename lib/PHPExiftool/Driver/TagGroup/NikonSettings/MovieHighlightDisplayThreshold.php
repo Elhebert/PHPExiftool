@@ -28,13 +28,14 @@ class MovieHighlightDisplayThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Highlight Display Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245062
+             * line : 167821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieHighlightDisplayThreshold extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieHighlightDisplayThreshold',
             'desc' => [
+                'en' => 'Movie Highlight Display Threshold',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FullPanoHeightPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Full Pano Height Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397210
+             * line : 281292
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FullPanoHeightPixels extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:FullPanoHeightPixels',
             'desc' => [
+                'en' => 'Full Pano Height Pixels',
             ],
         ],
     ];

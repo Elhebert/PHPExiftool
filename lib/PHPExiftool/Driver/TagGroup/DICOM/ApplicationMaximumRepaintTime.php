@@ -28,13 +28,14 @@ class ApplicationMaximumRepaintTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Maximum Repaint Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101574
+             * line : 74718
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationMaximumRepaintTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicationMaximumRepaintTime',
             'desc' => [
+                'en' => 'Application Maximum Repaint Time',
             ],
         ],
     ];

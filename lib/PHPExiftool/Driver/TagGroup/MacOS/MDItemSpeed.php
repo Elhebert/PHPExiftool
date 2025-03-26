@@ -28,13 +28,14 @@ class MDItemSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172984
+             * line : 119032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemSpeed extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemSpeed',
             'desc' => [
+                'en' => 'MD Item Speed',
             ],
         ],
     ];

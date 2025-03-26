@@ -28,13 +28,14 @@ class Version2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329758
+             * line : 232212
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Version2 extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:Version2',
             'desc' => [
+                'en' => 'Version 2',
             ],
         ],
     ];

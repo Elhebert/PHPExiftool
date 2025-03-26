@@ -28,13 +28,14 @@ class Artist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175732
+             * line : 120948
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Artist extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Artist',
             'desc' => [
+                'en' => 'Artist',
             ],
         ],
     ];

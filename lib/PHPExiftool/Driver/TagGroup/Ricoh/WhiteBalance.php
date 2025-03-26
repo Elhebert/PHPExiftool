@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 332098
+             * line : 233253
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332636
+             * line : 233424
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

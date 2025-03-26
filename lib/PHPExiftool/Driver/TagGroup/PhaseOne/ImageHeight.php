@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303277
+             * line : 210787
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

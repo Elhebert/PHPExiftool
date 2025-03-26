@@ -28,13 +28,14 @@ class MakerNoteKyocera extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Kyocera',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104948
+             * line : 77840
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteKyocera extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteKyocera',
             'desc' => [
+                'en' => 'Maker Note Kyocera',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115909
+             * line : 83133
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteKyocera extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteKyocera',
             'desc' => [
+                'en' => 'Maker Note Kyocera',
             ],
         ],
     ];

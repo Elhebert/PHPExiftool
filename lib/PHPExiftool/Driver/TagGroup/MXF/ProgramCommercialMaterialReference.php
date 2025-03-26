@@ -28,13 +28,14 @@ class ProgramCommercialMaterialReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program Commercial Material Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168239
+             * line : 114734
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramCommercialMaterialReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgramCommercialMaterialReference',
             'desc' => [
+                'en' => 'Program Commercial Material Reference',
             ],
         ],
     ];

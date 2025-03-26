@@ -28,13 +28,14 @@ class ContactsListSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contacts List Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171473
+             * line : 117673
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContactsListSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContactsListSet',
             'desc' => [
+                'en' => 'Contacts List Set',
             ],
         ],
     ];

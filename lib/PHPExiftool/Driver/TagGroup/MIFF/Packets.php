@@ -28,13 +28,14 @@ class Packets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Packets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164375
+             * line : 111748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Packets extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Packets',
             'desc' => [
+                'en' => 'Packets',
             ],
         ],
     ];

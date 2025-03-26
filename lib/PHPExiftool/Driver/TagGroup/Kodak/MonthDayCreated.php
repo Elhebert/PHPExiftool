@@ -28,13 +28,14 @@ class MonthDayCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Month Day Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157761
+             * line : 108689
              * type : int8u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class MonthDayCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:MonthDayCreated',
             'desc' => [
+                'en' => 'Month Day Created',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type3
-             * line : 160027
+             * line : 109611
              * type : int8u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class MonthDayCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::Type3.Kodak:MonthDayCreated',
             'desc' => [
+                'en' => 'Month Day Created',
             ],
         ],
     ];

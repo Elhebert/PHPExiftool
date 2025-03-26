@@ -28,13 +28,14 @@ class IngredientsManagerVariant extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Manager Variant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413935
+             * line : 291962
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsManagerVariant extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsManagerVariant',
             'desc' => [
+                'en' => 'Ingredients Manager Variant',
             ],
         ],
     ];

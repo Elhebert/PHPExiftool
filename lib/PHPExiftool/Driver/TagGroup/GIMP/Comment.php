@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Parasite
-             * line : 131622
+             * line : 90805
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'GIMP::Parasite.GIMP:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

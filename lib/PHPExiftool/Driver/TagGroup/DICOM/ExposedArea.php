@@ -28,13 +28,14 @@ class ExposedArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposed Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99722
+             * line : 72927
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposedArea extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposedArea',
             'desc' => [
+                'en' => 'Exposed Area',
             ],
         ],
     ];

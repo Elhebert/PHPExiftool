@@ -28,13 +28,14 @@ class Text extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Metafile
-             * line : 330483
+             * line : 232549
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Text extends AbstractTagGroup
              */
             'id' => 'Real::Metafile.Real:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
     ];

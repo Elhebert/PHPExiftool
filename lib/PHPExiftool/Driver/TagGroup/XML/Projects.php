@@ -28,13 +28,14 @@ class Projects extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : iWork::Main
-             * line : 415134
+             * line : 292846
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Projects extends AbstractTagGroup
              */
             'id' => 'iWork::Main.XML:Projects',
             'desc' => [
+                'en' => 'Projects',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaHeaderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Header Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MediaHeader
-             * line : 323892
+             * line : 228877
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaHeaderVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::MediaHeader.Track#:MediaHeaderVersion',
             'desc' => [
+                'en' => 'Media Header Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlackReferenceLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Reference Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167927
+             * line : 114449
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackReferenceLevel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BlackReferenceLevel',
             'desc' => [
+                'en' => 'Black Reference Level',
             ],
         ],
     ];

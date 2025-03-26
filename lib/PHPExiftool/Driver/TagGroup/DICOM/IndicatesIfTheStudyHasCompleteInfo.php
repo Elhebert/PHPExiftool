@@ -28,13 +28,14 @@ class IndicatesIfTheStudyHasCompleteInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Indicates If The Study Has Complete Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98462
+             * line : 71794
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndicatesIfTheStudyHasCompleteInfo extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IndicatesIfTheStudyHasCompleteInfo',
             'desc' => [
+                'en' => 'Indicates If The Study Has Complete Info',
             ],
         ],
     ];

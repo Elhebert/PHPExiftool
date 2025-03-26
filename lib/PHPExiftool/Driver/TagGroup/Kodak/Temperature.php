@@ -28,13 +28,14 @@ class Temperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159800
+             * line : 109500
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Temperature extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:Temperature',
             'desc' => [
+                'en' => 'Temperature',
             ],
         ],
     ];

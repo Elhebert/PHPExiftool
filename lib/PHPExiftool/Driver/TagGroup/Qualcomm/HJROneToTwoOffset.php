@@ -28,13 +28,14 @@ class HJROneToTwoOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HJR One To Two Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306143
+             * line : 212648
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HJROneToTwoOffset extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:HJROneToTwoOffset',
             'desc' => [
+                'en' => 'HJR One To Two Offset',
             ],
         ],
     ];

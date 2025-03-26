@@ -28,13 +28,14 @@ class EndTiltAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Tilt Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166776
+             * line : 113511
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndTiltAngle extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:EndTiltAngle',
             'desc' => [
+                'en' => 'End Tilt Angle',
             ],
         ],
     ];

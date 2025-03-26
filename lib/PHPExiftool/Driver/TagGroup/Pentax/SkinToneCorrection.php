@@ -28,13 +28,14 @@ class SkinToneCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Skin Tone Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300651
+             * line : 209592
              * type : int8s
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class SkinToneCorrection extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:SkinToneCorrection',
             'desc' => [
+                'en' => 'Skin Tone Correction',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 300665
+             * line : 209606
              * type : int8s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class SkinToneCorrection extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:SkinToneCorrection',
             'desc' => [
+                'en' => 'Skin Tone Correction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335256
+             * line : 235298
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

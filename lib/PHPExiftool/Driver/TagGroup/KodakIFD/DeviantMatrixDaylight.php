@@ -28,13 +28,14 @@ class DeviantMatrixDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Deviant Matrix Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155123
+             * line : 106373
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class DeviantMatrixDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DeviantMatrixDaylight',
             'desc' => [
+                'en' => 'Deviant Matrix Daylight',
             ],
         ],
     ];

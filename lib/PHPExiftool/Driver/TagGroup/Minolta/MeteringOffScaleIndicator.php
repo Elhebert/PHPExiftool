@@ -28,13 +28,14 @@ class MeteringOffScaleIndicator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Off Scale Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182035
+             * line : 123906
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeteringOffScaleIndicator extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:MeteringOffScaleIndicator',
             'desc' => [
+                'en' => 'Metering Off Scale Indicator',
             ],
         ],
     ];

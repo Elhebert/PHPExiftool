@@ -28,13 +28,14 @@ class MeasurementMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measurement Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106469
+             * line : 78749
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasurementMethod extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MeasurementMethod',
             'desc' => [
+                'en' => 'Measurement Method',
             ],
         ],
     ];

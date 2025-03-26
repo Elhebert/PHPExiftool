@@ -28,13 +28,14 @@ class Composer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323019
+             * line : 228435
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Composer extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Composer',
             'desc' => [
+                'en' => 'Composer',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323169
+             * line : 228507
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Composer extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Composer',
             'desc' => [
+                'en' => 'Composer',
             ],
         ],
     ];

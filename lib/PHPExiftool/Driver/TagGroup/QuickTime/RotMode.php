@@ -28,13 +28,14 @@ class RotMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rot Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rot360Fly
-             * line : 324391
+             * line : 229181
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rot360Fly.QuickTime:RotMode',
             'desc' => [
+                'en' => 'Rot Mode',
             ],
         ],
     ];

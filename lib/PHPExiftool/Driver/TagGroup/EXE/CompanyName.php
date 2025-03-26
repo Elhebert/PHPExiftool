@@ -28,13 +28,14 @@ class CompanyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Company Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109078
+             * line : 80630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompanyName extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:CompanyName',
             'desc' => [
+                'en' => 'Company Name',
             ],
         ],
     ];

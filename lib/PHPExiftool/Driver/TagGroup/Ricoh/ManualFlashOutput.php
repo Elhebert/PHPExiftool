@@ -28,13 +28,14 @@ class ManualFlashOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual Flash Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333037
+             * line : 233575
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualFlashOutput extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:ManualFlashOutput',
             'desc' => [
+                'en' => 'Manual Flash Output',
             ],
         ],
     ];

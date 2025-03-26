@@ -28,13 +28,14 @@ class MPEGAudioBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MPEG Audio Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172258
+             * line : 118423
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPEGAudioBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MPEGAudioBitrate',
             'desc' => [
+                'en' => 'MPEG Audio Bitrate',
             ],
         ],
     ];

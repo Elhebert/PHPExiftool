@@ -28,13 +28,14 @@ class AspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 105940
+             * line : 78400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AspectRatio extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:AspectRatio',
             'desc' => [
+                'en' => 'Aspect Ratio',
             ],
         ],
     ];

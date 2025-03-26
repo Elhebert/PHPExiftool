@@ -28,13 +28,14 @@ class DCGeoreferenceVerificationStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Georeference Verification Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106914
+             * line : 79082
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCGeoreferenceVerificationStatus extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCGeoreferenceVerificationStatus',
             'desc' => [
+                'en' => 'DC Georeference Verification Status',
             ],
         ],
     ];

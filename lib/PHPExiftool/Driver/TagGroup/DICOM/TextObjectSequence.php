@@ -28,13 +28,14 @@ class TextObjectSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Object Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101250
+             * line : 74400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextObjectSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TextObjectSequence',
             'desc' => [
+                'en' => 'Text Object Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RunTimeSincePowerUp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Run Time Since Power Up',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90039
+             * line : 65063
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RunTimeSincePowerUp extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:RunTimeSincePowerUp',
             'desc' => [
+                'en' => 'Run Time Since Power Up',
             ],
         ],
     ];

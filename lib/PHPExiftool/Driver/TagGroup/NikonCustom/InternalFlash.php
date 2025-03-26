@@ -28,13 +28,14 @@ class InternalFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 214270
+             * line : 143852
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217127
+             * line : 145903
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222574
+             * line : 150207
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223779
+             * line : 150922
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228643
+             * line : 153848
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234909
+             * line : 158355
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class InternalFlash extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:InternalFlash',
             'desc' => [
+                'en' => 'Internal Flash',
             ],
         ],
     ];

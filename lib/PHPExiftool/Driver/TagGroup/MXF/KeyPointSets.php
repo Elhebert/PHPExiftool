@@ -28,13 +28,14 @@ class KeyPointSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Point Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171550
+             * line : 117748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyPointSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyPointSets',
             'desc' => [
+                'en' => 'Key Point Sets',
             ],
         ],
     ];

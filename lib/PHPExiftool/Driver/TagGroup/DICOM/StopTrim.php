@@ -28,13 +28,14 @@ class StopTrim extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stop Trim',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95033
+             * line : 68515
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StopTrim extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StopTrim',
             'desc' => [
+                'en' => 'Stop Trim',
             ],
         ],
     ];

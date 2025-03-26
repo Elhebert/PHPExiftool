@@ -28,13 +28,14 @@ class FlashFired extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Fired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Flash
-             * line : 163381
+             * line : 111395
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashFired extends AbstractTagGroup
              */
             'id' => 'MIE::Flash.MIE-Flash:FlashFired',
             'desc' => [
+                'en' => 'Flash Fired',
             ],
         ],
     ];

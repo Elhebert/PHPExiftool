@@ -28,13 +28,14 @@ class CondadoTunThresh extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Condado Tun Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156903
+             * line : 108107
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CondadoTunThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CondadoTunThresh',
             'desc' => [
+                'en' => 'Condado Tun Thresh',
             ],
         ],
     ];

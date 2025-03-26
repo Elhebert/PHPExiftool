@@ -28,13 +28,14 @@ class CTDIPhantomTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CTDI Phantom Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97069
+             * line : 70468
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTDIPhantomTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTDIPhantomTypeCodeSequence',
             'desc' => [
+                'en' => 'CTDI Phantom Type Code Sequence',
             ],
         ],
     ];

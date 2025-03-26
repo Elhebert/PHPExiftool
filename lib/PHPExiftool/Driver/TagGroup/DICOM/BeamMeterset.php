@@ -28,13 +28,14 @@ class BeamMeterset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Meterset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103104
+             * line : 76200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamMeterset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamMeterset',
             'desc' => [
+                'en' => 'Beam Meterset',
             ],
         ],
     ];

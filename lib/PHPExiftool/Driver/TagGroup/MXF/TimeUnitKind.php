@@ -28,13 +28,14 @@ class TimeUnitKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Unit Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167625
+             * line : 114236
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeUnitKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimeUnitKind',
             'desc' => [
+                'en' => 'Time Unit Kind',
             ],
         ],
     ];

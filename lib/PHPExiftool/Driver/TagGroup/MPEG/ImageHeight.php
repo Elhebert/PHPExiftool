@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Video
-             * line : 166031
+             * line : 112895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'MPEG::Video.MPEG:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

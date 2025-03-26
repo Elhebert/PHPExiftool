@@ -28,13 +28,14 @@ class Writer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Writer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175264
+             * line : 120696
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Writer extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Writer',
             'desc' => [
+                'en' => 'Writer',
             ],
         ],
     ];

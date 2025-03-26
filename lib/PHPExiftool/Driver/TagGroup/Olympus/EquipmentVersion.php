@@ -28,13 +28,14 @@ class EquipmentVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Equipment Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 253078
+             * line : 174430
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class EquipmentVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:EquipmentVersion',
             'desc' => [
+                'en' => 'Equipment Version',
             ],
         ],
     ];

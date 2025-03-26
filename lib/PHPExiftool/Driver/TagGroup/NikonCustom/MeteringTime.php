@@ -28,13 +28,14 @@ class MeteringTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 214226
+             * line : 143817
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216856
+             * line : 145764
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222454
+             * line : 150110
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 223051
+             * line : 150440
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224937
+             * line : 151603
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227291
+             * line : 153036
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228135
+             * line : 153599
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234680
+             * line : 158153
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class MeteringTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:MeteringTime',
             'desc' => [
+                'en' => 'Metering Time',
             ],
         ],
     ];

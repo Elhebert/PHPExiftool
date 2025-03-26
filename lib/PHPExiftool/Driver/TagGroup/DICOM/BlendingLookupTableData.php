@@ -28,13 +28,14 @@ class BlendingLookupTableData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blending Lookup Table Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99059
+             * line : 72291
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlendingLookupTableData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlendingLookupTableData',
             'desc' => [
+                'en' => 'Blending Lookup Table Data',
             ],
         ],
     ];

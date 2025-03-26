@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -23,28 +24,29 @@ use PHPUnit\Framework\TestCase;
 class RDFParserTest extends TestCase
 {
     protected RDFParser $object;
+
     protected Logger $logger;
 
     protected function setUp(): void
     {
         $this->logger = new Logger('Tests');
-        $this->logger->pushHandler(new NullHandler());
+        $this->logger->pushHandler(new NullHandler);
 
-        $this->object = new RDFParser("/tmp", $this->logger);
+        $this->object = new RDFParser('/tmp', $this->logger);
     }
 
     /**
      * @covers RDFParser::open
      */
-    public function testOpen(): void
+    public function test_open(): void
     {
-        $this->object->open(file_get_contents(__DIR__ . '/../../files/simplefile.xml'));
+        $this->object->open(file_get_contents(__DIR__.'/../../files/simplefile.xml'));
     }
 
     /**
      * @covers RDFParser::close
      */
-    public function testClose(): void
+    public function test_close(): void
     {
         $this->object->close();
     }
@@ -55,10 +57,10 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::getDomXpath
      * @covers RDFParser::getNamespacesFromXml
      */
-    public function testParseEntities(): void
+    public function test_parse_entities(): void
     {
         $entities = $this->object
-            ->open(file_get_contents(__DIR__ . '/../../files/simplefile.xml'))
+            ->open(file_get_contents(__DIR__.'/../../files/simplefile.xml'))
             ->parseEntities();
 
         $this->assertInstanceOf(ArrayCollection::class, $entities);
@@ -72,7 +74,7 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::getDomXpath
      * @covers \PHPExiftool\Exception\LogicException
      */
-    public function testParseEntitiesWithoutDom(): void
+    public function test_parse_entities_without_dom(): void
     {
         $this->expectException(\LogicException::class);
         $this->object->parseEntities();
@@ -85,7 +87,7 @@ class RDFParserTest extends TestCase
      * @covers \PHPExiftool\Exception\ParseErrorException
      * @covers \PHPExiftool\Exception\RuntimeException
      */
-    public function testParseEntitiesWrongDom(): void
+    public function test_parse_entities_wrong_dom(): void
     {
         $this->expectException(\RuntimeException::class);
         $this->object->open('wrong xml')->parseEntities();
@@ -96,10 +98,10 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::getDom
      * @covers RDFParser::getDomXpath
      */
-    public function testParseMetadatas(): void
+    public function test_parse_metadatas(): void
     {
         $metadatas = $this->object
-            ->open(file_get_contents(__DIR__ . '/../../files/ExifTool.xml'))
+            ->open(file_get_contents(__DIR__.'/../../files/ExifTool.xml'))
             ->ParseMetadatas();
 
         $this->assertInstanceOf('\\PHPExiftool\\Driver\\Metadata\\MetadataBag', $metadatas);
@@ -110,7 +112,7 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::Query
      * @covers RDFParser::readNodeValue
      */
-    public function testQuery(): void
+    public function test_query(): void
     {
         $xml = "<?xml version='1.0' encoding='UTF-8'?>
             <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
@@ -143,6 +145,6 @@ class RDFParserTest extends TestCase
 
         $this->assertEquals('Hello World !', $metadata_simple->asString());
         $this->assertEquals('Hello base64 !', $metadata_base64->asString());
-        $this->assertEquals(array('romain', 'neutron'), $metadata_multi->asArray());
+        $this->assertEquals(['romain', 'neutron'], $metadata_multi->asArray());
     }
 }

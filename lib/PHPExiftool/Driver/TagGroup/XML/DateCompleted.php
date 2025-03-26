@@ -28,13 +28,14 @@ class DateCompleted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Completed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249066
+             * line : 171711
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateCompleted extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:DateCompleted',
             'desc' => [
+                'en' => 'Date Completed',
             ],
         ],
     ];

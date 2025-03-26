@@ -28,13 +28,14 @@ class HangingProtocolDefinitionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hanging Protocol Definition Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101432
+             * line : 74580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HangingProtocolDefinitionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HangingProtocolDefinitionSequence',
             'desc' => [
+                'en' => 'Hanging Protocol Definition Sequence',
             ],
         ],
     ];

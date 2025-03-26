@@ -28,13 +28,14 @@ class BaselineSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Baseline Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119147
+             * line : 84183
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaselineSharpness extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:BaselineSharpness',
             'desc' => [
+                'en' => 'Baseline Sharpness',
             ],
         ],
     ];

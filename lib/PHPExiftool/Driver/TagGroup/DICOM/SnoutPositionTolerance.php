@@ -28,13 +28,14 @@ class SnoutPositionTolerance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Snout Position Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103047
+             * line : 76143
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SnoutPositionTolerance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SnoutPositionTolerance',
             'desc' => [
+                'en' => 'Snout Position Tolerance',
             ],
         ],
     ];

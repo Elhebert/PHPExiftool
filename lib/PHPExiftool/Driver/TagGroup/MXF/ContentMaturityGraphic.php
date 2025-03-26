@@ -28,13 +28,14 @@ class ContentMaturityGraphic extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Maturity Graphic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168738
+             * line : 115214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentMaturityGraphic extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentMaturityGraphic',
             'desc' => [
+                'en' => 'Content Maturity Graphic',
             ],
         ],
     ];

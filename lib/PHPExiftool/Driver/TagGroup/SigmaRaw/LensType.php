@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340064
+             * line : 237743
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

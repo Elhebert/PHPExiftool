@@ -28,13 +28,14 @@ class TvExposureTimeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tv Exposure Time Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285517
+             * line : 197960
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TvExposureTimeSetting extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:TvExposureTimeSetting',
             'desc' => [
+                'en' => 'Tv Exposure Time Setting',
             ],
         ],
     ];

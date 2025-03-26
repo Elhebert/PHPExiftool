@@ -28,13 +28,14 @@ class OperationParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operation Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169533
+             * line : 115926
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperationParameters extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OperationParameters',
             'desc' => [
+                'en' => 'Operation Parameters',
             ],
         ],
     ];

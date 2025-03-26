@@ -28,13 +28,14 @@ class HasScript extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Script',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1318
+             * line : 580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasScript extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:HasScript',
             'desc' => [
+                'en' => 'Has Script',
             ],
         ],
     ];

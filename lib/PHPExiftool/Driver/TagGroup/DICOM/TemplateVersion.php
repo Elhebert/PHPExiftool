@@ -28,13 +28,14 @@ class TemplateVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100239
+             * line : 73413
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemplateVersion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemplateVersion',
             'desc' => [
+                'en' => 'Template Version',
             ],
         ],
     ];

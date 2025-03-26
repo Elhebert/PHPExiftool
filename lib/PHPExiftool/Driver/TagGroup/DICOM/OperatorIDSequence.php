@@ -28,13 +28,14 @@ class OperatorIDSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operator ID Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94896
+             * line : 68380
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperatorIDSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OperatorIDSequence',
             'desc' => [
+                'en' => 'Operator ID Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecallShootFuncAperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248003
+             * line : 170691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncAperture extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncAperture',
             'desc' => [
+                'en' => 'Recall Shoot Func Aperture',
             ],
         ],
     ];

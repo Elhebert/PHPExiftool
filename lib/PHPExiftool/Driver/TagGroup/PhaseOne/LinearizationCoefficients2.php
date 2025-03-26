@@ -28,13 +28,14 @@ class LinearizationCoefficients2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linearization Coefficients 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::SensorCalibration
-             * line : 303664
+             * line : 210946
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinearizationCoefficients2 extends AbstractTagGroup
              */
             'id' => 'PhaseOne::SensorCalibration.PhaseOne:LinearizationCoefficients2',
             'desc' => [
+                'en' => 'Linearization Coefficients 2',
             ],
         ],
     ];

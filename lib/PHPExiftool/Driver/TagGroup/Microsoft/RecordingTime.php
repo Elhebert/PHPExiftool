@@ -28,13 +28,14 @@ class RecordingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recording Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174764
+             * line : 120314
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RecordingTime extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RecordingTime',
             'desc' => [
+                'en' => 'Recording Time',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176153
+             * line : 121221
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RecordingTime extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RecordingTime',
             'desc' => [
+                'en' => 'Recording Time',
             ],
         ],
     ];

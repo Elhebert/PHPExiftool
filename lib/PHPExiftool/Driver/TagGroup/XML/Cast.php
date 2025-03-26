@@ -28,13 +28,14 @@ class Cast extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265190
+             * line : 183318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Cast extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:Cast',
             'desc' => [
+                'en' => 'Cast',
             ],
         ],
     ];

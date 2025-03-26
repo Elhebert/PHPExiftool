@@ -28,13 +28,14 @@ class RotationInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100859
+             * line : 74019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotationInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RotationInformationSequence',
             'desc' => [
+                'en' => 'Rotation Information Sequence',
             ],
         ],
     ];

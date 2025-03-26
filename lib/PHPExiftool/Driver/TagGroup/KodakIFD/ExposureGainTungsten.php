@@ -28,13 +28,14 @@ class ExposureGainTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Gain Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155266
+             * line : 106487
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureGainTungsten extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureGainTungsten',
             'desc' => [
+                'en' => 'Exposure Gain Tungsten',
             ],
         ],
     ];

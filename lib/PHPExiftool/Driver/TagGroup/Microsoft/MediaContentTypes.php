@@ -28,13 +28,14 @@ class MediaContentTypes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Content Types',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174714
+             * line : 120269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaContentTypes extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MediaContentTypes',
             'desc' => [
+                'en' => 'Media Content Types',
             ],
         ],
     ];

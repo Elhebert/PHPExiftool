@@ -28,13 +28,14 @@ class RotationFromSourceZRot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rotation From Source Z Rot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98226
+             * line : 71569
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RotationFromSourceZRot extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RotationFromSourceZRot',
             'desc' => [
+                'en' => 'Rotation From Source Z Rot',
             ],
         ],
     ];

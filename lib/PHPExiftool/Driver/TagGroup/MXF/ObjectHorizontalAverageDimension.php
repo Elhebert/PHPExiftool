@@ -28,13 +28,14 @@ class ObjectHorizontalAverageDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Horizontal Average Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170237
+             * line : 116514
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectHorizontalAverageDimension extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectHorizontalAverageDimension',
             'desc' => [
+                'en' => 'Object Horizontal Average Dimension',
             ],
         ],
     ];

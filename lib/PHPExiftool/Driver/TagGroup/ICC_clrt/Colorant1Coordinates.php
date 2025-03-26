@@ -28,13 +28,14 @@ class Colorant1Coordinates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorant 1 Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::ColorantTable
-             * line : 143135
+             * line : 98857
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class Colorant1Coordinates extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::ColorantTable.ICC-clrt:Colorant1Coordinates',
             'desc' => [
+                'en' => 'Colorant 1 Coordinates',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OriginalImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::VignettingCorr
-             * line : 71192
+             * line : 53105
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalImageHeight extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorr.Canon:OriginalImageHeight',
             'desc' => [
+                'en' => 'Original Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VelocityEncodingDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Velocity Encoding Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96729
+             * line : 70132
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VelocityEncodingDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VelocityEncodingDirection',
             'desc' => [
+                'en' => 'Velocity Encoding Direction',
             ],
         ],
     ];

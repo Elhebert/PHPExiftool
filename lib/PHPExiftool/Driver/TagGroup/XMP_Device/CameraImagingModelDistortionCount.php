@@ -28,13 +28,14 @@ class CameraImagingModelDistortionCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Imaging Model Distortion Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396573
+             * line : 280790
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraImagingModelDistortionCount extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraImagingModelDistortionCount',
             'desc' => [
+                'en' => 'Camera Imaging Model Distortion Count',
             ],
         ],
     ];

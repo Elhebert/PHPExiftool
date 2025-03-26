@@ -28,13 +28,14 @@ class CTAcquisitionTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Acquisition Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96940
+             * line : 70342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTAcquisitionTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTAcquisitionTypeSequence',
             'desc' => [
+                'en' => 'CT Acquisition Type Sequence',
             ],
         ],
     ];

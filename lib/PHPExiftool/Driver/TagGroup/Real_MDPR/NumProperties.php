@@ -28,13 +28,14 @@ class NumProperties extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330454
+             * line : 232526
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumProperties extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:NumProperties',
             'desc' => [
+                'en' => 'Num Properties',
             ],
         ],
     ];

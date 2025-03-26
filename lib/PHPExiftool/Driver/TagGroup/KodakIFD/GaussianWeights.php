@@ -28,13 +28,14 @@ class GaussianWeights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gaussian Weights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155876
+             * line : 107087
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GaussianWeights extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:GaussianWeights',
             'desc' => [
+                'en' => 'Gaussian Weights',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EarliestAgeOrLowestStage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earliest Age Or Lowest Stage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106161
+             * line : 78518
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarliestAgeOrLowestStage extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EarliestAgeOrLowestStage',
             'desc' => [
+                'en' => 'Earliest Age Or Lowest Stage',
             ],
         ],
     ];

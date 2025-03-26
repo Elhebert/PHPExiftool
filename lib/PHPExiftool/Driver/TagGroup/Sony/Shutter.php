@@ -28,13 +28,14 @@ class Shutter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379074
+             * line : 265915
              * type : int16u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class Shutter extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:Shutter',
             'desc' => [
+                'en' => 'Shutter',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381296
+             * line : 268099
              * type : int16u
              * writable : true
              * count : 3
@@ -55,12 +57,13 @@ class Shutter extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:Shutter',
             'desc' => [
+                'en' => 'Shutter',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383711
+             * line : 270481
              * type : int16u
              * writable : true
              * count : 3
@@ -68,6 +71,7 @@ class Shutter extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:Shutter',
             'desc' => [
+                'en' => 'Shutter',
             ],
         ],
     ];

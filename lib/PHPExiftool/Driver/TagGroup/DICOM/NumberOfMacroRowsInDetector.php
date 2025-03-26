@@ -28,13 +28,14 @@ class NumberOfMacroRowsInDetector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Macro Rows In Detector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100552
+             * line : 73722
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfMacroRowsInDetector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfMacroRowsInDetector',
             'desc' => [
+                'en' => 'Number Of Macro Rows In Detector',
             ],
         ],
     ];

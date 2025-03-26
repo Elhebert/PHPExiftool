@@ -28,13 +28,14 @@ class EventStartTimeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Start Time Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168555
+             * line : 115046
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventStartTimeOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventStartTimeOffset',
             'desc' => [
+                'en' => 'Event Start Time Offset',
             ],
         ],
     ];

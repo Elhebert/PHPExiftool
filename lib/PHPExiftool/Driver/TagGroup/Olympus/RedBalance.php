@@ -28,13 +28,14 @@ class RedBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258775
+             * line : 178674
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class RedBalance extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:RedBalance',
             'desc' => [
+                'en' => 'Red Balance',
             ],
         ],
     ];

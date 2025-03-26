@@ -28,13 +28,14 @@ class NemoHighlight12Limit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nemo Highlight 12 Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155581
+             * line : 106793
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NemoHighlight12Limit extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NemoHighlight12Limit',
             'desc' => [
+                'en' => 'Nemo Highlight 12 Limit',
             ],
         ],
     ];

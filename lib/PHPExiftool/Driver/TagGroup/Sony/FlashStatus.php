@@ -28,13 +28,14 @@ class FlashStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361166
+             * line : 251653
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashStatus extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashStatus',
             'desc' => [
+                'en' => 'Flash Status',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361183
+             * line : 251664
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashStatus extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashStatus',
             'desc' => [
+                'en' => 'Flash Status',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379082
+             * line : 265923
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashStatus extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:FlashStatus',
             'desc' => [
+                'en' => 'Flash Status',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381304
+             * line : 268107
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashStatus extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:FlashStatus',
             'desc' => [
+                'en' => 'Flash Status',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383719
+             * line : 270489
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FlashStatus extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:FlashStatus',
             'desc' => [
+                'en' => 'Flash Status',
             ],
         ],
     ];

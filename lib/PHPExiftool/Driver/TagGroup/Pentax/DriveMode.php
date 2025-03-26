@@ -28,13 +28,14 @@ class DriveMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299201
+             * line : 208704
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
     ];

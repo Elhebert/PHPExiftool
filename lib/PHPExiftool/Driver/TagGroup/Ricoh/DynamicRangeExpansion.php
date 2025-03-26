@@ -28,13 +28,14 @@ class DynamicRangeExpansion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Expansion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333096
+             * line : 233627
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeExpansion extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:DynamicRangeExpansion',
             'desc' => [
+                'en' => 'Dynamic Range Expansion',
             ],
         ],
     ];

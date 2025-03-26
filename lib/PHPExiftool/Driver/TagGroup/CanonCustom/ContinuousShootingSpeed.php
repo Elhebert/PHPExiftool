@@ -28,13 +28,14 @@ class ContinuousShootingSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Continuous Shooting Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74466
+             * line : 54967
              * type : int32s
              * writable : true
              * count : 6
@@ -42,12 +43,13 @@ class ContinuousShootingSpeed extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ContinuousShootingSpeed',
             'desc' => [
+                'en' => 'Continuous Shooting Speed',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74487
+             * line : 54978
              * type : int32s
              * writable : true
              * count : 5
@@ -55,12 +57,13 @@ class ContinuousShootingSpeed extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ContinuousShootingSpeed',
             'desc' => [
+                'en' => 'Continuous Shooting Speed',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74493
+             * line : 54981
              * type : int32s
              * writable : true
              * count : 3
@@ -68,6 +71,7 @@ class ContinuousShootingSpeed extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ContinuousShootingSpeed',
             'desc' => [
+                'en' => 'Continuous Shooting Speed',
             ],
         ],
     ];

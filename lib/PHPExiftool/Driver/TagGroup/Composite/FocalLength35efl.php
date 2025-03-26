@@ -28,13 +28,14 @@ class FocalLength35efl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90347
+             * line : 65161
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength35efl extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:FocalLength35efl',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

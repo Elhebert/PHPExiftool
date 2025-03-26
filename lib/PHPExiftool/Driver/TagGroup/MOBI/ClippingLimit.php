@@ -28,13 +28,14 @@ class ClippingLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clipping Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273609
+             * line : 190807
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClippingLimit extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:ClippingLimit',
             'desc' => [
+                'en' => 'Clipping Limit',
             ],
         ],
     ];

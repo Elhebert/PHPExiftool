@@ -28,13 +28,14 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture At Min Focal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130694
+             * line : 90273
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
     ];

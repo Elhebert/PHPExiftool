@@ -28,13 +28,14 @@ class SortComposer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sort Composer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322849
+             * line : 228343
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SortComposer extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:SortComposer',
             'desc' => [
+                'en' => 'Sort Composer',
             ],
         ],
     ];

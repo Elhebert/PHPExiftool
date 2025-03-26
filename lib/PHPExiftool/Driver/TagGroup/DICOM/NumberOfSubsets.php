@@ -28,13 +28,14 @@ class NumberOfSubsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Subsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97333
+             * line : 70729
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfSubsets extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfSubsets',
             'desc' => [
+                'en' => 'Number Of Subsets',
             ],
         ],
     ];

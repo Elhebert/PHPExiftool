@@ -28,13 +28,14 @@ class AvSettingWithoutLens extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Av Setting Without Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75108
+             * line : 55316
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AvSettingWithoutLens extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AvSettingWithoutLens',
             'desc' => [
+                'en' => 'Av Setting Without Lens',
             ],
         ],
     ];

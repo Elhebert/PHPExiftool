@@ -28,13 +28,14 @@ class TrackCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Metadata
-             * line : 330466
+             * line : 232536
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackCategory extends AbstractTagGroup
              */
             'id' => 'Real::Metadata.Real-RJMD:TrackCategory',
             'desc' => [
+                'en' => 'Track Category',
             ],
         ],
     ];

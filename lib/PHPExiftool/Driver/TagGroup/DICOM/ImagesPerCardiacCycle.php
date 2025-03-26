@@ -28,13 +28,14 @@ class ImagesPerCardiacCycle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Images Per Cardiac Cycle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97584
+             * line : 70969
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagesPerCardiacCycle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagesPerCardiacCycle',
             'desc' => [
+                'en' => 'Images Per Cardiac Cycle',
             ],
         ],
     ];

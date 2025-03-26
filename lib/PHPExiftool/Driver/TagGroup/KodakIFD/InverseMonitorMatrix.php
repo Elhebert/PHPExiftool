@@ -28,13 +28,14 @@ class InverseMonitorMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inverse Monitor Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156987
+             * line : 108191
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InverseMonitorMatrix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:InverseMonitorMatrix',
             'desc' => [
+                'en' => 'Inverse Monitor Matrix',
             ],
         ],
     ];

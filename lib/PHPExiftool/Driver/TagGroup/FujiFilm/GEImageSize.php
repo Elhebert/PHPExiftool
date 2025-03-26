@@ -28,13 +28,14 @@ class GEImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GE Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130544
+             * line : 90177
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GEImageSize extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:GEImageSize',
             'desc' => [
+                'en' => 'GE Image Size',
             ],
         ],
     ];

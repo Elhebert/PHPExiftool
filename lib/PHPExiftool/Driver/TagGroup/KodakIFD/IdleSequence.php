@@ -28,13 +28,14 @@ class IdleSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Idle Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155078
+             * line : 106328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdleSequence extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IdleSequence',
             'desc' => [
+                'en' => 'Idle Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GeogSemiMajorAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Semi Major Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134105
+             * line : 92398
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogSemiMajorAxis extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogSemiMajorAxis',
             'desc' => [
+                'en' => 'Geog Semi Major Axis',
             ],
         ],
     ];

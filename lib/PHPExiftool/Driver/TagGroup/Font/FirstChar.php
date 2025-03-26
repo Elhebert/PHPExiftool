@@ -28,13 +28,14 @@ class FirstChar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Char',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128086
+             * line : 88882
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstChar extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:FirstChar',
             'desc' => [
+                'en' => 'First Char',
             ],
         ],
     ];

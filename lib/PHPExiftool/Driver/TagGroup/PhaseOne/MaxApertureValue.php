@@ -28,13 +28,14 @@ class MaxApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303555
+             * line : 210888
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxApertureValue extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:MaxApertureValue',
             'desc' => [
+                'en' => 'Max Aperture Value',
             ],
         ],
     ];

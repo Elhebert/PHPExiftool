@@ -28,13 +28,14 @@ class Dimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175830
+             * line : 121005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dimensions extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Dimensions',
             'desc' => [
+                'en' => 'Dimensions',
             ],
         ],
     ];

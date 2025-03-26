@@ -28,13 +28,14 @@ class CollationFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collation Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102010
+             * line : 75147
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollationFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollationFlag',
             'desc' => [
+                'en' => 'Collation Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BitsPerAudioSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Audio Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170790
+             * line : 117021
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerAudioSample extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BitsPerAudioSample',
             'desc' => [
+                'en' => 'Bits Per Audio Sample',
             ],
         ],
     ];

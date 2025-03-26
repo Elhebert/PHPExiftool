@@ -28,13 +28,14 @@ class RetrieveURI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Retrieve URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100266
+             * line : 73440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RetrieveURI extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RetrieveURI',
             'desc' => [
+                'en' => 'Retrieve URI',
             ],
         ],
     ];

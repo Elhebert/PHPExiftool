@@ -28,13 +28,14 @@ class DacGainsFine extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dac Gains Fine',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155732
+             * line : 106943
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DacGainsFine extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DacGainsFine',
             'desc' => [
+                'en' => 'Dac Gains Fine',
             ],
         ],
     ];

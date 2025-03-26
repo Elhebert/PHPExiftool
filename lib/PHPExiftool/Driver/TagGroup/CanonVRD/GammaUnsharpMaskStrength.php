@@ -28,13 +28,14 @@ class GammaUnsharpMaskStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Unsharp Mask Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82009
+             * line : 60103
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaUnsharpMaskStrength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaUnsharpMaskStrength',
             'desc' => [
+                'en' => 'Gamma Unsharp Mask Strength',
             ],
         ],
     ];

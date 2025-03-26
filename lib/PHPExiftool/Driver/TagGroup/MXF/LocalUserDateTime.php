@@ -28,13 +28,14 @@ class LocalUserDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local User Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168489
+             * line : 114980
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalUserDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalUserDateTime',
             'desc' => [
+                'en' => 'Local User Date Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Yield0 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Yield',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411264
+             * line : 290454
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Yield0 extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:Yield',
             'desc' => [
+                'en' => 'Yield',
             ],
         ],
     ];

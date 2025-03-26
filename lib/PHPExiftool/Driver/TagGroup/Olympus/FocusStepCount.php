@@ -28,13 +28,14 @@ class FocusStepCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Step Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254751
+             * line : 175890
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusStepCount extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:FocusStepCount',
             'desc' => [
+                'en' => 'Focus Step Count',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258606
+             * line : 178601
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocusStepCount extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FocusStepCount',
             'desc' => [
+                'en' => 'Focus Step Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Journal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Journal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107430
+             * line : 79300
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Journal extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Journal',
             'desc' => [
+                'en' => 'Journal',
             ],
         ],
     ];

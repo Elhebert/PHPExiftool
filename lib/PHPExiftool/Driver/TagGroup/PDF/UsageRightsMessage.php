@@ -28,13 +28,14 @@ class UsageRightsMessage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Usage Rights Message',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264427
+             * line : 182777
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UsageRightsMessage extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:UsageRightsMessage',
             'desc' => [
+                'en' => 'Usage Rights Message',
             ],
         ],
     ];

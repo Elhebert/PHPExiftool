@@ -28,13 +28,14 @@ class MetersetExposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meterset Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102423
+             * line : 75522
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetersetExposure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MetersetExposure',
             'desc' => [
+                'en' => 'Meterset Exposure',
             ],
         ],
     ];

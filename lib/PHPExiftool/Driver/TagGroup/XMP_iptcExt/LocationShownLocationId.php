@@ -28,13 +28,14 @@ class LocationShownLocationId extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Shown Location Id',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409509
+             * line : 289285
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationShownLocationId extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:LocationShownLocationId',
             'desc' => [
+                'en' => 'Location Shown Location Id',
             ],
         ],
     ];

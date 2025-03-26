@@ -28,13 +28,14 @@ class GPSMeasureMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Measure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139504
+             * line : 97635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
     ];

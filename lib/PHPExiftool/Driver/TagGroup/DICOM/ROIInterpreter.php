@@ -28,13 +28,14 @@ class ROIInterpreter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Interpreter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102627
+             * line : 75723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIInterpreter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIInterpreter',
             'desc' => [
+                'en' => 'ROI Interpreter',
             ],
         ],
     ];

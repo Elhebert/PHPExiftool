@@ -28,13 +28,14 @@ class VideoDeviceKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Device Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168162
+             * line : 114659
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoDeviceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoDeviceKind',
             'desc' => [
+                'en' => 'Video Device Kind',
             ],
         ],
     ];

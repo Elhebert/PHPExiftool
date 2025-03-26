@@ -28,13 +28,14 @@ class CompositeImageExposureTimes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composite Image Exposure Times',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117961
+             * line : 83709
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompositeImageExposureTimes extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CompositeImageExposureTimes',
             'desc' => [
+                'en' => 'Composite Image Exposure Times',
             ],
         ],
     ];

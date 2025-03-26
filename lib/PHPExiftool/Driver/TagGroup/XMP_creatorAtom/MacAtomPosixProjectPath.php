@@ -28,13 +28,14 @@ class MacAtomPosixProjectPath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mac Atom Posix Project Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401480
+             * line : 284743
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacAtomPosixProjectPath extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:MacAtomPosixProjectPath',
             'desc' => [
+                'en' => 'Mac Atom Posix Project Path',
             ],
         ],
     ];

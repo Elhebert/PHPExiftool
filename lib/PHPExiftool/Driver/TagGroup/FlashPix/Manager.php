@@ -28,13 +28,14 @@ class Manager extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manager',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124498
+             * line : 86985
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manager extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:Manager',
             'desc' => [
+                'en' => 'Manager',
             ],
         ],
     ];

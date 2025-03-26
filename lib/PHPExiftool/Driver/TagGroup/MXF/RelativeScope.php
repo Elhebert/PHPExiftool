@@ -28,13 +28,14 @@ class RelativeScope extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Scope',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169461
+             * line : 115863
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeScope extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelativeScope',
             'desc' => [
+                'en' => 'Relative Scope',
             ],
         ],
     ];

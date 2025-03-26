@@ -28,13 +28,14 @@ class ImageOrientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150473
+             * line : 103990
              * type : string
              * writable : true
              * count : 1
@@ -42,6 +43,7 @@ class ImageOrientation extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ImageOrientation',
             'desc' => [
+                'en' => 'Image Orientation',
             ],
         ],
     ];

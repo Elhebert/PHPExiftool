@@ -28,13 +28,14 @@ class ImageFrameOrigin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Frame Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104303
+             * line : 77376
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFrameOrigin extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageFrameOrigin',
             'desc' => [
+                'en' => 'Image Frame Origin',
             ],
         ],
     ];

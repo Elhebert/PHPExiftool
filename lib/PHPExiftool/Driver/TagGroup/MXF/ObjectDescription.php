@@ -28,13 +28,14 @@ class ObjectDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168966
+             * line : 115430
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ObjectDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectDescription',
             'desc' => [
+                'en' => 'Object Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168969
+             * line : 115433
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ObjectDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectDescription',
             'desc' => [
+                'en' => 'Object Description',
             ],
         ],
     ];

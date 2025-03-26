@@ -28,13 +28,14 @@ class ActiveD_LightingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Active D-Lighting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Exposure
-             * line : 210337
+             * line : 141626
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ActiveD_LightingMode extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Exposure.NikonCapture:ActiveD-LightingMode',
             'desc' => [
+                'en' => 'Active D-Lighting Mode',
             ],
         ],
     ];

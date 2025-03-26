@@ -28,13 +28,14 @@ class RelativeHumidity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Humidity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::ThermalParams
-             * line : 104572
+             * line : 77616
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeHumidity extends AbstractTagGroup
              */
             'id' => 'DJI::ThermalParams.DJI:RelativeHumidity',
             'desc' => [
+                'en' => 'Relative Humidity',
             ],
         ],
     ];

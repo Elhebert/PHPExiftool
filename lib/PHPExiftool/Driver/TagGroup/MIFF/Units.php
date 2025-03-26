@@ -28,13 +28,14 @@ class Units extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164438
+             * line : 111772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Units extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Units',
             'desc' => [
+                'en' => 'Units',
             ],
         ],
     ];

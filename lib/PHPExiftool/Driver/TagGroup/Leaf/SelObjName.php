@@ -28,13 +28,14 @@ class SelObjName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sel Obj Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162027
+             * line : 110727
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelObjName extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:SelObjName',
             'desc' => [
+                'en' => 'Sel Obj Name',
             ],
         ],
     ];

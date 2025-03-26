@@ -28,13 +28,14 @@ class ReviewTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Review Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104050
+             * line : 77139
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReviewTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReviewTime',
             'desc' => [
+                'en' => 'Review Time',
             ],
         ],
     ];

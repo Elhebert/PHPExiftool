@@ -28,13 +28,14 @@ class EquipmentManufacturer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Equipment Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396436
+             * line : 280666
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EquipmentManufacturer extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:EquipmentManufacturer',
             'desc' => [
+                'en' => 'Equipment Manufacturer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NormalSCoord extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Normal S Coord',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98552
+             * line : 71884
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NormalSCoord extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NormalSCoord',
             'desc' => [
+                'en' => 'Normal S Coord',
             ],
         ],
     ];

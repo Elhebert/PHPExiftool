@@ -28,13 +28,14 @@ class RequestID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Request ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396390
+             * line : 280629
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:RequestID',
             'desc' => [
+                'en' => 'Request ID',
             ],
         ],
     ];

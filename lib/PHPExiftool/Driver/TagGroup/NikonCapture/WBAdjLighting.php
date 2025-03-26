@@ -28,13 +28,14 @@ class WBAdjLighting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Lighting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::WBAdjData
-             * line : 211615
+             * line : 142246
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBAdjLighting extends AbstractTagGroup
              */
             'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjLighting',
             'desc' => [
+                'en' => 'WB Adj Lighting',
             ],
         ],
     ];

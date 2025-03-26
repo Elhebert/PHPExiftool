@@ -28,13 +28,14 @@ class ColorAverages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Averages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161684
+             * line : 110449
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorAverages extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:ColorAverages',
             'desc' => [
+                'en' => 'Color Averages',
             ],
         ],
     ];

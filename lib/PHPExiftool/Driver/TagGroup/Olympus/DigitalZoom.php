@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256987
+             * line : 177432
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

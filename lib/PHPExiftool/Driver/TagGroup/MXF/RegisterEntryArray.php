@@ -28,13 +28,14 @@ class RegisterEntryArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Entry Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172469
+             * line : 118630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterEntryArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterEntryArray',
             'desc' => [
+                'en' => 'Register Entry Array',
             ],
         ],
     ];

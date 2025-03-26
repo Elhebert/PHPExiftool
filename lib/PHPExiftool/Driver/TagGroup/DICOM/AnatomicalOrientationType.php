@@ -28,13 +28,14 @@ class AnatomicalOrientationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomical Orientation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95314
+             * line : 68776
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicalOrientationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicalOrientationType',
             'desc' => [
+                'en' => 'Anatomical Orientation Type',
             ],
         ],
     ];

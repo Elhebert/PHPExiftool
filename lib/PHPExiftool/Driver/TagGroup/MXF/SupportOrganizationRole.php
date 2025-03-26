@@ -28,13 +28,14 @@ class SupportOrganizationRole extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Support Organization Role',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167547
+             * line : 114162
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SupportOrganizationRole extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupportOrganizationRole',
             'desc' => [
+                'en' => 'Support Organization Role',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170027
+             * line : 116352
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SupportOrganizationRole extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupportOrganizationRole',
             'desc' => [
+                'en' => 'Support Organization Role',
             ],
         ],
     ];

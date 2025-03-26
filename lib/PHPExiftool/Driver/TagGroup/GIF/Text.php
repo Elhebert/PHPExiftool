@@ -28,13 +28,14 @@ class Text extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Main
-             * line : 131352
+             * line : 90683
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Text extends AbstractTagGroup
              */
             'id' => 'GIF::Main.GIF:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
     ];

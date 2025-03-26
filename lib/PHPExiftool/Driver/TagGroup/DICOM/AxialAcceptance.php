@@ -28,13 +28,14 @@ class AxialAcceptance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axial Acceptance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100992
+             * line : 74142
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxialAcceptance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxialAcceptance',
             'desc' => [
+                'en' => 'Axial Acceptance',
             ],
         ],
     ];

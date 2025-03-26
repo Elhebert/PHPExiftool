@@ -28,13 +28,14 @@ class CropLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402149
+             * line : 285332
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DayMat8 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Day Mat 8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156461
+             * line : 107665
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DayMat8 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DayMat8',
             'desc' => [
+                'en' => 'Day Mat 8',
             ],
         ],
     ];

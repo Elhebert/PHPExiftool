@@ -28,13 +28,14 @@ class PrioritySetupShutterRelease extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Priority Setup Shutter Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181168
+             * line : 123265
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrioritySetupShutterRelease extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:PrioritySetupShutterRelease',
             'desc' => [
+                'en' => 'Priority Setup Shutter Release',
             ],
         ],
     ];

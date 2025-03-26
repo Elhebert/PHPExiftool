@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskRangeLumFeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Range Lum Feather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403013
+             * line : 286149
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskRangeLumFeather extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskRangeLumFeather',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Range Lum Feather',
             ],
         ],
     ];

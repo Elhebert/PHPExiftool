@@ -28,13 +28,14 @@ class RawImageCropTopLeft extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Crop Top Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131059
+             * line : 90525
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class RawImageCropTopLeft extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:RawImageCropTopLeft',
             'desc' => [
+                'en' => 'Raw Image Crop Top Left',
             ],
         ],
     ];

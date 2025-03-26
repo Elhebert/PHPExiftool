@@ -28,13 +28,14 @@ class BlackLevelRough extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level Rough',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154907
+             * line : 106199
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackLevelRough extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackLevelRough',
             'desc' => [
+                'en' => 'Black Level Rough',
             ],
         ],
     ];

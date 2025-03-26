@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173977
+             * line : 119842
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimeShot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397353
+             * line : 281389
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeShot extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:TimeShot',
             'desc' => [
+                'en' => 'Time Shot',
             ],
         ],
     ];

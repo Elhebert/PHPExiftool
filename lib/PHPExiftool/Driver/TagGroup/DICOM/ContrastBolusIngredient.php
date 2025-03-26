@@ -28,13 +28,14 @@ class ContrastBolusIngredient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Bolus Ingredient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95660
+             * line : 69109
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastBolusIngredient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastBolusIngredient',
             'desc' => [
+                'en' => 'Contrast Bolus Ingredient',
             ],
         ],
     ];

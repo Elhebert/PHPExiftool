@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326634
+             * line : 230387
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

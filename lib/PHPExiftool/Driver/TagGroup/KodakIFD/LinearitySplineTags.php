@@ -28,13 +28,14 @@ class LinearitySplineTags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linearity Spline Tags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155293
+             * line : 106514
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinearitySplineTags extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LinearitySplineTags',
             'desc' => [
+                'en' => 'Linearity Spline Tags',
             ],
         ],
     ];

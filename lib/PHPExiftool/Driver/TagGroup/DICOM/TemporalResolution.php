@@ -28,13 +28,14 @@ class TemporalResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Temporal Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97954
+             * line : 71305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemporalResolution extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemporalResolution',
             'desc' => [
+                'en' => 'Temporal Resolution',
             ],
         ],
     ];

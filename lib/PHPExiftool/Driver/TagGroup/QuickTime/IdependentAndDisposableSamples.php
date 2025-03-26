@@ -28,13 +28,14 @@ class IdependentAndDisposableSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Idependent And Disposable Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324419
+             * line : 229209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdependentAndDisposableSamples extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:IdependentAndDisposableSamples',
             'desc' => [
+                'en' => 'Idependent And Disposable Samples',
             ],
         ],
     ];

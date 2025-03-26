@@ -28,13 +28,14 @@ class DayOfWeek extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Day Of Week',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330886
+             * line : 232754
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DayOfWeek extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:DayOfWeek',
             'desc' => [
+                'en' => 'Day Of Week',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331111
+             * line : 232874
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DayOfWeek extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:DayOfWeek',
             'desc' => [
+                'en' => 'Day Of Week',
             ],
         ],
     ];

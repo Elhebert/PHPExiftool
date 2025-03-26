@@ -28,13 +28,14 @@ class CustomRawShadowPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Raw Shadow Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83133
+             * line : 60894
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomRawShadowPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomRawShadowPoint',
             'desc' => [
+                'en' => 'Custom Raw Shadow Point',
             ],
         ],
     ];

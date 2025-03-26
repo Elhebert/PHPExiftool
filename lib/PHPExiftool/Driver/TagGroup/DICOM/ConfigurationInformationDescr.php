@@ -28,13 +28,14 @@ class ConfigurationInformationDescr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Configuration Information Descr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102100
+             * line : 75237
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConfigurationInformationDescr extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConfigurationInformationDescr',
             'desc' => [
+                'en' => 'Configuration Information Descr',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Dictionary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dictionary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 126639
+             * line : 87815
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dictionary extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:Dictionary',
             'desc' => [
+                'en' => 'Dictionary',
             ],
         ],
     ];

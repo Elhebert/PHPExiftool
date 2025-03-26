@@ -28,13 +28,14 @@ class Brightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323568
+             * line : 228725
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
     ];

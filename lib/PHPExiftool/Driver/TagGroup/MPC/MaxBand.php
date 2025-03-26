@@ -28,13 +28,14 @@ class MaxBand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Band',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPC::Main
-             * line : 165587
+             * line : 112599
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxBand extends AbstractTagGroup
              */
             'id' => 'MPC::Main.MPC:MaxBand',
             'desc' => [
+                'en' => 'Max Band',
             ],
         ],
     ];

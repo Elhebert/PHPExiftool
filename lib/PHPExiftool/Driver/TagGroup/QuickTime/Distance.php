@@ -28,13 +28,14 @@ class Distance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324517
+             * line : 229299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Distance extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:Distance',
             'desc' => [
+                'en' => 'Distance',
             ],
         ],
     ];

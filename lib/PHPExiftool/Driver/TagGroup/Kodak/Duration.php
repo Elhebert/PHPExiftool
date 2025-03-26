@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::frea
-             * line : 160693
+             * line : 109794
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Kodak::frea.Kodak:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

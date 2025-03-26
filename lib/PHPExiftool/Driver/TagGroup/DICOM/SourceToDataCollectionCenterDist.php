@@ -28,13 +28,14 @@ class SourceToDataCollectionCenterDist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source To Data Collection Center Dist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97042
+             * line : 70441
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceToDataCollectionCenterDist extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceToDataCollectionCenterDist',
             'desc' => [
+                'en' => 'Source To Data Collection Center Dist',
             ],
         ],
     ];

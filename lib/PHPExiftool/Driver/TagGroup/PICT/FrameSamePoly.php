@@ -28,13 +28,14 @@ class FrameSamePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Same Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264932
+             * line : 183155
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameSamePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FrameSamePoly',
             'desc' => [
+                'en' => 'Frame Same Poly',
             ],
         ],
     ];

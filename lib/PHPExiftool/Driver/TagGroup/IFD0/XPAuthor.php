@@ -28,13 +28,14 @@ class XPAuthor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'XP Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116357
+             * line : 83346
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XPAuthor extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:XPAuthor',
             'desc' => [
+                'en' => 'XP Author',
             ],
         ],
     ];

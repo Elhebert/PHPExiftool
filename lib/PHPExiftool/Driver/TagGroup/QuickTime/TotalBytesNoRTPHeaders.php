@@ -28,13 +28,14 @@ class TotalBytesNoRTPHeaders extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Bytes No RTP Headers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313802
+             * line : 219540
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TotalBytesNoRTPHeaders extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:TotalBytesNoRTPHeaders',
             'desc' => [
+                'en' => 'Total Bytes No RTP Headers',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313805
+             * line : 219543
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class TotalBytesNoRTPHeaders extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:TotalBytesNoRTPHeaders',
             'desc' => [
+                'en' => 'Total Bytes No RTP Headers',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313808
+             * line : 219546
              * type : int64u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class TotalBytesNoRTPHeaders extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:TotalBytesNoRTPHeaders',
             'desc' => [
+                'en' => 'Total Bytes No RTP Headers',
             ],
         ],
     ];

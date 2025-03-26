@@ -28,13 +28,14 @@ class ProfileCopyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146260
+             * line : 101688
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileCopyright extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ProfileCopyright',
             'desc' => [
+                'en' => 'Profile Copyright',
             ],
         ],
     ];

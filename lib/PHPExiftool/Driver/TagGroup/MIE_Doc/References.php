@@ -28,13 +28,14 @@ class References extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'References',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Doc
-             * line : 163293
+             * line : 111360
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class References extends AbstractTagGroup
              */
             'id' => 'MIE::Doc.MIE-Doc:References',
             'desc' => [
+                'en' => 'References',
             ],
         ],
     ];

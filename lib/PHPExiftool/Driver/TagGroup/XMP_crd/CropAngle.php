@@ -28,13 +28,14 @@ class CropAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398811
+             * line : 282371
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropAngle extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CropAngle',
             'desc' => [
+                'en' => 'Crop Angle',
             ],
         ],
     ];

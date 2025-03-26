@@ -28,13 +28,14 @@ class Resaved extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resaved',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336702
+             * line : 235880
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Resaved extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:Resaved',
             'desc' => [
+                'en' => 'Resaved',
             ],
         ],
     ];

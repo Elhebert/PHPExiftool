@@ -28,13 +28,14 @@ class ShadowTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadow Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130114
+             * line : 89881
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadowTone extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ShadowTone',
             'desc' => [
+                'en' => 'Shadow Tone',
             ],
         ],
     ];

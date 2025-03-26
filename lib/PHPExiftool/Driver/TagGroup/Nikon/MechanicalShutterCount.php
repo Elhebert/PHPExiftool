@@ -28,13 +28,14 @@ class MechanicalShutterCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mechanical Shutter Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197129
+             * line : 133067
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MechanicalShutterCount extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:MechanicalShutterCount',
             'desc' => [
+                'en' => 'Mechanical Shutter Count',
             ],
         ],
     ];

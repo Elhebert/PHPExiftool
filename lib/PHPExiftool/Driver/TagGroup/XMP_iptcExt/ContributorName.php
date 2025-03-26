@@ -28,13 +28,14 @@ class ContributorName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributor Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409185
+             * line : 288993
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributorName extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ContributorName',
             'desc' => [
+                'en' => 'Contributor Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FixtureIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fixture Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149907
+             * line : 103848
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class FixtureIdentifier extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:FixtureIdentifier',
             'desc' => [
+                'en' => 'Fixture Identifier',
             ],
         ],
     ];

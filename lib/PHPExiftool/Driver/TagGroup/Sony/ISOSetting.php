@@ -28,13 +28,14 @@ class ISOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347231
+             * line : 243207
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348799
+             * line : 243914
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 349763
+             * line : 244344
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353366
+             * line : 246602
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::ISOInfo
-             * line : 353445
+             * line : 246641
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Sony::ISOInfo.Sony:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
     ];

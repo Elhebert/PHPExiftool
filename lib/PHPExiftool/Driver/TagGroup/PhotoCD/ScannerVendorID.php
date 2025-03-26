@@ -28,13 +28,14 @@ class ScannerVendorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Vendor ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303766
+             * line : 211009
              * type : string
              * writable : false
              * count : 20
@@ -42,6 +43,7 @@ class ScannerVendorID extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ScannerVendorID',
             'desc' => [
+                'en' => 'Scanner Vendor ID',
             ],
         ],
     ];

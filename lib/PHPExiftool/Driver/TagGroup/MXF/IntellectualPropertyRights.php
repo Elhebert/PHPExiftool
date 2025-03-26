@@ -28,13 +28,14 @@ class IntellectualPropertyRights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intellectual Property Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167454
+             * line : 114069
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IntellectualPropertyRights extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntellectualPropertyRights',
             'desc' => [
+                'en' => 'Intellectual Property Rights',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169923
+             * line : 116259
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class IntellectualPropertyRights extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntellectualPropertyRights',
             'desc' => [
+                'en' => 'Intellectual Property Rights',
             ],
         ],
     ];

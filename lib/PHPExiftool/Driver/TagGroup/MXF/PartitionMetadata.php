@@ -28,13 +28,14 @@ class PartitionMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partition Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172513
+             * line : 118672
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartitionMetadata extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PartitionMetadata',
             'desc' => [
+                'en' => 'Partition Metadata',
             ],
         ],
     ];

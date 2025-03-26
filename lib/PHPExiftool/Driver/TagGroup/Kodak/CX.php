@@ -28,13 +28,14 @@ class CX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CX',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159992
+             * line : 109579
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CX extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:CX',
             'desc' => [
+                'en' => 'CX',
             ],
         ],
     ];

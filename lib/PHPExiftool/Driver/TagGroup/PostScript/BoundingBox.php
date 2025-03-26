@@ -28,13 +28,14 @@ class BoundingBox extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bounding Box',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305957
+             * line : 212580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoundingBox extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:BoundingBox',
             'desc' => [
+                'en' => 'Bounding Box',
             ],
         ],
     ];

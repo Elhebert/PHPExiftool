@@ -28,13 +28,14 @@ class ActualScaleMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Scale Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122653
+             * line : 85889
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualScaleMax extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ActualScaleMax',
             'desc' => [
+                'en' => 'Actual Scale Max',
             ],
         ],
     ];

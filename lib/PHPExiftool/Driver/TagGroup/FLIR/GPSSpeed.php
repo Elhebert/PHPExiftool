@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 123049
+             * line : 85980
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

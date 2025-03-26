@@ -28,13 +28,14 @@ class MainDialExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Main Dial Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227909
+             * line : 153460
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MainDialExposureComp extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:MainDialExposureComp',
             'desc' => [
+                'en' => 'Main Dial Exposure Comp',
             ],
         ],
     ];

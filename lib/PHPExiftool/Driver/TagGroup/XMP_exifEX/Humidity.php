@@ -28,13 +28,14 @@ class Humidity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Humidity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408556
+             * line : 288613
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Humidity extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:Humidity',
             'desc' => [
+                'en' => 'Humidity',
             ],
         ],
     ];

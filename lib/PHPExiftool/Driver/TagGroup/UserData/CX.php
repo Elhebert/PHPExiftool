@@ -28,13 +28,14 @@ class CX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CX',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325321
+             * line : 229640
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CX extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CX',
             'desc' => [
+                'en' => 'CX',
             ],
         ],
     ];

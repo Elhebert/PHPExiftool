@@ -28,13 +28,14 @@ class PrivateScanOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Private Scan Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100406
+             * line : 73578
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrivateScanOptions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrivateScanOptions',
             'desc' => [
+                'en' => 'Private Scan Options',
             ],
         ],
     ];

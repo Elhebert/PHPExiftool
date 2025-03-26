@@ -28,13 +28,14 @@ class AECSnapshotLineCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Snapshot Line Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306209
+             * line : 212714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECSnapshotLineCount extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECSnapshotLineCount',
             'desc' => [
+                'en' => 'AEC Snapshot Line Count',
             ],
         ],
     ];

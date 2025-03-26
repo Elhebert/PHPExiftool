@@ -28,13 +28,14 @@ class CropOutputHeightInches extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Output Height Inches',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::CropData
-             * line : 210227
+             * line : 141558
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropOutputHeightInches extends AbstractTagGroup
              */
             'id' => 'NikonCapture::CropData.NikonCapture:CropOutputHeightInches',
             'desc' => [
+                'en' => 'Crop Output Height Inches',
             ],
         ],
     ];

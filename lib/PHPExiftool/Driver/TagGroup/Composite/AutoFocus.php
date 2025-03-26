@@ -28,13 +28,14 @@ class AutoFocus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90760
+             * line : 65343
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoFocus extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:AutoFocus',
             'desc' => [
+                'en' => 'Auto Focus',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecordDynamicProperties extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Dynamic Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106661
+             * line : 78893
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordDynamicProperties extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordDynamicProperties',
             'desc' => [
+                'en' => 'Record Dynamic Properties',
             ],
         ],
     ];

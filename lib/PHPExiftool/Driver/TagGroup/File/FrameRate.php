@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105911
+             * line : 78387
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

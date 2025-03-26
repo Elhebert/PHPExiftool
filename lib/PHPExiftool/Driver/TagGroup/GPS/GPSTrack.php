@@ -28,13 +28,14 @@ class GPSTrack extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132239
+             * line : 90929
              * type : rational64u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GPSTrack extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSTrack',
             'desc' => [
+                'en' => 'GPS Track',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141829
+             * line : 98298
              * type : rational32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSTrack extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSTrack',
             'desc' => [
+                'en' => 'GPS Track',
             ],
         ],
     ];

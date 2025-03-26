@@ -28,13 +28,14 @@ class DeliveryMaximumDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivery Maximum Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102999
+             * line : 76095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveryMaximumDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveryMaximumDose',
             'desc' => [
+                'en' => 'Delivery Maximum Dose',
             ],
         ],
     ];

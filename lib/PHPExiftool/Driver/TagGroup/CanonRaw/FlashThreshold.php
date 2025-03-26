@@ -28,13 +28,14 @@ class FlashThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::FlashInfo
-             * line : 78521
+             * line : 57174
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashThreshold extends AbstractTagGroup
              */
             'id' => 'CanonRaw::FlashInfo.CanonRaw:FlashThreshold',
             'desc' => [
+                'en' => 'Flash Threshold',
             ],
         ],
     ];

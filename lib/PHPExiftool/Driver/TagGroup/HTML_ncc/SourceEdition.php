@@ -28,13 +28,14 @@ class SourceEdition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Edition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143034
+             * line : 98776
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceEdition extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:SourceEdition',
             'desc' => [
+                'en' => 'Source Edition',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlueBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V3
-             * line : 282569
+             * line : 196181
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueBalance extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:BlueBalance',
             'desc' => [
+                'en' => 'Blue Balance',
             ],
         ],
     ];

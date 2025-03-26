@@ -28,13 +28,14 @@ class FileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175341
+             * line : 120738
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileVersion extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FileVersion',
             'desc' => [
+                'en' => 'File Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChannelMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165767
+             * line : 112728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelMode extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:ChannelMode',
             'desc' => [
+                'en' => 'Channel Mode',
             ],
         ],
     ];

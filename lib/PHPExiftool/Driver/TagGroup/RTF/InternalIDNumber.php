@@ -28,13 +28,14 @@ class InternalIDNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Internal ID Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329245
+             * line : 232038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InternalIDNumber extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:InternalIDNumber',
             'desc' => [
+                'en' => 'Internal ID Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ModifiedToneCurve extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Tone Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66455
+             * line : 50567
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedToneCurve extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedToneCurve',
             'desc' => [
+                'en' => 'Modified Tone Curve',
             ],
         ],
     ];

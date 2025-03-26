@@ -28,13 +28,14 @@ class BodyFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Body Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254010
+             * line : 175329
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BodyFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:BodyFirmwareVersion',
             'desc' => [
+                'en' => 'Body Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::FETags
-             * line : 254682
+             * line : 175857
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BodyFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::FETags.Olympus:BodyFirmwareVersion',
             'desc' => [
+                'en' => 'Body Firmware Version',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::Main
-             * line : 256891
+             * line : 177395
              * type : string
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class BodyFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:BodyFirmwareVersion',
             'desc' => [
+                'en' => 'Body Firmware Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VideoAndFilmFrameRelationship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video And Film Frame Relationship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167942
+             * line : 114464
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoAndFilmFrameRelationship extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoAndFilmFrameRelationship',
             'desc' => [
+                'en' => 'Video And Film Frame Relationship',
             ],
         ],
     ];

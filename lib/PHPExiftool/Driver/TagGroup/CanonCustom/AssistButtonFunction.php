@@ -28,13 +28,14 @@ class AssistButtonFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assist Button Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71711
+             * line : 53392
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AssistButtonFunction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:AssistButtonFunction',
             'desc' => [
+                'en' => 'Assist Button Function',
             ],
         ],
     ];

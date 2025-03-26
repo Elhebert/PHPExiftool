@@ -28,13 +28,14 @@ class ICCProfileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ICC Profile Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Parasite
-             * line : 131640
+             * line : 90808
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ICCProfileName extends AbstractTagGroup
              */
             'id' => 'GIMP::Parasite.GIMP:ICCProfileName',
             'desc' => [
+                'en' => 'ICC Profile Name',
             ],
         ],
     ];

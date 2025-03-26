@@ -28,13 +28,14 @@ class MaskGroupBasedCorrDehaze extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Dehaze',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400018
+             * line : 283524
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrDehaze extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrDehaze',
             'desc' => [
+                'en' => 'Mask Group Based Corr Dehaze',
             ],
         ],
     ];

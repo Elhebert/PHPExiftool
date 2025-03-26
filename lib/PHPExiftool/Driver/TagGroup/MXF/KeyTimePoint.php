@@ -28,13 +28,14 @@ class KeyTimePoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Time Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170956
+             * line : 117183
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyTimePoint extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyTimePoint',
             'desc' => [
+                'en' => 'Key Time Point',
             ],
         ],
     ];

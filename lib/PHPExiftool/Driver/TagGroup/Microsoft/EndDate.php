@@ -28,13 +28,14 @@ class EndDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176256
+             * line : 121293
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndDate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:EndDate',
             'desc' => [
+                'en' => 'End Date',
             ],
         ],
     ];

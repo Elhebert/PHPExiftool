@@ -28,13 +28,14 @@ class SubjectRelativeHeading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Relative Heading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168365
+             * line : 114860
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectRelativeHeading extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SubjectRelativeHeading',
             'desc' => [
+                'en' => 'Subject Relative Heading',
             ],
         ],
     ];

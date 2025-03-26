@@ -28,13 +28,14 @@ class FaceDetection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350871
+             * line : 244973
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FaceDetection extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FaceDetection',
             'desc' => [
+                'en' => 'Face Detection',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360748
+             * line : 251411
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FaceDetection extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FaceDetection',
             'desc' => [
+                'en' => 'Face Detection',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag900b
-             * line : 379052
+             * line : 265894
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FaceDetection extends AbstractTagGroup
              */
             'id' => 'Sony::Tag900b.Sony:FaceDetection',
             'desc' => [
+                'en' => 'Face Detection',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Image
-             * line : 163811
+             * line : 111509
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'MIE::Image.MIE-Image:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TestTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Test Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124971
+             * line : 87306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TestTarget extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:TestTarget',
             'desc' => [
+                'en' => 'Test Target',
             ],
         ],
     ];

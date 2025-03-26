@@ -28,13 +28,14 @@ class View extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329591
+             * line : 232140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class View extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:View',
             'desc' => [
+                'en' => 'View',
             ],
         ],
     ];

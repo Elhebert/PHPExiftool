@@ -28,13 +28,14 @@ class OpticalTestResult extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optical Test Result',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168098
+             * line : 114599
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OpticalTestResult extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OpticalTestResult',
             'desc' => [
+                'en' => 'Optical Test Result',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168101
+             * line : 114602
              * type : int32s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OpticalTestResult extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OpticalTestResult',
             'desc' => [
+                'en' => 'Optical Test Result',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExtenderSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254542
+             * line : 175777
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class ExtenderSerialNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:ExtenderSerialNumber',
             'desc' => [
+                'en' => 'Extender Serial Number',
             ],
         ],
     ];

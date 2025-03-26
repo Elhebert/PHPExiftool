@@ -28,13 +28,14 @@ class CardiacSynchronizationTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Synchronization Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96602
+             * line : 70006
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacSynchronizationTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacSynchronizationTechnique',
             'desc' => [
+                'en' => 'Cardiac Synchronization Technique',
             ],
         ],
     ];

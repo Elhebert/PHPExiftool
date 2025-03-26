@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353378
+             * line : 246605
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360781
+             * line : 251431
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360854
+             * line : 251457
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360915
+             * line : 251475
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393482
+             * line : 279001
              * type : int16u
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

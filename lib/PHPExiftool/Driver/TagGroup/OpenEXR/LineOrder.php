@@ -28,13 +28,14 @@ class LineOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Line Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263604
+             * line : 182354
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LineOrder extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:LineOrder',
             'desc' => [
+                'en' => 'Line Order',
             ],
         ],
     ];

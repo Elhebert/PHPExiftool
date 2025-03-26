@@ -28,13 +28,14 @@ class DecoderTableNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decoder Table Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::DecoderTable
-             * line : 78444
+             * line : 57145
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecoderTableNumber extends AbstractTagGroup
              */
             'id' => 'CanonRaw::DecoderTable.CanonRaw:DecoderTableNumber',
             'desc' => [
+                'en' => 'Decoder Table Number',
             ],
         ],
     ];

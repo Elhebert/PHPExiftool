@@ -28,13 +28,14 @@ class LatestEpochOrHighestSeries extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Latest Epoch Or Highest Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106205
+             * line : 78551
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LatestEpochOrHighestSeries extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LatestEpochOrHighestSeries',
             'desc' => [
+                'en' => 'Latest Epoch Or Highest Series',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Face8Category extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Face 8 Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FaceRecInfo
-             * line : 128547
+             * line : 89208
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Face8Category extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FaceRecInfo.FujiFilm:Face8Category',
             'desc' => [
+                'en' => 'Face 8 Category',
             ],
         ],
     ];

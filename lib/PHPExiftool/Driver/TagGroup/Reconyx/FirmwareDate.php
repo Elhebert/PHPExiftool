@@ -28,13 +28,14 @@ class FirmwareDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330593
+             * line : 232616
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class FirmwareDate extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:FirmwareDate',
             'desc' => [
+                'en' => 'Firmware Date',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331057
+             * line : 232848
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class FirmwareDate extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:FirmwareDate',
             'desc' => [
+                'en' => 'Firmware Date',
             ],
         ],
     ];

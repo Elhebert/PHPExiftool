@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::RED1
-             * line : 331687
+             * line : 233113
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Red::RED1.Red:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Red::RED2
-             * line : 331755
+             * line : 233132
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Red::RED2.Red:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

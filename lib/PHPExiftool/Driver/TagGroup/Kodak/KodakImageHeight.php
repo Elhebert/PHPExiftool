@@ -28,13 +28,14 @@ class KodakImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154375
+             * line : 105998
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class KodakImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:KodakImageHeight',
             'desc' => [
+                'en' => 'Kodak Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Main
-             * line : 157753
+             * line : 108683
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class KodakImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:KodakImageHeight',
             'desc' => [
+                'en' => 'Kodak Image Height',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158813
+             * line : 109105
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class KodakImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:KodakImageHeight',
             'desc' => [
+                'en' => 'Kodak Image Height',
             ],
         ],
         3 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158909
+             * line : 109132
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class KodakImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:KodakImageHeight',
             'desc' => [
+                'en' => 'Kodak Image Height',
             ],
         ],
         4 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159649
+             * line : 109464
              * type : ?
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class KodakImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:KodakImageHeight',
             'desc' => [
+                'en' => 'Kodak Image Height',
             ],
         ],
         5 => [
             /**
              * table_name : Kodak::Type2
-             * line : 160015
+             * line : 109601
              * type : int32u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class KodakImageHeight extends AbstractTagGroup
              */
             'id' => 'Kodak::Type2.Kodak:KodakImageHeight',
             'desc' => [
+                'en' => 'Kodak Image Height',
             ],
         ],
     ];

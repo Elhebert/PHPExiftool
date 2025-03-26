@@ -28,13 +28,14 @@ class DistributionAddress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distribution Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104128
+             * line : 77214
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistributionAddress extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistributionAddress',
             'desc' => [
+                'en' => 'Distribution Address',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OriginalScannedImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Scanned Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126510
+             * line : 87713
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalScannedImageSize extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:OriginalScannedImageSize',
             'desc' => [
+                'en' => 'Original Scanned Image Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CrosstalkCalibrationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crosstalk Calibration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100645
+             * line : 73815
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CrosstalkCalibrationTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CrosstalkCalibrationTime',
             'desc' => [
+                'en' => 'Crosstalk Calibration Time',
             ],
         ],
     ];

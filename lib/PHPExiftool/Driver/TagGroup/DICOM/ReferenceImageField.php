@@ -28,13 +28,14 @@ class ReferenceImageField extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Image Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98450
+             * line : 71782
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceImageField extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceImageField',
             'desc' => [
+                'en' => 'Reference Image Field',
             ],
         ],
     ];

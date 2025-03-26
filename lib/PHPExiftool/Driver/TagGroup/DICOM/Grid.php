@@ -28,13 +28,14 @@ class Grid extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95899
+             * line : 69325
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Grid extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Grid',
             'desc' => [
+                'en' => 'Grid',
             ],
         ],
     ];

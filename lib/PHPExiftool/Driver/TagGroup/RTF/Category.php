@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329154
+             * line : 232014
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

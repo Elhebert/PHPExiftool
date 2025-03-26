@@ -28,13 +28,14 @@ class ImagePlanePixelSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Plane Pixel Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102395
+             * line : 75495
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePlanePixelSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePlanePixelSpacing',
             'desc' => [
+                'en' => 'Image Plane Pixel Spacing',
             ],
         ],
     ];

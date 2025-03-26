@@ -28,13 +28,14 @@ class Lotus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lotus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142886
+             * line : 98676
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lotus extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:Lotus',
             'desc' => [
+                'en' => 'Lotus',
             ],
         ],
     ];

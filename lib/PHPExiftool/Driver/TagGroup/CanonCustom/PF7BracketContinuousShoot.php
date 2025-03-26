@@ -28,13 +28,14 @@ class PF7BracketContinuousShoot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF7 Bracket Continuous Shoot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78374
+             * line : 57075
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF7BracketContinuousShoot extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF7BracketContinuousShoot',
             'desc' => [
+                'en' => 'PF7 Bracket Continuous Shoot',
             ],
         ],
     ];

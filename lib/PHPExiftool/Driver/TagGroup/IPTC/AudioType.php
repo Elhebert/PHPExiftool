@@ -28,13 +28,14 @@ class AudioType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150531
+             * line : 104007
              * type : string
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class AudioType extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:AudioType',
             'desc' => [
+                'en' => 'Audio Type',
             ],
         ],
     ];

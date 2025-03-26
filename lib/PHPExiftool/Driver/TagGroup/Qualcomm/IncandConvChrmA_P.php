@@ -28,13 +28,14 @@ class IncandConvChrmA_P extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Incand Conv Chrm A P',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307425
+             * line : 213923
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncandConvChrmA_P extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:IncandConvChrmA_P',
             'desc' => [
+                'en' => 'Incand Conv Chrm A P',
             ],
         ],
     ];

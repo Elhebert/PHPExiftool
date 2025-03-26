@@ -28,13 +28,14 @@ class OriginalArtist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1453
+             * line : 694
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalArtist extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:OriginalArtist',
             'desc' => [
+                'en' => 'Original Artist',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentEncryptionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Encryption Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173553
+             * line : 119482
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentEncryptionAlgorithm extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentEncryptionAlgorithm',
             'desc' => [
+                'en' => 'Content Encryption Algorithm',
             ],
         ],
     ];

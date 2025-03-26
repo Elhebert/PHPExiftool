@@ -28,13 +28,14 @@ class TreatmentSessionAppSetupSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Session App Setup Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102849
+             * line : 75945
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentSessionAppSetupSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentSessionAppSetupSeq',
             'desc' => [
+                'en' => 'Treatment Session App Setup Seq',
             ],
         ],
     ];

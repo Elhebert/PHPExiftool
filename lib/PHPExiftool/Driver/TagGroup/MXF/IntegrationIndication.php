@@ -28,13 +28,14 @@ class IntegrationIndication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Integration Indication',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168111
+             * line : 114611
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IntegrationIndication extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntegrationIndication',
             'desc' => [
+                'en' => 'Integration Indication',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170841
+             * line : 117072
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class IntegrationIndication extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntegrationIndication',
             'desc' => [
+                'en' => 'Integration Indication',
             ],
         ],
     ];

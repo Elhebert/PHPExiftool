@@ -28,13 +28,14 @@ class FlashMeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4534
+             * line : 2818
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 17916
+             * line : 13143
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 19937
+             * line : 14772
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 21971
+             * line : 16407
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24023
+             * line : 18050
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26325
+             * line : 19804
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 28624
+             * line : 21555
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35026
+             * line : 26751
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 39486
+             * line : 30203
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51568
+             * line : 40083
              * type : int8u
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class FlashMeteringMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:FlashMeteringMode',
             'desc' => [
+                'en' => 'Flash Metering Mode',
             ],
         ],
     ];

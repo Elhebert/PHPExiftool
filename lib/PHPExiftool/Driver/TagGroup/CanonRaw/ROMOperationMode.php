@@ -28,13 +28,14 @@ class ROMOperationMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ROM Operation Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78686
+             * line : 57251
              * type : string
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class ROMOperationMode extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:ROMOperationMode',
             'desc' => [
+                'en' => 'ROM Operation Mode',
             ],
         ],
     ];

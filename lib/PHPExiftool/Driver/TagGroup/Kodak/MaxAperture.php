@@ -28,13 +28,14 @@ class MaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::SubIFD2
-             * line : 159120
+             * line : 109232
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD2.Kodak:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159715
+             * line : 109479
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MaxAperture extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:MaxAperture',
             'desc' => [
+                'en' => 'Max Aperture',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fine Tune Opt Highlight Weighted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218698
+             * line : 147061
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:FineTuneOptHighlightWeighted',
             'desc' => [
+                'en' => 'Fine Tune Opt Highlight Weighted',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221147
+             * line : 149092
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:FineTuneOptHighlightWeighted',
             'desc' => [
+                'en' => 'Fine Tune Opt Highlight Weighted',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231284
+             * line : 155543
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FineTuneOptHighlightWeighted',
             'desc' => [
+                'en' => 'Fine Tune Opt Highlight Weighted',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233047
+             * line : 156910
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:FineTuneOptHighlightWeighted',
             'desc' => [
+                'en' => 'Fine Tune Opt Highlight Weighted',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235473
+             * line : 158703
              * type : int8s
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FineTuneOptHighlightWeighted',
             'desc' => [
+                'en' => 'Fine Tune Opt Highlight Weighted',
             ],
         ],
     ];

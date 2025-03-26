@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ImageInfo
-             * line : 78612
+             * line : 57214
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ImageInfo.CanonRaw:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

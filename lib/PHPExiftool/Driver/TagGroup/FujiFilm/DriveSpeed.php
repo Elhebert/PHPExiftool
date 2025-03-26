@@ -28,13 +28,14 @@ class DriveSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Drive Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::DriveSettings
-             * line : 128378
+             * line : 89046
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DriveSpeed extends AbstractTagGroup
              */
             'id' => 'FujiFilm::DriveSettings.FujiFilm:DriveSpeed',
             'desc' => [
+                'en' => 'Drive Speed',
             ],
         ],
     ];

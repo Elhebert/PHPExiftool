@@ -28,13 +28,14 @@ class FirstOrderPhaseCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Order Phase Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96883
+             * line : 70285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstOrderPhaseCorrection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FirstOrderPhaseCorrection',
             'desc' => [
+                'en' => 'First Order Phase Correction',
             ],
         ],
     ];

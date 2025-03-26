@@ -28,13 +28,14 @@ class ContentDistributor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Distributor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1144
+             * line : 469
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentDistributor extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ContentDistributor',
             'desc' => [
+                'en' => 'Content Distributor',
             ],
         ],
     ];

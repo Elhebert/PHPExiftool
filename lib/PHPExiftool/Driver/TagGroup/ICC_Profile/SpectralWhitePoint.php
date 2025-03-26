@@ -28,13 +28,14 @@ class SpectralWhitePoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectral White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146630
+             * line : 101911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectralWhitePoint extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:SpectralWhitePoint',
             'desc' => [
+                'en' => 'Spectral White Point',
             ],
         ],
     ];

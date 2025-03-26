@@ -28,13 +28,14 @@ class AppleKeywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Apple Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Info
-             * line : 264145
+             * line : 182633
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AppleKeywords extends AbstractTagGroup
              */
             'id' => 'PDF::Info.PDF:AppleKeywords',
             'desc' => [
+                'en' => 'Apple Keywords',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LuminanceNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80658
+             * line : 58797
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LuminanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:LuminanceNoiseReduction',
             'desc' => [
+                'en' => 'Luminance Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83245
+             * line : 60988
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LuminanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LuminanceNoiseReduction',
             'desc' => [
+                'en' => 'Luminance Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83277
+             * line : 61002
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class LuminanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LuminanceNoiseReduction',
             'desc' => [
+                'en' => 'Luminance Noise Reduction',
             ],
         ],
     ];

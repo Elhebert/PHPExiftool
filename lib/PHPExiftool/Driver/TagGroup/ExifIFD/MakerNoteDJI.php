@@ -28,13 +28,14 @@ class MakerNoteDJI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note DJI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104777
+             * line : 77750
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteDJI extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteDJI',
             'desc' => [
+                'en' => 'Maker Note DJI',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115738
+             * line : 83043
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteDJI extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteDJI',
             'desc' => [
+                'en' => 'Maker Note DJI',
             ],
         ],
     ];

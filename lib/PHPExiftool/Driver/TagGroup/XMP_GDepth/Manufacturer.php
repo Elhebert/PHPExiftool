@@ -28,13 +28,14 @@ class Manufacturer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396981
+             * line : 281136
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Manufacturer extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Manufacturer',
             'desc' => [
+                'en' => 'Manufacturer',
             ],
         ],
     ];

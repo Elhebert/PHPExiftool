@@ -28,13 +28,14 @@ class EncodingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149372
+             * line : 103591
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodingTime extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:EncodingTime',
             'desc' => [
+                'en' => 'Encoding Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusTrackingLockOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Tracking Lock On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211903
+             * line : 142408
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212233
+             * line : 142581
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214514
+             * line : 144021
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 223880
+             * line : 150973
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224628
+             * line : 151444
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226288
+             * line : 152444
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229504
+             * line : 154298
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class FocusTrackingLockOn extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FocusTrackingLockOn',
             'desc' => [
+                'en' => 'Focus Tracking Lock On',
             ],
         ],
     ];

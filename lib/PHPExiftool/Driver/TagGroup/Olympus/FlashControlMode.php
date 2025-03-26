@@ -28,13 +28,14 @@ class FlashControlMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250977
+             * line : 173132
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashControlMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FlashControlMode',
             'desc' => [
+                'en' => 'Flash Control Mode',
             ],
         ],
     ];

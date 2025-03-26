@@ -28,13 +28,14 @@ class SharpnessRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355927
+             * line : 248296
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpnessRange extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:SharpnessRange',
             'desc' => [
+                'en' => 'Sharpness Range',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpatialFrequencyResponse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spatial Frequency Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115224
+             * line : 82917
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SpatialFrequencyResponse extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SpatialFrequencyResponse',
             'desc' => [
+                'en' => 'Spatial Frequency Response',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116565
+             * line : 83402
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SpatialFrequencyResponse extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SpatialFrequencyResponse',
             'desc' => [
+                'en' => 'Spatial Frequency Response',
             ],
         ],
     ];

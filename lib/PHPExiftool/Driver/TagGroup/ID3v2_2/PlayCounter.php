@@ -28,13 +28,14 @@ class PlayCounter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Play Counter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148022
+             * line : 102884
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlayCounter extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:PlayCounter',
             'desc' => [
+                'en' => 'Play Counter',
             ],
         ],
     ];

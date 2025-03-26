@@ -28,13 +28,14 @@ class FilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63663
+             * line : 48379
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FilterEffect extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:FilterEffect',
             'desc' => [
+                'en' => 'Filter Effect',
             ],
         ],
     ];

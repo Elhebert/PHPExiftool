@@ -28,13 +28,14 @@ class Hue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204066
+             * line : 137485
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Hue extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:Hue',
             'desc' => [
+                'en' => 'Hue',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204392
+             * line : 137600
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Hue extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:Hue',
             'desc' => [
+                'en' => 'Hue',
             ],
         ],
     ];

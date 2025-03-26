@@ -28,13 +28,14 @@ class AcquisitionProtocolDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Protocol Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97118
+             * line : 70516
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionProtocolDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionProtocolDescription',
             'desc' => [
+                'en' => 'Acquisition Protocol Description',
             ],
         ],
     ];

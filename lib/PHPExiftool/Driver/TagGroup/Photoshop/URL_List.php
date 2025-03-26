@@ -28,13 +28,14 @@ class URL_List extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305584
+             * line : 212337
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL_List extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:URL_List',
             'desc' => [
+                'en' => 'URL List',
             ],
         ],
     ];

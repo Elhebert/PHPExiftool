@@ -28,13 +28,14 @@ class LineFrom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Line From',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264720
+             * line : 182957
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LineFrom extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:LineFrom',
             'desc' => [
+                'en' => 'Line From',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MDItemFSOwnerUserID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Owner User ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172788
+             * line : 118885
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSOwnerUserID extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSOwnerUserID',
             'desc' => [
+                'en' => 'MD Item FS Owner User ID',
             ],
         ],
     ];

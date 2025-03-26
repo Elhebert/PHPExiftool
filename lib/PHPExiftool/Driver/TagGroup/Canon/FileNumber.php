@@ -28,13 +28,14 @@ class FileNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63374
+             * line : 48210
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63384
+             * line : 48213
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::Main
-             * line : 64576
+             * line : 48906
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecognizedFace2Age extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recognized Face 2 Age',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::FaceRecInfo
-             * line : 274224
+             * line : 191288
              * type : string
              * writable : true
              * count : 20
@@ -42,6 +43,7 @@ class RecognizedFace2Age extends AbstractTagGroup
              */
             'id' => 'Panasonic::FaceRecInfo.Panasonic:RecognizedFace2Age',
             'desc' => [
+                'en' => 'Recognized Face 2 Age',
             ],
         ],
     ];

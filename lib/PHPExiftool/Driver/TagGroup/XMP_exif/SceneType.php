@@ -28,13 +28,14 @@ class SceneType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407893
+             * line : 288429
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneType extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:SceneType',
             'desc' => [
+                'en' => 'Scene Type',
             ],
         ],
     ];

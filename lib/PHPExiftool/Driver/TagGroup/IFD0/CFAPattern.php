@@ -28,13 +28,14 @@ class CFAPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280281
+             * line : 194543
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAPattern extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:CFAPattern',
             'desc' => [
+                'en' => 'CFA Pattern',
             ],
         ],
     ];

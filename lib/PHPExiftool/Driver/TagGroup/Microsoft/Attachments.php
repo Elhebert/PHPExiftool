@@ -28,13 +28,14 @@ class Attachments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attachments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176460
+             * line : 121416
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Attachments extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Attachments',
             'desc' => [
+                'en' => 'Attachments',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90401
+             * line : 65176
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LensID extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:LensID',
             'desc' => [
+                'en' => 'Lens ID',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 90413
+             * line : 65179
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class LensID extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:LensID',
             'desc' => [
+                'en' => 'Lens ID',
             ],
         ],
         2 => [
             /**
              * table_name : Composite
-             * line : 90792
+             * line : 65354
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class LensID extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:LensID',
             'desc' => [
+                'en' => 'Lens ID',
             ],
         ],
         3 => [
             /**
              * table_name : Composite
-             * line : 93755
+             * line : 67863
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class LensID extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:LensID',
             'desc' => [
+                'en' => 'Lens ID',
             ],
         ],
         4 => [
             /**
              * table_name : Composite
-             * line : 94542
+             * line : 68052
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class LensID extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:LensID',
             'desc' => [
+                'en' => 'Lens ID',
             ],
         ],
     ];

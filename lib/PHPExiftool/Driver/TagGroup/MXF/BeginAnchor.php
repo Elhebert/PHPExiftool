@@ -28,13 +28,14 @@ class BeginAnchor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Begin Anchor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169420
+             * line : 115824
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BeginAnchor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BeginAnchor',
             'desc' => [
+                'en' => 'Begin Anchor',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169423
+             * line : 115827
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BeginAnchor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BeginAnchor',
             'desc' => [
+                'en' => 'Begin Anchor',
             ],
         ],
     ];

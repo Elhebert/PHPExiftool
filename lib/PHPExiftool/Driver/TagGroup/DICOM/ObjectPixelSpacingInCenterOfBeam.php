@@ -28,13 +28,14 @@ class ObjectPixelSpacingInCenterOfBeam extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Pixel Spacing In Center Of Beam',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97093
+             * line : 70492
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectPixelSpacingInCenterOfBeam extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ObjectPixelSpacingInCenterOfBeam',
             'desc' => [
+                'en' => 'Object Pixel Spacing In Center Of Beam',
             ],
         ],
     ];

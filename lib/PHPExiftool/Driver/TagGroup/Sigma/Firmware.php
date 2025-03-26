@@ -28,13 +28,14 @@ class Firmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337413
+             * line : 236102
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Firmware extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Firmware',
             'desc' => [
+                'en' => 'Firmware',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 338986
+             * line : 237368
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Firmware extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Firmware',
             'desc' => [
+                'en' => 'Firmware',
             ],
         ],
         2 => [
             /**
              * table_name : Sigma::Main
-             * line : 339211
+             * line : 237422
              * type : string
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Firmware extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Firmware',
             'desc' => [
+                'en' => 'Firmware',
             ],
         ],
     ];

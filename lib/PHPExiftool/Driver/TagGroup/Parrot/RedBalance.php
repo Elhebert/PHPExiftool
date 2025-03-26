@@ -28,13 +28,14 @@ class RedBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V3
-             * line : 282559
+             * line : 196178
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedBalance extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:RedBalance',
             'desc' => [
+                'en' => 'Red Balance',
             ],
         ],
     ];

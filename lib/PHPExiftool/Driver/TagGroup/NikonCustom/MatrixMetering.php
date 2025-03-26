@@ -28,13 +28,14 @@ class MatrixMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Matrix Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216424
+             * line : 145442
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218751
+             * line : 147100
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221211
+             * line : 149142
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231348
+             * line : 155593
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233100
+             * line : 156949
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242509
+             * line : 165585
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
     ];

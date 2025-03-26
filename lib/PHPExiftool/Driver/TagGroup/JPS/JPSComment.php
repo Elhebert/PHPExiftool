@@ -28,13 +28,14 @@ class JPSComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPS Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::JPS
-             * line : 152555
+             * line : 105016
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPSComment extends AbstractTagGroup
              */
             'id' => 'JPEG::JPS.JPS:JPSComment',
             'desc' => [
+                'en' => 'JPS Comment',
             ],
         ],
     ];

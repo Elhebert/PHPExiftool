@@ -28,13 +28,14 @@ class LeftMargin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Left Margin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263896
+             * line : 182502
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeftMargin extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:LeftMargin',
             'desc' => [
+                'en' => 'Left Margin',
             ],
         ],
     ];

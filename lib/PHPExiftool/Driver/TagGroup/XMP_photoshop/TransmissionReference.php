@@ -28,13 +28,14 @@ class TransmissionReference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transmission Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410395
+             * line : 289821
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TransmissionReference extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:TransmissionReference',
             'desc' => [
+                'en' => 'Transmission Reference',
             ],
         ],
     ];

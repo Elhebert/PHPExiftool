@@ -28,13 +28,14 @@ class ReferenceAirKermaRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Air Kerma Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103567
+             * line : 76659
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceAirKermaRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceAirKermaRate',
             'desc' => [
+                'en' => 'Reference Air Kerma Rate',
             ],
         ],
     ];

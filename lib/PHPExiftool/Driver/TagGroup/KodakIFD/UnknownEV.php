@@ -28,13 +28,14 @@ class UnknownEV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown EV',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154678
+             * line : 106086
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownEV extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UnknownEV',
             'desc' => [
+                'en' => 'Unknown EV',
             ],
         ],
     ];

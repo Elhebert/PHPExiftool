@@ -28,13 +28,14 @@ class CornealSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Corneal Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100694
+             * line : 73863
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CornealSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CornealSize',
             'desc' => [
+                'en' => 'Corneal Size',
             ],
         ],
     ];

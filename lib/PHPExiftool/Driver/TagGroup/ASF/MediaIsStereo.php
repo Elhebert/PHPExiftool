@@ -28,13 +28,14 @@ class MediaIsStereo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Stereo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1394
+             * line : 640
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsStereo extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaIsStereo',
             'desc' => [
+                'en' => 'Media Is Stereo',
             ],
         ],
     ];

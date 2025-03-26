@@ -28,13 +28,14 @@ class YawAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Yaw Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166378
+             * line : 113129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YawAngle extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:YawAngle',
             'desc' => [
+                'en' => 'Yaw Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AuxiliaryLens extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auxiliary Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197189
+             * line : 133105
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AuxiliaryLens extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:AuxiliaryLens',
             'desc' => [
+                'en' => 'Auxiliary Lens',
             ],
         ],
     ];

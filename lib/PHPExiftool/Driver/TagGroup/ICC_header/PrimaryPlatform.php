@@ -28,13 +28,14 @@ class PrimaryPlatform extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Platform',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 144163
+             * line : 99759
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class PrimaryPlatform extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:PrimaryPlatform',
             'desc' => [
+                'en' => 'Primary Platform',
             ],
         ],
     ];

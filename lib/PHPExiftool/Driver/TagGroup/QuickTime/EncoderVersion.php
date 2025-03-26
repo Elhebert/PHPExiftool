@@ -28,13 +28,14 @@ class EncoderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::DecodeConfig
-             * line : 312627
+             * line : 218502
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncoderVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::DecodeConfig.QuickTime:EncoderVersion',
             'desc' => [
+                'en' => 'Encoder Version',
             ],
         ],
     ];

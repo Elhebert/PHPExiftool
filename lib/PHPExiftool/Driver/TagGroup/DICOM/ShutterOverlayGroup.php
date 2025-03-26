@@ -28,13 +28,14 @@ class ShutterOverlayGroup extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Overlay Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96087
+             * line : 69508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterOverlayGroup extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShutterOverlayGroup',
             'desc' => [
+                'en' => 'Shutter Overlay Group',
             ],
         ],
     ];

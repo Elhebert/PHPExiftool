@@ -28,13 +28,14 @@ class PlacerOrderNumber_Procedure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Placer Order Number-Procedure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99854
+             * line : 73056
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlacerOrderNumber_Procedure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlacerOrderNumber-Procedure',
             'desc' => [
+                'en' => 'Placer Order Number-Procedure',
             ],
         ],
     ];

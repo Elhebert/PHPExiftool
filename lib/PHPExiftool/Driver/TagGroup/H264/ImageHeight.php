@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Main
-             * line : 141969
+             * line : 98328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'H264::Main.H264:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

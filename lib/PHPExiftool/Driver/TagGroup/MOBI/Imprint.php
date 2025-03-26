@@ -28,13 +28,14 @@ class Imprint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imprint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273445
+             * line : 190709
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Imprint extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Imprint',
             'desc' => [
+                'en' => 'Imprint',
             ],
         ],
     ];

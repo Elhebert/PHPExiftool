@@ -28,13 +28,14 @@ class LCDMatrixChickFix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LCD Matrix Chick Fix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156672
+             * line : 107876
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class LCDMatrixChickFix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDMatrixChickFix',
             'desc' => [
+                'en' => 'LCD Matrix Chick Fix',
             ],
         ],
     ];

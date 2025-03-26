@@ -28,13 +28,14 @@ class NumberOfFramesInPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Frames In Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100841
+             * line : 74001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfFramesInPhase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfFramesInPhase',
             'desc' => [
+                'en' => 'Number Of Frames In Phase',
             ],
         ],
     ];

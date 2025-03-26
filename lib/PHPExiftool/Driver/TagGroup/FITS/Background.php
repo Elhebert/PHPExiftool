@@ -28,13 +28,14 @@ class Background extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121646
+             * line : 85284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Background extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:Background',
             'desc' => [
+                'en' => 'Background',
             ],
         ],
     ];

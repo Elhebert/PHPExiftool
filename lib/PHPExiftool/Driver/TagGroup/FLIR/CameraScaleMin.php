@@ -28,13 +28,14 @@ class CameraScaleMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Scale Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122638
+             * line : 85874
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraScaleMin extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:CameraScaleMin',
             'desc' => [
+                'en' => 'Camera Scale Min',
             ],
         ],
     ];

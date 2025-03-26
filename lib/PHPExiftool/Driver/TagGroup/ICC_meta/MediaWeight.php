@@ -28,13 +28,14 @@ class MediaWeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Metadata
-             * line : 147028
+             * line : 102086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaWeight extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Metadata.ICC-meta:MediaWeight',
             'desc' => [
+                'en' => 'Media Weight',
             ],
         ],
     ];

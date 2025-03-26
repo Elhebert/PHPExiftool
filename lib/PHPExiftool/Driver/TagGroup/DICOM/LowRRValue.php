@@ -28,13 +28,14 @@ class LowRRValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Low RR Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95742
+             * line : 69190
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LowRRValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LowRRValue',
             'desc' => [
+                'en' => 'Low RR Value',
             ],
         ],
     ];

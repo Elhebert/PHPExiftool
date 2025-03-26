@@ -28,13 +28,14 @@ class RightsAgent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rights Agent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411333
+             * line : 290497
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RightsAgent extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:RightsAgent',
             'desc' => [
+                'en' => 'Rights Agent',
             ],
         ],
     ];

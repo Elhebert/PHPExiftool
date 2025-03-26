@@ -28,13 +28,14 @@ class UprightCenterNormX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Center Norm X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401217
+             * line : 284614
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightCenterNormX extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:UprightCenterNormX',
             'desc' => [
+                'en' => 'Upright Center Norm X',
             ],
         ],
     ];

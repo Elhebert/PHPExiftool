@@ -28,13 +28,14 @@ class DeviceManufacturerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Manufacturer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168846
+             * line : 115313
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DeviceManufacturerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceManufacturerName',
             'desc' => [
+                'en' => 'Device Manufacturer Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168849
+             * line : 115316
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DeviceManufacturerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceManufacturerName',
             'desc' => [
+                'en' => 'Device Manufacturer Name',
             ],
         ],
     ];

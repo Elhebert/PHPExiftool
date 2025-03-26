@@ -28,13 +28,14 @@ class Quoting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quoting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394768
+             * line : 279681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quoting extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:Quoting',
             'desc' => [
+                'en' => 'Quoting',
             ],
         ],
     ];

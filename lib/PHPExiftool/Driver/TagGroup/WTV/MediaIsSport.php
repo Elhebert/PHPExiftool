@@ -28,13 +28,14 @@ class MediaIsSport extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Sport',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396091
+             * line : 280395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsSport extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsSport',
             'desc' => [
+                'en' => 'Media Is Sport',
             ],
         ],
     ];

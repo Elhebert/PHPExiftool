@@ -28,13 +28,14 @@ class BulkMotionCompensationTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bulk Motion Compensation Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96829
+             * line : 70231
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BulkMotionCompensationTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BulkMotionCompensationTechnique',
             'desc' => [
+                'en' => 'Bulk Motion Compensation Technique',
             ],
         ],
     ];

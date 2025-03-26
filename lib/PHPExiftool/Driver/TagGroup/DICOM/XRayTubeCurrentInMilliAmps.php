@@ -28,13 +28,14 @@ class XRayTubeCurrentInMilliAmps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Tube Current In Milli Amps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97030
+             * line : 70429
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayTubeCurrentInMilliAmps extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayTubeCurrentInMilliAmps',
             'desc' => [
+                'en' => 'X Ray Tube Current In Milli Amps',
             ],
         ],
     ];

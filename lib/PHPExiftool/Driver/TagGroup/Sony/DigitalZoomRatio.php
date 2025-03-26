@@ -28,13 +28,14 @@ class DigitalZoomRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 363987
+             * line : 253392
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DigitalZoomRatio extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:DigitalZoomRatio',
             'desc' => [
+                'en' => 'Digital Zoom Ratio',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 365972
+             * line : 254708
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DigitalZoomRatio extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:DigitalZoomRatio',
             'desc' => [
+                'en' => 'Digital Zoom Ratio',
             ],
         ],
     ];

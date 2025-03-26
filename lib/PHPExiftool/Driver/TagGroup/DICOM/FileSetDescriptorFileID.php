@@ -28,13 +28,14 @@ class FileSetDescriptorFileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Set Descriptor File ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94592
+             * line : 68092
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSetDescriptorFileID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FileSetDescriptorFileID',
             'desc' => [
+                'en' => 'File Set Descriptor File ID',
             ],
         ],
     ];

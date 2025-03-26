@@ -28,13 +28,14 @@ class UserLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324932
+             * line : 229408
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserLabel extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:UserLabel',
             'desc' => [
+                'en' => 'User Label',
             ],
         ],
     ];

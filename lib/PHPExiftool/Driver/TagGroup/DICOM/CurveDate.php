@@ -28,13 +28,14 @@ class CurveDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curve Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94710
+             * line : 68200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurveDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurveDate',
             'desc' => [
+                'en' => 'Curve Date',
             ],
         ],
     ];

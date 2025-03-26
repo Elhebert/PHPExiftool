@@ -28,13 +28,14 @@ class PerformedProcedureTypeDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Procedure Type Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99678
+             * line : 72885
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedProcedureTypeDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedProcedureTypeDescription',
             'desc' => [
+                'en' => 'Performed Procedure Type Description',
             ],
         ],
     ];

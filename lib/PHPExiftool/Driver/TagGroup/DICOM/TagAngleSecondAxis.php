@@ -28,13 +28,14 @@ class TagAngleSecondAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Angle Second Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96901
+             * line : 70303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagAngleSecondAxis extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TagAngleSecondAxis',
             'desc' => [
+                'en' => 'Tag Angle Second Axis',
             ],
         ],
     ];

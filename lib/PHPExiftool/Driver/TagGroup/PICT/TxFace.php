@@ -28,13 +28,14 @@ class TxFace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Font Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264619
+             * line : 182876
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TxFace extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:TxFace',
             'desc' => [
+                'en' => 'Text Font Style',
             ],
         ],
     ];

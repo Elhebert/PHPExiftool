@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323712
+             * line : 228790
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

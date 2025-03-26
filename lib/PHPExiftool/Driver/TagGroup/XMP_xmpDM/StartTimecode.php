@@ -28,13 +28,14 @@ class StartTimecode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Start Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413385
+             * line : 291479
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartTimecode extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:StartTimecode',
             'desc' => [
+                'en' => 'Start Timecode',
             ],
         ],
     ];

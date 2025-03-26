@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93728
+             * line : 67854
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

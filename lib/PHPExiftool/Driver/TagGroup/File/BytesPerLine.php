@@ -28,13 +28,14 @@ class BytesPerLine extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bytes Per Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263979
+             * line : 182523
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BytesPerLine extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:BytesPerLine',
             'desc' => [
+                'en' => 'Bytes Per Line',
             ],
         ],
     ];

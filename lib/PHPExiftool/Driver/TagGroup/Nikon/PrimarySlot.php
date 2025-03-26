@@ -28,13 +28,14 @@ class PrimarySlot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Primary Slot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207451
+             * line : 139669
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PrimarySlot extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:PrimarySlot',
             'desc' => [
+                'en' => 'Primary Slot',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD850
-             * line : 209215
+             * line : 141100
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PrimarySlot extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD850.Nikon:PrimarySlot',
             'desc' => [
+                'en' => 'Primary Slot',
             ],
         ],
     ];

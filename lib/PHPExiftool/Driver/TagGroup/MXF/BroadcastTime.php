@@ -28,13 +28,14 @@ class BroadcastTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Broadcast Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168705
+             * line : 115181
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BroadcastTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastTime',
             'desc' => [
+                'en' => 'Broadcast Time',
             ],
         ],
     ];

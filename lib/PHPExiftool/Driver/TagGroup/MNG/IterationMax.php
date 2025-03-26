@@ -28,13 +28,14 @@ class IterationMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Iteration Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::TerminationAction
-             * line : 165430
+             * line : 112498
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IterationMax extends AbstractTagGroup
              */
             'id' => 'MNG::TerminationAction.MNG:IterationMax',
             'desc' => [
+                'en' => 'Iteration Max',
             ],
         ],
     ];

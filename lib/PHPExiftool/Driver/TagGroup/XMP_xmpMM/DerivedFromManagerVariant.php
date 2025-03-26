@@ -28,13 +28,14 @@ class DerivedFromManagerVariant extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Manager Variant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413827
+             * line : 291858
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromManagerVariant extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromManagerVariant',
             'desc' => [
+                'en' => 'Derived From Manager Variant',
             ],
         ],
     ];

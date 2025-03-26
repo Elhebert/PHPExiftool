@@ -28,13 +28,14 @@ class MSStereo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MS Stereo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165790
+             * line : 112745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MSStereo extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:MSStereo',
             'desc' => [
+                'en' => 'MS Stereo',
             ],
         ],
     ];

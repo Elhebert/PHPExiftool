@@ -28,13 +28,14 @@ class DataWindow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Window',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263513
+             * line : 182319
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataWindow extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:DataWindow',
             'desc' => [
+                'en' => 'Data Window',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::QVCI
-             * line : 85205
+             * line : 61975
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalRange extends AbstractTagGroup
              */
             'id' => 'Casio::QVCI.Casio:FocalRange',
             'desc' => [
+                'en' => 'Focal Range',
             ],
         ],
     ];

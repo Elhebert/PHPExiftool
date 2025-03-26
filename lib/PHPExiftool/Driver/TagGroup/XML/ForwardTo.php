@@ -28,13 +28,14 @@ class ForwardTo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Forward To',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249122
+             * line : 171752
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ForwardTo extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:ForwardTo',
             'desc' => [
+                'en' => 'Forward To',
             ],
         ],
     ];

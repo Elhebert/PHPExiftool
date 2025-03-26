@@ -28,13 +28,14 @@ class VRMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'VR Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201124
+             * line : 136018
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VRMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:VRMode',
             'desc' => [
+                'en' => 'VR Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::VRInfo
-             * line : 209610
+             * line : 141333
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class VRMode extends AbstractTagGroup
              */
             'id' => 'Nikon::VRInfo.Nikon:VRMode',
             'desc' => [
+                'en' => 'VR Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::VRInfo
-             * line : 209624
+             * line : 141347
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class VRMode extends AbstractTagGroup
              */
             'id' => 'Nikon::VRInfo.Nikon:VRMode',
             'desc' => [
+                'en' => 'VR Mode',
             ],
         ],
     ];

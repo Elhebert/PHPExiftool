@@ -28,13 +28,14 @@ class ArchiveRequested extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Archive Requested',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100218
+             * line : 73392
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ArchiveRequested extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ArchiveRequested',
             'desc' => [
+                'en' => 'Archive Requested',
             ],
         ],
     ];

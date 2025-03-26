@@ -28,13 +28,14 @@ class InputDataObjectList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Data Object List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127358
+             * line : 88390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputDataObjectList extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:InputDataObjectList',
             'desc' => [
+                'en' => 'Input Data Object List',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ExposureInfo
-             * line : 78493
+             * line : 57164
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureValue extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ExposureInfo.CanonRaw:ApertureValue',
             'desc' => [
+                'en' => 'Aperture Value',
             ],
         ],
     ];

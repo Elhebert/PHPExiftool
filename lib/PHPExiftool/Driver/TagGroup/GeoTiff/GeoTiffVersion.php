@@ -28,13 +28,14 @@ class GeoTiffVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geo Tiff Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 132733
+             * line : 91035
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeoTiffVersion extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeoTiffVersion',
             'desc' => [
+                'en' => 'Geo Tiff Version',
             ],
         ],
     ];

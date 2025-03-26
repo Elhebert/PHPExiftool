@@ -28,13 +28,14 @@ class DistortionCorrectionSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::VignettingCorr2
-             * line : 71228
+             * line : 53134
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrectionSetting extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorr2.Canon:DistortionCorrectionSetting',
             'desc' => [
+                'en' => 'Distortion Correction Setting',
             ],
         ],
     ];

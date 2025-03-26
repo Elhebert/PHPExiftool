@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117666
+             * line : 83634
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 120940
+             * line : 84933
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

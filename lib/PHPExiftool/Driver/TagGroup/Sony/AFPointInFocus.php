@@ -28,13 +28,14 @@ class AFPointInFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point In Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341150
+             * line : 238570
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointInFocus extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPointInFocus',
             'desc' => [
+                'en' => 'AF Point In Focus',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341232
+             * line : 238632
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointInFocus extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPointInFocus',
             'desc' => [
+                'en' => 'AF Point In Focus',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 342162
+             * line : 239423
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFPointInFocus extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFPointInFocus',
             'desc' => [
+                'en' => 'AF Point In Focus',
             ],
         ],
     ];

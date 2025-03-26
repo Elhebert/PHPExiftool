@@ -28,13 +28,14 @@ class StartTimecode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328533
+             * line : 231681
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTimecode extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:StartTimecode',
             'desc' => [
+                'en' => 'Start Timecode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89447
+             * line : 64737
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:AFMode',
             'desc' => [
+                'en' => 'AF Mode',
             ],
         ],
     ];

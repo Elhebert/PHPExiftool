@@ -28,13 +28,14 @@ class FocusMode2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FocusSettings
-             * line : 128569
+             * line : 89229
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusMode2 extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FocusSettings.FujiFilm:FocusMode2',
             'desc' => [
+                'en' => 'Focus Mode 2',
             ],
         ],
     ];

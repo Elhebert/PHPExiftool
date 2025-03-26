@@ -28,13 +28,14 @@ class ISOAutoOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Auto Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208615
+             * line : 140516
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOAutoOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:ISOAutoOffset',
             'desc' => [
+                'en' => 'ISO Auto Offset',
             ],
         ],
     ];

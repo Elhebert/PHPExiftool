@@ -28,13 +28,14 @@ class CasioQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Casio Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::QVCI
-             * line : 85186
+             * line : 61958
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CasioQuality extends AbstractTagGroup
              */
             'id' => 'Casio::QVCI.Casio:CasioQuality',
             'desc' => [
+                'en' => 'Casio Quality',
             ],
         ],
     ];

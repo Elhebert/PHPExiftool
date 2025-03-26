@@ -28,13 +28,14 @@ class DiffractionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Diffraction Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278007
+             * line : 193386
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DiffractionCorrection extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:DiffractionCorrection',
             'desc' => [
+                'en' => 'Diffraction Correction',
             ],
         ],
     ];

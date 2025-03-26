@@ -28,13 +28,14 @@ class DerivedFrom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Derived From',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169991
+             * line : 116316
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DerivedFrom extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DerivedFrom',
             'desc' => [
+                'en' => 'Derived From',
             ],
         ],
     ];

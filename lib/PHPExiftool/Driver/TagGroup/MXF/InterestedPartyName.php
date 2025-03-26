@@ -28,13 +28,14 @@ class InterestedPartyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interested Party Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167463
+             * line : 114078
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterestedPartyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InterestedPartyName',
             'desc' => [
+                'en' => 'Interested Party Name',
             ],
         ],
     ];

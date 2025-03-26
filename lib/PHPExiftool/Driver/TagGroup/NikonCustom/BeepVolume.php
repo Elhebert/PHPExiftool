@@ -28,13 +28,14 @@ class BeepVolume extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Beep Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226699
+             * line : 152662
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BeepVolume extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:BeepVolume',
             'desc' => [
+                'en' => 'Beep Volume',
             ],
         ],
     ];

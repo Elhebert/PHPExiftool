@@ -28,13 +28,14 @@ class WB_RGGBLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90255
+             * line : 65137
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WB_RGGBLevels extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:WB_RGGBLevels',
             'desc' => [
+                'en' => 'WB RGGB Levels',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 93805
+             * line : 67898
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WB_RGGBLevels extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:WB_RGGBLevels',
             'desc' => [
+                'en' => 'WB RGGB Levels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 332036
+             * line : 233239
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332574
+             * line : 233410
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         2 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333272
+             * line : 233733
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

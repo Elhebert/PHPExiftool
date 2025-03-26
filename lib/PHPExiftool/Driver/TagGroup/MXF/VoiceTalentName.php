@@ -28,13 +28,14 @@ class VoiceTalentName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Voice Talent Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168771
+             * line : 115247
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VoiceTalentName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VoiceTalentName',
             'desc' => [
+                'en' => 'Voice Talent Name',
             ],
         ],
     ];

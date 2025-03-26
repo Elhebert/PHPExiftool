@@ -28,13 +28,14 @@ class DopplerSampleVolumeXPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doppler Sample Volume X Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96316
+             * line : 69724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DopplerSampleVolumeXPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DopplerSampleVolumeXPosition',
             'desc' => [
+                'en' => 'Doppler Sample Volume X Position',
             ],
         ],
     ];

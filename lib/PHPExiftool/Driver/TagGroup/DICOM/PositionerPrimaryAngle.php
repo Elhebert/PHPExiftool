@@ -28,13 +28,14 @@ class PositionerPrimaryAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Positioner Primary Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96042
+             * line : 69463
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionerPrimaryAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PositionerPrimaryAngle',
             'desc' => [
+                'en' => 'Positioner Primary Angle',
             ],
         ],
     ];

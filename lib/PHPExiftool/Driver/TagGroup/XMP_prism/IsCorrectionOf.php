@@ -28,13 +28,14 @@ class IsCorrectionOf extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Is Correction Of',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410890
+             * line : 290145
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IsCorrectionOf extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:IsCorrectionOf',
             'desc' => [
+                'en' => 'Is Correction Of',
             ],
         ],
     ];

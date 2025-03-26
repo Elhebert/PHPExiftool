@@ -28,13 +28,14 @@ class LateralSpreadingDeviceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lateral Spreading Device ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103801
+             * line : 76890
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LateralSpreadingDeviceID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LateralSpreadingDeviceID',
             'desc' => [
+                'en' => 'Lateral Spreading Device ID',
             ],
         ],
     ];

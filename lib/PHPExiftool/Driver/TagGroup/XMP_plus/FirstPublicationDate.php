@@ -28,13 +28,14 @@ class FirstPublicationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'First Publication Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265382
+             * line : 183442
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FirstPublicationDate extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:FirstPublicationDate',
             'desc' => [
+                'en' => 'First Publication Date',
             ],
         ],
     ];

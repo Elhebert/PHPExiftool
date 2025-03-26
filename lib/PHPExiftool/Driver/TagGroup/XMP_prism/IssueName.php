@@ -28,13 +28,14 @@ class IssueName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Issue Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410899
+             * line : 290154
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IssueName extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:IssueName',
             'desc' => [
+                'en' => 'Issue Name',
             ],
         ],
     ];

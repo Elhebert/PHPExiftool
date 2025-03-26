@@ -28,13 +28,14 @@ class SampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Identification
-             * line : 395927
+             * line : 280281
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleRate extends AbstractTagGroup
              */
             'id' => 'Vorbis::Identification.Vorbis:SampleRate',
             'desc' => [
+                'en' => 'Sample Rate',
             ],
         ],
     ];

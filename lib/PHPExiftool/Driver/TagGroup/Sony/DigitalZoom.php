@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 384028
+             * line : 270771
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384261
+             * line : 270944
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

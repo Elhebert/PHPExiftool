@@ -28,13 +28,14 @@ class WM_CollectionGroupID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Collection Group ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Private
-             * line : 147150
+             * line : 102178
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WM_CollectionGroupID extends AbstractTagGroup
              */
             'id' => 'ID3::Private.ID3:WM_CollectionGroupID',
             'desc' => [
+                'en' => 'WM Collection Group ID',
             ],
         ],
     ];

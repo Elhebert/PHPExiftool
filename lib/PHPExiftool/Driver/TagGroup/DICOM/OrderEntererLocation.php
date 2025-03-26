@@ -28,13 +28,14 @@ class OrderEntererLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Order Enterer Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99905
+             * line : 73107
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrderEntererLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrderEntererLocation',
             'desc' => [
+                'en' => 'Order Enterer Location',
             ],
         ],
     ];

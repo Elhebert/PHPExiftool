@@ -28,13 +28,14 @@ class KLVDataParentProperties extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KLV Data Parent Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171791
+             * line : 117979
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KLVDataParentProperties extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KLVDataParentProperties',
             'desc' => [
+                'en' => 'KLV Data Parent Properties',
             ],
         ],
     ];

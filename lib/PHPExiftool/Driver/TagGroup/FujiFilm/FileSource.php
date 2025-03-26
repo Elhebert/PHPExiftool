@@ -28,13 +28,14 @@ class FileSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130990
+             * line : 90480
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileSource extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FileSource',
             'desc' => [
+                'en' => 'File Source',
             ],
         ],
     ];

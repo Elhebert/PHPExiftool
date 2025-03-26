@@ -28,13 +28,14 @@ class AFAccelDecelTracking extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Accel/Decel Tracking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3792
+             * line : 2321
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAccelDecelTracking extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFAccelDecelTracking',
             'desc' => [
+                'en' => 'AF Accel/Decel Tracking',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SlabThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slab Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96760
+             * line : 70162
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlabThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SlabThickness',
             'desc' => [
+                'en' => 'Slab Thickness',
             ],
         ],
     ];

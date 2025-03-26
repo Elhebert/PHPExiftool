@@ -28,13 +28,14 @@ class AEMeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282936
+             * line : 196403
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEMeteringMode extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEMeteringMode',
             'desc' => [
+                'en' => 'AE Metering Mode',
             ],
         ],
     ];

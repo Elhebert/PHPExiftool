@@ -28,13 +28,14 @@ class RegionLocationMaxX1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Location Max X1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96264
+             * line : 69676
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionLocationMaxX1 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegionLocationMaxX1',
             'desc' => [
+                'en' => 'Region Location Max X1',
             ],
         ],
     ];

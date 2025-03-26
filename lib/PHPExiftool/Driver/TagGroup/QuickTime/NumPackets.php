@@ -28,13 +28,14 @@ class NumPackets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Packets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313779
+             * line : 219519
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NumPackets extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:NumPackets',
             'desc' => [
+                'en' => 'Num Packets',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313783
+             * line : 219522
              * type : int64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NumPackets extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:NumPackets',
             'desc' => [
+                'en' => 'Num Packets',
             ],
         ],
     ];

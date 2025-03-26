@@ -28,13 +28,14 @@ class AWBPrevWbGgain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Prev Wb Ggain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307179
+             * line : 213677
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBPrevWbGgain extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBPrevWbGgain',
             'desc' => [
+                'en' => 'AWB Prev Wb Ggain',
             ],
         ],
     ];

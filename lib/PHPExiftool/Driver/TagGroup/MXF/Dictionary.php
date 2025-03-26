@@ -28,13 +28,14 @@ class Dictionary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dictionary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169491
+             * line : 115893
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dictionary extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Dictionary',
             'desc' => [
+                'en' => 'Dictionary',
             ],
         ],
     ];

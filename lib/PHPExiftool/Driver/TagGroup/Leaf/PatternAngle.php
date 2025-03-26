@@ -28,13 +28,14 @@ class PatternAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pattern Rotation Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Main
-             * line : 161915
+             * line : 110619
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatternAngle extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:PatternAngle',
             'desc' => [
+                'en' => 'Pattern Rotation Angle',
             ],
         ],
     ];

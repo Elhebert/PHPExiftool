@@ -28,13 +28,14 @@ class AuthorURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1071
+             * line : 421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthorURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:AuthorURL',
             'desc' => [
+                'en' => 'Author URL',
             ],
         ],
     ];

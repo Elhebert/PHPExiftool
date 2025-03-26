@@ -28,13 +28,14 @@ class GeogLinearUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Linear Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 133832
+             * line : 92125
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogLinearUnits extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogLinearUnits',
             'desc' => [
+                'en' => 'Geog Linear Units',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusPositionVertical extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Position Vertical',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2V0400
-             * line : 191041
+             * line : 129835
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPositionVertical extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2V0400.Nikon:FocusPositionVertical',
             'desc' => [
+                'en' => 'Focus Position Vertical',
             ],
         ],
     ];

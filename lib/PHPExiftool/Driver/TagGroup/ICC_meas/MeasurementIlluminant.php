@@ -28,13 +28,14 @@ class MeasurementIlluminant extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measurement Illuminant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Measurement
-             * line : 146979
+             * line : 102044
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasurementIlluminant extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementIlluminant',
             'desc' => [
+                'en' => 'Measurement Illuminant',
             ],
         ],
     ];

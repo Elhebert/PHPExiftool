@@ -28,13 +28,14 @@ class PlaybackFlickUpRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Playback Flick Up Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248397
+             * line : 171085
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaybackFlickUpRating extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:PlaybackFlickUpRating',
             'desc' => [
+                'en' => 'Playback Flick Up Rating',
             ],
         ],
     ];

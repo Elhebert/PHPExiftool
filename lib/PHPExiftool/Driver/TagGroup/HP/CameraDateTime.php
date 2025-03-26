@@ -28,13 +28,14 @@ class CameraDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::Type4
-             * line : 142203
+             * line : 98419
              * type : string
              * writable : false
              * count : 20
@@ -42,12 +43,13 @@ class CameraDateTime extends AbstractTagGroup
              */
             'id' => 'HP::Type4.HP:CameraDateTime',
             'desc' => [
+                'en' => 'Camera Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : HP::Type6
-             * line : 142282
+             * line : 98438
              * type : string
              * writable : false
              * count : 20
@@ -55,6 +57,7 @@ class CameraDateTime extends AbstractTagGroup
              */
             'id' => 'HP::Type6.HP:CameraDateTime',
             'desc' => [
+                'en' => 'Camera Date Time',
             ],
         ],
     ];

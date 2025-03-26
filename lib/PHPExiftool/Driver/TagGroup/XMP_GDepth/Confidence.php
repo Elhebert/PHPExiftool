@@ -28,13 +28,14 @@ class Confidence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Confidence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396914
+             * line : 281107
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Confidence extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Confidence',
             'desc' => [
+                'en' => 'Confidence',
             ],
         ],
     ];

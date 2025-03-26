@@ -28,13 +28,14 @@ class Gain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166667
+             * line : 113405
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gain extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Gain',
             'desc' => [
+                'en' => 'Gain',
             ],
         ],
     ];

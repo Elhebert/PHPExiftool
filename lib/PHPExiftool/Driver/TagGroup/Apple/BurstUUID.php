@@ -28,13 +28,14 @@ class BurstUUID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst UUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::Main
-             * line : 2907
+             * line : 1869
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstUUID extends AbstractTagGroup
              */
             'id' => 'Apple::Main.Apple:BurstUUID',
             'desc' => [
+                'en' => 'Burst UUID',
             ],
         ],
     ];

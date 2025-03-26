@@ -28,13 +28,14 @@ class DateRecieved extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Recieved',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410826
+             * line : 290091
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateRecieved extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:DateRecieved',
             'desc' => [
+                'en' => 'Date Recieved',
             ],
         ],
     ];

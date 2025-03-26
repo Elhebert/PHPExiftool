@@ -28,13 +28,14 @@ class SpatialFrequencyResponse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Spatial Frequency Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408186
+             * line : 288483
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpatialFrequencyResponse extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:SpatialFrequencyResponse',
             'desc' => [
+                'en' => 'Spatial Frequency Response',
             ],
         ],
     ];

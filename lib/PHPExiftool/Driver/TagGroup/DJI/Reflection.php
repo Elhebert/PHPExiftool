@@ -28,13 +28,14 @@ class Reflection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reflection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::ThermalParams
-             * line : 104578
+             * line : 77622
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Reflection extends AbstractTagGroup
              */
             'id' => 'DJI::ThermalParams.DJI:Reflection',
             'desc' => [
+                'en' => 'Reflection',
             ],
         ],
     ];

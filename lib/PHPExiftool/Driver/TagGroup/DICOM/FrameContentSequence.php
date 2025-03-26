@@ -28,13 +28,14 @@ class FrameContentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Content Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98054
+             * line : 71401
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameContentSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameContentSequence',
             'desc' => [
+                'en' => 'Frame Content Sequence',
             ],
         ],
     ];

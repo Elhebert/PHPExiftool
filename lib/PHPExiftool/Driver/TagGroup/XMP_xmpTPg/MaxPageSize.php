@@ -28,13 +28,14 @@ class MaxPageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Page Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414525
+             * line : 292477
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxPageSize extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:MaxPageSize',
             'desc' => [
+                'en' => 'Max Page Size',
             ],
         ],
     ];

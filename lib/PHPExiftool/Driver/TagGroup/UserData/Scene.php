@@ -28,13 +28,14 @@ class Scene extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325623
+             * line : 229775
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Scene extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Scene',
             'desc' => [
+                'en' => 'Scene',
             ],
         ],
     ];

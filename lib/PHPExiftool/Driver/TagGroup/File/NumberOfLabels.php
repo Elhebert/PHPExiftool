@@ -28,13 +28,14 @@ class NumberOfLabels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Labels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166979
+             * line : 113667
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfLabels extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:NumberOfLabels',
             'desc' => [
+                'en' => 'Number Of Labels',
             ],
         ],
     ];

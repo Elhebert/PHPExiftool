@@ -28,13 +28,14 @@ class Relation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142773
+             * line : 98624
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Relation extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Relation',
             'desc' => [
+                'en' => 'Relation',
             ],
         ],
     ];

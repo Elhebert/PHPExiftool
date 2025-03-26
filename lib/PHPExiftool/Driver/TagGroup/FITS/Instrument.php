@@ -28,13 +28,14 @@ class Instrument extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instrument',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121699
+             * line : 85302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Instrument extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:Instrument',
             'desc' => [
+                'en' => 'Instrument',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SourceToCompensatorTrayDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source To Compensator Tray Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103245
+             * line : 76341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceToCompensatorTrayDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceToCompensatorTrayDistance',
             'desc' => [
+                'en' => 'Source To Compensator Tray Distance',
             ],
         ],
     ];

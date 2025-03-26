@@ -28,13 +28,14 @@ class ShotTrackIDs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot Track I Ds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171034
+             * line : 117258
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShotTrackIDs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotTrackIDs',
             'desc' => [
+                'en' => 'Shot Track I Ds',
             ],
         ],
     ];

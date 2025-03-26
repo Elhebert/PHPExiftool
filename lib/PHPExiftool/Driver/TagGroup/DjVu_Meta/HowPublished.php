@@ -28,13 +28,14 @@ class HowPublished extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'How Published',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107422
+             * line : 79294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HowPublished extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:HowPublished',
             'desc' => [
+                'en' => 'How Published',
             ],
         ],
     ];

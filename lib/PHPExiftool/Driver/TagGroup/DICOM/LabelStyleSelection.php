@@ -28,13 +28,14 @@ class LabelStyleSelection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label Style Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102329
+             * line : 75429
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LabelStyleSelection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LabelStyleSelection',
             'desc' => [
+                'en' => 'Label Style Selection',
             ],
         ],
     ];

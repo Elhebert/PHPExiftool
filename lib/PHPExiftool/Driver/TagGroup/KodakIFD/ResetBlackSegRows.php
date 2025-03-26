@@ -28,13 +28,14 @@ class ResetBlackSegRows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reset Black Seg Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157230
+             * line : 108422
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ResetBlackSegRows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ResetBlackSegRows',
             'desc' => [
+                'en' => 'Reset Black Seg Rows',
             ],
         ],
     ];

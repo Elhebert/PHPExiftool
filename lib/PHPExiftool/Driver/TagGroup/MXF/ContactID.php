@@ -28,13 +28,14 @@ class ContactID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171866
+             * line : 118051
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContactID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContactID',
             'desc' => [
+                'en' => 'Contact ID',
             ],
         ],
     ];

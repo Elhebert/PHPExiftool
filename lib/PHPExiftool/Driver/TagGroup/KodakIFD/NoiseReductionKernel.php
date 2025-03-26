@@ -28,13 +28,14 @@ class NoiseReductionKernel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Noise Reduction Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157098
+             * line : 108302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NoiseReductionKernel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NoiseReductionKernel',
             'desc' => [
+                'en' => 'Noise Reduction Kernel',
             ],
         ],
     ];

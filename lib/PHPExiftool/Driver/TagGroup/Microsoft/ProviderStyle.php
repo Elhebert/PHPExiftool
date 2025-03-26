@@ -28,13 +28,14 @@ class ProviderStyle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175201
+             * line : 120648
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProviderStyle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ProviderStyle',
             'desc' => [
+                'en' => 'Provider Style',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MotionSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Motion Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330801
+             * line : 232706
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MotionSensitivity extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:MotionSensitivity',
             'desc' => [
+                'en' => 'Motion Sensitivity',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331310
+             * line : 232964
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MotionSensitivity extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:MotionSensitivity',
             'desc' => [
+                'en' => 'Motion Sensitivity',
             ],
         ],
     ];

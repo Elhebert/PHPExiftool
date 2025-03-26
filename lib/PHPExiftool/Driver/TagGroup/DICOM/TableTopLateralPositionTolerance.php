@@ -28,13 +28,14 @@ class TableTopLateralPositionTolerance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Lateral Position Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103068
+             * line : 76164
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopLateralPositionTolerance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopLateralPositionTolerance',
             'desc' => [
+                'en' => 'Table Top Lateral Position Tolerance',
             ],
         ],
     ];

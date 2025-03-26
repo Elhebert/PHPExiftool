@@ -28,13 +28,14 @@ class AngularUnitKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angular Unit Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167619
+             * line : 114230
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngularUnitKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AngularUnitKind',
             'desc' => [
+                'en' => 'Angular Unit Kind',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StandardToCustomPcc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Standard To Custom Pcc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146607
+             * line : 101890
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StandardToCustomPcc extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:StandardToCustomPcc',
             'desc' => [
+                'en' => 'Standard To Custom Pcc',
             ],
         ],
     ];

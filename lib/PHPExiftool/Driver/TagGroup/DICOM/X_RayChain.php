@@ -28,13 +28,14 @@ class X_RayChain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X-Ray Chain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100339
+             * line : 73512
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class X_RayChain extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:X-RayChain',
             'desc' => [
+                'en' => 'X-Ray Chain',
             ],
         ],
     ];

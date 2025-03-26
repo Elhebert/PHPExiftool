@@ -28,13 +28,14 @@ class VideoFps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Fps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310207
+             * line : 216119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFps extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:VideoFps',
             'desc' => [
+                'en' => 'Video Fps',
             ],
         ],
     ];

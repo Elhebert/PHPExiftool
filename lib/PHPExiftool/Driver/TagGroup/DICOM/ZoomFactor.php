@@ -28,13 +28,14 @@ class ZoomFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zoom Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98695
+             * line : 71974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZoomFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZoomFactor',
             'desc' => [
+                'en' => 'Zoom Factor',
             ],
         ],
     ];

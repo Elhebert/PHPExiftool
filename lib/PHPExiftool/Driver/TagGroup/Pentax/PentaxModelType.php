@@ -28,13 +28,14 @@ class PentaxModelType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pentax Model Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 294755
+             * line : 205980
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PentaxModelType extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:PentaxModelType',
             'desc' => [
+                'en' => 'Pentax Model Type',
             ],
         ],
     ];

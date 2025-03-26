@@ -28,13 +28,14 @@ class InterchangeColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interchange Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151536
+             * line : 104468
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InterchangeColorSpace extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:InterchangeColorSpace',
             'desc' => [
+                'en' => 'Interchange Color Space',
             ],
         ],
     ];

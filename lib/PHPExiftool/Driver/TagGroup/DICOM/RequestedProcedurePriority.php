@@ -28,13 +28,14 @@ class RequestedProcedurePriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Procedure Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99845
+             * line : 73047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedProcedurePriority extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedProcedurePriority',
             'desc' => [
+                'en' => 'Requested Procedure Priority',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashSyncSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Sync Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244245
+             * line : 167130
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244280
+             * line : 167159
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FlashSyncSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FlashSyncSpeed',
             'desc' => [
+                'en' => 'Flash Sync Speed',
             ],
         ],
     ];

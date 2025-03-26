@@ -28,13 +28,14 @@ class WBAdjMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::WBAdjData
-             * line : 211584
+             * line : 142220
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBAdjMode extends AbstractTagGroup
              */
             'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjMode',
             'desc' => [
+                'en' => 'WB Adj Mode',
             ],
         ],
     ];

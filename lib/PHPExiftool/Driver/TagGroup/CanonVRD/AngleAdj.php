@@ -28,13 +28,14 @@ class AngleAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Angle Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80243
+             * line : 58554
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AngleAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:AngleAdj',
             'desc' => [
+                'en' => 'Angle Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83635
+             * line : 61293
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AngleAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:AngleAdj',
             'desc' => [
+                'en' => 'Angle Adj',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CenterFocusPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Center Focus Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 233956
+             * line : 157760
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CenterFocusPoint extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:CenterFocusPoint',
             'desc' => [
+                'en' => 'Center Focus Point',
             ],
         ],
     ];

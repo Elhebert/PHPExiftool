@@ -28,13 +28,14 @@ class ProfileCameraIndices extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Camera Indices',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396799
+             * line : 281012
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileCameraIndices extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:ProfileCameraIndices',
             'desc' => [
+                'en' => 'Profile Camera Indices',
             ],
         ],
     ];

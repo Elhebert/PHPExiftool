@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Doc
-             * line : 163155
+             * line : 111330
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'MIE::Doc.MIE-Doc:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

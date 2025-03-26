@@ -28,13 +28,14 @@ class ImageBoxOverlapPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Overlap Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101640
+             * line : 74784
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxOverlapPriority extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxOverlapPriority',
             'desc' => [
+                'en' => 'Image Box Overlap Priority',
             ],
         ],
     ];

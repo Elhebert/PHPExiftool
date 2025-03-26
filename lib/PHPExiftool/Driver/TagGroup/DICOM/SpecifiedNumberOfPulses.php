@@ -28,13 +28,14 @@ class SpecifiedNumberOfPulses extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specified Number Of Pulses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102870
+             * line : 75966
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecifiedNumberOfPulses extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecifiedNumberOfPulses',
             'desc' => [
+                'en' => 'Specified Number Of Pulses',
             ],
         ],
     ];

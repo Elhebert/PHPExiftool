@@ -28,13 +28,14 @@ class AFRFaster2ExpMod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AFR Faster 2 Exp Mod',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306612
+             * line : 213110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFRFaster2ExpMod extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFRFaster2ExpMod',
             'desc' => [
+                'en' => 'AFR Faster 2 Exp Mod',
             ],
         ],
     ];

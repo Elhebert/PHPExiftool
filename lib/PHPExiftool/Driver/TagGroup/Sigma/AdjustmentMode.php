@@ -28,13 +28,14 @@ class AdjustmentMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Adjustment Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337389
+             * line : 236096
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdjustmentMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:AdjustmentMode',
             'desc' => [
+                'en' => 'Adjustment Mode',
             ],
         ],
     ];

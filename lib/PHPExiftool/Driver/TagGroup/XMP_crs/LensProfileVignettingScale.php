@@ -28,13 +28,14 @@ class LensProfileVignettingScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Vignetting Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402860
+             * line : 285996
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileVignettingScale extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LensProfileVignettingScale',
             'desc' => [
+                'en' => 'Lens Profile Vignetting Scale',
             ],
         ],
     ];

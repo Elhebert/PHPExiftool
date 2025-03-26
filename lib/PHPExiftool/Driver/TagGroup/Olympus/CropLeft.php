@@ -28,13 +28,14 @@ class CropLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255345
+             * line : 176221
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260967
+             * line : 180240
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
     ];

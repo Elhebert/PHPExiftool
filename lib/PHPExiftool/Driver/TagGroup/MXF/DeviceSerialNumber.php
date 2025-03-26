@@ -28,13 +28,14 @@ class DeviceSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167328
+             * line : 113952
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceSerialNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceSerialNumber',
             'desc' => [
+                'en' => 'Device Serial Number',
             ],
         ],
     ];

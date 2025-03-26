@@ -28,13 +28,14 @@ class DuotoneTransferFuncs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duotone Transfer Funcs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305437
+             * line : 212236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DuotoneTransferFuncs extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:DuotoneTransferFuncs',
             'desc' => [
+                'en' => 'Duotone Transfer Funcs',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ZoomStepCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zoom Step Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254745
+             * line : 175887
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ZoomStepCount extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:ZoomStepCount',
             'desc' => [
+                'en' => 'Zoom Step Count',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258600
+             * line : 178598
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ZoomStepCount extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ZoomStepCount',
             'desc' => [
+                'en' => 'Zoom Step Count',
             ],
         ],
     ];

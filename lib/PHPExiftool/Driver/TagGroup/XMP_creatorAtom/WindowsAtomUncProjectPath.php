@@ -28,13 +28,14 @@ class WindowsAtomUncProjectPath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Windows Atom Unc Project Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401492
+             * line : 284755
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WindowsAtomUncProjectPath extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:WindowsAtomUncProjectPath',
             'desc' => [
+                'en' => 'Windows Atom Unc Project Path',
             ],
         ],
     ];

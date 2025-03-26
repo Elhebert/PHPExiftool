@@ -28,13 +28,14 @@ class ReferenceChannelUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Channel Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97809
+             * line : 71188
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceChannelUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceChannelUsed',
             'desc' => [
+                'en' => 'Reference Channel Used',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IsVoiceover extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Voiceover',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168663
+             * line : 115139
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsVoiceover extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsVoiceover',
             'desc' => [
+                'en' => 'Is Voiceover',
             ],
         ],
     ];

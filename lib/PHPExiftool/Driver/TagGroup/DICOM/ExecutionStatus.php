@@ -28,13 +28,14 @@ class ExecutionStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Execution Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102220
+             * line : 75348
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExecutionStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExecutionStatus',
             'desc' => [
+                'en' => 'Execution Status',
             ],
         ],
     ];

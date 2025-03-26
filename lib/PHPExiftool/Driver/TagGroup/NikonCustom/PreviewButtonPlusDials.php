@@ -28,13 +28,14 @@ class PreviewButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213172
+             * line : 143119
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213369
+             * line : 143300
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215423
+             * line : 144579
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218646
+             * line : 147012
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221096
+             * line : 149043
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225997
+             * line : 152290
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231214
+             * line : 155477
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232995
+             * line : 156861
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class PreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:PreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Preview Button Plus Dials',
             ],
         ],
     ];

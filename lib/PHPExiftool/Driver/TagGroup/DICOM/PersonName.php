@@ -28,13 +28,14 @@ class PersonName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Person Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100136
+             * line : 73314
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PersonName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PersonName',
             'desc' => [
+                'en' => 'Person Name',
             ],
         ],
     ];

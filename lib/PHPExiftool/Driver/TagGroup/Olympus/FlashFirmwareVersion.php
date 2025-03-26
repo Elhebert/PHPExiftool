@@ -28,13 +28,14 @@ class FlashFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254663
+             * line : 175847
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:FlashFirmwareVersion',
             'desc' => [
+                'en' => 'Flash Firmware Version',
             ],
         ],
     ];

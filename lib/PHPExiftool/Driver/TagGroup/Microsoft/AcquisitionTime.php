@@ -28,13 +28,14 @@ class AcquisitionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174413
+             * line : 120110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionTime extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AcquisitionTime',
             'desc' => [
+                'en' => 'Acquisition Time',
             ],
         ],
     ];

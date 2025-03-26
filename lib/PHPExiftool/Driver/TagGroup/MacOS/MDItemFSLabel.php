@@ -28,13 +28,14 @@ class MDItemFSLabel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MD Item FS Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172738
+             * line : 118847
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MDItemFSLabel extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSLabel',
             'desc' => [
+                'en' => 'MD Item FS Label',
             ],
         ],
     ];

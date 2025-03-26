@@ -28,13 +28,14 @@ class TrackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175229
+             * line : 120666
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175787
+             * line : 120975
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
     ];

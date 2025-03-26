@@ -28,13 +28,14 @@ class GIFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GIF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Main
-             * line : 131340
+             * line : 90680
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GIFVersion extends AbstractTagGroup
              */
             'id' => 'GIF::Main.GIF:GIFVersion',
             'desc' => [
+                'en' => 'GIF Version',
             ],
         ],
     ];

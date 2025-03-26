@@ -28,13 +28,14 @@ class AppleMailMessageID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Message ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173088
+             * line : 119110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailMessageID extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailMessageID',
             'desc' => [
+                'en' => 'Apple Mail Message ID',
             ],
         ],
     ];

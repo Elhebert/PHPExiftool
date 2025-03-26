@@ -28,13 +28,14 @@ class HorizontalDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Horizontal Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170366
+             * line : 116625
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HorizontalDatum extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HorizontalDatum',
             'desc' => [
+                'en' => 'Horizontal Datum',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GamutBoundaryDescription2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamut Boundary Description 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146405
+             * line : 101778
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GamutBoundaryDescription2 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:GamutBoundaryDescription2',
             'desc' => [
+                'en' => 'Gamut Boundary Description 2',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TransferFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transfer Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412358
+             * line : 290834
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TransferFunction extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:TransferFunction',
             'desc' => [
+                'en' => 'Transfer Function',
             ],
         ],
     ];

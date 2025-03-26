@@ -28,13 +28,14 @@ class IPTCImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151360
+             * line : 104392
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTCImageWidth extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:IPTCImageWidth',
             'desc' => [
+                'en' => 'IPTC Image Width',
             ],
         ],
     ];

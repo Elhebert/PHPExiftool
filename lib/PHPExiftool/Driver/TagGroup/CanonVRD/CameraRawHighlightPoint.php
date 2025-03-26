@@ -28,13 +28,14 @@ class CameraRawHighlightPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Raw Highlight Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83829
+             * line : 61465
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraRawHighlightPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CameraRawHighlightPoint',
             'desc' => [
+                'en' => 'Camera Raw Highlight Point',
             ],
         ],
     ];

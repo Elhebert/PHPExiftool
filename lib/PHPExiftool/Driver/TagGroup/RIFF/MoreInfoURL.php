@@ -28,13 +28,14 @@ class MoreInfoURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'More Info URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328321
+             * line : 231580
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MoreInfoURL extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:MoreInfoURL',
             'desc' => [
+                'en' => 'More Info URL',
             ],
         ],
     ];

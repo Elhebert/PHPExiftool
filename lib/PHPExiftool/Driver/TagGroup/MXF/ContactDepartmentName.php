@@ -28,13 +28,14 @@ class ContactDepartmentName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact Department Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167560
+             * line : 114174
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ContactDepartmentName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContactDepartmentName',
             'desc' => [
+                'en' => 'Contact Department Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170053
+             * line : 116373
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ContactDepartmentName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContactDepartmentName',
             'desc' => [
+                'en' => 'Contact Department Name',
             ],
         ],
     ];

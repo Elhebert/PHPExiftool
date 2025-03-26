@@ -28,13 +28,14 @@ class ProductVersionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Version Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEVersion
-             * line : 109581
+             * line : 81014
              * type : int16u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ProductVersionNumber extends AbstractTagGroup
              */
             'id' => 'EXE::PEVersion.EXE:ProductVersionNumber',
             'desc' => [
+                'en' => 'Product Version Number',
             ],
         ],
     ];

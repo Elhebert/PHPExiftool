@@ -28,13 +28,14 @@ class ChannelShieldNominalThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Shield Nominal Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103696
+             * line : 76785
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelShieldNominalThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelShieldNominalThickness',
             'desc' => [
+                'en' => 'Channel Shield Nominal Thickness',
             ],
         ],
     ];

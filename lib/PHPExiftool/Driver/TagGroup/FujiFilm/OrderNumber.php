@@ -28,13 +28,14 @@ class OrderNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Order Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 131008
+             * line : 90483
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OrderNumber extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:OrderNumber',
             'desc' => [
+                'en' => 'Order Number',
             ],
         ],
     ];

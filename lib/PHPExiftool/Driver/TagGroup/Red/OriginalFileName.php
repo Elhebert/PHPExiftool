@@ -28,13 +28,14 @@ class OriginalFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331500
+             * line : 233049
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OriginalFileName extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:OriginalFileName',
             'desc' => [
+                'en' => 'Original File Name',
             ],
         ],
         1 => [
             /**
              * table_name : Red::RED1
-             * line : 331722
+             * line : 233119
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class OriginalFileName extends AbstractTagGroup
              */
             'id' => 'Red::RED1.Red:OriginalFileName',
             'desc' => [
+                'en' => 'Original File Name',
             ],
         ],
     ];

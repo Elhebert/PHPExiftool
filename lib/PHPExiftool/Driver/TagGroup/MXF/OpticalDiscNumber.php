@@ -28,13 +28,14 @@ class OpticalDiscNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optical Disc Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169782
+             * line : 116136
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpticalDiscNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OpticalDiscNumber',
             'desc' => [
+                'en' => 'Optical Disc Number',
             ],
         ],
     ];

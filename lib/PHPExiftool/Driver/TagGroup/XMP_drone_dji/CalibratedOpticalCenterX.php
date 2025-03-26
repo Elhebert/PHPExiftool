@@ -28,13 +28,14 @@ class CalibratedOpticalCenterX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Calibrated Optical Center X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104609
+             * line : 77650
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CalibratedOpticalCenterX extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:CalibratedOpticalCenterX',
             'desc' => [
+                'en' => 'Calibrated Optical Center X',
             ],
         ],
     ];

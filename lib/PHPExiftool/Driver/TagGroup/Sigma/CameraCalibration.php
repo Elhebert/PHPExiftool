@@ -28,13 +28,14 @@ class CameraCalibration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 339217
+             * line : 237425
              * type : float
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class CameraCalibration extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:CameraCalibration',
             'desc' => [
+                'en' => 'Camera Calibration',
             ],
         ],
     ];

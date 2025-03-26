@@ -28,13 +28,14 @@ class CameraType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 803
+             * line : 292
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
     ];

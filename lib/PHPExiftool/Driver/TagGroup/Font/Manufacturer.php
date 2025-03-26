@@ -28,13 +28,14 @@ class Manufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127887
+             * line : 88779
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manufacturer extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:Manufacturer',
             'desc' => [
+                'en' => 'Manufacturer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303259
+             * line : 210784
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

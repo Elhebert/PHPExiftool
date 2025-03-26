@@ -28,13 +28,14 @@ class RespiratorySignalSourceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Signal Source ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96871
+             * line : 70273
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratorySignalSourceID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratorySignalSourceID',
             'desc' => [
+                'en' => 'Respiratory Signal Source ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NominalScannedPixelSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Scanned Pixel Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96150
+             * line : 69568
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalScannedPixelSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalScannedPixelSpacing',
             'desc' => [
+                'en' => 'Nominal Scanned Pixel Spacing',
             ],
         ],
     ];

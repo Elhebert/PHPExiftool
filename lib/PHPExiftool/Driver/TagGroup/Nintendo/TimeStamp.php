@@ -28,13 +28,14 @@ class TimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nintendo::CameraInfo
-             * line : 248983
+             * line : 171660
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'Nintendo::CameraInfo.Nintendo:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
     ];

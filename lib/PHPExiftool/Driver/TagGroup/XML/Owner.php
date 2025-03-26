@@ -28,13 +28,14 @@ class Owner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249196
+             * line : 171813
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Owner extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Owner',
             'desc' => [
+                'en' => 'Owner',
             ],
         ],
     ];

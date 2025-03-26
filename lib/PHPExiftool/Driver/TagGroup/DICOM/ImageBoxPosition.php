@@ -28,13 +28,14 @@ class ImageBoxPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102130
+             * line : 75261
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxPosition',
             'desc' => [
+                'en' => 'Image Box Position',
             ],
         ],
     ];

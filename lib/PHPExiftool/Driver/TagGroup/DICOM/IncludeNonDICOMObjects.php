@@ -28,13 +28,14 @@ class IncludeNonDICOMObjects extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Include Non DICOM Objects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102344
+             * line : 75444
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncludeNonDICOMObjects extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IncludeNonDICOMObjects',
             'desc' => [
+                'en' => 'Include Non DICOM Objects',
             ],
         ],
     ];

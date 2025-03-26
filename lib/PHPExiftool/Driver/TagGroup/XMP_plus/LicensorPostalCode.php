@@ -28,13 +28,14 @@ class LicensorPostalCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor Postal Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265675
+             * line : 183661
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorPostalCode extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorPostalCode',
             'desc' => [
+                'en' => 'Licensor Postal Code',
             ],
         ],
     ];

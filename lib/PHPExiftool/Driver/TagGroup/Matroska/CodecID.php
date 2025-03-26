@@ -28,13 +28,14 @@ class CodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173196
+             * line : 119198
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CodecID',
             'desc' => [
+                'en' => 'Codec ID',
             ],
         ],
     ];

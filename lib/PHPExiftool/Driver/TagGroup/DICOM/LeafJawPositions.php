@@ -28,13 +28,14 @@ class LeafJawPositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leaf Jaw Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103366
+             * line : 76461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeafJawPositions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LeafJawPositions',
             'desc' => [
+                'en' => 'Leaf Jaw Positions',
             ],
         ],
     ];

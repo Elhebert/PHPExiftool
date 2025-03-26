@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325361
+             * line : 229670
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

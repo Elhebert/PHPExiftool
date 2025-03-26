@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187006
+             * line : 126986
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
         1 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187152
+             * line : 127036
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

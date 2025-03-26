@@ -28,13 +28,14 @@ class Macro extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type5
-             * line : 160356
+             * line : 109705
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Macro extends AbstractTagGroup
              */
             'id' => 'Kodak::Type5.Kodak:Macro',
             'desc' => [
+                'en' => 'Macro',
             ],
         ],
     ];

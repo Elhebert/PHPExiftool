@@ -28,13 +28,14 @@ class MaskGroupBasedCorrRangeMaskDepthMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Range Mask Depth Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403280
+             * line : 286416
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrRangeMaskDepthMax extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrRangeMaskDepthMax',
             'desc' => [
+                'en' => 'Mask Group Based Corr Range Mask Depth Max',
             ],
         ],
     ];

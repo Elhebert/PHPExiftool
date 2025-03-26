@@ -28,13 +28,14 @@ class PatternCorrectionFactorScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pattern Correction Factor Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155527
+             * line : 106739
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatternCorrectionFactorScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternCorrectionFactorScale',
             'desc' => [
+                'en' => 'Pattern Correction Factor Scale',
             ],
         ],
     ];

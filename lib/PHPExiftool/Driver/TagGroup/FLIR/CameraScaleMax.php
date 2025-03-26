@@ -28,13 +28,14 @@ class CameraScaleMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Scale Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122641
+             * line : 85877
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraScaleMax extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:CameraScaleMax',
             'desc' => [
+                'en' => 'Camera Scale Max',
             ],
         ],
     ];

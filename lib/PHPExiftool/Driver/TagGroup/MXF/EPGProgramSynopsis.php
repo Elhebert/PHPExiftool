@@ -28,13 +28,14 @@ class EPGProgramSynopsis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EPG Program Synopsis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168723
+             * line : 115199
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EPGProgramSynopsis extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EPGProgramSynopsis',
             'desc' => [
+                'en' => 'EPG Program Synopsis',
             ],
         ],
     ];

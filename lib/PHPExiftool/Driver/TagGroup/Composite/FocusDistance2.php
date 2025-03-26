@@ -28,13 +28,14 @@ class FocusDistance2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Distance 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93822
+             * line : 67904
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusDistance2 extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:FocusDistance2',
             'desc' => [
+                'en' => 'Focus Distance 2',
             ],
         ],
     ];

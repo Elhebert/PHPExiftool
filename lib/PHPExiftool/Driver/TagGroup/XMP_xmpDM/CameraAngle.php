@@ -28,13 +28,14 @@ class CameraAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412969
+             * line : 291136
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraAngle extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:CameraAngle',
             'desc' => [
+                'en' => 'Camera Angle',
             ],
         ],
     ];

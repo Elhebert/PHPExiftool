@@ -28,13 +28,14 @@ class AudioBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329775
+             * line : 232224
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBytes extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:AudioBytes',
             'desc' => [
+                'en' => 'Audio Bytes',
             ],
         ],
     ];

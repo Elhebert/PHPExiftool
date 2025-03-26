@@ -28,13 +28,14 @@ class ReadoutAreaTop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Readout Area Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166605
+             * line : 113343
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReadoutAreaTop extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ReadoutAreaTop',
             'desc' => [
+                'en' => 'Readout Area Top',
             ],
         ],
     ];

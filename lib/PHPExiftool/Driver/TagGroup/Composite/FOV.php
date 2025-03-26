@@ -28,13 +28,14 @@ class FOV extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90340
+             * line : 65158
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FOV extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:FOV',
             'desc' => [
+                'en' => 'Field Of View',
             ],
         ],
     ];

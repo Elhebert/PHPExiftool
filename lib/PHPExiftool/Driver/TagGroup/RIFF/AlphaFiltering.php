@@ -28,13 +28,14 @@ class AlphaFiltering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Filtering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::ALPH
-             * line : 326859
+             * line : 230522
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaFiltering extends AbstractTagGroup
              */
             'id' => 'RIFF::ALPH.RIFF:AlphaFiltering',
             'desc' => [
+                'en' => 'Alpha Filtering',
             ],
         ],
     ];

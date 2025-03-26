@@ -28,13 +28,14 @@ class RelativeXRayExposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative X Ray Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96012
+             * line : 69433
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeXRayExposure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelativeXRayExposure',
             'desc' => [
+                'en' => 'Relative X Ray Exposure',
             ],
         ],
     ];

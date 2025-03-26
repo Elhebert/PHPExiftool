@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160747
+             * line : 109820
              * type : string
              * writable : false
              * count : 7
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

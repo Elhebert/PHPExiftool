@@ -28,13 +28,14 @@ class ComponentsConfiguration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Components Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114070
+             * line : 82678
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ComponentsConfiguration extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ComponentsConfiguration',
             'desc' => [
+                'en' => 'Components Configuration',
             ],
         ],
     ];

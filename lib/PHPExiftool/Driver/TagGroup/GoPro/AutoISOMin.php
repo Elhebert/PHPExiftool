@@ -28,13 +28,14 @@ class AutoISOMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto ISO Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139646
+             * line : 97699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoISOMin extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AutoISOMin',
             'desc' => [
+                'en' => 'Auto ISO Min',
             ],
         ],
     ];

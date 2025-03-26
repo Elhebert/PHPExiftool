@@ -28,13 +28,14 @@ class ColorHalftoningInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Halftoning Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305417
+             * line : 212224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorHalftoningInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ColorHalftoningInfo',
             'desc' => [
+                'en' => 'Color Halftoning Info',
             ],
         ],
     ];

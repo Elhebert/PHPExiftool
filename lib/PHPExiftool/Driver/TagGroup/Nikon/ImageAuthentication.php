@@ -28,13 +28,14 @@ class ImageAuthentication extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Authentication',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196944
+             * line : 132969
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageAuthentication extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageAuthentication',
             'desc' => [
+                'en' => 'Image Authentication',
             ],
         ],
     ];

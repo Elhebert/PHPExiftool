@@ -28,13 +28,14 @@ class VideoColorKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Color Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170264
+             * line : 116541
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoColorKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoColorKind',
             'desc' => [
+                'en' => 'Video Color Kind',
             ],
         ],
     ];

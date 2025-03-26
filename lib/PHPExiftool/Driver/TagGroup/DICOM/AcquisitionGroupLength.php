@@ -28,13 +28,14 @@ class AcquisitionGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95401
+             * line : 68863
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionGroupLength',
             'desc' => [
+                'en' => 'Acquisition Group Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecallShootFuncWhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248047
+             * line : 170735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncWhiteBalance extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncWhiteBalance',
             'desc' => [
+                'en' => 'Recall Shoot Func White Balance',
             ],
         ],
     ];

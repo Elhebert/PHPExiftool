@@ -28,13 +28,14 @@ class Units extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100963
+             * line : 74115
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Units extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Units',
             'desc' => [
+                'en' => 'Units',
             ],
         ],
     ];

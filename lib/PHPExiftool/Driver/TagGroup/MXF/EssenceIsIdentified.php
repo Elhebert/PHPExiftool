@@ -28,13 +28,14 @@ class EssenceIsIdentified extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Essence Is Identified',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167610
+             * line : 114221
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EssenceIsIdentified extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceIsIdentified',
             'desc' => [
+                'en' => 'Essence Is Identified',
             ],
         ],
     ];

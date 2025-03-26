@@ -28,13 +28,14 @@ class MinAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58491
+             * line : 45522
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinAperture extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:MinAperture',
             'desc' => [
+                'en' => 'Min Aperture',
             ],
         ],
     ];

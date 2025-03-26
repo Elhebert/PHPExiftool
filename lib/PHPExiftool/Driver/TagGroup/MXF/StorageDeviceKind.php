@@ -28,13 +28,14 @@ class StorageDeviceKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Device Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168693
+             * line : 115169
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageDeviceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StorageDeviceKind',
             'desc' => [
+                'en' => 'Storage Device Kind',
             ],
         ],
     ];

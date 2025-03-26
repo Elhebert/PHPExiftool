@@ -28,13 +28,14 @@ class IngredientsRenditionParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Rendition Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413975
+             * line : 292000
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsRenditionParams extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsRenditionParams',
             'desc' => [
+                'en' => 'Ingredients Rendition Params',
             ],
         ],
     ];

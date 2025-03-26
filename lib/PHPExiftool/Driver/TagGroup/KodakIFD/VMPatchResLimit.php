@@ -28,13 +28,14 @@ class VMPatchResLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VM Patch Res Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155834
+             * line : 107045
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VMPatchResLimit extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VMPatchResLimit',
             'desc' => [
+                'en' => 'VM Patch Res Limit',
             ],
         ],
     ];

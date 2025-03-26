@@ -28,13 +28,14 @@ class SelectableAFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Selectable AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73837
+             * line : 54559
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SelectableAFPoint extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SelectableAFPoint',
             'desc' => [
+                'en' => 'Selectable AF Point',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73877
+             * line : 54579
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SelectableAFPoint extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SelectableAFPoint',
             'desc' => [
+                'en' => 'Selectable AF Point',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISO3166CountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO3166 Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167588
+             * line : 114201
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO3166CountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISO3166CountryCode',
             'desc' => [
+                'en' => 'ISO3166 Country Code',
             ],
         ],
     ];

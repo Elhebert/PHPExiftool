@@ -28,13 +28,14 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Kelvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58923
+             * line : 45754
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59268
+             * line : 45916
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59546
+             * line : 46058
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60072
+             * line : 46329
              * type : int16s
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60599
+             * line : 46629
              * type : int16s
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60846
+             * line : 46771
              * type : int16s
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61191
+             * line : 46954
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61565
+             * line : 47194
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61953
+             * line : 47407
              * type : int16s
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62374
+             * line : 47647
              * type : int16s
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62845
+             * line : 47929
              * type : int16s
              * writable : true
              * count : 4
@@ -172,6 +183,7 @@ class WB_RGGBLevelsKelvin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsKelvin',
             'desc' => [
+                'en' => 'WB RGGB Levels Kelvin',
             ],
         ],
     ];

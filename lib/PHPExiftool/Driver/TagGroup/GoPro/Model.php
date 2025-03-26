@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139594
+             * line : 97667
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : GoPro::fdsc
-             * line : 140091
+             * line : 97920
              * type : string
              * writable : false
              * count : 16
@@ -55,6 +57,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'GoPro::fdsc.GoPro:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

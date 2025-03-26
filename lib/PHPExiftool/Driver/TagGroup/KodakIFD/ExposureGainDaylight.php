@@ -28,13 +28,14 @@ class ExposureGainDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Gain Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155263
+             * line : 106484
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureGainDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureGainDaylight',
             'desc' => [
+                'en' => 'Exposure Gain Daylight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CardiacNumberOfImages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Number Of Images',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95763
+             * line : 69211
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacNumberOfImages extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacNumberOfImages',
             'desc' => [
+                'en' => 'Cardiac Number Of Images',
             ],
         ],
     ];

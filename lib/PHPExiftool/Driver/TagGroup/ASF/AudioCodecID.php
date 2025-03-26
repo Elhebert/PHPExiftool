@@ -28,13 +28,14 @@ class AudioCodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::StreamProperties
-             * line : 2096
+             * line : 1105
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodecID extends AbstractTagGroup
              */
             'id' => 'ASF::StreamProperties.ASF:AudioCodecID',
             'desc' => [
+                'en' => 'Audio Codec ID',
             ],
         ],
     ];

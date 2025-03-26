@@ -28,13 +28,14 @@ class ModalityLUTSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modality LUT Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99099
+             * line : 72318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModalityLUTSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModalityLUTSequence',
             'desc' => [
+                'en' => 'Modality LUT Sequence',
             ],
         ],
     ];

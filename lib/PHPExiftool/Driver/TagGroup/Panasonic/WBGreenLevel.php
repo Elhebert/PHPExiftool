@@ -28,13 +28,14 @@ class WBGreenLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Green Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278599
+             * line : 193752
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBGreenLevel extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:WBGreenLevel',
             'desc' => [
+                'en' => 'WB Green Level',
             ],
         ],
     ];

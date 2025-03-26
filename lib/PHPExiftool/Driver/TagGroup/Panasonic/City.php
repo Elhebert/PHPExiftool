@@ -28,13 +28,14 @@ class City extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277415
+             * line : 192951
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class City extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:City',
             'desc' => [
+                'en' => 'City',
             ],
         ],
     ];

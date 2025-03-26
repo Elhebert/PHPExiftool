@@ -28,13 +28,14 @@ class MagnetizationTransfer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnetization Transfer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96557
+             * line : 69961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagnetizationTransfer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MagnetizationTransfer',
             'desc' => [
+                'en' => 'Magnetization Transfer',
             ],
         ],
     ];

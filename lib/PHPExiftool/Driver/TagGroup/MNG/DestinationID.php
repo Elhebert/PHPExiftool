@@ -28,13 +28,14 @@ class DestinationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Destination ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165254
+             * line : 112344
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DestinationID extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:DestinationID',
             'desc' => [
+                'en' => 'Destination ID',
             ],
         ],
     ];

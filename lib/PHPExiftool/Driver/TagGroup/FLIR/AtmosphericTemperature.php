@@ -28,13 +28,14 @@ class AtmosphericTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Atmospheric Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122195
+             * line : 85584
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AtmosphericTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:AtmosphericTemperature',
             'desc' => [
+                'en' => 'Atmospheric Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122599
+             * line : 85850
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class AtmosphericTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:AtmosphericTemperature',
             'desc' => [
+                'en' => 'Atmospheric Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Params
-             * line : 123574
+             * line : 86378
              * type : float
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class AtmosphericTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:AtmosphericTemperature',
             'desc' => [
+                'en' => 'Atmospheric Temperature',
             ],
         ],
     ];

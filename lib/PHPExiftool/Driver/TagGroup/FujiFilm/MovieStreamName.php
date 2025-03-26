@@ -28,13 +28,14 @@ class MovieStreamName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Stream Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FFMV
-             * line : 128390
+             * line : 89058
              * type : string
              * writable : false
              * count : 34
@@ -42,6 +43,7 @@ class MovieStreamName extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FFMV.FujiFilm:MovieStreamName',
             'desc' => [
+                'en' => 'Movie Stream Name',
             ],
         ],
     ];

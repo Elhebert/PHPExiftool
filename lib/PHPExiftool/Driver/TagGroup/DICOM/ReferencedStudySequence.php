@@ -28,13 +28,14 @@ class ReferencedStudySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Study Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94913
+             * line : 68395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedStudySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedStudySequence',
             'desc' => [
+                'en' => 'Referenced Study Sequence',
             ],
         ],
     ];

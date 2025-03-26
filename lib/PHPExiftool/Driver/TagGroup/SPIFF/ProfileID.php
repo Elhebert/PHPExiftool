@@ -28,13 +28,14 @@ class ProfileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153067
+             * line : 105276
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileID extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:ProfileID',
             'desc' => [
+                'en' => 'Profile ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovieToneMap extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Tone Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201673
+             * line : 136567
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieToneMap extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieToneMap',
             'desc' => [
+                'en' => 'Movie Tone Map',
             ],
         ],
     ];

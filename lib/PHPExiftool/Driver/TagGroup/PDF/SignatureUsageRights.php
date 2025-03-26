@@ -28,13 +28,14 @@ class SignatureUsageRights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature Usage Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264457
+             * line : 182800
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignatureUsageRights extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:SignatureUsageRights',
             'desc' => [
+                'en' => 'Signature Usage Rights',
             ],
         ],
     ];

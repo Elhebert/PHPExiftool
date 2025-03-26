@@ -28,13 +28,14 @@ class PanoramicStitchPhi0 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panoramic Stitch Phi 0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174206
+             * line : 119980
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramicStitchPhi0 extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:PanoramicStitchPhi0',
             'desc' => [
+                'en' => 'Panoramic Stitch Phi 0',
             ],
         ],
     ];

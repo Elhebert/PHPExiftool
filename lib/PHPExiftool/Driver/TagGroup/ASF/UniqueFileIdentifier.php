@@ -28,13 +28,14 @@ class UniqueFileIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unique File Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1650
+             * line : 805
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UniqueFileIdentifier extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:UniqueFileIdentifier',
             'desc' => [
+                'en' => 'Unique File Identifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawDataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97783
+             * line : 71164
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RawDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RawDataType',
             'desc' => [
+                'en' => 'Raw Data Type',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 100418
+             * line : 73590
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class RawDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RawDataType',
             'desc' => [
+                'en' => 'Raw Data Type',
             ],
         ],
         2 => [
             /**
              * table_name : DICOM::Main
-             * line : 100421
+             * line : 73593
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class RawDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RawDataType',
             'desc' => [
+                'en' => 'Raw Data Type',
             ],
         ],
         3 => [
             /**
              * table_name : DICOM::Main
-             * line : 100427
+             * line : 73599
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class RawDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RawDataType',
             'desc' => [
+                'en' => 'Raw Data Type',
             ],
         ],
     ];

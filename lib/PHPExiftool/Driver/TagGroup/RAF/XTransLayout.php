@@ -28,13 +28,14 @@ class XTransLayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X-Trans Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131089
+             * line : 90543
              * type : int8u
              * writable : false
              * count : 36
@@ -42,6 +43,7 @@ class XTransLayout extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:XTransLayout',
             'desc' => [
+                'en' => 'X-Trans Layout',
             ],
         ],
     ];

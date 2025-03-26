@@ -28,13 +28,14 @@ class LayerNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305338
+             * line : 212169
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerNames extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerNames',
             'desc' => [
+                'en' => 'Layer Names',
             ],
         ],
     ];

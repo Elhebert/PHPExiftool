@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PMP
-             * line : 361504
+             * line : 251782
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::PMP.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362328
+             * line : 252295
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363326
+             * line : 252957
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364349
+             * line : 253628
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366334
+             * line : 254944
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369341
+             * line : 257574
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370371
+             * line : 258239
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373372
+             * line : 260863
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376373
+             * line : 263487
              * type : int16s
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

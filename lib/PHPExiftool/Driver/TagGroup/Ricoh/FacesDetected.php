@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::FaceInfo
-             * line : 331840
+             * line : 233155
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Ricoh::FaceInfo.Ricoh:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

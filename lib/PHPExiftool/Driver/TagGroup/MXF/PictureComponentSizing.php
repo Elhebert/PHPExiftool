@@ -28,13 +28,14 @@ class PictureComponentSizing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Component Sizing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172247
+             * line : 118414
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureComponentSizing extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PictureComponentSizing',
             'desc' => [
+                'en' => 'Picture Component Sizing',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114036
+             * line : 82663
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

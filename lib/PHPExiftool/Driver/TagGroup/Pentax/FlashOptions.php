@@ -28,13 +28,14 @@ class FlashOptions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284577
+             * line : 197492
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashOptions extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:FlashOptions',
             'desc' => [
+                'en' => 'Flash Options',
             ],
         ],
     ];

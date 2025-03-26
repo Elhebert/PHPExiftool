@@ -28,13 +28,14 @@ class ImageTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299664
+             * line : 208918
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageTone extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ImageTone',
             'desc' => [
+                'en' => 'Image Tone',
             ],
         ],
     ];

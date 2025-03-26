@@ -28,13 +28,14 @@ class DeviceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95567
+             * line : 69022
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeviceUID',
             'desc' => [
+                'en' => 'Device UID',
             ],
         ],
     ];

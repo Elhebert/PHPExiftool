@@ -28,13 +28,14 @@ class DisplayHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167867
+             * line : 114422
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayHeight extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DisplayHeight',
             'desc' => [
+                'en' => 'Display Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ActualScaleMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Scale Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122650
+             * line : 85886
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualScaleMin extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ActualScaleMin',
             'desc' => [
+                'en' => 'Actual Scale Min',
             ],
         ],
     ];

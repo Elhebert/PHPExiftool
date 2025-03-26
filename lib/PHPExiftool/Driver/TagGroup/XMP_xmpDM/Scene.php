@@ -28,13 +28,14 @@ class Scene extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413348
+             * line : 291455
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Scene extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Scene',
             'desc' => [
+                'en' => 'Scene',
             ],
         ],
     ];

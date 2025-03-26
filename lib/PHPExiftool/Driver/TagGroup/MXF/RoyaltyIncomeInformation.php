@@ -28,13 +28,14 @@ class RoyaltyIncomeInformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Royalty Income Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167478
+             * line : 114093
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RoyaltyIncomeInformation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoyaltyIncomeInformation',
             'desc' => [
+                'en' => 'Royalty Income Information',
             ],
         ],
     ];

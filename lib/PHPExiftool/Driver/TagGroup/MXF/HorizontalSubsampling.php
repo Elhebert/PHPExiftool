@@ -28,13 +28,14 @@ class HorizontalSubsampling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Horizontal Subsampling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167847
+             * line : 114404
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HorizontalSubsampling extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HorizontalSubsampling',
             'desc' => [
+                'en' => 'Horizontal Subsampling',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LookCluster extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Cluster',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402869
+             * line : 286005
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookCluster extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookCluster',
             'desc' => [
+                'en' => 'Look Cluster',
             ],
         ],
     ];

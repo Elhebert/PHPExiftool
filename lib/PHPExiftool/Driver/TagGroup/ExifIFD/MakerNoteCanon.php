@@ -28,13 +28,14 @@ class MakerNoteCanon extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Canon',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104756
+             * line : 77738
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteCanon extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteCanon',
             'desc' => [
+                'en' => 'Maker Note Canon',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115717
+             * line : 83031
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteCanon extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteCanon',
             'desc' => [
+                'en' => 'Maker Note Canon',
             ],
         ],
     ];

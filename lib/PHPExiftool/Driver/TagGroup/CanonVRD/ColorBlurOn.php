@@ -28,13 +28,14 @@ class ColorBlurOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Blur On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80680
+             * line : 58815
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorBlurOn extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ColorBlurOn',
             'desc' => [
+                'en' => 'Color Blur On',
             ],
         ],
     ];

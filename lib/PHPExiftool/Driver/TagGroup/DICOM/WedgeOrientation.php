@@ -28,13 +28,14 @@ class WedgeOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wedge Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103209
+             * line : 76305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WedgeOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WedgeOrientation',
             'desc' => [
+                'en' => 'Wedge Orientation',
             ],
         ],
     ];

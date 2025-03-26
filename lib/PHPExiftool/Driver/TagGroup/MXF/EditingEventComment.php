@@ -28,13 +28,14 @@ class EditingEventComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Editing Event Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169381
+             * line : 115788
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EditingEventComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EditingEventComment',
             'desc' => [
+                'en' => 'Editing Event Comment',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169384
+             * line : 115791
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EditingEventComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EditingEventComment',
             'desc' => [
+                'en' => 'Editing Event Comment',
             ],
         ],
     ];

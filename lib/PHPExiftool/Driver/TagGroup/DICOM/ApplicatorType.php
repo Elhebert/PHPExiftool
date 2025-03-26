@@ -28,13 +28,14 @@ class ApplicatorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Applicator Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103330
+             * line : 76425
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicatorType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicatorType',
             'desc' => [
+                'en' => 'Applicator Type',
             ],
         ],
     ];

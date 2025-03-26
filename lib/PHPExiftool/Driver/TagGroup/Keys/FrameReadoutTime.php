@@ -28,13 +28,14 @@ class FrameReadoutTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Readout Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323311
+             * line : 228589
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameReadoutTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:FrameReadoutTime',
             'desc' => [
+                'en' => 'Frame Readout Time',
             ],
         ],
     ];

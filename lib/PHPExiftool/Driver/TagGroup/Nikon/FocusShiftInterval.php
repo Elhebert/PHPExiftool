@@ -28,13 +28,14 @@ class FocusShiftInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Shift Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199764
+             * line : 134768
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocusShiftInterval extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FocusShiftInterval',
             'desc' => [
+                'en' => 'Focus Shift Interval',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200398
+             * line : 135353
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FocusShiftInterval extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FocusShiftInterval',
             'desc' => [
+                'en' => 'Focus Shift Interval',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207981
+             * line : 140115
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FocusShiftInterval extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FocusShiftInterval',
             'desc' => [
+                'en' => 'Focus Shift Interval',
             ],
         ],
     ];

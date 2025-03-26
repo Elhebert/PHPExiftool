@@ -28,13 +28,14 @@ class OfflineStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offline Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176027
+             * line : 121107
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OfflineStatus extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OfflineStatus',
             'desc' => [
+                'en' => 'Offline Status',
             ],
         ],
     ];

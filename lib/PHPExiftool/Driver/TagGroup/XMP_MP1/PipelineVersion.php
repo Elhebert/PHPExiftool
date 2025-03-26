@@ -28,13 +28,14 @@ class PipelineVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pipeline Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174222
+             * line : 119992
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PipelineVersion extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:PipelineVersion',
             'desc' => [
+                'en' => 'Pipeline Version',
             ],
         ],
     ];

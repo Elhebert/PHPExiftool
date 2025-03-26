@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117924
+             * line : 83686
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

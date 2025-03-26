@@ -28,13 +28,14 @@ class AtCaptureUserCrop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'At Capture User Crop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155463
+             * line : 106676
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class AtCaptureUserCrop extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AtCaptureUserCrop',
             'desc' => [
+                'en' => 'At Capture User Crop',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFTune
-             * line : 191062
+             * line : 129848
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFFineTune extends AbstractTagGroup
              */
             'id' => 'Nikon::AFTune.Nikon:AFFineTune',
             'desc' => [
+                'en' => 'AF Fine Tune',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201855
+             * line : 136736
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFFineTune extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:AFFineTune',
             'desc' => [
+                'en' => 'AF Fine Tune',
             ],
         ],
     ];

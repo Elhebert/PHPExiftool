@@ -28,13 +28,14 @@ class HDRSmoothing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Smoothing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::HDRInfo
-             * line : 195323
+             * line : 132288
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDRSmoothing extends AbstractTagGroup
              */
             'id' => 'Nikon::HDRInfo.Nikon:HDRSmoothing',
             'desc' => [
+                'en' => 'HDR Smoothing',
             ],
         ],
     ];

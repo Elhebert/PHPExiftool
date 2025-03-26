@@ -28,13 +28,14 @@ class UnknownBlock3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Block 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255483
+             * line : 176298
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownBlock3 extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:UnknownBlock3',
             'desc' => [
+                'en' => 'Unknown Block 3',
             ],
         ],
     ];

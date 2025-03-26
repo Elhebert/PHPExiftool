@@ -28,13 +28,14 @@ class SecondaryPositionerScanArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Positioner Scan Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97246
+             * line : 70642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryPositionerScanArc extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryPositionerScanArc',
             'desc' => [
+                'en' => 'Secondary Positioner Scan Arc',
             ],
         ],
     ];

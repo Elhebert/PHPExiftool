@@ -28,13 +28,14 @@ class ChannelCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171270
+             * line : 117476
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ChannelCount',
             'desc' => [
+                'en' => 'Channel Count',
             ],
         ],
     ];

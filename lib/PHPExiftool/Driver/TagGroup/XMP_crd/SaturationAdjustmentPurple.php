@@ -28,13 +28,14 @@ class SaturationAdjustmentPurple extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Adjustment Purple',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401010
+             * line : 284471
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SaturationAdjustmentPurple extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SaturationAdjustmentPurple',
             'desc' => [
+                'en' => 'Saturation Adjustment Purple',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IonMachineVerificationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Machine Verification Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101781
+             * line : 74922
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonMachineVerificationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonMachineVerificationSequence',
             'desc' => [
+                'en' => 'Ion Machine Verification Sequence',
             ],
         ],
     ];

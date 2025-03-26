@@ -28,13 +28,14 @@ class WhiteLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118991
+             * line : 84138
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteLevel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:WhiteLevel',
             'desc' => [
+                'en' => 'White Level',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FieldOfView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139827
+             * line : 97782
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfView extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:FieldOfView',
             'desc' => [
+                'en' => 'Field Of View',
             ],
         ],
     ];

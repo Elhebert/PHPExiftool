@@ -28,13 +28,14 @@ class BlackAcquireRows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Acquire Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157302
+             * line : 108494
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackAcquireRows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackAcquireRows',
             'desc' => [
+                'en' => 'Black Acquire Rows',
             ],
         ],
     ];

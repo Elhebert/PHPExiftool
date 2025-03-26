@@ -28,13 +28,14 @@ class AudioSampleSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175868
+             * line : 121032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSampleSize extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AudioSampleSize',
             'desc' => [
+                'en' => 'Audio Sample Size',
             ],
         ],
     ];

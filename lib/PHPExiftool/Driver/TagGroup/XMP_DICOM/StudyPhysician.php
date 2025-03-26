@@ -28,13 +28,14 @@ class StudyPhysician extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Study Physician',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396484
+             * line : 280702
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StudyPhysician extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:StudyPhysician',
             'desc' => [
+                'en' => 'Study Physician',
             ],
         ],
     ];

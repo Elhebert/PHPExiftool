@@ -28,13 +28,14 @@ class FilterSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122310
+             * line : 85674
              * type : string
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class FilterSerialNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:FilterSerialNumber',
             'desc' => [
+                'en' => 'Filter Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122584
+             * line : 85838
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class FilterSerialNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:FilterSerialNumber',
             'desc' => [
+                'en' => 'Filter Serial Number',
             ],
         ],
     ];

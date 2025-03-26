@@ -28,13 +28,14 @@ class LogScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Log Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155319
+             * line : 106535
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LogScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LogScale',
             'desc' => [
+                'en' => 'Log Scale',
             ],
         ],
     ];

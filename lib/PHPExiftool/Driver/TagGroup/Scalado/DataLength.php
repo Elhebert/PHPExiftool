@@ -28,13 +28,14 @@ class DataLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Scalado::Main
-             * line : 336943
+             * line : 235983
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataLength extends AbstractTagGroup
              */
             'id' => 'Scalado::Main.Scalado:DataLength',
             'desc' => [
+                'en' => 'Data Length',
             ],
         ],
     ];

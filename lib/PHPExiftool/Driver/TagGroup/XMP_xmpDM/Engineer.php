@@ -28,13 +28,14 @@ class Engineer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Engineer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413075
+             * line : 291211
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Engineer extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Engineer',
             'desc' => [
+                'en' => 'Engineer',
             ],
         ],
     ];

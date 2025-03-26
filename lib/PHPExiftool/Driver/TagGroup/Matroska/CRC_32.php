@@ -28,13 +28,14 @@ class CRC_32 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CRC-32',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173354
+             * line : 119316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CRC_32 extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CRC-32',
             'desc' => [
+                'en' => 'CRC-32',
             ],
         ],
     ];

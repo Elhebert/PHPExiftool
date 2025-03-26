@@ -28,13 +28,14 @@ class OverlayMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102199
+             * line : 75327
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayMode',
             'desc' => [
+                'en' => 'Overlay Mode',
             ],
         ],
     ];

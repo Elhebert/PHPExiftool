@@ -28,13 +28,14 @@ class BlackLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58920
+             * line : 45751
              * type : int16s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class BlackLevels extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:BlackLevels',
             'desc' => [
+                'en' => 'Black Levels',
             ],
         ],
     ];

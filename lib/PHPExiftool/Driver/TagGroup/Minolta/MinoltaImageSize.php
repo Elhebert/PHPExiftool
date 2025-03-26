@@ -28,13 +28,14 @@ class MinoltaImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minolta Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177155
+             * line : 121816
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MinoltaImageSize extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MinoltaImageSize',
             'desc' => [
+                'en' => 'Minolta Image Size',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178381
+             * line : 122318
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MinoltaImageSize extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:MinoltaImageSize',
             'desc' => [
+                'en' => 'Minolta Image Size',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179361
+             * line : 122626
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MinoltaImageSize extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:MinoltaImageSize',
             'desc' => [
+                'en' => 'Minolta Image Size',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::Main
-             * line : 183653
+             * line : 124567
              * type : int32u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MinoltaImageSize extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:MinoltaImageSize',
             'desc' => [
+                'en' => 'Minolta Image Size',
             ],
         ],
     ];

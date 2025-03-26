@@ -28,13 +28,14 @@ class RequestPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Request Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102368
+             * line : 75468
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestPriority extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestPriority',
             'desc' => [
+                'en' => 'Request Priority',
             ],
         ],
     ];

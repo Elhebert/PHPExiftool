@@ -28,13 +28,14 @@ class CameraSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397284
+             * line : 281344
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraSerialNumber extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:CameraSerialNumber',
             'desc' => [
+                'en' => 'Camera Serial Number',
             ],
         ],
     ];

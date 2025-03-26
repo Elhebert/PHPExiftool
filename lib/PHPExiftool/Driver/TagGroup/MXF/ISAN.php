@@ -28,13 +28,14 @@ class ISAN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISAN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167263
+             * line : 113895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISAN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISAN',
             'desc' => [
+                'en' => 'ISAN',
             ],
         ],
     ];

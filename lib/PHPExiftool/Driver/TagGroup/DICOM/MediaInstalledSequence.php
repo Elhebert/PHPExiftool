@@ -28,13 +28,14 @@ class MediaInstalledSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Installed Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102031
+             * line : 75168
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaInstalledSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MediaInstalledSequence',
             'desc' => [
+                'en' => 'Media Installed Sequence',
             ],
         ],
     ];

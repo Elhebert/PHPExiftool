@@ -28,13 +28,14 @@ class ImageRegionBoundaryVerticesY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Region Boundary Vertices Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409407
+             * line : 289183
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageRegionBoundaryVerticesY extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ImageRegionBoundaryVerticesY',
             'desc' => [
+                'en' => 'Image Region Boundary Vertices Y',
             ],
         ],
     ];

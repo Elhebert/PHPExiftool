@@ -28,13 +28,14 @@ class ExposureProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Camera1
-             * line : 140129
+             * line : 97941
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureProgram extends AbstractTagGroup
              */
             'id' => 'H264::Camera1.H264:ExposureProgram',
             'desc' => [
+                'en' => 'Exposure Program',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 140407
+             * line : 98028
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ExposureProgram extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:ExposureProgram',
             'desc' => [
+                'en' => 'Exposure Program',
             ],
         ],
     ];

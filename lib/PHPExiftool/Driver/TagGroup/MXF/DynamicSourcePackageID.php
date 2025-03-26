@@ -28,13 +28,14 @@ class DynamicSourcePackageID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dynamic Source Package ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172096
+             * line : 118264
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DynamicSourcePackageID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DynamicSourcePackageID',
             'desc' => [
+                'en' => 'Dynamic Source Package ID',
             ],
         ],
     ];

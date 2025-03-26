@@ -28,13 +28,14 @@ class PictureControlVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203615
+             * line : 137335
              * type : undef
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class PictureControlVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:PictureControlVersion',
             'desc' => [
+                'en' => 'Picture Control Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 203926
+             * line : 137444
              * type : undef
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class PictureControlVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:PictureControlVersion',
             'desc' => [
+                'en' => 'Picture Control Version',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204249
+             * line : 137556
              * type : undef
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class PictureControlVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:PictureControlVersion',
             'desc' => [
+                'en' => 'Picture Control Version',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::PictureControlUnknown
-             * line : 204575
+             * line : 137671
              * type : undef
              * writable : true
              * count : 4
@@ -81,6 +85,7 @@ class PictureControlVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControlUnknown.Nikon:PictureControlVersion',
             'desc' => [
+                'en' => 'Picture Control Version',
             ],
         ],
     ];

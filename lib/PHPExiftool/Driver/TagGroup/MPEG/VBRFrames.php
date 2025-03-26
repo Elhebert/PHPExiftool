@@ -28,13 +28,14 @@ class VBRFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBR Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Xing
-             * line : 166125
+             * line : 112955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBRFrames extends AbstractTagGroup
              */
             'id' => 'MPEG::Xing.MPEG:VBRFrames',
             'desc' => [
+                'en' => 'VBR Frames',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SceneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278118
+             * line : 193476
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
     ];

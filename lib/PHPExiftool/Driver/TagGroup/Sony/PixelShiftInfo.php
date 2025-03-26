@@ -28,13 +28,14 @@ class PixelShiftInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Shift Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355887
+             * line : 248276
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelShiftInfo extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:PixelShiftInfo',
             'desc' => [
+                'en' => 'Pixel Shift Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AirFilterCalibrationTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Air Filter Calibration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100627
+             * line : 73797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AirFilterCalibrationTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AirFilterCalibrationTime',
             'desc' => [
+                'en' => 'Air Filter Calibration Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Comments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127179
+             * line : 88291
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comments extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:Comments',
             'desc' => [
+                'en' => 'Comments',
             ],
         ],
     ];

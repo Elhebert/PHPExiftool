@@ -28,13 +28,14 @@ class ToneCurveInputRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Input Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::ToneCurve
-             * line : 82141
+             * line : 60199
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ToneCurveInputRange extends AbstractTagGroup
              */
             'id' => 'CanonVRD::ToneCurve.CanonVRD:ToneCurveInputRange',
             'desc' => [
+                'en' => 'Tone Curve Input Range',
             ],
         ],
     ];

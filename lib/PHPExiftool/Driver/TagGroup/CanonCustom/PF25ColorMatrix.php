@@ -28,13 +28,14 @@ class PF25ColorMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF25 Color Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78340
+             * line : 57044
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF25ColorMatrix extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25ColorMatrix',
             'desc' => [
+                'en' => 'PF25 Color Matrix',
             ],
         ],
     ];

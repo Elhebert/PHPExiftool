@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177356
+             * line : 121905
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185679
+             * line : 125946
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

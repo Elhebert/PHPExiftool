@@ -28,13 +28,14 @@ class ExifInfo2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exif Info 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305588
+             * line : 212340
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExifInfo2 extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ExifInfo2',
             'desc' => [
+                'en' => 'Exif Info 2',
             ],
         ],
     ];

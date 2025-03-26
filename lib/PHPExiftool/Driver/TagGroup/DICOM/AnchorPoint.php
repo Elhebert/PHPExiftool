@@ -28,13 +28,14 @@ class AnchorPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anchor Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101265
+             * line : 74415
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnchorPoint extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnchorPoint',
             'desc' => [
+                'en' => 'Anchor Point',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MiniatureFilterOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Miniature Filter Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 63985
+             * line : 48604
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MiniatureFilterOrientation extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:MiniatureFilterOrientation',
             'desc' => [
+                'en' => 'Miniature Filter Orientation',
             ],
         ],
     ];

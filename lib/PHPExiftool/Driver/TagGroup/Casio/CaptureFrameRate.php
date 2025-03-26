@@ -28,13 +28,14 @@ class CaptureFrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Capture Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89995
+             * line : 65033
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptureFrameRate extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:CaptureFrameRate',
             'desc' => [
+                'en' => 'Capture Frame Rate',
             ],
         ],
     ];

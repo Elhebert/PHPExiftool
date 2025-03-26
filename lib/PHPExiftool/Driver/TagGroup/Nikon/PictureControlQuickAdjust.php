@@ -28,13 +28,14 @@ class PictureControlQuickAdjust extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Quick Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203673
+             * line : 137358
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PictureControlQuickAdjust extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:PictureControlQuickAdjust',
             'desc' => [
+                'en' => 'Picture Control Quick Adjust',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 203984
+             * line : 137467
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PictureControlQuickAdjust extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:PictureControlQuickAdjust',
             'desc' => [
+                'en' => 'Picture Control Quick Adjust',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204307
+             * line : 137579
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class PictureControlQuickAdjust extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:PictureControlQuickAdjust',
             'desc' => [
+                'en' => 'Picture Control Quick Adjust',
             ],
         ],
     ];

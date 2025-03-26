@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100715
+             * line : 73884
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

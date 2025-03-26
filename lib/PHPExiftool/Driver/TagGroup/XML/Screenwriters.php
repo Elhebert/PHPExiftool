@@ -28,13 +28,14 @@ class Screenwriters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screenwriters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265203
+             * line : 183330
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Screenwriters extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:Screenwriters',
             'desc' => [
+                'en' => 'Screenwriters',
             ],
         ],
     ];

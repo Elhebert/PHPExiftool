@@ -28,13 +28,14 @@ class DetectorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96406
+             * line : 69814
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorID',
             'desc' => [
+                'en' => 'Detector ID',
             ],
         ],
     ];

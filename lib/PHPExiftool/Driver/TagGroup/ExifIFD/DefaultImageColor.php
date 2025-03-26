@@ -28,13 +28,14 @@ class DefaultImageColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Image Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112239
+             * line : 81958
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultImageColor extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:DefaultImageColor',
             'desc' => [
+                'en' => 'Default Image Color',
             ],
         ],
     ];

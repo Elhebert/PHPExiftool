@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Main
-             * line : 339583
+             * line : 237583
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Main.SigmaRaw:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Main
-             * line : 339602
+             * line : 237589
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Main.SigmaRaw:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

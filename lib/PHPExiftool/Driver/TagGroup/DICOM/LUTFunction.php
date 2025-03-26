@@ -28,13 +28,14 @@ class LUTFunction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LUT Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99225
+             * line : 72444
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LUTFunction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LUTFunction',
             'desc' => [
+                'en' => 'LUT Function',
             ],
         ],
     ];

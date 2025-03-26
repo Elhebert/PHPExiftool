@@ -28,13 +28,14 @@ class HeaderByteCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Header Byte Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170832
+             * line : 117063
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeaderByteCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HeaderByteCount',
             'desc' => [
+                'en' => 'Header Byte Count',
             ],
         ],
     ];

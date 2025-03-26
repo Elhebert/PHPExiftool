@@ -28,13 +28,14 @@ class WhiteBalanceFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346822
+             * line : 243045
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348431
+             * line : 243781
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 353641
+             * line : 246727
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class WhiteBalanceFineTune extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:WhiteBalanceFineTune',
             'desc' => [
+                'en' => 'White Balance Fine Tune',
             ],
         ],
     ];

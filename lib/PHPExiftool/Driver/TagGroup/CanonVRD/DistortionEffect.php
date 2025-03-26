@@ -28,13 +28,14 @@ class DistortionEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80712
+             * line : 58838
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionEffect extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:DistortionEffect',
             'desc' => [
+                'en' => 'Distortion Effect',
             ],
         ],
     ];

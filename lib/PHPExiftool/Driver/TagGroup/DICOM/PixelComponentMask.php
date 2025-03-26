@@ -28,13 +28,14 @@ class PixelComponentMask extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Component Mask',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96352
+             * line : 69760
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelComponentMask extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelComponentMask',
             'desc' => [
+                'en' => 'Pixel Component Mask',
             ],
         ],
     ];

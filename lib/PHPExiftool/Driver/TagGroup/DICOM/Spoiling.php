@@ -28,13 +28,14 @@ class Spoiling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spoiling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96545
+             * line : 69949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Spoiling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Spoiling',
             'desc' => [
+                'en' => 'Spoiling',
             ],
         ],
     ];

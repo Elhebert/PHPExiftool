@@ -28,13 +28,14 @@ class DeltaEntryArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delta Entry Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171408
+             * line : 117610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeltaEntryArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeltaEntryArray',
             'desc' => [
+                'en' => 'Delta Entry Array',
             ],
         ],
     ];

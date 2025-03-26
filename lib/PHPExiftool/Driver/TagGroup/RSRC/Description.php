@@ -28,13 +28,14 @@ class Description extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RSRC::Main
-             * line : 329109
+             * line : 231995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Description extends AbstractTagGroup
              */
             'id' => 'RSRC::Main.RSRC:Description',
             'desc' => [
+                'en' => 'Description',
             ],
         ],
     ];

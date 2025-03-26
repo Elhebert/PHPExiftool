@@ -28,13 +28,14 @@ class BeamDosePointDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Dose Point Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103107
+             * line : 76203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamDosePointDepth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamDosePointDepth',
             'desc' => [
+                'en' => 'Beam Dose Point Depth',
             ],
         ],
     ];

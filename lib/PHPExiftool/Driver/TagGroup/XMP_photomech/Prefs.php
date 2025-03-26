@@ -28,13 +28,14 @@ class Prefs extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Prefs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304944
+             * line : 211955
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Prefs extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:Prefs',
             'desc' => [
+                'en' => 'Prefs',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISODisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217386
+             * line : 146050
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219810
+             * line : 148082
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222113
+             * line : 149937
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222748
+             * line : 150289
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223339
+             * line : 150625
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226520
+             * line : 152579
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229707
+             * line : 154415
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231695
+             * line : 155882
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234164
+             * line : 157872
              * type : int8u
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class ISODisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:ISODisplay',
             'desc' => [
+                'en' => 'ISO Display',
             ],
         ],
     ];

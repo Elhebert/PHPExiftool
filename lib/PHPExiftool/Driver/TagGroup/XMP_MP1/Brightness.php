@@ -28,13 +28,14 @@ class Brightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174100
+             * line : 119931
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawExposureBias extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Exposure Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131129
+             * line : 90579
              * type : rational32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawExposureBias extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:RawExposureBias',
             'desc' => [
+                'en' => 'Raw Exposure Bias',
             ],
         ],
     ];

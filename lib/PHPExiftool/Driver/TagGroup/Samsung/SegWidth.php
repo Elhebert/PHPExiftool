@@ -28,13 +28,14 @@ class SegWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seg Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334226
+             * line : 234306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegWidth extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:SegWidth',
             'desc' => [
+                'en' => 'Seg Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExternalMetadataLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Metadata Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409309
+             * line : 289104
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalMetadataLink extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ExternalMetadataLink',
             'desc' => [
+                'en' => 'External Metadata Link',
             ],
         ],
     ];

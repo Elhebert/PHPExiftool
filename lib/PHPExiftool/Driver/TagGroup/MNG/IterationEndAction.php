@@ -28,13 +28,14 @@ class IterationEndAction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Iteration End Action',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::TerminationAction
-             * line : 165412
+             * line : 112481
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IterationEndAction extends AbstractTagGroup
              */
             'id' => 'MNG::TerminationAction.MNG:IterationEndAction',
             'desc' => [
+                'en' => 'Iteration End Action',
             ],
         ],
     ];

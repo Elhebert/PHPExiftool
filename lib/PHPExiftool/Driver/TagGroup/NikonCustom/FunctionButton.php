@@ -28,13 +28,14 @@ class FunctionButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Function Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223517
+             * line : 150727
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FunctionButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:FunctionButton',
             'desc' => [
+                'en' => 'Function Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228343
+             * line : 153716
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FunctionButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:FunctionButton',
             'desc' => [
+                'en' => 'Function Button',
             ],
         ],
     ];

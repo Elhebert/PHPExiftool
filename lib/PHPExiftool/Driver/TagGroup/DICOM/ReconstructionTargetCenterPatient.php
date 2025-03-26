@@ -28,13 +28,14 @@ class ReconstructionTargetCenterPatient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Target Center Patient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96992
+             * line : 70393
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionTargetCenterPatient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconstructionTargetCenterPatient',
             'desc' => [
+                'en' => 'Reconstruction Target Center Patient',
             ],
         ],
     ];

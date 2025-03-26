@@ -28,13 +28,14 @@ class RawDataHandling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Handling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100017
+             * line : 73218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataHandling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RawDataHandling',
             'desc' => [
+                'en' => 'Raw Data Handling',
             ],
         ],
     ];

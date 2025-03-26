@@ -28,13 +28,14 @@ class BlockMountingPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Mounting Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103303
+             * line : 76398
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockMountingPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockMountingPosition',
             'desc' => [
+                'en' => 'Block Mounting Position',
             ],
         ],
     ];

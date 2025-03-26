@@ -28,13 +28,14 @@ class AvgBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Properties
-             * line : 330506
+             * line : 232562
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgBitrate extends AbstractTagGroup
              */
             'id' => 'Real::Properties.Real-PROP:AvgBitrate',
             'desc' => [
+                'en' => 'Avg Bitrate',
             ],
         ],
     ];

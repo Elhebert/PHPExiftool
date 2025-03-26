@@ -28,13 +28,14 @@ class EmbeddedEncodedRightsExprType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Embedded Encoded Rights Expr Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409272
+             * line : 289071
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EmbeddedEncodedRightsExprType extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:EmbeddedEncodedRightsExprType',
             'desc' => [
+                'en' => 'Embedded Encoded Rights Expr Type',
             ],
         ],
     ];

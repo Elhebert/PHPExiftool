@@ -28,13 +28,14 @@ class BleachBypassToning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bleach Bypass Toning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300443
+             * line : 209439
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BleachBypassToning extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:BleachBypassToning',
             'desc' => [
+                'en' => 'Bleach Bypass Toning',
             ],
         ],
     ];

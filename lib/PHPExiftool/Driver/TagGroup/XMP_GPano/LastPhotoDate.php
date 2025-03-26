@@ -28,13 +28,14 @@ class LastPhotoDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Last Photo Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397158
+             * line : 281252
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LastPhotoDate extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:LastPhotoDate',
             'desc' => [
+                'en' => 'Last Photo Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OriginalDecisionDataOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Decision Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65864
+             * line : 50044
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalDecisionDataOffset extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:OriginalDecisionDataOffset',
             'desc' => [
+                'en' => 'Original Decision Data Offset',
             ],
         ],
     ];

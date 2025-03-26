@@ -28,13 +28,14 @@ class BuyNow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Buy Now',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174492
+             * line : 120161
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BuyNow extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BuyNow',
             'desc' => [
+                'en' => 'Buy Now',
             ],
         ],
     ];

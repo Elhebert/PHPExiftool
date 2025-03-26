@@ -28,13 +28,14 @@ class FSType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'FS Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128130
+             * line : 88904
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FSType extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:FSType',
             'desc' => [
+                'en' => 'FS Type',
             ],
         ],
     ];

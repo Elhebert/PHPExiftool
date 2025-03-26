@@ -28,13 +28,14 @@ class LCHEditor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LCH Editor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210415
+             * line : 141672
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LCHEditor extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:LCHEditor',
             'desc' => [
+                'en' => 'LCH Editor',
             ],
         ],
     ];

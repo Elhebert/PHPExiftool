@@ -28,13 +28,14 @@ class AllDayEvent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'All Day Event',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395570
+             * line : 280104
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AllDayEvent extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:AllDayEvent',
             'desc' => [
+                'en' => 'All Day Event',
             ],
         ],
     ];

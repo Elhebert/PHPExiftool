@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkII
-             * line : 13398
+             * line : 9704
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkII.Canon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIIN
-             * line : 17752
+             * line : 13091
              * type : int8s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIIN.Canon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56582
+             * line : 43893
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorInfo
-             * line : 63079
+             * line : 48078
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Canon::ColorInfo.Canon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64451
+             * line : 48835
              * type : int32s
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

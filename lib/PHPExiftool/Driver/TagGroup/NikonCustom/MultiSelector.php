@@ -28,13 +28,14 @@ class MultiSelector extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212647
+             * line : 142810
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215070
+             * line : 144318
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217703
+             * line : 146224
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220171
+             * line : 148273
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225731
+             * line : 152079
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230160
+             * line : 154654
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232052
+             * line : 156073
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
     ];

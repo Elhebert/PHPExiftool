@@ -28,13 +28,14 @@ class BlackLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258007
+             * line : 178372
              * type : int32u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258699
+             * line : 178624
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
     ];

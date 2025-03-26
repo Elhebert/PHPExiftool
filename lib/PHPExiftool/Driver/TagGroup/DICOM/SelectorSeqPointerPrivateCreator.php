@@ -28,13 +28,14 @@ class SelectorSeqPointerPrivateCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector Seq Pointer Private Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101494
+             * line : 74640
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorSeqPointerPrivateCreator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorSeqPointerPrivateCreator',
             'desc' => [
+                'en' => 'Selector Seq Pointer Private Creator',
             ],
         ],
     ];

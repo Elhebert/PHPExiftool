@@ -28,13 +28,14 @@ class ProjLinearUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Linear Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138615
+             * line : 96864
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjLinearUnits extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjLinearUnits',
             'desc' => [
+                'en' => 'Proj Linear Units',
             ],
         ],
     ];

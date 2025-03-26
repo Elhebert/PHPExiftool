@@ -28,13 +28,14 @@ class TimeCodes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Codes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120504
+             * line : 84664
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeCodes extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:TimeCodes',
             'desc' => [
+                'en' => 'Time Codes',
             ],
         ],
     ];

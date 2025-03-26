@@ -28,13 +28,14 @@ class ExifVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exif Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Exif
-             * line : 327937
+             * line : 231418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExifVersion extends AbstractTagGroup
              */
             'id' => 'RIFF::Exif.RIFF:ExifVersion',
             'desc' => [
+                'en' => 'Exif Version',
             ],
         ],
     ];

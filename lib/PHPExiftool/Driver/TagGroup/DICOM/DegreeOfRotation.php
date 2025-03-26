@@ -28,13 +28,14 @@ class DegreeOfRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Degree Of Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100454
+             * line : 73626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DegreeOfRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DegreeOfRotation',
             'desc' => [
+                'en' => 'Degree Of Rotation',
             ],
         ],
     ];

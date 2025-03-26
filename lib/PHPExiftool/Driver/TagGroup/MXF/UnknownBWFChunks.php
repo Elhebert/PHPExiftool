@@ -28,13 +28,14 @@ class UnknownBWFChunks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown BWF Chunks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171980
+             * line : 118165
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnknownBWFChunks extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UnknownBWFChunks',
             'desc' => [
+                'en' => 'Unknown BWF Chunks',
             ],
         ],
     ];

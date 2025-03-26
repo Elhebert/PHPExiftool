@@ -28,13 +28,14 @@ class ShiftCols extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shift Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156092
+             * line : 107303
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShiftCols extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ShiftCols',
             'desc' => [
+                'en' => 'Shift Cols',
             ],
         ],
     ];

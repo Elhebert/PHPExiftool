@@ -28,13 +28,14 @@ class FrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173363
+             * line : 119325
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameNumber extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:FrameNumber',
             'desc' => [
+                'en' => 'Frame Number',
             ],
         ],
     ];

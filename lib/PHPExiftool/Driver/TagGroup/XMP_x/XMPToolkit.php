@@ -28,13 +28,14 @@ class XMPToolkit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'XMP Toolkit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::x
-             * line : 412547
+             * line : 290893
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XMPToolkit extends AbstractTagGroup
              */
             'id' => 'XMP::x.XMP-x:XMPToolkit',
             'desc' => [
+                'en' => 'XMP Toolkit',
             ],
         ],
     ];

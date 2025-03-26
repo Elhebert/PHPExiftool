@@ -28,13 +28,14 @@ class MagMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mag Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Mag360Fly
-             * line : 323725
+             * line : 228797
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::Mag360Fly.QuickTime:MagMode',
             'desc' => [
+                'en' => 'Mag Mode',
             ],
         ],
     ];

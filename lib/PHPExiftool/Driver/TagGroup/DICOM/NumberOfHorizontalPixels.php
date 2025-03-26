@@ -28,13 +28,14 @@ class NumberOfHorizontalPixels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Horizontal Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101560
+             * line : 74706
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfHorizontalPixels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfHorizontalPixels',
             'desc' => [
+                'en' => 'Number Of Horizontal Pixels',
             ],
         ],
     ];

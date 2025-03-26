@@ -28,13 +28,14 @@ class ImageDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122442
+             * line : 85759
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageDataOffset extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ImageDataOffset',
             'desc' => [
+                'en' => 'Image Data Offset',
             ],
         ],
     ];

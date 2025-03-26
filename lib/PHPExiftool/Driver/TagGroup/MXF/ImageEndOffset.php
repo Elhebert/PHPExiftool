@@ -28,13 +28,14 @@ class ImageEndOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image End Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169212
+             * line : 115654
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageEndOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ImageEndOffset',
             'desc' => [
+                'en' => 'Image End Offset',
             ],
         ],
     ];

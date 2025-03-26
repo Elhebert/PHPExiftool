@@ -28,13 +28,14 @@ class WindMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Wind Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154751
+             * line : 106122
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WindMode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WindMode',
             'desc' => [
+                'en' => 'Wind Mode',
             ],
         ],
     ];

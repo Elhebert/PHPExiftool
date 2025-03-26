@@ -28,13 +28,14 @@ class AddressLine extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Address Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171822
+             * line : 118009
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AddressLine extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AddressLine',
             'desc' => [
+                'en' => 'Address Line',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171826
+             * line : 118012
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AddressLine extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AddressLine',
             'desc' => [
+                'en' => 'Address Line',
             ],
         ],
     ];

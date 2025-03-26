@@ -28,13 +28,14 @@ class ColorTempFluorescentD extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Fluorescent D',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299798
+             * line : 208974
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ColorTempFluorescentD extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTempFluorescentD',
             'desc' => [
+                'en' => 'Color Temp Fluorescent D',
             ],
         ],
     ];

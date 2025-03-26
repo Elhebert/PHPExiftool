@@ -28,13 +28,14 @@ class SchedProcessingApplicationsCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sched Processing Applications Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99932
+             * line : 73134
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SchedProcessingApplicationsCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SchedProcessingApplicationsCodeSeq',
             'desc' => [
+                'en' => 'Sched Processing Applications Code Seq',
             ],
         ],
     ];

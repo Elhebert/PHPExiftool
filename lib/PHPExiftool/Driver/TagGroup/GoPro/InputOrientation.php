@@ -28,13 +28,14 @@ class InputOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139636
+             * line : 97690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputOrientation extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:InputOrientation',
             'desc' => [
+                'en' => 'Input Orientation',
             ],
         ],
     ];

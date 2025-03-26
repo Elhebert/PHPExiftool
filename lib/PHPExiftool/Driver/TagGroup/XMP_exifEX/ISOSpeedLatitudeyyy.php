@@ -28,13 +28,14 @@ class ISOSpeedLatitudeyyy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Speed Latitude yyy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408625
+             * line : 288633
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSpeedLatitudeyyy extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:ISOSpeedLatitudeyyy',
             'desc' => [
+                'en' => 'ISO Speed Latitude yyy',
             ],
         ],
     ];

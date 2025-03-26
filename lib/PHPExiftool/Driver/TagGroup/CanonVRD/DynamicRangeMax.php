@@ -28,13 +28,14 @@ class DynamicRangeMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82376
+             * line : 60340
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeMax extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:DynamicRangeMax',
             'desc' => [
+                'en' => 'Dynamic Range Max',
             ],
         ],
     ];

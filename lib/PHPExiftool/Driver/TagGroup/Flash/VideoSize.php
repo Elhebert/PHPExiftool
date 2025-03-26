@@ -28,13 +28,14 @@ class VideoSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124203
+             * line : 86798
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoSize extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:VideoSize',
             'desc' => [
+                'en' => 'Video Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IncludeDisplayApplication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Include Display Application',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102347
+             * line : 75447
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncludeDisplayApplication extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IncludeDisplayApplication',
             'desc' => [
+                'en' => 'Include Display Application',
             ],
         ],
     ];

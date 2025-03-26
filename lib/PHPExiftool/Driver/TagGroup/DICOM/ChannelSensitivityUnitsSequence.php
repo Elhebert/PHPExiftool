@@ -28,13 +28,14 @@ class ChannelSensitivityUnitsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Sensitivity Units Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99506
+             * line : 72717
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelSensitivityUnitsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelSensitivityUnitsSequence',
             'desc' => [
+                'en' => 'Channel Sensitivity Units Sequence',
             ],
         ],
     ];

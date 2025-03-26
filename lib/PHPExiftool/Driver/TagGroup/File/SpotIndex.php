@@ -28,13 +28,14 @@ class SpotIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spot Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166527
+             * line : 113267
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpotIndex extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:SpotIndex',
             'desc' => [
+                'en' => 'Spot Index',
             ],
         ],
     ];

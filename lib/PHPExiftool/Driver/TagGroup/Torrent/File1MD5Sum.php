@@ -28,13 +28,14 @@ class File1MD5Sum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File 1 MD5 Sum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Files
-             * line : 394953
+             * line : 279772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class File1MD5Sum extends AbstractTagGroup
              */
             'id' => 'Torrent::Files.Torrent:File1MD5Sum',
             'desc' => [
+                'en' => 'File 1 MD5 Sum',
             ],
         ],
     ];

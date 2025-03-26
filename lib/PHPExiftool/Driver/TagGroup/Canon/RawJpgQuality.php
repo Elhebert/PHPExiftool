@@ -28,13 +28,14 @@ class RawJpgQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Jpg Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63460
+             * line : 48248
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawJpgQuality extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:RawJpgQuality',
             'desc' => [
+                'en' => 'Raw Jpg Quality',
             ],
         ],
     ];

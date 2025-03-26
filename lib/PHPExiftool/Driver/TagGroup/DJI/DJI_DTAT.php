@@ -28,13 +28,14 @@ class DJI_DTAT extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DJI DTAT',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152623
+             * line : 105044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DJI_DTAT extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.DJI:DJI_DTAT',
             'desc' => [
+                'en' => 'DJI DTAT',
             ],
         ],
     ];

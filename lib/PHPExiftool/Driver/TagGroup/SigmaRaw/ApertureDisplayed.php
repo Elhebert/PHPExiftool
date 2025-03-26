@@ -28,13 +28,14 @@ class ApertureDisplayed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture Displayed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339724
+             * line : 237622
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApertureDisplayed extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:ApertureDisplayed',
             'desc' => [
+                'en' => 'Aperture Displayed',
             ],
         ],
     ];

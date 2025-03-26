@@ -28,13 +28,14 @@ class SourceURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149064
+             * line : 103421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:SourceURL',
             'desc' => [
+                'en' => 'Source URL',
             ],
         ],
     ];

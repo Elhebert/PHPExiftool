@@ -28,13 +28,14 @@ class ColorantBlue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Colorant Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414412
+             * line : 292397
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorantBlue extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:ColorantBlue',
             'desc' => [
+                'en' => 'Colorant Blue',
             ],
         ],
     ];

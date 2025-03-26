@@ -28,13 +28,14 @@ class WBAdjColorTemp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Color Temp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80384
+             * line : 58641
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WBAdjColorTemp extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:WBAdjColorTemp',
             'desc' => [
+                'en' => 'WB Adj Color Temp',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82268
+             * line : 60268
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WBAdjColorTemp extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:WBAdjColorTemp',
             'desc' => [
+                'en' => 'WB Adj Color Temp',
             ],
         ],
     ];

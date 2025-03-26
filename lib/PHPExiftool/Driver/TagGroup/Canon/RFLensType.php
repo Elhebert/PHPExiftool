@@ -28,13 +28,14 @@ class RFLensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'RF Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63845
+             * line : 48464
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RFLensType extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:RFLensType',
             'desc' => [
+                'en' => 'RF Lens Type',
             ],
         ],
     ];

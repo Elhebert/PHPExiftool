@@ -28,13 +28,14 @@ class QuickShot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quick Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336466
+             * line : 235792
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QuickShot extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:QuickShot',
             'desc' => [
+                'en' => 'Quick Shot',
             ],
         ],
     ];

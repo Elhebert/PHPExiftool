@@ -28,13 +28,14 @@ class GPSVerticalAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Vertical Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326534
+             * line : 230302
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSVerticalAccuracy extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSVerticalAccuracy',
             'desc' => [
+                'en' => 'GPS Vertical Accuracy',
             ],
         ],
     ];

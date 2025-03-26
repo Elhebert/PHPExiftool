@@ -28,13 +28,14 @@ class CameraOwner extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158379
+             * line : 108898
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraOwner extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:CameraOwner',
             'desc' => [
+                'en' => 'Camera Owner',
             ],
         ],
     ];

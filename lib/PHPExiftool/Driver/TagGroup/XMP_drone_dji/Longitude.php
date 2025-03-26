@@ -28,13 +28,14 @@ class Longitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104713
+             * line : 77707
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Longitude extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:Longitude',
             'desc' => [
+                'en' => 'Longitude',
             ],
         ],
     ];

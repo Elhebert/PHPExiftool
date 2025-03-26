@@ -28,13 +28,14 @@ class AndroidVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Android Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323321
+             * line : 228598
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AndroidVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:AndroidVersion',
             'desc' => [
+                'en' => 'Android Version',
             ],
         ],
     ];

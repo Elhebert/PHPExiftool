@@ -28,13 +28,14 @@ class ManagedFromAlternatePaths extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From Alternate Paths',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413993
+             * line : 292018
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromAlternatePaths extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromAlternatePaths',
             'desc' => [
+                'en' => 'Managed From Alternate Paths',
             ],
         ],
     ];

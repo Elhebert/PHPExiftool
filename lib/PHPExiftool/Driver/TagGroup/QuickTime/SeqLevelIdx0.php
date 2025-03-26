@@ -28,13 +28,14 @@ class SeqLevelIdx0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seq Level Idx 0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310298
+             * line : 216210
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeqLevelIdx0 extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:SeqLevelIdx0',
             'desc' => [
+                'en' => 'Seq Level Idx 0',
             ],
         ],
     ];

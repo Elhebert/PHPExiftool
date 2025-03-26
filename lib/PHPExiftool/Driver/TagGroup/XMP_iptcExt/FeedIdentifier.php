@@ -28,13 +28,14 @@ class FeedIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Feed Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409312
+             * line : 289107
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FeedIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:FeedIdentifier',
             'desc' => [
+                'en' => 'Feed Identifier',
             ],
         ],
     ];

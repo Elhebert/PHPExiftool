@@ -28,13 +28,14 @@ class ChapterSegmentUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Segment UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173869
+             * line : 119767
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterSegmentUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterSegmentUID',
             'desc' => [
+                'en' => 'Chapter Segment UID',
             ],
         ],
     ];

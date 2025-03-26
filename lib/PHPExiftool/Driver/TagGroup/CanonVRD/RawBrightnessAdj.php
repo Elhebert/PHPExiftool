@@ -28,13 +28,14 @@ class RawBrightnessAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Brightness Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80296
+             * line : 58603
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawBrightnessAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:RawBrightnessAdj',
             'desc' => [
+                'en' => 'Raw Brightness Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82334
+             * line : 60308
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawBrightnessAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RawBrightnessAdj',
             'desc' => [
+                'en' => 'Raw Brightness Adj',
             ],
         ],
     ];

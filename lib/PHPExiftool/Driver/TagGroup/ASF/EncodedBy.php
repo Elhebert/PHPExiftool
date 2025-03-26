@@ -28,13 +28,14 @@ class EncodedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoded By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1253
+             * line : 547
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodedBy extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:EncodedBy',
             'desc' => [
+                'en' => 'Encoded By',
             ],
         ],
     ];

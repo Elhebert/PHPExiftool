@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PreviewIFD
-             * line : 205010
+             * line : 137877
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'Nikon::PreviewIFD.PreviewIFD:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

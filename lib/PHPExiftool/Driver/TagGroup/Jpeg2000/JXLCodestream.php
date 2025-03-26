@@ -28,13 +28,14 @@ class JXLCodestream extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JXL Codestream',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154250
+             * line : 105909
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JXLCodestream extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:JXLCodestream',
             'desc' => [
+                'en' => 'JXL Codestream',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EventLogProcess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Log Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154949
+             * line : 106229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventLogProcess extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EventLogProcess',
             'desc' => [
+                'en' => 'Event Log Process',
             ],
         ],
     ];

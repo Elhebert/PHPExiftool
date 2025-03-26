@@ -28,13 +28,14 @@ class FilmConsumptionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Consumption Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99753
+             * line : 72957
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmConsumptionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilmConsumptionSequence',
             'desc' => [
+                'en' => 'Film Consumption Sequence',
             ],
         ],
     ];

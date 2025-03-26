@@ -28,13 +28,14 @@ class ObjectFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::MachO
-             * line : 108618
+             * line : 80259
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectFlags extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:ObjectFlags',
             'desc' => [
+                'en' => 'Object Flags',
             ],
         ],
     ];

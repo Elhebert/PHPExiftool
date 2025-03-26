@@ -28,13 +28,14 @@ class CurrentIPTCDigest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current IPTC Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121003
+             * line : 84961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentIPTCDigest extends AbstractTagGroup
              */
             'id' => 'Extra.File:CurrentIPTCDigest',
             'desc' => [
+                'en' => 'Current IPTC Digest',
             ],
         ],
     ];

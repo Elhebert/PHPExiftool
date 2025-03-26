@@ -28,13 +28,14 @@ class FocalUnits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58468
+             * line : 45516
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalUnits extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:FocalUnits',
             'desc' => [
+                'en' => 'Focal Units',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AvgOfLeftRefChansOverViews extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Of Left Ref Chans Over Views',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97551
+             * line : 70936
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgOfLeftRefChansOverViews extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AvgOfLeftRefChansOverViews',
             'desc' => [
+                'en' => 'Avg Of Left Ref Chans Over Views',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LimitReleaseModeSelMirror_Up extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit Release Mode Sel Mirror-Up',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247934
+             * line : 170622
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitReleaseModeSelMirror_Up extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitReleaseModeSelMirror-Up',
             'desc' => [
+                'en' => 'Limit Release Mode Sel Mirror-Up',
             ],
         ],
     ];

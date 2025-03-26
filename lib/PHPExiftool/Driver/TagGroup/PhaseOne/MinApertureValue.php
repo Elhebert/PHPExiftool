@@ -28,13 +28,14 @@ class MinApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303570
+             * line : 210891
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinApertureValue extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:MinApertureValue',
             'desc' => [
+                'en' => 'Min Aperture Value',
             ],
         ],
     ];

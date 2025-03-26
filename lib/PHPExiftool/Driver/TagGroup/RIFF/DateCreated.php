@@ -28,13 +28,14 @@ class DateCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328189
+             * line : 231523
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateCreated extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:DateCreated',
             'desc' => [
+                'en' => 'Date Created',
             ],
         ],
     ];

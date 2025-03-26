@@ -28,13 +28,14 @@ class IntegerSlop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Integer Slop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98243
+             * line : 71578
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IntegerSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntegerSlop',
             'desc' => [
+                'en' => 'Integer Slop',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98246
+             * line : 71581
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class IntegerSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntegerSlop',
             'desc' => [
+                'en' => 'Integer Slop',
             ],
         ],
         2 => [
             /**
              * table_name : DICOM::Main
-             * line : 98249
+             * line : 71584
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class IntegerSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntegerSlop',
             'desc' => [
+                'en' => 'Integer Slop',
             ],
         ],
         3 => [
             /**
              * table_name : DICOM::Main
-             * line : 98252
+             * line : 71587
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class IntegerSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntegerSlop',
             'desc' => [
+                'en' => 'Integer Slop',
             ],
         ],
         4 => [
             /**
              * table_name : DICOM::Main
-             * line : 98255
+             * line : 71590
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class IntegerSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntegerSlop',
             'desc' => [
+                'en' => 'Integer Slop',
             ],
         ],
     ];

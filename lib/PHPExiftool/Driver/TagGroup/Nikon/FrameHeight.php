@@ -28,13 +28,14 @@ class FrameHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202239
+             * line : 136932
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameHeight extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FrameHeight',
             'desc' => [
+                'en' => 'Frame Height',
             ],
         ],
     ];

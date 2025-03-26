@@ -28,13 +28,14 @@ class ScanModeEnumeration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Mode Enumeration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166753
+             * line : 113488
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanModeEnumeration extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ScanModeEnumeration',
             'desc' => [
+                'en' => 'Scan Mode Enumeration',
             ],
         ],
     ];

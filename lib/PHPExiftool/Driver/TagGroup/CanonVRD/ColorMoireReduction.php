@@ -28,13 +28,14 @@ class ColorMoireReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Moire Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80664
+             * line : 58803
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMoireReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ColorMoireReduction',
             'desc' => [
+                'en' => 'Color Moire Reduction',
             ],
         ],
     ];

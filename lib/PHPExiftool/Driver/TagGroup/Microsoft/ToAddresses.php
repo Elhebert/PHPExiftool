@@ -28,13 +28,14 @@ class ToAddresses extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'To Addresses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176433
+             * line : 121398
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToAddresses extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ToAddresses',
             'desc' => [
+                'en' => 'To Addresses',
             ],
         ],
     ];

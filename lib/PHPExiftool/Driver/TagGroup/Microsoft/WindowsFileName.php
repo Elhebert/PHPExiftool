@@ -28,13 +28,14 @@ class WindowsFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Windows File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175667
+             * line : 120906
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowsFileName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WindowsFileName',
             'desc' => [
+                'en' => 'Windows File Name',
             ],
         ],
     ];

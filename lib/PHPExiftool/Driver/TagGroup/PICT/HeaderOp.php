@@ -28,13 +28,14 @@ class HeaderOp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Header Op',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265074
+             * line : 183272
              * type : int16u
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class HeaderOp extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:HeaderOp',
             'desc' => [
+                'en' => 'Header Op',
             ],
         ],
     ];

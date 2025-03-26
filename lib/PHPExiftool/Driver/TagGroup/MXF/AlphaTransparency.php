@@ -28,13 +28,14 @@ class AlphaTransparency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Transparency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169275
+             * line : 115684
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaTransparency extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AlphaTransparency',
             'desc' => [
+                'en' => 'Alpha Transparency',
             ],
         ],
     ];

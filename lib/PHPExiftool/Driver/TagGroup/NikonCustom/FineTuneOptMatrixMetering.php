@@ -28,13 +28,14 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fine Tune Opt Matrix Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212502
+             * line : 142745
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214991
+             * line : 144278
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217661
+             * line : 146198
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220085
+             * line : 148230
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224094
+             * line : 151088
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224871
+             * line : 151569
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230074
+             * line : 154611
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231966
+             * line : 156030
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234408
+             * line : 158002
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235452
+             * line : 158694
              * type : int8s
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class FineTuneOptMatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FineTuneOptMatrixMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Matrix Metering',
             ],
         ],
     ];

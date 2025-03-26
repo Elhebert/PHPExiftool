@@ -28,13 +28,14 @@ class AudioCodingSchemeID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Coding Scheme ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169092
+             * line : 115535
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodingSchemeID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioCodingSchemeID',
             'desc' => [
+                'en' => 'Audio Coding Scheme ID',
             ],
         ],
     ];

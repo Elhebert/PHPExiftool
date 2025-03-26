@@ -28,13 +28,14 @@ class EventElapsedTimeToEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Elapsed Time To End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170553
+             * line : 116793
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventElapsedTimeToEnd extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventElapsedTimeToEnd',
             'desc' => [
+                'en' => 'Event Elapsed Time To End',
             ],
         ],
     ];

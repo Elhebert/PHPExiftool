@@ -28,13 +28,14 @@ class ViewportAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewport Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169022
+             * line : 115472
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewportAspectRatio extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ViewportAspectRatio',
             'desc' => [
+                'en' => 'Viewport Aspect Ratio',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NeutObjName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Neut Obj Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161933
+             * line : 110635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NeutObjName extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:NeutObjName',
             'desc' => [
+                'en' => 'Neut Obj Name',
             ],
         ],
     ];

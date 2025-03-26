@@ -28,13 +28,14 @@ class OrganizerAddress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organizer Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176071
+             * line : 121149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrganizerAddress extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OrganizerAddress',
             'desc' => [
+                'en' => 'Organizer Address',
             ],
         ],
     ];

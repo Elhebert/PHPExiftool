@@ -28,13 +28,14 @@ class TrackForced extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Forced',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173723
+             * line : 119626
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackForced extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackForced',
             'desc' => [
+                'en' => 'Track Forced',
             ],
         ],
     ];

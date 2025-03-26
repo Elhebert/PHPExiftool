@@ -28,13 +28,14 @@ class AFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo
-             * line : 187915
+             * line : 127260
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo.Nikon:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
     ];

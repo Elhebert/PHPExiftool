@@ -28,13 +28,14 @@ class EntryPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Entry Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108886
+             * line : 80499
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EntryPoint extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:EntryPoint',
             'desc' => [
+                'en' => 'Entry Point',
             ],
         ],
     ];

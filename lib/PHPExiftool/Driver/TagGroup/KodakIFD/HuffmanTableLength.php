@@ -28,13 +28,14 @@ class HuffmanTableLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Huffman Table Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155024
+             * line : 106274
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HuffmanTableLength extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HuffmanTableLength',
             'desc' => [
+                'en' => 'Huffman Table Length',
             ],
         ],
     ];

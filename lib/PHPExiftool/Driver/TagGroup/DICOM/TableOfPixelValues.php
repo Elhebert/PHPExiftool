@@ -28,13 +28,14 @@ class TableOfPixelValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Of Pixel Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96379
+             * line : 69787
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableOfPixelValues extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableOfPixelValues',
             'desc' => [
+                'en' => 'Table Of Pixel Values',
             ],
         ],
     ];

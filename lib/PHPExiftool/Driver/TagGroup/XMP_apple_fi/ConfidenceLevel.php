@@ -28,13 +28,14 @@ class ConfidenceLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Confidence Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::apple_fi
-             * line : 397896
+             * line : 281644
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConfidenceLevel extends AbstractTagGroup
              */
             'id' => 'XMP::apple_fi.XMP-apple-fi:ConfidenceLevel',
             'desc' => [
+                'en' => 'Confidence Level',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::SVG
-             * line : 397524
+             * line : 281466
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'XMP::SVG.SVG:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

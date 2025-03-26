@@ -28,13 +28,14 @@ class PhotoStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photo Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277529
+             * line : 193025
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotoStyle extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:PhotoStyle',
             'desc' => [
+                'en' => 'Photo Style',
             ],
         ],
     ];

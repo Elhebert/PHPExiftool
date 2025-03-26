@@ -28,13 +28,14 @@ class ProviderRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1530
+             * line : 745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProviderRating extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ProviderRating',
             'desc' => [
+                'en' => 'Provider Rating',
             ],
         ],
     ];

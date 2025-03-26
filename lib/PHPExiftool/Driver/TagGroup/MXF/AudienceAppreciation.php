@@ -28,13 +28,14 @@ class AudienceAppreciation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audience Appreciation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168868
+             * line : 115334
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudienceAppreciation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudienceAppreciation',
             'desc' => [
+                'en' => 'Audience Appreciation',
             ],
         ],
     ];

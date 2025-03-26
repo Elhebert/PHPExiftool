@@ -28,13 +28,14 @@ class PublishDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publish Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::Main
-             * line : 3027
+             * line : 1930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PublishDate extends AbstractTagGroup
              */
             'id' => 'Audible::Main.Audible:PublishDate',
             'desc' => [
+                'en' => 'Publish Date',
             ],
         ],
     ];

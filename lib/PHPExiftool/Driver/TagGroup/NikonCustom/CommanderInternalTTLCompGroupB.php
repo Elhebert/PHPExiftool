@@ -28,13 +28,14 @@ class CommanderInternalTTLCompGroupB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Commander Internal TTL Comp Group B',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225506
+             * line : 151975
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CommanderInternalTTLCompGroupB extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CommanderInternalTTLCompGroupB',
             'desc' => [
+                'en' => 'Commander Internal TTL Comp Group B',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227642
+             * line : 153325
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CommanderInternalTTLCompGroupB extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:CommanderInternalTTLCompGroupB',
             'desc' => [
+                'en' => 'Commander Internal TTL Comp Group B',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Indications extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Indications',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147116
+             * line : 102150
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Indications extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:Indications',
             'desc' => [
+                'en' => 'Indications',
             ],
         ],
     ];

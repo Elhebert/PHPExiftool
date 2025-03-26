@@ -28,13 +28,14 @@ class InfoURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Info URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325496
+             * line : 229724
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InfoURL extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:InfoURL',
             'desc' => [
+                'en' => 'Info URL',
             ],
         ],
     ];

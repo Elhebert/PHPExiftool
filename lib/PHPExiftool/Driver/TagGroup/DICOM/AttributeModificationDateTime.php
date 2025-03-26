@@ -28,13 +28,14 @@ class AttributeModificationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attribute Modification Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101947
+             * line : 75087
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttributeModificationDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttributeModificationDateTime',
             'desc' => [
+                'en' => 'Attribute Modification Date Time',
             ],
         ],
     ];

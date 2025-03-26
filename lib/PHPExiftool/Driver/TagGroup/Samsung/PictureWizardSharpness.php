@@ -28,13 +28,14 @@ class PictureWizardSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Wizard Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::PictureWizard
-             * line : 334147
+             * line : 234227
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureWizardSharpness extends AbstractTagGroup
              */
             'id' => 'Samsung::PictureWizard.Samsung:PictureWizardSharpness',
             'desc' => [
+                'en' => 'Picture Wizard Sharpness',
             ],
         ],
     ];

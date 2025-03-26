@@ -28,13 +28,14 @@ class History extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121694
+             * line : 85299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class History extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:History',
             'desc' => [
+                'en' => 'History',
             ],
         ],
     ];

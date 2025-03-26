@@ -28,13 +28,14 @@ class WB_GRGBLevelsFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::WBInfo
-             * line : 71262
+             * line : 53168
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsFluorescent extends AbstractTagGroup
              */
             'id' => 'Canon::WBInfo.Canon:WB_GRGBLevelsFluorescent',
             'desc' => [
+                'en' => 'WB GRGB Levels Fluorescent',
             ],
         ],
     ];

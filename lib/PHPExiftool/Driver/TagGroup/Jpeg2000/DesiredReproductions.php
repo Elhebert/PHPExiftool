@@ -28,13 +28,14 @@ class DesiredReproductions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Desired Reproductions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154199
+             * line : 105876
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DesiredReproductions extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:DesiredReproductions',
             'desc' => [
+                'en' => 'Desired Reproductions',
             ],
         ],
     ];

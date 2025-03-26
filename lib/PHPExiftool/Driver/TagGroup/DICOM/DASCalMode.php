@@ -28,13 +28,14 @@ class DASCalMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Cal Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100469
+             * line : 73641
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASCalMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASCalMode',
             'desc' => [
+                'en' => 'DAS Cal Mode',
             ],
         ],
     ];

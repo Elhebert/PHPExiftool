@@ -28,13 +28,14 @@ class Importance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Importance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176417
+             * line : 121383
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Importance extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Importance',
             'desc' => [
+                'en' => 'Importance',
             ],
         ],
     ];

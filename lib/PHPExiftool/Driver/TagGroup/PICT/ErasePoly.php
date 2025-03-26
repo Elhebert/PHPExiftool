@@ -28,13 +28,14 @@ class ErasePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264919
+             * line : 183143
              * type : Polygon
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ErasePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:ErasePoly',
             'desc' => [
+                'en' => 'Erase Poly',
             ],
         ],
     ];

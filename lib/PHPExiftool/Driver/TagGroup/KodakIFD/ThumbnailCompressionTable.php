@@ -28,13 +28,14 @@ class ThumbnailCompressionTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Compression Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155346
+             * line : 106559
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailCompressionTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ThumbnailCompressionTable',
             'desc' => [
+                'en' => 'Thumbnail Compression Table',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FreeBusyTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Free Busy Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395394
+             * line : 280008
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FreeBusyTime extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:FreeBusyTime',
             'desc' => [
+                'en' => 'Free Busy Time',
             ],
         ],
     ];

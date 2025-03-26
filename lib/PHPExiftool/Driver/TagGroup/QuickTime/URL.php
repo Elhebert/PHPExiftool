@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::DataRef
-             * line : 312609
+             * line : 218486
              * type : undef
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class URL extends AbstractTagGroup
              */
             'id' => 'QuickTime::DataRef.QuickTime:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::DataRef
-             * line : 312613
+             * line : 218489
              * type : undef
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'QuickTime::DataRef.QuickTime:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

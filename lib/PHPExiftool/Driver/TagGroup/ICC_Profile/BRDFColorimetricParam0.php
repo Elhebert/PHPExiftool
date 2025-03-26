@@ -28,13 +28,14 @@ class BRDFColorimetricParam0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BRDF Colorimetric Param 0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146173
+             * line : 101631
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BRDFColorimetricParam0 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:BRDFColorimetricParam0',
             'desc' => [
+                'en' => 'BRDF Colorimetric Param 0',
             ],
         ],
     ];

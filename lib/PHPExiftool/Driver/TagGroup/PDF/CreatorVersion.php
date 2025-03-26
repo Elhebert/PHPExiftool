@@ -28,13 +28,14 @@ class CreatorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::AIPrivate
-             * line : 264034
+             * line : 182553
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorVersion extends AbstractTagGroup
              */
             'id' => 'PDF::AIPrivate.PDF:CreatorVersion',
             'desc' => [
+                'en' => 'Creator Version',
             ],
         ],
     ];

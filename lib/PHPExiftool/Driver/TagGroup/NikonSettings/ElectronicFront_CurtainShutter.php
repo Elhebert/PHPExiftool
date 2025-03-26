@@ -28,13 +28,14 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Electronic Front-Curtain Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244154
+             * line : 167075
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ElectronicFront-CurtainShutter',
             'desc' => [
+                'en' => 'Electronic Front-Curtain Shutter',
             ],
         ],
     ];

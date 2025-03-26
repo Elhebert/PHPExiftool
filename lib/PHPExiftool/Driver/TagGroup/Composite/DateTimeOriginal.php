@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90322
+             * line : 65155
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 90678
+             * line : 65248
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

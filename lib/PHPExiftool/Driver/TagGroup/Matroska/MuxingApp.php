@@ -28,13 +28,14 @@ class MuxingApp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Muxing App',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173613
+             * line : 119539
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MuxingApp extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:MuxingApp',
             'desc' => [
+                'en' => 'Muxing App',
             ],
         ],
     ];

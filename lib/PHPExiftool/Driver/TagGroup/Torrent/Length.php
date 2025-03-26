@@ -28,13 +28,14 @@ class Length extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Info
-             * line : 394978
+             * line : 279791
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Length extends AbstractTagGroup
              */
             'id' => 'Torrent::Info.Torrent:Length',
             'desc' => [
+                'en' => 'Length',
             ],
         ],
     ];

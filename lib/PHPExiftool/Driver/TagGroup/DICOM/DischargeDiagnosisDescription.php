@@ -28,13 +28,14 @@ class DischargeDiagnosisDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Discharge Diagnosis Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99425
+             * line : 72639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DischargeDiagnosisDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DischargeDiagnosisDescription',
             'desc' => [
+                'en' => 'Discharge Diagnosis Description',
             ],
         ],
     ];

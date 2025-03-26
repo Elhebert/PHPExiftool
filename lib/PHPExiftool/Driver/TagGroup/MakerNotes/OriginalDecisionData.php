@@ -28,13 +28,14 @@ class OriginalDecisionData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Decision Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90189
+             * line : 65109
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalDecisionData extends AbstractTagGroup
              */
             'id' => 'Composite.MakerNotes:OriginalDecisionData',
             'desc' => [
+                'en' => 'Original Decision Data',
             ],
         ],
     ];

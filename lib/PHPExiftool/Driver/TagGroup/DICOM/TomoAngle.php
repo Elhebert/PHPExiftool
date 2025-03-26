@@ -28,13 +28,14 @@ class TomoAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tomo Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96021
+             * line : 69442
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TomoAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TomoAngle',
             'desc' => [
+                'en' => 'Tomo Angle',
             ],
         ],
     ];

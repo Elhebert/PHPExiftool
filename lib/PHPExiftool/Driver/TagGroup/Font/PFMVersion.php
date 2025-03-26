@@ -28,13 +28,14 @@ class PFMVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PFM Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 127963
+             * line : 88825
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PFMVersion extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:PFMVersion',
             'desc' => [
+                'en' => 'PFM Version',
             ],
         ],
     ];

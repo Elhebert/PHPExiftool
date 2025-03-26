@@ -28,13 +28,14 @@ class AutomationAnimation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Automation Animation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::Automation
-             * line : 281897
+             * line : 195788
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutomationAnimation extends AbstractTagGroup
              */
             'id' => 'Parrot::Automation.Parrot:AutomationAnimation',
             'desc' => [
+                'en' => 'Automation Animation',
             ],
         ],
     ];

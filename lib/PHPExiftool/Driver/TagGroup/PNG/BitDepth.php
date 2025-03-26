@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::ImageHeader
-             * line : 272428
+             * line : 190310
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'PNG::ImageHeader.PNG:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

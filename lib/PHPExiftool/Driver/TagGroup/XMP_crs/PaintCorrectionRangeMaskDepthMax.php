@@ -28,13 +28,14 @@ class PaintCorrectionRangeMaskDepthMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Range Mask Depth Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403754
+             * line : 286871
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionRangeMaskDepthMax extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionRangeMaskDepthMax',
             'desc' => [
+                'en' => 'Paint Correction Range Mask Depth Max',
             ],
         ],
     ];

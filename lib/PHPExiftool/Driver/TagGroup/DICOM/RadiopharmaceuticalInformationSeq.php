@@ -28,13 +28,14 @@ class RadiopharmaceuticalInformationSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiopharmaceutical Information Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100814
+             * line : 73974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiopharmaceuticalInformationSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiopharmaceuticalInformationSeq',
             'desc' => [
+                'en' => 'Radiopharmaceutical Information Seq',
             ],
         ],
     ];

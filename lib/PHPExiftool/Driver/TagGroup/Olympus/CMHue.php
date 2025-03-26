@@ -28,13 +28,14 @@ class CMHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CM Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261251
+             * line : 180323
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class CMHue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CMHue',
             'desc' => [
+                'en' => 'CM Hue',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339949
+             * line : 237702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashType extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:FlashType',
             'desc' => [
+                'en' => 'Flash Type',
             ],
         ],
     ];

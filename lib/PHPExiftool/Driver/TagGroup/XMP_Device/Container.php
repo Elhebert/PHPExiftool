@@ -28,13 +28,14 @@ class Container extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Container',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396669
+             * line : 280886
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Container extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:Container',
             'desc' => [
+                'en' => 'Container',
             ],
         ],
     ];

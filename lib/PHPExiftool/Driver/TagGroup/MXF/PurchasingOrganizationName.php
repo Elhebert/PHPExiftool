@@ -28,13 +28,14 @@ class PurchasingOrganizationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purchasing Organization Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169877
+             * line : 116217
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PurchasingOrganizationName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PurchasingOrganizationName',
             'desc' => [
+                'en' => 'Purchasing Organization Name',
             ],
         ],
     ];

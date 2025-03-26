@@ -28,13 +28,14 @@ class Characters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127726
+             * line : 88693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Characters extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:Characters',
             'desc' => [
+                'en' => 'Characters',
             ],
         ],
     ];

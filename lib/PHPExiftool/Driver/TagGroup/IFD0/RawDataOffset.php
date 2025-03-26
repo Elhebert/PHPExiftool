@@ -28,13 +28,14 @@ class RawDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280746
+             * line : 194693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataOffset extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:RawDataOffset',
             'desc' => [
+                'en' => 'Raw Data Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AverageBlackLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Average Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61317
+             * line : 47035
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class AverageBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:AverageBlackLevel',
             'desc' => [
+                'en' => 'Average Black Level',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61701
+             * line : 47266
              * type : int16u
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class AverageBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:AverageBlackLevel',
             'desc' => [
+                'en' => 'Average Black Level',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62089
+             * line : 47479
              * type : int16u
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class AverageBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:AverageBlackLevel',
             'desc' => [
+                'en' => 'Average Black Level',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62579
+             * line : 47773
              * type : int16u
              * writable : true
              * count : 4
@@ -81,6 +85,7 @@ class AverageBlackLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:AverageBlackLevel',
             'desc' => [
+                'en' => 'Average Black Level',
             ],
         ],
     ];

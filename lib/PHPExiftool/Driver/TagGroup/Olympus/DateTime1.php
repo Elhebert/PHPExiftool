@@ -28,13 +28,14 @@ class DateTime1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::AVI
-             * line : 250353
+             * line : 172819
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class DateTime1 extends AbstractTagGroup
              */
             'id' => 'Olympus::AVI.Olympus:DateTime1',
             'desc' => [
+                'en' => 'Date Time 1',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::prms
-             * line : 263245
+             * line : 182206
              * type : string
              * writable : false
              * count : 24
@@ -55,6 +57,7 @@ class DateTime1 extends AbstractTagGroup
              */
             'id' => 'Olympus::prms.Olympus:DateTime1',
             'desc' => [
+                'en' => 'Date Time 1',
             ],
         ],
     ];

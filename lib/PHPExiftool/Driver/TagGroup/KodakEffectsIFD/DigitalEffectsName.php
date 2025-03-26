@@ -28,13 +28,14 @@ class DigitalEffectsName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Effects Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::SpecialEffects
-             * line : 158576
+             * line : 109015
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalEffectsName extends AbstractTagGroup
              */
             'id' => 'Kodak::SpecialEffects.KodakEffectsIFD:DigitalEffectsName',
             'desc' => [
+                'en' => 'Digital Effects Name',
             ],
         ],
     ];

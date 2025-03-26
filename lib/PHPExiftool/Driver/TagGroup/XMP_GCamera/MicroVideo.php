@@ -28,13 +28,14 @@ class MicroVideo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Micro Video',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396877
+             * line : 281072
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MicroVideo extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:MicroVideo',
             'desc' => [
+                'en' => 'Micro Video',
             ],
         ],
     ];

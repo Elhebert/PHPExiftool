@@ -28,13 +28,14 @@ class ObjectRegionCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Region Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168407
+             * line : 114902
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectRegionCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectRegionCode',
             'desc' => [
+                'en' => 'Object Region Code',
             ],
         ],
     ];

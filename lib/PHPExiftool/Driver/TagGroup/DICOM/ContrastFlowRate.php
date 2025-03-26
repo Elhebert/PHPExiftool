@@ -28,13 +28,14 @@ class ContrastFlowRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Flow Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95654
+             * line : 69103
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastFlowRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastFlowRate',
             'desc' => [
+                'en' => 'Contrast Flow Rate',
             ],
         ],
     ];

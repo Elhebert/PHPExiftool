@@ -28,13 +28,14 @@ class UserDefinedData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Defined Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100403
+             * line : 73575
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserDefinedData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UserDefinedData',
             'desc' => [
+                'en' => 'User Defined Data',
             ],
         ],
     ];

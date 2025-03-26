@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411800
+             * line : 290700
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

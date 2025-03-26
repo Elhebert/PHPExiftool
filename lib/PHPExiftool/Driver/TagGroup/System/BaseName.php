@@ -28,13 +28,14 @@ class BaseName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Base Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 120975
+             * line : 84949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BaseName extends AbstractTagGroup
              */
             'id' => 'Extra.System:BaseName',
             'desc' => [
+                'en' => 'Base Name',
             ],
         ],
     ];

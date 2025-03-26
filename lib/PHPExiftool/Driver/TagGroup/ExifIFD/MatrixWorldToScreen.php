@@ -28,13 +28,14 @@ class MatrixWorldToScreen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matrix World To Screen',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112949
+             * line : 82269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MatrixWorldToScreen extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MatrixWorldToScreen',
             'desc' => [
+                'en' => 'Matrix World To Screen',
             ],
         ],
     ];

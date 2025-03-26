@@ -28,13 +28,14 @@ class RenamedType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Renamed Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169652
+             * line : 116043
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RenamedType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RenamedType',
             'desc' => [
+                'en' => 'Renamed Type',
             ],
         ],
     ];

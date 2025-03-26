@@ -28,13 +28,14 @@ class SourceFileIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source File Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FilterInfo
-             * line : 285925
+             * line : 198225
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SourceFileIndex extends AbstractTagGroup
              */
             'id' => 'Pentax::FilterInfo.Pentax:SourceFileIndex',
             'desc' => [
+                'en' => 'Source File Index',
             ],
         ],
     ];

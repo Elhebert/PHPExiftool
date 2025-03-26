@@ -28,13 +28,14 @@ class DuotoneImageInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duotone Image Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305441
+             * line : 212239
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DuotoneImageInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:DuotoneImageInfo',
             'desc' => [
+                'en' => 'Duotone Image Info',
             ],
         ],
     ];

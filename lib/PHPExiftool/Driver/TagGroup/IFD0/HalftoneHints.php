@@ -28,13 +28,14 @@ class HalftoneHints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Halftone Hints',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111525
+             * line : 81679
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class HalftoneHints extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:HalftoneHints',
             'desc' => [
+                'en' => 'Halftone Hints',
             ],
         ],
     ];

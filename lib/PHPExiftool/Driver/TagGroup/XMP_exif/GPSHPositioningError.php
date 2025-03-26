@@ -28,13 +28,14 @@ class GPSHPositioningError extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Horizontal Positioning Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406624
+             * line : 288171
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSHPositioningError extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSHPositioningError',
             'desc' => [
+                'en' => 'GPS Horizontal Positioning Error',
             ],
         ],
     ];

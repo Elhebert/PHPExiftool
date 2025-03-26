@@ -28,13 +28,14 @@ class ShortTitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Short Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314076
+             * line : 219728
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShortTitle extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:ShortTitle',
             'desc' => [
+                'en' => 'Short Title',
             ],
         ],
     ];

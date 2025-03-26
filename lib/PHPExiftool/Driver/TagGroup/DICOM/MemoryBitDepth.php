@@ -28,13 +28,14 @@ class MemoryBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Memory Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102025
+             * line : 75162
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MemoryBitDepth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MemoryBitDepth',
             'desc' => [
+                'en' => 'Memory Bit Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Province_State extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Province-State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150271
+             * line : 103948
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class Province_State extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Province-State',
             'desc' => [
+                'en' => 'Province-State',
             ],
         ],
     ];

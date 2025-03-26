@@ -28,13 +28,14 @@ class CenterOfRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center Of Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101178
+             * line : 74328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CenterOfRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CenterOfRotation',
             'desc' => [
+                'en' => 'Center Of Rotation',
             ],
         ],
     ];

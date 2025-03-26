@@ -28,13 +28,14 @@ class Can_Skip_Forward extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Can Skip Forward',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1106
+             * line : 451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Can_Skip_Forward extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Can_Skip_Forward',
             'desc' => [
+                'en' => 'Can Skip Forward',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PictureMIMEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Picture
-             * line : 2025
+             * line : 1049
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureMIMEType extends AbstractTagGroup
              */
             'id' => 'ASF::Picture.ASF:PictureMIMEType',
             'desc' => [
+                'en' => 'Picture MIME Type',
             ],
         ],
     ];

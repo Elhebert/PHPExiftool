@@ -28,13 +28,14 @@ class ImageColorIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Color Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113281
+             * line : 82397
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageColorIndicator extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageColorIndicator',
             'desc' => [
+                'en' => 'Image Color Indicator',
             ],
         ],
     ];

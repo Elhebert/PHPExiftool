@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254017
+             * line : 175332
              * type : int8u
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFPointBrightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212063
+             * line : 142478
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216203
+             * line : 145236
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217368
+             * line : 146036
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219792
+             * line : 148068
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229588
+             * line : 154343
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231677
+             * line : 155868
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
     ];

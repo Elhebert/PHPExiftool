@@ -28,13 +28,14 @@ class ColorGradeMidtoneSat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Midtone Sat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402049
+             * line : 285284
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeMidtoneSat extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ColorGradeMidtoneSat',
             'desc' => [
+                'en' => 'Color Grade Midtone Sat',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MPImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MP Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90755
+             * line : 65275
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPImage extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:MPImage',
             'desc' => [
+                'en' => 'MP Image',
             ],
         ],
     ];

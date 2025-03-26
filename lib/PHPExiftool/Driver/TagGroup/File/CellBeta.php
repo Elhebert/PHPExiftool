@@ -28,13 +28,14 @@ class CellBeta extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cell Beta',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166900
+             * line : 113589
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CellBeta extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:CellBeta',
             'desc' => [
+                'en' => 'Cell Beta',
             ],
         ],
     ];

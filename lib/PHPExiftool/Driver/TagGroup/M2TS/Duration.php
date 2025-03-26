@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : M2TS::Main
-             * line : 162622
+             * line : 111100
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'M2TS::Main.M2TS:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

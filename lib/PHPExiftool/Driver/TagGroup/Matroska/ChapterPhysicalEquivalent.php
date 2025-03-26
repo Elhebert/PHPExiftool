@@ -28,13 +28,14 @@ class ChapterPhysicalEquivalent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Physical Equivalent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173751
+             * line : 119652
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterPhysicalEquivalent extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterPhysicalEquivalent',
             'desc' => [
+                'en' => 'Chapter Physical Equivalent',
             ],
         ],
     ];

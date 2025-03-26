@@ -28,13 +28,14 @@ class AquaHSL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aqua HSL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80772
+             * line : 58887
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AquaHSL extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:AquaHSL',
             'desc' => [
+                'en' => 'Aqua HSL',
             ],
         ],
     ];

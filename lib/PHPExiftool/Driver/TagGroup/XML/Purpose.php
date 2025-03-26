@@ -28,13 +28,14 @@ class Purpose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purpose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249228
+             * line : 171831
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Purpose extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Purpose',
             'desc' => [
+                'en' => 'Purpose',
             ],
         ],
     ];

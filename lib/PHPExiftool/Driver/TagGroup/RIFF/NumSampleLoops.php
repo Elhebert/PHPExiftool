@@ -28,13 +28,14 @@ class NumSampleLoops extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Sample Loops',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328735
+             * line : 231821
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumSampleLoops extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:NumSampleLoops',
             'desc' => [
+                'en' => 'Num Sample Loops',
             ],
         ],
     ];

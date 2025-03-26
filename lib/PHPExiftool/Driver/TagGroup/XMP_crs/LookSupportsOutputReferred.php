@@ -28,13 +28,14 @@ class LookSupportsOutputReferred extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Supports Output Referred',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402920
+             * line : 286056
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookSupportsOutputReferred extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookSupportsOutputReferred',
             'desc' => [
+                'en' => 'Look Supports Output Referred',
             ],
         ],
     ];

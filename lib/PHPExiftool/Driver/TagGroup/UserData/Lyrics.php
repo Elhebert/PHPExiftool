@@ -28,13 +28,14 @@ class Lyrics extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lyrics',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325905
+             * line : 229925
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Lyrics extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:Lyrics',
             'desc' => [
+                'en' => 'Lyrics',
             ],
         ],
     ];

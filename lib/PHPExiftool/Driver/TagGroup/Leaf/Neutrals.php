@@ -28,13 +28,14 @@ class Neutrals extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Neutrals',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161936
+             * line : 110638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Neutrals extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:Neutrals',
             'desc' => [
+                'en' => 'Neutrals',
             ],
         ],
     ];

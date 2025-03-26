@@ -28,13 +28,14 @@ class GPSMapDatum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Map Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132321
+             * line : 90946
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141911
+             * line : 98315
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203087
+             * line : 137111
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301458
+             * line : 209816
              * type : string
              * writable : false
              * count : 7
@@ -81,6 +85,7 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
     ];

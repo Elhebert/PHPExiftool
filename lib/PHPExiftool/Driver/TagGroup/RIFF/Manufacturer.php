@@ -28,13 +28,14 @@ class Manufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328695
+             * line : 231783
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manufacturer extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:Manufacturer',
             'desc' => [
+                'en' => 'Manufacturer',
             ],
         ],
     ];

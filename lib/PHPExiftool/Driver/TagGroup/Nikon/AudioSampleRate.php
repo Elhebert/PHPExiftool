@@ -28,13 +28,14 @@ class AudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202255
+             * line : 136941
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RangeModulatorGatingStartValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Range Modulator Gating Start Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103876
+             * line : 76965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RangeModulatorGatingStartValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RangeModulatorGatingStartValue',
             'desc' => [
+                'en' => 'Range Modulator Gating Start Value',
             ],
         ],
     ];

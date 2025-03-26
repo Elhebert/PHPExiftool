@@ -28,13 +28,14 @@ class PixelValueTransformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Value Transformation Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99192
+             * line : 72411
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelValueTransformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelValueTransformationSequence',
             'desc' => [
+                'en' => 'Pixel Value Transformation Sequence',
             ],
         ],
     ];

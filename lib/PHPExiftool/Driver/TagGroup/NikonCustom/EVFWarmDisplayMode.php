@@ -28,13 +28,14 @@ class EVFWarmDisplayMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EVF Warm Display Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242572
+             * line : 165643
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EVFWarmDisplayMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:EVFWarmDisplayMode',
             'desc' => [
+                'en' => 'EVF Warm Display Mode',
             ],
         ],
     ];

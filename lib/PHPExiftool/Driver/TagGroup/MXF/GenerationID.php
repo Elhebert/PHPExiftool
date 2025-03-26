@@ -28,13 +28,14 @@ class GenerationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generation ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169287
+             * line : 115695
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenerationID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GenerationID',
             'desc' => [
+                'en' => 'Generation ID',
             ],
         ],
     ];

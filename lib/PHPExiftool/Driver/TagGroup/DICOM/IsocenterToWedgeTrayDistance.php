@@ -28,13 +28,14 @@ class IsocenterToWedgeTrayDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Wedge Tray Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103212
+             * line : 76308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToWedgeTrayDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToWedgeTrayDistance',
             'desc' => [
+                'en' => 'Isocenter To Wedge Tray Distance',
             ],
         ],
     ];

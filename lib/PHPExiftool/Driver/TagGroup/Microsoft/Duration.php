@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174602
+             * line : 120224
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175628
+             * line : 120876
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         2 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175852
+             * line : 121023
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

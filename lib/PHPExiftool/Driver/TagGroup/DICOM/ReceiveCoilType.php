@@ -28,13 +28,14 @@ class ReceiveCoilType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Receive Coil Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96611
+             * line : 70015
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReceiveCoilType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReceiveCoilType',
             'desc' => [
+                'en' => 'Receive Coil Type',
             ],
         ],
     ];

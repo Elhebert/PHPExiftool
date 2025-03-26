@@ -28,13 +28,14 @@ class FileIndex2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Index 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 39390
+             * line : 30170
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileIndex2 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:FileIndex2',
             'desc' => [
+                'en' => 'File Index 2',
             ],
         ],
     ];

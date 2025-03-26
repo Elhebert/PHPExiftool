@@ -28,13 +28,14 @@ class AccelerometerMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139612
+             * line : 97670
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccelerometerMatrix extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AccelerometerMatrix',
             'desc' => [
+                'en' => 'Accelerometer Matrix',
             ],
         ],
     ];

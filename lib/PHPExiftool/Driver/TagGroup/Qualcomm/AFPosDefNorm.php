@@ -28,13 +28,14 @@ class AFPosDefNorm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Pos Def Norm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306258
+             * line : 212756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFPosDefNorm extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFPosDefNorm',
             'desc' => [
+                'en' => 'AF Pos Def Norm',
             ],
         ],
     ];

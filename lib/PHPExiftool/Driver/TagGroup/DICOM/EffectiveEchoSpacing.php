@@ -28,13 +28,14 @@ class EffectiveEchoSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effective Echo Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100409
+             * line : 73581
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectiveEchoSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EffectiveEchoSpacing',
             'desc' => [
+                'en' => 'Effective Echo Spacing',
             ],
         ],
     ];

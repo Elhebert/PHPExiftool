@@ -28,13 +28,14 @@ class Trademark extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trademark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127883
+             * line : 88776
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Trademark extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:Trademark',
             'desc' => [
+                'en' => 'Trademark',
             ],
         ],
     ];

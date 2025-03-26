@@ -28,13 +28,14 @@ class MagnifyToNumberOfColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnify To Number Of Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102190
+             * line : 75318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagnifyToNumberOfColumns extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MagnifyToNumberOfColumns',
             'desc' => [
+                'en' => 'Magnify To Number Of Columns',
             ],
         ],
     ];

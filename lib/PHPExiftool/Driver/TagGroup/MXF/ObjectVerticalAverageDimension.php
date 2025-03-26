@@ -28,13 +28,14 @@ class ObjectVerticalAverageDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Vertical Average Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170240
+             * line : 116517
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectVerticalAverageDimension extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectVerticalAverageDimension',
             'desc' => [
+                'en' => 'Object Vertical Average Dimension',
             ],
         ],
     ];

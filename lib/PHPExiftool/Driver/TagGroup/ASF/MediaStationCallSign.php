@@ -28,13 +28,14 @@ class MediaStationCallSign extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Station Call Sign',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1412
+             * line : 658
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaStationCallSign extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaStationCallSign',
             'desc' => [
+                'en' => 'Media Station Call Sign',
             ],
         ],
     ];

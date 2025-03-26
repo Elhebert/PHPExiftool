@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Hdrl
-             * line : 327984
+             * line : 231435
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'RIFF::Hdrl.RIFF:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Info
-             * line : 328433
+             * line : 231619
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Balance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323529
+             * line : 228699
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Balance extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Balance',
             'desc' => [
+                'en' => 'Balance',
             ],
         ],
     ];

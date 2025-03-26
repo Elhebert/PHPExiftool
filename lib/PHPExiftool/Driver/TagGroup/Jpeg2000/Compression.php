@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ImageHeader
-             * line : 154030
+             * line : 105771
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ImageHeader.Jpeg2000:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

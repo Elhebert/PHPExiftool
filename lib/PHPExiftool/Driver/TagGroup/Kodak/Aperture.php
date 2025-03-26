@@ -28,13 +28,14 @@ class Aperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159434
+             * line : 109405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Aperture extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:Aperture',
             'desc' => [
+                'en' => 'Aperture',
             ],
         ],
     ];

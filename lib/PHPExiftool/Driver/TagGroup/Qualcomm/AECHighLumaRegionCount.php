@@ -28,13 +28,14 @@ class AECHighLumaRegionCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC High Luma Region Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306164
+             * line : 212669
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECHighLumaRegionCount extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECHighLumaRegionCount',
             'desc' => [
+                'en' => 'AEC High Luma Region Count',
             ],
         ],
     ];

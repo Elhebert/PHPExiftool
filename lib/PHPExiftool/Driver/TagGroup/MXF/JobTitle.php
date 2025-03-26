@@ -28,13 +28,14 @@ class JobTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Job Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170040
+             * line : 116364
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class JobTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:JobTitle',
             'desc' => [
+                'en' => 'Job Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170045
+             * line : 116367
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class JobTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:JobTitle',
             'desc' => [
+                'en' => 'Job Title',
             ],
         ],
     ];

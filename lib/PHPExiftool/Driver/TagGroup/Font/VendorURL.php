@@ -28,13 +28,14 @@ class VendorURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vendor URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127907
+             * line : 88788
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VendorURL extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:VendorURL',
             'desc' => [
+                'en' => 'Vendor URL',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TrackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395892
+             * line : 280262
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
     ];

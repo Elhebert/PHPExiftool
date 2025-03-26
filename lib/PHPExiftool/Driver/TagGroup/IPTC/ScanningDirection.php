@@ -28,13 +28,14 @@ class ScanningDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scanning Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151674
+             * line : 104532
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ScanningDirection extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ScanningDirection',
             'desc' => [
+                'en' => 'Scanning Direction',
             ],
         ],
     ];

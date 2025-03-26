@@ -28,13 +28,14 @@ class ConstantFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Constant Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313512
+             * line : 219257
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConstantFrameRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:ConstantFrameRate',
             'desc' => [
+                'en' => 'Constant Frame Rate',
             ],
         ],
     ];

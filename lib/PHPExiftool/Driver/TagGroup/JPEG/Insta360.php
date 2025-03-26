@@ -28,13 +28,14 @@ class Insta360 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Insta 360',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152674
+             * line : 105062
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Insta360 extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:Insta360',
             'desc' => [
+                'en' => 'Insta 360',
             ],
         ],
     ];

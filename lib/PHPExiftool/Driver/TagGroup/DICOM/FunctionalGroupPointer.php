@@ -28,13 +28,14 @@ class FunctionalGroupPointer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Functional Group Pointer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98093
+             * line : 71440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FunctionalGroupPointer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FunctionalGroupPointer',
             'desc' => [
+                'en' => 'Functional Group Pointer',
             ],
         ],
     ];

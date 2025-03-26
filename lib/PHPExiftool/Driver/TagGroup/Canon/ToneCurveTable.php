@@ -28,13 +28,14 @@ class ToneCurveTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Curve Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65898
+             * line : 50059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneCurveTable extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:ToneCurveTable',
             'desc' => [
+                'en' => 'Tone Curve Table',
             ],
         ],
     ];

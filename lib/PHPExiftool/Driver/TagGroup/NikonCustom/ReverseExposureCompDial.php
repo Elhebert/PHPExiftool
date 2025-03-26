@@ -28,13 +28,14 @@ class ReverseExposureCompDial extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reverse Exposure Comp Dial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223398
+             * line : 150658
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReverseExposureCompDial extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:ReverseExposureCompDial',
             'desc' => [
+                'en' => 'Reverse Exposure Comp Dial',
             ],
         ],
     ];

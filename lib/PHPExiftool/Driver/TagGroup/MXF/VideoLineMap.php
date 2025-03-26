@@ -28,13 +28,14 @@ class VideoLineMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Line Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169042
+             * line : 115490
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoLineMap extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoLineMap',
             'desc' => [
+                'en' => 'Video Line Map',
             ],
         ],
     ];

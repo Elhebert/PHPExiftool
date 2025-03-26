@@ -28,13 +28,14 @@ class EndingRespiratoryAmplitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ending Respiratory Amplitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98123
+             * line : 71470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndingRespiratoryAmplitude extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EndingRespiratoryAmplitude',
             'desc' => [
+                'en' => 'Ending Respiratory Amplitude',
             ],
         ],
     ];

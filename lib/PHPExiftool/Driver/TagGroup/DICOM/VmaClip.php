@@ -28,13 +28,14 @@ class VmaClip extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vma Clip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98507
+             * line : 71839
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VmaClip extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VmaClip',
             'desc' => [
+                'en' => 'Vma Clip',
             ],
         ],
     ];

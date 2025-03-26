@@ -28,13 +28,14 @@ class BaseISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78758
+             * line : 57302
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseISO extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:BaseISO',
             'desc' => [
+                'en' => 'Base ISO',
             ],
         ],
     ];

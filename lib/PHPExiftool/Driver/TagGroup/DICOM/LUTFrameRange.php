@@ -28,13 +28,14 @@ class LUTFrameRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LUT Frame Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99243
+             * line : 72462
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LUTFrameRange extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LUTFrameRange',
             'desc' => [
+                'en' => 'LUT Frame Range',
             ],
         ],
     ];

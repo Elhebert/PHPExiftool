@@ -28,13 +28,14 @@ class ModifiedSharpnessFreq extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Sharpness Freq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66489
+             * line : 50584
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedSharpnessFreq extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedSharpnessFreq',
             'desc' => [
+                'en' => 'Modified Sharpness Freq',
             ],
         ],
     ];

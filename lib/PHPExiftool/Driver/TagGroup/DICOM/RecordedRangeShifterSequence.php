@@ -28,13 +28,14 @@ class RecordedRangeShifterSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Range Shifter Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102834
+             * line : 75930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedRangeShifterSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordedRangeShifterSequence',
             'desc' => [
+                'en' => 'Recorded Range Shifter Sequence',
             ],
         ],
     ];

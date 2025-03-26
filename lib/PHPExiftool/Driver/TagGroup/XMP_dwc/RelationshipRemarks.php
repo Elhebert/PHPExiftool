@@ -28,13 +28,14 @@ class RelationshipRemarks extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Relationship Remarks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106701
+             * line : 78923
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelationshipRemarks extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RelationshipRemarks',
             'desc' => [
+                'en' => 'Relationship Remarks',
             ],
         ],
     ];

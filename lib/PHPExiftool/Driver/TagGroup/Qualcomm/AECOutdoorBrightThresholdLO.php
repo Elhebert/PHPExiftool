@@ -28,13 +28,14 @@ class AECOutdoorBrightThresholdLO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Outdoor Bright Threshold LO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306197
+             * line : 212702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECOutdoorBrightThresholdLO extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECOutdoorBrightThresholdLO',
             'desc' => [
+                'en' => 'AEC Outdoor Bright Threshold LO',
             ],
         ],
     ];

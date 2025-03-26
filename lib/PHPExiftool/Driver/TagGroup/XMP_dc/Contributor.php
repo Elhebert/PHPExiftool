@@ -28,13 +28,14 @@ class Contributor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dc
-             * line : 404772
+             * line : 287665
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contributor extends AbstractTagGroup
              */
             'id' => 'XMP::dc.XMP-dc:Contributor',
             'desc' => [
+                'en' => 'Contributor',
             ],
         ],
     ];

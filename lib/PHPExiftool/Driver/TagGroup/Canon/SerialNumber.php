@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 64597
+             * line : 48912
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::Main
-             * line : 64615
+             * line : 48915
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::Main
-             * line : 64633
+             * line : 48918
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

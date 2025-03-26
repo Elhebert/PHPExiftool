@@ -28,13 +28,14 @@ class ChildFontFiles extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Child Font Files',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414487
+             * line : 292447
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChildFontFiles extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:ChildFontFiles',
             'desc' => [
+                'en' => 'Child Font Files',
             ],
         ],
     ];

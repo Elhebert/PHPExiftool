@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174985
+             * line : 120491
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Category extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176332
+             * line : 121329
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

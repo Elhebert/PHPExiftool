@@ -28,13 +28,14 @@ class SourceIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172102
+             * line : 118270
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceIndex extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceIndex',
             'desc' => [
+                'en' => 'Source Index',
             ],
         ],
     ];

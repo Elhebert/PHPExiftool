@@ -28,13 +28,14 @@ class Emissivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Emissivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122183
+             * line : 85575
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Emissivity extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:Emissivity',
             'desc' => [
+                'en' => 'Emissivity',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122587
+             * line : 85841
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Emissivity extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:Emissivity',
             'desc' => [
+                'en' => 'Emissivity',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Main
-             * line : 123216
+             * line : 86041
              * type : rational64u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Emissivity extends AbstractTagGroup
              */
             'id' => 'FLIR::Main.FLIR:Emissivity',
             'desc' => [
+                'en' => 'Emissivity',
             ],
         ],
         3 => [
             /**
              * table_name : FLIR::Params
-             * line : 123577
+             * line : 86381
              * type : float
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class Emissivity extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:Emissivity',
             'desc' => [
+                'en' => 'Emissivity',
             ],
         ],
     ];

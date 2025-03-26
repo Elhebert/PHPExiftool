@@ -28,13 +28,14 @@ class ExposureBracketValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Bracket Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196823
+             * line : 132896
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureBracketValue extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ExposureBracketValue',
             'desc' => [
+                'en' => 'Exposure Bracket Value',
             ],
         ],
     ];

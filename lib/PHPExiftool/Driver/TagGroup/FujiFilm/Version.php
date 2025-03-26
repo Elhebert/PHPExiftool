@@ -28,13 +28,14 @@ class Version extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 128833
+             * line : 89347
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Version extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

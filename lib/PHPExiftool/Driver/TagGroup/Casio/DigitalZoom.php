@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84561
+             * line : 61734
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

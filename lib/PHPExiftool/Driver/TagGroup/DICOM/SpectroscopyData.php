@@ -28,13 +28,14 @@ class SpectroscopyData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectroscopy Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104272
+             * line : 77346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectroscopyData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectroscopyData',
             'desc' => [
+                'en' => 'Spectroscopy Data',
             ],
         ],
     ];

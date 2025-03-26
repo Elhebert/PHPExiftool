@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160729
+             * line : 109817
              * type : string
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:Model',
             'desc' => [
+                'en' => 'Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WorklistLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Worklist Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101811
+             * line : 74952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WorklistLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WorklistLabel',
             'desc' => [
+                'en' => 'Worklist Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BrightnessValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 140585
+             * line : 98060
              * type : rational32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrightnessValue extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:BrightnessValue',
             'desc' => [
+                'en' => 'Brightness Value',
             ],
         ],
     ];

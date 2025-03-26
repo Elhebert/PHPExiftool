@@ -28,13 +28,14 @@ class OriginalLyricist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Lyricist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175161
+             * line : 120621
              * type : Unicode
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalLyricist extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OriginalLyricist',
             'desc' => [
+                'en' => 'Original Lyricist',
             ],
         ],
     ];

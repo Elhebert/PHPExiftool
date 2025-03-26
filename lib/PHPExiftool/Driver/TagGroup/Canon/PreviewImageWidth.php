@@ -28,13 +28,14 @@ class PreviewImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PreviewImageInfo
-             * line : 69422
+             * line : 52359
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImageWidth extends AbstractTagGroup
              */
             'id' => 'Canon::PreviewImageInfo.Canon:PreviewImageWidth',
             'desc' => [
+                'en' => 'Preview Image Width',
             ],
         ],
     ];

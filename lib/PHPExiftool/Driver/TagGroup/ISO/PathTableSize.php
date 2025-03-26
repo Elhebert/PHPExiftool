@@ -28,13 +28,14 @@ class PathTableSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Path Table Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152014
+             * line : 104703
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PathTableSize extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:PathTableSize',
             'desc' => [
+                'en' => 'Path Table Size',
             ],
         ],
     ];

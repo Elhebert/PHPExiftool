@@ -28,13 +28,14 @@ class SMPTEUL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SMPTEUL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170562
+             * line : 116802
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SMPTEUL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SMPTEUL',
             'desc' => [
+                'en' => 'SMPTEUL',
             ],
         ],
     ];

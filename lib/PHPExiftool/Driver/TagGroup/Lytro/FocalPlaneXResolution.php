@@ -28,13 +28,14 @@ class FocalPlaneXResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Plane X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162298
+             * line : 110857
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalPlaneXResolution extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:FocalPlaneXResolution',
             'desc' => [
+                'en' => 'Focal Plane X Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Origin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166969
+             * line : 113658
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class Origin extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:Origin',
             'desc' => [
+                'en' => 'Origin',
             ],
         ],
     ];

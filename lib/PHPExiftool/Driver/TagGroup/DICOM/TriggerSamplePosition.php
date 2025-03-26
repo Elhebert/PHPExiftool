@@ -28,13 +28,14 @@ class TriggerSamplePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Sample Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95706
+             * line : 69154
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerSamplePosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerSamplePosition',
             'desc' => [
+                'en' => 'Trigger Sample Position',
             ],
         ],
     ];

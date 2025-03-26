@@ -28,13 +28,14 @@ class PF26ShortenReleaseLag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF26 Shorten Release Lag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78422
+             * line : 57123
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF26ShortenReleaseLag extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF26ShortenReleaseLag',
             'desc' => [
+                'en' => 'PF26 Shorten Release Lag',
             ],
         ],
     ];

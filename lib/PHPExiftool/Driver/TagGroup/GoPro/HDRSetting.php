@@ -28,13 +28,14 @@ class HDRSetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDR Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139642
+             * line : 97696
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
     ];

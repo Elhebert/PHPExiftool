@@ -28,13 +28,14 @@ class NumberOfLeafJawPairs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Leaf Jaw Pairs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103149
+             * line : 76245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfLeafJawPairs extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfLeafJawPairs',
             'desc' => [
+                'en' => 'Number Of Leaf Jaw Pairs',
             ],
         ],
     ];

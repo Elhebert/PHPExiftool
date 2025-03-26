@@ -28,13 +28,14 @@ class PnLocHFrac extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fractional Pen Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264677
+             * line : 182927
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PnLocHFrac extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PnLocHFrac',
             'desc' => [
+                'en' => 'Fractional Pen Position',
             ],
         ],
     ];

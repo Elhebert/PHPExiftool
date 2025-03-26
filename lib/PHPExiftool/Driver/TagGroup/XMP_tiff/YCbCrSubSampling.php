@@ -28,13 +28,14 @@ class YCbCrSubSampling extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Sub Sampling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412483
+             * line : 290857
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YCbCrSubSampling extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:YCbCrSubSampling',
             'desc' => [
+                'en' => 'Y Cb Cr Sub Sampling',
             ],
         ],
     ];

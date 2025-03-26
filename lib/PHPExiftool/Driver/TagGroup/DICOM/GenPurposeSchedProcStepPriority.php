@@ -28,13 +28,14 @@ class GenPurposeSchedProcStepPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Purpose Sched Proc Step Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99929
+             * line : 73131
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenPurposeSchedProcStepPriority extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GenPurposeSchedProcStepPriority',
             'desc' => [
+                'en' => 'Gen Purpose Sched Proc Step Priority',
             ],
         ],
     ];

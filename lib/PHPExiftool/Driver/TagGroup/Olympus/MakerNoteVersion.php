@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256825
+             * line : 177377
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

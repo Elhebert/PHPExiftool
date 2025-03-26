@@ -28,13 +28,14 @@ class DocType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doc Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173437
+             * line : 119387
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocType extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:DocType',
             'desc' => [
+                'en' => 'Doc Type',
             ],
         ],
     ];

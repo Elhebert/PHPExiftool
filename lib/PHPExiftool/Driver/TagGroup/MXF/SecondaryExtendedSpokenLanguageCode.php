@@ -28,13 +28,14 @@ class SecondaryExtendedSpokenLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Extended Spoken Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171673
+             * line : 117865
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryExtendedSpokenLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecondaryExtendedSpokenLanguageCode',
             'desc' => [
+                'en' => 'Secondary Extended Spoken Language Code',
             ],
         ],
     ];

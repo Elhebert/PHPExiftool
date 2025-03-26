@@ -28,13 +28,14 @@ class Planes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Planes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Image
-             * line : 273375
+             * line : 190677
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Planes extends AbstractTagGroup
              */
             'id' => 'PSP::Image.PSP:Planes',
             'desc' => [
+                'en' => 'Planes',
             ],
         ],
     ];

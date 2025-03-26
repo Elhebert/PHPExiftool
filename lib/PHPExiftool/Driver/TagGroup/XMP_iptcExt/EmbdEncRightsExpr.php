@@ -28,13 +28,14 @@ class EmbdEncRightsExpr extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Embd Enc Rights Expr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409266
+             * line : 289065
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EmbdEncRightsExpr extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:EmbdEncRightsExpr',
             'desc' => [
+                'en' => 'Embd Enc Rights Expr',
             ],
         ],
     ];

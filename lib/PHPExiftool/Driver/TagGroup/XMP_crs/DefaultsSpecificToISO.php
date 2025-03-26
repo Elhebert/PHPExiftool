@@ -28,13 +28,14 @@ class DefaultsSpecificToISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Defaults Specific To ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402225
+             * line : 285378
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefaultsSpecificToISO extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:DefaultsSpecificToISO',
             'desc' => [
+                'en' => 'Defaults Specific To ISO',
             ],
         ],
     ];

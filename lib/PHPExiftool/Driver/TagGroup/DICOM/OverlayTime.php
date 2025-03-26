@@ -28,13 +28,14 @@ class OverlayTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94730
+             * line : 68218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayTime',
             'desc' => [
+                'en' => 'Overlay Time',
             ],
         ],
     ];

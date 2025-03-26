@@ -28,13 +28,14 @@ class CropBottom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crop Bottom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173656
+             * line : 119580
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CropBottom extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CropBottom',
             'desc' => [
+                'en' => 'Crop Bottom',
             ],
         ],
     ];

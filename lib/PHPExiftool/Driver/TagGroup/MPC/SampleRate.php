@@ -28,13 +28,14 @@ class SampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPC::Main
-             * line : 165505
+             * line : 112541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleRate extends AbstractTagGroup
              */
             'id' => 'MPC::Main.MPC:SampleRate',
             'desc' => [
+                'en' => 'Sample Rate',
             ],
         ],
     ];

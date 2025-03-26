@@ -28,13 +28,14 @@ class PreviewImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90454
+             * line : 65194
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImageSize extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:PreviewImageSize',
             'desc' => [
+                'en' => 'Preview Image Size',
             ],
         ],
     ];

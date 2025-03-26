@@ -28,13 +28,14 @@ class LightValueCenter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Value Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259198
+             * line : 178828
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightValueCenter extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:LightValueCenter',
             'desc' => [
+                'en' => 'Light Value Center',
             ],
         ],
     ];

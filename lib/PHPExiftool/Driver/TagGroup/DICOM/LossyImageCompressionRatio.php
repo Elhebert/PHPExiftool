@@ -28,13 +28,14 @@ class LossyImageCompressionRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lossy Image Compression Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99093
+             * line : 72312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LossyImageCompressionRatio extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LossyImageCompressionRatio',
             'desc' => [
+                'en' => 'Lossy Image Compression Ratio',
             ],
         ],
     ];

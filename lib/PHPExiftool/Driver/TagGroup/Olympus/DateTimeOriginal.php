@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::OLYM
-             * line : 260182
+             * line : 179750
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Olympus::OLYM.Olympus:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262239
+             * line : 181252
              * type : undef
              * writable : false
              * count : 12
@@ -55,6 +57,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

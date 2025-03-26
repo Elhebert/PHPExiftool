@@ -28,13 +28,14 @@ class OpticalZoomMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Optical Zoom Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276651
+             * line : 192612
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OpticalZoomMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:OpticalZoomMode',
             'desc' => [
+                'en' => 'Optical Zoom Mode',
             ],
         ],
     ];

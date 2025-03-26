@@ -28,13 +28,14 @@ class FileOwner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148938
+             * line : 103346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileOwner extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:FileOwner',
             'desc' => [
+                'en' => 'File Owner',
             ],
         ],
     ];

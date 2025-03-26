@@ -28,13 +28,14 @@ class StitchColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stitch Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155548
+             * line : 106760
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StitchColumns extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:StitchColumns',
             'desc' => [
+                'en' => 'Stitch Columns',
             ],
         ],
     ];

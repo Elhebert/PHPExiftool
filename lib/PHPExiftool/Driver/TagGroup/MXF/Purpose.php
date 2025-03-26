@@ -28,13 +28,14 @@ class Purpose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Purpose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167689
+             * line : 114278
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Purpose extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Purpose',
             'desc' => [
+                'en' => 'Purpose',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170174
+             * line : 116463
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Purpose extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Purpose',
             'desc' => [
+                'en' => 'Purpose',
             ],
         ],
     ];

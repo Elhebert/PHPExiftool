@@ -28,13 +28,14 @@ class OccurrencePreviousIdentifications extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Previous Identifications',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106573
+             * line : 78827
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrencePreviousIdentifications extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrencePreviousIdentifications',
             'desc' => [
+                'en' => 'Occurrence Previous Identifications',
             ],
         ],
     ];

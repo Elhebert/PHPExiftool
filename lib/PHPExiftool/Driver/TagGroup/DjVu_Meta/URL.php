@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107505
+             * line : 79336
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

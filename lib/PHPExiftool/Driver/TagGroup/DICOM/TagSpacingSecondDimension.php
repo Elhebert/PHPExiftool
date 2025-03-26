@@ -28,13 +28,14 @@ class TagSpacingSecondDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Spacing Second Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96898
+             * line : 70300
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagSpacingSecondDimension extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TagSpacingSecondDimension',
             'desc' => [
+                'en' => 'Tag Spacing Second Dimension',
             ],
         ],
     ];

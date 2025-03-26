@@ -28,13 +28,14 @@ class DownSampleBy6Hor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Down Sample By 6 Hor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155448
+             * line : 106661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DownSampleBy6Hor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DownSampleBy6Hor',
             'desc' => [
+                'en' => 'Down Sample By 6 Hor',
             ],
         ],
     ];

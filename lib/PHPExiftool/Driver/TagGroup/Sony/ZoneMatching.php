@@ -28,13 +28,14 @@ class ZoneMatching extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zone Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 356774
+             * line : 248840
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoneMatching extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ZoneMatching',
             'desc' => [
+                'en' => 'Zone Matching',
             ],
         ],
     ];

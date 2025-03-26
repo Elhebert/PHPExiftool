@@ -28,13 +28,14 @@ class CoverArt extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cover Art',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314165
+             * line : 219778
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CoverArt extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:CoverArt',
             'desc' => [
+                'en' => 'Cover Art',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MIMECharSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIME Char Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171953
+             * line : 118138
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MIMECharSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIMECharSet',
             'desc' => [
+                'en' => 'MIME Char Set',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171956
+             * line : 118141
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MIMECharSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIMECharSet',
             'desc' => [
+                'en' => 'MIME Char Set',
             ],
         ],
     ];

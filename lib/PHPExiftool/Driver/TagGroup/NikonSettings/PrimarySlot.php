@@ -28,13 +28,14 @@ class PrimarySlot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Slot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248610
+             * line : 171298
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimarySlot extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:PrimarySlot',
             'desc' => [
+                'en' => 'Primary Slot',
             ],
         ],
     ];

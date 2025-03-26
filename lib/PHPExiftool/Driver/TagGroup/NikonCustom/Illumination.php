@@ -28,13 +28,14 @@ class Illumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227877
+             * line : 153449
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Illumination extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:Illumination',
             'desc' => [
+                'en' => 'Illumination',
             ],
         ],
     ];

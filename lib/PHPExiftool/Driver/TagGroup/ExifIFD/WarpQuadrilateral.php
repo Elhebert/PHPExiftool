@@ -28,13 +28,14 @@ class WarpQuadrilateral extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Warp Quadrilateral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112884
+             * line : 82236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WarpQuadrilateral extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WarpQuadrilateral',
             'desc' => [
+                'en' => 'Warp Quadrilateral',
             ],
         ],
     ];

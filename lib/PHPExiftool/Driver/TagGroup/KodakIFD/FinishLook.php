@@ -28,13 +28,14 @@ class FinishLook extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finish Look',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156295
+             * line : 107499
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinishLook extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishLook',
             'desc' => [
+                'en' => 'Finish Look',
             ],
         ],
     ];

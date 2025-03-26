@@ -28,13 +28,14 @@ class MRAcquisitionFrequencyEncodeSteps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Acquisition Frequency Encode Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96647
+             * line : 70051
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRAcquisitionFrequencyEncodeSteps extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRAcquisitionFrequencyEncodeSteps',
             'desc' => [
+                'en' => 'MR Acquisition Frequency Encode Steps',
             ],
         ],
     ];

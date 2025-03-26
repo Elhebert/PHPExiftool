@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AVIHeader
-             * line : 326963
+             * line : 230586
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'RIFF::AVIHeader.RIFF:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::VP8
-             * line : 328979
+             * line : 231956
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8.RIFF:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         2 => [
             /**
              * table_name : RIFF::VP8L
-             * line : 329022
+             * line : 231969
              * type : int32u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8L.RIFF:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         3 => [
             /**
              * table_name : RIFF::VP8X
-             * line : 329062
+             * line : 231979
              * type : int32u
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8X.RIFF:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

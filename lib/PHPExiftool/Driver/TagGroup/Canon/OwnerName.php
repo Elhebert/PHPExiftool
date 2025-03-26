@@ -28,13 +28,14 @@ class OwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 23907
+             * line : 18014
              * type : string
              * writable : true
              * count : 32
@@ -42,12 +43,13 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::Main
-             * line : 64586
+             * line : 48909
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
     ];

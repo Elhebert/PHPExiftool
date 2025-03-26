@@ -28,13 +28,14 @@ class Notes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249187
+             * line : 171807
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Notes extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Notes',
             'desc' => [
+                'en' => 'Notes',
             ],
         ],
     ];

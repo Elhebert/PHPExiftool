@@ -28,13 +28,14 @@ class SensorCalibration_0x0404 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Calibration 0x0404',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::SensorCalibration
-             * line : 303594
+             * line : 210907
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorCalibration_0x0404 extends AbstractTagGroup
              */
             'id' => 'PhaseOne::SensorCalibration.PhaseOne:SensorCalibration_0x0404',
             'desc' => [
+                'en' => 'Sensor Calibration 0x0404',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFAreaYPosition1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Y Position 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333452
+             * line : 233844
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAreaYPosition1 extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:AFAreaYPosition1',
             'desc' => [
+                'en' => 'AF Area Y Position 1',
             ],
         ],
     ];

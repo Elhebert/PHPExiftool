@@ -28,13 +28,14 @@ class ProjNatOriginLong extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Nat Origin Long',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138701
+             * line : 96950
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjNatOriginLong extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjNatOriginLong',
             'desc' => [
+                'en' => 'Proj Nat Origin Long',
             ],
         ],
     ];

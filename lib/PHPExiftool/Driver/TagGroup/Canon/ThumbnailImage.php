@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CNTH
-             * line : 4447
+             * line : 2795
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Canon::CNTH.Canon:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::uuid
-             * line : 71287
+             * line : 53193
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Canon::uuid.Canon:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

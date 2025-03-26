@@ -28,13 +28,14 @@ class WB_RBLevelsEveningSunlight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Evening Sunlight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260885
+             * line : 180207
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsEveningSunlight extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsEveningSunlight',
             'desc' => [
+                'en' => 'WB RB Levels Evening Sunlight',
             ],
         ],
     ];

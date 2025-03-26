@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 763
+             * line : 283
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 842
+             * line : 307
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

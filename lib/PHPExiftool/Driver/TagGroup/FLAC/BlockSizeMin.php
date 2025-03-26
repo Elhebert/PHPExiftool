@@ -28,13 +28,14 @@ class BlockSizeMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Size Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121933
+             * line : 85439
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockSizeMin extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:BlockSizeMin',
             'desc' => [
+                'en' => 'Block Size Min',
             ],
         ],
     ];

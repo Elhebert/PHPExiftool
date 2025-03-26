@@ -28,13 +28,14 @@ class OvSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oval Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264641
+             * line : 182897
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OvSize extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:OvSize',
             'desc' => [
+                'en' => 'Oval Size',
             ],
         ],
     ];

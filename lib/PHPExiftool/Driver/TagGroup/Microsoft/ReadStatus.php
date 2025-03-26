@@ -28,13 +28,14 @@ class ReadStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Read Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176413
+             * line : 121380
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReadStatus extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ReadStatus',
             'desc' => [
+                'en' => 'Read Status',
             ],
         ],
     ];

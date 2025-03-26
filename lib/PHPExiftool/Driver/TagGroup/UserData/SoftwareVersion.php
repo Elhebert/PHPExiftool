@@ -28,13 +28,14 @@ class SoftwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325181
+             * line : 229572
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SoftwareVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SoftwareVersion',
             'desc' => [
+                'en' => 'Software Version',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326032
+             * line : 229982
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SoftwareVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SoftwareVersion',
             'desc' => [
+                'en' => 'Software Version',
             ],
         ],
     ];

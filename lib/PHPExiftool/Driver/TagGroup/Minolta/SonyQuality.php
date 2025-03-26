@@ -28,13 +28,14 @@ class SonyQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181502
+             * line : 123474
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SonyQuality extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:SonyQuality',
             'desc' => [
+                'en' => 'Sony Quality',
             ],
         ],
     ];

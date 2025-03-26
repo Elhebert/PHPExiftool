@@ -28,13 +28,14 @@ class ImageTemperatureMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Temperature Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Main
-             * line : 123213
+             * line : 86038
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageTemperatureMin extends AbstractTagGroup
              */
             'id' => 'FLIR::Main.FLIR:ImageTemperatureMin',
             'desc' => [
+                'en' => 'Image Temperature Min',
             ],
         ],
     ];

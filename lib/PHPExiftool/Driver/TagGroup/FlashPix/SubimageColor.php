@@ -28,13 +28,14 @@ class SubimageColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subimage Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124721
+             * line : 87163
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubimageColor extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:SubimageColor',
             'desc' => [
+                'en' => 'Subimage Color',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EventAbsoluteDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Absolute Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168601
+             * line : 115091
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EventAbsoluteDuration extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventAbsoluteDuration',
             'desc' => [
+                'en' => 'Event Absolute Duration',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168605
+             * line : 115094
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EventAbsoluteDuration extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventAbsoluteDuration',
             'desc' => [
+                'en' => 'Event Absolute Duration',
             ],
         ],
     ];

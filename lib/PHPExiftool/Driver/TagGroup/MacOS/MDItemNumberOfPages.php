@@ -28,13 +28,14 @@ class MDItemNumberOfPages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Number Of Pages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172904
+             * line : 118972
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemNumberOfPages extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemNumberOfPages',
             'desc' => [
+                'en' => 'MD Item Number Of Pages',
             ],
         ],
     ];

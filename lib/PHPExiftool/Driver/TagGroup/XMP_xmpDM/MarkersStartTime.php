@@ -28,13 +28,14 @@ class MarkersStartTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Markers Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413191
+             * line : 291318
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MarkersStartTime extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersStartTime',
             'desc' => [
+                'en' => 'Markers Start Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeviceUsageDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Usage Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171175
+             * line : 117393
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DeviceUsageDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceUsageDescription',
             'desc' => [
+                'en' => 'Device Usage Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171178
+             * line : 117396
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DeviceUsageDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceUsageDescription',
             'desc' => [
+                'en' => 'Device Usage Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReceiveBandwidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Receive Bandwidth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97658
+             * line : 71041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReceiveBandwidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReceiveBandwidth',
             'desc' => [
+                'en' => 'Receive Bandwidth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToneObjName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Obj Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ToneCurve
-             * line : 162124
+             * line : 110799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneObjName extends AbstractTagGroup
              */
             'id' => 'Leaf::ToneCurve.Leaf:ToneObjName',
             'desc' => [
+                'en' => 'Tone Obj Name',
             ],
         ],
     ];

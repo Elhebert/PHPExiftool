@@ -28,13 +28,14 @@ class TimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CTMD
-             * line : 4469
+             * line : 2802
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'Canon::CTMD.Canon:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 15683
+             * line : 11429
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34931
+             * line : 26721
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
     ];

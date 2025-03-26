@@ -28,13 +28,14 @@ class ROIElementalCompAtomicMassFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Elemental Comp Atomic Mass Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102645
+             * line : 75741
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIElementalCompAtomicMassFraction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIElementalCompAtomicMassFraction',
             'desc' => [
+                'en' => 'ROI Elemental Comp Atomic Mass Fraction',
             ],
         ],
     ];

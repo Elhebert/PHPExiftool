@@ -28,13 +28,14 @@ class NeutObjVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Neut Obj Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161945
+             * line : 110647
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NeutObjVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:NeutObjVersion',
             'desc' => [
+                'en' => 'Neut Obj Version',
             ],
         ],
     ];

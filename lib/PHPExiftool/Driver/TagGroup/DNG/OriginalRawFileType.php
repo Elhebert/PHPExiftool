@@ -28,13 +28,14 @@ class OriginalRawFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Raw File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105264
+             * line : 78015
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalRawFileType extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalRawFileType',
             'desc' => [
+                'en' => 'Original Raw File Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FramingGridDisplay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Framing Grid Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244194
+             * line : 167097
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramingGridDisplay extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FramingGridDisplay',
             'desc' => [
+                'en' => 'Framing Grid Display',
             ],
         ],
     ];

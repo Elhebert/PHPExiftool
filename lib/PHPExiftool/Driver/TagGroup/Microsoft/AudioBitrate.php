@@ -28,13 +28,14 @@ class AudioBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174453
+             * line : 120143
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
     ];

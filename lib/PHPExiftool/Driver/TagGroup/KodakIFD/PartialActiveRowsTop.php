@@ -28,13 +28,14 @@ class PartialActiveRowsTop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial Active Rows Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156041
+             * line : 107252
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialActiveRowsTop extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PartialActiveRowsTop',
             'desc' => [
+                'en' => 'Partial Active Rows Top',
             ],
         ],
     ];

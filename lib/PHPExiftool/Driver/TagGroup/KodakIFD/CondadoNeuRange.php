@@ -28,13 +28,14 @@ class CondadoNeuRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Condado Neu Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156894
+             * line : 108098
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CondadoNeuRange extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CondadoNeuRange',
             'desc' => [
+                'en' => 'Condado Neu Range',
             ],
         ],
     ];

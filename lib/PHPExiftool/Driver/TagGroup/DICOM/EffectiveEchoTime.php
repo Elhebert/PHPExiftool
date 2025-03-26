@@ -28,13 +28,14 @@ class EffectiveEchoTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effective Echo Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96711
+             * line : 70114
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectiveEchoTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EffectiveEchoTime',
             'desc' => [
+                'en' => 'Effective Echo Time',
             ],
         ],
     ];

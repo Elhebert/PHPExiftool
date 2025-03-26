@@ -28,13 +28,14 @@ class TopMargin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Top Margin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263900
+             * line : 182505
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TopMargin extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:TopMargin',
             'desc' => [
+                'en' => 'Top Margin',
             ],
         ],
     ];

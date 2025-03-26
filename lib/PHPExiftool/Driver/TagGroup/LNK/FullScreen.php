@@ -28,13 +28,14 @@ class FullScreen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Full Screen',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161016
+             * line : 109949
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FullScreen extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:FullScreen',
             'desc' => [
+                'en' => 'Full Screen',
             ],
         ],
     ];

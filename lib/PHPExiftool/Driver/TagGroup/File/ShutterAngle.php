@@ -28,13 +28,14 @@ class ShutterAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105896
+             * line : 78375
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterAngle extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ShutterAngle',
             'desc' => [
+                'en' => 'Shutter Angle',
             ],
         ],
     ];

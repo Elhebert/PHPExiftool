@@ -28,13 +28,14 @@ class GrayLookupTableDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gray Lookup Table Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98942
+             * line : 72210
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GrayLookupTableDescriptor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GrayLookupTableDescriptor',
             'desc' => [
+                'en' => 'Gray Lookup Table Descriptor',
             ],
         ],
     ];

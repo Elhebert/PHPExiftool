@@ -28,13 +28,14 @@ class FlashCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192549
+             * line : 130441
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193053
+             * line : 130773
              * type : int8s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193625
+             * line : 131140
              * type : int8s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194608
+             * line : 131795
              * type : int8s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194776
+             * line : 131923
              * type : int8s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::FlashInfo0300
-             * line : 195227
+             * line : 132230
              * type : int8s
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0300.Nikon:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
     ];

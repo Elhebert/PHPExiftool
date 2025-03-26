@@ -28,13 +28,14 @@ class BlendingLUT2Sequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blending LUT2 Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99062
+             * line : 72294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlendingLUT2Sequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlendingLUT2Sequence',
             'desc' => [
+                'en' => 'Blending LUT2 Sequence',
             ],
         ],
     ];

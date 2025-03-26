@@ -28,13 +28,14 @@ class NumberOfExcitations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Excitations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98599
+             * line : 71929
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfExcitations extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfExcitations',
             'desc' => [
+                'en' => 'Number Of Excitations',
             ],
         ],
     ];

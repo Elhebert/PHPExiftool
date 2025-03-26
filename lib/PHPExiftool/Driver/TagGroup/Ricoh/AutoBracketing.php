@@ -28,13 +28,14 @@ class AutoBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332881
+             * line : 233503
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoBracketing extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:AutoBracketing',
             'desc' => [
+                'en' => 'Auto Bracketing',
             ],
         ],
     ];

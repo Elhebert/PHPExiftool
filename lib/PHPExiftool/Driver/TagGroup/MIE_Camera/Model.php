@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163046
+             * line : 111305
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:Model',
             'desc' => [
+                'en' => 'Model',
             ],
         ],
     ];

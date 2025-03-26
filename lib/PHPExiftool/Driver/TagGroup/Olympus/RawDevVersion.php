@@ -28,13 +28,14 @@ class RawDevVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260221
+             * line : 179766
              * type : undef
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class RawDevVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevVersion',
             'desc' => [
+                'en' => 'Raw Dev Version',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260413
+             * line : 179894
              * type : undef
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class RawDevVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevVersion',
             'desc' => [
+                'en' => 'Raw Dev Version',
             ],
         ],
     ];

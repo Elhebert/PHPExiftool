@@ -28,13 +28,14 @@ class ReservedBlob8 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reserved Blob 8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157140
+             * line : 108344
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReservedBlob8 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ReservedBlob8',
             'desc' => [
+                'en' => 'Reserved Blob 8',
             ],
         ],
     ];

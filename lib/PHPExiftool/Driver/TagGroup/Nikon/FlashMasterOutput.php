@@ -28,13 +28,14 @@ class FlashMasterOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Master Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200050
+             * line : 135014
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMasterOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FlashMasterOutput',
             'desc' => [
+                'en' => 'Flash Master Output',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208217
+             * line : 140316
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMasterOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FlashMasterOutput',
             'desc' => [
+                'en' => 'Flash Master Output',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SchedStationGeographicLocCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sched Station Geographic Loc Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99983
+             * line : 73185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SchedStationGeographicLocCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SchedStationGeographicLocCodeSeq',
             'desc' => [
+                'en' => 'Sched Station Geographic Loc Code Seq',
             ],
         ],
     ];

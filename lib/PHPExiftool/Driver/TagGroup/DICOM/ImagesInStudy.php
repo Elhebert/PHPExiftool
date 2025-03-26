@@ -28,13 +28,14 @@ class ImagesInStudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Images In Study',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97977
+             * line : 71326
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagesInStudy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagesInStudy',
             'desc' => [
+                'en' => 'Images In Study',
             ],
         ],
     ];

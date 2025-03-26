@@ -28,13 +28,14 @@ class RadiusOfCircExposControlSensRegion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radius Of Circ Expos Control Sens Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97161
+             * line : 70558
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiusOfCircExposControlSensRegion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiusOfCircExposControlSensRegion',
             'desc' => [
+                'en' => 'Radius Of Circ Expos Control Sens Region',
             ],
         ],
     ];

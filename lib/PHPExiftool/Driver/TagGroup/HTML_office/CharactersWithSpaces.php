@@ -28,13 +28,14 @@ class CharactersWithSpaces extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters With Spaces',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142552
+             * line : 98539
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CharactersWithSpaces extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:CharactersWithSpaces',
             'desc' => [
+                'en' => 'Characters With Spaces',
             ],
         ],
     ];

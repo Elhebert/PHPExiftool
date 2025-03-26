@@ -28,13 +28,14 @@ class ReadoutTypeActual extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Readout Type Actual',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157323
+             * line : 108515
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReadoutTypeActual extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ReadoutTypeActual',
             'desc' => [
+                'en' => 'Readout Type Actual',
             ],
         ],
     ];

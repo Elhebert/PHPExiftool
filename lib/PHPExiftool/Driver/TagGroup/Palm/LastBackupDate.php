@@ -28,13 +28,14 @@ class LastBackupDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Backup Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::Main
-             * line : 273862
+             * line : 190966
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastBackupDate extends AbstractTagGroup
              */
             'id' => 'Palm::Main.Palm:LastBackupDate',
             'desc' => [
+                'en' => 'Last Backup Date',
             ],
         ],
     ];

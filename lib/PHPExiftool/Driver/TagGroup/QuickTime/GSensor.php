@@ -28,13 +28,14 @@ class GSensor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'G Sensor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::RVMI_sReV
-             * line : 324356
+             * line : 229146
              * type : int16s
              * writable : false
              * count : 3
@@ -42,12 +43,13 @@ class GSensor extends AbstractTagGroup
              */
             'id' => 'QuickTime::RVMI_sReV.QuickTime:GSensor',
             'desc' => [
+                'en' => 'G Sensor',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324867
+             * line : 229366
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GSensor extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GSensor',
             'desc' => [
+                'en' => 'G Sensor',
             ],
         ],
     ];

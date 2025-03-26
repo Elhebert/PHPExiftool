@@ -28,13 +28,14 @@ class Accelerometer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139393
+             * line : 97567
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Accelerometer extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Accelerometer',
             'desc' => [
+                'en' => 'Accelerometer',
             ],
         ],
     ];

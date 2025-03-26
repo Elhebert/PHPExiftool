@@ -28,13 +28,14 @@ class PaintCorrectionDehaze extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Dehaze',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403811
+             * line : 286928
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionDehaze extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionDehaze',
             'desc' => [
+                'en' => 'Paint Correction Dehaze',
             ],
         ],
     ];

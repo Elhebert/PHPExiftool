@@ -28,13 +28,14 @@ class AudioChannelCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Channel Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409161
+             * line : 288972
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioChannelCount extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:AudioChannelCount',
             'desc' => [
+                'en' => 'Audio Channel Count',
             ],
         ],
     ];

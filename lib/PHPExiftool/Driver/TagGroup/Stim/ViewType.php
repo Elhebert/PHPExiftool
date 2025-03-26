@@ -28,13 +28,14 @@ class ViewType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394621
+             * line : 279555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewType extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ViewType',
             'desc' => [
+                'en' => 'View Type',
             ],
         ],
     ];

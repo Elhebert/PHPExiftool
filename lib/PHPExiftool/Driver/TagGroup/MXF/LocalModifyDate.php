@@ -28,13 +28,14 @@ class LocalModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168579
+             * line : 115070
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalModifyDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalModifyDate',
             'desc' => [
+                'en' => 'Local Modify Date',
             ],
         ],
     ];

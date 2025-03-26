@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129516
+             * line : 89564
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129559
+             * line : 89578
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

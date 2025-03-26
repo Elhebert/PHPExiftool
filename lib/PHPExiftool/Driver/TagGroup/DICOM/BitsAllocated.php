@@ -28,13 +28,14 @@ class BitsAllocated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Allocated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98777
+             * line : 72049
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsAllocated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BitsAllocated',
             'desc' => [
+                'en' => 'Bits Allocated',
             ],
         ],
     ];

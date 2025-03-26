@@ -28,13 +28,14 @@ class SoftwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95619
+             * line : 69073
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoftwareVersion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SoftwareVersion',
             'desc' => [
+                'en' => 'Software Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351448
+             * line : 245365
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LensFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LensFirmwareVersion',
             'desc' => [
+                'en' => 'Lens Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag940c
-             * line : 391007
+             * line : 276746
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LensFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940c.Sony:LensFirmwareVersion',
             'desc' => [
+                'en' => 'Lens Firmware Version',
             ],
         ],
     ];

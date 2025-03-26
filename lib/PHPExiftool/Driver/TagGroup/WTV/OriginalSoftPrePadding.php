@@ -28,13 +28,14 @@ class OriginalSoftPrePadding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Soft Pre Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396367
+             * line : 280620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalSoftPrePadding extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:OriginalSoftPrePadding',
             'desc' => [
+                'en' => 'Original Soft Pre Padding',
             ],
         ],
     ];

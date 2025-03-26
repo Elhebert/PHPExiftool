@@ -28,13 +28,14 @@ class Tag_0x2010 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag 0x2010',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354377
+             * line : 247051
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Tag_0x2010 extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Tag_0x2010',
             'desc' => [
+                'en' => 'Tag 0x2010',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RearDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rear Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212804
+             * line : 142885
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RearDisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:RearDisplay',
             'desc' => [
+                'en' => 'Rear Display',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214796
+             * line : 144163
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RearDisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:RearDisplay',
             'desc' => [
+                'en' => 'Rear Display',
             ],
         ],
     ];

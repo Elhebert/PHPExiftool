@@ -28,13 +28,14 @@ class MinimumDasValueFoundInTheScanData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minimum Das Value Found In The Scan Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100579
+             * line : 73749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinimumDasValueFoundInTheScanData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MinimumDasValueFoundInTheScanData',
             'desc' => [
+                'en' => 'Minimum Das Value Found In The Scan Data',
             ],
         ],
     ];

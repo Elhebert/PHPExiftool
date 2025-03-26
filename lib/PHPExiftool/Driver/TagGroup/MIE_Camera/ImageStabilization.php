@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163012
+             * line : 111296
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

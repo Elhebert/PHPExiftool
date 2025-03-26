@@ -28,13 +28,14 @@ class Dispose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dispose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164333
+             * line : 111721
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dispose extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Dispose',
             'desc' => [
+                'en' => 'Dispose',
             ],
         ],
     ];

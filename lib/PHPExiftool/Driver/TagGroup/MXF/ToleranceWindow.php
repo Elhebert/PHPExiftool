@@ -28,13 +28,14 @@ class ToleranceWindow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tolerance Window',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172175
+             * line : 118342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToleranceWindow extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ToleranceWindow',
             'desc' => [
+                'en' => 'Tolerance Window',
             ],
         ],
     ];

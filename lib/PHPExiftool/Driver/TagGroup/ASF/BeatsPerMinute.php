@@ -28,13 +28,14 @@ class BeatsPerMinute extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beats Per Minute',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1089
+             * line : 436
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeatsPerMinute extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:BeatsPerMinute',
             'desc' => [
+                'en' => 'Beats Per Minute',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetouchAreaMaskRangeAreaModelsColorSampleInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Range Area Models Color Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400684
+             * line : 284165
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskRangeAreaModelsColorSampleInfo extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskRangeAreaModelsColorSampleInfo',
             'desc' => [
+                'en' => 'Retouch Area Mask Range Area Models Color Sample Info',
             ],
         ],
     ];

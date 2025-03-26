@@ -28,13 +28,14 @@ class ExtenderStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extender Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 92616
+             * line : 67166
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtenderStatus extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ExtenderStatus',
             'desc' => [
+                'en' => 'Extender Status',
             ],
         ],
     ];

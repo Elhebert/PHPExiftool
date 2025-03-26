@@ -28,13 +28,14 @@ class OceScanjobDesc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oce Scanjob Desc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118727
+             * line : 84021
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OceScanjobDesc extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OceScanjobDesc',
             'desc' => [
+                'en' => 'Oce Scanjob Desc',
             ],
         ],
     ];

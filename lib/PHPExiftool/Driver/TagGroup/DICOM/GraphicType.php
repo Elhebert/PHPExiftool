@@ -28,13 +28,14 @@ class GraphicType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101280
+             * line : 74430
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicType',
             'desc' => [
+                'en' => 'Graphic Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintCorrectionMaskMasksCenterWeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Masks Center Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400246
+             * line : 283733
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskMasksCenterWeight extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionMaskMasksCenterWeight',
             'desc' => [
+                'en' => 'Paint Correction Mask Masks Center Weight',
             ],
         ],
     ];

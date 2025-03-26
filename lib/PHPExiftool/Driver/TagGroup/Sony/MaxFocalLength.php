@@ -28,13 +28,14 @@ class MaxFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366938
+             * line : 255301
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369939
+             * line : 257925
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370969
+             * line : 258590
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373970
+             * line : 261214
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376971
+             * line : 263838
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393371
+             * line : 278931
              * type : int16u
              * writable : false
              * count :
@@ -107,6 +113,7 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
     ];

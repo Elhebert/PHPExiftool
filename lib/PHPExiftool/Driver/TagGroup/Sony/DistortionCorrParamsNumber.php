@@ -28,13 +28,14 @@ class DistortionCorrParamsNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Corr Params Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 368911
+             * line : 257255
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DistortionCorrParamsNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:DistortionCorrParamsNumber',
             'desc' => [
+                'en' => 'Distortion Corr Params Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 372942
+             * line : 260544
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DistortionCorrParamsNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:DistortionCorrParamsNumber',
             'desc' => [
+                'en' => 'Distortion Corr Params Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 375943
+             * line : 263168
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class DistortionCorrParamsNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:DistortionCorrParamsNumber',
             'desc' => [
+                'en' => 'Distortion Corr Params Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 378944
+             * line : 265792
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class DistortionCorrParamsNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:DistortionCorrParamsNumber',
             'desc' => [
+                'en' => 'Distortion Corr Params Number',
             ],
         ],
     ];

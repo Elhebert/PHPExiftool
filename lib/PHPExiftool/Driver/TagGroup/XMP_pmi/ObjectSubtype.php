@@ -28,13 +28,14 @@ class ObjectSubtype extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Subtype',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410621
+             * line : 289934
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ObjectSubtype extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:ObjectSubtype',
             'desc' => [
+                'en' => 'Object Subtype',
             ],
         ],
     ];

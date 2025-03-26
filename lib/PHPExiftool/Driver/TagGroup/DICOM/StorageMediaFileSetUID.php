@@ -28,13 +28,14 @@ class StorageMediaFileSetUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Media File Set UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101856
+             * line : 74997
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageMediaFileSetUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StorageMediaFileSetUID',
             'desc' => [
+                'en' => 'Storage Media File Set UID',
             ],
         ],
     ];

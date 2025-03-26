@@ -28,13 +28,14 @@ class ReformattingOperationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reformatting Operation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101667
+             * line : 74811
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReformattingOperationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReformattingOperationType',
             'desc' => [
+                'en' => 'Reformatting Operation Type',
             ],
         ],
     ];

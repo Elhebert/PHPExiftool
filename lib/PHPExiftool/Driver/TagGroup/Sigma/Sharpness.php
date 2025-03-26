@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337323
+             * line : 236078
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337341
+             * line : 236081
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChemicalShiftsMaxIntegrateLimitHz extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chemical Shifts Max Integrate Limit Hz',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96877
+             * line : 70279
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChemicalShiftsMaxIntegrateLimitHz extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChemicalShiftsMaxIntegrateLimitHz',
             'desc' => [
+                'en' => 'Chemical Shifts Max Integrate Limit Hz',
             ],
         ],
     ];

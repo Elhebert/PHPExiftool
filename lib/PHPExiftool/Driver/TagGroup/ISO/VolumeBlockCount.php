@@ -28,13 +28,14 @@ class VolumeBlockCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Block Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 151998
+             * line : 104691
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeBlockCount extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:VolumeBlockCount',
             'desc' => [
+                'en' => 'Volume Block Count',
             ],
         ],
     ];

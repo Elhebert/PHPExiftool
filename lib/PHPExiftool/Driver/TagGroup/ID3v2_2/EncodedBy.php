@@ -28,13 +28,14 @@ class EncodedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoded By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148284
+             * line : 103014
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodedBy extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:EncodedBy',
             'desc' => [
+                'en' => 'Encoded By',
             ],
         ],
     ];

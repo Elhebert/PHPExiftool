@@ -28,13 +28,14 @@ class Highlight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337275
+             * line : 236066
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Highlight extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Highlight',
             'desc' => [
+                'en' => 'Highlight',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337282
+             * line : 236069
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Highlight extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Highlight',
             'desc' => [
+                'en' => 'Highlight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumWBEntries extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Num WB Entries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::WBInfo
-             * line : 280799
+             * line : 194720
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NumWBEntries extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:NumWBEntries',
             'desc' => [
+                'en' => 'Num WB Entries',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::WBInfo2
-             * line : 281324
+             * line : 195245
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NumWBEntries extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::WBInfo2.PanasonicRaw:NumWBEntries',
             'desc' => [
+                'en' => 'Num WB Entries',
             ],
         ],
     ];

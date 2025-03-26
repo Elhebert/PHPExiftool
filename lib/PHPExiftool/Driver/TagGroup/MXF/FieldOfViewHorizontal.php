@@ -28,13 +28,14 @@ class FieldOfViewHorizontal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169263
+             * line : 115672
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FieldOfViewHorizontal extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FieldOfViewHorizontal',
             'desc' => [
+                'en' => 'Field Of View Horizontal',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170329
+             * line : 116589
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FieldOfViewHorizontal extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FieldOfViewHorizontal',
             'desc' => [
+                'en' => 'Field Of View Horizontal',
             ],
         ],
     ];

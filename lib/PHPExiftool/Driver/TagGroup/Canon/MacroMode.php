@@ -28,13 +28,14 @@ class MacroMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 55641
+             * line : 43375
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacroMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:MacroMode',
             'desc' => [
+                'en' => 'Macro Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovieDXCropAlert extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie DX Crop Alert',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201738
+             * line : 136632
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieDXCropAlert extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieDXCropAlert',
             'desc' => [
+                'en' => 'Movie DX Crop Alert',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ArtistLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Artist Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV3
-             * line : 329680
+             * line : 232184
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ArtistLen extends AbstractTagGroup
              */
             'id' => 'Real::AudioV3.Real-RA3:ArtistLen',
             'desc' => [
+                'en' => 'Artist Len',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PixelIntensityRelationshipLUTSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Intensity Relationship LUT Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99207
+             * line : 72426
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelIntensityRelationshipLUTSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelIntensityRelationshipLUTSeq',
             'desc' => [
+                'en' => 'Pixel Intensity Relationship LUT Seq',
             ],
         ],
     ];

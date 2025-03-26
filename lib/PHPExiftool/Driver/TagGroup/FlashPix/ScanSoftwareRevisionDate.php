@@ -28,13 +28,14 @@ class ScanSoftwareRevisionDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Software Revision Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126476
+             * line : 87695
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSoftwareRevisionDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ScanSoftwareRevisionDate',
             'desc' => [
+                'en' => 'Scan Software Revision Date',
             ],
         ],
     ];

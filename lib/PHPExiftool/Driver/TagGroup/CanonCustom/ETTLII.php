@@ -28,13 +28,14 @@ class ETTLII extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'E-TTL II',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73346
+             * line : 54276
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ETTLII extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ETTLII',
             'desc' => [
+                'en' => 'E-TTL II',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76057
+             * line : 55903
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ETTLII extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:ETTLII',
             'desc' => [
+                'en' => 'E-TTL II',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76578
+             * line : 56150
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ETTLII extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:ETTLII',
             'desc' => [
+                'en' => 'E-TTL II',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions350D
-             * line : 76946
+             * line : 56327
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ETTLII extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions350D.CanonCustom:ETTLII',
             'desc' => [
+                'en' => 'E-TTL II',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 77212
+             * line : 56451
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ETTLII extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:ETTLII',
             'desc' => [
+                'en' => 'E-TTL II',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77696
+             * line : 56686
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class ETTLII extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:ETTLII',
             'desc' => [
+                'en' => 'E-TTL II',
             ],
         ],
     ];

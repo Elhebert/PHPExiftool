@@ -28,13 +28,14 @@ class EraseOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264843
+             * line : 183071
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseOval',
             'desc' => [
+                'en' => 'Erase Oval',
             ],
         ],
     ];

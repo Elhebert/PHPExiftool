@@ -28,13 +28,14 @@ class WaveformPresentationGroupSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Presentation Group Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99545
+             * line : 72756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformPresentationGroupSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformPresentationGroupSequence',
             'desc' => [
+                'en' => 'Waveform Presentation Group Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ErrorCorrectionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Error Correction Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::StreamProperties
-             * line : 2076
+             * line : 1088
              * type : binary
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class ErrorCorrectionType extends AbstractTagGroup
              */
             'id' => 'ASF::StreamProperties.ASF:ErrorCorrectionType',
             'desc' => [
+                'en' => 'Error Correction Type',
             ],
         ],
     ];

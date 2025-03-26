@@ -28,13 +28,14 @@ class TimeStamp1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Stamp 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 15676
+             * line : 11426
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeStamp1 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:TimeStamp1',
             'desc' => [
+                'en' => 'Time Stamp 1',
             ],
         ],
     ];

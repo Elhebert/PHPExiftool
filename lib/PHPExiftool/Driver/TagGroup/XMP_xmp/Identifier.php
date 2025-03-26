@@ -28,13 +28,14 @@ class Identifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412623
+             * line : 290921
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Identifier extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:Identifier',
             'desc' => [
+                'en' => 'Identifier',
             ],
         ],
     ];

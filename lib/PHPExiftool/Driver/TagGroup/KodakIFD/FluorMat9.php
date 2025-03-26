@@ -28,13 +28,14 @@ class FluorMat9 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fluor Mat 9',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156524
+             * line : 107728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FluorMat9 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FluorMat9',
             'desc' => [
+                'en' => 'Fluor Mat 9',
             ],
         ],
     ];

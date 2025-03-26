@@ -28,13 +28,14 @@ class FilmProductCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Product Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158367
+             * line : 108889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmProductCode extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:FilmProductCode',
             'desc' => [
+                'en' => 'Film Product Code',
             ],
         ],
     ];

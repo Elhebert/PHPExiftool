@@ -28,13 +28,14 @@ class TransformedImageTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transformed Image Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::GlobalInfo
-             * line : 124620
+             * line : 87103
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransformedImageTitle extends AbstractTagGroup
              */
             'id' => 'FlashPix::GlobalInfo.FlashPix:TransformedImageTitle',
             'desc' => [
+                'en' => 'Transformed Image Title',
             ],
         ],
     ];

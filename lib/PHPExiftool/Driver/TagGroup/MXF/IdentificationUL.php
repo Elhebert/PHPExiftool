@@ -28,13 +28,14 @@ class IdentificationUL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identification UL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170986
+             * line : 117213
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentificationUL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdentificationUL',
             'desc' => [
+                'en' => 'Identification UL',
             ],
         ],
     ];

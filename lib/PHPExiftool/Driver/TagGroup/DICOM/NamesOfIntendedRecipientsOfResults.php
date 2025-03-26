@@ -28,13 +28,14 @@ class NamesOfIntendedRecipientsOfResults extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Names Of Intended Recipients Of Results',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99869
+             * line : 73071
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NamesOfIntendedRecipientsOfResults extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NamesOfIntendedRecipientsOfResults',
             'desc' => [
+                'en' => 'Names Of Intended Recipients Of Results',
             ],
         ],
     ];

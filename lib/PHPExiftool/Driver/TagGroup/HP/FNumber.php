@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HP::Type6
-             * line : 142246
+             * line : 98432
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'HP::Type6.HP:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

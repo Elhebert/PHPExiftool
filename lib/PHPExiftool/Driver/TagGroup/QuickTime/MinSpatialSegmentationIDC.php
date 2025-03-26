@@ -28,13 +28,14 @@ class MinSpatialSegmentationIDC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Spatial Segmentation IDC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313480
+             * line : 219225
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinSpatialSegmentationIDC extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:MinSpatialSegmentationIDC',
             'desc' => [
+                'en' => 'Min Spatial Segmentation IDC',
             ],
         ],
     ];

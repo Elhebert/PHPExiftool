@@ -28,13 +28,14 @@ class RespiratoryIntervalTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Interval Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98142
+             * line : 71488
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratoryIntervalTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratoryIntervalTime',
             'desc' => [
+                'en' => 'Respiratory Interval Time',
             ],
         ],
     ];

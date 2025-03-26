@@ -28,13 +28,14 @@ class SBAGreenMagentaBAL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SBA Green Magenta BAL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155909
+             * line : 107120
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SBAGreenMagentaBAL extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBAGreenMagentaBAL',
             'desc' => [
+                'en' => 'SBA Green Magenta BAL',
             ],
         ],
     ];

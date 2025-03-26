@@ -28,13 +28,14 @@ class CameraImagingModelSkew extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Imaging Model Skew',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396597
+             * line : 280814
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraImagingModelSkew extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraImagingModelSkew',
             'desc' => [
+                'en' => 'Camera Imaging Model Skew',
             ],
         ],
     ];

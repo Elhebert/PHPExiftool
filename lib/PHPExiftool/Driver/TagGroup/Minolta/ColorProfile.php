@@ -28,13 +28,14 @@ class ColorProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178227
+             * line : 122246
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorProfile extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ColorProfile',
             'desc' => [
+                'en' => 'Color Profile',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AcqreconRecordChecksum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acqrecon Record Checksum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98195
+             * line : 71539
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcqreconRecordChecksum extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcqreconRecordChecksum',
             'desc' => [
+                'en' => 'Acqrecon Record Checksum',
             ],
         ],
     ];

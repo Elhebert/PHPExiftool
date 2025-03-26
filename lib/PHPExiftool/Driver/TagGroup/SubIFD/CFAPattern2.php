@@ -28,13 +28,14 @@ class CFAPattern2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Pattern 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112983
+             * line : 82281
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAPattern2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:CFAPattern2',
             'desc' => [
+                'en' => 'CFA Pattern 2',
             ],
         ],
     ];

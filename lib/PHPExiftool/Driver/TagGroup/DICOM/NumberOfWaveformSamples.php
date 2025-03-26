@@ -28,13 +28,14 @@ class NumberOfWaveformSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Waveform Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99467
+             * line : 72681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfWaveformSamples extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfWaveformSamples',
             'desc' => [
+                'en' => 'Number Of Waveform Samples',
             ],
         ],
     ];

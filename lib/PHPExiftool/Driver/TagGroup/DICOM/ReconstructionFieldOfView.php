@@ -28,13 +28,14 @@ class ReconstructionFieldOfView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96989
+             * line : 70390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionFieldOfView extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconstructionFieldOfView',
             'desc' => [
+                'en' => 'Reconstruction Field Of View',
             ],
         ],
     ];

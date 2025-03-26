@@ -28,13 +28,14 @@ class IPMPControl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IPMP Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323934
+             * line : 228918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IPMPControl extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:IPMPControl',
             'desc' => [
+                'en' => 'IPMP Control',
             ],
         ],
     ];

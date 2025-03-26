@@ -28,13 +28,14 @@ class OverlayBitsGrouped extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Bits Grouped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104327
+             * line : 77400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayBitsGrouped extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayBitsGrouped',
             'desc' => [
+                'en' => 'Overlay Bits Grouped',
             ],
         ],
     ];

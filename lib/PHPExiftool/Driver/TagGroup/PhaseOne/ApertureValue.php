@@ -28,13 +28,14 @@ class ApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303486
+             * line : 210873
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureValue extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ApertureValue',
             'desc' => [
+                'en' => 'Aperture Value',
             ],
         ],
     ];

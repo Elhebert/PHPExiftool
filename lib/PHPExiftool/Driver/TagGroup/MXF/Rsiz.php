@@ -28,13 +28,14 @@ class Rsiz extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rsiz',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172217
+             * line : 118384
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rsiz extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Rsiz',
             'desc' => [
+                'en' => 'Rsiz',
             ],
         ],
     ];

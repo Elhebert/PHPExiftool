@@ -28,13 +28,14 @@ class Element extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Element',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166697
+             * line : 113435
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class Element extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Element',
             'desc' => [
+                'en' => 'Element',
             ],
         ],
     ];

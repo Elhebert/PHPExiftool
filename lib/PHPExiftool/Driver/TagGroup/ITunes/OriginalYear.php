@@ -28,13 +28,14 @@ class OriginalYear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326701
+             * line : 230432
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalYear extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:OriginalYear',
             'desc' => [
+                'en' => 'Original Year',
             ],
         ],
     ];

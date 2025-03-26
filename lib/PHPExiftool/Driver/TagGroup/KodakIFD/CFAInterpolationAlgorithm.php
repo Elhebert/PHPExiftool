@@ -28,13 +28,14 @@ class CFAInterpolationAlgorithm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Interpolation Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156605
+             * line : 107809
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAInterpolationAlgorithm extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CFAInterpolationAlgorithm',
             'desc' => [
+                'en' => 'CFA Interpolation Algorithm',
             ],
         ],
     ];

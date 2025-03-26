@@ -28,13 +28,14 @@ class IsFixedV extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Fixed V',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127780
+             * line : 88720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsFixedV extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:IsFixedV',
             'desc' => [
+                'en' => 'Is Fixed V',
             ],
         ],
     ];

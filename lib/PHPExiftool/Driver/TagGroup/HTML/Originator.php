@@ -28,13 +28,14 @@ class Originator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Originator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142439
+             * line : 98499
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Originator extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Originator',
             'desc' => [
+                'en' => 'Originator',
             ],
         ],
     ];

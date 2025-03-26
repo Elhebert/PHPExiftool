@@ -28,13 +28,14 @@ class SceneRecognition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Recognition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130769
+             * line : 90313
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneRecognition extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:SceneRecognition',
             'desc' => [
+                'en' => 'Scene Recognition',
             ],
         ],
     ];

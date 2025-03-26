@@ -28,13 +28,14 @@ class HardcopyCreationDeviceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hardcopy Creation Device ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95592
+             * line : 69046
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HardcopyCreationDeviceID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HardcopyCreationDeviceID',
             'desc' => [
+                'en' => 'Hardcopy Creation Device ID',
             ],
         ],
     ];

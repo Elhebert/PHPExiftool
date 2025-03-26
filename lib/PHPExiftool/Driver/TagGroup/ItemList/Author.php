@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314126
+             * line : 219769
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Author extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322983
+             * line : 228429
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContractDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contract Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170965
+             * line : 117192
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContractDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractDateTime',
             'desc' => [
+                'en' => 'Contract Date Time',
             ],
         ],
     ];

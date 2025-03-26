@@ -28,13 +28,14 @@ class DoseReferenceType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose Reference Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102990
+             * line : 76086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoseReferenceType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoseReferenceType',
             'desc' => [
+                'en' => 'Dose Reference Type',
             ],
         ],
     ];

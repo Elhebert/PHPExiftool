@@ -28,13 +28,14 @@ class BeamAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97167
+             * line : 70564
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamAngle',
             'desc' => [
+                'en' => 'Beam Angle',
             ],
         ],
     ];

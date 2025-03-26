@@ -28,13 +28,14 @@ class RawValueRangeMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Value Range Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122319
+             * line : 85683
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawValueRangeMin extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:RawValueRangeMin',
             'desc' => [
+                'en' => 'Raw Value Range Min',
             ],
         ],
     ];

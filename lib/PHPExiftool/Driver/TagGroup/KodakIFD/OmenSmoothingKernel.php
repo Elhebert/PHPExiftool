@@ -28,13 +28,14 @@ class OmenSmoothingKernel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Smoothing Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155690
+             * line : 106901
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenSmoothingKernel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenSmoothingKernel',
             'desc' => [
+                'en' => 'Omen Smoothing Kernel',
             ],
         ],
     ];

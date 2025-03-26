@@ -28,13 +28,14 @@ class BypassOverride extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bypass Override',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169414
+             * line : 115818
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BypassOverride extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BypassOverride',
             'desc' => [
+                'en' => 'Bypass Override',
             ],
         ],
     ];

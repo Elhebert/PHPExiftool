@@ -28,13 +28,14 @@ class ControlPointRelativePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Control Point Relative Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103708
+             * line : 76797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ControlPointRelativePosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ControlPointRelativePosition',
             'desc' => [
+                'en' => 'Control Point Relative Position',
             ],
         ],
     ];

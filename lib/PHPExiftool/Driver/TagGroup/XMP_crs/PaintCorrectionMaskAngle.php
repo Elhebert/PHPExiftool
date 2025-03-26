@@ -28,13 +28,14 @@ class PaintCorrectionMaskAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403448
+             * line : 286565
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskAngle extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskAngle',
             'desc' => [
+                'en' => 'Paint Correction Mask Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SeriesFromWhichPrescribed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series From Which Prescribed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98183
+             * line : 71527
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SeriesFromWhichPrescribed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesFromWhichPrescribed',
             'desc' => [
+                'en' => 'Series From Which Prescribed',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98202
+             * line : 71545
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SeriesFromWhichPrescribed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesFromWhichPrescribed',
             'desc' => [
+                'en' => 'Series From Which Prescribed',
             ],
         ],
     ];

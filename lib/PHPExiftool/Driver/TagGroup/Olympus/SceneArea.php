@@ -28,13 +28,14 @@ class SceneArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254735
+             * line : 175881
              * type : int32u
              * writable : true
              * count : 8
@@ -42,12 +43,13 @@ class SceneArea extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:SceneArea',
             'desc' => [
+                'en' => 'Scene Area',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259058
+             * line : 178771
              * type : int32u
              * writable : true
              * count : 8
@@ -55,6 +57,7 @@ class SceneArea extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SceneArea',
             'desc' => [
+                'en' => 'Scene Area',
             ],
         ],
     ];

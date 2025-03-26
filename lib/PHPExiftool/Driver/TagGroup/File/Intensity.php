@@ -28,13 +28,14 @@ class Intensity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166533
+             * line : 113273
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Intensity extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Intensity',
             'desc' => [
+                'en' => 'Intensity',
             ],
         ],
     ];

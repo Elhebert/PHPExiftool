@@ -28,13 +28,14 @@ class FileDeviceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Device ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121250
+             * line : 85121
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileDeviceID extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileDeviceID',
             'desc' => [
+                'en' => 'File Device ID',
             ],
         ],
     ];

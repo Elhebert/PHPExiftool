@@ -28,13 +28,14 @@ class InitializationVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initialization Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SchemeInfo
-             * line : 324469
+             * line : 229255
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitializationVector extends AbstractTagGroup
              */
             'id' => 'QuickTime::SchemeInfo.QuickTime:InitializationVector',
             'desc' => [
+                'en' => 'Initialization Vector',
             ],
         ],
     ];

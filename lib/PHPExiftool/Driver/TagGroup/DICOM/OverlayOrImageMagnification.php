@@ -28,13 +28,14 @@ class OverlayOrImageMagnification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Or Image Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102187
+             * line : 75315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayOrImageMagnification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayOrImageMagnification',
             'desc' => [
+                'en' => 'Overlay Or Image Magnification',
             ],
         ],
     ];

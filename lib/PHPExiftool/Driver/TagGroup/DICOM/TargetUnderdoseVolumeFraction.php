@@ -28,13 +28,14 @@ class TargetUnderdoseVolumeFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Underdose Volume Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103011
+             * line : 76107
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetUnderdoseVolumeFraction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TargetUnderdoseVolumeFraction',
             'desc' => [
+                'en' => 'Target Underdose Volume Fraction',
             ],
         ],
     ];

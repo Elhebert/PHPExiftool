@@ -28,13 +28,14 @@ class EdgeMapX4 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edge Map X4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155421
+             * line : 106634
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EdgeMapX4 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EdgeMapX4',
             'desc' => [
+                'en' => 'Edge Map X4',
             ],
         ],
     ];

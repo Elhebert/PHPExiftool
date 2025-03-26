@@ -28,13 +28,14 @@ class NominalInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95676
+             * line : 69124
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalInterval extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalInterval',
             'desc' => [
+                'en' => 'Nominal Interval',
             ],
         ],
     ];

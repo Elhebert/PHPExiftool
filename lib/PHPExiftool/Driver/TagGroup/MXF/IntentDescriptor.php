@@ -28,13 +28,14 @@ class IntentDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intent Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170198
+             * line : 116475
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class IntentDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntentDescriptor',
             'desc' => [
+                'en' => 'Intent Descriptor',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170201
+             * line : 116478
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class IntentDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntentDescriptor',
             'desc' => [
+                'en' => 'Intent Descriptor',
             ],
         ],
     ];

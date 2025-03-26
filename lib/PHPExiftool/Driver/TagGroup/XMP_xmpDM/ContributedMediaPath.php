@@ -28,13 +28,14 @@ class ContributedMediaPath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributed Media Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413015
+             * line : 291172
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributedMediaPath extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaPath',
             'desc' => [
+                'en' => 'Contributed Media Path',
             ],
         ],
     ];

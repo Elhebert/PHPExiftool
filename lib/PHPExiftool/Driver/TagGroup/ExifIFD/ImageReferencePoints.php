@@ -28,13 +28,14 @@ class ImageReferencePoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Reference Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112876
+             * line : 82230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageReferencePoints extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageReferencePoints',
             'desc' => [
+                'en' => 'Image Reference Points',
             ],
         ],
     ];

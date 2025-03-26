@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337397
+             * line : 236099
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShotDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171152
+             * line : 117372
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ShotDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotDescription',
             'desc' => [
+                'en' => 'Shot Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171156
+             * line : 117375
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ShotDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotDescription',
             'desc' => [
+                'en' => 'Shot Description',
             ],
         ],
     ];

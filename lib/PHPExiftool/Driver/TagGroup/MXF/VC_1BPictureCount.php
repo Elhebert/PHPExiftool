@@ -28,13 +28,14 @@ class VC_1BPictureCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1B Picture Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172394
+             * line : 118555
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1BPictureCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1BPictureCount',
             'desc' => [
+                'en' => 'VC-1B Picture Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MinFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 163995
+             * line : 111558
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
     ];

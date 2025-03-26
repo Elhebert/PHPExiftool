@@ -28,13 +28,14 @@ class Length extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328555
+             * line : 231687
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Length extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Length',
             'desc' => [
+                'en' => 'Length',
             ],
         ],
     ];

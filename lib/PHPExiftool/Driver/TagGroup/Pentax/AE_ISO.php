@@ -28,13 +28,14 @@ class AE_ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282683
+             * line : 196270
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AE_ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AE_ISO',
             'desc' => [
+                'en' => 'AE ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283041
+             * line : 196479
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AE_ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:AE_ISO',
             'desc' => [
+                'en' => 'AE ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::AEInfo3
-             * line : 283286
+             * line : 196590
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AE_ISO extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo3.Pentax:AE_ISO',
             'desc' => [
+                'en' => 'AE ISO',
             ],
         ],
     ];

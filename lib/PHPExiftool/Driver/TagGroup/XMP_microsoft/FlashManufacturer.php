@@ -28,13 +28,14 @@ class FlashManufacturer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174345
+             * line : 120079
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashManufacturer extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:FlashManufacturer',
             'desc' => [
+                'en' => 'Flash Manufacturer',
             ],
         ],
     ];

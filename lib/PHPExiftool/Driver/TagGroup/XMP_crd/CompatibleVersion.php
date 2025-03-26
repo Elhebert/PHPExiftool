@@ -28,13 +28,14 @@ class CompatibleVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compatible Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398754
+             * line : 282350
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompatibleVersion extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CompatibleVersion',
             'desc' => [
+                'en' => 'Compatible Version',
             ],
         ],
     ];

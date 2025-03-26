@@ -28,13 +28,14 @@ class ImageWorkstationMake extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Workstation Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303784
+             * line : 211027
              * type : string
              * writable : false
              * count : 20
@@ -42,6 +43,7 @@ class ImageWorkstationMake extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ImageWorkstationMake',
             'desc' => [
+                'en' => 'Image Workstation Make',
             ],
         ],
     ];

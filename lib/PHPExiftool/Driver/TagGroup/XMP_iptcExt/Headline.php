@@ -28,13 +28,14 @@ class Headline extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Headline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409334
+             * line : 289125
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Headline extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:Headline',
             'desc' => [
+                'en' => 'Headline',
             ],
         ],
     ];

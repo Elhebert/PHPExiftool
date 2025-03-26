@@ -28,13 +28,14 @@ class GenFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GenMediaInfo
-             * line : 313244
+             * line : 218991
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class GenFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::GenMediaInfo.QuickTime:GenFlags',
             'desc' => [
+                'en' => 'Gen Flags',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SliceCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170799
+             * line : 117030
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SliceCount',
             'desc' => [
+                'en' => 'Slice Count',
             ],
         ],
     ];

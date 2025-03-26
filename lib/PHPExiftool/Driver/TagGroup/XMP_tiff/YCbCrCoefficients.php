@@ -28,13 +28,14 @@ class YCbCrCoefficients extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Coefficients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412410
+             * line : 290843
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YCbCrCoefficients extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:YCbCrCoefficients',
             'desc' => [
+                'en' => 'Y Cb Cr Coefficients',
             ],
         ],
     ];

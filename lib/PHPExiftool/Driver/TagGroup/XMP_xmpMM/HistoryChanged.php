@@ -28,13 +28,14 @@ class HistoryChanged extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'History Changed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413887
+             * line : 291914
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HistoryChanged extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:HistoryChanged',
             'desc' => [
+                'en' => 'History Changed',
             ],
         ],
     ];

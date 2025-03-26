@@ -28,13 +28,14 @@ class CompatibleFontName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compatible Font Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127935
+             * line : 88806
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompatibleFontName extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:CompatibleFontName',
             'desc' => [
+                'en' => 'Compatible Font Name',
             ],
         ],
     ];

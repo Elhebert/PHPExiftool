@@ -28,13 +28,14 @@ class SensorWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333529
+             * line : 233873
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
     ];

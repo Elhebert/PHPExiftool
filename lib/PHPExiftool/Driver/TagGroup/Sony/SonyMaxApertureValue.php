@@ -28,13 +28,14 @@ class SonyMaxApertureValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Max Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387611
+             * line : 273701
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyMaxApertureValue extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:SonyMaxApertureValue',
             'desc' => [
+                'en' => 'Sony Max Aperture Value',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391064
+             * line : 276784
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SonyMaxApertureValue extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:SonyMaxApertureValue',
             'desc' => [
+                'en' => 'Sony Max Aperture Value',
             ],
         ],
     ];

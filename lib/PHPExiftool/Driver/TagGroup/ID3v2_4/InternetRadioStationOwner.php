@@ -28,13 +28,14 @@ class InternetRadioStationOwner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Internet Radio Station Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149587
+             * line : 103699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InternetRadioStationOwner extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:InternetRadioStationOwner',
             'desc' => [
+                'en' => 'Internet Radio Station Owner',
             ],
         ],
     ];

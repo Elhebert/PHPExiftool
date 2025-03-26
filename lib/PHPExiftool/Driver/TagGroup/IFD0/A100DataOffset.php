@@ -28,13 +28,14 @@ class A100DataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'A100 Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111633
+             * line : 81714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class A100DataOffset extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:A100DataOffset',
             'desc' => [
+                'en' => 'A100 Data Offset',
             ],
         ],
     ];

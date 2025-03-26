@@ -28,13 +28,14 @@ class ImageFormatSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Format Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171463
+             * line : 117664
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFormatSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ImageFormatSet',
             'desc' => [
+                'en' => 'Image Format Set',
             ],
         ],
     ];

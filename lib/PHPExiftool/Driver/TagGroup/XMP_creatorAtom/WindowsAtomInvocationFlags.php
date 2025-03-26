@@ -28,13 +28,14 @@ class WindowsAtomInvocationFlags extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Windows Atom Invocation Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401489
+             * line : 284752
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WindowsAtomInvocationFlags extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:WindowsAtomInvocationFlags',
             'desc' => [
+                'en' => 'Windows Atom Invocation Flags',
             ],
         ],
     ];

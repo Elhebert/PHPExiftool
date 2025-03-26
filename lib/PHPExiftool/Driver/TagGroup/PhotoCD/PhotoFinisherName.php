@@ -28,13 +28,14 @@ class PhotoFinisherName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Photo Finisher Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303821
+             * line : 211056
              * type : string
              * writable : false
              * count : 60
@@ -42,6 +43,7 @@ class PhotoFinisherName extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:PhotoFinisherName',
             'desc' => [
+                'en' => 'Photo Finisher Name',
             ],
         ],
     ];

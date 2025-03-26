@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337181
+             * line : 236045
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpecialEffectLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Special Effect Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89892
+             * line : 64954
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpecialEffectLevel extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:SpecialEffectLevel',
             'desc' => [
+                'en' => 'Special Effect Level',
             ],
         ],
     ];

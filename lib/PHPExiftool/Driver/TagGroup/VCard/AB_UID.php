@@ -28,13 +28,14 @@ class AB_UID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AB UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395244
+             * line : 279938
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AB_UID extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:AB_UID',
             'desc' => [
+                'en' => 'AB UID',
             ],
         ],
     ];

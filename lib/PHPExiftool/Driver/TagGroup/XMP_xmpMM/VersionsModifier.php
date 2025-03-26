@@ -28,13 +28,14 @@ class VersionsModifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Versions Modifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414331
+             * line : 292336
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionsModifier extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:VersionsModifier',
             'desc' => [
+                'en' => 'Versions Modifier',
             ],
         ],
     ];

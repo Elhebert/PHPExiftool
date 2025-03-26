@@ -28,13 +28,14 @@ class GPSDOP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPSDOP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406606
+             * line : 288168
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDOP extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSDOP',
             'desc' => [
+                'en' => 'GPSDOP',
             ],
         ],
     ];

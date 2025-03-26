@@ -28,13 +28,14 @@ class CoarseMapImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coarse Map Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CoarseData
-             * line : 122392
+             * line : 85717
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoarseMapImageHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::CoarseData.FLIR:CoarseMapImageHeight',
             'desc' => [
+                'en' => 'Coarse Map Image Height',
             ],
         ],
     ];

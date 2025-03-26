@@ -28,13 +28,14 @@ class CompImageMaxExposureAll extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comp Image Max Exposure All',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408518
+             * line : 288580
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompImageMaxExposureAll extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:CompImageMaxExposureAll',
             'desc' => [
+                'en' => 'Comp Image Max Exposure All',
             ],
         ],
     ];

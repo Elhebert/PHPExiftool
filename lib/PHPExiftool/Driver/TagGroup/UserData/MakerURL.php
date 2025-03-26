@@ -28,13 +28,14 @@ class MakerURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325928
+             * line : 229931
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerURL extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:MakerURL',
             'desc' => [
+                'en' => 'Maker URL',
             ],
         ],
     ];

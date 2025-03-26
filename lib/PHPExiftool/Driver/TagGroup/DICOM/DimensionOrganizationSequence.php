@@ -28,13 +28,14 @@ class DimensionOrganizationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimension Organization Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98099
+             * line : 71446
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DimensionOrganizationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DimensionOrganizationSequence',
             'desc' => [
+                'en' => 'Dimension Organization Sequence',
             ],
         ],
     ];

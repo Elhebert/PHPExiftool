@@ -28,13 +28,14 @@ class AFInfo2Version extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Info 2 Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188107
+             * line : 127346
              * type : undef
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class AFInfo2Version extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFInfo2Version',
             'desc' => [
+                'en' => 'AF Info 2 Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::AFInfo2V0400
-             * line : 191016
+             * line : 129823
              * type : undef
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class AFInfo2Version extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2V0400.Nikon:AFInfo2Version',
             'desc' => [
+                'en' => 'AF Info 2 Version',
             ],
         ],
     ];

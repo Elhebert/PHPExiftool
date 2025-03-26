@@ -28,13 +28,14 @@ class FinalFrameBlocks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Final Frame Blocks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::NewHeader
-             * line : 358
+             * line : 162
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FinalFrameBlocks extends AbstractTagGroup
              */
             'id' => 'APE::NewHeader.MAC:FinalFrameBlocks',
             'desc' => [
+                'en' => 'Final Frame Blocks',
             ],
         ],
         1 => [
             /**
              * table_name : APE::OldHeader
-             * line : 443
+             * line : 196
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FinalFrameBlocks extends AbstractTagGroup
              */
             'id' => 'APE::OldHeader.MAC:FinalFrameBlocks',
             'desc' => [
+                'en' => 'Final Frame Blocks',
             ],
         ],
     ];

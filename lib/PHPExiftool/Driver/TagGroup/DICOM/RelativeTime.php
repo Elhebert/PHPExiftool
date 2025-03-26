@@ -28,13 +28,14 @@ class RelativeTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101471
+             * line : 74619
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelativeTime',
             'desc' => [
+                'en' => 'Relative Time',
             ],
         ],
     ];

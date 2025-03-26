@@ -28,13 +28,14 @@ class DictionaryShortName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dictionary Short Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273562
+             * line : 190769
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DictionaryShortName extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:DictionaryShortName',
             'desc' => [
+                'en' => 'Dictionary Short Name',
             ],
         ],
     ];

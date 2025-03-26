@@ -28,13 +28,14 @@ class RecLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rec Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::prod
-             * line : 143071
+             * line : 98801
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecLocation extends AbstractTagGroup
              */
             'id' => 'HTML::prod.HTML-prod:RecLocation',
             'desc' => [
+                'en' => 'Rec Location',
             ],
         ],
     ];

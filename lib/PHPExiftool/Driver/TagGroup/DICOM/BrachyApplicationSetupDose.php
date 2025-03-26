@@ -28,13 +28,14 @@ class BrachyApplicationSetupDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brachy Application Setup Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103122
+             * line : 76218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrachyApplicationSetupDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BrachyApplicationSetupDose',
             'desc' => [
+                'en' => 'Brachy Application Setup Dose',
             ],
         ],
     ];

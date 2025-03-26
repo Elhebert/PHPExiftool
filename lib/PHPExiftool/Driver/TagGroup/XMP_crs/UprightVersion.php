@@ -28,13 +28,14 @@ class UprightVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404578
+             * line : 287605
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightVersion extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:UprightVersion',
             'desc' => [
+                'en' => 'Upright Version',
             ],
         ],
     ];

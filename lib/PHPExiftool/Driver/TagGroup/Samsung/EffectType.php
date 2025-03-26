@@ -28,13 +28,14 @@ class EffectType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effect Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334190
+             * line : 234270
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectType extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:EffectType',
             'desc' => [
+                'en' => 'Effect Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StorageSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331481
+             * line : 233037
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageSerialNumber extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:StorageSerialNumber',
             'desc' => [
+                'en' => 'Storage Serial Number',
             ],
         ],
     ];

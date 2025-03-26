@@ -28,13 +28,14 @@ class XCFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XCF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Header
-             * line : 131451
+             * line : 90726
              * type : string
              * writable : false
              * count : 5
@@ -42,6 +43,7 @@ class XCFVersion extends AbstractTagGroup
              */
             'id' => 'GIMP::Header.GIMP:XCFVersion',
             'desc' => [
+                'en' => 'XCF Version',
             ],
         ],
     ];

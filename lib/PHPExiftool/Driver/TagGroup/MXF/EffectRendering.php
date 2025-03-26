@@ -28,13 +28,14 @@ class EffectRendering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effect Rendering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169507
+             * line : 115905
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectRendering extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EffectRendering',
             'desc' => [
+                'en' => 'Effect Rendering',
             ],
         ],
     ];

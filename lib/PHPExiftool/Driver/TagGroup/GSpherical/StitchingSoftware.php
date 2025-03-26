@@ -28,13 +28,14 @@ class StitchingSoftware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stitching Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397251
+             * line : 281322
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StitchingSoftware extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:StitchingSoftware',
             'desc' => [
+                'en' => 'Stitching Software',
             ],
         ],
     ];

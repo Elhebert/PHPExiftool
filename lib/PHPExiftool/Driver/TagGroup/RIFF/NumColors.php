@@ -28,13 +28,14 @@ class NumColors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328348
+             * line : 231592
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumColors extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:NumColors',
             'desc' => [
+                'en' => 'Num Colors',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpecifiedChannelTotalTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specified Channel Total Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102864
+             * line : 75960
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecifiedChannelTotalTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecifiedChannelTotalTime',
             'desc' => [
+                'en' => 'Specified Channel Total Time',
             ],
         ],
     ];

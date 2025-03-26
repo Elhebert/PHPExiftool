@@ -28,13 +28,14 @@ class IconImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Icon Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101859
+             * line : 75000
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IconImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IconImageSequence',
             'desc' => [
+                'en' => 'Icon Image Sequence',
             ],
         ],
     ];

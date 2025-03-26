@@ -28,13 +28,14 @@ class CoringFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Coring Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255318
+             * line : 176206
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CoringFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CoringFilter',
             'desc' => [
+                'en' => 'Coring Filter',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259036
+             * line : 178759
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CoringFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:CoringFilter',
             'desc' => [
+                'en' => 'Coring Filter',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260928
+             * line : 180225
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class CoringFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CoringFilter',
             'desc' => [
+                'en' => 'Coring Filter',
             ],
         ],
     ];

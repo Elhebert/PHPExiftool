@@ -28,13 +28,14 @@ class Planes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Planes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3236
+             * line : 2027
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Planes extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:Planes',
             'desc' => [
+                'en' => 'Planes',
             ],
         ],
         1 => [
             /**
              * table_name : BMP::OS2
-             * line : 3532
+             * line : 2171
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Planes extends AbstractTagGroup
              */
             'id' => 'BMP::OS2.File:Planes',
             'desc' => [
+                'en' => 'Planes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DCGeoreferenceProtocol extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Georeference Protocol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106902
+             * line : 79073
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCGeoreferenceProtocol extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCGeoreferenceProtocol',
             'desc' => [
+                'en' => 'DC Georeference Protocol',
             ],
         ],
     ];

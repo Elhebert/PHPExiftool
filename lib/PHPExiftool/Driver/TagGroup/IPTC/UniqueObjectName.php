@@ -28,13 +28,14 @@ class UniqueObjectName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Object Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151309
+             * line : 104373
              * type : string
              * writable : true
              * count : 80
@@ -42,6 +43,7 @@ class UniqueObjectName extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:UniqueObjectName',
             'desc' => [
+                'en' => 'Unique Object Name',
             ],
         ],
     ];

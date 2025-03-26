@@ -28,13 +28,14 @@ class ClosedCaptionSubtitlesFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Closed Caption Subtitles Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169447
+             * line : 115851
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClosedCaptionSubtitlesFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClosedCaptionSubtitlesFlag',
             'desc' => [
+                'en' => 'Closed Caption Subtitles Flag',
             ],
         ],
     ];

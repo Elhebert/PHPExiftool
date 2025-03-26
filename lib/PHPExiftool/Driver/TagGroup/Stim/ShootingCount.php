@@ -28,13 +28,14 @@ class ShootingCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shooting Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394706
+             * line : 279620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShootingCount extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:ShootingCount',
             'desc' => [
+                'en' => 'Shooting Count',
             ],
         ],
     ];

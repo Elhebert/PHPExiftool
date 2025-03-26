@@ -28,13 +28,14 @@ class SingleSequenceFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Single Sequence Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171220
+             * line : 117432
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SingleSequenceFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SingleSequenceFlag',
             'desc' => [
+                'en' => 'Single Sequence Flag',
             ],
         ],
     ];

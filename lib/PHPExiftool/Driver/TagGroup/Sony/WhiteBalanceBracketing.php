@@ -28,13 +28,14 @@ class WhiteBalanceBracketing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Bracketing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353048
+             * line : 246474
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceBracketing extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:WhiteBalanceBracketing',
             'desc' => [
+                'en' => 'White Balance Bracketing',
             ],
         ],
     ];

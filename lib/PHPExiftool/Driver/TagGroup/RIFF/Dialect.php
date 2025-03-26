@@ -28,13 +28,14 @@ class Dialect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dialect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::CSET
-             * line : 327832
+             * line : 231380
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dialect extends AbstractTagGroup
              */
             'id' => 'RIFF::CSET.RIFF:Dialect',
             'desc' => [
+                'en' => 'Dialect',
             ],
         ],
     ];

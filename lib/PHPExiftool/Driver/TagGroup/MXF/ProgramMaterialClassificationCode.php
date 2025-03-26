@@ -28,13 +28,14 @@ class ProgramMaterialClassificationCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program Material Classification Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170134
+             * line : 116442
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramMaterialClassificationCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgramMaterialClassificationCode',
             'desc' => [
+                'en' => 'Program Material Classification Code',
             ],
         ],
     ];

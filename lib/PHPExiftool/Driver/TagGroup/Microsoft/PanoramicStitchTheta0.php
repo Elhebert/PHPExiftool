@@ -28,13 +28,14 @@ class PanoramicStitchTheta0 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panoramic Stitch Theta 0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Stitch
-             * line : 174302
+             * line : 120051
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramicStitchTheta0 extends AbstractTagGroup
              */
             'id' => 'Microsoft::Stitch.Microsoft:PanoramicStitchTheta0',
             'desc' => [
+                'en' => 'Panoramic Stitch Theta 0',
             ],
         ],
     ];

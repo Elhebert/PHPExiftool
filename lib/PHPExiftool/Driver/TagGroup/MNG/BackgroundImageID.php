@@ -28,13 +28,14 @@ class BackgroundImageID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Image ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Background
-             * line : 164498
+             * line : 111802
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundImageID extends AbstractTagGroup
              */
             'id' => 'MNG::Background.MNG:BackgroundImageID',
             'desc' => [
+                'en' => 'Background Image ID',
             ],
         ],
     ];

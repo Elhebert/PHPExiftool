@@ -28,13 +28,14 @@ class RatingSourceLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Source Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409678
+             * line : 289438
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingSourceLink extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingSourceLink',
             'desc' => [
+                'en' => 'Rating Source Link',
             ],
         ],
     ];

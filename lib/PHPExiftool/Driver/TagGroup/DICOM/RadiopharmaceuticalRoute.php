@@ -28,13 +28,14 @@ class RadiopharmaceuticalRoute extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiopharmaceutical Route',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95709
+             * line : 69157
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiopharmaceuticalRoute extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiopharmaceuticalRoute',
             'desc' => [
+                'en' => 'Radiopharmaceutical Route',
             ],
         ],
     ];

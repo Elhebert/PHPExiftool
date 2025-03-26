@@ -28,13 +28,14 @@ class Face10Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 10 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::FaceInfo1
-             * line : 83935
+             * line : 61521
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class Face10Position extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo1.Casio:Face10Position',
             'desc' => [
+                'en' => 'Face 10 Position',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::FaceInfo2
-             * line : 84081
+             * line : 61578
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class Face10Position extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo2.Casio:Face10Position',
             'desc' => [
+                'en' => 'Face 10 Position',
             ],
         ],
     ];

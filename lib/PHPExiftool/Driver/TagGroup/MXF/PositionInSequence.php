@@ -28,13 +28,14 @@ class PositionInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168245
+             * line : 114740
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PositionInSequence',
             'desc' => [
+                'en' => 'Position In Sequence',
             ],
         ],
     ];

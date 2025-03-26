@@ -28,13 +28,14 @@ class TitleOfParts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title Of Parts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124494
+             * line : 86982
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitleOfParts extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:TitleOfParts',
             'desc' => [
+                'en' => 'Title Of Parts',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VolumeSetDiskCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Set Disk Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152002
+             * line : 104694
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeSetDiskCount extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:VolumeSetDiskCount',
             'desc' => [
+                'en' => 'Volume Set Disk Count',
             ],
         ],
     ];

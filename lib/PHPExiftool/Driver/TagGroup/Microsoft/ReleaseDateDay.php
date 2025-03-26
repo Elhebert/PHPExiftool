@@ -28,13 +28,14 @@ class ReleaseDateDay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Release Date Day',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174794
+             * line : 120335
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReleaseDateDay extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ReleaseDateDay',
             'desc' => [
+                'en' => 'Release Date Day',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 272818
+             * line : 190524
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

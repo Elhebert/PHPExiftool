@@ -28,13 +28,14 @@ class People extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'People',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ExpressionMedia
-             * line : 396836
+             * line : 281040
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class People extends AbstractTagGroup
              */
             'id' => 'XMP::ExpressionMedia.XMP-expressionmedia:People',
             'desc' => [
+                'en' => 'People',
             ],
         ],
     ];

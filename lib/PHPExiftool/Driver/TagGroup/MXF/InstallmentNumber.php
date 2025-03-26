@@ -28,13 +28,14 @@ class InstallmentNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Installment Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170666
+             * line : 116901
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstallmentNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InstallmentNumber',
             'desc' => [
+                'en' => 'Installment Number',
             ],
         ],
     ];

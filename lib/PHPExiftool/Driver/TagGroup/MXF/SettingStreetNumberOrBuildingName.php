@@ -28,13 +28,14 @@ class SettingStreetNumberOrBuildingName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Street Number Or Building Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168452
+             * line : 114944
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingStreetNumberOrBuildingName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingStreetNumberOrBuildingName',
             'desc' => [
+                'en' => 'Setting Street Number Or Building Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170513
+             * line : 116754
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingStreetNumberOrBuildingName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingStreetNumberOrBuildingName',
             'desc' => [
+                'en' => 'Setting Street Number Or Building Name',
             ],
         ],
     ];

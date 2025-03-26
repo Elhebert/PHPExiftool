@@ -28,13 +28,14 @@ class SubfileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subfile Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PreviewIFD
-             * line : 204587
+             * line : 137678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubfileType extends AbstractTagGroup
              */
             'id' => 'Nikon::PreviewIFD.PreviewIFD:SubfileType',
             'desc' => [
+                'en' => 'Subfile Type',
             ],
         ],
     ];

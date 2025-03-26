@@ -28,13 +28,14 @@ class MilitaryRank extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Military Rank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95257
+             * line : 68722
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MilitaryRank extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MilitaryRank',
             'desc' => [
+                'en' => 'Military Rank',
             ],
         ],
     ];

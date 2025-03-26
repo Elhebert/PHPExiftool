@@ -28,13 +28,14 @@ class InternalNDFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal ND Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277716
+             * line : 193158
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalNDFilter extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:InternalNDFilter',
             'desc' => [
+                'en' => 'Internal ND Filter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118502
+             * line : 83952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageType',
             'desc' => [
+                'en' => 'Image Type',
             ],
         ],
     ];

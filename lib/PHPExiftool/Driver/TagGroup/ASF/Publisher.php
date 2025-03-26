@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1537
+             * line : 751
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

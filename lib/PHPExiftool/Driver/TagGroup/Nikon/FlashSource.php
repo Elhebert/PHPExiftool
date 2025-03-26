@@ -28,13 +28,14 @@ class FlashSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192353
+             * line : 130314
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashSource extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashSource',
             'desc' => [
+                'en' => 'Flash Source',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 192860
+             * line : 130649
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashSource extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashSource',
             'desc' => [
+                'en' => 'Flash Source',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193432
+             * line : 131016
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashSource extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashSource',
             'desc' => [
+                'en' => 'Flash Source',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194056
+             * line : 131424
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashSource extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashSource',
             'desc' => [
+                'en' => 'Flash Source',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194668
+             * line : 131823
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashSource extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashSource',
             'desc' => [
+                'en' => 'Flash Source',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::FlashInfo0300
-             * line : 195155
+             * line : 132166
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class FlashSource extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0300.Nikon:FlashSource',
             'desc' => [
+                'en' => 'Flash Source',
             ],
         ],
     ];

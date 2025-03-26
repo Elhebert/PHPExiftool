@@ -28,13 +28,14 @@ class ReferencedSegmentNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Segment Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101091
+             * line : 74241
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSegmentNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSegmentNumber',
             'desc' => [
+                'en' => 'Referenced Segment Number',
             ],
         ],
     ];

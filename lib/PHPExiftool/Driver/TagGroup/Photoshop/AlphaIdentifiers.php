@@ -28,13 +28,14 @@ class AlphaIdentifiers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Identifiers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305580
+             * line : 212334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaIdentifiers extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:AlphaIdentifiers',
             'desc' => [
+                'en' => 'Alpha Identifiers',
             ],
         ],
     ];

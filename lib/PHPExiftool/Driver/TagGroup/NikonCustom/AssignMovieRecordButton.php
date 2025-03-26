@@ -28,13 +28,14 @@ class AssignMovieRecordButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Movie Record Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216116
+             * line : 145163
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignMovieRecordButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AssignMovieRecordButton',
             'desc' => [
+                'en' => 'Assign Movie Record Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231264
+             * line : 155523
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AssignMovieRecordButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AssignMovieRecordButton',
             'desc' => [
+                'en' => 'Assign Movie Record Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 236740
+             * line : 159870
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AssignMovieRecordButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AssignMovieRecordButton',
             'desc' => [
+                'en' => 'Assign Movie Record Button',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PointCoordinatesData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Point Coordinates Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101163
+             * line : 74313
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PointCoordinatesData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PointCoordinatesData',
             'desc' => [
+                'en' => 'Point Coordinates Data',
             ],
         ],
     ];

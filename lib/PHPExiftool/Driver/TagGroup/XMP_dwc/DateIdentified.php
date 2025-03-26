@@ -28,13 +28,14 @@ class DateIdentified extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Identified',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106317
+             * line : 78635
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateIdentified extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DateIdentified',
             'desc' => [
+                'en' => 'Date Identified',
             ],
         ],
     ];

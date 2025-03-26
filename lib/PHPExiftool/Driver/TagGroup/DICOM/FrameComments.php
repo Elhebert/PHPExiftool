@@ -28,13 +28,14 @@ class FrameComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98075
+             * line : 71422
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameComments',
             'desc' => [
+                'en' => 'Frame Comments',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GLPI_Unknown4 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GLPI Unknown 4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GLPI
-             * line : 139355
+             * line : 97548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GLPI_Unknown4 extends AbstractTagGroup
              */
             'id' => 'GoPro::GLPI.GoPro:GLPI_Unknown4',
             'desc' => [
+                'en' => 'GLPI Unknown 4',
             ],
         ],
     ];

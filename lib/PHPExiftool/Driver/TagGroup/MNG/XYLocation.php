@@ -28,13 +28,14 @@ class XYLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XY Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::DefineObject
-             * line : 164756
+             * line : 111972
              * type : int32u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class XYLocation extends AbstractTagGroup
              */
             'id' => 'MNG::DefineObject.MNG:XYLocation',
             'desc' => [
+                'en' => 'XY Location',
             ],
         ],
     ];

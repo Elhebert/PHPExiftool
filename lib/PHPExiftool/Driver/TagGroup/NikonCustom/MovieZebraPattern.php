@@ -28,13 +28,14 @@ class MovieZebraPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Zebra Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242435
+             * line : 165511
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieZebraPattern extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieZebraPattern',
             'desc' => [
+                'en' => 'Movie Zebra Pattern',
             ],
         ],
     ];

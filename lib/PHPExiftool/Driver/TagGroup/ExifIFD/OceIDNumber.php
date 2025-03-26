@@ -28,13 +28,14 @@ class OceIDNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oce ID Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118735
+             * line : 84027
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OceIDNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OceIDNumber',
             'desc' => [
+                'en' => 'Oce ID Number',
             ],
         ],
     ];

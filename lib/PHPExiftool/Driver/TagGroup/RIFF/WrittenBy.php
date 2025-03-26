@@ -28,13 +28,14 @@ class WrittenBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Written By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328474
+             * line : 231643
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WrittenBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:WrittenBy',
             'desc' => [
+                'en' => 'Written By',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PatientTransportArrangements extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Transport Arrangements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99848
+             * line : 73050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientTransportArrangements extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientTransportArrangements',
             'desc' => [
+                'en' => 'Patient Transport Arrangements',
             ],
         ],
     ];

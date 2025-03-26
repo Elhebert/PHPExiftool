@@ -28,13 +28,14 @@ class ShutterLowerHorizontalEdge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Lower Horizontal Edge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96072
+             * line : 69493
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterLowerHorizontalEdge extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShutterLowerHorizontalEdge',
             'desc' => [
+                'en' => 'Shutter Lower Horizontal Edge',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MandatoryBackground extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mandatory Background',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Background
-             * line : 164473
+             * line : 111785
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MandatoryBackground extends AbstractTagGroup
              */
             'id' => 'MNG::Background.MNG:MandatoryBackground',
             'desc' => [
+                'en' => 'Mandatory Background',
             ],
         ],
     ];

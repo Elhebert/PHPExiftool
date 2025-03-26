@@ -28,13 +28,14 @@ class BlackDacChannel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Dac Channel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155096
+             * line : 106346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackDacChannel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackDacChannel',
             'desc' => [
+                'en' => 'Black Dac Channel',
             ],
         ],
     ];

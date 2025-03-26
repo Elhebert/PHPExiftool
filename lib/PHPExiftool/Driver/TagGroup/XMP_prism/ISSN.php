@@ -28,13 +28,14 @@ class ISSN extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISSN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410893
+             * line : 290148
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISSN extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ISSN',
             'desc' => [
+                'en' => 'ISSN',
             ],
         ],
     ];

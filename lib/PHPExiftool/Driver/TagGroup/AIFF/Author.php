@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Main
-             * line : 222
+             * line : 115
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'AIFF::Main.AIFF:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

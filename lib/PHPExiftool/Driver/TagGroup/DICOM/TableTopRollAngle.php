@@ -28,13 +28,14 @@ class TableTopRollAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103423
+             * line : 76518
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopRollAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopRollAngle',
             'desc' => [
+                'en' => 'Table Top Roll Angle',
             ],
         ],
     ];

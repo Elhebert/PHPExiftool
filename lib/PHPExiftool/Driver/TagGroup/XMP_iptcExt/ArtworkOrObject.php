@@ -28,13 +28,14 @@ class ArtworkOrObject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork Or Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409081
+             * line : 288901
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtworkOrObject extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkOrObject',
             'desc' => [
+                'en' => 'Artwork Or Object',
             ],
         ],
     ];

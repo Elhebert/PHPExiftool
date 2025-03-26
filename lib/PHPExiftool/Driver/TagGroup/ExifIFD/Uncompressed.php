@@ -28,13 +28,14 @@ class Uncompressed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Uncompressed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118467
+             * line : 83941
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Uncompressed extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Uncompressed',
             'desc' => [
+                'en' => 'Uncompressed',
             ],
         ],
     ];

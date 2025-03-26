@@ -28,13 +28,14 @@ class ForwardLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Forward Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::swf
-             * line : 411355
+             * line : 290517
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ForwardLock extends AbstractTagGroup
              */
             'id' => 'XMP::swf.XMP-swf:ForwardLock',
             'desc' => [
+                'en' => 'Forward Lock',
             ],
         ],
     ];

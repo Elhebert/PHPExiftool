@@ -28,13 +28,14 @@ class StartingRespiratoryAmplitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Starting Respiratory Amplitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98117
+             * line : 71464
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartingRespiratoryAmplitude extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartingRespiratoryAmplitude',
             'desc' => [
+                'en' => 'Starting Respiratory Amplitude',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Elevation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Elevation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V2
-             * line : 282222
+             * line : 196017
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Elevation extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:Elevation',
             'desc' => [
+                'en' => 'Elevation',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V3
-             * line : 282429
+             * line : 196136
              * type : int32s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Elevation extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:Elevation',
             'desc' => [
+                'en' => 'Elevation',
             ],
         ],
     ];

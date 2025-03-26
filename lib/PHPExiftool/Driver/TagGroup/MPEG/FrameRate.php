@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Video
-             * line : 166099
+             * line : 112945
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'MPEG::Video.MPEG:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CryptographicContextObject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cryptographic Context Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172112
+             * line : 118279
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CryptographicContextObject extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CryptographicContextObject',
             'desc' => [
+                'en' => 'Cryptographic Context Object',
             ],
         ],
     ];

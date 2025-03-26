@@ -28,13 +28,14 @@ class VerticalClockOverlaps extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical Clock Overlaps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154919
+             * line : 106211
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class VerticalClockOverlaps extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VerticalClockOverlaps',
             'desc' => [
+                'en' => 'Vertical Clock Overlaps',
             ],
         ],
     ];

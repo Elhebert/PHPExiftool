@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395807
+             * line : 280226
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

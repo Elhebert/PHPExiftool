@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MOV
-             * line : 335757
+             * line : 235571
              * type : string
              * writable : false
              * count : 8
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Sanyo::MOV.Sanyo:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 335994
+             * line : 235616
              * type : string
              * writable : false
              * count : 8
@@ -55,6 +57,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

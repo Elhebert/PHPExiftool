@@ -28,13 +28,14 @@ class SurroundShotVideo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surround Shot Video',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 334294
+             * line : 234356
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurroundShotVideo extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:SurroundShotVideo',
             'desc' => [
+                'en' => 'Surround Shot Video',
             ],
         ],
     ];

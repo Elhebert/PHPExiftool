@@ -28,13 +28,14 @@ class TotalSamplesperLine extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Samplesper Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167841
+             * line : 114398
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalSamplesperLine extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TotalSamplesperLine',
             'desc' => [
+                'en' => 'Total Samplesper Line',
             ],
         ],
     ];

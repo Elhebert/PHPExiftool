@@ -28,13 +28,14 @@ class TableSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96965
+             * line : 70366
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TableSpeed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableSpeed',
             'desc' => [
+                'en' => 'Table Speed',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 97449
+             * line : 70837
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TableSpeed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableSpeed',
             'desc' => [
+                'en' => 'Table Speed',
             ],
         ],
     ];

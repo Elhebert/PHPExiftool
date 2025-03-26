@@ -28,13 +28,14 @@ class X3FillLight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'X3 Fill Light',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337359
+             * line : 236084
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class X3FillLight extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:X3FillLight',
             'desc' => [
+                'en' => 'X3 Fill Light',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337365
+             * line : 236087
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class X3FillLight extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:X3FillLight',
             'desc' => [
+                'en' => 'X3 Fill Light',
             ],
         ],
     ];

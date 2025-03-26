@@ -28,13 +28,14 @@ class MetersetRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meterset Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103849
+             * line : 76938
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetersetRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MetersetRate',
             'desc' => [
+                'en' => 'Meterset Rate',
             ],
         ],
     ];

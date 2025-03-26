@@ -28,13 +28,14 @@ class CalibrationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calibration Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97176
+             * line : 70573
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalibrationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalibrationSequence',
             'desc' => [
+                'en' => 'Calibration Sequence',
             ],
         ],
     ];

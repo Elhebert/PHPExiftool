@@ -28,13 +28,14 @@ class ISOSpeeds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO Speeds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139578
+             * line : 97655
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISOSpeeds extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ISOSpeeds',
             'desc' => [
+                'en' => 'ISO Speeds',
             ],
         ],
     ];

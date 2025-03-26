@@ -28,13 +28,14 @@ class Clarity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clarity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204010
+             * line : 137473
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Clarity extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:Clarity',
             'desc' => [
+                'en' => 'Clarity',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204336
+             * line : 137588
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Clarity extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:Clarity',
             'desc' => [
+                'en' => 'Clarity',
             ],
         ],
     ];

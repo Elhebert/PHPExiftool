@@ -28,13 +28,14 @@ class DateTimeUTC extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Time UTC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 253013
+             * line : 174404
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateTimeUTC extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:DateTimeUTC',
             'desc' => [
+                'en' => 'Date Time UTC',
             ],
         ],
     ];

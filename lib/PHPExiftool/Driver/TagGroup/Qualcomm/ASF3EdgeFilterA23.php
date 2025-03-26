@@ -28,13 +28,14 @@ class ASF3EdgeFilterA23 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF3 Edge Filter A23',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306690
+             * line : 213188
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF3EdgeFilterA23 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF3EdgeFilterA23',
             'desc' => [
+                'en' => 'ASF3 Edge Filter A23',
             ],
         ],
     ];

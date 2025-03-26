@@ -28,13 +28,14 @@ class GradientBasedCorrRangeMaskLumMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Range Mask Lum Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399303
+             * line : 282810
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrRangeMaskLumMax extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrRangeMaskLumMax',
             'desc' => [
+                'en' => 'Gradient Based Corr Range Mask Lum Max',
             ],
         ],
     ];

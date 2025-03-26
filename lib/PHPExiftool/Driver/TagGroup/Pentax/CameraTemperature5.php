@@ -28,13 +28,14 @@ class CameraTemperature5 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature 5',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::TempInfo
-             * line : 301824
+             * line : 210009
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraTemperature5 extends AbstractTagGroup
              */
             'id' => 'Pentax::TempInfo.Pentax:CameraTemperature5',
             'desc' => [
+                'en' => 'Camera Temperature 5',
             ],
         ],
     ];

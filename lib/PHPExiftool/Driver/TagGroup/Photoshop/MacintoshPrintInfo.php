@@ -28,13 +28,14 @@ class MacintoshPrintInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Macintosh Print Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305370
+             * line : 212194
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MacintoshPrintInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:MacintoshPrintInfo',
             'desc' => [
+                'en' => 'Macintosh Print Info',
             ],
         ],
     ];

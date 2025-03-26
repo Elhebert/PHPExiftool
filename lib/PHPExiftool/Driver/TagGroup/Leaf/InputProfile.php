@@ -28,13 +28,14 @@ class InputProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ColorSetup
-             * line : 161812
+             * line : 110541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputProfile extends AbstractTagGroup
              */
             'id' => 'Leaf::ColorSetup.Leaf:InputProfile',
             'desc' => [
+                'en' => 'Input Profile',
             ],
         ],
     ];

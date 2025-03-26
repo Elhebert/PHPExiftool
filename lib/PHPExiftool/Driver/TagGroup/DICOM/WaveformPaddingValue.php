@@ -28,13 +28,14 @@ class WaveformPaddingValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Padding Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104263
+             * line : 77337
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformPaddingValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformPaddingValue',
             'desc' => [
+                'en' => 'Waveform Padding Value',
             ],
         ],
     ];

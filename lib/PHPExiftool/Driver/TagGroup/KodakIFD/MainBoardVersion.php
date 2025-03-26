@@ -28,13 +28,14 @@ class MainBoardVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Main Board Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155030
+             * line : 106280
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MainBoardVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MainBoardVersion',
             'desc' => [
+                'en' => 'Main Board Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashReturn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Return',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125994
+             * line : 87541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashReturn extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FlashReturn',
             'desc' => [
+                'en' => 'Flash Return',
             ],
         ],
     ];

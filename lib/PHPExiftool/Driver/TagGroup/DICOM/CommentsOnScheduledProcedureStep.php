@@ -28,13 +28,14 @@ class CommentsOnScheduledProcedureStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments On Scheduled Procedure Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99765
+             * line : 72969
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommentsOnScheduledProcedureStep extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CommentsOnScheduledProcedureStep',
             'desc' => [
+                'en' => 'Comments On Scheduled Procedure Step',
             ],
         ],
     ];

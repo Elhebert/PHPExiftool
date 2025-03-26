@@ -28,13 +28,14 @@ class AppliedDefocus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Applied Defocus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166464
+             * line : 113205
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppliedDefocus extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AppliedDefocus',
             'desc' => [
+                'en' => 'Applied Defocus',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PrimaryReceiverSuiteAndHost extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Receiver Suite And Host',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98489
+             * line : 71821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryReceiverSuiteAndHost extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimaryReceiverSuiteAndHost',
             'desc' => [
+                'en' => 'Primary Receiver Suite And Host',
             ],
         ],
     ];

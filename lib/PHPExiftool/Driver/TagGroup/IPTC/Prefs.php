@@ -28,13 +28,14 @@ class Prefs extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Prefs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150921
+             * line : 104191
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class Prefs extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Prefs',
             'desc' => [
+                'en' => 'Prefs',
             ],
         ],
     ];

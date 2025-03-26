@@ -28,13 +28,14 @@ class Padding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::cbmp
-             * line : 326564
+             * line : 230331
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Padding extends AbstractTagGroup
              */
             'id' => 'QuickTime::cbmp.QuickTime:Padding',
             'desc' => [
+                'en' => 'Padding',
             ],
         ],
     ];

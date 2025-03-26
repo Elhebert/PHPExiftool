@@ -28,13 +28,14 @@ class OriginalTransmissionReference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Transmission Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150318
+             * line : 103957
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class OriginalTransmissionReference extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:OriginalTransmissionReference',
             'desc' => [
+                'en' => 'Original Transmission Reference',
             ],
         ],
     ];

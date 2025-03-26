@@ -28,13 +28,14 @@ class AppleMailPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173092
+             * line : 119113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailPriority extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailPriority',
             'desc' => [
+                'en' => 'Apple Mail Priority',
             ],
         ],
     ];

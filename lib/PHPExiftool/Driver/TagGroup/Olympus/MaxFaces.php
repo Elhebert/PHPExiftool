@@ -28,13 +28,14 @@ class MaxFaces extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Faces',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255557
+             * line : 176360
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class MaxFaces extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:MaxFaces',
             'desc' => [
+                'en' => 'Max Faces',
             ],
         ],
     ];

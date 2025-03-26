@@ -28,13 +28,14 @@ class BatteryVoltage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Voltage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154888
+             * line : 106181
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BatteryVoltage extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BatteryVoltage',
             'desc' => [
+                'en' => 'Battery Voltage',
             ],
         ],
     ];

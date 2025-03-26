@@ -28,13 +28,14 @@ class Rawrppused extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rawrppused',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397846
+             * line : 281616
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rawrppused extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:Rawrppused',
             'desc' => [
+                'en' => 'Rawrppused',
             ],
         ],
     ];

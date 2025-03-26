@@ -28,13 +28,14 @@ class MaximumBPictureCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum B Picture Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171259
+             * line : 117467
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumBPictureCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaximumBPictureCount',
             'desc' => [
+                'en' => 'Maximum B Picture Count',
             ],
         ],
     ];

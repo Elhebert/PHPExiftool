@@ -28,13 +28,14 @@ class Subject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306066
+             * line : 212613
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Subject extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:Subject',
             'desc' => [
+                'en' => 'Subject',
             ],
         ],
     ];

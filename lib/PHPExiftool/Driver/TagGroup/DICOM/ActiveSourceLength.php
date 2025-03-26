@@ -28,13 +28,14 @@ class ActiveSourceLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Source Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103548
+             * line : 76641
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveSourceLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActiveSourceLength',
             'desc' => [
+                'en' => 'Active Source Length',
             ],
         ],
     ];

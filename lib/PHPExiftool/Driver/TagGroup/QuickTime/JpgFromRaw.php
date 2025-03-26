@@ -28,13 +28,14 @@ class JpgFromRaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Jpg From Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324885
+             * line : 229372
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JpgFromRaw extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:JpgFromRaw',
             'desc' => [
+                'en' => 'Jpg From Raw',
             ],
         ],
     ];

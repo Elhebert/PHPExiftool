@@ -28,13 +28,14 @@ class Director extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Director',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395782
+             * line : 280211
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Director extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Director',
             'desc' => [
+                'en' => 'Director',
             ],
         ],
     ];

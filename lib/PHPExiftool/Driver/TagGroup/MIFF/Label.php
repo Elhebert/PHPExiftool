@@ -28,13 +28,14 @@ class Label extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164356
+             * line : 111736
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Label extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Label',
             'desc' => [
+                'en' => 'Label',
             ],
         ],
     ];

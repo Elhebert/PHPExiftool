@@ -28,13 +28,14 @@ class GraphicLayerRecomDisplayCIELabVal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Layer Recom Display CIE Lab Val',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101402
+             * line : 74550
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicLayerRecomDisplayCIELabVal extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicLayerRecomDisplayCIELabVal',
             'desc' => [
+                'en' => 'Graphic Layer Recom Display CIE Lab Val',
             ],
         ],
     ];

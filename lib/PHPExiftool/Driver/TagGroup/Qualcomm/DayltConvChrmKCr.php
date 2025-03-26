@@ -28,13 +28,14 @@ class DayltConvChrmKCr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Daylt Conv Chrm K Cr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307305
+             * line : 213803
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DayltConvChrmKCr extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DayltConvChrmKCr',
             'desc' => [
+                'en' => 'Daylt Conv Chrm K Cr',
             ],
         ],
     ];

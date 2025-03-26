@@ -28,13 +28,14 @@ class IntervalsAcquired extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervals Acquired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95748
+             * line : 69196
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntervalsAcquired extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntervalsAcquired',
             'desc' => [
+                'en' => 'Intervals Acquired',
             ],
         ],
     ];

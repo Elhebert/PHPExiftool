@@ -28,13 +28,14 @@ class RTPlanGeometry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Plan Geometry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102960
+             * line : 76056
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTPlanGeometry extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTPlanGeometry',
             'desc' => [
+                'en' => 'RT Plan Geometry',
             ],
         ],
     ];

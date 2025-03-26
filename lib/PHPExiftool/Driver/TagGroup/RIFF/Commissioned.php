@@ -28,13 +28,14 @@ class Commissioned extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Commissioned',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328130
+             * line : 231508
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Commissioned extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Commissioned',
             'desc' => [
+                'en' => 'Commissioned',
             ],
         ],
     ];

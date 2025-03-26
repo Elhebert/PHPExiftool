@@ -28,13 +28,14 @@ class TableHorizontalRotationAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Horizontal Rotation Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97209
+             * line : 70606
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableHorizontalRotationAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableHorizontalRotationAngle',
             'desc' => [
+                'en' => 'Table Horizontal Rotation Angle',
             ],
         ],
     ];

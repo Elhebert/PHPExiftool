@@ -28,13 +28,14 @@ class Hobbies extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hobbies',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175820
+             * line : 120996
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Hobbies extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Hobbies',
             'desc' => [
+                'en' => 'Hobbies',
             ],
         ],
     ];

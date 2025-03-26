@@ -28,13 +28,14 @@ class SemanticName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Semantic Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120664
+             * line : 84787
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SemanticName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:SemanticName',
             'desc' => [
+                'en' => 'Semantic Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InputProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Input Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157104
+             * line : 108308
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InputProfile extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:InputProfile',
             'desc' => [
+                'en' => 'Input Profile',
             ],
         ],
     ];

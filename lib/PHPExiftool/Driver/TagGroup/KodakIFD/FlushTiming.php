@@ -28,13 +28,14 @@ class FlushTiming extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flush Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155042
+             * line : 106292
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlushTiming extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FlushTiming',
             'desc' => [
+                'en' => 'Flush Timing',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureBias extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175457
+             * line : 120789
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureBias extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ExposureBias',
             'desc' => [
+                'en' => 'Exposure Bias',
             ],
         ],
     ];

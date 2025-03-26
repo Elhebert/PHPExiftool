@@ -28,13 +28,14 @@ class InterpretationTranscriber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpretation Transcriber',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104095
+             * line : 77181
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretationTranscriber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterpretationTranscriber',
             'desc' => [
+                'en' => 'Interpretation Transcriber',
             ],
         ],
     ];

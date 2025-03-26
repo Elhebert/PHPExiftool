@@ -28,13 +28,14 @@ class HDRPMakerNote extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDRP Maker Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396874
+             * line : 281069
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDRPMakerNote extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:HDRPMakerNote',
             'desc' => [
+                'en' => 'HDRP Maker Note',
             ],
         ],
     ];

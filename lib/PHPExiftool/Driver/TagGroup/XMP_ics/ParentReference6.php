@@ -28,13 +28,14 @@ class ParentReference6 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parent Reference 6',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ics
-             * line : 408891
+             * line : 288818
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParentReference6 extends AbstractTagGroup
              */
             'id' => 'XMP::ics.XMP-ics:ParentReference6',
             'desc' => [
+                'en' => 'Parent Reference 6',
             ],
         ],
     ];

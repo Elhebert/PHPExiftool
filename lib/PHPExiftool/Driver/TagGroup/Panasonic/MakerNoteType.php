@@ -28,13 +28,14 @@ class MakerNoteType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maker Note Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Type2
-             * line : 279665
+             * line : 194240
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MakerNoteType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Type2.Panasonic:MakerNoteType',
             'desc' => [
+                'en' => 'Maker Note Type',
             ],
         ],
     ];

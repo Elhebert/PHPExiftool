@@ -28,13 +28,14 @@ class BinaryFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Binary Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154148
+             * line : 105843
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BinaryFilter extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:BinaryFilter',
             'desc' => [
+                'en' => 'Binary Filter',
             ],
         ],
     ];

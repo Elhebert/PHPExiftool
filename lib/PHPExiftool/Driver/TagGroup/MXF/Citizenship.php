@@ -28,13 +28,14 @@ class Citizenship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Citizenship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171076
+             * line : 117297
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Citizenship extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Citizenship',
             'desc' => [
+                'en' => 'Citizenship',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171079
+             * line : 117300
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Citizenship extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Citizenship',
             'desc' => [
+                'en' => 'Citizenship',
             ],
         ],
     ];

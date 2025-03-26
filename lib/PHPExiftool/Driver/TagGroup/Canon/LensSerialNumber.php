@@ -28,13 +28,14 @@ class LensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 39362
+             * line : 30161
              * type : undef
              * writable : true
              * count : 5
@@ -42,12 +43,13 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfoUnknown
-             * line : 55545
+             * line : 43343
              * type : undef
              * writable : true
              * count : 5
@@ -55,12 +57,13 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoUnknown.Canon:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::LensInfo
-             * line : 64192
+             * line : 48731
              * type : undef
              * writable : true
              * count : 5
@@ -68,6 +71,7 @@ class LensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::LensInfo.Canon:LensSerialNumber',
             'desc' => [
+                'en' => 'Lens Serial Number',
             ],
         ],
     ];

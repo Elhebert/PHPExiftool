@@ -28,13 +28,14 @@ class BitsPerPixel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Screen
-             * line : 131428
+             * line : 90713
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsPerPixel extends AbstractTagGroup
              */
             'id' => 'GIF::Screen.GIF:BitsPerPixel',
             'desc' => [
+                'en' => 'Bits Per Pixel',
             ],
         ],
     ];

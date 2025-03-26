@@ -28,13 +28,14 @@ class WB_RGBLevelsOvercast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Overcast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::WBSettings
-             * line : 339239
+             * line : 237441
              * type : float
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBLevelsOvercast extends AbstractTagGroup
              */
             'id' => 'Sigma::WBSettings.Sigma:WB_RGBLevelsOvercast',
             'desc' => [
+                'en' => 'WB RGB Levels Overcast',
             ],
         ],
     ];

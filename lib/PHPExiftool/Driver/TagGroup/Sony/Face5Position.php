@@ -28,13 +28,14 @@ class Face5Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 5 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FaceInfo
-             * line : 352657
+             * line : 246238
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class Face5Position extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfo.Sony:Face5Position',
             'desc' => [
+                'en' => 'Face 5 Position',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::FaceInfo1
-             * line : 352709
+             * line : 246266
              * type : int16u
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class Face5Position extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfo1.Sony:Face5Position',
             'desc' => [
+                'en' => 'Face 5 Position',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::FaceInfo2
-             * line : 352761
+             * line : 246294
              * type : int16u
              * writable : true
              * count : 4
@@ -68,6 +71,7 @@ class Face5Position extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfo2.Sony:Face5Position',
             'desc' => [
+                'en' => 'Face 5 Position',
             ],
         ],
     ];

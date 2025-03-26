@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323766
+             * line : 228822
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323823
+             * line : 228852
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323841
+             * line : 228855
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

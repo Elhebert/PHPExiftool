@@ -28,13 +28,14 @@ class GeometricalProperties extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geometrical Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99213
+             * line : 72432
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeometricalProperties extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeometricalProperties',
             'desc' => [
+                'en' => 'Geometrical Properties',
             ],
         ],
     ];

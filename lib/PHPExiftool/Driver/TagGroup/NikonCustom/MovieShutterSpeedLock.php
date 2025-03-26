@@ -28,13 +28,14 @@ class MovieShutterSpeedLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Shutter Speed Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242487
+             * line : 165563
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieShutterSpeedLock',
             'desc' => [
+                'en' => 'Movie Shutter Speed Lock',
             ],
         ],
     ];

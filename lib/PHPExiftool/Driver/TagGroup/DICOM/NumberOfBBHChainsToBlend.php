@@ -28,13 +28,14 @@ class NumberOfBBHChainsToBlend extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of BBH Chains To Blend',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100360
+             * line : 73533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfBBHChainsToBlend extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfBBHChainsToBlend',
             'desc' => [
+                'en' => 'Number Of BBH Chains To Blend',
             ],
         ],
     ];

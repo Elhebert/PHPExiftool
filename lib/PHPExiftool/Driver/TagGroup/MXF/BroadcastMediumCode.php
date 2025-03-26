@@ -28,13 +28,14 @@ class BroadcastMediumCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Broadcast Medium Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170006
+             * line : 116331
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BroadcastMediumCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastMediumCode',
             'desc' => [
+                'en' => 'Broadcast Medium Code',
             ],
         ],
     ];

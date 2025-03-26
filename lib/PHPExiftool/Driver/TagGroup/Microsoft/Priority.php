@@ -28,13 +28,14 @@ class Priority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176138
+             * line : 121209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Priority extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Priority',
             'desc' => [
+                'en' => 'Priority',
             ],
         ],
     ];

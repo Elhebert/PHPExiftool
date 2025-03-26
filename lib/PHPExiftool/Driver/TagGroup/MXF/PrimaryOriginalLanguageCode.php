@@ -28,13 +28,14 @@ class PrimaryOriginalLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Original Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170726
+             * line : 116961
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryOriginalLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PrimaryOriginalLanguageCode',
             'desc' => [
+                'en' => 'Primary Original Language Code',
             ],
         ],
     ];

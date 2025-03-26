@@ -28,13 +28,14 @@ class AuthorSortOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author Sort Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174480
+             * line : 120152
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthorSortOrder extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AuthorSortOrder',
             'desc' => [
+                'en' => 'Author Sort Order',
             ],
         ],
     ];

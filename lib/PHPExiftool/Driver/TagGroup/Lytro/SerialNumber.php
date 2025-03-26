@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162189
+             * line : 110827
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

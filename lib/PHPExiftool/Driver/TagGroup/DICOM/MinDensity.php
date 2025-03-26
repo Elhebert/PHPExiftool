@@ -28,13 +28,14 @@ class MinDensity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Density',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102088
+             * line : 75225
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinDensity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MinDensity',
             'desc' => [
+                'en' => 'Min Density',
             ],
         ],
     ];

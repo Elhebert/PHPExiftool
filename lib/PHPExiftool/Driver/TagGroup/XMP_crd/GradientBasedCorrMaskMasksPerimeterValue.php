@@ -28,13 +28,14 @@ class GradientBasedCorrMaskMasksPerimeterValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Masks Perimeter Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399159
+             * line : 282666
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskMasksPerimeterValue extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrMaskMasksPerimeterValue',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Masks Perimeter Value',
             ],
         ],
     ];

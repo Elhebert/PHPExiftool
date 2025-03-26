@@ -28,13 +28,14 @@ class MonochromeProfileSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Profile Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252740
+             * line : 174207
              * type : int16s
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class MonochromeProfileSettings extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:MonochromeProfileSettings',
             'desc' => [
+                'en' => 'Monochrome Profile Settings',
             ],
         ],
     ];

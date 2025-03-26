@@ -28,13 +28,14 @@ class SlopInt10_17 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slop Int 10-17',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100496
+             * line : 73668
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlopInt10_17 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SlopInt10-17',
             'desc' => [
+                'en' => 'Slop Int 10-17',
             ],
         ],
     ];

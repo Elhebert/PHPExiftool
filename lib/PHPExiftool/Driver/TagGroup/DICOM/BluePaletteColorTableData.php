@@ -28,13 +28,14 @@ class BluePaletteColorTableData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Palette Color Table Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98995
+             * line : 72243
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BluePaletteColorTableData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BluePaletteColorTableData',
             'desc' => [
+                'en' => 'Blue Palette Color Table Data',
             ],
         ],
     ];

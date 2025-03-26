@@ -28,13 +28,14 @@ class GPSLatitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104669
+             * line : 77695
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
     ];

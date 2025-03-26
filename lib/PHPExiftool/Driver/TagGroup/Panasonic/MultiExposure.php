@@ -28,13 +28,14 @@ class MultiExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277941
+             * line : 193326
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiExposure extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:MultiExposure',
             'desc' => [
+                'en' => 'Multi Exposure',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ASF5MaxExposureIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Max Exposure Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306957
+             * line : 213455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5MaxExposureIndex extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5MaxExposureIndex',
             'desc' => [
+                'en' => 'ASF5 Max Exposure Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ComputedKeywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Computed Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167749
+             * line : 114326
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ComputedKeywords extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedKeywords',
             'desc' => [
+                'en' => 'Computed Keywords',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170231
+             * line : 116508
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ComputedKeywords extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedKeywords',
             'desc' => [
+                'en' => 'Computed Keywords',
             ],
         ],
     ];

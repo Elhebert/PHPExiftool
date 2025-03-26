@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Doc
-             * line : 163332
+             * line : 111369
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'MIE::Doc.MIE-Doc:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

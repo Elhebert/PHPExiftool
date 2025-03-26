@@ -28,13 +28,14 @@ class ReplyTo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reply To',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142910
+             * line : 98694
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReplyTo extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:ReplyTo',
             'desc' => [
+                'en' => 'Reply To',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovieAFSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie AF Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238308
+             * line : 161415
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieAFSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieAFSpeed',
             'desc' => [
+                'en' => 'Movie AF Speed',
             ],
         ],
     ];

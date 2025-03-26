@@ -28,13 +28,14 @@ class VideoStreamsCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Streams Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409888
+             * line : 289645
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoStreamsCount extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:VideoStreamsCount',
             'desc' => [
+                'en' => 'Video Streams Count',
             ],
         ],
     ];

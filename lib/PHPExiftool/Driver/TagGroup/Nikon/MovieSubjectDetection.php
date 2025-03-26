@@ -28,13 +28,14 @@ class MovieSubjectDetection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Subject Detection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201749
+             * line : 136643
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieSubjectDetection extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieSubjectDetection',
             'desc' => [
+                'en' => 'Movie Subject Detection',
             ],
         ],
     ];

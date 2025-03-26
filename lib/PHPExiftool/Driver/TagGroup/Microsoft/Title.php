@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174890
+             * line : 120419
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Title extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176547
+             * line : 121482
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

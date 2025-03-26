@@ -28,13 +28,14 @@ class VMapHandling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'V Map Handling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156104
+             * line : 107315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VMapHandling extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VMapHandling',
             'desc' => [
+                'en' => 'V Map Handling',
             ],
         ],
     ];

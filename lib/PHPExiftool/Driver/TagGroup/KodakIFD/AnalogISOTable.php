@@ -28,13 +28,14 @@ class AnalogISOTable extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Analog ISO Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155278
+             * line : 106499
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class AnalogISOTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AnalogISOTable',
             'desc' => [
+                'en' => 'Analog ISO Table',
             ],
         ],
     ];

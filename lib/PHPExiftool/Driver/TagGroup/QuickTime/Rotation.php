@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemPropCont
-             * line : 323210
+             * line : 228536
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemPropCont.QuickTime:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

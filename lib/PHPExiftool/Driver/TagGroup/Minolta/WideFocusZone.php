@@ -28,13 +28,14 @@ class WideFocusZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Wide Focus Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178126
+             * line : 122187
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WideFocusZone extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:WideFocusZone',
             'desc' => [
+                'en' => 'Wide Focus Zone',
             ],
         ],
     ];

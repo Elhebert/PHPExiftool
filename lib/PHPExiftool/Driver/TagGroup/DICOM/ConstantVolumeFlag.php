@@ -28,13 +28,14 @@ class ConstantVolumeFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Constant Volume Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97036
+             * line : 70435
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConstantVolumeFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConstantVolumeFlag',
             'desc' => [
+                'en' => 'Constant Volume Flag',
             ],
         ],
     ];

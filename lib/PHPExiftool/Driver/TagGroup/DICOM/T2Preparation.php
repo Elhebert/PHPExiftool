@@ -28,13 +28,14 @@ class T2Preparation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'T2 Preparation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96560
+             * line : 69964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class T2Preparation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:T2Preparation',
             'desc' => [
+                'en' => 'T2 Preparation',
             ],
         ],
     ];

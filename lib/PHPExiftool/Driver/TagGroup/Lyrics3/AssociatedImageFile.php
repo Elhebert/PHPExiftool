@@ -28,13 +28,14 @@ class AssociatedImageFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Associated Image File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147113
+             * line : 102147
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssociatedImageFile extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:AssociatedImageFile',
             'desc' => [
+                'en' => 'Associated Image File',
             ],
         ],
     ];

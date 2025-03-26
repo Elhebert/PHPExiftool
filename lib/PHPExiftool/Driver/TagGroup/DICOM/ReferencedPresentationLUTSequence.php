@@ -28,13 +28,14 @@ class ReferencedPresentationLUTSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Presentation LUT Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102214
+             * line : 75342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedPresentationLUTSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedPresentationLUTSequence',
             'desc' => [
+                'en' => 'Referenced Presentation LUT Sequence',
             ],
         ],
     ];

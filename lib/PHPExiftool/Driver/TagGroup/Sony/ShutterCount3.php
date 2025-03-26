@@ -28,13 +28,14 @@ class ShutterCount3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Count 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381277
+             * line : 268080
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterCount3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:ShutterCount3',
             'desc' => [
+                'en' => 'Shutter Count 3',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381280
+             * line : 268083
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShutterCount3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:ShutterCount3',
             'desc' => [
+                'en' => 'Shutter Count 3',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381283
+             * line : 268086
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ShutterCount3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:ShutterCount3',
             'desc' => [
+                'en' => 'Shutter Count 3',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383642
+             * line : 270412
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ShutterCount3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:ShutterCount3',
             'desc' => [
+                'en' => 'Shutter Count 3',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383645
+             * line : 270415
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ShutterCount3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:ShutterCount3',
             'desc' => [
+                'en' => 'Shutter Count 3',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383648
+             * line : 270418
              * type : int32u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class ShutterCount3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:ShutterCount3',
             'desc' => [
+                'en' => 'Shutter Count 3',
             ],
         ],
     ];

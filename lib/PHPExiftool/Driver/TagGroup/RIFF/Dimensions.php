@@ -28,13 +28,14 @@ class Dimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328210
+             * line : 231529
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Dimensions extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Dimensions',
             'desc' => [
+                'en' => 'Dimensions',
             ],
         ],
     ];

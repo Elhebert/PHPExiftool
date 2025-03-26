@@ -28,13 +28,14 @@ class BaseISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387578
+             * line : 273686
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:BaseISO',
             'desc' => [
+                'en' => 'Base ISO',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348192
+             * line : 243665
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349540
+             * line : 244237
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350223
+             * line : 244565
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 353467
+             * line : 246654
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Main
-             * line : 355803
+             * line : 248241
              * type : int16u
              * writable : true
              * count : 2
@@ -94,6 +99,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

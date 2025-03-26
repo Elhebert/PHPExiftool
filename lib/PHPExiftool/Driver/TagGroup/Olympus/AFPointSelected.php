@@ -28,13 +28,14 @@ class AFPointSelected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250790
+             * line : 173008
              * type : rational64s
              * writable : true
              * count : 5
@@ -42,6 +43,7 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
     ];

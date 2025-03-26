@@ -28,13 +28,14 @@ class ImageType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150461
+             * line : 103987
              * type : string
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ImageType extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ImageType',
             'desc' => [
+                'en' => 'Image Type',
             ],
         ],
     ];

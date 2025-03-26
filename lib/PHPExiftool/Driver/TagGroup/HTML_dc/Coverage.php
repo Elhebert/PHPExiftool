@@ -28,13 +28,14 @@ class Coverage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coverage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142708
+             * line : 98600
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Coverage extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Coverage',
             'desc' => [
+                'en' => 'Coverage',
             ],
         ],
     ];

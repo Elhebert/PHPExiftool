@@ -28,13 +28,14 @@ class SpectralWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectral Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96638
+             * line : 70042
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectralWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectralWidth',
             'desc' => [
+                'en' => 'Spectral Width',
             ],
         ],
     ];

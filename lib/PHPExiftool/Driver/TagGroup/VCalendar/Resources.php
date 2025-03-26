@@ -28,13 +28,14 @@ class Resources extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resources',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395491
+             * line : 280050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Resources extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Resources',
             'desc' => [
+                'en' => 'Resources',
             ],
         ],
     ];

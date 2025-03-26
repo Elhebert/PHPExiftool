@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GPS360Fly
-             * line : 313183
+             * line : 218968
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'QuickTime::GPS360Fly.QuickTime:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::RVMI_gReV
-             * line : 324316
+             * line : 229136
              * type : int16s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'QuickTime::RVMI_gReV.QuickTime:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324683
+             * line : 229332
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

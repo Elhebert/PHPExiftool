@@ -28,13 +28,14 @@ class BracketProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracket Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247546
+             * line : 170239
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BracketProgram extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketProgram',
             'desc' => [
+                'en' => 'Bracket Program',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247578
+             * line : 170271
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class BracketProgram extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketProgram',
             'desc' => [
+                'en' => 'Bracket Program',
             ],
         ],
         2 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247613
+             * line : 170306
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class BracketProgram extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketProgram',
             'desc' => [
+                'en' => 'Bracket Program',
             ],
         ],
     ];

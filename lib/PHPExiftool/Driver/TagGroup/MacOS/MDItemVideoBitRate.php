@@ -28,13 +28,14 @@ class MDItemVideoBitRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Video Bit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173060
+             * line : 119089
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemVideoBitRate extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemVideoBitRate',
             'desc' => [
+                'en' => 'MD Item Video Bit Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WideConvergenceAngleRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wide Convergence Angle Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166543
+             * line : 113282
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WideConvergenceAngleRange extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:WideConvergenceAngleRange',
             'desc' => [
+                'en' => 'Wide Convergence Angle Range',
             ],
         ],
     ];

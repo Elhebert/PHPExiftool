@@ -28,13 +28,14 @@ class SensorHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280226
+             * line : 194525
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
     ];

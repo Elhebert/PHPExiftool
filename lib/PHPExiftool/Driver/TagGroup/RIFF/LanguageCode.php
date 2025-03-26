@@ -28,13 +28,14 @@ class LanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::CSET
-             * line : 327827
+             * line : 231377
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LanguageCode extends AbstractTagGroup
              */
             'id' => 'RIFF::CSET.RIFF:LanguageCode',
             'desc' => [
+                'en' => 'Language Code',
             ],
         ],
     ];

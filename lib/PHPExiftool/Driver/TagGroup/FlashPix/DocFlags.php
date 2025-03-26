@@ -28,13 +28,14 @@ class DocFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doc Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::WordDocument
-             * line : 127639
+             * line : 88617
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocFlags extends AbstractTagGroup
              */
             'id' => 'FlashPix::WordDocument.FlashPix:DocFlags',
             'desc' => [
+                'en' => 'Doc Flags',
             ],
         ],
     ];

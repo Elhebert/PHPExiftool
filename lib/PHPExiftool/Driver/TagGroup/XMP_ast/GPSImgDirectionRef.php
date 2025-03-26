@@ -28,13 +28,14 @@ class GPSImgDirectionRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Img Direction Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ast
-             * line : 209812
+             * line : 141417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSImgDirectionRef extends AbstractTagGroup
              */
             'id' => 'Nikon::ast.XMP-ast:GPSImgDirectionRef',
             'desc' => [
+                'en' => 'GPS Img Direction Ref',
             ],
         ],
     ];

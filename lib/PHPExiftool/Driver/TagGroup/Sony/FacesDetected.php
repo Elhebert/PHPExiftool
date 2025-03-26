@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FaceInfo
-             * line : 352617
+             * line : 246218
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfo.Sony:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::FaceInfoA
-             * line : 352792
+             * line : 246313
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Sony::FaceInfoA.Sony:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362032
+             * line : 252081
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag900b
-             * line : 379014
+             * line : 265862
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Sony::Tag900b.Sony:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

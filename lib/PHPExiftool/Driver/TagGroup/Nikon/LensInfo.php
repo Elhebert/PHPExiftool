@@ -28,13 +28,14 @@ class LensInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202701
+             * line : 137034
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensInfo extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:LensInfo',
             'desc' => [
+                'en' => 'Lens Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TotalFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166259
+             * line : 113050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalFrames extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:TotalFrames',
             'desc' => [
+                'en' => 'Total Frames',
             ],
         ],
     ];

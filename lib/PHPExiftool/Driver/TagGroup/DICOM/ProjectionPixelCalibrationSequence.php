@@ -28,13 +28,14 @@ class ProjectionPixelCalibrationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Pixel Calibration Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97084
+             * line : 70483
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionPixelCalibrationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProjectionPixelCalibrationSequence',
             'desc' => [
+                'en' => 'Projection Pixel Calibration Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PhotometricInterpretation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Photometric Interpretation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98627
+             * line : 71941
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhotometricInterpretation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhotometricInterpretation',
             'desc' => [
+                'en' => 'Photometric Interpretation',
             ],
         ],
     ];

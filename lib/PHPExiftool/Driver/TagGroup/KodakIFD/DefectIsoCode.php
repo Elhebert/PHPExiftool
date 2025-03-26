@@ -28,13 +28,14 @@ class DefectIsoCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Defect Iso Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155361
+             * line : 106574
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefectIsoCode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DefectIsoCode',
             'desc' => [
+                'en' => 'Defect Iso Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CryptographicFrameworkLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cryptographic Framework Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172537
+             * line : 118696
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CryptographicFrameworkLabel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CryptographicFrameworkLabel',
             'desc' => [
+                'en' => 'Cryptographic Framework Label',
             ],
         ],
     ];

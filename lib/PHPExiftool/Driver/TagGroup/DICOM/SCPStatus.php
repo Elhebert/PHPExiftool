@@ -28,13 +28,14 @@ class SCPStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SCP Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101844
+             * line : 74985
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SCPStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SCPStatus',
             'desc' => [
+                'en' => 'SCP Status',
             ],
         ],
     ];

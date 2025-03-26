@@ -28,13 +28,14 @@ class MB_D10Batteries extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MB-D10 Batteries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212850
+             * line : 142918
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MB_D10Batteries extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:MB-D10Batteries',
             'desc' => [
+                'en' => 'MB-D10 Batteries',
             ],
         ],
     ];

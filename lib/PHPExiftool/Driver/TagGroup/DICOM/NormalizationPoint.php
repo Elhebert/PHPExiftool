@@ -28,13 +28,14 @@ class NormalizationPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Normalization Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102456
+             * line : 75555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NormalizationPoint extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NormalizationPoint',
             'desc' => [
+                'en' => 'Normalization Point',
             ],
         ],
     ];

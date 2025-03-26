@@ -28,13 +28,14 @@ class EmbeddedImageFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Im
-             * line : 264121
+             * line : 182617
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImageFilter extends AbstractTagGroup
              */
             'id' => 'PDF::Im.PDF:EmbeddedImageFilter',
             'desc' => [
+                'en' => 'Embedded Image Filter',
             ],
         ],
     ];

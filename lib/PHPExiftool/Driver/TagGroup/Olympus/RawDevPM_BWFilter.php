@@ -28,13 +28,14 @@ class RawDevPM_BWFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev PM BW Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260576
+             * line : 180003
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDevPM_BWFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPM_BWFilter',
             'desc' => [
+                'en' => 'Raw Dev PM BW Filter',
             ],
         ],
     ];

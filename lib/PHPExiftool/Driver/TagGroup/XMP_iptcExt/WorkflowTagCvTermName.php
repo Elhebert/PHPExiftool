@@ -28,13 +28,14 @@ class WorkflowTagCvTermName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Workflow Tag Cv Term Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409915
+             * line : 289668
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WorkflowTagCvTermName extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:WorkflowTagCvTermName',
             'desc' => [
+                'en' => 'Workflow Tag Cv Term Name',
             ],
         ],
     ];

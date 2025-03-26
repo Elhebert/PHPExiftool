@@ -28,13 +28,14 @@ class ExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177028
+             * line : 121776
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178307
+             * line : 122295
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179268
+             * line : 122600
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180123
+             * line : 122893
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185226
+             * line : 125744
              * type : int16u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class ExposureMode extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ExposureMode',
             'desc' => [
+                'en' => 'Exposure Mode',
             ],
         ],
     ];

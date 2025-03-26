@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411782
+             * line : 290697
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

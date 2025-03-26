@@ -28,13 +28,14 @@ class FlashEnergy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Energy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125976
+             * line : 87538
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashEnergy extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FlashEnergy',
             'desc' => [
+                'en' => 'Flash Energy',
             ],
         ],
     ];

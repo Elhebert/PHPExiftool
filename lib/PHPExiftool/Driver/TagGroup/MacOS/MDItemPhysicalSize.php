@@ -28,13 +28,14 @@ class MDItemPhysicalSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Physical Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172940
+             * line : 118999
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemPhysicalSize extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemPhysicalSize',
             'desc' => [
+                'en' => 'MD Item Physical Size',
             ],
         ],
     ];

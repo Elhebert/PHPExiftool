@@ -28,13 +28,14 @@ class FocusDistanceUpper extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Distance Upper',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4647
+             * line : 2861
              * type : int16uRev
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 9246
+             * line : 6327
              * type : int16uRev
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 13666
+             * line : 9770
              * type : int16uRev
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 18025
+             * line : 13183
              * type : int16uRev
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 20050
+             * line : 14815
              * type : int16uRev
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 22084
+             * line : 16450
              * type : int16uRev
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 24132
+             * line : 18090
              * type : int16uRev
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26434
+             * line : 19844
              * type : int16uRev
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 28733
+             * line : 21595
              * type : int16uRev
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 35139
+             * line : 26794
              * type : int16uRev
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 37386
+             * line : 28517
              * type : int16uRev
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 39595
+             * line : 30243
              * type : int16uRev
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 41783
+             * line : 31943
              * type : int16uRev
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 43484
+             * line : 33481
              * type : int16uRev
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 45642
+             * line : 35176
              * type : int16uRev
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 47777
+             * line : 36862
              * type : int16uRev
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 49477
+             * line : 38400
              * type : int16uRev
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51677
+             * line : 40123
              * type : int16uRev
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 53766
+             * line : 41781
              * type : int16uRev
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63794
+             * line : 48433
              * type : int16u
              * writable : true
              * count :
@@ -289,12 +309,13 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
         20 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70718
+             * line : 52829
              * type : int16u
              * writable : true
              * count :
@@ -302,6 +323,7 @@ class FocusDistanceUpper extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:FocusDistanceUpper',
             'desc' => [
+                'en' => 'Focus Distance Upper',
             ],
         ],
     ];

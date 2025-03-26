@@ -28,13 +28,14 @@ class IndexEditRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index Edit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171442
+             * line : 117643
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexEditRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IndexEditRate',
             'desc' => [
+                'en' => 'Index Edit Rate',
             ],
         ],
     ];

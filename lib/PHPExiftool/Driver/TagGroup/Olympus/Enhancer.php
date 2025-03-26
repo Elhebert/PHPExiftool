@@ -28,13 +28,14 @@ class Enhancer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Enhancer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255309
+             * line : 176200
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Enhancer extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:Enhancer',
             'desc' => [
+                'en' => 'Enhancer',
             ],
         ],
     ];

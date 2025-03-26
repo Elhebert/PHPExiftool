@@ -28,13 +28,14 @@ class ExpandLens extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expand Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117998
+             * line : 83724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpandLens extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExpandLens',
             'desc' => [
+                'en' => 'Expand Lens',
             ],
         ],
     ];

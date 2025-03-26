@@ -28,13 +28,14 @@ class SampleTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Accel360Fly
-             * line : 310354
+             * line : 216266
              * type : int64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Accel360Fly.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Fusion360Fly
-             * line : 313113
+             * line : 218943
              * type : int64u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Fusion360Fly.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::GPS360Fly
-             * line : 313126
+             * line : 218956
              * type : int64u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::GPS360Fly.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
         3 => [
             /**
              * table_name : QuickTime::Gyro360Fly
-             * line : 313360
+             * line : 219105
              * type : int64u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Gyro360Fly.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
         4 => [
             /**
              * table_name : QuickTime::Mag360Fly
-             * line : 323728
+             * line : 228800
              * type : int64u
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Mag360Fly.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
         5 => [
             /**
              * table_name : QuickTime::Rot360Fly
-             * line : 324394
+             * line : 229184
              * type : int64u
              * writable : false
              * count :
@@ -107,12 +113,13 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rot360Fly.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
         6 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324903
+             * line : 229387
              * type : ?
              * writable : false
              * count :
@@ -120,6 +127,7 @@ class SampleTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:SampleTime',
             'desc' => [
+                'en' => 'Sample Time',
             ],
         ],
     ];

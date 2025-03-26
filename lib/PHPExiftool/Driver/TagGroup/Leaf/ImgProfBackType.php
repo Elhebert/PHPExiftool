@@ -28,13 +28,14 @@ class ImgProfBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Img Prof Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ImageProfile
-             * line : 161837
+             * line : 110560
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImgProfBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::ImageProfile.Leaf:ImgProfBackType',
             'desc' => [
+                'en' => 'Img Prof Back Type',
             ],
         ],
     ];

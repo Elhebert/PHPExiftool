@@ -28,13 +28,14 @@ class GeogToWGS84 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog To WGS84',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134194
+             * line : 92487
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogToWGS84 extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogToWGS84',
             'desc' => [
+                'en' => 'Geog To WGS84',
             ],
         ],
     ];

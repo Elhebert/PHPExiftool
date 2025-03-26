@@ -28,13 +28,14 @@ class Filter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::ImageHeader
-             * line : 272489
+             * line : 190341
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Filter extends AbstractTagGroup
              */
             'id' => 'PNG::ImageHeader.PNG:Filter',
             'desc' => [
+                'en' => 'Filter',
             ],
         ],
     ];

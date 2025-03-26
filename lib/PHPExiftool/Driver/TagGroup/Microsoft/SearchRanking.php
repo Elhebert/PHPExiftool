@@ -28,13 +28,14 @@ class SearchRanking extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Search Ranking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175704
+             * line : 120927
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SearchRanking extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SearchRanking',
             'desc' => [
+                'en' => 'Search Ranking',
             ],
         ],
     ];

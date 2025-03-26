@@ -28,13 +28,14 @@ class FlashBatteryLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Battery Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61270
+             * line : 46996
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashBatteryLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:FlashBatteryLevel',
             'desc' => [
+                'en' => 'Flash Battery Level',
             ],
         ],
     ];

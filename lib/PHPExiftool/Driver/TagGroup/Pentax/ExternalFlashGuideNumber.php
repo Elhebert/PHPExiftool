@@ -28,13 +28,14 @@ class ExternalFlashGuideNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Guide Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 288194
+             * line : 199979
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashGuideNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashGuideNumber',
             'desc' => [
+                'en' => 'External Flash Guide Number',
             ],
         ],
     ];

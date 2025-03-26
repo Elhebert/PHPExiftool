@@ -28,13 +28,14 @@ class TIDOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TID Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99162
+             * line : 72381
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TIDOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TIDOffset',
             'desc' => [
+                'en' => 'TID Offset',
             ],
         ],
     ];

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -23,13 +24,13 @@ class MultiTest extends TestCase
      */
     protected function setUp(): void
     {
-        $this->object = new Multi(array('hello', 'world !'));
+        $this->object = new Multi(['hello', 'world !']);
     }
 
     /**
      * @covers Multi::getType
      */
-    public function testGetType(): void
+    public function test_get_type(): void
     {
         $this->assertEquals(ValueInterface::TYPE_MULTI, $this->object->getType());
     }
@@ -37,26 +38,26 @@ class MultiTest extends TestCase
     /**
      * @covers Multi::asArray
      */
-    public function testAsArray(): void
+    public function test_as_array(): void
     {
-        $this->assertEquals(array('hello', 'world !'), $this->object->asArray());
+        $this->assertEquals(['hello', 'world !'], $this->object->asArray());
     }
 
     /**
      * @covers Multi::addValue
      */
-    public function testAddValue(): void
+    public function test_add_value(): void
     {
         $this->object->addValue('tim');
-        $this->assertEquals(array('hello', 'world !', 'tim'), $this->object->asArray());
+        $this->assertEquals(['hello', 'world !', 'tim'], $this->object->asArray());
     }
 
     /**
      * @covers Multi::reset
      */
-    public function testReset(): void
+    public function test_reset(): void
     {
         $this->object->reset();
-        $this->assertEquals(array(), $this->object->asArray());
+        $this->assertEquals([], $this->object->asArray());
     }
 }

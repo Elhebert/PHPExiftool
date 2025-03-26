@@ -28,13 +28,14 @@ class PublicationEventDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Publication Event Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409609
+             * line : 289381
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PublicationEventDate extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:PublicationEventDate',
             'desc' => [
+                'en' => 'Publication Event Date',
             ],
         ],
     ];

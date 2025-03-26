@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333126
+             * line : 233644
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Ricoh::Subdir
-             * line : 333741
+             * line : 234033
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Ricoh::Subdir.Ricoh:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfTransformSteps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Transform Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98843
+             * line : 72114
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTransformSteps extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTransformSteps',
             'desc' => [
+                'en' => 'Number Of Transform Steps',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GenericPayloads extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generic Payloads',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172466
+             * line : 118627
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenericPayloads extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GenericPayloads',
             'desc' => [
+                'en' => 'Generic Payloads',
             ],
         ],
     ];

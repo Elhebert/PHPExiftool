@@ -28,13 +28,14 @@ class FrameSameRRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Same R Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264818
+             * line : 183047
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameSameRRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FrameSameRRect',
             'desc' => [
+                'en' => 'Frame Same R Rect',
             ],
         ],
     ];

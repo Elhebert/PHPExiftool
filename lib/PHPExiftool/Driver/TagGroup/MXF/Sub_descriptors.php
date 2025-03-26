@@ -28,13 +28,14 @@ class Sub_descriptors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub-descriptors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172115
+             * line : 118282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sub_descriptors extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Sub-descriptors',
             'desc' => [
+                'en' => 'Sub-descriptors',
             ],
         ],
     ];

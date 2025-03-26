@@ -28,13 +28,14 @@ class D_LightingHSColorBoost extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'D-Lighting HS Color Boost',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::DLightingHS
-             * line : 210288
+             * line : 141602
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class D_LightingHSColorBoost extends AbstractTagGroup
              */
             'id' => 'NikonCapture::DLightingHS.NikonCapture:D-LightingHSColorBoost',
             'desc' => [
+                'en' => 'D-Lighting HS Color Boost',
             ],
         ],
     ];

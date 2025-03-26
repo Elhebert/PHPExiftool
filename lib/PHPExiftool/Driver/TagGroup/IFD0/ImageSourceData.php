@@ -28,13 +28,14 @@ class ImageSourceData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Source Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116300
+             * line : 83319
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSourceData extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ImageSourceData',
             'desc' => [
+                'en' => 'Image Source Data',
             ],
         ],
     ];

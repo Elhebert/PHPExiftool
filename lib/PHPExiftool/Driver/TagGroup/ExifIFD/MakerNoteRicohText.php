@@ -28,13 +28,14 @@ class MakerNoteRicohText extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Ricoh Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105145
+             * line : 77951
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteRicohText extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteRicohText',
             'desc' => [
+                'en' => 'Maker Note Ricoh Text',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116106
+             * line : 83244
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteRicohText extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteRicohText',
             'desc' => [
+                'en' => 'Maker Note Ricoh Text',
             ],
         ],
     ];

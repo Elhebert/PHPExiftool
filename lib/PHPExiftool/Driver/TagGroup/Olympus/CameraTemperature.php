@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255570
+             * line : 176369
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

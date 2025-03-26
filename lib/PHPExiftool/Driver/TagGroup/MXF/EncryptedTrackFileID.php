@@ -28,13 +28,14 @@ class EncryptedTrackFileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encrypted Track File ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172118
+             * line : 118285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncryptedTrackFileID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EncryptedTrackFileID',
             'desc' => [
+                'en' => 'Encrypted Track File ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InterpretationRecordedDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpretation Recorded Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104076
+             * line : 77163
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretationRecordedDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterpretationRecordedDate',
             'desc' => [
+                'en' => 'Interpretation Recorded Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Rads extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rads',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159998
+             * line : 109585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rads extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:Rads',
             'desc' => [
+                'en' => 'Rads',
             ],
         ],
     ];

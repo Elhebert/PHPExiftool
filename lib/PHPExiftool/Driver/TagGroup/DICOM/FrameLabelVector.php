@@ -28,13 +28,14 @@ class FrameLabelVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Label Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96135
+             * line : 69553
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameLabelVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameLabelVector',
             'desc' => [
+                'en' => 'Frame Label Vector',
             ],
         ],
     ];

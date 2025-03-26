@@ -28,13 +28,14 @@ class ShortDocumentID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Short Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150743
+             * line : 104081
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class ShortDocumentID extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ShortDocumentID',
             'desc' => [
+                'en' => 'Short Document ID',
             ],
         ],
     ];

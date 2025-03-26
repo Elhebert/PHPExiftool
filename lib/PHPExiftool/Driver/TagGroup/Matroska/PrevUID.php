@@ -28,13 +28,14 @@ class PrevUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prev UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 174015
+             * line : 119857
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrevUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:PrevUID',
             'desc' => [
+                'en' => 'Prev UID',
             ],
         ],
     ];

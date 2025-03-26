@@ -28,13 +28,14 @@ class ASF5BrtShrpDegF1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Brt Shrp Deg F1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306741
+             * line : 213239
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5BrtShrpDegF1 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5BrtShrpDegF1',
             'desc' => [
+                'en' => 'ASF5 Brt Shrp Deg F1',
             ],
         ],
     ];

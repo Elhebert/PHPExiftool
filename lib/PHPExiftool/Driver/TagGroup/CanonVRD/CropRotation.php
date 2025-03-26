@@ -28,13 +28,14 @@ class CropRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::CropInfo
-             * line : 80204
+             * line : 58525
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropRotation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::CropInfo.CanonVRD:CropRotation',
             'desc' => [
+                'en' => 'Crop Rotation',
             ],
         ],
     ];

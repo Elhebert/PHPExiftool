@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ColorSpec
-             * line : 153737
+             * line : 105583
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

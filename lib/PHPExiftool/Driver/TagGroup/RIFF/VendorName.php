@@ -28,13 +28,14 @@ class VendorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vendor Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamData
-             * line : 328759
+             * line : 231844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VendorName extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamData.RIFF:VendorName',
             'desc' => [
+                'en' => 'Vendor Name',
             ],
         ],
     ];

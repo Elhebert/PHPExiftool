@@ -28,13 +28,14 @@ class CropLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128261
+             * line : 88969
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
     ];

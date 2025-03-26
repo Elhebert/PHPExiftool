@@ -28,13 +28,14 @@ class InputHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334196
+             * line : 234276
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputHeight extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:InputHeight',
             'desc' => [
+                'en' => 'Input Height',
             ],
         ],
     ];

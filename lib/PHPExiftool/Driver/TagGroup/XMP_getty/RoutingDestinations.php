@@ -28,13 +28,14 @@ class RoutingDestinations extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Routing Destinations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397341
+             * line : 281380
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RoutingDestinations extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:RoutingDestinations',
             'desc' => [
+                'en' => 'Routing Destinations',
             ],
         ],
     ];

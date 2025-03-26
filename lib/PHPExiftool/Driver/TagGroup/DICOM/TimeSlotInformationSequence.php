@@ -28,13 +28,14 @@ class TimeSlotInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Slot Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100883
+             * line : 74043
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeSlotInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeSlotInformationSequence',
             'desc' => [
+                'en' => 'Time Slot Information Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AVIHeader
-             * line : 326918
+             * line : 230571
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'RIFF::AVIHeader.RIFF:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CondadoDayBVThresh extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Condado Day BV Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156891
+             * line : 108095
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CondadoDayBVThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CondadoDayBVThresh',
             'desc' => [
+                'en' => 'Condado Day BV Thresh',
             ],
         ],
     ];

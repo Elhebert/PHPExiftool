@@ -28,13 +28,14 @@ class BoundingRectangle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bounding Rectangle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172130
+             * line : 118297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BoundingRectangle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BoundingRectangle',
             'desc' => [
+                'en' => 'Bounding Rectangle',
             ],
         ],
     ];

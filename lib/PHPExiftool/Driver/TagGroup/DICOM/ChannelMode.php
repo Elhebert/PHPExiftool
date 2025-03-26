@@ -28,13 +28,14 @@ class ChannelMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99577
+             * line : 72786
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelMode',
             'desc' => [
+                'en' => 'Channel Mode',
             ],
         ],
     ];

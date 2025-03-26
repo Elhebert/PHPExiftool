@@ -28,13 +28,14 @@ class ImageNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159683
+             * line : 109473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
     ];

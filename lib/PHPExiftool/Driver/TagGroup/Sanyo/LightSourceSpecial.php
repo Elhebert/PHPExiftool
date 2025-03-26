@@ -28,13 +28,14 @@ class LightSourceSpecial extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Source Special',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336672
+             * line : 235869
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightSourceSpecial extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:LightSourceSpecial',
             'desc' => [
+                'en' => 'Light Source Special',
             ],
         ],
     ];

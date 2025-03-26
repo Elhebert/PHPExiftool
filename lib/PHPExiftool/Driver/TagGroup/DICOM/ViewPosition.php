@@ -28,13 +28,14 @@ class ViewPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96230
+             * line : 69643
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewPosition',
             'desc' => [
+                'en' => 'View Position',
             ],
         ],
     ];

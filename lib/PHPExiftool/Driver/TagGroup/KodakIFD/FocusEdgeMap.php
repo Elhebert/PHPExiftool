@@ -28,13 +28,14 @@ class FocusEdgeMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Edge Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155036
+             * line : 106286
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusEdgeMap extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FocusEdgeMap',
             'desc' => [
+                'en' => 'Focus Edge Map',
             ],
         ],
     ];

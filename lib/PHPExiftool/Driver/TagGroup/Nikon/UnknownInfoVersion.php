@@ -28,13 +28,14 @@ class UnknownInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::UnknownInfo
-             * line : 209548
+             * line : 141302
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class UnknownInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::UnknownInfo.Nikon:UnknownInfoVersion',
             'desc' => [
+                'en' => 'Unknown Info Version',
             ],
         ],
     ];

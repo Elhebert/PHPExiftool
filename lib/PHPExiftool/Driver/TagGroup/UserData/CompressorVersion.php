@@ -28,13 +28,14 @@ class CompressorVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compressor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325197
+             * line : 229584
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressorVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CompressorVersion',
             'desc' => [
+                'en' => 'Compressor Version',
             ],
         ],
     ];

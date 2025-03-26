@@ -28,13 +28,14 @@ class FileDataRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Data Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413078
+             * line : 291214
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileDataRate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:FileDataRate',
             'desc' => [
+                'en' => 'File Data Rate',
             ],
         ],
     ];

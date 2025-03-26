@@ -28,13 +28,14 @@ class DerivedFromLinkForm extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Link Form',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413821
+             * line : 291852
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromLinkForm extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromLinkForm',
             'desc' => [
+                'en' => 'Derived From Link Form',
             ],
         ],
     ];

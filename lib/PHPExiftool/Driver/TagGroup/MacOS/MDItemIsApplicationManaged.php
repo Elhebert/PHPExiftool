@@ -28,13 +28,14 @@ class MDItemIsApplicationManaged extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Is Application Managed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172848
+             * line : 118930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemIsApplicationManaged extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemIsApplicationManaged',
             'desc' => [
+                'en' => 'MD Item Is Application Managed',
             ],
         ],
     ];

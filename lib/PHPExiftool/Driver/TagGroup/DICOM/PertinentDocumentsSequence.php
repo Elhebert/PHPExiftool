@@ -28,13 +28,14 @@ class PertinentDocumentsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pertinent Documents Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99443
+             * line : 72657
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PertinentDocumentsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PertinentDocumentsSequence',
             'desc' => [
+                'en' => 'Pertinent Documents Sequence',
             ],
         ],
     ];

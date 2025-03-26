@@ -28,13 +28,14 @@ class SR2SubIFDKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SR2 Sub IFD Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2Private
-             * line : 361677
+             * line : 251861
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SR2SubIFDKey extends AbstractTagGroup
              */
             'id' => 'Sony::SR2Private.SR2:SR2SubIFDKey',
             'desc' => [
+                'en' => 'SR2 Sub IFD Key',
             ],
         ],
     ];

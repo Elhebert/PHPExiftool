@@ -28,13 +28,14 @@ class Composition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397294
+             * line : 281347
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Composition extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:Composition',
             'desc' => [
+                'en' => 'Composition',
             ],
         ],
     ];

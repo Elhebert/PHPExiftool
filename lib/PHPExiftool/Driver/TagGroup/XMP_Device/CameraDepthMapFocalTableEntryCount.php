@@ -28,13 +28,14 @@ class CameraDepthMapFocalTableEntryCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Depth Map Focal Table Entry Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396537
+             * line : 280754
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDepthMapFocalTableEntryCount extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraDepthMapFocalTableEntryCount',
             'desc' => [
+                'en' => 'Camera Depth Map Focal Table Entry Count',
             ],
         ],
     ];

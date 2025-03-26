@@ -28,13 +28,14 @@ class PatternCropCols2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pattern Crop Cols 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155539
+             * line : 106751
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatternCropCols2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternCropCols2',
             'desc' => [
+                'en' => 'Pattern Crop Cols 2',
             ],
         ],
     ];

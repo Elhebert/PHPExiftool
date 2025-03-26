@@ -28,13 +28,14 @@ class PixelSpacingCalibrationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Spacing Calibration Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98904
+             * line : 72174
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelSpacingCalibrationDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelSpacingCalibrationDescription',
             'desc' => [
+                'en' => 'Pixel Spacing Calibration Description',
             ],
         ],
     ];

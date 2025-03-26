@@ -28,13 +28,14 @@ class MRReceiveCoilSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Receive Coil Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96608
+             * line : 70012
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRReceiveCoilSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRReceiveCoilSequence',
             'desc' => [
+                'en' => 'MR Receive Coil Sequence',
             ],
         ],
     ];

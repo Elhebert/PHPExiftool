@@ -28,13 +28,14 @@ class ContentPackageMetadataLink extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Package Metadata Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168837
+             * line : 115304
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentPackageMetadataLink extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentPackageMetadataLink',
             'desc' => [
+                'en' => 'Content Package Metadata Link',
             ],
         ],
     ];

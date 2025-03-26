@@ -28,13 +28,14 @@ class RepetitionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Repetition Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95519
+             * line : 68974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepetitionTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RepetitionTime',
             'desc' => [
+                'en' => 'Repetition Time',
             ],
         ],
     ];

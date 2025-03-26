@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176401
+             * line : 121374
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

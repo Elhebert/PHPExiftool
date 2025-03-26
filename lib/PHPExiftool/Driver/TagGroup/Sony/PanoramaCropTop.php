@@ -28,13 +28,14 @@ class PanoramaCropTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Crop Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Panorama
-             * line : 361622
+             * line : 251823
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaCropTop extends AbstractTagGroup
              */
             'id' => 'Sony::Panorama.Sony:PanoramaCropTop',
             'desc' => [
+                'en' => 'Panorama Crop Top',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class License extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'License',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395819
+             * line : 280232
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class License extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:License',
             'desc' => [
+                'en' => 'License',
             ],
         ],
     ];

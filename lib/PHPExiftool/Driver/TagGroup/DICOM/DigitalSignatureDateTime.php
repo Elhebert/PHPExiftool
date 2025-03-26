@@ -28,13 +28,14 @@ class DigitalSignatureDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signature Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101901
+             * line : 75042
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignatureDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitalSignatureDateTime',
             'desc' => [
+                'en' => 'Digital Signature Date Time',
             ],
         ],
     ];

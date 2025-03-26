@@ -28,13 +28,14 @@ class Certificate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Certificate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpRights
-             * line : 414361
+             * line : 292366
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Certificate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpRights.XMP-xmpRights:Certificate',
             'desc' => [
+                'en' => 'Certificate',
             ],
         ],
     ];

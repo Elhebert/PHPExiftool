@@ -28,13 +28,14 @@ class Free_busyStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Free-busy Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175792
+             * line : 120978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Free_busyStatus extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Free-busyStatus',
             'desc' => [
+                'en' => 'Free-busy Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MDItemIsLikelyJunk extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Is Likely Junk',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172856
+             * line : 118936
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemIsLikelyJunk extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemIsLikelyJunk',
             'desc' => [
+                'en' => 'MD Item Is Likely Junk',
             ],
         ],
     ];

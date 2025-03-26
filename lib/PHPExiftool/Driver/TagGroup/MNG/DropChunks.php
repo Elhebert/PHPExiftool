@@ -28,13 +28,14 @@ class DropChunks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drop Chunks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165202
+             * line : 112295
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DropChunks extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:DropChunks',
             'desc' => [
+                'en' => 'Drop Chunks',
             ],
         ],
     ];

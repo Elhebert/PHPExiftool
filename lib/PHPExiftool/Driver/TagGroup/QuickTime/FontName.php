@@ -28,13 +28,14 @@ class FontName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TCMediaInfo
-             * line : 325007
+             * line : 229467
              * type : pstring
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FontName extends AbstractTagGroup
              */
             'id' => 'QuickTime::TCMediaInfo.QuickTime:FontName',
             'desc' => [
+                'en' => 'Font Name',
             ],
         ],
     ];

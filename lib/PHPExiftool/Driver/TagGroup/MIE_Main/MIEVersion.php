@@ -28,13 +28,14 @@ class MIEVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MIE Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164047
+             * line : 111577
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MIEVersion extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:MIEVersion',
             'desc' => [
+                'en' => 'MIE Version',
             ],
         ],
     ];

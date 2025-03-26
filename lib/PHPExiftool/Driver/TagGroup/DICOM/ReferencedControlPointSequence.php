@@ -28,13 +28,14 @@ class ReferencedControlPointSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Control Point Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104026
+             * line : 77115
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedControlPointSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedControlPointSequence',
             'desc' => [
+                'en' => 'Referenced Control Point Sequence',
             ],
         ],
     ];

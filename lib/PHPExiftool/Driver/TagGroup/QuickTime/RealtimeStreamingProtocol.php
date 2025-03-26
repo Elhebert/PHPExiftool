@@ -28,13 +28,14 @@ class RealtimeStreamingProtocol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Realtime Streaming Protocol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintInfo
-             * line : 313730
+             * line : 219472
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RealtimeStreamingProtocol extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintInfo.QuickTime:RealtimeStreamingProtocol',
             'desc' => [
+                'en' => 'Realtime Streaming Protocol',
             ],
         ],
     ];

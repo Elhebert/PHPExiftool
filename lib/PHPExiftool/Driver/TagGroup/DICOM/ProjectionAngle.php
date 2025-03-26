@@ -28,13 +28,14 @@ class ProjectionAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97730
+             * line : 71113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProjectionAngle',
             'desc' => [
+                'en' => 'Projection Angle',
             ],
         ],
     ];

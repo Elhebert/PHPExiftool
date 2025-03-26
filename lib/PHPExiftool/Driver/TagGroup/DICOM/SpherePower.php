@@ -28,13 +28,14 @@ class SpherePower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sphere Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100760
+             * line : 73920
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpherePower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpherePower',
             'desc' => [
+                'en' => 'Sphere Power',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PostCropVignetteHighlightContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Post Crop Vignette Highlight Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403913
+             * line : 287030
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PostCropVignetteHighlightContrast extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PostCropVignetteHighlightContrast',
             'desc' => [
+                'en' => 'Post Crop Vignette Highlight Contrast',
             ],
         ],
     ];

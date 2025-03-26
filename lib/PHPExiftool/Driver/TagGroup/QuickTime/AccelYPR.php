@@ -28,13 +28,14 @@ class AccelYPR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accel YPR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Accel360Fly
-             * line : 310357
+             * line : 216269
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class AccelYPR extends AbstractTagGroup
              */
             'id' => 'QuickTime::Accel360Fly.QuickTime:AccelYPR',
             'desc' => [
+                'en' => 'Accel YPR',
             ],
         ],
     ];

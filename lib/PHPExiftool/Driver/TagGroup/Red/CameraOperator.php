@@ -28,13 +28,14 @@ class CameraOperator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Operator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331546
+             * line : 233064
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraOperator extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:CameraOperator',
             'desc' => [
+                'en' => 'Camera Operator',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImagedNucleus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imaged Nucleus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95534
+             * line : 68989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagedNucleus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagedNucleus',
             'desc' => [
+                'en' => 'Imaged Nucleus',
             ],
         ],
     ];

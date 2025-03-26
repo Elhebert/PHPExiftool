@@ -28,13 +28,14 @@ class TaggedValueDefinitions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tagged Value Definitions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171803
+             * line : 117991
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TaggedValueDefinitions extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TaggedValueDefinitions',
             'desc' => [
+                'en' => 'Tagged Value Definitions',
             ],
         ],
     ];

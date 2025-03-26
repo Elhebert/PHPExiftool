@@ -28,13 +28,14 @@ class RescaleType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rescale Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98925
+             * line : 72195
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RescaleType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RescaleType',
             'desc' => [
+                'en' => 'Rescale Type',
             ],
         ],
     ];

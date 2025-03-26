@@ -28,13 +28,14 @@ class TimerLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Timer Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75454
+             * line : 55581
              * type : int32s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class TimerLength extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:TimerLength',
             'desc' => [
+                'en' => 'Timer Length',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75460
+             * line : 55584
              * type : int32s
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class TimerLength extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:TimerLength',
             'desc' => [
+                'en' => 'Timer Length',
             ],
         ],
     ];

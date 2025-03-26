@@ -28,13 +28,14 @@ class EndTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::DSS
-             * line : 253043
+             * line : 174417
              * type : string
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class EndTime extends AbstractTagGroup
              */
             'id' => 'Olympus::DSS.Olympus:EndTime',
             'desc' => [
+                'en' => 'End Time',
             ],
         ],
     ];

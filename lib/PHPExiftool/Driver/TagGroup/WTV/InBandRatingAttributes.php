@@ -28,13 +28,14 @@ class InBandRatingAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'In Band Rating Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396352
+             * line : 280605
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InBandRatingAttributes extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:InBandRatingAttributes',
             'desc' => [
+                'en' => 'In Band Rating Attributes',
             ],
         ],
     ];

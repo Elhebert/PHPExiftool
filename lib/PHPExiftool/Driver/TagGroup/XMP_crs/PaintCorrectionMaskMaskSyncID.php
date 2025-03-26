@@ -28,13 +28,14 @@ class PaintCorrectionMaskMaskSyncID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Mask Sync ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403667
+             * line : 286784
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskMaskSyncID extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskMaskSyncID',
             'desc' => [
+                'en' => 'Paint Correction Mask Mask Sync ID',
             ],
         ],
     ];

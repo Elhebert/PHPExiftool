@@ -28,13 +28,14 @@ class CaptionText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Caption Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125006
+             * line : 87338
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptionText extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:CaptionText',
             'desc' => [
+                'en' => 'Caption Text',
             ],
         ],
     ];

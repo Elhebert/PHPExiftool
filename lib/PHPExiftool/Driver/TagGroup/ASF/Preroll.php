@@ -28,13 +28,14 @@ class Preroll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preroll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1755
+             * line : 875
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Preroll extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:Preroll',
             'desc' => [
+                'en' => 'Preroll',
             ],
         ],
     ];

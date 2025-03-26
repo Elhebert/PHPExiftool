@@ -28,13 +28,14 @@ class GroupSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Group Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171504
+             * line : 117703
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GroupSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GroupSets',
             'desc' => [
+                'en' => 'Group Sets',
             ],
         ],
     ];

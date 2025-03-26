@@ -28,13 +28,14 @@ class VBILineCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBI Line Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172181
+             * line : 118348
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBILineCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VBILineCount',
             'desc' => [
+                'en' => 'VBI Line Count',
             ],
         ],
     ];

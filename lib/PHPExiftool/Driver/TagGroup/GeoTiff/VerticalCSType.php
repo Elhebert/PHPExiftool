@@ -28,13 +28,14 @@ class VerticalCSType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical CS Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138752
+             * line : 97001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalCSType extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:VerticalCSType',
             'desc' => [
+                'en' => 'Vertical CS Type',
             ],
         ],
     ];

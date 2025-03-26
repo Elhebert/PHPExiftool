@@ -28,13 +28,14 @@ class PeakEnvelopeTimestamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Envelope Timestamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171938
+             * line : 118123
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakEnvelopeTimestamp extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PeakEnvelopeTimestamp',
             'desc' => [
+                'en' => 'Peak Envelope Timestamp',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovieHighISONoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie High ISO Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200236
+             * line : 135200
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieHighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieHighISONoiseReduction',
             'desc' => [
+                'en' => 'Movie High ISO Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201513
+             * line : 136407
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MovieHighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieHighISONoiseReduction',
             'desc' => [
+                'en' => 'Movie High ISO Noise Reduction',
             ],
         ],
     ];

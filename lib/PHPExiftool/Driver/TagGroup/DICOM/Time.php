@@ -28,13 +28,14 @@ class Time extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100126
+             * line : 73311
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Time extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Time',
             'desc' => [
+                'en' => 'Time',
             ],
         ],
     ];

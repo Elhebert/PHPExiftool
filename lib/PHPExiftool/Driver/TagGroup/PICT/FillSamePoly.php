@@ -28,13 +28,14 @@ class FillSamePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Same Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264944
+             * line : 183167
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillSamePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillSamePoly',
             'desc' => [
+                'en' => 'Fill Same Poly',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RicohDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ricoh Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 331935
+             * line : 233205
              * type : int8u
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class RicohDate extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:RicohDate',
             'desc' => [
+                'en' => 'Ricoh Date',
             ],
         ],
     ];

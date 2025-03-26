@@ -28,13 +28,14 @@ class ImageByteCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Byte Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118593
+             * line : 83978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageByteCount extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageByteCount',
             'desc' => [
+                'en' => 'Image Byte Count',
             ],
         ],
     ];

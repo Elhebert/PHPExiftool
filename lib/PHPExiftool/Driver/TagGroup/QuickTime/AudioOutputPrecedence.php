@@ -28,13 +28,14 @@ class AudioOutputPrecedence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Output Precedence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312670
+             * line : 218542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioOutputPrecedence extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioOutputPrecedence',
             'desc' => [
+                'en' => 'Audio Output Precedence',
             ],
         ],
     ];

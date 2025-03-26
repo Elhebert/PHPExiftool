@@ -28,13 +28,14 @@ class CArmPositionerTabletopRelationship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'C Arm Positioner Tabletop Relationship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97225
+             * line : 70621
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CArmPositionerTabletopRelationship extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CArmPositionerTabletopRelationship',
             'desc' => [
+                'en' => 'C Arm Positioner Tabletop Relationship',
             ],
         ],
     ];

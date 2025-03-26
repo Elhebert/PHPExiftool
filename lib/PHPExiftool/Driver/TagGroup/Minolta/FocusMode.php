@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178154
+             * line : 122207
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179566
+             * line : 122689
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180525
+             * line : 123030
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

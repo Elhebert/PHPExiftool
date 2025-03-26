@@ -28,13 +28,14 @@ class ReferringPhysicianIDSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referring Physician ID Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94798
+             * line : 68284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferringPhysicianIDSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferringPhysicianIDSequence',
             'desc' => [
+                'en' => 'Referring Physician ID Sequence',
             ],
         ],
     ];

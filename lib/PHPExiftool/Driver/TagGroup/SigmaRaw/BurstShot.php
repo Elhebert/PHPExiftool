@@ -28,13 +28,14 @@ class BurstShot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Burst Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339733
+             * line : 237628
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BurstShot extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:BurstShot',
             'desc' => [
+                'en' => 'Burst Shot',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Relationship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relationship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3773
+             * line : 2302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Relationship extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:Relationship',
             'desc' => [
+                'en' => 'Relationship',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DNGIgnoreSidecars extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DNG Ignore Sidecars',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398948
+             * line : 282462
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DNGIgnoreSidecars extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:DNGIgnoreSidecars',
             'desc' => [
+                'en' => 'DNG Ignore Sidecars',
             ],
         ],
     ];

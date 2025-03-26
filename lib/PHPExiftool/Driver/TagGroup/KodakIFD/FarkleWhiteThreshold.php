@@ -28,13 +28,14 @@ class FarkleWhiteThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Farkle White Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156149
+             * line : 107360
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FarkleWhiteThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FarkleWhiteThreshold',
             'desc' => [
+                'en' => 'Farkle White Threshold',
             ],
         ],
     ];

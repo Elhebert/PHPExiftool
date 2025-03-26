@@ -28,13 +28,14 @@ class ZChanAvgOverViews extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Chan Avg Over Views',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97548
+             * line : 70933
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZChanAvgOverViews extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZChanAvgOverViews',
             'desc' => [
+                'en' => 'Z Chan Avg Over Views',
             ],
         ],
     ];

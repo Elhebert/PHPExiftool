@@ -28,13 +28,14 @@ class AudioChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202245
+             * line : 136935
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
     ];

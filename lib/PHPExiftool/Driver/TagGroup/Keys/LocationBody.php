@@ -28,13 +28,14 @@ class LocationBody extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Body',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323465
+             * line : 228667
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationBody extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LocationBody',
             'desc' => [
+                'en' => 'Location Body',
             ],
         ],
     ];

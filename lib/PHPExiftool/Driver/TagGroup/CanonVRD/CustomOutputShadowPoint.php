@@ -28,13 +28,14 @@ class CustomOutputShadowPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Output Shadow Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83139
+             * line : 60900
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomOutputShadowPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomOutputShadowPoint',
             'desc' => [
+                'en' => 'Custom Output Shadow Point',
             ],
         ],
     ];

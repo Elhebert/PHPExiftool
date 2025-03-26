@@ -28,13 +28,14 @@ class Instrument extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Instrument',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413091
+             * line : 291223
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Instrument extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Instrument',
             'desc' => [
+                'en' => 'Instrument',
             ],
         ],
     ];

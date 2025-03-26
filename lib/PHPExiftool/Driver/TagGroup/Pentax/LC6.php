@@ -28,13 +28,14 @@ class LC6 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LC6',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288746
+             * line : 200322
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LC6 extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:LC6',
             'desc' => [
+                'en' => 'LC6',
             ],
         ],
     ];

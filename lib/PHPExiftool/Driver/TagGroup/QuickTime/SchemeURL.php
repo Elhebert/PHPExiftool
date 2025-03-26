@@ -28,13 +28,14 @@ class SchemeURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheme URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SchemeType
-             * line : 324492
+             * line : 229277
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SchemeURL extends AbstractTagGroup
              */
             'id' => 'QuickTime::SchemeType.QuickTime:SchemeURL',
             'desc' => [
+                'en' => 'Scheme URL',
             ],
         ],
     ];

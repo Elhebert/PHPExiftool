@@ -28,13 +28,14 @@ class AcquisitionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96943
+             * line : 70345
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionType',
             'desc' => [
+                'en' => 'Acquisition Type',
             ],
         ],
     ];

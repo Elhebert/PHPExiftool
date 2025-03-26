@@ -28,13 +28,14 @@ class AttachedFileReferral extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attached File Referral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173544
+             * line : 119473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttachedFileReferral extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AttachedFileReferral',
             'desc' => [
+                'en' => 'Attached File Referral',
             ],
         ],
     ];

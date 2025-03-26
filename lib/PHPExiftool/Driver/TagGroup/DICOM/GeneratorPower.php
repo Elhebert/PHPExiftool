@@ -28,13 +28,14 @@ class GeneratorPower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generator Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95902
+             * line : 69328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneratorPower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeneratorPower',
             'desc' => [
+                'en' => 'Generator Power',
             ],
         ],
     ];

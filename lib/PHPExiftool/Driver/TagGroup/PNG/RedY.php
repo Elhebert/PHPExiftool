@@ -28,13 +28,14 @@ class RedY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::PrimaryChromaticities
-             * line : 272717
+             * line : 190466
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedY extends AbstractTagGroup
              */
             'id' => 'PNG::PrimaryChromaticities.PNG:RedY',
             'desc' => [
+                'en' => 'Red Y',
             ],
         ],
     ];

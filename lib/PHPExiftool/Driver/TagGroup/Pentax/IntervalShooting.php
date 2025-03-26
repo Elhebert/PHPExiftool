@@ -28,13 +28,14 @@ class IntervalShooting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interval Shooting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300643
+             * line : 209584
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class IntervalShooting extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:IntervalShooting',
             'desc' => [
+                'en' => 'Interval Shooting',
             ],
         ],
     ];

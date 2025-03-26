@@ -28,13 +28,14 @@ class KeypointKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keypoint Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170756
+             * line : 116988
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class KeypointKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeypointKind',
             'desc' => [
+                'en' => 'Keypoint Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170759
+             * line : 116991
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class KeypointKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeypointKind',
             'desc' => [
+                'en' => 'Keypoint Kind',
             ],
         ],
     ];

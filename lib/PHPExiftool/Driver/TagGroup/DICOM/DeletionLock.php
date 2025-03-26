@@ -28,13 +28,14 @@ class DeletionLock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Deletion Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101832
+             * line : 74973
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeletionLock extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeletionLock',
             'desc' => [
+                'en' => 'Deletion Lock',
             ],
         ],
     ];

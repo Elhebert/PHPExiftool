@@ -28,13 +28,14 @@ class FisheyeFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fisheye Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 64005
+             * line : 48621
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FisheyeFilter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:FisheyeFilter',
             'desc' => [
+                'en' => 'Fisheye Filter',
             ],
         ],
     ];

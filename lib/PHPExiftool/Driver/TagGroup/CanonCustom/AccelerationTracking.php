@@ -28,13 +28,14 @@ class AccelerationTracking extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Acceleration Tracking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74345
+             * line : 54864
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AccelerationTracking extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AccelerationTracking',
             'desc' => [
+                'en' => 'Acceleration Tracking',
             ],
         ],
     ];

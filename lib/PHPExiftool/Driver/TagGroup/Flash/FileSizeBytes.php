@@ -28,13 +28,14 @@ class FileSizeBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Size Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124071
+             * line : 86726
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSizeBytes extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:FileSizeBytes',
             'desc' => [
+                'en' => 'File Size Bytes',
             ],
         ],
     ];

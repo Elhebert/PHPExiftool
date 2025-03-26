@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282061
+             * line : 195931
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282340
+             * line : 196059
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282544
+             * line : 196175
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

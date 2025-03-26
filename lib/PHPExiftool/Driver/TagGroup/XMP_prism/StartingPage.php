@@ -28,13 +28,14 @@ class StartingPage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Starting Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411124
+             * line : 290326
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartingPage extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:StartingPage',
             'desc' => [
+                'en' => 'Starting Page',
             ],
         ],
     ];

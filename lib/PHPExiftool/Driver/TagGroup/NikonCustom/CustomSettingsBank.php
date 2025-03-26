@@ -28,13 +28,14 @@ class CustomSettingsBank extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Settings Bank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211755
+             * line : 142327
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214412
+             * line : 143965
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217244
+             * line : 145955
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219668
+             * line : 147987
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224364
+             * line : 151316
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229405
+             * line : 154245
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231530
+             * line : 155770
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235102
+             * line : 158444
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class CustomSettingsBank extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:CustomSettingsBank',
             'desc' => [
+                'en' => 'Custom Settings Bank',
             ],
         ],
     ];

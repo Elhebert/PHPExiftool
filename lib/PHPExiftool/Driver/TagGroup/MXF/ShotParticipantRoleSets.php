@@ -28,13 +28,14 @@ class ShotParticipantRoleSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot Participant Role Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171553
+             * line : 117751
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShotParticipantRoleSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotParticipantRoleSets',
             'desc' => [
+                'en' => 'Shot Participant Role Sets',
             ],
         ],
     ];

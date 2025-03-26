@@ -28,13 +28,14 @@ class MPEGAudioVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MPEG Audio Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165665
+             * line : 112643
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPEGAudioVersion extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:MPEGAudioVersion',
             'desc' => [
+                'en' => 'MPEG Audio Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EdgeMapSlope extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edge Map Slope',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155406
+             * line : 106619
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EdgeMapSlope extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EdgeMapSlope',
             'desc' => [
+                'en' => 'Edge Map Slope',
             ],
         ],
     ];

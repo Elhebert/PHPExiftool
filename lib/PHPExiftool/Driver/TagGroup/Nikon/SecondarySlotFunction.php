@@ -28,13 +28,14 @@ class SecondarySlotFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Secondary Slot Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201204
+             * line : 136098
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SecondarySlotFunction extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:SecondarySlotFunction',
             'desc' => [
+                'en' => 'Secondary Slot Function',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206402
+             * line : 138724
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SecondarySlotFunction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.Nikon:SecondarySlotFunction',
             'desc' => [
+                'en' => 'Secondary Slot Function',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208624
+             * line : 140525
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SecondarySlotFunction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:SecondarySlotFunction',
             'desc' => [
+                'en' => 'Secondary Slot Function',
             ],
         ],
     ];

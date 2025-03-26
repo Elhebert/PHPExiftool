@@ -28,13 +28,14 @@ class FluenceMapSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fluence Map Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102429
+             * line : 75528
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FluenceMapSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FluenceMapSequence',
             'desc' => [
+                'en' => 'Fluence Map Sequence',
             ],
         ],
     ];

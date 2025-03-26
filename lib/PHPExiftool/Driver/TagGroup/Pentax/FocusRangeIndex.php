@@ -28,13 +28,14 @@ class FocusRangeIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Range Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288699
+             * line : 200284
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusRangeIndex extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:FocusRangeIndex',
             'desc' => [
+                'en' => 'Focus Range Index',
             ],
         ],
     ];

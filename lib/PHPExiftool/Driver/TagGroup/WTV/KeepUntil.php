@@ -28,13 +28,14 @@ class KeepUntil extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keep Until',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396361
+             * line : 280614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeepUntil extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:KeepUntil',
             'desc' => [
+                'en' => 'Keep Until',
             ],
         ],
     ];

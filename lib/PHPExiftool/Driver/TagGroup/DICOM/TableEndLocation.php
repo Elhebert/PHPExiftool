@@ -28,13 +28,14 @@ class TableEndLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table End Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98578
+             * line : 71908
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableEndLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableEndLocation',
             'desc' => [
+                'en' => 'Table End Location',
             ],
         ],
     ];

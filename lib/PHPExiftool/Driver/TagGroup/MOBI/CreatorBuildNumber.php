@@ -28,13 +28,14 @@ class CreatorBuildNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Build Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273595
+             * line : 190798
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorBuildNumber extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:CreatorBuildNumber',
             'desc' => [
+                'en' => 'Creator Build Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BodySerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Body Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::SerialInfo
-             * line : 333713
+             * line : 234014
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class BodySerialNumber extends AbstractTagGroup
              */
             'id' => 'Ricoh::SerialInfo.Ricoh:BodySerialNumber',
             'desc' => [
+                'en' => 'Body Serial Number',
             ],
         ],
     ];

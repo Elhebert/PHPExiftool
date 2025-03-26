@@ -28,13 +28,14 @@ class Originator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Originator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102249
+             * line : 75360
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Originator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Originator',
             'desc' => [
+                'en' => 'Originator',
             ],
         ],
     ];

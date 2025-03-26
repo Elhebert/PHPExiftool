@@ -28,13 +28,14 @@ class InvertSameRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Same Rgn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264979
+             * line : 183200
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertSameRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertSameRgn',
             'desc' => [
+                'en' => 'Invert Same Rgn',
             ],
         ],
     ];

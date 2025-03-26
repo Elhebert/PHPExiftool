@@ -28,13 +28,14 @@ class SOPAuthorizationDateAndTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SOP Authorization Date And Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101877
+             * line : 75018
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SOPAuthorizationDateAndTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SOPAuthorizationDateAndTime',
             'desc' => [
+                'en' => 'SOP Authorization Date And Time',
             ],
         ],
     ];

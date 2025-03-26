@@ -28,13 +28,14 @@ class ContentGroupDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Group Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175020
+             * line : 120506
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentGroupDescription extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ContentGroupDescription',
             'desc' => [
+                'en' => 'Content Group Description',
             ],
         ],
     ];

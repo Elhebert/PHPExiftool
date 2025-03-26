@@ -28,13 +28,14 @@ class ImageRegionCtypeName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Region Ctype Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409364
+             * line : 289140
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageRegionCtypeName extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ImageRegionCtypeName',
             'desc' => [
+                'en' => 'Image Region Ctype Name',
             ],
         ],
     ];

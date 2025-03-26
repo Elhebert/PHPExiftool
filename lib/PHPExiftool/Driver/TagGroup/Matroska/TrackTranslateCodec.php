@@ -28,13 +28,14 @@ class TrackTranslateCodec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Translate Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173800
+             * line : 119699
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackTranslateCodec extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackTranslateCodec',
             'desc' => [
+                'en' => 'Track Translate Codec',
             ],
         ],
     ];

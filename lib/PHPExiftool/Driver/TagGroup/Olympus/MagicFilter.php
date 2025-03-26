@@ -28,13 +28,14 @@ class MagicFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Magic Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252250
+             * line : 173802
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class MagicFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:MagicFilter',
             'desc' => [
+                'en' => 'Magic Filter',
             ],
         ],
     ];

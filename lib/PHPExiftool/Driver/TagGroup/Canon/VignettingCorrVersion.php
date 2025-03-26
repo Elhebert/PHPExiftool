@@ -28,13 +28,14 @@ class VignettingCorrVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting Corr Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::VignettingCorr
-             * line : 71103
+             * line : 53049
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VignettingCorrVersion extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorr.Canon:VignettingCorrVersion',
             'desc' => [
+                'en' => 'Vignetting Corr Version',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::VignettingCorrUnknown
-             * line : 71243
+             * line : 53149
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class VignettingCorrVersion extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorrUnknown.Canon:VignettingCorrVersion',
             'desc' => [
+                'en' => 'Vignetting Corr Version',
             ],
         ],
     ];

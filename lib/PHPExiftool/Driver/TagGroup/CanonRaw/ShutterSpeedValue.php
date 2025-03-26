@@ -28,13 +28,14 @@ class ShutterSpeedValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ExposureInfo
-             * line : 78475
+             * line : 57161
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedValue extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ExposureInfo.CanonRaw:ShutterSpeedValue',
             'desc' => [
+                'en' => 'Shutter Speed Value',
             ],
         ],
     ];

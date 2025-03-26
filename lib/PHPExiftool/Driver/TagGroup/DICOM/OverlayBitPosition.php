@@ -28,13 +28,14 @@ class OverlayBitPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Bit Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104333
+             * line : 77406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayBitPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayBitPosition',
             'desc' => [
+                'en' => 'Overlay Bit Position',
             ],
         ],
     ];

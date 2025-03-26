@@ -28,13 +28,14 @@ class MinTransmissionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Transmission Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313796
+             * line : 219534
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinTransmissionTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:MinTransmissionTime',
             'desc' => [
+                'en' => 'Min Transmission Time',
             ],
         ],
     ];

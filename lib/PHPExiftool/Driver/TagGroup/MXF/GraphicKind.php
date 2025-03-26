@@ -28,13 +28,14 @@ class GraphicKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170342
+             * line : 116601
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GraphicKind',
             'desc' => [
+                'en' => 'Graphic Kind',
             ],
         ],
     ];

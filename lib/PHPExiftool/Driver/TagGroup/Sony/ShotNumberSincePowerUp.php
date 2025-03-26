@@ -28,13 +28,14 @@ class ShotNumberSincePowerUp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Number Since Power Up',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreInfo0401
-             * line : 359794
+             * line : 250882
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShotNumberSincePowerUp extends AbstractTagGroup
              */
             'id' => 'Sony::MoreInfo0401.Sony:ShotNumberSincePowerUp',
             'desc' => [
+                'en' => 'Shot Number Since Power Up',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 384055
+             * line : 270782
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShotNumberSincePowerUp extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:ShotNumberSincePowerUp',
             'desc' => [
+                'en' => 'Shot Number Since Power Up',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384288
+             * line : 270955
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ShotNumberSincePowerUp extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:ShotNumberSincePowerUp',
             'desc' => [
+                'en' => 'Shot Number Since Power Up',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384488
+             * line : 271111
              * type : int32u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ShotNumberSincePowerUp extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:ShotNumberSincePowerUp',
             'desc' => [
+                'en' => 'Shot Number Since Power Up',
             ],
         ],
     ];

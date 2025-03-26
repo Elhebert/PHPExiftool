@@ -28,13 +28,14 @@ class ReferencedCompensatorNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Compensator Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104017
+             * line : 77106
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedCompensatorNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedCompensatorNumber',
             'desc' => [
+                'en' => 'Referenced Compensator Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Comments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176615
+             * line : 121494
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comments extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Comments',
             'desc' => [
+                'en' => 'Comments',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LayerUnicodeNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Unicode Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305350
+             * line : 212178
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerUnicodeNames extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerUnicodeNames',
             'desc' => [
+                'en' => 'Layer Unicode Names',
             ],
         ],
     ];

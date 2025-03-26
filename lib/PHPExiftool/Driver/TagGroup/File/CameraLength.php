@@ -28,13 +28,14 @@ class CameraLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166524
+             * line : 113264
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraLength extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:CameraLength',
             'desc' => [
+                'en' => 'Camera Length',
             ],
         ],
     ];

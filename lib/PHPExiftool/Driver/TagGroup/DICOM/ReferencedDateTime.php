@@ -28,13 +28,14 @@ class ReferencedDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100155
+             * line : 73332
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedDateTime',
             'desc' => [
+                'en' => 'Referenced Date Time',
             ],
         ],
     ];

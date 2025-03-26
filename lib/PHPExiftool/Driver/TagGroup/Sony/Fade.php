@@ -28,13 +28,14 @@ class Fade extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fade',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355924
+             * line : 248293
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Fade extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Fade',
             'desc' => [
+                'en' => 'Fade',
             ],
         ],
     ];

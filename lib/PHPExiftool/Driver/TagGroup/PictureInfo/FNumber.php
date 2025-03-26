@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 566
+             * line : 228
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

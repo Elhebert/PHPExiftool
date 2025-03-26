@@ -28,13 +28,14 @@ class QuickAdjust extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quick Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211220
+             * line : 142027
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QuickAdjust extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:QuickAdjust',
             'desc' => [
+                'en' => 'Quick Adjust',
             ],
         ],
     ];

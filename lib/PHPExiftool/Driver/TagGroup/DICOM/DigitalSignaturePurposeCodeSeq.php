@@ -28,13 +28,14 @@ class DigitalSignaturePurposeCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Signature Purpose Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101920
+             * line : 75060
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalSignaturePurposeCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitalSignaturePurposeCodeSeq',
             'desc' => [
+                'en' => 'Digital Signature Purpose Code Seq',
             ],
         ],
     ];

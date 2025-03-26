@@ -28,13 +28,14 @@ class AudioCompression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Audio
-             * line : 162767
+             * line : 111235
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioCompression extends AbstractTagGroup
              */
             'id' => 'MIE::Audio.MIE-Audio:AudioCompression',
             'desc' => [
+                'en' => 'Audio Compression',
             ],
         ],
     ];

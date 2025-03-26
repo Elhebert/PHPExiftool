@@ -28,13 +28,14 @@ class ItemVendorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item Vendor ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rights
-             * line : 324384
+             * line : 229174
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemVendorID extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rights.QuickTime:ItemVendorID',
             'desc' => [
+                'en' => 'Item Vendor ID',
             ],
         ],
     ];

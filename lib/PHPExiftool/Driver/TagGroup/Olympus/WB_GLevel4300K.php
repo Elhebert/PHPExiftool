@@ -28,13 +28,14 @@ class WB_GLevel4300K extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB G Level 4300K',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255268
+             * line : 176173
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WB_GLevel4300K extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:WB_GLevel4300K',
             'desc' => [
+                'en' => 'WB G Level 4300K',
             ],
         ],
     ];

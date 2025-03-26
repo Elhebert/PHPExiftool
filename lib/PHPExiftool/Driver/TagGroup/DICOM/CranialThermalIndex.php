@@ -28,13 +28,14 @@ class CranialThermalIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cranial Thermal Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96203
+             * line : 69619
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CranialThermalIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CranialThermalIndex',
             'desc' => [
+                'en' => 'Cranial Thermal Index',
             ],
         ],
     ];

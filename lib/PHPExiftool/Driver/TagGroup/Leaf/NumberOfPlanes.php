@@ -28,13 +28,14 @@ class NumberOfPlanes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Planes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161729
+             * line : 110479
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPlanes extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:NumberOfPlanes',
             'desc' => [
+                'en' => 'Number Of Planes',
             ],
         ],
     ];

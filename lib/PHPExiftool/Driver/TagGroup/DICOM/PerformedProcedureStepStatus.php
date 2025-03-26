@@ -28,13 +28,14 @@ class PerformedProcedureStepStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Procedure Step Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99669
+             * line : 72876
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedProcedureStepStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedProcedureStepStatus',
             'desc' => [
+                'en' => 'Performed Procedure Step Status',
             ],
         ],
     ];

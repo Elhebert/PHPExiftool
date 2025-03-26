@@ -28,13 +28,14 @@ class TableTopVerticalPositionTolerance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Vertical Position Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103062
+             * line : 76158
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopVerticalPositionTolerance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopVerticalPositionTolerance',
             'desc' => [
+                'en' => 'Table Top Vertical Position Tolerance',
             ],
         ],
     ];

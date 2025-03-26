@@ -28,13 +28,14 @@ class MovieEVFGrid extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie EVF Grid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242455
+             * line : 165531
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieEVFGrid extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieEVFGrid',
             'desc' => [
+                'en' => 'Movie EVF Grid',
             ],
         ],
     ];

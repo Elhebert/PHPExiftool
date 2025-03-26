@@ -28,13 +28,14 @@ class MDItemFocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172808
+             * line : 118900
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFocalLength extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFocalLength',
             'desc' => [
+                'en' => 'MD Item Focal Length',
             ],
         ],
     ];

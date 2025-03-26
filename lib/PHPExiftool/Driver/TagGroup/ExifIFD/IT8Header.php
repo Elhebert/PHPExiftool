@@ -28,13 +28,14 @@ class IT8Header extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IT8 Header',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113208
+             * line : 82365
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IT8Header extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:IT8Header',
             'desc' => [
+                'en' => 'IT8 Header',
             ],
         ],
     ];

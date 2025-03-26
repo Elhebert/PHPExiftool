@@ -28,13 +28,14 @@ class EraseSameArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Same Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264900
+             * line : 183125
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseSameArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseSameArc',
             'desc' => [
+                'en' => 'Erase Same Arc',
             ],
         ],
     ];

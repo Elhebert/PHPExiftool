@@ -28,13 +28,14 @@ class SaturationNeutral extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34549
+             * line : 26531
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SaturationNeutral',
             'desc' => [
+                'en' => 'Saturation Neutral',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67308
+             * line : 51057
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SaturationNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SaturationNeutral',
             'desc' => [
+                'en' => 'Saturation Neutral',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68406
+             * line : 51718
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SaturationNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationNeutral',
             'desc' => [
+                'en' => 'Saturation Neutral',
             ],
         ],
     ];

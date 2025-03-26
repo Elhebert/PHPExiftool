@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 397003
+             * line : 281153
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:Model',
             'desc' => [
+                'en' => 'Model',
             ],
         ],
     ];

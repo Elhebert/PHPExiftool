@@ -28,13 +28,14 @@ class NumberOfBrachyApplicationSetups extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Brachy Application Setups',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103116
+             * line : 76212
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfBrachyApplicationSetups extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfBrachyApplicationSetups',
             'desc' => [
+                'en' => 'Number Of Brachy Application Setups',
             ],
         ],
     ];

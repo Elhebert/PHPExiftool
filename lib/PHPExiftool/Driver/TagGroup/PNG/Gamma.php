@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272547
+             * line : 190376
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

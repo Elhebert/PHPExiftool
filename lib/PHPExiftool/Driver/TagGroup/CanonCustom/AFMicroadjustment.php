@@ -28,13 +28,14 @@ class AFMicroadjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Microadjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73734
+             * line : 54503
              * type : int32s
              * writable : true
              * count : 5
@@ -42,6 +43,7 @@ class AFMicroadjustment extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFMicroadjustment',
             'desc' => [
+                'en' => 'AF Microadjustment',
             ],
         ],
     ];

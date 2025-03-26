@@ -28,13 +28,14 @@ class ImageGeneration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Generation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130810
+             * line : 90342
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageGeneration extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ImageGeneration',
             'desc' => [
+                'en' => 'Image Generation',
             ],
         ],
     ];

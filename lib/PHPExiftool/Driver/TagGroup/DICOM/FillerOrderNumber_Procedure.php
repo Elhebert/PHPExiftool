@@ -28,13 +28,14 @@ class FillerOrderNumber_Procedure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filler Order Number-Procedure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99857
+             * line : 73059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillerOrderNumber_Procedure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FillerOrderNumber-Procedure',
             'desc' => [
+                'en' => 'Filler Order Number-Procedure',
             ],
         ],
     ];

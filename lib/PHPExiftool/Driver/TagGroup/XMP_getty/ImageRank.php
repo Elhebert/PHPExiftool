@@ -28,13 +28,14 @@ class ImageRank extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Rank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397306
+             * line : 281356
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageRank extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:ImageRank',
             'desc' => [
+                'en' => 'Image Rank',
             ],
         ],
     ];

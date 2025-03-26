@@ -28,13 +28,14 @@ class LockMicrophoneButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lock Microphone Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75152
+             * line : 55341
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LockMicrophoneButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LockMicrophoneButton',
             'desc' => [
+                'en' => 'Lock Microphone Button',
             ],
         ],
     ];

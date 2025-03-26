@@ -28,13 +28,14 @@ class ReferencedToleranceTableNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Tolerance Table Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104008
+             * line : 77097
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedToleranceTableNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedToleranceTableNumber',
             'desc' => [
+                'en' => 'Referenced Tolerance Table Number',
             ],
         ],
     ];

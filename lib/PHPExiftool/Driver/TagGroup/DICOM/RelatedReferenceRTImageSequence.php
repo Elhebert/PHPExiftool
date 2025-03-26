@@ -28,13 +28,14 @@ class RelatedReferenceRTImageSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related Reference RT Image Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101772
+             * line : 74913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelatedReferenceRTImageSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelatedReferenceRTImageSequence',
             'desc' => [
+                'en' => 'Related Reference RT Image Sequence',
             ],
         ],
     ];

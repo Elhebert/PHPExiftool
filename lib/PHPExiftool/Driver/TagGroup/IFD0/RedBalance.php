@@ -28,13 +28,14 @@ class RedBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280383
+             * line : 194592
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedBalance extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:RedBalance',
             'desc' => [
+                'en' => 'Red Balance',
             ],
         ],
     ];

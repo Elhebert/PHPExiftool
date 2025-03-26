@@ -28,13 +28,14 @@ class CustomRendered extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Rendered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117080
+             * line : 83506
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomRendered extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CustomRendered',
             'desc' => [
+                'en' => 'Custom Rendered',
             ],
         ],
     ];

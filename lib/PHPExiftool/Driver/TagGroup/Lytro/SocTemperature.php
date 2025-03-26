@@ -28,13 +28,14 @@ class SocTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Soc Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162341
+             * line : 110869
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SocTemperature extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:SocTemperature',
             'desc' => [
+                'en' => 'Soc Temperature',
             ],
         ],
     ];

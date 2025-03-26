@@ -28,13 +28,14 @@ class DeviceLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100772
+             * line : 73932
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeviceLength',
             'desc' => [
+                'en' => 'Device Length',
             ],
         ],
     ];

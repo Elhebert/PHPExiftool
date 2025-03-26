@@ -28,13 +28,14 @@ class Producer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143003
+             * line : 98758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Producer extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Producer',
             'desc' => [
+                'en' => 'Producer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScriptingLocators extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scripting Locators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171977
+             * line : 118162
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScriptingLocators extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ScriptingLocators',
             'desc' => [
+                'en' => 'Scripting Locators',
             ],
         ],
     ];

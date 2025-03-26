@@ -28,13 +28,14 @@ class SortByCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sort By Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101686
+             * line : 74829
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SortByCategory extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SortByCategory',
             'desc' => [
+                'en' => 'Sort By Category',
             ],
         ],
     ];

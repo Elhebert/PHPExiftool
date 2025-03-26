@@ -28,13 +28,14 @@ class CameraMaker extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Maker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175382
+             * line : 120765
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraMaker extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CameraMaker',
             'desc' => [
+                'en' => 'Camera Maker',
             ],
         ],
     ];

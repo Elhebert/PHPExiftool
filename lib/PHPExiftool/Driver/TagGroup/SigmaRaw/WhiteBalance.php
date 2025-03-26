@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339384
+             * line : 237520
              * type : string
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340803
+             * line : 238364
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageDisplayFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Display Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102046
+             * line : 75183
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageDisplayFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageDisplayFormat',
             'desc' => [
+                'en' => 'Image Display Format',
             ],
         ],
     ];

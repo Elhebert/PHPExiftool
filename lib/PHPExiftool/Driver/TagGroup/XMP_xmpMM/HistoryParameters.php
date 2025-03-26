@@ -28,13 +28,14 @@ class HistoryParameters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'History Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413893
+             * line : 291920
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HistoryParameters extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:HistoryParameters',
             'desc' => [
+                'en' => 'History Parameters',
             ],
         ],
     ];

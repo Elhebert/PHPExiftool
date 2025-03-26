@@ -28,13 +28,14 @@ class SensorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338960
+             * line : 237362
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 339103
+             * line : 237395
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
     ];

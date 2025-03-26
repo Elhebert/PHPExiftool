@@ -28,13 +28,14 @@ class FilmStockKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Stock Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168077
+             * line : 114578
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FilmStockKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmStockKind',
             'desc' => [
+                'en' => 'Film Stock Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169185
+             * line : 115627
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FilmStockKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmStockKind',
             'desc' => [
+                'en' => 'Film Stock Kind',
             ],
         ],
     ];

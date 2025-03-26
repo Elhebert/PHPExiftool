@@ -28,13 +28,14 @@ class AlternateSourceURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alternate Source URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174450
+             * line : 120140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlternateSourceURL extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AlternateSourceURL',
             'desc' => [
+                'en' => 'Alternate Source URL',
             ],
         ],
     ];

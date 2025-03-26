@@ -28,13 +28,14 @@ class ModelingFlash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modeling Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245218
+             * line : 167964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModelingFlash extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ModelingFlash',
             'desc' => [
+                'en' => 'Modeling Flash',
             ],
         ],
     ];

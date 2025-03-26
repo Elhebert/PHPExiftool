@@ -28,13 +28,14 @@ class Func1ButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Func 1 Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218617
+             * line : 146983
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Func1ButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:Func1ButtonPlusDials',
             'desc' => [
+                'en' => 'Func 1 Button Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221067
+             * line : 149014
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Func1ButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:Func1ButtonPlusDials',
             'desc' => [
+                'en' => 'Func 1 Button Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232966
+             * line : 156832
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Func1ButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:Func1ButtonPlusDials',
             'desc' => [
+                'en' => 'Func 1 Button Plus Dials',
             ],
         ],
     ];

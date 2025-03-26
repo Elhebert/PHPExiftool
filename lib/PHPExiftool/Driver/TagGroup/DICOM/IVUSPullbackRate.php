@@ -28,13 +28,14 @@ class IVUSPullbackRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IVUS Pullback Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96162
+             * line : 69580
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IVUSPullbackRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IVUSPullbackRate',
             'desc' => [
+                'en' => 'IVUS Pullback Rate',
             ],
         ],
     ];

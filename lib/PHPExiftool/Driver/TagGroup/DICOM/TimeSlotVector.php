@@ -28,13 +28,14 @@ class TimeSlotVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Slot Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100877
+             * line : 74037
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeSlotVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeSlotVector',
             'desc' => [
+                'en' => 'Time Slot Vector',
             ],
         ],
     ];

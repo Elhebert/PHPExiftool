@@ -28,13 +28,14 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58894
+             * line : 45739
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59240
+             * line : 45904
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59518
+             * line : 46046
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59774
+             * line : 46176
              * type : int16s
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60044
+             * line : 46317
              * type : int16s
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60571
+             * line : 46617
              * type : int16s
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60818
+             * line : 46759
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61163
+             * line : 46942
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61537
+             * line : 47182
              * type : int16s
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61925
+             * line : 47395
              * type : int16s
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62346
+             * line : 47635
              * type : int16s
              * writable : true
              * count : 4
@@ -172,12 +183,13 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62817
+             * line : 47917
              * type : int16s
              * writable : true
              * count : 4
@@ -185,6 +197,7 @@ class WB_RGGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGGB Levels Tungsten',
             ],
         ],
     ];

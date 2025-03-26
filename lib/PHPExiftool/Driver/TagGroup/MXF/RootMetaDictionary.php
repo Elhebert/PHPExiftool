@@ -28,13 +28,14 @@ class RootMetaDictionary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Root Meta Dictionary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172273
+             * line : 118438
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RootMetaDictionary extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RootMetaDictionary',
             'desc' => [
+                'en' => 'Root Meta Dictionary',
             ],
         ],
     ];

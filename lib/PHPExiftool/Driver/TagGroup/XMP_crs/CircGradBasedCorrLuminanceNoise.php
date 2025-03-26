@@ -28,13 +28,14 @@ class CircGradBasedCorrLuminanceNoise extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Luminance Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401977
+             * line : 285212
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrLuminanceNoise extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrLuminanceNoise',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Luminance Noise',
             ],
         ],
     ];

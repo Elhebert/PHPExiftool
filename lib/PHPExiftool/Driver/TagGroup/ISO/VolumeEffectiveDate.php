@@ -28,13 +28,14 @@ class VolumeEffectiveDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Effective Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152083
+             * line : 104742
              * type : undef
              * writable : false
              * count : 17
@@ -42,6 +43,7 @@ class VolumeEffectiveDate extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:VolumeEffectiveDate',
             'desc' => [
+                'en' => 'Volume Effective Date',
             ],
         ],
     ];

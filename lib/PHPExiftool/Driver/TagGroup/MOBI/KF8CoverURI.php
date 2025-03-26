@@ -28,13 +28,14 @@ class KF8CoverURI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KF8 Cover URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273558
+             * line : 190766
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KF8CoverURI extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:KF8CoverURI',
             'desc' => [
+                'en' => 'KF8 Cover URI',
             ],
         ],
     ];

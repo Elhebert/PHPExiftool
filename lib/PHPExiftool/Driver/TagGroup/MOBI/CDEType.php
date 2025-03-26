@@ -28,13 +28,14 @@ class CDEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CDE Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273639
+             * line : 190830
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CDEType extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:CDEType',
             'desc' => [
+                'en' => 'CDE Type',
             ],
         ],
     ];

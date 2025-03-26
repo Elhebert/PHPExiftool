@@ -28,13 +28,14 @@ class ImageStabilization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275462
+             * line : 191895
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageStabilization extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ImageStabilization',
             'desc' => [
+                'en' => 'Image Stabilization',
             ],
         ],
     ];

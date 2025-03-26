@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Flip
-             * line : 313075
+             * line : 218930
              * type : string
              * writable : false
              * count : 16
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::Flip.MakerNotes:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::INSV_MakerNotes
-             * line : 313821
+             * line : 219559
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::INSV_MakerNotes.MakerNotes:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EnvelopeNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Envelope Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158414
+             * line : 108913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnvelopeNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:EnvelopeNumber',
             'desc' => [
+                'en' => 'Envelope Number',
             ],
         ],
     ];

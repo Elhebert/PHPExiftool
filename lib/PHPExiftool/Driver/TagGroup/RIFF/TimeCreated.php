@@ -28,13 +28,14 @@ class TimeCreated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Exif
-             * line : 327908
+             * line : 231412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCreated extends AbstractTagGroup
              */
             'id' => 'RIFF::Exif.RIFF:TimeCreated',
             'desc' => [
+                'en' => 'Time Created',
             ],
         ],
     ];

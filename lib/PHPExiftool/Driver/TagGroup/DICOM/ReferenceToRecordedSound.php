@@ -28,13 +28,14 @@ class ReferenceToRecordedSound extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference To Recorded Sound',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104085
+             * line : 77172
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceToRecordedSound extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceToRecordedSound',
             'desc' => [
+                'en' => 'Reference To Recorded Sound',
             ],
         ],
     ];

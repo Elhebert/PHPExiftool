@@ -28,13 +28,14 @@ class RecordedFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169136
+             * line : 115579
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RecordedFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RecordedFormat',
             'desc' => [
+                'en' => 'Recorded Format',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171426
+             * line : 117628
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RecordedFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RecordedFormat',
             'desc' => [
+                'en' => 'Recorded Format',
             ],
         ],
     ];

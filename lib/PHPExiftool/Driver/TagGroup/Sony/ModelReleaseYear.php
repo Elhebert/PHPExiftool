@@ -28,13 +28,14 @@ class ModelReleaseYear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Model Release Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 384174
+             * line : 270857
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ModelReleaseYear extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:ModelReleaseYear',
             'desc' => [
+                'en' => 'Model Release Year',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384407
+             * line : 271030
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ModelReleaseYear extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:ModelReleaseYear',
             'desc' => [
+                'en' => 'Model Release Year',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384677
+             * line : 271253
              * type : int8u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ModelReleaseYear extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:ModelReleaseYear',
             'desc' => [
+                'en' => 'Model Release Year',
             ],
         ],
     ];

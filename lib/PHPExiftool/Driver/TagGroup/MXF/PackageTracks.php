@@ -28,13 +28,14 @@ class PackageTracks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Tracks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169585
+             * line : 115977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageTracks extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageTracks',
             'desc' => [
+                'en' => 'Package Tracks',
             ],
         ],
     ];

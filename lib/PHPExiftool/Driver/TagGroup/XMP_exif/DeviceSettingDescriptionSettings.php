@@ -28,13 +28,14 @@ class DeviceSettingDescriptionSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Device Setting Description Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405412
+             * line : 287897
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DeviceSettingDescriptionSettings extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:DeviceSettingDescriptionSettings',
             'desc' => [
+                'en' => 'Device Setting Description Settings',
             ],
         ],
     ];

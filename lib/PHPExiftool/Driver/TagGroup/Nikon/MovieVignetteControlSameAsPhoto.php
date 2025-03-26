@@ -28,13 +28,14 @@ class MovieVignetteControlSameAsPhoto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Vignette Control Same As Photo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200270
+             * line : 135234
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieVignetteControlSameAsPhoto extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieVignetteControlSameAsPhoto',
             'desc' => [
+                'en' => 'Movie Vignette Control Same As Photo',
             ],
         ],
     ];

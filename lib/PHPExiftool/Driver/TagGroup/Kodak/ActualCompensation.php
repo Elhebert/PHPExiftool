@@ -28,13 +28,14 @@ class ActualCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159430
+             * line : 109402
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualCompensation extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:ActualCompensation',
             'desc' => [
+                'en' => 'Actual Compensation',
             ],
         ],
     ];

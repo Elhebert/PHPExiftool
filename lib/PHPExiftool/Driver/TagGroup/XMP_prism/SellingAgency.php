@@ -28,13 +28,14 @@ class SellingAgency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Selling Agency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411109
+             * line : 290314
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SellingAgency extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:SellingAgency',
             'desc' => [
+                'en' => 'Selling Agency',
             ],
         ],
     ];

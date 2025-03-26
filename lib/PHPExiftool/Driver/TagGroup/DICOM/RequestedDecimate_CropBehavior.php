@@ -28,13 +28,14 @@ class RequestedDecimate_CropBehavior extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Decimate-Crop Behavior',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102139
+             * line : 75270
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedDecimate_CropBehavior extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedDecimate-CropBehavior',
             'desc' => [
+                'en' => 'Requested Decimate-Crop Behavior',
             ],
         ],
     ];

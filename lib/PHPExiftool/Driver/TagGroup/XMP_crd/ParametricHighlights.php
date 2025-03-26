@@ -28,13 +28,14 @@ class ParametricHighlights extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parametric Highlights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400546
+             * line : 284033
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParametricHighlights extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ParametricHighlights',
             'desc' => [
+                'en' => 'Parametric Highlights',
             ],
         ],
     ];

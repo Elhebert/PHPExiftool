@@ -28,13 +28,14 @@ class ScanSoftware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126473
+             * line : 87692
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSoftware extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ScanSoftware',
             'desc' => [
+                'en' => 'Scan Software',
             ],
         ],
     ];

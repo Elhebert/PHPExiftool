@@ -28,13 +28,14 @@ class CallbackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Callback Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176244
+             * line : 121281
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CallbackNumber extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CallbackNumber',
             'desc' => [
+                'en' => 'Callback Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BookType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Book Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273506
+             * line : 190736
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BookType extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:BookType',
             'desc' => [
+                'en' => 'Book Type',
             ],
         ],
     ];

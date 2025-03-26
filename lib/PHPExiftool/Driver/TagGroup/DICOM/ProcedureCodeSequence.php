@@ -28,13 +28,14 @@ class ProcedureCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Procedure Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94865
+             * line : 68350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProcedureCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProcedureCodeSequence',
             'desc' => [
+                'en' => 'Procedure Code Sequence',
             ],
         ],
     ];

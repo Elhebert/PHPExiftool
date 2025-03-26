@@ -28,13 +28,14 @@ class DLODataLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DLO Data Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83801
+             * line : 61439
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DLODataLength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:DLODataLength',
             'desc' => [
+                'en' => 'DLO Data Length',
             ],
         ],
     ];

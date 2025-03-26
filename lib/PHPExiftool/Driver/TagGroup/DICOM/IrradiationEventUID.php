@@ -28,13 +28,14 @@ class IrradiationEventUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Irradiation Event UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95090
+             * line : 68572
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IrradiationEventUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IrradiationEventUID',
             'desc' => [
+                'en' => 'Irradiation Event UID',
             ],
         ],
     ];

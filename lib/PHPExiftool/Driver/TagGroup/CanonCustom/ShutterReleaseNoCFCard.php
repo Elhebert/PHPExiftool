@@ -28,13 +28,14 @@ class ShutterReleaseNoCFCard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Release W/O CF Card',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71349
+             * line : 53220
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterReleaseNoCFCard extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:ShutterReleaseNoCFCard',
             'desc' => [
+                'en' => 'Shutter Release W/O CF Card',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 71900
+             * line : 53494
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShutterReleaseNoCFCard extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:ShutterReleaseNoCFCard',
             'desc' => [
+                'en' => 'Shutter Release W/O CF Card',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78246
+             * line : 56963
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ShutterReleaseNoCFCard extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:ShutterReleaseNoCFCard',
             'desc' => [
+                'en' => 'Shutter Release W/O CF Card',
             ],
         ],
     ];

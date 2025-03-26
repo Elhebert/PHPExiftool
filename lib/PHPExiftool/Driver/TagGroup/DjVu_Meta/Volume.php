@@ -28,13 +28,14 @@ class Volume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107509
+             * line : 79339
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Volume extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Volume',
             'desc' => [
+                'en' => 'Volume',
             ],
         ],
     ];

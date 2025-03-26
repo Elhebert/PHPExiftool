@@ -28,13 +28,14 @@ class WB_RGBMulFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Mul Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155245
+             * line : 106466
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBMulFluorescent extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBMulFluorescent',
             'desc' => [
+                'en' => 'WB RGB Mul Fluorescent',
             ],
         ],
     ];

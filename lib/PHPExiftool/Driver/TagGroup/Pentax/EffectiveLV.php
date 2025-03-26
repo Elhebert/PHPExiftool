@@ -28,13 +28,14 @@ class EffectiveLV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Effective LV',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298741
+             * line : 208452
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class EffectiveLV extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:EffectiveLV',
             'desc' => [
+                'en' => 'Effective LV',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 298749
+             * line : 208455
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class EffectiveLV extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:EffectiveLV',
             'desc' => [
+                'en' => 'Effective LV',
             ],
         ],
     ];

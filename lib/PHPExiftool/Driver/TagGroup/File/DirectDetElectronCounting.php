@@ -28,13 +28,14 @@ class DirectDetElectronCounting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Direct Det Electron Counting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166628
+             * line : 113366
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DirectDetElectronCounting extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:DirectDetElectronCounting',
             'desc' => [
+                'en' => 'Direct Det Electron Counting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FilterOperationsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Operations Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101646
+             * line : 74790
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterOperationsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterOperationsSequence',
             'desc' => [
+                'en' => 'Filter Operations Sequence',
             ],
         ],
     ];

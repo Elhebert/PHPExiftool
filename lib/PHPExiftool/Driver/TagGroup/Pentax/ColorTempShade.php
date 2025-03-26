@@ -28,13 +28,14 @@ class ColorTempShade extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Shade',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299777
+             * line : 208965
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
     ];

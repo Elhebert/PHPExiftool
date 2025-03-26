@@ -28,13 +28,14 @@ class AlbumArtistSortOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album Artist Sort Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174437
+             * line : 120128
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumArtistSortOrder extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:AlbumArtistSortOrder',
             'desc' => [
+                'en' => 'Album Artist Sort Order',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ComponentUserComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component User Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171739
+             * line : 117931
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentUserComments extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComponentUserComments',
             'desc' => [
+                'en' => 'Component User Comments',
             ],
         ],
     ];

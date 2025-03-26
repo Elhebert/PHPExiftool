@@ -28,13 +28,14 @@ class CTBoneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Bone Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97513
+             * line : 70900
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTBoneNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTBoneNumber',
             'desc' => [
+                'en' => 'CT Bone Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LimitAF_AreaModeSelAutoAnimals extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit AF-Area Mode Sel Auto Animals',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248821
+             * line : 171509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitAF_AreaModeSelAutoAnimals extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitAF-AreaModeSelAutoAnimals',
             'desc' => [
+                'en' => 'Limit AF-Area Mode Sel Auto Animals',
             ],
         ],
     ];

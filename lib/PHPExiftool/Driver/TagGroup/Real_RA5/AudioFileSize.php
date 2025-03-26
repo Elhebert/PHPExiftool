@@ -28,13 +28,14 @@ class AudioFileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio File Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV5
-             * line : 329996
+             * line : 232306
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioFileSize extends AbstractTagGroup
              */
             'id' => 'Real::AudioV5.Real-RA5:AudioFileSize',
             'desc' => [
+                'en' => 'Audio File Size',
             ],
         ],
     ];

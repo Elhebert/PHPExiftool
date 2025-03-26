@@ -28,13 +28,14 @@ class ShootingCountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shooting Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168395
+             * line : 114890
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShootingCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShootingCountryCode',
             'desc' => [
+                'en' => 'Shooting Country Code',
             ],
         ],
     ];

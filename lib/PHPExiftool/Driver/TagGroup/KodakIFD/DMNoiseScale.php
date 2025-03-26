@@ -28,13 +28,14 @@ class DMNoiseScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DM Noise Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155774
+             * line : 106985
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DMNoiseScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMNoiseScale',
             'desc' => [
+                'en' => 'DM Noise Scale',
             ],
         ],
     ];

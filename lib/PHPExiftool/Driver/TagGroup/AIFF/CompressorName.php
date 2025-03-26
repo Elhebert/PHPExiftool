@@ -28,13 +28,14 @@ class CompressorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressor Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Common
-             * line : 174
+             * line : 92
              * type : pstring
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressorName extends AbstractTagGroup
              */
             'id' => 'AIFF::Common.AIFF:CompressorName',
             'desc' => [
+                'en' => 'Compressor Name',
             ],
         ],
     ];

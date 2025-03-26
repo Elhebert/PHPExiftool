@@ -28,13 +28,14 @@ class QueueStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Queue Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102286
+             * line : 75387
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QueueStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:QueueStatus',
             'desc' => [
+                'en' => 'Queue Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageBoxTileHorizontalDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Tile Horizontal Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101619
+             * line : 74763
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxTileHorizontalDimension extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxTileHorizontalDimension',
             'desc' => [
+                'en' => 'Image Box Tile Horizontal Dimension',
             ],
         ],
     ];

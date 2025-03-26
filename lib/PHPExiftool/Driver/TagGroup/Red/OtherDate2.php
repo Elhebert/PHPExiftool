@@ -28,13 +28,14 @@ class OtherDate2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Date 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331364
+             * line : 232995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherDate2 extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:OtherDate2',
             'desc' => [
+                'en' => 'Other Date 2',
             ],
         ],
     ];

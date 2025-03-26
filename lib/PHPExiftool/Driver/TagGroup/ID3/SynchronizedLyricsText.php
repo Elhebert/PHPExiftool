@@ -28,13 +28,14 @@ class SynchronizedLyricsText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Synchronized Lyrics Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::SynLyrics
-             * line : 147166
+             * line : 102194
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SynchronizedLyricsText extends AbstractTagGroup
              */
             'id' => 'ID3::SynLyrics.ID3:SynchronizedLyricsText',
             'desc' => [
+                'en' => 'Synchronized Lyrics Text',
             ],
         ],
     ];

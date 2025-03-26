@@ -28,13 +28,14 @@ class DeviceAbsoluteSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Absolute Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168344
+             * line : 114839
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceAbsoluteSpeed extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceAbsoluteSpeed',
             'desc' => [
+                'en' => 'Device Absolute Speed',
             ],
         ],
     ];

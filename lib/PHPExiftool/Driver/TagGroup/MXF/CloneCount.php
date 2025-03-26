@@ -28,13 +28,14 @@ class CloneCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clone Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168136
+             * line : 114635
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CloneCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CloneCount',
             'desc' => [
+                'en' => 'Clone Count',
             ],
         ],
     ];

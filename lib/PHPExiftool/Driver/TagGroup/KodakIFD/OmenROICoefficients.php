@@ -28,13 +28,14 @@ class OmenROICoefficients extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen ROI Coefficients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155714
+             * line : 106925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenROICoefficients extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenROICoefficients',
             'desc' => [
+                'en' => 'Omen ROI Coefficients',
             ],
         ],
     ];

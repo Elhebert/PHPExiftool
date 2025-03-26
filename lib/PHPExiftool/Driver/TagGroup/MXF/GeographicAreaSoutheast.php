@@ -28,13 +28,14 @@ class GeographicAreaSoutheast extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geographic Area Southeast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172142
+             * line : 118309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeographicAreaSoutheast extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GeographicAreaSoutheast',
             'desc' => [
+                'en' => 'Geographic Area Southeast',
             ],
         ],
     ];

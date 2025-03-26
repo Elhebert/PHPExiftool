@@ -28,13 +28,14 @@ class ImagePixelFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Pixel Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122471
+             * line : 85779
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePixelFormat extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ImagePixelFormat',
             'desc' => [
+                'en' => 'Image Pixel Format',
             ],
         ],
     ];

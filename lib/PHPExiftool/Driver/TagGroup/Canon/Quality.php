@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 55675
+             * line : 43389
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

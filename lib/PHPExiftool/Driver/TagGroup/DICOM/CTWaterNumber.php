@@ -28,13 +28,14 @@ class CTWaterNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Water Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97510
+             * line : 70897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTWaterNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTWaterNumber',
             'desc' => [
+                'en' => 'CT Water Number',
             ],
         ],
     ];

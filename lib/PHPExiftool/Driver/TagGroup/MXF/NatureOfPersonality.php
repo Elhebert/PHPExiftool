@@ -28,13 +28,14 @@ class NatureOfPersonality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nature Of Personality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167532
+             * line : 114147
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NatureOfPersonality extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NatureOfPersonality',
             'desc' => [
+                'en' => 'Nature Of Personality',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170012
+             * line : 116337
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NatureOfPersonality extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NatureOfPersonality',
             'desc' => [
+                'en' => 'Nature Of Personality',
             ],
         ],
     ];

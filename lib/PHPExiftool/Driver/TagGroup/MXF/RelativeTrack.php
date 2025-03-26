@@ -28,13 +28,14 @@ class RelativeTrack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169464
+             * line : 115866
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeTrack extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelativeTrack',
             'desc' => [
+                'en' => 'Relative Track',
             ],
         ],
     ];

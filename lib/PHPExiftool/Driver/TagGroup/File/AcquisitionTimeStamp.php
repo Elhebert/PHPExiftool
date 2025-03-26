@@ -28,13 +28,14 @@ class AcquisitionTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166767
+             * line : 113502
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionTimeStamp extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:AcquisitionTimeStamp',
             'desc' => [
+                'en' => 'Acquisition Time Stamp',
             ],
         ],
     ];

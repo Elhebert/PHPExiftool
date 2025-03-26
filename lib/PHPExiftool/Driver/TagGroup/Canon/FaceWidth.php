@@ -28,13 +28,14 @@ class FaceWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FaceDetect2
-             * line : 63345
+             * line : 48193
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceWidth extends AbstractTagGroup
              */
             'id' => 'Canon::FaceDetect2.Canon:FaceWidth',
             'desc' => [
+                'en' => 'Face Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VirtualImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Virtual Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::VirtualPage
-             * line : 273041
+             * line : 190585
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VirtualImageWidth extends AbstractTagGroup
              */
             'id' => 'PNG::VirtualPage.PNG:VirtualImageWidth',
             'desc' => [
+                'en' => 'Virtual Image Width',
             ],
         ],
     ];

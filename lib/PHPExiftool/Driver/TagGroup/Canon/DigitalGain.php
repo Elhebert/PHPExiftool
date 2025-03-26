@@ -28,13 +28,14 @@ class DigitalGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Processing
-             * line : 70022
+             * line : 52575
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalGain extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:DigitalGain',
             'desc' => [
+                'en' => 'Digital Gain',
             ],
         ],
     ];

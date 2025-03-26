@@ -28,13 +28,14 @@ class Xidiri extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Xidiri',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104480
+             * line : 77551
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Xidiri extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:Xidiri',
             'desc' => [
+                'en' => 'Xidiri',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EventSampleSizeValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Sample Size Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106121
+             * line : 78488
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventSampleSizeValue extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventSampleSizeValue',
             'desc' => [
+                'en' => 'Event Sample Size Value',
             ],
         ],
     ];

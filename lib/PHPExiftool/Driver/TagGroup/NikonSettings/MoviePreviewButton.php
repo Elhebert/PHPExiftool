@@ -28,13 +28,14 @@ class MoviePreviewButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Preview Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246666
+             * line : 169359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MoviePreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MoviePreviewButton',
             'desc' => [
+                'en' => 'Movie Preview Button',
             ],
         ],
     ];

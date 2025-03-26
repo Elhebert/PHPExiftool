@@ -28,13 +28,14 @@ class PanasonicDateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panasonic Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::TimeInfo
-             * line : 279655
+             * line : 194230
              * type : undef
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class PanasonicDateTime extends AbstractTagGroup
              */
             'id' => 'Panasonic::TimeInfo.Panasonic:PanasonicDateTime',
             'desc' => [
+                'en' => 'Panasonic Date Time',
             ],
         ],
     ];

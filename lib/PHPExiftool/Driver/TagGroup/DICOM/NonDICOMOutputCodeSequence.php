@@ -28,13 +28,14 @@ class NonDICOMOutputCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Non DICOM Output Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99998
+             * line : 73200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NonDICOMOutputCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NonDICOMOutputCodeSequence',
             'desc' => [
+                'en' => 'Non DICOM Output Code Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISRC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1327
+             * line : 586
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISRC extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ISRC',
             'desc' => [
+                'en' => 'ISRC',
             ],
         ],
     ];

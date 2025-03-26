@@ -28,13 +28,14 @@ class ConditionalFEC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90043
+             * line : 65066
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConditionalFEC extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ConditionalFEC',
             'desc' => [
+                'en' => 'Flash Exposure Compensation',
             ],
         ],
     ];

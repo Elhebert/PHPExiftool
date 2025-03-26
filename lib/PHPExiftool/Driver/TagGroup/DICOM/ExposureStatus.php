@@ -28,13 +28,14 @@ class ExposureStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96501
+             * line : 69907
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureStatus',
             'desc' => [
+                'en' => 'Exposure Status',
             ],
         ],
     ];

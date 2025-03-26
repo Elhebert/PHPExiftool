@@ -28,13 +28,14 @@ class StartFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166724
+             * line : 113461
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartFrame extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:StartFrame',
             'desc' => [
+                'en' => 'Start Frame',
             ],
         ],
     ];

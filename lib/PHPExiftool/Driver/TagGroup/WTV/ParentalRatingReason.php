@@ -28,13 +28,14 @@ class ParentalRatingReason extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parental Rating Reason',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396202
+             * line : 280496
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParentalRatingReason extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ParentalRatingReason',
             'desc' => [
+                'en' => 'Parental Rating Reason',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ManometerPressure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manometer Pressure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252966
+             * line : 174381
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManometerPressure extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ManometerPressure',
             'desc' => [
+                'en' => 'Manometer Pressure',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DepthOfScanField extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth Of Scan Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96224
+             * line : 69637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthOfScanField extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DepthOfScanField',
             'desc' => [
+                'en' => 'Depth Of Scan Field',
             ],
         ],
     ];

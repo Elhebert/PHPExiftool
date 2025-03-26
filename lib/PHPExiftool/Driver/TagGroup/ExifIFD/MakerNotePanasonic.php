@@ -28,13 +28,14 @@ class MakerNotePanasonic extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Panasonic',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105059
+             * line : 77903
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNotePanasonic extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNotePanasonic',
             'desc' => [
+                'en' => 'Maker Note Panasonic',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116020
+             * line : 83196
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNotePanasonic extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNotePanasonic',
             'desc' => [
+                'en' => 'Maker Note Panasonic',
             ],
         ],
     ];

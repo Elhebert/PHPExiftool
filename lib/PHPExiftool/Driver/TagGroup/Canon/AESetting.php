@@ -28,13 +28,14 @@ class AESetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58581
+             * line : 45577
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AESetting extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:AESetting',
             'desc' => [
+                'en' => 'AE Setting',
             ],
         ],
     ];

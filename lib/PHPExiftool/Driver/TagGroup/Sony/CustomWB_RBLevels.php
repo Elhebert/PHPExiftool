@@ -28,13 +28,14 @@ class CustomWB_RBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom WB RB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360760
+             * line : 251422
              * type : int16uRev
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class CustomWB_RBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:CustomWB_RBLevels',
             'desc' => [
+                'en' => 'Custom WB RB Levels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompensatorDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103747
+             * line : 76836
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorDescription',
             'desc' => [
+                'en' => 'Compensator Description',
             ],
         ],
     ];

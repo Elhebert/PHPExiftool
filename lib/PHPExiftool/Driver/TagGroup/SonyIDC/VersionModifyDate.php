@@ -28,13 +28,14 @@ class VersionModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Version Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394494
+             * line : 279460
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionModifyDate extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:VersionModifyDate',
             'desc' => [
+                'en' => 'Version Modify Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFStatusFarLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Far Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343409
+             * line : 240356
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusFarLeft extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusFarLeft',
             'desc' => [
+                'en' => 'AF Status Far Left',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345314
+             * line : 242090
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFStatusFarLeft extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFStatusFarLeft',
             'desc' => [
+                'en' => 'AF Status Far Left',
             ],
         ],
     ];

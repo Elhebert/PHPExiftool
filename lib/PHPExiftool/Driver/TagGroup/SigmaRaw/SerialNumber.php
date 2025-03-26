@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339777
+             * line : 237640
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

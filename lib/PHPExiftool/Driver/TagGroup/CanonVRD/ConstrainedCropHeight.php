@@ -28,13 +28,14 @@ class ConstrainedCropHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Constrained Crop Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82599
+             * line : 60494
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConstrainedCropHeight extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:ConstrainedCropHeight',
             'desc' => [
+                'en' => 'Constrained Crop Height',
             ],
         ],
     ];

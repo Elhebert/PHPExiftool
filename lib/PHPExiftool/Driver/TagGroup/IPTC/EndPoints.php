@@ -28,13 +28,14 @@ class EndPoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'End Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151864
+             * line : 104610
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EndPoints extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:EndPoints',
             'desc' => [
+                'en' => 'End Points',
             ],
         ],
     ];

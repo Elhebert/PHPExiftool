@@ -28,13 +28,14 @@ class AFImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4051
+             * line : 2556
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AFImageWidth extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:AFImageWidth',
             'desc' => [
+                'en' => 'AF Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4213
+             * line : 2652
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AFImageWidth extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFImageWidth',
             'desc' => [
+                'en' => 'AF Image Width',
             ],
         ],
     ];

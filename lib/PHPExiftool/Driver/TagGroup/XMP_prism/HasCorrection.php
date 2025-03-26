@@ -28,13 +28,14 @@ class HasCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410866
+             * line : 290121
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasCorrection extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:HasCorrection',
             'desc' => [
+                'en' => 'Has Correction',
             ],
         ],
     ];

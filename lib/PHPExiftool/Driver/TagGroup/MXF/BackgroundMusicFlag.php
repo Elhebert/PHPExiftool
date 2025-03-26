@@ -28,13 +28,14 @@ class BackgroundMusicFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Music Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170351
+             * line : 116610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundMusicFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BackgroundMusicFlag',
             'desc' => [
+                'en' => 'Background Music Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OtherFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::OtherSampleDesc
-             * line : 324165
+             * line : 229057
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class OtherFormat extends AbstractTagGroup
              */
             'id' => 'QuickTime::OtherSampleDesc.QuickTime:OtherFormat',
             'desc' => [
+                'en' => 'Other Format',
             ],
         ],
     ];

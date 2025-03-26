@@ -28,13 +28,14 @@ class RolloffEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rolloff Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310140
+             * line : 216053
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RolloffEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:RolloffEnable',
             'desc' => [
+                'en' => 'Rolloff Enable',
             ],
         ],
     ];

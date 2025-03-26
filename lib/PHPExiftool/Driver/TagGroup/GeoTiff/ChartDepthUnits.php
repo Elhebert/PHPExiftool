@@ -28,13 +28,14 @@ class ChartDepthUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Depth Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139188
+             * line : 97434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartDepthUnits extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartDepthUnits',
             'desc' => [
+                'en' => 'Chart Depth Units',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DRM_E_BookBaseID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM E-Book Base ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273415
+             * line : 190700
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_E_BookBaseID extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:DRM_E-BookBaseID',
             'desc' => [
+                'en' => 'DRM E-Book Base ID',
             ],
         ],
     ];

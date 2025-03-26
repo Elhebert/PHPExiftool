@@ -28,13 +28,14 @@ class AverageLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Average Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Private
-             * line : 147132
+             * line : 102163
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AverageLevel extends AbstractTagGroup
              */
             'id' => 'ID3::Private.ID3:AverageLevel',
             'desc' => [
+                'en' => 'Average Level',
             ],
         ],
     ];

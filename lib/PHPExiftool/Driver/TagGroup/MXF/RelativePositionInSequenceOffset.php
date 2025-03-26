@@ -28,13 +28,14 @@ class RelativePositionInSequenceOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Position In Sequence Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168248
+             * line : 114743
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativePositionInSequenceOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelativePositionInSequenceOffset',
             'desc' => [
+                'en' => 'Relative Position In Sequence Offset',
             ],
         ],
     ];

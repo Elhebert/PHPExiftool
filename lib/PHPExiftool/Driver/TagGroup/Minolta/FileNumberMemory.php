@@ -28,13 +28,14 @@ class FileNumberMemory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Number Memory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177613
+             * line : 121988
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileNumberMemory extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FileNumberMemory',
             'desc' => [
+                'en' => 'File Number Memory',
             ],
         ],
     ];

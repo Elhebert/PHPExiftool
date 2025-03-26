@@ -28,13 +28,14 @@ class MeasuredEV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measured EV',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163040
+             * line : 111302
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasuredEV extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:MeasuredEV',
             'desc' => [
+                'en' => 'Measured EV',
             ],
         ],
     ];

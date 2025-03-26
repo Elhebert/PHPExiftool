@@ -28,13 +28,14 @@ class SensorWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280217
+             * line : 194522
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
     ];

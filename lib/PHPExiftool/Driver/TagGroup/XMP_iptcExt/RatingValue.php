@@ -28,13 +28,14 @@ class RatingValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409681
+             * line : 289441
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingValue extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingValue',
             'desc' => [
+                'en' => 'Rating Value',
             ],
         ],
     ];

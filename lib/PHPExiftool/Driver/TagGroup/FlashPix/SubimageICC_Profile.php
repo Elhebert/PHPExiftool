@@ -28,13 +28,14 @@ class SubimageICC_Profile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subimage ICC Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124799
+             * line : 87232
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubimageICC_Profile extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:SubimageICC_Profile',
             'desc' => [
+                'en' => 'Subimage ICC Profile',
             ],
         ],
     ];

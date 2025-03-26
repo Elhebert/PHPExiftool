@@ -28,13 +28,14 @@ class AudioEnhancementOrModificationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Enhancement Or Modification Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168171
+             * line : 114668
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioEnhancementOrModificationDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioEnhancementOrModificationDescription',
             'desc' => [
+                'en' => 'Audio Enhancement Or Modification Description',
             ],
         ],
     ];

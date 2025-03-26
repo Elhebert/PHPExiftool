@@ -28,13 +28,14 @@ class PF23ShutterButtonTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF23 Shutter Button Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78307
+             * line : 57011
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF23ShutterButtonTime extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF23ShutterButtonTime',
             'desc' => [
+                'en' => 'PF23 Shutter Button Time',
             ],
         ],
     ];

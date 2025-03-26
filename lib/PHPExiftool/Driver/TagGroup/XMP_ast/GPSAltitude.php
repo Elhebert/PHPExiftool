@@ -28,13 +28,14 @@ class GPSAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ast
-             * line : 209720
+             * line : 141400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'Nikon::ast.XMP-ast:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
     ];

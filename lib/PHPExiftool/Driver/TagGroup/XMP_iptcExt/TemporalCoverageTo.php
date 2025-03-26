@@ -28,13 +28,14 @@ class TemporalCoverageTo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Temporal Coverage To',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409842
+             * line : 289601
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TemporalCoverageTo extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:TemporalCoverageTo',
             'desc' => [
+                'en' => 'Temporal Coverage To',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FaceInfo
-             * line : 285623
+             * line : 198012
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Pentax::FaceInfo.Pentax:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

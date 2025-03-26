@@ -28,13 +28,14 @@ class OriginalReleaseTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Release Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149084
+             * line : 103436
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalReleaseTime extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:OriginalReleaseTime',
             'desc' => [
+                'en' => 'Original Release Time',
             ],
         ],
     ];

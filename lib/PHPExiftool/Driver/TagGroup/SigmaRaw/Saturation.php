@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339525
+             * line : 237561
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

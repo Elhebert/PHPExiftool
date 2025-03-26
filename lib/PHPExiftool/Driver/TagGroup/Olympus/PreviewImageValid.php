@@ -28,13 +28,14 @@ class PreviewImageValid extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Valid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250371
+             * line : 172832
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewImageValid extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PreviewImageValid',
             'desc' => [
+                'en' => 'Preview Image Valid',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259074
+             * line : 178780
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PreviewImageValid extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:PreviewImageValid',
             'desc' => [
+                'en' => 'Preview Image Valid',
             ],
         ],
     ];

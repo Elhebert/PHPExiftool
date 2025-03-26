@@ -28,13 +28,14 @@ class KeratometricAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Keratometric Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100712
+             * line : 73881
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeratometricAxis extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:KeratometricAxis',
             'desc' => [
+                'en' => 'Keratometric Axis',
             ],
         ],
     ];

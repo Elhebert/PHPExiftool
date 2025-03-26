@@ -28,13 +28,14 @@ class MemberNameList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Member Name List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168911
+             * line : 115376
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MemberNameList extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MemberNameList',
             'desc' => [
+                'en' => 'Member Name List',
             ],
         ],
     ];

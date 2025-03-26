@@ -28,13 +28,14 @@ class MobileTelephoneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mobile Telephone Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170923
+             * line : 117153
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MobileTelephoneNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MobileTelephoneNumber',
             'desc' => [
+                'en' => 'Mobile Telephone Number',
             ],
         ],
     ];

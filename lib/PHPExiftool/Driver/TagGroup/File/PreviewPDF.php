@@ -28,13 +28,14 @@ class PreviewPDF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview PDF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121502
+             * line : 85226
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewPDF extends AbstractTagGroup
              */
             'id' => 'Extra.File:PreviewPDF',
             'desc' => [
+                'en' => 'Preview PDF',
             ],
         ],
     ];

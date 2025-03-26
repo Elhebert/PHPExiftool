@@ -28,13 +28,14 @@ class MediaCredits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Credits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 395997
+             * line : 280315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaCredits extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaCredits',
             'desc' => [
+                'en' => 'Media Credits',
             ],
         ],
     ];

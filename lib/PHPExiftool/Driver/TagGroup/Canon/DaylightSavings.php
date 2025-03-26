@@ -28,13 +28,14 @@ class DaylightSavings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Daylight Savings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::TimeInfo
-             * line : 71083
+             * line : 53034
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DaylightSavings extends AbstractTagGroup
              */
             'id' => 'Canon::TimeInfo.Canon:DaylightSavings',
             'desc' => [
+                'en' => 'Daylight Savings',
             ],
         ],
     ];

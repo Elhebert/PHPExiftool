@@ -28,13 +28,14 @@ class AppleMailIsRemoteAttachment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Is Remote Attachment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173084
+             * line : 119107
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailIsRemoteAttachment extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailIsRemoteAttachment',
             'desc' => [
+                'en' => 'Apple Mail Is Remote Attachment',
             ],
         ],
     ];

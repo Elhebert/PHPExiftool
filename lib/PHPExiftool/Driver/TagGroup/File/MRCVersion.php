@@ -28,13 +28,14 @@ class MRCVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MRC Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166966
+             * line : 113655
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRCVersion extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:MRCVersion',
             'desc' => [
+                'en' => 'MRC Version',
             ],
         ],
     ];

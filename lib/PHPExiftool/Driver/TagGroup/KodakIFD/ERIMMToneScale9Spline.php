@@ -28,13 +28,14 @@ class ERIMMToneScale9Spline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ERIMM Tone Scale 9 Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157056
+             * line : 108260
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ERIMMToneScale9Spline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ERIMMToneScale9Spline',
             'desc' => [
+                'en' => 'ERIMM Tone Scale 9 Spline',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StartTimeSecsInFirstAxial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Time Secs In First Axial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98456
+             * line : 71788
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTimeSecsInFirstAxial extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartTimeSecsInFirstAxial',
             'desc' => [
+                'en' => 'Start Time Secs In First Axial',
             ],
         ],
     ];

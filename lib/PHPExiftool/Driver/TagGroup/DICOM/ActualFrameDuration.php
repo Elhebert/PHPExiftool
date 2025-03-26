@@ -28,13 +28,14 @@ class ActualFrameDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Frame Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95945
+             * line : 69370
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualFrameDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActualFrameDuration',
             'desc' => [
+                'en' => 'Actual Frame Duration',
             ],
         ],
     ];

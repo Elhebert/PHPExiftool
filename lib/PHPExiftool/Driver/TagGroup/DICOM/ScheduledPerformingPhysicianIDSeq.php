@@ -28,13 +28,14 @@ class ScheduledPerformingPhysicianIDSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Performing Physician ID Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99612
+             * line : 72819
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledPerformingPhysicianIDSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledPerformingPhysicianIDSeq',
             'desc' => [
+                'en' => 'Scheduled Performing Physician ID Seq',
             ],
         ],
     ];

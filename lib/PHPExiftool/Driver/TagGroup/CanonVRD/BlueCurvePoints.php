@@ -28,13 +28,14 @@ class BlueCurvePoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blue Curve Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::ToneCurve
-             * line : 82164
+             * line : 60220
              * type : int32u
              * writable : true
              * count : 21
@@ -42,12 +43,13 @@ class BlueCurvePoints extends AbstractTagGroup
              */
             'id' => 'CanonVRD::ToneCurve.CanonVRD:BlueCurvePoints',
             'desc' => [
+                'en' => 'Blue Curve Points',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82470
+             * line : 60406
              * type : int16u
              * writable : true
              * count : 21
@@ -55,6 +57,7 @@ class BlueCurvePoints extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:BlueCurvePoints',
             'desc' => [
+                'en' => 'Blue Curve Points',
             ],
         ],
     ];

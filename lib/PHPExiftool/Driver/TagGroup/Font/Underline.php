@@ -28,13 +28,14 @@ class Underline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Underline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128043
+             * line : 88855
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Underline extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:Underline',
             'desc' => [
+                'en' => 'Underline',
             ],
         ],
     ];

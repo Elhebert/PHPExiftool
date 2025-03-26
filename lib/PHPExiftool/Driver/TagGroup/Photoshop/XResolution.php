@@ -28,13 +28,14 @@ class XResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Resolution
-             * line : 305756
+             * line : 212462
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XResolution extends AbstractTagGroup
              */
             'id' => 'Photoshop::Resolution.Photoshop:XResolution',
             'desc' => [
+                'en' => 'X Resolution',
             ],
         ],
     ];

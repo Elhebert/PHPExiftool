@@ -28,13 +28,14 @@ class AnatomicalReferenceForScout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomical Reference For Scout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98211
+             * line : 71554
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicalReferenceForScout extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicalReferenceForScout',
             'desc' => [
+                'en' => 'Anatomical Reference For Scout',
             ],
         ],
     ];

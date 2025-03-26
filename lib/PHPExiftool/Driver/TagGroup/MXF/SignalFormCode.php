@@ -28,13 +28,14 @@ class SignalFormCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signal Form Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167784
+             * line : 114359
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignalFormCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SignalFormCode',
             'desc' => [
+                'en' => 'Signal Form Code',
             ],
         ],
     ];

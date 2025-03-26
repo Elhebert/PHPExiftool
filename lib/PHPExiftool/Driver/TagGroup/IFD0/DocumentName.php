@@ -28,13 +28,14 @@ class DocumentName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Document Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110552
+             * line : 81449
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DocumentName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DocumentName',
             'desc' => [
+                'en' => 'Document Name',
             ],
         ],
     ];

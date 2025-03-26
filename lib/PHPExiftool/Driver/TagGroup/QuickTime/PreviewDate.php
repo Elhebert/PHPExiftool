@@ -28,13 +28,14 @@ class PreviewDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Preview
-             * line : 324228
+             * line : 229089
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::Preview.QuickTime:PreviewDate',
             'desc' => [
+                'en' => 'Preview Date',
             ],
         ],
     ];

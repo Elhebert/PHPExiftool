@@ -28,13 +28,14 @@ class EncapsulatedDocument extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encapsulated Document',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100275
+             * line : 73449
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncapsulatedDocument extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EncapsulatedDocument',
             'desc' => [
+                'en' => 'Encapsulated Document',
             ],
         ],
     ];

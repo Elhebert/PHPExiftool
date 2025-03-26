@@ -28,13 +28,14 @@ class DerivedFromAlternatePaths extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Alternate Paths',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413797
+             * line : 291828
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromAlternatePaths extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromAlternatePaths',
             'desc' => [
+                'en' => 'Derived From Alternate Paths',
             ],
         ],
     ];

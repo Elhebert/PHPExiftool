@@ -28,13 +28,14 @@ class CMSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CM Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261263
+             * line : 180329
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class CMSharpness extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CMSharpness',
             'desc' => [
+                'en' => 'CM Sharpness',
             ],
         ],
     ];

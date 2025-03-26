@@ -28,13 +28,14 @@ class PaintCorrectionMaskRangeType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Range Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403505
+             * line : 286622
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskRangeType extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskRangeType',
             'desc' => [
+                'en' => 'Paint Correction Mask Range Type',
             ],
         ],
     ];

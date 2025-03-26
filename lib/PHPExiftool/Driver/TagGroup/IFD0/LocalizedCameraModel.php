@@ -28,13 +28,14 @@ class LocalizedCameraModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Localized Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118846
+             * line : 84085
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocalizedCameraModel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:LocalizedCameraModel',
             'desc' => [
+                'en' => 'Localized Camera Model',
             ],
         ],
     ];

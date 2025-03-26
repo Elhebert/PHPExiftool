@@ -28,13 +28,14 @@ class ShowGraphicAnnotationFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Show Graphic Annotation Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101709
+             * line : 74850
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShowGraphicAnnotationFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShowGraphicAnnotationFlag',
             'desc' => [
+                'en' => 'Show Graphic Annotation Flag',
             ],
         ],
     ];

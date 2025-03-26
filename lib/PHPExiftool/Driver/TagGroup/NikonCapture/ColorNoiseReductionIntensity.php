@@ -28,13 +28,14 @@ class ColorNoiseReductionIntensity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Noise Reduction Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::NoiseReduction
-             * line : 211123
+             * line : 141973
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorNoiseReductionIntensity extends AbstractTagGroup
              */
             'id' => 'NikonCapture::NoiseReduction.NikonCapture:ColorNoiseReductionIntensity',
             'desc' => [
+                'en' => 'Color Noise Reduction Intensity',
             ],
         ],
     ];

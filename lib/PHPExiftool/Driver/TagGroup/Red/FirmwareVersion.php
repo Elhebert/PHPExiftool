@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331455
+             * line : 233022
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocationName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335229
+             * line : 235273
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationName extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:LocationName',
             'desc' => [
+                'en' => 'Location Name',
             ],
         ],
     ];

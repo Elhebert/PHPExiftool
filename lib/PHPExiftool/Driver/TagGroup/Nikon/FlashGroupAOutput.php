@@ -28,13 +28,14 @@ class FlashGroupAOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Group A Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192823
+             * line : 130630
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashGroupAOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashGroupAOutput',
             'desc' => [
+                'en' => 'Flash Group A Output',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193383
+             * line : 130991
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashGroupAOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashGroupAOutput',
             'desc' => [
+                'en' => 'Flash Group A Output',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193995
+             * line : 131390
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashGroupAOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashGroupAOutput',
             'desc' => [
+                'en' => 'Flash Group A Output',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194619
+             * line : 131798
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashGroupAOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashGroupAOutput',
             'desc' => [
+                'en' => 'Flash Group A Output',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 195106
+             * line : 132141
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FlashGroupAOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashGroupAOutput',
             'desc' => [
+                'en' => 'Flash Group A Output',
             ],
         ],
     ];

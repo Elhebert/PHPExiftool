@@ -28,13 +28,14 @@ class SubjectLocation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408355
+             * line : 288524
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectLocation extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:SubjectLocation',
             'desc' => [
+                'en' => 'Subject Location',
             ],
         ],
     ];

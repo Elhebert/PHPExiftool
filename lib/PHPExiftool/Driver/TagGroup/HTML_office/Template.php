@@ -28,13 +28,14 @@ class Template extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142676
+             * line : 98581
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Template extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Template',
             'desc' => [
+                'en' => 'Template',
             ],
         ],
     ];

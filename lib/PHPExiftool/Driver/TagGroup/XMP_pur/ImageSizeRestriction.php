@@ -28,13 +28,14 @@ class ImageSizeRestriction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Size Restriction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411317
+             * line : 290482
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSizeRestriction extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:ImageSizeRestriction',
             'desc' => [
+                'en' => 'Image Size Restriction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Manufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 263835
+             * line : 182463
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manufacturer extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:Manufacturer',
             'desc' => [
+                'en' => 'Manufacturer',
             ],
         ],
     ];

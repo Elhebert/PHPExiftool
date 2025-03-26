@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337223
+             * line : 236054
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337241
+             * line : 236057
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensSegmentType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Segment Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100681
+             * line : 73851
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensSegmentType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LensSegmentType',
             'desc' => [
+                'en' => 'Lens Segment Type',
             ],
         ],
     ];

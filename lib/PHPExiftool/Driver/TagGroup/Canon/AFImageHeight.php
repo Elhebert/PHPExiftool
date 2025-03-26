@@ -28,13 +28,14 @@ class AFImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4058
+             * line : 2559
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AFImageHeight extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:AFImageHeight',
             'desc' => [
+                'en' => 'AF Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4220
+             * line : 2655
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AFImageHeight extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFImageHeight',
             'desc' => [
+                'en' => 'AF Image Height',
             ],
         ],
     ];

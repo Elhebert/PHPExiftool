@@ -28,13 +28,14 @@ class LCDEdgeSpline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Edge Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156717
+             * line : 107921
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDEdgeSpline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDEdgeSpline',
             'desc' => [
+                'en' => 'LCD Edge Spline',
             ],
         ],
     ];

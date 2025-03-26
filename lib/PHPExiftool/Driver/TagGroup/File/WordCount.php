@@ -28,13 +28,14 @@ class WordCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Word Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394785
+             * line : 279698
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WordCount extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:WordCount',
             'desc' => [
+                'en' => 'Word Count',
             ],
         ],
     ];

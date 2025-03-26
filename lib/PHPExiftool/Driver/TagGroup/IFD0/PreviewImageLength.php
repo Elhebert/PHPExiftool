@@ -28,13 +28,14 @@ class PreviewImageLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110900
+             * line : 81517
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewImageLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PreviewImageLength',
             'desc' => [
+                'en' => 'Preview Image Length',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 112394
+             * line : 82020
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PreviewImageLength extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PreviewImageLength',
             'desc' => [
+                'en' => 'Preview Image Length',
             ],
         ],
     ];

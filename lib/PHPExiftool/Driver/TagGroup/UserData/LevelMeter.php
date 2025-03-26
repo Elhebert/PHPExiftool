@@ -28,13 +28,14 @@ class LevelMeter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Level Meter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325272
+             * line : 229616
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LevelMeter extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:LevelMeter',
             'desc' => [
+                'en' => 'Level Meter',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325527
+             * line : 229739
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LevelMeter extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:LevelMeter',
             'desc' => [
+                'en' => 'Level Meter',
             ],
         ],
     ];

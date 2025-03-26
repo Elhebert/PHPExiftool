@@ -28,13 +28,14 @@ class BlockNumberOfPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Number Of Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103318
+             * line : 76413
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockNumberOfPoints extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockNumberOfPoints',
             'desc' => [
+                'en' => 'Block Number Of Points',
             ],
         ],
     ];

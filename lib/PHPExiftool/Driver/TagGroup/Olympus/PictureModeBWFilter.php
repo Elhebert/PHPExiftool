@@ -28,13 +28,14 @@ class PictureModeBWFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode BW Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251938
+             * line : 173617
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureModeBWFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PictureModeBWFilter',
             'desc' => [
+                'en' => 'Picture Mode BW Filter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExifVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405433
+             * line : 287903
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifVersion extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ExifVersion',
             'desc' => [
+                'en' => 'Exif Version',
             ],
         ],
     ];

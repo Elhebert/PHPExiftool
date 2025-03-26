@@ -28,13 +28,14 @@ class AcquisitionDeviceProcessingDescr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Device Processing Descr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95995
+             * line : 69418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionDeviceProcessingDescr extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionDeviceProcessingDescr',
             'desc' => [
+                'en' => 'Acquisition Device Processing Descr',
             ],
         ],
     ];

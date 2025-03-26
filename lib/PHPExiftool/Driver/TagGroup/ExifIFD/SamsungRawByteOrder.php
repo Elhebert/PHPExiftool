@@ -28,13 +28,14 @@ class SamsungRawByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Samsung Raw Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116539
+             * line : 83393
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamsungRawByteOrder extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SamsungRawByteOrder',
             'desc' => [
+                'en' => 'Samsung Raw Byte Order',
             ],
         ],
     ];

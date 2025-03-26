@@ -28,13 +28,14 @@ class AudioCodec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MOI::Main
-             * line : 165473
+             * line : 112517
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodec extends AbstractTagGroup
              */
             'id' => 'MOI::Main.MOI:AudioCodec',
             'desc' => [
+                'en' => 'Audio Codec',
             ],
         ],
     ];

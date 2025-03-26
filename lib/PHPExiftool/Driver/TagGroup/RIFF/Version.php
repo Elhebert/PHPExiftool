@@ -28,13 +28,14 @@ class Version extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328574
+             * line : 231699
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Version extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

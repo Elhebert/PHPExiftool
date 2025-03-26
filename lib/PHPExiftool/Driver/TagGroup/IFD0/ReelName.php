@@ -28,13 +28,14 @@ class ReelName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reel Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120529
+             * line : 84673
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReelName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ReelName',
             'desc' => [
+                'en' => 'Reel Name',
             ],
         ],
     ];

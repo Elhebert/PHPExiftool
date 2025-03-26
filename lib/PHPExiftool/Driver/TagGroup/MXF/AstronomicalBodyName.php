@@ -28,13 +28,14 @@ class AstronomicalBodyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Astronomical Body Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171839
+             * line : 118024
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AstronomicalBodyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AstronomicalBodyName',
             'desc' => [
+                'en' => 'Astronomical Body Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171842
+             * line : 118027
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AstronomicalBodyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AstronomicalBodyName',
             'desc' => [
+                'en' => 'Astronomical Body Name',
             ],
         ],
     ];

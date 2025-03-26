@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329555
+             * line : 232128
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

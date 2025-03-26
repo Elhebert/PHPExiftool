@@ -28,13 +28,14 @@ class OpticalTransmittance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optical Transmittance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100684
+             * line : 73854
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpticalTransmittance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OpticalTransmittance',
             'desc' => [
+                'en' => 'Optical Transmittance',
             ],
         ],
     ];

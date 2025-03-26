@@ -28,13 +28,14 @@ class Method extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395437
+             * line : 280020
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Method extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Method',
             'desc' => [
+                'en' => 'Method',
             ],
         ],
     ];

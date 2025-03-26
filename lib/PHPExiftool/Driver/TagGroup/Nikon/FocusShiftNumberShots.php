@@ -28,13 +28,14 @@ class FocusShiftNumberShots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Shift Number Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199758
+             * line : 134762
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusShiftNumberShots extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FocusShiftNumberShots',
             'desc' => [
+                'en' => 'Focus Shift Number Shots',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200392
+             * line : 135347
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusShiftNumberShots extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FocusShiftNumberShots',
             'desc' => [
+                'en' => 'Focus Shift Number Shots',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207975
+             * line : 140109
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusShiftNumberShots extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FocusShiftNumberShots',
             'desc' => [
+                'en' => 'Focus Shift Number Shots',
             ],
         ],
     ];

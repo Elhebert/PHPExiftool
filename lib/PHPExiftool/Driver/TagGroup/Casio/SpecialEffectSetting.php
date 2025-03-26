@@ -28,13 +28,14 @@ class SpecialEffectSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Special Effect Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89895
+             * line : 64957
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpecialEffectSetting extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:SpecialEffectSetting',
             'desc' => [
+                'en' => 'Special Effect Setting',
             ],
         ],
     ];

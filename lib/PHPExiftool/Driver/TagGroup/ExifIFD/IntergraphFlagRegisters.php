@@ -28,13 +28,14 @@ class IntergraphFlagRegisters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intergraph Flag Registers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113163
+             * line : 82347
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntergraphFlagRegisters extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:IntergraphFlagRegisters',
             'desc' => [
+                'en' => 'Intergraph Flag Registers',
             ],
         ],
     ];

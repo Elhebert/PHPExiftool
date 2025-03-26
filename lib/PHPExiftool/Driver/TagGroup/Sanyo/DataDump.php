@@ -28,13 +28,14 @@ class DataDump extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Dump',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336886
+             * line : 235954
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataDump extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:DataDump',
             'desc' => [
+                'en' => 'Data Dump',
             ],
         ],
     ];

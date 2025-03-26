@@ -28,13 +28,14 @@ class PictureModeSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251914
+             * line : 173605
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class PictureModeSaturation extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PictureModeSaturation',
             'desc' => [
+                'en' => 'Picture Mode Saturation',
             ],
         ],
     ];

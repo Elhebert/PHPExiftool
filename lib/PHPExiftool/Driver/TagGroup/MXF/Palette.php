@@ -28,13 +28,14 @@ class Palette extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169067
+             * line : 115511
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Palette extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Palette',
             'desc' => [
+                'en' => 'Palette',
             ],
         ],
     ];

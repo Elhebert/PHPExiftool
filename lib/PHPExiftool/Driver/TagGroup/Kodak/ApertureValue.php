@@ -28,13 +28,14 @@ class ApertureValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Free
-             * line : 154487
+             * line : 106046
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApertureValue extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:ApertureValue',
             'desc' => [
+                'en' => 'Aperture Value',
             ],
         ],
     ];

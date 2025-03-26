@@ -28,13 +28,14 @@ class DittoKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ditto Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105315
+             * line : 78054
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DittoKey extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:DittoKey',
             'desc' => [
+                'en' => 'Ditto Key',
             ],
         ],
     ];

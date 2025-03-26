@@ -28,13 +28,14 @@ class IdenticalGOPIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identical GOP Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171253
+             * line : 117461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdenticalGOPIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdenticalGOPIndicator',
             'desc' => [
+                'en' => 'Identical GOP Indicator',
             ],
         ],
     ];

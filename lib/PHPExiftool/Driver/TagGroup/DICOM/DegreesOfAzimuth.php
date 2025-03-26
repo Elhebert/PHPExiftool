@@ -28,13 +28,14 @@ class DegreesOfAzimuth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Degrees Of Azimuth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97458
+             * line : 70846
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DegreesOfAzimuth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DegreesOfAzimuth',
             'desc' => [
+                'en' => 'Degrees Of Azimuth',
             ],
         ],
     ];

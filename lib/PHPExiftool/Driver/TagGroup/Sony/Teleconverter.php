@@ -28,13 +28,14 @@ class Teleconverter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Teleconverter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 353600
+             * line : 246695
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Teleconverter extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Teleconverter',
             'desc' => [
+                'en' => 'Teleconverter',
             ],
         ],
     ];

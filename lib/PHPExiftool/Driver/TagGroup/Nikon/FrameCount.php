@@ -28,13 +28,14 @@ class FrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202202
+             * line : 136920
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameCount extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FrameCount',
             'desc' => [
+                'en' => 'Frame Count',
             ],
         ],
     ];

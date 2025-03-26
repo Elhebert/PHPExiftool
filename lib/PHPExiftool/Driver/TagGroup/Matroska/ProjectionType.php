@@ -28,13 +28,14 @@ class ProjectionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Projection
-             * line : 174029
+             * line : 119870
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectionType extends AbstractTagGroup
              */
             'id' => 'Matroska::Projection.Matroska:ProjectionType',
             'desc' => [
+                'en' => 'Projection Type',
             ],
         ],
     ];

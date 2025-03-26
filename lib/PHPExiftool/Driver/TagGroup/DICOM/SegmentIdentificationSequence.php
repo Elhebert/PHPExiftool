@@ -28,13 +28,14 @@ class SegmentIdentificationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segment Identification Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101088
+             * line : 74238
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentIdentificationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentIdentificationSequence',
             'desc' => [
+                'en' => 'Segment Identification Sequence',
             ],
         ],
     ];

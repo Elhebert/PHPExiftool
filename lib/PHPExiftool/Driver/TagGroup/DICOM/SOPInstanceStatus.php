@@ -28,13 +28,14 @@ class SOPInstanceStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SOP Instance Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101874
+             * line : 75015
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SOPInstanceStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SOPInstanceStatus',
             'desc' => [
+                'en' => 'SOP Instance Status',
             ],
         ],
     ];

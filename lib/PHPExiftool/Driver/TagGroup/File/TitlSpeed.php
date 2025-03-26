@@ -28,13 +28,14 @@ class TitlSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Titl Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166782
+             * line : 113517
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitlSpeed extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:TitlSpeed',
             'desc' => [
+                'en' => 'Titl Speed',
             ],
         ],
     ];

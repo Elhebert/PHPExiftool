@@ -28,13 +28,14 @@ class TrapIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trap Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113413
+             * line : 82448
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrapIndicator extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TrapIndicator',
             'desc' => [
+                'en' => 'Trap Indicator',
             ],
         ],
     ];

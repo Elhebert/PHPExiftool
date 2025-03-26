@@ -28,13 +28,14 @@ class LayerModifyDates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Modify Dates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305358
+             * line : 212184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayerModifyDates extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerModifyDates',
             'desc' => [
+                'en' => 'Layer Modify Dates',
             ],
         ],
     ];

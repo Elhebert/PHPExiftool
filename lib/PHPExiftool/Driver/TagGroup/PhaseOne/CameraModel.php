@@ -28,13 +28,14 @@ class CameraModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303540
+             * line : 210882
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraModel extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:CameraModel',
             'desc' => [
+                'en' => 'Camera Model',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LocationSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Location Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171497
+             * line : 117697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocationSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocationSets',
             'desc' => [
+                'en' => 'Location Sets',
             ],
         ],
     ];

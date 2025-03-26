@@ -28,13 +28,14 @@ class OverlayActivationLayer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Activation Layer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104354
+             * line : 77427
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayActivationLayer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayActivationLayer',
             'desc' => [
+                'en' => 'Overlay Activation Layer',
             ],
         ],
     ];

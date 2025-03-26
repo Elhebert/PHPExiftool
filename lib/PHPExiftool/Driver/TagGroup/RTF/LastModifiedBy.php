@@ -28,13 +28,14 @@ class LastModifiedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Modified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329290
+             * line : 232059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastModifiedBy extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:LastModifiedBy',
             'desc' => [
+                'en' => 'Last Modified By',
             ],
         ],
     ];

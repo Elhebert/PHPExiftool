@@ -28,13 +28,14 @@ class TimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108794
+             * line : 80420
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
         1 => [
             /**
              * table_name : EXE::PEF
-             * line : 108988
+             * line : 80570
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TimeStamp extends AbstractTagGroup
              */
             'id' => 'EXE::PEF.EXE:TimeStamp',
             'desc' => [
+                'en' => 'Time Stamp',
             ],
         ],
     ];

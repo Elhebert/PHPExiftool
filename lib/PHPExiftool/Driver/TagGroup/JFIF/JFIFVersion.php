@@ -28,13 +28,14 @@ class JFIFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JFIF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152230
+             * line : 104811
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class JFIFVersion extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:JFIFVersion',
             'desc' => [
+                'en' => 'JFIF Version',
             ],
         ],
     ];

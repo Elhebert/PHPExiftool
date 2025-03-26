@@ -28,13 +28,14 @@ class ImagerBoardVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager Board Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155033
+             * line : 106283
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerBoardVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerBoardVersion',
             'desc' => [
+                'en' => 'Imager Board Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class JPEGTables extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Tables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124802
+             * line : 87235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGTables extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:JPEGTables',
             'desc' => [
+                'en' => 'JPEG Tables',
             ],
         ],
     ];

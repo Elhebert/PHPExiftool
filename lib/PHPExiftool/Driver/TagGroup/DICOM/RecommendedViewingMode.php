@@ -28,13 +28,14 @@ class RecommendedViewingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recommended Viewing Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98939
+             * line : 72207
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecommendedViewingMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecommendedViewingMode',
             'desc' => [
+                'en' => 'Recommended Viewing Mode',
             ],
         ],
     ];

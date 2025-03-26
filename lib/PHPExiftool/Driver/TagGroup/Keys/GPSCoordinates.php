@@ -28,13 +28,14 @@ class GPSCoordinates extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323459
+             * line : 228661
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSCoordinates extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:GPSCoordinates',
             'desc' => [
+                'en' => 'GPS Coordinates',
             ],
         ],
     ];

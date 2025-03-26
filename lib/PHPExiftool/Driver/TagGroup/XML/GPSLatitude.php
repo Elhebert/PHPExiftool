@@ -28,13 +28,14 @@ class GPSLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265133
+             * line : 183306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
     ];

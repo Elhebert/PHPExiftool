@@ -28,13 +28,14 @@ class ContainerDirectoryItemLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Container Directory Item Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396681
+             * line : 280898
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContainerDirectoryItemLength extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:ContainerDirectoryItemLength',
             'desc' => [
+                'en' => 'Container Directory Item Length',
             ],
         ],
     ];

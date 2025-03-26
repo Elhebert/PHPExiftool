@@ -28,13 +28,14 @@ class MarkerID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Marker ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Comment
-             * line : 60
+             * line : 23
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MarkerID extends AbstractTagGroup
              */
             'id' => 'AIFF::Comment.AIFF:MarkerID',
             'desc' => [
+                'en' => 'Marker ID',
             ],
         ],
     ];

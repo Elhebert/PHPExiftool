@@ -28,13 +28,14 @@ class ROIContourSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Contour Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102576
+             * line : 75672
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIContourSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIContourSequence',
             'desc' => [
+                'en' => 'ROI Contour Sequence',
             ],
         ],
     ];

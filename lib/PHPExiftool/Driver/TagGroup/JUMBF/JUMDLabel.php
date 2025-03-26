@@ -28,13 +28,14 @@ class JUMDLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JUMD Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::JUMD
-             * line : 154115
+             * line : 105810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JUMDLabel extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::JUMD.JUMBF:JUMDLabel',
             'desc' => [
+                'en' => 'JUMD Label',
             ],
         ],
     ];

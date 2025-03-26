@@ -28,13 +28,14 @@ class WorkflowTag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Workflow Tag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409906
+             * line : 289659
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WorkflowTag extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:WorkflowTag',
             'desc' => [
+                'en' => 'Workflow Tag',
             ],
         ],
     ];

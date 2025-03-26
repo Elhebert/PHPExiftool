@@ -28,13 +28,14 @@ class ApproximateImageContainerSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Approximate Image Container Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171763
+             * line : 117952
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApproximateImageContainerSize extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ApproximateImageContainerSize',
             'desc' => [
+                'en' => 'Approximate Image Container Size',
             ],
         ],
     ];

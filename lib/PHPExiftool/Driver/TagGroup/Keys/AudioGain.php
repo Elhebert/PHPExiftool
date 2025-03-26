@@ -28,13 +28,14 @@ class AudioGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323535
+             * line : 228705
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioGain extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:AudioGain',
             'desc' => [
+                'en' => 'Audio Gain',
             ],
         ],
     ];

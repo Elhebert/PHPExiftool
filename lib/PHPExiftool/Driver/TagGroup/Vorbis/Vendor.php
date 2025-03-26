@@ -28,13 +28,14 @@ class Vendor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vendor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395908
+             * line : 280268
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Vendor extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Vendor',
             'desc' => [
+                'en' => 'Vendor',
             ],
         ],
     ];

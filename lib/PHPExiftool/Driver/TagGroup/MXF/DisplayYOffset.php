@@ -28,13 +28,14 @@ class DisplayYOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Y Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167877
+             * line : 114431
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayYOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DisplayYOffset',
             'desc' => [
+                'en' => 'Display Y Offset',
             ],
         ],
     ];

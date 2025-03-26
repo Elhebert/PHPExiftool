@@ -28,13 +28,14 @@ class OverlayBitsAllocated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Bits Allocated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104330
+             * line : 77403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayBitsAllocated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayBitsAllocated',
             'desc' => [
+                'en' => 'Overlay Bits Allocated',
             ],
         ],
     ];

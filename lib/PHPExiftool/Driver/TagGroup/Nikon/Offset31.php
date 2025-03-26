@@ -28,13 +28,14 @@ class Offset31 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Offset 31',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209321
+             * line : 141167
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Offset31 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:Offset31',
             'desc' => [
+                'en' => 'Offset 31',
             ],
         ],
     ];

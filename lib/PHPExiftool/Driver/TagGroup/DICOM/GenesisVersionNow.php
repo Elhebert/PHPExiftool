@@ -28,13 +28,14 @@ class GenesisVersionNow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genesis Version Now',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95180
+             * line : 68650
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GenesisVersionNow extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GenesisVersionNow',
             'desc' => [
+                'en' => 'Genesis Version Now',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98186
+             * line : 71530
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GenesisVersionNow extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GenesisVersionNow',
             'desc' => [
+                'en' => 'Genesis Version Now',
             ],
         ],
         2 => [
             /**
              * table_name : DICOM::Main
-             * line : 98192
+             * line : 71536
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class GenesisVersionNow extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GenesisVersionNow',
             'desc' => [
+                'en' => 'Genesis Version Now',
             ],
         ],
     ];

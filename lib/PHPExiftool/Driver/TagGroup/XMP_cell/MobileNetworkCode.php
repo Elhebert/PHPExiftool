@@ -28,13 +28,14 @@ class MobileNetworkCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mobile Network Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cell
-             * line : 398170
+             * line : 281803
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MobileNetworkCode extends AbstractTagGroup
              */
             'id' => 'XMP::cell.XMP-cell:MobileNetworkCode',
             'desc' => [
+                'en' => 'Mobile Network Code',
             ],
         ],
     ];

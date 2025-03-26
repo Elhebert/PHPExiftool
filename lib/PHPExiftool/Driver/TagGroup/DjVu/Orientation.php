@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Info
-             * line : 107143
+             * line : 79215
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'DjVu::Info.DjVu:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

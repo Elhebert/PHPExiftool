@@ -28,13 +28,14 @@ class RunWindow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Run Window',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161457
+             * line : 110291
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RunWindow extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:RunWindow',
             'desc' => [
+                'en' => 'Run Window',
             ],
         ],
     ];

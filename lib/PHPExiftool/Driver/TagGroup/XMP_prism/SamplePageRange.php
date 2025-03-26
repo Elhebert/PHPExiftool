@@ -28,13 +28,14 @@ class SamplePageRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sample Page Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411102
+             * line : 290308
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SamplePageRange extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:SamplePageRange',
             'desc' => [
+                'en' => 'Sample Page Range',
             ],
         ],
     ];

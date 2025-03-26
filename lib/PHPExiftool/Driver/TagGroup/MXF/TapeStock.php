@@ -28,13 +28,14 @@ class TapeStock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Stock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169161
+             * line : 115603
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TapeStock extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeStock',
             'desc' => [
+                'en' => 'Tape Stock',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169164
+             * line : 115606
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TapeStock extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeStock',
             'desc' => [
+                'en' => 'Tape Stock',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HMACAlgorithmSHA1128 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HMAC Algorithm SHA1128',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172531
+             * line : 118690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HMACAlgorithmSHA1128 extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HMACAlgorithmSHA1128',
             'desc' => [
+                'en' => 'HMAC Algorithm SHA1128',
             ],
         ],
     ];

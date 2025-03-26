@@ -28,13 +28,14 @@ class EssenceStreamID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Essence Stream ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170568
+             * line : 116808
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EssenceStreamID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceStreamID',
             'desc' => [
+                'en' => 'Essence Stream ID',
             ],
         ],
     ];

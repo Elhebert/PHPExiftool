@@ -28,13 +28,14 @@ class Gain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Type2
-             * line : 279672
+             * line : 194243
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gain extends AbstractTagGroup
              */
             'id' => 'Panasonic::Type2.Panasonic:Gain',
             'desc' => [
+                'en' => 'Gain',
             ],
         ],
     ];

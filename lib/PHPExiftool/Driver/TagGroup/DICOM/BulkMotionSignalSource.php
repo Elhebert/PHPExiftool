@@ -28,13 +28,14 @@ class BulkMotionSignalSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bulk Motion Signal Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96832
+             * line : 70234
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BulkMotionSignalSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BulkMotionSignalSource',
             'desc' => [
+                'en' => 'Bulk Motion Signal Source',
             ],
         ],
     ];

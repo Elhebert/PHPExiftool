@@ -28,13 +28,14 @@ class FontWeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161002
+             * line : 109940
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FontWeight extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:FontWeight',
             'desc' => [
+                'en' => 'Font Weight',
             ],
         ],
     ];

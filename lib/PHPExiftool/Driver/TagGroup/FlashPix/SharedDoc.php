@@ -28,13 +28,14 @@ class SharedDoc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shared Doc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124520
+             * line : 87005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharedDoc extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:SharedDoc',
             'desc' => [
+                'en' => 'Shared Doc',
             ],
         ],
     ];

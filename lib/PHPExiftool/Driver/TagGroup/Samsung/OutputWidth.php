@@ -28,13 +28,14 @@ class OutputWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334217
+             * line : 234297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputWidth extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:OutputWidth',
             'desc' => [
+                'en' => 'Output Width',
             ],
         ],
     ];

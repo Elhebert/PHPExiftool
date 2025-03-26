@@ -28,13 +28,14 @@ class UnifiedProcedureStepState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unified Procedure Step State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101724
+             * line : 74865
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnifiedProcedureStepState extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UnifiedProcedureStepState',
             'desc' => [
+                'en' => 'Unified Procedure Step State',
             ],
         ],
     ];

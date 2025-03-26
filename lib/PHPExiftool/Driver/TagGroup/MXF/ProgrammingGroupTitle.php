@@ -28,13 +28,14 @@ class ProgrammingGroupTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Programming Group Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171041
+             * line : 117264
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ProgrammingGroupTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgrammingGroupTitle',
             'desc' => [
+                'en' => 'Programming Group Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171045
+             * line : 117267
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ProgrammingGroupTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgrammingGroupTitle',
             'desc' => [
+                'en' => 'Programming Group Title',
             ],
         ],
     ];

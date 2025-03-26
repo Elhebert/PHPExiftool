@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395550
+             * line : 280089
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

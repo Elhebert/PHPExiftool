@@ -28,13 +28,14 @@ class ColorProfileSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Profile Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252789
+             * line : 174256
              * type : int16s
              * writable : true
              * count : 14
@@ -42,6 +43,7 @@ class ColorProfileSettings extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ColorProfileSettings',
             'desc' => [
+                'en' => 'Color Profile Settings',
             ],
         ],
     ];

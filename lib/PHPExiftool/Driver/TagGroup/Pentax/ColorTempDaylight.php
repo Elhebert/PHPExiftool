@@ -28,13 +28,14 @@ class ColorTempDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299770
+             * line : 208962
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ColorTempDaylight extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ColorTempDaylight',
             'desc' => [
+                'en' => 'Color Temp Daylight',
             ],
         ],
     ];

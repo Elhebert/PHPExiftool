@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162934
+             * line : 111278
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

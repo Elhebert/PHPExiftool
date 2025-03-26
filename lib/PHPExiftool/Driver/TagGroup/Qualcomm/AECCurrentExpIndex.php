@@ -28,13 +28,14 @@ class AECCurrentExpIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Current Exp Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306152
+             * line : 212657
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECCurrentExpIndex extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECCurrentExpIndex',
             'desc' => [
+                'en' => 'AEC Current Exp Index',
             ],
         ],
     ];

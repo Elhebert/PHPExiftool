@@ -28,13 +28,14 @@ class HeaderSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Header Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Header
-             * line : 167243
+             * line : 113876
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeaderSize extends AbstractTagGroup
              */
             'id' => 'MXF::Header.MXF:HeaderSize',
             'desc' => [
+                'en' => 'Header Size',
             ],
         ],
     ];

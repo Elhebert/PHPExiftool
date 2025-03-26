@@ -28,13 +28,14 @@ class TDA4EdgePolarity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TDA4 Edge Polarity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157386
+             * line : 108578
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TDA4EdgePolarity extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TDA4EdgePolarity',
             'desc' => [
+                'en' => 'TDA4 Edge Polarity',
             ],
         ],
     ];

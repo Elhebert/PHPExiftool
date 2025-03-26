@@ -28,13 +28,14 @@ class MakerNoteType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332383
+             * line : 233347
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNoteType extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:MakerNoteType',
             'desc' => [
+                'en' => 'Maker Note Type',
             ],
         ],
     ];

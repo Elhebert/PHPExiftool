@@ -28,13 +28,14 @@ class QualityFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168117
+             * line : 114617
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QualityFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QualityFlag',
             'desc' => [
+                'en' => 'Quality Flag',
             ],
         ],
     ];

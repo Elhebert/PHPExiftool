@@ -28,13 +28,14 @@ class KeystoneDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keystone Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255592
+             * line : 176383
              * type : int8u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class KeystoneDirection extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:KeystoneDirection',
             'desc' => [
+                'en' => 'Keystone Direction',
             ],
         ],
     ];

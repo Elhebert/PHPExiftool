@@ -28,13 +28,14 @@ class ReferencedBrachyAppSetupSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Brachy App Setup Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103969
+             * line : 77058
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedBrachyAppSetupSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedBrachyAppSetupSeq',
             'desc' => [
+                'en' => 'Referenced Brachy App Setup Seq',
             ],
         ],
     ];

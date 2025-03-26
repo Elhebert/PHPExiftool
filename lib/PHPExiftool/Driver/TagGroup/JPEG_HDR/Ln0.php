@@ -28,13 +28,14 @@ class Ln0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ln0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152477
+             * line : 104938
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Ln0 extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:Ln0',
             'desc' => [
+                'en' => 'Ln0',
             ],
         ],
     ];

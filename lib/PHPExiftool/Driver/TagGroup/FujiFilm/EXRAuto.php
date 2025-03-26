@@ -28,13 +28,14 @@ class EXRAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EXR Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130088
+             * line : 89856
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EXRAuto extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:EXRAuto',
             'desc' => [
+                'en' => 'EXR Auto',
             ],
         ],
     ];

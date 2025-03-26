@@ -28,13 +28,14 @@ class ProfileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3476
+             * line : 2147
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileSize extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:ProfileSize',
             'desc' => [
+                'en' => 'Profile Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AIBuildNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI Build Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305873
+             * line : 212525
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIBuildNumber extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AIBuildNumber',
             'desc' => [
+                'en' => 'AI Build Number',
             ],
         ],
     ];

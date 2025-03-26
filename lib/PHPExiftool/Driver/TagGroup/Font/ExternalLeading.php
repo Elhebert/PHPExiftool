@@ -28,13 +28,14 @@ class ExternalLeading extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'External Leading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128034
+             * line : 88849
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExternalLeading extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:ExternalLeading',
             'desc' => [
+                'en' => 'External Leading',
             ],
         ],
     ];

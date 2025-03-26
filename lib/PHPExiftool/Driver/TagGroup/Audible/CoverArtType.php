@@ -28,13 +28,14 @@ class CoverArtType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cover Art Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::cvrx
-             * line : 3040
+             * line : 1940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoverArtType extends AbstractTagGroup
              */
             'id' => 'Audible::cvrx.Audible:CoverArtType',
             'desc' => [
+                'en' => 'Cover Art Type',
             ],
         ],
     ];

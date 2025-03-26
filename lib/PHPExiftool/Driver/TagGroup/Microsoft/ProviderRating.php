@@ -28,13 +28,14 @@ class ProviderRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175197
+             * line : 120645
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProviderRating extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ProviderRating',
             'desc' => [
+                'en' => 'Provider Rating',
             ],
         ],
     ];

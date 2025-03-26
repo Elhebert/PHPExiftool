@@ -28,13 +28,14 @@ class SplicingMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Splicing Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168145
+             * line : 114644
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SplicingMetadata extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SplicingMetadata',
             'desc' => [
+                'en' => 'Splicing Metadata',
             ],
         ],
     ];

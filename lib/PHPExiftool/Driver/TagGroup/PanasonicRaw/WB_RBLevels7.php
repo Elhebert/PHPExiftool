@@ -28,13 +28,14 @@ class WB_RBLevels7 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels 7',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::WBInfo
-             * line : 281317
+             * line : 195238
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevels7 extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:WB_RBLevels7',
             'desc' => [
+                'en' => 'WB RB Levels 7',
             ],
         ],
     ];

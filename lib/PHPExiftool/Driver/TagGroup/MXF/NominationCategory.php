@@ -28,13 +28,14 @@ class NominationCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nomination Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171911
+             * line : 118096
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NominationCategory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NominationCategory',
             'desc' => [
+                'en' => 'Nomination Category',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171914
+             * line : 118099
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NominationCategory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NominationCategory',
             'desc' => [
+                'en' => 'Nomination Category',
             ],
         ],
     ];

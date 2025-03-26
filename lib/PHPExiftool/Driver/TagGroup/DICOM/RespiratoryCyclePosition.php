@@ -28,13 +28,14 @@ class RespiratoryCyclePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Cycle Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96892
+             * line : 70294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratoryCyclePosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratoryCyclePosition',
             'desc' => [
+                'en' => 'Respiratory Cycle Position',
             ],
         ],
     ];

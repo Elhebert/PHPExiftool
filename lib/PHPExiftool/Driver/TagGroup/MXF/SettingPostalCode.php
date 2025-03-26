@@ -28,13 +28,14 @@ class SettingPostalCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Postal Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168467
+             * line : 114959
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingPostalCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingPostalCode',
             'desc' => [
+                'en' => 'Setting Postal Code',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170528
+             * line : 116769
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingPostalCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingPostalCode',
             'desc' => [
+                'en' => 'Setting Postal Code',
             ],
         ],
     ];

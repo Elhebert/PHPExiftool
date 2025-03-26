@@ -28,13 +28,14 @@ class AFMicroAdjValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Micro Adj Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFMicroAdj
-             * line : 4300
+             * line : 2700
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFMicroAdjValue extends AbstractTagGroup
              */
             'id' => 'Canon::AFMicroAdj.Canon:AFMicroAdjValue',
             'desc' => [
+                'en' => 'AF Micro Adj Value',
             ],
         ],
     ];

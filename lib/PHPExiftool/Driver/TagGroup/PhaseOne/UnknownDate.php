@@ -28,13 +28,14 @@ class UnknownDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303389
+             * line : 210834
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownDate extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:UnknownDate',
             'desc' => [
+                'en' => 'Unknown Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CueClusterPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Cluster Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173399
+             * line : 119352
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueClusterPosition extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueClusterPosition',
             'desc' => [
+                'en' => 'Cue Cluster Position',
             ],
         ],
     ];

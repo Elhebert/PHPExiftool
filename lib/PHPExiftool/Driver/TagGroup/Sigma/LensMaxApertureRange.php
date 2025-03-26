@@ -28,13 +28,14 @@ class LensMaxApertureRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Max Aperture Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338755
+             * line : 237306
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class LensMaxApertureRange extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensMaxApertureRange',
             'desc' => [
+                'en' => 'Lens Max Aperture Range',
             ],
         ],
     ];

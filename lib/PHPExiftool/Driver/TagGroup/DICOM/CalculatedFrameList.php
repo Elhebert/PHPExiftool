@@ -28,13 +28,14 @@ class CalculatedFrameList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calculated Frame List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94958
+             * line : 68440
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalculatedFrameList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalculatedFrameList',
             'desc' => [
+                'en' => 'Calculated Frame List',
             ],
         ],
     ];

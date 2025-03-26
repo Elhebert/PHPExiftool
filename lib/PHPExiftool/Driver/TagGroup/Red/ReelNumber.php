@@ -28,13 +28,14 @@ class ReelNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reel Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331418
+             * line : 233010
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReelNumber extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:ReelNumber',
             'desc' => [
+                'en' => 'Reel Number',
             ],
         ],
     ];

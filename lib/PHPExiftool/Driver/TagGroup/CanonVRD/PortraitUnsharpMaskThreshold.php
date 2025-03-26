@@ -28,13 +28,14 @@ class PortraitUnsharpMaskThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Unsharp Mask Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83703
+             * line : 61345
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitUnsharpMaskThreshold extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:PortraitUnsharpMaskThreshold',
             'desc' => [
+                'en' => 'Portrait Unsharp Mask Threshold',
             ],
         ],
     ];

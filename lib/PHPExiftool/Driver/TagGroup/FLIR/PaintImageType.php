@@ -28,13 +28,14 @@ class PaintImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaintData
-             * line : 123487
+             * line : 86306
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintImageType extends AbstractTagGroup
              */
             'id' => 'FLIR::PaintData.FLIR:PaintImageType',
             'desc' => [
+                'en' => 'Paint Image Type',
             ],
         ],
     ];

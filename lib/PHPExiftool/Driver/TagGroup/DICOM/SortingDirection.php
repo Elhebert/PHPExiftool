@@ -28,13 +28,14 @@ class SortingDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sorting Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101689
+             * line : 74832
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SortingDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SortingDirection',
             'desc' => [
+                'en' => 'Sorting Direction',
             ],
         ],
     ];

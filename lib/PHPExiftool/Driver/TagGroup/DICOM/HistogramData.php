@@ -28,13 +28,14 @@ class HistogramData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Histogram Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101061
+             * line : 74211
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistogramData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HistogramData',
             'desc' => [
+                'en' => 'Histogram Data',
             ],
         ],
     ];

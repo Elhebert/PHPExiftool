@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3362
+             * line : 2083
              * type : undef
              * writable : false
              * count : 4
@@ -42,12 +43,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         1 => [
             /**
              * table_name : BPG::Main
-             * line : 3632
+             * line : 2234
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         2 => [
             /**
              * table_name : Other::PFM
-             * line : 263763
+             * line : 182442
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Other::PFM.File:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

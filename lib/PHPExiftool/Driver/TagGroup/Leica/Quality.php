@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274280
+             * line : 191314
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CardiacSignalSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Signal Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96720
+             * line : 70123
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacSignalSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacSignalSource',
             'desc' => [
+                'en' => 'Cardiac Signal Source',
             ],
         ],
     ];

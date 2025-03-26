@@ -28,13 +28,14 @@ class ApplicableSafetyStandardAgency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Applicable Safety Standard Agency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96835
+             * line : 70237
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicableSafetyStandardAgency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicableSafetyStandardAgency',
             'desc' => [
+                'en' => 'Applicable Safety Standard Agency',
             ],
         ],
     ];

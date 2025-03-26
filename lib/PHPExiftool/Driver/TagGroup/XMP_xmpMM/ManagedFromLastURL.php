@@ -28,13 +28,14 @@ class ManagedFromLastURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From Last URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414011
+             * line : 292036
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromLastURL extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromLastURL',
             'desc' => [
+                'en' => 'Managed From Last URL',
             ],
         ],
     ];

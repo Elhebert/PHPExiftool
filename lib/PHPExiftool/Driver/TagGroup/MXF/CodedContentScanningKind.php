@@ -28,13 +28,14 @@ class CodedContentScanningKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coded Content Scanning Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171226
+             * line : 117438
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodedContentScanningKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodedContentScanningKind',
             'desc' => [
+                'en' => 'Coded Content Scanning Kind',
             ],
         ],
     ];

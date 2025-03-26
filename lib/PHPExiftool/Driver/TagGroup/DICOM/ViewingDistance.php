@@ -28,13 +28,14 @@ class ViewingDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewing Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100745
+             * line : 73905
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewingDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewingDistance',
             'desc' => [
+                'en' => 'Viewing Distance',
             ],
         ],
     ];

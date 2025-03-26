@@ -28,13 +28,14 @@ class ReleaseReady extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Ready',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409717
+             * line : 289477
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseReady extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ReleaseReady',
             'desc' => [
+                'en' => 'Release Ready',
             ],
         ],
     ];

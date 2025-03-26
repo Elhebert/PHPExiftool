@@ -28,13 +28,14 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Live View Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244081
+             * line : 167023
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LiveViewMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LiveViewMonitorOffTime',
             'desc' => [
+                'en' => 'Live View Monitor Off Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GEImageIntegrity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GE Image Integrity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100369
+             * line : 73542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GEImageIntegrity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GEImageIntegrity',
             'desc' => [
+                'en' => 'GE Image Integrity',
             ],
         ],
     ];

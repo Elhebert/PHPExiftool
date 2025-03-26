@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Screen
-             * line : 131433
+             * line : 90716
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'GIF::Screen.GIF:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

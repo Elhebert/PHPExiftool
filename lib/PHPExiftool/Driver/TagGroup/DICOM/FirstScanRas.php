@@ -28,13 +28,14 @@ class FirstScanRas extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Scan Ras',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97434
+             * line : 70822
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstScanRas extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FirstScanRas',
             'desc' => [
+                'en' => 'First Scan Ras',
             ],
         ],
     ];

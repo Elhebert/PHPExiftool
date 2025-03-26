@@ -28,13 +28,14 @@ class Urgency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Urgency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410412
+             * line : 289824
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Urgency extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:Urgency',
             'desc' => [
+                'en' => 'Urgency',
             ],
         ],
     ];

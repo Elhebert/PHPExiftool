@@ -28,13 +28,14 @@ class Priority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395449
+             * line : 280029
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Priority extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Priority',
             'desc' => [
+                'en' => 'Priority',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SaturationPortrait extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Portrait',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34537
+             * line : 26525
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SaturationPortrait',
             'desc' => [
+                'en' => 'Saturation Portrait',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67156
+             * line : 50961
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SaturationPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SaturationPortrait',
             'desc' => [
+                'en' => 'Saturation Portrait',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68254
+             * line : 51622
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SaturationPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationPortrait',
             'desc' => [
+                'en' => 'Saturation Portrait',
             ],
         ],
     ];

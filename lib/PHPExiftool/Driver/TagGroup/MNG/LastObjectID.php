@@ -28,13 +28,14 @@ class LastObjectID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Object ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165115
+             * line : 112218
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastObjectID extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:LastObjectID',
             'desc' => [
+                'en' => 'Last Object ID',
             ],
         ],
     ];

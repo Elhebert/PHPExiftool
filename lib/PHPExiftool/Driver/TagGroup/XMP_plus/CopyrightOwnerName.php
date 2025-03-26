@@ -28,13 +28,14 @@ class CopyrightOwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265249
+             * line : 183360
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CopyrightOwnerName extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:CopyrightOwnerName',
             'desc' => [
+                'en' => 'Copyright Owner Name',
             ],
         ],
     ];

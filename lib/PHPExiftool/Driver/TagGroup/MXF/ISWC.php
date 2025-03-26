@@ -28,13 +28,14 @@ class ISWC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISWC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167272
+             * line : 113904
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISWC extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISWC',
             'desc' => [
+                'en' => 'ISWC',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaximumDensityRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maximum Density Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151908
+             * line : 104627
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaximumDensityRange extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:MaximumDensityRange',
             'desc' => [
+                'en' => 'Maximum Density Range',
             ],
         ],
     ];

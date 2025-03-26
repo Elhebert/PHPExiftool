@@ -28,13 +28,14 @@ class ReconPostProcflag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recon Post Procflag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97507
+             * line : 70894
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconPostProcflag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconPostProcflag',
             'desc' => [
+                'en' => 'Recon Post Procflag',
             ],
         ],
     ];

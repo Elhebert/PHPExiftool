@@ -28,13 +28,14 @@ class Attachment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attachment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395270
+             * line : 279960
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Attachment extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Attachment',
             'desc' => [
+                'en' => 'Attachment',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DisplaySetPatientOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Set Patient Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101692
+             * line : 74835
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplaySetPatientOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplaySetPatientOrientation',
             'desc' => [
+                'en' => 'Display Set Patient Orientation',
             ],
         ],
     ];

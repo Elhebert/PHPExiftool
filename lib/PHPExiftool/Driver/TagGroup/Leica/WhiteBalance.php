@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274354
+             * line : 191345
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279141
+             * line : 193945
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

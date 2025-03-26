@@ -28,13 +28,14 @@ class ChapterLanguage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173459
+             * line : 119408
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterLanguage extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterLanguage',
             'desc' => [
+                'en' => 'Chapter Language',
             ],
         ],
     ];

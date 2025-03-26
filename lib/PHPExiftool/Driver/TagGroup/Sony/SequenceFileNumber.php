@@ -28,13 +28,14 @@ class SequenceFileNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 362905
+             * line : 252647
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 363910
+             * line : 253315
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 364929
+             * line : 253983
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 365895
+             * line : 254631
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9400a
-             * line : 383951
+             * line : 270694
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400a.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9400b
-             * line : 384184
+             * line : 270867
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400b.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9400c
-             * line : 384541
+             * line : 271164
              * type : int32u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class SequenceFileNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9400c.Sony:SequenceFileNumber',
             'desc' => [
+                'en' => 'Sequence File Number',
             ],
         ],
     ];

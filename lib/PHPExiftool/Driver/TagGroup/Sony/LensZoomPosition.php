@@ -28,13 +28,14 @@ class LensZoomPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Zoom Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9404a
-             * line : 385072
+             * line : 271463
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensZoomPosition extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9404a.Sony:LensZoomPosition',
             'desc' => [
+                'en' => 'Lens Zoom Position',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9404b
-             * line : 385326
+             * line : 271585
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensZoomPosition extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9404b.Sony:LensZoomPosition',
             'desc' => [
+                'en' => 'Lens Zoom Position',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390205
+             * line : 275972
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensZoomPosition extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:LensZoomPosition',
             'desc' => [
+                'en' => 'Lens Zoom Position',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390212
+             * line : 275978
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LensZoomPosition extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:LensZoomPosition',
             'desc' => [
+                'en' => 'Lens Zoom Position',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 390219
+             * line : 275984
              * type : int16u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class LensZoomPosition extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:LensZoomPosition',
             'desc' => [
+                'en' => 'Lens Zoom Position',
             ],
         ],
     ];

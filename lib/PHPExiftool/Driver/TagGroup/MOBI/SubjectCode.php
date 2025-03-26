@@ -28,13 +28,14 @@ class SubjectCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subject Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273498
+             * line : 190733
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubjectCode extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:SubjectCode',
             'desc' => [
+                'en' => 'Subject Code',
             ],
         ],
     ];

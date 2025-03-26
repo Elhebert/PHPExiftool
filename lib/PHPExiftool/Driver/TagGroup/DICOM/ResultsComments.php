@@ -28,13 +28,14 @@ class ResultsComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Results Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104146
+             * line : 77232
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResultsComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResultsComments',
             'desc' => [
+                'en' => 'Results Comments',
             ],
         ],
     ];

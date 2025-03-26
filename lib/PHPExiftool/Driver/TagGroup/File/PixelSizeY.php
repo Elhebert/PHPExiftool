@@ -28,13 +28,14 @@ class PixelSizeY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Size Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166455
+             * line : 113196
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelSizeY extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:PixelSizeY',
             'desc' => [
+                'en' => 'Pixel Size Y',
             ],
         ],
     ];

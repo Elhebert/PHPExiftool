@@ -28,13 +28,14 @@ class MeteringMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339619
+             * line : 237596
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeteringMode extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:MeteringMode',
             'desc' => [
+                'en' => 'Metering Mode',
             ],
         ],
     ];

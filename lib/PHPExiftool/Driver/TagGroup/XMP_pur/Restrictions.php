@@ -28,13 +28,14 @@ class Restrictions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Restrictions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411326
+             * line : 290491
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Restrictions extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:Restrictions',
             'desc' => [
+                'en' => 'Restrictions',
             ],
         ],
     ];

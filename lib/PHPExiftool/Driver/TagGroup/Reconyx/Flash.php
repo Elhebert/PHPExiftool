@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331262
+             * line : 232947
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

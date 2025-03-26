@@ -28,13 +28,14 @@ class HyperlinksChanged extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hyperlinks Changed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249138
+             * line : 171767
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HyperlinksChanged extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:HyperlinksChanged',
             'desc' => [
+                'en' => 'Hyperlinks Changed',
             ],
         ],
     ];

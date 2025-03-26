@@ -28,13 +28,14 @@ class AF_CSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-C Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::AFCSettings
-             * line : 128298
+             * line : 88988
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_CSetting extends AbstractTagGroup
              */
             'id' => 'FujiFilm::AFCSettings.FujiFilm:AF-CSetting',
             'desc' => [
+                'en' => 'AF-C Setting',
             ],
         ],
     ];

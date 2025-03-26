@@ -28,13 +28,14 @@ class WedgeAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wedge Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103200
+             * line : 76296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WedgeAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WedgeAngle',
             'desc' => [
+                'en' => 'Wedge Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SourceTrackIDs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Track I Ds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171030
+             * line : 117255
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceTrackIDs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceTrackIDs',
             'desc' => [
+                'en' => 'Source Track I Ds',
             ],
         ],
     ];

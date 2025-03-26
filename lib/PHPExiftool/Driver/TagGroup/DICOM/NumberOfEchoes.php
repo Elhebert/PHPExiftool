@@ -28,13 +28,14 @@ class NumberOfEchoes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Echoes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97566
+             * line : 70951
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfEchoes extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfEchoes',
             'desc' => [
+                'en' => 'Number Of Echoes',
             ],
         ],
     ];

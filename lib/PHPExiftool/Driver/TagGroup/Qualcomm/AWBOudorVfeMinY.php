@@ -28,13 +28,14 @@ class AWBOudorVfeMinY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Oudor Vfe Min Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307170
+             * line : 213668
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBOudorVfeMinY extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBOudorVfeMinY',
             'desc' => [
+                'en' => 'AWB Oudor Vfe Min Y',
             ],
         ],
     ];

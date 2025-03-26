@@ -28,13 +28,14 @@ class AutoBracketingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracketing Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229042
+             * line : 154031
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoBracketingMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:AutoBracketingMode',
             'desc' => [
+                'en' => 'Auto Bracketing Mode',
             ],
         ],
     ];

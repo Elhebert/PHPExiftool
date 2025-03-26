@@ -28,13 +28,14 @@ class RequestedResolutionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Resolution ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102142
+             * line : 75273
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedResolutionID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedResolutionID',
             'desc' => [
+                'en' => 'Requested Resolution ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class T4Options extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'T4 Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111189
+             * line : 81587
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class T4Options extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:T4Options',
             'desc' => [
+                'en' => 'T4 Options',
             ],
         ],
     ];

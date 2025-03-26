@@ -28,13 +28,14 @@ class HiliteMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Highlight Mode Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264698
+             * line : 182942
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HiliteMode extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:HiliteMode',
             'desc' => [
+                'en' => 'Highlight Mode Flag',
             ],
         ],
     ];

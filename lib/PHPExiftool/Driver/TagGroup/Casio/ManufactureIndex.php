@@ -28,13 +28,14 @@ class ManufactureIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacture Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::QVCI
-             * line : 85229
+             * line : 61984
              * type : string
              * writable : false
              * count : 9
@@ -42,6 +43,7 @@ class ManufactureIndex extends AbstractTagGroup
              */
             'id' => 'Casio::QVCI.Casio:ManufactureIndex',
             'desc' => [
+                'en' => 'Manufacture Index',
             ],
         ],
     ];

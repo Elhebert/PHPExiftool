@@ -28,13 +28,14 @@ class LocalCaption extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Local Caption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150428
+             * line : 103978
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class LocalCaption extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:LocalCaption',
             'desc' => [
+                'en' => 'Local Caption',
             ],
         ],
     ];

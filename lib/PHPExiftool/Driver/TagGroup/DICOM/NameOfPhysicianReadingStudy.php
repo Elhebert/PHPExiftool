@@ -28,13 +28,14 @@ class NameOfPhysicianReadingStudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Name Of Physician Reading Study',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94887
+             * line : 68371
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NameOfPhysicianReadingStudy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NameOfPhysicianReadingStudy',
             'desc' => [
+                'en' => 'Name Of Physician Reading Study',
             ],
         ],
     ];

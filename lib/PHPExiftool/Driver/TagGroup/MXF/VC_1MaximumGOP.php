@@ -28,13 +28,14 @@ class VC_1MaximumGOP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Maximum GOP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172391
+             * line : 118552
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1MaximumGOP extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1MaximumGOP',
             'desc' => [
+                'en' => 'VC-1 Maximum GOP',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BatteryVoltageAvg extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Voltage Avg',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331318
+             * line : 232970
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BatteryVoltageAvg extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:BatteryVoltageAvg',
             'desc' => [
+                'en' => 'Battery Voltage Avg',
             ],
         ],
     ];

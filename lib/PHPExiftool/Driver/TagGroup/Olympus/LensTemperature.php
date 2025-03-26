@@ -28,13 +28,14 @@ class LensTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258512
+             * line : 178567
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensTemperature extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:LensTemperature',
             'desc' => [
+                'en' => 'Lens Temperature',
             ],
         ],
     ];

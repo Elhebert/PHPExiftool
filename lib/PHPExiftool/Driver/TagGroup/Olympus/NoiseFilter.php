@@ -28,13 +28,14 @@ class NoiseFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252052
+             * line : 173663
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class NoiseFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:NoiseFilter',
             'desc' => [
+                'en' => 'Noise Filter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Count extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174560
+             * line : 120191
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Count extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Count',
             'desc' => [
+                'en' => 'Count',
             ],
         ],
     ];

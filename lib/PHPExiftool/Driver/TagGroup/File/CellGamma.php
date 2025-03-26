@@ -28,13 +28,14 @@ class CellGamma extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cell Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166903
+             * line : 113592
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CellGamma extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:CellGamma',
             'desc' => [
+                'en' => 'Cell Gamma',
             ],
         ],
     ];

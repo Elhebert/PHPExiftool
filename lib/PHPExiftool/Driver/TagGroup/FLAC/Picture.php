@@ -28,13 +28,14 @@ class Picture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Picture
-             * line : 121922
+             * line : 85432
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Picture extends AbstractTagGroup
              */
             'id' => 'FLAC::Picture.FLAC:Picture',
             'desc' => [
+                'en' => 'Picture',
             ],
         ],
     ];

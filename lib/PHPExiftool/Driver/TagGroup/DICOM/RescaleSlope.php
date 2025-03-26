@@ -28,13 +28,14 @@ class RescaleSlope extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rescale Slope',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98922
+             * line : 72192
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RescaleSlope extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RescaleSlope',
             'desc' => [
+                'en' => 'Rescale Slope',
             ],
         ],
     ];

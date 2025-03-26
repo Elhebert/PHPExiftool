@@ -28,13 +28,14 @@ class QltyQualityParameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Qlty Quality Parameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171372
+             * line : 117574
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class QltyQualityParameter extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyQualityParameter',
             'desc' => [
+                'en' => 'Qlty Quality Parameter',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171375
+             * line : 117577
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class QltyQualityParameter extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyQualityParameter',
             'desc' => [
+                'en' => 'Qlty Quality Parameter',
             ],
         ],
     ];

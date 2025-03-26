@@ -28,13 +28,14 @@ class GeometricDistortionParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geometric Distortion Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128717
+             * line : 89306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeometricDistortionParams extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:GeometricDistortionParams',
             'desc' => [
+                'en' => 'Geometric Distortion Params',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139710
+             * line : 97725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

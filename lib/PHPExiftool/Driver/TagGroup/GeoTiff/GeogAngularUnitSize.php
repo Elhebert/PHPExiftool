@@ -28,13 +28,14 @@ class GeogAngularUnitSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Angular Unit Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 133989
+             * line : 92282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogAngularUnitSize extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogAngularUnitSize',
             'desc' => [
+                'en' => 'Geog Angular Unit Size',
             ],
         ],
     ];

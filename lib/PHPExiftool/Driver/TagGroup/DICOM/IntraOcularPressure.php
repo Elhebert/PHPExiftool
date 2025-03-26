@@ -28,13 +28,14 @@ class IntraOcularPressure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intra Ocular Pressure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98327
+             * line : 71662
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntraOcularPressure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntraOcularPressure',
             'desc' => [
+                'en' => 'Intra Ocular Pressure',
             ],
         ],
     ];

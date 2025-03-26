@@ -28,13 +28,14 @@ class Location extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333654
+             * line : 233970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Location extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
     ];

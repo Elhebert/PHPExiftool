@@ -28,13 +28,14 @@ class KVP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KVP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95494
+             * line : 68953
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KVP extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:KVP',
             'desc' => [
+                'en' => 'KVP',
             ],
         ],
     ];

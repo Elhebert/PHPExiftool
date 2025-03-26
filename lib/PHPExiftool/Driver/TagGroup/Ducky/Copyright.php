@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::Ducky
-             * line : 486
+             * line : 209
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'APP12::Ducky.Ducky:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

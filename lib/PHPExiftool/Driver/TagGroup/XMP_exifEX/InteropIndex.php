@@ -28,13 +28,14 @@ class InteropIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interoperability Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408560
+             * line : 288616
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InteropIndex extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:InteropIndex',
             'desc' => [
+                'en' => 'Interoperability Index',
             ],
         ],
     ];

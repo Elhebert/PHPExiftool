@@ -28,13 +28,14 @@ class FullImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Full Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 358676
+             * line : 250299
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FullImageSize extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FullImageSize',
             'desc' => [
+                'en' => 'Full Image Size',
             ],
         ],
     ];

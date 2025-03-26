@@ -28,13 +28,14 @@ class UniversalEntityID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Universal Entity ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99630
+             * line : 72837
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UniversalEntityID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UniversalEntityID',
             'desc' => [
+                'en' => 'Universal Entity ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovieRecordButtonPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Record Button Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 240868
+             * line : 163944
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieRecordButtonPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieRecordButtonPlaybackMode',
             'desc' => [
+                'en' => 'Movie Record Button Playback Mode',
             ],
         ],
     ];

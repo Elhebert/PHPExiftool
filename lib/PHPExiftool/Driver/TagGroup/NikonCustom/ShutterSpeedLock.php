@@ -28,13 +28,14 @@ class ShutterSpeedLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215921
+             * line : 144968
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218522
+             * line : 146888
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220972
+             * line : 148919
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231082
+             * line : 155347
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232871
+             * line : 156737
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 237687
+             * line : 160800
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class ShutterSpeedLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ShutterSpeedLock',
             'desc' => [
+                'en' => 'Shutter Speed Lock',
             ],
         ],
     ];

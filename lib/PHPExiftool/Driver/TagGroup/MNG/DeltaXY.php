@@ -28,13 +28,14 @@ class DeltaXY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delta XY',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::CloneObject
-             * line : 164740
+             * line : 111956
              * type : int32u
              * writable : false
              * count : 2
@@ -42,12 +43,13 @@ class DeltaXY extends AbstractTagGroup
              */
             'id' => 'MNG::CloneObject.MNG:DeltaXY',
             'desc' => [
+                'en' => 'Delta XY',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::MoveObjects
-             * line : 165247
+             * line : 112337
              * type : int32u
              * writable : false
              * count : 2
@@ -55,6 +57,7 @@ class DeltaXY extends AbstractTagGroup
              */
             'id' => 'MNG::MoveObjects.MNG:DeltaXY',
             'desc' => [
+                'en' => 'Delta XY',
             ],
         ],
     ];

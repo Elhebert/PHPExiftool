@@ -28,13 +28,14 @@ class ZoomStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zoom Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334238
+             * line : 234318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZoomStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:ZoomStrength',
             'desc' => [
+                'en' => 'Zoom Strength',
             ],
         ],
     ];

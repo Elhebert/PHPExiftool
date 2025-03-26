@@ -28,13 +28,14 @@ class RelativeHumidity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Humidity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122204
+             * line : 85593
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RelativeHumidity extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:RelativeHumidity',
             'desc' => [
+                'en' => 'Relative Humidity',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122602
+             * line : 85853
              * type : float
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class RelativeHumidity extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:RelativeHumidity',
             'desc' => [
+                'en' => 'Relative Humidity',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::Params
-             * line : 123586
+             * line : 86387
              * type : float
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class RelativeHumidity extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:RelativeHumidity',
             'desc' => [
+                'en' => 'Relative Humidity',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProTune extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pro Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139662
+             * line : 97708
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProTune extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ProTune',
             'desc' => [
+                'en' => 'Pro Tune',
             ],
         ],
     ];

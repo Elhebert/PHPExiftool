@@ -28,13 +28,14 @@ class FlashActionExternal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Action External',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361138
+             * line : 251625
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashActionExternal extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashActionExternal',
             'desc' => [
+                'en' => 'Flash Action External',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361152
+             * line : 251639
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashActionExternal extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashActionExternal',
             'desc' => [
+                'en' => 'Flash Action External',
             ],
         ],
     ];

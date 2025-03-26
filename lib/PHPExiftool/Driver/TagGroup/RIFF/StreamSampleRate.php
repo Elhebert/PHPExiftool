@@ -28,13 +28,14 @@ class StreamSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::StreamHeader
-             * line : 328812
+             * line : 231889
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamSampleRate extends AbstractTagGroup
              */
             'id' => 'RIFF::StreamHeader.RIFF:StreamSampleRate',
             'desc' => [
+                'en' => 'Stream Sample Rate',
             ],
         ],
     ];

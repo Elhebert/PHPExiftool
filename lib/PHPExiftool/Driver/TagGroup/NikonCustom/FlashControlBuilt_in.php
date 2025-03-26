@@ -28,13 +28,14 @@ class FlashControlBuilt_in extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Control Built-in',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225431
+             * line : 151923
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashControlBuilt_in extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:FlashControlBuilt-in',
             'desc' => [
+                'en' => 'Flash Control Built-in',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227584
+             * line : 153290
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashControlBuilt_in extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:FlashControlBuilt-in',
             'desc' => [
+                'en' => 'Flash Control Built-in',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229144
+             * line : 154121
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashControlBuilt_in extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:FlashControlBuilt-in',
             'desc' => [
+                'en' => 'Flash Control Built-in',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230994
+             * line : 155282
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FlashControlBuilt_in extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FlashControlBuilt-in',
             'desc' => [
+                'en' => 'Flash Control Built-in',
             ],
         ],
     ];

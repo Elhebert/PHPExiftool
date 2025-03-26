@@ -28,13 +28,14 @@ class WB_RGBLevelsCustom2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Custom 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::WBSettings
-             * line : 339260
+             * line : 237456
              * type : float
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBLevelsCustom2 extends AbstractTagGroup
              */
             'id' => 'Sigma::WBSettings.Sigma:WB_RGBLevelsCustom2',
             'desc' => [
+                'en' => 'WB RGB Levels Custom 2',
             ],
         ],
     ];

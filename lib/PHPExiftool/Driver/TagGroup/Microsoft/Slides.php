@@ -28,13 +28,14 @@ class Slides extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slides',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176367
+             * line : 121341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Slides extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Slides',
             'desc' => [
+                'en' => 'Slides',
             ],
         ],
     ];

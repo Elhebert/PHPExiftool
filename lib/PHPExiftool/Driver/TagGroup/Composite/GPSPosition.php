@@ -28,13 +28,14 @@ class GPSPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90364
+             * line : 65164
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSPosition extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSPosition',
             'desc' => [
+                'en' => 'GPS Position',
             ],
         ],
     ];

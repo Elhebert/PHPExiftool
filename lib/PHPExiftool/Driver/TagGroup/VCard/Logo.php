@@ -28,13 +28,14 @@ class Logo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Logo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395146
+             * line : 279884
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Logo extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Logo',
             'desc' => [
+                'en' => 'Logo',
             ],
         ],
     ];

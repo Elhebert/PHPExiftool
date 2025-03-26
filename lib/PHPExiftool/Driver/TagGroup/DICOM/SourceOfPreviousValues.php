@@ -28,13 +28,14 @@ class SourceOfPreviousValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Of Previous Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101953
+             * line : 75093
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceOfPreviousValues extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceOfPreviousValues',
             'desc' => [
+                'en' => 'Source Of Previous Values',
             ],
         ],
     ];

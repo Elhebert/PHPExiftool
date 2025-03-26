@@ -28,13 +28,14 @@ class OrganizationSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organization Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171559
+             * line : 117757
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrganizationSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationSets',
             'desc' => [
+                'en' => 'Organization Sets',
             ],
         ],
     ];

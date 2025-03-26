@@ -28,13 +28,14 @@ class IntervalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interval Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177516
+             * line : 121956
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntervalLength extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:IntervalLength',
             'desc' => [
+                'en' => 'Interval Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Resolution
-             * line : 305793
+             * line : 212476
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'Photoshop::Resolution.Photoshop:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

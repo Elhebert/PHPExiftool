@@ -28,13 +28,14 @@ class PrintScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::PrintScaleInfo
-             * line : 305746
+             * line : 212455
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintScale extends AbstractTagGroup
              */
             'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintScale',
             'desc' => [
+                'en' => 'Print Scale',
             ],
         ],
     ];

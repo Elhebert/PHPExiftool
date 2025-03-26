@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4122
+             * line : 2593
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

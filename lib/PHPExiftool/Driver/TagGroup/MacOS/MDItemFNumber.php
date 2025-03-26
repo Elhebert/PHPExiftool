@@ -28,13 +28,14 @@ class MDItemFNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172702
+             * line : 118820
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFNumber extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFNumber',
             'desc' => [
+                'en' => 'MD Item F Number',
             ],
         ],
     ];

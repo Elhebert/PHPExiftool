@@ -28,13 +28,14 @@ class Face10Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 10 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FacePos
-             * line : 285694
+             * line : 198049
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class Face10Position extends AbstractTagGroup
              */
             'id' => 'Pentax::FacePos.Pentax:Face10Position',
             'desc' => [
+                'en' => 'Face 10 Position',
             ],
         ],
     ];

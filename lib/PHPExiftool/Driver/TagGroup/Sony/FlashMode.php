@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347120
+             * line : 243167
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349686
+             * line : 244300
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350574
+             * line : 244809
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360440
+             * line : 251266
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362180
+             * line : 252208
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363178
+             * line : 252870
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364201
+             * line : 253541
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365202
+             * line : 254206
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366186
+             * line : 254857
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369193
+             * line : 257487
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370223
+             * line : 258152
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         11 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373224
+             * line : 260776
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         12 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376225
+             * line : 263400
              * type : int8u
              * writable : true
              * count :
@@ -198,6 +211,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

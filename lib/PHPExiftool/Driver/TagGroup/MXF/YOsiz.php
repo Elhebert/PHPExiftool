@@ -28,13 +28,14 @@ class YOsiz extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Osiz',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172229
+             * line : 118396
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YOsiz extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:YOsiz',
             'desc' => [
+                'en' => 'Y Osiz',
             ],
         ],
     ];

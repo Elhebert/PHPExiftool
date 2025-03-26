@@ -28,13 +28,14 @@ class MediaThumbWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Thumb Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396191
+             * line : 280487
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaThumbWidth extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaThumbWidth',
             'desc' => [
+                'en' => 'Media Thumb Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MovementNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movement Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149280
+             * line : 103541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovementNumber extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:MovementNumber',
             'desc' => [
+                'en' => 'Movement Number',
             ],
         ],
     ];

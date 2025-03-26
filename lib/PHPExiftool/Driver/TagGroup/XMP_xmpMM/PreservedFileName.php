@@ -28,13 +28,14 @@ class PreservedFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preserved File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414191
+             * line : 292211
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreservedFileName extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:PreservedFileName',
             'desc' => [
+                'en' => 'Preserved File Name',
             ],
         ],
     ];

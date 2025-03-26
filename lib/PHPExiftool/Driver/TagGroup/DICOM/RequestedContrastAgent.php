@@ -28,13 +28,14 @@ class RequestedContrastAgent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Contrast Agent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99374
+             * line : 72591
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedContrastAgent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedContrastAgent',
             'desc' => [
+                'en' => 'Requested Contrast Agent',
             ],
         ],
     ];

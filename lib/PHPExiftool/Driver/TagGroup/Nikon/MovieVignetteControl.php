@@ -28,13 +28,14 @@ class MovieVignetteControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Vignette Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200253
+             * line : 135217
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieVignetteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieVignetteControl',
             'desc' => [
+                'en' => 'Movie Vignette Control',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200837
+             * line : 135774
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MovieVignetteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieVignetteControl',
             'desc' => [
+                'en' => 'Movie Vignette Control',
             ],
         ],
     ];

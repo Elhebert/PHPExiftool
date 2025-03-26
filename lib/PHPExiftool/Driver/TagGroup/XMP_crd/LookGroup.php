@@ -28,13 +28,14 @@ class LookGroup extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399556
+             * line : 283062
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookGroup extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LookGroup',
             'desc' => [
+                'en' => 'Look Group',
             ],
         ],
     ];

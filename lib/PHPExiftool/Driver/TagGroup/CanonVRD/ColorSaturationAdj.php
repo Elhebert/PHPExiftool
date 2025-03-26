@@ -28,13 +28,14 @@ class ColorSaturationAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Saturation Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80489
+             * line : 58705
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSaturationAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ColorSaturationAdj',
             'desc' => [
+                'en' => 'Color Saturation Adj',
             ],
         ],
     ];

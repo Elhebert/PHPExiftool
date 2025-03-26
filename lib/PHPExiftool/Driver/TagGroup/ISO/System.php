@@ -28,13 +28,14 @@ class System extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 151990
+             * line : 104685
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class System extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:System',
             'desc' => [
+                'en' => 'System',
             ],
         ],
     ];

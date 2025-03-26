@@ -28,13 +28,14 @@ class FileGUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File GUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZISRAW::Main
-             * line : 415055
+             * line : 292827
              * type : undef
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class FileGUID extends AbstractTagGroup
              */
             'id' => 'ZISRAW::Main.File:FileGUID',
             'desc' => [
+                'en' => 'File GUID',
             ],
         ],
     ];

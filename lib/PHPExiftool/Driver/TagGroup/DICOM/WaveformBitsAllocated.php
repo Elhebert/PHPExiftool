@@ -28,13 +28,14 @@ class WaveformBitsAllocated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Bits Allocated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104257
+             * line : 77331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformBitsAllocated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformBitsAllocated',
             'desc' => [
+                'en' => 'Waveform Bits Allocated',
             ],
         ],
     ];

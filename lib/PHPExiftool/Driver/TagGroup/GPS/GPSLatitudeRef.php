@@ -28,13 +28,14 @@ class GPSLatitudeRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Latitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131706
+             * line : 90828
              * type : string
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class GPSLatitudeRef extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSLatitudeRef',
             'desc' => [
+                'en' => 'GPS Latitude Ref',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141314
+             * line : 98200
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSLatitudeRef extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSLatitudeRef',
             'desc' => [
+                'en' => 'GPS Latitude Ref',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202765
+             * line : 137049
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSLatitudeRef extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSLatitudeRef',
             'desc' => [
+                'en' => 'GPS Latitude Ref',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301091
+             * line : 209746
              * type : string
              * writable : false
              * count : 2
@@ -81,6 +85,7 @@ class GPSLatitudeRef extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSLatitudeRef',
             'desc' => [
+                'en' => 'GPS Latitude Ref',
             ],
         ],
     ];

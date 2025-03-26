@@ -28,13 +28,14 @@ class STEMDefocus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'STEM Defocus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166461
+             * line : 113202
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class STEMDefocus extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:STEMDefocus',
             'desc' => [
+                'en' => 'STEM Defocus',
             ],
         ],
     ];

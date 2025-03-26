@@ -28,13 +28,14 @@ class Highlights extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355920
+             * line : 248290
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Highlights extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Highlights',
             'desc' => [
+                'en' => 'Highlights',
             ],
         ],
     ];

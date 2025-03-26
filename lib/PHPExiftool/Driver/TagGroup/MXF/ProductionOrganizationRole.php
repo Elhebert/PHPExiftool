@@ -28,13 +28,14 @@ class ProductionOrganizationRole extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Production Organization Role',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167544
+             * line : 114159
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ProductionOrganizationRole extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductionOrganizationRole',
             'desc' => [
+                'en' => 'Production Organization Role',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170024
+             * line : 116349
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ProductionOrganizationRole extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductionOrganizationRole',
             'desc' => [
+                'en' => 'Production Organization Role',
             ],
         ],
     ];

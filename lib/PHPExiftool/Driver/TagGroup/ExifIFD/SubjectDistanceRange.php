@@ -28,13 +28,14 @@ class SubjectDistanceRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Distance Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117757
+             * line : 83651
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectDistanceRange extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SubjectDistanceRange',
             'desc' => [
+                'en' => 'Subject Distance Range',
             ],
         ],
     ];

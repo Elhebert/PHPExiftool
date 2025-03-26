@@ -28,13 +28,14 @@ class ToyCameraFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Toy Camera Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 63969
+             * line : 48588
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToyCameraFilter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:ToyCameraFilter',
             'desc' => [
+                'en' => 'Toy Camera Filter',
             ],
         ],
     ];

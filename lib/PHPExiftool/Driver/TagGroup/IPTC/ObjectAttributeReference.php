@@ -28,13 +28,14 @@ class ObjectAttributeReference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Attribute Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149719
+             * line : 103787
              * type : string
              * writable : true
              * count : 68
@@ -42,6 +43,7 @@ class ObjectAttributeReference extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ObjectAttributeReference',
             'desc' => [
+                'en' => 'Object Attribute Reference',
             ],
         ],
     ];

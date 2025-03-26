@@ -28,13 +28,14 @@ class MediaOriginalBroadcastDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Original Broadcast Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1406
+             * line : 652
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaOriginalBroadcastDateTime extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaOriginalBroadcastDateTime',
             'desc' => [
+                'en' => 'Media Original Broadcast Date Time',
             ],
         ],
     ];

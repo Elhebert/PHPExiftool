@@ -28,13 +28,14 @@ class FocusShiftShooting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Shift Shooting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209419
+             * line : 141249
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusShiftShooting extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:FocusShiftShooting',
             'desc' => [
+                'en' => 'Focus Shift Shooting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScanSpotPositionMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Spot Position Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103891
+             * line : 76980
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSpotPositionMap extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanSpotPositionMap',
             'desc' => [
+                'en' => 'Scan Spot Position Map',
             ],
         ],
     ];

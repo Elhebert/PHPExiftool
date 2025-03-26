@@ -28,13 +28,14 @@ class TimeZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaData
-             * line : 324019
+             * line : 228971
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeZone extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaData.QuickTime:TimeZone',
             'desc' => [
+                'en' => 'Time Zone',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CalculatedDoseReferenceDoseValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calculated Dose Reference Dose Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102795
+             * line : 75891
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalculatedDoseReferenceDoseValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalculatedDoseReferenceDoseValue',
             'desc' => [
+                'en' => 'Calculated Dose Reference Dose Value',
             ],
         ],
     ];

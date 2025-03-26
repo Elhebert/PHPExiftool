@@ -28,13 +28,14 @@ class ContractInstallmentPercentage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contract Installment Percentage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169906
+             * line : 116244
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContractInstallmentPercentage extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractInstallmentPercentage',
             'desc' => [
+                'en' => 'Contract Installment Percentage',
             ],
         ],
     ];

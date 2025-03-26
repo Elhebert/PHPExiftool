@@ -28,13 +28,14 @@ class IsOptional extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Optional',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168883
+             * line : 115349
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsOptional extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsOptional',
             'desc' => [
+                'en' => 'Is Optional',
             ],
         ],
     ];

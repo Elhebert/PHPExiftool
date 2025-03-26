@@ -28,13 +28,14 @@ class DisallowCounterProposal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Disallow Counter Proposal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395630
+             * line : 280150
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisallowCounterProposal extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DisallowCounterProposal',
             'desc' => [
+                'en' => 'Disallow Counter Proposal',
             ],
         ],
     ];

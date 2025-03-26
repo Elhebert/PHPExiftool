@@ -28,13 +28,14 @@ class Radionuclide extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radionuclide',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95452
+             * line : 68911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Radionuclide extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Radionuclide',
             'desc' => [
+                'en' => 'Radionuclide',
             ],
         ],
     ];

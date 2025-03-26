@@ -28,13 +28,14 @@ class SecondaryCountsAccumulated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Counts Accumulated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101016
+             * line : 74166
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryCountsAccumulated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryCountsAccumulated',
             'desc' => [
+                'en' => 'Secondary Counts Accumulated',
             ],
         ],
     ];

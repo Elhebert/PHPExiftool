@@ -28,13 +28,14 @@ class MovieWhiteBalanceSameAsPhoto extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie White Balance Same As Photo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243519
+             * line : 166590
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieWhiteBalanceSameAsPhoto extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieWhiteBalanceSameAsPhoto',
             'desc' => [
+                'en' => 'Movie White Balance Same As Photo',
             ],
         ],
     ];

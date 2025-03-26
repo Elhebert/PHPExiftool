@@ -28,13 +28,14 @@ class SensitivityValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensitivity Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279804
+             * line : 194307
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensitivityValue extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:SensitivityValue',
             'desc' => [
+                'en' => 'Sensitivity Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScannerFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303772
+             * line : 211015
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ScannerFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ScannerFirmwareVersion',
             'desc' => [
+                'en' => 'Scanner Firmware Version',
             ],
         ],
     ];

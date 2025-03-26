@@ -28,13 +28,14 @@ class Year extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328591
+             * line : 231708
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Year extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Year',
             'desc' => [
+                'en' => 'Year',
             ],
         ],
     ];

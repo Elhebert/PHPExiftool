@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 128868
+             * line : 89356
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SourceIsotopeHalfLife extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Isotope Half Life',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103561
+             * line : 76653
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceIsotopeHalfLife extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceIsotopeHalfLife',
             'desc' => [
+                'en' => 'Source Isotope Half Life',
             ],
         ],
     ];

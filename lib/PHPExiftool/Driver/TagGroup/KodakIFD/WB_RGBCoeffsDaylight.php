@@ -28,13 +28,14 @@ class WB_RGBCoeffsDaylight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Coeffs Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155251
+             * line : 106472
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBCoeffsDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBCoeffsDaylight',
             'desc' => [
+                'en' => 'WB RGB Coeffs Daylight',
             ],
         ],
     ];

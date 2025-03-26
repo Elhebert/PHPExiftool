@@ -28,13 +28,14 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fine Tune Opt Spot Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243845
+             * line : 166810
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FineTuneOptSpotMetering extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FineTuneOptSpotMetering',
             'desc' => [
+                'en' => 'Fine Tune Opt Spot Metering',
             ],
         ],
     ];

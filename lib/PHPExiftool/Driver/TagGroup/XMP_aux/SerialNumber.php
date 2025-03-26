@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 398046
+             * line : 281702
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

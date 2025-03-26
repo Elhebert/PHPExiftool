@@ -28,13 +28,14 @@ class CbCrMatrixDefault extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cb Cr Matrix Default',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335584
+             * line : 235481
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class CbCrMatrixDefault extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:CbCrMatrixDefault',
             'desc' => [
+                'en' => 'Cb Cr Matrix Default',
             ],
         ],
     ];

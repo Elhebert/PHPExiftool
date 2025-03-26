@@ -28,13 +28,14 @@ class DeviceSettingDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Setting Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117739
+             * line : 83648
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceSettingDescription extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:DeviceSettingDescription',
             'desc' => [
+                'en' => 'Device Setting Description',
             ],
         ],
     ];

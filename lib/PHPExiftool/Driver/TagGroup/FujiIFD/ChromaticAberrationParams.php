@@ -28,13 +28,14 @@ class ChromaticAberrationParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128729
+             * line : 89318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationParams extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:ChromaticAberrationParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Params',
             ],
         ],
     ];

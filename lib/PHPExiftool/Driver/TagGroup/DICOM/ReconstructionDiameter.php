@@ -28,13 +28,14 @@ class ReconstructionDiameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Diameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95769
+             * line : 69217
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionDiameter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconstructionDiameter',
             'desc' => [
+                'en' => 'Reconstruction Diameter',
             ],
         ],
     ];

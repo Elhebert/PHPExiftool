@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278702
+             * line : 193807
              * type : string
              * writable : false
              * count : 22
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

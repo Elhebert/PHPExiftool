@@ -28,13 +28,14 @@ class AFPointSelected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 296072
+             * line : 206890
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 296350
+             * line : 207077
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Main
-             * line : 296640
+             * line : 207276
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFPointSelected extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFPointSelected',
             'desc' => [
+                'en' => 'AF Point Selected',
             ],
         ],
     ];

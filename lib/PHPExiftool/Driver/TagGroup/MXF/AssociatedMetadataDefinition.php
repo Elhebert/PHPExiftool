@@ -28,13 +28,14 @@ class AssociatedMetadataDefinition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Associated Metadata Definition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169372
+             * line : 115779
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssociatedMetadataDefinition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AssociatedMetadataDefinition',
             'desc' => [
+                'en' => 'Associated Metadata Definition',
             ],
         ],
     ];

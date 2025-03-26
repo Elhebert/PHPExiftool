@@ -28,13 +28,14 @@ class SanyoThumbnail extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sanyo Thumbnail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336109
+             * line : 235641
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SanyoThumbnail extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SanyoThumbnail',
             'desc' => [
+                'en' => 'Sanyo Thumbnail',
             ],
         ],
     ];

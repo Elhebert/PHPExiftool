@@ -28,13 +28,14 @@ class RequestState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Request State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174809
+             * line : 120350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestState extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RequestState',
             'desc' => [
+                'en' => 'Request State',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashGuideNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Guide Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Flash
-             * line : 163410
+             * line : 111406
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashGuideNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Flash.MIE-Flash:FlashGuideNumber',
             'desc' => [
+                'en' => 'Flash Guide Number',
             ],
         ],
     ];

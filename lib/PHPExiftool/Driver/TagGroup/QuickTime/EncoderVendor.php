@@ -28,13 +28,14 @@ class EncoderVendor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder Vendor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::DecodeConfig
-             * line : 312624
+             * line : 218499
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class EncoderVendor extends AbstractTagGroup
              */
             'id' => 'QuickTime::DecodeConfig.QuickTime:EncoderVendor',
             'desc' => [
+                'en' => 'Encoder Vendor',
             ],
         ],
     ];

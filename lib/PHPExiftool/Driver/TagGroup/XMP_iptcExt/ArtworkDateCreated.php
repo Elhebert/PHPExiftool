@@ -28,13 +28,14 @@ class ArtworkDateCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409117
+             * line : 288934
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtworkDateCreated extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkDateCreated',
             'desc' => [
+                'en' => 'Artwork Date Created',
             ],
         ],
     ];

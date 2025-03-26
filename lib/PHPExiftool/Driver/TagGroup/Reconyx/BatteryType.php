@@ -28,13 +28,14 @@ class BatteryType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331322
+             * line : 232973
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BatteryType extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:BatteryType',
             'desc' => [
+                'en' => 'Battery Type',
             ],
         ],
     ];

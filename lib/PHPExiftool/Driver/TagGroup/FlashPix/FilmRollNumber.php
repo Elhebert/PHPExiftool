@@ -28,13 +28,14 @@ class FilmRollNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Roll Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126458
+             * line : 87677
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmRollNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FilmRollNumber',
             'desc' => [
+                'en' => 'Film Roll Number',
             ],
         ],
     ];

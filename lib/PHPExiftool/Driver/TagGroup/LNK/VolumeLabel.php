@@ -28,13 +28,14 @@ class VolumeLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161233
+             * line : 110139
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeLabel extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:VolumeLabel',
             'desc' => [
+                'en' => 'Volume Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HueAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211249
+             * line : 142042
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HueAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:HueAdj',
             'desc' => [
+                'en' => 'Hue Adj',
             ],
         ],
     ];

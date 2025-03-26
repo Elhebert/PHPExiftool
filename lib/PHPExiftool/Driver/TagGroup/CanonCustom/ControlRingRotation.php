@@ -28,13 +28,14 @@ class ControlRingRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Control Ring Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75319
+             * line : 55464
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ControlRingRotation extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ControlRingRotation',
             'desc' => [
+                'en' => 'Control Ring Rotation',
             ],
         ],
     ];

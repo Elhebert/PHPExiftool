@@ -28,13 +28,14 @@ class GraphicLayerRecDisplayGraysclValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Layer Rec Display Grayscl Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101318
+             * line : 74466
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicLayerRecDisplayGraysclValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicLayerRecDisplayGraysclValue',
             'desc' => [
+                'en' => 'Graphic Layer Rec Display Grayscl Value',
             ],
         ],
     ];

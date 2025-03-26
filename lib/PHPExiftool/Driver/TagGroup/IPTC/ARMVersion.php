@@ -28,13 +28,14 @@ class ARMVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ARM Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151327
+             * line : 104379
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ARMVersion extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:ARMVersion',
             'desc' => [
+                'en' => 'ARM Version',
             ],
         ],
     ];

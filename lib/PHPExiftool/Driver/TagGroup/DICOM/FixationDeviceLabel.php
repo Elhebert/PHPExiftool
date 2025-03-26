@@ -28,13 +28,14 @@ class FixationDeviceLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixation Device Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103459
+             * line : 76554
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixationDeviceLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FixationDeviceLabel',
             'desc' => [
+                'en' => 'Fixation Device Label',
             ],
         ],
     ];

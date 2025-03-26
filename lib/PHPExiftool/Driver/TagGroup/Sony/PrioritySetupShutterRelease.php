@@ -28,13 +28,14 @@ class PrioritySetupShutterRelease extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Priority Setup Shutter Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347499
+             * line : 243320
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrioritySetupShutterRelease extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:PrioritySetupShutterRelease',
             'desc' => [
+                'en' => 'Priority Setup Shutter Release',
             ],
         ],
     ];

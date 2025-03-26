@@ -28,13 +28,14 @@ class SpectralViewingConditions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectral Viewing Conditions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146627
+             * line : 101908
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectralViewingConditions extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:SpectralViewingConditions',
             'desc' => [
+                'en' => 'Spectral Viewing Conditions',
             ],
         ],
     ];

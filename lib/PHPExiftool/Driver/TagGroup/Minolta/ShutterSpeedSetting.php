@@ -28,13 +28,14 @@ class ShutterSpeedSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180268
+             * line : 122951
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ShutterSpeedSetting',
             'desc' => [
+                'en' => 'Shutter Speed Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetouchAreaMaskWholeImageArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Whole Image Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400933
+             * line : 284414
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskWholeImageArea extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskWholeImageArea',
             'desc' => [
+                'en' => 'Retouch Area Mask Whole Image Area',
             ],
         ],
     ];

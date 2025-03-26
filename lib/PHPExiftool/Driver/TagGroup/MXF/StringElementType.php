@@ -28,13 +28,14 @@ class StringElementType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'String Element Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169643
+             * line : 116034
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StringElementType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StringElementType',
             'desc' => [
+                'en' => 'String Element Type',
             ],
         ],
     ];

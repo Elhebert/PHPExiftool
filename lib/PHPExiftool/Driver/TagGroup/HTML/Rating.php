@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142455
+             * line : 98508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LicenseeProjectReference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensee Project Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265635
+             * line : 183631
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicenseeProjectReference extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicenseeProjectReference',
             'desc' => [
+                'en' => 'Licensee Project Reference',
             ],
         ],
     ];

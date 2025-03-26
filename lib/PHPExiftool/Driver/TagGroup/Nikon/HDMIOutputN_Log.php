@@ -28,13 +28,14 @@ class HDMIOutputN_Log extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDMI Output N-Log',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200345
+             * line : 135309
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDMIOutputN_Log extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:HDMIOutputN-Log',
             'desc' => [
+                'en' => 'HDMI Output N-Log',
             ],
         ],
     ];

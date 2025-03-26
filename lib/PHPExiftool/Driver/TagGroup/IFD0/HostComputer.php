@@ -28,13 +28,14 @@ class HostComputer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Host Computer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111407
+             * line : 81641
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HostComputer extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:HostComputer',
             'desc' => [
+                'en' => 'Host Computer',
             ],
         ],
     ];

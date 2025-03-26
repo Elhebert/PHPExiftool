@@ -28,13 +28,14 @@ class ViewWeightingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View Weighting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100573
+             * line : 73743
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewWeightingMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewWeightingMode',
             'desc' => [
+                'en' => 'View Weighting Mode',
             ],
         ],
     ];

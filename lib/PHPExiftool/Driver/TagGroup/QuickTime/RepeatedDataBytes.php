@@ -28,13 +28,14 @@ class RepeatedDataBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Repeated Data Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313773
+             * line : 219513
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepeatedDataBytes extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:RepeatedDataBytes',
             'desc' => [
+                'en' => 'Repeated Data Bytes',
             ],
         ],
     ];

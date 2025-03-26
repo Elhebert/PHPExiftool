@@ -28,13 +28,14 @@ class Pitch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326822
+             * line : 230495
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
     ];

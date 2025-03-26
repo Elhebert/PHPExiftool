@@ -28,13 +28,14 @@ class WhiteBalanceBias extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257997
+             * line : 178366
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceBias extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:WhiteBalanceBias',
             'desc' => [
+                'en' => 'White Balance Bias',
             ],
         ],
     ];

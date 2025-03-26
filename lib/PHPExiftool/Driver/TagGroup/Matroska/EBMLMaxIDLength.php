@@ -28,13 +28,14 @@ class EBMLMaxIDLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EBML Max ID Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173450
+             * line : 119399
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EBMLMaxIDLength extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:EBMLMaxIDLength',
             'desc' => [
+                'en' => 'EBML Max ID Length',
             ],
         ],
     ];

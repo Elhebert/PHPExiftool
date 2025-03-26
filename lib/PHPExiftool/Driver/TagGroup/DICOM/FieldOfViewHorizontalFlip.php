@@ -28,13 +28,14 @@ class FieldOfViewHorizontalFlip extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Horizontal Flip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96460
+             * line : 69868
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewHorizontalFlip extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FieldOfViewHorizontalFlip',
             'desc' => [
+                'en' => 'Field Of View Horizontal Flip',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167725
+             * line : 114302
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentValue',
             'desc' => [
+                'en' => 'Content Value',
             ],
         ],
     ];

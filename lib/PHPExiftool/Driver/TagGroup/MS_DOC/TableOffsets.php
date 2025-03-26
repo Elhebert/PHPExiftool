@@ -28,13 +28,14 @@ class TableOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocTable
-             * line : 124425
+             * line : 86934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableOffsets extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocTable.MS-DOC:TableOffsets',
             'desc' => [
+                'en' => 'Table Offsets',
             ],
         ],
     ];

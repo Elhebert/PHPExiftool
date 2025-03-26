@@ -28,13 +28,14 @@ class TemplateIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100236
+             * line : 73410
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TemplateIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TemplateIdentifier',
             'desc' => [
+                'en' => 'Template Identifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReleasableCountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Releasable Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170465
+             * line : 116709
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ReleasableCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ReleasableCountryCode',
             'desc' => [
+                'en' => 'Releasable Country Code',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172157
+             * line : 118324
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ReleasableCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ReleasableCountryCode',
             'desc' => [
+                'en' => 'Releasable Country Code',
             ],
         ],
     ];

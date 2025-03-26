@@ -28,13 +28,14 @@ class CMSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CM Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261245
+             * line : 180320
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class CMSaturation extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CMSaturation',
             'desc' => [
+                'en' => 'CM Saturation',
             ],
         ],
     ];

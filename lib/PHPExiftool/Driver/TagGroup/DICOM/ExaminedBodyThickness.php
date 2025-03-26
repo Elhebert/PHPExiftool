@@ -28,13 +28,14 @@ class ExaminedBodyThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Examined Body Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95344
+             * line : 68806
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExaminedBodyThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExaminedBodyThickness',
             'desc' => [
+                'en' => 'Examined Body Thickness',
             ],
         ],
     ];

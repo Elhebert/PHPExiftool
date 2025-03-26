@@ -28,13 +28,14 @@ class GraphicallyPrescribed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphically Prescribed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98217
+             * line : 71560
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicallyPrescribed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicallyPrescribed',
             'desc' => [
+                'en' => 'Graphically Prescribed',
             ],
         ],
     ];

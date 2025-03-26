@@ -28,13 +28,14 @@ class CustomSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83127
+             * line : 60888
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomSharpness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomSharpness',
             'desc' => [
+                'en' => 'Custom Sharpness',
             ],
         ],
     ];

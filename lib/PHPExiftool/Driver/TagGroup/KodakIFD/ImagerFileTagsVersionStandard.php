@@ -28,13 +28,14 @@ class ImagerFileTagsVersionStandard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager File Tags Version Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155593
+             * line : 106805
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerFileTagsVersionStandard extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerFileTagsVersionStandard',
             'desc' => [
+                'en' => 'Imager File Tags Version Standard',
             ],
         ],
     ];

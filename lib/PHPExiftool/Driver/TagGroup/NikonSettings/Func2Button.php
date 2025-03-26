@@ -28,13 +28,14 @@ class Func2Button extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Func 2 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245776
+             * line : 168478
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Func2Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:Func2Button',
             'desc' => [
+                'en' => 'Func 2 Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245943
+             * line : 168645
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Func2Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:Func2Button',
             'desc' => [
+                'en' => 'Func 2 Button',
             ],
         ],
     ];

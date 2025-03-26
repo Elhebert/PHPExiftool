@@ -28,13 +28,14 @@ class Reserved5 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reserved 5',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105928
+             * line : 78390
              * type : string
              * writable : false
              * count : 76
@@ -42,6 +43,7 @@ class Reserved5 extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:Reserved5',
             'desc' => [
+                'en' => 'Reserved 5',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FilteringCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filtering Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167880
+             * line : 114434
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilteringCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilteringCode',
             'desc' => [
+                'en' => 'Filtering Code',
             ],
         ],
     ];

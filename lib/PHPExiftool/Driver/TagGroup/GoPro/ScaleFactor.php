@@ -28,13 +28,14 @@ class ScaleFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scale Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139757
+             * line : 97737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScaleFactor extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ScaleFactor',
             'desc' => [
+                'en' => 'Scale Factor',
             ],
         ],
     ];

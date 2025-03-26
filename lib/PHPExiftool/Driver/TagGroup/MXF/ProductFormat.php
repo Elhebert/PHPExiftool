@@ -28,13 +28,14 @@ class ProductFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172078
+             * line : 118246
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ProductFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductFormat',
             'desc' => [
+                'en' => 'Product Format',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172081
+             * line : 118249
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ProductFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProductFormat',
             'desc' => [
+                'en' => 'Product Format',
             ],
         ],
     ];

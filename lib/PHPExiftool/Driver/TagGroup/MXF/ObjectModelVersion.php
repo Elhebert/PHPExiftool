@@ -28,13 +28,14 @@ class ObjectModelVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Model Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168877
+             * line : 115343
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectModelVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectModelVersion',
             'desc' => [
+                'en' => 'Object Model Version',
             ],
         ],
     ];

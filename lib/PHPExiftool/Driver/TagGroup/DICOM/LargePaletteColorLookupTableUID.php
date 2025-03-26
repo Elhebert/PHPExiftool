@@ -28,13 +28,14 @@ class LargePaletteColorLookupTableUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Large Palette Color Lookup Table UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99015
+             * line : 72255
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargePaletteColorLookupTableUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LargePaletteColorLookupTableUID',
             'desc' => [
+                'en' => 'Large Palette Color Lookup Table UID',
             ],
         ],
     ];

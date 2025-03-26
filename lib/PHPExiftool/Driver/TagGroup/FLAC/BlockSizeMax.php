@@ -28,13 +28,14 @@ class BlockSizeMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Size Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121937
+             * line : 85442
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockSizeMax extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:BlockSizeMax',
             'desc' => [
+                'en' => 'Block Size Max',
             ],
         ],
     ];

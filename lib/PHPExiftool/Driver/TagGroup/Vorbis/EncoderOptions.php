@@ -28,13 +28,14 @@ class EncoderOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395803
+             * line : 280223
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncoderOptions extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:EncoderOptions',
             'desc' => [
+                'en' => 'Encoder Options',
             ],
         ],
     ];

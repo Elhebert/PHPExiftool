@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125047
+             * line : 87359
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

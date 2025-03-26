@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::BroadcastExt
-             * line : 327781
+             * line : 231352
              * type : string
              * writable : false
              * count : 18
@@ -42,12 +43,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'RIFF::BroadcastExt.RIFF:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Hdrl
-             * line : 327966
+             * line : 231432
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'RIFF::Hdrl.RIFF:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         2 => [
             /**
              * table_name : RIFF::Info
-             * line : 328046
+             * line : 231460
              * type : string
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         3 => [
             /**
              * table_name : RIFF::Info
-             * line : 328213
+             * line : 231532
              * type : string
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         4 => [
             /**
              * table_name : RIFF::Main
-             * line : 328633
+             * line : 231743
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

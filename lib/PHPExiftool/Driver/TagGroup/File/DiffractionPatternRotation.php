@@ -28,13 +28,14 @@ class DiffractionPatternRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diffraction Pattern Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166745
+             * line : 113482
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiffractionPatternRotation extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:DiffractionPatternRotation',
             'desc' => [
+                'en' => 'Diffraction Pattern Rotation',
             ],
         ],
     ];

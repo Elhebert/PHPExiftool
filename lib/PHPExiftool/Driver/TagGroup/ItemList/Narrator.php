@@ -28,13 +28,14 @@ class Narrator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Narrator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323117
+             * line : 228477
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Narrator extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Narrator',
             'desc' => [
+                'en' => 'Narrator',
             ],
         ],
     ];

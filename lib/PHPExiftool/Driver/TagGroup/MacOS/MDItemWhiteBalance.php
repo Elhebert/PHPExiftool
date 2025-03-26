@@ -28,13 +28,14 @@ class MDItemWhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173068
+             * line : 119095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemWhiteBalance extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemWhiteBalance',
             'desc' => [
+                'en' => 'MD Item White Balance',
             ],
         ],
     ];

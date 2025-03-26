@@ -28,13 +28,14 @@ class AudioDeviceKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Device Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168177
+             * line : 114674
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioDeviceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioDeviceKind',
             'desc' => [
+                'en' => 'Audio Device Kind',
             ],
         ],
     ];

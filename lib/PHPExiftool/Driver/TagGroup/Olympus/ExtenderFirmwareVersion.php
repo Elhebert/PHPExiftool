@@ -28,13 +28,14 @@ class ExtenderFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254554
+             * line : 175783
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtenderFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:ExtenderFirmwareVersion',
             'desc' => [
+                'en' => 'Extender Firmware Version',
             ],
         ],
     ];

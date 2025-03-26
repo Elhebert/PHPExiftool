@@ -28,13 +28,14 @@ class BitmapDefiningCVs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bitmap Defining C Vs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97622
+             * line : 71005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitmapDefiningCVs extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BitmapDefiningCVs',
             'desc' => [
+                'en' => 'Bitmap Defining C Vs',
             ],
         ],
     ];

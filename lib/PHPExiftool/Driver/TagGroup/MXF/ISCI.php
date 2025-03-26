@@ -28,13 +28,14 @@ class ISCI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISCI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167278
+             * line : 113910
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISCI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISCI',
             'desc' => [
+                'en' => 'ISCI',
             ],
         ],
     ];

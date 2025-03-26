@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::CMovie
-             * line : 310521
+             * line : 216416
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'QuickTime::CMovie.QuickTime:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

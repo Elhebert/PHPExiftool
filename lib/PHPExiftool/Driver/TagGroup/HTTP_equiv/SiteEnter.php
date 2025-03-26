@@ -28,13 +28,14 @@ class SiteEnter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Site Enter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142920
+             * line : 98700
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SiteEnter extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:SiteEnter',
             'desc' => [
+                'en' => 'Site Enter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CircGradBasedCorrActive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401587
+             * line : 284822
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrActive extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrActive',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Active',
             ],
         ],
     ];

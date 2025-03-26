@@ -28,13 +28,14 @@ class RightsManagementAuthority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights Management Authority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167460
+             * line : 114075
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RightsManagementAuthority extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsManagementAuthority',
             'desc' => [
+                'en' => 'Rights Management Authority',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169929
+             * line : 116265
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RightsManagementAuthority extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsManagementAuthority',
             'desc' => [
+                'en' => 'Rights Management Authority',
             ],
         ],
     ];

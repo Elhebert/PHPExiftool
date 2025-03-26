@@ -28,13 +28,14 @@ class FormattedName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Formatted Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395122
+             * line : 279869
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FormattedName extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:FormattedName',
             'desc' => [
+                'en' => 'Formatted Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MDItemTotalBitRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Total Bit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173008
+             * line : 119050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemTotalBitRate extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemTotalBitRate',
             'desc' => [
+                'en' => 'MD Item Total Bit Rate',
             ],
         ],
     ];

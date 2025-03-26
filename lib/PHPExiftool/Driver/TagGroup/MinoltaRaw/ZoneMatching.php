@@ -28,13 +28,14 @@ class ZoneMatching extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zone Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187551
+             * line : 127155
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ZoneMatching extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ZoneMatching',
             'desc' => [
+                'en' => 'Zone Matching',
             ],
         ],
         1 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187651
+             * line : 127175
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ZoneMatching extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ZoneMatching',
             'desc' => [
+                'en' => 'Zone Matching',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MetadataDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124158
+             * line : 86768
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataDate extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:MetadataDate',
             'desc' => [
+                'en' => 'Metadata Date',
             ],
         ],
     ];

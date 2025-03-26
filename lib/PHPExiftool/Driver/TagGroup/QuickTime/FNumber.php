@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324556
+             * line : 229308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MDItemLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172876
+             * line : 118951
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemLatitude extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemLatitude',
             'desc' => [
+                'en' => 'MD Item Latitude',
             ],
         ],
     ];

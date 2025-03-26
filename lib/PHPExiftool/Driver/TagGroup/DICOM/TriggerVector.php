@@ -28,13 +28,14 @@ class TriggerVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100910
+             * line : 74070
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerVector',
             'desc' => [
+                'en' => 'Trigger Vector',
             ],
         ],
     ];

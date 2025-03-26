@@ -28,13 +28,14 @@ class LightingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lighting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89859
+             * line : 64923
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightingMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:LightingMode',
             'desc' => [
+                'en' => 'Lighting Mode',
             ],
         ],
     ];

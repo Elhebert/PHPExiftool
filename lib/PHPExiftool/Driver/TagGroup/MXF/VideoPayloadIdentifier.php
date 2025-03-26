@@ -28,13 +28,14 @@ class VideoPayloadIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Payload Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171214
+             * line : 117426
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoPayloadIdentifier extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoPayloadIdentifier',
             'desc' => [
+                'en' => 'Video Payload Identifier',
             ],
         ],
     ];

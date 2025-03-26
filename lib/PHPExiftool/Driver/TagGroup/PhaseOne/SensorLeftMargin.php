@@ -28,13 +28,14 @@ class SensorLeftMargin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Left Margin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303251
+             * line : 210778
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorLeftMargin extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:SensorLeftMargin',
             'desc' => [
+                'en' => 'Sensor Left Margin',
             ],
         ],
     ];

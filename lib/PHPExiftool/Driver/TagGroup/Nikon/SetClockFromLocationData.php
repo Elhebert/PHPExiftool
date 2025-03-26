@@ -28,13 +28,14 @@ class SetClockFromLocationData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Set Clock From Location Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201892
+             * line : 136767
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SetClockFromLocationData extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:SetClockFromLocationData',
             'desc' => [
+                'en' => 'Set Clock From Location Data',
             ],
         ],
     ];

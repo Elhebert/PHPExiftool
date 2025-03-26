@@ -28,13 +28,14 @@ class ExCCIData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ex CCI Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167484
+             * line : 114099
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExCCIData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ExCCIData',
             'desc' => [
+                'en' => 'Ex CCI Data',
             ],
         ],
     ];

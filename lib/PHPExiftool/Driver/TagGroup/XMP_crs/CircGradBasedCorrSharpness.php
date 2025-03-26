@@ -28,13 +28,14 @@ class CircGradBasedCorrSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401989
+             * line : 285224
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrSharpness extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrSharpness',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Sharpness',
             ],
         ],
     ];

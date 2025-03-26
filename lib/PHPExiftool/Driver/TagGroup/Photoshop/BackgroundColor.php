@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305401
+             * line : 212215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

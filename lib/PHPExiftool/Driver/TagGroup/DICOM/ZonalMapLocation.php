@@ -28,13 +28,14 @@ class ZonalMapLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zonal Map Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98873
+             * line : 72144
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZonalMapLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZonalMapLocation',
             'desc' => [
+                'en' => 'Zonal Map Location',
             ],
         ],
     ];

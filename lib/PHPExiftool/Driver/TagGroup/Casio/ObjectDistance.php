@@ -28,13 +28,14 @@ class ObjectDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84430
+             * line : 61708
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ObjectDistance extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:ObjectDistance',
             'desc' => [
+                'en' => 'Object Distance',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85932
+             * line : 62183
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ObjectDistance extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:ObjectDistance',
             'desc' => [
+                'en' => 'Object Distance',
             ],
         ],
     ];

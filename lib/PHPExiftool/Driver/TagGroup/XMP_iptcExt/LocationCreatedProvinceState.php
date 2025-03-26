@@ -28,13 +28,14 @@ class LocationCreatedProvinceState extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Created Province State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409476
+             * line : 289252
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationCreatedProvinceState extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:LocationCreatedProvinceState',
             'desc' => [
+                'en' => 'Location Created Province State',
             ],
         ],
     ];

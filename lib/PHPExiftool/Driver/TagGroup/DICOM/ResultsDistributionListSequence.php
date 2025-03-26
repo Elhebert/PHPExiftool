@@ -28,13 +28,14 @@ class ResultsDistributionListSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Results Distribution List Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104122
+             * line : 77208
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResultsDistributionListSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ResultsDistributionListSequence',
             'desc' => [
+                'en' => 'Results Distribution List Sequence',
             ],
         ],
     ];

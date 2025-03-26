@@ -28,13 +28,14 @@ class LocationAccuracyHorizontal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Accuracy Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323462
+             * line : 228664
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationAccuracyHorizontal extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LocationAccuracyHorizontal',
             'desc' => [
+                'en' => 'Location Accuracy Horizontal',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HTMLDOCTYPE extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HTMLDOCTYPE',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171887
+             * line : 118072
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class HTMLDOCTYPE extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HTMLDOCTYPE',
             'desc' => [
+                'en' => 'HTMLDOCTYPE',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171890
+             * line : 118075
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class HTMLDOCTYPE extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HTMLDOCTYPE',
             'desc' => [
+                'en' => 'HTMLDOCTYPE',
             ],
         ],
     ];

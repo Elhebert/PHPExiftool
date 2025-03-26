@@ -28,13 +28,14 @@ class OverlayDescriptorRed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Descriptor Red',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104360
+             * line : 77433
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayDescriptorRed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayDescriptorRed',
             'desc' => [
+                'en' => 'Overlay Descriptor Red',
             ],
         ],
     ];

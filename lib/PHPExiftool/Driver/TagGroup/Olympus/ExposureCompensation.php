@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::MOV1
-             * line : 256552
+             * line : 177297
              * type : rational64s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV1.Olympus:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::MOV2
-             * line : 256664
+             * line : 177319
              * type : rational64s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV2.Olympus:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::MP4
-             * line : 256802
+             * line : 177370
              * type : rational64s
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Olympus::MP4.Olympus:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         3 => [
             /**
              * table_name : Olympus::Main
-             * line : 258486
+             * line : 178561
              * type : rational64s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

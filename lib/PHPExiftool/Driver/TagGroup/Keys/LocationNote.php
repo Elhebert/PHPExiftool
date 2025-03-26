@@ -28,13 +28,14 @@ class LocationNote extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323475
+             * line : 228676
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LocationNote extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LocationNote',
             'desc' => [
+                'en' => 'Location Note',
             ],
         ],
     ];

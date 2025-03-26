@@ -28,13 +28,14 @@ class TaxonParentNameUsageID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Parent Name Usage ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106794
+             * line : 78992
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonParentNameUsageID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonParentNameUsageID',
             'desc' => [
+                'en' => 'Taxon Parent Name Usage ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ManagedFromManager extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Managed From Manager',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414020
+             * line : 292045
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManagedFromManager extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManagedFromManager',
             'desc' => [
+                'en' => 'Managed From Manager',
             ],
         ],
     ];

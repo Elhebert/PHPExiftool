@@ -28,13 +28,14 @@ class ResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152243
+             * line : 104814
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ResolutionUnit extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:ResolutionUnit',
             'desc' => [
+                'en' => 'Resolution Unit',
             ],
         ],
     ];

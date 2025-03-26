@@ -28,13 +28,14 @@ class RTROIObservationsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RTROI Observations Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102603
+             * line : 75699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTROIObservationsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTROIObservationsSequence',
             'desc' => [
+                'en' => 'RTROI Observations Sequence',
             ],
         ],
     ];

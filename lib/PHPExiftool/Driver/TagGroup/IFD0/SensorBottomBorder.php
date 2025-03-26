@@ -28,13 +28,14 @@ class SensorBottomBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Bottom Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280251
+             * line : 194534
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorBottomBorder extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:SensorBottomBorder',
             'desc' => [
+                'en' => 'Sensor Bottom Border',
             ],
         ],
     ];

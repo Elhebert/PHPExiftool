@@ -28,13 +28,14 @@ class PlatformDesignation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Platform Designation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169767
+             * line : 116121
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PlatformDesignation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlatformDesignation',
             'desc' => [
+                'en' => 'Platform Designation',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171986
+             * line : 118171
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PlatformDesignation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlatformDesignation',
             'desc' => [
+                'en' => 'Platform Designation',
             ],
         ],
     ];

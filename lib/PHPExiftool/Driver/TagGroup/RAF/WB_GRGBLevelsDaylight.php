@@ -28,13 +28,14 @@ class WB_GRGBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131095
+             * line : 90549
              * type : int16u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:WB_GRGBLevelsDaylight',
             'desc' => [
+                'en' => 'WB GRGB Levels Daylight',
             ],
         ],
     ];

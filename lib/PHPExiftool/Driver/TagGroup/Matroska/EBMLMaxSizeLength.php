@@ -28,13 +28,14 @@ class EBMLMaxSizeLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EBML Max Size Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173453
+             * line : 119402
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EBMLMaxSizeLength extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:EBMLMaxSizeLength',
             'desc' => [
+                'en' => 'EBML Max Size Length',
             ],
         ],
     ];

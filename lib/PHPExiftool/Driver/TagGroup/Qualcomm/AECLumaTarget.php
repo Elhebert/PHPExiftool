@@ -28,13 +28,14 @@ class AECLumaTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Luma Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306173
+             * line : 212678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECLumaTarget extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECLumaTarget',
             'desc' => [
+                'en' => 'AEC Luma Target',
             ],
         ],
     ];

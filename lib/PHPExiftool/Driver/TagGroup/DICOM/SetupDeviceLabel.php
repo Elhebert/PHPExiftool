@@ -28,13 +28,14 @@ class SetupDeviceLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setup Device Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103501
+             * line : 76596
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetupDeviceLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SetupDeviceLabel',
             'desc' => [
+                'en' => 'Setup Device Label',
             ],
         ],
     ];

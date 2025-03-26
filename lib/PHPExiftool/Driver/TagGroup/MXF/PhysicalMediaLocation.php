@@ -28,13 +28,14 @@ class PhysicalMediaLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Media Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168800
+             * line : 115274
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalMediaLocation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PhysicalMediaLocation',
             'desc' => [
+                'en' => 'Physical Media Location',
             ],
         ],
     ];

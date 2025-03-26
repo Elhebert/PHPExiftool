@@ -28,13 +28,14 @@ class ImagePrintStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Print Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158515
+             * line : 108982
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePrintStatus extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:ImagePrintStatus',
             'desc' => [
+                'en' => 'Image Print Status',
             ],
         ],
     ];

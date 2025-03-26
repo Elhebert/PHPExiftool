@@ -28,13 +28,14 @@ class IntelligentAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intelligent Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 359433
+             * line : 250693
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class IntelligentAuto extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:IntelligentAuto',
             'desc' => [
+                'en' => 'Intelligent Auto',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9404a
-             * line : 385055
+             * line : 271452
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class IntelligentAuto extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9404a.Sony:IntelligentAuto',
             'desc' => [
+                'en' => 'Intelligent Auto',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9404b
-             * line : 385309
+             * line : 271574
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class IntelligentAuto extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9404b.Sony:IntelligentAuto',
             'desc' => [
+                'en' => 'Intelligent Auto',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9404c
-             * line : 385566
+             * line : 271699
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class IntelligentAuto extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9404c.Sony:IntelligentAuto',
             'desc' => [
+                'en' => 'Intelligent Auto',
             ],
         ],
     ];

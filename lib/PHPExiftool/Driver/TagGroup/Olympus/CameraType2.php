@@ -28,13 +28,14 @@ class CameraType2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Type 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 253085
+             * line : 174433
              * type : string
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class CameraType2 extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:CameraType2',
             'desc' => [
+                'en' => 'Camera Type 2',
             ],
         ],
     ];

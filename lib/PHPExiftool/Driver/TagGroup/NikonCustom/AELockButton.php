@@ -28,13 +28,14 @@ class AELockButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213391
+             * line : 143320
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213474
+             * line : 143376
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216926
+             * line : 145818
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222358
+             * line : 150068
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222955
+             * line : 150398
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223575
+             * line : 150774
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225881
+             * line : 152205
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227076
+             * line : 152941
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228186
+             * line : 153639
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230500
+             * line : 154901
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234578
+             * line : 158108
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class AELockButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:AELockButton',
             'desc' => [
+                'en' => 'AE Lock Button',
             ],
         ],
     ];

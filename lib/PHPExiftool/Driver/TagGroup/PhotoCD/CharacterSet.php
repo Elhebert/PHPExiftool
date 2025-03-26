@@ -28,13 +28,14 @@ class CharacterSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Character Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303787
+             * line : 211030
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CharacterSet extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:CharacterSet',
             'desc' => [
+                'en' => 'Character Set',
             ],
         ],
     ];

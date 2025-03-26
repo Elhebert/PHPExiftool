@@ -28,13 +28,14 @@ class TitleSortOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title Sort Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174908
+             * line : 120422
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitleSortOrder extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TitleSortOrder',
             'desc' => [
+                'en' => 'Title Sort Order',
             ],
         ],
     ];

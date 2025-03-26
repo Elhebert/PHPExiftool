@@ -28,13 +28,14 @@ class HostSoftwareRendering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Host Software Rendering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156195
+             * line : 107399
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HostSoftwareRendering extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HostSoftwareRendering',
             'desc' => [
+                'en' => 'Host Software Rendering',
             ],
         ],
     ];

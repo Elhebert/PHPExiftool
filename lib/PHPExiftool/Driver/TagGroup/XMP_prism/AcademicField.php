@@ -28,13 +28,14 @@ class AcademicField extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Academic Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410730
+             * line : 290011
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AcademicField extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:AcademicField',
             'desc' => [
+                'en' => 'Academic Field',
             ],
         ],
     ];

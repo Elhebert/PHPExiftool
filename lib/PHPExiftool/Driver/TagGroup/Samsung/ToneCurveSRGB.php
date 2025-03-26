@@ -28,13 +28,14 @@ class ToneCurveSRGB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve SRGB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335602
+             * line : 235499
              * type : int32u
              * writable : true
              * count : 23
@@ -42,6 +43,7 @@ class ToneCurveSRGB extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:ToneCurveSRGB',
             'desc' => [
+                'en' => 'Tone Curve SRGB',
             ],
         ],
     ];

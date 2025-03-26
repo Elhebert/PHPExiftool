@@ -28,13 +28,14 @@ class LensID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196108
+             * line : 132667
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensID extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:LensID',
             'desc' => [
+                'en' => 'Lens ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorimetricReference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Colorimetric Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120030
+             * line : 84402
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorimetricReference extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ColorimetricReference',
             'desc' => [
+                'en' => 'Colorimetric Reference',
             ],
         ],
     ];

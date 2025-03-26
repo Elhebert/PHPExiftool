@@ -28,13 +28,14 @@ class Barcode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Barcode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326599
+             * line : 230357
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Barcode extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Barcode',
             'desc' => [
+                'en' => 'Barcode',
             ],
         ],
     ];

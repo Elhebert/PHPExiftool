@@ -28,13 +28,14 @@ class AudioHasVariablePacketByteSizes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Has Variable Packet Byte Sizes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312706
+             * line : 218578
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioHasVariablePacketByteSizes extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioHasVariablePacketByteSizes',
             'desc' => [
+                'en' => 'Audio Has Variable Packet Byte Sizes',
             ],
         ],
     ];

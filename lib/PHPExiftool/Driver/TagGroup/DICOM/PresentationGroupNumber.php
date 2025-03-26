@@ -28,13 +28,14 @@ class PresentationGroupNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Group Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99548
+             * line : 72759
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationGroupNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PresentationGroupNumber',
             'desc' => [
+                'en' => 'Presentation Group Number',
             ],
         ],
     ];

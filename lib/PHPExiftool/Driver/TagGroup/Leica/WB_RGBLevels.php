@@ -28,13 +28,14 @@ class WB_RGBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica3
-             * line : 274763
+             * line : 191604
              * type : int16u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica3.Leica:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274893
+             * line : 191646
              * type : rational64u
              * writable : true
              * count : 3
@@ -55,12 +57,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279353
+             * line : 193991
              * type : rational64u
              * writable : true
              * count : 3
@@ -68,6 +71,7 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
     ];

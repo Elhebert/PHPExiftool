@@ -28,13 +28,14 @@ class ToneCurveActive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Curve Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82379
+             * line : 60343
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneCurveActive extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:ToneCurveActive',
             'desc' => [
+                'en' => 'Tone Curve Active',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GridPitch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96472
+             * line : 69880
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridPitch extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridPitch',
             'desc' => [
+                'en' => 'Grid Pitch',
             ],
         ],
     ];

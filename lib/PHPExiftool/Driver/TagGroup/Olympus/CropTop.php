@@ -28,13 +28,14 @@ class CropTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255353
+             * line : 176224
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class CropTop extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CropTop',
             'desc' => [
+                'en' => 'Crop Top',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260975
+             * line : 180243
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CropTop extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CropTop',
             'desc' => [
+                'en' => 'Crop Top',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TakeNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Take Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413457
+             * line : 291549
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TakeNumber extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TakeNumber',
             'desc' => [
+                'en' => 'Take Number',
             ],
         ],
     ];

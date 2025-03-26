@@ -28,13 +28,14 @@ class ReflectedAmbientLight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reflected Ambient Light',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102115
+             * line : 75246
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReflectedAmbientLight extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReflectedAmbientLight',
             'desc' => [
+                'en' => 'Reflected Ambient Light',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WBMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 186893
+             * line : 126931
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBMode extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:WBMode',
             'desc' => [
+                'en' => 'WB Mode',
             ],
         ],
     ];

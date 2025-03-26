@@ -28,13 +28,14 @@ class MacroWidthAtISOCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Macro Width At ISO Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100555
+             * line : 73725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MacroWidthAtISOCenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MacroWidthAtISOCenter',
             'desc' => [
+                'en' => 'Macro Width At ISO Center',
             ],
         ],
     ];

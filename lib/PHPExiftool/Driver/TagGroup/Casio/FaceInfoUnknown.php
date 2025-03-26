@@ -28,13 +28,14 @@ class FaceInfoUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Info Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85966
+             * line : 62206
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceInfoUnknown extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FaceInfoUnknown',
             'desc' => [
+                'en' => 'Face Info Unknown',
             ],
         ],
     ];

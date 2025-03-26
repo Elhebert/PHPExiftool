@@ -28,13 +28,14 @@ class BabyAge extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Baby Age',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276646
+             * line : 192609
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BabyAge extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:BabyAge',
             'desc' => [
+                'en' => 'Baby Age',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278665
+             * line : 193780
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BabyAge extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:BabyAge',
             'desc' => [
+                'en' => 'Baby Age',
             ],
         ],
     ];

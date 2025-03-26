@@ -28,13 +28,14 @@ class DepthMapHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth Map Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::DualShotExtra
-             * line : 333869
+             * line : 234109
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthMapHeight extends AbstractTagGroup
              */
             'id' => 'Samsung::DualShotExtra.Samsung:DepthMapHeight',
             'desc' => [
+                'en' => 'Depth Map Height',
             ],
         ],
     ];

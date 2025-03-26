@@ -28,13 +28,14 @@ class ImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122445
+             * line : 85762
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageType extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ImageType',
             'desc' => [
+                'en' => 'Image Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ValidBits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Valid Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255340
+             * line : 176218
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class ValidBits extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:ValidBits',
             'desc' => [
+                'en' => 'Valid Bits',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259031
+             * line : 178756
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class ValidBits extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ValidBits',
             'desc' => [
+                'en' => 'Valid Bits',
             ],
         ],
     ];

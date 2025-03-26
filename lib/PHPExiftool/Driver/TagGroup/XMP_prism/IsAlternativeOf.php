@@ -28,13 +28,14 @@ class IsAlternativeOf extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Is Alternative Of',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410884
+             * line : 290139
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IsAlternativeOf extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:IsAlternativeOf',
             'desc' => [
+                'en' => 'Is Alternative Of',
             ],
         ],
     ];

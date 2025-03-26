@@ -28,13 +28,14 @@ class MDItemStateOrProvince extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item State Or Province',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172988
+             * line : 119035
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemStateOrProvince extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemStateOrProvince',
             'desc' => [
+                'en' => 'MD Item State Or Province',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BurstShot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338938
+             * line : 237356
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstShot extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:BurstShot',
             'desc' => [
+                'en' => 'Burst Shot',
             ],
         ],
     ];

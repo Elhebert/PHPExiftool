@@ -28,13 +28,14 @@ class EstimatedAtmosphericTrans extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Estimated Atmospheric Trans',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122608
+             * line : 85859
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EstimatedAtmosphericTrans extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:EstimatedAtmosphericTrans',
             'desc' => [
+                'en' => 'Estimated Atmospheric Trans',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::Params
-             * line : 123589
+             * line : 86390
              * type : float
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EstimatedAtmosphericTrans extends AbstractTagGroup
              */
             'id' => 'FLIR::Params.FLIR:EstimatedAtmosphericTrans',
             'desc' => [
+                'en' => 'Estimated Atmospheric Trans',
             ],
         ],
     ];

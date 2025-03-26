@@ -28,13 +28,14 @@ class CanonFlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 55754
+             * line : 43421
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonFlashMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:CanonFlashMode',
             'desc' => [
+                'en' => 'Canon Flash Mode',
             ],
         ],
     ];

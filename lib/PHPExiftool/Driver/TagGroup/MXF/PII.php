@@ -28,13 +28,14 @@ class PII extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PII',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167302
+             * line : 113934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PII extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PII',
             'desc' => [
+                'en' => 'PII',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AIColorModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI Color Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305927
+             * line : 212566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIColorModel extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AIColorModel',
             'desc' => [
+                'en' => 'AI Color Model',
             ],
         ],
     ];

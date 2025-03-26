@@ -28,13 +28,14 @@ class TimeBasedImageSetsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Based Image Sets Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101462
+             * line : 74610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeBasedImageSetsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeBasedImageSetsSequence',
             'desc' => [
+                'en' => 'Time Based Image Sets Sequence',
             ],
         ],
     ];

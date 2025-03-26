@@ -28,13 +28,14 @@ class EasyMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Easy Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56134
+             * line : 43638
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EasyMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:EasyMode',
             'desc' => [
+                'en' => 'Easy Mode',
             ],
         ],
     ];

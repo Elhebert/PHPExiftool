@@ -28,13 +28,14 @@ class ModeNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mode Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112227
+             * line : 81952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModeNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ModeNumber',
             'desc' => [
+                'en' => 'Mode Number',
             ],
         ],
     ];

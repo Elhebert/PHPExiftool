@@ -28,13 +28,14 @@ class AFPointSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347082
+             * line : 243129
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPointSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:AFPointSetting',
             'desc' => [
+                'en' => 'AF Point Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348691
+             * line : 243865
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFPointSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:AFPointSetting',
             'desc' => [
+                'en' => 'AF Point Setting',
             ],
         ],
     ];

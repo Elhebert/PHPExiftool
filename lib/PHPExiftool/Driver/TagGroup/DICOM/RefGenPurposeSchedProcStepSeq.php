@@ -28,13 +28,14 @@ class RefGenPurposeSchedProcStepSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ref Gen Purpose Sched Proc Step Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99956
+             * line : 73158
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RefGenPurposeSchedProcStepSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RefGenPurposeSchedProcStepSeq',
             'desc' => [
+                'en' => 'Ref Gen Purpose Sched Proc Step Seq',
             ],
         ],
     ];

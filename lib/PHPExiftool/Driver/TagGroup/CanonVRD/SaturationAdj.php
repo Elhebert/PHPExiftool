@@ -28,13 +28,14 @@ class SaturationAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80754
+             * line : 58872
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:SaturationAdj',
             'desc' => [
+                'en' => 'Saturation Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82424
+             * line : 60371
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SaturationAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:SaturationAdj',
             'desc' => [
+                'en' => 'Saturation Adj',
             ],
         ],
     ];

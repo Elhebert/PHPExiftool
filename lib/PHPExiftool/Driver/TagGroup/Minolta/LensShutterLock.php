@@ -28,13 +28,14 @@ class LensShutterLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Shutter Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181746
+             * line : 123635
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensShutterLock extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:LensShutterLock',
             'desc' => [
+                'en' => 'Lens Shutter Lock',
             ],
         ],
     ];

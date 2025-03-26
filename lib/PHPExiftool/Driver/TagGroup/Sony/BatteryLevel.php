@@ -28,13 +28,14 @@ class BatteryLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348126
+             * line : 243620
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BatteryLevel extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:BatteryLevel',
             'desc' => [
+                'en' => 'Battery Level',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ExtraInfo
-             * line : 352152
+             * line : 246028
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BatteryLevel extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo.Sony:BatteryLevel',
             'desc' => [
+                'en' => 'Battery Level',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::ExtraInfo2
-             * line : 352174
+             * line : 246038
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class BatteryLevel extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo2.Sony:BatteryLevel',
             'desc' => [
+                'en' => 'Battery Level',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352234
+             * line : 246062
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class BatteryLevel extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:BatteryLevel',
             'desc' => [
+                'en' => 'Battery Level',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9406
-             * line : 390261
+             * line : 276018
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class BatteryLevel extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9406.Sony:BatteryLevel',
             'desc' => [
+                'en' => 'Battery Level',
             ],
         ],
     ];

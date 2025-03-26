@@ -28,13 +28,14 @@ class ShutterSpeedSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347736
+             * line : 243442
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShutterSpeedSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ShutterSpeedSetting',
             'desc' => [
+                'en' => 'Shutter Speed Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349128
+             * line : 244040
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShutterSpeedSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ShutterSpeedSetting',
             'desc' => [
+                'en' => 'Shutter Speed Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 349754
+             * line : 244338
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ShutterSpeedSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ShutterSpeedSetting',
             'desc' => [
+                'en' => 'Shutter Speed Setting',
             ],
         ],
     ];

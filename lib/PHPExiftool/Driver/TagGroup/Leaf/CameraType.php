@@ -28,13 +28,14 @@ class CameraType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraProfile
-             * line : 161590
+             * line : 110393
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraProfile.Leaf:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
         1 => [
             /**
              * table_name : Leaf::CameraSetup
-             * line : 161617
+             * line : 110409
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraSetup.Leaf:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
     ];

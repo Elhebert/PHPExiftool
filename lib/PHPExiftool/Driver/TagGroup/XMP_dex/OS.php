@@ -28,13 +28,14 @@ class OS extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'OS',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dex
-             * line : 404960
+             * line : 287749
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OS extends AbstractTagGroup
              */
             'id' => 'XMP::dex.XMP-dex:OS',
             'desc' => [
+                'en' => 'OS',
             ],
         ],
     ];

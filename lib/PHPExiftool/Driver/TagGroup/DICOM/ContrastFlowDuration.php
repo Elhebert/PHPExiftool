@@ -28,13 +28,14 @@ class ContrastFlowDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Flow Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95657
+             * line : 69106
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastFlowDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastFlowDuration',
             'desc' => [
+                'en' => 'Contrast Flow Duration',
             ],
         ],
     ];

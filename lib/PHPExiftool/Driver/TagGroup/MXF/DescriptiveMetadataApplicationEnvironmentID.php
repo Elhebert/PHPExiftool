@@ -28,13 +28,14 @@ class DescriptiveMetadataApplicationEnvironmentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Descriptive Metadata Application Environment ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172439
+             * line : 118600
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DescriptiveMetadataApplicationEnvironmentID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveMetadataApplicationEnvironmentID',
             'desc' => [
+                'en' => 'Descriptive Metadata Application Environment ID',
             ],
         ],
     ];

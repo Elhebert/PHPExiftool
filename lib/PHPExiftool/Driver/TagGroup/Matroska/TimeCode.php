@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173383
+             * line : 119337
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

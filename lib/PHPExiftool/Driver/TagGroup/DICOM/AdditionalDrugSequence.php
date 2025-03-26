@@ -28,13 +28,14 @@ class AdditionalDrugSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Additional Drug Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95448
+             * line : 68908
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdditionalDrugSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AdditionalDrugSequence',
             'desc' => [
+                'en' => 'Additional Drug Sequence',
             ],
         ],
     ];

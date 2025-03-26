@@ -28,13 +28,14 @@ class Conductor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Conductor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1136
+             * line : 463
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Conductor extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Conductor',
             'desc' => [
+                'en' => 'Conductor',
             ],
         ],
     ];

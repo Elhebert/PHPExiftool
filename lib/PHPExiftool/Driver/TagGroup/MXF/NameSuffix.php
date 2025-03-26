@@ -28,13 +28,14 @@ class NameSuffix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Name Suffix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171058
+             * line : 117279
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NameSuffix extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NameSuffix',
             'desc' => [
+                'en' => 'Name Suffix',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171061
+             * line : 117282
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NameSuffix extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NameSuffix',
             'desc' => [
+                'en' => 'Name Suffix',
             ],
         ],
     ];

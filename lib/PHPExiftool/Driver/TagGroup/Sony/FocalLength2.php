@@ -28,13 +28,14 @@ class FocalLength2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360887
+             * line : 251463
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocalLength2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocalLength2',
             'desc' => [
+                'en' => 'Focal Length 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360912
+             * line : 251472
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocalLength2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocalLength2',
             'desc' => [
+                'en' => 'Focal Length 2',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360998
+             * line : 251510
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocalLength2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocalLength2',
             'desc' => [
+                'en' => 'Focal Length 2',
             ],
         ],
     ];

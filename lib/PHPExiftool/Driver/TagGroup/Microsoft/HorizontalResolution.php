@@ -28,13 +28,14 @@ class HorizontalResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Horizontal Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175839
+             * line : 121014
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HorizontalResolution extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:HorizontalResolution',
             'desc' => [
+                'en' => 'Horizontal Resolution',
             ],
         ],
     ];

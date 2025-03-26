@@ -28,13 +28,14 @@ class IntendedRecipientsOfResultsIDSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intended Recipients Of Results ID Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99872
+             * line : 73074
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntendedRecipientsOfResultsIDSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntendedRecipientsOfResultsIDSeq',
             'desc' => [
+                'en' => 'Intended Recipients Of Results ID Seq',
             ],
         ],
     ];

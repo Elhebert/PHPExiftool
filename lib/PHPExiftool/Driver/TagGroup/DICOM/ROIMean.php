@@ -28,13 +28,14 @@ class ROIMean extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Mean',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104384
+             * line : 77457
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIMean extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIMean',
             'desc' => [
+                'en' => 'ROI Mean',
             ],
         ],
     ];

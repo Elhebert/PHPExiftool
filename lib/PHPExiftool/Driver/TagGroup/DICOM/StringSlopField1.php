@@ -28,13 +28,14 @@ class StringSlopField1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'String Slop Field 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100412
+             * line : 73584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StringSlopField1 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StringSlopField1',
             'desc' => [
+                'en' => 'String Slop Field 1',
             ],
         ],
     ];

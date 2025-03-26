@@ -28,13 +28,14 @@ class XRayImageReceptorTranslation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Image Receptor Translation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102386
+             * line : 75486
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayImageReceptorTranslation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayImageReceptorTranslation',
             'desc' => [
+                'en' => 'X Ray Image Receptor Translation',
             ],
         ],
     ];

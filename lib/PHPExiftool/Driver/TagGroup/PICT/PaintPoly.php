@@ -28,13 +28,14 @@ class PaintPoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264916
+             * line : 183140
              * type : Polygon
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintPoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintPoly',
             'desc' => [
+                'en' => 'Paint Poly',
             ],
         ],
     ];

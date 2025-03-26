@@ -28,13 +28,14 @@ class Lens35efl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90182
+             * line : 65106
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lens35efl extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Lens35efl',
             'desc' => [
+                'en' => 'Lens',
             ],
         ],
     ];

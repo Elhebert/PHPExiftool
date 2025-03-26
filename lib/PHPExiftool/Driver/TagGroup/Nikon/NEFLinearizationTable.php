@@ -28,13 +28,14 @@ class NEFLinearizationTable extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'NEF Linearization Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197501
+             * line : 133214
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NEFLinearizationTable extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NEFLinearizationTable',
             'desc' => [
+                'en' => 'NEF Linearization Table',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureReferenceGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Reference Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155891
+             * line : 107102
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureReferenceGain extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureReferenceGain',
             'desc' => [
+                'en' => 'Exposure Reference Gain',
             ],
         ],
     ];

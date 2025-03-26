@@ -28,13 +28,14 @@ class TimeDomainFiltering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Domain Filtering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96668
+             * line : 70072
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeDomainFiltering extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeDomainFiltering',
             'desc' => [
+                'en' => 'Time Domain Filtering',
             ],
         ],
     ];

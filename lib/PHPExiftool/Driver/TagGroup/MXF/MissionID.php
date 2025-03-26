@@ -28,13 +28,14 @@ class MissionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mission ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169828
+             * line : 116178
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MissionID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MissionID',
             'desc' => [
+                'en' => 'Mission ID',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169831
+             * line : 116181
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MissionID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MissionID',
             'desc' => [
+                'en' => 'Mission ID',
             ],
         ],
     ];

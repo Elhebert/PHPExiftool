@@ -28,13 +28,14 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Aperture At Min Focal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361932
+             * line : 252002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxApertureAtMinFocal extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:MaxApertureAtMinFocal',
             'desc' => [
+                'en' => 'Max Aperture At Min Focal',
             ],
         ],
     ];

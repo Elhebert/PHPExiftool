@@ -28,13 +28,14 @@ class WhiteBalanceMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297739
+             * line : 207798
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceMode extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WhiteBalanceMode',
             'desc' => [
+                'en' => 'White Balance Mode',
             ],
         ],
     ];

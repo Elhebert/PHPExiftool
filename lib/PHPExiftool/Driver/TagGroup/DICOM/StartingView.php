@@ -28,13 +28,14 @@ class StartingView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Starting View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97527
+             * line : 70912
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartingView extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartingView',
             'desc' => [
+                'en' => 'Starting View',
             ],
         ],
     ];

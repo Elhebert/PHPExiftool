@@ -28,13 +28,14 @@ class LastModifiedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Modified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127191
+             * line : 88297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastModifiedBy extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:LastModifiedBy',
             'desc' => [
+                'en' => 'Last Modified By',
             ],
         ],
     ];

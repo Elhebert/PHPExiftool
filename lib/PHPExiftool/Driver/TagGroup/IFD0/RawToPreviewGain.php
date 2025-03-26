@@ -28,13 +28,14 @@ class RawToPreviewGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw To Preview Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120601
+             * line : 84727
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawToPreviewGain extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:RawToPreviewGain',
             'desc' => [
+                'en' => 'Raw To Preview Gain',
             ],
         ],
     ];

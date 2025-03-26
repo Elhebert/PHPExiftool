@@ -28,13 +28,14 @@ class ReformattingOpInitialViewDir extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reformatting Op Initial View Dir',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101676
+             * line : 74820
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReformattingOpInitialViewDir extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReformattingOpInitialViewDir',
             'desc' => [
+                'en' => 'Reformatting Op Initial View Dir',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InsertMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Insert Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161025
+             * line : 109955
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InsertMode extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:InsertMode',
             'desc' => [
+                'en' => 'Insert Mode',
             ],
         ],
     ];

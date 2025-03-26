@@ -28,13 +28,14 @@ class RawDevPMSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev PM Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260567
+             * line : 179994
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class RawDevPMSaturation extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPMSaturation',
             'desc' => [
+                'en' => 'Raw Dev PM Saturation',
             ],
         ],
     ];

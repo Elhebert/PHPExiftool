@@ -28,13 +28,14 @@ class DefConvChrmKCb extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Def Conv Chrm K Cb',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307344
+             * line : 213842
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefConvChrmKCb extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DefConvChrmKCb',
             'desc' => [
+                'en' => 'Def Conv Chrm K Cb',
             ],
         ],
     ];

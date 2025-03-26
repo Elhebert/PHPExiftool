@@ -28,13 +28,14 @@ class DCGeodeticDatum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Geodetic Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106898
+             * line : 79070
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCGeodeticDatum extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCGeodeticDatum',
             'desc' => [
+                'en' => 'DC Geodetic Datum',
             ],
         ],
     ];

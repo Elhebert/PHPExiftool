@@ -28,13 +28,14 @@ class PaintCorrectionMaskInputDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Input Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403529
+             * line : 286646
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskInputDigest extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskInputDigest',
             'desc' => [
+                'en' => 'Paint Correction Mask Input Digest',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SelfTimerShotInterval extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer Shot Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215665
+             * line : 144741
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218257
+             * line : 146655
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220707
+             * line : 148686
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224221
+             * line : 151174
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230793
+             * line : 155094
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232606
+             * line : 156504
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235529
+             * line : 158740
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class SelfTimerShotInterval extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:SelfTimerShotInterval',
             'desc' => [
+                'en' => 'Self Timer Shot Interval',
             ],
         ],
     ];

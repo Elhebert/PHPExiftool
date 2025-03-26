@@ -28,13 +28,14 @@ class PictureMIMEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Picture
-             * line : 121889
+             * line : 85411
              * type : var_pstr32
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureMIMEType extends AbstractTagGroup
              */
             'id' => 'FLAC::Picture.FLAC:PictureMIMEType',
             'desc' => [
+                'en' => 'Picture MIME Type',
             ],
         ],
     ];

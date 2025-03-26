@@ -28,13 +28,14 @@ class TransferFilmFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transfer Film Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167948
+             * line : 114470
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransferFilmFrameRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TransferFilmFrameRate',
             'desc' => [
+                'en' => 'Transfer Film Frame Rate',
             ],
         ],
     ];

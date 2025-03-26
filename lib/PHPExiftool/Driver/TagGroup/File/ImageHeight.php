@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3218
+             * line : 2024
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : BMP::OS2
-             * line : 3514
+             * line : 2168
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'BMP::OS2.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         2 => [
             /**
              * table_name : BPG::Main
-             * line : 3710
+             * line : 2274
              * type : var_ue7
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         3 => [
             /**
              * table_name : DPX::Main
-             * line : 105557
+             * line : 78118
              * type : int32u
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         4 => [
             /**
              * table_name : Extra
-             * line : 121408
+             * line : 85190
              * type : ?
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Extra.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         5 => [
             /**
              * table_name : FLIF::Main
-             * line : 122091
+             * line : 85528
              * type : ?
              * writable : false
              * count :
@@ -107,12 +113,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'FLIF::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         6 => [
             /**
              * table_name : JPEG::SOF
-             * line : 152973
+             * line : 105234
              * type : ?
              * writable : false
              * count :
@@ -120,12 +127,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'JPEG::SOF.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         7 => [
             /**
              * table_name : MRC::Main
-             * line : 166822
+             * line : 113542
              * type : int32u
              * writable : false
              * count :
@@ -133,12 +141,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         8 => [
             /**
              * table_name : Other::PFM
-             * line : 263795
+             * line : 182453
              * type : ?
              * writable : false
              * count :
@@ -146,12 +155,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Other::PFM.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         9 => [
             /**
              * table_name : PCX::Main
-             * line : 263922
+             * line : 182511
              * type : int16u
              * writable : false
              * count :
@@ -159,12 +169,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         10 => [
             /**
              * table_name : PGF::Main
-             * line : 264487
+             * line : 182813
              * type : int32u
              * writable : false
              * count :
@@ -172,6 +183,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

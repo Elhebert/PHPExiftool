@@ -28,13 +28,14 @@ class AEBAutoCancel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AEB Auto Cancel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72538
+             * line : 53851
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AEBAutoCancel extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AEBAutoCancel',
             'desc' => [
+                'en' => 'AEB Auto Cancel',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PixelMeasuresSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Measures Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99186
+             * line : 72405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelMeasuresSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelMeasuresSequence',
             'desc' => [
+                'en' => 'Pixel Measures Sequence',
             ],
         ],
     ];

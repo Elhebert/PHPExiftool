@@ -28,13 +28,14 @@ class PercussivePolyphony extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Percussive Polyphony',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::MIDIControl
-             * line : 131292
+             * line : 90658
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PercussivePolyphony extends AbstractTagGroup
              */
             'id' => 'GIF::MIDIControl.GIF:PercussivePolyphony',
             'desc' => [
+                'en' => 'Percussive Polyphony',
             ],
         ],
     ];

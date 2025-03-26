@@ -28,13 +28,14 @@ class Accelerometer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Accelerometer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ThetaSubdir
-             * line : 333825
+             * line : 234073
              * type : rational64s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class Accelerometer extends AbstractTagGroup
              */
             'id' => 'Ricoh::ThetaSubdir.Ricoh:Accelerometer',
             'desc' => [
+                'en' => 'Accelerometer',
             ],
         ],
     ];

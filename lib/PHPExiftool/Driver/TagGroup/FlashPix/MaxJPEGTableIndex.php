@@ -28,13 +28,14 @@ class MaxJPEGTableIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max JPEG Table Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124812
+             * line : 87238
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxJPEGTableIndex extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:MaxJPEGTableIndex',
             'desc' => [
+                'en' => 'Max JPEG Table Index',
             ],
         ],
     ];

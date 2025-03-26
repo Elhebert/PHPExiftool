@@ -28,13 +28,14 @@ class ZipCRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip CRC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414921
+             * line : 292740
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipCRC extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipCRC',
             'desc' => [
+                'en' => 'Zip CRC',
             ],
         ],
     ];

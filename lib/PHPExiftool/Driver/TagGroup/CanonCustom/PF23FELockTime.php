@@ -28,13 +28,14 @@ class PF23FELockTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF23 FE Lock Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78310
+             * line : 57014
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF23FELockTime extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF23FELockTime',
             'desc' => [
+                'en' => 'PF23 FE Lock Time',
             ],
         ],
     ];

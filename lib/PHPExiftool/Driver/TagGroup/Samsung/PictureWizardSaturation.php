@@ -28,13 +28,14 @@ class PictureWizardSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Wizard Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::PictureWizard
-             * line : 334144
+             * line : 234224
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureWizardSaturation extends AbstractTagGroup
              */
             'id' => 'Samsung::PictureWizard.Samsung:PictureWizardSaturation',
             'desc' => [
+                'en' => 'Picture Wizard Saturation',
             ],
         ],
     ];

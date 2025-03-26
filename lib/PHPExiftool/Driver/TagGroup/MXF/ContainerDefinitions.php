@@ -28,13 +28,14 @@ class ContainerDefinitions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Definitions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169560
+             * line : 115953
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerDefinitions extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContainerDefinitions',
             'desc' => [
+                'en' => 'Container Definitions',
             ],
         ],
     ];

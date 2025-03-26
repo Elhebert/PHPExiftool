@@ -28,13 +28,14 @@ class AELock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299550
+             * line : 208890
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AELock extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AELock',
             'desc' => [
+                'en' => 'AE Lock',
             ],
         ],
     ];

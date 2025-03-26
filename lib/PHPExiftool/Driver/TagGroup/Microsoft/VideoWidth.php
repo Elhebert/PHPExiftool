@@ -28,13 +28,14 @@ class VideoWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175245
+             * line : 120678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoWidth extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:VideoWidth',
             'desc' => [
+                'en' => 'Video Width',
             ],
         ],
     ];

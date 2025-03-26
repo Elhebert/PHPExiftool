@@ -28,13 +28,14 @@ class SmokingStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Smoking Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95289
+             * line : 68752
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SmokingStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SmokingStatus',
             'desc' => [
+                'en' => 'Smoking Status',
             ],
         ],
     ];

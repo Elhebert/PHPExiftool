@@ -28,13 +28,14 @@ class PageInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Page Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412680
+             * line : 290939
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PageInfo extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:PageInfo',
             'desc' => [
+                'en' => 'Page Info',
             ],
         ],
     ];

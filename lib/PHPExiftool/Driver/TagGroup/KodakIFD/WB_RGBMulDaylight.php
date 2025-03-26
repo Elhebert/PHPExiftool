@@ -28,13 +28,14 @@ class WB_RGBMulDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Mul Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155239
+             * line : 106460
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBMulDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBMulDaylight',
             'desc' => [
+                'en' => 'WB RGB Mul Daylight',
             ],
         ],
     ];

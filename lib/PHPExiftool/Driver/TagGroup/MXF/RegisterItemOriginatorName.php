@@ -28,13 +28,14 @@ class RegisterItemOriginatorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Item Originator Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172361
+             * line : 118522
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterItemOriginatorName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterItemOriginatorName',
             'desc' => [
+                'en' => 'Register Item Originator Name',
             ],
         ],
     ];

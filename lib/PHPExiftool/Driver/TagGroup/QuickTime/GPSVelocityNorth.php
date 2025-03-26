@@ -28,13 +28,14 @@ class GPSVelocityNorth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Velocity North',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326540
+             * line : 230308
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSVelocityNorth extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSVelocityNorth',
             'desc' => [
+                'en' => 'GPS Velocity North',
             ],
         ],
     ];

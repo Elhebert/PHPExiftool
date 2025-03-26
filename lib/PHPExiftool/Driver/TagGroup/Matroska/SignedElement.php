@@ -28,13 +28,14 @@ class SignedElement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signed Element',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173794
+             * line : 119693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignedElement extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SignedElement',
             'desc' => [
+                'en' => 'Signed Element',
             ],
         ],
     ];

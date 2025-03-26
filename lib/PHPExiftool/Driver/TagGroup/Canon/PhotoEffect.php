@@ -28,13 +28,14 @@ class PhotoEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photo Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58718
+             * line : 45652
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotoEffect extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:PhotoEffect',
             'desc' => [
+                'en' => 'Photo Effect',
             ],
         ],
     ];

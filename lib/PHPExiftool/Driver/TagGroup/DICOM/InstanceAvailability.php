@@ -28,13 +28,14 @@ class InstanceAvailability extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance Availability',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94755
+             * line : 68242
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceAvailability extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstanceAvailability',
             'desc' => [
+                'en' => 'Instance Availability',
             ],
         ],
     ];

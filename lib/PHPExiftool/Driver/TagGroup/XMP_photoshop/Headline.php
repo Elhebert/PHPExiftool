@@ -28,13 +28,14 @@ class Headline extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Headline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410275
+             * line : 289785
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Headline extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:Headline',
             'desc' => [
+                'en' => 'Headline',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OriginalAlbumTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Album Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1448
+             * line : 691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalAlbumTitle extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:OriginalAlbumTitle',
             'desc' => [
+                'en' => 'Original Album Title',
             ],
         ],
     ];

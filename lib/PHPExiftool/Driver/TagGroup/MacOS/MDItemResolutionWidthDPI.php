@@ -28,13 +28,14 @@ class MDItemResolutionWidthDPI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Resolution Width DPI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172976
+             * line : 119026
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemResolutionWidthDPI extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemResolutionWidthDPI',
             'desc' => [
+                'en' => 'MD Item Resolution Width DPI',
             ],
         ],
     ];

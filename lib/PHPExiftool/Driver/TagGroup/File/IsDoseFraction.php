@@ -28,13 +28,14 @@ class IsDoseFraction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Dose Fraction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166710
+             * line : 113447
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsDoseFraction extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:IsDoseFraction',
             'desc' => [
+                'en' => 'Is Dose Fraction',
             ],
         ],
     ];

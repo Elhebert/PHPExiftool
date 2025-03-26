@@ -28,13 +28,14 @@ class LowLightAF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Low Light AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247147
+             * line : 169840
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LowLightAF extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LowLightAF',
             'desc' => [
+                'en' => 'Low Light AF',
             ],
         ],
     ];

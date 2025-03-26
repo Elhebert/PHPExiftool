@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90149
+             * line : 65100
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

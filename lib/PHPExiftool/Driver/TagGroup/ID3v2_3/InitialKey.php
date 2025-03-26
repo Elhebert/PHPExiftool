@@ -28,13 +28,14 @@ class InitialKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148887
+             * line : 103316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialKey extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:InitialKey',
             'desc' => [
+                'en' => 'Initial Key',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OutputGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Opus::Header
-             * line : 263751
+             * line : 182432
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputGain extends AbstractTagGroup
              */
             'id' => 'Opus::Header.Opus:OutputGain',
             'desc' => [
+                'en' => 'Output Gain',
             ],
         ],
     ];

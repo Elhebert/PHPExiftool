@@ -28,13 +28,14 @@ class CameraSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174322
+             * line : 120067
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraSerialNumber extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:CameraSerialNumber',
             'desc' => [
+                'en' => 'Camera Serial Number',
             ],
         ],
     ];

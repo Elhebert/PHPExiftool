@@ -28,13 +28,14 @@ class NoMemoryCard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'No Memory Card',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 214201
+             * line : 143806
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214610
+             * line : 144077
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216672
+             * line : 145648
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222130
+             * line : 149948
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222723
+             * line : 150278
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223314
+             * line : 150614
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 226168
+             * line : 152385
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226495
+             * line : 152568
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227823
+             * line : 153427
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229682
+             * line : 154404
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234212
+             * line : 157897
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class NoMemoryCard extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:NoMemoryCard',
             'desc' => [
+                'en' => 'No Memory Card',
             ],
         ],
     ];

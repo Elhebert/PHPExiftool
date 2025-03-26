@@ -28,13 +28,14 @@ class ViewsPerSegment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Views Per Segment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100306
+             * line : 73479
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewsPerSegment extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewsPerSegment',
             'desc' => [
+                'en' => 'Views Per Segment',
             ],
         ],
     ];

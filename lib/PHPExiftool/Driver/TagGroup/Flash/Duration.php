@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Main
-             * line : 123910
+             * line : 86651
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Flash::Main.Flash:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         1 => [
             /**
              * table_name : Flash::Meta
-             * line : 124063
+             * line : 86723
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

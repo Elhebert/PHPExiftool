@@ -28,13 +28,14 @@ class AFAreaWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Area Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4065
+             * line : 2562
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFAreaWidth extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:AFAreaWidth',
             'desc' => [
+                'en' => 'AF Area Width',
             ],
         ],
     ];

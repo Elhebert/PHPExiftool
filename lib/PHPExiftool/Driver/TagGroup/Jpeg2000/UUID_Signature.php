@@ -28,13 +28,14 @@ class UUID_Signature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UUID-Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154299
+             * line : 105945
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UUID_Signature extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:UUID-Signature',
             'desc' => [
+                'en' => 'UUID-Signature',
             ],
         ],
     ];

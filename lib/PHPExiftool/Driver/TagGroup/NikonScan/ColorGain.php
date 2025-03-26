@@ -28,13 +28,14 @@ class ColorGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205241
+             * line : 137955
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ColorGain extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:ColorGain',
             'desc' => [
+                'en' => 'Color Gain',
             ],
         ],
     ];

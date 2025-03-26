@@ -28,13 +28,14 @@ class ContrastMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276143
+             * line : 192290
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ContrastMode',
             'desc' => [
+                'en' => 'Contrast Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276203
+             * line : 192334
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ContrastMode',
             'desc' => [
+                'en' => 'Contrast Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276364
+             * line : 192468
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ContrastMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ContrastMode',
             'desc' => [
+                'en' => 'Contrast Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276386
+             * line : 192488
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ContrastMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ContrastMode',
             'desc' => [
+                'en' => 'Contrast Mode',
             ],
         ],
     ];

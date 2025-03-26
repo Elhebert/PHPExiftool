@@ -28,13 +28,14 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Flash ISO Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244356
+             * line : 167225
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AutoFlashISOSensitivity',
             'desc' => [
+                'en' => 'Auto Flash ISO Sensitivity',
             ],
         ],
     ];

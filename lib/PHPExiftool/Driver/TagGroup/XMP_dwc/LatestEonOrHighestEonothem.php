@@ -28,13 +28,14 @@ class LatestEonOrHighestEonothem extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Latest Eon Or Highest Eonothem',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106201
+             * line : 78548
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LatestEonOrHighestEonothem extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LatestEonOrHighestEonothem',
             'desc' => [
+                'en' => 'Latest Eon Or Highest Eonothem',
             ],
         ],
     ];

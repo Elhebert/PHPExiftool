@@ -28,13 +28,14 @@ class DataCreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124373
+             * line : 86897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataCreateDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:DataCreateDate',
             'desc' => [
+                'en' => 'Data Create Date',
             ],
         ],
     ];

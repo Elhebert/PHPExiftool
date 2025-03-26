@@ -28,13 +28,14 @@ class Elevation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Elevation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Orient
-             * line : 164091
+             * line : 111611
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Elevation extends AbstractTagGroup
              */
             'id' => 'MIE::Orient.MIE-Orient:Elevation',
             'desc' => [
+                'en' => 'Elevation',
             ],
         ],
     ];

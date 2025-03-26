@@ -28,13 +28,14 @@ class PostScriptFontName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PostScript Font Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Main
-             * line : 127825
+             * line : 88748
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PostScriptFontName extends AbstractTagGroup
              */
             'id' => 'Font::Main.Font:PostScriptFontName',
             'desc' => [
+                'en' => 'PostScript Font Name',
             ],
         ],
         1 => [
             /**
              * table_name : Font::Name
-             * line : 127878
+             * line : 88773
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class PostScriptFontName extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:PostScriptFontName',
             'desc' => [
+                'en' => 'PostScript Font Name',
             ],
         ],
         2 => [
             /**
              * table_name : Font::Name
-             * line : 127944
+             * line : 88812
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class PostScriptFontName extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:PostScriptFontName',
             'desc' => [
+                'en' => 'PostScript Font Name',
             ],
         ],
     ];

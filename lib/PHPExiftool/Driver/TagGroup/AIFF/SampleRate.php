@@ -28,13 +28,14 @@ class SampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Common
-             * line : 107
+             * line : 42
              * type : extended
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleRate extends AbstractTagGroup
              */
             'id' => 'AIFF::Common.AIFF:SampleRate',
             'desc' => [
+                'en' => 'Sample Rate',
             ],
         ],
     ];

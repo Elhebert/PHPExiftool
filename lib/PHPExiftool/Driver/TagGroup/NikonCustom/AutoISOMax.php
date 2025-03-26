@@ -28,13 +28,14 @@ class AutoISOMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto ISO Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 216755
+             * line : 145681
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoISOMax extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:AutoISOMax',
             'desc' => [
+                'en' => 'Auto ISO Max',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227990
+             * line : 153493
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoISOMax extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AutoISOMax',
             'desc' => [
+                'en' => 'Auto ISO Max',
             ],
         ],
     ];

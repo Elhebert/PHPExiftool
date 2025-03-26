@@ -28,13 +28,14 @@ class FlashGroupAControlMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Group A Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192708
+             * line : 130572
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashGroupAControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashGroupAControlMode',
             'desc' => [
+                'en' => 'Flash Group A Control Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193212
+             * line : 130904
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashGroupAControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashGroupAControlMode',
             'desc' => [
+                'en' => 'Flash Group A Control Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193824
+             * line : 131303
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashGroupAControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashGroupAControlMode',
             'desc' => [
+                'en' => 'Flash Group A Control Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194428
+             * line : 131705
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashGroupAControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashGroupAControlMode',
             'desc' => [
+                'en' => 'Flash Group A Control Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194935
+             * line : 132054
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FlashGroupAControlMode extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashGroupAControlMode',
             'desc' => [
+                'en' => 'Flash Group A Control Mode',
             ],
         ],
     ];

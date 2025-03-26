@@ -28,13 +28,14 @@ class PupilDilated extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pupil Dilated',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98333
+             * line : 71668
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PupilDilated extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PupilDilated',
             'desc' => [
+                'en' => 'Pupil Dilated',
             ],
         ],
     ];

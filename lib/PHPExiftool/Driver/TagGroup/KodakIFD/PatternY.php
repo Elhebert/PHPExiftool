@@ -28,13 +28,14 @@ class PatternY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pattern Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155521
+             * line : 106733
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatternY extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternY',
             'desc' => [
+                'en' => 'Pattern Y',
             ],
         ],
     ];

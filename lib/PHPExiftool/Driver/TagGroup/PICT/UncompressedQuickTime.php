@@ -28,13 +28,14 @@ class UncompressedQuickTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Uncompressed Quick Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 265096
+             * line : 183290
              * type : Int32uData
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UncompressedQuickTime extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:UncompressedQuickTime',
             'desc' => [
+                'en' => 'Uncompressed Quick Time',
             ],
         ],
     ];

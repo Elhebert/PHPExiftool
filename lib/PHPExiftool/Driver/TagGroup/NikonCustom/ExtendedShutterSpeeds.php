@@ -28,13 +28,14 @@ class ExtendedShutterSpeeds extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extended Shutter Speeds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238369
+             * line : 161458
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtendedShutterSpeeds extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ExtendedShutterSpeeds',
             'desc' => [
+                'en' => 'Extended Shutter Speeds',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ZipModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414917
+             * line : 292737
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipModifyDate extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipModifyDate',
             'desc' => [
+                'en' => 'Zip Modify Date',
             ],
         ],
     ];

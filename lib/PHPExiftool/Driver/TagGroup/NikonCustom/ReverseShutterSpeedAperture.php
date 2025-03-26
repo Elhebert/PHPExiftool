@@ -28,13 +28,14 @@ class ReverseShutterSpeedAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reverse Shutter Speed Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223409
+             * line : 150669
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReverseShutterSpeedAperture extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:ReverseShutterSpeedAperture',
             'desc' => [
+                'en' => 'Reverse Shutter Speed Aperture',
             ],
         ],
     ];

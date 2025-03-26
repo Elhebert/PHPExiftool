@@ -28,13 +28,14 @@ class MakerNoteSony2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Sony 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105199
+             * line : 77978
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteSony2 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteSony2',
             'desc' => [
+                'en' => 'Maker Note Sony 2',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116160
+             * line : 83271
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteSony2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteSony2',
             'desc' => [
+                'en' => 'Maker Note Sony 2',
             ],
         ],
     ];

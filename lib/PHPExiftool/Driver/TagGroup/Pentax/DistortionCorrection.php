@@ -28,13 +28,14 @@ class DistortionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensCorr
-             * line : 288485
+             * line : 200131
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'Pentax::LensCorr.Pentax:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
     ];

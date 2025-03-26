@@ -28,13 +28,14 @@ class PlateNames extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Plate Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414540
+             * line : 292492
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlateNames extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:PlateNames',
             'desc' => [
+                'en' => 'Plate Names',
             ],
         ],
     ];

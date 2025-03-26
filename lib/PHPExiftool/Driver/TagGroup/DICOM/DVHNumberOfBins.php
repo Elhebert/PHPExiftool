@@ -28,13 +28,14 @@ class DVHNumberOfBins extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Number Of Bins',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102492
+             * line : 75591
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHNumberOfBins extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHNumberOfBins',
             'desc' => [
+                'en' => 'DVH Number Of Bins',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CopyrightYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409191
+             * line : 288999
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CopyrightYear extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:CopyrightYear',
             'desc' => [
+                'en' => 'Copyright Year',
             ],
         ],
     ];

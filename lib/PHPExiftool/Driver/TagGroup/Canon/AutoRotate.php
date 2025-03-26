@@ -28,13 +28,14 @@ class AutoRotate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Rotate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70831
+             * line : 52870
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoRotate extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:AutoRotate',
             'desc' => [
+                'en' => 'Auto Rotate',
             ],
         ],
     ];

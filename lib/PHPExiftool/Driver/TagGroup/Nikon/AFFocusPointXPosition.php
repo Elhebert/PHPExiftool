@@ -28,13 +28,14 @@ class AFFocusPointXPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Focus Point X Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 190016
+             * line : 128930
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFFocusPointXPosition extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:AFFocusPointXPosition',
             'desc' => [
+                'en' => 'AF Focus Point X Position',
             ],
         ],
     ];

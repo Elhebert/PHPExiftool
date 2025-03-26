@@ -28,13 +28,14 @@ class TimeScaleParamsFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Scale Params Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413472
+             * line : 291564
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeScaleParamsFrameSize extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TimeScaleParamsFrameSize',
             'desc' => [
+                'en' => 'Time Scale Params Frame Size',
             ],
         ],
     ];

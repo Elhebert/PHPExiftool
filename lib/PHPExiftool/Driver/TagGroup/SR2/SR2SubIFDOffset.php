@@ -28,13 +28,14 @@ class SR2SubIFDOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SR2 Sub IFD Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2Private
-             * line : 361671
+             * line : 251855
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SR2SubIFDOffset extends AbstractTagGroup
              */
             'id' => 'Sony::SR2Private.SR2:SR2SubIFDOffset',
             'desc' => [
+                'en' => 'SR2 Sub IFD Offset',
             ],
         ],
     ];

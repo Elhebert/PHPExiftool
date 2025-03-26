@@ -28,13 +28,14 @@ class WM_Provider extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Provider',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Private
-             * line : 147147
+             * line : 102175
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WM_Provider extends AbstractTagGroup
              */
             'id' => 'ID3::Private.ID3:WM_Provider',
             'desc' => [
+                'en' => 'WM Provider',
             ],
         ],
     ];

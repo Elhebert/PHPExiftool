@@ -28,13 +28,14 @@ class YhiYloCorC5 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Yhi Ylo Cor C5',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310267
+             * line : 216179
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YhiYloCorC5 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:YhiYloCorC5',
             'desc' => [
+                'en' => 'Yhi Ylo Cor C5',
             ],
         ],
     ];

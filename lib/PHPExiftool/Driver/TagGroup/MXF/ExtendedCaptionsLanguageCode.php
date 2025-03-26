@@ -28,13 +28,14 @@ class ExtendedCaptionsLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Captions Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171664
+             * line : 117856
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtendedCaptionsLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ExtendedCaptionsLanguageCode',
             'desc' => [
+                'en' => 'Extended Captions Language Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SupplyingDepartmentName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Supplying Department Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168862
+             * line : 115328
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SupplyingDepartmentName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupplyingDepartmentName',
             'desc' => [
+                'en' => 'Supplying Department Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WM_ContentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Content ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Private
-             * line : 147156
+             * line : 102184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WM_ContentID extends AbstractTagGroup
              */
             'id' => 'ID3::Private.ID3:WM_ContentID',
             'desc' => [
+                'en' => 'WM Content ID',
             ],
         ],
     ];

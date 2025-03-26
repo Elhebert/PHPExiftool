@@ -28,13 +28,14 @@ class EventParentEventID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Parent Event ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106113
+             * line : 78482
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventParentEventID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventParentEventID',
             'desc' => [
+                'en' => 'Event Parent Event ID',
             ],
         ],
     ];

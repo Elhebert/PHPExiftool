@@ -28,13 +28,14 @@ class GrayScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gray Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98934
+             * line : 72204
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GrayScale extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GrayScale',
             'desc' => [
+                'en' => 'Gray Scale',
             ],
         ],
     ];

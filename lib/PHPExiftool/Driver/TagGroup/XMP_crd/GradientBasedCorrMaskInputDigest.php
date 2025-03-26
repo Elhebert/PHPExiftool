@@ -28,13 +28,14 @@ class GradientBasedCorrMaskInputDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Mask Input Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399063
+             * line : 282570
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrMaskInputDigest extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GradientBasedCorrMaskInputDigest',
             'desc' => [
+                'en' => 'Gradient Based Corr Mask Input Digest',
             ],
         ],
     ];

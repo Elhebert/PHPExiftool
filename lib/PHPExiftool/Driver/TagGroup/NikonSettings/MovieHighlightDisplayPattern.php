@@ -28,13 +28,14 @@ class MovieHighlightDisplayPattern extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Highlight Display Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247333
+             * line : 170026
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieHighlightDisplayPattern extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieHighlightDisplayPattern',
             'desc' => [
+                'en' => 'Movie Highlight Display Pattern',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SBAAnalysisComplete extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SBA Analysis Complete',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155915
+             * line : 107126
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SBAAnalysisComplete extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SBAAnalysisComplete',
             'desc' => [
+                'en' => 'SBA Analysis Complete',
             ],
         ],
     ];

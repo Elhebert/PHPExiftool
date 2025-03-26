@@ -28,13 +28,14 @@ class ColorPrimaries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Primaries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172066
+             * line : 118240
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorPrimaries extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorPrimaries',
             'desc' => [
+                'en' => 'Color Primaries',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172072
+             * line : 118243
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorPrimaries extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorPrimaries',
             'desc' => [
+                'en' => 'Color Primaries',
             ],
         ],
     ];

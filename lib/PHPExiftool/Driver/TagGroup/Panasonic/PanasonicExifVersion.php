@@ -28,13 +28,14 @@ class PanasonicExifVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panasonic Exif Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276001
+             * line : 192218
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanasonicExifVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:PanasonicExifVersion',
             'desc' => [
+                'en' => 'Panasonic Exif Version',
             ],
         ],
     ];

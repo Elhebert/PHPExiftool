@@ -28,13 +28,14 @@ class Annotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Main
-             * line : 211
+             * line : 109
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Annotation extends AbstractTagGroup
              */
             'id' => 'AIFF::Main.AIFF:Annotation',
             'desc' => [
+                'en' => 'Annotation',
             ],
         ],
     ];

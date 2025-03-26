@@ -28,13 +28,14 @@ class SamplePeriod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328703
+             * line : 231789
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplePeriod extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:SamplePeriod',
             'desc' => [
+                'en' => 'Sample Period',
             ],
         ],
     ];

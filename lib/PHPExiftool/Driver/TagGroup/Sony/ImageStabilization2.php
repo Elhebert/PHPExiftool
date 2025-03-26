@@ -28,13 +28,14 @@ class ImageStabilization2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo
-             * line : 352132
+             * line : 246008
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageStabilization2 extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo.Sony:ImageStabilization2',
             'desc' => [
+                'en' => 'Image Stabilization 2',
             ],
         ],
     ];

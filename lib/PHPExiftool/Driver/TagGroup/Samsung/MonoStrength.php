@@ -28,13 +28,14 @@ class MonoStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mono Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334208
+             * line : 234288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MonoStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:MonoStrength',
             'desc' => [
+                'en' => 'Mono Strength',
             ],
         ],
     ];

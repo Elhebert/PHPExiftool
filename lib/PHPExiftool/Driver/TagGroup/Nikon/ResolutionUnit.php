@@ -28,13 +28,14 @@ class ResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191629
+             * line : 129985
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResolutionUnit extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:ResolutionUnit',
             'desc' => [
+                'en' => 'Resolution Unit',
             ],
         ],
     ];

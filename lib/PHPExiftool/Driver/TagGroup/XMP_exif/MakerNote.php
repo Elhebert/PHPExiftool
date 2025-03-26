@@ -28,13 +28,14 @@ class MakerNote extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407470
+             * line : 288339
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNote extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:MakerNote',
             'desc' => [
+                'en' => 'Maker Note',
             ],
         ],
     ];

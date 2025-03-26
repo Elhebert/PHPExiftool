@@ -28,13 +28,14 @@ class SelectorAttributePrivateCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector Attribute Private Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101497
+             * line : 74643
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorAttributePrivateCreator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorAttributePrivateCreator',
             'desc' => [
+                'en' => 'Selector Attribute Private Creator',
             ],
         ],
     ];

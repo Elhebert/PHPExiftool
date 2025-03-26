@@ -28,13 +28,14 @@ class AECIndoorIdx extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Indoor Idx',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306170
+             * line : 212675
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECIndoorIdx extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECIndoorIdx',
             'desc' => [
+                'en' => 'AEC Indoor Idx',
             ],
         ],
     ];

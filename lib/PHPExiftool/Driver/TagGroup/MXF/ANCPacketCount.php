@@ -28,13 +28,14 @@ class ANCPacketCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ANC Packet Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172196
+             * line : 118363
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ANCPacketCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ANCPacketCount',
             'desc' => [
+                'en' => 'ANC Packet Count',
             ],
         ],
     ];

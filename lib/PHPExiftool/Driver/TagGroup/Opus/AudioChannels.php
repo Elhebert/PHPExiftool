@@ -28,13 +28,14 @@ class AudioChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Opus::Header
-             * line : 263739
+             * line : 182426
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'Opus::Header.Opus:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
     ];

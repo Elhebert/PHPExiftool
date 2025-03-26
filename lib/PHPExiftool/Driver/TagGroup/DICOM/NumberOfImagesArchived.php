@@ -28,13 +28,14 @@ class NumberOfImagesArchived extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Images Archived',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98483
+             * line : 71815
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfImagesArchived extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfImagesArchived',
             'desc' => [
+                'en' => 'Number Of Images Archived',
             ],
         ],
     ];

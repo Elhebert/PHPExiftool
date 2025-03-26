@@ -28,13 +28,14 @@ class ToDoTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'To Do Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176240
+             * line : 121278
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToDoTitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ToDoTitle',
             'desc' => [
+                'en' => 'To Do Title',
             ],
         ],
     ];

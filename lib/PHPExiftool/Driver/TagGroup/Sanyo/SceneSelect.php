@@ -28,13 +28,14 @@ class SceneSelect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Select',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336731
+             * line : 235891
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneSelect extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SceneSelect',
             'desc' => [
+                'en' => 'Scene Select',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PreviewImageInfo
-             * line : 69427
+             * line : 52362
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImageHeight extends AbstractTagGroup
              */
             'id' => 'Canon::PreviewImageInfo.Canon:PreviewImageHeight',
             'desc' => [
+                'en' => 'Preview Image Height',
             ],
         ],
     ];

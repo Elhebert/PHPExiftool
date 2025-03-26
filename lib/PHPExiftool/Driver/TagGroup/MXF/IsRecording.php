@@ -28,13 +28,14 @@ class IsRecording extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Recording',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168651
+             * line : 115127
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsRecording extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsRecording',
             'desc' => [
+                'en' => 'Is Recording',
             ],
         ],
     ];

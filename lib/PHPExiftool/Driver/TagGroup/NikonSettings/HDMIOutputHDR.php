@@ -28,13 +28,14 @@ class HDMIOutputHDR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDMI Output HDR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247504
+             * line : 170197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDMIOutputHDR extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:HDMIOutputHDR',
             'desc' => [
+                'en' => 'HDMI Output HDR',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompatibleBrands extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compatible Brands',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::FileType
-             * line : 153971
+             * line : 105752
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompatibleBrands extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::FileType.Jpeg2000:CompatibleBrands',
             'desc' => [
+                'en' => 'Compatible Brands',
             ],
         ],
     ];

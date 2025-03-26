@@ -28,13 +28,14 @@ class RegistryOrganisationID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Registry Organisation ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409714
+             * line : 289474
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegistryOrganisationID extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RegistryOrganisationID',
             'desc' => [
+                'en' => 'Registry Organisation ID',
             ],
         ],
     ];

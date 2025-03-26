@@ -28,13 +28,14 @@ class MinoltaModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minolta Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177924
+             * line : 122090
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinoltaModelID extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MinoltaModelID',
             'desc' => [
+                'en' => 'Minolta Model ID',
             ],
         ],
     ];

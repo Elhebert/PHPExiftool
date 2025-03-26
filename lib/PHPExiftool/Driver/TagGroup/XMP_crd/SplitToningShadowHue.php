@@ -28,13 +28,14 @@ class SplitToningShadowHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Split Toning Shadow Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401084
+             * line : 284519
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SplitToningShadowHue extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SplitToningShadowHue',
             'desc' => [
+                'en' => 'Split Toning Shadow Hue',
             ],
         ],
     ];

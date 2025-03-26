@@ -28,13 +28,14 @@ class CaptureDeviceFID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Device FID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158410
+             * line : 108910
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureDeviceFID extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:CaptureDeviceFID',
             'desc' => [
+                'en' => 'Capture Device FID',
             ],
         ],
     ];

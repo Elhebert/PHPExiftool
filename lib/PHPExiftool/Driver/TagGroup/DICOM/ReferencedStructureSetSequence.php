@@ -28,13 +28,14 @@ class ReferencedStructureSetSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Structure Set Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103999
+             * line : 77088
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedStructureSetSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedStructureSetSequence',
             'desc' => [
+                'en' => 'Referenced Structure Set Sequence',
             ],
         ],
     ];

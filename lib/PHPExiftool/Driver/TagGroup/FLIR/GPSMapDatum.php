@@ -28,13 +28,14 @@ class GPSMapDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Map Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 123103
+             * line : 85989
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class GPSMapDatum extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSMapDatum',
             'desc' => [
+                'en' => 'GPS Map Datum',
             ],
         ],
     ];

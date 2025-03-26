@@ -28,13 +28,14 @@ class CompensatorMillingToolDiameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Milling Tool Diameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103741
+             * line : 76830
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorMillingToolDiameter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorMillingToolDiameter',
             'desc' => [
+                'en' => 'Compensator Milling Tool Diameter',
             ],
         ],
     ];

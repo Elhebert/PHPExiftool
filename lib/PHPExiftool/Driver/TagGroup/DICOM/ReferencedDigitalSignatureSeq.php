@@ -28,13 +28,14 @@ class ReferencedDigitalSignatureSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Digital Signature Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101923
+             * line : 75063
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedDigitalSignatureSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedDigitalSignatureSeq',
             'desc' => [
+                'en' => 'Referenced Digital Signature Seq',
             ],
         ],
     ];

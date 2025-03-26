@@ -28,13 +28,14 @@ class HJREnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HJR Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306131
+             * line : 212636
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HJREnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:HJREnable',
             'desc' => [
+                'en' => 'HJR Enable',
             ],
         ],
     ];

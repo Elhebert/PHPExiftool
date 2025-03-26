@@ -28,13 +28,14 @@ class EpisodeEndNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Episode End Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170625
+             * line : 116865
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EpisodeEndNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EpisodeEndNumber',
             'desc' => [
+                'en' => 'Episode End Number',
             ],
         ],
     ];

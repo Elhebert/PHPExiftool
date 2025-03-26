@@ -28,13 +28,14 @@ class Resolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Image
-             * line : 163880
+             * line : 111524
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Resolution extends AbstractTagGroup
              */
             'id' => 'MIE::Image.MIE-Image:Resolution',
             'desc' => [
+                'en' => 'Resolution',
             ],
         ],
     ];

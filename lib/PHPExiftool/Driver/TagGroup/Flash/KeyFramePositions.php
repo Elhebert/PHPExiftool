@@ -28,13 +28,14 @@ class KeyFramePositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Frame Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124137
+             * line : 86753
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyFramePositions extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:KeyFramePositions',
             'desc' => [
+                'en' => 'Key Frame Positions',
             ],
         ],
     ];

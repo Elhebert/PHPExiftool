@@ -28,13 +28,14 @@ class WBType3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Type 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::WBInfo
-             * line : 280950
+             * line : 194871
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WBType3 extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:WBType3',
             'desc' => [
+                'en' => 'WB Type 3',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::WBInfo2
-             * line : 281475
+             * line : 195396
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WBType3 extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::WBInfo2.PanasonicRaw:WBType3',
             'desc' => [
+                'en' => 'WB Type 3',
             ],
         ],
     ];

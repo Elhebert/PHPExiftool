@@ -28,13 +28,14 @@ class GEMake extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GE Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GE::Main
-             * line : 131227
+             * line : 90622
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GEMake extends AbstractTagGroup
              */
             'id' => 'GE::Main.GE:GEMake',
             'desc' => [
+                'en' => 'GE Make',
             ],
         ],
     ];

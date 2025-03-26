@@ -28,13 +28,14 @@ class FileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Main
-             * line : 273393
+             * line : 190687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileVersion extends AbstractTagGroup
              */
             'id' => 'PSP::Main.PSP:FileVersion',
             'desc' => [
+                'en' => 'File Version',
             ],
         ],
     ];

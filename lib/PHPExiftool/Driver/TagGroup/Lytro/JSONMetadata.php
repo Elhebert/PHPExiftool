@@ -28,13 +28,14 @@ class JSONMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JSON Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162395
+             * line : 110889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JSONMetadata extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:JSONMetadata',
             'desc' => [
+                'en' => 'JSON Metadata',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo extends AbstractTagGro
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Range Mask Area Models Color Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398577
+             * line : 282182
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo extends AbstractTagGro
              */
             'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Range Mask Area Models Color Sample Info',
             ],
         ],
     ];

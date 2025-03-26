@@ -28,13 +28,14 @@ class ModifiedImageTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modified Image Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98027
+             * line : 71374
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifiedImageTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModifiedImageTime',
             'desc' => [
+                'en' => 'Modified Image Time',
             ],
         ],
     ];

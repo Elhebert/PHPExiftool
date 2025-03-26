@@ -28,13 +28,14 @@ class RGBtoeV2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RG Btoe V2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156738
+             * line : 107942
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RGBtoeV2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RGBtoeV2',
             'desc' => [
+                'en' => 'RG Btoe V2',
             ],
         ],
     ];

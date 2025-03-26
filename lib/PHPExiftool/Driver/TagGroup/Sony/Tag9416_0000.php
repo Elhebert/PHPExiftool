@@ -28,13 +28,14 @@ class Tag9416_0000 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag 9416 0000',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391031
+             * line : 276766
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Tag9416_0000 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:Tag9416_0000',
             'desc' => [
+                'en' => 'Tag 9416 0000',
             ],
         ],
     ];

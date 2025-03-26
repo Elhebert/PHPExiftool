@@ -28,13 +28,14 @@ class SingleShotDepthMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Single Shot Depth Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 335013
+             * line : 235069
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SingleShotDepthMap extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:SingleShotDepthMap',
             'desc' => [
+                'en' => 'Single Shot Depth Map',
             ],
         ],
     ];

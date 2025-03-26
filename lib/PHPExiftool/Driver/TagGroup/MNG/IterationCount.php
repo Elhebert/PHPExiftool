@@ -28,13 +28,14 @@ class IterationCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Iteration Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Loop
-             * line : 165014
+             * line : 112148
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IterationCount extends AbstractTagGroup
              */
             'id' => 'MNG::Loop.MNG:IterationCount',
             'desc' => [
+                'en' => 'Iteration Count',
             ],
         ],
     ];

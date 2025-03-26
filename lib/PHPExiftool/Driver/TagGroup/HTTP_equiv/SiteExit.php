@@ -28,13 +28,14 @@ class SiteExit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Site Exit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142924
+             * line : 98703
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SiteExit extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:SiteExit',
             'desc' => [
+                'en' => 'Site Exit',
             ],
         ],
     ];

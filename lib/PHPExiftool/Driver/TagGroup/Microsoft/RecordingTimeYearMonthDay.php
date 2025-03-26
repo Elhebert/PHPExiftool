@@ -28,13 +28,14 @@ class RecordingTimeYearMonthDay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recording Time Year Month Day',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174780
+             * line : 120329
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordingTimeYearMonthDay extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:RecordingTimeYearMonthDay',
             'desc' => [
+                'en' => 'Recording Time Year Month Day',
             ],
         ],
     ];

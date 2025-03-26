@@ -28,13 +28,14 @@ class NumberOfEventTimers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Event Timers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95009
+             * line : 68491
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfEventTimers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfEventTimers',
             'desc' => [
+                'en' => 'Number Of Event Timers',
             ],
         ],
     ];

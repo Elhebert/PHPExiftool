@@ -28,13 +28,14 @@ class MultiCoilConfiguration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Coil Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96620
+             * line : 70024
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiCoilConfiguration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiCoilConfiguration',
             'desc' => [
+                'en' => 'Multi Coil Configuration',
             ],
         ],
     ];

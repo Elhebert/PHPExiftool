@@ -28,13 +28,14 @@ class TargetWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168371
+             * line : 114866
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TargetWidth extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TargetWidth',
             'desc' => [
+                'en' => 'Target Width',
             ],
         ],
     ];

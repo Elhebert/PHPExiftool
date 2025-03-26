@@ -28,13 +28,14 @@ class ContainerDirectoryItemMime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Container Directory Item Mime',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396684
+             * line : 280901
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContainerDirectoryItemMime extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:ContainerDirectoryItemMime',
             'desc' => [
+                'en' => 'Container Directory Item Mime',
             ],
         ],
     ];

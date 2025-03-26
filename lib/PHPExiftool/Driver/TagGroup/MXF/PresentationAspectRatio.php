@@ -28,13 +28,14 @@ class PresentationAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167764
+             * line : 114341
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationAspectRatio extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PresentationAspectRatio',
             'desc' => [
+                'en' => 'Presentation Aspect Ratio',
             ],
         ],
     ];

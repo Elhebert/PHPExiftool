@@ -28,13 +28,14 @@ class PeakEnvelopeBlockSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Envelope Block Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171926
+             * line : 118111
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakEnvelopeBlockSize extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PeakEnvelopeBlockSize',
             'desc' => [
+                'en' => 'Peak Envelope Block Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedWaveformSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Waveform Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94931
+             * line : 68413
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedWaveformSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedWaveformSequence',
             'desc' => [
+                'en' => 'Referenced Waveform Sequence',
             ],
         ],
     ];

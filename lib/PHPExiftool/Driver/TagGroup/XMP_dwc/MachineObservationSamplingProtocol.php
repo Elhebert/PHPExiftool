@@ -28,13 +28,14 @@ class MachineObservationSamplingProtocol extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Sampling Protocol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106425
+             * line : 78716
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationSamplingProtocol extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationSamplingProtocol',
             'desc' => [
+                'en' => 'Machine Observation Sampling Protocol',
             ],
         ],
     ];

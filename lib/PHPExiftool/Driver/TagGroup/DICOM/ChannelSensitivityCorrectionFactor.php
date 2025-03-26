@@ -28,13 +28,14 @@ class ChannelSensitivityCorrectionFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Sensitivity Correction Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99509
+             * line : 72720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelSensitivityCorrectionFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelSensitivityCorrectionFactor',
             'desc' => [
+                'en' => 'Channel Sensitivity Correction Factor',
             ],
         ],
     ];

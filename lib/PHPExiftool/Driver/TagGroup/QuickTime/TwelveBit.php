@@ -28,13 +28,14 @@ class TwelveBit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Twelve Bit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310307
+             * line : 216219
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TwelveBit extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:TwelveBit',
             'desc' => [
+                'en' => 'Twelve Bit',
             ],
         ],
     ];

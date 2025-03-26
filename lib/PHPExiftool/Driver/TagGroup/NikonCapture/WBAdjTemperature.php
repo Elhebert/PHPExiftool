@@ -28,13 +28,14 @@ class WBAdjTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::WBAdjData
-             * line : 211744
+             * line : 142317
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBAdjTemperature extends AbstractTagGroup
              */
             'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjTemperature',
             'desc' => [
+                'en' => 'WB Adj Temperature',
             ],
         ],
     ];

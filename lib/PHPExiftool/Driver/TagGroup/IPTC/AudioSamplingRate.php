@@ -28,13 +28,14 @@ class AudioSamplingRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Sampling Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150681
+             * line : 104063
              * type : digits
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class AudioSamplingRate extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:AudioSamplingRate',
             'desc' => [
+                'en' => 'Audio Sampling Rate',
             ],
         ],
     ];

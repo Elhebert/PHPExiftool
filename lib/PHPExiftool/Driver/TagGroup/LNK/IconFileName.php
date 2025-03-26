@@ -28,13 +28,14 @@ class IconFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Icon File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161567
+             * line : 110373
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IconFileName extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:IconFileName',
             'desc' => [
+                'en' => 'Icon File Name',
             ],
         ],
     ];

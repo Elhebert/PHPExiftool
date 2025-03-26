@@ -28,13 +28,14 @@ class ParametricShadows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parametric Shadows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400558
+             * line : 284045
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParametricShadows extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ParametricShadows',
             'desc' => [
+                'en' => 'Parametric Shadows',
             ],
         ],
     ];

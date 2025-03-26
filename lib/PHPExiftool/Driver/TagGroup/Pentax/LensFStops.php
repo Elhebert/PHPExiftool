@@ -28,13 +28,14 @@ class LensFStops extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens F Stops',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288610
+             * line : 200207
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensFStops extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:LensFStops',
             'desc' => [
+                'en' => 'Lens F Stops',
             ],
         ],
     ];

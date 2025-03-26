@@ -28,13 +28,14 @@ class ToolkitVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Toolkit Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169327
+             * line : 115734
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToolkitVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ToolkitVersion',
             'desc' => [
+                'en' => 'Toolkit Version',
             ],
         ],
     ];

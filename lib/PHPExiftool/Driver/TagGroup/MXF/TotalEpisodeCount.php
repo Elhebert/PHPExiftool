@@ -28,13 +28,14 @@ class TotalEpisodeCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Episode Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167440
+             * line : 114057
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalEpisodeCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TotalEpisodeCount',
             'desc' => [
+                'en' => 'Total Episode Count',
             ],
         ],
     ];

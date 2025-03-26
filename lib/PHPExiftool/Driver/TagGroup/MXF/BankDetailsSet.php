@@ -28,13 +28,14 @@ class BankDetailsSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bank Details Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171460
+             * line : 117661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BankDetailsSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BankDetailsSet',
             'desc' => [
+                'en' => 'Bank Details Set',
             ],
         ],
     ];

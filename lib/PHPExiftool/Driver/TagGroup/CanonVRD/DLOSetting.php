@@ -28,13 +28,14 @@ class DLOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DLO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80701
+             * line : 58829
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DLOSetting extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:DLOSetting',
             'desc' => [
+                'en' => 'DLO Setting',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83795
+             * line : 61433
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DLOSetting extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:DLOSetting',
             'desc' => [
+                'en' => 'DLO Setting',
             ],
         ],
     ];

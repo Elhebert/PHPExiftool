@@ -28,13 +28,14 @@ class Studio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Studio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265206
+             * line : 183333
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Studio extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:Studio',
             'desc' => [
+                'en' => 'Studio',
             ],
         ],
     ];

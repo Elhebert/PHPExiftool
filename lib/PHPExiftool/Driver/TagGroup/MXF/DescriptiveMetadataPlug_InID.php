@@ -28,13 +28,14 @@ class DescriptiveMetadataPlug_InID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Descriptive Metadata Plug-In ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172433
+             * line : 118594
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DescriptiveMetadataPlug_InID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveMetadataPlug-InID',
             'desc' => [
+                'en' => 'Descriptive Metadata Plug-In ID',
             ],
         ],
     ];

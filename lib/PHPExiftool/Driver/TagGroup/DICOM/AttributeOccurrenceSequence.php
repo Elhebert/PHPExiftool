@@ -28,13 +28,14 @@ class AttributeOccurrenceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attribute Occurrence Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101796
+             * line : 74937
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttributeOccurrenceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttributeOccurrenceSequence',
             'desc' => [
+                'en' => 'Attribute Occurrence Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensProfileMatchKeyExifModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Match Key Exif Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402836
+             * line : 285972
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileMatchKeyExifModel extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LensProfileMatchKeyExifModel',
             'desc' => [
+                'en' => 'Lens Profile Match Key Exif Model',
             ],
         ],
     ];

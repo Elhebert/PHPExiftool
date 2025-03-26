@@ -28,13 +28,14 @@ class RetouchAreaSeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Seed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404276
+             * line : 287387
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaSeed extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaSeed',
             'desc' => [
+                'en' => 'Retouch Area Seed',
             ],
         ],
     ];

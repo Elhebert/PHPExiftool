@@ -28,13 +28,14 @@ class ColorImagePrintingFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Image Printing Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102005
+             * line : 75144
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorImagePrintingFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ColorImagePrintingFlag',
             'desc' => [
+                'en' => 'Color Image Printing Flag',
             ],
         ],
     ];

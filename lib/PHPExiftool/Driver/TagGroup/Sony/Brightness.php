@@ -28,13 +28,14 @@ class Brightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347466
+             * line : 243303
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Main
-             * line : 353929
+             * line : 246797
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Brightness extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Brightness',
             'desc' => [
+                'en' => 'Brightness',
             ],
         ],
     ];

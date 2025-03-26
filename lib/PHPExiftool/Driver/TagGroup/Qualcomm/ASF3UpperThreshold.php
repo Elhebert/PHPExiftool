@@ -28,13 +28,14 @@ class ASF3UpperThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF3 Upper Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306735
+             * line : 213233
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF3UpperThreshold extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF3UpperThreshold',
             'desc' => [
+                'en' => 'ASF3 Upper Threshold',
             ],
         ],
     ];

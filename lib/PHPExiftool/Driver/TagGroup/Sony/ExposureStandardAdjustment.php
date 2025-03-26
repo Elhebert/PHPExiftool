@@ -28,13 +28,14 @@ class ExposureStandardAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Standard Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355800
+             * line : 248238
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureStandardAdjustment extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ExposureStandardAdjustment',
             'desc' => [
+                'en' => 'Exposure Standard Adjustment',
             ],
         ],
     ];

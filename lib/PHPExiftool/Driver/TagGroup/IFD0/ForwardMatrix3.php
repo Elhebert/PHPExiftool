@@ -28,13 +28,14 @@ class ForwardMatrix3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Forward Matrix 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120747
+             * line : 84870
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ForwardMatrix3 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ForwardMatrix3',
             'desc' => [
+                'en' => 'Forward Matrix 3',
             ],
         ],
     ];

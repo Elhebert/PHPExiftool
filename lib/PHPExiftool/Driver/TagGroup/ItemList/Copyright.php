@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314190
+             * line : 219792
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323030
+             * line : 228441
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

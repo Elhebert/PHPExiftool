@@ -28,13 +28,14 @@ class UniqueID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::APP5
-             * line : 333856
+             * line : 234096
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UniqueID extends AbstractTagGroup
              */
             'id' => 'Samsung::APP5.Samsung:UniqueID',
             'desc' => [
+                'en' => 'Unique ID',
             ],
         ],
     ];

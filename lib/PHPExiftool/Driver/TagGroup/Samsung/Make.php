@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 333901
+             * line : 234126
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::sec
-             * line : 335643
+             * line : 235536
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Samsung::sec.Samsung:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

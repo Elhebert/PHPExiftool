@@ -28,13 +28,14 @@ class TonScaleTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ton Scale Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155299
+             * line : 106520
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TonScaleTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TonScaleTable',
             'desc' => [
+                'en' => 'Ton Scale Table',
             ],
         ],
     ];

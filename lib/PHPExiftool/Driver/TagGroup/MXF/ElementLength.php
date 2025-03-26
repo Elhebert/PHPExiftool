@@ -28,13 +28,14 @@ class ElementLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Element Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170744
+             * line : 116976
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElementLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ElementLength',
             'desc' => [
+                'en' => 'Element Length',
             ],
         ],
     ];

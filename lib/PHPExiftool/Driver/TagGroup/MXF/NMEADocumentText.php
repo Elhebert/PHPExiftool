@@ -28,13 +28,14 @@ class NMEADocumentText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NMEA Document Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171810
+             * line : 117997
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NMEADocumentText extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NMEADocumentText',
             'desc' => [
+                'en' => 'NMEA Document Text',
             ],
         ],
     ];

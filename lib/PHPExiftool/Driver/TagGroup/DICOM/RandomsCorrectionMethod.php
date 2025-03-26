@@ -28,13 +28,14 @@ class RandomsCorrectionMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Randoms Correction Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100974
+             * line : 74124
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RandomsCorrectionMethod extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RandomsCorrectionMethod',
             'desc' => [
+                'en' => 'Randoms Correction Method',
             ],
         ],
     ];

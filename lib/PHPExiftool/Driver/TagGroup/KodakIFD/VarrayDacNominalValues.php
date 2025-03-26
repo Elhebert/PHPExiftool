@@ -28,13 +28,14 @@ class VarrayDacNominalValues extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Varray Dac Nominal Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157332
+             * line : 108524
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class VarrayDacNominalValues extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VarrayDacNominalValues',
             'desc' => [
+                'en' => 'Varray Dac Nominal Values',
             ],
         ],
     ];

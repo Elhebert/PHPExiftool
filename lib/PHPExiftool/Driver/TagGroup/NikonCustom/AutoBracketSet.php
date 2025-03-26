@@ -28,13 +28,14 @@ class AutoBracketSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Bracket Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213985
+             * line : 143702
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 214024
+             * line : 143719
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215149
+             * line : 144363
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222280
+             * line : 150025
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222877
+             * line : 150355
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223492
+             * line : 150713
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225509
+             * line : 151978
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226863
+             * line : 152763
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228054
+             * line : 153548
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230228
+             * line : 154688
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234466
+             * line : 158025
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class AutoBracketSet extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:AutoBracketSet',
             'desc' => [
+                'en' => 'Auto Bracket Set',
             ],
         ],
     ];

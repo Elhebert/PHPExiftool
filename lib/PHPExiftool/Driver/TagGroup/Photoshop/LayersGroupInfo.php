@@ -28,13 +28,14 @@ class LayersGroupInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layers Group Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305474
+             * line : 212263
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayersGroupInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:LayersGroupInfo',
             'desc' => [
+                'en' => 'Layers Group Info',
             ],
         ],
     ];

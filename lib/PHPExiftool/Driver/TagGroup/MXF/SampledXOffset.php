@@ -28,13 +28,14 @@ class SampledXOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sampled X Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167861
+             * line : 114416
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampledXOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SampledXOffset',
             'desc' => [
+                'en' => 'Sampled X Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122277
+             * line : 85656
              * type : string
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122555
+             * line : 85823
              * type : string
              * writable : false
              * count : 32
@@ -55,12 +57,13 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
         2 => [
             /**
              * table_name : FLIR::MoreInfo
-             * line : 123459
+             * line : 86284
              * type : string
              * writable : false
              * count : 6
@@ -68,6 +71,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'FLIR::MoreInfo.FLIR:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

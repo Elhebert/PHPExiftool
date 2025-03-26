@@ -28,13 +28,14 @@ class WedgePositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wedge Position Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103357
+             * line : 76452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WedgePositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WedgePositionSequence',
             'desc' => [
+                'en' => 'Wedge Position Sequence',
             ],
         ],
     ];

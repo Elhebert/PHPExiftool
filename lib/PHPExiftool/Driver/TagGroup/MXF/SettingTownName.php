@@ -28,13 +28,14 @@ class SettingTownName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Town Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168458
+             * line : 114950
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingTownName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingTownName',
             'desc' => [
+                'en' => 'Setting Town Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170519
+             * line : 116760
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingTownName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingTownName',
             'desc' => [
+                'en' => 'Setting Town Name',
             ],
         ],
     ];

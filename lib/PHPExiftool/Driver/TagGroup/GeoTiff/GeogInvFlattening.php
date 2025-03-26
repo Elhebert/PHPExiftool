@@ -28,13 +28,14 @@ class GeogInvFlattening extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Inv Flattening',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134111
+             * line : 92404
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogInvFlattening extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogInvFlattening',
             'desc' => [
+                'en' => 'Geog Inv Flattening',
             ],
         ],
     ];

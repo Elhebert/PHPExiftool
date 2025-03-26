@@ -28,13 +28,14 @@ class EmbeddedEncodedRightsExprLangID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Embedded Encoded Rights Expr Lang ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409275
+             * line : 289074
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EmbeddedEncodedRightsExprLangID extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:EmbeddedEncodedRightsExprLangID',
             'desc' => [
+                'en' => 'Embedded Encoded Rights Expr Lang ID',
             ],
         ],
     ];

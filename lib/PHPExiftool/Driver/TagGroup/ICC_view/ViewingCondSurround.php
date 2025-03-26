@@ -28,13 +28,14 @@ class ViewingCondSurround extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewing Cond Surround',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::ViewingConditions
-             * line : 147041
+             * line : 102096
              * type : fixed32s
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class ViewingCondSurround extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::ViewingConditions.ICC-view:ViewingCondSurround',
             'desc' => [
+                'en' => 'Viewing Cond Surround',
             ],
         ],
     ];

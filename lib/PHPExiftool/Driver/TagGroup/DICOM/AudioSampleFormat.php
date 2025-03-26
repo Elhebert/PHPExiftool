@@ -28,13 +28,14 @@ class AudioSampleFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104205
+             * line : 77283
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioSampleFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AudioSampleFormat',
             'desc' => [
+                'en' => 'Audio Sample Format',
             ],
         ],
     ];

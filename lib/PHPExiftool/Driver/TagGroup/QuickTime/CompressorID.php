@@ -28,13 +28,14 @@ class CompressorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compressor ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313870
+             * line : 219575
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class CompressorID extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:CompressorID',
             'desc' => [
+                'en' => 'Compressor ID',
             ],
         ],
     ];

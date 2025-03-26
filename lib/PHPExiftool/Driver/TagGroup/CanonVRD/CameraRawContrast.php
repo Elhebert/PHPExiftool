@@ -28,13 +28,14 @@ class CameraRawContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Raw Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83812
+             * line : 61448
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraRawContrast extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CameraRawContrast',
             'desc' => [
+                'en' => 'Camera Raw Contrast',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CHModeShootingSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CH Mode Shooting Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247844
+             * line : 170537
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CHModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CHModeShootingSpeed',
             'desc' => [
+                'en' => 'CH Mode Shooting Speed',
             ],
         ],
     ];

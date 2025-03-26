@@ -28,13 +28,14 @@ class SilentPhotography extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Silent Photography',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247471
+             * line : 170164
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SilentPhotography extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SilentPhotography',
             'desc' => [
+                'en' => 'Silent Photography',
             ],
         ],
     ];

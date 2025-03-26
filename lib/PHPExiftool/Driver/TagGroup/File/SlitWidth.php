@@ -28,13 +28,14 @@ class SlitWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slit Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166565
+             * line : 113304
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlitWidth extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:SlitWidth',
             'desc' => [
+                'en' => 'Slit Width',
             ],
         ],
     ];

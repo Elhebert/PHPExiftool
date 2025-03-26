@@ -28,13 +28,14 @@ class DelayAfterTrigger extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delay After Trigger',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97595
+             * line : 70978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DelayAfterTrigger extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DelayAfterTrigger',
             'desc' => [
+                'en' => 'Delay After Trigger',
             ],
         ],
     ];

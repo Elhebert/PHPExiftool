@@ -28,13 +28,14 @@ class KeyID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SchemeInfo
-             * line : 324472
+             * line : 229258
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyID extends AbstractTagGroup
              */
             'id' => 'QuickTime::SchemeInfo.QuickTime:KeyID',
             'desc' => [
+                'en' => 'Key ID',
             ],
         ],
     ];

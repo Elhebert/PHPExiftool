@@ -28,13 +28,14 @@ class BeautyRetouchLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beauty Retouch Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334160
+             * line : 234240
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeautyRetouchLevel extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:BeautyRetouchLevel',
             'desc' => [
+                'en' => 'Beauty Retouch Level',
             ],
         ],
     ];

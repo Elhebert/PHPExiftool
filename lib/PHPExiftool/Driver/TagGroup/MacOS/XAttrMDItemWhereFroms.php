@@ -28,13 +28,14 @@ class XAttrMDItemWhereFroms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr MD Item Where Froms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173140
+             * line : 119150
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrMDItemWhereFroms extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrMDItemWhereFroms',
             'desc' => [
+                'en' => 'X Attr MD Item Where Froms',
             ],
         ],
     ];

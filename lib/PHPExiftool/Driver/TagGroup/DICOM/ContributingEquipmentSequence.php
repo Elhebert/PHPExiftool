@@ -28,13 +28,14 @@ class ContributingEquipmentSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contributing Equipment Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97392
+             * line : 70780
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContributingEquipmentSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContributingEquipmentSequence',
             'desc' => [
+                'en' => 'Contributing Equipment Sequence',
             ],
         ],
     ];

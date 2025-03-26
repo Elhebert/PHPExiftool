@@ -28,13 +28,14 @@ class AppleMailRepliedTo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Replied To',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173100
+             * line : 119119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailRepliedTo extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailRepliedTo',
             'desc' => [
+                'en' => 'Apple Mail Replied To',
             ],
         ],
     ];

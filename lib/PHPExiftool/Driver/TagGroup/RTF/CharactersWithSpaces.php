@@ -28,13 +28,14 @@ class CharactersWithSpaces extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters With Spaces',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329276
+             * line : 232050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CharactersWithSpaces extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:CharactersWithSpaces',
             'desc' => [
+                'en' => 'Characters With Spaces',
             ],
         ],
     ];

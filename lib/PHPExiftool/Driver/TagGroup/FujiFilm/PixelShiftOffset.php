@@ -28,13 +28,14 @@ class PixelShiftOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Shift Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130352
+             * line : 90063
              * type : rational64s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class PixelShiftOffset extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:PixelShiftOffset',
             'desc' => [
+                'en' => 'Pixel Shift Offset',
             ],
         ],
     ];

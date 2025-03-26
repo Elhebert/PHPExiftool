@@ -28,13 +28,14 @@ class ChrominanceNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chrominance Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80661
+             * line : 58800
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ChrominanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ChrominanceNoiseReduction',
             'desc' => [
+                'en' => 'Chrominance Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83145
+             * line : 60906
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ChrominanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNoiseReduction',
             'desc' => [
+                'en' => 'Chrominance Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83177
+             * line : 60920
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ChrominanceNoiseReduction extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNoiseReduction',
             'desc' => [
+                'en' => 'Chrominance Noise Reduction',
             ],
         ],
     ];

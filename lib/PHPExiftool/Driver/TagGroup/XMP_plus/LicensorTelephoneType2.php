@@ -28,13 +28,14 @@ class LicensorTelephoneType2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor Telephone Type 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265721
+             * line : 183696
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorTelephoneType2 extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorTelephoneType2',
             'desc' => [
+                'en' => 'Licensor Telephone Type 2',
             ],
         ],
     ];

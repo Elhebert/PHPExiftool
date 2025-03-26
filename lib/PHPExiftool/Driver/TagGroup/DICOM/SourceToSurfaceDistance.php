@@ -28,13 +28,14 @@ class SourceToSurfaceDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source To Surface Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103411
+             * line : 76506
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceToSurfaceDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceToSurfaceDistance',
             'desc' => [
+                'en' => 'Source To Surface Distance',
             ],
         ],
     ];

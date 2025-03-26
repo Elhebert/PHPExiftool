@@ -28,13 +28,14 @@ class InvertOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264846
+             * line : 183074
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertOval',
             'desc' => [
+                'en' => 'Invert Oval',
             ],
         ],
     ];

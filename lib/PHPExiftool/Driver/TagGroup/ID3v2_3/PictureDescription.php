@@ -28,13 +28,14 @@ class PictureDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148671
+             * line : 103218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureDescription extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:PictureDescription',
             'desc' => [
+                'en' => 'Picture Description',
             ],
         ],
     ];

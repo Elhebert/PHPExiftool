@@ -28,13 +28,14 @@ class CurrentBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174563
+             * line : 120194
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentBitrate extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CurrentBitrate',
             'desc' => [
+                'en' => 'Current Bitrate',
             ],
         ],
     ];

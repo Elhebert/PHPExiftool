@@ -28,13 +28,14 @@ class WB_BlueLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Blue Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185515
+             * line : 125838
              * type : int16u
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class WB_BlueLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsDaylight',
             'desc' => [
+                'en' => 'WB Blue Levels Daylight',
             ],
         ],
     ];

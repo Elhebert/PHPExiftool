@@ -28,13 +28,14 @@ class PreviewQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Scalado::Main
-             * line : 336938
+             * line : 235980
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewQuality extends AbstractTagGroup
              */
             'id' => 'Scalado::Main.Scalado:PreviewQuality',
             'desc' => [
+                'en' => 'Preview Quality',
             ],
         ],
     ];

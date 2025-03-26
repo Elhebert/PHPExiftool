@@ -28,13 +28,14 @@ class HistogramNumberOfBins extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Histogram Number Of Bins',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101046
+             * line : 74196
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistogramNumberOfBins extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HistogramNumberOfBins',
             'desc' => [
+                'en' => 'Histogram Number Of Bins',
             ],
         ],
     ];

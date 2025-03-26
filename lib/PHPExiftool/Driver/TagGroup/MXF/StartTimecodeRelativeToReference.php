@@ -28,13 +28,14 @@ class StartTimecodeRelativeToReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Timecode Relative To Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168546
+             * line : 115037
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTimecodeRelativeToReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StartTimecodeRelativeToReference',
             'desc' => [
+                'en' => 'Start Timecode Relative To Reference',
             ],
         ],
     ];

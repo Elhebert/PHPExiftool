@@ -28,13 +28,14 @@ class AV1ConfigurationVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AV1 Configuration Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AV1Config
-             * line : 310292
+             * line : 216204
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AV1ConfigurationVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::AV1Config.QuickTime:AV1ConfigurationVersion',
             'desc' => [
+                'en' => 'AV1 Configuration Version',
             ],
         ],
     ];

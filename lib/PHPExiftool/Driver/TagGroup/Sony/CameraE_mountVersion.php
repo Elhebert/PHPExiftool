@@ -28,13 +28,14 @@ class CameraE_mountVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera E-mount Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag940c
-             * line : 391001
+             * line : 276740
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraE_mountVersion extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940c.Sony:CameraE-mountVersion',
             'desc' => [
+                'en' => 'Camera E-mount Version',
             ],
         ],
     ];

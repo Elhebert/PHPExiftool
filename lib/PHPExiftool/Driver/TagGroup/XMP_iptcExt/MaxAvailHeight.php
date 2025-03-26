@@ -28,13 +28,14 @@ class MaxAvailHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Avail Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409524
+             * line : 289300
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxAvailHeight extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:MaxAvailHeight',
             'desc' => [
+                'en' => 'Max Avail Height',
             ],
         ],
     ];

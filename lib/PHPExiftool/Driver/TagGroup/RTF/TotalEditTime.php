@@ -28,13 +28,14 @@ class TotalEditTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Edit Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329237
+             * line : 232032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalEditTime extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:TotalEditTime',
             'desc' => [
+                'en' => 'Total Edit Time',
             ],
         ],
     ];

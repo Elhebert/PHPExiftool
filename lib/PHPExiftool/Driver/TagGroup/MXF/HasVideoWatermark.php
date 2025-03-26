@@ -28,13 +28,14 @@ class HasVideoWatermark extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Video Watermark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168672
+             * line : 115148
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasVideoWatermark extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HasVideoWatermark',
             'desc' => [
+                'en' => 'Has Video Watermark',
             ],
         ],
     ];

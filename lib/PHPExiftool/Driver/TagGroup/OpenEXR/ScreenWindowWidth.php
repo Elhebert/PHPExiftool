@@ -28,13 +28,14 @@ class ScreenWindowWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Window Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263677
+             * line : 182392
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenWindowWidth extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:ScreenWindowWidth',
             'desc' => [
+                'en' => 'Screen Window Width',
             ],
         ],
     ];

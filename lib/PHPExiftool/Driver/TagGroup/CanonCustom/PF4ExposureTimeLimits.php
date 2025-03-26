@@ -28,13 +28,14 @@ class PF4ExposureTimeLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF4 Exposure Time Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78365
+             * line : 57066
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF4ExposureTimeLimits extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF4ExposureTimeLimits',
             'desc' => [
+                'en' => 'PF4 Exposure Time Limits',
             ],
         ],
     ];

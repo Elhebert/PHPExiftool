@@ -28,13 +28,14 @@ class Accelerometer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324499
+             * line : 229284
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Accelerometer extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:Accelerometer',
             'desc' => [
+                'en' => 'Accelerometer',
             ],
         ],
     ];

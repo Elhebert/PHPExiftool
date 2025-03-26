@@ -28,13 +28,14 @@ class VerticalDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138882
+             * line : 97129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalDatum extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:VerticalDatum',
             'desc' => [
+                'en' => 'Vertical Datum',
             ],
         ],
     ];

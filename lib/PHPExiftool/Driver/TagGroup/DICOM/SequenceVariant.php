@@ -28,13 +28,14 @@ class SequenceVariant extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Variant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95420
+             * line : 68881
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceVariant extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SequenceVariant',
             'desc' => [
+                'en' => 'Sequence Variant',
             ],
         ],
     ];

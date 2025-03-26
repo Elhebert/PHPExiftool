@@ -28,13 +28,14 @@ class ReferencedInterpretationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Interpretation Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104073
+             * line : 77160
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedInterpretationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedInterpretationSequence',
             'desc' => [
+                'en' => 'Referenced Interpretation Sequence',
             ],
         ],
     ];

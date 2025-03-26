@@ -28,13 +28,14 @@ class UserAccess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Access',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Encrypt
-             * line : 264072
+             * line : 182581
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserAccess extends AbstractTagGroup
              */
             'id' => 'PDF::Encrypt.PDF:UserAccess',
             'desc' => [
+                'en' => 'User Access',
             ],
         ],
     ];

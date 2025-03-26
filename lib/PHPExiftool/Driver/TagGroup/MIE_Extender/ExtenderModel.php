@@ -28,13 +28,14 @@ class ExtenderModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Extender
-             * line : 163347
+             * line : 111382
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtenderModel extends AbstractTagGroup
              */
             'id' => 'MIE::Extender.MIE-Extender:ExtenderModel',
             'desc' => [
+                'en' => 'Extender Model',
             ],
         ],
     ];

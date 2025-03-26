@@ -28,13 +28,14 @@ class MDItemCopyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172638
+             * line : 118772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemCopyright extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemCopyright',
             'desc' => [
+                'en' => 'MD Item Copyright',
             ],
         ],
     ];

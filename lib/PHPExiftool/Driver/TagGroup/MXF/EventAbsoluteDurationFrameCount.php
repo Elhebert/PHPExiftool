@@ -28,13 +28,14 @@ class EventAbsoluteDurationFrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Absolute Duration Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168598
+             * line : 115088
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventAbsoluteDurationFrameCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventAbsoluteDurationFrameCount',
             'desc' => [
+                'en' => 'Event Absolute Duration Frame Count',
             ],
         ],
     ];

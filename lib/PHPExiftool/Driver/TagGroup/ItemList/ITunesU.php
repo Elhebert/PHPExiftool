@@ -28,13 +28,14 @@ class ITunesU extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'iTunes U',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322214
+             * line : 227773
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ITunesU extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:iTunesU',
             'desc' => [
+                'en' => 'iTunes U',
             ],
         ],
     ];

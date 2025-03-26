@@ -28,13 +28,14 @@ class WB_GRGBLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113451
+             * line : 82466
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_GRGBLevels extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:WB_GRGBLevels',
             'desc' => [
+                'en' => 'WB GRGB Levels',
             ],
         ],
     ];

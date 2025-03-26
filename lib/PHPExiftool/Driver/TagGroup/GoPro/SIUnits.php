@@ -28,13 +28,14 @@ class SIUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SI Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139773
+             * line : 97749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SIUnits extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:SIUnits',
             'desc' => [
+                'en' => 'SI Units',
             ],
         ],
     ];

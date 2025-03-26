@@ -28,13 +28,14 @@ class RawImageFullWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Full Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128647
+             * line : 89288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawImageFullWidth extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:RawImageFullWidth',
             'desc' => [
+                'en' => 'Raw Image Full Width',
             ],
         ],
     ];

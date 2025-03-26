@@ -28,13 +28,14 @@ class MyColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'My Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::MyColors
-             * line : 66966
+             * line : 50846
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MyColorMode extends AbstractTagGroup
              */
             'id' => 'Canon::MyColors.Canon:MyColorMode',
             'desc' => [
+                'en' => 'My Color Mode',
             ],
         ],
     ];

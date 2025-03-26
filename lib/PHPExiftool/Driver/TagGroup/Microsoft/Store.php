@@ -28,13 +28,14 @@ class Store extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Store',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176430
+             * line : 121395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Store extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Store',
             'desc' => [
+                'en' => 'Store',
             ],
         ],
     ];

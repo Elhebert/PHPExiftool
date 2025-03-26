@@ -28,13 +28,14 @@ class CropX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aas
-             * line : 397620
+             * line : 281516
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropX extends AbstractTagGroup
              */
             'id' => 'XMP::aas.XMP-aas:CropX',
             'desc' => [
+                'en' => 'Crop X',
             ],
         ],
     ];

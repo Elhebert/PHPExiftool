@@ -28,13 +28,14 @@ class MajorBrand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Major Brand',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::FileType
-             * line : 312736
+             * line : 218606
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MajorBrand extends AbstractTagGroup
              */
             'id' => 'QuickTime::FileType.QuickTime:MajorBrand',
             'desc' => [
+                'en' => 'Major Brand',
             ],
         ],
     ];

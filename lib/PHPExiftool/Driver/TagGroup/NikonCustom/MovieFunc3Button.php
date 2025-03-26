@@ -28,13 +28,14 @@ class MovieFunc3Button extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Func 3 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239048
+             * line : 162137
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieFunc3Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieFunc3Button',
             'desc' => [
+                'en' => 'Movie Func 3 Button',
             ],
         ],
     ];

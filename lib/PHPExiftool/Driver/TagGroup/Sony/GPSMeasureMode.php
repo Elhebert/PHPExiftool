@@ -28,13 +28,14 @@ class GPSMeasureMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Measure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393746
+             * line : 279058
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
     ];

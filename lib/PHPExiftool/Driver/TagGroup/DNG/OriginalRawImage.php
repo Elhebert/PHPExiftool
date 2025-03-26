@@ -28,13 +28,14 @@ class OriginalRawImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Raw Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105256
+             * line : 78009
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalRawImage extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalRawImage',
             'desc' => [
+                'en' => 'Original Raw Image',
             ],
         ],
     ];

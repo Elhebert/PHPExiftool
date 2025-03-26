@@ -28,13 +28,14 @@ class AFPointPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277223
+             * line : 192867
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class AFPointPosition extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AFPointPosition',
             'desc' => [
+                'en' => 'AF Point Position',
             ],
         ],
     ];

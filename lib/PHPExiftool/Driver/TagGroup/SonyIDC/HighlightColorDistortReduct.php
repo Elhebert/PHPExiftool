@@ -28,13 +28,14 @@ class HighlightColorDistortReduct extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Color Distort Reduct',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394276
+             * line : 279316
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightColorDistortReduct extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:HighlightColorDistortReduct',
             'desc' => [
+                'en' => 'Highlight Color Distort Reduct',
             ],
         ],
     ];

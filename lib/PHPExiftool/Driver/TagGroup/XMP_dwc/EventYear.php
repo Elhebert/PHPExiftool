@@ -28,13 +28,14 @@ class EventYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106141
+             * line : 78503
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventYear extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventYear',
             'desc' => [
+                'en' => 'Event Year',
             ],
         ],
     ];

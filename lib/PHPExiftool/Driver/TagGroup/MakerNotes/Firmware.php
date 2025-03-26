@@ -28,13 +28,14 @@ class Firmware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::INSV_MakerNotes
-             * line : 313857
+             * line : 219565
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Firmware extends AbstractTagGroup
              */
             'id' => 'QuickTime::INSV_MakerNotes.MakerNotes:Firmware',
             'desc' => [
+                'en' => 'Firmware',
             ],
         ],
     ];

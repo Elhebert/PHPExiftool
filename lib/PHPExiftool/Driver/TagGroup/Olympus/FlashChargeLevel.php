@@ -28,13 +28,14 @@ class FlashChargeLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Charge Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258685
+             * line : 178618
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashChargeLevel extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FlashChargeLevel',
             'desc' => [
+                'en' => 'Flash Charge Level',
             ],
         ],
     ];

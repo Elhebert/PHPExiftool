@@ -28,13 +28,14 @@ class Channels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121955
+             * line : 85454
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
     ];

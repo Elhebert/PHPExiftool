@@ -28,13 +28,14 @@ class PreviewImageSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337471
+             * line : 236123
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class PreviewImageSize extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:PreviewImageSize',
             'desc' => [
+                'en' => 'Preview Image Size',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337515
+             * line : 236135
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class PreviewImageSize extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:PreviewImageSize',
             'desc' => [
+                'en' => 'Preview Image Size',
             ],
         ],
     ];

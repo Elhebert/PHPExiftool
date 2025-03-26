@@ -28,13 +28,14 @@ class ImageTransformationMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Transformation Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96236
+             * line : 69649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageTransformationMatrix extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageTransformationMatrix',
             'desc' => [
+                'en' => 'Image Transformation Matrix',
             ],
         ],
     ];

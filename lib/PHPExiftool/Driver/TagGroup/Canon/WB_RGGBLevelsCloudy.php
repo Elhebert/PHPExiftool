@@ -28,13 +28,14 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58886
+             * line : 45736
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59225
+             * line : 45898
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59503
+             * line : 46040
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59759
+             * line : 46170
              * type : int16s
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60029
+             * line : 46311
              * type : int16s
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60556
+             * line : 46611
              * type : int16s
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60803
+             * line : 46753
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61148
+             * line : 46936
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61522
+             * line : 47176
              * type : int16s
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61910
+             * line : 47389
              * type : int16s
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62331
+             * line : 47629
              * type : int16s
              * writable : true
              * count : 4
@@ -172,12 +183,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62802
+             * line : 47911
              * type : int16s
              * writable : true
              * count : 4
@@ -185,6 +197,7 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
     ];

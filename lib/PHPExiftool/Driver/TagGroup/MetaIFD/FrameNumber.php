@@ -28,13 +28,14 @@ class FrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158423
+             * line : 108916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:FrameNumber',
             'desc' => [
+                'en' => 'Frame Number',
             ],
         ],
     ];

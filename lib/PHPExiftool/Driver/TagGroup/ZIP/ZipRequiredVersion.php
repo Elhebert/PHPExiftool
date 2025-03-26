@@ -28,13 +28,14 @@ class ZipRequiredVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip Required Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414826
+             * line : 292672
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipRequiredVersion extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipRequiredVersion',
             'desc' => [
+                'en' => 'Zip Required Version',
             ],
         ],
     ];

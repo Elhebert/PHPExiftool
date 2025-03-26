@@ -28,13 +28,14 @@ class MeasuredEV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measured EV',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78893
+             * line : 57346
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasuredEV extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:MeasuredEV',
             'desc' => [
+                'en' => 'Measured EV',
             ],
         ],
     ];

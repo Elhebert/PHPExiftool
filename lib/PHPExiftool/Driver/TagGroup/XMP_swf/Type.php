@@ -28,13 +28,14 @@ class Type extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::swf
-             * line : 411361
+             * line : 290523
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Type extends AbstractTagGroup
              */
             'id' => 'XMP::swf.XMP-swf:Type',
             'desc' => [
+                'en' => 'Type',
             ],
         ],
     ];

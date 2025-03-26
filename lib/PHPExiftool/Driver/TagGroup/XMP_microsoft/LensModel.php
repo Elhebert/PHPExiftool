@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174381
+             * line : 120097
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

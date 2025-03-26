@@ -28,13 +28,14 @@ class ShortLine extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Short Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264723
+             * line : 182960
              * type : ShortLine
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShortLine extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:ShortLine',
             'desc' => [
+                'en' => 'Short Line',
             ],
         ],
     ];

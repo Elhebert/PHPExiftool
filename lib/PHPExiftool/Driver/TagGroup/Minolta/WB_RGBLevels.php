@@ -28,13 +28,14 @@ class WB_RGBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185492
+             * line : 125823
              * type : int16u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185624
+             * line : 125928
              * type : int16u
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
     ];

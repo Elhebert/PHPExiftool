@@ -28,13 +28,14 @@ class SubfileType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subfile Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164033
+             * line : 111574
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubfileType extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:SubfileType',
             'desc' => [
+                'en' => 'Subfile Type',
             ],
         ],
     ];

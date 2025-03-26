@@ -28,13 +28,14 @@ class AngularStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angular Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95825
+             * line : 69271
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngularStep extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AngularStep',
             'desc' => [
+                'en' => 'Angular Step',
             ],
         ],
     ];

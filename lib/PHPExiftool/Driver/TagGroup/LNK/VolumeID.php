@@ -28,13 +28,14 @@ class VolumeID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161229
+             * line : 110136
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeID extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:VolumeID',
             'desc' => [
+                'en' => 'Volume ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RetouchAreaMaskRangeDepthMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Range Depth Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404015
+             * line : 287126
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskRangeDepthMin extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaMaskRangeDepthMin',
             'desc' => [
+                'en' => 'Retouch Area Mask Range Depth Min',
             ],
         ],
     ];

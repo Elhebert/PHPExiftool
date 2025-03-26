@@ -28,13 +28,14 @@ class SubfileMIMEType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subfile MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164063
+             * line : 111586
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubfileMIMEType extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:SubfileMIMEType',
             'desc' => [
+                'en' => 'Subfile MIME Type',
             ],
         ],
     ];

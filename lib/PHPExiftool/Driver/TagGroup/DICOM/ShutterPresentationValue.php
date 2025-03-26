@@ -28,13 +28,14 @@ class ShutterPresentationValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Presentation Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96084
+             * line : 69505
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterPresentationValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShutterPresentationValue',
             'desc' => [
+                'en' => 'Shutter Presentation Value',
             ],
         ],
     ];

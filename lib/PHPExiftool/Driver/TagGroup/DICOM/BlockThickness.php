@@ -28,13 +28,14 @@ class BlockThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103312
+             * line : 76407
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlockThickness',
             'desc' => [
+                'en' => 'Block Thickness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TextJunk extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Junk',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328651
+             * line : 231746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextJunk extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:TextJunk',
             'desc' => [
+                'en' => 'Text Junk',
             ],
         ],
     ];

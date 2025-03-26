@@ -28,13 +28,14 @@ class SuperimposedDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Superimposed Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71636
+             * line : 53356
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SuperimposedDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:SuperimposedDisplay',
             'desc' => [
+                'en' => 'Superimposed Display',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74181
+             * line : 54756
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SuperimposedDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SuperimposedDisplay',
             'desc' => [
+                'en' => 'Superimposed Display',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 75953
+             * line : 55853
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SuperimposedDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:SuperimposedDisplay',
             'desc' => [
+                'en' => 'Superimposed Display',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76474
+             * line : 56100
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SuperimposedDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:SuperimposedDisplay',
             'desc' => [
+                'en' => 'Superimposed Display',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77592
+             * line : 56636
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SuperimposedDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:SuperimposedDisplay',
             'desc' => [
+                'en' => 'Superimposed Display',
             ],
         ],
         5 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78219
+             * line : 56952
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class SuperimposedDisplay extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:SuperimposedDisplay',
             'desc' => [
+                'en' => 'Superimposed Display',
             ],
         ],
     ];

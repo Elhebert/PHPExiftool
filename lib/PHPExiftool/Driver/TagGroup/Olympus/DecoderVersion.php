@@ -28,13 +28,14 @@ class DecoderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decoder Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::MovableInfo
-             * line : 259237
+             * line : 178850
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class DecoderVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::MovableInfo.Olympus:DecoderVersion',
             'desc' => [
+                'en' => 'Decoder Version',
             ],
         ],
     ];

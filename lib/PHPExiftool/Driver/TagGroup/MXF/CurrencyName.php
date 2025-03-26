@@ -28,13 +28,14 @@ class CurrencyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Currency Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169938
+             * line : 116274
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrencyName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CurrencyName',
             'desc' => [
+                'en' => 'Currency Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Pages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249203
+             * line : 171816
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pages extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Pages',
             'desc' => [
+                'en' => 'Pages',
             ],
         ],
     ];

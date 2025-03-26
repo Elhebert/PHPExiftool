@@ -28,13 +28,14 @@ class EdgeSplineMed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edge Spline Med',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155488
+             * line : 106700
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EdgeSplineMed extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EdgeSplineMed',
             'desc' => [
+                'en' => 'Edge Spline Med',
             ],
         ],
     ];

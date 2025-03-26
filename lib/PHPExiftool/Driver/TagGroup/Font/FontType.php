@@ -28,13 +28,14 @@ class FontType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 127985
+             * line : 88831
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FontType extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:FontType',
             'desc' => [
+                'en' => 'Font Type',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128144
+             * line : 88913
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FontType extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:FontType',
             'desc' => [
+                'en' => 'Font Type',
             ],
         ],
     ];

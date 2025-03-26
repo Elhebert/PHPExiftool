@@ -28,13 +28,14 @@ class ReferencedFrameOfReferenceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Frame Of Reference Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102528
+             * line : 75627
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedFrameOfReferenceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedFrameOfReferenceSequence',
             'desc' => [
+                'en' => 'Referenced Frame Of Reference Sequence',
             ],
         ],
     ];

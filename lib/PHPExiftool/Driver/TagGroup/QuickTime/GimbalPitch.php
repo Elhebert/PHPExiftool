@@ -28,13 +28,14 @@ class GimbalPitch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gimbal Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326777
+             * line : 230480
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GimbalPitch extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:GimbalPitch',
             'desc' => [
+                'en' => 'Gimbal Pitch',
             ],
         ],
     ];

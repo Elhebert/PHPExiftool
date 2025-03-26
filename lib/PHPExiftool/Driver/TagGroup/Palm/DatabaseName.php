@@ -28,13 +28,14 @@ class DatabaseName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Database Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::Main
-             * line : 273822
+             * line : 190957
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class DatabaseName extends AbstractTagGroup
              */
             'id' => 'Palm::Main.Palm:DatabaseName',
             'desc' => [
+                'en' => 'Database Name',
             ],
         ],
     ];

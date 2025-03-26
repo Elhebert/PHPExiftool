@@ -28,13 +28,14 @@ class DVHDoseScaling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Dose Scaling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102486
+             * line : 75585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHDoseScaling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHDoseScaling',
             'desc' => [
+                'en' => 'DVH Dose Scaling',
             ],
         ],
     ];

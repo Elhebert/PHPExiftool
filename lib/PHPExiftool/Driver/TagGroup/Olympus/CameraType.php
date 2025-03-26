@@ -28,13 +28,14 @@ class CameraType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257017
+             * line : 177441
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::TextInfo
-             * line : 261281
+             * line : 180339
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Olympus::TextInfo.Olympus:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
     ];

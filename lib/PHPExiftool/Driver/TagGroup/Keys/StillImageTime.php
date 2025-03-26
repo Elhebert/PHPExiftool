@@ -28,13 +28,14 @@ class StillImageTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Still Image Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323651
+             * line : 228752
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StillImageTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:StillImageTime',
             'desc' => [
+                'en' => 'Still Image Time',
             ],
         ],
     ];

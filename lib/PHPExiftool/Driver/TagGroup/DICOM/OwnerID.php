@@ -28,13 +28,14 @@ class OwnerID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Owner ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102256
+             * line : 75366
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OwnerID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OwnerID',
             'desc' => [
+                'en' => 'Owner ID',
             ],
         ],
     ];

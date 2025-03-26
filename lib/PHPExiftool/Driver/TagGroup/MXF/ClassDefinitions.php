@@ -28,13 +28,14 @@ class ClassDefinitions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Class Definitions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169619
+             * line : 116010
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClassDefinitions extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassDefinitions',
             'desc' => [
+                'en' => 'Class Definitions',
             ],
         ],
     ];

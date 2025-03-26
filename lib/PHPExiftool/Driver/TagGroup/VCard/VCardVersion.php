@@ -28,13 +28,14 @@ class VCardVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VCard Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395228
+             * line : 279926
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VCardVersion extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:VCardVersion',
             'desc' => [
+                'en' => 'VCard Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TreatmentStatusComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Status Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102912
+             * line : 76008
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentStatusComment extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentStatusComment',
             'desc' => [
+                'en' => 'Treatment Status Comment',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VerticalMultiSelectorPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical Multi Selector Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239037
+             * line : 162126
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VerticalMultiSelectorPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:VerticalMultiSelectorPlaybackMode',
             'desc' => [
+                'en' => 'Vertical Multi Selector Playback Mode',
             ],
         ],
     ];

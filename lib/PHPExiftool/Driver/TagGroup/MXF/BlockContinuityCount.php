@@ -28,13 +28,14 @@ class BlockContinuityCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Continuity Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169664
+             * line : 116055
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockContinuityCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BlockContinuityCount',
             'desc' => [
+                'en' => 'Block Continuity Count',
             ],
         ],
     ];

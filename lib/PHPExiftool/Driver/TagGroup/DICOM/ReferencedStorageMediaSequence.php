@@ -28,13 +28,14 @@ class ReferencedStorageMediaSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Storage Media Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102359
+             * line : 75459
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedStorageMediaSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedStorageMediaSequence',
             'desc' => [
+                'en' => 'Referenced Storage Media Sequence',
             ],
         ],
     ];

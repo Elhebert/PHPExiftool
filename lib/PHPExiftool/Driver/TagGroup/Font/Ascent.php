@@ -28,13 +28,14 @@ class Ascent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ascent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128026
+             * line : 88843
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Ascent extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:Ascent',
             'desc' => [
+                'en' => 'Ascent',
             ],
         ],
     ];

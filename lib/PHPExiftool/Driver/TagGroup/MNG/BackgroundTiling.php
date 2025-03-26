@@ -28,13 +28,14 @@ class BackgroundTiling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Tiling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Background
-             * line : 164501
+             * line : 111805
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundTiling extends AbstractTagGroup
              */
             'id' => 'MNG::Background.MNG:BackgroundTiling',
             'desc' => [
+                'en' => 'Background Tiling',
             ],
         ],
     ];

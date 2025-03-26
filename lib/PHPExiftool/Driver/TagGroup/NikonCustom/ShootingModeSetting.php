@@ -28,13 +28,14 @@ class ShootingModeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shooting Mode Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217002
+             * line : 145849
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShootingModeSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:ShootingModeSetting',
             'desc' => [
+                'en' => 'Shooting Mode Setting',
             ],
         ],
     ];

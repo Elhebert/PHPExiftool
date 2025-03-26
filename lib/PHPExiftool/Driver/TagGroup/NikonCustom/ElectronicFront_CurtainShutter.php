@@ -28,13 +28,14 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Electronic Front-Curtain Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217460
+             * line : 146083
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ElectronicFront-CurtainShutter',
             'desc' => [
+                'en' => 'Electronic Front-Curtain Shutter',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219884
+             * line : 148115
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ElectronicFront-CurtainShutter',
             'desc' => [
+                'en' => 'Electronic Front-Curtain Shutter',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229819
+             * line : 154468
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ElectronicFront-CurtainShutter',
             'desc' => [
+                'en' => 'Electronic Front-Curtain Shutter',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231769
+             * line : 155915
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ElectronicFront_CurtainShutter extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ElectronicFront-CurtainShutter',
             'desc' => [
+                'en' => 'Electronic Front-Curtain Shutter',
             ],
         ],
     ];

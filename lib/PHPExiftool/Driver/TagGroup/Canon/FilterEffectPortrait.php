@@ -28,13 +28,14 @@ class FilterEffectPortrait extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect Portrait',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67184
+             * line : 50977
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FilterEffectPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:FilterEffectPortrait',
             'desc' => [
+                'en' => 'Filter Effect Portrait',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68282
+             * line : 51638
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FilterEffectPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:FilterEffectPortrait',
             'desc' => [
+                'en' => 'Filter Effect Portrait',
             ],
         ],
     ];

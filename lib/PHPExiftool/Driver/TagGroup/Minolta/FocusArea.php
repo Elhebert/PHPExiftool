@@ -28,13 +28,14 @@ class FocusArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178180
+             * line : 122218
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusArea extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FocusArea',
             'desc' => [
+                'en' => 'Focus Area',
             ],
         ],
     ];

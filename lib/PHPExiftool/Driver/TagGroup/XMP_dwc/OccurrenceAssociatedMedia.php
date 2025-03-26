@@ -28,13 +28,14 @@ class OccurrenceAssociatedMedia extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Associated Media',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106493
+             * line : 78767
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceAssociatedMedia extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceAssociatedMedia',
             'desc' => [
+                'en' => 'Occurrence Associated Media',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintCorrectionRangeMaskLumMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Range Mask Lum Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403769
+             * line : 286886
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionRangeMaskLumMax extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionRangeMaskLumMax',
             'desc' => [
+                'en' => 'Paint Correction Range Mask Lum Max',
             ],
         ],
     ];

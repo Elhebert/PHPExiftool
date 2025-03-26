@@ -28,13 +28,14 @@ class LensProfileIsEmbedded extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Is Embedded',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399508
+             * line : 283014
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileIsEmbedded extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LensProfileIsEmbedded',
             'desc' => [
+                'en' => 'Lens Profile Is Embedded',
             ],
         ],
     ];

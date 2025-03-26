@@ -28,13 +28,14 @@ class ImageDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166840
+             * line : 113545
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageDepth extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:ImageDepth',
             'desc' => [
+                'en' => 'Image Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraDepthMapDepthURI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Depth Map Depth URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396528
+             * line : 280745
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDepthMapDepthURI extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraDepthMapDepthURI',
             'desc' => [
+                'en' => 'Camera Depth Map Depth URI',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EventCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95027
+             * line : 68509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EventCodeSequence',
             'desc' => [
+                'en' => 'Event Code Sequence',
             ],
         ],
     ];

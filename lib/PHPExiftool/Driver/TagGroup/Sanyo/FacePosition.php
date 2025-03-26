@@ -28,13 +28,14 @@ class FacePosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::FaceInfo
-             * line : 335731
+             * line : 235561
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class FacePosition extends AbstractTagGroup
              */
             'id' => 'Sanyo::FaceInfo.Sanyo:FacePosition',
             'desc' => [
+                'en' => 'Face Position',
             ],
         ],
     ];

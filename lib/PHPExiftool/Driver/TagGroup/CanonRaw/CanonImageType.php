@@ -28,13 +28,14 @@ class CanonImageType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78700
+             * line : 57257
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class CanonImageType extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:CanonImageType',
             'desc' => [
+                'en' => 'Canon Image Type',
             ],
         ],
     ];

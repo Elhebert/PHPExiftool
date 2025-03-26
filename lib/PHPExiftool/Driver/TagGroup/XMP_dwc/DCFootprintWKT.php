@@ -28,13 +28,14 @@ class DCFootprintWKT extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Footprint WKT',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106894
+             * line : 79067
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCFootprintWKT extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCFootprintWKT',
             'desc' => [
+                'en' => 'DC Footprint WKT',
             ],
         ],
     ];

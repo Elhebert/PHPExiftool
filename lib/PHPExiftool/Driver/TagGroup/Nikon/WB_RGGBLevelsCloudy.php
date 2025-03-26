@@ -28,13 +28,14 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceB
-             * line : 192041
+             * line : 130156
              * type : int32u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceB.Nikon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ColorBalanceC
-             * line : 192120
+             * line : 130190
              * type : int32u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceC.Nikon:WB_RGGBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RGGB Levels Cloudy',
             ],
         ],
     ];

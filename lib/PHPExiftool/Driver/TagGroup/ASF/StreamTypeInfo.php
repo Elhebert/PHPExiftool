@@ -28,13 +28,14 @@ class StreamTypeInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Type Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1578
+             * line : 772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamTypeInfo extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:StreamTypeInfo',
             'desc' => [
+                'en' => 'Stream Type Info',
             ],
         ],
     ];

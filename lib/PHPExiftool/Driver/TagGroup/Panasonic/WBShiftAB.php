@@ -28,13 +28,14 @@ class WBShiftAB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Shift AB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277137
+             * line : 192830
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBShiftAB extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:WBShiftAB',
             'desc' => [
+                'en' => 'WB Shift AB',
             ],
         ],
     ];

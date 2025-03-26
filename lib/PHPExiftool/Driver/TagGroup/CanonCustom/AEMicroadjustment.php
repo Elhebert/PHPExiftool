@@ -28,13 +28,14 @@ class AEMicroadjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Microadjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73012
+             * line : 54114
              * type : int32s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class AEMicroadjustment extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AEMicroadjustment',
             'desc' => [
+                'en' => 'AE Microadjustment',
             ],
         ],
     ];

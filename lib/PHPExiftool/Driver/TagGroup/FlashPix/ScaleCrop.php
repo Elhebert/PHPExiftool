@@ -28,13 +28,14 @@ class ScaleCrop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scale Crop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124480
+             * line : 86968
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScaleCrop extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:ScaleCrop',
             'desc' => [
+                'en' => 'Scale Crop',
             ],
         ],
     ];

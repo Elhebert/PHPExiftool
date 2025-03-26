@@ -28,13 +28,14 @@ class VersionCreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Version Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394489
+             * line : 279457
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionCreateDate extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:VersionCreateDate',
             'desc' => [
+                'en' => 'Version Create Date',
             ],
         ],
     ];

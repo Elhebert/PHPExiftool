@@ -28,13 +28,14 @@ class OriginalArtist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149520
+             * line : 103666
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalArtist extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:OriginalArtist',
             'desc' => [
+                'en' => 'Original Artist',
             ],
         ],
     ];

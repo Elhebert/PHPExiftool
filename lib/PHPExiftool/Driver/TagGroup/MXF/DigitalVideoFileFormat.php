@@ -28,13 +28,14 @@ class DigitalVideoFileFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digital Video File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170278
+             * line : 116553
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitalVideoFileFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DigitalVideoFileFormat',
             'desc' => [
+                'en' => 'Digital Video File Format',
             ],
         ],
     ];

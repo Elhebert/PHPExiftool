@@ -28,13 +28,14 @@ class FlickerReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flicker Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207706
+             * line : 139924
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlickerReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:FlickerReduction',
             'desc' => [
+                'en' => 'Flicker Reduction',
             ],
         ],
     ];

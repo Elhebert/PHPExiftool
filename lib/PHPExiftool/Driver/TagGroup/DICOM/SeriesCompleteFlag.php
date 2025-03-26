@@ -28,13 +28,14 @@ class SeriesCompleteFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Complete Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98480
+             * line : 71812
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesCompleteFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesCompleteFlag',
             'desc' => [
+                'en' => 'Series Complete Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StandbyTimer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standby Timer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215609
+             * line : 144692
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218202
+             * line : 146606
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220652
+             * line : 148637
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223644
+             * line : 150805
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224144
+             * line : 151108
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230738
+             * line : 155045
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232551
+             * line : 156455
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class StandbyTimer extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:StandbyTimer',
             'desc' => [
+                'en' => 'Standby Timer',
             ],
         ],
     ];

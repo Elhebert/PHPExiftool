@@ -28,13 +28,14 @@ class ExtraSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extra Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111705
+             * line : 81740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtraSamples extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExtraSamples',
             'desc' => [
+                'en' => 'Extra Samples',
             ],
         ],
     ];

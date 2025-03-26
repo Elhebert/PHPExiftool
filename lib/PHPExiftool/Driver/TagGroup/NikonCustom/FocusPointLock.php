@@ -28,13 +28,14 @@ class FocusPointLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Point Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 241842
+             * line : 164918
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusPointLock extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FocusPointLock',
             'desc' => [
+                'en' => 'Focus Point Lock',
             ],
         ],
     ];

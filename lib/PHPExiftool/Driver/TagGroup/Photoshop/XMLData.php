@@ -28,13 +28,14 @@ class XMLData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XML Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305374
+             * line : 212197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XMLData extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:XMLData',
             'desc' => [
+                'en' => 'XML Data',
             ],
         ],
     ];

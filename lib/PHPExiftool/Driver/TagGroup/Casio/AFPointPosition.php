@@ -28,13 +28,14 @@ class AFPointPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Point Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85927
+             * line : 62180
              * type : int16u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class AFPointPosition extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:AFPointPosition',
             'desc' => [
+                'en' => 'AF Point Position',
             ],
         ],
     ];

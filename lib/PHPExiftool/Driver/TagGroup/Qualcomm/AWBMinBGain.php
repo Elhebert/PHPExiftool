@@ -28,13 +28,14 @@ class AWBMinBGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Min B Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307104
+             * line : 213602
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBMinBGain extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBMinBGain',
             'desc' => [
+                'en' => 'AWB Min B Gain',
             ],
         ],
     ];

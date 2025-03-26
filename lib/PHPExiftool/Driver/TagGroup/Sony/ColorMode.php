@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 358346
+             * line : 250213
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

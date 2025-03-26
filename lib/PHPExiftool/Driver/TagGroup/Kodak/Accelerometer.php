@@ -28,13 +28,14 @@ class Accelerometer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accelerometer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::pose
-             * line : 160708
+             * line : 109804
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Accelerometer extends AbstractTagGroup
              */
             'id' => 'Kodak::pose.Kodak:Accelerometer',
             'desc' => [
+                'en' => 'Accelerometer',
             ],
         ],
     ];

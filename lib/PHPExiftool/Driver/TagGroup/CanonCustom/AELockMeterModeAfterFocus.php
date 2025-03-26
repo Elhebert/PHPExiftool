@@ -28,13 +28,14 @@ class AELockMeterModeAfterFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Lock Meter Mode After Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73084
+             * line : 54178
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AELockMeterModeAfterFocus extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AELockMeterModeAfterFocus',
             'desc' => [
+                'en' => 'AE Lock Meter Mode After Focus',
             ],
         ],
     ];

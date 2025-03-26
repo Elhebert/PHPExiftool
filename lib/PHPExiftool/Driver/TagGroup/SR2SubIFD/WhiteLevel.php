@@ -28,13 +28,14 @@ class WhiteLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361866
+             * line : 251961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteLevel extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WhiteLevel',
             'desc' => [
+                'en' => 'White Level',
             ],
         ],
     ];

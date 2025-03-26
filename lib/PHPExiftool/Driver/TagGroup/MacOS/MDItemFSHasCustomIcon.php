@@ -28,13 +28,14 @@ class MDItemFSHasCustomIcon extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Has Custom Icon',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172722
+             * line : 118835
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSHasCustomIcon extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSHasCustomIcon',
             'desc' => [
+                'en' => 'MD Item FS Has Custom Icon',
             ],
         ],
     ];

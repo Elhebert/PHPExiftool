@@ -28,13 +28,14 @@ class AspectRatioType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aspect Ratio Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173681
+             * line : 119600
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AspectRatioType extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AspectRatioType',
             'desc' => [
+                'en' => 'Aspect Ratio Type',
             ],
         ],
     ];

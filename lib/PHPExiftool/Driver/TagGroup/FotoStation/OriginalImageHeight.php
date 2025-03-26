@@ -28,13 +28,14 @@ class OriginalImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128233
+             * line : 88957
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalImageHeight extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:OriginalImageHeight',
             'desc' => [
+                'en' => 'Original Image Height',
             ],
         ],
     ];

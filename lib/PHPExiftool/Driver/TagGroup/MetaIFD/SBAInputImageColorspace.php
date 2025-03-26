@@ -28,13 +28,14 @@ class SBAInputImageColorspace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SBA Input Image Colorspace',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158449
+             * line : 108934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SBAInputImageColorspace extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:SBAInputImageColorspace',
             'desc' => [
+                'en' => 'SBA Input Image Colorspace',
             ],
         ],
     ];

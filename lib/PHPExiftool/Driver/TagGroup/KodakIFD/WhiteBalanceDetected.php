@@ -28,13 +28,14 @@ class WhiteBalanceDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154806
+             * line : 106137
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceDetected extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WhiteBalanceDetected',
             'desc' => [
+                'en' => 'White Balance Detected',
             ],
         ],
     ];

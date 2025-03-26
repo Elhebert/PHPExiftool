@@ -28,13 +28,14 @@ class ListOfMIMETypes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'List Of MIME Types',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100285
+             * line : 73458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ListOfMIMETypes extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ListOfMIMETypes',
             'desc' => [
+                'en' => 'List Of MIME Types',
             ],
         ],
     ];

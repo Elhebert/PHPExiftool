@@ -28,13 +28,14 @@ class RTImageDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Image Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102377
+             * line : 75477
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTImageDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTImageDescription',
             'desc' => [
+                'en' => 'RT Image Description',
             ],
         ],
     ];

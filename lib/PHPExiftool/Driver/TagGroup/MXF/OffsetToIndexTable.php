@@ -28,13 +28,14 @@ class OffsetToIndexTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset To Index Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170878
+             * line : 117108
              * type : int32s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OffsetToIndexTable extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OffsetToIndexTable',
             'desc' => [
+                'en' => 'Offset To Index Table',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170881
+             * line : 117111
              * type : int64s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OffsetToIndexTable extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OffsetToIndexTable',
             'desc' => [
+                'en' => 'Offset To Index Table',
             ],
         ],
     ];

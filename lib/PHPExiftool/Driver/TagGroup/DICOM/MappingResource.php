@@ -28,13 +28,14 @@ class MappingResource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mapping Resource',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94813
+             * line : 68299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MappingResource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MappingResource',
             'desc' => [
+                'en' => 'Mapping Resource',
             ],
         ],
     ];

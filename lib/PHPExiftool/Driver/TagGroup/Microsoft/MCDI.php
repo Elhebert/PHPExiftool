@@ -28,13 +28,14 @@ class MCDI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MCDI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175069
+             * line : 120533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MCDI extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MCDI',
             'desc' => [
+                'en' => 'MCDI',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AppInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'App Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396501
+             * line : 280718
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AppInfoVersion extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:AppInfoVersion',
             'desc' => [
+                'en' => 'App Info Version',
             ],
         ],
     ];

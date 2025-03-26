@@ -28,13 +28,14 @@ class GrainSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Grain Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399405
+             * line : 282912
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GrainSize extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:GrainSize',
             'desc' => [
+                'en' => 'Grain Size',
             ],
         ],
     ];

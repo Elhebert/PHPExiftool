@@ -28,13 +28,14 @@ class StructureSetROISequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Structure Set ROI Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102540
+             * line : 75639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StructureSetROISequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StructureSetROISequence',
             'desc' => [
+                'en' => 'Structure Set ROI Sequence',
             ],
         ],
     ];

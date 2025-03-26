@@ -28,13 +28,14 @@ class Exposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398951
+             * line : 282465
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Exposure extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Exposure',
             'desc' => [
+                'en' => 'Exposure',
             ],
         ],
     ];

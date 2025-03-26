@@ -28,13 +28,14 @@ class UsedFiducialsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Used Fiducials Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101387
+             * line : 74535
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UsedFiducialsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UsedFiducialsSequence',
             'desc' => [
+                'en' => 'Used Fiducials Sequence',
             ],
         ],
     ];

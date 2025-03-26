@@ -28,13 +28,14 @@ class JobID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Job ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150721
+             * line : 104075
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class JobID extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:JobID',
             'desc' => [
+                'en' => 'Job ID',
             ],
         ],
     ];

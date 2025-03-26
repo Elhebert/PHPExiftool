@@ -28,13 +28,14 @@ class LastPrinted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Printed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176525
+             * line : 121464
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastPrinted extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LastPrinted',
             'desc' => [
+                'en' => 'Last Printed',
             ],
         ],
     ];

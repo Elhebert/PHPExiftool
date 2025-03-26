@@ -28,13 +28,14 @@ class ProdNotes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prod Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142995
+             * line : 98752
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProdNotes extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:ProdNotes',
             'desc' => [
+                'en' => 'Prod Notes',
             ],
         ],
     ];

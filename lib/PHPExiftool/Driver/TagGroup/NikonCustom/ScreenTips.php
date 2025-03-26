@@ -28,13 +28,14 @@ class ScreenTips extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Screen Tips',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212875
+             * line : 142935
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ScreenTips extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:ScreenTips',
             'desc' => [
+                'en' => 'Screen Tips',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214725
+             * line : 144124
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ScreenTips extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ScreenTips',
             'desc' => [
+                'en' => 'Screen Tips',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225288
+             * line : 151811
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ScreenTips extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:ScreenTips',
             'desc' => [
+                'en' => 'Screen Tips',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226687
+             * line : 152651
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ScreenTips extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:ScreenTips',
             'desc' => [
+                'en' => 'Screen Tips',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229830
+             * line : 154479
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ScreenTips extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ScreenTips',
             'desc' => [
+                'en' => 'Screen Tips',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234237
+             * line : 157908
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class ScreenTips extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:ScreenTips',
             'desc' => [
+                'en' => 'Screen Tips',
             ],
         ],
     ];

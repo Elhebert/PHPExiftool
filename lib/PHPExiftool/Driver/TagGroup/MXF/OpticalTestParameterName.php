@@ -28,13 +28,14 @@ class OpticalTestParameterName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optical Test Parameter Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168095
+             * line : 114596
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpticalTestParameterName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OpticalTestParameterName',
             'desc' => [
+                'en' => 'Optical Test Parameter Name',
             ],
         ],
     ];

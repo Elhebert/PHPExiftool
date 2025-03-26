@@ -28,13 +28,14 @@ class TaxonKingdom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Kingdom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106746
+             * line : 78956
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonKingdom extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonKingdom',
             'desc' => [
+                'en' => 'Taxon Kingdom',
             ],
         ],
     ];

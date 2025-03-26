@@ -28,13 +28,14 @@ class IssueTimeOfImagingServiceRequest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Issue Time Of Imaging Service Request',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99893
+             * line : 73095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IssueTimeOfImagingServiceRequest extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IssueTimeOfImagingServiceRequest',
             'desc' => [
+                'en' => 'Issue Time Of Imaging Service Request',
             ],
         ],
     ];

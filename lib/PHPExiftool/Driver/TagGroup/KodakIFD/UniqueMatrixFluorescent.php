@@ -28,13 +28,14 @@ class UniqueMatrixFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Matrix Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155144
+             * line : 106394
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class UniqueMatrixFluorescent extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UniqueMatrixFluorescent',
             'desc' => [
+                'en' => 'Unique Matrix Fluorescent',
             ],
         ],
     ];

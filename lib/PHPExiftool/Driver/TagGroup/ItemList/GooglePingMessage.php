@@ -28,13 +28,14 @@ class GooglePingMessage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Ping Message',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322188
+             * line : 227747
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GooglePingMessage extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GooglePingMessage',
             'desc' => [
+                'en' => 'Google Ping Message',
             ],
         ],
     ];

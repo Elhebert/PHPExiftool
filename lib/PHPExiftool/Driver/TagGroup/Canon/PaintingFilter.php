@@ -28,13 +28,14 @@ class PaintingFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Painting Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 64013
+             * line : 48629
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintingFilter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:PaintingFilter',
             'desc' => [
+                'en' => 'Painting Filter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CenterWeightedAreaSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center Weighted Area Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243780
+             * line : 166773
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243810
+             * line : 166793
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CenterWeightedAreaSize extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CenterWeightedAreaSize',
             'desc' => [
+                'en' => 'Center Weighted Area Size',
             ],
         ],
     ];

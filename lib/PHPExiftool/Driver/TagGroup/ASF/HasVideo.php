@@ -28,13 +28,14 @@ class HasVideo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Video',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1322
+             * line : 583
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasVideo extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:HasVideo',
             'desc' => [
+                'en' => 'Has Video',
             ],
         ],
     ];

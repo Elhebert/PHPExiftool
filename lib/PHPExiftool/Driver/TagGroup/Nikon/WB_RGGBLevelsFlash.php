@@ -28,13 +28,14 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceB
-             * line : 192065
+             * line : 130165
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_RGGBLevelsFlash extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceB.Nikon:WB_RGGBLevelsFlash',
             'desc' => [
+                'en' => 'WB RGGB Levels Flash',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlightYawDegree extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flight Yaw Degree',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104645
+             * line : 77677
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlightYawDegree extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:FlightYawDegree',
             'desc' => [
+                'en' => 'Flight Yaw Degree',
             ],
         ],
     ];

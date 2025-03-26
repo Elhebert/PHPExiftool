@@ -28,13 +28,14 @@ class ValidPixelDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Valid Pixel Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260963
+             * line : 180237
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ValidPixelDepth extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:ValidPixelDepth',
             'desc' => [
+                'en' => 'Valid Pixel Depth',
             ],
         ],
     ];

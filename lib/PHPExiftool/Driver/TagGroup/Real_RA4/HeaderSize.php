@@ -28,13 +28,14 @@ class HeaderSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Header Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329763
+             * line : 232215
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeaderSize extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:HeaderSize',
             'desc' => [
+                'en' => 'Header Size',
             ],
         ],
     ];

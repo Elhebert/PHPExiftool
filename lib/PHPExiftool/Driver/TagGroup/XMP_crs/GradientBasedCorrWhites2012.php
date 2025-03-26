@@ -28,13 +28,14 @@ class GradientBasedCorrWhites2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Whites 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402709
+             * line : 285846
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrWhites2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrWhites2012',
             'desc' => [
+                'en' => 'Gradient Based Corr Whites 2012',
             ],
         ],
     ];

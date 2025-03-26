@@ -28,13 +28,14 @@ class FocalDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GFocus
-             * line : 397054
+             * line : 281172
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalDistance extends AbstractTagGroup
              */
             'id' => 'XMP::GFocus.XMP-GFocus:FocalDistance',
             'desc' => [
+                'en' => 'Focal Distance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::MovieInfo
-             * line : 66898
+             * line : 50795
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'Canon::MovieInfo.Canon:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
     ];

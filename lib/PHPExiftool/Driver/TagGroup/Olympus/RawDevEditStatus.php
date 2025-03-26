@@ -28,13 +28,14 @@ class RawDevEditStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Edit Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260339
+             * line : 179841
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDevEditStatus extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevEditStatus',
             'desc' => [
+                'en' => 'Raw Dev Edit Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProductCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411054
+             * line : 290275
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductCode extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ProductCode',
             'desc' => [
+                'en' => 'Product Code',
             ],
         ],
     ];

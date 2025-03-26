@@ -28,13 +28,14 @@ class AssignRemoteFnButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Remote Fn Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216527
+             * line : 145540
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignRemoteFnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AssignRemoteFnButton',
             'desc' => [
+                'en' => 'Assign Remote Fn Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231444
+             * line : 155684
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AssignRemoteFnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AssignRemoteFnButton',
             'desc' => [
+                'en' => 'Assign Remote Fn Button',
             ],
         ],
     ];

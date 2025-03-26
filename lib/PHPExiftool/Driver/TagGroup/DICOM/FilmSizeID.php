@@ -28,13 +28,14 @@ class FilmSizeID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Size ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102055
+             * line : 75192
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmSizeID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilmSizeID',
             'desc' => [
+                'en' => 'Film Size ID',
             ],
         ],
     ];

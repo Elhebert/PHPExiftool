@@ -28,13 +28,14 @@ class MatrixWorldToCamera extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matrix World To Camera',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112953
+             * line : 82272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MatrixWorldToCamera extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MatrixWorldToCamera',
             'desc' => [
+                'en' => 'Matrix World To Camera',
             ],
         ],
     ];

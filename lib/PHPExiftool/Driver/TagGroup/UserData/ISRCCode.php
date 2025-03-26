@@ -28,13 +28,14 @@ class ISRCCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISRC Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325896
+             * line : 229916
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISRCCode extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ISRCCode',
             'desc' => [
+                'en' => 'ISRC Code',
             ],
         ],
     ];

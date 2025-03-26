@@ -28,13 +28,14 @@ class VideoQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89998
+             * line : 65036
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoQuality extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:VideoQuality',
             'desc' => [
+                'en' => 'Video Quality',
             ],
         ],
     ];

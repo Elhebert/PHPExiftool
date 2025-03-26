@@ -28,13 +28,14 @@ class MDFileTag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD File Tag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113065
+             * line : 82296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDFileTag extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MDFileTag',
             'desc' => [
+                'en' => 'MD File Tag',
             ],
         ],
     ];

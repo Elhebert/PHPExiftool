@@ -28,13 +28,14 @@ class AuxiliaryBitsMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auxiliary Bits Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171302
+             * line : 117506
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuxiliaryBitsMode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AuxiliaryBitsMode',
             'desc' => [
+                'en' => 'Auxiliary Bits Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraImagingModelImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Imaging Model Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396582
+             * line : 280799
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraImagingModelImageHeight extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraImagingModelImageHeight',
             'desc' => [
+                'en' => 'Camera Imaging Model Image Height',
             ],
         ],
     ];

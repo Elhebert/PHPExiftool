@@ -28,13 +28,14 @@ class EncodingScheme extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding Scheme',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127753
+             * line : 88702
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodingScheme extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:EncodingScheme',
             'desc' => [
+                'en' => 'Encoding Scheme',
             ],
         ],
     ];

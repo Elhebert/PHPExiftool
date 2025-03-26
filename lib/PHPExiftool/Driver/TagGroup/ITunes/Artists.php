@@ -28,13 +28,14 @@ class Artists extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Artists',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326596
+             * line : 230354
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Artists extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Artists',
             'desc' => [
+                'en' => 'Artists',
             ],
         ],
     ];

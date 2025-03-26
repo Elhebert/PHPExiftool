@@ -28,13 +28,14 @@ class LateralSpreadingDevWaterEquivThick extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lateral Spreading Dev Water Equiv Thick',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103810
+             * line : 76899
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LateralSpreadingDevWaterEquivThick extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LateralSpreadingDevWaterEquivThick',
             'desc' => [
+                'en' => 'Lateral Spreading Dev Water Equiv Thick',
             ],
         ],
     ];

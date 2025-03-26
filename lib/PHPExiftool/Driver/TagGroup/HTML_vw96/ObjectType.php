@@ -28,13 +28,14 @@ class ObjectType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::vw96
-             * line : 143079
+             * line : 98808
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectType extends AbstractTagGroup
              */
             'id' => 'HTML::vw96.HTML-vw96:ObjectType',
             'desc' => [
+                'en' => 'Object Type',
             ],
         ],
     ];

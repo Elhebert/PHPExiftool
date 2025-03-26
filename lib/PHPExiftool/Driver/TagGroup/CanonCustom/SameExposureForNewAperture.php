@@ -28,13 +28,14 @@ class SameExposureForNewAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Same Exposure For New Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73042
+             * line : 54136
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SameExposureForNewAperture extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SameExposureForNewAperture',
             'desc' => [
+                'en' => 'Same Exposure For New Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73056
+             * line : 54150
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SameExposureForNewAperture extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:SameExposureForNewAperture',
             'desc' => [
+                'en' => 'Same Exposure For New Aperture',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentCodingSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Coding System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167628
+             * line : 114239
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentCodingSystem extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentCodingSystem',
             'desc' => [
+                'en' => 'Content Coding System',
             ],
         ],
     ];

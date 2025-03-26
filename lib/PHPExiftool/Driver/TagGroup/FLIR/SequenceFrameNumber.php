@@ -28,13 +28,14 @@ class SequenceFrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122527
+             * line : 85805
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceFrameNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:SequenceFrameNumber',
             'desc' => [
+                'en' => 'Sequence Frame Number',
             ],
         ],
     ];

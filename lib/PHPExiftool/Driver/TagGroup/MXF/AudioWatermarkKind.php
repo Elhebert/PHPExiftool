@@ -28,13 +28,14 @@ class AudioWatermarkKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Watermark Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168669
+             * line : 115145
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioWatermarkKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioWatermarkKind',
             'desc' => [
+                'en' => 'Audio Watermark Kind',
             ],
         ],
     ];

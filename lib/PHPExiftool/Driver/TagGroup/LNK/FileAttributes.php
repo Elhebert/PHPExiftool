@@ -28,13 +28,14 @@ class FileAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161335
+             * line : 110226
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileAttributes extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:FileAttributes',
             'desc' => [
+                'en' => 'File Attributes',
             ],
         ],
     ];

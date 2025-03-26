@@ -28,13 +28,14 @@ class PredictorColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Predictor Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98754
+             * line : 72028
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PredictorColumns extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PredictorColumns',
             'desc' => [
+                'en' => 'Predictor Columns',
             ],
         ],
     ];

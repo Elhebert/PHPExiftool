@@ -28,13 +28,14 @@ class SharedFunctionalGroupsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shared Functional Groups Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104242
+             * line : 77316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharedFunctionalGroupsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SharedFunctionalGroupsSequence',
             'desc' => [
+                'en' => 'Shared Functional Groups Sequence',
             ],
         ],
     ];

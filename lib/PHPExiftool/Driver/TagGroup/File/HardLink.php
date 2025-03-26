@@ -28,13 +28,14 @@ class HardLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hard Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121386
+             * line : 85178
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HardLink extends AbstractTagGroup
              */
             'id' => 'Extra.File:HardLink',
             'desc' => [
+                'en' => 'Hard Link',
             ],
         ],
     ];

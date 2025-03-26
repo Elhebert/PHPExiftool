@@ -28,13 +28,14 @@ class AdvantageCompUnderflow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advantage Comp Underflow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99295
+             * line : 72513
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdvantageCompUnderflow extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AdvantageCompUnderflow',
             'desc' => [
+                'en' => 'Advantage Comp Underflow',
             ],
         ],
     ];

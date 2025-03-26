@@ -28,13 +28,14 @@ class AF_CPrioritySel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF-C Priority Sel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243530
+             * line : 166601
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AF_CPrioritySel extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AF-CPrioritySel',
             'desc' => [
+                'en' => 'AF-C Priority Sel',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243547
+             * line : 166618
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AF_CPrioritySel extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AF-CPrioritySel',
             'desc' => [
+                'en' => 'AF-C Priority Sel',
             ],
         ],
     ];

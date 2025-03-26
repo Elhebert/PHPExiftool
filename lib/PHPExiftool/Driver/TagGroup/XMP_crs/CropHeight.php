@@ -28,13 +28,14 @@ class CropHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402143
+             * line : 285329
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropHeight extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CropHeight',
             'desc' => [
+                'en' => 'Crop Height',
             ],
         ],
     ];

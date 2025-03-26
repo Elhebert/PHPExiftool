@@ -28,13 +28,14 @@ class SharpnessFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259018
+             * line : 178750
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpnessFactor extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SharpnessFactor',
             'desc' => [
+                'en' => 'Sharpness Factor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SmallestValidPixelValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Smallest Valid Pixel Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98797
+             * line : 72069
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SmallestValidPixelValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SmallestValidPixelValue',
             'desc' => [
+                'en' => 'Smallest Valid Pixel Value',
             ],
         ],
     ];

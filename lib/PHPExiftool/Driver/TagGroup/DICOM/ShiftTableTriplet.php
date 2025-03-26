@@ -28,13 +28,14 @@ class ShiftTableTriplet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shift Table Triplet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101974
+             * line : 75114
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShiftTableTriplet extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShiftTableTriplet',
             'desc' => [
+                'en' => 'Shift Table Triplet',
             ],
         ],
     ];

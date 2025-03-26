@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type6
-             * line : 160475
+             * line : 109738
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'Kodak::Type6.Kodak:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

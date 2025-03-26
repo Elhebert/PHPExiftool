@@ -28,13 +28,14 @@ class GPSDestDistanceRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Dest Distance Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132535
+             * line : 90991
              * type : string
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class GPSDestDistanceRef extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSDestDistanceRef',
             'desc' => [
+                'en' => 'GPS Dest Distance Ref',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PanoramaFrameNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Panorama
-             * line : 69330
+             * line : 52297
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaFrameNumber extends AbstractTagGroup
              */
             'id' => 'Canon::Panorama.Canon:PanoramaFrameNumber',
             'desc' => [
+                'en' => 'Panorama Frame Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DVDID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVDID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1226
+             * line : 535
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVDID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DVDID',
             'desc' => [
+                'en' => 'DVDID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SystemTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'System Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139793
+             * line : 97761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SystemTime extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:SystemTime',
             'desc' => [
+                'en' => 'System Time',
             ],
         ],
     ];

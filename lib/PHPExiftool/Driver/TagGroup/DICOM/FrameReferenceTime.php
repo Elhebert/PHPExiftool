@@ -28,13 +28,14 @@ class FrameReferenceTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Reference Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101010
+             * line : 74160
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameReferenceTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameReferenceTime',
             'desc' => [
+                'en' => 'Frame Reference Time',
             ],
         ],
     ];

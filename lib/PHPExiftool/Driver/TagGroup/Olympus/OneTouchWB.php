@@ -28,13 +28,14 @@ class OneTouchWB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'One Touch WB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257960
+             * line : 178349
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OneTouchWB extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:OneTouchWB',
             'desc' => [
+                'en' => 'One Touch WB',
             ],
         ],
     ];

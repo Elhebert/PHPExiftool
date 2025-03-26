@@ -28,13 +28,14 @@ class NumAFPoints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Num AF Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AFPointInfo
-             * line : 283650
+             * line : 196795
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NumAFPoints extends AbstractTagGroup
              */
             'id' => 'Pentax::AFPointInfo.Pentax:NumAFPoints',
             'desc' => [
+                'en' => 'Num AF Points',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155343
+             * line : 106556
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSpace extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageSpace',
             'desc' => [
+                'en' => 'Image Space',
             ],
         ],
     ];

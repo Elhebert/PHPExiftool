@@ -28,13 +28,14 @@ class ContrastAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394183
+             * line : 279261
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContrastAdj extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:ContrastAdj',
             'desc' => [
+                'en' => 'Contrast Adj',
             ],
         ],
     ];

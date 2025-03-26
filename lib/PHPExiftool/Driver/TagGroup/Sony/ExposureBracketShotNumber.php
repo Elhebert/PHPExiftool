@@ -28,13 +28,14 @@ class ExposureBracketShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Bracket Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353095
+             * line : 246505
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureBracketShotNumber extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:ExposureBracketShotNumber',
             'desc' => [
+                'en' => 'Exposure Bracket Shot Number',
             ],
         ],
     ];

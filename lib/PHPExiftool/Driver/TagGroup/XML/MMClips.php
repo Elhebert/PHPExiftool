@@ -28,13 +28,14 @@ class MMClips extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MM Clips',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249174
+             * line : 171795
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MMClips extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:MMClips',
             'desc' => [
+                'en' => 'MM Clips',
             ],
         ],
     ];

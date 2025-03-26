@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160864
+             * line : 109876
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

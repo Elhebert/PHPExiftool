@@ -28,13 +28,14 @@ class ScanMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103759
+             * line : 76848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanMode',
             'desc' => [
+                'en' => 'Scan Mode',
             ],
         ],
     ];

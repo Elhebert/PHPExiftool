@@ -28,13 +28,14 @@ class SourceContainerFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Container Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172090
+             * line : 118258
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceContainerFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SourceContainerFormat',
             'desc' => [
+                'en' => 'Source Container Format',
             ],
         ],
     ];

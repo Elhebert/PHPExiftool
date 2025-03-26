@@ -28,13 +28,14 @@ class OrganAtRiskLimitDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organ At Risk Limit Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103017
+             * line : 76113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrganAtRiskLimitDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrganAtRiskLimitDose',
             'desc' => [
+                'en' => 'Organ At Risk Limit Dose',
             ],
         ],
     ];

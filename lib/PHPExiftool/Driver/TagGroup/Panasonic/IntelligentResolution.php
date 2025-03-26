@@ -28,13 +28,14 @@ class IntelligentResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intelligent Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277437
+             * line : 192957
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntelligentResolution extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:IntelligentResolution',
             'desc' => [
+                'en' => 'Intelligent Resolution',
             ],
         ],
     ];

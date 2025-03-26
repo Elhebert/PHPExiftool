@@ -28,13 +28,14 @@ class EffectiveBW extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effective BW',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305445
+             * line : 212242
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectiveBW extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:EffectiveBW',
             'desc' => [
+                'en' => 'Effective BW',
             ],
         ],
     ];

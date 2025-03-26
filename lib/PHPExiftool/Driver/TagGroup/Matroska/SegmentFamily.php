@@ -28,13 +28,14 @@ class SegmentFamily extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segment Family',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173465
+             * line : 119414
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentFamily extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SegmentFamily',
             'desc' => [
+                'en' => 'Segment Family',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SharedUserRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shared User Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1571
+             * line : 766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharedUserRating extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:SharedUserRating',
             'desc' => [
+                'en' => 'Shared User Rating',
             ],
         ],
     ];

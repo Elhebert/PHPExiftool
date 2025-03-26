@@ -28,13 +28,14 @@ class EncoderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPC::Main
-             * line : 165655
+             * line : 112636
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncoderVersion extends AbstractTagGroup
              */
             'id' => 'MPC::Main.MPC:EncoderVersion',
             'desc' => [
+                'en' => 'Encoder Version',
             ],
         ],
     ];

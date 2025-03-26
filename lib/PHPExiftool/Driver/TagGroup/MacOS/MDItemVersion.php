@@ -28,13 +28,14 @@ class MDItemVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173056
+             * line : 119086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemVersion extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemVersion',
             'desc' => [
+                'en' => 'MD Item Version',
             ],
         ],
     ];

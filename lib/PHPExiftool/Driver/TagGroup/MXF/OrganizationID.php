@@ -28,13 +28,14 @@ class OrganizationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organization ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167251
+             * line : 113883
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OrganizationID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationID',
             'desc' => [
+                'en' => 'Organization ID',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169752
+             * line : 116106
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OrganizationID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationID',
             'desc' => [
+                'en' => 'Organization ID',
             ],
         ],
     ];

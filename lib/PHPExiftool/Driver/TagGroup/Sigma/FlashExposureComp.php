@@ -28,13 +28,14 @@ class FlashExposureComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 338968
+             * line : 237365
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 339111
+             * line : 237398
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashExposureComp extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:FlashExposureComp',
             'desc' => [
+                'en' => 'Flash Exposure Comp',
             ],
         ],
     ];

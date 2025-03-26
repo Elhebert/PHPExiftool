@@ -28,13 +28,14 @@ class MACCalculationTransferSyntaxUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MAC Calculation Transfer Syntax UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101889
+             * line : 75030
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MACCalculationTransferSyntaxUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MACCalculationTransferSyntaxUID',
             'desc' => [
+                'en' => 'MAC Calculation Transfer Syntax UID',
             ],
         ],
     ];

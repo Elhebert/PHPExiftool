@@ -28,13 +28,14 @@ class MDItemComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172606
+             * line : 118748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemComment extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemComment',
             'desc' => [
+                'en' => 'MD Item Comment',
             ],
         ],
     ];

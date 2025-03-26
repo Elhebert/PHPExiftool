@@ -28,13 +28,14 @@ class SharpeningOn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpening On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155984
+             * line : 107195
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpeningOn extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SharpeningOn',
             'desc' => [
+                'en' => 'Sharpening On',
             ],
         ],
     ];

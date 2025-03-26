@@ -28,13 +28,14 @@ class AFProcess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306264
+             * line : 212762
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFProcess extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFProcess',
             'desc' => [
+                'en' => 'AF Process',
             ],
         ],
     ];

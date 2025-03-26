@@ -28,13 +28,14 @@ class WhiteReferenceLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Reference Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167930
+             * line : 114452
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteReferenceLevel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:WhiteReferenceLevel',
             'desc' => [
+                'en' => 'White Reference Level',
             ],
         ],
     ];

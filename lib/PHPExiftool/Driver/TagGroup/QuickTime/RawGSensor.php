@@ -28,13 +28,14 @@ class RawGSensor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw G Sensor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324894
+             * line : 229378
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawGSensor extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:RawGSensor',
             'desc' => [
+                'en' => 'Raw G Sensor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BeatsPerMinute extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beats Per Minute',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 148741
+             * line : 103257
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeatsPerMinute extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:BeatsPerMinute',
             'desc' => [
+                'en' => 'Beats Per Minute',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CropHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255367
+             * line : 176230
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CropHeight extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CropHeight',
             'desc' => [
+                'en' => 'Crop Height',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260989
+             * line : 180249
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CropHeight extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CropHeight',
             'desc' => [
+                'en' => 'Crop Height',
             ],
         ],
     ];

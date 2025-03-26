@@ -28,13 +28,14 @@ class PF29QuickDialSwitchOff extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF29 Quick Dial Switch Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78431
+             * line : 57132
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF29QuickDialSwitchOff extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF29QuickDialSwitchOff',
             'desc' => [
+                'en' => 'PF29 Quick Dial Switch Off',
             ],
         ],
     ];

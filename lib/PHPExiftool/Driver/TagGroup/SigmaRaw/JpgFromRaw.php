@@ -28,13 +28,14 @@ class JpgFromRaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Jpg From Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Main
-             * line : 339596
+             * line : 237586
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JpgFromRaw extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Main.SigmaRaw:JpgFromRaw',
             'desc' => [
+                'en' => 'Jpg From Raw',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length In 35mm Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339978
+             * line : 237708
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:FocalLengthIn35mmFormat',
             'desc' => [
+                'en' => 'Focal Length In 35mm Format',
             ],
         ],
     ];

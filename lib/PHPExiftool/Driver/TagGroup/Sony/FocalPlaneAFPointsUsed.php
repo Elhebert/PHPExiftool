@@ -28,13 +28,14 @@ class FocalPlaneAFPointsUsed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane AF Points Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355682
+             * line : 248131
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalPlaneAFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FocalPlaneAFPointsUsed',
             'desc' => [
+                'en' => 'Focal Plane AF Points Used',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Main
-             * line : 355690
+             * line : 248139
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FocalPlaneAFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FocalPlaneAFPointsUsed',
             'desc' => [
+                'en' => 'Focal Plane AF Points Used',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag202a
-             * line : 378959
+             * line : 265807
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocalPlaneAFPointsUsed extends AbstractTagGroup
              */
             'id' => 'Sony::Tag202a.Sony:FocalPlaneAFPointsUsed',
             'desc' => [
+                'en' => 'Focal Plane AF Points Used',
             ],
         ],
     ];

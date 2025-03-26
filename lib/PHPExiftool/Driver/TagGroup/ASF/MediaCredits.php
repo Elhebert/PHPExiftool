@@ -28,13 +28,14 @@ class MediaCredits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Credits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1373
+             * line : 619
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaCredits extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaCredits',
             'desc' => [
+                'en' => 'Media Credits',
             ],
         ],
     ];

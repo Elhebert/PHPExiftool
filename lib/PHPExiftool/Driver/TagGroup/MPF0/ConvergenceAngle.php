@@ -28,13 +28,14 @@ class ConvergenceAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Convergence Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166354
+             * line : 113111
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConvergenceAngle extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:ConvergenceAngle',
             'desc' => [
+                'en' => 'Convergence Angle',
             ],
         ],
     ];

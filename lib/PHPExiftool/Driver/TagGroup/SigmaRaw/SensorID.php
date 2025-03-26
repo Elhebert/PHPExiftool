@@ -28,13 +28,14 @@ class SensorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340755
+             * line : 238349
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorID extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:SensorID',
             'desc' => [
+                'en' => 'Sensor ID',
             ],
         ],
     ];

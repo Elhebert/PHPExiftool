@@ -28,13 +28,14 @@ class RatingPercent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Percent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112710
+             * line : 82126
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingPercent extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:RatingPercent',
             'desc' => [
+                'en' => 'Rating Percent',
             ],
         ],
     ];

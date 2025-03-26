@@ -28,13 +28,14 @@ class PNGWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PNG Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 273008
+             * line : 190572
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PNGWarning extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:PNGWarning',
             'desc' => [
+                'en' => 'PNG Warning',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ApplicationData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Main
-             * line : 218
+             * line : 112
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationData extends AbstractTagGroup
              */
             'id' => 'AIFF::Main.AIFF:ApplicationData',
             'desc' => [
+                'en' => 'Application Data',
             ],
         ],
     ];

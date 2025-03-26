@@ -28,13 +28,14 @@ class DuotoneHalftoningInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duotone Halftoning Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305423
+             * line : 212227
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DuotoneHalftoningInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:DuotoneHalftoningInfo',
             'desc' => [
+                'en' => 'Duotone Halftoning Info',
             ],
         ],
     ];

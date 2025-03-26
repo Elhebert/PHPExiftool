@@ -28,13 +28,14 @@ class ImageData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GImage
-             * line : 397070
+             * line : 281185
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageData extends AbstractTagGroup
              */
             'id' => 'XMP::GImage.XMP-GImage:ImageData',
             'desc' => [
+                'en' => 'Image Data',
             ],
         ],
     ];

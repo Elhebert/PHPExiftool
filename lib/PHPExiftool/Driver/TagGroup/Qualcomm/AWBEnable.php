@@ -28,13 +28,14 @@ class AWBEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307050
+             * line : 213548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBEnable',
             'desc' => [
+                'en' => 'AWB Enable',
             ],
         ],
     ];

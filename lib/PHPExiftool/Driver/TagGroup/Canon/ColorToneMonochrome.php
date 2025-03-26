@@ -28,13 +28,14 @@ class ColorToneMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67470
+             * line : 51161
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorToneMonochrome',
             'desc' => [
+                'en' => 'Color Tone Monochrome',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68568
+             * line : 51822
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ColorToneMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneMonochrome',
             'desc' => [
+                'en' => 'Color Tone Monochrome',
             ],
         ],
     ];

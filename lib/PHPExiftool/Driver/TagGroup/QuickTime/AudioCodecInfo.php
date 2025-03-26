@@ -28,13 +28,14 @@ class AudioCodecInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioProf
-             * line : 310382
+             * line : 216292
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodecInfo extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioProf.QuickTime:AudioCodecInfo',
             'desc' => [
+                'en' => 'Audio Codec Info',
             ],
         ],
     ];

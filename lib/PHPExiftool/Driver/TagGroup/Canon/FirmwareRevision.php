@@ -28,13 +28,14 @@ class FirmwareRevision extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Revision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34404
+             * line : 26456
              * type : string
              * writable : true
              * count : 8
@@ -42,12 +43,13 @@ class FirmwareRevision extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:FirmwareRevision',
             'desc' => [
+                'en' => 'Firmware Revision',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::Main
-             * line : 65778
+             * line : 50003
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FirmwareRevision extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:FirmwareRevision',
             'desc' => [
+                'en' => 'Firmware Revision',
             ],
         ],
     ];

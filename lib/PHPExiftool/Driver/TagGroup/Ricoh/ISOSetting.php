@@ -28,13 +28,14 @@ class ISOSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 332230
+             * line : 233282
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSetting extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:ISOSetting',
             'desc' => [
+                'en' => 'ISO Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BinaryXML extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Binary XML',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323921
+             * line : 228906
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BinaryXML extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:BinaryXML',
             'desc' => [
+                'en' => 'Binary XML',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Unknown_CNDB extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown CNDB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Skip
-             * line : 70949
+             * line : 52914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Unknown_CNDB extends AbstractTagGroup
              */
             'id' => 'Canon::Skip.Canon:Unknown_CNDB',
             'desc' => [
+                'en' => 'Unknown CNDB',
             ],
         ],
     ];

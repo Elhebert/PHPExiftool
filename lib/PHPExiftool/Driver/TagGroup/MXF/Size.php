@@ -28,13 +28,14 @@ class Size extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168895
+             * line : 115361
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Size extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Size',
             'desc' => [
+                'en' => 'Size',
             ],
         ],
     ];

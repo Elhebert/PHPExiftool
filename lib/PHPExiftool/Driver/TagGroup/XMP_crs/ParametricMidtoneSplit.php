@@ -28,13 +28,14 @@ class ParametricMidtoneSplit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parametric Midtone Split',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403874
+             * line : 286991
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParametricMidtoneSplit extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ParametricMidtoneSplit',
             'desc' => [
+                'en' => 'Parametric Midtone Split',
             ],
         ],
     ];

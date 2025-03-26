@@ -28,13 +28,14 @@ class TungMat7 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tung Mat 7',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156488
+             * line : 107692
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TungMat7 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TungMat7',
             'desc' => [
+                'en' => 'Tung Mat 7',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PLUSVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PLUS Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272370
+             * line : 190287
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PLUSVersion extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:PLUSVersion',
             'desc' => [
+                'en' => 'PLUS Version',
             ],
         ],
     ];

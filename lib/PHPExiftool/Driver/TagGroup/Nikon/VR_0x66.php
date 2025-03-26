@@ -28,13 +28,14 @@ class VR_0x66 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'VR 0x66',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205330
+             * line : 138002
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VR_0x66 extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:VR_0x66',
             'desc' => [
+                'en' => 'VR 0x66',
             ],
         ],
     ];

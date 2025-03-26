@@ -28,13 +28,14 @@ class DeadTimeFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dead Time Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101031
+             * line : 74181
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeadTimeFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeadTimeFactor',
             'desc' => [
+                'en' => 'Dead Time Factor',
             ],
         ],
     ];

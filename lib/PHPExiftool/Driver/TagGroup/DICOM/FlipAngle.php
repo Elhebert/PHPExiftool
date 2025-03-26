@@ -28,13 +28,14 @@ class FlipAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flip Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95983
+             * line : 69406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlipAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FlipAngle',
             'desc' => [
+                'en' => 'Flip Angle',
             ],
         ],
     ];

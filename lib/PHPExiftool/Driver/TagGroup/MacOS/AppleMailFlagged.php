@@ -28,13 +28,14 @@ class AppleMailFlagged extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Flagged',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173080
+             * line : 119104
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailFlagged extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailFlagged',
             'desc' => [
+                'en' => 'Apple Mail Flagged',
             ],
         ],
     ];

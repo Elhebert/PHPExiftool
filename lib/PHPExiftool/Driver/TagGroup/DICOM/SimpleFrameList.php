@@ -28,13 +28,14 @@ class SimpleFrameList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Simple Frame List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94955
+             * line : 68437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SimpleFrameList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SimpleFrameList',
             'desc' => [
+                'en' => 'Simple Frame List',
             ],
         ],
     ];

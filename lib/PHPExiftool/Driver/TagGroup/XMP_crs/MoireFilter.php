@@ -28,13 +28,14 @@ class MoireFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Moire Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403388
+             * line : 286524
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MoireFilter extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MoireFilter',
             'desc' => [
+                'en' => 'Moire Filter',
             ],
         ],
     ];

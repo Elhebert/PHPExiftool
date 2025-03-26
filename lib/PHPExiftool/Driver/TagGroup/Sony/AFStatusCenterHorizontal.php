@@ -28,13 +28,14 @@ class AFStatusCenterHorizontal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Center Horizontal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus15
-             * line : 343442
+             * line : 240389
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFStatusCenterHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus15.Sony:AFStatusCenterHorizontal',
             'desc' => [
+                'en' => 'AF Status Center Horizontal',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFStatus19
-             * line : 343719
+             * line : 240657
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFStatusCenterHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus19.Sony:AFStatusCenterHorizontal',
             'desc' => [
+                'en' => 'AF Status Center Horizontal',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345908
+             * line : 242528
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFStatusCenterHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:AFStatusCenterHorizontal',
             'desc' => [
+                'en' => 'AF Status Center Horizontal',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346621
+             * line : 242917
              * type : int16s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFStatusCenterHorizontal extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:AFStatusCenterHorizontal',
             'desc' => [
+                'en' => 'AF Status Center Horizontal',
             ],
         ],
     ];

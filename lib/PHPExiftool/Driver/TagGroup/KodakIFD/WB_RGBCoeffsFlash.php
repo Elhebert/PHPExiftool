@@ -28,13 +28,14 @@ class WB_RGBCoeffsFlash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Coeffs Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155260
+             * line : 106481
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBCoeffsFlash extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBCoeffsFlash',
             'desc' => [
+                'en' => 'WB RGB Coeffs Flash',
             ],
         ],
     ];

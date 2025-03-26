@@ -28,13 +28,14 @@ class AudioVBRQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio VBR Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312700
+             * line : 218572
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioVBRQuality extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioVBRQuality',
             'desc' => [
+                'en' => 'Audio VBR Quality',
             ],
         ],
     ];

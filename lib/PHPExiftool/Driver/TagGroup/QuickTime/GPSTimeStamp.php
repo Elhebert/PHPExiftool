@@ -28,13 +28,14 @@ class GPSTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324775
+             * line : 229349
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSTimeStamp extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSTimeStamp',
             'desc' => [
+                'en' => 'GPS Time Stamp',
             ],
         ],
     ];

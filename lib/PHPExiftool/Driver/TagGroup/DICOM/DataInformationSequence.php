@@ -28,13 +28,14 @@ class DataInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100874
+             * line : 74034
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataInformationSequence',
             'desc' => [
+                'en' => 'Data Information Sequence',
             ],
         ],
     ];

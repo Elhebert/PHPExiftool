@@ -28,13 +28,14 @@ class LensProfileMatchKeySensorFormatFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Match Key Sensor Format Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399532
+             * line : 283038
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileMatchKeySensorFormatFactor extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LensProfileMatchKeySensorFormatFactor',
             'desc' => [
+                'en' => 'Lens Profile Match Key Sensor Format Factor',
             ],
         ],
     ];

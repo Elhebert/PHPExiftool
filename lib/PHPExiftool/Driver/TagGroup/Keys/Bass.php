@@ -28,13 +28,14 @@ class Bass extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bass',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323532
+             * line : 228702
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Bass extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Bass',
             'desc' => [
+                'en' => 'Bass',
             ],
         ],
     ];

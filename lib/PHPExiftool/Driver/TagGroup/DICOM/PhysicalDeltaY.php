@@ -28,13 +28,14 @@ class PhysicalDeltaY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Delta Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96295
+             * line : 69703
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalDeltaY extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhysicalDeltaY',
             'desc' => [
+                'en' => 'Physical Delta Y',
             ],
         ],
     ];

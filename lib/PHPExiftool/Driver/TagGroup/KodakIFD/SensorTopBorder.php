@@ -28,13 +28,14 @@ class SensorTopBorder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Top Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154704
+             * line : 106101
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorTopBorder extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SensorTopBorder',
             'desc' => [
+                'en' => 'Sensor Top Border',
             ],
         ],
     ];

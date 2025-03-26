@@ -28,13 +28,14 @@ class CaptureWidthTest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Capture Width Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157248
+             * line : 108440
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptureWidthTest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureWidthTest',
             'desc' => [
+                'en' => 'Capture Width Test',
             ],
         ],
     ];

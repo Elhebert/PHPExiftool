@@ -28,13 +28,14 @@ class ColorTempKelvin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Kelvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333484
+             * line : 233864
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTempKelvin extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:ColorTempKelvin',
             'desc' => [
+                'en' => 'Color Temp Kelvin',
             ],
         ],
     ];

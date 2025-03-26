@@ -28,13 +28,14 @@ class LandscapeRawSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Landscape Raw Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82847
+             * line : 60685
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LandscapeRawSharpness extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LandscapeRawSharpness',
             'desc' => [
+                'en' => 'Landscape Raw Sharpness',
             ],
         ],
     ];

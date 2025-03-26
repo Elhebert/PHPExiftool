@@ -28,13 +28,14 @@ class AssignFuncButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Func Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75199
+             * line : 55369
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AssignFuncButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AssignFuncButton',
             'desc' => [
+                'en' => 'Assign Func Button',
             ],
         ],
     ];

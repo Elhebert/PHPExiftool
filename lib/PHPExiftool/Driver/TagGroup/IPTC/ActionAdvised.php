@@ -28,13 +28,14 @@ class ActionAdvised extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Action Advised',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150012
+             * line : 103875
              * type : digits
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ActionAdvised extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ActionAdvised',
             'desc' => [
+                'en' => 'Action Advised',
             ],
         ],
     ];

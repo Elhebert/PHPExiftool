@@ -28,13 +28,14 @@ class IntervalMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interval Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177955
+             * line : 122119
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntervalMode extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:IntervalMode',
             'desc' => [
+                'en' => 'Interval Mode',
             ],
         ],
     ];

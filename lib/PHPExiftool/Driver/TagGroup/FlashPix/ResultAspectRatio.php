@@ -28,13 +28,14 @@ class ResultAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Result Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127367
+             * line : 88399
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ResultAspectRatio extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:ResultAspectRatio',
             'desc' => [
+                'en' => 'Result Aspect Ratio',
             ],
         ],
     ];

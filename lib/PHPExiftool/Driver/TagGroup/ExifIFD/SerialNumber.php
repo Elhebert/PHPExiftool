@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117871
+             * line : 83674
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 120804
+             * line : 84903
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

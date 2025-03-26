@@ -28,13 +28,14 @@ class UserID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105932
+             * line : 78393
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class UserID extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:UserID',
             'desc' => [
+                'en' => 'User ID',
             ],
         ],
     ];

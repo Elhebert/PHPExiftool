@@ -28,13 +28,14 @@ class Playlist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Playlist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Main
-             * line : 328678
+             * line : 231773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Playlist extends AbstractTagGroup
              */
             'id' => 'RIFF::Main.RIFF:Playlist',
             'desc' => [
+                'en' => 'Playlist',
             ],
         ],
     ];

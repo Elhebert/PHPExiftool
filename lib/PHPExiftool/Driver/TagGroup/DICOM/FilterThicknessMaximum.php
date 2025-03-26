@@ -28,13 +28,14 @@ class FilterThicknessMaximum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Thickness Maximum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96490
+             * line : 69898
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterThicknessMaximum extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterThicknessMaximum',
             'desc' => [
+                'en' => 'Filter Thickness Maximum',
             ],
         ],
     ];

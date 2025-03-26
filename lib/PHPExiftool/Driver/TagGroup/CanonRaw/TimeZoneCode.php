@@ -28,13 +28,14 @@ class TimeZoneCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Zone Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::TimeStamp
-             * line : 80123
+             * line : 58467
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeZoneCode extends AbstractTagGroup
              */
             'id' => 'CanonRaw::TimeStamp.CanonRaw:TimeZoneCode',
             'desc' => [
+                'en' => 'Time Zone Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MakerNoteKodak1b extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Kodak 1b',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104858
+             * line : 77792
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteKodak1b extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteKodak1b',
             'desc' => [
+                'en' => 'Maker Note Kodak 1b',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115819
+             * line : 83085
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteKodak1b extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteKodak1b',
             'desc' => [
+                'en' => 'Maker Note Kodak 1b',
             ],
         ],
     ];

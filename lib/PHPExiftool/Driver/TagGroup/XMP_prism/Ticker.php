@@ -28,13 +28,14 @@ class Ticker extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ticker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411157
+             * line : 290356
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Ticker extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Ticker',
             'desc' => [
+                'en' => 'Ticker',
             ],
         ],
     ];

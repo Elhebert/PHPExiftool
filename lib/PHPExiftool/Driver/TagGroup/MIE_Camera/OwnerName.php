@@ -28,13 +28,14 @@ class OwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163064
+             * line : 111308
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
     ];

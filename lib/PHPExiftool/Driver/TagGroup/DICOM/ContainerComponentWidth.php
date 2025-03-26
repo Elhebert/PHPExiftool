@@ -28,13 +28,14 @@ class ContainerComponentWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Component Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100775
+             * line : 73935
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerComponentWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContainerComponentWidth',
             'desc' => [
+                'en' => 'Container Component Width',
             ],
         ],
     ];

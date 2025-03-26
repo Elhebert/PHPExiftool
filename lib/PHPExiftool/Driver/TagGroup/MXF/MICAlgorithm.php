@@ -28,13 +28,14 @@ class MICAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIC Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172042
+             * line : 118216
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MICAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MICAlgorithm',
             'desc' => [
+                'en' => 'MIC Algorithm',
             ],
         ],
     ];

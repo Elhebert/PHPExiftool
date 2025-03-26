@@ -28,13 +28,14 @@ class PlanarConfiguration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Planar Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110988
+             * line : 81538
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlanarConfiguration extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PlanarConfiguration',
             'desc' => [
+                'en' => 'Planar Configuration',
             ],
         ],
     ];

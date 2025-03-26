@@ -28,13 +28,14 @@ class AFVfeVertHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Vfe Vert Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306591
+             * line : 213089
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFVfeVertHeight extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFVfeVertHeight',
             'desc' => [
+                'en' => 'AF Vfe Vert Height',
             ],
         ],
     ];

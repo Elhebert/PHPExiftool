@@ -28,13 +28,14 @@ class FluoroscopyFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fluoroscopy Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97039
+             * line : 70438
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FluoroscopyFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FluoroscopyFlag',
             'desc' => [
+                'en' => 'Fluoroscopy Flag',
             ],
         ],
     ];

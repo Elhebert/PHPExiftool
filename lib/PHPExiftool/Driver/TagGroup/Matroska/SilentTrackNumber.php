@@ -28,13 +28,14 @@ class SilentTrackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Silent Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173741
+             * line : 119643
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SilentTrackNumber extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SilentTrackNumber',
             'desc' => [
+                'en' => 'Silent Track Number',
             ],
         ],
     ];

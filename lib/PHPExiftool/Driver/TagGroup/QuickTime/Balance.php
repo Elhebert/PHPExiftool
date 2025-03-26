@@ -28,13 +28,14 @@ class Balance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioHeader
-             * line : 310364
+             * line : 216276
              * type : fixed16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Balance extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioHeader.QuickTime:Balance',
             'desc' => [
+                'en' => 'Balance',
             ],
         ],
     ];

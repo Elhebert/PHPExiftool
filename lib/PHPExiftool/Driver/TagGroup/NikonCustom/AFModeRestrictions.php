@@ -28,13 +28,14 @@ class AFModeRestrictions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Mode Restrictions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216454
+             * line : 145467
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFModeRestrictions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AFModeRestrictions',
             'desc' => [
+                'en' => 'AF Mode Restrictions',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218781
+             * line : 147125
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFModeRestrictions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AFModeRestrictions',
             'desc' => [
+                'en' => 'AF Mode Restrictions',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221241
+             * line : 149167
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFModeRestrictions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AFModeRestrictions',
             'desc' => [
+                'en' => 'AF Mode Restrictions',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231375
+             * line : 155615
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFModeRestrictions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AFModeRestrictions',
             'desc' => [
+                'en' => 'AF Mode Restrictions',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233130
+             * line : 156974
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class AFModeRestrictions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AFModeRestrictions',
             'desc' => [
+                'en' => 'AF Mode Restrictions',
             ],
         ],
     ];

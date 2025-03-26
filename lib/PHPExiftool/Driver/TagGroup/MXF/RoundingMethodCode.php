@@ -28,13 +28,14 @@ class RoundingMethodCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rounding Method Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167924
+             * line : 114446
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RoundingMethodCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoundingMethodCode',
             'desc' => [
+                'en' => 'Rounding Method Code',
             ],
         ],
     ];

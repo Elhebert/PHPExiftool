@@ -28,13 +28,14 @@ class SequenceOfCompressedData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Of Compressed Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98846
+             * line : 72117
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceOfCompressedData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SequenceOfCompressedData',
             'desc' => [
+                'en' => 'Sequence Of Compressed Data',
             ],
         ],
     ];

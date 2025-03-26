@@ -28,13 +28,14 @@ class ColorEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276015
+             * line : 192229
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorEffect extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ColorEffect',
             'desc' => [
+                'en' => 'Color Effect',
             ],
         ],
     ];

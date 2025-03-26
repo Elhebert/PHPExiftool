@@ -28,13 +28,14 @@ class MRSpatialSaturationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Spatial Saturation Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96769
+             * line : 70171
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRSpatialSaturationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRSpatialSaturationSequence',
             'desc' => [
+                'en' => 'MR Spatial Saturation Sequence',
             ],
         ],
     ];

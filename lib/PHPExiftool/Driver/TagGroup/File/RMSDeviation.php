@@ -28,13 +28,14 @@ class RMSDeviation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RMS Deviation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166976
+             * line : 113664
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RMSDeviation extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:RMSDeviation',
             'desc' => [
+                'en' => 'RMS Deviation',
             ],
         ],
     ];

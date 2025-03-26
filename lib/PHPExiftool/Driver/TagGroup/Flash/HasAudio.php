@@ -28,13 +28,14 @@ class HasAudio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Audio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124093
+             * line : 86732
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasAudio extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:HasAudio',
             'desc' => [
+                'en' => 'Has Audio',
             ],
         ],
     ];

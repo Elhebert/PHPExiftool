@@ -28,13 +28,14 @@ class AirplaneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Airplane Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201903
+             * line : 136778
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AirplaneMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:AirplaneMode',
             'desc' => [
+                'en' => 'Airplane Mode',
             ],
         ],
     ];

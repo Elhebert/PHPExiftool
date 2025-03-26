@@ -28,13 +28,14 @@ class AxisOfRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axis Of Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101175
+             * line : 74325
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxisOfRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AxisOfRotation',
             'desc' => [
+                'en' => 'Axis Of Rotation',
             ],
         ],
     ];

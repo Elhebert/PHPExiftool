@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191344
+             * line : 129929
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196350
+             * line : 132791
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202273
+             * line : 136958
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

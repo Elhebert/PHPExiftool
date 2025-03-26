@@ -28,13 +28,14 @@ class RawAndJpgRecording extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw And Jpg Recording',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 183771
+             * line : 124636
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawAndJpgRecording extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:RawAndJpgRecording',
             'desc' => [
+                'en' => 'Raw And Jpg Recording',
             ],
         ],
     ];

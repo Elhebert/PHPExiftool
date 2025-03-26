@@ -28,13 +28,14 @@ class PositionDescriptor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Position Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410654
+             * line : 289951
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PositionDescriptor extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:PositionDescriptor',
             'desc' => [
+                'en' => 'Position Descriptor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Unknown_slmt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown slmt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HTCInfo
-             * line : 313544
+             * line : 219289
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Unknown_slmt extends AbstractTagGroup
              */
             'id' => 'QuickTime::HTCInfo.QuickTime:Unknown_slmt',
             'desc' => [
+                'en' => 'Unknown slmt',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TagStructure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tag Structure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::ics
-             * line : 408820
+             * line : 288752
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TagStructure extends AbstractTagGroup
              */
             'id' => 'XMP::ics.XMP-ics:TagStructure',
             'desc' => [
+                'en' => 'Tag Structure',
             ],
         ],
     ];

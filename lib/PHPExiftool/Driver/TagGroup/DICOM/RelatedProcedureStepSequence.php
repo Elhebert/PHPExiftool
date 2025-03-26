@@ -28,13 +28,14 @@ class RelatedProcedureStepSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related Procedure Step Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101826
+             * line : 74967
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelatedProcedureStepSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelatedProcedureStepSequence',
             'desc' => [
+                'en' => 'Related Procedure Step Sequence',
             ],
         ],
     ];

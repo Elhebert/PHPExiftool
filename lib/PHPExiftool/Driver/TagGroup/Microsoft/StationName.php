@@ -28,13 +28,14 @@ class StationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Station Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175595
+             * line : 120849
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StationName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:StationName',
             'desc' => [
+                'en' => 'Station Name',
             ],
         ],
     ];

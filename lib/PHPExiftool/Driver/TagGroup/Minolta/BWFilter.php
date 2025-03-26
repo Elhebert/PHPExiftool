@@ -28,13 +28,14 @@ class BWFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'BW Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178061
+             * line : 122164
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BWFilter extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:BWFilter',
             'desc' => [
+                'en' => 'BW Filter',
             ],
         ],
     ];

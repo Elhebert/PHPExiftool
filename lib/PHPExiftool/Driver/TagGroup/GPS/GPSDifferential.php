@@ -28,13 +28,14 @@ class GPSDifferential extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Differential',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132667
+             * line : 91017
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDifferential extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSDifferential',
             'desc' => [
+                'en' => 'GPS Differential',
             ],
         ],
     ];

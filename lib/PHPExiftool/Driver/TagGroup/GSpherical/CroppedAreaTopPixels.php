@@ -28,13 +28,14 @@ class CroppedAreaTopPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cropped Area Top Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397206
+             * line : 281289
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CroppedAreaTopPixels extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:CroppedAreaTopPixels',
             'desc' => [
+                'en' => 'Cropped Area Top Pixels',
             ],
         ],
     ];

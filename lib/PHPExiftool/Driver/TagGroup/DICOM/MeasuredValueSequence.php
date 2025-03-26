@@ -28,13 +28,14 @@ class MeasuredValueSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measured Value Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100175
+             * line : 73350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasuredValueSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MeasuredValueSequence',
             'desc' => [
+                'en' => 'Measured Value Sequence',
             ],
         ],
     ];

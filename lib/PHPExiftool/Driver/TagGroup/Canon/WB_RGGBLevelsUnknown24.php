@@ -28,13 +28,14 @@ class WB_RGGBLevelsUnknown24 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Unknown 24',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60232
+             * line : 46419
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsUnknown24 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsUnknown24',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown 24',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60693
+             * line : 46683
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsUnknown24 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsUnknown24',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown 24',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62523
+             * line : 47731
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsUnknown24 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsUnknown24',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown 24',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 63005
+             * line : 48019
              * type : int16s
              * writable : true
              * count : 4
@@ -81,6 +85,7 @@ class WB_RGGBLevelsUnknown24 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsUnknown24',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown 24',
             ],
         ],
     ];

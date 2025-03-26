@@ -28,13 +28,14 @@ class LensFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254448
+             * line : 175739
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:LensFirmwareVersion',
             'desc' => [
+                'en' => 'Lens Firmware Version',
             ],
         ],
     ];

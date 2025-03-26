@@ -28,13 +28,14 @@ class MDItemGPSStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item GPS Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172816
+             * line : 118906
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemGPSStatus extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemGPSStatus',
             'desc' => [
+                'en' => 'MD Item GPS Status',
             ],
         ],
     ];

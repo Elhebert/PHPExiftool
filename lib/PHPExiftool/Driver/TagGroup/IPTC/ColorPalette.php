@@ -28,13 +28,14 @@ class ColorPalette extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Palette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151621
+             * line : 104512
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorPalette extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ColorPalette',
             'desc' => [
+                'en' => 'Color Palette',
             ],
         ],
     ];

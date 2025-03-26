@@ -28,13 +28,14 @@ class TimeSincePowerOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Since Power On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276076
+             * line : 192255
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeSincePowerOn extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TimeSincePowerOn',
             'desc' => [
+                'en' => 'Time Since Power On',
             ],
         ],
     ];

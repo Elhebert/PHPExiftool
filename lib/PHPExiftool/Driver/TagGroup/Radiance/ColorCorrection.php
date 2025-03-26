@@ -28,13 +28,14 @@ class ColorCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329535
+             * line : 232119
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorCorrection extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:ColorCorrection',
             'desc' => [
+                'en' => 'Color Correction',
             ],
         ],
     ];

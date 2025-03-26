@@ -28,13 +28,14 @@ class CatalogPrefixNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Catalog Prefix Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169859
+             * line : 116202
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CatalogPrefixNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CatalogPrefixNumber',
             'desc' => [
+                'en' => 'Catalog Prefix Number',
             ],
         ],
     ];

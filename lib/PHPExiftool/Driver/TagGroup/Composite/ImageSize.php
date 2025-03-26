@@ -28,13 +28,14 @@ class ImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90377
+             * line : 65170
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSize extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ImageSize',
             'desc' => [
+                'en' => 'Image Size',
             ],
         ],
     ];

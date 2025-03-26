@@ -28,13 +28,14 @@ class RawAndJpgRecording extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw And Jpg Recording',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285113
+             * line : 197767
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawAndJpgRecording extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:RawAndJpgRecording',
             'desc' => [
+                'en' => 'Raw And Jpg Recording',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DerivedFromManageUI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Manage UI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413833
+             * line : 291864
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromManageUI extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromManageUI',
             'desc' => [
+                'en' => 'Derived From Manage UI',
             ],
         ],
     ];

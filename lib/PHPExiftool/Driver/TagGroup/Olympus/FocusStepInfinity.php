@@ -28,13 +28,14 @@ class FocusStepInfinity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Step Infinity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254757
+             * line : 175893
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusStepInfinity extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:FocusStepInfinity',
             'desc' => [
+                'en' => 'Focus Step Infinity',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259188
+             * line : 178822
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocusStepInfinity extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FocusStepInfinity',
             'desc' => [
+                'en' => 'Focus Step Infinity',
             ],
         ],
     ];

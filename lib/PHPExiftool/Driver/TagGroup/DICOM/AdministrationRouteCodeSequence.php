@@ -28,13 +28,14 @@ class AdministrationRouteCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Administration Route Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100925
+             * line : 74085
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdministrationRouteCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AdministrationRouteCodeSequence',
             'desc' => [
+                'en' => 'Administration Route Code Sequence',
             ],
         ],
     ];

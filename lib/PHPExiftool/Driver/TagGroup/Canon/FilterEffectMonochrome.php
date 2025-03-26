@@ -28,13 +28,14 @@ class FilterEffectMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Filter Effect Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34561
+             * line : 26537
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FilterEffectMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:FilterEffectMonochrome',
             'desc' => [
+                'en' => 'Filter Effect Monochrome',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67482
+             * line : 51169
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FilterEffectMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:FilterEffectMonochrome',
             'desc' => [
+                'en' => 'Filter Effect Monochrome',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68580
+             * line : 51830
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FilterEffectMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:FilterEffectMonochrome',
             'desc' => [
+                'en' => 'Filter Effect Monochrome',
             ],
         ],
     ];

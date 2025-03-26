@@ -28,13 +28,14 @@ class EIssn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'E Issn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410843
+             * line : 290106
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EIssn extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:EIssn',
             'desc' => [
+                'en' => 'E Issn',
             ],
         ],
     ];

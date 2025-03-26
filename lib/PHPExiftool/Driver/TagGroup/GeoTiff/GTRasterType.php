@@ -28,13 +28,14 @@ class GTRasterType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GT Raster Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 132754
+             * line : 91055
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GTRasterType extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GTRasterType',
             'desc' => [
+                'en' => 'GT Raster Type',
             ],
         ],
     ];

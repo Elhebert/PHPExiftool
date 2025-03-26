@@ -28,13 +28,14 @@ class Subtitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subtitle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175215
+             * line : 120657
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Subtitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Subtitle',
             'desc' => [
+                'en' => 'Subtitle',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175766
+             * line : 120963
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Subtitle extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Subtitle',
             'desc' => [
+                'en' => 'Subtitle',
             ],
         ],
     ];

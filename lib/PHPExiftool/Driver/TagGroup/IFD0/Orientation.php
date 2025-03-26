@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110681
+             * line : 81476
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280563
+             * line : 194658
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

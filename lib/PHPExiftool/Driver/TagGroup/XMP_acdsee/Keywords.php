@@ -28,13 +28,14 @@ class Keywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397785
+             * line : 281601
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Keywords extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:Keywords',
             'desc' => [
+                'en' => 'Keywords',
             ],
         ],
     ];

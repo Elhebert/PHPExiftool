@@ -28,13 +28,14 @@ class HierarchicalKeywords3Applied extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hierarchical Keywords 3 Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MWG::Keywords
-             * line : 167058
+             * line : 113735
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HierarchicalKeywords3Applied extends AbstractTagGroup
              */
             'id' => 'MWG::Keywords.XMP-mwg-kw:HierarchicalKeywords3Applied',
             'desc' => [
+                'en' => 'Hierarchical Keywords 3 Applied',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LongExposureNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Long Exposure Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347535
+             * line : 243353
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348966
+             * line : 243986
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350656
+             * line : 244863
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 353947
+             * line : 246800
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360475
+             * line : 251289
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387774
+             * line : 273804
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
     ];

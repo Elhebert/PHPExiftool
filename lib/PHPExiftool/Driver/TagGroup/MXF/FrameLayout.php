@@ -28,13 +28,14 @@ class FrameLayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167812
+             * line : 114371
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameLayout extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameLayout',
             'desc' => [
+                'en' => 'Frame Layout',
             ],
         ],
     ];

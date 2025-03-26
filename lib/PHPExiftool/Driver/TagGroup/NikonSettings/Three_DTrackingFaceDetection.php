@@ -28,13 +28,14 @@ class Three_DTrackingFaceDetection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Three-D Tracking Face Detection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245133
+             * line : 167892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Three_DTrackingFaceDetection extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:Three-DTrackingFaceDetection',
             'desc' => [
+                'en' => 'Three-D Tracking Face Detection',
             ],
         ],
     ];

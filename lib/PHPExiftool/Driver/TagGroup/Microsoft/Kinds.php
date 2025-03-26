@@ -28,13 +28,14 @@ class Kinds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Kinds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175601
+             * line : 120855
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Kinds extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Kinds',
             'desc' => [
+                'en' => 'Kinds',
             ],
         ],
     ];

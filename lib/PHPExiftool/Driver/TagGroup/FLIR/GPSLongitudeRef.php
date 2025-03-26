@@ -28,13 +28,14 @@ class GPSLongitudeRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Longitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 122745
+             * line : 85921
              * type : string
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class GPSLongitudeRef extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSLongitudeRef',
             'desc' => [
+                'en' => 'GPS Longitude Ref',
             ],
         ],
     ];

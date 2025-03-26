@@ -28,13 +28,14 @@ class FrameSizeMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Size Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121941
+             * line : 85445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameSizeMin extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:FrameSizeMin',
             'desc' => [
+                'en' => 'Frame Size Min',
             ],
         ],
     ];

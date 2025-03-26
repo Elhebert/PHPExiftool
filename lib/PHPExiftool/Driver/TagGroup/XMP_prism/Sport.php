@@ -28,13 +28,14 @@ class Sport extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sport',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411119
+             * line : 290323
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sport extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Sport',
             'desc' => [
+                'en' => 'Sport',
             ],
         ],
     ];

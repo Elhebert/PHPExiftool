@@ -28,13 +28,14 @@ class WMContentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Content ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1693
+             * line : 844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMContentID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:WMContentID',
             'desc' => [
+                'en' => 'WM Content ID',
             ],
         ],
     ];

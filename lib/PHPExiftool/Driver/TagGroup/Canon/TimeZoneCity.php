@@ -28,13 +28,14 @@ class TimeZoneCity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Zone City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::TimeInfo
-             * line : 70967
+             * line : 52924
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeZoneCity extends AbstractTagGroup
              */
             'id' => 'Canon::TimeInfo.Canon:TimeZoneCity',
             'desc' => [
+                'en' => 'Time Zone City',
             ],
         ],
     ];

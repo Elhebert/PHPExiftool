@@ -28,13 +28,14 @@ class MachineStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Machine Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166973
+             * line : 113661
              * type : int8u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MachineStamp extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:MachineStamp',
             'desc' => [
+                'en' => 'Machine Stamp',
             ],
         ],
     ];

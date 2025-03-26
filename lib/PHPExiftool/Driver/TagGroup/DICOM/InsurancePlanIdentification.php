@@ -28,13 +28,14 @@ class InsurancePlanIdentification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Insurance Plan Identification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95251
+             * line : 68716
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InsurancePlanIdentification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InsurancePlanIdentification',
             'desc' => [
+                'en' => 'Insurance Plan Identification',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LargestImagePixelValueInPlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Largest Image Pixel Value In Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98818
+             * line : 72090
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargestImagePixelValueInPlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LargestImagePixelValueInPlane',
             'desc' => [
+                'en' => 'Largest Image Pixel Value In Plane',
             ],
         ],
     ];

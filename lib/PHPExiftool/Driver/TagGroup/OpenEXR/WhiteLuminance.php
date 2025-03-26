@@ -28,13 +28,14 @@ class WhiteLuminance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Luminance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263700
+             * line : 182404
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteLuminance extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:WhiteLuminance',
             'desc' => [
+                'en' => 'White Luminance',
             ],
         ],
     ];

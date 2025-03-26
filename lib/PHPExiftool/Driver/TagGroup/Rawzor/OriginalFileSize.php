@@ -28,13 +28,14 @@ class OriginalFileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original File Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Rawzor::Main
-             * line : 329607
+             * line : 232150
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalFileSize extends AbstractTagGroup
              */
             'id' => 'Rawzor::Main.Rawzor:OriginalFileSize',
             'desc' => [
+                'en' => 'Original File Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272583
+             * line : 190397
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageOffset extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:ImageOffset',
             'desc' => [
+                'en' => 'Image Offset',
             ],
         ],
     ];

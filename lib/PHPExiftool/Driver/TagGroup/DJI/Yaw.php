@@ -28,13 +28,14 @@ class Yaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Main
-             * line : 104521
+             * line : 77573
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Yaw extends AbstractTagGroup
              */
             'id' => 'DJI::Main.DJI:Yaw',
             'desc' => [
+                'en' => 'Yaw',
             ],
         ],
     ];

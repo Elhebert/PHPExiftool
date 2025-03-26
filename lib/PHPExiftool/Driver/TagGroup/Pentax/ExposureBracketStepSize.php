@@ -28,13 +28,14 @@ class ExposureBracketStepSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Bracket Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284857
+             * line : 197645
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureBracketStepSize extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:ExposureBracketStepSize',
             'desc' => [
+                'en' => 'Exposure Bracket Step Size',
             ],
         ],
     ];

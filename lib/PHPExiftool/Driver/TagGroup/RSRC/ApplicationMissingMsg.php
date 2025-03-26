@@ -28,13 +28,14 @@ class ApplicationMissingMsg extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Application Missing Msg',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RSRC::Main
-             * line : 329084
+             * line : 231986
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicationMissingMsg extends AbstractTagGroup
              */
             'id' => 'RSRC::Main.RSRC:ApplicationMissingMsg',
             'desc' => [
+                'en' => 'Application Missing Msg',
             ],
         ],
     ];

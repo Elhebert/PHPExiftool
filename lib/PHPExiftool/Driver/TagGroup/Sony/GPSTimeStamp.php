@@ -28,13 +28,14 @@ class GPSTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393672
+             * line : 279044
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSTimeStamp extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSTimeStamp',
             'desc' => [
+                'en' => 'GPS Time Stamp',
             ],
         ],
     ];

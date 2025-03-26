@@ -28,13 +28,14 @@ class LinkedProfileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Profile Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Extra
-             * line : 3173
+             * line : 1997
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedProfileName extends AbstractTagGroup
              */
             'id' => 'BMP::Extra.File:LinkedProfileName',
             'desc' => [
+                'en' => 'Linked Profile Name',
             ],
         ],
     ];

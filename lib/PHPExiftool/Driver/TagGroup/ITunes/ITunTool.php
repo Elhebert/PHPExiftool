@@ -28,13 +28,14 @@ class ITunTool extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'iTunTool',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326713
+             * line : 230444
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ITunTool extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:iTunTool',
             'desc' => [
+                'en' => 'iTunTool',
             ],
         ],
     ];

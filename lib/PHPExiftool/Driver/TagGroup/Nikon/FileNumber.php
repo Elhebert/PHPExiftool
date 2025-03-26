@@ -28,13 +28,14 @@ class FileNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FileInfo
-             * line : 192330
+             * line : 130304
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::FileInfo.Nikon:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
     ];

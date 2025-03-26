@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162241
+             * line : 110845
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

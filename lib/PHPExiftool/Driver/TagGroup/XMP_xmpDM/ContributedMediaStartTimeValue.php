@@ -28,13 +28,14 @@ class ContributedMediaStartTimeValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributed Media Start Time Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413024
+             * line : 291181
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributedMediaStartTimeValue extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaStartTimeValue',
             'desc' => [
+                'en' => 'Contributed Media Start Time Value',
             ],
         ],
     ];

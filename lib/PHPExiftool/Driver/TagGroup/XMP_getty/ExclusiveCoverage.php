@@ -28,13 +28,14 @@ class ExclusiveCoverage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exclusive Coverage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397298
+             * line : 281350
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExclusiveCoverage extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:ExclusiveCoverage',
             'desc' => [
+                'en' => 'Exclusive Coverage',
             ],
         ],
     ];

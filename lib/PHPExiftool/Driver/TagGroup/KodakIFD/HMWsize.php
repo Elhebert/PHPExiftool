@@ -28,13 +28,14 @@ class HMWsize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HM Wsize',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155816
+             * line : 107027
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HMWsize extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HMWsize',
             'desc' => [
+                'en' => 'HM Wsize',
             ],
         ],
     ];

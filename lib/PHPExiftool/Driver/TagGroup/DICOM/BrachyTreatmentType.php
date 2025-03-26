@@ -28,13 +28,14 @@ class BrachyTreatmentType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brachy Treatment Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103525
+             * line : 76620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrachyTreatmentType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BrachyTreatmentType',
             'desc' => [
+                'en' => 'Brachy Treatment Type',
             ],
         ],
     ];

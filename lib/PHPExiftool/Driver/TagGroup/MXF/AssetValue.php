@@ -28,13 +28,14 @@ class AssetValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Asset Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167722
+             * line : 114299
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AssetValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AssetValue',
             'desc' => [
+                'en' => 'Asset Value',
             ],
         ],
     ];

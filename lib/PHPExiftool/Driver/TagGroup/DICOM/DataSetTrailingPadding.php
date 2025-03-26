@@ -28,13 +28,14 @@ class DataSetTrailingPadding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Set Trailing Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104420
+             * line : 77493
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataSetTrailingPadding extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataSetTrailingPadding',
             'desc' => [
+                'en' => 'Data Set Trailing Padding',
             ],
         ],
     ];

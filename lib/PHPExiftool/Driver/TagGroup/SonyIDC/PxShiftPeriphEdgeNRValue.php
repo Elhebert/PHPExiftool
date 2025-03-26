@@ -28,13 +28,14 @@ class PxShiftPeriphEdgeNRValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Px Shift Periph Edge NR Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394466
+             * line : 279439
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PxShiftPeriphEdgeNRValue extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:PxShiftPeriphEdgeNRValue',
             'desc' => [
+                'en' => 'Px Shift Periph Edge NR Value',
             ],
         ],
     ];

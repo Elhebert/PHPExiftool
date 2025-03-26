@@ -28,13 +28,14 @@ class RecurrenceRule extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recurrence Rule',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395496
+             * line : 280053
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecurrenceRule extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:RecurrenceRule',
             'desc' => [
+                'en' => 'Recurrence Rule',
             ],
         ],
     ];

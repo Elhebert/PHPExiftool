@@ -28,13 +28,14 @@ class SRResult extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SR Result',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::SRInfo
-             * line : 301574
+             * line : 209864
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SRResult extends AbstractTagGroup
              */
             'id' => 'Pentax::SRInfo.Pentax:SRResult',
             'desc' => [
+                'en' => 'SR Result',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::SRInfo2
-             * line : 301667
+             * line : 209923
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SRResult extends AbstractTagGroup
              */
             'id' => 'Pentax::SRInfo2.Pentax:SRResult',
             'desc' => [
+                'en' => 'SR Result',
             ],
         ],
     ];

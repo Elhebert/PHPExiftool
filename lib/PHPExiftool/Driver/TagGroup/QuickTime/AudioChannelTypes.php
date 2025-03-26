@@ -28,13 +28,14 @@ class AudioChannelTypes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channel Types',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ChannelLayout
-             * line : 310815
+             * line : 216692
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioChannelTypes extends AbstractTagGroup
              */
             'id' => 'QuickTime::ChannelLayout.QuickTime:AudioChannelTypes',
             'desc' => [
+                'en' => 'Audio Channel Types',
             ],
         ],
     ];

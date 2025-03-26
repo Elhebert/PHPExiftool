@@ -28,13 +28,14 @@ class RetouchAreaSpotType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Spot Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404285
+             * line : 287396
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaSpotType extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaSpotType',
             'desc' => [
+                'en' => 'Retouch Area Spot Type',
             ],
         ],
     ];

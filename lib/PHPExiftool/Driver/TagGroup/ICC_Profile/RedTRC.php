@@ -28,13 +28,14 @@ class RedTRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Tone Reproduction Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146549
+             * line : 101856
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedTRC extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:RedTRC',
             'desc' => [
+                'en' => 'Red Tone Reproduction Curve',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfDetectors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Detectors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100826
+             * line : 73986
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfDetectors extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfDetectors',
             'desc' => [
+                'en' => 'Number Of Detectors',
             ],
         ],
     ];

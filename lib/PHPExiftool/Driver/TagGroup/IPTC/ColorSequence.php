@@ -28,13 +28,14 @@ class ColorSequence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151574
+             * line : 104497
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSequence extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:ColorSequence',
             'desc' => [
+                'en' => 'Color Sequence',
             ],
         ],
     ];

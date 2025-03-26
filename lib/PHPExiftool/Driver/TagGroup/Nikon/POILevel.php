@@ -28,13 +28,14 @@ class POILevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'POI Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LocationInfo
-             * line : 196290
+             * line : 132775
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class POILevel extends AbstractTagGroup
              */
             'id' => 'Nikon::LocationInfo.Nikon:POILevel',
             'desc' => [
+                'en' => 'POI Level',
             ],
         ],
     ];

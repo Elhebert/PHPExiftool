@@ -28,13 +28,14 @@ class ApproximateFocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Approximate Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397917
+             * line : 281657
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApproximateFocusDistance extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:ApproximateFocusDistance',
             'desc' => [
+                'en' => 'Approximate Focus Distance',
             ],
         ],
     ];

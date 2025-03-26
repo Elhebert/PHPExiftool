@@ -28,13 +28,14 @@ class WorldToCamera extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'World To Camera',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263704
+             * line : 182407
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WorldToCamera extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:WorldToCamera',
             'desc' => [
+                'en' => 'World To Camera',
             ],
         ],
     ];

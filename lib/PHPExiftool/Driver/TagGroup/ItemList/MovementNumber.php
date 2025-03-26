@@ -28,13 +28,14 @@ class MovementNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movement Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323093
+             * line : 228468
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovementNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:MovementNumber',
             'desc' => [
+                'en' => 'Movement Number',
             ],
         ],
     ];

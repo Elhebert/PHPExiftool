@@ -28,13 +28,14 @@ class RicohImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ricoh Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 331930
+             * line : 233202
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RicohImageHeight extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:RicohImageHeight',
             'desc' => [
+                'en' => 'Ricoh Image Height',
             ],
         ],
     ];

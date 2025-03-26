@@ -28,13 +28,14 @@ class Tempo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tempo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413463
+             * line : 291555
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Tempo extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Tempo',
             'desc' => [
+                'en' => 'Tempo',
             ],
         ],
     ];

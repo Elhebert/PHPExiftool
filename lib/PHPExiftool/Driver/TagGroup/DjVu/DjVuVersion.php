@@ -28,13 +28,14 @@ class DjVuVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DjVu Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Info
-             * line : 107120
+             * line : 79206
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class DjVuVersion extends AbstractTagGroup
              */
             'id' => 'DjVu::Info.DjVu:DjVuVersion',
             'desc' => [
+                'en' => 'DjVu Version',
             ],
         ],
     ];

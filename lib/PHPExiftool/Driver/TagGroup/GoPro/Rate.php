@@ -28,13 +28,14 @@ class Rate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139746
+             * line : 97731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rate extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:Rate',
             'desc' => [
+                'en' => 'Rate',
             ],
         ],
     ];

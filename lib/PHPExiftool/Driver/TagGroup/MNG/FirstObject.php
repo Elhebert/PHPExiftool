@@ -28,13 +28,14 @@ class FirstObject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::ClipObjects
-             * line : 164676
+             * line : 111895
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FirstObject extends AbstractTagGroup
              */
             'id' => 'MNG::ClipObjects.MNG:FirstObject',
             'desc' => [
+                'en' => 'First Object',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::MoveObjects
-             * line : 165228
+             * line : 112320
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FirstObject extends AbstractTagGroup
              */
             'id' => 'MNG::MoveObjects.MNG:FirstObject',
             'desc' => [
+                'en' => 'First Object',
             ],
         ],
         2 => [
             /**
              * table_name : MNG::ShowObjects
-             * line : 165381
+             * line : 112451
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FirstObject extends AbstractTagGroup
              */
             'id' => 'MNG::ShowObjects.MNG:FirstObject',
             'desc' => [
+                'en' => 'First Object',
             ],
         ],
     ];

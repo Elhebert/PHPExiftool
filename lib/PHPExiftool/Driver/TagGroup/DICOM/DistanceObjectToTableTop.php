@@ -28,13 +28,14 @@ class DistanceObjectToTableTop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Object To Table Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97090
+             * line : 70489
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceObjectToTableTop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceObjectToTableTop',
             'desc' => [
+                'en' => 'Distance Object To Table Top',
             ],
         ],
     ];

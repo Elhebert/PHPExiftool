@@ -28,13 +28,14 @@ class WedgeFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Wedge Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103203
+             * line : 76299
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WedgeFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WedgeFactor',
             'desc' => [
+                'en' => 'Wedge Factor',
             ],
         ],
     ];

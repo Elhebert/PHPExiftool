@@ -28,13 +28,14 @@ class WorldToNDC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'World To NDC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263708
+             * line : 182410
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WorldToNDC extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:WorldToNDC',
             'desc' => [
+                'en' => 'World To NDC',
             ],
         ],
     ];

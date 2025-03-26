@@ -28,13 +28,14 @@ class MDItemAccountHandles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Account Handles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172544
+             * line : 118703
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemAccountHandles extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemAccountHandles',
             'desc' => [
+                'en' => 'MD Item Account Handles',
             ],
         ],
     ];

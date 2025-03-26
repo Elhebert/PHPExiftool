@@ -28,13 +28,14 @@ class OffsetY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PiP
-             * line : 123657
+             * line : 86458
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OffsetY extends AbstractTagGroup
              */
             'id' => 'FLIR::PiP.FLIR:OffsetY',
             'desc' => [
+                'en' => 'Offset Y',
             ],
         ],
     ];

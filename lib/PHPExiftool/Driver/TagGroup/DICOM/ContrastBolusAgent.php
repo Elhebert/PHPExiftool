@@ -28,13 +28,14 @@ class ContrastBolusAgent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Bolus Agent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95405
+             * line : 68866
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastBolusAgent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastBolusAgent',
             'desc' => [
+                'en' => 'Contrast Bolus Agent',
             ],
         ],
     ];

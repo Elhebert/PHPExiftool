@@ -28,13 +28,14 @@ class ShutterPresentationColorCIELabVal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Presentation Color CIE Lab Val',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96090
+             * line : 69511
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterPresentationColorCIELabVal extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShutterPresentationColorCIELabVal',
             'desc' => [
+                'en' => 'Shutter Presentation Color CIE Lab Val',
             ],
         ],
     ];

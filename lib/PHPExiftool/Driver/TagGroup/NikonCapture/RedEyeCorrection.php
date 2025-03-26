@@ -28,13 +28,14 @@ class RedEyeCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Eye Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::RedEyeData
-             * line : 211259
+             * line : 142049
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedEyeCorrection extends AbstractTagGroup
              */
             'id' => 'NikonCapture::RedEyeData.NikonCapture:RedEyeCorrection',
             'desc' => [
+                'en' => 'Red Eye Correction',
             ],
         ],
     ];

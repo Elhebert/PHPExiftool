@@ -28,13 +28,14 @@ class ColorMatrixNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258796
+             * line : 178680
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMatrixNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ColorMatrixNumber',
             'desc' => [
+                'en' => 'Color Matrix Number',
             ],
         ],
     ];

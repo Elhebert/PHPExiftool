@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 186857
+             * line : 126925
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

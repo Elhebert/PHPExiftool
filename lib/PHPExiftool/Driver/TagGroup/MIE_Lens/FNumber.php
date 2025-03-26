@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 163895
+             * line : 111534
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

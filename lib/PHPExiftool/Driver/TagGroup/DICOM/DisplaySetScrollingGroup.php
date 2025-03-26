@@ -28,13 +28,14 @@ class DisplaySetScrollingGroup extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Set Scrolling Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101598
+             * line : 74742
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplaySetScrollingGroup extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplaySetScrollingGroup',
             'desc' => [
+                'en' => 'Display Set Scrolling Group',
             ],
         ],
     ];

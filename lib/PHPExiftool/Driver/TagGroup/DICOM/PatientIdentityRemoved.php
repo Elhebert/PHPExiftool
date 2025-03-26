@@ -28,13 +28,14 @@ class PatientIdentityRemoved extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Identity Removed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95380
+             * line : 68842
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientIdentityRemoved extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientIdentityRemoved',
             'desc' => [
+                'en' => 'Patient Identity Removed',
             ],
         ],
     ];

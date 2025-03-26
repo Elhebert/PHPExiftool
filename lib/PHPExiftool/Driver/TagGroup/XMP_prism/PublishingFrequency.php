@@ -28,13 +28,14 @@ class PublishingFrequency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Publishing Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411084
+             * line : 290302
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PublishingFrequency extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:PublishingFrequency',
             'desc' => [
+                'en' => 'Publishing Frequency',
             ],
         ],
     ];

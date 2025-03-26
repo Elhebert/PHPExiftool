@@ -28,13 +28,14 @@ class ColorTemperatureSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181376
+             * line : 123392
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTemperatureSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorTemperatureSetting',
             'desc' => [
+                'en' => 'Color Temperature Setting',
             ],
         ],
     ];

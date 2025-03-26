@@ -28,13 +28,14 @@ class BufferSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Buffer Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Bitrate
-             * line : 310507
+             * line : 216403
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BufferSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::Bitrate.QuickTime:BufferSize',
             'desc' => [
+                'en' => 'Buffer Size',
             ],
         ],
     ];

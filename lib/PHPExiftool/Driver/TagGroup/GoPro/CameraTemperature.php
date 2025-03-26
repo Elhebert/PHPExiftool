@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139797
+             * line : 97764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

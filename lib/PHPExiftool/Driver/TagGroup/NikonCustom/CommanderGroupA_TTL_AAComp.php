@@ -28,13 +28,14 @@ class CommanderGroupA_TTL_AAComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Commander Group A TTL-AA Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228853
+             * line : 153934
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CommanderGroupA_TTL_AAComp extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:CommanderGroupA_TTL-AAComp',
             'desc' => [
+                'en' => 'Commander Group A TTL-AA Comp',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229376
+             * line : 154224
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CommanderGroupA_TTL_AAComp extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:CommanderGroupA_TTL-AAComp',
             'desc' => [
+                'en' => 'Commander Group A TTL-AA Comp',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ZipFileComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip File Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414943
+             * line : 292755
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipFileComment extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipFileComment',
             'desc' => [
+                'en' => 'Zip File Comment',
             ],
         ],
     ];

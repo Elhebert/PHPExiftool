@@ -28,13 +28,14 @@ class ScoutType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scout Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98495
+             * line : 71827
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScoutType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScoutType',
             'desc' => [
+                'en' => 'Scout Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Isotherm2Color extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isotherm 2 Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123527
+             * line : 86334
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class Isotherm2Color extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:Isotherm2Color',
             'desc' => [
+                'en' => 'Isotherm 2 Color',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JVC::Main
-             * line : 153407
+             * line : 105424
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'JVC::Main.JVC:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         1 => [
             /**
              * table_name : JVC::Text
-             * line : 153478
+             * line : 105442
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'JVC::Text.JVC:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

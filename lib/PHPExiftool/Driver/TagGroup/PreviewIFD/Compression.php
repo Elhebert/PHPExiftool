@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PreviewIFD
-             * line : 204682
+             * line : 137725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'Nikon::PreviewIFD.PreviewIFD:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

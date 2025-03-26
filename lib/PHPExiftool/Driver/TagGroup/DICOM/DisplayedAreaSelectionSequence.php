@@ -28,13 +28,14 @@ class DisplayedAreaSelectionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Displayed Area Selection Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101309
+             * line : 74457
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayedAreaSelectionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplayedAreaSelectionSequence',
             'desc' => [
+                'en' => 'Displayed Area Selection Sequence',
             ],
         ],
     ];

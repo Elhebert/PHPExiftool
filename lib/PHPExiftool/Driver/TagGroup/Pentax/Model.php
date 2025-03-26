@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Junk
-             * line : 288305
+             * line : 200038
              * type : string
              * writable : false
              * count : 32
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk.Pentax:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Junk2
-             * line : 288345
+             * line : 200048
              * type : string
              * writable : false
              * count : 24
@@ -55,12 +57,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk2.Pentax:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Main
-             * line : 300893
+             * line : 209697
              * type : string
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 300962
+             * line : 209719
              * type : string
              * writable : false
              * count : 24
@@ -81,6 +85,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

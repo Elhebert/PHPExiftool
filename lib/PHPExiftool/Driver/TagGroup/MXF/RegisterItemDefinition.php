@@ -28,13 +28,14 @@ class RegisterItemDefinition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Item Definition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172325
+             * line : 118486
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterItemDefinition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterItemDefinition',
             'desc' => [
+                'en' => 'Register Item Definition',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Rows extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98676
+             * line : 71959
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rows extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Rows',
             'desc' => [
+                'en' => 'Rows',
             ],
         ],
     ];

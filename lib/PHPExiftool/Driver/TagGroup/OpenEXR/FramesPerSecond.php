@@ -28,13 +28,14 @@ class FramesPerSecond extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frames Per Second',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263563
+             * line : 182342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramesPerSecond extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:FramesPerSecond',
             'desc' => [
+                'en' => 'Frames Per Second',
             ],
         ],
     ];

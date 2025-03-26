@@ -28,13 +28,14 @@ class ElementDelta extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Element Delta',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170805
+             * line : 117036
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElementDelta extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ElementDelta',
             'desc' => [
+                'en' => 'Element Delta',
             ],
         ],
     ];

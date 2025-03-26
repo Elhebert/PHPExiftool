@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 186875
+             * line : 126928
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

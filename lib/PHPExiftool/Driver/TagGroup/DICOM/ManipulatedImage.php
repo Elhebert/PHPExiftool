@@ -28,13 +28,14 @@ class ManipulatedImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manipulated Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98711
+             * line : 71986
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ManipulatedImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ManipulatedImage',
             'desc' => [
+                'en' => 'Manipulated Image',
             ],
         ],
     ];

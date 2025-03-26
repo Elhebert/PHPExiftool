@@ -28,13 +28,14 @@ class StreamPreroll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Preroll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330393
+             * line : 232484
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamPreroll extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamPreroll',
             'desc' => [
+                'en' => 'Stream Preroll',
             ],
         ],
     ];

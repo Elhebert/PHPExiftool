@@ -28,13 +28,14 @@ class ShutterSpeedValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303468
+             * line : 210870
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedValue extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ShutterSpeedValue',
             'desc' => [
+                'en' => 'Shutter Speed Value',
             ],
         ],
     ];

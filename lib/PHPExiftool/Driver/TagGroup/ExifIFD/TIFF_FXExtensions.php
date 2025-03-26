@@ -28,13 +28,14 @@ class TIFF_FXExtensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TIFF FX Extensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113458
+             * line : 82469
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TIFF_FXExtensions extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TIFF_FXExtensions',
             'desc' => [
+                'en' => 'TIFF FX Extensions',
             ],
         ],
     ];

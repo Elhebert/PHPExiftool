@@ -28,13 +28,14 @@ class IdentificationVerificationStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Identification Verification Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106337
+             * line : 78650
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IdentificationVerificationStatus extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:IdentificationVerificationStatus',
             'desc' => [
+                'en' => 'Identification Verification Status',
             ],
         ],
     ];

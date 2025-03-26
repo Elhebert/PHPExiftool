@@ -28,13 +28,14 @@ class FactoryWhiteGainsDaylight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Factory White Gains Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155723
+             * line : 106934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FactoryWhiteGainsDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FactoryWhiteGainsDaylight',
             'desc' => [
+                'en' => 'Factory White Gains Daylight',
             ],
         ],
     ];

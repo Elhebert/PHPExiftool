@@ -28,13 +28,14 @@ class BulkMotionStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bulk Motion Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96814
+             * line : 70216
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BulkMotionStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BulkMotionStatus',
             'desc' => [
+                'en' => 'Bulk Motion Status',
             ],
         ],
     ];

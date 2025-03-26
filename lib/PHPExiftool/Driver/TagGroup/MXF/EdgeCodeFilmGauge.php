@@ -28,13 +28,14 @@ class EdgeCodeFilmGauge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edge Code Film Gauge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169200
+             * line : 115642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EdgeCodeFilmGauge extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EdgeCodeFilmGauge',
             'desc' => [
+                'en' => 'Edge Code Film Gauge',
             ],
         ],
     ];

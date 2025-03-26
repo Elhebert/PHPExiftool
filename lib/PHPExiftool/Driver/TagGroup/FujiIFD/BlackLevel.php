@@ -28,13 +28,14 @@ class BlackLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128707
+             * line : 89303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
     ];

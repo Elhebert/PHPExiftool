@@ -28,13 +28,14 @@ class DefectPixCorEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Defect Pix Cor Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307404
+             * line : 213902
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefectPixCorEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DefectPixCorEnable',
             'desc' => [
+                'en' => 'Defect Pix Cor Enable',
             ],
         ],
     ];

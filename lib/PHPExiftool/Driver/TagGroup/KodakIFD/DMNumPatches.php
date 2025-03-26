@@ -28,13 +28,14 @@ class DMNumPatches extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DM Num Patches',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155771
+             * line : 106982
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DMNumPatches extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMNumPatches',
             'desc' => [
+                'en' => 'DM Num Patches',
             ],
         ],
     ];

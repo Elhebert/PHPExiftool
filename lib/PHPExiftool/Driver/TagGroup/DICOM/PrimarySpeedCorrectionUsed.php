@@ -28,13 +28,14 @@ class PrimarySpeedCorrectionUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Speed Correction Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97815
+             * line : 71194
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimarySpeedCorrectionUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimarySpeedCorrectionUsed',
             'desc' => [
+                'en' => 'Primary Speed Correction Used',
             ],
         ],
     ];

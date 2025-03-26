@@ -28,13 +28,14 @@ class GeographicType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geographic Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 132771
+             * line : 91072
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeographicType extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeographicType',
             'desc' => [
+                'en' => 'Geographic Type',
             ],
         ],
     ];

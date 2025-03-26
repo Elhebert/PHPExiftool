@@ -28,13 +28,14 @@ class OtherCodecName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Codec Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::CodecList
-             * line : 880
+             * line : 326
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherCodecName extends AbstractTagGroup
              */
             'id' => 'ASF::CodecList.ASF:OtherCodecName',
             'desc' => [
+                'en' => 'Other Codec Name',
             ],
         ],
     ];

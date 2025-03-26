@@ -28,13 +28,14 @@ class ColorTempAsShot extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp As Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59156
+             * line : 45865
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59434
+             * line : 46007
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59712
+             * line : 46149
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 59861
+             * line : 46224
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60311
+             * line : 46482
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60767
+             * line : 46738
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61090
+             * line : 46909
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61409
+             * line : 47119
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61742
+             * line : 47302
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62152
+             * line : 47536
              * type : int16s
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62634
+             * line : 47824
              * type : int16s
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ColorTempAsShot extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempAsShot',
             'desc' => [
+                'en' => 'Color Temp As Shot',
             ],
         ],
     ];

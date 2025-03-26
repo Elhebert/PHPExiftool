@@ -28,13 +28,14 @@ class PanScanInformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pan Scan Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172376
+             * line : 118537
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PanScanInformation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PanScanInformation',
             'desc' => [
+                'en' => 'Pan Scan Information',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageBoxLargeScrollType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Large Scroll Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101634
+             * line : 74778
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxLargeScrollType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxLargeScrollType',
             'desc' => [
+                'en' => 'Image Box Large Scroll Type',
             ],
         ],
     ];

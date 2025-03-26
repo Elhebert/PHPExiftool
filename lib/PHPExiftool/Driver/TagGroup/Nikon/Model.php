@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191156
+             * line : 129891
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:Model',
             'desc' => [
+                'en' => 'Model',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196332
+             * line : 132788
              * type : string
              * writable : false
              * count : 8
@@ -55,12 +57,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202131
+             * line : 136908
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:Model',
             'desc' => [
+                'en' => 'Model',
             ],
         ],
     ];

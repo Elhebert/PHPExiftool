@@ -28,13 +28,14 @@ class LengthToEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Length To End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94649
+             * line : 68149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LengthToEnd extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LengthToEnd',
             'desc' => [
+                'en' => 'Length To End',
             ],
         ],
     ];

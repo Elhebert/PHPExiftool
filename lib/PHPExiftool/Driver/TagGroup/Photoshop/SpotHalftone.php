@@ -28,13 +28,14 @@ class SpotHalftone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spot Halftone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305546
+             * line : 212310
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpotHalftone extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:SpotHalftone',
             'desc' => [
+                'en' => 'Spot Halftone',
             ],
         ],
     ];

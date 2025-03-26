@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191380
+             * line : 129935
              * type : rational64s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196386
+             * line : 132797
              * type : rational64s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202487
+             * line : 136996
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

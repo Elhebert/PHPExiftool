@@ -28,13 +28,14 @@ class ConstantBPictureFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Constant B Picture Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171223
+             * line : 117435
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConstantBPictureFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ConstantBPictureFlag',
             'desc' => [
+                'en' => 'Constant B Picture Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AnimationLoopCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Animation Loop Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::ANIM
-             * line : 326899
+             * line : 230557
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnimationLoopCount extends AbstractTagGroup
              */
             'id' => 'RIFF::ANIM.RIFF:AnimationLoopCount',
             'desc' => [
+                'en' => 'Animation Loop Count',
             ],
         ],
     ];

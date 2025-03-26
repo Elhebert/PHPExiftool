@@ -28,13 +28,14 @@ class ZipBitFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zip Bit Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::Main
-             * line : 414830
+             * line : 292675
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZipBitFlag extends AbstractTagGroup
              */
             'id' => 'ZIP::Main.ZIP:ZipBitFlag',
             'desc' => [
+                'en' => 'Zip Bit Flag',
             ],
         ],
     ];

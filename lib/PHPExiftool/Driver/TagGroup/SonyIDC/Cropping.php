@@ -28,13 +28,14 @@ class Cropping extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cropping',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394424
+             * line : 279411
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Cropping extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:Cropping',
             'desc' => [
+                'en' => 'Cropping',
             ],
         ],
     ];

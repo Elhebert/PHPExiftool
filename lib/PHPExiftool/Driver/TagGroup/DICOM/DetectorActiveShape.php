@@ -28,13 +28,14 @@ class DetectorActiveShape extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Active Shape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96439
+             * line : 69847
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorActiveShape extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorActiveShape',
             'desc' => [
+                'en' => 'Detector Active Shape',
             ],
         ],
     ];

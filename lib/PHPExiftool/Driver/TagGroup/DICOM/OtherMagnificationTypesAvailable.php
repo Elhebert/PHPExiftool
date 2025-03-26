@@ -28,13 +28,14 @@ class OtherMagnificationTypesAvailable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Magnification Types Available',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102073
+             * line : 75210
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherMagnificationTypesAvailable extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OtherMagnificationTypesAvailable',
             'desc' => [
+                'en' => 'Other Magnification Types Available',
             ],
         ],
     ];

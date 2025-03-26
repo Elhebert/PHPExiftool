@@ -28,13 +28,14 @@ class DetectorExposuresSinceCalibration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Exposures Since Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96415
+             * line : 69823
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorExposuresSinceCalibration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorExposuresSinceCalibration',
             'desc' => [
+                'en' => 'Detector Exposures Since Calibration',
             ],
         ],
     ];

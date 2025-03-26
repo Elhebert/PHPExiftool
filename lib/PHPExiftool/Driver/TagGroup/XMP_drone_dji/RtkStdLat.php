@@ -28,13 +28,14 @@ class RtkStdLat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rtk Std Lat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104729
+             * line : 77719
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RtkStdLat extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:RtkStdLat',
             'desc' => [
+                'en' => 'Rtk Std Lat',
             ],
         ],
     ];

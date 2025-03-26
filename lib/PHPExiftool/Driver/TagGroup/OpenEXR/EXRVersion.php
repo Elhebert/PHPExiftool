@@ -28,13 +28,14 @@ class EXRVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EXR Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263379
+             * line : 182266
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EXRVersion extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:EXRVersion',
             'desc' => [
+                'en' => 'EXR Version',
             ],
         ],
     ];

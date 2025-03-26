@@ -28,13 +28,14 @@ class R2D65RedStbl02 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 D65 Red Stbl 02',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 309118
+             * line : 215237
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2D65RedStbl02 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2D65RedStbl02',
             'desc' => [
+                'en' => 'R2 D65 Red Stbl 02',
             ],
         ],
     ];

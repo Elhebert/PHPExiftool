@@ -28,13 +28,14 @@ class PhotoResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Photo Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139658
+             * line : 97705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhotoResolution extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:PhotoResolution',
             'desc' => [
+                'en' => 'Photo Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LinearityUpperMargin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Linearity Upper Margin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60289
+             * line : 46464
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60734
+             * line : 46716
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61333
+             * line : 47050
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61348
+             * line : 47065
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61357
+             * line : 47074
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61717
+             * line : 47281
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62105
+             * line : 47494
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62121
+             * line : 47509
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62591
+             * line : 47785
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62603
+             * line : 47797
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 63062
+             * line : 48064
              * type : int16u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class LinearityUpperMargin extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:LinearityUpperMargin',
             'desc' => [
+                'en' => 'Linearity Upper Margin',
             ],
         ],
     ];

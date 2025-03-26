@@ -28,13 +28,14 @@ class CreationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102228
+             * line : 75354
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreationDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CreationDate',
             'desc' => [
+                'en' => 'Creation Date',
             ],
         ],
     ];

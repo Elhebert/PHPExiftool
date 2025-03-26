@@ -28,13 +28,14 @@ class DishType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dish Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411220
+             * line : 290415
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DishType extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:DishType',
             'desc' => [
+                'en' => 'Dish Type',
             ],
         ],
     ];

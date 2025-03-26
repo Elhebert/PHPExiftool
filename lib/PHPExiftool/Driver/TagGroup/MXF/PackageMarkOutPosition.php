@@ -28,13 +28,14 @@ class PackageMarkOutPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Mark Out Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172292
+             * line : 118456
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageMarkOutPosition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageMarkOutPosition',
             'desc' => [
+                'en' => 'Package Mark Out Position',
             ],
         ],
     ];

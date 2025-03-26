@@ -28,13 +28,14 @@ class SeriesIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Series Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409736
+             * line : 289495
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SeriesIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SeriesIdentifier',
             'desc' => [
+                'en' => 'Series Identifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SensorTemperature2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Temperature 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::TempInfo
-             * line : 301816
+             * line : 210003
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorTemperature2 extends AbstractTagGroup
              */
             'id' => 'Pentax::TempInfo.Pentax:SensorTemperature2',
             'desc' => [
+                'en' => 'Sensor Temperature 2',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RollAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277664
+             * line : 193109
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
     ];

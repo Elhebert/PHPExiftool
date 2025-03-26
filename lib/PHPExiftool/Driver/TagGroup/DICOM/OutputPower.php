@@ -28,13 +28,14 @@ class OutputPower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96181
+             * line : 69598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputPower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OutputPower',
             'desc' => [
+                'en' => 'Output Power',
             ],
         ],
     ];

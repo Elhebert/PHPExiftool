@@ -28,13 +28,14 @@ class StoreDescription extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Store Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322349
+             * line : 227850
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StoreDescription extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:StoreDescription',
             'desc' => [
+                'en' => 'Store Description',
             ],
         ],
     ];

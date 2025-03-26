@@ -28,13 +28,14 @@ class FinishExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finish Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156351
+             * line : 107555
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinishExposure extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishExposure',
             'desc' => [
+                'en' => 'Finish Exposure',
             ],
         ],
     ];

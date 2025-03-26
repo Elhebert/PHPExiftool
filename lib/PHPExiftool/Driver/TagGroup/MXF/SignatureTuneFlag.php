@@ -28,13 +28,14 @@ class SignatureTuneFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature Tune Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170348
+             * line : 116607
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignatureTuneFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SignatureTuneFlag',
             'desc' => [
+                'en' => 'Signature Tune Flag',
             ],
         ],
     ];

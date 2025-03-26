@@ -28,13 +28,14 @@ class CreativeStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creative Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347268
+             * line : 243230
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CreativeStyle extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:CreativeStyle',
             'desc' => [
+                'en' => 'Creative Style',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348836
+             * line : 243937
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CreativeStyle extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:CreativeStyle',
             'desc' => [
+                'en' => 'Creative Style',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353256
+             * line : 246555
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CreativeStyle extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:CreativeStyle',
             'desc' => [
+                'en' => 'Creative Style',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 356335
+             * line : 248689
              * type : string
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CreativeStyle extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:CreativeStyle',
             'desc' => [
+                'en' => 'Creative Style',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 388104
+             * line : 273966
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class CreativeStyle extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:CreativeStyle',
             'desc' => [
+                'en' => 'Creative Style',
             ],
         ],
     ];

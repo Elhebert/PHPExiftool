@@ -28,13 +28,14 @@ class Course extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Course',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411211
+             * line : 290406
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Course extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:Course',
             'desc' => [
+                'en' => 'Course',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedSourceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Source Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103975
+             * line : 77064
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSourceNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSourceNumber',
             'desc' => [
+                'en' => 'Referenced Source Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumberOfScreens extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Screens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101551
+             * line : 74697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfScreens extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfScreens',
             'desc' => [
+                'en' => 'Number Of Screens',
             ],
         ],
     ];

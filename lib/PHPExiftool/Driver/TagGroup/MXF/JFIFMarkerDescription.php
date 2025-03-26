@@ -28,13 +28,14 @@ class JFIFMarkerDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JFIF Marker Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172051
+             * line : 118225
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class JFIFMarkerDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:JFIFMarkerDescription',
             'desc' => [
+                'en' => 'JFIF Marker Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172054
+             * line : 118228
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class JFIFMarkerDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:JFIFMarkerDescription',
             'desc' => [
+                'en' => 'JFIF Marker Description',
             ],
         ],
     ];

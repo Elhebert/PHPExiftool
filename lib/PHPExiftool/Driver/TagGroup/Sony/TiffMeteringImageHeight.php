@@ -28,13 +28,14 @@ class TiffMeteringImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tiff Metering Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag940e
-             * line : 391021
+             * line : 276756
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TiffMeteringImageHeight extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940e.Sony:TiffMeteringImageHeight',
             'desc' => [
+                'en' => 'Tiff Metering Image Height',
             ],
         ],
     ];

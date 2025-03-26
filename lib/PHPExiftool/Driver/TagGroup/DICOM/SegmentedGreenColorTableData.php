@@ -28,13 +28,14 @@ class SegmentedGreenColorTableData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segmented Green Color Table Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99025
+             * line : 72261
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentedGreenColorTableData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentedGreenColorTableData',
             'desc' => [
+                'en' => 'Segmented Green Color Table Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TestName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Test Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121543
+             * line : 85250
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TestName extends AbstractTagGroup
              */
             'id' => 'Extra.File:TestName',
             'desc' => [
+                'en' => 'Test Name',
             ],
         ],
     ];

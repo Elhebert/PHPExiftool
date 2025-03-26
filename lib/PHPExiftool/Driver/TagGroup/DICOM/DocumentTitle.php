@@ -28,13 +28,14 @@ class DocumentTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Document Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100272
+             * line : 73446
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocumentTitle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DocumentTitle',
             'desc' => [
+                'en' => 'Document Title',
             ],
         ],
     ];

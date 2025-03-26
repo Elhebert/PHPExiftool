@@ -28,13 +28,14 @@ class TomoTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tomo Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96024
+             * line : 69445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TomoTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TomoTime',
             'desc' => [
+                'en' => 'Tomo Time',
             ],
         ],
     ];

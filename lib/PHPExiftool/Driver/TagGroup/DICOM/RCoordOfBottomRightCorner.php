@@ -28,13 +28,14 @@ class RCoordOfBottomRightCorner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R Coord Of Bottom Right Corner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98565
+             * line : 71896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RCoordOfBottomRightCorner extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RCoordOfBottomRightCorner',
             'desc' => [
+                'en' => 'R Coord Of Bottom Right Corner',
             ],
         ],
     ];

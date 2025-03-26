@@ -28,13 +28,14 @@ class GammaSharpnessStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Sharpness Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82018
+             * line : 60112
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaSharpnessStrength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaSharpnessStrength',
             'desc' => [
+                'en' => 'Gamma Sharpness Strength',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IntellectualPropertyNotes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intellectual Property Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124968
+             * line : 87303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntellectualPropertyNotes extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:IntellectualPropertyNotes',
             'desc' => [
+                'en' => 'Intellectual Property Notes',
             ],
         ],
     ];

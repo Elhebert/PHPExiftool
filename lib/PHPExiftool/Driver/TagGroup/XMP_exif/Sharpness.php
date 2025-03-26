@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408095
+             * line : 288466
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

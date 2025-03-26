@@ -28,13 +28,14 @@ class PostFocusMerging extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Post Focus Merging',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278032
+             * line : 193411
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class PostFocusMerging extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:PostFocusMerging',
             'desc' => [
+                'en' => 'Post Focus Merging',
             ],
         ],
     ];

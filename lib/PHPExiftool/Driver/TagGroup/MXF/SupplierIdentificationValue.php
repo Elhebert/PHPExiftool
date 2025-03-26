@@ -28,13 +28,14 @@ class SupplierIdentificationValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Supplier Identification Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170610
+             * line : 116850
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SupplierIdentificationValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SupplierIdentificationValue',
             'desc' => [
+                'en' => 'Supplier Identification Value',
             ],
         ],
     ];

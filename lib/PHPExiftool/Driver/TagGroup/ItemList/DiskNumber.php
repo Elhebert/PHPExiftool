@@ -28,13 +28,14 @@ class DiskNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Disk Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314220
+             * line : 219798
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DiskNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:DiskNumber',
             'desc' => [
+                'en' => 'Disk Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AmbientTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ambient Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9402
-             * line : 384694
+             * line : 271270
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AmbientTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9402.Sony:AmbientTemperature',
             'desc' => [
+                'en' => 'Ambient Temperature',
             ],
         ],
     ];

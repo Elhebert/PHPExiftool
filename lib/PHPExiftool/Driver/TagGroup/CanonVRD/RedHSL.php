@@ -28,13 +28,14 @@ class RedHSL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red HSL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80760
+             * line : 58875
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedHSL extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:RedHSL',
             'desc' => [
+                'en' => 'Red HSL',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90642
+             * line : 65242
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 93656
+             * line : 67842
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         2 => [
             /**
              * table_name : Composite
-             * line : 93674
+             * line : 67845
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         3 => [
             /**
              * table_name : Composite
-             * line : 93837
+             * line : 67910
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
     ];

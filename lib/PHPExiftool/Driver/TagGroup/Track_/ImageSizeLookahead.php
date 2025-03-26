@@ -28,13 +28,14 @@ class ImageSizeLookahead extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Size Lookahead',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackHeader
-             * line : 325073
+             * line : 229525
              * type : int32u
              * writable : false
              * count : 14
@@ -42,6 +43,7 @@ class ImageSizeLookahead extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackHeader.Track#:ImageSizeLookahead',
             'desc' => [
+                'en' => 'Image Size Lookahead',
             ],
         ],
     ];

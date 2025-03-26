@@ -28,13 +28,14 @@ class DetectorGeometry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Geometry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97321
+             * line : 70717
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorGeometry extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorGeometry',
             'desc' => [
+                'en' => 'Detector Geometry',
             ],
         ],
     ];

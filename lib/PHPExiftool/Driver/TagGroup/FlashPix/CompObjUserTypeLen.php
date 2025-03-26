@@ -28,13 +28,14 @@ class CompObjUserTypeLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comp Obj User Type Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::CompObj
-             * line : 124262
+             * line : 86838
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompObjUserTypeLen extends AbstractTagGroup
              */
             'id' => 'FlashPix::CompObj.FlashPix:CompObjUserTypeLen',
             'desc' => [
+                'en' => 'Comp Obj User Type Len',
             ],
         ],
     ];

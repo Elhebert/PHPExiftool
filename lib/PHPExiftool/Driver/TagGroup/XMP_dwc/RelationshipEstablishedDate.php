@@ -28,13 +28,14 @@ class RelationshipEstablishedDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Relationship Established Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106693
+             * line : 78917
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelationshipEstablishedDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RelationshipEstablishedDate',
             'desc' => [
+                'en' => 'Relationship Established Date',
             ],
         ],
     ];

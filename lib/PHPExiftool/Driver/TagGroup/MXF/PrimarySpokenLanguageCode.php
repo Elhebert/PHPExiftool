@@ -28,13 +28,14 @@ class PrimarySpokenLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Spoken Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170720
+             * line : 116955
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimarySpokenLanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PrimarySpokenLanguageCode',
             'desc' => [
+                'en' => 'Primary Spoken Language Code',
             ],
         ],
     ];

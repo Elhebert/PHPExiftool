@@ -28,13 +28,14 @@ class Theme extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Theme',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167651
+             * line : 114257
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Theme extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Theme',
             'desc' => [
+                'en' => 'Theme',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170137
+             * line : 116445
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Theme extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Theme',
             'desc' => [
+                'en' => 'Theme',
             ],
         ],
     ];

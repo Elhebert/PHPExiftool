@@ -28,13 +28,14 @@ class ViewingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Viewing Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350857
+             * line : 244959
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ViewingMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ViewingMode',
             'desc' => [
+                'en' => 'Viewing Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360734
+             * line : 251397
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ViewingMode extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ViewingMode',
             'desc' => [
+                'en' => 'Viewing Mode',
             ],
         ],
     ];

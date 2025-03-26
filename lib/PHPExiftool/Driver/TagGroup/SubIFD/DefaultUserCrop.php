@@ -28,13 +28,14 @@ class DefaultUserCrop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Default User Crop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120609
+             * line : 84733
              * type : rational64u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DefaultUserCrop extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:DefaultUserCrop',
             'desc' => [
+                'en' => 'Default User Crop',
             ],
         ],
     ];

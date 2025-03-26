@@ -28,13 +28,14 @@ class ContractType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contract Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169888
+             * line : 116226
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ContractType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractType',
             'desc' => [
+                'en' => 'Contract Type',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170648
+             * line : 116883
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ContractType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractType',
             'desc' => [
+                'en' => 'Contract Type',
             ],
         ],
     ];

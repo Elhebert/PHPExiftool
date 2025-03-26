@@ -28,13 +28,14 @@ class JPLCartoIFD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPL Carto IFD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113440
+             * line : 82460
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPLCartoIFD extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:JPLCartoIFD',
             'desc' => [
+                'en' => 'JPL Carto IFD',
             ],
         ],
     ];

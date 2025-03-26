@@ -28,13 +28,14 @@ class AudioDuration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150701
+             * line : 104069
              * type : digits
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class AudioDuration extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:AudioDuration',
             'desc' => [
+                'en' => 'Audio Duration',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExtCache extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ext Cache',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142878
+             * line : 98670
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtCache extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:ExtCache',
             'desc' => [
+                'en' => 'Ext Cache',
             ],
         ],
     ];

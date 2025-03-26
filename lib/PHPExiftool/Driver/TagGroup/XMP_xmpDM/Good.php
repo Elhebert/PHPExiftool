@@ -28,13 +28,14 @@ class Good extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Good',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413088
+             * line : 291220
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Good extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Good',
             'desc' => [
+                'en' => 'Good',
             ],
         ],
     ];

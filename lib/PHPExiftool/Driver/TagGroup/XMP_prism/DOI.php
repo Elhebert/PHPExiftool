@@ -28,13 +28,14 @@ class DOI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Object Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410835
+             * line : 290100
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DOI extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:DOI',
             'desc' => [
+                'en' => 'Digital Object Identifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LastSavedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Saved By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocTable
-             * line : 124404
+             * line : 86928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastSavedBy extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocTable.MS-DOC:LastSavedBy',
             'desc' => [
+                'en' => 'Last Saved By',
             ],
         ],
     ];

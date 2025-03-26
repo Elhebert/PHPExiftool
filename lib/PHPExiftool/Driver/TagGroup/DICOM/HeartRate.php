@@ -28,13 +28,14 @@ class HeartRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Heart Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95760
+             * line : 69208
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeartRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HeartRate',
             'desc' => [
+                'en' => 'Heart Rate',
             ],
         ],
     ];

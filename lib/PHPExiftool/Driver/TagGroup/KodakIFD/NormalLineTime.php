@@ -28,13 +28,14 @@ class NormalLineTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Normal Line Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157275
+             * line : 108467
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NormalLineTime extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NormalLineTime',
             'desc' => [
+                'en' => 'Normal Line Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DocumentNotes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Document Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150948
+             * line : 104200
              * type : string
              * writable : true
              * count : 1024
@@ -42,6 +43,7 @@ class DocumentNotes extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:DocumentNotes',
             'desc' => [
+                'en' => 'Document Notes',
             ],
         ],
     ];

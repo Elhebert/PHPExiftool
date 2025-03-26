@@ -28,13 +28,14 @@ class TableOfParameterValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Of Parameter Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96382
+             * line : 69790
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableOfParameterValues extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableOfParameterValues',
             'desc' => [
+                'en' => 'Table Of Parameter Values',
             ],
         ],
     ];

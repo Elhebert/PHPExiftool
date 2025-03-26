@@ -28,13 +28,14 @@ class PnSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pen Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264629
+             * line : 182885
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PnSize extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PnSize',
             'desc' => [
+                'en' => 'Pen Size',
             ],
         ],
     ];

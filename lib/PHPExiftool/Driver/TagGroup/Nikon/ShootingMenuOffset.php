@@ -28,13 +28,14 @@ class ShootingMenuOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shooting Menu Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207041
+             * line : 139302
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShootingMenuOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:ShootingMenuOffset',
             'desc' => [
+                'en' => 'Shooting Menu Offset',
             ],
         ],
     ];

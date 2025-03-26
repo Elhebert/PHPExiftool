@@ -28,13 +28,14 @@ class ExifVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114000
+             * line : 82657
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifVersion extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExifVersion',
             'desc' => [
+                'en' => 'Exif Version',
             ],
         ],
     ];

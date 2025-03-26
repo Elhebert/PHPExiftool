@@ -28,13 +28,14 @@ class VideoCodecName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Codec Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173960
+             * line : 119827
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoCodecName extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:VideoCodecName',
             'desc' => [
+                'en' => 'Video Codec Name',
             ],
         ],
     ];

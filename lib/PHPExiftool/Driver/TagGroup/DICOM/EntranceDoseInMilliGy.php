@@ -28,13 +28,14 @@ class EntranceDoseInMilliGy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Entrance Dose In Milli Gy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100020
+             * line : 73221
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EntranceDoseInMilliGy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EntranceDoseInMilliGy',
             'desc' => [
+                'en' => 'Entrance Dose In Milli Gy',
             ],
         ],
     ];

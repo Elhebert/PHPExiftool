@@ -28,13 +28,14 @@ class FlowCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flow Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96530
+             * line : 69934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlowCompensation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FlowCompensation',
             'desc' => [
+                'en' => 'Flow Compensation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChannelBaseline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Baseline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99512
+             * line : 72723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelBaseline extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelBaseline',
             'desc' => [
+                'en' => 'Channel Baseline',
             ],
         ],
     ];

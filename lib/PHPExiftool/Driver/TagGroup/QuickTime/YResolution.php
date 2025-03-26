@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313957
+             * line : 219649
              * type : fixed32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

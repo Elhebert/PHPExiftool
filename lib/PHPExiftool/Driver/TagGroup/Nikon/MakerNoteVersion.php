@@ -28,13 +28,14 @@ class MakerNoteVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVIVers
-             * line : 191872
+             * line : 130048
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::AVIVers.Nikon:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 196583
+             * line : 132836
              * type : undef
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCDT
-             * line : 202061
+             * line : 136886
              * type : undef
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::NCDT.Nikon:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203123
+             * line : 137117
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class MakerNoteVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:MakerNoteVersion',
             'desc' => [
+                'en' => 'Maker Note Version',
             ],
         ],
     ];

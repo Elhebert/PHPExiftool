@@ -28,13 +28,14 @@ class AudioComponentVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Component Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312648
+             * line : 218521
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioComponentVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioComponentVersion',
             'desc' => [
+                'en' => 'Audio Component Version',
             ],
         ],
     ];

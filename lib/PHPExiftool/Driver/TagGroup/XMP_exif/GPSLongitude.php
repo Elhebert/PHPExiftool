@@ -28,13 +28,14 @@ class GPSLongitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406712
+             * line : 288191
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
     ];

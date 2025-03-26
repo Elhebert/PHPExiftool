@@ -28,13 +28,14 @@ class RearControPanelDisplay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rear Contro Panel Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247959
+             * line : 170647
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RearControPanelDisplay extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RearControPanelDisplay',
             'desc' => [
+                'en' => 'Rear Contro Panel Display',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142529
+             * line : 98533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GoogleBot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Google Bot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142413
+             * line : 98490
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GoogleBot extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:GoogleBot',
             'desc' => [
+                'en' => 'Google Bot',
             ],
         ],
     ];

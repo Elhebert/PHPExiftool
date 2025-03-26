@@ -28,13 +28,14 @@ class DRM_DRMHeader_LicenseAcqURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM DRM Header License Acq URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1196
+             * line : 505
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_DRMHeader_LicenseAcqURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM_DRMHeader_LicenseAcqURL',
             'desc' => [
+                'en' => 'DRM DRM Header License Acq URL',
             ],
         ],
     ];

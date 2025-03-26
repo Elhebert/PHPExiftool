@@ -28,13 +28,14 @@ class FirstLines extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Lines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156065
+             * line : 107276
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstLines extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FirstLines',
             'desc' => [
+                'en' => 'First Lines',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioFixedBitrateFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Fixed Bitrate Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169086
+             * line : 115529
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioFixedBitrateFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioFixedBitrateFlag',
             'desc' => [
+                'en' => 'Audio Fixed Bitrate Flag',
             ],
         ],
     ];

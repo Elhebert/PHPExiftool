@@ -28,13 +28,14 @@ class ModeDialPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mode Dial Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352445
+             * line : 246134
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModeDialPosition extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:ModeDialPosition',
             'desc' => [
+                'en' => 'Mode Dial Position',
             ],
         ],
     ];

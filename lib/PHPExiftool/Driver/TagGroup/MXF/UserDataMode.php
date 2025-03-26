@@ -28,13 +28,14 @@ class UserDataMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Data Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171332
+             * line : 117535
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserDataMode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UserDataMode',
             'desc' => [
+                'en' => 'User Data Mode',
             ],
         ],
     ];

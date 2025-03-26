@@ -28,13 +28,14 @@ class Barcodes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Barcodes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333702
+             * line : 234004
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Barcodes extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:Barcodes',
             'desc' => [
+                'en' => 'Barcodes',
             ],
         ],
     ];

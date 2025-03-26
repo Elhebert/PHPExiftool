@@ -28,13 +28,14 @@ class LargestPacketDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Largest Packet Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313767
+             * line : 219507
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargestPacketDuration extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:LargestPacketDuration',
             'desc' => [
+                'en' => 'Largest Packet Duration',
             ],
         ],
     ];

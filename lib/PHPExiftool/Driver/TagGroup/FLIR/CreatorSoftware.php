@@ -28,13 +28,14 @@ class CreatorSoftware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Header
-             * line : 123202
+             * line : 86028
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class CreatorSoftware extends AbstractTagGroup
              */
             'id' => 'FLIR::Header.FLIR:CreatorSoftware',
             'desc' => [
+                'en' => 'Creator Software',
             ],
         ],
     ];

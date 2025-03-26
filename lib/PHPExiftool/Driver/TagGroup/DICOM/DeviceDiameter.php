@@ -28,13 +28,14 @@ class DeviceDiameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Diameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100778
+             * line : 73938
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceDiameter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeviceDiameter',
             'desc' => [
+                'en' => 'Device Diameter',
             ],
         ],
     ];

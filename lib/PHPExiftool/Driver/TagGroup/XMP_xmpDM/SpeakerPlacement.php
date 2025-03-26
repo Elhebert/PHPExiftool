@@ -28,13 +28,14 @@ class SpeakerPlacement extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Speaker Placement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413382
+             * line : 291476
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpeakerPlacement extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:SpeakerPlacement',
             'desc' => [
+                'en' => 'Speaker Placement',
             ],
         ],
     ];

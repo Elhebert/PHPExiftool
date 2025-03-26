@@ -28,13 +28,14 @@ class CustomPictureStyleData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Picture Style Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80828
+             * line : 58940
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CustomPictureStyleData extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:CustomPictureStyleData',
             'desc' => [
+                'en' => 'Custom Picture Style Data',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83142
+             * line : 60903
              * type : var_int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CustomPictureStyleData extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomPictureStyleData',
             'desc' => [
+                'en' => 'Custom Picture Style Data',
             ],
         ],
     ];

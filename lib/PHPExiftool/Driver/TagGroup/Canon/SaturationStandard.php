@@ -28,13 +28,14 @@ class SaturationStandard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34531
+             * line : 26522
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationStandard extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SaturationStandard',
             'desc' => [
+                'en' => 'Saturation Standard',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67080
+             * line : 50913
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SaturationStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SaturationStandard',
             'desc' => [
+                'en' => 'Saturation Standard',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68178
+             * line : 51574
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SaturationStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationStandard',
             'desc' => [
+                'en' => 'Saturation Standard',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashFired extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Fired',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD80
-             * line : 208452
+             * line : 140418
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashFired extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD80.Nikon:FlashFired',
             'desc' => [
+                'en' => 'Flash Fired',
             ],
         ],
     ];

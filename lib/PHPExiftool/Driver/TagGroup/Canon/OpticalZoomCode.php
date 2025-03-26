@@ -28,13 +28,14 @@ class OpticalZoomCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Optical Zoom Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70534
+             * line : 52751
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OpticalZoomCode extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:OpticalZoomCode',
             'desc' => [
+                'en' => 'Optical Zoom Code',
             ],
         ],
     ];

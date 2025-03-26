@@ -28,13 +28,14 @@ class DeliveredPulseRepetitionInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivered Pulse Repetition Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102879
+             * line : 75975
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveredPulseRepetitionInterval extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveredPulseRepetitionInterval',
             'desc' => [
+                'en' => 'Delivered Pulse Repetition Interval',
             ],
         ],
     ];

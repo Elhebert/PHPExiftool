@@ -28,13 +28,14 @@ class ViewfinderDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Viewfinder Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212815
+             * line : 142896
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ViewfinderDisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:ViewfinderDisplay',
             'desc' => [
+                'en' => 'Viewfinder Display',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214807
+             * line : 144174
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ViewfinderDisplay extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ViewfinderDisplay',
             'desc' => [
+                'en' => 'Viewfinder Display',
             ],
         ],
     ];

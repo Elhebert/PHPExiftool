@@ -28,13 +28,14 @@ class Duration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::DSS
-             * line : 253048
+             * line : 174420
              * type : string
              * writable : false
              * count : 6
@@ -42,12 +43,13 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Olympus::DSS.Olympus:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262265
+             * line : 181261
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Duration extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:Duration',
             'desc' => [
+                'en' => 'Duration',
             ],
         ],
     ];

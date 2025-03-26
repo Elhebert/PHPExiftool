@@ -28,13 +28,14 @@ class Division extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Division',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175598
+             * line : 120852
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Division extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Division',
             'desc' => [
+                'en' => 'Division',
             ],
         ],
     ];

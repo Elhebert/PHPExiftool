@@ -28,13 +28,14 @@ class TimeCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150115
+             * line : 103907
              * type : string
              * writable : true
              * count : 11
@@ -42,6 +43,7 @@ class TimeCreated extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:TimeCreated',
             'desc' => [
+                'en' => 'Time Created',
             ],
         ],
     ];

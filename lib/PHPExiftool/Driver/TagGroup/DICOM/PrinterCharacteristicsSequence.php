@@ -28,13 +28,14 @@ class PrinterCharacteristicsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Printer Characteristics Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102299
+             * line : 75399
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrinterCharacteristicsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrinterCharacteristicsSequence',
             'desc' => [
+                'en' => 'Printer Characteristics Sequence',
             ],
         ],
     ];

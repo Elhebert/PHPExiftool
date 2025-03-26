@@ -28,13 +28,14 @@ class ScannerPixelSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Pixel Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303781
+             * line : 211024
              * type : undef
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class ScannerPixelSize extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ScannerPixelSize',
             'desc' => [
+                'en' => 'Scanner Pixel Size',
             ],
         ],
     ];

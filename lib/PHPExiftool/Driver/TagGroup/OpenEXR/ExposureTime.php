@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263535
+             * line : 182336
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

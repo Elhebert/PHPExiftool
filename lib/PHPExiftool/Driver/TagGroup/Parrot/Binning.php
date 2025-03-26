@@ -28,13 +28,14 @@ class Binning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Binning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282172
+             * line : 195967
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Binning extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:Binning',
             'desc' => [
+                'en' => 'Binning',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282355
+             * line : 196062
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Binning extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:Binning',
             'desc' => [
+                'en' => 'Binning',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282599
+             * line : 196199
              * type : int8u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Binning extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:Binning',
             'desc' => [
+                'en' => 'Binning',
             ],
         ],
     ];

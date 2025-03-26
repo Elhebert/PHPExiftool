@@ -28,13 +28,14 @@ class MagnificationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnification Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102064
+             * line : 75201
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagnificationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MagnificationType',
             'desc' => [
+                'en' => 'Magnification Type',
             ],
         ],
     ];

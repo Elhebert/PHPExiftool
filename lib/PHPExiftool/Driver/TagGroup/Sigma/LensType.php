@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337586
+             * line : 236153
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 338169
+             * line : 236728
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GraphicAnnotationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Annotation Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101232
+             * line : 74382
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicAnnotationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicAnnotationSequence',
             'desc' => [
+                'en' => 'Graphic Annotation Sequence',
             ],
         ],
     ];

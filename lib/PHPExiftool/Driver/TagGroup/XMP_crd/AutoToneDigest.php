@@ -28,13 +28,14 @@ class AutoToneDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Tone Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398206
+             * line : 281834
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoToneDigest extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:AutoToneDigest',
             'desc' => [
+                'en' => 'Auto Tone Digest',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChannelShieldNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Shield Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103687
+             * line : 76776
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelShieldNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelShieldNumber',
             'desc' => [
+                'en' => 'Channel Shield Number',
             ],
         ],
     ];

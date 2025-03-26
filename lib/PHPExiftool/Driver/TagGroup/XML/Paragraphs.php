@@ -28,13 +28,14 @@ class Paragraphs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paragraphs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249208
+             * line : 171819
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Paragraphs extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Paragraphs',
             'desc' => [
+                'en' => 'Paragraphs',
             ],
         ],
     ];

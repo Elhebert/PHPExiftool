@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130913
+             * line : 90431
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

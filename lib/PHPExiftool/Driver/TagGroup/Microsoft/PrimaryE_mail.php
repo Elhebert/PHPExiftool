@@ -28,13 +28,14 @@ class PrimaryE_mail extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary E-mail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175558
+             * line : 120819
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryE_mail extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:PrimaryE-mail',
             'desc' => [
+                'en' => 'Primary E-mail',
             ],
         ],
     ];

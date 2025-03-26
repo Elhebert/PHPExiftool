@@ -28,13 +28,14 @@ class PosTableArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pos Table Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170814
+             * line : 117045
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PosTableArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PosTableArray',
             'desc' => [
+                'en' => 'Pos Table Array',
             ],
         ],
     ];

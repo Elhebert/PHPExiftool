@@ -28,13 +28,14 @@ class WhitePoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 275036
+             * line : 191713
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WhitePoint extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:WhitePoint',
             'desc' => [
+                'en' => 'White Point',
             ],
         ],
     ];

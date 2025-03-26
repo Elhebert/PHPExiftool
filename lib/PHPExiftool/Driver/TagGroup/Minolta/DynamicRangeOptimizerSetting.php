@@ -28,13 +28,14 @@ class DynamicRangeOptimizerSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181404
+             * line : 123414
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeOptimizerSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:DynamicRangeOptimizerSetting',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Setting',
             ],
         ],
     ];

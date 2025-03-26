@@ -28,13 +28,14 @@ class AccelerometerY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Accelerometer Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277624
+             * line : 193083
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AccelerometerY extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AccelerometerY',
             'desc' => [
+                'en' => 'Accelerometer Y',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExternalFlashGuideNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Guide Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255011
+             * line : 176043
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashGuideNumber extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:ExternalFlashGuideNumber',
             'desc' => [
+                'en' => 'External Flash Guide Number',
             ],
         ],
     ];

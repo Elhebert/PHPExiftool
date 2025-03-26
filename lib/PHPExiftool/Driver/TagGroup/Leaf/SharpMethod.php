@@ -28,13 +28,14 @@ class SharpMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharp Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Sharpness
-             * line : 162084
+             * line : 110764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpMethod extends AbstractTagGroup
              */
             'id' => 'Leaf::Sharpness.Leaf:SharpMethod',
             'desc' => [
+                'en' => 'Sharp Method',
             ],
         ],
     ];

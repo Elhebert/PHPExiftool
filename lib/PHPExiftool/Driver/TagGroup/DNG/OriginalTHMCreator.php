@@ -28,13 +28,14 @@ class OriginalTHMCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original THM Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105284
+             * line : 78030
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalTHMCreator extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalTHMCreator',
             'desc' => [
+                'en' => 'Original THM Creator',
             ],
         ],
     ];

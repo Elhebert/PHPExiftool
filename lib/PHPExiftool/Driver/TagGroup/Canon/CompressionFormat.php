@@ -28,13 +28,14 @@ class CompressionFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compression Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64413
+             * line : 48812
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressionFormat extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:CompressionFormat',
             'desc' => [
+                'en' => 'Compression Format',
             ],
         ],
     ];

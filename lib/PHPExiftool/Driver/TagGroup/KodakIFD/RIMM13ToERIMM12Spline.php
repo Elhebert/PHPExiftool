@@ -28,13 +28,14 @@ class RIMM13ToERIMM12Spline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RIMM13 To ERIMM12 Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156996
+             * line : 108200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RIMM13ToERIMM12Spline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RIMM13ToERIMM12Spline',
             'desc' => [
+                'en' => 'RIMM13 To ERIMM12 Spline',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageBoundary extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Boundary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196798
+             * line : 132887
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ImageBoundary extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageBoundary',
             'desc' => [
+                'en' => 'Image Boundary',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139728
+             * line : 97728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

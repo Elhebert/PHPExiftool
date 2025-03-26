@@ -28,13 +28,14 @@ class DetectorElementSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Element Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96436
+             * line : 69844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorElementSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorElementSpacing',
             'desc' => [
+                'en' => 'Detector Element Spacing',
             ],
         ],
     ];

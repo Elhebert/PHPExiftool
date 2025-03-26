@@ -28,13 +28,14 @@ class DRM_DRMHeader_SubscriptionContentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM DRM Header Subscription Content ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1199
+             * line : 508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRM_DRMHeader_SubscriptionContentID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:DRM_DRMHeader_SubscriptionContentID',
             'desc' => [
+                'en' => 'DRM DRM Header Subscription Content ID',
             ],
         ],
     ];

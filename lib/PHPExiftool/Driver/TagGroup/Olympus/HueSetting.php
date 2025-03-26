@@ -28,13 +28,14 @@ class HueSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261202
+             * line : 180299
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class HueSetting extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:HueSetting',
             'desc' => [
+                'en' => 'Hue Setting',
             ],
         ],
     ];

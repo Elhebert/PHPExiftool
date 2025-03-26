@@ -28,13 +28,14 @@ class AELiveViewLocalHistogram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AE Live View Local Histogram',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104458
+             * line : 77530
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AELiveViewLocalHistogram extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:AELiveViewLocalHistogram',
             'desc' => [
+                'en' => 'AE Live View Local Histogram',
             ],
         ],
     ];

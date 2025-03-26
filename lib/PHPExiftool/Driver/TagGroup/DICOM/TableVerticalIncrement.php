@@ -28,13 +28,14 @@ class TableVerticalIncrement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Vertical Increment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95796
+             * line : 69244
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableVerticalIncrement extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableVerticalIncrement',
             'desc' => [
+                'en' => 'Table Vertical Increment',
             ],
         ],
     ];

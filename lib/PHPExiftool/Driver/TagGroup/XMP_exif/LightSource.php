@@ -28,13 +28,14 @@ class LightSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407121
+             * line : 288268
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightSource extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:LightSource',
             'desc' => [
+                'en' => 'Light Source',
             ],
         ],
     ];

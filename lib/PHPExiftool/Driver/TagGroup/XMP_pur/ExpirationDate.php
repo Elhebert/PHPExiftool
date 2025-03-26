@@ -28,13 +28,14 @@ class ExpirationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Expiration Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411306
+             * line : 290479
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExpirationDate extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:ExpirationDate',
             'desc' => [
+                'en' => 'Expiration Date',
             ],
         ],
     ];

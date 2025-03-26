@@ -28,13 +28,14 @@ class SoundFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sound File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333699
+             * line : 234001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoundFile extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:SoundFile',
             'desc' => [
+                'en' => 'Sound File',
             ],
         ],
     ];

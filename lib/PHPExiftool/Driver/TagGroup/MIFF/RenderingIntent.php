@@ -28,13 +28,14 @@ class RenderingIntent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rendering Intent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164388
+             * line : 111757
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RenderingIntent extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:RenderingIntent',
             'desc' => [
+                'en' => 'Rendering Intent',
             ],
         ],
     ];

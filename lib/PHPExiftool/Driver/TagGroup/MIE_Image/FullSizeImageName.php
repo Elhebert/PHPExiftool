@@ -28,13 +28,14 @@ class FullSizeImageName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Full Size Image Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Image
-             * line : 163808
+             * line : 111506
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FullSizeImageName extends AbstractTagGroup
              */
             'id' => 'MIE::Image.MIE-Image:FullSizeImageName',
             'desc' => [
+                'en' => 'Full Size Image Name',
             ],
         ],
     ];

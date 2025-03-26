@@ -28,13 +28,14 @@ class AboveColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Above Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123502
+             * line : 86319
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class AboveColor extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:AboveColor',
             'desc' => [
+                'en' => 'Above Color',
             ],
         ],
     ];

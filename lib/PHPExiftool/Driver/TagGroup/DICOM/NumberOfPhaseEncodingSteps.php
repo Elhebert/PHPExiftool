@@ -28,13 +28,14 @@ class NumberOfPhaseEncodingSteps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Phase Encoding Steps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95546
+             * line : 69001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPhaseEncodingSteps extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfPhaseEncodingSteps',
             'desc' => [
+                'en' => 'Number Of Phase Encoding Steps',
             ],
         ],
     ];

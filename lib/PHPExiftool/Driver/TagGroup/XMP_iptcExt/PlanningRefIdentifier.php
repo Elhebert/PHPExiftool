@@ -28,13 +28,14 @@ class PlanningRefIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Planning Ref Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409585
+             * line : 289357
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlanningRefIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:PlanningRefIdentifier',
             'desc' => [
+                'en' => 'Planning Ref Identifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HeadingPairs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Heading Pairs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249128
+             * line : 171758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeadingPairs extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:HeadingPairs',
             'desc' => [
+                'en' => 'Heading Pairs',
             ],
         ],
     ];

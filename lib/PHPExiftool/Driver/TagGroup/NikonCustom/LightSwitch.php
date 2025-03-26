@@ -28,13 +28,14 @@ class LightSwitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Switch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229394
+             * line : 154234
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LightSwitch extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:LightSwitch',
             'desc' => [
+                'en' => 'Light Switch',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 233913
+             * line : 157732
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LightSwitch extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:LightSwitch',
             'desc' => [
+                'en' => 'Light Switch',
             ],
         ],
     ];

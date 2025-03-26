@@ -28,13 +28,14 @@ class LensModulationOptimizer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Modulation Optimizer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130183
+             * line : 89936
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensModulationOptimizer extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:LensModulationOptimizer',
             'desc' => [
+                'en' => 'Lens Modulation Optimizer',
             ],
         ],
     ];

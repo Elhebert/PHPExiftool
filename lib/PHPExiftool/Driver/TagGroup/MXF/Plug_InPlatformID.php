@@ -28,13 +28,14 @@ class Plug_InPlatformID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plug-In Platform ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169333
+             * line : 115740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Plug_InPlatformID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Plug-InPlatformID',
             'desc' => [
+                'en' => 'Plug-In Platform ID',
             ],
         ],
     ];

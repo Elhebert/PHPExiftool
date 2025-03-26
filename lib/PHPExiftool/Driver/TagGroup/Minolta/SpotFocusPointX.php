@@ -28,13 +28,14 @@ class SpotFocusPointX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Spot Focus Point X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178114
+             * line : 122181
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpotFocusPointX extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:SpotFocusPointX',
             'desc' => [
+                'en' => 'Spot Focus Point X',
             ],
         ],
     ];

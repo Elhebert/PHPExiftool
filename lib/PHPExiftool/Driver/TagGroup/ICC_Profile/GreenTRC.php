@@ -28,13 +28,14 @@ class GreenTRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Green Tone Reproduction Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146375
+             * line : 101763
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GreenTRC extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:GreenTRC',
             'desc' => [
+                'en' => 'Green Tone Reproduction Curve',
             ],
         ],
     ];

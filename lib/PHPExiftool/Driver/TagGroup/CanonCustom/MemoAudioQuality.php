@@ -28,13 +28,14 @@ class MemoAudioQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Memo Audio Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75607
+             * line : 55665
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MemoAudioQuality extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:MemoAudioQuality',
             'desc' => [
+                'en' => 'Memo Audio Quality',
             ],
         ],
     ];

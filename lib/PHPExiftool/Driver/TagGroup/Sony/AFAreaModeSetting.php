@@ -28,13 +28,14 @@ class AFAreaModeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354528
+             * line : 247161
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Main
-             * line : 354553
+             * line : 247178
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 354588
+             * line : 247204
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Grouping extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Grouping',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322180
+             * line : 227741
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Grouping extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Grouping',
             'desc' => [
+                'en' => 'Grouping',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323080
+             * line : 228459
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Grouping extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Grouping',
             'desc' => [
+                'en' => 'Grouping',
             ],
         ],
     ];

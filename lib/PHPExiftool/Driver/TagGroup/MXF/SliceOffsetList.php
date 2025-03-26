@@ -28,13 +28,14 @@ class SliceOffsetList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Offset List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170811
+             * line : 117042
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceOffsetList extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SliceOffsetList',
             'desc' => [
+                'en' => 'Slice Offset List',
             ],
         ],
     ];

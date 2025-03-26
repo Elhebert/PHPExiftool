@@ -28,13 +28,14 @@ class GlobalAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Global Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305521
+             * line : 212295
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GlobalAngle extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:GlobalAngle',
             'desc' => [
+                'en' => 'Global Angle',
             ],
         ],
     ];

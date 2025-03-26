@@ -28,13 +28,14 @@ class ProviderCopyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396210
+             * line : 280502
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProviderCopyright extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ProviderCopyright',
             'desc' => [
+                'en' => 'Provider Copyright',
             ],
         ],
     ];

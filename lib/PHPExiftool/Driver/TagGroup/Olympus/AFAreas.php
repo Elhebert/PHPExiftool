@@ -28,13 +28,14 @@ class AFAreas extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Areas',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250784
+             * line : 173005
              * type : int32u
              * writable : false
              * count : 64
@@ -42,6 +43,7 @@ class AFAreas extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:AFAreas',
             'desc' => [
+                'en' => 'AF Areas',
             ],
         ],
     ];

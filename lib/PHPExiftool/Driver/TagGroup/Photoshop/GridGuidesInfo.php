@@ -28,13 +28,14 @@ class GridGuidesInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Guides Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305487
+             * line : 212272
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridGuidesInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:GridGuidesInfo',
             'desc' => [
+                'en' => 'Grid Guides Info',
             ],
         ],
     ];

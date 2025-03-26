@@ -28,13 +28,14 @@ class ActiveCols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156059
+             * line : 107270
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveCols extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ActiveCols',
             'desc' => [
+                'en' => 'Active Cols',
             ],
         ],
     ];

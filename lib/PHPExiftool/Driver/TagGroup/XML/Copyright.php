@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : iWork::Main
-             * line : 415098
+             * line : 292840
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'iWork::Main.XML:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

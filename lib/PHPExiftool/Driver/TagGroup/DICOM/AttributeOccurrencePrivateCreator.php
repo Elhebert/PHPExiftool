@@ -28,13 +28,14 @@ class AttributeOccurrencePrivateCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attribute Occurrence Private Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101805
+             * line : 74946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttributeOccurrencePrivateCreator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttributeOccurrencePrivateCreator',
             'desc' => [
+                'en' => 'Attribute Occurrence Private Creator',
             ],
         ],
     ];

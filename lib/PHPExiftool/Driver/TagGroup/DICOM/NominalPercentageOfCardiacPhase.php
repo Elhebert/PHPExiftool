@@ -28,13 +28,14 @@ class NominalPercentageOfCardiacPhase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Percentage Of Cardiac Phase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98111
+             * line : 71458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalPercentageOfCardiacPhase extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalPercentageOfCardiacPhase',
             'desc' => [
+                'en' => 'Nominal Percentage Of Cardiac Phase',
             ],
         ],
     ];

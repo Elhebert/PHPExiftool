@@ -28,13 +28,14 @@ class TimerFunctionButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Timer Function Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217048
+             * line : 145869
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class TimerFunctionButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:TimerFunctionButton',
             'desc' => [
+                'en' => 'Timer Function Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222305
+             * line : 150039
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class TimerFunctionButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:TimerFunctionButton',
             'desc' => [
+                'en' => 'Timer Function Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222902
+             * line : 150369
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class TimerFunctionButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:TimerFunctionButton',
             'desc' => [
+                'en' => 'Timer Function Button',
             ],
         ],
     ];

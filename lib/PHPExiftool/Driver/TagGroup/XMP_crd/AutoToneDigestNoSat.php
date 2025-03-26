@@ -28,13 +28,14 @@ class AutoToneDigestNoSat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Tone Digest No Sat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398209
+             * line : 281837
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoToneDigestNoSat extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:AutoToneDigestNoSat',
             'desc' => [
+                'en' => 'Auto Tone Digest No Sat',
             ],
         ],
     ];

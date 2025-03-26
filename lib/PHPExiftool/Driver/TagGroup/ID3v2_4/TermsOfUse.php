@@ -28,13 +28,14 @@ class TermsOfUse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Terms Of Use',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149626
+             * line : 103729
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TermsOfUse extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:TermsOfUse',
             'desc' => [
+                'en' => 'Terms Of Use',
             ],
         ],
     ];

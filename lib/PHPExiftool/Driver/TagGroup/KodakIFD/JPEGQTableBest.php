@@ -28,13 +28,14 @@ class JPEGQTableBest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEGQ Table Best',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155918
+             * line : 107129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGQTableBest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:JPEGQTableBest',
             'desc' => [
+                'en' => 'JPEGQ Table Best',
             ],
         ],
     ];

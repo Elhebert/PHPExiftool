@@ -28,13 +28,14 @@ class MenuMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Menu Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244009
+             * line : 166951
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MenuMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MenuMonitorOffTime',
             'desc' => [
+                'en' => 'Menu Monitor Off Time',
             ],
         ],
     ];

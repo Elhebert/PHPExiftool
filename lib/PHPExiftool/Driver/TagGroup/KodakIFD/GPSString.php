@@ -28,13 +28,14 @@ class GPSString extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS String',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154851
+             * line : 106160
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSString extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:GPSString',
             'desc' => [
+                'en' => 'GPS String',
             ],
         ],
     ];

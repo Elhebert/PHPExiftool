@@ -28,13 +28,14 @@ class SubPacketSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub Packet Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329804
+             * line : 232239
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubPacketSize extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:SubPacketSize',
             'desc' => [
+                'en' => 'Sub Packet Size',
             ],
         ],
     ];

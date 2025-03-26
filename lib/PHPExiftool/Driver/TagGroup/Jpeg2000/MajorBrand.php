@@ -28,13 +28,14 @@ class MajorBrand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Major Brand',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::FileType
-             * line : 153946
+             * line : 105732
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MajorBrand extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::FileType.Jpeg2000:MajorBrand',
             'desc' => [
+                'en' => 'Major Brand',
             ],
         ],
     ];

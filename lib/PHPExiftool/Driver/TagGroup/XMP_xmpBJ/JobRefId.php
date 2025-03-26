@@ -28,13 +28,14 @@ class JobRefId extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Job Ref Id',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpBJ
-             * line : 412794
+             * line : 290988
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JobRefId extends AbstractTagGroup
              */
             'id' => 'XMP::xmpBJ.XMP-xmpBJ:JobRefId',
             'desc' => [
+                'en' => 'Job Ref Id',
             ],
         ],
     ];

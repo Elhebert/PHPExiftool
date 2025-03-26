@@ -28,13 +28,14 @@ class PhotoShootingMenuBankImageArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photo Shooting Menu Bank Image Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200440
+             * line : 135395
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PhotoShootingMenuBankImageArea extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:PhotoShootingMenuBankImageArea',
             'desc' => [
+                'en' => 'Photo Shooting Menu Bank Image Area',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207717
+             * line : 139935
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PhotoShootingMenuBankImageArea extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:PhotoShootingMenuBankImageArea',
             'desc' => [
+                'en' => 'Photo Shooting Menu Bank Image Area',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD850
-             * line : 209178
+             * line : 141063
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class PhotoShootingMenuBankImageArea extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD850.Nikon:PhotoShootingMenuBankImageArea',
             'desc' => [
+                'en' => 'Photo Shooting Menu Bank Image Area',
             ],
         ],
     ];

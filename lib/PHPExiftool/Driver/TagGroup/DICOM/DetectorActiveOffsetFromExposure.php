@@ -28,13 +28,14 @@ class DetectorActiveOffsetFromExposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Active Offset From Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96427
+             * line : 69835
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorActiveOffsetFromExposure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorActiveOffsetFromExposure',
             'desc' => [
+                'en' => 'Detector Active Offset From Exposure',
             ],
         ],
     ];

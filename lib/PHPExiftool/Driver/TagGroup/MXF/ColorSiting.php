@@ -28,13 +28,14 @@ class ColorSiting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Siting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167850
+             * line : 114407
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorSiting extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorSiting',
             'desc' => [
+                'en' => 'Color Siting',
             ],
         ],
     ];

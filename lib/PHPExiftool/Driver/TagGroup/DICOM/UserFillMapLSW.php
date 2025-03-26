@@ -28,13 +28,14 @@ class UserFillMapLSW extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Fill Map LSW',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100442
+             * line : 73614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserFillMapLSW extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UserFillMapLSW',
             'desc' => [
+                'en' => 'User Fill Map LSW',
             ],
         ],
     ];

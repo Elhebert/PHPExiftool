@@ -28,13 +28,14 @@ class AudioZeroFramesPadded extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Zero Frames Padded',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312673
+             * line : 218545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioZeroFramesPadded extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioZeroFramesPadded',
             'desc' => [
+                'en' => 'Audio Zero Frames Padded',
             ],
         ],
     ];

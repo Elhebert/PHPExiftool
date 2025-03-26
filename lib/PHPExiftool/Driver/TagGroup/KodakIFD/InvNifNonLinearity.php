@@ -28,13 +28,14 @@ class InvNifNonLinearity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inv Nif Non Linearity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156993
+             * line : 108197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvNifNonLinearity extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:InvNifNonLinearity',
             'desc' => [
+                'en' => 'Inv Nif Non Linearity',
             ],
         ],
     ];

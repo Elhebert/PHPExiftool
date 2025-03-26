@@ -28,13 +28,14 @@ class VideoMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330361
+             * line : 232459
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoMode extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:VideoMode',
             'desc' => [
+                'en' => 'Video Mode',
             ],
         ],
     ];

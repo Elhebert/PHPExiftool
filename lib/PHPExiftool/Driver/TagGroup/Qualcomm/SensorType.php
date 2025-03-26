@@ -28,13 +28,14 @@ class SensorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310146
+             * line : 216059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorType extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:SensorType',
             'desc' => [
+                'en' => 'Sensor Type',
             ],
         ],
     ];

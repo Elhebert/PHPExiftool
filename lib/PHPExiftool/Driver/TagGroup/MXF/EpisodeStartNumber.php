@@ -28,13 +28,14 @@ class EpisodeStartNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Episode Start Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170622
+             * line : 116862
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EpisodeStartNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EpisodeStartNumber',
             'desc' => [
+                'en' => 'Episode Start Number',
             ],
         ],
     ];

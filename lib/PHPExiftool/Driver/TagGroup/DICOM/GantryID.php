@@ -28,13 +28,14 @@ class GantryID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95586
+             * line : 69040
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryID',
             'desc' => [
+                'en' => 'Gantry ID',
             ],
         ],
     ];

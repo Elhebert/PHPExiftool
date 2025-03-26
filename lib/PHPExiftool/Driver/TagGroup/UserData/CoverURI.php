@@ -28,13 +28,14 @@ class CoverURI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cover URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325450
+             * line : 229706
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CoverURI extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CoverURI',
             'desc' => [
+                'en' => 'Cover URI',
             ],
         ],
     ];

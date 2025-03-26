@@ -28,13 +28,14 @@ class IDCPreviewLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IDC Preview Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 393981
+             * line : 279135
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IDCPreviewLength extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:IDCPreviewLength',
             'desc' => [
+                'en' => 'IDC Preview Length',
             ],
         ],
     ];

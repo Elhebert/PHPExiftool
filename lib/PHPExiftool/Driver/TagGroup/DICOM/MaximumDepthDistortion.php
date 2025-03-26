@@ -28,13 +28,14 @@ class MaximumDepthDistortion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Depth Distortion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98404
+             * line : 71737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumDepthDistortion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumDepthDistortion',
             'desc' => [
+                'en' => 'Maximum Depth Distortion',
             ],
         ],
     ];

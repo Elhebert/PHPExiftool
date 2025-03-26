@@ -28,13 +28,14 @@ class RequestedSubsequentWorkItemCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Subsequent Work Item Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99995
+             * line : 73197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedSubsequentWorkItemCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedSubsequentWorkItemCodeSeq',
             'desc' => [
+                'en' => 'Requested Subsequent Work Item Code Seq',
             ],
         ],
     ];

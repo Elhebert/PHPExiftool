@@ -28,13 +28,14 @@ class BootSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Boot System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::BootRecord
-             * line : 151978
+             * line : 104675
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class BootSystem extends AbstractTagGroup
              */
             'id' => 'ISO::BootRecord.ISO:BootSystem',
             'desc' => [
+                'en' => 'Boot System',
             ],
         ],
     ];

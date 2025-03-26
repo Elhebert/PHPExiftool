@@ -28,13 +28,14 @@ class RetouchAreaOffsetY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Offset Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404270
+             * line : 287381
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaOffsetY extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaOffsetY',
             'desc' => [
+                'en' => 'Retouch Area Offset Y',
             ],
         ],
     ];

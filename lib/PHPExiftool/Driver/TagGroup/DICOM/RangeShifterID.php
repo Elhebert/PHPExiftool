@@ -28,13 +28,14 @@ class RangeShifterID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Range Shifter ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103783
+             * line : 76872
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RangeShifterID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RangeShifterID',
             'desc' => [
+                'en' => 'Range Shifter ID',
             ],
         ],
     ];

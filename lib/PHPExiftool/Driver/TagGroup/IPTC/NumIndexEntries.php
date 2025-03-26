@@ -28,13 +28,14 @@ class NumIndexEntries extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Num Index Entries',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151613
+             * line : 104509
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NumIndexEntries extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:NumIndexEntries',
             'desc' => [
+                'en' => 'Num Index Entries',
             ],
         ],
     ];

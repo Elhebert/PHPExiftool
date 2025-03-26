@@ -28,13 +28,14 @@ class Aperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90262
+             * line : 65140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Aperture extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Aperture',
             'desc' => [
+                'en' => 'Aperture',
             ],
         ],
     ];

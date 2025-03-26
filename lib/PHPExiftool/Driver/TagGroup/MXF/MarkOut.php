@@ -28,13 +28,14 @@ class MarkOut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mark Out',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171854
+             * line : 118039
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MarkOut extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MarkOut',
             'desc' => [
+                'en' => 'Mark Out',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CreationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323363
+             * line : 228610
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreationDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:CreationDate',
             'desc' => [
+                'en' => 'Creation Date',
             ],
         ],
     ];

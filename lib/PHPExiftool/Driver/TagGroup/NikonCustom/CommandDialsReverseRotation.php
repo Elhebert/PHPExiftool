@@ -28,13 +28,14 @@ class CommandDialsReverseRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Command Dials Reverse Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 213603
+             * line : 143475
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214818
+             * line : 144185
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217488
+             * line : 146105
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219912
+             * line : 148137
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222427
+             * line : 150099
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 223024
+             * line : 150429
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 226029
+             * line : 152319
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227122
+             * line : 152964
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229901
+             * line : 154518
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231797
+             * line : 155937
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234624
+             * line : 158131
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class CommandDialsReverseRotation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:CommandDialsReverseRotation',
             'desc' => [
+                'en' => 'Command Dials Reverse Rotation',
             ],
         ],
     ];

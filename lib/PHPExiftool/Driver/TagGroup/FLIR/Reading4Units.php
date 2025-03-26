@@ -28,13 +28,14 @@ class Reading4Units extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reading 4 Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::MeterLink
-             * line : 123409
+             * line : 86234
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Reading4Units extends AbstractTagGroup
              */
             'id' => 'FLIR::MeterLink.FLIR:Reading4Units',
             'desc' => [
+                'en' => 'Reading 4 Units',
             ],
         ],
     ];

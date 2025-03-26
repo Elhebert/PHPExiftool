@@ -28,13 +28,14 @@ class YCbCrCoefficients extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Coefficients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260945
+             * line : 180234
              * type : rational32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YCbCrCoefficients extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:YCbCrCoefficients',
             'desc' => [
+                'en' => 'Y Cb Cr Coefficients',
             ],
         ],
     ];

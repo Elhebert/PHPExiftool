@@ -28,13 +28,14 @@ class IlluminationArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Illumination Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166530
+             * line : 113270
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IlluminationArea extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:IlluminationArea',
             'desc' => [
+                'en' => 'Illumination Area',
             ],
         ],
     ];

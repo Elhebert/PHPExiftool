@@ -28,13 +28,14 @@ class BusinessPhone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Business Phone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176017
+             * line : 121101
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BusinessPhone extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BusinessPhone',
             'desc' => [
+                'en' => 'Business Phone',
             ],
         ],
     ];

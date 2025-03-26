@@ -28,13 +28,14 @@ class MPImageFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MP Image Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::MPImage
-             * line : 166155
+             * line : 112977
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPImageFlags extends AbstractTagGroup
              */
             'id' => 'MPF::MPImage.MPImage:MPImageFlags',
             'desc' => [
+                'en' => 'MP Image Flags',
             ],
         ],
     ];

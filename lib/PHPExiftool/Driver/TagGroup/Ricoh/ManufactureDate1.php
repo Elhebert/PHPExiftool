@@ -28,13 +28,14 @@ class ManufactureDate1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manufacture Date 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Subdir
-             * line : 333735
+             * line : 234027
              * type : string
              * writable : true
              * count : 20
@@ -42,6 +43,7 @@ class ManufactureDate1 extends AbstractTagGroup
              */
             'id' => 'Ricoh::Subdir.Ricoh:ManufactureDate1',
             'desc' => [
+                'en' => 'Manufacture Date 1',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EraseRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264767
+             * line : 182999
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseRect',
             'desc' => [
+                'en' => 'Erase Rect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FirmwareVersions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Versions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303464
+             * line : 210867
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FirmwareVersions extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:FirmwareVersions',
             'desc' => [
+                'en' => 'Firmware Versions',
             ],
         ],
     ];

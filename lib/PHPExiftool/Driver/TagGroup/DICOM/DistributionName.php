@@ -28,13 +28,14 @@ class DistributionName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distribution Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104125
+             * line : 77211
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistributionName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistributionName',
             'desc' => [
+                'en' => 'Distribution Name',
             ],
         ],
     ];

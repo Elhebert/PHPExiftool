@@ -28,13 +28,14 @@ class Firmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258329
+             * line : 178503
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Firmware extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:Firmware',
             'desc' => [
+                'en' => 'Firmware',
             ],
         ],
     ];

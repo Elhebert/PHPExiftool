@@ -28,13 +28,14 @@ class ClipToAfRato extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip To Af Rato',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307272
+             * line : 213770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipToAfRato extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ClipToAfRato',
             'desc' => [
+                'en' => 'Clip To Af Rato',
             ],
         ],
     ];

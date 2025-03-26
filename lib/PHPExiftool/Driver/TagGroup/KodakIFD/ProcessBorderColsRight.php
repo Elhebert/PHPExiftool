@@ -28,13 +28,14 @@ class ProcessBorderColsRight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Process Border Cols Right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156050
+             * line : 107261
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProcessBorderColsRight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ProcessBorderColsRight',
             'desc' => [
+                'en' => 'Process Border Cols Right',
             ],
         ],
     ];

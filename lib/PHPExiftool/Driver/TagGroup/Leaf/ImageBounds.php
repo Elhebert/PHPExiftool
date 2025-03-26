@@ -28,13 +28,14 @@ class ImageBounds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Bounds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161701
+             * line : 110458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBounds extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:ImageBounds',
             'desc' => [
+                'en' => 'Image Bounds',
             ],
         ],
     ];

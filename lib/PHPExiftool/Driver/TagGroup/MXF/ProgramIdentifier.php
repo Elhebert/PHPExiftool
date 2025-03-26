@@ -28,13 +28,14 @@ class ProgramIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168612
+             * line : 115100
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramIdentifier extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgramIdentifier',
             'desc' => [
+                'en' => 'Program Identifier',
             ],
         ],
     ];

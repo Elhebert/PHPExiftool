@@ -28,13 +28,14 @@ class AFStatusTopAssist_left extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Top Assist-left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345449
+             * line : 242222
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusTopAssist_left extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFStatusTopAssist-left',
             'desc' => [
+                'en' => 'AF Status Top Assist-left',
             ],
         ],
     ];

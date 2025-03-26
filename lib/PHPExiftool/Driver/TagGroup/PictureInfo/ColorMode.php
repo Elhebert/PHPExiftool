@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 528
+             * line : 219
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

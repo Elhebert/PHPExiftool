@@ -28,13 +28,14 @@ class ContractEntity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contract Entity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168741
+             * line : 115217
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContractEntity extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractEntity',
             'desc' => [
+                'en' => 'Contract Entity',
             ],
         ],
     ];

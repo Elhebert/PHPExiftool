@@ -28,13 +28,14 @@ class BracketShotNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Shot Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353040
+             * line : 246471
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketShotNumber extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:BracketShotNumber',
             'desc' => [
+                'en' => 'Bracket Shot Number',
             ],
         ],
     ];

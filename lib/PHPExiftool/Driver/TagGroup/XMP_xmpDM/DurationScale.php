@@ -28,13 +28,14 @@ class DurationScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Duration Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413069
+             * line : 291205
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DurationScale extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:DurationScale',
             'desc' => [
+                'en' => 'Duration Scale',
             ],
         ],
     ];

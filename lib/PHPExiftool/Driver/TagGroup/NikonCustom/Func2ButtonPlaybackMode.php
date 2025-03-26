@@ -28,13 +28,14 @@ class Func2ButtonPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Func 2 Button Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 240322
+             * line : 163398
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Func2ButtonPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:Func2ButtonPlaybackMode',
             'desc' => [
+                'en' => 'Func 2 Button Playback Mode',
             ],
         ],
     ];

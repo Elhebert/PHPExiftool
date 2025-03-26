@@ -28,13 +28,14 @@ class ParallelReductionFactSecondInPlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parallel Reduction Fact Second In Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96817
+             * line : 70219
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParallelReductionFactSecondInPlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParallelReductionFactSecondInPlane',
             'desc' => [
+                'en' => 'Parallel Reduction Fact Second In Plane',
             ],
         ],
     ];

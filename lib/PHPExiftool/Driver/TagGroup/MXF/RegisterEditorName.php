@@ -28,13 +28,14 @@ class RegisterEditorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Editor Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172316
+             * line : 118477
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterEditorName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterEditorName',
             'desc' => [
+                'en' => 'Register Editor Name',
             ],
         ],
     ];

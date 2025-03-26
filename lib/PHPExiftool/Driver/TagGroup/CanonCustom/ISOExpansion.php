@@ -28,13 +28,14 @@ class ISOExpansion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Expansion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72511
+             * line : 53840
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISOExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ISOExpansion',
             'desc' => [
+                'en' => 'ISO Expansion',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 75890
+             * line : 55825
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISOExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:ISOExpansion',
             'desc' => [
+                'en' => 'ISO Expansion',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76411
+             * line : 56072
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISOExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:ISOExpansion',
             'desc' => [
+                'en' => 'ISO Expansion',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77529
+             * line : 56608
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ISOExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:ISOExpansion',
             'desc' => [
+                'en' => 'ISO Expansion',
             ],
         ],
     ];

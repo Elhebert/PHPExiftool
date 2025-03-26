@@ -28,13 +28,14 @@ class ApertureRingUse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Ring Use',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284554
+             * line : 197481
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureRingUse extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:ApertureRingUse',
             'desc' => [
+                'en' => 'Aperture Ring Use',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensFStops extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens F Stops',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData00
-             * line : 195559
+             * line : 132475
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensFStops extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData00.Nikon:LensFStops',
             'desc' => [
+                'en' => 'Lens F Stops',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195691
+             * line : 132518
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensFStops extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:LensFStops',
             'desc' => [
+                'en' => 'Lens F Stops',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195832
+             * line : 132564
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensFStops extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:LensFStops',
             'desc' => [
+                'en' => 'Lens F Stops',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196039
+             * line : 132643
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LensFStops extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:LensFStops',
             'desc' => [
+                'en' => 'Lens F Stops',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::Main
-             * line : 197341
+             * line : 133149
              * type : undef
              * writable : true
              * count : 4
@@ -94,6 +99,7 @@ class LensFStops extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:LensFStops',
             'desc' => [
+                'en' => 'Lens F Stops',
             ],
         ],
     ];

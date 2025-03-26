@@ -28,13 +28,14 @@ class AlphaCompression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164979
+             * line : 112114
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaCompression extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:AlphaCompression',
             'desc' => [
+                'en' => 'Alpha Compression',
             ],
         ],
     ];

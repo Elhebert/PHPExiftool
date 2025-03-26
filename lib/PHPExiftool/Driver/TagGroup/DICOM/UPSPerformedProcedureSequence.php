@@ -28,13 +28,14 @@ class UPSPerformedProcedureSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UPS Performed Procedure Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101823
+             * line : 74964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UPSPerformedProcedureSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UPSPerformedProcedureSequence',
             'desc' => [
+                'en' => 'UPS Performed Procedure Sequence',
             ],
         ],
     ];

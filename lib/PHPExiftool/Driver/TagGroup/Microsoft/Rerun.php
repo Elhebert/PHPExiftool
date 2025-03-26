@@ -28,13 +28,14 @@ class Rerun extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rerun',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176033
+             * line : 121113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rerun extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Rerun',
             'desc' => [
+                'en' => 'Rerun',
             ],
         ],
     ];

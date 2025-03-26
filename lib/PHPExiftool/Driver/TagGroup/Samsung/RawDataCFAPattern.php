@@ -28,13 +28,14 @@ class RawDataCFAPattern extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Data CFA Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335267
+             * line : 235301
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDataCFAPattern extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:RawDataCFAPattern',
             'desc' => [
+                'en' => 'Raw Data CFA Pattern',
             ],
         ],
     ];

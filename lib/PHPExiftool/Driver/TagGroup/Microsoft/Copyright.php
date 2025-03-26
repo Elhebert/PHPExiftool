@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174542
+             * line : 120188
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175918
+             * line : 121056
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

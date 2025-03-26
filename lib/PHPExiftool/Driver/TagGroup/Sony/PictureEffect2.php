@@ -28,13 +28,14 @@ class PictureEffect2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Effect 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362500
+             * line : 252452
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363498
+             * line : 253114
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364521
+             * line : 253785
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365504
+             * line : 254447
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366506
+             * line : 255101
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369513
+             * line : 257731
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370543
+             * line : 258396
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373544
+             * line : 261020
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376545
+             * line : 263644
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387821
+             * line : 273815
              * type : int8u
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class PictureEffect2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:PictureEffect2',
             'desc' => [
+                'en' => 'Picture Effect 2',
             ],
         ],
     ];

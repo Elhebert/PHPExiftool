@@ -28,13 +28,14 @@ class DescriptiveMetadataTrackIDs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Descriptive Metadata Track I Ds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170592
+             * line : 116832
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DescriptiveMetadataTrackIDs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveMetadataTrackIDs',
             'desc' => [
+                'en' => 'Descriptive Metadata Track I Ds',
             ],
         ],
     ];

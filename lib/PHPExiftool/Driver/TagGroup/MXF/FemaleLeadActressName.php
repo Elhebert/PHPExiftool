@@ -28,13 +28,14 @@ class FemaleLeadActressName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Female Lead Actress Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168759
+             * line : 115235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FemaleLeadActressName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FemaleLeadActressName',
             'desc' => [
+                'en' => 'Female Lead Actress Name',
             ],
         ],
     ];

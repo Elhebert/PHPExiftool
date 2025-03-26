@@ -28,13 +28,14 @@ class ON1_SettingsMetadataPluginID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ON1 Settings Metadata Plugin ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JSON::Main
-             * line : 153387
+             * line : 105405
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ON1_SettingsMetadataPluginID extends AbstractTagGroup
              */
             'id' => 'JSON::Main.JSON:ON1_SettingsMetadataPluginID',
             'desc' => [
+                'en' => 'ON1 Settings Metadata Plugin ID',
             ],
         ],
     ];

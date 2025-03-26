@@ -28,13 +28,14 @@ class DocumentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CBOR::Main
-             * line : 3767
+             * line : 2296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocumentID extends AbstractTagGroup
              */
             'id' => 'CBOR::Main.CBOR:DocumentID',
             'desc' => [
+                'en' => 'Document ID',
             ],
         ],
     ];

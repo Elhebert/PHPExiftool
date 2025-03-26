@@ -28,13 +28,14 @@ class CompensatorPixelSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compensator Pixel Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103254
+             * line : 76350
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompensatorPixelSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CompensatorPixelSpacing',
             'desc' => [
+                'en' => 'Compensator Pixel Spacing',
             ],
         ],
     ];

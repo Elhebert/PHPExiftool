@@ -28,13 +28,14 @@ class MediaIsDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1376
+             * line : 622
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsDelay extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaIsDelay',
             'desc' => [
+                'en' => 'Media Is Delay',
             ],
         ],
     ];

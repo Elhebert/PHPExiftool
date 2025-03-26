@@ -28,13 +28,14 @@ class HDMIBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDMI Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247493
+             * line : 170186
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDMIBitDepth extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:HDMIBitDepth',
             'desc' => [
+                'en' => 'HDMI Bit Depth',
             ],
         ],
     ];

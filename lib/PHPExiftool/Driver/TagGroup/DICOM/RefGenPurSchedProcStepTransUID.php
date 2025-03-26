@@ -28,13 +28,14 @@ class RefGenPurSchedProcStepTransUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ref Gen Pur Sched Proc Step Trans UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99974
+             * line : 73176
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RefGenPurSchedProcStepTransUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RefGenPurSchedProcStepTransUID',
             'desc' => [
+                'en' => 'Ref Gen Pur Sched Proc Step Trans UID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AcquisitionDeviceTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Device Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98354
+             * line : 71689
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionDeviceTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionDeviceTypeCodeSequence',
             'desc' => [
+                'en' => 'Acquisition Device Type Code Sequence',
             ],
         ],
     ];

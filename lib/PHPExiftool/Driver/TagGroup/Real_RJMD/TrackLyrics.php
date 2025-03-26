@@ -28,13 +28,14 @@ class TrackLyrics extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Lyrics',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Metadata
-             * line : 330474
+             * line : 232542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackLyrics extends AbstractTagGroup
              */
             'id' => 'Real::Metadata.Real-RJMD:TrackLyrics',
             'desc' => [
+                'en' => 'Track Lyrics',
             ],
         ],
     ];

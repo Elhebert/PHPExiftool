@@ -28,13 +28,14 @@ class FocalDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95911
+             * line : 69337
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FocalDistance',
             'desc' => [
+                'en' => 'Focal Distance',
             ],
         ],
     ];

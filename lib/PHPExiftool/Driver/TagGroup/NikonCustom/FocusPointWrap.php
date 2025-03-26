@@ -28,13 +28,14 @@ class FocusPointWrap extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Point Wrap',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211970
+             * line : 142436
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214575
+             * line : 144055
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217345
+             * line : 146025
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219769
+             * line : 148057
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 223917
+             * line : 150996
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224536
+             * line : 151408
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226325
+             * line : 152467
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229565
+             * line : 154332
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231654
+             * line : 155857
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234039
+             * line : 157796
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235298
+             * line : 158597
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class FocusPointWrap extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FocusPointWrap',
             'desc' => [
+                'en' => 'Focus Point Wrap',
             ],
         ],
     ];

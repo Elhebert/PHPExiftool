@@ -28,13 +28,14 @@ class AutoBracketModeM extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Bracket Mode M',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245247
+             * line : 167975
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoBracketModeM extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AutoBracketModeM',
             'desc' => [
+                'en' => 'Auto Bracket Mode M',
             ],
         ],
     ];

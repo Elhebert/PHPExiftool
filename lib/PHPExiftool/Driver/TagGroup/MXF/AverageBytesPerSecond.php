@@ -28,13 +28,14 @@ class AverageBytesPerSecond extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Average Bytes Per Second',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171299
+             * line : 117503
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AverageBytesPerSecond extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AverageBytesPerSecond',
             'desc' => [
+                'en' => 'Average Bytes Per Second',
             ],
         ],
     ];

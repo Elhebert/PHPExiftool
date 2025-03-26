@@ -28,13 +28,14 @@ class BitsRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CopyBits with Clipped Rectangle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264989
+             * line : 183209
              * type : BitsRect#
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:BitsRect',
             'desc' => [
+                'en' => 'CopyBits with Clipped Rectangle',
             ],
         ],
     ];

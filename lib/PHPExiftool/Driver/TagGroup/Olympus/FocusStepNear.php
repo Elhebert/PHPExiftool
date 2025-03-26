@@ -28,13 +28,14 @@ class FocusStepNear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Step Near',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254762
+             * line : 175896
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusStepNear extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:FocusStepNear',
             'desc' => [
+                'en' => 'Focus Step Near',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259193
+             * line : 178825
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocusStepNear extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FocusStepNear',
             'desc' => [
+                'en' => 'Focus Step Near',
             ],
         ],
     ];

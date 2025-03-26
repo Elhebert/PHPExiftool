@@ -28,13 +28,14 @@ class MakerNoteMotorola extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Motorola',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104972
+             * line : 77852
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteMotorola extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteMotorola',
             'desc' => [
+                'en' => 'Maker Note Motorola',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115933
+             * line : 83145
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteMotorola extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteMotorola',
             'desc' => [
+                'en' => 'Maker Note Motorola',
             ],
         ],
     ];

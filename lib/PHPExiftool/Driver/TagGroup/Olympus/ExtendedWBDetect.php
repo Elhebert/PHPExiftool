@@ -28,13 +28,14 @@ class ExtendedWBDetect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extended WB Detect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252979
+             * line : 174387
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtendedWBDetect extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ExtendedWBDetect',
             'desc' => [
+                'en' => 'Extended WB Detect',
             ],
         ],
     ];

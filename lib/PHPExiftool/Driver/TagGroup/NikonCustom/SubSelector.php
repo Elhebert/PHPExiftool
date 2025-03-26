@@ -28,13 +28,14 @@ class SubSelector extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216327
+             * line : 145345
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SubSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:SubSelector',
             'desc' => [
+                'en' => 'Sub Selector',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219125
+             * line : 147469
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SubSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:SubSelector',
             'desc' => [
+                'en' => 'Sub Selector',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221585
+             * line : 149511
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SubSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:SubSelector',
             'desc' => [
+                'en' => 'Sub Selector',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233492
+             * line : 157336
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SubSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:SubSelector',
             'desc' => [
+                'en' => 'Sub Selector',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 236558
+             * line : 159688
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class SubSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:SubSelector',
             'desc' => [
+                'en' => 'Sub Selector',
             ],
         ],
     ];

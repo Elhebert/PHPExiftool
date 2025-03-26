@@ -28,13 +28,14 @@ class DiscardObjects extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Discard Objects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165199
+             * line : 112292
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiscardObjects extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:DiscardObjects',
             'desc' => [
+                'en' => 'Discard Objects',
             ],
         ],
     ];

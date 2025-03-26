@@ -28,13 +28,14 @@ class RadiationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103167
+             * line : 76263
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiationType',
             'desc' => [
+                'en' => 'Radiation Type',
             ],
         ],
     ];

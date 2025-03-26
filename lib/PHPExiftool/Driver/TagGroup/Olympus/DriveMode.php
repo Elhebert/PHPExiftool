@@ -28,13 +28,14 @@ class DriveMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252822
+             * line : 174285
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
     ];

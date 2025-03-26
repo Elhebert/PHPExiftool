@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162030
+             * line : 110730
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

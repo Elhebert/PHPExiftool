@@ -28,13 +28,14 @@ class Padding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Main
-             * line : 121734
+             * line : 85327
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Padding extends AbstractTagGroup
              */
             'id' => 'FLAC::Main.FLAC:Padding',
             'desc' => [
+                'en' => 'Padding',
             ],
         ],
     ];

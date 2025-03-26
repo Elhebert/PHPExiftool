@@ -28,13 +28,14 @@ class RecordDatasetName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Dataset Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106657
+             * line : 78890
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordDatasetName extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordDatasetName',
             'desc' => [
+                'en' => 'Record Dataset Name',
             ],
         ],
     ];

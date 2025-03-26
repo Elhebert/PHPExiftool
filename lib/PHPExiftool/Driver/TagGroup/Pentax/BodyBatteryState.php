@@ -28,13 +28,14 @@ class BodyBatteryState extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Body Battery State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283747
+             * line : 196854
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BodyBatteryState extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryState',
             'desc' => [
+                'en' => 'Body Battery State',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283775
+             * line : 196871
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BodyBatteryState extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryState',
             'desc' => [
+                'en' => 'Body Battery State',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283806
+             * line : 196891
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class BodyBatteryState extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryState',
             'desc' => [
+                'en' => 'Body Battery State',
             ],
         ],
     ];

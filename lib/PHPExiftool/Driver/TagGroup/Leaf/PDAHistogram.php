@@ -28,13 +28,14 @@ class PDAHistogram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PDA Histogram',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Main
-             * line : 161893
+             * line : 110604
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PDAHistogram extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:PDAHistogram',
             'desc' => [
+                'en' => 'PDA Histogram',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShowImageTrueSizeFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Show Image True Size Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101706
+             * line : 74847
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShowImageTrueSizeFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShowImageTrueSizeFlag',
             'desc' => [
+                'en' => 'Show Image True Size Flag',
             ],
         ],
     ];

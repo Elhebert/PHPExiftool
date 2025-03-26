@@ -28,13 +28,14 @@ class SensingMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensing Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407931
+             * line : 288437
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensingMethod extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:SensingMethod',
             'desc' => [
+                'en' => 'Sensing Method',
             ],
         ],
     ];

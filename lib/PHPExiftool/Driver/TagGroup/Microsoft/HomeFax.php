@@ -28,13 +28,14 @@ class HomeFax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Home Fax',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175992
+             * line : 121092
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HomeFax extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:HomeFax',
             'desc' => [
+                'en' => 'Home Fax',
             ],
         ],
     ];

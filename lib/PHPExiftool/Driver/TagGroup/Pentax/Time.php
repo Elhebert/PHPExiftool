@@ -28,13 +28,14 @@ class Time extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 295232
+             * line : 206423
              * type : undef
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class Time extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Time',
             'desc' => [
+                'en' => 'Time',
             ],
         ],
     ];

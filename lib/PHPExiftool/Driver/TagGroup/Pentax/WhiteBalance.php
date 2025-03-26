@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::MOV
-             * line : 294585
+             * line : 205944
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Pentax::MOV.Pentax:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 297484
+             * line : 207742
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302565
+             * line : 210569
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

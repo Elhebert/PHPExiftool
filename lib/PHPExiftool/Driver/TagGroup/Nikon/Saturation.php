@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199420
+             * line : 134574
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203735
+             * line : 137370
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204049
+             * line : 137482
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204375
+             * line : 137597
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

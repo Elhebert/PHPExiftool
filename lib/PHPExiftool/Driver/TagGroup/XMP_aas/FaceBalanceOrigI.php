@@ -28,13 +28,14 @@ class FaceBalanceOrigI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Balance Orig I',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aas
-             * line : 397668
+             * line : 281552
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceBalanceOrigI extends AbstractTagGroup
              */
             'id' => 'XMP::aas.XMP-aas:FaceBalanceOrigI',
             'desc' => [
+                'en' => 'Face Balance Orig I',
             ],
         ],
     ];

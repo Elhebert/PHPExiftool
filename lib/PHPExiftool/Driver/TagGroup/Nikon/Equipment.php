@@ -28,13 +28,14 @@ class Equipment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Equipment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191191
+             * line : 129897
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Equipment extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:Equipment',
             'desc' => [
+                'en' => 'Equipment',
             ],
         ],
     ];

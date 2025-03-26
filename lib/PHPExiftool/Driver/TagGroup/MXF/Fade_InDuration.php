@@ -28,13 +28,14 @@ class Fade_InDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fade-In Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169743
+             * line : 116097
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Fade_InDuration extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Fade-InDuration',
             'desc' => [
+                'en' => 'Fade-In Duration',
             ],
         ],
     ];

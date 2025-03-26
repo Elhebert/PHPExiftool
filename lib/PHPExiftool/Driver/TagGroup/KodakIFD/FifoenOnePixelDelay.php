@@ -28,13 +28,14 @@ class FifoenOnePixelDelay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fifoen One Pixel Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157317
+             * line : 108509
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FifoenOnePixelDelay extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FifoenOnePixelDelay',
             'desc' => [
+                'en' => 'Fifoen One Pixel Delay',
             ],
         ],
     ];

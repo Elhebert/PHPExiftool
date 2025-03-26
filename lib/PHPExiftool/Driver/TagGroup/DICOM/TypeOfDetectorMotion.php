@@ -28,13 +28,14 @@ class TypeOfDetectorMotion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type Of Detector Motion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100907
+             * line : 74067
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TypeOfDetectorMotion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TypeOfDetectorMotion',
             'desc' => [
+                'en' => 'Type Of Detector Motion',
             ],
         ],
     ];

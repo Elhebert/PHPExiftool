@@ -28,13 +28,14 @@ class EditVersionName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edit Version Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210501
+             * line : 141711
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EditVersionName extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:EditVersionName',
             'desc' => [
+                'en' => 'Edit Version Name',
             ],
         ],
     ];

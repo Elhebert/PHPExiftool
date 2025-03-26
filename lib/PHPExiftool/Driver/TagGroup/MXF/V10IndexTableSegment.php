@@ -28,13 +28,14 @@ class V10IndexTableSegment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'V10 Index Table Segment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172519
+             * line : 118678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class V10IndexTableSegment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:V10IndexTableSegment',
             'desc' => [
+                'en' => 'V10 Index Table Segment',
             ],
         ],
     ];

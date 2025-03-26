@@ -28,13 +28,14 @@ class OtherSmoothingTypesAvailable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Smoothing Types Available',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102079
+             * line : 75216
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherSmoothingTypesAvailable extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OtherSmoothingTypesAvailable',
             'desc' => [
+                'en' => 'Other Smoothing Types Available',
             ],
         ],
     ];

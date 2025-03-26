@@ -28,13 +28,14 @@ class AddIPTCInformation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Add IPTC Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75649
+             * line : 55704
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AddIPTCInformation extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AddIPTCInformation',
             'desc' => [
+                'en' => 'Add IPTC Information',
             ],
         ],
     ];

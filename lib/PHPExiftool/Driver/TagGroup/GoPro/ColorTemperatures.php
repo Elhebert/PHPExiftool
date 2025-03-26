@@ -28,13 +28,14 @@ class ColorTemperatures extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Temperatures',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139848
+             * line : 97799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorTemperatures extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ColorTemperatures',
             'desc' => [
+                'en' => 'Color Temperatures',
             ],
         ],
     ];

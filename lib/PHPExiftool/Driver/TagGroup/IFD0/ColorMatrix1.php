@@ -28,13 +28,14 @@ class ColorMatrix1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119031
+             * line : 84150
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMatrix1 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ColorMatrix1',
             'desc' => [
+                'en' => 'Color Matrix 1',
             ],
         ],
     ];

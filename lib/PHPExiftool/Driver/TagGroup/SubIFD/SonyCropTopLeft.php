@@ -28,13 +28,14 @@ class SonyCropTopLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Crop Top Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112841
+             * line : 82209
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class SonyCropTopLeft extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:SonyCropTopLeft',
             'desc' => [
+                'en' => 'Sony Crop Top Left',
             ],
         ],
     ];

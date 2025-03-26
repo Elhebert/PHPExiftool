@@ -28,13 +28,14 @@ class AFAssist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Assist/Flash Firing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71429
+             * line : 53259
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist/Flash Firing',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 77992
+             * line : 56829
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFAssist extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:AFAssist',
             'desc' => [
+                'en' => 'AF Assist',
             ],
         ],
     ];

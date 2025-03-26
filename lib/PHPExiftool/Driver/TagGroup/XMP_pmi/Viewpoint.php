@@ -28,13 +28,14 @@ class Viewpoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Viewpoint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410720
+             * line : 290001
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Viewpoint extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:Viewpoint',
             'desc' => [
+                'en' => 'Viewpoint',
             ],
         ],
     ];

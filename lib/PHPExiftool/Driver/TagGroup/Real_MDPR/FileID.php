@@ -28,13 +28,14 @@ class FileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330276
+             * line : 232427
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileID extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:FileID',
             'desc' => [
+                'en' => 'File ID',
             ],
         ],
     ];

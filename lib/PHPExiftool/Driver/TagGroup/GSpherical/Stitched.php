@@ -28,13 +28,14 @@ class Stitched extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stitched',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397247
+             * line : 281319
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Stitched extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:Stitched',
             'desc' => [
+                'en' => 'Stitched',
             ],
         ],
     ];

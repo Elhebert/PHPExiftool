@@ -28,13 +28,14 @@ class TriggerFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97476
+             * line : 70864
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerFrequency',
             'desc' => [
+                'en' => 'Trigger Frequency',
             ],
         ],
     ];

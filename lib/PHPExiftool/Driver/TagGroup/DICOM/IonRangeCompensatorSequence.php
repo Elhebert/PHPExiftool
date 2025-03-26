@@ -28,13 +28,14 @@ class IonRangeCompensatorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Range Compensator Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103744
+             * line : 76833
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonRangeCompensatorSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonRangeCompensatorSequence',
             'desc' => [
+                'en' => 'Ion Range Compensator Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ComponentAttributes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Component Attributes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171688
+             * line : 117880
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentAttributes extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComponentAttributes',
             'desc' => [
+                'en' => 'Component Attributes',
             ],
         ],
     ];

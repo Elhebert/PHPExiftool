@@ -28,13 +28,14 @@ class ProductionDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Production Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MetaData
-             * line : 323975
+             * line : 228943
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductionDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::MetaData.QuickTime:ProductionDate',
             'desc' => [
+                'en' => 'Production Date',
             ],
         ],
     ];

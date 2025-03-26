@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278720
+             * line : 193810
              * type : string
              * writable : false
              * count : 16
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278738
+             * line : 193813
              * type : string
              * writable : false
              * count : 16
@@ -55,12 +57,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278756
+             * line : 193816
              * type : string
              * writable : false
              * count : 30
@@ -68,6 +71,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

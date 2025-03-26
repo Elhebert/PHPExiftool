@@ -28,13 +28,14 @@ class GPSLongitudeRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Longitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ast
-             * line : 209950
+             * line : 141445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSLongitudeRef extends AbstractTagGroup
              */
             'id' => 'Nikon::ast.XMP-ast:GPSLongitudeRef',
             'desc' => [
+                'en' => 'GPS Longitude Ref',
             ],
         ],
     ];

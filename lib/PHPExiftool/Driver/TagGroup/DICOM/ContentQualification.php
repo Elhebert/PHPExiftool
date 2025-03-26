@@ -28,13 +28,14 @@ class ContentQualification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Qualification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96515
+             * line : 69919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentQualification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentQualification',
             'desc' => [
+                'en' => 'Content Qualification',
             ],
         ],
     ];

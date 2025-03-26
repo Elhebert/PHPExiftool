@@ -28,13 +28,14 @@ class PMVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PM Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::XMP
-             * line : 304940
+             * line : 211952
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PMVersion extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::XMP.XMP-photomech:PMVersion',
             'desc' => [
+                'en' => 'PM Version',
             ],
         ],
     ];

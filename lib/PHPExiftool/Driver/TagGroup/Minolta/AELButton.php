@@ -28,13 +28,14 @@ class AELButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AEL Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181660
+             * line : 123574
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AELButton extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:AELButton',
             'desc' => [
+                'en' => 'AEL Button',
             ],
         ],
     ];

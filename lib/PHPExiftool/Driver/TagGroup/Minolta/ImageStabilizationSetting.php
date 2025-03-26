@@ -28,13 +28,14 @@ class ImageStabilizationSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185106
+             * line : 125653
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageStabilizationSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ImageStabilizationSetting',
             'desc' => [
+                'en' => 'Image Stabilization Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class XAttrAppleMailDateSent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr Apple Mail Date Sent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173124
+             * line : 119138
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrAppleMailDateSent extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrAppleMailDateSent',
             'desc' => [
+                'en' => 'X Attr Apple Mail Date Sent',
             ],
         ],
     ];

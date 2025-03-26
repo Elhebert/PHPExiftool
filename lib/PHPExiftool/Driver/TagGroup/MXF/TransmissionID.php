@@ -28,13 +28,14 @@ class TransmissionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transmission ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167345
+             * line : 113967
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransmissionID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TransmissionID',
             'desc' => [
+                'en' => 'Transmission ID',
             ],
         ],
     ];

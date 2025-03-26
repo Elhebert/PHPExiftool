@@ -28,13 +28,14 @@ class PresentationIntentType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Intent Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94773
+             * line : 68260
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationIntentType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PresentationIntentType',
             'desc' => [
+                'en' => 'Presentation Intent Type',
             ],
         ],
     ];

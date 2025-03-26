@@ -28,13 +28,14 @@ class ExposureControlStepSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Control Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243701
+             * line : 166734
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureControlStepSize extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ExposureControlStepSize',
             'desc' => [
+                'en' => 'Exposure Control Step Size',
             ],
         ],
     ];

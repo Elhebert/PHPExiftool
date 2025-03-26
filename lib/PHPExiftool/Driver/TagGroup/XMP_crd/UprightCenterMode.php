@@ -28,13 +28,14 @@ class UprightCenterMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Center Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401214
+             * line : 284611
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightCenterMode extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:UprightCenterMode',
             'desc' => [
+                'en' => 'Upright Center Mode',
             ],
         ],
     ];

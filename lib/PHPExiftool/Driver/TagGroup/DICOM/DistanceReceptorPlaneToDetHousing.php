@@ -28,13 +28,14 @@ class DistanceReceptorPlaneToDetHousing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Receptor Plane To Det Housing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97125
+             * line : 70522
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceReceptorPlaneToDetHousing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceReceptorPlaneToDetHousing',
             'desc' => [
+                'en' => 'Distance Receptor Plane To Det Housing',
             ],
         ],
     ];

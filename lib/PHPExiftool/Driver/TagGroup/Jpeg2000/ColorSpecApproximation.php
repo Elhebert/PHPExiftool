@@ -28,13 +28,14 @@ class ColorSpecApproximation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Spec Approximation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ColorSpec
-             * line : 153708
+             * line : 105563
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpecApproximation extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecApproximation',
             'desc' => [
+                'en' => 'Color Spec Approximation',
             ],
         ],
     ];

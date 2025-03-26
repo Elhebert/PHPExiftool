@@ -28,13 +28,14 @@ class System extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::WordDocument
-             * line : 127680
+             * line : 88658
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class System extends AbstractTagGroup
              */
             'id' => 'FlashPix::WordDocument.FlashPix:System',
             'desc' => [
+                'en' => 'System',
             ],
         ],
     ];

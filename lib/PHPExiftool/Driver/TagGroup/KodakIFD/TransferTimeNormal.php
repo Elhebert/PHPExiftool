@@ -28,13 +28,14 @@ class TransferTimeNormal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transfer Time Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157284
+             * line : 108476
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TransferTimeNormal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TransferTimeNormal',
             'desc' => [
+                'en' => 'Transfer Time Normal',
             ],
         ],
     ];

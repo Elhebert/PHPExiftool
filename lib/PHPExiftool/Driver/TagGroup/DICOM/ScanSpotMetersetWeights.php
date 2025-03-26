@@ -28,13 +28,14 @@ class ScanSpotMetersetWeights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Spot Meterset Weights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103894
+             * line : 76983
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSpotMetersetWeights extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanSpotMetersetWeights',
             'desc' => [
+                'en' => 'Scan Spot Meterset Weights',
             ],
         ],
     ];

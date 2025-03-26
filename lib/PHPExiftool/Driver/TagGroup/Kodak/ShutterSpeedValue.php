@@ -28,13 +28,14 @@ class ShutterSpeedValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shutter Speed Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Free
-             * line : 154653
+             * line : 106076
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShutterSpeedValue extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:ShutterSpeedValue',
             'desc' => [
+                'en' => 'Shutter Speed Value',
             ],
         ],
     ];

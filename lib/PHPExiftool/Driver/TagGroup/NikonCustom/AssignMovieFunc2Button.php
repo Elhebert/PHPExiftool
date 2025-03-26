@@ -28,13 +28,14 @@ class AssignMovieFunc2Button extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Assign Movie Func 2 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219633
+             * line : 147952
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AssignMovieFunc2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignMovieFunc2Button',
             'desc' => [
+                'en' => 'Assign Movie Func 2 Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221965
+             * line : 149866
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AssignMovieFunc2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMovieFunc2Button',
             'desc' => [
+                'en' => 'Assign Movie Func 2 Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233895
+             * line : 157714
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AssignMovieFunc2Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMovieFunc2Button',
             'desc' => [
+                'en' => 'Assign Movie Func 2 Button',
             ],
         ],
     ];

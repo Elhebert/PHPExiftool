@@ -28,13 +28,14 @@ class R2AGreenStbl23 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 A Green Stbl 23',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307944
+             * line : 214331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2AGreenStbl23 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2AGreenStbl23',
             'desc' => [
+                'en' => 'R2 A Green Stbl 23',
             ],
         ],
     ];

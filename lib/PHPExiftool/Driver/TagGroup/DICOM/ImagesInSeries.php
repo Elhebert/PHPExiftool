@@ -28,13 +28,14 @@ class ImagesInSeries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Images In Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97970
+             * line : 71320
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImagesInSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagesInSeries',
             'desc' => [
+                'en' => 'Images In Series',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98468
+             * line : 71800
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImagesInSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagesInSeries',
             'desc' => [
+                'en' => 'Images In Series',
             ],
         ],
     ];

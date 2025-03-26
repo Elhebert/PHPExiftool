@@ -28,13 +28,14 @@ class BitsPerComponent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Per Component',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ImageHeader
-             * line : 154021
+             * line : 105768
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BitsPerComponent extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ImageHeader.Jpeg2000:BitsPerComponent',
             'desc' => [
+                'en' => 'Bits Per Component',
             ],
         ],
         1 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154155
+             * line : 105849
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BitsPerComponent extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:BitsPerComponent',
             'desc' => [
+                'en' => 'Bits Per Component',
             ],
         ],
     ];

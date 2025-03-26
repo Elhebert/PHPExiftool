@@ -28,13 +28,14 @@ class ImageFields extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Fields',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161704
+             * line : 110461
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFields extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:ImageFields',
             'desc' => [
+                'en' => 'Image Fields',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProductID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95154
+             * line : 68635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProductID',
             'desc' => [
+                'en' => 'Product ID',
             ],
         ],
     ];

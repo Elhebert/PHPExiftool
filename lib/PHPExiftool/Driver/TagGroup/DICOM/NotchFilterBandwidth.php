@@ -28,13 +28,14 @@ class NotchFilterBandwidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Notch Filter Bandwidth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99536
+             * line : 72747
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NotchFilterBandwidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NotchFilterBandwidth',
             'desc' => [
+                'en' => 'Notch Filter Bandwidth',
             ],
         ],
     ];

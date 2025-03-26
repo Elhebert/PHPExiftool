@@ -28,13 +28,14 @@ class VariableFlipAngleFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Variable Flip Angle Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95986
+             * line : 69409
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VariableFlipAngleFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VariableFlipAngleFlag',
             'desc' => [
+                'en' => 'Variable Flip Angle Flag',
             ],
         ],
     ];

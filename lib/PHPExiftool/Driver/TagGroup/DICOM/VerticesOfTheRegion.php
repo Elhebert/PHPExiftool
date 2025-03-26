@@ -28,13 +28,14 @@ class VerticesOfTheRegion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertices Of The Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99237
+             * line : 72456
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticesOfTheRegion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerticesOfTheRegion',
             'desc' => [
+                'en' => 'Vertices Of The Region',
             ],
         ],
     ];

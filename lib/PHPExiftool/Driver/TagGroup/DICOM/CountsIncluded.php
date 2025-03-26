@@ -28,13 +28,14 @@ class CountsIncluded extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Counts Included',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101037
+             * line : 74187
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CountsIncluded extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CountsIncluded',
             'desc' => [
+                'en' => 'Counts Included',
             ],
         ],
     ];

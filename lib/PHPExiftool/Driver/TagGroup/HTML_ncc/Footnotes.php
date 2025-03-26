@@ -28,13 +28,14 @@ class Footnotes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Footnotes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142960
+             * line : 98725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Footnotes extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Footnotes',
             'desc' => [
+                'en' => 'Footnotes',
             ],
         ],
     ];

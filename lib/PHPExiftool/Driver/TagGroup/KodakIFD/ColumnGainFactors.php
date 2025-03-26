@@ -28,13 +28,14 @@ class ColumnGainFactors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Column Gain Factors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156155
+             * line : 107366
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColumnGainFactors extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ColumnGainFactors',
             'desc' => [
+                'en' => 'Column Gain Factors',
             ],
         ],
     ];

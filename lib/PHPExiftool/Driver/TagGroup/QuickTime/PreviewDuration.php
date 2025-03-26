@@ -28,13 +28,14 @@ class PreviewDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324142
+             * line : 229035
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewDuration extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:PreviewDuration',
             'desc' => [
+                'en' => 'Preview Duration',
             ],
         ],
     ];

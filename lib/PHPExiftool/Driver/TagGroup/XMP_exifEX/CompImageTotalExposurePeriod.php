@@ -28,13 +28,14 @@ class CompImageTotalExposurePeriod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comp Image Total Exposure Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408542
+             * line : 288604
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompImageTotalExposurePeriod extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:CompImageTotalExposurePeriod',
             'desc' => [
+                'en' => 'Comp Image Total Exposure Period',
             ],
         ],
     ];

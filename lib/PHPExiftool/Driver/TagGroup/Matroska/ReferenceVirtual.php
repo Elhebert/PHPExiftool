@@ -28,13 +28,14 @@ class ReferenceVirtual extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Virtual',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173413
+             * line : 119364
              * type : signed
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceVirtual extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ReferenceVirtual',
             'desc' => [
+                'en' => 'Reference Virtual',
             ],
         ],
     ];

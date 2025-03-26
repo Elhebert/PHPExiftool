@@ -28,13 +28,14 @@ class CondadoIllFactor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Condado Ill Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156900
+             * line : 108104
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CondadoIllFactor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CondadoIllFactor',
             'desc' => [
+                'en' => 'Condado Ill Factor',
             ],
         ],
     ];

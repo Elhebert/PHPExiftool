@@ -28,13 +28,14 @@ class RecordingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recording Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262261
+             * line : 181258
              * type : undef
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class RecordingTime extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:RecordingTime',
             'desc' => [
+                'en' => 'Recording Time',
             ],
         ],
     ];

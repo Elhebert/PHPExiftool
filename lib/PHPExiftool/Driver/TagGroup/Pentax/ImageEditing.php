@@ -28,13 +28,14 @@ class ImageEditing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Editing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298757
+             * line : 208458
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ImageEditing extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ImageEditing',
             'desc' => [
+                'en' => 'Image Editing',
             ],
         ],
     ];

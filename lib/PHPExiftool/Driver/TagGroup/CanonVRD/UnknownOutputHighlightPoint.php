@@ -28,13 +28,14 @@ class UnknownOutputHighlightPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unknown Output Highlight Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83094
+             * line : 60862
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UnknownOutputHighlightPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:UnknownOutputHighlightPoint',
             'desc' => [
+                'en' => 'Unknown Output Highlight Point',
             ],
         ],
     ];

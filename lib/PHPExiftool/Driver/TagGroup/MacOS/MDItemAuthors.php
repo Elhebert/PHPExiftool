@@ -28,13 +28,14 @@ class MDItemAuthors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Authors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172580
+             * line : 118730
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemAuthors extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemAuthors',
             'desc' => [
+                'en' => 'MD Item Authors',
             ],
         ],
     ];

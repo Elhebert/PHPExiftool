@@ -28,13 +28,14 @@ class FirmwareID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186737
+             * line : 126875
              * type : string
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class FirmwareID extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:FirmwareID',
             'desc' => [
+                'en' => 'Firmware ID',
             ],
         ],
     ];

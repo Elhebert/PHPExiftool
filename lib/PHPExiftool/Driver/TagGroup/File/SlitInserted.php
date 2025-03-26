@@ -28,13 +28,14 @@ class SlitInserted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slit Inserted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166554
+             * line : 113293
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlitInserted extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:SlitInserted',
             'desc' => [
+                'en' => 'Slit Inserted',
             ],
         ],
     ];

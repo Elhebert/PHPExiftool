@@ -28,13 +28,14 @@ class NumberOfReferences extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of References',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94643
+             * line : 68143
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfReferences extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfReferences',
             'desc' => [
+                'en' => 'Number Of References',
             ],
         ],
     ];

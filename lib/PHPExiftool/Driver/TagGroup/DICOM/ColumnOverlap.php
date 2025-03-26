@@ -28,13 +28,14 @@ class ColumnOverlap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Column Overlap',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98774
+             * line : 72046
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColumnOverlap extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ColumnOverlap',
             'desc' => [
+                'en' => 'Column Overlap',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompositionAdjustRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composition Adjust Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LevelInfo
-             * line : 294506
+             * line : 205925
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompositionAdjustRotation extends AbstractTagGroup
              */
             'id' => 'Pentax::LevelInfo.Pentax:CompositionAdjustRotation',
             'desc' => [
+                'en' => 'Composition Adjust Rotation',
             ],
         ],
     ];

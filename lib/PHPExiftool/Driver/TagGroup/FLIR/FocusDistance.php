@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122355
+             * line : 85701
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

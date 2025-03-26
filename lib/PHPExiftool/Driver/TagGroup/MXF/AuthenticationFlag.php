@@ -28,13 +28,14 @@ class AuthenticationFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Authentication Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169369
+             * line : 115776
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthenticationFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AuthenticationFlag',
             'desc' => [
+                'en' => 'Authentication Flag',
             ],
         ],
     ];

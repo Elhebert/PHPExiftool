@@ -28,13 +28,14 @@ class Salutation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Salutation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168871
+             * line : 115337
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Salutation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Salutation',
             'desc' => [
+                'en' => 'Salutation',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170696
+             * line : 116931
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Salutation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Salutation',
             'desc' => [
+                'en' => 'Salutation',
             ],
         ],
     ];

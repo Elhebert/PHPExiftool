@@ -28,13 +28,14 @@ class ReferencePixelPhysicalValueX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Pixel Physical Value X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96284
+             * line : 69694
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencePixelPhysicalValueX extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencePixelPhysicalValueX',
             'desc' => [
+                'en' => 'Reference Pixel Physical Value X',
             ],
         ],
     ];

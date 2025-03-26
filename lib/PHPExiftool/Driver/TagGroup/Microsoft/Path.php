@@ -28,13 +28,14 @@ class Path extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176476
+             * line : 121431
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Path extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Path',
             'desc' => [
+                'en' => 'Path',
             ],
         ],
     ];

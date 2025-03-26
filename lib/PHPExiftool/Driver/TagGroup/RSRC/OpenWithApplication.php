@@ -28,13 +28,14 @@ class OpenWithApplication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Open With Application',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RSRC::Main
-             * line : 329121
+             * line : 231998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OpenWithApplication extends AbstractTagGroup
              */
             'id' => 'RSRC::Main.RSRC:OpenWithApplication',
             'desc' => [
+                'en' => 'Open With Application',
             ],
         ],
     ];

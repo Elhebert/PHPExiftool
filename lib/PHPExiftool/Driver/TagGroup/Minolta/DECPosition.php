@@ -28,13 +28,14 @@ class DECPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DEC Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178198
+             * line : 122229
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DECPosition extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:DECPosition',
             'desc' => [
+                'en' => 'DEC Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OutputInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100001
+             * line : 73203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OutputInformationSequence',
             'desc' => [
+                'en' => 'Output Information Sequence',
             ],
         ],
     ];

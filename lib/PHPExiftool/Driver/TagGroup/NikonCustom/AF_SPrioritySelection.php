@@ -28,13 +28,14 @@ class AF_SPrioritySelection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-S Priority Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 211814
+             * line : 142369
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214463
+             * line : 143999
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217295
+             * line : 145989
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219719
+             * line : 148021
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 223841
+             * line : 150951
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224423
+             * line : 151358
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226249
+             * line : 152422
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229453
+             * line : 154276
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231581
+             * line : 155804
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235150
+             * line : 158475
              * type : int8u
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class AF_SPrioritySelection extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AF-SPrioritySelection',
             'desc' => [
+                'en' => 'AF-S Priority Selection',
             ],
         ],
     ];

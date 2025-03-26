@@ -28,13 +28,14 @@ class ReferencedInstanceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Instance Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94940
+             * line : 68422
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedInstanceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedInstanceSequence',
             'desc' => [
+                'en' => 'Referenced Instance Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SkipLineTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Skip Line Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157269
+             * line : 108461
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SkipLineTime extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SkipLineTime',
             'desc' => [
+                'en' => 'Skip Line Time',
             ],
         ],
     ];

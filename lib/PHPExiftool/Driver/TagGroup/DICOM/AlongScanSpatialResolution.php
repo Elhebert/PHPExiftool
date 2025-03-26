@@ -28,13 +28,14 @@ class AlongScanSpatialResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Along Scan Spatial Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98407
+             * line : 71740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlongScanSpatialResolution extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlongScanSpatialResolution',
             'desc' => [
+                'en' => 'Along Scan Spatial Resolution',
             ],
         ],
     ];

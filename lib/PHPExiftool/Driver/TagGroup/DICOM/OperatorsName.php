@@ -28,13 +28,14 @@ class OperatorsName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operators Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94893
+             * line : 68377
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperatorsName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OperatorsName',
             'desc' => [
+                'en' => 'Operators Name',
             ],
         ],
     ];

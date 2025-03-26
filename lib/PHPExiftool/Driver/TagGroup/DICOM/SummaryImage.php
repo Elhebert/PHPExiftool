@@ -28,13 +28,14 @@ class SummaryImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Summary Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98453
+             * line : 71785
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SummaryImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SummaryImage',
             'desc' => [
+                'en' => 'Summary Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BodyPartThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Body Part Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95927
+             * line : 69352
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BodyPartThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BodyPartThickness',
             'desc' => [
+                'en' => 'Body Part Thickness',
             ],
         ],
     ];

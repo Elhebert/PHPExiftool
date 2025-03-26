@@ -28,13 +28,14 @@ class DocTypeReadVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doc Type Read Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173441
+             * line : 119390
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocTypeReadVersion extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:DocTypeReadVersion',
             'desc' => [
+                'en' => 'Doc Type Read Version',
             ],
         ],
     ];

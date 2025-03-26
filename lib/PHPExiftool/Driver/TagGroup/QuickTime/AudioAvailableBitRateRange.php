@@ -28,13 +28,14 @@ class AudioAvailableBitRateRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Available Bit Rate Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312636
+             * line : 218509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioAvailableBitRateRange extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioAvailableBitRateRange',
             'desc' => [
+                'en' => 'Audio Available Bit Rate Range',
             ],
         ],
     ];

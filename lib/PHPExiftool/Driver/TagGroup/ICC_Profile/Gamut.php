@@ -28,13 +28,14 @@ class Gamut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamut',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146395
+             * line : 101769
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gamut extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:Gamut',
             'desc' => [
+                'en' => 'Gamut',
             ],
         ],
     ];

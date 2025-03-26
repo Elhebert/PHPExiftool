@@ -28,13 +28,14 @@ class BracketingBurstOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracketing Burst Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248599
+             * line : 171287
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BracketingBurstOptions extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketingBurstOptions',
             'desc' => [
+                'en' => 'Bracketing Burst Options',
             ],
         ],
     ];

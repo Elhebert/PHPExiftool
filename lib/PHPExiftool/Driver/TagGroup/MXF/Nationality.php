@@ -28,13 +28,14 @@ class Nationality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nationality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171070
+             * line : 117291
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Nationality extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Nationality',
             'desc' => [
+                'en' => 'Nationality',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171073
+             * line : 117294
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Nationality extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Nationality',
             'desc' => [
+                'en' => 'Nationality',
             ],
         ],
     ];

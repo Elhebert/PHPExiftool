@@ -28,13 +28,14 @@ class DualCameraImageName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dual Camera Image Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 334312
+             * line : 234368
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DualCameraImageName extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:DualCameraImageName',
             'desc' => [
+                'en' => 'Dual Camera Image Name',
             ],
         ],
     ];

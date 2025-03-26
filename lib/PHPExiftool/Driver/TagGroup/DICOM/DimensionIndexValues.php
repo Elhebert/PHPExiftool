@@ -28,13 +28,14 @@ class DimensionIndexValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimension Index Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98072
+             * line : 71419
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DimensionIndexValues extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DimensionIndexValues',
             'desc' => [
+                'en' => 'Dimension Index Values',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EffectsVisible extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effects Visible',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305542
+             * line : 212307
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectsVisible extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:EffectsVisible',
             'desc' => [
+                'en' => 'Effects Visible',
             ],
         ],
     ];

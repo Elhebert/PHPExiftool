@@ -28,13 +28,14 @@ class LensFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80831
+             * line : 58943
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensFocalLength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:LensFocalLength',
             'desc' => [
+                'en' => 'Lens Focal Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SonyISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363896
+             * line : 253302
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364919
+             * line : 253973
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365885
+             * line : 254621
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366904
+             * line : 255289
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366907
+             * line : 255292
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366948
+             * line : 255304
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369949
+             * line : 257928
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370979
+             * line : 258593
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373980
+             * line : 261217
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376981
+             * line : 263841
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387575
+             * line : 273683
              * type : int16u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
         11 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391034
+             * line : 276769
              * type : int16u
              * writable : false
              * count :
@@ -185,6 +197,7 @@ class SonyISO extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:SonyISO',
             'desc' => [
+                'en' => 'Sony ISO',
             ],
         ],
     ];

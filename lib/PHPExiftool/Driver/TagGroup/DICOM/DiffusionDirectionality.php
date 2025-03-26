@@ -28,13 +28,14 @@ class DiffusionDirectionality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diffusion Directionality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96690
+             * line : 70093
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiffusionDirectionality extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DiffusionDirectionality',
             'desc' => [
+                'en' => 'Diffusion Directionality',
             ],
         ],
     ];

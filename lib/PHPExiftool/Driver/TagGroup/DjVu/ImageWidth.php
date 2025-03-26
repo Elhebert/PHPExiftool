@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Info
-             * line : 107084
+             * line : 79200
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'DjVu::Info.DjVu:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlendingWeightConstant extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blending Weight Constant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99056
+             * line : 72288
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlendingWeightConstant extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlendingWeightConstant',
             'desc' => [
+                'en' => 'Blending Weight Constant',
             ],
         ],
     ];

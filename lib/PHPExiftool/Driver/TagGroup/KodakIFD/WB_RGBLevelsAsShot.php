@@ -28,13 +28,14 @@ class WB_RGBLevelsAsShot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels As Shot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155206
+             * line : 106439
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsAsShot extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBLevelsAsShot',
             'desc' => [
+                'en' => 'WB RGB Levels As Shot',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SpecimenUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specimen UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99795
+             * line : 72999
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecimenUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecimenUID',
             'desc' => [
+                'en' => 'Specimen UID',
             ],
         ],
     ];

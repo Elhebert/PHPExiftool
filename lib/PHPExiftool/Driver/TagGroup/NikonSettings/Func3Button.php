@@ -28,13 +28,14 @@ class Func3Button extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Func 3 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248192
+             * line : 170880
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Func3Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:Func3Button',
             'desc' => [
+                'en' => 'Func 3 Button',
             ],
         ],
     ];

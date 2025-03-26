@@ -28,13 +28,14 @@ class YCbCrPositioning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Positioning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112552
+             * line : 82088
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YCbCrPositioning extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:YCbCrPositioning',
             'desc' => [
+                'en' => 'Y Cb Cr Positioning',
             ],
         ],
     ];

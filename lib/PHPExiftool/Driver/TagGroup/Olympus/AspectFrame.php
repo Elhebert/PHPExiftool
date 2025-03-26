@@ -28,13 +28,14 @@ class AspectFrame extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aspect Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255539
+             * line : 176351
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class AspectFrame extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:AspectFrame',
             'desc' => [
+                'en' => 'Aspect Frame',
             ],
         ],
     ];

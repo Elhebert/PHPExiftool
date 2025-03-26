@@ -28,13 +28,14 @@ class ThumbnailRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemRef
-             * line : 323248
+             * line : 228564
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailRef extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemRef.QuickTime:ThumbnailRef',
             'desc' => [
+                'en' => 'Thumbnail Ref',
             ],
         ],
     ];

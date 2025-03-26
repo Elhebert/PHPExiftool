@@ -28,13 +28,14 @@ class MakeAndModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make And Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146441
+             * line : 101802
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MakeAndModel extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:MakeAndModel',
             'desc' => [
+                'en' => 'Make And Model',
             ],
         ],
     ];

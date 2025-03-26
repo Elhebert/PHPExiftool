@@ -28,13 +28,14 @@ class Linearized extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linearized',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Main
-             * line : 264279
+             * line : 182667
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Linearized extends AbstractTagGroup
              */
             'id' => 'PDF::Main.PDF:Linearized',
             'desc' => [
+                'en' => 'Linearized',
             ],
         ],
     ];

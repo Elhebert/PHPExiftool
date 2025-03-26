@@ -28,13 +28,14 @@ class NoiseReductionParametersCamera extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Parameters Camera',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156663
+             * line : 107867
              * type : int16u
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class NoiseReductionParametersCamera extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NoiseReductionParametersCamera',
             'desc' => [
+                'en' => 'Noise Reduction Parameters Camera',
             ],
         ],
     ];

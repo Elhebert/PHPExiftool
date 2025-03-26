@@ -28,13 +28,14 @@ class PortraitRequest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Request',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396892
+             * line : 281087
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitRequest extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:PortraitRequest',
             'desc' => [
+                'en' => 'Portrait Request',
             ],
         ],
     ];

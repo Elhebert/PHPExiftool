@@ -28,13 +28,14 @@ class ColorObjBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Obj Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ColorSetup
-             * line : 161780
+             * line : 110529
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorObjBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::ColorSetup.Leaf:ColorObjBackType',
             'desc' => [
+                'en' => 'Color Obj Back Type',
             ],
         ],
     ];

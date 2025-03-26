@@ -28,13 +28,14 @@ class VignetteCorrectionAlreadyApplied extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignette Correction Already Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 398064
+             * line : 281705
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VignetteCorrectionAlreadyApplied extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:VignetteCorrectionAlreadyApplied',
             'desc' => [
+                'en' => 'Vignette Correction Already Applied',
             ],
         ],
     ];

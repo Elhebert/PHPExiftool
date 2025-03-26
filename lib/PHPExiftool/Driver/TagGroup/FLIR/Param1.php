@@ -28,13 +28,14 @@ class Param1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Param 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::ParamInfo
-             * line : 123558
+             * line : 86362
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Param1 extends AbstractTagGroup
              */
             'id' => 'FLIR::ParamInfo.FLIR:Param1',
             'desc' => [
+                'en' => 'Param 1',
             ],
         ],
     ];

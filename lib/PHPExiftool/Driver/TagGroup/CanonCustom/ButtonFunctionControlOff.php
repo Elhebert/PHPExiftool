@@ -28,13 +28,14 @@ class ButtonFunctionControlOff extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Button Function Control Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75178
+             * line : 55358
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ButtonFunctionControlOff extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ButtonFunctionControlOff',
             'desc' => [
+                'en' => 'Button Function Control Off',
             ],
         ],
     ];

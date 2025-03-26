@@ -28,13 +28,14 @@ class ChromaNoiseColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chroma Noise Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156648
+             * line : 107852
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaNoiseColorSpace extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ChromaNoiseColorSpace',
             'desc' => [
+                'en' => 'Chroma Noise Color Space',
             ],
         ],
     ];

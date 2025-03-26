@@ -28,13 +28,14 @@ class MinoltaQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Minolta Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177185
+             * line : 121842
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MinoltaQuality extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:MinoltaQuality',
             'desc' => [
+                'en' => 'Minolta Quality',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178403
+             * line : 122332
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MinoltaQuality extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:MinoltaQuality',
             'desc' => [
+                'en' => 'Minolta Quality',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179383
+             * line : 122640
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MinoltaQuality extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:MinoltaQuality',
             'desc' => [
+                'en' => 'Minolta Quality',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::Main
-             * line : 183569
+             * line : 124521
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MinoltaQuality extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:MinoltaQuality',
             'desc' => [
+                'en' => 'Minolta Quality',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::Main
-             * line : 183611
+             * line : 124544
              * type : int32u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class MinoltaQuality extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:MinoltaQuality',
             'desc' => [
+                'en' => 'Minolta Quality',
             ],
         ],
     ];

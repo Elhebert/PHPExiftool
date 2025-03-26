@@ -28,13 +28,14 @@ class SharpnessSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251235
+             * line : 173277
              * type : int16s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class SharpnessSetting extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:SharpnessSetting',
             'desc' => [
+                'en' => 'Sharpness Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261215
+             * line : 180305
              * type : int16s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class SharpnessSetting extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:SharpnessSetting',
             'desc' => [
+                'en' => 'Sharpness Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LightSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Light Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175497
+             * line : 120798
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightSource extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:LightSource',
             'desc' => [
+                'en' => 'Light Source',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AcquisitionsInSeries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisitions In Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97963
+             * line : 71314
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionsInSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionsInSeries',
             'desc' => [
+                'en' => 'Acquisitions In Series',
             ],
         ],
     ];

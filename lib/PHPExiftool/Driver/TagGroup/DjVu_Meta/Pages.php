@@ -28,13 +28,14 @@ class Pages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107457
+             * line : 79318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pages extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Pages',
             'desc' => [
+                'en' => 'Pages',
             ],
         ],
     ];

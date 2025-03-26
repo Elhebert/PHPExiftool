@@ -28,13 +28,14 @@ class Vary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142928
+             * line : 98706
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Vary extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:Vary',
             'desc' => [
+                'en' => 'Vary',
             ],
         ],
     ];

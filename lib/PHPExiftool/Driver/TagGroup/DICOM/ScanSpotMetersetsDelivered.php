@@ -28,13 +28,14 @@ class ScanSpotMetersetsDelivered extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Spot Metersets Delivered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102738
+             * line : 75834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSpotMetersetsDelivered extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanSpotMetersetsDelivered',
             'desc' => [
+                'en' => 'Scan Spot Metersets Delivered',
             ],
         ],
     ];

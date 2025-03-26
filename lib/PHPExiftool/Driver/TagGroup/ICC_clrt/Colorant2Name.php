@@ -28,13 +28,14 @@ class Colorant2Name extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorant 2 Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::ColorantTable
-             * line : 143140
+             * line : 98860
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class Colorant2Name extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::ColorantTable.ICC-clrt:Colorant2Name',
             'desc' => [
+                'en' => 'Colorant 2 Name',
             ],
         ],
     ];

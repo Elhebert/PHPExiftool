@@ -28,13 +28,14 @@ class ItemID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Rights
-             * line : 324375
+             * line : 229165
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemID extends AbstractTagGroup
              */
             'id' => 'QuickTime::Rights.QuickTime:ItemID',
             'desc' => [
+                'en' => 'Item ID',
             ],
         ],
     ];

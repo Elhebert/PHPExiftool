@@ -28,13 +28,14 @@ class MeasurementScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Measurement Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305637
+             * line : 212370
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeasurementScale extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:MeasurementScale',
             'desc' => [
+                'en' => 'Measurement Scale',
             ],
         ],
     ];

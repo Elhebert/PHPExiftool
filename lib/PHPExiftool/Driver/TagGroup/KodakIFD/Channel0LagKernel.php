@@ -28,13 +28,14 @@ class Channel0LagKernel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel 0 Lag Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156158
+             * line : 107369
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Channel0LagKernel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Channel0LagKernel',
             'desc' => [
+                'en' => 'Channel 0 Lag Kernel',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RollAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206937
+             * line : 139257
              * type : fixed32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207743
+             * line : 139961
              * type : fixed32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207932
+             * line : 140069
              * type : fixed32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 209137
+             * line : 141038
              * type : fixed32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::ShotInfoD850
-             * line : 209229
+             * line : 141114
              * type : fixed32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD850.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209342
+             * line : 141188
              * type : fixed32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209425
+             * line : 141255
              * type : fixed32u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class RollAngle extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:RollAngle',
             'desc' => [
+                'en' => 'Roll Angle',
             ],
         ],
     ];

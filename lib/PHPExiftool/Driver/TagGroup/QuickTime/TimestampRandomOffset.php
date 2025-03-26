@@ -28,13 +28,14 @@ class TimestampRandomOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timestamp Random Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintSampleDesc
-             * line : 313757
+             * line : 219497
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimestampRandomOffset extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintSampleDesc.QuickTime:TimestampRandomOffset',
             'desc' => [
+                'en' => 'Timestamp Random Offset',
             ],
         ],
     ];

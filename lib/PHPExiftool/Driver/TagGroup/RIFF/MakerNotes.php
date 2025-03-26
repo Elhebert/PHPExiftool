@@ -28,13 +28,14 @@ class MakerNotes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maker Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Exif
-             * line : 327888
+             * line : 231406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MakerNotes extends AbstractTagGroup
              */
             'id' => 'RIFF::Exif.RIFF:MakerNotes',
             'desc' => [
+                'en' => 'Maker Notes',
             ],
         ],
     ];

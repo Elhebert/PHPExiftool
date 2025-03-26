@@ -28,13 +28,14 @@ class HistogramBinWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Histogram Bin Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101055
+             * line : 74205
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistogramBinWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HistogramBinWidth',
             'desc' => [
+                'en' => 'Histogram Bin Width',
             ],
         ],
     ];

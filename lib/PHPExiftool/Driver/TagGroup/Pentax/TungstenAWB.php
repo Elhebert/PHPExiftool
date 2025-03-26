@@ -28,13 +28,14 @@ class TungstenAWB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tungsten AWB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AWBInfo
-             * line : 283699
+             * line : 196822
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TungstenAWB extends AbstractTagGroup
              */
             'id' => 'Pentax::AWBInfo.Pentax:TungstenAWB',
             'desc' => [
+                'en' => 'Tungsten AWB',
             ],
         ],
     ];

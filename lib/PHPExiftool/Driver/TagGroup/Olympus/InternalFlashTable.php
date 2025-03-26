@@ -28,13 +28,14 @@ class InternalFlashTable extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Flash Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258893
+             * line : 178713
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalFlashTable extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:InternalFlashTable',
             'desc' => [
+                'en' => 'Internal Flash Table',
             ],
         ],
     ];

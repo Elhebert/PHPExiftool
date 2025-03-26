@@ -28,13 +28,14 @@ class Delay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::TerminationAction
-             * line : 165426
+             * line : 112495
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Delay extends AbstractTagGroup
              */
             'id' => 'MNG::TerminationAction.MNG:Delay',
             'desc' => [
+                'en' => 'Delay',
             ],
         ],
     ];

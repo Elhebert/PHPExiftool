@@ -28,13 +28,14 @@ class RecordingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recording Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::RecInfo
-             * line : 142045
+             * line : 98359
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordingMode extends AbstractTagGroup
              */
             'id' => 'H264::RecInfo.H264:RecordingMode',
             'desc' => [
+                'en' => 'Recording Mode',
             ],
         ],
     ];

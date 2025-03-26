@@ -28,13 +28,14 @@ class SamsungRawUnknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Samsung Raw Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116543
+             * line : 83396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamsungRawUnknown extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SamsungRawUnknown',
             'desc' => [
+                'en' => 'Samsung Raw Unknown',
             ],
         ],
     ];

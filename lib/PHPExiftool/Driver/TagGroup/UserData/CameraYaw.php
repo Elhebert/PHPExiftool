@@ -28,13 +28,14 @@ class CameraYaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325889
+             * line : 229910
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraYaw extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CameraYaw',
             'desc' => [
+                'en' => 'Camera Yaw',
             ],
         ],
     ];

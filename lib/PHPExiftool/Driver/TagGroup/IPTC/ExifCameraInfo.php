@@ -28,13 +28,14 @@ class ExifCameraInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Camera Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150970
+             * line : 104206
              * type : string
              * writable : true
              * count : 4096
@@ -42,6 +43,7 @@ class ExifCameraInfo extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ExifCameraInfo',
             'desc' => [
+                'en' => 'Exif Camera Info',
             ],
         ],
     ];

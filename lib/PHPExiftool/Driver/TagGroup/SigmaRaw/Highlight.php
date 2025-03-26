@@ -28,13 +28,14 @@ class Highlight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Highlight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339518
+             * line : 237558
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Highlight extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Highlight',
             'desc' => [
+                'en' => 'Highlight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Rights extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dc
-             * line : 404848
+             * line : 287695
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rights extends AbstractTagGroup
              */
             'id' => 'XMP::dc.XMP-dc:Rights',
             'desc' => [
+                'en' => 'Rights',
             ],
         ],
     ];

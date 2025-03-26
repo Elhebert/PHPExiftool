@@ -28,13 +28,14 @@ class DetectorCommercialName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Commercial Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166770
+             * line : 113505
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class DetectorCommercialName extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:DetectorCommercialName',
             'desc' => [
+                'en' => 'Detector Commercial Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DVHROIContributionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVHROI Contribution Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102501
+             * line : 75600
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHROIContributionType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHROIContributionType',
             'desc' => [
+                'en' => 'DVHROI Contribution Type',
             ],
         ],
     ];

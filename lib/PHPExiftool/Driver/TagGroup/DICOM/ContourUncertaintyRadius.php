@@ -28,13 +28,14 @@ class ContourUncertaintyRadius extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contour Uncertainty Radius',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101384
+             * line : 74532
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContourUncertaintyRadius extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContourUncertaintyRadius',
             'desc' => [
+                'en' => 'Contour Uncertainty Radius',
             ],
         ],
     ];

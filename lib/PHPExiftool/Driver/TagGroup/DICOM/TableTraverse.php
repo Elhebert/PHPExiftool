@@ -28,13 +28,14 @@ class TableTraverse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Traverse',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95790
+             * line : 69238
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTraverse extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTraverse',
             'desc' => [
+                'en' => 'Table Traverse',
             ],
         ],
     ];

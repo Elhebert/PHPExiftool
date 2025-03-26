@@ -28,13 +28,14 @@ class VideoTestResult extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Test Result',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167954
+             * line : 114476
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class VideoTestResult extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoTestResult',
             'desc' => [
+                'en' => 'Video Test Result',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 167957
+             * line : 114479
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class VideoTestResult extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoTestResult',
             'desc' => [
+                'en' => 'Video Test Result',
             ],
         ],
     ];

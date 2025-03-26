@@ -28,13 +28,14 @@ class XMLDocumentText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XML Document Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171104
+             * line : 117324
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class XMLDocumentText extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:XMLDocumentText',
             'desc' => [
+                'en' => 'XML Document Text',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171107
+             * line : 117327
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class XMLDocumentText extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:XMLDocumentText',
             'desc' => [
+                'en' => 'XML Document Text',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 171110
+             * line : 117330
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class XMLDocumentText extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:XMLDocumentText',
             'desc' => [
+                'en' => 'XML Document Text',
             ],
         ],
         3 => [
             /**
              * table_name : MXF::Main
-             * line : 171113
+             * line : 117333
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class XMLDocumentText extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:XMLDocumentText',
             'desc' => [
+                'en' => 'XML Document Text',
             ],
         ],
     ];

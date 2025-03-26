@@ -28,13 +28,14 @@ class DocumentHistory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Document History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150959
+             * line : 104203
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class DocumentHistory extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:DocumentHistory',
             'desc' => [
+                'en' => 'Document History',
             ],
         ],
     ];

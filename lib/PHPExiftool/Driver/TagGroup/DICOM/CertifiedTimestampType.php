@@ -28,13 +28,14 @@ class CertifiedTimestampType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Certified Timestamp Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101914
+             * line : 75054
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CertifiedTimestampType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CertifiedTimestampType',
             'desc' => [
+                'en' => 'Certified Timestamp Type',
             ],
         ],
     ];

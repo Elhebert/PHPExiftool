@@ -28,13 +28,14 @@ class PitchAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::OrientationInfo
-             * line : 334068
+             * line : 234167
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PitchAngle extends AbstractTagGroup
              */
             'id' => 'Samsung::OrientationInfo.Samsung:PitchAngle',
             'desc' => [
+                'en' => 'Pitch Angle',
             ],
         ],
     ];

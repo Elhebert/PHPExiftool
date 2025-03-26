@@ -28,13 +28,14 @@ class GeneralProfileIDC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'General Profile IDC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313392
+             * line : 219137
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneralProfileIDC extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:GeneralProfileIDC',
             'desc' => [
+                'en' => 'General Profile IDC',
             ],
         ],
     ];

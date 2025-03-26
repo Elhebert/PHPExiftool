@@ -28,13 +28,14 @@ class ApplicationKeyString extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Application Key String',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154838
+             * line : 106154
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApplicationKeyString extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ApplicationKeyString',
             'desc' => [
+                'en' => 'Application Key String',
             ],
         ],
     ];

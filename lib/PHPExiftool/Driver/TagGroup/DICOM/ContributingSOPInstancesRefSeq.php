@@ -28,13 +28,14 @@ class ContributingSOPInstancesRefSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contributing SOP Instances Ref Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98177
+             * line : 71521
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContributingSOPInstancesRefSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContributingSOPInstancesRefSeq',
             'desc' => [
+                'en' => 'Contributing SOP Instances Ref Seq',
             ],
         ],
     ];

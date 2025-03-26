@@ -28,13 +28,14 @@ class AlternateSpotColors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alternate Spot Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305609
+             * line : 212352
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlternateSpotColors extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:AlternateSpotColors',
             'desc' => [
+                'en' => 'Alternate Spot Colors',
             ],
         ],
     ];

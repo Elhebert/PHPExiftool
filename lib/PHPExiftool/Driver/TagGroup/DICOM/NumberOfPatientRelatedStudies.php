@@ -28,13 +28,14 @@ class NumberOfPatientRelatedStudies extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Patient Related Studies',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97994
+             * line : 71341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfPatientRelatedStudies extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfPatientRelatedStudies',
             'desc' => [
+                'en' => 'Number Of Patient Related Studies',
             ],
         ],
     ];

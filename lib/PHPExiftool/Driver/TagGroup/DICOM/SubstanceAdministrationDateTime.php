@@ -28,13 +28,14 @@ class SubstanceAdministrationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Substance Administration Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100537
+             * line : 73707
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubstanceAdministrationDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SubstanceAdministrationDateTime',
             'desc' => [
+                'en' => 'Substance Administration Date Time',
             ],
         ],
     ];

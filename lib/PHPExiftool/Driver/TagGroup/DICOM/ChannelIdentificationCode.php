@@ -28,13 +28,14 @@ class ChannelIdentificationCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Identification Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99573
+             * line : 72783
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelIdentificationCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelIdentificationCode',
             'desc' => [
+                'en' => 'Channel Identification Code',
             ],
         ],
     ];

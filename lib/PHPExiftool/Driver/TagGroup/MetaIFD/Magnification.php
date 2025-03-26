@@ -28,13 +28,14 @@ class Magnification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158482
+             * line : 108958
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Magnification extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:Magnification',
             'desc' => [
+                'en' => 'Magnification',
             ],
         ],
     ];

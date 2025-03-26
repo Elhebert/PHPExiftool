@@ -28,13 +28,14 @@ class OriginalTHMResource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original THM Resource',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105276
+             * line : 78024
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalTHMResource extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalTHMResource',
             'desc' => [
+                'en' => 'Original THM Resource',
             ],
         ],
     ];

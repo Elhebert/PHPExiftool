@@ -28,13 +28,14 @@ class WindowSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160959
+             * line : 109908
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class WindowSize extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:WindowSize',
             'desc' => [
+                'en' => 'Window Size',
             ],
         ],
     ];

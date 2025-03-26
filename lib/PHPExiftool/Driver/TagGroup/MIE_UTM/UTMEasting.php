@@ -28,13 +28,14 @@ class UTMEasting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'UTM Easting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::UTM
-             * line : 164204
+             * line : 111659
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UTMEasting extends AbstractTagGroup
              */
             'id' => 'MIE::UTM.MIE-UTM:UTMEasting',
             'desc' => [
+                'en' => 'UTM Easting',
             ],
         ],
     ];

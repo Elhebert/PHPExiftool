@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314144
+             * line : 219772
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

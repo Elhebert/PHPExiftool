@@ -28,13 +28,14 @@ class NominalRespiratoryTriggerDelayTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Respiratory Trigger Delay Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98145
+             * line : 71491
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalRespiratoryTriggerDelayTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NominalRespiratoryTriggerDelayTime',
             'desc' => [
+                'en' => 'Nominal Respiratory Trigger Delay Time',
             ],
         ],
     ];

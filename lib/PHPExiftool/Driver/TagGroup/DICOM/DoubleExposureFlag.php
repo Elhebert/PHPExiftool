@@ -28,13 +28,14 @@ class DoubleExposureFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Double Exposure Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101760
+             * line : 74901
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoubleExposureFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoubleExposureFlag',
             'desc' => [
+                'en' => 'Double Exposure Flag',
             ],
         ],
     ];

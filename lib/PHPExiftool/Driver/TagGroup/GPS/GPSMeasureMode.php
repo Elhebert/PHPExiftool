@@ -28,13 +28,14 @@ class GPSMeasureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Measure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132020
+             * line : 90887
              * type : string
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141610
+             * line : 98256
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301405
+             * line : 209805
              * type : string
              * writable : false
              * count : 2
@@ -68,6 +71,7 @@ class GPSMeasureMode extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSMeasureMode',
             'desc' => [
+                'en' => 'GPS Measure Mode',
             ],
         ],
     ];

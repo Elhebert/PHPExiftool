@@ -28,13 +28,14 @@ class OrderCallbackPhoneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Order Callback Phone Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99908
+             * line : 73110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrderCallbackPhoneNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrderCallbackPhoneNumber',
             'desc' => [
+                'en' => 'Order Callback Phone Number',
             ],
         ],
     ];

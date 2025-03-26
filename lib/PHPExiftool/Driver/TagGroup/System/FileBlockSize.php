@@ -28,13 +28,14 @@ class FileBlockSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Block Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121240
+             * line : 85115
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileBlockSize extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileBlockSize',
             'desc' => [
+                'en' => 'File Block Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FailedSOPSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Failed SOP Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94973
+             * line : 68455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FailedSOPSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FailedSOPSequence',
             'desc' => [
+                'en' => 'Failed SOP Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeformableRegistrationGridSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Deformable Registration Grid Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101115
+             * line : 74265
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeformableRegistrationGridSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeformableRegistrationGridSequence',
             'desc' => [
+                'en' => 'Deformable Registration Grid Sequence',
             ],
         ],
     ];

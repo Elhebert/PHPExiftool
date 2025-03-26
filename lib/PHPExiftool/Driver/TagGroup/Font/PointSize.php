@@ -28,13 +28,14 @@ class PointSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Point Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 127990
+             * line : 88834
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PointSize extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:PointSize',
             'desc' => [
+                'en' => 'Point Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323404
+             * line : 228628
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDirection extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:CameraDirection',
             'desc' => [
+                'en' => 'Camera Direction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentPackageIndexArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Package Index Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171757
+             * line : 117946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentPackageIndexArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentPackageIndexArray',
             'desc' => [
+                'en' => 'Content Package Index Array',
             ],
         ],
     ];

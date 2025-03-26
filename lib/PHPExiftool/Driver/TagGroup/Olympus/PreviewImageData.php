@@ -28,13 +28,14 @@ class PreviewImageData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256842
+             * line : 177383
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewImageData extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:PreviewImageData',
             'desc' => [
+                'en' => 'Preview Image Data',
             ],
         ],
     ];

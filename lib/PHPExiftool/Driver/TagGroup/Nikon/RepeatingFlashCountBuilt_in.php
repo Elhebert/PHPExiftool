@@ -28,13 +28,14 @@ class RepeatingFlashCountBuilt_in extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Count Built-in',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208566
+             * line : 140494
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RepeatingFlashCountBuilt_in extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:RepeatingFlashCountBuilt-in',
             'desc' => [
+                'en' => 'Repeating Flash Count Built-in',
             ],
         ],
     ];

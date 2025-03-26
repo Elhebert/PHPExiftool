@@ -28,13 +28,14 @@ class RelativePositionInSequenceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Position In Sequence Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168251
+             * line : 114746
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativePositionInSequenceName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RelativePositionInSequenceName',
             'desc' => [
+                'en' => 'Relative Position In Sequence Name',
             ],
         ],
     ];

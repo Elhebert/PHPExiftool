@@ -28,13 +28,14 @@ class ChromaticAberrationR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration R',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401580
+             * line : 284816
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationR extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ChromaticAberrationR',
             'desc' => [
+                'en' => 'Chromatic Aberration R',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RembrandtConsumerToneScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rembrandt Consumer Tone Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155930
+             * line : 107141
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RembrandtConsumerToneScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RembrandtConsumerToneScale',
             'desc' => [
+                'en' => 'Rembrandt Consumer Tone Scale',
             ],
         ],
     ];

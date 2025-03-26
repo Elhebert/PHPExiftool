@@ -28,13 +28,14 @@ class Editor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Editor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249119
+             * line : 171749
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Editor extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Editor',
             'desc' => [
+                'en' => 'Editor',
             ],
         ],
     ];

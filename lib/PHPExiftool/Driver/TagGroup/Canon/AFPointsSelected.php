@@ -28,13 +28,14 @@ class AFPointsSelected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Points Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4258
+             * line : 2673
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFPointsSelected extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFPointsSelected',
             'desc' => [
+                'en' => 'AF Points Selected',
             ],
         ],
     ];

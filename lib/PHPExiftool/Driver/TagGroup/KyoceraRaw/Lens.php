@@ -28,13 +28,14 @@ class Lens extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : KyoceraRaw::Main
-             * line : 160918
+             * line : 109885
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class Lens extends AbstractTagGroup
              */
             'id' => 'KyoceraRaw::Main.KyoceraRaw:Lens',
             'desc' => [
+                'en' => 'Lens',
             ],
         ],
     ];

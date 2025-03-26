@@ -28,13 +28,14 @@ class CodePage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 126642
+             * line : 87818
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodePage extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:CodePage',
             'desc' => [
+                'en' => 'Code Page',
             ],
         ],
     ];

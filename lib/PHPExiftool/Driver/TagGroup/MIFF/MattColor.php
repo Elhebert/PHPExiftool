@@ -28,13 +28,14 @@ class MattColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matt Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164361
+             * line : 111739
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MattColor extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:MattColor',
             'desc' => [
+                'en' => 'Matt Color',
             ],
         ],
     ];

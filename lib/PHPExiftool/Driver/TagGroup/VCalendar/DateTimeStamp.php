@@ -28,13 +28,14 @@ class DateTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395369
+             * line : 279993
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeStamp extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DateTimeStamp',
             'desc' => [
+                'en' => 'Date Time Stamp',
             ],
         ],
     ];

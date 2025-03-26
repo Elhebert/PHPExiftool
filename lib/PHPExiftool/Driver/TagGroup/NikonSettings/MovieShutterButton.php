@@ -28,13 +28,14 @@ class MovieShutterButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Shutter Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244770
+             * line : 167566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieShutterButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieShutterButton',
             'desc' => [
+                'en' => 'Movie Shutter Button',
             ],
         ],
     ];

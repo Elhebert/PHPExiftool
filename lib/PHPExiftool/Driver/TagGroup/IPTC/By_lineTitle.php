@@ -28,13 +28,14 @@ class By_lineTitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'By-line Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150231
+             * line : 103939
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class By_lineTitle extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:By-lineTitle',
             'desc' => [
+                'en' => 'By-line Title',
             ],
         ],
     ];

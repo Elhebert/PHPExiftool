@@ -28,13 +28,14 @@ class GoogleHostHeader extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Host Header',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322185
+             * line : 227744
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GoogleHostHeader extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GoogleHostHeader',
             'desc' => [
+                'en' => 'Google Host Header',
             ],
         ],
     ];

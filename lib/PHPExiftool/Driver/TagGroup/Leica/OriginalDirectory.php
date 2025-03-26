@@ -28,13 +28,14 @@ class OriginalDirectory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274810
+             * line : 191620
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalDirectory extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:OriginalDirectory',
             'desc' => [
+                'en' => 'Original Directory',
             ],
         ],
     ];

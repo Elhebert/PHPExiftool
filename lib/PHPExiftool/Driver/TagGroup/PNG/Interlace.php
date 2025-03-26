@@ -28,13 +28,14 @@ class Interlace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interlace',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::ImageHeader
-             * line : 272501
+             * line : 190349
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Interlace extends AbstractTagGroup
              */
             'id' => 'PNG::ImageHeader.PNG:Interlace',
             'desc' => [
+                'en' => 'Interlace',
             ],
         ],
     ];

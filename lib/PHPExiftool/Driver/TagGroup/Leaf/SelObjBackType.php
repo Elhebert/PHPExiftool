@@ -28,13 +28,14 @@ class SelObjBackType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sel Obj Back Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162021
+             * line : 110721
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelObjBackType extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:SelObjBackType',
             'desc' => [
+                'en' => 'Sel Obj Back Type',
             ],
         ],
     ];

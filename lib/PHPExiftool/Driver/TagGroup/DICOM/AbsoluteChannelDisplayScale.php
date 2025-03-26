@@ -28,13 +28,14 @@ class AbsoluteChannelDisplayScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Absolute Channel Display Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99566
+             * line : 72777
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AbsoluteChannelDisplayScale extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AbsoluteChannelDisplayScale',
             'desc' => [
+                'en' => 'Absolute Channel Display Scale',
             ],
         ],
     ];

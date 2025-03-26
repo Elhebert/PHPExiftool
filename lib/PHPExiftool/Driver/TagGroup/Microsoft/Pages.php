@@ -28,13 +28,14 @@ class Pages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176535
+             * line : 121473
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pages extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Pages',
             'desc' => [
+                'en' => 'Pages',
             ],
         ],
     ];

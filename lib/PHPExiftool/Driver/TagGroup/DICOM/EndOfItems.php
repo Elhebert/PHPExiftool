@@ -28,13 +28,14 @@ class EndOfItems extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Of Items',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104426
+             * line : 77499
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndOfItems extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EndOfItems',
             'desc' => [
+                'en' => 'End Of Items',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Scalado::Main
-             * line : 336933
+             * line : 235977
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImageHeight extends AbstractTagGroup
              */
             'id' => 'Scalado::Main.Scalado:PreviewImageHeight',
             'desc' => [
+                'en' => 'Preview Image Height',
             ],
         ],
     ];

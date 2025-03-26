@@ -28,13 +28,14 @@ class FlightZSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flight Z Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104649
+             * line : 77680
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlightZSpeed extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:FlightZSpeed',
             'desc' => [
+                'en' => 'Flight Z Speed',
             ],
         ],
     ];

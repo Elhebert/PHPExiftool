@@ -28,13 +28,14 @@ class CopyrightFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 304530
+             * line : 211755
              * type : string
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class CopyrightFileName extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:CopyrightFileName',
             'desc' => [
+                'en' => 'Copyright File Name',
             ],
         ],
     ];

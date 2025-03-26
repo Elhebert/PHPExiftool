@@ -28,13 +28,14 @@ class ASF5LowUpThres extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Low Up Thres',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306927
+             * line : 213425
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5LowUpThres extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5LowUpThres',
             'desc' => [
+                'en' => 'ASF5 Low Up Thres',
             ],
         ],
     ];

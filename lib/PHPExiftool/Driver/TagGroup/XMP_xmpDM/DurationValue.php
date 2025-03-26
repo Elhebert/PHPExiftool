@@ -28,13 +28,14 @@ class DurationValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Duration Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413072
+             * line : 291208
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DurationValue extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:DurationValue',
             'desc' => [
+                'en' => 'Duration Value',
             ],
         ],
     ];

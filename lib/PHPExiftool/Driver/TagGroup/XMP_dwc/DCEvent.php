@@ -28,13 +28,14 @@ class DCEvent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Event',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106061
+             * line : 78443
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCEvent extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCEvent',
             'desc' => [
+                'en' => 'DC Event',
             ],
         ],
     ];

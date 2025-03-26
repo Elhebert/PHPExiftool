@@ -28,13 +28,14 @@ class AFMicroAdjMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Micro Adj Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345547
+             * line : 242313
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFMicroAdjMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFMicroAdjMode',
             'desc' => [
+                'en' => 'AF Micro Adj Mode',
             ],
         ],
     ];

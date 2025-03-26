@@ -28,13 +28,14 @@ class MultiFrameNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Frame Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351011
+             * line : 245079
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MultiFrameNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:MultiFrameNoiseReduction',
             'desc' => [
+                'en' => 'Multi Frame Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Main
-             * line : 354175
+             * line : 246904
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MultiFrameNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:MultiFrameNoiseReduction',
             'desc' => [
+                'en' => 'Multi Frame Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360632
+             * line : 251334
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class MultiFrameNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:MultiFrameNoiseReduction',
             'desc' => [
+                'en' => 'Multi Frame Noise Reduction',
             ],
         ],
     ];

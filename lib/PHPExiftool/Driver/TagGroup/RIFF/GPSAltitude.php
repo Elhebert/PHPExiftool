@@ -28,13 +28,14 @@ class GPSAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::UserText
-             * line : 328850
+             * line : 231911
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'RIFF::UserText.RIFF:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
     ];

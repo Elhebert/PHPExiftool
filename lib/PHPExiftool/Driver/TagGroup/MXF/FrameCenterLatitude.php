@@ -28,13 +28,14 @@ class FrameCenterLatitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Center Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168293
+             * line : 114788
              * type : double
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FrameCenterLatitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterLatitude',
             'desc' => [
+                'en' => 'Frame Center Latitude',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168296
+             * line : 114791
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FrameCenterLatitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterLatitude',
             'desc' => [
+                'en' => 'Frame Center Latitude',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 170378
+             * line : 116637
              * type : double
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class FrameCenterLatitude extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterLatitude',
             'desc' => [
+                'en' => 'Frame Center Latitude',
             ],
         ],
     ];

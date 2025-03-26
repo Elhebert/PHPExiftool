@@ -28,13 +28,14 @@ class SensorHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::AFF1
-             * line : 122140
+             * line : 85552
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::AFF1.FLIR:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::AFF5
-             * line : 122166
+             * line : 85565
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SensorHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::AFF5.FLIR:SensorHeight',
             'desc' => [
+                'en' => 'Sensor Height',
             ],
         ],
     ];

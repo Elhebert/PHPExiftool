@@ -28,13 +28,14 @@ class ZTrackingFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Tracking Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100588
+             * line : 73758
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZTrackingFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZTrackingFlag',
             'desc' => [
+                'en' => 'Z Tracking Flag',
             ],
         ],
     ];

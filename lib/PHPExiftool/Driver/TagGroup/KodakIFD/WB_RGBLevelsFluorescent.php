@@ -28,13 +28,14 @@ class WB_RGBLevelsFluorescent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155221
+             * line : 106448
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsFluorescent extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBLevelsFluorescent',
             'desc' => [
+                'en' => 'WB RGB Levels Fluorescent',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Yaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326840
+             * line : 230504
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Yaw extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:Yaw',
             'desc' => [
+                'en' => 'Yaw',
             ],
         ],
     ];

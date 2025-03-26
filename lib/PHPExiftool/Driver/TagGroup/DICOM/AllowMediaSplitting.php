@@ -28,13 +28,14 @@ class AllowMediaSplitting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Allow Media Splitting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102341
+             * line : 75441
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AllowMediaSplitting extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AllowMediaSplitting',
             'desc' => [
+                'en' => 'Allow Media Splitting',
             ],
         ],
     ];

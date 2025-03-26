@@ -28,13 +28,14 @@ class Pager extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pager',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176370
+             * line : 121344
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pager extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Pager',
             'desc' => [
+                'en' => 'Pager',
             ],
         ],
     ];

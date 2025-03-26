@@ -28,13 +28,14 @@ class Flavor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flavor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65986
+             * line : 50100
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Flavor extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:Flavor',
             'desc' => [
+                'en' => 'Flavor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SignatureAlgo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature Algo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173918
+             * line : 119800
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignatureAlgo extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SignatureAlgo',
             'desc' => [
+                'en' => 'Signature Algo',
             ],
         ],
     ];

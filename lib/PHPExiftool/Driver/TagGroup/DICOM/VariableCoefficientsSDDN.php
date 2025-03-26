@@ -28,13 +28,14 @@ class VariableCoefficientsSDDN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Variable Coefficients SDDN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104414
+             * line : 77487
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VariableCoefficientsSDDN extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VariableCoefficientsSDDN',
             'desc' => [
+                'en' => 'Variable Coefficients SDDN',
             ],
         ],
     ];

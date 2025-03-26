@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::RED1
-             * line : 331705
+             * line : 233116
              * type : rational32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Red::RED1.Red:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
         1 => [
             /**
              * table_name : Red::RED2
-             * line : 331773
+             * line : 233135
              * type : int16u
              * writable : false
              * count : 3
@@ -55,6 +57,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Red::RED2.Red:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

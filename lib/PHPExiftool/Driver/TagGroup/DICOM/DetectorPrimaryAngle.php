@@ -28,13 +28,14 @@ class DetectorPrimaryAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Primary Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96054
+             * line : 69475
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorPrimaryAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorPrimaryAngle',
             'desc' => [
+                'en' => 'Detector Primary Angle',
             ],
         ],
     ];

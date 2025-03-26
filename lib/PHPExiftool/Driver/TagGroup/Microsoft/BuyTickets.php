@@ -28,13 +28,14 @@ class BuyTickets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Buy Tickets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174495
+             * line : 120164
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BuyTickets extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BuyTickets',
             'desc' => [
+                'en' => 'Buy Tickets',
             ],
         ],
     ];

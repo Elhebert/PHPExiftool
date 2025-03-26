@@ -28,13 +28,14 @@ class ASF5FilterMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Filter Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306912
+             * line : 213410
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5FilterMode extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5FilterMode',
             'desc' => [
+                'en' => 'ASF5 Filter Mode',
             ],
         ],
     ];

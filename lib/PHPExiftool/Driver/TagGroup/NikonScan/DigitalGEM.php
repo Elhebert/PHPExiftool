@@ -28,13 +28,14 @@ class DigitalGEM extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital GEM',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::GEM
-             * line : 195255
+             * line : 132244
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalGEM extends AbstractTagGroup
              */
             'id' => 'Nikon::GEM.NikonScan:DigitalGEM',
             'desc' => [
+                'en' => 'Digital GEM',
             ],
         ],
     ];

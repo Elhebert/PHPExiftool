@@ -28,13 +28,14 @@ class DetectorTimeSinceLastExposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Time Since Last Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96421
+             * line : 69829
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorTimeSinceLastExposure extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorTimeSinceLastExposure',
             'desc' => [
+                'en' => 'Detector Time Since Last Exposure',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LogComment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Log Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413147
+             * line : 291276
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LogComment extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:LogComment',
             'desc' => [
+                'en' => 'Log Comment',
             ],
         ],
     ];

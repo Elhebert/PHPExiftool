@@ -28,13 +28,14 @@ class YCbCrPositioning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Positioning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PreviewIFD
-             * line : 205131
+             * line : 137903
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YCbCrPositioning extends AbstractTagGroup
              */
             'id' => 'Nikon::PreviewIFD.PreviewIFD:YCbCrPositioning',
             'desc' => [
+                'en' => 'Y Cb Cr Positioning',
             ],
         ],
     ];

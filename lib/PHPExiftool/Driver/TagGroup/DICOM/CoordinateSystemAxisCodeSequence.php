@@ -28,13 +28,14 @@ class CoordinateSystemAxisCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coordinate System Axis Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99830
+             * line : 73032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoordinateSystemAxisCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CoordinateSystemAxisCodeSequence',
             'desc' => [
+                'en' => 'Coordinate System Axis Code Sequence',
             ],
         ],
     ];

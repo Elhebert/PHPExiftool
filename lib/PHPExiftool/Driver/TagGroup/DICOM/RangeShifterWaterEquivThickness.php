@@ -28,13 +28,14 @@ class RangeShifterWaterEquivThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Range Shifter Water Equiv Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103861
+             * line : 76950
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RangeShifterWaterEquivThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RangeShifterWaterEquivThickness',
             'desc' => [
+                'en' => 'Range Shifter Water Equiv Thickness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CropCircleRadius extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Circle Radius',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83779
+             * line : 61419
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropCircleRadius extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CropCircleRadius',
             'desc' => [
+                'en' => 'Crop Circle Radius',
             ],
         ],
     ];

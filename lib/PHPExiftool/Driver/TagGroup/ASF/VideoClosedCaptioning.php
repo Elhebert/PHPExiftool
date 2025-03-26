@@ -28,13 +28,14 @@ class VideoClosedCaptioning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Closed Captioning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1660
+             * line : 814
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoClosedCaptioning extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:VideoClosedCaptioning',
             'desc' => [
+                'en' => 'Video Closed Captioning',
             ],
         ],
     ];

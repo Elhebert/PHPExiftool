@@ -28,13 +28,14 @@ class Season extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Season',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410672
+             * line : 289960
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Season extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:Season',
             'desc' => [
+                'en' => 'Season',
             ],
         ],
     ];

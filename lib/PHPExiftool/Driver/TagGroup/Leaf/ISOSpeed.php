@@ -28,13 +28,14 @@ class ISOSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraSetup
-             * line : 161608
+             * line : 110403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISOSpeed extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraSetup.Leaf:ISOSpeed',
             'desc' => [
+                'en' => 'ISO Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DensityMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Density Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166951
+             * line : 113640
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DensityMax extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:DensityMax',
             'desc' => [
+                'en' => 'Density Max',
             ],
         ],
     ];

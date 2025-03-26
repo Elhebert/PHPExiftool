@@ -28,13 +28,14 @@ class SharpnessUserDef3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness User Def 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34526
+             * line : 26519
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessUserDef3',
             'desc' => [
+                'en' => 'Sharpness User Def 3',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67850
+             * line : 51379
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessUserDef3',
             'desc' => [
+                'en' => 'Sharpness User Def 3',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 69028
+             * line : 52118
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessUserDef3',
             'desc' => [
+                'en' => 'Sharpness User Def 3',
             ],
         ],
     ];

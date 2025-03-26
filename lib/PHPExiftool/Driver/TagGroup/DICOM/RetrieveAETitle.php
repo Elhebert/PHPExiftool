@@ -28,13 +28,14 @@ class RetrieveAETitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Retrieve AE Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94752
+             * line : 68239
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RetrieveAETitle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RetrieveAETitle',
             'desc' => [
+                'en' => 'Retrieve AE Title',
             ],
         ],
     ];

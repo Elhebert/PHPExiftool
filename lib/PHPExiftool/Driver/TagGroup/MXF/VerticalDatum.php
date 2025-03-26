@@ -28,13 +28,14 @@ class VerticalDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170369
+             * line : 116628
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalDatum extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VerticalDatum',
             'desc' => [
+                'en' => 'Vertical Datum',
             ],
         ],
     ];

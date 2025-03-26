@@ -28,13 +28,14 @@ class SensorWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186752
+             * line : 126881
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
     ];

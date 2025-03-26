@@ -28,13 +28,14 @@ class AudioBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90743
+             * line : 65269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
     ];

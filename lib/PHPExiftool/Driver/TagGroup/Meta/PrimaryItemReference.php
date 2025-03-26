@@ -28,13 +28,14 @@ class PrimaryItemReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Item Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323940
+             * line : 228924
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PrimaryItemReference extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:PrimaryItemReference',
             'desc' => [
+                'en' => 'Primary Item Reference',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323943
+             * line : 228927
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PrimaryItemReference extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:PrimaryItemReference',
             'desc' => [
+                'en' => 'Primary Item Reference',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageModulationExposureBias extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Modulation Exposure Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162354
+             * line : 110878
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageModulationExposureBias extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:ImageModulationExposureBias',
             'desc' => [
+                'en' => 'Image Modulation Exposure Bias',
             ],
         ],
     ];

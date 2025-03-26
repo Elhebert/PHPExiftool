@@ -28,13 +28,14 @@ class Spherical extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Spherical',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397238
+             * line : 281313
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Spherical extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:Spherical',
             'desc' => [
+                'en' => 'Spherical',
             ],
         ],
     ];

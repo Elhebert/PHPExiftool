@@ -28,13 +28,14 @@ class BeamOrderIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Order Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101751
+             * line : 74892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamOrderIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamOrderIndex',
             'desc' => [
+                'en' => 'Beam Order Index',
             ],
         ],
     ];

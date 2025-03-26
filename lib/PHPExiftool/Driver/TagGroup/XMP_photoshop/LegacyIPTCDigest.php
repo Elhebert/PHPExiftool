@@ -28,13 +28,14 @@ class LegacyIPTCDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Legacy IPTC Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410320
+             * line : 289797
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LegacyIPTCDigest extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:LegacyIPTCDigest',
             'desc' => [
+                'en' => 'Legacy IPTC Digest',
             ],
         ],
     ];

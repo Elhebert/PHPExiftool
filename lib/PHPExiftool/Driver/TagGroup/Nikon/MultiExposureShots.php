@@ -28,13 +28,14 @@ class MultiExposureShots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Exposure Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200377
+             * line : 135338
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MultiExposureShots extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MultiExposureShots',
             'desc' => [
+                'en' => 'Multi Exposure Shots',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MultiExposure
-             * line : 202018
+             * line : 136868
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MultiExposureShots extends AbstractTagGroup
              */
             'id' => 'Nikon::MultiExposure.Nikon:MultiExposureShots',
             'desc' => [
+                'en' => 'Multi Exposure Shots',
             ],
         ],
     ];

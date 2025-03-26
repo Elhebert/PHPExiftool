@@ -28,13 +28,14 @@ class BaselineLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Baseline Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166358
+             * line : 113114
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BaselineLength extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:BaselineLength',
             'desc' => [
+                'en' => 'Baseline Length',
             ],
         ],
     ];

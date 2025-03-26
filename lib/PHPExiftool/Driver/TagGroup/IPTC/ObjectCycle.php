@@ -28,13 +28,14 @@ class ObjectCycle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Cycle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150170
+             * line : 103922
              * type : string
              * writable : true
              * count : 1
@@ -42,6 +43,7 @@ class ObjectCycle extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ObjectCycle',
             'desc' => [
+                'en' => 'Object Cycle',
             ],
         ],
     ];

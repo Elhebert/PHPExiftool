@@ -28,13 +28,14 @@ class RadiopharmaceuticalVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiopharmaceutical Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95712
+             * line : 69160
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiopharmaceuticalVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiopharmaceuticalVolume',
             'desc' => [
+                'en' => 'Radiopharmaceutical Volume',
             ],
         ],
     ];

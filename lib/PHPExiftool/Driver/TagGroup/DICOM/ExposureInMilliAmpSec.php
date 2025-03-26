@@ -28,13 +28,14 @@ class ExposureInMilliAmpSec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure In Milli Amp Sec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97033
+             * line : 70432
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureInMilliAmpSec extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureInMilliAmpSec',
             'desc' => [
+                'en' => 'Exposure In Milli Amp Sec',
             ],
         ],
     ];

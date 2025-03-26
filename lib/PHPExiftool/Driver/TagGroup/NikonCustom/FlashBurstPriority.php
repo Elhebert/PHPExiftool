@@ -28,13 +28,14 @@ class FlashBurstPriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Burst Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238480
+             * line : 161569
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashBurstPriority extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:FlashBurstPriority',
             'desc' => [
+                'en' => 'Flash Burst Priority',
             ],
         ],
     ];

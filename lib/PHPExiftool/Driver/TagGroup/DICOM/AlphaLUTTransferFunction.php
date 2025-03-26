@@ -28,13 +28,14 @@ class AlphaLUTTransferFunction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha LUT Transfer Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99071
+             * line : 72303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaLUTTransferFunction extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlphaLUTTransferFunction',
             'desc' => [
+                'en' => 'Alpha LUT Transfer Function',
             ],
         ],
     ];

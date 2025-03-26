@@ -28,13 +28,14 @@ class GroupCaption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Group Caption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125003
+             * line : 87335
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GroupCaption extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:GroupCaption',
             'desc' => [
+                'en' => 'Group Caption',
             ],
         ],
     ];

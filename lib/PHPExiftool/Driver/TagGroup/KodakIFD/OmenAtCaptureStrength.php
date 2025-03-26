@@ -28,13 +28,14 @@ class OmenAtCaptureStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Omen At Capture Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155657
+             * line : 106868
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class OmenAtCaptureStrength extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenAtCaptureStrength',
             'desc' => [
+                'en' => 'Omen At Capture Strength',
             ],
         ],
     ];

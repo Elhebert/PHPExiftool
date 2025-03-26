@@ -28,13 +28,14 @@ class Trigger extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395522
+             * line : 280068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Trigger extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Trigger',
             'desc' => [
+                'en' => 'Trigger',
             ],
         ],
     ];

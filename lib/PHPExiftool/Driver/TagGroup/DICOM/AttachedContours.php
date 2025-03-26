@@ -28,13 +28,14 @@ class AttachedContours extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attached Contours',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102597
+             * line : 75693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttachedContours extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttachedContours',
             'desc' => [
+                'en' => 'Attached Contours',
             ],
         ],
     ];

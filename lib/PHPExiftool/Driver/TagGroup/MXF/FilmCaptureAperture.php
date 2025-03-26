@@ -28,13 +28,14 @@ class FilmCaptureAperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Capture Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168086
+             * line : 114587
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmCaptureAperture extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmCaptureAperture',
             'desc' => [
+                'en' => 'Film Capture Aperture',
             ],
         ],
     ];

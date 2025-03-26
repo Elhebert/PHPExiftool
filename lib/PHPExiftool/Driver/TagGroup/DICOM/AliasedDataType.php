@@ -28,13 +28,14 @@ class AliasedDataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aliased Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97389
+             * line : 70777
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AliasedDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AliasedDataType',
             'desc' => [
+                'en' => 'Aliased Data Type',
             ],
         ],
     ];

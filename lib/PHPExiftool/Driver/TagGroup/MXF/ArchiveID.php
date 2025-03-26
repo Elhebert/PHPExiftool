@@ -28,13 +28,14 @@ class ArchiveID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Archive ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167348
+             * line : 113970
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ArchiveID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ArchiveID',
             'desc' => [
+                'en' => 'Archive ID',
             ],
         ],
     ];

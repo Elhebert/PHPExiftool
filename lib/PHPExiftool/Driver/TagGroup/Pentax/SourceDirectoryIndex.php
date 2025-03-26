@@ -28,13 +28,14 @@ class SourceDirectoryIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source Directory Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FilterInfo
-             * line : 285922
+             * line : 198222
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SourceDirectoryIndex extends AbstractTagGroup
              */
             'id' => 'Pentax::FilterInfo.Pentax:SourceDirectoryIndex',
             'desc' => [
+                'en' => 'Source Directory Index',
             ],
         ],
     ];

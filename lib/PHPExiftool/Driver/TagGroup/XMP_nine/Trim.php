@@ -28,13 +28,14 @@ class Trim extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trim',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::nine
-             * line : 210082
+             * line : 141478
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Trim extends AbstractTagGroup
              */
             'id' => 'Nikon::nine.XMP-nine:Trim',
             'desc' => [
+                'en' => 'Trim',
             ],
         ],
     ];

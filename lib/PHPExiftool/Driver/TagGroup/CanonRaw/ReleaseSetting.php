@@ -28,13 +28,14 @@ class ReleaseSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78755
+             * line : 57299
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseSetting extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:ReleaseSetting',
             'desc' => [
+                'en' => 'Release Setting',
             ],
         ],
     ];

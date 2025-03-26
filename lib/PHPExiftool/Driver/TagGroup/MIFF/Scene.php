@@ -28,13 +28,14 @@ class Scene extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164424
+             * line : 111766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Scene extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Scene',
             'desc' => [
+                'en' => 'Scene',
             ],
         ],
     ];

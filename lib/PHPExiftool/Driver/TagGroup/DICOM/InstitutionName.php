@@ -28,13 +28,14 @@ class InstitutionName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Institution Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94780
+             * line : 68266
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstitutionName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstitutionName',
             'desc' => [
+                'en' => 'Institution Name',
             ],
         ],
     ];

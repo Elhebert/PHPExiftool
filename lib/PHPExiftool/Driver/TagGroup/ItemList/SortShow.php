@@ -28,13 +28,14 @@ class SortShow extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sort Show',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322855
+             * line : 228349
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SortShow extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:SortShow',
             'desc' => [
+                'en' => 'Sort Show',
             ],
         ],
     ];

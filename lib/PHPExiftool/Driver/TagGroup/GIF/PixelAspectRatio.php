@@ -28,13 +28,14 @@ class PixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Screen
-             * line : 131441
+             * line : 90719
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'GIF::Screen.GIF:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
     ];

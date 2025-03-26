@@ -28,13 +28,14 @@ class EthnicGroup extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ethnic Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95282
+             * line : 68746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EthnicGroup extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EthnicGroup',
             'desc' => [
+                'en' => 'Ethnic Group',
             ],
         ],
     ];

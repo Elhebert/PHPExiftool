@@ -28,13 +28,14 @@ class SelectorAttributeVR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector Attribute VR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101488
+             * line : 74634
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorAttributeVR extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorAttributeVR',
             'desc' => [
+                'en' => 'Selector Attribute VR',
             ],
         ],
     ];

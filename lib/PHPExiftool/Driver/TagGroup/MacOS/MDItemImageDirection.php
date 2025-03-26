@@ -28,13 +28,14 @@ class MDItemImageDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Image Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172836
+             * line : 118921
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemImageDirection extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemImageDirection',
             'desc' => [
+                'en' => 'MD Item Image Direction',
             ],
         ],
     ];

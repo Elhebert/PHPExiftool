@@ -28,13 +28,14 @@ class SamplingHierarchyCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sampling Hierarchy Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167844
+             * line : 114401
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplingHierarchyCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SamplingHierarchyCode',
             'desc' => [
+                'en' => 'Sampling Hierarchy Code',
             ],
         ],
     ];

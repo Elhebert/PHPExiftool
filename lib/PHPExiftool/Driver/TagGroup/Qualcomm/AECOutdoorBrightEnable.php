@@ -28,13 +28,14 @@ class AECOutdoorBrightEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Outdoor Bright Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306188
+             * line : 212693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECOutdoorBrightEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECOutdoorBrightEnable',
             'desc' => [
+                'en' => 'AEC Outdoor Bright Enable',
             ],
         ],
     ];

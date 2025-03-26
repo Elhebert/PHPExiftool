@@ -28,13 +28,14 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shooting Info Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 214385
+             * line : 143938
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215754
+             * line : 144830
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218350
+             * line : 146747
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220800
+             * line : 148778
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224314
+             * line : 151266
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225027
+             * line : 151684
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227476
+             * line : 153194
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230886
+             * line : 155186
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232699
+             * line : 156596
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234840
+             * line : 158291
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235616
+             * line : 158827
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
     ];

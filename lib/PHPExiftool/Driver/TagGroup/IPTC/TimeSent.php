@@ -28,13 +28,14 @@ class TimeSent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Sent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151286
+             * line : 104367
              * type : string
              * writable : true
              * count : 11
@@ -42,6 +43,7 @@ class TimeSent extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:TimeSent',
             'desc' => [
+                'en' => 'Time Sent',
             ],
         ],
     ];

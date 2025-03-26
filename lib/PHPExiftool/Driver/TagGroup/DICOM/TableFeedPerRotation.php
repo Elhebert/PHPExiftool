@@ -28,13 +28,14 @@ class TableFeedPerRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Feed Per Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96968
+             * line : 70369
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableFeedPerRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableFeedPerRotation',
             'desc' => [
+                'en' => 'Table Feed Per Rotation',
             ],
         ],
     ];

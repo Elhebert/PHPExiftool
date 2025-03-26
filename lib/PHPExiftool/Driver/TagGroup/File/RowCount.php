@@ -28,13 +28,14 @@ class RowCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Row Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394782
+             * line : 279695
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RowCount extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:RowCount',
             'desc' => [
+                'en' => 'Row Count',
             ],
         ],
     ];

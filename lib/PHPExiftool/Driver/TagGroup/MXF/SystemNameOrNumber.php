@@ -28,13 +28,14 @@ class SystemNameOrNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'System Name Or Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170335
+             * line : 116595
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SystemNameOrNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SystemNameOrNumber',
             'desc' => [
+                'en' => 'System Name Or Number',
             ],
         ],
     ];

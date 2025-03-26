@@ -28,13 +28,14 @@ class MonochromeContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83030
+             * line : 60810
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeContrast extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:MonochromeContrast',
             'desc' => [
+                'en' => 'Monochrome Contrast',
             ],
         ],
     ];

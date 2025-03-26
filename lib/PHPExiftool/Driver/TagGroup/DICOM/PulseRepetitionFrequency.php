@@ -28,13 +28,14 @@ class PulseRepetitionFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pulse Repetition Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96304
+             * line : 69712
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PulseRepetitionFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PulseRepetitionFrequency',
             'desc' => [
+                'en' => 'Pulse Repetition Frequency',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PIC
-             * line : 361231
+             * line : 251694
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9403
-             * line : 384810
+             * line : 271341
              * type : int8s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9403.Sony:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

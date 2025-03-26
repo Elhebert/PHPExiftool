@@ -28,13 +28,14 @@ class GrainEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Grain Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130194
+             * line : 89947
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GrainEffect extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:GrainEffect',
             'desc' => [
+                'en' => 'Grain Effect',
             ],
         ],
     ];

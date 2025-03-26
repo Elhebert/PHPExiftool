@@ -28,13 +28,14 @@ class Predictor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Predictor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111419
+             * line : 81644
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Predictor extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Predictor',
             'desc' => [
+                'en' => 'Predictor',
             ],
         ],
     ];

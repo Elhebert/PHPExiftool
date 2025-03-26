@@ -28,13 +28,14 @@ class HighISONoiseReduction2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Noise Reduction 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 359407
+             * line : 250673
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighISONoiseReduction2 extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:HighISONoiseReduction2',
             'desc' => [
+                'en' => 'High ISO Noise Reduction 2',
             ],
         ],
     ];

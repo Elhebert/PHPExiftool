@@ -28,13 +28,14 @@ class FieldOfViewRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96457
+             * line : 69865
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FieldOfViewRotation',
             'desc' => [
+                'en' => 'Field Of View Rotation',
             ],
         ],
     ];

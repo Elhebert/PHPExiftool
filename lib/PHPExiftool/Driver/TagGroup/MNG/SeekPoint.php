@@ -28,13 +28,14 @@ class SeekPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Seek Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165217
+             * line : 112310
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeekPoint extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:SeekPoint',
             'desc' => [
+                'en' => 'Seek Point',
             ],
         ],
     ];

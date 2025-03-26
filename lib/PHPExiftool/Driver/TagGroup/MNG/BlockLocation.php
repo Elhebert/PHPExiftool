@@ -28,13 +28,14 @@ class BlockLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::DeltaPNGHeader
-             * line : 164828
+             * line : 112031
              * type : int32u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class BlockLocation extends AbstractTagGroup
              */
             'id' => 'MNG::DeltaPNGHeader.MNG:BlockLocation',
             'desc' => [
+                'en' => 'Block Location',
             ],
         ],
     ];

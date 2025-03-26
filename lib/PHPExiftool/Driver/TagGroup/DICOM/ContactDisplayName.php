@@ -28,13 +28,14 @@ class ContactDisplayName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact Display Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101742
+             * line : 74883
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContactDisplayName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContactDisplayName',
             'desc' => [
+                'en' => 'Contact Display Name',
             ],
         ],
     ];

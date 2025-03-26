@@ -28,13 +28,14 @@ class ShootingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shooting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275557
+             * line : 191947
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShootingMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ShootingMode',
             'desc' => [
+                'en' => 'Shooting Mode',
             ],
         ],
     ];

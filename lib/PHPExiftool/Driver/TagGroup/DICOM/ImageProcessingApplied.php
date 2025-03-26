@@ -28,13 +28,14 @@ class ImageProcessingApplied extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Processing Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99219
+             * line : 72438
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageProcessingApplied extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageProcessingApplied',
             'desc' => [
+                'en' => 'Image Processing Applied',
             ],
         ],
     ];

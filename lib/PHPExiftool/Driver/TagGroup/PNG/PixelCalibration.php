@@ -28,13 +28,14 @@ class PixelCalibration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272593
+             * line : 190400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelCalibration extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:PixelCalibration',
             'desc' => [
+                'en' => 'Pixel Calibration',
             ],
         ],
     ];

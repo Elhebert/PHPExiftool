@@ -28,13 +28,14 @@ class GradientBasedCorrDehaze extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Dehaze',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402664
+             * line : 285801
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrDehaze extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrDehaze',
             'desc' => [
+                'en' => 'Gradient Based Corr Dehaze',
             ],
         ],
     ];

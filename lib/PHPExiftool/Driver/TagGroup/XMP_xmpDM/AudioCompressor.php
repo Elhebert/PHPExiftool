@@ -28,13 +28,14 @@ class AudioCompressor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Compressor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412911
+             * line : 291080
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioCompressor extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:AudioCompressor',
             'desc' => [
+                'en' => 'Audio Compressor',
             ],
         ],
     ];

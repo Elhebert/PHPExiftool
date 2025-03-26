@@ -28,13 +28,14 @@ class Time extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154841
+             * line : 106157
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Time extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Time',
             'desc' => [
+                'en' => 'Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaStorageSOPInstanceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Storage SOP Instance UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94567
+             * line : 68068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaStorageSOPInstanceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MediaStorageSOPInstanceUID',
             'desc' => [
+                'en' => 'Media Storage SOP Instance UID',
             ],
         ],
     ];

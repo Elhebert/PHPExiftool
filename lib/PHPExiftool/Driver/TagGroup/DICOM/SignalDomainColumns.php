@@ -28,13 +28,14 @@ class SignalDomainColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signal Domain Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99177
+             * line : 72396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignalDomainColumns extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SignalDomainColumns',
             'desc' => [
+                'en' => 'Signal Domain Columns',
             ],
         ],
     ];

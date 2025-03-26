@@ -28,13 +28,14 @@ class PrintingBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Printing Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102028
+             * line : 75165
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintingBitDepth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrintingBitDepth',
             'desc' => [
+                'en' => 'Printing Bit Depth',
             ],
         ],
     ];

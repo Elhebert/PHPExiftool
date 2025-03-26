@@ -28,13 +28,14 @@ class ImageFullWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Full Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112929
+             * line : 82254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFullWidth extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageFullWidth',
             'desc' => [
+                'en' => 'Image Full Width',
             ],
         ],
     ];

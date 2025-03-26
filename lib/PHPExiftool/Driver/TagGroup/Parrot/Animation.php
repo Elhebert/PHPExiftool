@@ -28,13 +28,14 @@ class Animation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Animation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282198
+             * line : 195993
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Animation extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:Animation',
             'desc' => [
+                'en' => 'Animation',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282390
+             * line : 196097
              * type : int8u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Animation extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:Animation',
             'desc' => [
+                'en' => 'Animation',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282634
+             * line : 196234
              * type : int8u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Animation extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:Animation',
             'desc' => [
+                'en' => 'Animation',
             ],
         ],
     ];

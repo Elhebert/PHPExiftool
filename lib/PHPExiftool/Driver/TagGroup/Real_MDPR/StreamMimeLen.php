@@ -28,13 +28,14 @@ class StreamMimeLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Mime Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330409
+             * line : 232496
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamMimeLen extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamMimeLen',
             'desc' => [
+                'en' => 'Stream Mime Len',
             ],
         ],
     ];

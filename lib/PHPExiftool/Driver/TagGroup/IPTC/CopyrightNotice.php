@@ -28,13 +28,14 @@ class CopyrightNotice extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Notice',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150382
+             * line : 103969
              * type : string
              * writable : true
              * count : 128
@@ -42,6 +43,7 @@ class CopyrightNotice extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:CopyrightNotice',
             'desc' => [
+                'en' => 'Copyright Notice',
             ],
         ],
     ];

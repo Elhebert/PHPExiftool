@@ -28,13 +28,14 @@ class ShootingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shooting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163133
+             * line : 111323
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShootingMode extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ShootingMode',
             'desc' => [
+                'en' => 'Shooting Mode',
             ],
         ],
     ];

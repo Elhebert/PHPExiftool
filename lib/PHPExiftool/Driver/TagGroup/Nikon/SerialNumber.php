@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196897
+             * line : 132955
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 199354
+             * line : 134556
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202683
+             * line : 137031
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

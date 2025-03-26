@@ -28,13 +28,14 @@ class CaptureFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::FrameInfo
-             * line : 140339
+             * line : 98006
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureFrameRate extends AbstractTagGroup
              */
             'id' => 'H264::FrameInfo.H264:CaptureFrameRate',
             'desc' => [
+                'en' => 'Capture Frame Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PatientSexNeutered extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Sex Neutered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95311
+             * line : 68773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientSexNeutered extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientSexNeutered',
             'desc' => [
+                'en' => 'Patient Sex Neutered',
             ],
         ],
     ];

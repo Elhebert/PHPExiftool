@@ -28,13 +28,14 @@ class GridFocalDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Focal Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96481
+             * line : 69889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridFocalDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridFocalDistance',
             'desc' => [
+                'en' => 'Grid Focal Distance',
             ],
         ],
     ];

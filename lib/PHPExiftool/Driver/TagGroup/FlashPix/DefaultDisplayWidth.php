@@ -28,13 +28,14 @@ class DefaultDisplayWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Display Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Image
-             * line : 124685
+             * line : 87137
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultDisplayWidth extends AbstractTagGroup
              */
             'id' => 'FlashPix::Image.FlashPix:DefaultDisplayWidth',
             'desc' => [
+                'en' => 'Default Display Width',
             ],
         ],
     ];

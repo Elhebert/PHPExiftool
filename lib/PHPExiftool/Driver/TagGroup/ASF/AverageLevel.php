@@ -28,13 +28,14 @@ class AverageLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Average Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1075
+             * line : 424
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AverageLevel extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:AverageLevel',
             'desc' => [
+                'en' => 'Average Level',
             ],
         ],
     ];

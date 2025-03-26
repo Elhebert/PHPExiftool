@@ -28,13 +28,14 @@ class ParentMEID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Parent MEID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397329
+             * line : 281371
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ParentMEID extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:ParentMEID',
             'desc' => [
+                'en' => 'Parent MEID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExternalTriggerCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'External Trigger Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122524
+             * line : 85802
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExternalTriggerCount extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ExternalTriggerCount',
             'desc' => [
+                'en' => 'External Trigger Count',
             ],
         ],
     ];

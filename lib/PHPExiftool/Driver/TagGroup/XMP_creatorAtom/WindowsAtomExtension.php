@@ -28,13 +28,14 @@ class WindowsAtomExtension extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Windows Atom Extension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401486
+             * line : 284749
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WindowsAtomExtension extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:WindowsAtomExtension',
             'desc' => [
+                'en' => 'Windows Atom Extension',
             ],
         ],
     ];

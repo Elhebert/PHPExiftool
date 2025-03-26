@@ -28,13 +28,14 @@ class GraphicCoordinatesDataSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Coordinates Data Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101390
+             * line : 74538
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicCoordinatesDataSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicCoordinatesDataSequence',
             'desc' => [
+                'en' => 'Graphic Coordinates Data Sequence',
             ],
         ],
     ];

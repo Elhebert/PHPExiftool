@@ -28,13 +28,14 @@ class Marker extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Marker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1816
+             * line : 918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Marker extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:Marker',
             'desc' => [
+                'en' => 'Marker',
             ],
         ],
     ];

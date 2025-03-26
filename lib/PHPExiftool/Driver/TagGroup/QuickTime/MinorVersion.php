@@ -28,13 +28,14 @@ class MinorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::FileType
-             * line : 313042
+             * line : 218911
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class MinorVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::FileType.QuickTime:MinorVersion',
             'desc' => [
+                'en' => 'Minor Version',
             ],
         ],
     ];

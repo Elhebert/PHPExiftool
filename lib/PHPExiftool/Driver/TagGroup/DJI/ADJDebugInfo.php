@@ -28,13 +28,14 @@ class ADJDebugInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ADJ Debug Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104446
+             * line : 77518
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ADJDebugInfo extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:ADJDebugInfo',
             'desc' => [
+                'en' => 'ADJ Debug Info',
             ],
         ],
     ];

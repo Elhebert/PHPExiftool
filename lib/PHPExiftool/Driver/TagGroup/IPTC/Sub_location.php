@@ -28,13 +28,14 @@ class Sub_location extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub-location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150260
+             * line : 103945
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class Sub_location extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Sub-location',
             'desc' => [
+                'en' => 'Sub-location',
             ],
         ],
     ];

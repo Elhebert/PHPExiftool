@@ -28,13 +28,14 @@ class EmmetropicMagnification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Emmetropic Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98324
+             * line : 71659
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmmetropicMagnification extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EmmetropicMagnification',
             'desc' => [
+                'en' => 'Emmetropic Magnification',
             ],
         ],
     ];

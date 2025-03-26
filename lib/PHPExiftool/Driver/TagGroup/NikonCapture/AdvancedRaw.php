@@ -28,13 +28,14 @@ class AdvancedRaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Advanced Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210690
+             * line : 141791
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdvancedRaw extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:AdvancedRaw',
             'desc' => [
+                'en' => 'Advanced Raw',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Disposition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Disposition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249082
+             * line : 171720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Disposition extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Disposition',
             'desc' => [
+                'en' => 'Disposition',
             ],
         ],
     ];

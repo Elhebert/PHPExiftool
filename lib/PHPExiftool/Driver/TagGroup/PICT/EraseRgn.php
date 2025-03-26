@@ -28,13 +28,14 @@ class EraseRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Rgn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264957
+             * line : 183179
              * type : Rgn
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseRgn',
             'desc' => [
+                'en' => 'Erase Rgn',
             ],
         ],
     ];

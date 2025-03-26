@@ -28,13 +28,14 @@ class Observer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Observer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121708
+             * line : 85308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Observer extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:Observer',
             'desc' => [
+                'en' => 'Observer',
             ],
         ],
     ];

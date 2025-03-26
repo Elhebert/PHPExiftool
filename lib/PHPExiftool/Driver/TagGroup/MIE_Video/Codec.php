@@ -28,13 +28,14 @@ class Codec extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Codec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Video
-             * line : 164223
+             * line : 111678
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Codec extends AbstractTagGroup
              */
             'id' => 'MIE::Video.MIE-Video:Codec',
             'desc' => [
+                'en' => 'Codec',
             ],
         ],
     ];

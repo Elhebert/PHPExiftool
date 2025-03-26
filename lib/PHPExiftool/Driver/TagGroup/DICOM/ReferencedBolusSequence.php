@@ -28,13 +28,14 @@ class ReferencedBolusSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Bolus Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104011
+             * line : 77100
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedBolusSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedBolusSequence',
             'desc' => [
+                'en' => 'Referenced Bolus Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShotInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfo
-             * line : 205295
+             * line : 137985
              * type : string
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfo.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD300S
-             * line : 205505
+             * line : 138074
              * type : string
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300S.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD300a
-             * line : 205544
+             * line : 138090
              * type : string
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300a.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::ShotInfoD300b
-             * line : 205704
+             * line : 138231
              * type : string
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD300b.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::ShotInfoD3S
-             * line : 206005
+             * line : 138503
              * type : string
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3S.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::ShotInfoD3X
-             * line : 206061
+             * line : 138536
              * type : string
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3X.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::ShotInfoD3a
-             * line : 206100
+             * line : 138552
              * type : string
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3a.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         7 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206184
+             * line : 138608
              * type : string
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         8 => [
             /**
              * table_name : Nikon::ShotInfoD4
-             * line : 206306
+             * line : 138687
              * type : string
              * writable : true
              * count : 4
@@ -146,12 +155,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         9 => [
             /**
              * table_name : Nikon::ShotInfoD40
-             * line : 206329
+             * line : 138697
              * type : string
              * writable : true
              * count : 4
@@ -159,12 +169,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD40.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         10 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206383
+             * line : 138718
              * type : string
              * writable : true
              * count : 4
@@ -172,12 +183,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         11 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207013
+             * line : 139287
              * type : string
              * writable : true
              * count : 4
@@ -185,12 +197,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         12 => [
             /**
              * table_name : Nikon::ShotInfoD5000
-             * line : 207779
+             * line : 139994
              * type : string
              * writable : true
              * count : 4
@@ -198,12 +211,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5000.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         13 => [
             /**
              * table_name : Nikon::ShotInfoD5100
-             * line : 207818
+             * line : 140010
              * type : string
              * writable : true
              * count : 4
@@ -211,12 +225,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5100.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         14 => [
             /**
              * table_name : Nikon::ShotInfoD5200
-             * line : 207852
+             * line : 140023
              * type : string
              * writable : true
              * count : 4
@@ -224,12 +239,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD5200.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         15 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207886
+             * line : 140036
              * type : string
              * writable : true
              * count : 4
@@ -237,12 +253,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         16 => [
             /**
              * table_name : Nikon::ShotInfoD610
-             * line : 208246
+             * line : 140345
              * type : string
              * writable : true
              * count : 4
@@ -250,12 +267,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD610.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         17 => [
             /**
              * table_name : Nikon::ShotInfoD700
-             * line : 208269
+             * line : 140355
              * type : string
              * writable : true
              * count : 4
@@ -263,12 +281,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD700.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         18 => [
             /**
              * table_name : Nikon::ShotInfoD7000
-             * line : 208308
+             * line : 140371
              * type : string
              * writable : true
              * count : 4
@@ -276,12 +295,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD7000.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         19 => [
             /**
              * table_name : Nikon::ShotInfoD80
-             * line : 208342
+             * line : 140384
              * type : string
              * writable : true
              * count : 4
@@ -289,12 +309,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD80.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         20 => [
             /**
              * table_name : Nikon::ShotInfoD800
-             * line : 208529
+             * line : 140473
              * type : string
              * writable : true
              * count : 4
@@ -302,12 +323,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD800.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         21 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208593
+             * line : 140507
              * type : string
              * writable : true
              * count : 4
@@ -315,12 +337,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         22 => [
             /**
              * table_name : Nikon::ShotInfoD850
-             * line : 209153
+             * line : 141051
              * type : string
              * writable : true
              * count : 4
@@ -328,12 +351,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD850.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         23 => [
             /**
              * table_name : Nikon::ShotInfoD90
-             * line : 209245
+             * line : 141127
              * type : string
              * writable : true
              * count : 4
@@ -341,12 +365,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD90.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         24 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209284
+             * line : 141143
              * type : string
              * writable : true
              * count : 4
@@ -354,12 +379,13 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
         25 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209367
+             * line : 141210
              * type : string
              * writable : true
              * count : 4
@@ -367,6 +393,7 @@ class ShotInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:ShotInfoVersion',
             'desc' => [
+                'en' => 'Shot Info Version',
             ],
         ],
     ];

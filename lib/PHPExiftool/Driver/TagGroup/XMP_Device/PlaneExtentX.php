@@ -28,13 +28,14 @@ class PlaneExtentX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Plane Extent X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396731
+             * line : 280946
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlaneExtentX extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:PlaneExtentX',
             'desc' => [
+                'en' => 'Plane Extent X',
             ],
         ],
     ];

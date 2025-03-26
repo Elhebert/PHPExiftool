@@ -28,13 +28,14 @@ class RPP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'RPP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397872
+             * line : 281625
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RPP extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:RPP',
             'desc' => [
+                'en' => 'RPP',
             ],
         ],
     ];

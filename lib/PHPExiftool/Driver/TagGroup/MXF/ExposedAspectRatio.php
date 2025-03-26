@@ -28,13 +28,14 @@ class ExposedAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposed Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169203
+             * line : 115645
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposedAspectRatio extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ExposedAspectRatio',
             'desc' => [
+                'en' => 'Exposed Aspect Ratio',
             ],
         ],
     ];

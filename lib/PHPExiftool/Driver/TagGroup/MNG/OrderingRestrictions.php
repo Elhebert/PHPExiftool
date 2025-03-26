@@ -28,13 +28,14 @@ class OrderingRestrictions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ordering Restrictions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165208
+             * line : 112301
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrderingRestrictions extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:OrderingRestrictions',
             'desc' => [
+                'en' => 'Ordering Restrictions',
             ],
         ],
     ];

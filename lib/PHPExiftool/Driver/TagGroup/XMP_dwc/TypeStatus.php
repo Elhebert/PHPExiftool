@@ -28,13 +28,14 @@ class TypeStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Type Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106345
+             * line : 78656
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TypeStatus extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TypeStatus',
             'desc' => [
+                'en' => 'Type Status',
             ],
         ],
     ];

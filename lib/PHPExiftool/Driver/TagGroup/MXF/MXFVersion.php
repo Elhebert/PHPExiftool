@@ -28,13 +28,14 @@ class MXFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MXF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Header
-             * line : 167237
+             * line : 113870
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class MXFVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Header.MXF:MXFVersion',
             'desc' => [
+                'en' => 'MXF Version',
             ],
         ],
     ];

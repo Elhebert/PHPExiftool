@@ -28,13 +28,14 @@ class NamespaceURIs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Namespace UR Is',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171881
+             * line : 118066
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class NamespaceURIs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NamespaceURIs',
             'desc' => [
+                'en' => 'Namespace UR Is',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171884
+             * line : 118069
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class NamespaceURIs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NamespaceURIs',
             'desc' => [
+                'en' => 'Namespace UR Is',
             ],
         ],
     ];

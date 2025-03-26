@@ -28,13 +28,14 @@ class ImageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162989
+             * line : 111290
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ImageNumber',
             'desc' => [
+                'en' => 'Image Number',
             ],
         ],
     ];

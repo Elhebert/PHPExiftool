@@ -28,13 +28,14 @@ class SampleBlackSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Black Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155087
+             * line : 106337
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleBlackSequence extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SampleBlackSequence',
             'desc' => [
+                'en' => 'Sample Black Sequence',
             ],
         ],
     ];

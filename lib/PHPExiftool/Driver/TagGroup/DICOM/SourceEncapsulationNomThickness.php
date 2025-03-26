@@ -28,13 +28,14 @@ class SourceEncapsulationNomThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Encapsulation Nom Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103552
+             * line : 76644
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceEncapsulationNomThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceEncapsulationNomThickness',
             'desc' => [
+                'en' => 'Source Encapsulation Nom Thickness',
             ],
         ],
     ];

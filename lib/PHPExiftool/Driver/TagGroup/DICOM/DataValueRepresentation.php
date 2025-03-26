@@ -28,13 +28,14 @@ class DataValueRepresentation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Value Representation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104170
+             * line : 77256
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataValueRepresentation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataValueRepresentation',
             'desc' => [
+                'en' => 'Data Value Representation',
             ],
         ],
     ];

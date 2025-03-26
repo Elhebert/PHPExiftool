@@ -28,13 +28,14 @@ class ProfileCalibrationSig extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Calibration Sig',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120069
+             * line : 84417
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileCalibrationSig extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileCalibrationSig',
             'desc' => [
+                'en' => 'Profile Calibration Sig',
             ],
         ],
     ];

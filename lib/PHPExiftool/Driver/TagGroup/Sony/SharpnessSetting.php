@@ -28,13 +28,14 @@ class SharpnessSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350378
+             * line : 244639
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:SharpnessSetting',
             'desc' => [
+                'en' => 'Sharpness Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360247
+             * line : 251099
              * type : int8s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SharpnessSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:SharpnessSetting',
             'desc' => [
+                'en' => 'Sharpness Setting',
             ],
         ],
     ];

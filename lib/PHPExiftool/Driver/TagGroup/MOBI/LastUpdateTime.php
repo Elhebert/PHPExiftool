@@ -28,13 +28,14 @@ class LastUpdateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Update Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273643
+             * line : 190833
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastUpdateTime extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:LastUpdateTime',
             'desc' => [
+                'en' => 'Last Update Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EssenceLocators extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Essence Locators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169572
+             * line : 115965
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EssenceLocators extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceLocators',
             'desc' => [
+                'en' => 'Essence Locators',
             ],
         ],
     ];

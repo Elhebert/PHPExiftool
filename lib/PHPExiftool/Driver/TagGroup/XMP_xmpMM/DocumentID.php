@@ -28,13 +28,14 @@ class DocumentID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413876
+             * line : 291905
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DocumentID extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DocumentID',
             'desc' => [
+                'en' => 'Document ID',
             ],
         ],
     ];

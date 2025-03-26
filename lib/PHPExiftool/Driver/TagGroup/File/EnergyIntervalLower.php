@@ -28,13 +28,14 @@ class EnergyIntervalLower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Interval Lower',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166700
+             * line : 113438
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyIntervalLower extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:EnergyIntervalLower',
             'desc' => [
+                'en' => 'Energy Interval Lower',
             ],
         ],
     ];

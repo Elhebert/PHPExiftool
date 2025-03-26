@@ -28,13 +28,14 @@ class ShootObjType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shoot Obj Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ShootSetup
-             * line : 162103
+             * line : 110783
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShootObjType extends AbstractTagGroup
              */
             'id' => 'Leaf::ShootSetup.Leaf:ShootObjType',
             'desc' => [
+                'en' => 'Shoot Obj Type',
             ],
         ],
     ];

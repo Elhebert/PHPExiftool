@@ -28,13 +28,14 @@ class VolumeLocalizationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Localization Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96793
+             * line : 70195
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeLocalizationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VolumeLocalizationSequence',
             'desc' => [
+                'en' => 'Volume Localization Sequence',
             ],
         ],
     ];

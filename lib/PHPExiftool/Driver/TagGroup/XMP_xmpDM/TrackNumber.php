@@ -28,13 +28,14 @@ class TrackNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413532
+             * line : 291613
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TrackNumber extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:TrackNumber',
             'desc' => [
+                'en' => 'Track Number',
             ],
         ],
     ];

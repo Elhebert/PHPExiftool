@@ -28,13 +28,14 @@ class SecondaryGenre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328412
+             * line : 231613
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryGenre extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:SecondaryGenre',
             'desc' => [
+                'en' => 'Secondary Genre',
             ],
         ],
     ];

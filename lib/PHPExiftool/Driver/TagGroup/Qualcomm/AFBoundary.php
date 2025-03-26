@@ -28,13 +28,14 @@ class AFBoundary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Boundary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306218
+             * line : 212723
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFBoundary extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFBoundary',
             'desc' => [
+                'en' => 'AF Boundary',
             ],
         ],
     ];

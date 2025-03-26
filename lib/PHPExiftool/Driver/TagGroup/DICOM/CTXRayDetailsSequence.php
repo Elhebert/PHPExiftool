@@ -28,13 +28,14 @@ class CTXRayDetailsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CTX Ray Details Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97014
+             * line : 70414
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTXRayDetailsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTXRayDetailsSequence',
             'desc' => [
+                'en' => 'CTX Ray Details Sequence',
             ],
         ],
     ];

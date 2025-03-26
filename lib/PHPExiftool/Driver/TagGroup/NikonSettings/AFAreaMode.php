@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248865
+             * line : 171553
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

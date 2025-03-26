@@ -28,13 +28,14 @@ class SensorSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163092
+             * line : 111314
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class SensorSize extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:SensorSize',
             'desc' => [
+                'en' => 'Sensor Size',
             ],
         ],
     ];

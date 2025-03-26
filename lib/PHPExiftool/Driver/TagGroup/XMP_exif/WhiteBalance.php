@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408391
+             * line : 288530
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

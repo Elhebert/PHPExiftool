@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351244
+             * line : 245233
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351409
+             * line : 245345
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 359259
+             * line : 250611
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:SequenceNumber',
             'desc' => [
+                'en' => 'Sequence Number',
             ],
         ],
     ];

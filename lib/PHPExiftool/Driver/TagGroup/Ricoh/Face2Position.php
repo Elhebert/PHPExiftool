@@ -28,13 +28,14 @@ class Face2Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 2 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::FaceInfo
-             * line : 331861
+             * line : 233164
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class Face2Position extends AbstractTagGroup
              */
             'id' => 'Ricoh::FaceInfo.Ricoh:Face2Position',
             'desc' => [
+                'en' => 'Face 2 Position',
             ],
         ],
     ];

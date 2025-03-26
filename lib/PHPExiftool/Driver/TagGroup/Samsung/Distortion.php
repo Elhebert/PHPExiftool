@@ -28,13 +28,14 @@ class Distortion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335613
+             * line : 235508
              * type : int32s
              * writable : true
              * count : 8
@@ -42,6 +43,7 @@ class Distortion extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:Distortion',
             'desc' => [
+                'en' => 'Distortion',
             ],
         ],
     ];

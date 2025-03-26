@@ -28,13 +28,14 @@ class FlashWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227645
+             * line : 153328
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashWarning extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:FlashWarning',
             'desc' => [
+                'en' => 'Flash Warning',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228549
+             * line : 153812
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashWarning extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:FlashWarning',
             'desc' => [
+                'en' => 'Flash Warning',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234982
+             * line : 158384
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FlashWarning extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:FlashWarning',
             'desc' => [
+                'en' => 'Flash Warning',
             ],
         ],
     ];

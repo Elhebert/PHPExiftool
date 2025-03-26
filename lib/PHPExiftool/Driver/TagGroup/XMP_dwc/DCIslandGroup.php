@@ -28,13 +28,14 @@ class DCIslandGroup extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Island Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106938
+             * line : 79100
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCIslandGroup extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCIslandGroup',
             'desc' => [
+                'en' => 'DC Island Group',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ControlPointTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Control Point Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169687
+             * line : 116076
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ControlPointTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ControlPointTime',
             'desc' => [
+                'en' => 'Control Point Time',
             ],
         ],
     ];

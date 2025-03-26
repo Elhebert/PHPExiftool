@@ -28,13 +28,14 @@ class GradientOutputType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gradient Output Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96853
+             * line : 70255
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GradientOutputType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GradientOutputType',
             'desc' => [
+                'en' => 'Gradient Output Type',
             ],
         ],
     ];

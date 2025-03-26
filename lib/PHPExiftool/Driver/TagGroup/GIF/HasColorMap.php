@@ -28,13 +28,14 @@ class HasColorMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Color Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Screen
-             * line : 131406
+             * line : 90699
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasColorMap extends AbstractTagGroup
              */
             'id' => 'GIF::Screen.GIF:HasColorMap',
             'desc' => [
+                'en' => 'Has Color Map',
             ],
         ],
     ];

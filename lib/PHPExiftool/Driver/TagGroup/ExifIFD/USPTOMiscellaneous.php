@@ -28,13 +28,14 @@ class USPTOMiscellaneous extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'USPTO Miscellaneous',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112635
+             * line : 82108
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class USPTOMiscellaneous extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:USPTOMiscellaneous',
             'desc' => [
+                'en' => 'USPTO Miscellaneous',
             ],
         ],
     ];

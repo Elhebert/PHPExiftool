@@ -28,13 +28,14 @@ class AngularViewVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angular View Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100895
+             * line : 74055
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngularViewVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AngularViewVector',
             'desc' => [
+                'en' => 'Angular View Vector',
             ],
         ],
     ];

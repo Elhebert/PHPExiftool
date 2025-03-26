@@ -28,13 +28,14 @@ class NumberOfCopies extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Copies',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101980
+             * line : 75120
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfCopies extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfCopies',
             'desc' => [
+                'en' => 'Number Of Copies',
             ],
         ],
     ];

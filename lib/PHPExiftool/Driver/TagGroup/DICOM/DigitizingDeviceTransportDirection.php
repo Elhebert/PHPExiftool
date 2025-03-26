@@ -28,13 +28,14 @@ class DigitizingDeviceTransportDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Digitizing Device Transport Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96153
+             * line : 69571
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DigitizingDeviceTransportDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DigitizingDeviceTransportDirection',
             'desc' => [
+                'en' => 'Digitizing Device Transport Direction',
             ],
         ],
     ];

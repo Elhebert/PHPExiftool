@@ -28,13 +28,14 @@ class AudioMimeType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Mime Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GAudio
-             * line : 396855
+             * line : 281053
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioMimeType extends AbstractTagGroup
              */
             'id' => 'XMP::GAudio.XMP-GAudio:AudioMimeType',
             'desc' => [
+                'en' => 'Audio Mime Type',
             ],
         ],
     ];

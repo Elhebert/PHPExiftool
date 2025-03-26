@@ -28,13 +28,14 @@ class SourceApplicatorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Applicator ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103654
+             * line : 76743
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceApplicatorID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceApplicatorID',
             'desc' => [
+                'en' => 'Source Applicator ID',
             ],
         ],
     ];

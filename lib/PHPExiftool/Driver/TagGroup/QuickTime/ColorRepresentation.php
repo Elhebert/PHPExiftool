@@ -28,13 +28,14 @@ class ColorRepresentation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Representation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313992
+             * line : 219664
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorRepresentation extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:ColorRepresentation',
             'desc' => [
+                'en' => 'Color Representation',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemPropCont
-             * line : 323198
+             * line : 228533
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorRepresentation extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemPropCont.QuickTime:ColorRepresentation',
             'desc' => [
+                'en' => 'Color Representation',
             ],
         ],
     ];

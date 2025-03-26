@@ -28,13 +28,14 @@ class BracketSequence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89766
+             * line : 64879
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class BracketSequence extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:BracketSequence',
             'desc' => [
+                'en' => 'Bracket Sequence',
             ],
         ],
     ];

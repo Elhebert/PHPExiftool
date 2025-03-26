@@ -28,13 +28,14 @@ class CameraPan extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Pan',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282034
+             * line : 195919
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraPan extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:CameraPan',
             'desc' => [
+                'en' => 'Camera Pan',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282316
+             * line : 196050
              * type : int16s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraPan extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:CameraPan',
             'desc' => [
+                'en' => 'Camera Pan',
             ],
         ],
     ];

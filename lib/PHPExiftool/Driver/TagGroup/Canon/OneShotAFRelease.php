@@ -28,13 +28,14 @@ class OneShotAFRelease extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'One Shot AF Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3866
+             * line : 2389
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OneShotAFRelease extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:OneShotAFRelease',
             'desc' => [
+                'en' => 'One Shot AF Release',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Color extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175679
+             * line : 120918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Color extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Color',
             'desc' => [
+                'en' => 'Color',
             ],
         ],
     ];

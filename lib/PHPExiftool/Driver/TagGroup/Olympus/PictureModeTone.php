@@ -28,13 +28,14 @@ class PictureModeTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251999
+             * line : 173640
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureModeTone extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PictureModeTone',
             'desc' => [
+                'en' => 'Picture Mode Tone',
             ],
         ],
     ];

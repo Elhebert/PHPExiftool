@@ -28,13 +28,14 @@ class MIDIUnityNote extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIDI Unity Note',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328706
+             * line : 231792
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIDIUnityNote extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:MIDIUnityNote',
             'desc' => [
+                'en' => 'MIDI Unity Note',
             ],
         ],
     ];

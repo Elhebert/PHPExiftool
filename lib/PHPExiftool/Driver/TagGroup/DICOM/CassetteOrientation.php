@@ -28,13 +28,14 @@ class CassetteOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cassette Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96003
+             * line : 69424
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CassetteOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CassetteOrientation',
             'desc' => [
+                'en' => 'Cassette Orientation',
             ],
         ],
     ];

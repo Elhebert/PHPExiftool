@@ -28,13 +28,14 @@ class ProgramSupportMaterialReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Program Support Material Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168232
+             * line : 114728
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgramSupportMaterialReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ProgramSupportMaterialReference',
             'desc' => [
+                'en' => 'Program Support Material Reference',
             ],
         ],
     ];

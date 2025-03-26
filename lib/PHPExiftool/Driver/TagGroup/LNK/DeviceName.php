@@ -28,13 +28,14 @@ class DeviceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161072
+             * line : 109994
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceName extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:DeviceName',
             'desc' => [
+                'en' => 'Device Name',
             ],
         ],
     ];

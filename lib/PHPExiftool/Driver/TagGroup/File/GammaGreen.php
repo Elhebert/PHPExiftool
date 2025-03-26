@@ -28,13 +28,14 @@ class GammaGreen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gamma Green',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3434
+             * line : 2121
              * type : fixed32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GammaGreen extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:GammaGreen',
             'desc' => [
+                'en' => 'Gamma Green',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SequenceTotalNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Total Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410702
+             * line : 289983
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceTotalNumber extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:SequenceTotalNumber',
             'desc' => [
+                'en' => 'Sequence Total Number',
             ],
         ],
     ];

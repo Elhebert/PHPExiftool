@@ -28,13 +28,14 @@ class ContextGroupExtensionCreatorUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Context Group Extension Creator UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94828
+             * line : 68314
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContextGroupExtensionCreatorUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContextGroupExtensionCreatorUID',
             'desc' => [
+                'en' => 'Context Group Extension Creator UID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WB_RGGBLevelsAuto extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361713
+             * line : 251880
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGGBLevelsAuto extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGGBLevelsAuto',
             'desc' => [
+                'en' => 'WB RGGB Levels Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CharactersWithSpaces extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters With Spaces',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249051
+             * line : 171699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CharactersWithSpaces extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:CharactersWithSpaces',
             'desc' => [
+                'en' => 'Characters With Spaces',
             ],
         ],
     ];

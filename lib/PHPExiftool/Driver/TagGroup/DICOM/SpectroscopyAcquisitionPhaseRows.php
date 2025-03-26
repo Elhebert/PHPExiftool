@@ -28,13 +28,14 @@ class SpectroscopyAcquisitionPhaseRows extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectroscopy Acquisition Phase Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96741
+             * line : 70144
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectroscopyAcquisitionPhaseRows extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectroscopyAcquisitionPhaseRows',
             'desc' => [
+                'en' => 'Spectroscopy Acquisition Phase Rows',
             ],
         ],
     ];

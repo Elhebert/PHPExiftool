@@ -28,13 +28,14 @@ class BluegrassTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bluegrass Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156170
+             * line : 107381
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BluegrassTable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BluegrassTable',
             'desc' => [
+                'en' => 'Bluegrass Table',
             ],
         ],
     ];

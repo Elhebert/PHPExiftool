@@ -28,13 +28,14 @@ class ShutterSpeedRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Speed Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72783
+             * line : 54000
              * type : int32s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class ShutterSpeedRange extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ShutterSpeedRange',
             'desc' => [
+                'en' => 'Shutter Speed Range',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72804
+             * line : 54011
              * type : int32s
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class ShutterSpeedRange extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ShutterSpeedRange',
             'desc' => [
+                'en' => 'Shutter Speed Range',
             ],
         ],
     ];

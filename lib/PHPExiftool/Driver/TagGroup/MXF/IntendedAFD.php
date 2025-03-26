@@ -28,13 +28,14 @@ class IntendedAFD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intended AFD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168624
+             * line : 115112
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntendedAFD extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IntendedAFD',
             'desc' => [
+                'en' => 'Intended AFD',
             ],
         ],
     ];

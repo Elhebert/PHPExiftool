@@ -28,13 +28,14 @@ class LookUUID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look UUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402923
+             * line : 286059
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookUUID extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookUUID',
             'desc' => [
+                'en' => 'Look UUID',
             ],
         ],
     ];

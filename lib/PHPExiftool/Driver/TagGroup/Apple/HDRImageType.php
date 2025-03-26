@@ -28,13 +28,14 @@ class HDRImageType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::Main
-             * line : 2890
+             * line : 1858
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDRImageType extends AbstractTagGroup
              */
             'id' => 'Apple::Main.Apple:HDRImageType',
             'desc' => [
+                'en' => 'HDR Image Type',
             ],
         ],
     ];

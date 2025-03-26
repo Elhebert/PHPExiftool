@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300822
+             * line : 209679
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

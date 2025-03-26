@@ -28,13 +28,14 @@ class ColorTempMeasured extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Measured',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59177
+             * line : 45877
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59455
+             * line : 46019
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 59882
+             * line : 46236
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60332
+             * line : 46494
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61111
+             * line : 46921
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61430
+             * line : 47131
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61763
+             * line : 47314
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62173
+             * line : 47548
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62655
+             * line : 47836
              * type : int16s
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class ColorTempMeasured extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempMeasured',
             'desc' => [
+                'en' => 'Color Temp Measured',
             ],
         ],
     ];

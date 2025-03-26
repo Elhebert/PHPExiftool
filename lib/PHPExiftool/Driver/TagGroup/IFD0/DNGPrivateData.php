@@ -28,13 +28,14 @@ class DNGPrivateData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DNG Private Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119226
+             * line : 84210
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DNGPrivateData extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DNGPrivateData',
             'desc' => [
+                'en' => 'DNG Private Data',
             ],
         ],
     ];

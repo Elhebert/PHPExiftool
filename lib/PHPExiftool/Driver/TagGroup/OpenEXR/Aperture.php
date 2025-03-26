@@ -28,13 +28,14 @@ class Aperture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263406
+             * line : 182275
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Aperture extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:Aperture',
             'desc' => [
+                'en' => 'Aperture',
             ],
         ],
     ];

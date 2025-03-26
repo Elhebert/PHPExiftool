@@ -28,13 +28,14 @@ class EdgePointIndexList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edge Point Index List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101196
+             * line : 74346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EdgePointIndexList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EdgePointIndexList',
             'desc' => [
+                'en' => 'Edge Point Index List',
             ],
         ],
     ];

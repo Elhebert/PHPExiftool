@@ -28,13 +28,14 @@ class BitsForCodeWord extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits For Code Word',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98895
+             * line : 72165
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsForCodeWord extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BitsForCodeWord',
             'desc' => [
+                'en' => 'Bits For Code Word',
             ],
         ],
     ];

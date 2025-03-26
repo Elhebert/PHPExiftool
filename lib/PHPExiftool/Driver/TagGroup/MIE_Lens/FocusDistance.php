@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 163931
+             * line : 111540
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

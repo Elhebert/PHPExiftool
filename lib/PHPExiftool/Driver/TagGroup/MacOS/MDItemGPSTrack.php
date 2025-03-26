@@ -28,13 +28,14 @@ class MDItemGPSTrack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item GPS Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172820
+             * line : 118909
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemGPSTrack extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemGPSTrack',
             'desc' => [
+                'en' => 'MD Item GPS Track',
             ],
         ],
     ];

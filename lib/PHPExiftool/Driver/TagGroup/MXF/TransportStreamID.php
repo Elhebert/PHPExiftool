@@ -28,13 +28,14 @@ class TransportStreamID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transport Stream ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169788
+             * line : 116142
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransportStreamID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TransportStreamID',
             'desc' => [
+                'en' => 'Transport Stream ID',
             ],
         ],
     ];

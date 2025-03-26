@@ -28,13 +28,14 @@ class ColorClass extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Class',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::SoftEdit
-             * line : 304790
+             * line : 211863
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorClass extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:ColorClass',
             'desc' => [
+                'en' => 'Color Class',
             ],
         ],
     ];

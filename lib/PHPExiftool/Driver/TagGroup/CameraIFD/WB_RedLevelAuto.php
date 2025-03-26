@@ -28,13 +28,14 @@ class WB_RedLevelAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Red Level Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279939
+             * line : 194394
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WB_RedLevelAuto extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:WB_RedLevelAuto',
             'desc' => [
+                'en' => 'WB Red Level Auto',
             ],
         ],
     ];

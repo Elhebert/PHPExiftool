@@ -28,13 +28,14 @@ class LinkerVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linker Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108868
+             * line : 80487
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class LinkerVersion extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:LinkerVersion',
             'desc' => [
+                'en' => 'Linker Version',
             ],
         ],
     ];

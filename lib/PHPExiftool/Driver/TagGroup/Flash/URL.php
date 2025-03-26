@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124168
+             * line : 86774
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

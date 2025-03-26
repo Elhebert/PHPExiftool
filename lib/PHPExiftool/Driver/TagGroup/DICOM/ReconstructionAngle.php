@@ -28,13 +28,14 @@ class ReconstructionAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96995
+             * line : 70396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconstructionAngle',
             'desc' => [
+                'en' => 'Reconstruction Angle',
             ],
         ],
     ];

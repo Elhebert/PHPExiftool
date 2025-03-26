@@ -28,13 +28,14 @@ class WhitePoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111474
+             * line : 81670
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WhitePoint extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:WhitePoint',
             'desc' => [
+                'en' => 'White Point',
             ],
         ],
     ];

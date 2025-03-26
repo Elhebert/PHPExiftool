@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404365
+             * line : 287447
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

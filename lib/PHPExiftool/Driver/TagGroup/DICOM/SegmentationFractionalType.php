@@ -28,13 +28,14 @@ class SegmentationFractionalType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segmentation Fractional Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101106
+             * line : 74256
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentationFractionalType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentationFractionalType',
             'desc' => [
+                'en' => 'Segmentation Fractional Type',
             ],
         ],
     ];

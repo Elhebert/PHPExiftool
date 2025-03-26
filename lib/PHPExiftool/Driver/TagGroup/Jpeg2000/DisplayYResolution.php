@@ -28,13 +28,14 @@ class DisplayYResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::DisplayResolution
-             * line : 153830
+             * line : 105652
              * type : rational32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayYResolution extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::DisplayResolution.Jpeg2000:DisplayYResolution',
             'desc' => [
+                'en' => 'Display Y Resolution',
             ],
         ],
     ];

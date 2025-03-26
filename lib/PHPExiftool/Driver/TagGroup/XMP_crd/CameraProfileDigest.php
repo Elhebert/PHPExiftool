@@ -28,13 +28,14 @@ class CameraProfileDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Profile Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398252
+             * line : 281861
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraProfileDigest extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CameraProfileDigest',
             'desc' => [
+                'en' => 'Camera Profile Digest',
             ],
         ],
     ];

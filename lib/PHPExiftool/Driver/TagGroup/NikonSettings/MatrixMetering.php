@@ -28,13 +28,14 @@ class MatrixMetering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matrix Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243764
+             * line : 166762
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MatrixMetering extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MatrixMetering',
             'desc' => [
+                'en' => 'Matrix Metering',
             ],
         ],
     ];

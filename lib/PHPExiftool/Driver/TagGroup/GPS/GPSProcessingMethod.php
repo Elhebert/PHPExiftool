@@ -28,13 +28,14 @@ class GPSProcessingMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Processing Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132613
+             * line : 91008
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSProcessingMethod extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSProcessingMethod',
             'desc' => [
+                'en' => 'GPS Processing Method',
             ],
         ],
     ];

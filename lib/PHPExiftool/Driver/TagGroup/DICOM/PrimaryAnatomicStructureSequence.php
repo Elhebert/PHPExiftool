@@ -28,13 +28,14 @@ class PrimaryAnatomicStructureSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Anatomic Structure Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95054
+             * line : 68536
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryAnatomicStructureSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimaryAnatomicStructureSequence',
             'desc' => [
+                'en' => 'Primary Anatomic Structure Sequence',
             ],
         ],
     ];

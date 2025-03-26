@@ -28,13 +28,14 @@ class StdBaseName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Base Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161979
+             * line : 110681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdBaseName extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdBaseName',
             'desc' => [
+                'en' => 'Std Base Name',
             ],
         ],
     ];

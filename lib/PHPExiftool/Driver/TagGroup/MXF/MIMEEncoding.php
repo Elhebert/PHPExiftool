@@ -28,13 +28,14 @@ class MIMEEncoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIME Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171959
+             * line : 118144
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MIMEEncoding extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIMEEncoding',
             'desc' => [
+                'en' => 'MIME Encoding',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171962
+             * line : 118147
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MIMEEncoding extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIMEEncoding',
             'desc' => [
+                'en' => 'MIME Encoding',
             ],
         ],
     ];

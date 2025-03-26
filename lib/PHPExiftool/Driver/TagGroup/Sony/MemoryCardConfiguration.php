@@ -28,13 +28,14 @@ class MemoryCardConfiguration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Memory Card Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352480
+             * line : 246163
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MemoryCardConfiguration extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:MemoryCardConfiguration',
             'desc' => [
+                'en' => 'Memory Card Configuration',
             ],
         ],
     ];

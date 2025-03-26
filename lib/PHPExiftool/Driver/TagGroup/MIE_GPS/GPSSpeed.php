@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::GPS
-             * line : 163715
+             * line : 111477
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'MIE::GPS.MIE-GPS:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

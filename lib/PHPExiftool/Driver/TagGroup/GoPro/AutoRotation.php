@@ -28,13 +28,14 @@ class AutoRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139618
+             * line : 97676
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoRotation extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:AutoRotation',
             'desc' => [
+                'en' => 'Auto Rotation',
             ],
         ],
     ];

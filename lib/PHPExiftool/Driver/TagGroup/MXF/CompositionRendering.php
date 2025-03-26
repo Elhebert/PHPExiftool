@@ -28,13 +28,14 @@ class CompositionRendering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Composition Rendering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171968
+             * line : 118153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompositionRendering extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CompositionRendering',
             'desc' => [
+                'en' => 'Composition Rendering',
             ],
         ],
     ];

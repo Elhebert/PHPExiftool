@@ -28,13 +28,14 @@ class ShiftX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shift X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166583
+             * line : 113322
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShiftX extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ShiftX',
             'desc' => [
+                'en' => 'Shift X',
             ],
         ],
     ];

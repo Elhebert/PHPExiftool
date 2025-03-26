@@ -28,13 +28,14 @@ class SourceStrengthUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Strength Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103564
+             * line : 76656
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceStrengthUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceStrengthUnits',
             'desc' => [
+                'en' => 'Source Strength Units',
             ],
         ],
     ];

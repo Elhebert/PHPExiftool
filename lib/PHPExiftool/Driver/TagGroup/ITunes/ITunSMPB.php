@@ -28,13 +28,14 @@ class ITunSMPB extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'iTunSMPB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326674
+             * line : 230411
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ITunSMPB extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:iTunSMPB',
             'desc' => [
+                'en' => 'iTunSMPB',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Comments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::PixelLive
-             * line : 397460
+             * line : 281447
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Comments extends AbstractTagGroup
              */
             'id' => 'XMP::PixelLive.XMP-PixelLive:Comments',
             'desc' => [
+                'en' => 'Comments',
             ],
         ],
     ];

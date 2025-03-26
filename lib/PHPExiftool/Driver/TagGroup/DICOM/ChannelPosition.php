@@ -28,13 +28,14 @@ class ChannelPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99557
+             * line : 72768
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelPosition',
             'desc' => [
+                'en' => 'Channel Position',
             ],
         ],
     ];

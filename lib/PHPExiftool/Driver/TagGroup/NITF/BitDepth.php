@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152795
+             * line : 105131
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

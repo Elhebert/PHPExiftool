@@ -28,13 +28,14 @@ class PEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PE Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::Main
-             * line : 108853
+             * line : 80473
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PEType extends AbstractTagGroup
              */
             'id' => 'EXE::Main.EXE:PEType',
             'desc' => [
+                'en' => 'PE Type',
             ],
         ],
     ];

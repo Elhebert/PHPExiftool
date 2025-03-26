@@ -28,13 +28,14 @@ class IsFixedPitch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Fixed Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128173
+             * line : 88934
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsFixedPitch extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:IsFixedPitch',
             'desc' => [
+                'en' => 'Is Fixed Pitch',
             ],
         ],
     ];

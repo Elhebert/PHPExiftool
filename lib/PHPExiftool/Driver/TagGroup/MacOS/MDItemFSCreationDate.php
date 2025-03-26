@@ -28,13 +28,14 @@ class MDItemFSCreationDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'MD Item FS Creation Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172710
+             * line : 118826
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MDItemFSCreationDate extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSCreationDate',
             'desc' => [
+                'en' => 'MD Item FS Creation Date',
             ],
         ],
     ];

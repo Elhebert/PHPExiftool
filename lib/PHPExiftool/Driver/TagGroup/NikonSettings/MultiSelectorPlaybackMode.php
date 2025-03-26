@@ -28,13 +28,14 @@ class MultiSelectorPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Selector Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244549
+             * line : 167399
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MultiSelectorPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MultiSelectorPlaybackMode',
             'desc' => [
+                'en' => 'Multi Selector Playback Mode',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244585
+             * line : 167422
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MultiSelectorPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MultiSelectorPlaybackMode',
             'desc' => [
+                'en' => 'Multi Selector Playback Mode',
             ],
         ],
     ];

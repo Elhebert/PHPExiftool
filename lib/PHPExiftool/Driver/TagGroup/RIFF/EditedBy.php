@@ -28,13 +28,14 @@ class EditedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edited By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328237
+             * line : 231541
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditedBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:EditedBy',
             'desc' => [
+                'en' => 'Edited By',
             ],
         ],
     ];

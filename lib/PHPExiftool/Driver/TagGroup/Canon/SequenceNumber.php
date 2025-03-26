@@ -28,13 +28,14 @@ class SequenceNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Number In Continuous Burst',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70525
+             * line : 52748
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceNumber extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:SequenceNumber',
             'desc' => [
+                'en' => 'Shot Number In Continuous Burst',
             ],
         ],
     ];

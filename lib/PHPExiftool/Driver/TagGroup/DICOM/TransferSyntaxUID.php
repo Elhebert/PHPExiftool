@@ -28,13 +28,14 @@ class TransferSyntaxUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transfer Syntax UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94570
+             * line : 68071
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransferSyntaxUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransferSyntaxUID',
             'desc' => [
+                'en' => 'Transfer Syntax UID',
             ],
         ],
     ];

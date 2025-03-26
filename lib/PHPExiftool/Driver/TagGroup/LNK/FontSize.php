@@ -28,13 +28,14 @@ class FontSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160967
+             * line : 109914
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class FontSize extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:FontSize',
             'desc' => [
+                'en' => 'Font Size',
             ],
         ],
     ];

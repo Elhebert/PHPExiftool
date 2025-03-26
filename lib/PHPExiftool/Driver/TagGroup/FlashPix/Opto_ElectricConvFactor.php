@@ -28,13 +28,14 @@ class Opto_ElectricConvFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Opto-Electric Conv Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126430
+             * line : 87665
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Opto_ElectricConvFactor extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:Opto-ElectricConvFactor',
             'desc' => [
+                'en' => 'Opto-Electric Conv Factor',
             ],
         ],
     ];

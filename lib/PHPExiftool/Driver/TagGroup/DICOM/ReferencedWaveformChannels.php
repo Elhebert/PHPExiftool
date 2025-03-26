@@ -28,13 +28,14 @@ class ReferencedWaveformChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Waveform Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100101
+             * line : 73302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedWaveformChannels extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedWaveformChannels',
             'desc' => [
+                'en' => 'Referenced Waveform Channels',
             ],
         ],
     ];

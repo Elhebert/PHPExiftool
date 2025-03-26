@@ -28,13 +28,14 @@ class HonorsAndQualifications extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Honors And Qualifications',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168874
+             * line : 115340
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class HonorsAndQualifications extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HonorsAndQualifications',
             'desc' => [
+                'en' => 'Honors And Qualifications',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170699
+             * line : 116934
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class HonorsAndQualifications extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HonorsAndQualifications',
             'desc' => [
+                'en' => 'Honors And Qualifications',
             ],
         ],
     ];

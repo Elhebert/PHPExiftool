@@ -28,13 +28,14 @@ class SubjectReference extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149860
+             * line : 103839
              * type : string
              * writable : true
              * count : 236
@@ -42,6 +43,7 @@ class SubjectReference extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:SubjectReference',
             'desc' => [
+                'en' => 'Subject Reference',
             ],
         ],
     ];

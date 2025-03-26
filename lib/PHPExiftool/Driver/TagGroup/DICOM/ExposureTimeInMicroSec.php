@@ -28,13 +28,14 @@ class ExposureTimeInMicroSec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time In Micro Sec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96508
+             * line : 69913
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTimeInMicroSec extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureTimeInMicroSec',
             'desc' => [
+                'en' => 'Exposure Time In Micro Sec',
             ],
         ],
     ];

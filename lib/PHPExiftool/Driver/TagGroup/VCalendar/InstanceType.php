@@ -28,13 +28,14 @@ class InstanceType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395600
+             * line : 280127
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceType extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:InstanceType',
             'desc' => [
+                'en' => 'Instance Type',
             ],
         ],
     ];

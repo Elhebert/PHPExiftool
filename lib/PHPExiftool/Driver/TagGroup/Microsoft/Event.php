@@ -28,13 +28,14 @@ class Event extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174610
+             * line : 120227
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Event extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Event',
             'desc' => [
+                'en' => 'Event',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175373
+             * line : 120759
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Event extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Event',
             'desc' => [
+                'en' => 'Event',
             ],
         ],
     ];

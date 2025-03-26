@@ -28,13 +28,14 @@ class VideoPreburst extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Preburst',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278040
+             * line : 193419
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoPreburst extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:VideoPreburst',
             'desc' => [
+                'en' => 'Video Preburst',
             ],
         ],
     ];

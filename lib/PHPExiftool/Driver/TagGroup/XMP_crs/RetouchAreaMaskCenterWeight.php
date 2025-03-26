@@ -28,13 +28,14 @@ class RetouchAreaMaskCenterWeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Center Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403991
+             * line : 287102
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskCenterWeight extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaMaskCenterWeight',
             'desc' => [
+                'en' => 'Retouch Area Mask Center Weight',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254777
+             * line : 175902
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254903
+             * line : 175993
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254938
+             * line : 176012
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
     ];

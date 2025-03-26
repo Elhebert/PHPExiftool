@@ -28,13 +28,14 @@ class EditionUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edition UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173523
+             * line : 119452
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditionUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:EditionUID',
             'desc' => [
+                'en' => 'Edition UID',
             ],
         ],
     ];

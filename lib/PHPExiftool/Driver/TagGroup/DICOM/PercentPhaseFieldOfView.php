@@ -28,13 +28,14 @@ class PercentPhaseFieldOfView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Percent Phase Field Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95558
+             * line : 69013
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PercentPhaseFieldOfView extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PercentPhaseFieldOfView',
             'desc' => [
+                'en' => 'Percent Phase Field Of View',
             ],
         ],
     ];

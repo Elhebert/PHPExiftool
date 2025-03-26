@@ -28,13 +28,14 @@ class CountRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Count Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95949
+             * line : 69373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CountRate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CountRate',
             'desc' => [
+                'en' => 'Count Rate',
             ],
         ],
     ];

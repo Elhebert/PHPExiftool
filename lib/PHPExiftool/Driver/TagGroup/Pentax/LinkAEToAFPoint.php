@@ -28,13 +28,14 @@ class LinkAEToAFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Link AE To AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285229
+             * line : 197831
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LinkAEToAFPoint extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:LinkAEToAFPoint',
             'desc' => [
+                'en' => 'Link AE To AF Point',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusPosition extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353429
+             * line : 246631
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusPosition extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:FocusPosition',
             'desc' => [
+                'en' => 'Focus Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFMicroAdjRegisteredLenses extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Micro Adj Registered Lenses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 345561
+             * line : 242324
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFMicroAdjRegisteredLenses extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:AFMicroAdjRegisteredLenses',
             'desc' => [
+                'en' => 'AF Micro Adj Registered Lenses',
             ],
         ],
     ];

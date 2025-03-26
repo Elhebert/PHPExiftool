@@ -28,13 +28,14 @@ class AFAreaXPositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Area X Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo
-             * line : 4079
+             * line : 2568
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AFAreaXPositions extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo.Canon:AFAreaXPositions',
             'desc' => [
+                'en' => 'AF Area X Positions',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4239
+             * line : 2664
              * type : int16s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AFAreaXPositions extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFAreaXPositions',
             'desc' => [
+                'en' => 'AF Area X Positions',
             ],
         ],
     ];

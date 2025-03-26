@@ -28,13 +28,14 @@ class MovieImageArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Image Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201252
+             * line : 136146
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieImageArea extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieImageArea',
             'desc' => [
+                'en' => 'Movie Image Area',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RegionPersonEmailDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Person Email Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP
-             * line : 174080
+             * line : 119915
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionPersonEmailDigest extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP.XMP-MP:RegionPersonEmailDigest',
             'desc' => [
+                'en' => 'Region Person Email Digest',
             ],
         ],
     ];

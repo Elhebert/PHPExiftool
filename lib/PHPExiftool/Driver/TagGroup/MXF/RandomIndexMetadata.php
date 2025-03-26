@@ -28,13 +28,14 @@ class RandomIndexMetadata extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Random Index Metadata',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172509
+             * line : 118669
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RandomIndexMetadata extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RandomIndexMetadata',
             'desc' => [
+                'en' => 'Random Index Metadata',
             ],
         ],
     ];

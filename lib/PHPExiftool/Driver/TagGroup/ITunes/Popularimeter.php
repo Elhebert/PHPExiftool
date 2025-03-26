@@ -28,13 +28,14 @@ class Popularimeter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Popularimeter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326704
+             * line : 230435
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Popularimeter extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Popularimeter',
             'desc' => [
+                'en' => 'Popularimeter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FirstOrderPhaseCorrectionAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Order Phase Correction Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104269
+             * line : 77343
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstOrderPhaseCorrectionAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FirstOrderPhaseCorrectionAngle',
             'desc' => [
+                'en' => 'First Order Phase Correction Angle',
             ],
         ],
     ];

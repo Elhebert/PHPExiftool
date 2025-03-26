@@ -28,13 +28,14 @@ class SaturationPlanes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Saturation Planes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97734
+             * line : 71116
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaturationPlanes extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SaturationPlanes',
             'desc' => [
+                'en' => 'Saturation Planes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 272943
+             * line : 190557
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

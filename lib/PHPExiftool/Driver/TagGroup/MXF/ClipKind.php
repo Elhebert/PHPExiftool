@@ -28,13 +28,14 @@ class ClipKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171172
+             * line : 117390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClipKind',
             'desc' => [
+                'en' => 'Clip Kind',
             ],
         ],
     ];

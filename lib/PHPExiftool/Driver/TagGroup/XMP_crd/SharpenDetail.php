@@ -28,13 +28,14 @@ class SharpenDetail extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpen Detail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401035
+             * line : 284489
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SharpenDetail extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SharpenDetail',
             'desc' => [
+                'en' => 'Sharpen Detail',
             ],
         ],
     ];

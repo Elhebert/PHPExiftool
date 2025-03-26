@@ -28,13 +28,14 @@ class VignettingCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112753
+             * line : 82152
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VignettingCorrection extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:VignettingCorrection',
             'desc' => [
+                'en' => 'Vignetting Correction',
             ],
         ],
     ];

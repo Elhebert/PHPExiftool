@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVI
-             * line : 191121
+             * line : 129881
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Nikon::AVI.Nikon:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCDT
-             * line : 202096
+             * line : 136898
              * type : undef
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Nikon::NCDT.Nikon:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

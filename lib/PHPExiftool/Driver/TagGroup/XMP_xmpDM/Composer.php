@@ -28,13 +28,14 @@ class Composer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Composer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412994
+             * line : 291154
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Composer extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Composer',
             'desc' => [
+                'en' => 'Composer',
             ],
         ],
     ];

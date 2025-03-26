@@ -28,13 +28,14 @@ class SpectroscopyAcquisitionDataColumns extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spectroscopy Acquisition Data Columns',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96796
+             * line : 70198
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpectroscopyAcquisitionDataColumns extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpectroscopyAcquisitionDataColumns',
             'desc' => [
+                'en' => 'Spectroscopy Acquisition Data Columns',
             ],
         ],
     ];

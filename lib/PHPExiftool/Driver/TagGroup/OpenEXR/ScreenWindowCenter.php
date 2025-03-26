@@ -28,13 +28,14 @@ class ScreenWindowCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Window Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263673
+             * line : 182389
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenWindowCenter extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:ScreenWindowCenter',
             'desc' => [
+                'en' => 'Screen Window Center',
             ],
         ],
     ];

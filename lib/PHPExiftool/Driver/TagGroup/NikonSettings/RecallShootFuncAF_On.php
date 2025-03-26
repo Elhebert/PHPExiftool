@@ -28,13 +28,14 @@ class RecallShootFuncAF_On extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func AF-On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248080
+             * line : 170768
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncAF_On extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncAF-On',
             'desc' => [
+                'en' => 'Recall Shoot Func AF-On',
             ],
         ],
     ];

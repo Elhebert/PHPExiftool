@@ -28,13 +28,14 @@ class ColorMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111510
+             * line : 81676
              * type : binary
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMap extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ColorMap',
             'desc' => [
+                'en' => 'Color Map',
             ],
         ],
     ];

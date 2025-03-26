@@ -28,13 +28,14 @@ class Plug_InLocatorSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plug-In Locator Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169366
+             * line : 115773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Plug_InLocatorSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Plug-InLocatorSet',
             'desc' => [
+                'en' => 'Plug-In Locator Set',
             ],
         ],
     ];

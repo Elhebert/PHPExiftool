@@ -28,13 +28,14 @@ class ModalityLUTType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modality LUT Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99108
+             * line : 72327
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModalityLUTType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModalityLUTType',
             'desc' => [
+                'en' => 'Modality LUT Type',
             ],
         ],
     ];

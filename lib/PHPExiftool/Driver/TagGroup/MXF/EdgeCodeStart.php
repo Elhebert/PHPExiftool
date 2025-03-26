@@ -28,13 +28,14 @@ class EdgeCodeStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edge Code Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168811
+             * line : 115283
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EdgeCodeStart extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EdgeCodeStart',
             'desc' => [
+                'en' => 'Edge Code Start',
             ],
         ],
     ];

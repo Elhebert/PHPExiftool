@@ -28,13 +28,14 @@ class ScannerMake extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126464
+             * line : 87683
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScannerMake extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ScannerMake',
             'desc' => [
+                'en' => 'Scanner Make',
             ],
         ],
     ];

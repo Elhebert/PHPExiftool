@@ -28,13 +28,14 @@ class IdentifierValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identifier Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170598
+             * line : 116838
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IdentifierValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IdentifierValue',
             'desc' => [
+                'en' => 'Identifier Value',
             ],
         ],
     ];

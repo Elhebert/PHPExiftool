@@ -28,13 +28,14 @@ class AFPointIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72107
+             * line : 53612
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointIllumination extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:AFPointIllumination',
             'desc' => [
+                'en' => 'AF Point Illumination',
             ],
         ],
     ];

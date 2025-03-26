@@ -28,13 +28,14 @@ class LuminanceCurveLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Luminance Curve Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82439
+             * line : 60380
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class LuminanceCurveLimits extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:LuminanceCurveLimits',
             'desc' => [
+                'en' => 'Luminance Curve Limits',
             ],
         ],
     ];

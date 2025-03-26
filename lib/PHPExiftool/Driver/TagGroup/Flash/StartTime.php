@@ -28,13 +28,14 @@ class StartTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124176
+             * line : 86780
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTime extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:StartTime',
             'desc' => [
+                'en' => 'Start Time',
             ],
         ],
     ];

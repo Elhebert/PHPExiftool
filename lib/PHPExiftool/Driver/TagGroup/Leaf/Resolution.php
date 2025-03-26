@@ -28,13 +28,14 @@ class Resolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Selection
-             * line : 162051
+             * line : 110736
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Resolution extends AbstractTagGroup
              */
             'id' => 'Leaf::Selection.Leaf:Resolution',
             'desc' => [
+                'en' => 'Resolution',
             ],
         ],
     ];

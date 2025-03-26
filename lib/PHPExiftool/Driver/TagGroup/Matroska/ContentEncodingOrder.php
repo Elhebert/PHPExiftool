@@ -28,13 +28,14 @@ class ContentEncodingOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Encoding Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173616
+             * line : 119542
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentEncodingOrder extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentEncodingOrder',
             'desc' => [
+                'en' => 'Content Encoding Order',
             ],
         ],
     ];

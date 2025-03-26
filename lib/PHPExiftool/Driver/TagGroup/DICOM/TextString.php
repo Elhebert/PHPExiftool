@@ -28,13 +28,14 @@ class TextString extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text String',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102168
+             * line : 75297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TextString extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TextString',
             'desc' => [
+                'en' => 'Text String',
             ],
         ],
     ];

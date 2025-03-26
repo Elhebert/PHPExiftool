@@ -28,13 +28,14 @@ class MaskGroupBasedCorrRangeMaskAreaModelsColorSampleInfo extends AbstractTagGr
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Range Mask Area Models Color Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399952
+             * line : 283458
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrRangeMaskAreaModelsColorSampleInfo extends AbstractTagGr
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrRangeMaskAreaModelsColorSampleInfo',
             'desc' => [
+                'en' => 'Mask Group Based Corr Range Mask Area Models Color Sample Info',
             ],
         ],
     ];

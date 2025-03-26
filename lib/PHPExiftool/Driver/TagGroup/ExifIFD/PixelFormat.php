@@ -28,13 +28,14 @@ class PixelFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118066
+             * line : 83742
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelFormat extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:PixelFormat',
             'desc' => [
+                'en' => 'Pixel Format',
             ],
         ],
     ];

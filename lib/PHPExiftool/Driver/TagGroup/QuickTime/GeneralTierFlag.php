@@ -28,13 +28,14 @@ class GeneralTierFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'General Tier Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313381
+             * line : 219126
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneralTierFlag extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:GeneralTierFlag',
             'desc' => [
+                'en' => 'General Tier Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageStabilizationSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Stabilization Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347902
+             * line : 243495
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageStabilizationSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ImageStabilizationSetting',
             'desc' => [
+                'en' => 'Image Stabilization Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349294
+             * line : 244093
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ImageStabilizationSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ImageStabilizationSetting',
             'desc' => [
+                'en' => 'Image Stabilization Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353004
+             * line : 246443
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ImageStabilizationSetting extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:ImageStabilizationSetting',
             'desc' => [
+                'en' => 'Image Stabilization Setting',
             ],
         ],
     ];

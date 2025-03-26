@@ -28,13 +28,14 @@ class ContainerVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169323
+             * line : 115731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContainerVersion',
             'desc' => [
+                'en' => 'Container Version',
             ],
         ],
     ];

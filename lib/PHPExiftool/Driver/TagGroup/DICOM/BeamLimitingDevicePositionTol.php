@@ -28,13 +28,14 @@ class BeamLimitingDevicePositionTol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Limiting Device Position Tol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103044
+             * line : 76140
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamLimitingDevicePositionTol extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamLimitingDevicePositionTol',
             'desc' => [
+                'en' => 'Beam Limiting Device Position Tol',
             ],
         ],
     ];

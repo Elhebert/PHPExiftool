@@ -28,13 +28,14 @@ class SetupDeviceParameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setup Device Parameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103507
+             * line : 76602
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetupDeviceParameter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SetupDeviceParameter',
             'desc' => [
+                'en' => 'Setup Device Parameter',
             ],
         ],
     ];

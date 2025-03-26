@@ -28,13 +28,14 @@ class CameraArrangementInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Arrangement Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394702
+             * line : 279617
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraArrangementInterval extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:CameraArrangementInterval',
             'desc' => [
+                'en' => 'Camera Arrangement Interval',
             ],
         ],
     ];

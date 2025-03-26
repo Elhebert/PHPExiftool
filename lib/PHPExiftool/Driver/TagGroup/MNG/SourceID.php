@@ -28,13 +28,14 @@ class SourceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::CloneObject
-             * line : 164702
+             * line : 111919
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SourceID extends AbstractTagGroup
              */
             'id' => 'MNG::CloneObject.MNG:SourceID',
             'desc' => [
+                'en' => 'Source ID',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165272
+             * line : 112361
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SourceID extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:SourceID',
             'desc' => [
+                'en' => 'Source ID',
             ],
         ],
     ];

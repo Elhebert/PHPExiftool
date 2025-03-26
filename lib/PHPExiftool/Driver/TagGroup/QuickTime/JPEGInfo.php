@@ -28,13 +28,14 @@ class JPEGInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313986
+             * line : 219658
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGInfo extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:JPEGInfo',
             'desc' => [
+                'en' => 'JPEG Info',
             ],
         ],
     ];

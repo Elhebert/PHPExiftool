@@ -28,13 +28,14 @@ class AltTextAccessibility extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Alt Text Accessibility',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 408911
+             * line : 288831
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AltTextAccessibility extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:AltTextAccessibility',
             'desc' => [
+                'en' => 'Alt Text Accessibility',
             ],
         ],
     ];

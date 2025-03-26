@@ -28,13 +28,14 @@ class MaterialAbsoluteDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Material Absolute Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168589
+             * line : 115079
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MaterialAbsoluteDuration extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaterialAbsoluteDuration',
             'desc' => [
+                'en' => 'Material Absolute Duration',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 168592
+             * line : 115082
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MaterialAbsoluteDuration extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MaterialAbsoluteDuration',
             'desc' => [
+                'en' => 'Material Absolute Duration',
             ],
         ],
     ];

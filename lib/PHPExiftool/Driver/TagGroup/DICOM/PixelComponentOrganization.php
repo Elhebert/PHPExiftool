@@ -28,13 +28,14 @@ class PixelComponentOrganization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Component Organization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96349
+             * line : 69757
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelComponentOrganization extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelComponentOrganization',
             'desc' => [
+                'en' => 'Pixel Component Organization',
             ],
         ],
     ];

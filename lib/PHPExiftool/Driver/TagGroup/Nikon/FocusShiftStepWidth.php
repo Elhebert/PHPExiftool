@@ -28,13 +28,14 @@ class FocusShiftStepWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Shift Step Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199761
+             * line : 134765
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusShiftStepWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FocusShiftStepWidth',
             'desc' => [
+                'en' => 'Focus Shift Step Width',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200395
+             * line : 135350
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusShiftStepWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FocusShiftStepWidth',
             'desc' => [
+                'en' => 'Focus Shift Step Width',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207978
+             * line : 140112
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusShiftStepWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FocusShiftStepWidth',
             'desc' => [
+                'en' => 'Focus Shift Step Width',
             ],
         ],
     ];

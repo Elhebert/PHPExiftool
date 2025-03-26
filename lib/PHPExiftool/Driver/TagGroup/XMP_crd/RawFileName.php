@@ -28,13 +28,14 @@ class RawFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400633
+             * line : 284120
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawFileName extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RawFileName',
             'desc' => [
+                'en' => 'Raw File Name',
             ],
         ],
     ];

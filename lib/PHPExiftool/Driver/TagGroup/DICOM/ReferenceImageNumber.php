@@ -28,13 +28,14 @@ class ReferenceImageNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Image Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103173
+             * line : 76269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceImageNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceImageNumber',
             'desc' => [
+                'en' => 'Reference Image Number',
             ],
         ],
     ];

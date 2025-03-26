@@ -28,13 +28,14 @@ class DoseValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102471
+             * line : 75570
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoseValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoseValue',
             'desc' => [
+                'en' => 'Dose Value',
             ],
         ],
     ];

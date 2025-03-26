@@ -28,13 +28,14 @@ class DesignerURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Designer URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127911
+             * line : 88791
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DesignerURL extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:DesignerURL',
             'desc' => [
+                'en' => 'Designer URL',
             ],
         ],
     ];

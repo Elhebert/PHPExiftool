@@ -28,13 +28,14 @@ class ColorGradeHighlightLum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Grade Highlight Lum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402040
+             * line : 285275
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorGradeHighlightLum extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ColorGradeHighlightLum',
             'desc' => [
+                'en' => 'Color Grade Highlight Lum',
             ],
         ],
     ];

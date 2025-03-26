@@ -28,13 +28,14 @@ class StoredVBILineNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stored VBI Line Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172184
+             * line : 118351
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StoredVBILineNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StoredVBILineNumber',
             'desc' => [
+                'en' => 'Stored VBI Line Number',
             ],
         ],
     ];

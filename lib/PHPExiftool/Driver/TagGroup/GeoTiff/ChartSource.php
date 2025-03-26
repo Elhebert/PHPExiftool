@@ -28,13 +28,14 @@ class ChartSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chart Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 139123
+             * line : 97369
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChartSource extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ChartSource',
             'desc' => [
+                'en' => 'Chart Source',
             ],
         ],
     ];

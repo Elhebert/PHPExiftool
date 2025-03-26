@@ -28,13 +28,14 @@ class HDR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::HDRInfo
-             * line : 64132
+             * line : 48693
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDR extends AbstractTagGroup
              */
             'id' => 'Canon::HDRInfo.Canon:HDR',
             'desc' => [
+                'en' => 'HDR',
             ],
         ],
     ];

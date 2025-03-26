@@ -28,13 +28,14 @@ class CookingMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cooking Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411208
+             * line : 290403
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CookingMethod extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:CookingMethod',
             'desc' => [
+                'en' => 'Cooking Method',
             ],
         ],
     ];

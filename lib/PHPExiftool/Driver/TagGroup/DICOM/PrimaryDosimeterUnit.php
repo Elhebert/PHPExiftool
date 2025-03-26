@@ -28,13 +28,14 @@ class PrimaryDosimeterUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Primary Dosimeter Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103131
+             * line : 76227
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrimaryDosimeterUnit extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrimaryDosimeterUnit',
             'desc' => [
+                'en' => 'Primary Dosimeter Unit',
             ],
         ],
     ];

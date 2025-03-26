@@ -28,13 +28,14 @@ class AFPointSelected2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selected 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284733
+             * line : 197569
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointSelected2 extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:AFPointSelected2',
             'desc' => [
+                'en' => 'AF Point Selected 2',
             ],
         ],
     ];

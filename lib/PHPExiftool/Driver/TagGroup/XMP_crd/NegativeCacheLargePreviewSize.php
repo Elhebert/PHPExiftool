@@ -28,13 +28,14 @@ class NegativeCacheLargePreviewSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Negative Cache Large Preview Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400102
+             * line : 283589
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NegativeCacheLargePreviewSize extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:NegativeCacheLargePreviewSize',
             'desc' => [
+                'en' => 'Negative Cache Large Preview Size',
             ],
         ],
     ];

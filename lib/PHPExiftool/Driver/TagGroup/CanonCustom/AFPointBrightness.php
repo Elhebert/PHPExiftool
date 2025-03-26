@@ -28,13 +28,14 @@ class AFPointBrightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74044
+             * line : 54675
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointBrightness extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFPointBrightness',
             'desc' => [
+                'en' => 'AF Point Brightness',
             ],
         ],
     ];

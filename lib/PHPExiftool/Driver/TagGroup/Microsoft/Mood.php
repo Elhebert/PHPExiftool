@@ -28,13 +28,14 @@ class Mood extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mood',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175148
+             * line : 120612
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Mood extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Mood',
             'desc' => [
+                'en' => 'Mood',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175772
+             * line : 120966
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Mood extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Mood',
             'desc' => [
+                'en' => 'Mood',
             ],
         ],
     ];

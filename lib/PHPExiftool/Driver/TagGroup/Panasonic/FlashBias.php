@@ -28,13 +28,14 @@ class FlashBias extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275986
+             * line : 192212
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashBias extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:FlashBias',
             'desc' => [
+                'en' => 'Flash Bias',
             ],
         ],
     ];

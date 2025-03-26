@@ -28,13 +28,14 @@ class TapeFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169749
+             * line : 116103
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TapeFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeFormat',
             'desc' => [
+                'en' => 'Tape Format',
             ],
         ],
     ];

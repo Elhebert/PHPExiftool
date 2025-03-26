@@ -28,13 +28,14 @@ class MaxContinuousRelease extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Continuous Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244112
+             * line : 167049
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxContinuousRelease extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MaxContinuousRelease',
             'desc' => [
+                'en' => 'Max Continuous Release',
             ],
         ],
     ];

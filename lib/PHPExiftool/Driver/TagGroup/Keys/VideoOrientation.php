@@ -28,13 +28,14 @@ class VideoOrientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323683
+             * line : 228761
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoOrientation extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:VideoOrientation',
             'desc' => [
+                'en' => 'Video Orientation',
             ],
         ],
     ];

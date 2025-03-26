@@ -28,13 +28,14 @@ class ShutterCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299820
+             * line : 208986
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ShutterCount extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ShutterCount',
             'desc' => [
+                'en' => 'Shutter Count',
             ],
         ],
     ];

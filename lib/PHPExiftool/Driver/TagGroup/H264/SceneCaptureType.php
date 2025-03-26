@@ -28,13 +28,14 @@ class SceneCaptureType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Capture Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::MDPM
-             * line : 141211
+             * line : 98180
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneCaptureType extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:SceneCaptureType',
             'desc' => [
+                'en' => 'Scene Capture Type',
             ],
         ],
     ];

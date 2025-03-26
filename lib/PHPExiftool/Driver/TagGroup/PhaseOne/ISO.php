@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303198
+             * line : 210763
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NeutraUnsharpMaskStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutra Unsharp Mask Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83715
+             * line : 61357
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutraUnsharpMaskStrength extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutraUnsharpMaskStrength',
             'desc' => [
+                'en' => 'Neutra Unsharp Mask Strength',
             ],
         ],
     ];

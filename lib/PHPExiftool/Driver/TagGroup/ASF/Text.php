@@ -28,13 +28,14 @@ class Text extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1598
+             * line : 787
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Text extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
     ];

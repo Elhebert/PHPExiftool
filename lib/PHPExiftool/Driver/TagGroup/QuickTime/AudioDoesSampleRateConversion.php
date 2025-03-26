@@ -28,13 +28,14 @@ class AudioDoesSampleRateConversion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Does Sample Rate Conversion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312658
+             * line : 218530
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioDoesSampleRateConversion extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioDoesSampleRateConversion',
             'desc' => [
+                'en' => 'Audio Does Sample Rate Conversion',
             ],
         ],
     ];

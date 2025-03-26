@@ -28,13 +28,14 @@ class RepresentativeFrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Representative Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99126
+             * line : 72345
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepresentativeFrameNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RepresentativeFrameNumber',
             'desc' => [
+                'en' => 'Representative Frame Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeviceRelativePositionY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Relative Position Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168317
+             * line : 114812
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceRelativePositionY extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceRelativePositionY',
             'desc' => [
+                'en' => 'Device Relative Position Y',
             ],
         ],
     ];

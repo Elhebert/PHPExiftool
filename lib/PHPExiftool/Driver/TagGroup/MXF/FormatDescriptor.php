@@ -28,13 +28,14 @@ class FormatDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Format Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167710
+             * line : 114287
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FormatDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FormatDescriptor',
             'desc' => [
+                'en' => 'Format Descriptor',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170195
+             * line : 116472
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FormatDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FormatDescriptor',
             'desc' => [
+                'en' => 'Format Descriptor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScanImageEnhancer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scan Image Enhancer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205248
+             * line : 137958
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ScanImageEnhancer extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:ScanImageEnhancer',
             'desc' => [
+                'en' => 'Scan Image Enhancer',
             ],
         ],
     ];

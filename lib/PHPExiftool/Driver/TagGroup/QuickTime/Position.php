@@ -28,13 +28,14 @@ class Position extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm4
-             * line : 326344
+             * line : 230253
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class Position extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm4.QuickTime:Position',
             'desc' => [
+                'en' => 'Position',
             ],
         ],
     ];

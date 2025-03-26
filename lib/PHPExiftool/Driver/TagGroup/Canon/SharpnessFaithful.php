@@ -28,13 +28,14 @@ class SharpnessFaithful extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Faithful',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34504
+             * line : 26507
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SharpnessFaithful',
             'desc' => [
+                'en' => 'Sharpness Faithful',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67371
+             * line : 51097
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SharpnessFaithful',
             'desc' => [
+                'en' => 'Sharpness Faithful',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68469
+             * line : 51758
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SharpnessFaithful',
             'desc' => [
+                'en' => 'Sharpness Faithful',
             ],
         ],
     ];

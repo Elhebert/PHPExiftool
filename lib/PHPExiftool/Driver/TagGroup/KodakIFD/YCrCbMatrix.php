@@ -28,13 +28,14 @@ class YCrCbMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Cr Cb Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156714
+             * line : 107918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YCrCbMatrix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:YCrCbMatrix',
             'desc' => [
+                'en' => 'Y Cr Cb Matrix',
             ],
         ],
     ];

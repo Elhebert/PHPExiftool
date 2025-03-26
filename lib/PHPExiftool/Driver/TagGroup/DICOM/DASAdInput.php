@@ -28,13 +28,14 @@ class DASAdInput extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Ad Input',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100466
+             * line : 73638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASAdInput extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASAdInput',
             'desc' => [
+                'en' => 'DAS Ad Input',
             ],
         ],
     ];

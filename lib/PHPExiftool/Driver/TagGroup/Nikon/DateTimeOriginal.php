@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191696
+             * line : 129999
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202184
+             * line : 136917
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

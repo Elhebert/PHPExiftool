@@ -28,13 +28,14 @@ class StripRowCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Row Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112625
+             * line : 82102
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StripRowCounts extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:StripRowCounts',
             'desc' => [
+                'en' => 'Strip Row Counts',
             ],
         ],
     ];

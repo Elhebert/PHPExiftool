@@ -28,13 +28,14 @@ class SettingPeriodDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Period Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171636
+             * line : 117829
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingPeriodDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingPeriodDescription',
             'desc' => [
+                'en' => 'Setting Period Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171639
+             * line : 117832
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingPeriodDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingPeriodDescription',
             'desc' => [
+                'en' => 'Setting Period Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PageImagePageNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Page Image Page Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412692
+             * line : 290951
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PageImagePageNumber extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:PageImagePageNumber',
             'desc' => [
+                'en' => 'Page Image Page Number',
             ],
         ],
     ];

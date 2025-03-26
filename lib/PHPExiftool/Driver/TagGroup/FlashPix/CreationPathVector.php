@@ -28,13 +28,14 @@ class CreationPathVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creation Path Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124929
+             * line : 87279
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreationPathVector extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:CreationPathVector',
             'desc' => [
+                'en' => 'Creation Path Vector',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSFramingAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Framing Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::Automation
-             * line : 281855
+             * line : 195776
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSFramingAltitude extends AbstractTagGroup
              */
             'id' => 'Parrot::Automation.Parrot:GPSFramingAltitude',
             'desc' => [
+                'en' => 'GPS Framing Altitude',
             ],
         ],
     ];

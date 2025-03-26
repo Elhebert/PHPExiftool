@@ -28,13 +28,14 @@ class FixationLightPolarAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixation Light Polar Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103846
+             * line : 76935
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixationLightPolarAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FixationLightPolarAngle',
             'desc' => [
+                'en' => 'Fixation Light Polar Angle',
             ],
         ],
     ];

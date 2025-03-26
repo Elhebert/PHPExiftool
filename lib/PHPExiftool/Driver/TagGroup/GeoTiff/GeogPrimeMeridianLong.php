@@ -28,13 +28,14 @@ class GeogPrimeMeridianLong extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geog Prime Meridian Long',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134191
+             * line : 92484
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeogPrimeMeridianLong extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GeogPrimeMeridianLong',
             'desc' => [
+                'en' => 'Geog Prime Meridian Long',
             ],
         ],
     ];

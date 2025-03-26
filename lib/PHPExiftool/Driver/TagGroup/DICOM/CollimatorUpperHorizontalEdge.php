@@ -28,13 +28,14 @@ class CollimatorUpperHorizontalEdge extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collimator Upper Horizontal Edge',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96104
+             * line : 69523
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollimatorUpperHorizontalEdge extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollimatorUpperHorizontalEdge',
             'desc' => [
+                'en' => 'Collimator Upper Horizontal Edge',
             ],
         ],
     ];

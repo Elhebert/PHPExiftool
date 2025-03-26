@@ -28,13 +28,14 @@ class MediaUniqueID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139615
+             * line : 97673
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaUniqueID extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:MediaUniqueID',
             'desc' => [
+                'en' => 'Media Unique ID',
             ],
         ],
     ];

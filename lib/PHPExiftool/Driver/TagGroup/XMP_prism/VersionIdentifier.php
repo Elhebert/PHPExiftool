@@ -28,13 +28,14 @@ class VersionIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Version Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411176
+             * line : 290374
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:VersionIdentifier',
             'desc' => [
+                'en' => 'Version Identifier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ActiveCTEMonitor2Cols extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active CTE Monitor 2 Cols',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157182
+             * line : 108374
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveCTEMonitor2Cols extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ActiveCTEMonitor2Cols',
             'desc' => [
+                'en' => 'Active CTE Monitor 2 Cols',
             ],
         ],
     ];

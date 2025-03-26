@@ -28,13 +28,14 @@ class Emphasis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Emphasis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171338
+             * line : 117541
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Emphasis extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Emphasis',
             'desc' => [
+                'en' => 'Emphasis',
             ],
         ],
     ];

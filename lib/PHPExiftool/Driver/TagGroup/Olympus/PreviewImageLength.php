@@ -28,13 +28,14 @@ class PreviewImageLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256862
+             * line : 177389
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PreviewImageLength extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:PreviewImageLength',
             'desc' => [
+                'en' => 'Preview Image Length',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::scrn
-             * line : 263264
+             * line : 182219
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewImageLength extends AbstractTagGroup
              */
             'id' => 'Olympus::scrn.Olympus:PreviewImageLength',
             'desc' => [
+                'en' => 'Preview Image Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileNumberSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Number Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244165
+             * line : 167086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileNumberSequence extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FileNumberSequence',
             'desc' => [
+                'en' => 'File Number Sequence',
             ],
         ],
     ];

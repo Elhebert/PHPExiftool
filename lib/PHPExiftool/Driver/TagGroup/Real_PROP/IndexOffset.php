@@ -28,13 +28,14 @@ class IndexOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Properties
-             * line : 330534
+             * line : 232580
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexOffset extends AbstractTagGroup
              */
             'id' => 'Real::Properties.Real-PROP:IndexOffset',
             'desc' => [
+                'en' => 'Index Offset',
             ],
         ],
     ];

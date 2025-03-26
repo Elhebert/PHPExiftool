@@ -28,13 +28,14 @@ class PreMedication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pre Medication',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99621
+             * line : 72828
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreMedication extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PreMedication',
             'desc' => [
+                'en' => 'Pre Medication',
             ],
         ],
     ];

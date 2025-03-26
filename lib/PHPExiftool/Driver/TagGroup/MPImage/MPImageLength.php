@@ -28,13 +28,14 @@ class MPImageLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MP Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::MPImage
-             * line : 166223
+             * line : 113025
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPImageLength extends AbstractTagGroup
              */
             'id' => 'MPF::MPImage.MPImage:MPImageLength',
             'desc' => [
+                'en' => 'MP Image Length',
             ],
         ],
     ];

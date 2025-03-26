@@ -28,13 +28,14 @@ class ColorTempPC1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp PC1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 61030
+             * line : 46870
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempPC1 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempPC1',
             'desc' => [
+                'en' => 'Color Temp PC1',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61221
+             * line : 46969
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ColorTempPC1 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempPC1',
             'desc' => [
+                'en' => 'Color Temp PC1',
             ],
         ],
     ];

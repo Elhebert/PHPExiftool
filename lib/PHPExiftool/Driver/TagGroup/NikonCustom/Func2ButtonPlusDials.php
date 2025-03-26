@@ -28,13 +28,14 @@ class Func2ButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Func 2 Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219604
+             * line : 147923
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Func2ButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:Func2ButtonPlusDials',
             'desc' => [
+                'en' => 'Func 2 Button Plus Dials',
             ],
         ],
     ];

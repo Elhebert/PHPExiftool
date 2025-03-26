@@ -28,13 +28,14 @@ class OriginalCreateDateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Create Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397314
+             * line : 281362
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalCreateDateTime extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:OriginalCreateDateTime',
             'desc' => [
+                'en' => 'Original Create Date Time',
             ],
         ],
     ];

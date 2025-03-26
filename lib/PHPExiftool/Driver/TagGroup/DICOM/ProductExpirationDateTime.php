@@ -28,13 +28,14 @@ class ProductExpirationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Expiration Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100534
+             * line : 73704
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductExpirationDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProductExpirationDateTime',
             'desc' => [
+                'en' => 'Product Expiration Date Time',
             ],
         ],
     ];

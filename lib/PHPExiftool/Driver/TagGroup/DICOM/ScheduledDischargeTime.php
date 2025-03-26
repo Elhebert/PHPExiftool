@@ -28,13 +28,14 @@ class ScheduledDischargeTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Discharge Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99405
+             * line : 72621
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledDischargeTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledDischargeTime',
             'desc' => [
+                'en' => 'Scheduled Discharge Time',
             ],
         ],
     ];

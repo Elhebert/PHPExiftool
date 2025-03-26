@@ -28,13 +28,14 @@ class VisualAcuityModifiers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Visual Acuity Modifiers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100751
+             * line : 73911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VisualAcuityModifiers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VisualAcuityModifiers',
             'desc' => [
+                'en' => 'Visual Acuity Modifiers',
             ],
         ],
     ];

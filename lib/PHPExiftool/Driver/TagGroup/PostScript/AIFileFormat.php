@@ -28,13 +28,14 @@ class AIFileFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI File Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305881
+             * line : 212531
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIFileFormat extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AIFileFormat',
             'desc' => [
+                'en' => 'AI File Format',
             ],
         ],
     ];

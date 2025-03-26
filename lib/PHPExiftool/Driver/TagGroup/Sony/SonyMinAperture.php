@@ -28,13 +28,14 @@ class SonyMinAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Min Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379071
+             * line : 265912
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyMinAperture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:SonyMinAperture',
             'desc' => [
+                'en' => 'Sony Min Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381293
+             * line : 268096
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SonyMinAperture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:SonyMinAperture',
             'desc' => [
+                'en' => 'Sony Min Aperture',
             ],
         ],
     ];

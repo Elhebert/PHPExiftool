@@ -28,13 +28,14 @@ class TitlesSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Titles Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171500
+             * line : 117700
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitlesSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TitlesSets',
             'desc' => [
+                'en' => 'Titles Sets',
             ],
         ],
     ];

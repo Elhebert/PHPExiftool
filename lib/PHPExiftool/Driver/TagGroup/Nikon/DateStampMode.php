@@ -28,13 +28,14 @@ class DateStampMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Stamp Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197535
+             * line : 133226
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateStampMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:DateStampMode',
             'desc' => [
+                'en' => 'Date Stamp Mode',
             ],
         ],
     ];

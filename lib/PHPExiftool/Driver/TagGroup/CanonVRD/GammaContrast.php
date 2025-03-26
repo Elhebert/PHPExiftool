@@ -28,13 +28,14 @@ class GammaContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 81998
+             * line : 60094
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaContrast extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaContrast',
             'desc' => [
+                'en' => 'Gamma Contrast',
             ],
         ],
     ];

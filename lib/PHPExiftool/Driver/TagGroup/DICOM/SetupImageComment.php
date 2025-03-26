@@ -28,13 +28,14 @@ class SetupImageComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setup Image Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103927
+             * line : 77016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetupImageComment extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SetupImageComment',
             'desc' => [
+                'en' => 'Setup Image Comment',
             ],
         ],
     ];

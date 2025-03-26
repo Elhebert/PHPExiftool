@@ -28,13 +28,14 @@ class ClinicalTrialTimePointID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clinical Trial Time Point ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95371
+             * line : 68833
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClinicalTrialTimePointID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ClinicalTrialTimePointID',
             'desc' => [
+                'en' => 'Clinical Trial Time Point ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EditRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169387
+             * line : 115794
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EditRate',
             'desc' => [
+                'en' => 'Edit Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412341
+             * line : 290831
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

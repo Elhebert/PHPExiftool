@@ -28,13 +28,14 @@ class WhiteSampleBits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Sample Bits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::WhiteSample
-             * line : 80149
+             * line : 58489
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteSampleBits extends AbstractTagGroup
              */
             'id' => 'CanonRaw::WhiteSample.CanonRaw:WhiteSampleBits',
             'desc' => [
+                'en' => 'White Sample Bits',
             ],
         ],
     ];

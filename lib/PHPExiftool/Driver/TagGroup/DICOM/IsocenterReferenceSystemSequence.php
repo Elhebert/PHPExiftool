@@ -28,13 +28,14 @@ class IsocenterReferenceSystemSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter Reference System Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97188
+             * line : 70585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterReferenceSystemSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterReferenceSystemSequence',
             'desc' => [
+                'en' => 'Isocenter Reference System Sequence',
             ],
         ],
     ];

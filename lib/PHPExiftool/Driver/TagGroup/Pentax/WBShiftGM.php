@@ -28,13 +28,14 @@ class WBShiftGM extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Shift GM',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::ColorInfo
-             * line : 285560
+             * line : 197979
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBShiftGM extends AbstractTagGroup
              */
             'id' => 'Pentax::ColorInfo.Pentax:WBShiftGM',
             'desc' => [
+                'en' => 'WB Shift GM',
             ],
         ],
     ];

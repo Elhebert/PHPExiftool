@@ -28,13 +28,14 @@ class VideoAlphaPremultipleColorType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Alpha Premultiple Color Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413689
+             * line : 291737
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoAlphaPremultipleColorType extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoAlphaPremultipleColorType',
             'desc' => [
+                'en' => 'Video Alpha Premultiple Color Type',
             ],
         ],
     ];

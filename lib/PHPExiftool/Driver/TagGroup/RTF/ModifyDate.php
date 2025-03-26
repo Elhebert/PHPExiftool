@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329298
+             * line : 232065
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

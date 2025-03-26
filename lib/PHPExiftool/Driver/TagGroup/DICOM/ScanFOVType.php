@@ -28,13 +28,14 @@ class ScanFOVType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan FOV Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97479
+             * line : 70867
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanFOVType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanFOVType',
             'desc' => [
+                'en' => 'Scan FOV Type',
             ],
         ],
     ];

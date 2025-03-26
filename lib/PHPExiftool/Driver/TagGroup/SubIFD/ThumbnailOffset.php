@@ -28,13 +28,14 @@ class ThumbnailOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112303
+             * line : 81984
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ThumbnailOffset extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:ThumbnailOffset',
             'desc' => [
+                'en' => 'Thumbnail Offset',
             ],
         ],
     ];

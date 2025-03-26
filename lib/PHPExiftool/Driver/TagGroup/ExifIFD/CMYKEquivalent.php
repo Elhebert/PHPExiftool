@@ -28,13 +28,14 @@ class CMYKEquivalent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CMYK Equivalent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113421
+             * line : 82451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CMYKEquivalent extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CMYKEquivalent',
             'desc' => [
+                'en' => 'CMYK Equivalent',
             ],
         ],
     ];

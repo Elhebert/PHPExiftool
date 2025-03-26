@@ -28,13 +28,14 @@ class DLOOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DLO On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80925
+             * line : 59023
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DLOOn extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:DLOOn',
             'desc' => [
+                'en' => 'DLO On',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83782
+             * line : 61422
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DLOOn extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:DLOOn',
             'desc' => [
+                'en' => 'DLO On',
             ],
         ],
     ];

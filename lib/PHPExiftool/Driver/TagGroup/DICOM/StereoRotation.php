@@ -28,13 +28,14 @@ class StereoRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98351
+             * line : 71686
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StereoRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StereoRotation',
             'desc' => [
+                'en' => 'Stereo Rotation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ProjCoordTrans extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Coord Trans',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138523
+             * line : 96772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjCoordTrans extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjCoordTrans',
             'desc' => [
+                'en' => 'Proj Coord Trans',
             ],
         ],
     ];

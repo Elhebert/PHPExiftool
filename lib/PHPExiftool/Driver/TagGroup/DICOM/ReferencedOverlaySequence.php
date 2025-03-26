@@ -28,13 +28,14 @@ class ReferencedOverlaySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Overlay Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94928
+             * line : 68410
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ReferencedOverlaySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedOverlaySequence',
             'desc' => [
+                'en' => 'Referenced Overlay Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 104233
+             * line : 77307
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ReferencedOverlaySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedOverlaySequence',
             'desc' => [
+                'en' => 'Referenced Overlay Sequence',
             ],
         ],
     ];

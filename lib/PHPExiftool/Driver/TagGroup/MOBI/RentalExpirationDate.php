@@ -28,13 +28,14 @@ class RentalExpirationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rental Expiration Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273635
+             * line : 190827
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RentalExpirationDate extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:RentalExpirationDate',
             'desc' => [
+                'en' => 'Rental Expiration Date',
             ],
         ],
     ];

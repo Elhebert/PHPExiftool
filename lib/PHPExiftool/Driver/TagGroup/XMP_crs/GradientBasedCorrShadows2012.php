@@ -28,13 +28,14 @@ class GradientBasedCorrShadows2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Shadows 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402688
+             * line : 285825
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrShadows2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrShadows2012',
             'desc' => [
+                'en' => 'Gradient Based Corr Shadows 2012',
             ],
         ],
     ];

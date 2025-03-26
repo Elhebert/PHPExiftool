@@ -28,13 +28,14 @@ class SensorCleaning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Cleaning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78200
+             * line : 56941
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorCleaning extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:SensorCleaning',
             'desc' => [
+                'en' => 'Sensor Cleaning',
             ],
         ],
     ];

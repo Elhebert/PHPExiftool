@@ -28,13 +28,14 @@ class ContentType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Content Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410793
+             * line : 290073
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContentType extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ContentType',
             'desc' => [
+                'en' => 'Content Type',
             ],
         ],
     ];

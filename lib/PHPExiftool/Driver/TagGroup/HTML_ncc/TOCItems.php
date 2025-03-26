@@ -28,13 +28,14 @@ class TOCItems extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TOC Items',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143051
+             * line : 98788
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TOCItems extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:TOCItems',
             'desc' => [
+                'en' => 'TOC Items',
             ],
         ],
     ];

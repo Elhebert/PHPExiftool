@@ -28,13 +28,14 @@ class RetouchAreaMaskMaskBlendMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Mask Blend Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400753
+             * line : 284234
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskMaskBlendMode extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskMaskBlendMode',
             'desc' => [
+                'en' => 'Retouch Area Mask Mask Blend Mode',
             ],
         ],
     ];

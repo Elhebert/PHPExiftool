@@ -28,13 +28,14 @@ class MetaboliteMapDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metabolite Map Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96705
+             * line : 70108
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetaboliteMapDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MetaboliteMapDescription',
             'desc' => [
+                'en' => 'Metabolite Map Description',
             ],
         ],
     ];

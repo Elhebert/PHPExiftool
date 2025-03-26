@@ -28,13 +28,14 @@ class CustomWBSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom WB Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181393
+             * line : 123403
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomWBSetting extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:CustomWBSetting',
             'desc' => [
+                'en' => 'Custom WB Setting',
             ],
         ],
     ];

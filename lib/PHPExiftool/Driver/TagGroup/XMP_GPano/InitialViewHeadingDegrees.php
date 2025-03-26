@@ -28,13 +28,14 @@ class InitialViewHeadingDegrees extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial View Heading Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397130
+             * line : 281231
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialViewHeadingDegrees extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:InitialViewHeadingDegrees',
             'desc' => [
+                'en' => 'Initial View Heading Degrees',
             ],
         ],
     ];

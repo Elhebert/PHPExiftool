@@ -28,13 +28,14 @@ class DeviantMatrixFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Deviant Matrix Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155132
+             * line : 106382
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class DeviantMatrixFlash extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DeviantMatrixFlash',
             'desc' => [
+                'en' => 'Deviant Matrix Flash',
             ],
         ],
     ];

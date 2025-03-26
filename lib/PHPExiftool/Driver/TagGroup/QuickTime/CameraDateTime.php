@@ -28,13 +28,14 @@ class CameraDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324509
+             * line : 229293
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraDateTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:CameraDateTime',
             'desc' => [
+                'en' => 'Camera Date Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaConstraints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Constraints',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265759
+             * line : 183725
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaConstraints extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:MediaConstraints',
             'desc' => [
+                'en' => 'Media Constraints',
             ],
         ],
     ];

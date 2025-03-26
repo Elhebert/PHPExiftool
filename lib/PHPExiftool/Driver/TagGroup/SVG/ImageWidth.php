@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::SVG
-             * line : 397559
+             * line : 281478
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'XMP::SVG.SVG:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

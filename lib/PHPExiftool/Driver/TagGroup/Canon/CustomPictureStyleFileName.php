@@ -28,13 +28,14 @@ class CustomPictureStyleFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Picture Style File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 66439
+             * line : 50553
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomPictureStyleFileName extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:CustomPictureStyleFileName',
             'desc' => [
+                'en' => 'Custom Picture Style File Name',
             ],
         ],
     ];

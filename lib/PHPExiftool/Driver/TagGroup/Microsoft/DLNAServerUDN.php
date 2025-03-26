@@ -28,13 +28,14 @@ class DLNAServerUDN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DLNA Server UDN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174566
+             * line : 120197
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DLNAServerUDN extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DLNAServerUDN',
             'desc' => [
+                'en' => 'DLNA Server UDN',
             ],
         ],
     ];

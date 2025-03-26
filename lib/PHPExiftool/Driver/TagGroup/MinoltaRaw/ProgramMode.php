@@ -28,13 +28,14 @@ class ProgramMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Program Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 186899
+             * line : 126934
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProgramMode extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ProgramMode',
             'desc' => [
+                'en' => 'Program Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTempShade extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Shade',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59218
+             * line : 45895
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59496
+             * line : 46037
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59752
+             * line : 46167
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60022
+             * line : 46308
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60549
+             * line : 46608
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60796
+             * line : 46750
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61141
+             * line : 46933
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61515
+             * line : 47173
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61903
+             * line : 47386
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62324
+             * line : 47626
              * type : int16s
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62795
+             * line : 47908
              * type : int16s
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ColorTempShade extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempShade',
             'desc' => [
+                'en' => 'Color Temp Shade',
             ],
         ],
     ];

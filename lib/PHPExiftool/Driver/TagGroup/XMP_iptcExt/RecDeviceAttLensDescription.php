@@ -28,13 +28,14 @@ class RecDeviceAttLensDescription extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rec Device Att Lens Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409690
+             * line : 289450
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecDeviceAttLensDescription extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RecDeviceAttLensDescription',
             'desc' => [
+                'en' => 'Rec Device Att Lens Description',
             ],
         ],
     ];

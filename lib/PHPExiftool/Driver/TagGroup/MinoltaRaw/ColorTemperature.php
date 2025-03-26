@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187631
+             * line : 127172
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187713
+             * line : 127189
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187753
+             * line : 127195
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

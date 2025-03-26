@@ -28,13 +28,14 @@ class IsProtected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Protected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174684
+             * line : 120254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsProtected extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsProtected',
             'desc' => [
+                'en' => 'Is Protected',
             ],
         ],
     ];

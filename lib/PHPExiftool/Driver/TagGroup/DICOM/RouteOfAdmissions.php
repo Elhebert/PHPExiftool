@@ -28,13 +28,14 @@ class RouteOfAdmissions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Route Of Admissions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99393
+             * line : 72609
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RouteOfAdmissions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RouteOfAdmissions',
             'desc' => [
+                'en' => 'Route Of Admissions',
             ],
         ],
     ];

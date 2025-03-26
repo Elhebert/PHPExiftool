@@ -28,13 +28,14 @@ class ManufactureDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manufacture Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraInfo
-             * line : 284330
+             * line : 197376
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManufactureDate extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraInfo.Pentax:ManufactureDate',
             'desc' => [
+                'en' => 'Manufacture Date',
             ],
         ],
     ];

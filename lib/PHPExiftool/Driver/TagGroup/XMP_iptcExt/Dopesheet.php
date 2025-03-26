@@ -28,13 +28,14 @@ class Dopesheet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dopesheet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409254
+             * line : 289053
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Dopesheet extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:Dopesheet',
             'desc' => [
+                'en' => 'Dopesheet',
             ],
         ],
     ];

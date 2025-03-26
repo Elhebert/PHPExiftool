@@ -28,13 +28,14 @@ class IterationMinMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Iteration Min Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Loop
-             * line : 165046
+             * line : 112180
              * type : int32u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class IterationMinMax extends AbstractTagGroup
              */
             'id' => 'MNG::Loop.MNG:IterationMinMax',
             'desc' => [
+                'en' => 'Iteration Min Max',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AIFCSummary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AIFC Summary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169015
+             * line : 115466
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIFCSummary extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AIFCSummary',
             'desc' => [
+                'en' => 'AIFC Summary',
             ],
         ],
     ];

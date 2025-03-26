@@ -28,13 +28,14 @@ class MultiSelector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246621
+             * line : 169323
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MultiSelector',
             'desc' => [
+                'en' => 'Multi Selector',
             ],
         ],
     ];

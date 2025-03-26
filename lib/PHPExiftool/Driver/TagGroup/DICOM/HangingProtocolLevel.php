@@ -28,13 +28,14 @@ class HangingProtocolLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hanging Protocol Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101423
+             * line : 74571
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HangingProtocolLevel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HangingProtocolLevel',
             'desc' => [
+                'en' => 'Hanging Protocol Level',
             ],
         ],
     ];

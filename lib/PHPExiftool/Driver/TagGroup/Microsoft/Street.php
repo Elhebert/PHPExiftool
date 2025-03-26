@@ -28,13 +28,14 @@ class Street extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Street',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175827
+             * line : 121002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Street extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Street',
             'desc' => [
+                'en' => 'Street',
             ],
         ],
     ];

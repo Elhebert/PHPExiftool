@@ -28,13 +28,14 @@ class PostScript2CRD0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Post Script 2 CRD0',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146517
+             * line : 101832
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PostScript2CRD0 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:PostScript2CRD0',
             'desc' => [
+                'en' => 'Post Script 2 CRD0',
             ],
         ],
     ];

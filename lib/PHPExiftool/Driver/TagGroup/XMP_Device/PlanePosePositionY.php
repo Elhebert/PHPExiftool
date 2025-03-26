@@ -28,13 +28,14 @@ class PlanePosePositionY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Plane Pose Position Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396743
+             * line : 280958
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlanePosePositionY extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:PlanePosePositionY',
             'desc' => [
+                'en' => 'Plane Pose Position Y',
             ],
         ],
     ];

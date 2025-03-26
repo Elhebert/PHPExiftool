@@ -28,13 +28,14 @@ class CDDBTrackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CDDB Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326680
+             * line : 230417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CDDBTrackNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:CDDBTrackNumber',
             'desc' => [
+                'en' => 'CDDB Track Number',
             ],
         ],
     ];

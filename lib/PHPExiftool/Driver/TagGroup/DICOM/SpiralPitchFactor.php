@@ -28,13 +28,14 @@ class SpiralPitchFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spiral Pitch Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96971
+             * line : 70372
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpiralPitchFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpiralPitchFactor',
             'desc' => [
+                'en' => 'Spiral Pitch Factor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AdmissionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Admission ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99386
+             * line : 72603
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdmissionID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AdmissionID',
             'desc' => [
+                'en' => 'Admission ID',
             ],
         ],
     ];

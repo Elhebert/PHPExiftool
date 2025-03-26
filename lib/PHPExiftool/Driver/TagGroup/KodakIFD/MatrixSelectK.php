@@ -28,13 +28,14 @@ class MatrixSelectK extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Matrix Select K',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155379
+             * line : 106592
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MatrixSelectK extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MatrixSelectK',
             'desc' => [
+                'en' => 'Matrix Select K',
             ],
         ],
     ];

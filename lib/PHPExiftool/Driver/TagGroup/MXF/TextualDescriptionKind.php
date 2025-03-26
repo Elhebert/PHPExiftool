@@ -28,13 +28,14 @@ class TextualDescriptionKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Textual Description Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170204
+             * line : 116481
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TextualDescriptionKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TextualDescriptionKind',
             'desc' => [
+                'en' => 'Textual Description Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170207
+             * line : 116484
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TextualDescriptionKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TextualDescriptionKind',
             'desc' => [
+                'en' => 'Textual Description Kind',
             ],
         ],
     ];

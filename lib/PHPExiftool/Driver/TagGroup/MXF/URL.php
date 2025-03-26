@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167331
+             * line : 113955
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class URL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 167335
+             * line : 113958
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class URL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
         2 => [
             /**
              * table_name : MXF::Main
-             * line : 170926
+             * line : 117156
              * type : string
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class URL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
         3 => [
             /**
              * table_name : MXF::Main
-             * line : 171620
+             * line : 117814
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

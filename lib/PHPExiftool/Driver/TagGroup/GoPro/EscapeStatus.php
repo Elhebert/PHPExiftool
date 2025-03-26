@@ -28,13 +28,14 @@ class EscapeStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Escape Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139475
+             * line : 97617
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EscapeStatus extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:EscapeStatus',
             'desc' => [
+                'en' => 'Escape Status',
             ],
         ],
     ];

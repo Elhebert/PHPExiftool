@@ -28,13 +28,14 @@ class WhiteBalanceAutoAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Auto Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AWBInfo
-             * line : 283683
+             * line : 196811
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceAutoAdjustment extends AbstractTagGroup
              */
             'id' => 'Pentax::AWBInfo.Pentax:WhiteBalanceAutoAdjustment',
             'desc' => [
+                'en' => 'White Balance Auto Adjustment',
             ],
         ],
     ];

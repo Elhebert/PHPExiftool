@@ -28,13 +28,14 @@ class HasKeyFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Key Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124102
+             * line : 86738
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasKeyFrames extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:HasKeyFrames',
             'desc' => [
+                'en' => 'Has Key Frames',
             ],
         ],
     ];

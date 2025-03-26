@@ -28,13 +28,14 @@ class AFPointSwitching extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Switching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3795
+             * line : 2324
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointSwitching extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFPointSwitching',
             'desc' => [
+                'en' => 'AF Point Switching',
             ],
         ],
     ];

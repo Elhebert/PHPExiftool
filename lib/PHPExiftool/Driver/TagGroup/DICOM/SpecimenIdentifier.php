@@ -28,13 +28,14 @@ class SpecimenIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specimen Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99786
+             * line : 72990
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecimenIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecimenIdentifier',
             'desc' => [
+                'en' => 'Specimen Identifier',
             ],
         ],
     ];

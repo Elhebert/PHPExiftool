@@ -28,13 +28,14 @@ class IBTN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IBTN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167260
+             * line : 113892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IBTN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IBTN',
             'desc' => [
+                'en' => 'IBTN',
             ],
         ],
     ];

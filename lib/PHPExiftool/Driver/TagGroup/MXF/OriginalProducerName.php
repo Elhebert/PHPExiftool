@@ -28,13 +28,14 @@ class OriginalProducerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Producer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167437
+             * line : 114054
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OriginalProducerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OriginalProducerName',
             'desc' => [
+                'en' => 'Original Producer Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172010
+             * line : 118195
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OriginalProducerName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OriginalProducerName',
             'desc' => [
+                'en' => 'Original Producer Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SaveFocus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Save Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248854
+             * line : 171542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaveFocus extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SaveFocus',
             'desc' => [
+                'en' => 'Save Focus',
             ],
         ],
     ];

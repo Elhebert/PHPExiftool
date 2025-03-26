@@ -28,13 +28,14 @@ class SpinStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spin Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334232
+             * line : 234312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpinStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:SpinStrength',
             'desc' => [
+                'en' => 'Spin Strength',
             ],
         ],
     ];

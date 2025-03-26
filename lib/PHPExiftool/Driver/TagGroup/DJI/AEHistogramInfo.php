@@ -28,13 +28,14 @@ class AEHistogramInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AE Histogram Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104452
+             * line : 77524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AEHistogramInfo extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:AEHistogramInfo',
             'desc' => [
+                'en' => 'AE Histogram Info',
             ],
         ],
     ];

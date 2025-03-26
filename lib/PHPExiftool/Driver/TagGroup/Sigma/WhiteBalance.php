@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337016
+             * line : 236008
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 338992
+             * line : 237371
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Sigma::Main
-             * line : 339132
+             * line : 237404
              * type : string
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         3 => [
             /**
              * table_name : Sigma::Main
-             * line : 339193
+             * line : 237419
              * type : string
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

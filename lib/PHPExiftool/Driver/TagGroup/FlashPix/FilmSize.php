@@ -28,13 +28,14 @@ class FilmSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126455
+             * line : 87674
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmSize extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FilmSize',
             'desc' => [
+                'en' => 'Film Size',
             ],
         ],
     ];

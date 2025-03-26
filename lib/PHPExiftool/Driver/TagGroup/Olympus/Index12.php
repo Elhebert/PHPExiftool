@@ -28,13 +28,14 @@ class Index12 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index 12',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::WAV
-             * line : 262306
+             * line : 181297
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Index12 extends AbstractTagGroup
              */
             'id' => 'Olympus::WAV.Olympus:Index12',
             'desc' => [
+                'en' => 'Index 12',
             ],
         ],
     ];

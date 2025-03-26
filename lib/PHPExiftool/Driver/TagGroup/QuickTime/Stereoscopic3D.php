@@ -28,13 +28,14 @@ class Stereoscopic3D extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereoscopic 3D',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 314030
+             * line : 219684
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Stereoscopic3D extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:Stereoscopic3D',
             'desc' => [
+                'en' => 'Stereoscopic 3D',
             ],
         ],
     ];

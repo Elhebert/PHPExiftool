@@ -28,13 +28,14 @@ class PatternCorrectionGains extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pattern Correction Gains',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155512
+             * line : 106724
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatternCorrectionGains extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PatternCorrectionGains',
             'desc' => [
+                'en' => 'Pattern Correction Gains',
             ],
         ],
     ];

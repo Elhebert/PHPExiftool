@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84436
+             * line : 61711
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85394
+             * line : 62071
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 85782
+             * line : 62148
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

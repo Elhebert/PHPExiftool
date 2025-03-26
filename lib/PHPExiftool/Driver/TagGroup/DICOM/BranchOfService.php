@@ -28,13 +28,14 @@ class BranchOfService extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Branch Of Service',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95260
+             * line : 68725
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BranchOfService extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BranchOfService',
             'desc' => [
+                'en' => 'Branch Of Service',
             ],
         ],
     ];

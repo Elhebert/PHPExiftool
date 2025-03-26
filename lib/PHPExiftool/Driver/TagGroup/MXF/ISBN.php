@@ -28,13 +28,14 @@ class ISBN extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISBN',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167266
+             * line : 113898
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISBN extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISBN',
             'desc' => [
+                'en' => 'ISBN',
             ],
         ],
     ];

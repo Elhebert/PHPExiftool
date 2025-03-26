@@ -28,13 +28,14 @@ class Newlines extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Newlines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394751
+             * line : 279664
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Newlines extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:Newlines',
             'desc' => [
+                'en' => 'Newlines',
             ],
         ],
     ];

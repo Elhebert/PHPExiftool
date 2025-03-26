@@ -28,13 +28,14 @@ class FileIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 6496
+             * line : 4434
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 11232
+             * line : 7974
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 15652
+             * line : 11417
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 19868
+             * line : 14753
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 21893
+             * line : 16385
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 23924
+             * line : 18020
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 26226
+             * line : 19771
              * type : int32u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 28528
+             * line : 21525
              * type : int32u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 30719
+             * line : 23242
              * type : int32u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34422
+             * line : 26465
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 37233
+             * line : 28475
              * type : int32u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 39383
+             * line : 30167
              * type : int32u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 41581
+             * line : 31890
              * type : int32u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 43334
+             * line : 33442
              * type : int32u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 45480
+             * line : 35131
              * type : int32u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 45487
+             * line : 35134
              * type : int32u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 47628
+             * line : 36823
              * type : int32u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 49328
+             * line : 38361
              * type : int32u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 53617
+             * line : 41742
              * type : int32u
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 55317
+             * line : 43280
              * type : int32u
              * writable : true
              * count :
@@ -289,6 +309,7 @@ class FileIndex extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:FileIndex',
             'desc' => [
+                'en' => 'File Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawImageSegmentation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Segmentation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119263
+             * line : 84224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawImageSegmentation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:RawImageSegmentation',
             'desc' => [
+                'en' => 'Raw Image Segmentation',
             ],
         ],
     ];

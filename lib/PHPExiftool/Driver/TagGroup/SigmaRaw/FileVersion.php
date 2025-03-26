@@ -28,13 +28,14 @@ class FileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Header
-             * line : 339304
+             * line : 237500
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FileVersion extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header.SigmaRaw:FileVersion',
             'desc' => [
+                'en' => 'File Version',
             ],
         ],
         1 => [
             /**
              * table_name : SigmaRaw::Header4
-             * line : 339424
+             * line : 237530
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FileVersion extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Header4.SigmaRaw:FileVersion',
             'desc' => [
+                'en' => 'File Version',
             ],
         ],
     ];

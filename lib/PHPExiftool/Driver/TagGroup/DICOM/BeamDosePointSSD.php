@@ -28,13 +28,14 @@ class BeamDosePointSSD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Dose Point SSD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103113
+             * line : 76209
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamDosePointSSD extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamDosePointSSD',
             'desc' => [
+                'en' => 'Beam Dose Point SSD',
             ],
         ],
     ];

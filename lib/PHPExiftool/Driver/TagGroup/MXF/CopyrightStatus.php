@@ -28,13 +28,14 @@ class CopyrightStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167443
+             * line : 114060
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CopyrightStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CopyrightStatus',
             'desc' => [
+                'en' => 'Copyright Status',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169912
+             * line : 116250
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CopyrightStatus extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CopyrightStatus',
             'desc' => [
+                'en' => 'Copyright Status',
             ],
         ],
     ];

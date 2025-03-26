@@ -28,13 +28,14 @@ class FinishIPFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Finish IPF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156227
+             * line : 107431
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FinishIPFVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishIPFVersion',
             'desc' => [
+                'en' => 'Finish IPF Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CloneID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clone ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::CloneObject
-             * line : 164705
+             * line : 111922
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CloneID extends AbstractTagGroup
              */
             'id' => 'MNG::CloneObject.MNG:CloneID',
             'desc' => [
+                'en' => 'Clone ID',
             ],
         ],
     ];

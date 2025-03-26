@@ -28,13 +28,14 @@ class FlashSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Flash
-             * line : 163443
+             * line : 111418
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashSerialNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Flash.MIE-Flash:FlashSerialNumber',
             'desc' => [
+                'en' => 'Flash Serial Number',
             ],
         ],
     ];

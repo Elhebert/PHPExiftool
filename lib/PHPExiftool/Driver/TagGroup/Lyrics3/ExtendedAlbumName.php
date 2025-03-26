@@ -28,13 +28,14 @@ class ExtendedAlbumName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extended Album Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147104
+             * line : 102138
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtendedAlbumName extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:ExtendedAlbumName',
             'desc' => [
+                'en' => 'Extended Album Name',
             ],
         ],
     ];

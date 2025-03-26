@@ -28,13 +28,14 @@ class LookCopyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402872
+             * line : 286008
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookCopyright extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookCopyright',
             'desc' => [
+                'en' => 'Look Copyright',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SourceSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102846
+             * line : 75942
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceSerialNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceSerialNumber',
             'desc' => [
+                'en' => 'Source Serial Number',
             ],
         ],
     ];

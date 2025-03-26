@@ -28,13 +28,14 @@ class LatestEraOrHighestErathem extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Latest Era Or Highest Erathem',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106209
+             * line : 78554
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LatestEraOrHighestErathem extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LatestEraOrHighestErathem',
             'desc' => [
+                'en' => 'Latest Era Or Highest Erathem',
             ],
         ],
     ];

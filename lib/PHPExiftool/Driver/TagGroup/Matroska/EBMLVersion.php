@@ -28,13 +28,14 @@ class EBMLVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EBML Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173444
+             * line : 119393
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EBMLVersion extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:EBMLVersion',
             'desc' => [
+                'en' => 'EBML Version',
             ],
         ],
     ];

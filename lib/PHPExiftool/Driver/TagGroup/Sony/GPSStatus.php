@@ -28,13 +28,14 @@ class GPSStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393690
+             * line : 279047
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSStatus extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:GPSStatus',
             'desc' => [
+                'en' => 'GPS Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumChannelDescriptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Channel Descriptions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ChannelLayout
-             * line : 310874
+             * line : 216751
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumChannelDescriptions extends AbstractTagGroup
              */
             'id' => 'QuickTime::ChannelLayout.QuickTime:NumChannelDescriptions',
             'desc' => [
+                'en' => 'Num Channel Descriptions',
             ],
         ],
     ];

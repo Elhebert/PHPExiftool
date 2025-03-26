@@ -28,13 +28,14 @@ class WB_BlueLevelCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Blue Level Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185551
+             * line : 125874
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WB_BlueLevelCustom extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelCustom',
             'desc' => [
+                'en' => 'WB Blue Level Custom',
             ],
         ],
     ];

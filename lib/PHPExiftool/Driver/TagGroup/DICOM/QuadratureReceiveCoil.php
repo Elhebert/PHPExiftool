@@ -28,13 +28,14 @@ class QuadratureReceiveCoil extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quadrature Receive Coil',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96614
+             * line : 70018
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QuadratureReceiveCoil extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:QuadratureReceiveCoil',
             'desc' => [
+                'en' => 'Quadrature Receive Coil',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawImageDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Image Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120300
+             * line : 84502
              * type : int8u
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class RawImageDigest extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:RawImageDigest',
             'desc' => [
+                'en' => 'Raw Image Digest',
             ],
         ],
     ];

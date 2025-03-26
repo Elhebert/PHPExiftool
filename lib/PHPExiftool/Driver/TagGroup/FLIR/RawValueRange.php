@@ -28,13 +28,14 @@ class RawValueRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Value Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122328
+             * line : 85692
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawValueRange extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:RawValueRange',
             'desc' => [
+                'en' => 'Raw Value Range',
             ],
         ],
     ];

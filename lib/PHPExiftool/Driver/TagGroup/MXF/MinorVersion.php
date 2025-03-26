@@ -28,13 +28,14 @@ class MinorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170736
+             * line : 116970
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinorVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MinorVersion',
             'desc' => [
+                'en' => 'Minor Version',
             ],
         ],
     ];

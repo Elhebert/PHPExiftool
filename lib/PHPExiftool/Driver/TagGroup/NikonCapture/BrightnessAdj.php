@@ -28,13 +28,14 @@ class BrightnessAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Brightness Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Brightness
-             * line : 210131
+             * line : 141507
              * type : double
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BrightnessAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Brightness.NikonCapture:BrightnessAdj',
             'desc' => [
+                'en' => 'Brightness Adj',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCapture::PictureCtrl
-             * line : 211238
+             * line : 142036
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BrightnessAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::PictureCtrl.NikonCapture:BrightnessAdj',
             'desc' => [
+                'en' => 'Brightness Adj',
             ],
         ],
     ];

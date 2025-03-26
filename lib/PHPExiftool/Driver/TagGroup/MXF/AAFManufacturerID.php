@@ -28,13 +28,14 @@ class AAFManufacturerID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AAF Manufacturer ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168858
+             * line : 115325
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AAFManufacturerID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AAFManufacturerID',
             'desc' => [
+                'en' => 'AAF Manufacturer ID',
             ],
         ],
     ];

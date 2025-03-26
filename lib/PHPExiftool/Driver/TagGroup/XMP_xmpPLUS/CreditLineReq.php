@@ -28,13 +28,14 @@ class CreditLineReq extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Credit Line Req',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpPLUS
-             * line : 414351
+             * line : 292356
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreditLineReq extends AbstractTagGroup
              */
             'id' => 'XMP::xmpPLUS.XMP-xmpPLUS:CreditLineReq',
             'desc' => [
+                'en' => 'Credit Line Req',
             ],
         ],
     ];

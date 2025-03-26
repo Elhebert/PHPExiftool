@@ -28,13 +28,14 @@ class PixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263655
+             * line : 182380
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:PixelAspectRatio',
             'desc' => [
+                'en' => 'Pixel Aspect Ratio',
             ],
         ],
     ];

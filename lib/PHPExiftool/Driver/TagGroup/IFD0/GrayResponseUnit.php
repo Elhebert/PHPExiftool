@@ -28,13 +28,14 @@ class GrayResponseUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gray Response Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111111
+             * line : 81564
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GrayResponseUnit extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:GrayResponseUnit',
             'desc' => [
+                'en' => 'Gray Response Unit',
             ],
         ],
     ];

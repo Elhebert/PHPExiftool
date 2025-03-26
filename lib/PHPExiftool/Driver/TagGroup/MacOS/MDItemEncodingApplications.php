@@ -28,13 +28,14 @@ class MDItemEncodingApplications extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Encoding Applications',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172686
+             * line : 118808
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemEncodingApplications extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemEncodingApplications',
             'desc' => [
+                'en' => 'MD Item Encoding Applications',
             ],
         ],
     ];

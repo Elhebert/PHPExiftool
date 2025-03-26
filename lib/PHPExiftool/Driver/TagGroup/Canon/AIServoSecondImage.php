@@ -28,13 +28,14 @@ class AIServoSecondImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AI Servo Second Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3812
+             * line : 2341
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AIServoSecondImage extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AIServoSecondImage',
             'desc' => [
+                'en' => 'AI Servo Second Image',
             ],
         ],
     ];

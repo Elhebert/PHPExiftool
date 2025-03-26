@@ -28,13 +28,14 @@ class DataDump extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Dump',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275969
+             * line : 192206
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataDump extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:DataDump',
             'desc' => [
+                'en' => 'Data Dump',
             ],
         ],
     ];

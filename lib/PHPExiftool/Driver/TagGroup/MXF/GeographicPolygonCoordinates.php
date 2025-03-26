@@ -28,13 +28,14 @@ class GeographicPolygonCoordinates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geographic Polygon Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172136
+             * line : 118303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeographicPolygonCoordinates extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GeographicPolygonCoordinates',
             'desc' => [
+                'en' => 'Geographic Polygon Coordinates',
             ],
         ],
     ];

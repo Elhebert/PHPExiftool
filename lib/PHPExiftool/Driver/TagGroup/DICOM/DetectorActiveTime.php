@@ -28,13 +28,14 @@ class DetectorActiveTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Active Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96424
+             * line : 69832
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorActiveTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorActiveTime',
             'desc' => [
+                'en' => 'Detector Active Time',
             ],
         ],
     ];

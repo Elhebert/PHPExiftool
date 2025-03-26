@@ -28,13 +28,14 @@ class ProviderStyle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1534
+             * line : 748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProviderStyle extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ProviderStyle',
             'desc' => [
+                'en' => 'Provider Style',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Barcode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Barcode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::PIC
-             * line : 361207
+             * line : 251682
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Barcode extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:Barcode',
             'desc' => [
+                'en' => 'Barcode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::PIC
-             * line : 361210
+             * line : 251685
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Barcode extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:Barcode',
             'desc' => [
+                'en' => 'Barcode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::PIC
-             * line : 361281
+             * line : 251717
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Barcode extends AbstractTagGroup
              */
             'id' => 'Sony::PIC.Sony:Barcode',
             'desc' => [
+                'en' => 'Barcode',
             ],
         ],
     ];

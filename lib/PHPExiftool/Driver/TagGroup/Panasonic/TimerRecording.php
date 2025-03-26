@@ -28,13 +28,14 @@ class TimerRecording extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Timer Recording',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277699
+             * line : 193141
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimerRecording extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:TimerRecording',
             'desc' => [
+                'en' => 'Timer Recording',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CurrentBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1172
+             * line : 481
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentBitrate extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:CurrentBitrate',
             'desc' => [
+                'en' => 'Current Bitrate',
             ],
         ],
     ];

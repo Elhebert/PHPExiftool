@@ -28,13 +28,14 @@ class PortraitImpressionBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Portrait Impression Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209336
+             * line : 141182
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class PortraitImpressionBalance extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:PortraitImpressionBalance',
             'desc' => [
+                'en' => 'Portrait Impression Balance',
             ],
         ],
     ];

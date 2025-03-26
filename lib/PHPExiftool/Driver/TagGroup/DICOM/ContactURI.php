@@ -28,13 +28,14 @@ class ContactURI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101739
+             * line : 74880
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContactURI extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContactURI',
             'desc' => [
+                'en' => 'Contact URI',
             ],
         ],
     ];

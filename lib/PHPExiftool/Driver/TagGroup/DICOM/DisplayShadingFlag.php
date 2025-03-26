@@ -28,13 +28,14 @@ class DisplayShadingFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Shading Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99560
+             * line : 72771
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayShadingFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplayShadingFlag',
             'desc' => [
+                'en' => 'Display Shading Flag',
             ],
         ],
     ];

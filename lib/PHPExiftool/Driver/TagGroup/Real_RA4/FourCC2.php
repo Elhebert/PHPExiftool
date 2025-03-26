@@ -28,13 +28,14 @@ class FourCC2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Four CC2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329866
+             * line : 232260
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class FourCC2 extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:FourCC2',
             'desc' => [
+                'en' => 'Four CC2',
             ],
         ],
     ];

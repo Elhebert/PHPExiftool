@@ -28,13 +28,14 @@ class MovieVibrationReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Vibration Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200320
+             * line : 135284
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieVibrationReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieVibrationReduction',
             'desc' => [
+                'en' => 'Movie Vibration Reduction',
             ],
         ],
     ];

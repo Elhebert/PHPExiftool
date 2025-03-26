@@ -28,13 +28,14 @@ class WWSSubfamilyName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WWS Subfamily Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127953
+             * line : 88818
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WWSSubfamilyName extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:WWSSubfamilyName',
             'desc' => [
+                'en' => 'WWS Subfamily Name',
             ],
         ],
     ];

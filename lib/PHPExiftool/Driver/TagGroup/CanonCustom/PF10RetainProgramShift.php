@@ -28,13 +28,14 @@ class PF10RetainProgramShift extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF10 Retain Program Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78383
+             * line : 57084
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF10RetainProgramShift extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF10RetainProgramShift',
             'desc' => [
+                'en' => 'PF10 Retain Program Shift',
             ],
         ],
     ];

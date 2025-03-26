@@ -28,13 +28,14 @@ class ChapterTrackNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Track Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173211
+             * line : 119212
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterTrackNumber extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterTrackNumber',
             'desc' => [
+                'en' => 'Chapter Track Number',
             ],
         ],
     ];

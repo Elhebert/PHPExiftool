@@ -28,13 +28,14 @@ class IntellectualGenre extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intellectual Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 409012
+             * line : 288867
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntellectualGenre extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:IntellectualGenre',
             'desc' => [
+                'en' => 'Intellectual Genre',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MonochromeFilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80537
+             * line : 58728
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MonochromeFilterEffect extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:MonochromeFilterEffect',
             'desc' => [
+                'en' => 'Monochrome Filter Effect',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82936
+             * line : 60770
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MonochromeFilterEffect extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:MonochromeFilterEffect',
             'desc' => [
+                'en' => 'Monochrome Filter Effect',
             ],
         ],
     ];

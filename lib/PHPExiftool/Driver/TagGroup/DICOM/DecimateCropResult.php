@@ -28,13 +28,14 @@ class DecimateCropResult extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Decimate Crop Result',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102148
+             * line : 75279
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DecimateCropResult extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DecimateCropResult',
             'desc' => [
+                'en' => 'Decimate Crop Result',
             ],
         ],
     ];

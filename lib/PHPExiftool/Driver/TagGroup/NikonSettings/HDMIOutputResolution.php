@@ -28,13 +28,14 @@ class HDMIOutputResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDMI Output Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244871
+             * line : 167630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDMIOutputResolution extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:HDMIOutputResolution',
             'desc' => [
+                'en' => 'HDMI Output Resolution',
             ],
         ],
     ];

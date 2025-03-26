@@ -28,13 +28,14 @@ class CommentLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Comment Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::ContentDescr
-             * line : 330177
+             * line : 232379
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommentLen extends AbstractTagGroup
              */
             'id' => 'Real::ContentDescr.Real-CONT:CommentLen',
             'desc' => [
+                'en' => 'Comment Len',
             ],
         ],
     ];

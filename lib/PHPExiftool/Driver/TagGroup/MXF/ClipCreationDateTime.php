@@ -28,13 +28,14 @@ class ClipCreationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip Creation Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171857
+             * line : 118042
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipCreationDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClipCreationDateTime',
             'desc' => [
+                'en' => 'Clip Creation Date Time',
             ],
         ],
     ];

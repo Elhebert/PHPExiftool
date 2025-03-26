@@ -28,13 +28,14 @@ class ManifestReferenceRenditionParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Rendition Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414173
+             * line : 292193
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceRenditionParams extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceRenditionParams',
             'desc' => [
+                'en' => 'Manifest Reference Rendition Params',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OtherSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::fdsc
-             * line : 140087
+             * line : 97917
              * type : string
              * writable : false
              * count : 15
@@ -42,6 +43,7 @@ class OtherSerialNumber extends AbstractTagGroup
              */
             'id' => 'GoPro::fdsc.GoPro:OtherSerialNumber',
             'desc' => [
+                'en' => 'Other Serial Number',
             ],
         ],
     ];

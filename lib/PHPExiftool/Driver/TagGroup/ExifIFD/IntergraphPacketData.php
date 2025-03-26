@@ -28,13 +28,14 @@ class IntergraphPacketData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intergraph Packet Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113159
+             * line : 82344
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntergraphPacketData extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:IntergraphPacketData',
             'desc' => [
+                'en' => 'Intergraph Packet Data',
             ],
         ],
     ];

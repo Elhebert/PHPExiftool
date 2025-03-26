@@ -28,13 +28,14 @@ class PreviewQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PreviewImageInfo
-             * line : 69366
+             * line : 52324
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewQuality extends AbstractTagGroup
              */
             'id' => 'Canon::PreviewImageInfo.Canon:PreviewQuality',
             'desc' => [
+                'en' => 'Preview Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 127994
+             * line : 88837
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EmbeddedImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Im
-             * line : 264125
+             * line : 182620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImageHeight extends AbstractTagGroup
              */
             'id' => 'PDF::Im.PDF:EmbeddedImageHeight',
             'desc' => [
+                'en' => 'Embedded Image Height',
             ],
         ],
     ];

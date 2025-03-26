@@ -28,13 +28,14 @@ class ColorDataVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Data Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 59843
+             * line : 46210
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60296
+             * line : 46471
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61075
+             * line : 46898
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61288
+             * line : 47009
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData5
-             * line : 61364
+             * line : 47081
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData5.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61394
+             * line : 47108
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61724
+             * line : 47288
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62128
+             * line : 47516
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62610
+             * line : 47804
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorDataUnknown
-             * line : 63069
+             * line : 48071
              * type : int16s
              * writable : false
              * count :
@@ -159,6 +169,7 @@ class ColorDataVersion extends AbstractTagGroup
              */
             'id' => 'Canon::ColorDataUnknown.Canon:ColorDataVersion',
             'desc' => [
+                'en' => 'Color Data Version',
             ],
         ],
     ];

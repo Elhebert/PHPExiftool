@@ -28,13 +28,14 @@ class BlackLevelData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303425
+             * line : 210846
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackLevelData extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:BlackLevelData',
             'desc' => [
+                'en' => 'Black Level Data',
             ],
         ],
     ];

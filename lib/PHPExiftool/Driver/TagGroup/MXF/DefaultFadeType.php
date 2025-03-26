@@ -28,13 +28,14 @@ class DefaultFadeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Fade Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168198
+             * line : 114695
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultFadeType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefaultFadeType',
             'desc' => [
+                'en' => 'Default Fade Type',
             ],
         ],
     ];

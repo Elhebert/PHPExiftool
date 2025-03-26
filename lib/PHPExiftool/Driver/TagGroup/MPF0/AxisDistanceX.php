@@ -28,13 +28,14 @@ class AxisDistanceX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Axis Distance X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166366
+             * line : 113120
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AxisDistanceX extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:AxisDistanceX',
             'desc' => [
+                'en' => 'Axis Distance X',
             ],
         ],
     ];

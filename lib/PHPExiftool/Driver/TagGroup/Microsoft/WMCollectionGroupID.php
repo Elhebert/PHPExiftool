@@ -28,13 +28,14 @@ class WMCollectionGroupID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Collection Group ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175249
+             * line : 120681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMCollectionGroupID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WMCollectionGroupID',
             'desc' => [
+                'en' => 'WM Collection Group ID',
             ],
         ],
     ];

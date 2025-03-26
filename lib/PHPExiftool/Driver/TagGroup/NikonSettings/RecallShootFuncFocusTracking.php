@@ -28,13 +28,14 @@ class RecallShootFuncFocusTracking extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recall Shoot Func Focus Tracking',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248069
+             * line : 170757
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecallShootFuncFocusTracking extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:RecallShootFuncFocusTracking',
             'desc' => [
+                'en' => 'Recall Shoot Func Focus Tracking',
             ],
         ],
     ];

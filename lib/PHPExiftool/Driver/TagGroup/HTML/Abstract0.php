@@ -28,13 +28,14 @@ class Abstract0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Abstract',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142324
+             * line : 98451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Abstract0 extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Abstract',
             'desc' => [
+                'en' => 'Abstract',
             ],
         ],
     ];

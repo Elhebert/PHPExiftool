@@ -28,13 +28,14 @@ class FlashFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185183
+             * line : 125709
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashFunction extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:FlashFunction',
             'desc' => [
+                'en' => 'Flash Function',
             ],
         ],
     ];

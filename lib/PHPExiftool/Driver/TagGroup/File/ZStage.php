@@ -28,13 +28,14 @@ class ZStage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Stage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166443
+             * line : 113184
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZStage extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ZStage',
             'desc' => [
+                'en' => 'Z Stage',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HiliteColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Highlight Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264701
+             * line : 182945
              * type : RGBColor
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HiliteColor extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:HiliteColor',
             'desc' => [
+                'en' => 'Highlight Color',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BroadcastOrganizationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Broadcast Organization Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167505
+             * line : 114120
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BroadcastOrganizationName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastOrganizationName',
             'desc' => [
+                'en' => 'Broadcast Organization Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170000
+             * line : 116325
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BroadcastOrganizationName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastOrganizationName',
             'desc' => [
+                'en' => 'Broadcast Organization Name',
             ],
         ],
     ];

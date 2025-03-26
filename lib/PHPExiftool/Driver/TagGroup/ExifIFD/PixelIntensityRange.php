@@ -28,13 +28,14 @@ class PixelIntensityRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Intensity Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113363
+             * line : 82425
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelIntensityRange extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:PixelIntensityRange',
             'desc' => [
+                'en' => 'Pixel Intensity Range',
             ],
         ],
     ];

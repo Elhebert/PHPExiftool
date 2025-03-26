@@ -28,13 +28,14 @@ class ShortOwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Short Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34411
+             * line : 26459
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class ShortOwnerName extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ShortOwnerName',
             'desc' => [
+                'en' => 'Short Owner Name',
             ],
         ],
     ];

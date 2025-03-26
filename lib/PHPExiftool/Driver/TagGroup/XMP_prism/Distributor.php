@@ -28,13 +28,14 @@ class Distributor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distributor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410832
+             * line : 290097
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Distributor extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Distributor',
             'desc' => [
+                'en' => 'Distributor',
             ],
         ],
     ];

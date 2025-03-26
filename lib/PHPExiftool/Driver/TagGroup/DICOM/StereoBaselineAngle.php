@@ -28,13 +28,14 @@ class StereoBaselineAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo Baseline Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98339
+             * line : 71674
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StereoBaselineAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StereoBaselineAngle',
             'desc' => [
+                'en' => 'Stereo Baseline Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SuiteID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Suite ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95151
+             * line : 68632
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SuiteID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SuiteID',
             'desc' => [
+                'en' => 'Suite ID',
             ],
         ],
     ];

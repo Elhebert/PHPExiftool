@@ -28,13 +28,14 @@ class TiltAxisAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tilt Axis Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166446
+             * line : 113187
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TiltAxisAngle extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:TiltAxisAngle',
             'desc' => [
+                'en' => 'Tilt Axis Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 634
+             * line : 245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

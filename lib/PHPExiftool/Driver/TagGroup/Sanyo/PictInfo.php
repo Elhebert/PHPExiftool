@@ -28,13 +28,14 @@ class PictInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pict Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336343
+             * line : 235747
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictInfo extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:PictInfo',
             'desc' => [
+                'en' => 'Pict Info',
             ],
         ],
     ];

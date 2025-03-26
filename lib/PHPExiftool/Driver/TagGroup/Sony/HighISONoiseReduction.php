@@ -28,13 +28,14 @@ class HighISONoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347582
+             * line : 243364
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349013
+             * line : 243997
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350703
+             * line : 244874
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 354000
+             * line : 246823
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360522
+             * line : 251300
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387697
+             * line : 273787
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
     ];

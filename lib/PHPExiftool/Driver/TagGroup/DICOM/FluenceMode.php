@@ -28,13 +28,14 @@ class FluenceMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fluence Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102438
+             * line : 75537
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FluenceMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FluenceMode',
             'desc' => [
+                'en' => 'Fluence Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ConstrainedCropWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Constrained Crop Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::SoftEdit
-             * line : 304699
+             * line : 211814
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConstrainedCropWidth extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:ConstrainedCropWidth',
             'desc' => [
+                'en' => 'Constrained Crop Width',
             ],
         ],
     ];

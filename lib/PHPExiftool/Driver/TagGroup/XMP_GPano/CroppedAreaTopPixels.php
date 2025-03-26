@@ -28,13 +28,14 @@ class CroppedAreaTopPixels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cropped Area Top Pixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397099
+             * line : 281207
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CroppedAreaTopPixels extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:CroppedAreaTopPixels',
             'desc' => [
+                'en' => 'Cropped Area Top Pixels',
             ],
         ],
     ];

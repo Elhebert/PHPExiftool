@@ -28,13 +28,14 @@ class CHMVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CHM Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::CHM
-             * line : 107550
+             * line : 79356
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CHMVersion extends AbstractTagGroup
              */
             'id' => 'EXE::CHM.EXE:CHMVersion',
             'desc' => [
+                'en' => 'CHM Version',
             ],
         ],
     ];

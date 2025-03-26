@@ -28,13 +28,14 @@ class LensDistortionParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Distortion Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257011
+             * line : 177438
              * type : int16s
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class LensDistortionParams extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:LensDistortionParams',
             'desc' => [
+                'en' => 'Lens Distortion Params',
             ],
         ],
     ];

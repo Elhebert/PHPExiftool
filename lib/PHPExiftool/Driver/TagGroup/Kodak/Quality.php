@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157672
+             * line : 108658
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

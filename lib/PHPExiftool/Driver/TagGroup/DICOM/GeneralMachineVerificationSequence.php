@@ -28,13 +28,14 @@ class GeneralMachineVerificationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'General Machine Verification Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101775
+             * line : 74916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneralMachineVerificationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeneralMachineVerificationSequence',
             'desc' => [
+                'en' => 'General Machine Verification Sequence',
             ],
         ],
     ];

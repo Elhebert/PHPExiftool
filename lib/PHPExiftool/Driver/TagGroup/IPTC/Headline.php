@@ -28,13 +28,14 @@ class Headline extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Headline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150329
+             * line : 103960
              * type : string
              * writable : true
              * count : 256
@@ -42,6 +43,7 @@ class Headline extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Headline',
             'desc' => [
+                'en' => 'Headline',
             ],
         ],
     ];

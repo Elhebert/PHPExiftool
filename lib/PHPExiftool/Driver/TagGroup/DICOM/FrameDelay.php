@@ -28,13 +28,14 @@ class FrameDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95688
+             * line : 69136
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameDelay extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameDelay',
             'desc' => [
+                'en' => 'Frame Delay',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorantTableOut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorant Table Out',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146246
+             * line : 101682
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorantTableOut extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ColorantTableOut',
             'desc' => [
+                'en' => 'Colorant Table Out',
             ],
         ],
     ];

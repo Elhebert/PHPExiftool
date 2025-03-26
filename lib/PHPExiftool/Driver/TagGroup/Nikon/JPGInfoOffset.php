@@ -28,13 +28,14 @@ class JPGInfoOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'JPG Info Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207035
+             * line : 139296
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JPGInfoOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:JPGInfoOffset',
             'desc' => [
+                'en' => 'JPG Info Offset',
             ],
         ],
     ];

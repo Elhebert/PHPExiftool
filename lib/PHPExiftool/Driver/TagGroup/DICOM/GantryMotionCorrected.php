@@ -28,13 +28,14 @@ class GantryMotionCorrected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gantry Motion Corrected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97354
+             * line : 70750
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GantryMotionCorrected extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GantryMotionCorrected',
             'desc' => [
+                'en' => 'Gantry Motion Corrected',
             ],
         ],
     ];

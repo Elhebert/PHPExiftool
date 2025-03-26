@@ -28,13 +28,14 @@ class OffsetTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Offset Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114058
+             * line : 82669
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OffsetTime extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OffsetTime',
             'desc' => [
+                'en' => 'Offset Time',
             ],
         ],
     ];

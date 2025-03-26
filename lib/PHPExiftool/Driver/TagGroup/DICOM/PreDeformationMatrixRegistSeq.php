@@ -28,13 +28,14 @@ class PreDeformationMatrixRegistSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pre Deformation Matrix Regist Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101127
+             * line : 74277
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreDeformationMatrixRegistSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PreDeformationMatrixRegistSeq',
             'desc' => [
+                'en' => 'Pre Deformation Matrix Regist Seq',
             ],
         ],
     ];

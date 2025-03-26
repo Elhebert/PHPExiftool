@@ -28,13 +28,14 @@ class OriginalRawFileDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Raw File Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120310
+             * line : 84505
              * type : int8u
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class OriginalRawFileDigest extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:OriginalRawFileDigest',
             'desc' => [
+                'en' => 'Original Raw File Digest',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length In 35mm Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335522
+             * line : 235448
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLengthIn35mmFormat extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:FocalLengthIn35mmFormat',
             'desc' => [
+                'en' => 'Focal Length In 35mm Format',
             ],
         ],
     ];

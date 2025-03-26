@@ -28,13 +28,14 @@ class OtherConstraints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Other Constraints',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272289
+             * line : 190229
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OtherConstraints extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:OtherConstraints',
             'desc' => [
+                'en' => 'Other Constraints',
             ],
         ],
     ];

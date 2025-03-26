@@ -28,13 +28,14 @@ class PartOfCompilation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Part Of Compilation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413215
+             * line : 291342
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PartOfCompilation extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:PartOfCompilation',
             'desc' => [
+                'en' => 'Part Of Compilation',
             ],
         ],
     ];

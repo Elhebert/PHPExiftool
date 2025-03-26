@@ -28,13 +28,14 @@ class LastPseq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Pseq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97416
+             * line : 70804
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastPseq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LastPseq',
             'desc' => [
+                'en' => 'Last Pseq',
             ],
         ],
     ];

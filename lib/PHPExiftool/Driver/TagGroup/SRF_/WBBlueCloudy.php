@@ -28,13 +28,14 @@ class WBBlueCloudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Blue Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361977
+             * line : 252026
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBBlueCloudy extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:WBBlueCloudy',
             'desc' => [
+                'en' => 'WB Blue Cloudy',
             ],
         ],
     ];

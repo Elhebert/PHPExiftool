@@ -28,13 +28,14 @@ class MultiBurstImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Burst Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 353840
+             * line : 246776
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiBurstImageWidth extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:MultiBurstImageWidth',
             'desc' => [
+                'en' => 'Multi Burst Image Width',
             ],
         ],
     ];

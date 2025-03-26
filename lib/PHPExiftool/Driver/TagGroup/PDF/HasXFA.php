@@ -28,13 +28,14 @@ class HasXFA extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has XFA',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::AcroForm
-             * line : 264046
+             * line : 182563
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasXFA extends AbstractTagGroup
              */
             'id' => 'PDF::AcroForm.PDF:HasXFA',
             'desc' => [
+                'en' => 'Has XFA',
             ],
         ],
     ];

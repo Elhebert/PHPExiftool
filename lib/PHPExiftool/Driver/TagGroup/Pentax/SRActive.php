@@ -28,13 +28,14 @@ class SRActive extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SR Active',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285375
+             * line : 197910
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SRActive extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:SRActive',
             'desc' => [
+                'en' => 'SR Active',
             ],
         ],
     ];

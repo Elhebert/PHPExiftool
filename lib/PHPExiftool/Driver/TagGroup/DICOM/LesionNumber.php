@@ -28,13 +28,14 @@ class LesionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lesion Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96174
+             * line : 69592
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LesionNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LesionNumber',
             'desc' => [
+                'en' => 'Lesion Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintSameArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Same Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264897
+             * line : 183122
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintSameArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintSameArc',
             'desc' => [
+                'en' => 'Paint Same Arc',
             ],
         ],
     ];

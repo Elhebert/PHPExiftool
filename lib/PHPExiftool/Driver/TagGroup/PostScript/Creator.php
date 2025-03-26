@@ -28,13 +28,14 @@ class Creator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305997
+             * line : 212589
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Creator extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:Creator',
             'desc' => [
+                'en' => 'Creator',
             ],
         ],
     ];

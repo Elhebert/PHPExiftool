@@ -28,13 +28,14 @@ class AnalogMonitoringAndControlCodingKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Analog Monitoring And Control Coding Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168054
+             * line : 114560
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnalogMonitoringAndControlCodingKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnalogMonitoringAndControlCodingKind',
             'desc' => [
+                'en' => 'Analog Monitoring And Control Coding Kind',
             ],
         ],
     ];

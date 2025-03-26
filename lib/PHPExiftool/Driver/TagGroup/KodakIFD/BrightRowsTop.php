@@ -28,13 +28,14 @@ class BrightRowsTop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bright Rows Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154946
+             * line : 106226
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrightRowsTop extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BrightRowsTop',
             'desc' => [
+                'en' => 'Bright Rows Top',
             ],
         ],
     ];

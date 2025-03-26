@@ -28,13 +28,14 @@ class RealWorldValueLastValueMapped extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Real World Value Last Value Mapped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100035
+             * line : 73236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RealWorldValueLastValueMapped extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RealWorldValueLastValueMapped',
             'desc' => [
+                'en' => 'Real World Value Last Value Mapped',
             ],
         ],
     ];

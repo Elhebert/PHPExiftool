@@ -28,13 +28,14 @@ class ASF3EdgeDetect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF3 Edge Detect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306672
+             * line : 213170
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF3EdgeDetect extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF3EdgeDetect',
             'desc' => [
+                'en' => 'ASF3 Edge Detect',
             ],
         ],
     ];

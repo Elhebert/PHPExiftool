@@ -28,13 +28,14 @@ class DerivedFromOriginalDocumentID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Original Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413849
+             * line : 291878
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromOriginalDocumentID extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromOriginalDocumentID',
             'desc' => [
+                'en' => 'Derived From Original Document ID',
             ],
         ],
     ];

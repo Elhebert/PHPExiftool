@@ -28,13 +28,14 @@ class SecurityClassification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Security Classification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169965
+             * line : 116301
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SecurityClassification extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecurityClassification',
             'desc' => [
+                'en' => 'Security Classification',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172013
+             * line : 118198
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SecurityClassification extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecurityClassification',
             'desc' => [
+                'en' => 'Security Classification',
             ],
         ],
     ];

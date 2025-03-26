@@ -28,13 +28,14 @@ class WhiteBalanceBlue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Processing
-             * line : 69562
+             * line : 52421
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceBlue extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:WhiteBalanceBlue',
             'desc' => [
+                'en' => 'White Balance Blue',
             ],
         ],
     ];

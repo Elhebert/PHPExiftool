@@ -28,13 +28,14 @@ class AudioChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173256
+             * line : 119255
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
     ];

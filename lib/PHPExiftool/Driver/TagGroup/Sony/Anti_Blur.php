@@ -28,13 +28,14 @@ class Anti_Blur extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Anti-Blur',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 359278
+             * line : 250622
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Anti_Blur extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Anti-Blur',
             'desc' => [
+                'en' => 'Anti-Blur',
             ],
         ],
     ];

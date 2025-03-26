@@ -28,13 +28,14 @@ class VideoBurstMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Burst Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277972
+             * line : 193351
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoBurstMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:VideoBurstMode',
             'desc' => [
+                'en' => 'Video Burst Mode',
             ],
         ],
     ];

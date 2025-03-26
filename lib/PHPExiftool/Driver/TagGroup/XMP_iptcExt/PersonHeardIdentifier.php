@@ -28,13 +28,14 @@ class PersonHeardIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Person Heard Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409545
+             * line : 289318
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PersonHeardIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:PersonHeardIdentifier',
             'desc' => [
+                'en' => 'Person Heard Identifier',
             ],
         ],
     ];

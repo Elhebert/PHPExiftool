@@ -28,13 +28,14 @@ class ShadowCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadow Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300348
+             * line : 209364
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadowCorrection extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ShadowCorrection',
             'desc' => [
+                'en' => 'Shadow Correction',
             ],
         ],
     ];

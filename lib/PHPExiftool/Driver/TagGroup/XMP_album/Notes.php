@@ -28,13 +28,14 @@ class Notes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Album
-             * line : 396422
+             * line : 280656
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Notes extends AbstractTagGroup
              */
             'id' => 'XMP::Album.XMP-album:Notes',
             'desc' => [
+                'en' => 'Notes',
             ],
         ],
     ];

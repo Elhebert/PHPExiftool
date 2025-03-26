@@ -28,13 +28,14 @@ class OtherImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121479
+             * line : 85217
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherImage extends AbstractTagGroup
              */
             'id' => 'Extra.File:OtherImage',
             'desc' => [
+                'en' => 'Other Image',
             ],
         ],
     ];

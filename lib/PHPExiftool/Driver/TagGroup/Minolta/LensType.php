@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 183869
+             * line : 124664
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185704
+             * line : 125952
              * type : int16uRev
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

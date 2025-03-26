@@ -28,13 +28,14 @@ class LongExposureNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Long Exposure Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277168
+             * line : 192850
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
     ];

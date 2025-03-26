@@ -28,13 +28,14 @@ class XRayReceptorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Receptor Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97111
+             * line : 70510
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayReceptorType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayReceptorType',
             'desc' => [
+                'en' => 'X Ray Receptor Type',
             ],
         ],
     ];

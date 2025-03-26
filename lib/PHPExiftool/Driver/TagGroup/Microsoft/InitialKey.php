@@ -28,13 +28,14 @@ class InitialKey extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175050
+             * line : 120524
              * type : Unicode
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class InitialKey extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:InitialKey',
             'desc' => [
+                'en' => 'Initial Key',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175750
+             * line : 120951
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class InitialKey extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:InitialKey',
             'desc' => [
+                'en' => 'Initial Key',
             ],
         ],
     ];

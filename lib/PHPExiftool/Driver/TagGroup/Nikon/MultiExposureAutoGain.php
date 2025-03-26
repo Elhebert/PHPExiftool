@@ -28,13 +28,14 @@ class MultiExposureAutoGain extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Exposure Auto Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MultiExposure
-             * line : 202027
+             * line : 136871
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiExposureAutoGain extends AbstractTagGroup
              */
             'id' => 'Nikon::MultiExposure.Nikon:MultiExposureAutoGain',
             'desc' => [
+                'en' => 'Multi Exposure Auto Gain',
             ],
         ],
     ];

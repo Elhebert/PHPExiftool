@@ -28,13 +28,14 @@ class RawDataOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65855
+             * line : 50041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataOffset extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:RawDataOffset',
             'desc' => [
+                'en' => 'Raw Data Offset',
             ],
         ],
     ];

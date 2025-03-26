@@ -28,13 +28,14 @@ class ContractTermsOfBusiness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contract Terms Of Business',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169903
+             * line : 116241
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ContractTermsOfBusiness extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractTermsOfBusiness',
             'desc' => [
+                'en' => 'Contract Terms Of Business',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170657
+             * line : 116892
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ContractTermsOfBusiness extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContractTermsOfBusiness',
             'desc' => [
+                'en' => 'Contract Terms Of Business',
             ],
         ],
     ];

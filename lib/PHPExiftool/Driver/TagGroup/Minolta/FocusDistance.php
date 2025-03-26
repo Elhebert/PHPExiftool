@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177546
+             * line : 121965
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185694
+             * line : 125949
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

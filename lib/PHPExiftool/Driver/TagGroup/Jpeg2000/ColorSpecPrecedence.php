@@ -28,13 +28,14 @@ class ColorSpecPrecedence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Spec Precedence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ColorSpec
-             * line : 153702
+             * line : 105560
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpecPrecedence extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecPrecedence',
             'desc' => [
+                'en' => 'Color Spec Precedence',
             ],
         ],
     ];

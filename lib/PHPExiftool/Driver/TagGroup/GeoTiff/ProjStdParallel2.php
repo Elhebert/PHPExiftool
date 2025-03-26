@@ -28,13 +28,14 @@ class ProjStdParallel2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Proj Std Parallel 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 138698
+             * line : 96947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjStdParallel2 extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjStdParallel2',
             'desc' => [
+                'en' => 'Proj Std Parallel 2',
             ],
         ],
     ];

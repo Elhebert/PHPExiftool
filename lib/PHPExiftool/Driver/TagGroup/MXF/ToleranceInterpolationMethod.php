@@ -28,13 +28,14 @@ class ToleranceInterpolationMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tolerance Interpolation Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172178
+             * line : 118345
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToleranceInterpolationMethod extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ToleranceInterpolationMethod',
             'desc' => [
+                'en' => 'Tolerance Interpolation Method',
             ],
         ],
     ];

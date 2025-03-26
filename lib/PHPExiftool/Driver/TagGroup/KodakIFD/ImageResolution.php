@@ -28,13 +28,14 @@ class ImageResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155466
+             * line : 106679
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageResolution extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageResolution',
             'desc' => [
+                'en' => 'Image Resolution',
             ],
         ],
     ];

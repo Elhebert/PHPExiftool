@@ -28,13 +28,14 @@ class FunctionalGroupPrivateCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Functional Group Private Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98108
+             * line : 71455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FunctionalGroupPrivateCreator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FunctionalGroupPrivateCreator',
             'desc' => [
+                'en' => 'Functional Group Private Creator',
             ],
         ],
     ];

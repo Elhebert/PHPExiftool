@@ -28,13 +28,14 @@ class ViewNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95006
+             * line : 68488
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewNumber',
             'desc' => [
+                'en' => 'View Number',
             ],
         ],
     ];

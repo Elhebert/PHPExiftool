@@ -28,13 +28,14 @@ class FlashMasterCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Master Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200047
+             * line : 135011
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMasterCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FlashMasterCompensation',
             'desc' => [
+                'en' => 'Flash Master Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200917
+             * line : 135833
              * type : int8s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashMasterCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FlashMasterCompensation',
             'desc' => [
+                'en' => 'Flash Master Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208214
+             * line : 140313
              * type : int8s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FlashMasterCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FlashMasterCompensation',
             'desc' => [
+                'en' => 'Flash Master Compensation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorTempUnknown23 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Unknown 23',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60227
+             * line : 46416
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempUnknown23 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempUnknown23',
             'desc' => [
+                'en' => 'Color Temp Unknown 23',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60688
+             * line : 46680
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempUnknown23 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempUnknown23',
             'desc' => [
+                'en' => 'Color Temp Unknown 23',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62518
+             * line : 47728
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempUnknown23 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempUnknown23',
             'desc' => [
+                'en' => 'Color Temp Unknown 23',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 63000
+             * line : 48016
              * type : int16s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ColorTempUnknown23 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempUnknown23',
             'desc' => [
+                'en' => 'Color Temp Unknown 23',
             ],
         ],
     ];

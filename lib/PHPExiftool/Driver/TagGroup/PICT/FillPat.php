@@ -28,13 +28,14 @@ class FillPat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264638
+             * line : 182894
              * type : int8u
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class FillPat extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillPat',
             'desc' => [
+                'en' => 'Fill Pattern',
             ],
         ],
     ];

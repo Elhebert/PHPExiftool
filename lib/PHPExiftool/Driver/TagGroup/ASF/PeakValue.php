@@ -28,13 +28,14 @@ class PeakValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1493
+             * line : 721
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakValue extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:PeakValue',
             'desc' => [
+                'en' => 'Peak Value',
             ],
         ],
     ];

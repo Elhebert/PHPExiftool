@@ -28,13 +28,14 @@ class StreamAvgBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Avg Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330377
+             * line : 232472
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamAvgBitrate extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamAvgBitrate',
             'desc' => [
+                'en' => 'Stream Avg Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273510
+             * line : 190739
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

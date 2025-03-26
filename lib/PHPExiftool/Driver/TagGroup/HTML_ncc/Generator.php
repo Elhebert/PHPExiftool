@@ -28,13 +28,14 @@ class Generator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142964
+             * line : 98728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Generator extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Generator',
             'desc' => [
+                'en' => 'Generator',
             ],
         ],
     ];

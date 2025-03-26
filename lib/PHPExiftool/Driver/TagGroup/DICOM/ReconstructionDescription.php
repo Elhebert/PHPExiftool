@@ -28,13 +28,14 @@ class ReconstructionDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reconstruction Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97285
+             * line : 70681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReconstructionDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReconstructionDescription',
             'desc' => [
+                'en' => 'Reconstruction Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DistortionCorrectionAlreadyApplied extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction Already Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397922
+             * line : 281660
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrectionAlreadyApplied extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:DistortionCorrectionAlreadyApplied',
             'desc' => [
+                'en' => 'Distortion Correction Already Applied',
             ],
         ],
     ];

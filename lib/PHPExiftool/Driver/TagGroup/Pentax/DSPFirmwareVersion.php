@@ -28,13 +28,14 @@ class DSPFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DSP Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298717
+             * line : 208443
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DSPFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DSPFirmwareVersion',
             'desc' => [
+                'en' => 'DSP Firmware Version',
             ],
         ],
     ];

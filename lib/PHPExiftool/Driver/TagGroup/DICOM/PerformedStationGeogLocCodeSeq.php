@@ -28,13 +28,14 @@ class PerformedStationGeogLocCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Station Geog Loc Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99992
+             * line : 73194
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedStationGeogLocCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedStationGeogLocCodeSeq',
             'desc' => [
+                'en' => 'Performed Station Geog Loc Code Seq',
             ],
         ],
     ];

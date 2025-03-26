@@ -28,13 +28,14 @@ class AccessoryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Accessory Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103296
+             * line : 76392
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AccessoryCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AccessoryCode',
             'desc' => [
+                'en' => 'Accessory Code',
             ],
         ],
     ];

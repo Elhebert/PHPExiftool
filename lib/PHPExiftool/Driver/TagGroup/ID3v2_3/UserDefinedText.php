@@ -28,13 +28,14 @@ class UserDefinedText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Defined Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149023
+             * line : 103394
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserDefinedText extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:UserDefinedText',
             'desc' => [
+                'en' => 'User Defined Text',
             ],
         ],
     ];

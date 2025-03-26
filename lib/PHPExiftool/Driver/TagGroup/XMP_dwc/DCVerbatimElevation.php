@@ -28,13 +28,14 @@ class DCVerbatimElevation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Verbatim Elevation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 107006
+             * line : 79151
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCVerbatimElevation extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCVerbatimElevation',
             'desc' => [
+                'en' => 'DC Verbatim Elevation',
             ],
         ],
     ];

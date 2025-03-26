@@ -28,13 +28,14 @@ class ServiceEpisodeDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Service Episode Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99440
+             * line : 72654
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ServiceEpisodeDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ServiceEpisodeDescription',
             'desc' => [
+                'en' => 'Service Episode Description',
             ],
         ],
     ];

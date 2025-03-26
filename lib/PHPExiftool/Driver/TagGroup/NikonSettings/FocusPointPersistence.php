@@ -28,13 +28,14 @@ class FocusPointPersistence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Point Persistence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247758
+             * line : 170451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPointPersistence extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FocusPointPersistence',
             'desc' => [
+                'en' => 'Focus Point Persistence',
             ],
         ],
     ];

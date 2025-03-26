@@ -28,13 +28,14 @@ class AFType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 340825
+             * line : 238371
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFType extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFType',
             'desc' => [
+                'en' => 'AF Type',
             ],
         ],
     ];

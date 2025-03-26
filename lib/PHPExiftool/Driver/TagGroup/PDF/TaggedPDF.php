@@ -28,13 +28,14 @@ class TaggedPDF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tagged PDF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::MarkInfo
-             * line : 264297
+             * line : 182682
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TaggedPDF extends AbstractTagGroup
              */
             'id' => 'PDF::MarkInfo.PDF:TaggedPDF',
             'desc' => [
+                'en' => 'Tagged PDF',
             ],
         ],
     ];

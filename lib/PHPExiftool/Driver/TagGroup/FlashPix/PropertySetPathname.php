@@ -28,13 +28,14 @@ class PropertySetPathname extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Property Set Pathname',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124598
+             * line : 87081
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PropertySetPathname extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:PropertySetPathname',
             'desc' => [
+                'en' => 'Property Set Pathname',
             ],
         ],
     ];

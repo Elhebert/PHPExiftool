@@ -28,13 +28,14 @@ class LightValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Light Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90425
+             * line : 65182
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightValue extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:LightValue',
             'desc' => [
+                'en' => 'Light Value',
             ],
         ],
     ];

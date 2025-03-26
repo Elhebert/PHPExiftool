@@ -28,13 +28,14 @@ class EncryptedContainerLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encrypted Container Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172534
+             * line : 118693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncryptedContainerLabel extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EncryptedContainerLabel',
             'desc' => [
+                'en' => 'Encrypted Container Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TriggerTimeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trigger Time Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95697
+             * line : 69145
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriggerTimeOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriggerTimeOffset',
             'desc' => [
+                'en' => 'Trigger Time Offset',
             ],
         ],
     ];

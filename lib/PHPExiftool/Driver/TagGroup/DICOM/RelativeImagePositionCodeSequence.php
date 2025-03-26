@@ -28,13 +28,14 @@ class RelativeImagePositionCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Image Position Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98379
+             * line : 71713
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeImagePositionCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelativeImagePositionCodeSequence',
             'desc' => [
+                'en' => 'Relative Image Position Code Sequence',
             ],
         ],
     ];

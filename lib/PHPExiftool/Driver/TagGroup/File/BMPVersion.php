@@ -28,13 +28,14 @@ class BMPVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BMP Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3181
+             * line : 2004
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BMPVersion extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:BMPVersion',
             'desc' => [
+                'en' => 'BMP Version',
             ],
         ],
         1 => [
             /**
              * table_name : BMP::OS2
-             * line : 3484
+             * line : 2154
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BMPVersion extends AbstractTagGroup
              */
             'id' => 'BMP::OS2.File:BMPVersion',
             'desc' => [
+                'en' => 'BMP Version',
             ],
         ],
     ];

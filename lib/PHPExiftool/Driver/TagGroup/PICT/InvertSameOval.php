@@ -28,13 +28,14 @@ class InvertSameOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Same Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264865
+             * line : 183092
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertSameOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertSameOval',
             'desc' => [
+                'en' => 'Invert Same Oval',
             ],
         ],
     ];

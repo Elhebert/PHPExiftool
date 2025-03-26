@@ -28,13 +28,14 @@ class MCCData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MCC Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 334321
+             * line : 234377
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MCCData extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:MCCData',
             'desc' => [
+                'en' => 'MCC Data',
             ],
         ],
     ];

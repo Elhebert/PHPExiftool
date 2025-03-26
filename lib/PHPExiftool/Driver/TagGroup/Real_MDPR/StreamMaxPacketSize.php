@@ -28,13 +28,14 @@ class StreamMaxPacketSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Max Packet Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330381
+             * line : 232475
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamMaxPacketSize extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:StreamMaxPacketSize',
             'desc' => [
+                'en' => 'Stream Max Packet Size',
             ],
         ],
     ];

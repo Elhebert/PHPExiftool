@@ -28,13 +28,14 @@ class Characters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Characters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142547
+             * line : 98536
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Characters extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:Characters',
             'desc' => [
+                'en' => 'Characters',
             ],
         ],
     ];

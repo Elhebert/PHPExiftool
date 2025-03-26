@@ -28,13 +28,14 @@ class BreakChar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Break Char',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128099
+             * line : 88891
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BreakChar extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:BreakChar',
             'desc' => [
+                'en' => 'Break Char',
             ],
         ],
     ];

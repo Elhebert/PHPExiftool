@@ -28,13 +28,14 @@ class CodingHistory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::BroadcastExt
-             * line : 327808
+             * line : 231364
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingHistory extends AbstractTagGroup
              */
             'id' => 'RIFF::BroadcastExt.RIFF:CodingHistory',
             'desc' => [
+                'en' => 'Coding History',
             ],
         ],
     ];

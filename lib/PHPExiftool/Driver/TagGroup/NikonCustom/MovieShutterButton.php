@@ -28,13 +28,14 @@ class MovieShutterButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Shutter Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215943
+             * line : 144990
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieShutterButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MovieShutterButton',
             'desc' => [
+                'en' => 'Movie Shutter Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218544
+             * line : 146910
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MovieShutterButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MovieShutterButton',
             'desc' => [
+                'en' => 'Movie Shutter Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220994
+             * line : 148941
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MovieShutterButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MovieShutterButton',
             'desc' => [
+                'en' => 'Movie Shutter Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231104
+             * line : 155369
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MovieShutterButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MovieShutterButton',
             'desc' => [
+                'en' => 'Movie Shutter Button',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232893
+             * line : 156759
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class MovieShutterButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MovieShutterButton',
             'desc' => [
+                'en' => 'Movie Shutter Button',
             ],
         ],
     ];

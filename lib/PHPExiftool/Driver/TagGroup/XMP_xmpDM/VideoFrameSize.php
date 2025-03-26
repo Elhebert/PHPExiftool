@@ -28,13 +28,14 @@ class VideoFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413743
+             * line : 291780
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoFrameSize extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoFrameSize',
             'desc' => [
+                'en' => 'Video Frame Size',
             ],
         ],
     ];

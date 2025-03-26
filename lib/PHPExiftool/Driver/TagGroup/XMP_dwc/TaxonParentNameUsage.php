@@ -28,13 +28,14 @@ class TaxonParentNameUsage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Parent Name Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106790
+             * line : 78989
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonParentNameUsage extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonParentNameUsage',
             'desc' => [
+                'en' => 'Taxon Parent Name Usage',
             ],
         ],
     ];

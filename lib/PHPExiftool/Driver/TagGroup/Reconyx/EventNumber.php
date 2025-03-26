@@ -28,13 +28,14 @@ class EventNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330629
+             * line : 232639
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class EventNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:EventNumber',
             'desc' => [
+                'en' => 'Event Number',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330864
+             * line : 232748
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class EventNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:EventNumber',
             'desc' => [
+                'en' => 'Event Number',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331089
+             * line : 232868
              * type : int16u
              * writable : true
              * count : 2
@@ -68,6 +71,7 @@ class EventNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:EventNumber',
             'desc' => [
+                'en' => 'Event Number',
             ],
         ],
     ];

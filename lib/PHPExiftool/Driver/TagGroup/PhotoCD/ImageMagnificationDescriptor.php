@@ -28,13 +28,14 @@ class ImageMagnificationDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Magnification Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303686
+             * line : 210965
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class ImageMagnificationDescriptor extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:ImageMagnificationDescriptor',
             'desc' => [
+                'en' => 'Image Magnification Descriptor',
             ],
         ],
     ];

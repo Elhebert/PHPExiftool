@@ -28,13 +28,14 @@ class MREchoSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Echo Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96775
+             * line : 70177
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MREchoSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MREchoSequence',
             'desc' => [
+                'en' => 'MR Echo Sequence',
             ],
         ],
     ];

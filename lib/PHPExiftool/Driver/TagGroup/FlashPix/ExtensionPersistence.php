@@ -28,13 +28,14 @@ class ExtensionPersistence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extension Persistence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124562
+             * line : 87046
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtensionPersistence extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:ExtensionPersistence',
             'desc' => [
+                'en' => 'Extension Persistence',
             ],
         ],
     ];

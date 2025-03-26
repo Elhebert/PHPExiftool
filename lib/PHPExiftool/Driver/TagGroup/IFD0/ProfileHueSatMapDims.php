@@ -28,13 +28,14 @@ class ProfileHueSatMapDims extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Hue Sat Map Dims',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120106
+             * line : 84429
              * type : int32u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class ProfileHueSatMapDims extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileHueSatMapDims',
             'desc' => [
+                'en' => 'Profile Hue Sat Map Dims',
             ],
         ],
     ];

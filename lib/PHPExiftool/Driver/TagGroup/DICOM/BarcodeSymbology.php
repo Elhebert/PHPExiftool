@@ -28,13 +28,14 @@ class BarcodeSymbology extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Barcode Symbology',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102338
+             * line : 75438
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BarcodeSymbology extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BarcodeSymbology',
             'desc' => [
+                'en' => 'Barcode Symbology',
             ],
         ],
     ];

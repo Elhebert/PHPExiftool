@@ -28,13 +28,14 @@ class CFAGreenThreshold1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CFA Green Threshold 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155933
+             * line : 107144
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CFAGreenThreshold1 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CFAGreenThreshold1',
             'desc' => [
+                'en' => 'CFA Green Threshold 1',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Format extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329550
+             * line : 232125
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Format extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:Format',
             'desc' => [
+                'en' => 'Format',
             ],
         ],
     ];

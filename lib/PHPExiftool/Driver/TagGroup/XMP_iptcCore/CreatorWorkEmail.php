@@ -28,13 +28,14 @@ class CreatorWorkEmail extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Work Email',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 408979
+             * line : 288855
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorWorkEmail extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorWorkEmail',
             'desc' => [
+                'en' => 'Creator Work Email',
             ],
         ],
     ];

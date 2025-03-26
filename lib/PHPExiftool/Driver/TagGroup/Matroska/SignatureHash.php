@@ -28,13 +28,14 @@ class SignatureHash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature Hash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173921
+             * line : 119803
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SignatureHash extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SignatureHash',
             'desc' => [
+                'en' => 'Signature Hash',
             ],
         ],
     ];

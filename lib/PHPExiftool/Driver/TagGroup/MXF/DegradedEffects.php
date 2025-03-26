@@ -28,13 +28,14 @@ class DegradedEffects extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Degraded Effects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169536
+             * line : 115929
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DegradedEffects extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DegradedEffects',
             'desc' => [
+                'en' => 'Degraded Effects',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContourNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contour Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102594
+             * line : 75690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContourNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContourNumber',
             'desc' => [
+                'en' => 'Contour Number',
             ],
         ],
     ];

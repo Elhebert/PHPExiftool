@@ -28,13 +28,14 @@ class ColorToneAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68712
+             * line : 51900
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorToneAuto extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneAuto',
             'desc' => [
+                'en' => 'Color Tone Auto',
             ],
         ],
     ];

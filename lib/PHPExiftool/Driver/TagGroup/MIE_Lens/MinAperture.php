@@ -28,13 +28,14 @@ class MinAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 163987
+             * line : 111555
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinAperture extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:MinAperture',
             'desc' => [
+                'en' => 'Min Aperture',
             ],
         ],
     ];

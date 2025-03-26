@@ -28,13 +28,14 @@ class SegmentFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segment File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173878
+             * line : 119776
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentFileName extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SegmentFileName',
             'desc' => [
+                'en' => 'Segment File Name',
             ],
         ],
     ];

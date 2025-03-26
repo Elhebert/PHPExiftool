@@ -28,13 +28,14 @@ class EncoderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::MovableInfo
-             * line : 259232
+             * line : 178847
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class EncoderVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::MovableInfo.Olympus:EncoderVersion',
             'desc' => [
+                'en' => 'Encoder Version',
             ],
         ],
     ];

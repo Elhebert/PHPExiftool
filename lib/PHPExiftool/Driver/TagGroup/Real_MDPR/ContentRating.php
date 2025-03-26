@@ -28,13 +28,14 @@ class ContentRating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330212
+             * line : 232395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentRating extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:ContentRating',
             'desc' => [
+                'en' => 'Content Rating',
             ],
         ],
     ];

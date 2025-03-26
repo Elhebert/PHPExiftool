@@ -28,13 +28,14 @@ class MakerNoteSafety extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Safety',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119231
+             * line : 84213
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNoteSafety extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:MakerNoteSafety',
             'desc' => [
+                'en' => 'Maker Note Safety',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TableTopLongitudinalPositionTol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Longitudinal Position Tol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103065
+             * line : 76161
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopLongitudinalPositionTol extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopLongitudinalPositionTol',
             'desc' => [
+                'en' => 'Table Top Longitudinal Position Tol',
             ],
         ],
     ];

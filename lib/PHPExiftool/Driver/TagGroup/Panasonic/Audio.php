@@ -28,13 +28,14 @@ class Audio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275941
+             * line : 192192
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Audio extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Audio',
             'desc' => [
+                'en' => 'Audio',
             ],
         ],
     ];

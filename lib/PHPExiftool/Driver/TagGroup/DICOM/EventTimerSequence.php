@@ -28,13 +28,14 @@ class EventTimerSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Timer Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95021
+             * line : 68503
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventTimerSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EventTimerSequence',
             'desc' => [
+                'en' => 'Event Timer Sequence',
             ],
         ],
     ];

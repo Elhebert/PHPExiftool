@@ -28,13 +28,14 @@ class PublishingServiceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publishing Service Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170678
+             * line : 116913
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PublishingServiceName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublishingServiceName',
             'desc' => [
+                'en' => 'Publishing Service Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170681
+             * line : 116916
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PublishingServiceName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PublishingServiceName',
             'desc' => [
+                'en' => 'Publishing Service Name',
             ],
         ],
     ];

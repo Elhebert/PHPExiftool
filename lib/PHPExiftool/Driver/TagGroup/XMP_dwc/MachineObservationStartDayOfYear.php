@@ -28,13 +28,14 @@ class MachineObservationStartDayOfYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Start Day Of Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106429
+             * line : 78719
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationStartDayOfYear extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationStartDayOfYear',
             'desc' => [
+                'en' => 'Machine Observation Start Day Of Year',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125065
+             * line : 87362
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

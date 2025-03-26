@@ -28,13 +28,14 @@ class Vibrance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vibrance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aas
-             * line : 397695
+             * line : 281570
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Vibrance extends AbstractTagGroup
              */
             'id' => 'XMP::aas.XMP-aas:Vibrance',
             'desc' => [
+                'en' => 'Vibrance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299586
+             * line : 208901
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

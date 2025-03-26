@@ -28,13 +28,14 @@ class MoviePreviewButtonPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Preview Button Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216505
+             * line : 145518
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MoviePreviewButtonPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MoviePreviewButtonPlusDials',
             'desc' => [
+                'en' => 'Movie Preview Button Plus Dials',
             ],
         ],
     ];

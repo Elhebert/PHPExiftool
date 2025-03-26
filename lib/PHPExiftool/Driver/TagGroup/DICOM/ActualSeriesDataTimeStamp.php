@@ -28,13 +28,14 @@ class ActualSeriesDataTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Actual Series Data Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95186
+             * line : 68656
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActualSeriesDataTimeStamp extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ActualSeriesDataTimeStamp',
             'desc' => [
+                'en' => 'Actual Series Data Time Stamp',
             ],
         ],
     ];

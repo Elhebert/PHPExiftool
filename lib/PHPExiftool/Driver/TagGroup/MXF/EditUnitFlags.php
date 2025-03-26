@@ -28,13 +28,14 @@ class EditUnitFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edit Unit Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170820
+             * line : 117051
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditUnitFlags extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EditUnitFlags',
             'desc' => [
+                'en' => 'Edit Unit Flags',
             ],
         ],
     ];

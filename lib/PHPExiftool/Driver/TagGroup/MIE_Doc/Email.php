@@ -28,13 +28,14 @@ class Email extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Email',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Doc
-             * line : 163231
+             * line : 111345
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Email extends AbstractTagGroup
              */
             'id' => 'MIE::Doc.MIE-Doc:Email',
             'desc' => [
+                'en' => 'Email',
             ],
         ],
     ];

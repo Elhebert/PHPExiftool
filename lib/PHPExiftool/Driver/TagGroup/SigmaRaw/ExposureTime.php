@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340759
+             * line : 238352
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

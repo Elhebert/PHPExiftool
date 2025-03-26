@@ -28,13 +28,14 @@ class Roll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Roll',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326826
+             * line : 230498
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Roll extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:Roll',
             'desc' => [
+                'en' => 'Roll',
             ],
         ],
     ];

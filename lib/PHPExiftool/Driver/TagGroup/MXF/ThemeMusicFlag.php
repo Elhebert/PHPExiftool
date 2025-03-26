@@ -28,13 +28,14 @@ class ThemeMusicFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Theme Music Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171436
+             * line : 117637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThemeMusicFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ThemeMusicFlag',
             'desc' => [
+                'en' => 'Theme Music Flag',
             ],
         ],
     ];

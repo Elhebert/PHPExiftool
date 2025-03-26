@@ -28,13 +28,14 @@ class ImageSourceDeviceKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Source Device Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168092
+             * line : 114593
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageSourceDeviceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ImageSourceDeviceKind',
             'desc' => [
+                'en' => 'Image Source Device Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172087
+             * line : 118255
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageSourceDeviceKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ImageSourceDeviceKind',
             'desc' => [
+                'en' => 'Image Source Device Kind',
             ],
         ],
     ];

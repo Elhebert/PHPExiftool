@@ -28,13 +28,14 @@ class InputDeviceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Device Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105878
+             * line : 78363
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class InputDeviceName extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:InputDeviceName',
             'desc' => [
+                'en' => 'Input Device Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90660
+             * line : 65245
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 93692
+             * line : 67848
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
         2 => [
             /**
              * table_name : Composite
-             * line : 93710
+             * line : 67851
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
         3 => [
             /**
              * table_name : Composite
-             * line : 93855
+             * line : 67913
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
     ];

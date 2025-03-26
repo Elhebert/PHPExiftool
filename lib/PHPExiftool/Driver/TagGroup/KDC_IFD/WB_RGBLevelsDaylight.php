@@ -28,13 +28,14 @@ class WB_RGBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::KDC_IFD
-             * line : 157537
+             * line : 108620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::KDC_IFD.KDC_IFD:WB_RGBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RGB Levels Daylight',
             ],
         ],
     ];

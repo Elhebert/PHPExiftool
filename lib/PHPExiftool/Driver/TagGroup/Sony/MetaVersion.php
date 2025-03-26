@@ -28,13 +28,14 @@ class MetaVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Meta Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362044
+             * line : 252087
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class MetaVersion extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:MetaVersion',
             'desc' => [
+                'en' => 'Meta Version',
             ],
         ],
     ];

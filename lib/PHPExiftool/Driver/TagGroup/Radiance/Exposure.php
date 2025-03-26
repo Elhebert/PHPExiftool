@@ -28,13 +28,14 @@ class Exposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Radiance::Main
-             * line : 329542
+             * line : 232122
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Exposure extends AbstractTagGroup
              */
             'id' => 'Radiance::Main.Radiance:Exposure',
             'desc' => [
+                'en' => 'Exposure',
             ],
         ],
     ];

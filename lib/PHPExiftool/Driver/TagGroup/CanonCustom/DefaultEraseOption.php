@@ -28,13 +28,14 @@ class DefaultEraseOption extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Default Erase Option',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75618
+             * line : 55676
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefaultEraseOption extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:DefaultEraseOption',
             'desc' => [
+                'en' => 'Default Erase Option',
             ],
         ],
     ];

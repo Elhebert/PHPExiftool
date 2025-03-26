@@ -28,13 +28,14 @@ class EncodedPixelsDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoded Pixels Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackAperture
-             * line : 325043
+             * line : 229500
              * type : fixed32u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class EncodedPixelsDimensions extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackAperture.Track#:EncodedPixelsDimensions',
             'desc' => [
+                'en' => 'Encoded Pixels Dimensions',
             ],
         ],
     ];

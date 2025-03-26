@@ -28,13 +28,14 @@ class OriginalTHMImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original THM Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105272
+             * line : 78021
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalTHMImage extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalTHMImage',
             'desc' => [
+                'en' => 'Original THM Image',
             ],
         ],
     ];

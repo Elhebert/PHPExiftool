@@ -28,13 +28,14 @@ class SharpenForThumbnail extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpen For Thumbnail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155424
+             * line : 106637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpenForThumbnail extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SharpenForThumbnail',
             'desc' => [
+                'en' => 'Sharpen For Thumbnail',
             ],
         ],
     ];

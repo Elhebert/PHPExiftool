@@ -28,13 +28,14 @@ class ItemDesignatorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item Designator ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169797
+             * line : 116151
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemDesignatorID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ItemDesignatorID',
             'desc' => [
+                'en' => 'Item Designator ID',
             ],
         ],
     ];

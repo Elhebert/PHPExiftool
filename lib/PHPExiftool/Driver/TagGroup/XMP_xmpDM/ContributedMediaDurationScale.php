@@ -28,13 +28,14 @@ class ContributedMediaDurationScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributed Media Duration Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413006
+             * line : 291163
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributedMediaDurationScale extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaDurationScale',
             'desc' => [
+                'en' => 'Contributed Media Duration Scale',
             ],
         ],
     ];

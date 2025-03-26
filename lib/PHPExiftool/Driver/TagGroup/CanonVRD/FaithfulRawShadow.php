@@ -28,13 +28,14 @@ class FaithfulRawShadow extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faithful Raw Shadow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83623
+             * line : 61281
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaithfulRawShadow extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:FaithfulRawShadow',
             'desc' => [
+                'en' => 'Faithful Raw Shadow',
             ],
         ],
     ];

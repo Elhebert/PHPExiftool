@@ -28,13 +28,14 @@ class LivePhotoVitalityScoringVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live Photo Vitality Scoring Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323456
+             * line : 228658
              * type : int64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LivePhotoVitalityScoringVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:LivePhotoVitalityScoringVersion',
             'desc' => [
+                'en' => 'Live Photo Vitality Scoring Version',
             ],
         ],
     ];

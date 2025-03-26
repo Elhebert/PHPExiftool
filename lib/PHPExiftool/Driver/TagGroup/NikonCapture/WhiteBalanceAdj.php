@@ -28,13 +28,14 @@ class WhiteBalanceAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210718
+             * line : 141802
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceAdj extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:WhiteBalanceAdj',
             'desc' => [
+                'en' => 'White Balance Adj',
             ],
         ],
     ];

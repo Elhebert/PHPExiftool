@@ -28,13 +28,14 @@ class PlatformSerialNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Platform Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169773
+             * line : 116127
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlatformSerialNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlatformSerialNumber',
             'desc' => [
+                'en' => 'Platform Serial Number',
             ],
         ],
     ];

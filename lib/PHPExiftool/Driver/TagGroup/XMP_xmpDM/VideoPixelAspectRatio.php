@@ -28,13 +28,14 @@ class VideoPixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413758
+             * line : 291795
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoPixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoPixelAspectRatio',
             'desc' => [
+                'en' => 'Video Pixel Aspect Ratio',
             ],
         ],
     ];

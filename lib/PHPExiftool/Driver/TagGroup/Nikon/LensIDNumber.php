@@ -28,13 +28,14 @@ class LensIDNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens ID Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData00
-             * line : 195550
+             * line : 132472
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensIDNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData00.Nikon:LensIDNumber',
             'desc' => [
+                'en' => 'Lens ID Number',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195682
+             * line : 132515
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensIDNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:LensIDNumber',
             'desc' => [
+                'en' => 'Lens ID Number',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195823
+             * line : 132561
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensIDNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:LensIDNumber',
             'desc' => [
+                'en' => 'Lens ID Number',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196030
+             * line : 132640
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class LensIDNumber extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:LensIDNumber',
             'desc' => [
+                'en' => 'Lens ID Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImagerRows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157212
+             * line : 108404
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerRows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerRows',
             'desc' => [
+                'en' => 'Imager Rows',
             ],
         ],
     ];

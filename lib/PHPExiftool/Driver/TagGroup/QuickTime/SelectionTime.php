@@ -28,13 +28,14 @@ class SelectionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selection Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MovieHeader
-             * line : 324149
+             * line : 229041
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectionTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::MovieHeader.QuickTime:SelectionTime',
             'desc' => [
+                'en' => 'Selection Time',
             ],
         ],
     ];

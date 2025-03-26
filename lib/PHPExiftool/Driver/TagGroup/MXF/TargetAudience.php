@@ -28,13 +28,14 @@ class TargetAudience extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Target Audience',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167642
+             * line : 114248
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TargetAudience extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TargetAudience',
             'desc' => [
+                'en' => 'Target Audience',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170131
+             * line : 116439
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TargetAudience extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TargetAudience',
             'desc' => [
+                'en' => 'Target Audience',
             ],
         ],
     ];

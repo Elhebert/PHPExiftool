@@ -28,13 +28,14 @@ class QualityControlImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quality Control Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98830
+             * line : 72102
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QualityControlImage extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:QualityControlImage',
             'desc' => [
+                'en' => 'Quality Control Image',
             ],
         ],
     ];

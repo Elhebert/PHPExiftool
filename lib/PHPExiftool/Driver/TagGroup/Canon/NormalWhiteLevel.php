@@ -28,13 +28,14 @@ class NormalWhiteLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Normal White Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60283
+             * line : 46458
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60728
+             * line : 46710
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61327
+             * line : 47044
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61339
+             * line : 47056
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61351
+             * line : 47068
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData5
-             * line : 61384
+             * line : 47098
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData5.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61711
+             * line : 47275
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62099
+             * line : 47488
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62115
+             * line : 47503
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62585
+             * line : 47779
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62597
+             * line : 47791
              * type : int16u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 63056
+             * line : 48058
              * type : int16u
              * writable : true
              * count :
@@ -185,6 +197,7 @@ class NormalWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:NormalWhiteLevel',
             'desc' => [
+                'en' => 'Normal White Level',
             ],
         ],
     ];

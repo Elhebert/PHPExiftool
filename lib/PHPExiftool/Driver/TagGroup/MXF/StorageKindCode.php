@@ -28,13 +28,14 @@ class StorageKindCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Kind Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170302
+             * line : 116577
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageKindCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StorageKindCode',
             'desc' => [
+                'en' => 'Storage Kind Code',
             ],
         ],
     ];

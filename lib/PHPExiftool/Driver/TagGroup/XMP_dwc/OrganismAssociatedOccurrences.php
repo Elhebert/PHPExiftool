@@ -28,13 +28,14 @@ class OrganismAssociatedOccurrences extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Organism Associated Occurrences',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106597
+             * line : 78845
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OrganismAssociatedOccurrences extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OrganismAssociatedOccurrences',
             'desc' => [
+                'en' => 'Organism Associated Occurrences',
             ],
         ],
     ];

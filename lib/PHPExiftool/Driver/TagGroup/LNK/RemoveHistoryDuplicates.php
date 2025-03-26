@@ -28,13 +28,14 @@ class RemoveHistoryDuplicates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Remove History Duplicates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161040
+             * line : 109967
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RemoveHistoryDuplicates extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:RemoveHistoryDuplicates',
             'desc' => [
+                'en' => 'Remove History Duplicates',
             ],
         ],
     ];

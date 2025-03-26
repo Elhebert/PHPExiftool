@@ -28,13 +28,14 @@ class LastMenstrualDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Menstrual Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95299
+             * line : 68761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastMenstrualDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LastMenstrualDate',
             'desc' => [
+                'en' => 'Last Menstrual Date',
             ],
         ],
     ];

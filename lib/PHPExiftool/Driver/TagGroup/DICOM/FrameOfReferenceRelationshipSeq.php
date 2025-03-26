@@ -28,13 +28,14 @@ class FrameOfReferenceRelationshipSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Of Reference Relationship Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102648
+             * line : 75744
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameOfReferenceRelationshipSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameOfReferenceRelationshipSeq',
             'desc' => [
+                'en' => 'Frame Of Reference Relationship Seq',
             ],
         ],
     ];

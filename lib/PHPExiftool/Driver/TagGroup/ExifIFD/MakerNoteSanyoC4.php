@@ -28,13 +28,14 @@ class MakerNoteSanyoC4 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Sanyo C4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105175
+             * line : 77966
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteSanyoC4 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteSanyoC4',
             'desc' => [
+                'en' => 'Maker Note Sanyo C4',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116136
+             * line : 83259
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteSanyoC4 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteSanyoC4',
             'desc' => [
+                'en' => 'Maker Note Sanyo C4',
             ],
         ],
     ];

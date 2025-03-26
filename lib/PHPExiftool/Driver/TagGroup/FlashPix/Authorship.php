@@ -28,13 +28,14 @@ class Authorship extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Authorship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124965
+             * line : 87300
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Authorship extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:Authorship',
             'desc' => [
+                'en' => 'Authorship',
             ],
         ],
     ];

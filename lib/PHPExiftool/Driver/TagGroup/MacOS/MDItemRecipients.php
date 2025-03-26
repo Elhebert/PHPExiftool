@@ -28,13 +28,14 @@ class MDItemRecipients extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Recipients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172964
+             * line : 119017
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemRecipients extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemRecipients',
             'desc' => [
+                'en' => 'MD Item Recipients',
             ],
         ],
     ];

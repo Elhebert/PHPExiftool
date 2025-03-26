@@ -28,13 +28,14 @@ class Orientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410628
+             * line : 289940
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Orientation extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:Orientation',
             'desc' => [
+                'en' => 'Orientation',
             ],
         ],
     ];

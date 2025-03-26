@@ -28,13 +28,14 @@ class BitsGrouped extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bits Grouped',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98741
+             * line : 72016
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitsGrouped extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BitsGrouped',
             'desc' => [
+                'en' => 'Bits Grouped',
             ],
         ],
     ];

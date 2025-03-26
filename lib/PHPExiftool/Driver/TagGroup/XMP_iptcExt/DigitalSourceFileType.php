@@ -28,13 +28,14 @@ class DigitalSourceFileType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Source File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409247
+             * line : 289047
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalSourceFileType extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:DigitalSourceFileType',
             'desc' => [
+                'en' => 'Digital Source File Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EmbeddedVideo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Video',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121029
+             * line : 84970
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedVideo extends AbstractTagGroup
              */
             'id' => 'Extra.File:EmbeddedVideo',
             'desc' => [
+                'en' => 'Embedded Video',
             ],
         ],
     ];

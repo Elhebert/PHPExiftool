@@ -28,13 +28,14 @@ class PlaneType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plane Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98525
+             * line : 71857
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaneType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlaneType',
             'desc' => [
+                'en' => 'Plane Type',
             ],
         ],
     ];

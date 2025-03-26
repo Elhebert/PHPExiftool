@@ -28,13 +28,14 @@ class Lyrics extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lyrics',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1355
+             * line : 604
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lyrics extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Lyrics',
             'desc' => [
+                'en' => 'Lyrics',
             ],
         ],
     ];

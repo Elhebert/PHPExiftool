@@ -28,13 +28,14 @@ class RecordingCopyright extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recording Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325989
+             * line : 229946
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordingCopyright extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:RecordingCopyright',
             'desc' => [
+                'en' => 'Recording Copyright',
             ],
         ],
     ];

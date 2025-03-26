@@ -28,13 +28,14 @@ class ClosedCaptioning extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Closed Captioning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176030
+             * line : 121110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClosedCaptioning extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ClosedCaptioning',
             'desc' => [
+                'en' => 'Closed Captioning',
             ],
         ],
     ];

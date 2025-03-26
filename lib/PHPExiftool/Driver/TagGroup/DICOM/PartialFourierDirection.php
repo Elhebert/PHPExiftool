@@ -28,13 +28,14 @@ class PartialFourierDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial Fourier Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96599
+             * line : 70003
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialFourierDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PartialFourierDirection',
             'desc' => [
+                'en' => 'Partial Fourier Direction',
             ],
         ],
     ];

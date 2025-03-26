@@ -28,13 +28,14 @@ class OutputProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Output Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157110
+             * line : 108314
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OutputProfile extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OutputProfile',
             'desc' => [
+                'en' => 'Output Profile',
             ],
         ],
     ];

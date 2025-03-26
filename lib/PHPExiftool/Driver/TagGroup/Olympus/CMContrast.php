@@ -28,13 +28,14 @@ class CMContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CM Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 261257
+             * line : 180326
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class CMContrast extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CMContrast',
             'desc' => [
+                'en' => 'CM Contrast',
             ],
         ],
     ];

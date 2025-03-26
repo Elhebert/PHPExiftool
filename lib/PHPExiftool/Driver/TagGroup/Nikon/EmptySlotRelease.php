@@ -28,13 +28,14 @@ class EmptySlotRelease extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Empty Slot Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201914
+             * line : 136789
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EmptySlotRelease extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:EmptySlotRelease',
             'desc' => [
+                'en' => 'Empty Slot Release',
             ],
         ],
     ];

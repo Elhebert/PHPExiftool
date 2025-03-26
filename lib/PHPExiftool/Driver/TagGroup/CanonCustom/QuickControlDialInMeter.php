@@ -28,13 +28,14 @@ class QuickControlDialInMeter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quick Control Dial In Meter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74701
+             * line : 55102
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QuickControlDialInMeter extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:QuickControlDialInMeter',
             'desc' => [
+                'en' => 'Quick Control Dial In Meter',
             ],
         ],
     ];

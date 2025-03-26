@@ -28,13 +28,14 @@ class JPSSeparation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPS Separation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::JPS
-             * line : 152496
+             * line : 104957
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPSSeparation extends AbstractTagGroup
              */
             'id' => 'JPEG::JPS.JPS:JPSSeparation',
             'desc' => [
+                'en' => 'JPS Separation',
             ],
         ],
     ];

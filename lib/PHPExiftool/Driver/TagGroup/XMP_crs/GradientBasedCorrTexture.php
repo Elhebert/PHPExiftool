@@ -28,13 +28,14 @@ class GradientBasedCorrTexture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gradient Based Corr Texture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402697
+             * line : 285834
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GradientBasedCorrTexture extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GradientBasedCorrTexture',
             'desc' => [
+                'en' => 'Gradient Based Corr Texture',
             ],
         ],
     ];

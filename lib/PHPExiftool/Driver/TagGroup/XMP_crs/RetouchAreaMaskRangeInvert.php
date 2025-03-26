@@ -28,13 +28,14 @@ class RetouchAreaMaskRangeInvert extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Retouch Area Mask Range Invert',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404018
+             * line : 287129
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RetouchAreaMaskRangeInvert extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RetouchAreaMaskRangeInvert',
             'desc' => [
+                'en' => 'Retouch Area Mask Range Invert',
             ],
         ],
     ];

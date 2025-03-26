@@ -28,13 +28,14 @@ class OverlaysBlue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlays Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104378
+             * line : 77451
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlaysBlue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlaysBlue',
             'desc' => [
+                'en' => 'Overlays Blue',
             ],
         ],
     ];

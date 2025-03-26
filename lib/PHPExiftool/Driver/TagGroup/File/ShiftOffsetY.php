@@ -28,13 +28,14 @@ class ShiftOffsetY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shift Offset Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166580
+             * line : 113319
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShiftOffsetY extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ShiftOffsetY',
             'desc' => [
+                'en' => 'Shift Offset Y',
             ],
         ],
     ];

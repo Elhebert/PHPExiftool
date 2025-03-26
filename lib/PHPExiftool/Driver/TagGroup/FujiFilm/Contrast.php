@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129321
+             * line : 89521
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129434
+             * line : 89547
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

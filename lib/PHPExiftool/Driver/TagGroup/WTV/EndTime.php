@@ -28,13 +28,14 @@ class EndTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396312
+             * line : 280579
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndTime extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:EndTime',
             'desc' => [
+                'en' => 'End Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DistortionParam02 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Param 02',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::DistortionInfo
-             * line : 280146
+             * line : 194483
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionParam02 extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::DistortionInfo.PanasonicRaw:DistortionParam02',
             'desc' => [
+                'en' => 'Distortion Param 02',
             ],
         ],
     ];

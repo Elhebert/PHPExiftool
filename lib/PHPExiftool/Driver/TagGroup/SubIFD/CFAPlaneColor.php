@@ -28,13 +28,14 @@ class CFAPlaneColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CFA Plane Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118857
+             * line : 84088
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CFAPlaneColor extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:CFAPlaneColor',
             'desc' => [
+                'en' => 'CFA Plane Color',
             ],
         ],
     ];

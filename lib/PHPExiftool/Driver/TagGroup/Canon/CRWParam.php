@@ -28,13 +28,14 @@ class CRWParam extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CRW Param',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65983
+             * line : 50097
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CRWParam extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:CRWParam',
             'desc' => [
+                'en' => 'CRW Param',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DestinationAE extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Destination AE',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102253
+             * line : 75363
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DestinationAE extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DestinationAE',
             'desc' => [
+                'en' => 'Destination AE',
             ],
         ],
     ];

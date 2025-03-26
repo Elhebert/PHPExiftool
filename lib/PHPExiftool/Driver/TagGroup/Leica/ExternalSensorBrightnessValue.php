@@ -28,13 +28,14 @@ class ExternalSensorBrightnessValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Sensor Brightness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274665
+             * line : 191550
              * type : rational64s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExternalSensorBrightnessValue extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:ExternalSensorBrightnessValue',
             'desc' => [
+                'en' => 'External Sensor Brightness Value',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274949
+             * line : 191668
              * type : rational64s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExternalSensorBrightnessValue extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:ExternalSensorBrightnessValue',
             'desc' => [
+                'en' => 'External Sensor Brightness Value',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 274992
+             * line : 191687
              * type : rational64s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExternalSensorBrightnessValue extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:ExternalSensorBrightnessValue',
             'desc' => [
+                'en' => 'External Sensor Brightness Value',
             ],
         ],
         3 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279647
+             * line : 194223
              * type : int32s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ExternalSensorBrightnessValue extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:ExternalSensorBrightnessValue',
             'desc' => [
+                'en' => 'External Sensor Brightness Value',
             ],
         ],
     ];

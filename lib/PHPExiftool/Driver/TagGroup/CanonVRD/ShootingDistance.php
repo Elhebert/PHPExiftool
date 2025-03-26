@@ -28,13 +28,14 @@ class ShootingDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shooting Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80670
+             * line : 58806
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShootingDistance extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ShootingDistance',
             'desc' => [
+                'en' => 'Shooting Distance',
             ],
         ],
     ];

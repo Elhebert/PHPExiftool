@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93431
+             * line : 67793
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
         1 => [
             /**
              * table_name : Composite
-             * line : 93478
+             * line : 67802
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

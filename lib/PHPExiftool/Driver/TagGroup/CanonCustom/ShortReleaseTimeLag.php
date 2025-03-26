@@ -28,13 +28,14 @@ class ShortReleaseTimeLag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Short Release Time Lag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75481
+             * line : 55595
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShortReleaseTimeLag extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ShortReleaseTimeLag',
             'desc' => [
+                'en' => 'Short Release Time Lag',
             ],
         ],
     ];

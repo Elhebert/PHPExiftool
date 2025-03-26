@@ -28,13 +28,14 @@ class ThumbnailClip extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Clip',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127262
+             * line : 88324
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailClip extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:ThumbnailClip',
             'desc' => [
+                'en' => 'Thumbnail Clip',
             ],
         ],
     ];

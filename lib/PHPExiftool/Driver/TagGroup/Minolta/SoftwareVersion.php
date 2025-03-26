@@ -28,13 +28,14 @@ class SoftwareVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::MMA
-             * line : 182549
+             * line : 124239
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class SoftwareVersion extends AbstractTagGroup
              */
             'id' => 'Minolta::MMA.Minolta:SoftwareVersion',
             'desc' => [
+                'en' => 'Software Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalSpots extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Spots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95921
+             * line : 69346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalSpots extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FocalSpots',
             'desc' => [
+                'en' => 'Focal Spots',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawDevSharpnessValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Sharpness Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260263
+             * line : 179790
              * type : int16s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class RawDevSharpnessValue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevSharpnessValue',
             'desc' => [
+                'en' => 'Raw Dev Sharpness Value',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260459
+             * line : 179923
              * type : int16s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class RawDevSharpnessValue extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevSharpnessValue',
             'desc' => [
+                'en' => 'Raw Dev Sharpness Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileDescriptors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Descriptors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170859
+             * line : 117090
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileDescriptors extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FileDescriptors',
             'desc' => [
+                'en' => 'File Descriptors',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OpColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Op Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoHeader
-             * line : 326228
+             * line : 230146
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class OpColor extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoHeader.QuickTime:OpColor',
             'desc' => [
+                'en' => 'Op Color',
             ],
         ],
     ];

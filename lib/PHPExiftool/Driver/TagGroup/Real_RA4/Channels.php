@@ -28,13 +28,14 @@ class Channels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329856
+             * line : 232254
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
     ];

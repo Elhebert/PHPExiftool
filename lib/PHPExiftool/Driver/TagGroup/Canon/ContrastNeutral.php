@@ -28,13 +28,14 @@ class ContrastNeutral extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Neutral',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34447
+             * line : 26477
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastNeutral',
             'desc' => [
+                'en' => 'Contrast Neutral',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67282
+             * line : 51041
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastNeutral',
             'desc' => [
+                'en' => 'Contrast Neutral',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68380
+             * line : 51702
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastNeutral extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastNeutral',
             'desc' => [
+                'en' => 'Contrast Neutral',
             ],
         ],
     ];

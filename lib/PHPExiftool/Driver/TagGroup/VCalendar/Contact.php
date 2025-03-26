@@ -28,13 +28,14 @@ class Contact extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contact',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395325
+             * line : 279981
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Contact extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Contact',
             'desc' => [
+                'en' => 'Contact',
             ],
         ],
     ];

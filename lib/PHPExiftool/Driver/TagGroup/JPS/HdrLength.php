@@ -28,13 +28,14 @@ class HdrLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hdr Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::JPS
-             * line : 152493
+             * line : 104954
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HdrLength extends AbstractTagGroup
              */
             'id' => 'JPEG::JPS.JPS:HdrLength',
             'desc' => [
+                'en' => 'Hdr Length',
             ],
         ],
     ];

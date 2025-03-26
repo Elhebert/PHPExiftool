@@ -28,13 +28,14 @@ class LightReading extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Reading',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297362
+             * line : 207716
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightReading extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:LightReading',
             'desc' => [
+                'en' => 'Light Reading',
             ],
         ],
     ];

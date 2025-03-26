@@ -28,13 +28,14 @@ class DVHNormalizationPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Normalization Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102477
+             * line : 75576
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHNormalizationPoint extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHNormalizationPoint',
             'desc' => [
+                'en' => 'DVH Normalization Point',
             ],
         ],
     ];

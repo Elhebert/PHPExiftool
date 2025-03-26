@@ -28,13 +28,14 @@ class LossyImageCompression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lossy Image Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94985
+             * line : 68467
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LossyImageCompression extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LossyImageCompression',
             'desc' => [
+                'en' => 'Lossy Image Compression',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 99090
+             * line : 72309
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LossyImageCompression extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LossyImageCompression',
             'desc' => [
+                'en' => 'Lossy Image Compression',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RASLetterForScoutEndLoc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RAS Letter For Scout End Loc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98590
+             * line : 71920
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RASLetterForScoutEndLoc extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RASLetterForScoutEndLoc',
             'desc' => [
+                'en' => 'RAS Letter For Scout End Loc',
             ],
         ],
     ];

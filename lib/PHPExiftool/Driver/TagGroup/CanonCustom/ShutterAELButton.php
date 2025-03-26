@@ -28,13 +28,14 @@ class ShutterAELButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Button/AEL Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 71948
+             * line : 53516
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterAELButton extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:ShutterAELButton',
             'desc' => [
+                'en' => 'Shutter Button/AEL Button',
             ],
         ],
     ];

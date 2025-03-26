@@ -28,13 +28,14 @@ class AlgorithmParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Algorithm Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101223
+             * line : 74373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlgorithmParameters extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlgorithmParameters',
             'desc' => [
+                'en' => 'Algorithm Parameters',
             ],
         ],
     ];

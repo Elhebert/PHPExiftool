@@ -28,13 +28,14 @@ class SensorLeftBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Left Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280243
+             * line : 194531
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorLeftBorder extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:SensorLeftBorder',
             'desc' => [
+                'en' => 'Sensor Left Border',
             ],
         ],
     ];

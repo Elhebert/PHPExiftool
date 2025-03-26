@@ -28,13 +28,14 @@ class StartTiltAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Tilt Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166773
+             * line : 113508
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTiltAngle extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:StartTiltAngle',
             'desc' => [
+                'en' => 'Start Tilt Angle',
             ],
         ],
     ];

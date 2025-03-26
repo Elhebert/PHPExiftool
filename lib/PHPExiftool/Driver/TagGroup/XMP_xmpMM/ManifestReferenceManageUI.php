@@ -28,13 +28,14 @@ class ManifestReferenceManageUI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Manage UI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414139
+             * line : 292161
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceManageUI extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceManageUI',
             'desc' => [
+                'en' => 'Manifest Reference Manage UI',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PSDEstimatedLimitInTeslaPerSecond extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PSD Estimated Limit In Tesla Per Second',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100327
+             * line : 73500
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PSDEstimatedLimitInTeslaPerSecond extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PSDEstimatedLimitInTeslaPerSecond',
             'desc' => [
+                'en' => 'PSD Estimated Limit In Tesla Per Second',
             ],
         ],
     ];

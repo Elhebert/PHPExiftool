@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Image
-             * line : 273302
+             * line : 190657
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'PSP::Image.PSP:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

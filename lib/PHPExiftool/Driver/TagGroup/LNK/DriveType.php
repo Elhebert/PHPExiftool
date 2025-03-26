@@ -28,13 +28,14 @@ class DriveType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drive Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161080
+             * line : 110000
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DriveType extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:DriveType',
             'desc' => [
+                'en' => 'Drive Type',
             ],
         ],
     ];

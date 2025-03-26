@@ -28,13 +28,14 @@ class OrganAtRiskMaximumDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organ At Risk Maximum Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103020
+             * line : 76116
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrganAtRiskMaximumDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrganAtRiskMaximumDose',
             'desc' => [
+                'en' => 'Organ At Risk Maximum Dose',
             ],
         ],
     ];

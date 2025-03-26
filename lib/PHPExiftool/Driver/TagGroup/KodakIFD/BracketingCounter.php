@@ -28,13 +28,14 @@ class BracketingCounter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracketing Counter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155021
+             * line : 106271
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BracketingCounter extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BracketingCounter',
             'desc' => [
+                'en' => 'Bracketing Counter',
             ],
         ],
     ];

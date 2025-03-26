@@ -28,13 +28,14 @@ class LookParametersConvertToGrayscale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Parameters Convert To Grayscale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402890
+             * line : 286026
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookParametersConvertToGrayscale extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookParametersConvertToGrayscale',
             'desc' => [
+                'en' => 'Look Parameters Convert To Grayscale',
             ],
         ],
     ];

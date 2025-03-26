@@ -28,13 +28,14 @@ class TreatmentSites extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Sites',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102957
+             * line : 76053
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentSites extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentSites',
             'desc' => [
+                'en' => 'Treatment Sites',
             ],
         ],
     ];

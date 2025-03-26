@@ -28,13 +28,14 @@ class TStop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'T Stop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120525
+             * line : 84670
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TStop extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:TStop',
             'desc' => [
+                'en' => 'T Stop',
             ],
         ],
     ];

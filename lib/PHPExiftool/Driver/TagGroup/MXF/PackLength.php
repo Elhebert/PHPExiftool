@@ -28,13 +28,14 @@ class PackLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pack Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170838
+             * line : 117069
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackLength',
             'desc' => [
+                'en' => 'Pack Length',
             ],
         ],
     ];

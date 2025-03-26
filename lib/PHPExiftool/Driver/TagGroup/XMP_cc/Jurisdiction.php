@@ -28,13 +28,14 @@ class Jurisdiction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Jurisdiction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398081
+             * line : 281721
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Jurisdiction extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:Jurisdiction',
             'desc' => [
+                'en' => 'Jurisdiction',
             ],
         ],
     ];

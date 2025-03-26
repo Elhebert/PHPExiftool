@@ -28,13 +28,14 @@ class ProducedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Produced By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328360
+             * line : 231598
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProducedBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:ProducedBy',
             'desc' => [
+                'en' => 'Produced By',
             ],
         ],
     ];

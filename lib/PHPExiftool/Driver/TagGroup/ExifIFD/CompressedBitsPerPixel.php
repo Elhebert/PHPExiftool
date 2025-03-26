@@ -28,13 +28,14 @@ class CompressedBitsPerPixel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compressed Bits Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114111
+             * line : 82704
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CompressedBitsPerPixel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CompressedBitsPerPixel',
             'desc' => [
+                'en' => 'Compressed Bits Per Pixel',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureCompensationSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346701
+             * line : 242960
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensationSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ExposureCompensationSet',
             'desc' => [
+                'en' => 'Exposure Compensation Set',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348386
+             * line : 243740
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensationSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ExposureCompensationSet',
             'desc' => [
+                'en' => 'Exposure Compensation Set',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 349791
+             * line : 244355
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExposureCompensationSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ExposureCompensationSet',
             'desc' => [
+                'en' => 'Exposure Compensation Set',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360778
+             * line : 251428
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ExposureCompensationSet extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ExposureCompensationSet',
             'desc' => [
+                'en' => 'Exposure Compensation Set',
             ],
         ],
     ];

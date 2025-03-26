@@ -28,13 +28,14 @@ class WB_RBLevelsCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceA
-             * line : 191993
+             * line : 130134
              * type : int16u
              * writable : true
              * count : 14
@@ -42,6 +43,7 @@ class WB_RBLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsCloudy',
             'desc' => [
+                'en' => 'WB RB Levels Cloudy',
             ],
         ],
     ];

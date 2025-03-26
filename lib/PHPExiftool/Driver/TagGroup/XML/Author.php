@@ -28,13 +28,14 @@ class Author extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : iWork::Main
-             * line : 415062
+             * line : 292834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Author extends AbstractTagGroup
              */
             'id' => 'iWork::Main.XML:Author',
             'desc' => [
+                'en' => 'Author',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UnifiedProcedureStepComURISeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unified Procedure Step Com URI Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101736
+             * line : 74877
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnifiedProcedureStepComURISeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UnifiedProcedureStepComURISeq',
             'desc' => [
+                'en' => 'Unified Procedure Step Com URI Seq',
             ],
         ],
     ];

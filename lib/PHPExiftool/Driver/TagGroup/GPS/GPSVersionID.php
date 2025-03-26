@@ -28,13 +28,14 @@ class GPSVersionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Version ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131688
+             * line : 90825
              * type : int8u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141296
+             * line : 98197
              * type : int8u
              * writable : false
              * count : 4
@@ -55,12 +57,13 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202747
+             * line : 137046
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301073
+             * line : 209743
              * type : undef
              * writable : false
              * count : 8
@@ -81,6 +85,7 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
     ];

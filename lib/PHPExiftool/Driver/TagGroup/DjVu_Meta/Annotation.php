@@ -28,13 +28,14 @@ class Annotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107376
+             * line : 79273
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Annotation extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Annotation',
             'desc' => [
+                'en' => 'Annotation',
             ],
         ],
     ];

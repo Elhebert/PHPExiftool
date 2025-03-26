@@ -28,13 +28,14 @@ class DisplayF2Offset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display F2 Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171181
+             * line : 117399
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayF2Offset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DisplayF2Offset',
             'desc' => [
+                'en' => 'Display F2 Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SRFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SR Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::SRInfo
-             * line : 301655
+             * line : 209916
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SRFocalLength extends AbstractTagGroup
              */
             'id' => 'Pentax::SRInfo.Pentax:SRFocalLength',
             'desc' => [
+                'en' => 'SR Focal Length',
             ],
         ],
     ];

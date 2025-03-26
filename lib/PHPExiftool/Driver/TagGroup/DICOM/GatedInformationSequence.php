@@ -28,13 +28,14 @@ class GatedInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gated Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100871
+             * line : 74031
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GatedInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GatedInformationSequence',
             'desc' => [
+                'en' => 'Gated Information Sequence',
             ],
         ],
     ];

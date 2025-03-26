@@ -28,13 +28,14 @@ class FocalPlaneAFPointLocation3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane AF Point Location 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag202a
-             * line : 378971
+             * line : 265819
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FocalPlaneAFPointLocation3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag202a.Sony:FocalPlaneAFPointLocation3',
             'desc' => [
+                'en' => 'Focal Plane AF Point Location 3',
             ],
         ],
     ];

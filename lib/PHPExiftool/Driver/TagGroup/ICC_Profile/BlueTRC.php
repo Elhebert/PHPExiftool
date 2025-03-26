@@ -28,13 +28,14 @@ class BlueTRC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blue Tone Reproduction Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146153
+             * line : 101625
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlueTRC extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:BlueTRC',
             'desc' => [
+                'en' => 'Blue Tone Reproduction Curve',
             ],
         ],
     ];

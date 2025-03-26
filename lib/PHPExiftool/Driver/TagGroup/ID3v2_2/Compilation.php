@@ -28,13 +28,14 @@ class Compilation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compilation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148231
+             * line : 102994
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compilation extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Compilation',
             'desc' => [
+                'en' => 'Compilation',
             ],
         ],
     ];

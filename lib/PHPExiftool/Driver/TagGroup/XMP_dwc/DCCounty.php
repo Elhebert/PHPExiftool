@@ -28,13 +28,14 @@ class DCCounty extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC County',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106874
+             * line : 79052
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCCounty extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCCounty',
             'desc' => [
+                'en' => 'DC County',
             ],
         ],
     ];

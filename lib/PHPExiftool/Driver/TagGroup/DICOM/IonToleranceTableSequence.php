@@ -28,13 +28,14 @@ class IonToleranceTableSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Tolerance Table Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103903
+             * line : 76992
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonToleranceTableSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonToleranceTableSequence',
             'desc' => [
+                'en' => 'Ion Tolerance Table Sequence',
             ],
         ],
     ];

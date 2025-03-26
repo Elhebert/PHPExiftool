@@ -28,13 +28,14 @@ class SecondaryTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167408
+             * line : 114027
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SecondaryTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecondaryTitle',
             'desc' => [
+                'en' => 'Secondary Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169810
+             * line : 116163
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SecondaryTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SecondaryTitle',
             'desc' => [
+                'en' => 'Secondary Title',
             ],
         ],
     ];

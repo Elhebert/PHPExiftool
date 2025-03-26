@@ -28,13 +28,14 @@ class MPFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MPF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166245
+             * line : 113041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MPFVersion extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:MPFVersion',
             'desc' => [
+                'en' => 'MPF Version',
             ],
         ],
     ];

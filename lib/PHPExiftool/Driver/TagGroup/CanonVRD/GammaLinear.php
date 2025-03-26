@@ -28,13 +28,14 @@ class GammaLinear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Linear',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80399
+             * line : 58653
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaLinear extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:GammaLinear',
             'desc' => [
+                'en' => 'Gamma Linear',
             ],
         ],
     ];

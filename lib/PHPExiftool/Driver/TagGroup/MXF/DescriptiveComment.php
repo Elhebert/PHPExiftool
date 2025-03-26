@@ -28,13 +28,14 @@ class DescriptiveComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Descriptive Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170222
+             * line : 116499
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DescriptiveComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveComment',
             'desc' => [
+                'en' => 'Descriptive Comment',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170225
+             * line : 116502
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DescriptiveComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveComment',
             'desc' => [
+                'en' => 'Descriptive Comment',
             ],
         ],
     ];

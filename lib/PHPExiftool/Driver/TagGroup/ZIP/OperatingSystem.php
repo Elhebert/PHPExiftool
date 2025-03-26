@@ -28,13 +28,14 @@ class OperatingSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operating System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::GZIP
-             * line : 414739
+             * line : 292612
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OperatingSystem extends AbstractTagGroup
              */
             'id' => 'ZIP::GZIP.ZIP:OperatingSystem',
             'desc' => [
+                'en' => 'Operating System',
             ],
         ],
         1 => [
             /**
              * table_name : ZIP::RAR
-             * line : 414961
+             * line : 292768
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OperatingSystem extends AbstractTagGroup
              */
             'id' => 'ZIP::RAR.ZIP:OperatingSystem',
             'desc' => [
+                'en' => 'Operating System',
             ],
         ],
     ];

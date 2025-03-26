@@ -28,13 +28,14 @@ class DCMinimumDistanceAboveSurfaceInMeters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Minimum Distance Above Surface In Meters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106974
+             * line : 79127
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCMinimumDistanceAboveSurfaceInMeters extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCMinimumDistanceAboveSurfaceInMeters',
             'desc' => [
+                'en' => 'DC Minimum Distance Above Surface In Meters',
             ],
         ],
     ];

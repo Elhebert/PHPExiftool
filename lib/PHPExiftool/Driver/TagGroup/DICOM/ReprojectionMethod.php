@@ -28,13 +28,14 @@ class ReprojectionMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reprojection Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100971
+             * line : 74121
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReprojectionMethod extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReprojectionMethod',
             'desc' => [
+                'en' => 'Reprojection Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFFineSrchPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Fine Srch Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306230
+             * line : 212735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFFineSrchPoints extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFFineSrchPoints',
             'desc' => [
+                'en' => 'AF Fine Srch Points',
             ],
         ],
     ];

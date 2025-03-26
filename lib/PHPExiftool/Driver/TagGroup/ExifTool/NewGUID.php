@@ -28,13 +28,14 @@ class NewGUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'New GUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121470
+             * line : 85211
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NewGUID extends AbstractTagGroup
              */
             'id' => 'Extra.ExifTool:NewGUID',
             'desc' => [
+                'en' => 'New GUID',
             ],
         ],
     ];

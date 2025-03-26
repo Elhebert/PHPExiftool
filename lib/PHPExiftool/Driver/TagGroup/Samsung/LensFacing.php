@@ -28,13 +28,14 @@ class LensFacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Facing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334205
+             * line : 234285
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensFacing extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:LensFacing',
             'desc' => [
+                'en' => 'Lens Facing',
             ],
         ],
     ];

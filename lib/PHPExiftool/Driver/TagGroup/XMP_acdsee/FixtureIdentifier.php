@@ -28,13 +28,14 @@ class FixtureIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fixture Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397774
+             * line : 281598
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FixtureIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:FixtureIdentifier',
             'desc' => [
+                'en' => 'Fixture Identifier',
             ],
         ],
     ];

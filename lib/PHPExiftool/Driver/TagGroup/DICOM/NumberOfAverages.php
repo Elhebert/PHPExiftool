@@ -28,13 +28,14 @@ class NumberOfAverages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Averages',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95528
+             * line : 68983
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfAverages extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfAverages',
             'desc' => [
+                'en' => 'Number Of Averages',
             ],
         ],
     ];

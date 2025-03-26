@@ -28,13 +28,14 @@ class CaptProfType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capt Prof Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161745
+             * line : 110494
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptProfType extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CaptProfType',
             'desc' => [
+                'en' => 'Capt Prof Type',
             ],
         ],
     ];

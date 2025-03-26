@@ -28,13 +28,14 @@ class TimeSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96123
+             * line : 69541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeSource',
             'desc' => [
+                'en' => 'Time Source',
             ],
         ],
     ];

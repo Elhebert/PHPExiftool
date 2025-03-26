@@ -28,13 +28,14 @@ class FixationLightAzimuthalAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixation Light Azimuthal Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103843
+             * line : 76932
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixationLightAzimuthalAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FixationLightAzimuthalAngle',
             'desc' => [
+                'en' => 'Fixation Light Azimuthal Angle',
             ],
         ],
     ];

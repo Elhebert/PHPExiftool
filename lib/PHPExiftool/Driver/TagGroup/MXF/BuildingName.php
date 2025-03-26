@@ -28,13 +28,14 @@ class BuildingName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Building Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171614
+             * line : 117808
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BuildingName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BuildingName',
             'desc' => [
+                'en' => 'Building Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171617
+             * line : 117811
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BuildingName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BuildingName',
             'desc' => [
+                'en' => 'Building Name',
             ],
         ],
     ];

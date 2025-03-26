@@ -28,13 +28,14 @@ class RawDataUniqueID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Data Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119937
+             * line : 84372
              * type : int8u
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class RawDataUniqueID extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:RawDataUniqueID',
             'desc' => [
+                'en' => 'Raw Data Unique ID',
             ],
         ],
     ];

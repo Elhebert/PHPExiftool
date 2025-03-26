@@ -28,13 +28,14 @@ class TransmitterFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transmitter Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96747
+             * line : 70150
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransmitterFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransmitterFrequency',
             'desc' => [
+                'en' => 'Transmitter Frequency',
             ],
         ],
     ];

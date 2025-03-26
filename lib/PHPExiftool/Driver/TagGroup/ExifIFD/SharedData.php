@@ -28,13 +28,14 @@ class SharedData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shared Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113552
+             * line : 82527
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharedData extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SharedData',
             'desc' => [
+                'en' => 'Shared Data',
             ],
         ],
     ];

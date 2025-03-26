@@ -28,13 +28,14 @@ class ThumbnailFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Thumbnail File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78713
+             * line : 57263
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class ThumbnailFileName extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:ThumbnailFileName',
             'desc' => [
+                'en' => 'Thumbnail File Name',
             ],
         ],
     ];

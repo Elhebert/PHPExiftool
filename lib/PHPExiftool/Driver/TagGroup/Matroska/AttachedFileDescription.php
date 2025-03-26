@@ -28,13 +28,14 @@ class AttachedFileDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attached File Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173547
+             * line : 119476
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttachedFileDescription extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AttachedFileDescription',
             'desc' => [
+                'en' => 'Attached File Description',
             ],
         ],
     ];

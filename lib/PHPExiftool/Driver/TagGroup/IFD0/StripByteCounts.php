@@ -28,13 +28,14 @@ class StripByteCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Byte Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280728
+             * line : 194690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StripByteCounts extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:StripByteCounts',
             'desc' => [
+                'en' => 'Strip Byte Counts',
             ],
         ],
     ];

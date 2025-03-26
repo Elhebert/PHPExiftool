@@ -28,13 +28,14 @@ class MaximumMemoryAllocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Maximum Memory Allocation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102002
+             * line : 75141
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaximumMemoryAllocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaximumMemoryAllocation',
             'desc' => [
+                'en' => 'Maximum Memory Allocation',
             ],
         ],
     ];

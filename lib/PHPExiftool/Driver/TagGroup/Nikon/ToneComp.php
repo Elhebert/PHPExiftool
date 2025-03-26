@@ -28,13 +28,14 @@ class ToneComp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197180
+             * line : 133102
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneComp extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ToneComp',
             'desc' => [
+                'en' => 'Tone Comp',
             ],
         ],
     ];

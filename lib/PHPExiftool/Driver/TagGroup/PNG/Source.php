@@ -28,13 +28,14 @@ class Source extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 272960
+             * line : 190560
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Source extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:Source',
             'desc' => [
+                'en' => 'Source',
             ],
         ],
     ];

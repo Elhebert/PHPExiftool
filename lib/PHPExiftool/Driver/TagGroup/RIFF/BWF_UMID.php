@@ -28,13 +28,14 @@ class BWF_UMID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BWF UMID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::BroadcastExt
-             * line : 327805
+             * line : 231361
              * type : undef
              * writable : false
              * count : 64
@@ -42,6 +43,7 @@ class BWF_UMID extends AbstractTagGroup
              */
             'id' => 'RIFF::BroadcastExt.RIFF:BWF_UMID',
             'desc' => [
+                'en' => 'BWF UMID',
             ],
         ],
     ];

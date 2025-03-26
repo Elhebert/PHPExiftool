@@ -28,13 +28,14 @@ class ContinuityOfContent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Continuity Of Content',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100068
+             * line : 73269
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContinuityOfContent extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContinuityOfContent',
             'desc' => [
+                'en' => 'Continuity Of Content',
             ],
         ],
     ];

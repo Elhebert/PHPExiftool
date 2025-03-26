@@ -28,13 +28,14 @@ class PlateID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plate ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95574
+             * line : 69028
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlateID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlateID',
             'desc' => [
+                'en' => 'Plate ID',
             ],
         ],
     ];

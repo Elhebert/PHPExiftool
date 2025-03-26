@@ -28,13 +28,14 @@ class OriginalDefaultFinalSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Default Final Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120533
+             * line : 84676
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class OriginalDefaultFinalSize extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:OriginalDefaultFinalSize',
             'desc' => [
+                'en' => 'Original Default Final Size',
             ],
         ],
     ];

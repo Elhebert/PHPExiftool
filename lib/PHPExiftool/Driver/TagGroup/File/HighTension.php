@@ -28,13 +28,14 @@ class HighTension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'High Tension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166425
+             * line : 113166
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HighTension extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:HighTension',
             'desc' => [
+                'en' => 'High Tension',
             ],
         ],
     ];

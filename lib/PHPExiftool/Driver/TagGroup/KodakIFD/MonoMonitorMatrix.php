@@ -28,13 +28,14 @@ class MonoMonitorMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mono Monitor Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155633
+             * line : 106844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MonoMonitorMatrix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MonoMonitorMatrix',
             'desc' => [
+                'en' => 'Mono Monitor Matrix',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96998
+             * line : 70399
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageFilter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageFilter',
             'desc' => [
+                'en' => 'Image Filter',
             ],
         ],
     ];

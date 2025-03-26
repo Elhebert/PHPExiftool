@@ -28,13 +28,14 @@ class NumHistoryBuffers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num History Buffers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161037
+             * line : 109964
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumHistoryBuffers extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:NumHistoryBuffers',
             'desc' => [
+                'en' => 'Num History Buffers',
             ],
         ],
     ];

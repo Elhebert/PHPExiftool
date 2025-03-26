@@ -28,13 +28,14 @@ class MaxPacketSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Packet Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1766
+             * line : 884
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxPacketSize extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:MaxPacketSize',
             'desc' => [
+                'en' => 'Max Packet Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Nickname extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nickname',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395157
+             * line : 279890
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Nickname extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Nickname',
             'desc' => [
+                'en' => 'Nickname',
             ],
         ],
     ];

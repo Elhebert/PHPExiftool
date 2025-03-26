@@ -28,13 +28,14 @@ class CaptureHeightResetBlackSegTest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Height Reset Black Seg Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157257
+             * line : 108449
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureHeightResetBlackSegTest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CaptureHeightResetBlackSegTest',
             'desc' => [
+                'en' => 'Capture Height Reset Black Seg Test',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RecordOwnerInstitutionCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Owner Institution Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106677
+             * line : 78905
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordOwnerInstitutionCode extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordOwnerInstitutionCode',
             'desc' => [
+                'en' => 'Record Owner Institution Code',
             ],
         ],
     ];

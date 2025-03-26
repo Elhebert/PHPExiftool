@@ -28,13 +28,14 @@ class FlashFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192560
+             * line : 130444
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashFocalLength',
             'desc' => [
+                'en' => 'Flash Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193064
+             * line : 130776
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashFocalLength',
             'desc' => [
+                'en' => 'Flash Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193636
+             * line : 131143
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashFocalLength',
             'desc' => [
+                'en' => 'Flash Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194240
+             * line : 131545
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashFocalLength',
             'desc' => [
+                'en' => 'Flash Focal Length',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194787
+             * line : 131926
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FlashFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:FlashFocalLength',
             'desc' => [
+                'en' => 'Flash Focal Length',
             ],
         ],
     ];

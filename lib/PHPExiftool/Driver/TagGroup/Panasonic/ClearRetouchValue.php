@@ -28,13 +28,14 @@ class ClearRetouchValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Clear Retouch Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277858
+             * line : 193272
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ClearRetouchValue extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ClearRetouchValue',
             'desc' => [
+                'en' => 'Clear Retouch Value',
             ],
         ],
     ];

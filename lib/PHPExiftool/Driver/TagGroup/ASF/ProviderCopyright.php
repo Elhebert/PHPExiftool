@@ -28,13 +28,14 @@ class ProviderCopyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1525
+             * line : 742
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProviderCopyright extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ProviderCopyright',
             'desc' => [
+                'en' => 'Provider Copyright',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MIMEType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIME Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121457
+             * line : 85205
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIMEType extends AbstractTagGroup
              */
             'id' => 'Extra.File:MIMEType',
             'desc' => [
+                'en' => 'MIME Type',
             ],
         ],
     ];

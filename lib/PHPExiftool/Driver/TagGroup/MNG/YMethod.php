@@ -28,13 +28,14 @@ class YMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165164
+             * line : 112262
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YMethod extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:YMethod',
             'desc' => [
+                'en' => 'Y Method',
             ],
         ],
     ];

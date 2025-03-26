@@ -28,13 +28,14 @@ class GoogleTrackDuration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Google Track Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322200
+             * line : 227759
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GoogleTrackDuration extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:GoogleTrackDuration',
             'desc' => [
+                'en' => 'Google Track Duration',
             ],
         ],
     ];

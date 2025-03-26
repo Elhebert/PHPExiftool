@@ -28,13 +28,14 @@ class FirmwareName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335313
+             * line : 235340
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FirmwareName extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:FirmwareName',
             'desc' => [
+                'en' => 'Firmware Name',
             ],
         ],
     ];

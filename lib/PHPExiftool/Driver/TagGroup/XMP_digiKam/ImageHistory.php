@@ -28,13 +28,14 @@ class ImageHistory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::digiKam
-             * line : 405020
+             * line : 287777
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageHistory extends AbstractTagGroup
              */
             'id' => 'XMP::digiKam.XMP-digiKam:ImageHistory',
             'desc' => [
+                'en' => 'Image History',
             ],
         ],
     ];

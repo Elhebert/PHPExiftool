@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191579
+             * line : 129976
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195664
+             * line : 132512
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195805
+             * line : 132558
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196012
+             * line : 132637
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196218
+             * line : 132738
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196529
+             * line : 132823
              * type : rational64u
              * writable : false
              * count :
@@ -107,12 +113,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202665
+             * line : 137028
              * type : ?
              * writable : false
              * count :
@@ -120,6 +127,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

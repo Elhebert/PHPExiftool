@@ -28,13 +28,14 @@ class GainDeadMapByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gain Dead Map Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GainDeadData
-             * line : 123183
+             * line : 86009
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GainDeadMapByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::GainDeadData.FLIR:GainDeadMapByteOrder',
             'desc' => [
+                'en' => 'Gain Dead Map Byte Order',
             ],
         ],
     ];

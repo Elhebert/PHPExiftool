@@ -28,13 +28,14 @@ class SortArtist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sort Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322846
+             * line : 228340
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SortArtist extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:SortArtist',
             'desc' => [
+                'en' => 'Sort Artist',
             ],
         ],
     ];

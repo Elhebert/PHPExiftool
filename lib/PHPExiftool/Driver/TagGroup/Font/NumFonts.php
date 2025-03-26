@@ -28,13 +28,14 @@ class NumFonts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Fonts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Main
-             * line : 127821
+             * line : 88745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumFonts extends AbstractTagGroup
              */
             'id' => 'Font::Main.Font:NumFonts',
             'desc' => [
+                'en' => 'Num Fonts',
             ],
         ],
     ];

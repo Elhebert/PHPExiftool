@@ -28,13 +28,14 @@ class STEMDetectorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'STEM Detector Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166664
+             * line : 113402
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class STEMDetectorName extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:STEMDetectorName',
             'desc' => [
+                'en' => 'STEM Detector Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SubimageHdr
-             * line : 126628
+             * line : 87808
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumChannels extends AbstractTagGroup
              */
             'id' => 'FlashPix::SubimageHdr.FlashPix:NumChannels',
             'desc' => [
+                'en' => 'Num Channels',
             ],
         ],
     ];

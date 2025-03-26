@@ -28,13 +28,14 @@ class GTModelType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GT Model Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 132736
+             * line : 91038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GTModelType extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:GTModelType',
             'desc' => [
+                'en' => 'GT Model Type',
             ],
         ],
     ];

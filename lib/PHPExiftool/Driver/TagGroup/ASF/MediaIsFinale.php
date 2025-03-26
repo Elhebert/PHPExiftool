@@ -28,13 +28,14 @@ class MediaIsFinale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Finale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1379
+             * line : 625
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsFinale extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaIsFinale',
             'desc' => [
+                'en' => 'Media Is Finale',
             ],
         ],
     ];

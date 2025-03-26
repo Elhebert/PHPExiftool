@@ -28,13 +28,14 @@ class CropTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128269
+             * line : 88972
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropTop extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:CropTop',
             'desc' => [
+                'en' => 'Crop Top',
             ],
         ],
     ];

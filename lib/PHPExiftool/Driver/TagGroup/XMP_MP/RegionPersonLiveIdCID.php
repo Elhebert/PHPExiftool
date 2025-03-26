@@ -28,13 +28,14 @@ class RegionPersonLiveIdCID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Person Live Id CID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP
-             * line : 174084
+             * line : 119918
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionPersonLiveIdCID extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP.XMP-MP:RegionPersonLiveIdCID',
             'desc' => [
+                'en' => 'Region Person Live Id CID',
             ],
         ],
     ];

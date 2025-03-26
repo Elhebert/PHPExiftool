@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394863
+             * line : 279726
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SensorPixelSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Pixel Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197518
+             * line : 133220
              * type : rational64u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class SensorPixelSize extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:SensorPixelSize',
             'desc' => [
+                'en' => 'Sensor Pixel Size',
             ],
         ],
     ];

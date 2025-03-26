@@ -28,13 +28,14 @@ class Flash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 114740
+             * line : 82825
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Flash extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Flash',
             'desc' => [
+                'en' => 'Flash',
             ],
         ],
     ];

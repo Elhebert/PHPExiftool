@@ -28,13 +28,14 @@ class RGBTables extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'RGB Tables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120768
+             * line : 84891
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RGBTables extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:RGBTables',
             'desc' => [
+                'en' => 'RGB Tables',
             ],
         ],
     ];

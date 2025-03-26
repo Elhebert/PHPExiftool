@@ -28,13 +28,14 @@ class OriginalArtist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323121
+             * line : 228480
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalArtist extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:OriginalArtist',
             'desc' => [
+                'en' => 'Original Artist',
             ],
         ],
     ];

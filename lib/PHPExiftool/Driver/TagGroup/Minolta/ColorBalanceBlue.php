@@ -28,13 +28,14 @@ class ColorBalanceBlue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Balance Blue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177662
+             * line : 122008
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorBalanceBlue extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ColorBalanceBlue',
             'desc' => [
+                'en' => 'Color Balance Blue',
             ],
         ],
     ];

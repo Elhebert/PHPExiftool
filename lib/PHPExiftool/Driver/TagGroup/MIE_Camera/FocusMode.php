@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 162944
+             * line : 111281
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

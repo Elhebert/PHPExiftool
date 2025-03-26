@@ -28,13 +28,14 @@ class ScaleType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scale Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413331
+             * line : 291438
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ScaleType extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ScaleType',
             'desc' => [
+                'en' => 'Scale Type',
             ],
         ],
     ];

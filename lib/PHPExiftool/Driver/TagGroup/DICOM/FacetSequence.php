@@ -28,13 +28,14 @@ class FacetSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Facet Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101226
+             * line : 74376
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FacetSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FacetSequence',
             'desc' => [
+                'en' => 'Facet Sequence',
             ],
         ],
     ];

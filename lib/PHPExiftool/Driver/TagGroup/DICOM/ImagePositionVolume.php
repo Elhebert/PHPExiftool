@@ -28,13 +28,14 @@ class ImagePositionVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Position Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98155
+             * line : 71500
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePositionVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePositionVolume',
             'desc' => [
+                'en' => 'Image Position Volume',
             ],
         ],
     ];

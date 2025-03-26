@@ -28,13 +28,14 @@ class MoireFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Moire Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120963
+             * line : 84939
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MoireFilter extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MoireFilter',
             'desc' => [
+                'en' => 'Moire Filter',
             ],
         ],
     ];

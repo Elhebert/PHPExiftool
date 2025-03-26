@@ -28,13 +28,14 @@ class AWBAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306987
+             * line : 213485
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBAlgorithm extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBAlgorithm',
             'desc' => [
+                'en' => 'AWB Algorithm',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PageFront extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Front',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142983
+             * line : 98743
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageFront extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:PageFront',
             'desc' => [
+                'en' => 'Page Front',
             ],
         ],
     ];

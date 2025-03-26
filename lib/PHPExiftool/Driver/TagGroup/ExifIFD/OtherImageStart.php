@@ -28,13 +28,14 @@ class OtherImageStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Image Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112356
+             * line : 82005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherImageStart extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OtherImageStart',
             'desc' => [
+                'en' => 'Other Image Start',
             ],
         ],
     ];

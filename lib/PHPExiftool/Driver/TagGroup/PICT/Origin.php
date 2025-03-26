@@ -28,13 +28,14 @@ class Origin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Origin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264644
+             * line : 182900
              * type : Point
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Origin extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:Origin',
             'desc' => [
+                'en' => 'Origin',
             ],
         ],
     ];

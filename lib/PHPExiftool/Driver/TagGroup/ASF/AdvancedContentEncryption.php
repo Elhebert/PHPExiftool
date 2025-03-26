@@ -28,13 +28,14 @@ class AdvancedContentEncryption extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advanced Content Encryption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1827
+             * line : 928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdvancedContentEncryption extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:AdvancedContentEncryption',
             'desc' => [
+                'en' => 'Advanced Content Encryption',
             ],
         ],
     ];

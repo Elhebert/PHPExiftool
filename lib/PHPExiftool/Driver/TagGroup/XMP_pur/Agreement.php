@@ -28,13 +28,14 @@ class Agreement extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Agreement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411276
+             * line : 290464
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Agreement extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:Agreement',
             'desc' => [
+                'en' => 'Agreement',
             ],
         ],
     ];

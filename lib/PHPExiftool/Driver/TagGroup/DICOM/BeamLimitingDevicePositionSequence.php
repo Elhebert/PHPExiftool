@@ -28,13 +28,14 @@ class BeamLimitingDevicePositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Limiting Device Position Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103363
+             * line : 76458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamLimitingDevicePositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamLimitingDevicePositionSequence',
             'desc' => [
+                'en' => 'Beam Limiting Device Position Sequence',
             ],
         ],
     ];

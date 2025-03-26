@@ -28,13 +28,14 @@ class LimitAF_AreaModeSelAutoPeople extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit AF-Area Mode Sel Auto People',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248810
+             * line : 171498
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitAF_AreaModeSelAutoPeople extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitAF-AreaModeSelAutoPeople',
             'desc' => [
+                'en' => 'Limit AF-Area Mode Sel Auto People',
             ],
         ],
     ];

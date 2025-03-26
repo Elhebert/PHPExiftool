@@ -28,13 +28,14 @@ class JPEGDigest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121444
+             * line : 85196
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGDigest extends AbstractTagGroup
              */
             'id' => 'Extra.File:JPEGDigest',
             'desc' => [
+                'en' => 'JPEG Digest',
             ],
         ],
     ];

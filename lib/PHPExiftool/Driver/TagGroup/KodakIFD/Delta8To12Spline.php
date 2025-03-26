@@ -28,13 +28,14 @@ class Delta8To12Spline extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delta 8 To 12 Spline',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156984
+             * line : 108188
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Delta8To12Spline extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Delta8To12Spline',
             'desc' => [
+                'en' => 'Delta 8 To 12 Spline',
             ],
         ],
     ];

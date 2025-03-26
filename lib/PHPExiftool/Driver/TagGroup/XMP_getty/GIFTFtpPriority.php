@@ -28,13 +28,14 @@ class GIFTFtpPriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GIFT Ftp Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GettyImages
-             * line : 397302
+             * line : 281353
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GIFTFtpPriority extends AbstractTagGroup
              */
             'id' => 'XMP::GettyImages.XMP-getty:GIFTFtpPriority',
             'desc' => [
+                'en' => 'GIFT Ftp Priority',
             ],
         ],
     ];

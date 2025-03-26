@@ -28,13 +28,14 @@ class PatientSupportAngleTolerance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Support Angle Tolerance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103050
+             * line : 76146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientSupportAngleTolerance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientSupportAngleTolerance',
             'desc' => [
+                'en' => 'Patient Support Angle Tolerance',
             ],
         ],
     ];

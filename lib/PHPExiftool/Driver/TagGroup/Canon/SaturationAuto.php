@@ -28,13 +28,14 @@ class SaturationAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68704
+             * line : 51892
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SaturationAuto extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationAuto',
             'desc' => [
+                'en' => 'Saturation Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Ver9401 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ver 9401',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9401
-             * line : 384684
+             * line : 271260
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Ver9401 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9401.Sony:Ver9401',
             'desc' => [
+                'en' => 'Ver 9401',
             ],
         ],
     ];

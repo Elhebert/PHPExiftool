@@ -28,13 +28,14 @@ class GammaWhitePoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82030
+             * line : 60124
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaWhitePoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaWhitePoint',
             'desc' => [
+                'en' => 'Gamma White Point',
             ],
         ],
     ];

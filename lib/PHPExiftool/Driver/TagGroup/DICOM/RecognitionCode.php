@@ -28,13 +28,14 @@ class RecognitionCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recognition Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94670
+             * line : 68161
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecognitionCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecognitionCode',
             'desc' => [
+                'en' => 'Recognition Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UnknownTemperature1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown Temperature 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::MoreInfo
-             * line : 123468
+             * line : 86287
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnknownTemperature1 extends AbstractTagGroup
              */
             'id' => 'FLIR::MoreInfo.FLIR:UnknownTemperature1',
             'desc' => [
+                'en' => 'Unknown Temperature 1',
             ],
         ],
     ];

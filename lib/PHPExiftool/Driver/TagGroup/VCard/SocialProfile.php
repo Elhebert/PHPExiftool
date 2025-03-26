@@ -28,13 +28,14 @@ class SocialProfile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Social Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395254
+             * line : 279947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SocialProfile extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:SocialProfile',
             'desc' => [
+                'en' => 'Social Profile',
             ],
         ],
     ];

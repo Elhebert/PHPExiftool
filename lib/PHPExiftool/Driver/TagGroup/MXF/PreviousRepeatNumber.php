@@ -28,13 +28,14 @@ class PreviousRepeatNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Previous Repeat Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167523
+             * line : 114138
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviousRepeatNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PreviousRepeatNumber',
             'desc' => [
+                'en' => 'Previous Repeat Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CurrentPreProfileMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Current Pre Profile Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120021
+             * line : 84399
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CurrentPreProfileMatrix extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CurrentPreProfileMatrix',
             'desc' => [
+                'en' => 'Current Pre Profile Matrix',
             ],
         ],
     ];

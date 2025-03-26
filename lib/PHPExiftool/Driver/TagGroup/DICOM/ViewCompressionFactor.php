@@ -28,13 +28,14 @@ class ViewCompressionFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'View Compression Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97497
+             * line : 70885
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ViewCompressionFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ViewCompressionFactor',
             'desc' => [
+                'en' => 'View Compression Factor',
             ],
         ],
     ];

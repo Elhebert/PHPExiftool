@@ -28,13 +28,14 @@ class Converter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Converter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402101
+             * line : 285311
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Converter extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Converter',
             'desc' => [
+                'en' => 'Converter',
             ],
         ],
     ];

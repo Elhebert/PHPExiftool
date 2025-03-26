@@ -28,13 +28,14 @@ class RedEyeReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Eye Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348287
+             * line : 243702
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RedEyeReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:RedEyeReduction',
             'desc' => [
+                'en' => 'Red Eye Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350779
+             * line : 244902
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RedEyeReduction extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:RedEyeReduction',
             'desc' => [
+                'en' => 'Red Eye Reduction',
             ],
         ],
     ];

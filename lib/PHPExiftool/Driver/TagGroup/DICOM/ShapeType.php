@@ -28,13 +28,14 @@ class ShapeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shape Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101357
+             * line : 74505
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShapeType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShapeType',
             'desc' => [
+                'en' => 'Shape Type',
             ],
         ],
     ];

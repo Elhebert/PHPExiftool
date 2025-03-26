@@ -28,13 +28,14 @@ class MaxPrviewFps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Prview Fps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307470
+             * line : 213968
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxPrviewFps extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:MaxPrviewFps',
             'desc' => [
+                'en' => 'Max Prview Fps',
             ],
         ],
     ];

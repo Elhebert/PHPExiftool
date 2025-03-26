@@ -28,13 +28,14 @@ class SoundSchemeTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sound Scheme Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328043
+             * line : 231457
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoundSchemeTitle extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:SoundSchemeTitle',
             'desc' => [
+                'en' => 'Sound Scheme Title',
             ],
         ],
     ];

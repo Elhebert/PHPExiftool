@@ -28,13 +28,14 @@ class RawDevPMNoiseFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev PM Noise Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260686
+             * line : 180060
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDevPMNoiseFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPMNoiseFilter',
             'desc' => [
+                'en' => 'Raw Dev PM Noise Filter',
             ],
         ],
     ];

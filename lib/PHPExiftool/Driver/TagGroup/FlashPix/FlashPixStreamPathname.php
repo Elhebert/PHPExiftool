@@ -28,13 +28,14 @@ class FlashPixStreamPathname extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Pix Stream Pathname',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124592
+             * line : 87075
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashPixStreamPathname extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:FlashPixStreamPathname',
             'desc' => [
+                'en' => 'Flash Pix Stream Pathname',
             ],
         ],
     ];

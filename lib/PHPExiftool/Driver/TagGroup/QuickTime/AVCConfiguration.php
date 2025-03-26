@@ -28,13 +28,14 @@ class AVCConfiguration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AVC Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313989
+             * line : 219661
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AVCConfiguration extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:AVCConfiguration',
             'desc' => [
+                'en' => 'AVC Configuration',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Contiguous extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contiguous',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97572
+             * line : 70957
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Contiguous extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Contiguous',
             'desc' => [
+                'en' => 'Contiguous',
             ],
         ],
     ];

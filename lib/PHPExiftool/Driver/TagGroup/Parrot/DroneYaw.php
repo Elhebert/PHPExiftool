@@ -28,13 +28,14 @@ class DroneYaw extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drone Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282025
+             * line : 195910
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DroneYaw extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:DroneYaw',
             'desc' => [
+                'en' => 'Drone Yaw',
             ],
         ],
     ];

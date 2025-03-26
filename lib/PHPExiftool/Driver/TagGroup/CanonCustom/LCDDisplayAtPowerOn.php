@@ -28,13 +28,14 @@ class LCDDisplayAtPowerOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LCD Display At Power On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75588
+             * line : 55654
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LCDDisplayAtPowerOn extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LCDDisplayAtPowerOn',
             'desc' => [
+                'en' => 'LCD Display At Power On',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 77272
+             * line : 56484
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LCDDisplayAtPowerOn extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:LCDDisplayAtPowerOn',
             'desc' => [
+                'en' => 'LCD Display At Power On',
             ],
         ],
     ];

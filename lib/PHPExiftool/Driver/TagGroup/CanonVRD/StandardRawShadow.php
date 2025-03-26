@@ -28,13 +28,14 @@ class StandardRawShadow extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard Raw Shadow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83611
+             * line : 61269
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StandardRawShadow extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:StandardRawShadow',
             'desc' => [
+                'en' => 'Standard Raw Shadow',
             ],
         ],
     ];

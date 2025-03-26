@@ -28,13 +28,14 @@ class EventElapsedTimeToStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Elapsed Time To Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170550
+             * line : 116790
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventElapsedTimeToStart extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventElapsedTimeToStart',
             'desc' => [
+                'en' => 'Event Elapsed Time To Start',
             ],
         ],
     ];

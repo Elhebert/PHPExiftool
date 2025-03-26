@@ -28,13 +28,14 @@ class ImagerPowerOnDelayMsec extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager Power On Delay Msec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155066
+             * line : 106316
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerPowerOnDelayMsec extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerPowerOnDelayMsec',
             'desc' => [
+                'en' => 'Imager Power On Delay Msec',
             ],
         ],
     ];

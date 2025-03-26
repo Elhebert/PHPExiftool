@@ -28,13 +28,14 @@ class TotalBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DV::Main
-             * line : 106045
+             * line : 78430
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalBitrate extends AbstractTagGroup
              */
             'id' => 'DV::Main.DV:TotalBitrate',
             'desc' => [
+                'en' => 'Total Bitrate',
             ],
         ],
     ];

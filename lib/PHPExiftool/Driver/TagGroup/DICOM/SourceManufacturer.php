@@ -28,13 +28,14 @@ class SourceManufacturer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Manufacturer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103541
+             * line : 76635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceManufacturer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceManufacturer',
             'desc' => [
+                'en' => 'Source Manufacturer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PrivateInformationCreatorUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Private Information Creator UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94582
+             * line : 68083
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrivateInformationCreatorUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrivateInformationCreatorUID',
             'desc' => [
+                'en' => 'Private Information Creator UID',
             ],
         ],
     ];

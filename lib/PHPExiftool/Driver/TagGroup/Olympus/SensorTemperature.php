@@ -28,13 +28,14 @@ class SensorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255116
+             * line : 176091
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255124
+             * line : 176094
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::Main
-             * line : 258504
+             * line : 178564
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SensorTemperature extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SensorTemperature',
             'desc' => [
+                'en' => 'Sensor Temperature',
             ],
         ],
     ];

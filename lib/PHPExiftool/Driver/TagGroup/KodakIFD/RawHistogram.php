@@ -28,13 +28,14 @@ class RawHistogram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Histogram',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155990
+             * line : 107201
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawHistogram extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:RawHistogram',
             'desc' => [
+                'en' => 'Raw Histogram',
             ],
         ],
     ];

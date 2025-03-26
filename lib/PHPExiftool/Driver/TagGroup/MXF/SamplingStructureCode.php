@@ -28,13 +28,14 @@ class SamplingStructureCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sampling Structure Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167815
+             * line : 114374
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplingStructureCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SamplingStructureCode',
             'desc' => [
+                'en' => 'Sampling Structure Code',
             ],
         ],
     ];

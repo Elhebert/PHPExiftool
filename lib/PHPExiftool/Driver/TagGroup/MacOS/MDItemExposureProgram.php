@@ -28,13 +28,14 @@ class MDItemExposureProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Exposure Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172694
+             * line : 118814
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemExposureProgram extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemExposureProgram',
             'desc' => [
+                'en' => 'MD Item Exposure Program',
             ],
         ],
     ];

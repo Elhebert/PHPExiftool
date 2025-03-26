@@ -28,13 +28,14 @@ class TaxonInfraspecificEpithet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Infraspecific Epithet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106742
+             * line : 78953
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonInfraspecificEpithet extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonInfraspecificEpithet',
             'desc' => [
+                'en' => 'Taxon Infraspecific Epithet',
             ],
         ],
     ];

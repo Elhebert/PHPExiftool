@@ -28,13 +28,14 @@ class GroupSynopsis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Group Synopsis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171122
+             * line : 117342
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GroupSynopsis extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GroupSynopsis',
             'desc' => [
+                'en' => 'Group Synopsis',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171125
+             * line : 117345
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GroupSynopsis extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GroupSynopsis',
             'desc' => [
+                'en' => 'Group Synopsis',
             ],
         ],
     ];

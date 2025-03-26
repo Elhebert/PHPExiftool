@@ -28,13 +28,14 @@ class GrayscalePresentationStateSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grayscale Presentation State Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95133
+             * line : 68614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GrayscalePresentationStateSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GrayscalePresentationStateSequence',
             'desc' => [
+                'en' => 'Grayscale Presentation State Sequence',
             ],
         ],
     ];

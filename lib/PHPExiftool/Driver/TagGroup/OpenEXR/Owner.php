@@ -28,13 +28,14 @@ class Owner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Owner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263648
+             * line : 182377
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Owner extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:Owner',
             'desc' => [
+                'en' => 'Owner',
             ],
         ],
     ];

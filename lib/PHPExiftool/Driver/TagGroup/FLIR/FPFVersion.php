@@ -28,13 +28,14 @@ class FPFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'FPF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122439
+             * line : 85756
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FPFVersion extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:FPFVersion',
             'desc' => [
+                'en' => 'FPF Version',
             ],
         ],
     ];

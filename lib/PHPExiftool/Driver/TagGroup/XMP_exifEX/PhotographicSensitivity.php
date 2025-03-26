@@ -28,13 +28,14 @@ class PhotographicSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photographic Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408681
+             * line : 288651
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotographicSensitivity extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:PhotographicSensitivity',
             'desc' => [
+                'en' => 'Photographic Sensitivity',
             ],
         ],
     ];

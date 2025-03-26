@@ -28,13 +28,14 @@ class VerifyingOrganization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Verifying Organization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100053
+             * line : 73254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerifyingOrganization extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerifyingOrganization',
             'desc' => [
+                'en' => 'Verifying Organization',
             ],
         ],
     ];

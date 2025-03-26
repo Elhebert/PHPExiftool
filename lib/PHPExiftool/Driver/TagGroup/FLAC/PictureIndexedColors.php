@@ -28,13 +28,14 @@ class PictureIndexedColors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Indexed Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::Picture
-             * line : 121912
+             * line : 85426
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureIndexedColors extends AbstractTagGroup
              */
             'id' => 'FLAC::Picture.FLAC:PictureIndexedColors',
             'desc' => [
+                'en' => 'Picture Indexed Colors',
             ],
         ],
     ];

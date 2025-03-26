@@ -28,13 +28,14 @@ class MeanPointDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mean Point Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101169
+             * line : 74319
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MeanPointDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MeanPointDistance',
             'desc' => [
+                'en' => 'Mean Point Distance',
             ],
         ],
     ];

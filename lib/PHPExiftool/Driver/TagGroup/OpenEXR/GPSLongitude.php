@@ -28,13 +28,14 @@ class GPSLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OpenEXR::Main
-             * line : 263623
+             * line : 182368
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSLongitude extends AbstractTagGroup
              */
             'id' => 'OpenEXR::Main.OpenEXR:GPSLongitude',
             'desc' => [
+                'en' => 'GPS Longitude',
             ],
         ],
     ];

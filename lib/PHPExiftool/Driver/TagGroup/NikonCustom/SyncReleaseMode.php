@@ -28,13 +28,14 @@ class SyncReleaseMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sync Release Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219337
+             * line : 147681
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SyncReleaseMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:SyncReleaseMode',
             'desc' => [
+                'en' => 'Sync Release Mode',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221797
+             * line : 149723
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SyncReleaseMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:SyncReleaseMode',
             'desc' => [
+                'en' => 'Sync Release Mode',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233710
+             * line : 157554
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SyncReleaseMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:SyncReleaseMode',
             'desc' => [
+                'en' => 'Sync Release Mode',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235701
+             * line : 158903
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class SyncReleaseMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:SyncReleaseMode',
             'desc' => [
+                'en' => 'Sync Release Mode',
             ],
         ],
     ];

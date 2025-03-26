@@ -28,13 +28,14 @@ class LightPathFilterPassBand extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Light Path Filter Pass Band',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98300
+             * line : 71635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightPathFilterPassBand extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LightPathFilterPassBand',
             'desc' => [
+                'en' => 'Light Path Filter Pass Band',
             ],
         ],
     ];

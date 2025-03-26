@@ -28,13 +28,14 @@ class RetrieveLocationUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Retrieve Location UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100269
+             * line : 73443
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RetrieveLocationUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RetrieveLocationUID',
             'desc' => [
+                'en' => 'Retrieve Location UID',
             ],
         ],
     ];

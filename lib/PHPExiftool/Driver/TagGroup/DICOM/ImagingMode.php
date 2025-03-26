@@ -28,13 +28,14 @@ class ImagingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imaging Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98516
+             * line : 71848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagingMode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagingMode',
             'desc' => [
+                'en' => 'Imaging Mode',
             ],
         ],
     ];

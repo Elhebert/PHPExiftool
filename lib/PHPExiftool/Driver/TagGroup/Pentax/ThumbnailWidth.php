@@ -28,13 +28,14 @@ class ThumbnailWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Junk2
-             * line : 288387
+             * line : 200060
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailWidth extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk2.Pentax:ThumbnailWidth',
             'desc' => [
+                'en' => 'Thumbnail Width',
             ],
         ],
     ];

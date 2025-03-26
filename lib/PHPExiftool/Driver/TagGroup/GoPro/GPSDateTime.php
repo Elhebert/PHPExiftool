@@ -28,13 +28,14 @@ class GPSDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GLPI
-             * line : 139290
+             * line : 97536
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'GoPro::GLPI.GoPro:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139563
+             * line : 97649
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SoftcopyVOILUTSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Softcopy VOILUT Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99117
+             * line : 72336
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoftcopyVOILUTSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SoftcopyVOILUTSequence',
             'desc' => [
+                'en' => 'Softcopy VOILUT Sequence',
             ],
         ],
     ];

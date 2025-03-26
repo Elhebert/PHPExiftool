@@ -28,13 +28,14 @@ class EventEndTimecodeOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event End Timecode Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168564
+             * line : 115055
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventEndTimecodeOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventEndTimecodeOffset',
             'desc' => [
+                'en' => 'Event End Timecode Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CaptureSerial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161742
+             * line : 110491
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureSerial extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CaptureSerial',
             'desc' => [
+                'en' => 'Capture Serial Number',
             ],
         ],
     ];

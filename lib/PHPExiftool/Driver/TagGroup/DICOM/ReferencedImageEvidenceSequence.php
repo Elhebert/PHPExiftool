@@ -28,13 +28,14 @@ class ReferencedImageEvidenceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Image Evidence Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95099
+             * line : 68581
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedImageEvidenceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedImageEvidenceSequence',
             'desc' => [
+                'en' => 'Referenced Image Evidence Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VersionOp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264665
+             * line : 182915
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VersionOp extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:VersionOp',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

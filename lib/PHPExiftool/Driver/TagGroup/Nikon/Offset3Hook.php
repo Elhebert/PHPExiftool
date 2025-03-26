@@ -28,13 +28,14 @@ class Offset3Hook extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Offset 3 Hook',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209407
+             * line : 141237
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Offset3Hook extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:Offset3Hook',
             'desc' => [
+                'en' => 'Offset 3 Hook',
             ],
         ],
     ];

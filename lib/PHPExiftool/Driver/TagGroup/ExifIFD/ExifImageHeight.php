@@ -28,13 +28,14 @@ class ExifImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116495
+             * line : 83381
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifImageHeight extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExifImageHeight',
             'desc' => [
+                'en' => 'Exif Image Height',
             ],
         ],
     ];

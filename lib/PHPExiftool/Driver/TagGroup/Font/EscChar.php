@@ -28,13 +28,14 @@ class EscChar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Esc Char',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127758
+             * line : 88705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EscChar extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:EscChar',
             'desc' => [
+                'en' => 'Esc Char',
             ],
         ],
     ];

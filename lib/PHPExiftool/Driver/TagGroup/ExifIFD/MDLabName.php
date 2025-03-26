@@ -28,13 +28,14 @@ class MDLabName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Lab Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113082
+             * line : 82305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDLabName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MDLabName',
             'desc' => [
+                'en' => 'MD Lab Name',
             ],
         ],
     ];

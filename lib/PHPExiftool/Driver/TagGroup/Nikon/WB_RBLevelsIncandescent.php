@@ -28,13 +28,14 @@ class WB_RBLevelsIncandescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Incandescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ColorBalanceA
-             * line : 191987
+             * line : 130128
              * type : int16u
              * writable : true
              * count : 14
@@ -42,6 +43,7 @@ class WB_RBLevelsIncandescent extends AbstractTagGroup
              */
             'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsIncandescent',
             'desc' => [
+                'en' => 'WB RB Levels Incandescent',
             ],
         ],
     ];

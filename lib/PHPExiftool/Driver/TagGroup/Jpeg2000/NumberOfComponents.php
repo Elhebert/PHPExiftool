@@ -28,13 +28,14 @@ class NumberOfComponents extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Components',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ImageHeader
-             * line : 154017
+             * line : 105765
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfComponents extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ImageHeader.Jpeg2000:NumberOfComponents',
             'desc' => [
+                'en' => 'Number Of Components',
             ],
         ],
     ];

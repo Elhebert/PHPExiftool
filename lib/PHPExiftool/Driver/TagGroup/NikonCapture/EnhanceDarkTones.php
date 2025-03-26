@@ -28,13 +28,14 @@ class EnhanceDarkTones extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Enhance Dark Tones',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Brightness
-             * line : 210136
+             * line : 141510
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EnhanceDarkTones extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Brightness.NikonCapture:EnhanceDarkTones',
             'desc' => [
+                'en' => 'Enhance Dark Tones',
             ],
         ],
     ];

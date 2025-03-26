@@ -28,13 +28,14 @@ class SaveCompInstancesAfterMediaCreate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Save Comp Instances After Media Create',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102350
+             * line : 75450
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SaveCompInstancesAfterMediaCreate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SaveCompInstancesAfterMediaCreate',
             'desc' => [
+                'en' => 'Save Comp Instances After Media Create',
             ],
         ],
     ];

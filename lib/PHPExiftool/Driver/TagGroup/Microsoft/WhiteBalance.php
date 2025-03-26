@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176489
+             * line : 121443
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

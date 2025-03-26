@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::CameraInfo
-             * line : 154418
+             * line : 106010
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::CameraInfo.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Free
-             * line : 154538
+             * line : 106055
              * type : rational32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::MOV
-             * line : 157592
+             * line : 108639
              * type : int32u
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::MOV.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         3 => [
             /**
              * table_name : Kodak::Main
-             * line : 157902
+             * line : 108732
              * type : int32u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         4 => [
             /**
              * table_name : Kodak::SubIFD0
-             * line : 158853
+             * line : 109117
              * type : int32u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD0.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         5 => [
             /**
              * table_name : Kodak::SubIFD2
-             * line : 159301
+             * line : 109309
              * type : int32u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::SubIFD2.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         6 => [
             /**
              * table_name : Kodak::Type10
-             * line : 159854
+             * line : 109522
              * type : int32u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Type10.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         7 => [
             /**
              * table_name : Kodak::Type3
-             * line : 160082
+             * line : 109628
              * type : int32u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Type3.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         8 => [
             /**
              * table_name : Kodak::Type5
-             * line : 160148
+             * line : 109648
              * type : int32u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Type5.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         9 => [
             /**
              * table_name : Kodak::Type6
-             * line : 160391
+             * line : 109720
              * type : int32u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Type6.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         10 => [
             /**
              * table_name : Kodak::Type9
-             * line : 160591
+             * line : 109766
              * type : int32u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Kodak::Type9.Kodak:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

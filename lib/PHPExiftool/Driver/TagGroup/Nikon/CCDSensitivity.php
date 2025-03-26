@@ -28,13 +28,14 @@ class CCDSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CCD Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209489
+             * line : 141283
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CCDSensitivity extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:CCDSensitivity',
             'desc' => [
+                'en' => 'CCD Sensitivity',
             ],
         ],
     ];

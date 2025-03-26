@@ -28,13 +28,14 @@ class GPSLatitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Latitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131762
+             * line : 90839
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141370
+             * line : 98211
              * type : rational32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202821
+             * line : 137060
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301147
+             * line : 209757
              * type : rational64u
              * writable : false
              * count : 3
@@ -81,6 +85,7 @@ class GPSLatitude extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSLatitude',
             'desc' => [
+                'en' => 'GPS Latitude',
             ],
         ],
     ];

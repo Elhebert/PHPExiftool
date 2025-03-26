@@ -28,13 +28,14 @@ class AnalogCaptureISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Analog Capture ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155281
+             * line : 106502
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AnalogCaptureISO extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:AnalogCaptureISO',
             'desc' => [
+                'en' => 'Analog Capture ISO',
             ],
         ],
     ];

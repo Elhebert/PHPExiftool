@@ -28,13 +28,14 @@ class RawDevPMContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev PM Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260570
+             * line : 179997
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class RawDevPMContrast extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPMContrast',
             'desc' => [
+                'en' => 'Raw Dev PM Contrast',
             ],
         ],
     ];

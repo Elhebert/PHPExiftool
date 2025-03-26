@@ -28,13 +28,14 @@ class PixWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pix Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128066
+             * line : 88867
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixWidth extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:PixWidth',
             'desc' => [
+                'en' => 'Pix Width',
             ],
         ],
     ];

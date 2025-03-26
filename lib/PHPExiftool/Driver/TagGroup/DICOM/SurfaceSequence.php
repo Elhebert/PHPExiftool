@@ -28,13 +28,14 @@ class SurfaceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101136
+             * line : 74286
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceSequence',
             'desc' => [
+                'en' => 'Surface Sequence',
             ],
         ],
     ];

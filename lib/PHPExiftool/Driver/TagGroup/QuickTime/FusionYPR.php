@@ -28,13 +28,14 @@ class FusionYPR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fusion YPR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Fusion360Fly
-             * line : 313116
+             * line : 218946
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class FusionYPR extends AbstractTagGroup
              */
             'id' => 'QuickTime::Fusion360Fly.QuickTime:FusionYPR',
             'desc' => [
+                'en' => 'Fusion YPR',
             ],
         ],
     ];

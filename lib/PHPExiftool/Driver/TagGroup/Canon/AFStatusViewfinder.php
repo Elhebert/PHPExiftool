@@ -28,13 +28,14 @@ class AFStatusViewfinder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status Viewfinder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3999
+             * line : 2515
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatusViewfinder extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFStatusViewfinder',
             'desc' => [
+                'en' => 'AF Status Viewfinder',
             ],
         ],
     ];

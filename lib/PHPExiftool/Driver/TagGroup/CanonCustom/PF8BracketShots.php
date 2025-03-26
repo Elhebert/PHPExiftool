@@ -28,13 +28,14 @@ class PF8BracketShots extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF8 Bracket Shots',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78295
+             * line : 56999
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF8BracketShots extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF8BracketShots',
             'desc' => [
+                'en' => 'PF8 Bracket Shots',
             ],
         ],
     ];

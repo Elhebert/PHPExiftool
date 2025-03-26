@@ -28,13 +28,14 @@ class FillSameRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Same Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264792
+             * line : 183023
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillSameRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillSameRect',
             'desc' => [
+                'en' => 'Fill Same Rect',
             ],
         ],
     ];

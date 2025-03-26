@@ -28,13 +28,14 @@ class StorageMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Storage Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::PRD
-             * line : 186809
+             * line : 126896
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StorageMethod extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::PRD.MinoltaRaw:StorageMethod',
             'desc' => [
+                'en' => 'Storage Method',
             ],
         ],
     ];

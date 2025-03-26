@@ -28,13 +28,14 @@ class AudioNoiseReductionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Noise Reduction Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168155
+             * line : 114653
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioNoiseReductionAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioNoiseReductionAlgorithm',
             'desc' => [
+                'en' => 'Audio Noise Reduction Algorithm',
             ],
         ],
     ];

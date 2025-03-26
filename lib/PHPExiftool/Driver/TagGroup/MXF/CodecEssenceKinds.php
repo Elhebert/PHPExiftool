@@ -28,13 +28,14 @@ class CodecEssenceKinds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Essence Kinds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169530
+             * line : 115923
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecEssenceKinds extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CodecEssenceKinds',
             'desc' => [
+                'en' => 'Codec Essence Kinds',
             ],
         ],
     ];

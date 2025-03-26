@@ -28,13 +28,14 @@ class FontSubfamilyID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Subfamily ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127864
+             * line : 88764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FontSubfamilyID extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:FontSubfamilyID',
             'desc' => [
+                'en' => 'Font Subfamily ID',
             ],
         ],
     ];

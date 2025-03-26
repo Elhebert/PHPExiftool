@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::ImageHeader
-             * line : 153981
+             * line : 105759
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::ImageHeader.Jpeg2000:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

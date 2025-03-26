@@ -28,13 +28,14 @@ class SharpObjVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharp Obj Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Sharpness
-             * line : 162090
+             * line : 110770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpObjVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::Sharpness.Leaf:SharpObjVersion',
             'desc' => [
+                'en' => 'Sharp Obj Version',
             ],
         ],
     ];

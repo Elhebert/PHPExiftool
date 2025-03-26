@@ -28,13 +28,14 @@ class FileAccessDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Access Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121086
+             * line : 85001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileAccessDate extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileAccessDate',
             'desc' => [
+                'en' => 'File Access Date/Time',
             ],
         ],
     ];

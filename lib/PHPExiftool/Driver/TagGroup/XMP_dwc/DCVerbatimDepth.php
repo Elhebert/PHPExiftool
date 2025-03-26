@@ -28,13 +28,14 @@ class DCVerbatimDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Verbatim Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 107002
+             * line : 79148
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCVerbatimDepth extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCVerbatimDepth',
             'desc' => [
+                'en' => 'DC Verbatim Depth',
             ],
         ],
     ];

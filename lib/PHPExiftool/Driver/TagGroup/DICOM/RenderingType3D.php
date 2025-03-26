@@ -28,13 +28,14 @@ class RenderingType3D extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rendering Type 3D',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101679
+             * line : 74823
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RenderingType3D extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RenderingType3D',
             'desc' => [
+                'en' => 'Rendering Type 3D',
             ],
         ],
     ];

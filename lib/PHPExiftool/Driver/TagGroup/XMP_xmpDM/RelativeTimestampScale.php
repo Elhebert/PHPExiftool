@@ -28,13 +28,14 @@ class RelativeTimestampScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Relative Timestamp Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413287
+             * line : 291412
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelativeTimestampScale extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:RelativeTimestampScale',
             'desc' => [
+                'en' => 'Relative Timestamp Scale',
             ],
         ],
     ];

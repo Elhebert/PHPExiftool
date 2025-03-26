@@ -28,13 +28,14 @@ class ColorCompensationFilterSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Compensation Filter Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346836
+             * line : 243051
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorCompensationFilterSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ColorCompensationFilterSet',
             'desc' => [
+                'en' => 'Color Compensation Filter Set',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348445
+             * line : 243787
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorCompensationFilterSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ColorCompensationFilterSet',
             'desc' => [
+                'en' => 'Color Compensation Filter Set',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350566
+             * line : 244803
              * type : int8s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorCompensationFilterSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ColorCompensationFilterSet',
             'desc' => [
+                'en' => 'Color Compensation Filter Set',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360435
+             * line : 251263
              * type : int8s
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ColorCompensationFilterSet extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ColorCompensationFilterSet',
             'desc' => [
+                'en' => 'Color Compensation Filter Set',
             ],
         ],
     ];

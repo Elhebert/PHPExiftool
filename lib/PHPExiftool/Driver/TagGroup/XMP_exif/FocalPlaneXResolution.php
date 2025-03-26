@@ -28,13 +28,14 @@ class FocalPlaneXResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane X Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406136
+             * line : 288077
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalPlaneXResolution extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FocalPlaneXResolution',
             'desc' => [
+                'en' => 'Focal Plane X Resolution',
             ],
         ],
     ];

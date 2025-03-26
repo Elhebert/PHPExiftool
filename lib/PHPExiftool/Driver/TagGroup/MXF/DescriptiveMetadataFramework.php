@@ -28,13 +28,14 @@ class DescriptiveMetadataFramework extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Descriptive Metadata Framework',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171454
+             * line : 117655
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DescriptiveMetadataFramework extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DescriptiveMetadataFramework',
             'desc' => [
+                'en' => 'Descriptive Metadata Framework',
             ],
         ],
     ];

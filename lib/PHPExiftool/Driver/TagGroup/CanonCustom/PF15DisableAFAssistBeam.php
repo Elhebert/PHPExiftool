@@ -28,13 +28,14 @@ class PF15DisableAFAssistBeam extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF15 Disable AF Assist Beam',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78392
+             * line : 57093
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF15DisableAFAssistBeam extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF15DisableAFAssistBeam',
             'desc' => [
+                'en' => 'PF15 Disable AF Assist Beam',
             ],
         ],
     ];

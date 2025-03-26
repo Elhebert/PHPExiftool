@@ -28,13 +28,14 @@ class AcquisitionComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96177
+             * line : 69595
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionComments',
             'desc' => [
+                'en' => 'Acquisition Comments',
             ],
         ],
     ];

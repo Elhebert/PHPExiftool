@@ -28,13 +28,14 @@ class Montage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Montage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164371
+             * line : 111745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Montage extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Montage',
             'desc' => [
+                'en' => 'Montage',
             ],
         ],
     ];

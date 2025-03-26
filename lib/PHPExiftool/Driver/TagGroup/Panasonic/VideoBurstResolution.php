@@ -28,13 +28,14 @@ class VideoBurstResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Burst Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277930
+             * line : 193315
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoBurstResolution extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:VideoBurstResolution',
             'desc' => [
+                'en' => 'Video Burst Resolution',
             ],
         ],
     ];

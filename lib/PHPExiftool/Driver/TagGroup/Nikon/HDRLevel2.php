@@ -28,13 +28,14 @@ class HDRLevel2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Level 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::HDRInfo
-             * line : 195348
+             * line : 132311
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDRLevel2 extends AbstractTagGroup
              */
             'id' => 'Nikon::HDRInfo.Nikon:HDRLevel2',
             'desc' => [
+                'en' => 'HDR Level 2',
             ],
         ],
     ];

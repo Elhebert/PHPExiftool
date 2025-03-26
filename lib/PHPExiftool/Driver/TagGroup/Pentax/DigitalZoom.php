@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297890
+             * line : 207845
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302690
+             * line : 210592
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

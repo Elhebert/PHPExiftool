@@ -28,13 +28,14 @@ class MetadataEncodingSchemeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Encoding Scheme Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171766
+             * line : 117955
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataEncodingSchemeCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MetadataEncodingSchemeCode',
             'desc' => [
+                'en' => 'Metadata Encoding Scheme Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MeasuredLV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measured LV',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185639
+             * line : 125934
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasuredLV extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:MeasuredLV',
             'desc' => [
+                'en' => 'Measured LV',
             ],
         ],
     ];

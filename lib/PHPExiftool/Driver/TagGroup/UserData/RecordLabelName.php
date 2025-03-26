@@ -28,13 +28,14 @@ class RecordLabelName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Label Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325899
+             * line : 229919
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordLabelName extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:RecordLabelName',
             'desc' => [
+                'en' => 'Record Label Name',
             ],
         ],
     ];

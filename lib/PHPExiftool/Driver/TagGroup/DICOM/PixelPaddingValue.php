@@ -28,13 +28,14 @@ class PixelPaddingValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Padding Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98821
+             * line : 72093
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelPaddingValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelPaddingValue',
             'desc' => [
+                'en' => 'Pixel Padding Value',
             ],
         ],
     ];

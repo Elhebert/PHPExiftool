@@ -28,13 +28,14 @@ class R2AIntervals extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 A Intervals',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 308016
+             * line : 214385
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2AIntervals extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2AIntervals',
             'desc' => [
+                'en' => 'R2 A Intervals',
             ],
         ],
     ];

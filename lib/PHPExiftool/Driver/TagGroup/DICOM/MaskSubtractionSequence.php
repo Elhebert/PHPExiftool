@@ -28,13 +28,14 @@ class MaskSubtractionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mask Subtraction Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99144
+             * line : 72363
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaskSubtractionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaskSubtractionSequence',
             'desc' => [
+                'en' => 'Mask Subtraction Sequence',
             ],
         ],
     ];

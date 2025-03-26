@@ -28,13 +28,14 @@ class FocalPlaneYResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115275
+             * line : 82926
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalPlaneYResolution extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FocalPlaneYResolution',
             'desc' => [
+                'en' => 'Focal Plane Y Resolution',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116616
+             * line : 83411
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocalPlaneYResolution extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FocalPlaneYResolution',
             'desc' => [
+                'en' => 'Focal Plane Y Resolution',
             ],
         ],
     ];

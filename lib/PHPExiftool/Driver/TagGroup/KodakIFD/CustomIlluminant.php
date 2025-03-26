@@ -28,13 +28,14 @@ class CustomIlluminant extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Illuminant',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154860
+             * line : 106169
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomIlluminant extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CustomIlluminant',
             'desc' => [
+                'en' => 'Custom Illuminant',
             ],
         ],
     ];

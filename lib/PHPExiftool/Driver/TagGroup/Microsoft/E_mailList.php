@@ -28,13 +28,14 @@ class E_mailList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'E-mail List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176077
+             * line : 121155
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class E_mailList extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:E-mailList',
             'desc' => [
+                'en' => 'E-mail List',
             ],
         ],
     ];

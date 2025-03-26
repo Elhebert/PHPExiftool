@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337201
+             * line : 236048
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 338942
+             * line : 237359
              * type : rational64s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Sigma::Main
-             * line : 339085
+             * line : 237392
              * type : rational64s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

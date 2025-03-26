@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ISOInfo
-             * line : 195372
+             * line : 132335
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Nikon::ISOInfo.Nikon:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MOV
-             * line : 196564
+             * line : 132829
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Nikon::MOV.Nikon:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::Main
-             * line : 196594
+             * line : 132839
              * type : int16u
              * writable : true
              * count : 2
@@ -68,6 +71,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

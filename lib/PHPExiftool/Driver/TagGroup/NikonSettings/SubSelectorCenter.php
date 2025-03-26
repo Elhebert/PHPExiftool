@@ -28,13 +28,14 @@ class SubSelectorCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub Selector Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246239
+             * line : 168941
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SubSelectorCenter extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SubSelectorCenter',
             'desc' => [
+                'en' => 'Sub Selector Center',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246358
+             * line : 169060
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SubSelectorCenter extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SubSelectorCenter',
             'desc' => [
+                'en' => 'Sub Selector Center',
             ],
         ],
     ];

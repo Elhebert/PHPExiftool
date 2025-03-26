@@ -28,13 +28,14 @@ class SMaxSampleValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'S Max Sample Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111978
+             * line : 81840
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SMaxSampleValue extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SMaxSampleValue',
             'desc' => [
+                'en' => 'S Max Sample Value',
             ],
         ],
     ];

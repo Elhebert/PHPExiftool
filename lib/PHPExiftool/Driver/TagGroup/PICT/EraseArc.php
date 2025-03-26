@@ -28,13 +28,14 @@ class EraseArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Erase Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264881
+             * line : 183107
              * type : Arc
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EraseArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:EraseArc',
             'desc' => [
+                'en' => 'Erase Arc',
             ],
         ],
     ];

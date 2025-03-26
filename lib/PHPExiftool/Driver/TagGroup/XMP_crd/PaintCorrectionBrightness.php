@@ -28,13 +28,14 @@ class PaintCorrectionBrightness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Brightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400474
+             * line : 283961
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionBrightness extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionBrightness',
             'desc' => [
+                'en' => 'Paint Correction Brightness',
             ],
         ],
     ];

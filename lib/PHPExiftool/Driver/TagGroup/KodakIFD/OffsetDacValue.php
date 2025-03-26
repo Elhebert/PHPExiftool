@@ -28,13 +28,14 @@ class OffsetDacValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Offset Dac Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157326
+             * line : 108518
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OffsetDacValue extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OffsetDacValue',
             'desc' => [
+                'en' => 'Offset Dac Value',
             ],
         ],
     ];

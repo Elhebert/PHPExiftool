@@ -28,13 +28,14 @@ class ToneMapStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Map Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401211
+             * line : 284608
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneMapStrength extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ToneMapStrength',
             'desc' => [
+                'en' => 'Tone Map Strength',
             ],
         ],
     ];

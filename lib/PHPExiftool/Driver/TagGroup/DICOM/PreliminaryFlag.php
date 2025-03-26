@@ -28,13 +28,14 @@ class PreliminaryFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preliminary Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100221
+             * line : 73395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreliminaryFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PreliminaryFlag',
             'desc' => [
+                'en' => 'Preliminary Flag',
             ],
         ],
     ];

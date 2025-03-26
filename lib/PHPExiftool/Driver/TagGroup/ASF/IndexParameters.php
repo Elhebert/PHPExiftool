@@ -28,13 +28,14 @@ class IndexParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1861
+             * line : 955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexParameters extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:IndexParameters',
             'desc' => [
+                'en' => 'Index Parameters',
             ],
         ],
     ];

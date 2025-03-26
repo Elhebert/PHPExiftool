@@ -28,13 +28,14 @@ class ApplicatorDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Applicator Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103333
+             * line : 76428
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicatorDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicatorDescription',
             'desc' => [
+                'en' => 'Applicator Description',
             ],
         ],
     ];

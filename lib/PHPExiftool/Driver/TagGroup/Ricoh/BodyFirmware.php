@@ -28,13 +28,14 @@ class BodyFirmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Body Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::SerialInfo
-             * line : 333710
+             * line : 234011
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class BodyFirmware extends AbstractTagGroup
              */
             'id' => 'Ricoh::SerialInfo.Ricoh:BodyFirmware',
             'desc' => [
+                'en' => 'Body Firmware',
             ],
         ],
     ];

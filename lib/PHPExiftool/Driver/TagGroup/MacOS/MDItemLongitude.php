@@ -28,13 +28,14 @@ class MDItemLongitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Longitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172888
+             * line : 118960
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemLongitude extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemLongitude',
             'desc' => [
+                'en' => 'MD Item Longitude',
             ],
         ],
     ];

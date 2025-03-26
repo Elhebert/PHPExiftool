@@ -28,13 +28,14 @@ class UnicodeAlphaNames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unicode Alpha Names',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305554
+             * line : 212316
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnicodeAlphaNames extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:UnicodeAlphaNames',
             'desc' => [
+                'en' => 'Unicode Alpha Names',
             ],
         ],
     ];

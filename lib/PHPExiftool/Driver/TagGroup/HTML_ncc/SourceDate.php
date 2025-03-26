@@ -28,13 +28,14 @@ class SourceDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143030
+             * line : 98773
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceDate extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:SourceDate',
             'desc' => [
+                'en' => 'Source Date',
             ],
         ],
     ];

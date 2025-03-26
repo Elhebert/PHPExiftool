@@ -28,13 +28,14 @@ class CurveRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curve Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104179
+             * line : 77265
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurveRange extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurveRange',
             'desc' => [
+                'en' => 'Curve Range',
             ],
         ],
     ];

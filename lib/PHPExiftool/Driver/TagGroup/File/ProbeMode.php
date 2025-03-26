@@ -28,13 +28,14 @@ class ProbeMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Probe Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166495
+             * line : 113236
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProbeMode extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ProbeMode',
             'desc' => [
+                'en' => 'Probe Mode',
             ],
         ],
     ];

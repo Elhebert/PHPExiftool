@@ -28,13 +28,14 @@ class DefaultCropSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Default Crop Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119021
+             * line : 84147
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class DefaultCropSize extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:DefaultCropSize',
             'desc' => [
+                'en' => 'Default Crop Size',
             ],
         ],
     ];

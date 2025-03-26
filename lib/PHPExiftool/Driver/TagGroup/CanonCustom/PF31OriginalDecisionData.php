@@ -28,13 +28,14 @@ class PF31OriginalDecisionData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF31 Original Decision Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78437
+             * line : 57138
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF31OriginalDecisionData extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF31OriginalDecisionData',
             'desc' => [
+                'en' => 'PF31 Original Decision Data',
             ],
         ],
     ];

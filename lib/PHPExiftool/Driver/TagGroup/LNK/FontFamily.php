@@ -28,13 +28,14 @@ class FontFamily extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Font Family',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160972
+             * line : 109917
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FontFamily extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:FontFamily',
             'desc' => [
+                'en' => 'Font Family',
             ],
         ],
     ];

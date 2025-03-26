@@ -28,13 +28,14 @@ class BrightDefectThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bright Defect Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155777
+             * line : 106988
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrightDefectThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BrightDefectThreshold',
             'desc' => [
+                'en' => 'Bright Defect Threshold',
             ],
         ],
     ];

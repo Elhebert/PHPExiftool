@@ -28,13 +28,14 @@ class DynamicZAlphaValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dynamic Z Alpha Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97821
+             * line : 71200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DynamicZAlphaValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DynamicZAlphaValue',
             'desc' => [
+                'en' => 'Dynamic Z Alpha Value',
             ],
         ],
     ];

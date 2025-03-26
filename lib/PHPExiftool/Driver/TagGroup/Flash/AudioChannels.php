@@ -28,13 +28,14 @@ class AudioChannels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Audio
-             * line : 123847
+             * line : 86612
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioChannels extends AbstractTagGroup
              */
             'id' => 'Flash::Audio.Flash:AudioChannels',
             'desc' => [
+                'en' => 'Audio Channels',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ConfirmedObjectSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Confirmed Object Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::PostObjectData
-             * line : 151939
+             * line : 104644
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConfirmedObjectSize extends AbstractTagGroup
              */
             'id' => 'IPTC::PostObjectData.IPTC:ConfirmedObjectSize',
             'desc' => [
+                'en' => 'Confirmed Object Size',
             ],
         ],
     ];

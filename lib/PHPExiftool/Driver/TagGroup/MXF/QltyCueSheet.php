@@ -28,13 +28,14 @@ class QltyCueSheet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Qlty Cue Sheet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171384
+             * line : 117586
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class QltyCueSheet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyCueSheet',
             'desc' => [
+                'en' => 'Qlty Cue Sheet',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171387
+             * line : 117589
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class QltyCueSheet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyCueSheet',
             'desc' => [
+                'en' => 'Qlty Cue Sheet',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DriveMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drive Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90068
+             * line : 65072
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DriveMode extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:DriveMode',
             'desc' => [
+                'en' => 'Drive Mode',
             ],
         ],
     ];

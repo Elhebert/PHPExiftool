@@ -28,13 +28,14 @@ class DatePictureTaken extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Picture Taken',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175454
+             * line : 120786
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DatePictureTaken extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DatePictureTaken',
             'desc' => [
+                'en' => 'Date Picture Taken',
             ],
         ],
     ];

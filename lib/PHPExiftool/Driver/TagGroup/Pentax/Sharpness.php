@@ -28,13 +28,14 @@ class Sharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298065
+             * line : 207918
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302707
+             * line : 210595
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Sharpness extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:Sharpness',
             'desc' => [
+                'en' => 'Sharpness',
             ],
         ],
     ];

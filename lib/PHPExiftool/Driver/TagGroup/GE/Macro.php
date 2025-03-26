@@ -28,13 +28,14 @@ class Macro extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GE::Main
-             * line : 131189
+             * line : 90608
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Macro extends AbstractTagGroup
              */
             'id' => 'GE::Main.GE:Macro',
             'desc' => [
+                'en' => 'Macro',
             ],
         ],
     ];

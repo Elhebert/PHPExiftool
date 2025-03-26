@@ -28,13 +28,14 @@ class PaymentURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payment URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149662
+             * line : 103756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaymentURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:PaymentURL',
             'desc' => [
+                'en' => 'Payment URL',
             ],
         ],
     ];

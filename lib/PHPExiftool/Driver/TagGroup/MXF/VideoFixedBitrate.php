@@ -28,13 +28,14 @@ class VideoFixedBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Fixed Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170275
+             * line : 116550
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFixedBitrate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoFixedBitrate',
             'desc' => [
+                'en' => 'Video Fixed Bitrate',
             ],
         ],
     ];

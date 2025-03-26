@@ -28,13 +28,14 @@ class Country extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277381
+             * line : 192945
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Country extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:Country',
             'desc' => [
+                'en' => 'Country',
             ],
         ],
     ];

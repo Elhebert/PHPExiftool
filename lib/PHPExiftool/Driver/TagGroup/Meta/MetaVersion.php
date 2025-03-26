@@ -28,13 +28,14 @@ class MetaVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Meta Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Meta
-             * line : 323946
+             * line : 228930
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetaVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::Meta.Meta:MetaVersion',
             'desc' => [
+                'en' => 'Meta Version',
             ],
         ],
     ];

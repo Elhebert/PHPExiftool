@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210566
+             * line : 141747
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCapture::NoiseReduction
-             * line : 211081
+             * line : 141962
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'NikonCapture::NoiseReduction.NikonCapture:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

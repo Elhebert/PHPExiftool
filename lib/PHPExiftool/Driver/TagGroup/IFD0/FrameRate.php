@@ -28,13 +28,14 @@ class FrameRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120508
+             * line : 84667
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameRate extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:FrameRate',
             'desc' => [
+                'en' => 'Frame Rate',
             ],
         ],
     ];

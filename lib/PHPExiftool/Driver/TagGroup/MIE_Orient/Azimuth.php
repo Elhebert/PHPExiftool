@@ -28,13 +28,14 @@ class Azimuth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Azimuth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Orient
-             * line : 164084
+             * line : 111605
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Azimuth extends AbstractTagGroup
              */
             'id' => 'MIE::Orient.MIE-Orient:Azimuth',
             'desc' => [
+                'en' => 'Azimuth',
             ],
         ],
     ];

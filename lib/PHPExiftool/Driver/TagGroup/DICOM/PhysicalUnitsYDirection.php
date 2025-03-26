@@ -28,13 +28,14 @@ class PhysicalUnitsYDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Units Y Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96281
+             * line : 69691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalUnitsYDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhysicalUnitsYDirection',
             'desc' => [
+                'en' => 'Physical Units Y Direction',
             ],
         ],
     ];

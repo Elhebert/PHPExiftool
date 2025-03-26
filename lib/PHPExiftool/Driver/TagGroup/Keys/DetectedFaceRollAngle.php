@@ -28,13 +28,14 @@ class DetectedFaceRollAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Detected Face Roll Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323398
+             * line : 228622
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DetectedFaceRollAngle extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:DetectedFaceRollAngle',
             'desc' => [
+                'en' => 'Detected Face Roll Angle',
             ],
         ],
     ];

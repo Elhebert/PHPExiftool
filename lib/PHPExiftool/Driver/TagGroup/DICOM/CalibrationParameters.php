@@ -28,13 +28,14 @@ class CalibrationParameters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calibration Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100345
+             * line : 73518
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalibrationParameters extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalibrationParameters',
             'desc' => [
+                'en' => 'Calibration Parameters',
             ],
         ],
     ];

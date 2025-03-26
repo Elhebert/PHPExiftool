@@ -28,13 +28,14 @@ class Version extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323672
+             * line : 228758
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Version extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Version',
             'desc' => [
+                'en' => 'Version',
             ],
         ],
     ];

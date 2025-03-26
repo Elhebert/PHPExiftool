@@ -28,13 +28,14 @@ class BorderInformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Border Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305397
+             * line : 212212
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BorderInformation extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:BorderInformation',
             'desc' => [
+                'en' => 'Border Information',
             ],
         ],
     ];

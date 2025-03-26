@@ -28,13 +28,14 @@ class NoiseReductionStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278101
+             * line : 193467
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReductionStrength extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:NoiseReductionStrength',
             'desc' => [
+                'en' => 'Noise Reduction Strength',
             ],
         ],
     ];

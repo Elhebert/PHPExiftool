@@ -28,13 +28,14 @@ class WB_RGGBLevelsDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300743
+             * line : 209643
              * type : int16u
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RGGB Levels Daylight',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::WBLevels
-             * line : 303044
+             * line : 210706
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsDaylight extends AbstractTagGroup
              */
             'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsDaylight',
             'desc' => [
+                'en' => 'WB RGGB Levels Daylight',
             ],
         ],
     ];

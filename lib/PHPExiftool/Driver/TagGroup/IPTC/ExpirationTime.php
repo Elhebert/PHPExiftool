@@ -28,13 +28,14 @@ class ExpirationTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Expiration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149991
+             * line : 103869
              * type : string
              * writable : true
              * count : 11
@@ -42,6 +43,7 @@ class ExpirationTime extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ExpirationTime',
             'desc' => [
+                'en' => 'Expiration Time',
             ],
         ],
     ];

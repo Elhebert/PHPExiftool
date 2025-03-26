@@ -28,13 +28,14 @@ class MediaIsRepeat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Repeat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396065
+             * line : 280373
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsRepeat extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaIsRepeat',
             'desc' => [
+                'en' => 'Media Is Repeat',
             ],
         ],
     ];

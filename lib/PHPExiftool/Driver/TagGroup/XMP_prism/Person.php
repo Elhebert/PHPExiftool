@@ -28,13 +28,14 @@ class Person extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Person',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411048
+             * line : 290269
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Person extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Person',
             'desc' => [
+                'en' => 'Person',
             ],
         ],
     ];

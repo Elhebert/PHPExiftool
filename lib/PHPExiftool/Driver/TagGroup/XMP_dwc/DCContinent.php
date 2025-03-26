@@ -28,13 +28,14 @@ class DCContinent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Continent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106854
+             * line : 79037
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCContinent extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCContinent',
             'desc' => [
+                'en' => 'DC Continent',
             ],
         ],
     ];

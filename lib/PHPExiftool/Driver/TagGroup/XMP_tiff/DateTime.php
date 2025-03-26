@@ -28,13 +28,14 @@ class DateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date/Time Modified',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411755
+             * line : 290691
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateTime extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:DateTime',
             'desc' => [
+                'en' => 'Date/Time Modified',
             ],
         ],
     ];

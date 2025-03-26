@@ -28,13 +28,14 @@ class Noise extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115242
+             * line : 82920
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Noise extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Noise',
             'desc' => [
+                'en' => 'Noise',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116583
+             * line : 83405
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Noise extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Noise',
             'desc' => [
+                'en' => 'Noise',
             ],
         ],
     ];

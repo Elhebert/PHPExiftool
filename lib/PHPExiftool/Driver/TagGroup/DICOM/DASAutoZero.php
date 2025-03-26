@@ -28,13 +28,14 @@ class DASAutoZero extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Auto Zero',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100478
+             * line : 73650
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASAutoZero extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASAutoZero',
             'desc' => [
+                'en' => 'DAS Auto Zero',
             ],
         ],
     ];

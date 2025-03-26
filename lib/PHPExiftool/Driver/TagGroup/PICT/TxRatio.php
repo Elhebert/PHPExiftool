@@ -28,13 +28,14 @@ class TxRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264662
+             * line : 182912
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TxRatio extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:TxRatio',
             'desc' => [
+                'en' => 'Text Ratio',
             ],
         ],
     ];

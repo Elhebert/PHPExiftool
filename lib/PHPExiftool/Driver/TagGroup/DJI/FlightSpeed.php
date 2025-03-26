@@ -28,13 +28,14 @@ class FlightSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flight Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104440
+             * line : 77512
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlightSpeed extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:FlightSpeed',
             'desc' => [
+                'en' => 'Flight Speed',
             ],
         ],
     ];

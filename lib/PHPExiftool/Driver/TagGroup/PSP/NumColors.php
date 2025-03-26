@@ -28,13 +28,14 @@ class NumColors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Image
-             * line : 273380
+             * line : 190680
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumColors extends AbstractTagGroup
              */
             'id' => 'PSP::Image.PSP:NumColors',
             'desc' => [
+                'en' => 'Num Colors',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Ascender extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ascender',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127707
+             * line : 88684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Ascender extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:Ascender',
             'desc' => [
+                'en' => 'Ascender',
             ],
         ],
     ];

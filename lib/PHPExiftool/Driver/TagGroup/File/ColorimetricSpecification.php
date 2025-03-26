@@ -28,13 +28,14 @@ class ColorimetricSpecification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorimetric Specification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105770
+             * line : 78280
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorimetricSpecification extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ColorimetricSpecification',
             'desc' => [
+                'en' => 'Colorimetric Specification',
             ],
         ],
     ];

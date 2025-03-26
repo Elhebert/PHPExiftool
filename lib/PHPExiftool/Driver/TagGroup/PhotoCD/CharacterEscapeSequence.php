@@ -28,13 +28,14 @@ class CharacterEscapeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Character Escape Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303818
+             * line : 211053
              * type : undef
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class CharacterEscapeSequence extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:CharacterEscapeSequence',
             'desc' => [
+                'en' => 'Character Escape Sequence',
             ],
         ],
     ];

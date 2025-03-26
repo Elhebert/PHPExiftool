@@ -28,13 +28,14 @@ class XRayOutput extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99738
+             * line : 72942
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRayOutput extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRayOutput',
             'desc' => [
+                'en' => 'X Ray Output',
             ],
         ],
     ];

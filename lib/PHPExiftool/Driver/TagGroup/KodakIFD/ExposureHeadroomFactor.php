@@ -28,13 +28,14 @@ class ExposureHeadroomFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Headroom Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155290
+             * line : 106511
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureHeadroomFactor extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureHeadroomFactor',
             'desc' => [
+                'en' => 'Exposure Headroom Factor',
             ],
         ],
     ];

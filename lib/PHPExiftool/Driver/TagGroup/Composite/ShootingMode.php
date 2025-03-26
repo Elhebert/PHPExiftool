@@ -28,13 +28,14 @@ class ShootingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shooting Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90223
+             * line : 65123
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShootingMode extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ShootingMode',
             'desc' => [
+                'en' => 'Shooting Mode',
             ],
         ],
     ];

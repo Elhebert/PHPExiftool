@@ -28,13 +28,14 @@ class EditStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Edit Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397763
+             * line : 281595
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EditStatus extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:EditStatus',
             'desc' => [
+                'en' => 'Edit Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CopyrightURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ContentBranding
-             * line : 927
+             * line : 362
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CopyrightURL extends AbstractTagGroup
              */
             'id' => 'ASF::ContentBranding.ASF:CopyrightURL',
             'desc' => [
+                'en' => 'Copyright URL',
             ],
         ],
         1 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1168
+             * line : 478
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CopyrightURL extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:CopyrightURL',
             'desc' => [
+                'en' => 'Copyright URL',
             ],
         ],
     ];

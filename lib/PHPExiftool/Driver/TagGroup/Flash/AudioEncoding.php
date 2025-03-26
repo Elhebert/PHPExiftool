@@ -28,13 +28,14 @@ class AudioEncoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Audio
-             * line : 123787
+             * line : 86562
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioEncoding extends AbstractTagGroup
              */
             'id' => 'Flash::Audio.Flash:AudioEncoding',
             'desc' => [
+                'en' => 'Audio Encoding',
             ],
         ],
     ];

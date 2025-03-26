@@ -28,13 +28,14 @@ class OriginalAttributesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Attributes Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101944
+             * line : 75084
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalAttributesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OriginalAttributesSequence',
             'desc' => [
+                'en' => 'Original Attributes Sequence',
             ],
         ],
     ];

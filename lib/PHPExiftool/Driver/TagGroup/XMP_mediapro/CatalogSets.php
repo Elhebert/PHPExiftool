@@ -28,13 +28,14 @@ class CatalogSets extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Catalog Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::MediaPro
-             * line : 397394
+             * line : 281422
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CatalogSets extends AbstractTagGroup
              */
             'id' => 'XMP::MediaPro.XMP-mediapro:CatalogSets',
             'desc' => [
+                'en' => 'Catalog Sets',
             ],
         ],
     ];

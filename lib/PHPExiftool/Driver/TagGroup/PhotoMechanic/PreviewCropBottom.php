@@ -28,13 +28,14 @@ class PreviewCropBottom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Crop Bottom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::SoftEdit
-             * line : 304866
+             * line : 211907
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewCropBottom extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:PreviewCropBottom',
             'desc' => [
+                'en' => 'Preview Crop Bottom',
             ],
         ],
     ];

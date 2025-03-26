@@ -28,13 +28,14 @@ class ImageData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageFile
-             * line : 314051
+             * line : 219705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageData extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageFile.QuickTime:ImageData',
             'desc' => [
+                'en' => 'Image Data',
             ],
         ],
     ];

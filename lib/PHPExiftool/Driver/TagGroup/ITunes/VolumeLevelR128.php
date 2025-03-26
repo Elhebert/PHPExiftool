@@ -28,13 +28,14 @@ class VolumeLevelR128 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Level R128',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326657
+             * line : 230396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeLevelR128 extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:VolumeLevelR128',
             'desc' => [
+                'en' => 'Volume Level R128',
             ],
         ],
     ];

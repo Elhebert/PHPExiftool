@@ -28,13 +28,14 @@ class NominalBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nominal Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Identification
-             * line : 395937
+             * line : 280287
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NominalBitrate extends AbstractTagGroup
              */
             'id' => 'Vorbis::Identification.Vorbis:NominalBitrate',
             'desc' => [
+                'en' => 'Nominal Bitrate',
             ],
         ],
     ];

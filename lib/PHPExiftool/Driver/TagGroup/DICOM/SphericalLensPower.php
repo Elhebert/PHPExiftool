@@ -28,13 +28,14 @@ class SphericalLensPower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spherical Lens Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98315
+             * line : 71650
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SphericalLensPower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SphericalLensPower',
             'desc' => [
+                'en' => 'Spherical Lens Power',
             ],
         ],
     ];

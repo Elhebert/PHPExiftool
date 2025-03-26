@@ -28,13 +28,14 @@ class RegionConstraints extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Constraints',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272342
+             * line : 190267
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionConstraints extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:RegionConstraints',
             'desc' => [
+                'en' => 'Region Constraints',
             ],
         ],
     ];

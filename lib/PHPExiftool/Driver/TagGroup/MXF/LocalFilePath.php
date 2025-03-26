@@ -28,13 +28,14 @@ class LocalFilePath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167373
+             * line : 113994
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LocalFilePath extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalFilePath',
             'desc' => [
+                'en' => 'Local File Path',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169800
+             * line : 116154
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LocalFilePath extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LocalFilePath',
             'desc' => [
+                'en' => 'Local File Path',
             ],
         ],
     ];

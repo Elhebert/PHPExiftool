@@ -28,13 +28,14 @@ class TapeBatchNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Batch Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169167
+             * line : 115609
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TapeBatchNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeBatchNumber',
             'desc' => [
+                'en' => 'Tape Batch Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169170
+             * line : 115612
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TapeBatchNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapeBatchNumber',
             'desc' => [
+                'en' => 'Tape Batch Number',
             ],
         ],
     ];

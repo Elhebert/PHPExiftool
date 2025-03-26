@@ -28,13 +28,14 @@ class FinishResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finish Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156247
+             * line : 107451
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinishResolution extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishResolution',
             'desc' => [
+                'en' => 'Finish Resolution',
             ],
         ],
     ];

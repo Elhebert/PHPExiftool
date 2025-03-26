@@ -28,13 +28,14 @@ class ContrastLandscape extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Landscape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34441
+             * line : 26474
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastLandscape',
             'desc' => [
+                'en' => 'Contrast Landscape',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67206
+             * line : 50993
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastLandscape',
             'desc' => [
+                'en' => 'Contrast Landscape',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68304
+             * line : 51654
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastLandscape',
             'desc' => [
+                'en' => 'Contrast Landscape',
             ],
         ],
     ];

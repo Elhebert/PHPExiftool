@@ -28,13 +28,14 @@ class ChapterProcessData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Process Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173832
+             * line : 119730
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterProcessData extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterProcessData',
             'desc' => [
+                'en' => 'Chapter Process Data',
             ],
         ],
     ];

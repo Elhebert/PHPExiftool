@@ -28,13 +28,14 @@ class TrackingID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tracking ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174916
+             * line : 120428
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackingID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TrackingID',
             'desc' => [
+                'en' => 'Tracking ID',
             ],
         ],
     ];

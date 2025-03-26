@@ -28,13 +28,14 @@ class MOIVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MOI Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MOI::Main
-             * line : 165437
+             * line : 112505
              * type : string
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class MOIVersion extends AbstractTagGroup
              */
             'id' => 'MOI::Main.MOI:MOIVersion',
             'desc' => [
+                'en' => 'MOI Version',
             ],
         ],
     ];

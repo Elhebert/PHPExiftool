@@ -28,13 +28,14 @@ class IconIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Icon Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161453
+             * line : 110288
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IconIndex extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:IconIndex',
             'desc' => [
+                'en' => 'Icon Index',
             ],
         ],
     ];

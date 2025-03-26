@@ -28,13 +28,14 @@ class DaylightSavings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Daylight Savings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::WorldTime
-             * line : 209655
+             * line : 141371
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DaylightSavings extends AbstractTagGroup
              */
             'id' => 'Nikon::WorldTime.Nikon:DaylightSavings',
             'desc' => [
+                'en' => 'Daylight Savings',
             ],
         ],
     ];

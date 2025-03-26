@@ -28,13 +28,14 @@ class ImageBoxScrollDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Scroll Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101625
+             * line : 74769
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxScrollDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxScrollDirection',
             'desc' => [
+                'en' => 'Image Box Scroll Direction',
             ],
         ],
     ];

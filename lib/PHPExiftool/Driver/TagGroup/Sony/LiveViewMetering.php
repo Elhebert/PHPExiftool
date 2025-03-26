@@ -28,13 +28,14 @@ class LiveViewMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351115
+             * line : 245138
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LiveViewMetering extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LiveViewMetering',
             'desc' => [
+                'en' => 'Live View Metering',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351294
+             * line : 245264
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LiveViewMetering extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LiveViewMetering',
             'desc' => [
+                'en' => 'Live View Metering',
             ],
         ],
     ];

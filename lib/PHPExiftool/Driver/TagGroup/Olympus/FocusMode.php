@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250669
+             * line : 172931
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258549
+             * line : 178584
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

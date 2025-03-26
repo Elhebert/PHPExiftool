@@ -28,13 +28,14 @@ class Lyrics extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lyrics',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147122
+             * line : 102156
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lyrics extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:Lyrics',
             'desc' => [
+                'en' => 'Lyrics',
             ],
         ],
     ];

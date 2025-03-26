@@ -28,13 +28,14 @@ class ISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84892
+             * line : 61826
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Type2
-             * line : 85365
+             * line : 62054
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 89534
+             * line : 64769
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ISO extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:ISO',
             'desc' => [
+                'en' => 'ISO',
             ],
         ],
     ];

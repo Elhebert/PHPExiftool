@@ -28,13 +28,14 @@ class ExpandSoftware extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expand Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117985
+             * line : 83721
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpandSoftware extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExpandSoftware',
             'desc' => [
+                'en' => 'Expand Software',
             ],
         ],
     ];

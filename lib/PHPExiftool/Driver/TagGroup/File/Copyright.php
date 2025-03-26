@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105366
+             * line : 78077
              * type : string
              * writable : false
              * count : 200
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

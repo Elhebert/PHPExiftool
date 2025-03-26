@@ -28,13 +28,14 @@ class MediaOriginalChannel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Original Channel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175142
+             * line : 120606
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaOriginalChannel extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MediaOriginalChannel',
             'desc' => [
+                'en' => 'Media Original Channel',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioCodecID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301494
+             * line : 209822
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class AudioCodecID extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:AudioCodecID',
             'desc' => [
+                'en' => 'Audio Codec ID',
             ],
         ],
     ];

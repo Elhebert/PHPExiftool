@@ -28,13 +28,14 @@ class NikonApp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nikon App',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152677
+             * line : 105065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NikonApp extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:NikonApp',
             'desc' => [
+                'en' => 'Nikon App',
             ],
         ],
     ];

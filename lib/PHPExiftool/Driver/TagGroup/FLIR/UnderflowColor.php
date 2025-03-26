@@ -28,13 +28,14 @@ class UnderflowColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Underflow Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123517
+             * line : 86328
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class UnderflowColor extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:UnderflowColor',
             'desc' => [
+                'en' => 'Underflow Color',
             ],
         ],
     ];

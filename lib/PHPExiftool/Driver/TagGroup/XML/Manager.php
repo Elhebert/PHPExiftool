@@ -28,13 +28,14 @@ class Manager extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manager',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249180
+             * line : 171801
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manager extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Manager',
             'desc' => [
+                'en' => 'Manager',
             ],
         ],
     ];

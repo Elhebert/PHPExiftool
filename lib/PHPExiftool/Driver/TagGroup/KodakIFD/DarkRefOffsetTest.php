@@ -28,13 +28,14 @@ class DarkRefOffsetTest extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dark Ref Offset Test',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157260
+             * line : 108452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DarkRefOffsetTest extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkRefOffsetTest',
             'desc' => [
+                'en' => 'Dark Ref Offset Test',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DefaultsSpecificToSerial extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Defaults Specific To Serial',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402228
+             * line : 285381
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefaultsSpecificToSerial extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:DefaultsSpecificToSerial',
             'desc' => [
+                'en' => 'Defaults Specific To Serial',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Project extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Project',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175652
+             * line : 120894
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Project extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Project',
             'desc' => [
+                'en' => 'Project',
             ],
         ],
     ];

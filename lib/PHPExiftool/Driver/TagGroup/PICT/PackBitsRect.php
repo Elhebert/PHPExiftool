@@ -28,13 +28,14 @@ class PackBitsRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Packed CopyBits with Clipped Rectangle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264999
+             * line : 183218
              * type : BitsRect#
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackBitsRect extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PackBitsRect',
             'desc' => [
+                'en' => 'Packed CopyBits with Clipped Rectangle',
             ],
         ],
     ];

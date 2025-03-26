@@ -28,13 +28,14 @@ class AppleMailDateSent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Apple Mail Date Sent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173076
+             * line : 119101
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppleMailDateSent extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:AppleMailDateSent',
             'desc' => [
+                'en' => 'Apple Mail Date Sent',
             ],
         ],
     ];

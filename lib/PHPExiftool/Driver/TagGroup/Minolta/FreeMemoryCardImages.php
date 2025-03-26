@@ -28,13 +28,14 @@ class FreeMemoryCardImages extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Free Memory Card Images',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178938
+             * line : 122490
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FreeMemoryCardImages extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:FreeMemoryCardImages',
             'desc' => [
+                'en' => 'Free Memory Card Images',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 179040
+             * line : 122516
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FreeMemoryCardImages extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:FreeMemoryCardImages',
             'desc' => [
+                'en' => 'Free Memory Card Images',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179872
+             * line : 122818
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FreeMemoryCardImages extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:FreeMemoryCardImages',
             'desc' => [
+                'en' => 'Free Memory Card Images',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179992
+             * line : 122847
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FreeMemoryCardImages extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:FreeMemoryCardImages',
             'desc' => [
+                'en' => 'Free Memory Card Images',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181421
+             * line : 123428
              * type : int16u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FreeMemoryCardImages extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FreeMemoryCardImages',
             'desc' => [
+                'en' => 'Free Memory Card Images',
             ],
         ],
     ];

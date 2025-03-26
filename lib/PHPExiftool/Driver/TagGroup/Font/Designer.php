@@ -28,13 +28,14 @@ class Designer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Designer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127891
+             * line : 88782
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Designer extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:Designer',
             'desc' => [
+                'en' => 'Designer',
             ],
         ],
     ];

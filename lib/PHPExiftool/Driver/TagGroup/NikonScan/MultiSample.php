@@ -28,13 +28,14 @@ class MultiSample extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Scan
-             * line : 205224
+             * line : 137946
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiSample extends AbstractTagGroup
              */
             'id' => 'Nikon::Scan.NikonScan:MultiSample',
             'desc' => [
+                'en' => 'Multi Sample',
             ],
         ],
     ];

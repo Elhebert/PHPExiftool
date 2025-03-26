@@ -28,13 +28,14 @@ class APS_CSizeCapture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'APS-C Size Capture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381260
+             * line : 268063
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class APS_CSizeCapture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:APS-CSizeCapture',
             'desc' => [
+                'en' => 'APS-C Size Capture',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383628
+             * line : 270398
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class APS_CSizeCapture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:APS-CSizeCapture',
             'desc' => [
+                'en' => 'APS-C Size Capture',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383651
+             * line : 270421
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class APS_CSizeCapture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:APS-CSizeCapture',
             'desc' => [
+                'en' => 'APS-C Size Capture',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383665
+             * line : 270435
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class APS_CSizeCapture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:APS-CSizeCapture',
             'desc' => [
+                'en' => 'APS-C Size Capture',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383679
+             * line : 270449
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class APS_CSizeCapture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:APS-CSizeCapture',
             'desc' => [
+                'en' => 'APS-C Size Capture',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383693
+             * line : 270463
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class APS_CSizeCapture extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:APS-CSizeCapture',
             'desc' => [
+                'en' => 'APS-C Size Capture',
             ],
         ],
     ];

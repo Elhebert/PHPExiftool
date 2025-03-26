@@ -28,13 +28,14 @@ class ResolutionMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resolution Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 336993
+             * line : 235999
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ResolutionMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ResolutionMode',
             'desc' => [
+                'en' => 'Resolution Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 339186
+             * line : 237416
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ResolutionMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:ResolutionMode',
             'desc' => [
+                'en' => 'Resolution Mode',
             ],
         ],
     ];

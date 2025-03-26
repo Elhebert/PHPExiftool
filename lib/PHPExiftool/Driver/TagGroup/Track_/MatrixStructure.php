@@ -28,13 +28,14 @@ class MatrixStructure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Matrix Structure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackHeader
-             * line : 325082
+             * line : 229534
              * type : fixed32s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class MatrixStructure extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackHeader.Track#:MatrixStructure',
             'desc' => [
+                'en' => 'Matrix Structure',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DLOVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DLO Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DLOInfo
-             * line : 80222
+             * line : 58541
              * type : string
              * writable : true
              * count : 10
@@ -42,6 +43,7 @@ class DLOVersion extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DLOInfo.CanonVRD:DLOVersion',
             'desc' => [
+                'en' => 'DLO Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EPSOptions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'EPS Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305453
+             * line : 212248
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EPSOptions extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:EPSOptions',
             'desc' => [
+                'en' => 'EPS Options',
             ],
         ],
     ];

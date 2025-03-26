@@ -28,13 +28,14 @@ class PostCropVignetteRoundness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Post Crop Vignette Roundness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400600
+             * line : 284087
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PostCropVignetteRoundness extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PostCropVignetteRoundness',
             'desc' => [
+                'en' => 'Post Crop Vignette Roundness',
             ],
         ],
     ];

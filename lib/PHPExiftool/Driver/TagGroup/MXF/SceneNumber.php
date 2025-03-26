@@ -28,13 +28,14 @@ class SceneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167418
+             * line : 114036
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SceneNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SceneNumber',
             'desc' => [
+                'en' => 'Scene Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169820
+             * line : 116172
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SceneNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SceneNumber',
             'desc' => [
+                'en' => 'Scene Number',
             ],
         ],
     ];

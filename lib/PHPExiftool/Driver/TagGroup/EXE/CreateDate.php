@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::AR
-             * line : 107527
+             * line : 79349
              * type : string
              * writable : false
              * count : 12
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'EXE::AR.EXE:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

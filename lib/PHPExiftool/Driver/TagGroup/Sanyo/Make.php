@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MOV
-             * line : 335739
+             * line : 235568
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Sanyo::MOV.Sanyo:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : Sanyo::MP4
-             * line : 335976
+             * line : 235613
              * type : string
              * writable : false
              * count : 5
@@ -55,6 +57,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Sanyo::MP4.Sanyo:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

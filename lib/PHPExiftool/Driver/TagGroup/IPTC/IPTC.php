@@ -28,13 +28,14 @@ class IPTC extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121405
+             * line : 85187
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IPTC extends AbstractTagGroup
              */
             'id' => 'Extra.IPTC:IPTC',
             'desc' => [
+                'en' => 'IPTC',
             ],
         ],
     ];

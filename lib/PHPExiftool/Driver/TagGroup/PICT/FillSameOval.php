@@ -28,13 +28,14 @@ class FillSameOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Same Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264868
+             * line : 183095
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillSameOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillSameOval',
             'desc' => [
+                'en' => 'Fill Same Oval',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferenceCoordinates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Coordinates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98397
+             * line : 71731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceCoordinates extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferenceCoordinates',
             'desc' => [
+                'en' => 'Reference Coordinates',
             ],
         ],
     ];

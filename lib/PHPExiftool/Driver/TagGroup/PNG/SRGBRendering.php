@@ -28,13 +28,14 @@ class SRGBRendering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SRGB Rendering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272606
+             * line : 190409
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SRGBRendering extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:SRGBRendering',
             'desc' => [
+                'en' => 'SRGB Rendering',
             ],
         ],
     ];

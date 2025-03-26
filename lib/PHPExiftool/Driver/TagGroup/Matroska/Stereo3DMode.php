@@ -28,13 +28,14 @@ class Stereo3DMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo 3D Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173653
+             * line : 119577
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Stereo3DMode extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:Stereo3DMode',
             'desc' => [
+                'en' => 'Stereo 3D Mode',
             ],
         ],
     ];

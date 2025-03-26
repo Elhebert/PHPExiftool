@@ -28,13 +28,14 @@ class GPSDestDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Dest Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::GPS
-             * line : 163587
+             * line : 111451
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSDestDistance extends AbstractTagGroup
              */
             'id' => 'MIE::GPS.MIE-GPS:GPSDestDistance',
             'desc' => [
+                'en' => 'GPS Dest Distance',
             ],
         ],
     ];

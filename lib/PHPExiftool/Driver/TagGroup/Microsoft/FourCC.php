@@ -28,13 +28,14 @@ class FourCC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Four CC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174655
+             * line : 120239
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FourCC extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FourCC',
             'desc' => [
+                'en' => 'Four CC',
             ],
         ],
     ];

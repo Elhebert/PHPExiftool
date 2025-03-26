@@ -28,13 +28,14 @@ class ExposureProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405561
+             * line : 287926
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureProgram extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ExposureProgram',
             'desc' => [
+                'en' => 'Exposure Program',
             ],
         ],
     ];

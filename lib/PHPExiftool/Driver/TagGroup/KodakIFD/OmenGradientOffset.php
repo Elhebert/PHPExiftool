@@ -28,13 +28,14 @@ class OmenGradientOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Gradient Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155693
+             * line : 106904
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenGradientOffset extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenGradientOffset',
             'desc' => [
+                'en' => 'Omen Gradient Offset',
             ],
         ],
     ];

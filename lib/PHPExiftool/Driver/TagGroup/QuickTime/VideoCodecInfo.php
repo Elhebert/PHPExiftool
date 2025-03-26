@@ -28,13 +28,14 @@ class VideoCodecInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Codec Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoProf
-             * line : 326247
+             * line : 230162
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoCodecInfo extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoProf.QuickTime:VideoCodecInfo',
             'desc' => [
+                'en' => 'Video Codec Info',
             ],
         ],
     ];

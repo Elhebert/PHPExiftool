@@ -28,13 +28,14 @@ class DeviantWhiteCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Deviant White Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155183
+             * line : 106433
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class DeviantWhiteCustom extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DeviantWhiteCustom',
             'desc' => [
+                'en' => 'Deviant White Custom',
             ],
         ],
     ];

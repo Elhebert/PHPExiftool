@@ -28,13 +28,14 @@ class Sensor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331564
+             * line : 233076
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sensor extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:Sensor',
             'desc' => [
+                'en' => 'Sensor',
             ],
         ],
     ];

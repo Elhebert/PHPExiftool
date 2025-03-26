@@ -28,13 +28,14 @@ class RelatedGeneralSOPClassUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Related General SOP Class UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94688
+             * line : 68179
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelatedGeneralSOPClassUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelatedGeneralSOPClassUID',
             'desc' => [
+                'en' => 'Related General SOP Class UID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensFunc1Button extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Func 1 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246432
+             * line : 169134
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LensFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LensFunc1Button',
             'desc' => [
+                'en' => 'Lens Func 1 Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246527
+             * line : 169229
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LensFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LensFunc1Button',
             'desc' => [
+                'en' => 'Lens Func 1 Button',
             ],
         ],
     ];

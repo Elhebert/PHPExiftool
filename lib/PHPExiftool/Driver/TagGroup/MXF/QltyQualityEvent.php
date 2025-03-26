@@ -28,13 +28,14 @@ class QltyQualityEvent extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Qlty Quality Event',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171360
+             * line : 117562
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class QltyQualityEvent extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyQualityEvent',
             'desc' => [
+                'en' => 'Qlty Quality Event',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171363
+             * line : 117565
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class QltyQualityEvent extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyQualityEvent',
             'desc' => [
+                'en' => 'Qlty Quality Event',
             ],
         ],
     ];

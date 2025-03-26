@@ -28,13 +28,14 @@ class ProtocolName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Protocol Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95632
+             * line : 69082
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProtocolName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProtocolName',
             'desc' => [
+                'en' => 'Protocol Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SetupTechniqueDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setup Technique Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103492
+             * line : 76587
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetupTechniqueDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SetupTechniqueDescription',
             'desc' => [
+                'en' => 'Setup Technique Description',
             ],
         ],
     ];

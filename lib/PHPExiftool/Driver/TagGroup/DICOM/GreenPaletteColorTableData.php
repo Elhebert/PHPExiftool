@@ -28,13 +28,14 @@ class GreenPaletteColorTableData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Green Palette Color Table Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98990
+             * line : 72240
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GreenPaletteColorTableData extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GreenPaletteColorTableData',
             'desc' => [
+                'en' => 'Green Palette Color Table Data',
             ],
         ],
     ];

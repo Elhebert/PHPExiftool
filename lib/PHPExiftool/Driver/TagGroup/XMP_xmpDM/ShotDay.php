@@ -28,13 +28,14 @@ class ShotDay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shot Day',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413362
+             * line : 291461
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShotDay extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ShotDay',
             'desc' => [
+                'en' => 'Shot Day',
             ],
         ],
     ];

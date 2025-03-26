@@ -28,13 +28,14 @@ class PixelComponentDataType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Component Data Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96364
+             * line : 69772
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelComponentDataType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelComponentDataType',
             'desc' => [
+                'en' => 'Pixel Component Data Type',
             ],
         ],
     ];

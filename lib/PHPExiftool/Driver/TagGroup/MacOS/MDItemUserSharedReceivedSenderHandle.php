@@ -28,13 +28,14 @@ class MDItemUserSharedReceivedSenderHandle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item User Shared Received Sender Handle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 173044
+             * line : 119077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemUserSharedReceivedSenderHandle extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemUserSharedReceivedSenderHandle',
             'desc' => [
+                'en' => 'MD Item User Shared Received Sender Handle',
             ],
         ],
     ];

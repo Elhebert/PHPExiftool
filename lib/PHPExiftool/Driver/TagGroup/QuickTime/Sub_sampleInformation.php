@@ -28,13 +28,14 @@ class Sub_sampleInformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub-sample Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324456
+             * line : 229245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sub_sampleInformation extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:Sub-sampleInformation',
             'desc' => [
+                'en' => 'Sub-sample Information',
             ],
         ],
     ];

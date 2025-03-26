@@ -28,13 +28,14 @@ class ICCProfileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ICC Profile Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410298
+             * line : 289791
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ICCProfileName extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:ICCProfileName',
             'desc' => [
+                'en' => 'ICC Profile Name',
             ],
         ],
     ];

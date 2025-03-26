@@ -28,13 +28,14 @@ class ColorCreatorEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Creator Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252735
+             * line : 174204
              * type : int16s
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class ColorCreatorEffect extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ColorCreatorEffect',
             'desc' => [
+                'en' => 'Color Creator Effect',
             ],
         ],
     ];

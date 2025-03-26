@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153140
+             * line : 105305
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

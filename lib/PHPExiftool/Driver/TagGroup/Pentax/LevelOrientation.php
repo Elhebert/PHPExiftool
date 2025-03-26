@@ -28,13 +28,14 @@ class LevelOrientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Level Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LevelInfo
-             * line : 294422
+             * line : 205858
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LevelOrientation extends AbstractTagGroup
              */
             'id' => 'Pentax::LevelInfo.Pentax:LevelOrientation',
             'desc' => [
+                'en' => 'Level Orientation',
             ],
         ],
     ];

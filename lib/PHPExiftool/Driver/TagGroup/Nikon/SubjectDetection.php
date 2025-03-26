@@ -28,13 +28,14 @@ class SubjectDetection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Detection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201232
+             * line : 136126
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectDetection extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:SubjectDetection',
             'desc' => [
+                'en' => 'Subject Detection',
             ],
         ],
     ];

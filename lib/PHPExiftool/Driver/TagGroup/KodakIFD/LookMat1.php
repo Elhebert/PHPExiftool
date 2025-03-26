@@ -28,13 +28,14 @@ class LookMat1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Look Mat 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156578
+             * line : 107782
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LookMat1 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LookMat1',
             'desc' => [
+                'en' => 'Look Mat 1',
             ],
         ],
     ];

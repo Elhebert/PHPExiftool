@@ -28,13 +28,14 @@ class EPrint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'E Print',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107419
+             * line : 79291
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EPrint extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:EPrint',
             'desc' => [
+                'en' => 'E Print',
             ],
         ],
     ];

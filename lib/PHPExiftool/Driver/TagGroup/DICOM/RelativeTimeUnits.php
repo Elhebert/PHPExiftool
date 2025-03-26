@@ -28,13 +28,14 @@ class RelativeTimeUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Time Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101474
+             * line : 74622
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeTimeUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RelativeTimeUnits',
             'desc' => [
+                'en' => 'Relative Time Units',
             ],
         ],
     ];

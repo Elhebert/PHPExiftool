@@ -28,13 +28,14 @@ class TransducerOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transducer Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95042
+             * line : 68524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransducerOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransducerOrientation',
             'desc' => [
+                'en' => 'Transducer Orientation',
             ],
         ],
     ];

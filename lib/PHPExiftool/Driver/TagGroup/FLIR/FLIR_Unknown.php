@@ -28,13 +28,14 @@ class FLIR_Unknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'FLIR Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::UserData
-             * line : 123756
+             * line : 86549
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FLIR_Unknown extends AbstractTagGroup
              */
             'id' => 'FLIR::UserData.FLIR:FLIR_Unknown',
             'desc' => [
+                'en' => 'FLIR Unknown',
             ],
         ],
     ];

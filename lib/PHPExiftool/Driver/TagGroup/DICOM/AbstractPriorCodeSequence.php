@@ -28,13 +28,14 @@ class AbstractPriorCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Abstract Prior Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101481
+             * line : 74628
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AbstractPriorCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AbstractPriorCodeSequence',
             'desc' => [
+                'en' => 'Abstract Prior Code Sequence',
             ],
         ],
     ];

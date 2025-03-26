@@ -28,13 +28,14 @@ class ProfileLookTableData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Look Table Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120344
+             * line : 84517
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileLookTableData extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileLookTableData',
             'desc' => [
+                'en' => 'Profile Look Table Data',
             ],
         ],
     ];

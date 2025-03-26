@@ -28,13 +28,14 @@ class ViewfinderWarnings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Viewfinder Warnings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73495
+             * line : 54353
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ViewfinderWarnings extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ViewfinderWarnings',
             'desc' => [
+                'en' => 'Viewfinder Warnings',
             ],
         ],
     ];

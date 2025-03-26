@@ -28,13 +28,14 @@ class RecommendedDisplayCIELabValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recommended Display CIE Lab Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101097
+             * line : 74247
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecommendedDisplayCIELabValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecommendedDisplayCIELabValue',
             'desc' => [
+                'en' => 'Recommended Display CIE Lab Value',
             ],
         ],
     ];

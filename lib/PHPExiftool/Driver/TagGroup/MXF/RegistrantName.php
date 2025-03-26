@@ -28,13 +28,14 @@ class RegistrantName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Registrant Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172358
+             * line : 118519
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegistrantName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegistrantName',
             'desc' => [
+                'en' => 'Registrant Name',
             ],
         ],
     ];

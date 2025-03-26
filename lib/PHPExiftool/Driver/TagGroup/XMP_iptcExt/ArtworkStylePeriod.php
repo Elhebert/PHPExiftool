@@ -28,13 +28,14 @@ class ArtworkStylePeriod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork Style Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409135
+             * line : 288949
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtworkStylePeriod extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkStylePeriod',
             'desc' => [
+                'en' => 'Artwork Style Period',
             ],
         ],
     ];

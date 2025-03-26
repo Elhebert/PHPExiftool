@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332820
+             * line : 233471
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

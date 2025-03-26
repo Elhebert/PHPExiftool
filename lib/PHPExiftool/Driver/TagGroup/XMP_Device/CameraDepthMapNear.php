@@ -28,13 +28,14 @@ class CameraDepthMapNear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Depth Map Near',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396549
+             * line : 280766
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraDepthMapNear extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraDepthMapNear',
             'desc' => [
+                'en' => 'Camera Depth Map Near',
             ],
         ],
     ];

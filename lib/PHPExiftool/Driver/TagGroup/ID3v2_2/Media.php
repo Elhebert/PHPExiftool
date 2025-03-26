@@ -28,13 +28,14 @@ class Media extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148337
+             * line : 103032
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Media extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Media',
             'desc' => [
+                'en' => 'Media',
             ],
         ],
     ];

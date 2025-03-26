@@ -28,13 +28,14 @@ class DistanceSourceToDetector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Source To Detector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95772
+             * line : 69220
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceSourceToDetector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceSourceToDetector',
             'desc' => [
+                'en' => 'Distance Source To Detector',
             ],
         ],
     ];

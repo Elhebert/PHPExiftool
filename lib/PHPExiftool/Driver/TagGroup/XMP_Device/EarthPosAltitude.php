@@ -28,13 +28,14 @@ class EarthPosAltitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Earth Pos Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396693
+             * line : 280910
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EarthPosAltitude extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:EarthPosAltitude',
             'desc' => [
+                'en' => 'Earth Pos Altitude',
             ],
         ],
     ];

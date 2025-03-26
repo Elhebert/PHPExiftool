@@ -28,13 +28,14 @@ class FixationDevicePitchAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fixation Device Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103468
+             * line : 76563
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FixationDevicePitchAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FixationDevicePitchAngle',
             'desc' => [
+                'en' => 'Fixation Device Pitch Angle',
             ],
         ],
     ];

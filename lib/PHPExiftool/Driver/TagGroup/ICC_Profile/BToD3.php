@@ -28,13 +28,14 @@ class BToD3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'B To D3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146027
+             * line : 101505
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BToD3 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:BToD3',
             'desc' => [
+                'en' => 'B To D3',
             ],
         ],
     ];

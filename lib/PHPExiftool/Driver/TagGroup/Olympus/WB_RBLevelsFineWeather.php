@@ -28,13 +28,14 @@ class WB_RBLevelsFineWeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels Fine Weather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260871
+             * line : 180201
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsFineWeather extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsFineWeather',
             'desc' => [
+                'en' => 'WB RB Levels Fine Weather',
             ],
         ],
     ];

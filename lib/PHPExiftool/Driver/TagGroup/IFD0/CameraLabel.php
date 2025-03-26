@@ -28,13 +28,14 @@ class CameraLabel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120545
+             * line : 84685
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraLabel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CameraLabel',
             'desc' => [
+                'en' => 'Camera Label',
             ],
         ],
     ];

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -19,13 +20,13 @@ class MetadataBagTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->object = new MetadataBag();
+        $this->object = new MetadataBag;
     }
 
     /**
      * @covers MetadataBag::filterKeysByRegExp
      */
-    public function testFilterKeysByRegExp(): void
+    public function test_filter_keys_by_reg_exp(): void
     {
         $this->object->set('oneKey', 'oneValue');
         $this->object->set('oneSecondKey', 'anotherValue');

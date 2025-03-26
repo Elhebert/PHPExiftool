@@ -28,13 +28,14 @@ class LinkedEncRightsExpr extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Linked Enc Rights Expr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409434
+             * line : 289210
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LinkedEncRightsExpr extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:LinkedEncRightsExpr',
             'desc' => [
+                'en' => 'Linked Enc Rights Expr',
             ],
         ],
     ];

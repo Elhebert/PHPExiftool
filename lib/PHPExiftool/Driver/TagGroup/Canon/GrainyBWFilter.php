@@ -28,13 +28,14 @@ class GrainyBWFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grainy B/W Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 63953
+             * line : 48572
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GrainyBWFilter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:GrainyBWFilter',
             'desc' => [
+                'en' => 'Grainy B/W Filter',
             ],
         ],
     ];

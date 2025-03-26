@@ -28,13 +28,14 @@ class ControlPointDeliverySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Control Point Delivery Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102720
+             * line : 75816
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ControlPointDeliverySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ControlPointDeliverySequence',
             'desc' => [
+                'en' => 'Control Point Delivery Sequence',
             ],
         ],
     ];

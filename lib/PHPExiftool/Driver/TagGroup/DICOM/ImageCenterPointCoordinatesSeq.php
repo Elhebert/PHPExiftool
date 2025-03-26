@@ -28,13 +28,14 @@ class ImageCenterPointCoordinatesSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Center Point Coordinates Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99815
+             * line : 73017
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageCenterPointCoordinatesSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageCenterPointCoordinatesSeq',
             'desc' => [
+                'en' => 'Image Center Point Coordinates Seq',
             ],
         ],
     ];

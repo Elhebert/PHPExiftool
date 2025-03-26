@@ -28,13 +28,14 @@ class ToneCurves extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Curves',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300929
+             * line : 209706
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneCurves extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ToneCurves',
             'desc' => [
+                'en' => 'Tone Curves',
             ],
         ],
     ];

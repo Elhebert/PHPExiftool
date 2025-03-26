@@ -28,13 +28,14 @@ class VerticalMultiSelector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Multi Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248334
+             * line : 171022
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248735
+             * line : 171423
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
     ];

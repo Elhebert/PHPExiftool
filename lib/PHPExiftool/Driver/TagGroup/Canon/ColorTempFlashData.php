@@ -28,13 +28,14 @@ class ColorTempFlashData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Flash Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61274
+             * line : 46999
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorTempFlashData extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempFlashData',
             'desc' => [
+                'en' => 'Color Temp Flash Data',
             ],
         ],
     ];

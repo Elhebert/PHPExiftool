@@ -28,13 +28,14 @@ class SoftSkinEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Soft Skin Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354355
+             * line : 247031
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SoftSkinEffect extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:SoftSkinEffect',
             'desc' => [
+                'en' => 'Soft Skin Effect',
             ],
         ],
     ];

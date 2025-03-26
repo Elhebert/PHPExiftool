@@ -28,13 +28,14 @@ class ColorComponents extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Components',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SPIFF
-             * line : 153095
+             * line : 105296
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorComponents extends AbstractTagGroup
              */
             'id' => 'JPEG::SPIFF.SPIFF:ColorComponents',
             'desc' => [
+                'en' => 'Color Components',
             ],
         ],
     ];

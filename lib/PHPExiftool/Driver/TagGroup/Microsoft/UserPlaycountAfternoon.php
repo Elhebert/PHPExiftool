@@ -28,13 +28,14 @@ class UserPlaycountAfternoon extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Playcount Afternoon',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174934
+             * line : 120446
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserPlaycountAfternoon extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:UserPlaycountAfternoon',
             'desc' => [
+                'en' => 'User Playcount Afternoon',
             ],
         ],
     ];

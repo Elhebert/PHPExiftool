@@ -28,13 +28,14 @@ class InstanceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167308
+             * line : 113940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceUID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InstanceUID',
             'desc' => [
+                'en' => 'Instance UID',
             ],
         ],
     ];

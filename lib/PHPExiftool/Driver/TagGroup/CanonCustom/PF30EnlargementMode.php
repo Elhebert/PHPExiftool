@@ -28,13 +28,14 @@ class PF30EnlargementMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF30 Enlargement Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78434
+             * line : 57135
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF30EnlargementMode extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF30EnlargementMode',
             'desc' => [
+                'en' => 'PF30 Enlargement Mode',
             ],
         ],
     ];

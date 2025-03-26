@@ -28,13 +28,14 @@ class UnusedBlackColsRightIn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unused Black Cols Right In',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156083
+             * line : 107294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnusedBlackColsRightIn extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UnusedBlackColsRightIn',
             'desc' => [
+                'en' => 'Unused Black Cols Right In',
             ],
         ],
     ];

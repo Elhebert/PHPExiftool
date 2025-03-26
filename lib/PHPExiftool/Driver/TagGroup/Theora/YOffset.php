@@ -28,13 +28,14 @@ class YOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394837
+             * line : 279717
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YOffset extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:YOffset',
             'desc' => [
+                'en' => 'Y Offset',
             ],
         ],
     ];

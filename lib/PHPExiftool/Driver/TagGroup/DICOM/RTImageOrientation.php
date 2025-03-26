@@ -28,13 +28,14 @@ class RTImageOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Image Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102392
+             * line : 75492
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTImageOrientation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTImageOrientation',
             'desc' => [
+                'en' => 'RT Image Orientation',
             ],
         ],
     ];

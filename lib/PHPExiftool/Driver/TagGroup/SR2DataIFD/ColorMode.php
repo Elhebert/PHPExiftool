@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2DataIFD
-             * line : 361650
+             * line : 251848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'Sony::SR2DataIFD.SR2DataIFD:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

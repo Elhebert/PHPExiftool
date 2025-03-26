@@ -28,13 +28,14 @@ class SeriesInstanceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Instance UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97845
+             * line : 71224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesInstanceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesInstanceUID',
             'desc' => [
+                'en' => 'Series Instance UID',
             ],
         ],
     ];

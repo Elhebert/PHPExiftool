@@ -28,13 +28,14 @@ class ProgramLine extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Program Line',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 284475
+             * line : 197442
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProgramLine extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:ProgramLine',
             'desc' => [
+                'en' => 'Program Line',
             ],
         ],
     ];

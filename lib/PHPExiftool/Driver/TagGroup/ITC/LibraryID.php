@@ -28,13 +28,14 @@ class LibraryID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Library ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ITC::Item
-             * line : 152113
+             * line : 104761
              * type : undef
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class LibraryID extends AbstractTagGroup
              */
             'id' => 'ITC::Item.ITC:LibraryID',
             'desc' => [
+                'en' => 'Library ID',
             ],
         ],
     ];

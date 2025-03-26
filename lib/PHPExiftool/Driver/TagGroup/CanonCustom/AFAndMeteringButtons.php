@@ -28,13 +28,14 @@ class AFAndMeteringButtons extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF And Metering Buttons',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74615
+             * line : 55051
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAndMeteringButtons extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFAndMeteringButtons',
             'desc' => [
+                'en' => 'AF And Metering Buttons',
             ],
         ],
     ];

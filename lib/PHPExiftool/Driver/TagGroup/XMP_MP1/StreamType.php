@@ -28,13 +28,14 @@ class StreamType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stream Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP1
-             * line : 174226
+             * line : 119995
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StreamType extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP1.XMP-MP1:StreamType',
             'desc' => [
+                'en' => 'Stream Type',
             ],
         ],
     ];

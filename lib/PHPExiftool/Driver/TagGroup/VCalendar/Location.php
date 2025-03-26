@@ -28,13 +28,14 @@ class Location extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395420
+             * line : 280017
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Location extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
     ];

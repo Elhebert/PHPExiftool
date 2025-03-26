@@ -28,13 +28,14 @@ class ContentCreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Content Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323048
+             * line : 228444
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContentCreateDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:ContentCreateDate',
             'desc' => [
+                'en' => 'Content Create Date',
             ],
         ],
     ];

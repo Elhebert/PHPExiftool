@@ -28,13 +28,14 @@ class GainControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gain Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406170
+             * line : 288083
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GainControl extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GainControl',
             'desc' => [
+                'en' => 'Gain Control',
             ],
         ],
     ];

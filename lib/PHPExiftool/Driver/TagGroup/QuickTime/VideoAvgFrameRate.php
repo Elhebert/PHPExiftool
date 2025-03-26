@@ -28,13 +28,14 @@ class VideoAvgFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Avg Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::VideoProf
-             * line : 326275
+             * line : 230188
              * type : fixed32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoAvgFrameRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::VideoProf.QuickTime:VideoAvgFrameRate',
             'desc' => [
+                'en' => 'Video Avg Frame Rate',
             ],
         ],
     ];

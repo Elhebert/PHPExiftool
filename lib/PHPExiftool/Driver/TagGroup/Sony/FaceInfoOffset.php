@@ -28,13 +28,14 @@ class FaceInfoOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Info Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362020
+             * line : 252069
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceInfoOffset extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:FaceInfoOffset',
             'desc' => [
+                'en' => 'Face Info Offset',
             ],
         ],
     ];

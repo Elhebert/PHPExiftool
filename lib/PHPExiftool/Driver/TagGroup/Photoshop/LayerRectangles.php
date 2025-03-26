@@ -28,13 +28,14 @@ class LayerRectangles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layer Rectangles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Layers
-             * line : 305346
+             * line : 212175
              * type : int32u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class LayerRectangles extends AbstractTagGroup
              */
             'id' => 'Photoshop::Layers.Photoshop:LayerRectangles',
             'desc' => [
+                'en' => 'Layer Rectangles',
             ],
         ],
     ];

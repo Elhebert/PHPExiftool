@@ -28,13 +28,14 @@ class LensFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277315
+             * line : 192919
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class LensFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:LensFirmwareVersion',
             'desc' => [
+                'en' => 'Lens Firmware Version',
             ],
         ],
     ];

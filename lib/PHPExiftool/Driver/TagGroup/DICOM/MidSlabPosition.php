@@ -28,13 +28,14 @@ class MidSlabPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mid Slab Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96766
+             * line : 70168
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MidSlabPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MidSlabPosition',
             'desc' => [
+                'en' => 'Mid Slab Position',
             ],
         ],
     ];

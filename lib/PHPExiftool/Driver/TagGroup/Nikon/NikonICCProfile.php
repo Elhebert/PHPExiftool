@@ -28,13 +28,14 @@ class NikonICCProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon ICC Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199608
+             * line : 134647
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NikonICCProfile extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NikonICCProfile',
             'desc' => [
+                'en' => 'Nikon ICC Profile',
             ],
         ],
     ];

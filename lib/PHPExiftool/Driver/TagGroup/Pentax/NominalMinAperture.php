@@ -28,13 +28,14 @@ class NominalMinAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nominal Min Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288771
+             * line : 200337
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NominalMinAperture extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:NominalMinAperture',
             'desc' => [
+                'en' => 'Nominal Min Aperture',
             ],
         ],
     ];

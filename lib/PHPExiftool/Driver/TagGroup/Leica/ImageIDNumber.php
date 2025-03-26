@@ -28,13 +28,14 @@ class ImageIDNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image ID Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274756
+             * line : 191597
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageIDNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:ImageIDNumber',
             'desc' => [
+                'en' => 'Image ID Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UnderlinePosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Underline Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PSInfo
-             * line : 128161
+             * line : 88925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UnderlinePosition extends AbstractTagGroup
              */
             'id' => 'Font::PSInfo.Font:UnderlinePosition',
             'desc' => [
+                'en' => 'Underline Position',
             ],
         ],
     ];

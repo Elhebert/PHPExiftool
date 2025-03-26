@@ -28,13 +28,14 @@ class CaptProfVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capt Prof Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161748
+             * line : 110497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptProfVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:CaptProfVersion',
             'desc' => [
+                'en' => 'Capt Prof Version',
             ],
         ],
     ];

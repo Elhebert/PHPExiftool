@@ -28,13 +28,14 @@ class CFAPattern extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CFA Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90291
+             * line : 65146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CFAPattern extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:CFAPattern',
             'desc' => [
+                'en' => 'CFA Pattern',
             ],
         ],
     ];

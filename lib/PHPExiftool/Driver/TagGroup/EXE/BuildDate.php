@@ -28,13 +28,14 @@ class BuildDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Build Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109002
+             * line : 80577
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BuildDate extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:BuildDate',
             'desc' => [
+                'en' => 'Build Date',
             ],
         ],
     ];

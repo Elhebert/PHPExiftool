@@ -28,13 +28,14 @@ class MIDISong extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIDI Song',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Extensions
-             * line : 131254
+             * line : 90639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIDISong extends AbstractTagGroup
              */
             'id' => 'GIF::Extensions.GIF:MIDISong',
             'desc' => [
+                'en' => 'MIDI Song',
             ],
         ],
     ];

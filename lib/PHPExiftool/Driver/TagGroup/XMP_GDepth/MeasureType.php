@@ -28,13 +28,14 @@ class MeasureType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measure Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396985
+             * line : 281139
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasureType extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:MeasureType',
             'desc' => [
+                'en' => 'Measure Type',
             ],
         ],
     ];

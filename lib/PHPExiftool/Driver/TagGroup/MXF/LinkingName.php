@@ -28,13 +28,14 @@ class LinkingName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linking Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171052
+             * line : 117273
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LinkingName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkingName',
             'desc' => [
+                'en' => 'Linking Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171055
+             * line : 117276
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LinkingName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkingName',
             'desc' => [
+                'en' => 'Linking Name',
             ],
         ],
     ];

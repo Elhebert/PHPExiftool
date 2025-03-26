@@ -28,13 +28,14 @@ class SlateTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slate Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168627
+             * line : 115115
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SlateTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SlateTitle',
             'desc' => [
+                'en' => 'Slate Title',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedOtherPlaneSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Other Plane Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95136
+             * line : 68617
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedOtherPlaneSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedOtherPlaneSequence',
             'desc' => [
+                'en' => 'Referenced Other Plane Sequence',
             ],
         ],
     ];

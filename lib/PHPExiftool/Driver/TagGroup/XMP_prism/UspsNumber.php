@@ -28,13 +28,14 @@ class UspsNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Usps Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411173
+             * line : 290371
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UspsNumber extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:UspsNumber',
             'desc' => [
+                'en' => 'Usps Number',
             ],
         ],
     ];

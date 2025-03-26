@@ -28,13 +28,14 @@ class AnnotationCueWordsSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation Cue Words Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171476
+             * line : 117676
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnnotationCueWordsSet extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnnotationCueWordsSet',
             'desc' => [
+                'en' => 'Annotation Cue Words Set',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class KodakModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157669
+             * line : 108655
              * type : string
              * writable : true
              * count : 8
@@ -42,12 +43,13 @@ class KodakModel extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:KodakModel',
             'desc' => [
+                'en' => 'Kodak Model',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159951
+             * line : 109555
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class KodakModel extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:KodakModel',
             'desc' => [
+                'en' => 'Kodak Model',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::Type2
-             * line : 160008
+             * line : 109595
              * type : string
              * writable : true
              * count : 32
@@ -68,6 +71,7 @@ class KodakModel extends AbstractTagGroup
              */
             'id' => 'Kodak::Type2.Kodak:KodakModel',
             'desc' => [
+                'en' => 'Kodak Model',
             ],
         ],
     ];

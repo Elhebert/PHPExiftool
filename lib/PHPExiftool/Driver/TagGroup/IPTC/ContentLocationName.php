@@ -28,13 +28,14 @@ class ContentLocationName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Content Location Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149947
+             * line : 103857
              * type : string
              * writable : true
              * count : 64
@@ -42,6 +43,7 @@ class ContentLocationName extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ContentLocationName',
             'desc' => [
+                'en' => 'Content Location Name',
             ],
         ],
     ];

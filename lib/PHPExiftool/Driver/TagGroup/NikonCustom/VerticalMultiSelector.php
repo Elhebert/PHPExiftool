@@ -28,13 +28,14 @@ class VerticalMultiSelector extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical Multi Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216002
+             * line : 145049
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218886
+             * line : 147230
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221346
+             * line : 149272
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233241
+             * line : 157085
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239958
+             * line : 163034
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class VerticalMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:VerticalMultiSelector',
             'desc' => [
+                'en' => 'Vertical Multi Selector',
             ],
         ],
     ];

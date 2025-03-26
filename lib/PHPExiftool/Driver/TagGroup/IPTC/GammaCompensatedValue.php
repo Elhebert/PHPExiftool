@@ -28,13 +28,14 @@ class GammaCompensatedValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Compensated Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151916
+             * line : 104630
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaCompensatedValue extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:GammaCompensatedValue',
             'desc' => [
+                'en' => 'Gamma Compensated Value',
             ],
         ],
     ];

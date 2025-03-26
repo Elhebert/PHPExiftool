@@ -28,13 +28,14 @@ class InvertArc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Arc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264884
+             * line : 183110
              * type : Arc
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertArc extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertArc',
             'desc' => [
+                'en' => 'Invert Arc',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FilmColorProcess extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Color Process',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168066
+             * line : 114569
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmColorProcess extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FilmColorProcess',
             'desc' => [
+                'en' => 'Film Color Process',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FrameCenterElevation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Center Elevation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172286
+             * line : 118450
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameCenterElevation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FrameCenterElevation',
             'desc' => [
+                'en' => 'Frame Center Elevation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::WBLevels
-             * line : 303111
+             * line : 210733
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
     ];

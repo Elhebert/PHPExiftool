@@ -28,13 +28,14 @@ class QualityButtonPlaybackMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality Button Playback Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 241414
+             * line : 164490
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QualityButtonPlaybackMode extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:QualityButtonPlaybackMode',
             'desc' => [
+                'en' => 'Quality Button Playback Mode',
             ],
         ],
     ];

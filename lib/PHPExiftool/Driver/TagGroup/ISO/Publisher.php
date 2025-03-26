@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152030
+             * line : 104715
              * type : string
              * writable : false
              * count : 128
@@ -42,6 +43,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

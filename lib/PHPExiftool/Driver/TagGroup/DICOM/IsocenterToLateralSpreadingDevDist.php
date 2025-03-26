@@ -28,13 +28,14 @@ class IsocenterToLateralSpreadingDevDist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Lateral Spreading Dev Dist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103870
+             * line : 76959
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToLateralSpreadingDevDist extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToLateralSpreadingDevDist',
             'desc' => [
+                'en' => 'Isocenter To Lateral Spreading Dev Dist',
             ],
         ],
     ];

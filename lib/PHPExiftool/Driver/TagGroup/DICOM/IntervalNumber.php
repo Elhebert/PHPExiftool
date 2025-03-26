@@ -28,13 +28,14 @@ class IntervalNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interval Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97869
+             * line : 71245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IntervalNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IntervalNumber',
             'desc' => [
+                'en' => 'Interval Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Thumbnail
-             * line : 334245
+             * line : 234325
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThumbnailWidth extends AbstractTagGroup
              */
             'id' => 'Samsung::Thumbnail.Samsung:ThumbnailWidth',
             'desc' => [
+                'en' => 'Thumbnail Width',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::sec
-             * line : 335679
+             * line : 235542
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ThumbnailWidth extends AbstractTagGroup
              */
             'id' => 'Samsung::sec.Samsung:ThumbnailWidth',
             'desc' => [
+                'en' => 'Thumbnail Width',
             ],
         ],
     ];

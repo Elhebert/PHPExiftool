@@ -28,13 +28,14 @@ class FiducialDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fiducial Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101375
+             * line : 74523
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FiducialDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FiducialDescription',
             'desc' => [
+                'en' => 'Fiducial Description',
             ],
         ],
     ];

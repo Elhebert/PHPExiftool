@@ -28,13 +28,14 @@ class MonoSourceTrackIDs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mono Source Track I Ds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171965
+             * line : 118150
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MonoSourceTrackIDs extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MonoSourceTrackIDs',
             'desc' => [
+                'en' => 'Mono Source Track I Ds',
             ],
         ],
     ];

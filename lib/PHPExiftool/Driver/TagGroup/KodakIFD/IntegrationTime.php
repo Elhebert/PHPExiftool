@@ -28,13 +28,14 @@ class IntegrationTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Integration Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155012
+             * line : 106262
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntegrationTime extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:IntegrationTime',
             'desc' => [
+                'en' => 'Integration Time',
             ],
         ],
     ];

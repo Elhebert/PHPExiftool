@@ -28,13 +28,14 @@ class CropTop extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Top',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82514
+             * line : 60432
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropTop extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:CropTop',
             'desc' => [
+                'en' => 'Crop Top',
             ],
         ],
     ];

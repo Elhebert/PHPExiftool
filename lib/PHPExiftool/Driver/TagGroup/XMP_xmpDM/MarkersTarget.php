@@ -28,13 +28,14 @@ class MarkersTarget extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Markers Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413194
+             * line : 291321
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MarkersTarget extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersTarget',
             'desc' => [
+                'en' => 'Markers Target',
             ],
         ],
     ];

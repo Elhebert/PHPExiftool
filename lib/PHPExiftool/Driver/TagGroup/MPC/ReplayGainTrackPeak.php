@@ -28,13 +28,14 @@ class ReplayGainTrackPeak extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Replay Gain Track Peak',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPC::Main
-             * line : 165591
+             * line : 112602
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReplayGainTrackPeak extends AbstractTagGroup
              */
             'id' => 'MPC::Main.MPC:ReplayGainTrackPeak',
             'desc' => [
+                'en' => 'Replay Gain Track Peak',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TotalSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176132
+             * line : 121203
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalSize extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TotalSize',
             'desc' => [
+                'en' => 'Total Size',
             ],
         ],
     ];

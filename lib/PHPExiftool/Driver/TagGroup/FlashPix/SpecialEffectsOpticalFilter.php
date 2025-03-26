@@ -28,13 +28,14 @@ class SpecialEffectsOpticalFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Special Effects Optical Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126060
+             * line : 87572
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecialEffectsOpticalFilter extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SpecialEffectsOpticalFilter',
             'desc' => [
+                'en' => 'Special Effects Optical Filter',
             ],
         ],
     ];

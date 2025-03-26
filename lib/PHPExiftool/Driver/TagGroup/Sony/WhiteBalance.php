@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346851
+             * line : 243060
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348463
+             * line : 243799
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Main
-             * line : 353650
+             * line : 246730
              * type : int32u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 359454
+             * line : 250707
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::rtmd
-             * line : 393847
+             * line : 279087
              * type : int8u
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sony::rtmd.Sony:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

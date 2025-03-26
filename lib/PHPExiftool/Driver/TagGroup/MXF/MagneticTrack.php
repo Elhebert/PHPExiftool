@@ -28,13 +28,14 @@ class MagneticTrack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnetic Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168018
+             * line : 114524
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagneticTrack extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MagneticTrack',
             'desc' => [
+                'en' => 'Magnetic Track',
             ],
         ],
     ];

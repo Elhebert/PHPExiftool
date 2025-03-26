@@ -28,13 +28,14 @@ class ISO639_1LanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISO639-1 Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167591
+             * line : 114204
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ISO639_1LanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISO639-1LanguageCode',
             'desc' => [
+                'en' => 'ISO639-1 Language Code',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172048
+             * line : 118222
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ISO639_1LanguageCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISO639-1LanguageCode',
             'desc' => [
+                'en' => 'ISO639-1 Language Code',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StorageMediaID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Media ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168699
+             * line : 115175
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageMediaID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StorageMediaID',
             'desc' => [
+                'en' => 'Storage Media ID',
             ],
         ],
     ];

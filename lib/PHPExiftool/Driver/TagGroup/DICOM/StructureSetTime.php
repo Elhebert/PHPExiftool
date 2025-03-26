@@ -28,13 +28,14 @@ class StructureSetTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Structure Set Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102525
+             * line : 75624
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StructureSetTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StructureSetTime',
             'desc' => [
+                'en' => 'Structure Set Time',
             ],
         ],
     ];

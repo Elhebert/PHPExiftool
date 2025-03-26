@@ -28,13 +28,14 @@ class DacCountsPerVolt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dac Counts Per Volt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155093
+             * line : 106343
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DacCountsPerVolt extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DacCountsPerVolt',
             'desc' => [
+                'en' => 'Dac Counts Per Volt',
             ],
         ],
     ];

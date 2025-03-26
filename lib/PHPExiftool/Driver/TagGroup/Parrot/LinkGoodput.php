@@ -28,13 +28,14 @@ class LinkGoodput extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Link Goodput',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V3
-             * line : 282587
+             * line : 196187
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkGoodput extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:LinkGoodput',
             'desc' => [
+                'en' => 'Link Goodput',
             ],
         ],
     ];

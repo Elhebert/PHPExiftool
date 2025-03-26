@@ -28,13 +28,14 @@ class LUTLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LUT Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100032
+             * line : 73233
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LUTLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LUTLabel',
             'desc' => [
+                'en' => 'LUT Label',
             ],
         ],
     ];

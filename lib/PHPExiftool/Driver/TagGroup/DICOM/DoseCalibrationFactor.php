@@ -28,13 +28,14 @@ class DoseCalibrationFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose Calibration Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101025
+             * line : 74175
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoseCalibrationFactor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoseCalibrationFactor',
             'desc' => [
+                'en' => 'Dose Calibration Factor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AGICOAID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AGICOAID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167428
+             * line : 114045
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AGICOAID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AGICOAID',
             'desc' => [
+                'en' => 'AGICOAID',
             ],
         ],
     ];

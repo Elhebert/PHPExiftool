@@ -28,13 +28,14 @@ class FocusModeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 344984
+             * line : 241911
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:FocusModeSetting',
             'desc' => [
+                'en' => 'Focus Mode Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345675
+             * line : 242369
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:FocusModeSetting',
             'desc' => [
+                'en' => 'Focus Mode Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347014
+             * line : 243095
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FocusModeSetting',
             'desc' => [
+                'en' => 'Focus Mode Setting',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348626
+             * line : 243834
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocusModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FocusModeSetting',
             'desc' => [
+                'en' => 'Focus Mode Setting',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350066
+             * line : 244497
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class FocusModeSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FocusModeSetting',
             'desc' => [
+                'en' => 'Focus Mode Setting',
             ],
         ],
     ];

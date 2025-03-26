@@ -28,13 +28,14 @@ class RawImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131068
+             * line : 90534
              * type : int16u
              * writable : false
              * count : 2
@@ -42,12 +43,13 @@ class RawImageSize extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:RawImageSize',
             'desc' => [
+                'en' => 'Raw Image Size',
             ],
         ],
         1 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131077
+             * line : 90537
              * type : int16u
              * writable : false
              * count : 2
@@ -55,6 +57,7 @@ class RawImageSize extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:RawImageSize',
             'desc' => [
+                'en' => 'Raw Image Size',
             ],
         ],
     ];

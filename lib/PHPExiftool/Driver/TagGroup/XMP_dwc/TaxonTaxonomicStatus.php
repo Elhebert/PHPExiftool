@@ -28,13 +28,14 @@ class TaxonTaxonomicStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Taxonomic Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106838
+             * line : 79025
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonTaxonomicStatus extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonTaxonomicStatus',
             'desc' => [
+                'en' => 'Taxon Taxonomic Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeviceRelativePositionalAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Relative Positional Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168311
+             * line : 114806
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceRelativePositionalAccuracy extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceRelativePositionalAccuracy',
             'desc' => [
+                'en' => 'Device Relative Positional Accuracy',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RatingScaleMinValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Scale Min Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409675
+             * line : 289435
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingScaleMinValue extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingScaleMinValue',
             'desc' => [
+                'en' => 'Rating Scale Min Value',
             ],
         ],
     ];

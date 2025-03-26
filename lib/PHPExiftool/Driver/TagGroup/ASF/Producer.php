@@ -28,13 +28,14 @@ class Producer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1505
+             * line : 730
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Producer extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Producer',
             'desc' => [
+                'en' => 'Producer',
             ],
         ],
     ];

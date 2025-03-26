@@ -28,13 +28,14 @@ class DataElementsSigned extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Elements Signed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101895
+             * line : 75036
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataElementsSigned extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataElementsSigned',
             'desc' => [
+                'en' => 'Data Elements Signed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DigitalFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 339150
+             * line : 237407
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DigitalFilter extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:DigitalFilter',
             'desc' => [
+                'en' => 'Digital Filter',
             ],
         ],
     ];

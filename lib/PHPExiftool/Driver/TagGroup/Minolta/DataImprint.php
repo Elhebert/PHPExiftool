@@ -28,13 +28,14 @@ class DataImprint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Data Imprint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 178248
+             * line : 122257
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DataImprint extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:DataImprint',
             'desc' => [
+                'en' => 'Data Imprint',
             ],
         ],
     ];

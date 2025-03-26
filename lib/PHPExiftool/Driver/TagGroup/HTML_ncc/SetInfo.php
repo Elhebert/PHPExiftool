@@ -28,13 +28,14 @@ class SetInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Set Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143021
+             * line : 98767
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetInfo extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:SetInfo',
             'desc' => [
+                'en' => 'Set Info',
             ],
         ],
     ];

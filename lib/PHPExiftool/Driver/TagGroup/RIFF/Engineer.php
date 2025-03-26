@@ -28,13 +28,14 @@ class Engineer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Engineer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328246
+             * line : 231547
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Engineer extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Engineer',
             'desc' => [
+                'en' => 'Engineer',
             ],
         ],
     ];

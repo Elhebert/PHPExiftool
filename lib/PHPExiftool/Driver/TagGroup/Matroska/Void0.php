@@ -28,13 +28,14 @@ class Void0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Void',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173393
+             * line : 119346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Void0 extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:Void',
             'desc' => [
+                'en' => 'Void',
             ],
         ],
     ];

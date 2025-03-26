@@ -28,13 +28,14 @@ class Rating extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328366
+             * line : 231604
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rating extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Rating',
             'desc' => [
+                'en' => 'Rating',
             ],
         ],
     ];

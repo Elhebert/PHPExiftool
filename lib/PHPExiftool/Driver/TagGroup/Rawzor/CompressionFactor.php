@@ -28,13 +28,14 @@ class CompressionFactor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Factor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Rawzor::Main
-             * line : 329601
+             * line : 232147
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompressionFactor extends AbstractTagGroup
              */
             'id' => 'Rawzor::Main.Rawzor:CompressionFactor',
             'desc' => [
+                'en' => 'Compression Factor',
             ],
         ],
     ];

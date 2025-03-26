@@ -28,13 +28,14 @@ class ZTrackingMaximumError extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Tracking Maximum Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100594
+             * line : 73764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZTrackingMaximumError extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZTrackingMaximumError',
             'desc' => [
+                'en' => 'Z Tracking Maximum Error',
             ],
         ],
     ];

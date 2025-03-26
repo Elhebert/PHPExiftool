@@ -28,13 +28,14 @@ class TaxonNomenclaturalCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Nomenclatural Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106770
+             * line : 78974
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonNomenclaturalCode extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonNomenclaturalCode',
             'desc' => [
+                'en' => 'Taxon Nomenclatural Code',
             ],
         ],
     ];

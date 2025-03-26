@@ -28,13 +28,14 @@ class RoundedCaptureFilmFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rounded Capture Film Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169080
+             * line : 115523
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RoundedCaptureFilmFrameRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RoundedCaptureFilmFrameRate',
             'desc' => [
+                'en' => 'Rounded Capture Film Frame Rate',
             ],
         ],
     ];

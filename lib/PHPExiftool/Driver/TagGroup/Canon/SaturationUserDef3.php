@@ -28,13 +28,14 @@ class SaturationUserDef3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation User Def 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34629
+             * line : 26566
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SaturationUserDef3',
             'desc' => [
+                'en' => 'Saturation User Def 3',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67862
+             * line : 51387
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SaturationUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SaturationUserDef3',
             'desc' => [
+                'en' => 'Saturation User Def 3',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 69040
+             * line : 52126
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SaturationUserDef3 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationUserDef3',
             'desc' => [
+                'en' => 'Saturation User Def 3',
             ],
         ],
     ];

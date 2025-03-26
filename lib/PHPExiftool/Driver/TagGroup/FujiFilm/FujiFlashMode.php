@@ -28,13 +28,14 @@ class FujiFlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fuji Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 129606
+             * line : 89610
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FujiFlashMode extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FujiFlashMode',
             'desc' => [
+                'en' => 'Fuji Flash Mode',
             ],
         ],
     ];

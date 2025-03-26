@@ -28,13 +28,14 @@ class CircGradBasedCorrTexture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Texture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401995
+             * line : 285230
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrTexture extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrTexture',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Texture',
             ],
         ],
     ];

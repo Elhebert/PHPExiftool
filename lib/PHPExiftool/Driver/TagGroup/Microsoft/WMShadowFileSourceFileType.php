@@ -28,13 +28,14 @@ class WMShadowFileSourceFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Shadow File Source File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175261
+             * line : 120693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMShadowFileSourceFileType extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WMShadowFileSourceFileType',
             'desc' => [
+                'en' => 'WM Shadow File Source File Type',
             ],
         ],
     ];

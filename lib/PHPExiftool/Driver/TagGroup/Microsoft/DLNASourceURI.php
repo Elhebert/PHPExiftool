@@ -28,13 +28,14 @@ class DLNASourceURI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DLNA Source URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174569
+             * line : 120200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DLNASourceURI extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DLNASourceURI',
             'desc' => [
+                'en' => 'DLNA Source URI',
             ],
         ],
     ];

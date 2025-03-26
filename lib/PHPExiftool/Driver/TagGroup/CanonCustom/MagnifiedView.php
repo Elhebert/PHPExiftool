@@ -28,13 +28,14 @@ class MagnifiedView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Magnified View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76639
+             * line : 56183
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MagnifiedView extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:MagnifiedView',
             'desc' => [
+                'en' => 'Magnified View',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 77252
+             * line : 56473
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MagnifiedView extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:MagnifiedView',
             'desc' => [
+                'en' => 'Magnified View',
             ],
         ],
     ];

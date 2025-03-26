@@ -28,13 +28,14 @@ class StdOxygen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Oxygen',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161999
+             * line : 110699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdOxygen extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdOxygen',
             'desc' => [
+                'en' => 'Std Oxygen',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Transformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transformation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118351
+             * line : 83912
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Transformation extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Transformation',
             'desc' => [
+                'en' => 'Transformation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ASF5LowSmthPrcnt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Low Smth Prcnt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306924
+             * line : 213422
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5LowSmthPrcnt extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5LowSmthPrcnt',
             'desc' => [
+                'en' => 'ASF5 Low Smth Prcnt',
             ],
         ],
     ];

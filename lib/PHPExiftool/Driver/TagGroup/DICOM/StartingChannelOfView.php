@@ -28,13 +28,14 @@ class StartingChannelOfView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Starting Channel Of View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100481
+             * line : 73653
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartingChannelOfView extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StartingChannelOfView',
             'desc' => [
+                'en' => 'Starting Channel Of View',
             ],
         ],
     ];

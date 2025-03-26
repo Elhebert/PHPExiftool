@@ -28,13 +28,14 @@ class WBRedFlash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Red Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361998
+             * line : 252047
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WBRedFlash extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:WBRedFlash',
             'desc' => [
+                'en' => 'WB Red Flash',
             ],
         ],
     ];

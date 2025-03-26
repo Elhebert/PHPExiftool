@@ -28,13 +28,14 @@ class NumTemporalLayers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Temporal Layers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HEVCConfig
-             * line : 313526
+             * line : 219271
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumTemporalLayers extends AbstractTagGroup
              */
             'id' => 'QuickTime::HEVCConfig.QuickTime:NumTemporalLayers',
             'desc' => [
+                'en' => 'Num Temporal Layers',
             ],
         ],
     ];

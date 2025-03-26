@@ -28,13 +28,14 @@ class VideoPixelDepth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Pixel Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413761
+             * line : 291798
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoPixelDepth extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoPixelDepth',
             'desc' => [
+                'en' => 'Video Pixel Depth',
             ],
         ],
     ];

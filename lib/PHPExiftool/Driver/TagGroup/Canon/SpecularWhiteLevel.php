@@ -28,13 +28,14 @@ class SpecularWhiteLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Specular White Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60286
+             * line : 46461
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60731
+             * line : 46713
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61330
+             * line : 47047
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61345
+             * line : 47062
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData4
-             * line : 61354
+             * line : 47071
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData4.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData5
-             * line : 61387
+             * line : 47101
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData5.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61714
+             * line : 47278
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62102
+             * line : 47491
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 62118
+             * line : 47506
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62588
+             * line : 47782
              * type : int16u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62600
+             * line : 47794
              * type : int16u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 63059
+             * line : 48061
              * type : int16u
              * writable : true
              * count :
@@ -185,6 +197,7 @@ class SpecularWhiteLevel extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:SpecularWhiteLevel',
             'desc' => [
+                'en' => 'Specular White Level',
             ],
         ],
     ];

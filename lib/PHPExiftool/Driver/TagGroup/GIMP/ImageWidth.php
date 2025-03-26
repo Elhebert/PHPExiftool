@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Header
-             * line : 131466
+             * line : 90740
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'GIMP::Header.GIMP:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

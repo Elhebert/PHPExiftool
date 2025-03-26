@@ -28,13 +28,14 @@ class VideoTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324939
+             * line : 229414
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoTimeStamp extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:VideoTimeStamp',
             'desc' => [
+                'en' => 'Video Time Stamp',
             ],
         ],
     ];

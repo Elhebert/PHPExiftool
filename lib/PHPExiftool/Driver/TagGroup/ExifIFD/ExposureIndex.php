@@ -28,13 +28,14 @@ class ExposureIndex extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115497
+             * line : 82978
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureIndex extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExposureIndex',
             'desc' => [
+                'en' => 'Exposure Index',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116767
+             * line : 83446
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureIndex extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExposureIndex',
             'desc' => [
+                'en' => 'Exposure Index',
             ],
         ],
     ];

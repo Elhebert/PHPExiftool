@@ -28,13 +28,14 @@ class DarkPedestal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dark Pedestal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156125
+             * line : 107336
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DarkPedestal extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkPedestal',
             'desc' => [
+                'en' => 'Dark Pedestal',
             ],
         ],
     ];

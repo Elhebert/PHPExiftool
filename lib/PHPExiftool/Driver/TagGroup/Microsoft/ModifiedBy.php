@@ -28,13 +28,14 @@ class ModifiedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174720
+             * line : 120275
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifiedBy extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ModifiedBy',
             'desc' => [
+                'en' => 'Modified By',
             ],
         ],
     ];

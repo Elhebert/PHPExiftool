@@ -28,13 +28,14 @@ class YMag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Mag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165149
+             * line : 112247
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YMag extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:YMag',
             'desc' => [
+                'en' => 'Y Mag',
             ],
         ],
     ];

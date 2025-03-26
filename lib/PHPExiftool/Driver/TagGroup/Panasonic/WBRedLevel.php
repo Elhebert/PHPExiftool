@@ -28,13 +28,14 @@ class WBRedLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Red Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278591
+             * line : 193749
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBRedLevel extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:WBRedLevel',
             'desc' => [
+                'en' => 'WB Red Level',
             ],
         ],
     ];

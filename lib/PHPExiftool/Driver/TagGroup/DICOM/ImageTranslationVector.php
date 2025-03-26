@@ -28,13 +28,14 @@ class ImageTranslationVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Translation Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96239
+             * line : 69652
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageTranslationVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageTranslationVector',
             'desc' => [
+                'en' => 'Image Translation Vector',
             ],
         ],
     ];

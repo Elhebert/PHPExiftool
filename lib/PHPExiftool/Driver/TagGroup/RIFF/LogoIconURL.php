@@ -28,13 +28,14 @@ class LogoIconURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Logo Icon URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328294
+             * line : 231562
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LogoIconURL extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:LogoIconURL',
             'desc' => [
+                'en' => 'Logo Icon URL',
             ],
         ],
     ];

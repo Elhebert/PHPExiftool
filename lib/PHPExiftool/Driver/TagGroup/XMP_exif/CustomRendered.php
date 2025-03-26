@@ -28,13 +28,14 @@ class CustomRendered extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Rendered',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405307
+             * line : 287871
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomRendered extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:CustomRendered',
             'desc' => [
+                'en' => 'Custom Rendered',
             ],
         ],
     ];

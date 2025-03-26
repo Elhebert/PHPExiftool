@@ -28,13 +28,14 @@ class PixelDataGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Data Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104399
+             * line : 77472
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelDataGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelDataGroupLength',
             'desc' => [
+                'en' => 'Pixel Data Group Length',
             ],
         ],
     ];

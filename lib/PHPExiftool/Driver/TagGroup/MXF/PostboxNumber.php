@@ -28,13 +28,14 @@ class PostboxNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Postbox Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168774
+             * line : 115250
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PostboxNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PostboxNumber',
             'desc' => [
+                'en' => 'Postbox Number',
             ],
         ],
     ];

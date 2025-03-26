@@ -28,13 +28,14 @@ class SourceMovementType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Movement Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103642
+             * line : 76731
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceMovementType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceMovementType',
             'desc' => [
+                'en' => 'Source Movement Type',
             ],
         ],
     ];

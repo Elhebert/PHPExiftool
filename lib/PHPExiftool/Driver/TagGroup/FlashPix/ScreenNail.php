@@ -28,13 +28,14 @@ class ScreenNail extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Nail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Main
-             * line : 126560
+             * line : 87754
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenNail extends AbstractTagGroup
              */
             'id' => 'FlashPix::Main.FlashPix:ScreenNail',
             'desc' => [
+                'en' => 'Screen Nail',
             ],
         ],
     ];

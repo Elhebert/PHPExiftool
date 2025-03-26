@@ -28,13 +28,14 @@ class WorldTimeLocation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'World Time Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276797
+             * line : 192677
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WorldTimeLocation extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:WorldTimeLocation',
             'desc' => [
+                'en' => 'World Time Location',
             ],
         ],
     ];

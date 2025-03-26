@@ -28,13 +28,14 @@ class PhotoshopThumbnail extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photoshop Thumbnail',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305517
+             * line : 212292
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotoshopThumbnail extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:PhotoshopThumbnail',
             'desc' => [
+                'en' => 'Photoshop Thumbnail',
             ],
         ],
     ];

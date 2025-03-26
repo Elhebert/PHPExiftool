@@ -28,13 +28,14 @@ class FilterHighFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter High Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99530
+             * line : 72741
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterHighFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterHighFrequency',
             'desc' => [
+                'en' => 'Filter High Frequency',
             ],
         ],
     ];

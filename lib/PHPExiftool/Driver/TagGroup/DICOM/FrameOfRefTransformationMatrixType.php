@@ -28,13 +28,14 @@ class FrameOfRefTransformationMatrixType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Of Ref Transformation Matrix Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101369
+             * line : 74517
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameOfRefTransformationMatrixType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameOfRefTransformationMatrixType',
             'desc' => [
+                'en' => 'Frame Of Ref Transformation Matrix Type',
             ],
         ],
     ];

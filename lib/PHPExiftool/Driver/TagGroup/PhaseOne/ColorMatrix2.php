@@ -28,13 +28,14 @@ class ColorMatrix2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Matrix 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303433
+             * line : 210852
              * type : float
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class ColorMatrix2 extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:ColorMatrix2',
             'desc' => [
+                'en' => 'Color Matrix 2',
             ],
         ],
     ];

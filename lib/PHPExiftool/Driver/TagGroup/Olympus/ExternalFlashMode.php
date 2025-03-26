@@ -28,13 +28,14 @@ class ExternalFlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258937
+             * line : 178733
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ExternalFlashMode',
             'desc' => [
+                'en' => 'External Flash Mode',
             ],
         ],
     ];

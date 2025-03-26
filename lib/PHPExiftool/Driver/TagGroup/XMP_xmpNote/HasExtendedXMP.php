@@ -28,13 +28,14 @@ class HasExtendedXMP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Extended XMP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpNote
-             * line : 414344
+             * line : 292349
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasExtendedXMP extends AbstractTagGroup
              */
             'id' => 'XMP::xmpNote.XMP-xmpNote:HasExtendedXMP',
             'desc' => [
+                'en' => 'Has Extended XMP',
             ],
         ],
     ];

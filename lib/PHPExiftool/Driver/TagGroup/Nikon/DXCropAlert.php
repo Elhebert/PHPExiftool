@@ -28,13 +28,14 @@ class DXCropAlert extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DX Crop Alert',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201221
+             * line : 136115
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DXCropAlert extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:DXCropAlert',
             'desc' => [
+                'en' => 'DX Crop Alert',
             ],
         ],
     ];

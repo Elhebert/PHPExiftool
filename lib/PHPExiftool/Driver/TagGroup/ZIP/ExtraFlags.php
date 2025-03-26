@@ -28,13 +28,14 @@ class ExtraFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Extra Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::GZIP
-             * line : 414719
+             * line : 292598
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExtraFlags extends AbstractTagGroup
              */
             'id' => 'ZIP::GZIP.ZIP:ExtraFlags',
             'desc' => [
+                'en' => 'Extra Flags',
             ],
         ],
     ];

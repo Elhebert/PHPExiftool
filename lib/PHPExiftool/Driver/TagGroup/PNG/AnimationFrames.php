@@ -28,13 +28,14 @@ class AnimationFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Animation Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::AnimationControl
-             * line : 272378
+             * line : 190294
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnimationFrames extends AbstractTagGroup
              */
             'id' => 'PNG::AnimationControl.PNG:AnimationFrames',
             'desc' => [
+                'en' => 'Animation Frames',
             ],
         ],
     ];

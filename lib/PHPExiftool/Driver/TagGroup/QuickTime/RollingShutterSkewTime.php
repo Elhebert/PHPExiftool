@@ -28,13 +28,14 @@ class RollingShutterSkewTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rolling Shutter Skew Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm1
-             * line : 326322
+             * line : 230232
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RollingShutterSkewTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm1.QuickTime:RollingShutterSkewTime',
             'desc' => [
+                'en' => 'Rolling Shutter Skew Time',
             ],
         ],
     ];

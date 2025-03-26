@@ -28,13 +28,14 @@ class ImageRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166748
+             * line : 113485
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageRotation extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ImageRotation',
             'desc' => [
+                'en' => 'Image Rotation',
             ],
         ],
     ];

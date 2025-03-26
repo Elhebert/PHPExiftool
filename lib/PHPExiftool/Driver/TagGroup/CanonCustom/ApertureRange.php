@@ -28,13 +28,14 @@ class ApertureRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72810
+             * line : 54014
              * type : int32s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class ApertureRange extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ApertureRange',
             'desc' => [
+                'en' => 'Aperture Range',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72832
+             * line : 54025
              * type : int32s
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class ApertureRange extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ApertureRange',
             'desc' => [
+                'en' => 'Aperture Range',
             ],
         ],
     ];

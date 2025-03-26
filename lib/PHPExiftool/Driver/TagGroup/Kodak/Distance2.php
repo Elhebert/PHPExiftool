@@ -28,13 +28,14 @@ class Distance2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distance 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157945
+             * line : 108744
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Distance2 extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:Distance2',
             'desc' => [
+                'en' => 'Distance 2',
             ],
         ],
     ];

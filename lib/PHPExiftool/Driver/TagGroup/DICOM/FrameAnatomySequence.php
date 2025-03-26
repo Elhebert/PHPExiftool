@@ -28,13 +28,14 @@ class FrameAnatomySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Anatomy Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98048
+             * line : 71395
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameAnatomySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameAnatomySequence',
             'desc' => [
+                'en' => 'Frame Anatomy Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LivingSpecimenMaterialSampleID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Living Specimen Material Sample ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106353
+             * line : 78662
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LivingSpecimenMaterialSampleID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:LivingSpecimenMaterialSampleID',
             'desc' => [
+                'en' => 'Living Specimen Material Sample ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContinuousShotLimit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Continuous Shot Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74514
+             * line : 54992
              * type : int32s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ContinuousShotLimit extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ContinuousShotLimit',
             'desc' => [
+                'en' => 'Continuous Shot Limit',
             ],
         ],
     ];

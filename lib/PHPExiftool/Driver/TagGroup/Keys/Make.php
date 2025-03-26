@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323493
+             * line : 228693
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

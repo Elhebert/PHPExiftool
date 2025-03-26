@@ -28,13 +28,14 @@ class LocalDeltaType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Delta Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::CloneObject
-             * line : 164728
+             * line : 111945
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalDeltaType extends AbstractTagGroup
              */
             'id' => 'MNG::CloneObject.MNG:LocalDeltaType',
             'desc' => [
+                'en' => 'Local Delta Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class XHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127806
+             * line : 88735
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XHeight extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:XHeight',
             'desc' => [
+                'en' => 'X Height',
             ],
         ],
     ];

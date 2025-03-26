@@ -28,13 +28,14 @@ class RevisionNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249401
+             * line : 171919
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RevisionNumber extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:RevisionNumber',
             'desc' => [
+                'en' => 'Revision Number',
             ],
         ],
     ];

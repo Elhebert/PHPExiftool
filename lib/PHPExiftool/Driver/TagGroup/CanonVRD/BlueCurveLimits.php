@@ -28,13 +28,14 @@ class BlueCurveLimits extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blue Curve Limits',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82473
+             * line : 60409
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class BlueCurveLimits extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:BlueCurveLimits',
             'desc' => [
+                'en' => 'Blue Curve Limits',
             ],
         ],
     ];

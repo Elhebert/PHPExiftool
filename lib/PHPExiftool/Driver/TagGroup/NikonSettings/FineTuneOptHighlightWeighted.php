@@ -28,13 +28,14 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fine Tune Opt Highlight Weighted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243852
+             * line : 166813
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FineTuneOptHighlightWeighted extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FineTuneOptHighlightWeighted',
             'desc' => [
+                'en' => 'Fine Tune Opt Highlight Weighted',
             ],
         ],
     ];

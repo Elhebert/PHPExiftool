@@ -28,13 +28,14 @@ class Follow_meAnimation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Follow-me Animation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::FollowMe
-             * line : 281988
+             * line : 195879
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Follow_meAnimation extends AbstractTagGroup
              */
             'id' => 'Parrot::FollowMe.Parrot:Follow-meAnimation',
             'desc' => [
+                'en' => 'Follow-me Animation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EmbeddedXMPDigest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Embedded XMP Digest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410271
+             * line : 289782
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EmbeddedXMPDigest extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:EmbeddedXMPDigest',
             'desc' => [
+                'en' => 'Embedded XMP Digest',
             ],
         ],
     ];

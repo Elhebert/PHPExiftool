@@ -28,13 +28,14 @@ class MediaLanguageCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Language Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MediaHeader
-             * line : 323907
+             * line : 228892
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaLanguageCode extends AbstractTagGroup
              */
             'id' => 'QuickTime::MediaHeader.Track#:MediaLanguageCode',
             'desc' => [
+                'en' => 'Media Language Code',
             ],
         ],
     ];

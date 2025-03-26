@@ -28,13 +28,14 @@ class AlphaDataDiscard extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Data Discard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118675
+             * line : 84004
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaDataDiscard extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AlphaDataDiscard',
             'desc' => [
+                'en' => 'Alpha Data Discard',
             ],
         ],
     ];

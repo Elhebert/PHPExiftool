@@ -28,13 +28,14 @@ class RecipeEndingPage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recipe Ending Page',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411240
+             * line : 290430
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecipeEndingPage extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:RecipeEndingPage',
             'desc' => [
+                'en' => 'Recipe Ending Page',
             ],
         ],
     ];

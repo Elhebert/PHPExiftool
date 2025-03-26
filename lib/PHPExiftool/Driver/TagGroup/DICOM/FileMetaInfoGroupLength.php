@@ -28,13 +28,14 @@ class FileMetaInfoGroupLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Meta Info Group Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94558
+             * line : 68059
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileMetaInfoGroupLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FileMetaInfoGroupLength',
             'desc' => [
+                'en' => 'File Meta Info Group Length',
             ],
         ],
     ];

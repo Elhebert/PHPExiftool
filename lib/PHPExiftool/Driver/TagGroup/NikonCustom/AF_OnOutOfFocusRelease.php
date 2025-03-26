@@ -28,13 +28,14 @@ class AF_OnOutOfFocusRelease extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF-On Out Of Focus Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235243
+             * line : 158542
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AF_OnOutOfFocusRelease extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AF-OnOutOfFocusRelease',
             'desc' => [
+                'en' => 'AF-On Out Of Focus Release',
             ],
         ],
     ];

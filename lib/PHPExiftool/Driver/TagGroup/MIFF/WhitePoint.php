@@ -28,13 +28,14 @@ class WhitePoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164443
+             * line : 111775
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhitePoint extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:WhitePoint',
             'desc' => [
+                'en' => 'White Point',
             ],
         ],
     ];

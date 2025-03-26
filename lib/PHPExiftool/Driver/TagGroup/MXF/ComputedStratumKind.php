@@ -28,13 +28,14 @@ class ComputedStratumKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Computed Stratum Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167761
+             * line : 114338
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComputedStratumKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedStratumKind',
             'desc' => [
+                'en' => 'Computed Stratum Kind',
             ],
         ],
     ];

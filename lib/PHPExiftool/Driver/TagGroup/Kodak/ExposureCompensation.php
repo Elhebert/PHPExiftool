@@ -28,13 +28,14 @@ class ExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Free
-             * line : 154520
+             * line : 106052
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Kodak::Free.Kodak:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::MOV
-             * line : 157628
+             * line : 108645
              * type : rational64s
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Kodak::MOV.Kodak:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::Main
-             * line : 157920
+             * line : 108735
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
         3 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159485
+             * line : 109420
              * type : ?
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class ExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:ExposureCompensation',
             'desc' => [
+                'en' => 'Exposure Compensation',
             ],
         ],
     ];

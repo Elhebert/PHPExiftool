@@ -28,13 +28,14 @@ class ImageSensorGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Sensor Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139582
+             * line : 97658
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSensorGain extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ImageSensorGain',
             'desc' => [
+                'en' => 'Image Sensor Gain',
             ],
         ],
     ];

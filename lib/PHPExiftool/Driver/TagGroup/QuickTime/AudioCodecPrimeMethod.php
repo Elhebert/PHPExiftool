@@ -28,13 +28,14 @@ class AudioCodecPrimeMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Codec Prime Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312685
+             * line : 218557
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioCodecPrimeMethod extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioCodecPrimeMethod',
             'desc' => [
+                'en' => 'Audio Codec Prime Method',
             ],
         ],
     ];

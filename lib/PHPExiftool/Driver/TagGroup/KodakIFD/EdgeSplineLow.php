@@ -28,13 +28,14 @@ class EdgeSplineLow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edge Spline Low',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155485
+             * line : 106697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EdgeSplineLow extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EdgeSplineLow',
             'desc' => [
+                'en' => 'Edge Spline Low',
             ],
         ],
     ];

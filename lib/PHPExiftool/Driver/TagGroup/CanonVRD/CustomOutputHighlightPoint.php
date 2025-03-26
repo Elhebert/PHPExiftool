@@ -28,13 +28,14 @@ class CustomOutputHighlightPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Output Highlight Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83136
+             * line : 60897
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomOutputHighlightPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomOutputHighlightPoint',
             'desc' => [
+                'en' => 'Custom Output Highlight Point',
             ],
         ],
     ];

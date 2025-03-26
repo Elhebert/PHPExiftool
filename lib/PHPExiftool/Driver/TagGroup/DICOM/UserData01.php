@@ -28,13 +28,14 @@ class UserData01 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Data 01',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97661
+             * line : 71044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserData01 extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UserData01',
             'desc' => [
+                'en' => 'User Data 01',
             ],
         ],
     ];

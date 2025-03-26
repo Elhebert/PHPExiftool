@@ -28,13 +28,14 @@ class PF25Parameters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF25 Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78337
+             * line : 57041
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF25Parameters extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25Parameters',
             'desc' => [
+                'en' => 'PF25 Parameters',
             ],
         ],
     ];

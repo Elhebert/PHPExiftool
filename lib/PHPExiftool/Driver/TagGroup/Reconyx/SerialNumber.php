@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330697
+             * line : 232680
              * type : undef
              * writable : true
              * count : 30
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 331002
+             * line : 232829
              * type : string
              * writable : true
              * count : 15
@@ -55,12 +57,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331330
+             * line : 232979
              * type : unicode
              * writable : true
              * count : 15
@@ -68,6 +71,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

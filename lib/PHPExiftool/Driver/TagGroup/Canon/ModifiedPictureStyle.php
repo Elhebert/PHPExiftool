@@ -28,13 +28,14 @@ class ModifiedPictureStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Modified Picture Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ModifiedInfo
-             * line : 66701
+             * line : 50693
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModifiedPictureStyle extends AbstractTagGroup
              */
             'id' => 'Canon::ModifiedInfo.Canon:ModifiedPictureStyle',
             'desc' => [
+                'en' => 'Modified Picture Style',
             ],
         ],
     ];

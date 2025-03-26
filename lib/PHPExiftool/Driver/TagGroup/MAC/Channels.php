@@ -28,13 +28,14 @@ class Channels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::NewHeader
-             * line : 387
+             * line : 171
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'APE::NewHeader.MAC:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
         1 => [
             /**
              * table_name : APE::OldHeader
-             * line : 424
+             * line : 187
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Channels extends AbstractTagGroup
              */
             'id' => 'APE::OldHeader.MAC:Channels',
             'desc' => [
+                'en' => 'Channels',
             ],
         ],
     ];

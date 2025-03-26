@@ -28,13 +28,14 @@ class CellWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cell Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166878
+             * line : 113577
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CellWidth extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:CellWidth',
             'desc' => [
+                'en' => 'Cell Width',
             ],
         ],
     ];

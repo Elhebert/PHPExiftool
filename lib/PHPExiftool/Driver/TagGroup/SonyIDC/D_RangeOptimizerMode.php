@@ -28,13 +28,14 @@ class D_RangeOptimizerMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'D-Range Optimizer Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394243
+             * line : 279296
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class D_RangeOptimizerMode extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:D-RangeOptimizerMode',
             'desc' => [
+                'en' => 'D-Range Optimizer Mode',
             ],
         ],
     ];

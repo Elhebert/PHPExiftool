@@ -28,13 +28,14 @@ class SceneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251273
+             * line : 173294
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 258017
+             * line : 178375
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
     ];

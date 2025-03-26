@@ -28,13 +28,14 @@ class City extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150242
+             * line : 103942
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class City extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:City',
             'desc' => [
+                'en' => 'City',
             ],
         ],
     ];

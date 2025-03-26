@@ -28,13 +28,14 @@ class Selected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169516
+             * line : 115914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Selected extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Selected',
             'desc' => [
+                'en' => 'Selected',
             ],
         ],
     ];

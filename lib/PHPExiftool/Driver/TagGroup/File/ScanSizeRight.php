@@ -28,13 +28,14 @@ class ScanSizeRight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Size Right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166685
+             * line : 113423
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanSizeRight extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ScanSizeRight',
             'desc' => [
+                'en' => 'Scan Size Right',
             ],
         ],
     ];

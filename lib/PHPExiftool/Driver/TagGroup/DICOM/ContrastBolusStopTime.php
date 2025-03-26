@@ -28,13 +28,14 @@ class ContrastBolusStopTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Bolus Stop Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95645
+             * line : 69094
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastBolusStopTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastBolusStopTime',
             'desc' => [
+                'en' => 'Contrast Bolus Stop Time',
             ],
         ],
     ];

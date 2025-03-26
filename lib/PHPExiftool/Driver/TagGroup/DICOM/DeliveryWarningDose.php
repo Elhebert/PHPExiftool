@@ -28,13 +28,14 @@ class DeliveryWarningDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivery Warning Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102996
+             * line : 76092
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveryWarningDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveryWarningDose',
             'desc' => [
+                'en' => 'Delivery Warning Dose',
             ],
         ],
     ];

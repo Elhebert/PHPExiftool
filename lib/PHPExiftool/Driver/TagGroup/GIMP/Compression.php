@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Main
-             * line : 131546
+             * line : 90764
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'GIMP::Main.GIMP:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

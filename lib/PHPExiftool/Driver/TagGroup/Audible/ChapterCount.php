@@ -28,13 +28,14 @@ class ChapterCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::Main
-             * line : 2979
+             * line : 1915
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterCount extends AbstractTagGroup
              */
             'id' => 'Audible::Main.Audible:ChapterCount',
             'desc' => [
+                'en' => 'Chapter Count',
             ],
         ],
     ];

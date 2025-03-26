@@ -28,13 +28,14 @@ class AFOnButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212125
+             * line : 142506
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:AFOnButton',
             'desc' => [
+                'en' => 'AF On Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216235
+             * line : 145253
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:AFOnButton',
             'desc' => [
+                'en' => 'AF On Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 236376
+             * line : 159506
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class AFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AFOnButton',
             'desc' => [
+                'en' => 'AF On Button',
             ],
         ],
     ];

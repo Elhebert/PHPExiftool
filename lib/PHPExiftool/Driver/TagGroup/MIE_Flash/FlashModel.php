@@ -28,13 +28,14 @@ class FlashModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Flash
-             * line : 163432
+             * line : 111415
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashModel extends AbstractTagGroup
              */
             'id' => 'MIE::Flash.MIE-Flash:FlashModel',
             'desc' => [
+                'en' => 'Flash Model',
             ],
         ],
     ];

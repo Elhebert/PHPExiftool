@@ -28,13 +28,14 @@ class SubtitleDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subtitle Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396225
+             * line : 280511
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubtitleDescription extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:SubtitleDescription',
             'desc' => [
+                'en' => 'Subtitle Description',
             ],
         ],
     ];

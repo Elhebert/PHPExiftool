@@ -28,13 +28,14 @@ class MedicalRecordLocator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Medical Record Locator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95263
+             * line : 68728
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MedicalRecordLocator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MedicalRecordLocator',
             'desc' => [
+                'en' => 'Medical Record Locator',
             ],
         ],
     ];

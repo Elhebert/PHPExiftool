@@ -28,13 +28,14 @@ class RelationshipAccordingTo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Relationship According To',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106689
+             * line : 78914
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelationshipAccordingTo extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RelationshipAccordingTo',
             'desc' => [
+                'en' => 'Relationship According To',
             ],
         ],
     ];

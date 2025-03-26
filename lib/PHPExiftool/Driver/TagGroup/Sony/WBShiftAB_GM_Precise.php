@@ -28,13 +28,14 @@ class WBShiftAB_GM_Precise extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB Shift AB GM Precise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355709
+             * line : 248158
              * type : int32s
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class WBShiftAB_GM_Precise extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:WBShiftAB_GM_Precise',
             'desc' => [
+                'en' => 'WB Shift AB GM Precise',
             ],
         ],
     ];

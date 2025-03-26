@@ -28,13 +28,14 @@ class PictureControlBase extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Base',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203631
+             * line : 137341
              * type : string
              * writable : true
              * count : 20
@@ -42,12 +43,13 @@ class PictureControlBase extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:PictureControlBase',
             'desc' => [
+                'en' => 'Picture Control Base',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 203942
+             * line : 137450
              * type : string
              * writable : true
              * count : 20
@@ -55,12 +57,13 @@ class PictureControlBase extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:PictureControlBase',
             'desc' => [
+                'en' => 'Picture Control Base',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204265
+             * line : 137562
              * type : string
              * writable : true
              * count : 20
@@ -68,6 +71,7 @@ class PictureControlBase extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:PictureControlBase',
             'desc' => [
+                'en' => 'Picture Control Base',
             ],
         ],
     ];

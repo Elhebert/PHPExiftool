@@ -28,13 +28,14 @@ class APP14Flags1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'APP14 Flags 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Adobe
-             * line : 152397
+             * line : 104879
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class APP14Flags1 extends AbstractTagGroup
              */
             'id' => 'JPEG::Adobe.Adobe:APP14Flags1',
             'desc' => [
+                'en' => 'APP14 Flags 1',
             ],
         ],
     ];

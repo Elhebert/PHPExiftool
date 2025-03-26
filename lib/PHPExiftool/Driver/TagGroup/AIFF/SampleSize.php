@@ -28,13 +28,14 @@ class SampleSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Common
-             * line : 101
+             * line : 39
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleSize extends AbstractTagGroup
              */
             'id' => 'AIFF::Common.AIFF:SampleSize',
             'desc' => [
+                'en' => 'Sample Size',
             ],
         ],
     ];

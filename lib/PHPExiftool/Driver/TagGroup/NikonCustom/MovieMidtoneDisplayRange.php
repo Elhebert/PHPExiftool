@@ -28,13 +28,14 @@ class MovieMidtoneDisplayRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie Midtone Display Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 242452
+             * line : 165528
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieMidtoneDisplayRange extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieMidtoneDisplayRange',
             'desc' => [
+                'en' => 'Movie Midtone Display Range',
             ],
         ],
     ];

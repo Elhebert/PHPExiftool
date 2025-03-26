@@ -28,13 +28,14 @@ class SynchronizationTrigger extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Synchronization Trigger',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95700
+             * line : 69148
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SynchronizationTrigger extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SynchronizationTrigger',
             'desc' => [
+                'en' => 'Synchronization Trigger',
             ],
         ],
     ];

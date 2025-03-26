@@ -28,13 +28,14 @@ class DroneQuaternion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drone Quaternion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V2
-             * line : 282310
+             * line : 196044
              * type : int16s
              * writable : false
              * count : 4
@@ -42,12 +43,13 @@ class DroneQuaternion extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:DroneQuaternion',
             'desc' => [
+                'en' => 'Drone Quaternion',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V3
-             * line : 282517
+             * line : 196163
              * type : int16s
              * writable : false
              * count : 4
@@ -55,6 +57,7 @@ class DroneQuaternion extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:DroneQuaternion',
             'desc' => [
+                'en' => 'Drone Quaternion',
             ],
         ],
     ];

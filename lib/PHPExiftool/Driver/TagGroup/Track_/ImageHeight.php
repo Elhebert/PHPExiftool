@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackHeader
-             * line : 325103
+             * line : 229540
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackHeader.Track#:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FractionGroupNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fraction Group Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103077
+             * line : 76173
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FractionGroupNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FractionGroupNumber',
             'desc' => [
+                'en' => 'Fraction Group Number',
             ],
         ],
     ];

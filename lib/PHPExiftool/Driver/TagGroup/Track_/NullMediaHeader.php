@@ -28,13 +28,14 @@ class NullMediaHeader extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Null Media Header',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::MediaInfo
-             * line : 323914
+             * line : 228899
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NullMediaHeader extends AbstractTagGroup
              */
             'id' => 'QuickTime::MediaInfo.Track#:NullMediaHeader',
             'desc' => [
+                'en' => 'Null Media Header',
             ],
         ],
     ];

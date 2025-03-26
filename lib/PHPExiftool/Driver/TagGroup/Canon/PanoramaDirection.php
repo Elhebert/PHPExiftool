@@ -28,13 +28,14 @@ class PanoramaDirection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Panorama
-             * line : 69334
+             * line : 52300
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaDirection extends AbstractTagGroup
              */
             'id' => 'Canon::Panorama.Canon:PanoramaDirection',
             'desc' => [
+                'en' => 'Panorama Direction',
             ],
         ],
     ];

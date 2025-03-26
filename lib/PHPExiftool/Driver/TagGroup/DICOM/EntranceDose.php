@@ -28,13 +28,14 @@ class EntranceDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Entrance Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99719
+             * line : 72924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EntranceDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EntranceDose',
             'desc' => [
+                'en' => 'Entrance Dose',
             ],
         ],
     ];

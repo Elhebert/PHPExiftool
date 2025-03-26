@@ -28,13 +28,14 @@ class AutoISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70133
+             * line : 52639
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoISO extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:AutoISO',
             'desc' => [
+                'en' => 'Auto ISO',
             ],
         ],
     ];

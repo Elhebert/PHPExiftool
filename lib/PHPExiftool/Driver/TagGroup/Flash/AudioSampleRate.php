@@ -28,13 +28,14 @@ class AudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Audio
-             * line : 123839
+             * line : 86606
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'Flash::Audio.Flash:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
         1 => [
             /**
              * table_name : Flash::Meta
-             * line : 124013
+             * line : 86696
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AudioSampleRate extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:AudioSampleRate',
             'desc' => [
+                'en' => 'Audio Sample Rate',
             ],
         ],
     ];

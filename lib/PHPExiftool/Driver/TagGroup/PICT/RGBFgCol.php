@@ -28,13 +28,14 @@ class RGBFgCol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Foreground Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264688
+             * line : 182936
              * type : RGBColor
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RGBFgCol extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:RGBFgCol',
             'desc' => [
+                'en' => 'Foreground Color',
             ],
         ],
     ];

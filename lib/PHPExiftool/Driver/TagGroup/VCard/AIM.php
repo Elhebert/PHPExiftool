@@ -28,13 +28,14 @@ class AIM extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AIM',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395248
+             * line : 279941
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AIM extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:AIM',
             'desc' => [
+                'en' => 'AIM',
             ],
         ],
     ];

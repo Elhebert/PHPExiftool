@@ -28,13 +28,14 @@ class AFAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300227
+             * line : 209288
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAdjustment extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:AFAdjustment',
             'desc' => [
+                'en' => 'AF Adjustment',
             ],
         ],
     ];

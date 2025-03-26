@@ -28,13 +28,14 @@ class IlluminationWaveLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Illumination Wave Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98432
+             * line : 71764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IlluminationWaveLength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IlluminationWaveLength',
             'desc' => [
+                'en' => 'Illumination Wave Length',
             ],
         ],
     ];

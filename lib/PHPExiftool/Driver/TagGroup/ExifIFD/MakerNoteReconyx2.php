@@ -28,13 +28,14 @@ class MakerNoteReconyx2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Reconyx 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105123
+             * line : 77936
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteReconyx2 extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteReconyx2',
             'desc' => [
+                'en' => 'Maker Note Reconyx 2',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116084
+             * line : 83229
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteReconyx2 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteReconyx2',
             'desc' => [
+                'en' => 'Maker Note Reconyx 2',
             ],
         ],
     ];

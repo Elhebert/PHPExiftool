@@ -28,13 +28,14 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59184
+             * line : 45880
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59462
+             * line : 46022
              * type : int16s
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 59889
+             * line : 46239
              * type : int16s
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60339
+             * line : 46497
              * type : int16s
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60752
+             * line : 46729
              * type : int16s
              * writable : true
              * count : 4
@@ -94,12 +99,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61437
+             * line : 47134
              * type : int16s
              * writable : true
              * count : 4
@@ -107,12 +113,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61770
+             * line : 47317
              * type : int16s
              * writable : true
              * count : 4
@@ -120,12 +127,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62180
+             * line : 47551
              * type : int16s
              * writable : true
              * count : 4
@@ -133,12 +141,13 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62662
+             * line : 47839
              * type : int16s
              * writable : true
              * count : 4
@@ -146,6 +155,7 @@ class WB_RGGBLevelsUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsUnknown',
             'desc' => [
+                'en' => 'WB RGGB Levels Unknown',
             ],
         ],
     ];

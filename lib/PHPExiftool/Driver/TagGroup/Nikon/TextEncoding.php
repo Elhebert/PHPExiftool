@@ -28,13 +28,14 @@ class TextEncoding extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Text Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LocationInfo
-             * line : 196265
+             * line : 132758
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TextEncoding extends AbstractTagGroup
              */
             'id' => 'Nikon::LocationInfo.Nikon:TextEncoding',
             'desc' => [
+                'en' => 'Text Encoding',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFStatus_92_G8 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status 92 G8',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFStatus79
-             * line : 344939
+             * line : 241871
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatus_92_G8 extends AbstractTagGroup
              */
             'id' => 'Sony::AFStatus79.Sony:AFStatus_92_G8',
             'desc' => [
+                'en' => 'AF Status 92 G8',
             ],
         ],
     ];

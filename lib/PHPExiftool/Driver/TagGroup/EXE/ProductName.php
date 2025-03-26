@@ -28,13 +28,14 @@ class ProductName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEString
-             * line : 109560
+             * line : 80998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductName extends AbstractTagGroup
              */
             'id' => 'EXE::PEString.EXE:ProductName',
             'desc' => [
+                'en' => 'Product Name',
             ],
         ],
     ];

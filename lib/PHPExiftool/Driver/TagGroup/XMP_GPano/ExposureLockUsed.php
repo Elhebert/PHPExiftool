@@ -28,13 +28,14 @@ class ExposureLockUsed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Lock Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397103
+             * line : 281210
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureLockUsed extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:ExposureLockUsed',
             'desc' => [
+                'en' => 'Exposure Lock Used',
             ],
         ],
     ];

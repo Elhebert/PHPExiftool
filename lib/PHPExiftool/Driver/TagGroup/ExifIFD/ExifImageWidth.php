@@ -28,13 +28,14 @@ class ExifImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116477
+             * line : 83378
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifImageWidth extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExifImageWidth',
             'desc' => [
+                'en' => 'Exif Image Width',
             ],
         ],
     ];

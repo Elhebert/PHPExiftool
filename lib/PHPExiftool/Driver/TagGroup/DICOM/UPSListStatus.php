@@ -28,13 +28,14 @@ class UPSListStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UPS List Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101850
+             * line : 74991
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UPSListStatus extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:UPSListStatus',
             'desc' => [
+                'en' => 'UPS List Status',
             ],
         ],
     ];

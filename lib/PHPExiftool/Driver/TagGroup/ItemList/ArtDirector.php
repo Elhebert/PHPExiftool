@@ -28,13 +28,14 @@ class ArtDirector extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Art Director',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322977
+             * line : 228423
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtDirector extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:ArtDirector',
             'desc' => [
+                'en' => 'Art Director',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MachineObservationLatestDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Latest Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106401
+             * line : 78698
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationLatestDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationLatestDate',
             'desc' => [
+                'en' => 'Machine Observation Latest Date',
             ],
         ],
     ];

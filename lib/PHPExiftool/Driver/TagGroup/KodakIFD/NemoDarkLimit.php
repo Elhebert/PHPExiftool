@@ -28,13 +28,14 @@ class NemoDarkLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Nemo Dark Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155578
+             * line : 106790
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NemoDarkLimit extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:NemoDarkLimit',
             'desc' => [
+                'en' => 'Nemo Dark Limit',
             ],
         ],
     ];

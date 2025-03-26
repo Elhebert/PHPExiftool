@@ -28,13 +28,14 @@ class Provider extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Provider',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396205
+             * line : 280499
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Provider extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:Provider',
             'desc' => [
+                'en' => 'Provider',
             ],
         ],
     ];

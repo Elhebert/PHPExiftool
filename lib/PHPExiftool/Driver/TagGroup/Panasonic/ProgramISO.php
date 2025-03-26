@@ -28,13 +28,14 @@ class ProgramISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Program ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276846
+             * line : 192699
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProgramISO extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ProgramISO',
             'desc' => [
+                'en' => 'Program ISO',
             ],
         ],
     ];

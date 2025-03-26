@@ -28,13 +28,14 @@ class CopyCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copy Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168133
+             * line : 114632
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CopyCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CopyCount',
             'desc' => [
+                'en' => 'Copy Count',
             ],
         ],
     ];

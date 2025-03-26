@@ -28,13 +28,14 @@ class MeteringMode2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Mode 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355766
+             * line : 248215
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeteringMode2 extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:MeteringMode2',
             'desc' => [
+                'en' => 'Metering Mode 2',
             ],
         ],
     ];

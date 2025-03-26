@@ -28,13 +28,14 @@ class InterventionDrugInformationSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervention Drug Information Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95436
+             * line : 68896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterventionDrugInformationSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterventionDrugInformationSeq',
             'desc' => [
+                'en' => 'Intervention Drug Information Seq',
             ],
         ],
     ];

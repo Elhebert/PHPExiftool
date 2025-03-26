@@ -28,13 +28,14 @@ class ItemPropertyAssociation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Item Property Association',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemProp
-             * line : 323185
+             * line : 228520
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ItemPropertyAssociation extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemProp.QuickTime:ItemPropertyAssociation',
             'desc' => [
+                'en' => 'Item Property Association',
             ],
         ],
     ];

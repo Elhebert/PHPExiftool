@@ -28,13 +28,14 @@ class BytesPerMinute extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bytes Per Minute',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329780
+             * line : 232227
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BytesPerMinute extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:BytesPerMinute',
             'desc' => [
+                'en' => 'Bytes Per Minute',
             ],
         ],
     ];

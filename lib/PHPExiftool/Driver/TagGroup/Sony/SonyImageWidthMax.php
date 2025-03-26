@@ -28,13 +28,14 @@ class SonyImageWidthMax extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Image Width Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387691
+             * line : 273781
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SonyImageWidthMax extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:SonyImageWidthMax',
             'desc' => [
+                'en' => 'Sony Image Width Max',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LicenseTransactionDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'License Transaction Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265611
+             * line : 183613
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicenseTransactionDate extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicenseTransactionDate',
             'desc' => [
+                'en' => 'License Transaction Date',
             ],
         ],
     ];

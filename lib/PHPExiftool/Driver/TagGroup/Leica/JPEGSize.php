@@ -28,13 +28,14 @@ class JPEGSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'JPEG Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279364
+             * line : 193997
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JPEGSize extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:JPEGSize',
             'desc' => [
+                'en' => 'JPEG Size',
             ],
         ],
     ];

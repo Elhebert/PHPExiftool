@@ -28,13 +28,14 @@ class ExclusionStartDatetime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exclusion Start Datetime',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97370
+             * line : 70765
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExclusionStartDatetime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExclusionStartDatetime',
             'desc' => [
+                'en' => 'Exclusion Start Datetime',
             ],
         ],
     ];

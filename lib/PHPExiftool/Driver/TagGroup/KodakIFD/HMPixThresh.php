@@ -28,13 +28,14 @@ class HMPixThresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HM Pix Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155810
+             * line : 107021
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HMPixThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HMPixThresh',
             'desc' => [
+                'en' => 'HM Pix Thresh',
             ],
         ],
     ];

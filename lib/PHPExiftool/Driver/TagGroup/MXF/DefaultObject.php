@@ -28,13 +28,14 @@ class DefaultObject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172525
+             * line : 118684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultObject extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefaultObject',
             'desc' => [
+                'en' => 'Default Object',
             ],
         ],
     ];

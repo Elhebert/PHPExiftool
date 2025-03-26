@@ -28,13 +28,14 @@ class TableStartLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Start Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98199
+             * line : 71542
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TableStartLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableStartLocation',
             'desc' => [
+                'en' => 'Table Start Location',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98575
+             * line : 71905
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TableStartLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableStartLocation',
             'desc' => [
+                'en' => 'Table Start Location',
             ],
         ],
     ];

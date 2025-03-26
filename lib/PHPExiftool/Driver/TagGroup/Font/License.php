@@ -28,13 +28,14 @@ class License extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'License',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127915
+             * line : 88794
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class License extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:License',
             'desc' => [
+                'en' => 'License',
             ],
         ],
     ];

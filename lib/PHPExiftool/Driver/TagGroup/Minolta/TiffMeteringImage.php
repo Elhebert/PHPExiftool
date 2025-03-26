@@ -28,13 +28,14 @@ class TiffMeteringImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tiff Metering Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185658
+             * line : 125940
              * type : undef
              * writable : false
              * count : 9600
@@ -42,6 +43,7 @@ class TiffMeteringImage extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:TiffMeteringImage',
             'desc' => [
+                'en' => 'Tiff Metering Image',
             ],
         ],
     ];

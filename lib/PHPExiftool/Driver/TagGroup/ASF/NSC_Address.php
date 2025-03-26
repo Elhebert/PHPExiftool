@@ -28,13 +28,14 @@ class NSC_Address extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NSC Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1425
+             * line : 670
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NSC_Address extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:NSC_Address',
             'desc' => [
+                'en' => 'NSC Address',
             ],
         ],
     ];

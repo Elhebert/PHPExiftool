@@ -28,13 +28,14 @@ class LensMount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Mount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351230
+             * line : 245219
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366969
+             * line : 255324
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 371000
+             * line : 258613
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 374001
+             * line : 261237
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 377002
+             * line : 263861
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379304
+             * line : 266118
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381672
+             * line : 268453
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag9405a
-             * line : 385628
+             * line : 271750
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405a.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 388270
+             * line : 274049
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391300
+             * line : 276894
              * type : int8u
              * writable : false
              * count :
@@ -159,12 +169,13 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391331
+             * line : 276925
              * type : int8u
              * writable : false
              * count :
@@ -172,6 +183,7 @@ class LensMount extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:LensMount',
             'desc' => [
+                'en' => 'Lens Mount',
             ],
         ],
     ];

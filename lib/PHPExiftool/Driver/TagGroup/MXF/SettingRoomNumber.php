@@ -28,13 +28,14 @@ class SettingRoomNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Room Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168449
+             * line : 114941
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingRoomNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingRoomNumber',
             'desc' => [
+                'en' => 'Setting Room Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170510
+             * line : 116751
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingRoomNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingRoomNumber',
             'desc' => [
+                'en' => 'Setting Room Number',
             ],
         ],
     ];

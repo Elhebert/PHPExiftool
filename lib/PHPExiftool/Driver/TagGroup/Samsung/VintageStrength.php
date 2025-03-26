@@ -28,13 +28,14 @@ class VintageStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vintage Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334235
+             * line : 234315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VintageStrength extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:VintageStrength',
             'desc' => [
+                'en' => 'Vintage Strength',
             ],
         ],
     ];

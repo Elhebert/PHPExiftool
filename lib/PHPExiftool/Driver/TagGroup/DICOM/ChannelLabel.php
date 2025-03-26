@@ -28,13 +28,14 @@ class ChannelLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99483
+             * line : 72696
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelLabel',
             'desc' => [
+                'en' => 'Channel Label',
             ],
         ],
     ];

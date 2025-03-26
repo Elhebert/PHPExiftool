@@ -28,13 +28,14 @@ class AutoFocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 254698
+             * line : 175867
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoFocus extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:AutoFocus',
             'desc' => [
+                'en' => 'Auto Focus',
             ],
         ],
     ];

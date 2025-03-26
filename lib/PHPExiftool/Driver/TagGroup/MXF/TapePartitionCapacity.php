@@ -28,13 +28,14 @@ class TapePartitionCapacity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tape Partition Capacity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170305
+             * line : 116580
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TapePartitionCapacity extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TapePartitionCapacity',
             'desc' => [
+                'en' => 'Tape Partition Capacity',
             ],
         ],
     ];

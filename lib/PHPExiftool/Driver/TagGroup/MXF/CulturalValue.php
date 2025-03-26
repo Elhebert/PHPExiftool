@@ -28,13 +28,14 @@ class CulturalValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cultural Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167728
+             * line : 114305
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CulturalValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CulturalValue',
             'desc' => [
+                'en' => 'Cultural Value',
             ],
         ],
     ];

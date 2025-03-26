@@ -28,13 +28,14 @@ class DefCorC4 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Def Cor C4',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307374
+             * line : 213872
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefCorC4 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:DefCorC4',
             'desc' => [
+                'en' => 'Def Cor C4',
             ],
         ],
     ];

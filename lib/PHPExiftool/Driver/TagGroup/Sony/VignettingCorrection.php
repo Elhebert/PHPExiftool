@@ -28,13 +28,14 @@ class VignettingCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354380
+             * line : 247054
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VignettingCorrection extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:VignettingCorrection',
             'desc' => [
+                'en' => 'Vignetting Correction',
             ],
         ],
     ];

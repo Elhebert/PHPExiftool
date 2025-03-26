@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Orient
-             * line : 164099
+             * line : 111617
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'MIE::Orient.MIE-Orient:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

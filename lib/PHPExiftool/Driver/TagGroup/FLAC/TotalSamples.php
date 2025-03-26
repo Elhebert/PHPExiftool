@@ -28,13 +28,14 @@ class TotalSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLAC::StreamInfo
-             * line : 121980
+             * line : 85460
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalSamples extends AbstractTagGroup
              */
             'id' => 'FLAC::StreamInfo.FLAC:TotalSamples',
             'desc' => [
+                'en' => 'Total Samples',
             ],
         ],
     ];

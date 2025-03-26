@@ -28,13 +28,14 @@ class Identification extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Identification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::WordDocument
-             * line : 127393
+             * line : 88421
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Identification extends AbstractTagGroup
              */
             'id' => 'FlashPix::WordDocument.FlashPix:Identification',
             'desc' => [
+                'en' => 'Identification',
             ],
         ],
     ];

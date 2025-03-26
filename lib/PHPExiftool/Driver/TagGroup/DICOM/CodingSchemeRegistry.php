@@ -28,13 +28,14 @@ class CodingSchemeRegistry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding Scheme Registry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94837
+             * line : 68323
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingSchemeRegistry extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodingSchemeRegistry',
             'desc' => [
+                'en' => 'Coding Scheme Registry',
             ],
         ],
     ];

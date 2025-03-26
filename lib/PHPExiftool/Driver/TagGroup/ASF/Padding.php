@@ -28,13 +28,14 @@ class Padding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Padding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1779
+             * line : 894
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Padding extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:Padding',
             'desc' => [
+                'en' => 'Padding',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Manifest extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414085
+             * line : 292107
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Manifest extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:Manifest',
             'desc' => [
+                'en' => 'Manifest',
             ],
         ],
     ];

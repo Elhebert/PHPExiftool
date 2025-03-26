@@ -28,13 +28,14 @@ class ModalitiesInStudy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modalities In Study',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94764
+             * line : 68251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModalitiesInStudy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ModalitiesInStudy',
             'desc' => [
+                'en' => 'Modalities In Study',
             ],
         ],
     ];

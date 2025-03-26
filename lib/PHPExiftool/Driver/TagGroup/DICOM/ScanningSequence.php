@@ -28,13 +28,14 @@ class ScanningSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanning Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95417
+             * line : 68878
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanningSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanningSequence',
             'desc' => [
+                'en' => 'Scanning Sequence',
             ],
         ],
     ];

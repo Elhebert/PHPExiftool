@@ -28,13 +28,14 @@ class OwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78689
+             * line : 57254
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MRVelocityEncodingSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Velocity Encoding Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96880
+             * line : 70282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRVelocityEncodingSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRVelocityEncodingSequence',
             'desc' => [
+                'en' => 'MR Velocity Encoding Sequence',
             ],
         ],
     ];

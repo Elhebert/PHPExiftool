@@ -28,13 +28,14 @@ class CFEGFlashTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CFEG Flash Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166791
+             * line : 113526
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CFEGFlashTimeStamp extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:CFEGFlashTimeStamp',
             'desc' => [
+                'en' => 'CFEG Flash Time Stamp',
             ],
         ],
     ];

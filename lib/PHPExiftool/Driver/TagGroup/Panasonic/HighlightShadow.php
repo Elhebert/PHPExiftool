@@ -28,13 +28,14 @@ class HighlightShadow extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Shadow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277918
+             * line : 193309
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class HighlightShadow extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:HighlightShadow',
             'desc' => [
+                'en' => 'Highlight Shadow',
             ],
         ],
     ];

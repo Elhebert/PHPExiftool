@@ -28,13 +28,14 @@ class ManufactureDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manufacture Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Motorola::Main
-             * line : 187849
+             * line : 127230
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManufactureDate extends AbstractTagGroup
              */
             'id' => 'Motorola::Main.Motorola:ManufactureDate',
             'desc' => [
+                'en' => 'Manufacture Date',
             ],
         ],
     ];

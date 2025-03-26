@@ -28,13 +28,14 @@ class DepthImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Depth Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GDepth
-             * line : 396922
+             * line : 281113
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DepthImage extends AbstractTagGroup
              */
             'id' => 'XMP::GDepth.XMP-GDepth:DepthImage',
             'desc' => [
+                'en' => 'Depth Image',
             ],
         ],
     ];

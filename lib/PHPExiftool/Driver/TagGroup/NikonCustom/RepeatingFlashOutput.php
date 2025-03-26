@@ -28,13 +28,14 @@ class RepeatingFlashOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225459
+             * line : 151943
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RepeatingFlashOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:RepeatingFlashOutput',
             'desc' => [
+                'en' => 'Repeating Flash Output',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227612
+             * line : 153310
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class RepeatingFlashOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:RepeatingFlashOutput',
             'desc' => [
+                'en' => 'Repeating Flash Output',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228692
+             * line : 153868
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class RepeatingFlashOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:RepeatingFlashOutput',
             'desc' => [
+                'en' => 'Repeating Flash Output',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD800
-             * line : 229172
+             * line : 154141
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class RepeatingFlashOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD800.NikonCustom:RepeatingFlashOutput',
             'desc' => [
+                'en' => 'Repeating Flash Output',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234958
+             * line : 158375
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class RepeatingFlashOutput extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:RepeatingFlashOutput',
             'desc' => [
+                'en' => 'Repeating Flash Output',
             ],
         ],
     ];

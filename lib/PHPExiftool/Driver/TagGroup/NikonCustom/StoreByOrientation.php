@@ -28,13 +28,14 @@ class StoreByOrientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Store By Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216178
+             * line : 145211
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218737
+             * line : 147086
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221186
+             * line : 149117
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231323
+             * line : 155568
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233086
+             * line : 156935
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235205
+             * line : 158517
              * type : int8u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class StoreByOrientation extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:StoreByOrientation',
             'desc' => [
+                'en' => 'Store By Orientation',
             ],
         ],
     ];

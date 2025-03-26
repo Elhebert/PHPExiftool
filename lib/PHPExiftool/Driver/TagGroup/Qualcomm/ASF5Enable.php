@@ -28,13 +28,14 @@ class ASF5Enable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ASF5 Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306753
+             * line : 213251
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ASF5Enable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:ASF5Enable',
             'desc' => [
+                'en' => 'ASF5 Enable',
             ],
         ],
     ];

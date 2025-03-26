@@ -28,13 +28,14 @@ class ConstrainedCropWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Constrained Crop Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82594
+             * line : 60491
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConstrainedCropWidth extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:ConstrainedCropWidth',
             'desc' => [
+                'en' => 'Constrained Crop Width',
             ],
         ],
     ];

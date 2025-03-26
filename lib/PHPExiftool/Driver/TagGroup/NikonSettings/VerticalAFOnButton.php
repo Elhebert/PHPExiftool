@@ -28,13 +28,14 @@ class VerticalAFOnButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical AF On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248691
+             * line : 171379
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalAFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:VerticalAFOnButton',
             'desc' => [
+                'en' => 'Vertical AF On Button',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OKButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'OK Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 227057
+             * line : 152924
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class OKButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:OKButton',
             'desc' => [
+                'en' => 'OK Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234559
+             * line : 158091
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class OKButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:OKButton',
             'desc' => [
+                'en' => 'OK Button',
             ],
         ],
     ];

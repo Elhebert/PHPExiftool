@@ -28,13 +28,14 @@ class UniqueMatrixAuto extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unique Matrix Auto',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155153
+             * line : 106403
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class UniqueMatrixAuto extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UniqueMatrixAuto',
             'desc' => [
+                'en' => 'Unique Matrix Auto',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WMContentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Content ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175255
+             * line : 120687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMContentID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WMContentID',
             'desc' => [
+                'en' => 'WM Content ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FilterByOperator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter By Operator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101655
+             * line : 74799
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterByOperator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterByOperator',
             'desc' => [
+                'en' => 'Filter By Operator',
             ],
         ],
     ];

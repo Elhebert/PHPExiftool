@@ -28,13 +28,14 @@ class ByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167597
+             * line : 114210
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ByteOrder extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ByteOrder',
             'desc' => [
+                'en' => 'Byte Order',
             ],
         ],
     ];

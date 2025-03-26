@@ -28,13 +28,14 @@ class DialNorm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dial Norm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171390
+             * line : 117592
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DialNorm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DialNorm',
             'desc' => [
+                'en' => 'Dial Norm',
             ],
         ],
     ];

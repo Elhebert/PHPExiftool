@@ -28,13 +28,14 @@ class ZoomPos extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Zoom Pos',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 835
+             * line : 304
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZoomPos extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ZoomPos',
             'desc' => [
+                'en' => 'Zoom Pos',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FramePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264913
+             * line : 183137
              * type : Polygon
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FramePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FramePoly',
             'desc' => [
+                'en' => 'Frame Poly',
             ],
         ],
     ];

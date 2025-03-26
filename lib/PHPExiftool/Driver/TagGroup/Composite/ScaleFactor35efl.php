@@ -28,13 +28,14 @@ class ScaleFactor35efl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scale Factor To 35 mm Equivalent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90475
+             * line : 65200
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScaleFactor35efl extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:ScaleFactor35efl',
             'desc' => [
+                'en' => 'Scale Factor To 35 mm Equivalent',
             ],
         ],
     ];

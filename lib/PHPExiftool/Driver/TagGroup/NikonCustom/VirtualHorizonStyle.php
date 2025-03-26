@@ -28,13 +28,14 @@ class VirtualHorizonStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Virtual Horizon Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239401
+             * line : 162477
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VirtualHorizonStyle extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:VirtualHorizonStyle',
             'desc' => [
+                'en' => 'Virtual Horizon Style',
             ],
         ],
     ];

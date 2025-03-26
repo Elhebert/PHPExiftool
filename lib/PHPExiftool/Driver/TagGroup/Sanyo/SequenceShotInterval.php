@@ -28,13 +28,14 @@ class SequenceShotInterval extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence Shot Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336807
+             * line : 235920
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SequenceShotInterval extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SequenceShotInterval',
             'desc' => [
+                'en' => 'Sequence Shot Interval',
             ],
         ],
     ];

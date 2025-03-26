@@ -28,13 +28,14 @@ class Cluster extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cluster',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402025
+             * line : 285260
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Cluster extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Cluster',
             'desc' => [
+                'en' => 'Cluster',
             ],
         ],
     ];

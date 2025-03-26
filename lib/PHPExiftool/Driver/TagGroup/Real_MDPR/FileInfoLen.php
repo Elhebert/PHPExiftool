@@ -28,13 +28,14 @@ class FileInfoLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Info Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330417
+             * line : 232502
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileInfoLen extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:FileInfoLen',
             'desc' => [
+                'en' => 'File Info Len',
             ],
         ],
     ];

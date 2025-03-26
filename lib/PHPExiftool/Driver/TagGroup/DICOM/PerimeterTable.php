@@ -28,13 +28,14 @@ class PerimeterTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Perimeter Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98744
+             * line : 72019
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerimeterTable extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerimeterTable',
             'desc' => [
+                'en' => 'Perimeter Table',
             ],
         ],
     ];

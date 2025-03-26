@@ -28,13 +28,14 @@ class VideoBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124198
+             * line : 86795
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoBitrate extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:VideoBitrate',
             'desc' => [
+                'en' => 'Video Bitrate',
             ],
         ],
     ];

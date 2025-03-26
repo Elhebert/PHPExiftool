@@ -28,13 +28,14 @@ class ImageSupplier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Supplier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265547
+             * line : 183572
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSupplier extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:ImageSupplier',
             'desc' => [
+                'en' => 'Image Supplier',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PURL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167339
+             * line : 113961
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PURL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PURL',
             'desc' => [
+                'en' => 'PURL',
             ],
         ],
     ];

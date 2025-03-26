@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::ImageData
-             * line : 305097
+             * line : 212021
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'Photoshop::ImageData.Photoshop:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

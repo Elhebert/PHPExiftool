@@ -28,13 +28,14 @@ class MinimumAPIVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minimum API Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169354
+             * line : 115761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinimumAPIVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MinimumAPIVersion',
             'desc' => [
+                'en' => 'Minimum API Version',
             ],
         ],
     ];

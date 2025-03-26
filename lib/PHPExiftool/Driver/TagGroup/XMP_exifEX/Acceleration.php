@@ -28,13 +28,14 @@ class Acceleration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Acceleration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408451
+             * line : 288545
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Acceleration extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:Acceleration',
             'desc' => [
+                'en' => 'Acceleration',
             ],
         ],
     ];

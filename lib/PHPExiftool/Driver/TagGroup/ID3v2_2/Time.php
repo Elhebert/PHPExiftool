@@ -28,13 +28,14 @@ class Time extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148308
+             * line : 103020
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Time extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Time',
             'desc' => [
+                'en' => 'Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContrastPortrait extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Portrait',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34435
+             * line : 26471
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastPortrait',
             'desc' => [
+                'en' => 'Contrast Portrait',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67130
+             * line : 50945
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastPortrait',
             'desc' => [
+                'en' => 'Contrast Portrait',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68228
+             * line : 51606
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastPortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastPortrait',
             'desc' => [
+                'en' => 'Contrast Portrait',
             ],
         ],
     ];

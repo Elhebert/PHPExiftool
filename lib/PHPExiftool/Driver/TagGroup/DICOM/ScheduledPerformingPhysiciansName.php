@@ -28,13 +28,14 @@ class ScheduledPerformingPhysiciansName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scheduled Performing Physicians Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99597
+             * line : 72804
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduledPerformingPhysiciansName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScheduledPerformingPhysiciansName',
             'desc' => [
+                'en' => 'Scheduled Performing Physicians Name',
             ],
         ],
     ];

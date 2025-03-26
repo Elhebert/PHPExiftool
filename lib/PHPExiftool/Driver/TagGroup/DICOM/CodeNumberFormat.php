@@ -28,13 +28,14 @@ class CodeNumberFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Code Number Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98883
+             * line : 72153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodeNumberFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodeNumberFormat',
             'desc' => [
+                'en' => 'Code Number Format',
             ],
         ],
     ];

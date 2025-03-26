@@ -28,13 +28,14 @@ class CameraTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274677
+             * line : 191559
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279440
+             * line : 194035
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CameraTemperature extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:CameraTemperature',
             'desc' => [
+                'en' => 'Camera Temperature',
             ],
         ],
     ];

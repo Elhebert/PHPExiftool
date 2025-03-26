@@ -28,13 +28,14 @@ class UserDef1PictureStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Def 1 Picture Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34745
+             * line : 26616
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class UserDef1PictureStyle extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:UserDef1PictureStyle',
             'desc' => [
+                'en' => 'User Def 1 Picture Style',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67962
+             * line : 51449
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class UserDef1PictureStyle extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:UserDef1PictureStyle',
             'desc' => [
+                'en' => 'User Def 1 Picture Style',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 69140
+             * line : 52188
              * type : int16u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class UserDef1PictureStyle extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:UserDef1PictureStyle',
             'desc' => [
+                'en' => 'User Def 1 Picture Style',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335317
+             * line : 235343
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

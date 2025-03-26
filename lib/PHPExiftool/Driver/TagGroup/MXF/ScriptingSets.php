@@ -28,13 +28,14 @@ class ScriptingSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scripting Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171538
+             * line : 117736
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScriptingSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ScriptingSets',
             'desc' => [
+                'en' => 'Scripting Sets',
             ],
         ],
     ];

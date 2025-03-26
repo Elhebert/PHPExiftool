@@ -28,13 +28,14 @@ class AudioBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165696
+             * line : 112671
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
         1 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165700
+             * line : 112674
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
         2 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165704
+             * line : 112677
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
         3 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165708
+             * line : 112680
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
         4 => [
             /**
              * table_name : MPEG::Audio
-             * line : 165712
+             * line : 112683
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class AudioBitrate extends AbstractTagGroup
              */
             'id' => 'MPEG::Audio.MPEG:AudioBitrate',
             'desc' => [
+                'en' => 'Audio Bitrate',
             ],
         ],
     ];

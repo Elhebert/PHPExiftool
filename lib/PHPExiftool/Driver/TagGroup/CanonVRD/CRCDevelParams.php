@@ -28,13 +28,14 @@ class CRCDevelParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CRC Devel Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::IHL
-             * line : 82080
+             * line : 60149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CRCDevelParams extends AbstractTagGroup
              */
             'id' => 'CanonVRD::IHL.CanonVRD:CRCDevelParams',
             'desc' => [
+                'en' => 'CRC Devel Params',
             ],
         ],
     ];

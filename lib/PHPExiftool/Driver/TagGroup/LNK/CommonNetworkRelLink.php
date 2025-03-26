@@ -28,13 +28,14 @@ class CommonNetworkRelLink extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Common Network Rel Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161064
+             * line : 109988
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommonNetworkRelLink extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:CommonNetworkRelLink',
             'desc' => [
+                'en' => 'Common Network Rel Link',
             ],
         ],
     ];

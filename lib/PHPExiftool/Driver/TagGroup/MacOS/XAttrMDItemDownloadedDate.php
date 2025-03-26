@@ -28,13 +28,14 @@ class XAttrMDItemDownloadedDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Attr MD Item Downloaded Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::XAttr
-             * line : 173132
+             * line : 119144
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XAttrMDItemDownloadedDate extends AbstractTagGroup
              */
             'id' => 'MacOS::XAttr.MacOS:XAttrMDItemDownloadedDate',
             'desc' => [
+                'en' => 'X Attr MD Item Downloaded Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PatientEyeMovementCommanded extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Eye Movement Commanded',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98309
+             * line : 71644
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientEyeMovementCommanded extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientEyeMovementCommanded',
             'desc' => [
+                'en' => 'Patient Eye Movement Commanded',
             ],
         ],
     ];

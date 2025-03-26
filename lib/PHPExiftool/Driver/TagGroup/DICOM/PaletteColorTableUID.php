@@ -28,13 +28,14 @@ class PaletteColorTableUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palette Color Table UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98976
+             * line : 72231
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaletteColorTableUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PaletteColorTableUID',
             'desc' => [
+                'en' => 'Palette Color Table UID',
             ],
         ],
     ];

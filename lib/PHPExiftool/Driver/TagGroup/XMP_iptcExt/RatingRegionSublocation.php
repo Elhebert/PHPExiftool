@@ -28,13 +28,14 @@ class RatingRegionSublocation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Region Sublocation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409666
+             * line : 289426
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingRegionSublocation extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingRegionSublocation',
             'desc' => [
+                'en' => 'Rating Region Sublocation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::FocusInfo
-             * line : 274248
+             * line : 191304
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Panasonic::FocusInfo.Leica:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274939
+             * line : 191665
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 274982
+             * line : 191684
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusDistance extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:FocusDistance',
             'desc' => [
+                'en' => 'Focus Distance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BottomMag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bottom Mag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165161
+             * line : 112259
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BottomMag extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:BottomMag',
             'desc' => [
+                'en' => 'Bottom Mag',
             ],
         ],
     ];

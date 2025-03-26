@@ -28,13 +28,14 @@ class CreatedType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Created Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249351
+             * line : 171901
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatedType extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:CreatedType',
             'desc' => [
+                'en' => 'Created Type',
             ],
         ],
     ];

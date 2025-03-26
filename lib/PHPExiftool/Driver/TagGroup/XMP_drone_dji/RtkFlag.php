@@ -28,13 +28,14 @@ class RtkFlag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rtk Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::XMP
-             * line : 104721
+             * line : 77713
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RtkFlag extends AbstractTagGroup
              */
             'id' => 'DJI::XMP.XMP-drone-dji:RtkFlag',
             'desc' => [
+                'en' => 'Rtk Flag',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CopyrightRegistrationNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Registration Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265257
+             * line : 183366
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CopyrightRegistrationNumber extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:CopyrightRegistrationNumber',
             'desc' => [
+                'en' => 'Copyright Registration Number',
             ],
         ],
     ];

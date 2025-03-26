@@ -28,13 +28,14 @@ class TrashColsRight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trash Cols Right',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156005
+             * line : 107216
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrashColsRight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TrashColsRight',
             'desc' => [
+                'en' => 'Trash Cols Right',
             ],
         ],
     ];

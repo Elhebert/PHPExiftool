@@ -28,13 +28,14 @@ class NumberOfParts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Parts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328506
+             * line : 231655
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfParts extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:NumberOfParts',
             'desc' => [
+                'en' => 'Number Of Parts',
             ],
         ],
     ];

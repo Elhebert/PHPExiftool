@@ -28,13 +28,14 @@ class SceneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197370
+             * line : 133158
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
     ];

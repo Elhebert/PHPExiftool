@@ -28,13 +28,14 @@ class PersonTelephoneNumbers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Person Telephone Numbers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99881
+             * line : 73083
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PersonTelephoneNumbers extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PersonTelephoneNumbers',
             'desc' => [
+                'en' => 'Person Telephone Numbers',
             ],
         ],
     ];

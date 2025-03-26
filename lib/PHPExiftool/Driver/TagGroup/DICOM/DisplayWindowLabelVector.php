@@ -28,13 +28,14 @@ class DisplayWindowLabelVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Window Label Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96147
+             * line : 69565
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayWindowLabelVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DisplayWindowLabelVector',
             'desc' => [
+                'en' => 'Display Window Label Vector',
             ],
         ],
     ];

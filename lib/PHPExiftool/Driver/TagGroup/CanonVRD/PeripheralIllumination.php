@@ -28,13 +28,14 @@ class PeripheralIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Peripheral Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80673
+             * line : 58809
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PeripheralIllumination extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:PeripheralIllumination',
             'desc' => [
+                'en' => 'Peripheral Illumination',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83506
+             * line : 61202
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PeripheralIllumination extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:PeripheralIllumination',
             'desc' => [
+                'en' => 'Peripheral Illumination',
             ],
         ],
     ];

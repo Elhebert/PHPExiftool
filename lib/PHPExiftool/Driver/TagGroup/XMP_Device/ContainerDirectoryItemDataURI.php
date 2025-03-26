@@ -28,13 +28,14 @@ class ContainerDirectoryItemDataURI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Container Directory Item Data URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396678
+             * line : 280895
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContainerDirectoryItemDataURI extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:ContainerDirectoryItemDataURI',
             'desc' => [
+                'en' => 'Container Directory Item Data URI',
             ],
         ],
     ];

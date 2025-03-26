@@ -28,13 +28,14 @@ class NoiseReductionMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::NoiseReduction
-             * line : 211033
+             * line : 141937
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReductionMethod extends AbstractTagGroup
              */
             'id' => 'NikonCapture::NoiseReduction.NikonCapture:NoiseReductionMethod',
             'desc' => [
+                'en' => 'Noise Reduction Method',
             ],
         ],
     ];

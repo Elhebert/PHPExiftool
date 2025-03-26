@@ -28,13 +28,14 @@ class PresentationLUTShape extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation LUT Shape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102211
+             * line : 75339
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationLUTShape extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PresentationLUTShape',
             'desc' => [
+                'en' => 'Presentation LUT Shape',
             ],
         ],
     ];

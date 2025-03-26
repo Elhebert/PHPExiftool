@@ -28,13 +28,14 @@ class ExtenderSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Extender
-             * line : 163353
+             * line : 111385
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtenderSerialNumber extends AbstractTagGroup
              */
             'id' => 'MIE::Extender.MIE-Extender:ExtenderSerialNumber',
             'desc' => [
+                'en' => 'Extender Serial Number',
             ],
         ],
     ];

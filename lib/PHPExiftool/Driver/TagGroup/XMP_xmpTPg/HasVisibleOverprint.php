@@ -28,13 +28,14 @@ class HasVisibleOverprint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Visible Overprint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414519
+             * line : 292471
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasVisibleOverprint extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:HasVisibleOverprint',
             'desc' => [
+                'en' => 'Has Visible Overprint',
             ],
         ],
     ];

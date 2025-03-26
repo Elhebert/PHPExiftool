@@ -28,13 +28,14 @@ class SpecificCharacterSetOfFile extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specific Character Set Of File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94595
+             * line : 68095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpecificCharacterSetOfFile extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpecificCharacterSetOfFile',
             'desc' => [
+                'en' => 'Specific Character Set Of File',
             ],
         ],
     ];
