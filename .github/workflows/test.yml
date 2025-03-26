@@ -12,6 +12,13 @@ jobs:
   ci:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+          php: [8.3, 8.4]
+          dependency: [prefer-lowest, prefer-stable]
+
+    name: PHP ${{ matrix.php }} - ${{ matrix.dependency }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,12 +26,12 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.3
+          php-version: ${{ matrix.php }}
           tools: composer:v2
           coverage: xdebug
 
       - name: Install Dependencies
-        run: composer install --no-interaction --prefer-dist --optimize-autoloader
+        run: composer update --${{ matrix.dependency }} --no-interaction --prefer-dist --optimize-autoloader
 
       - name: Tests
         run: ./vendor/bin/phpunit
