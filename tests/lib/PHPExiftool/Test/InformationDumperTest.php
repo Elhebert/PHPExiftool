@@ -34,16 +34,22 @@ class InformationDumperTest extends TestCase
     /**
      * @covers InformationDumper::listDatas
      */
-    public function test_list_datas(): void
+    public function testListDatas(): void
     {
-        $this->object->listDatas();
+        try {
+            $this->object->listDatas();
+
+            $this->addToAssertionCount(1);
+        } catch (\Exception $e) {
+            $this->fail($e->getMessage());
+        }
     }
 
     /**
      * @covers InformationDumper::listDatas
      * @covers InvalidArgumentException
      */
-    public function test_list_datas_invalid_type(): void
+    public function testListDatasInvalidType(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->object->listDatas('Scrooge');
@@ -53,7 +59,7 @@ class InformationDumperTest extends TestCase
      * @covers InformationDumper::listDatas
      * @covers DirectoryNotFoundException
      */
-    public function test_bad_directory(): void
+    public function testBadDirectory(): void
     {
         $this->markTestIncomplete(
             'DirectoryNotFoundException cannot be forced because directory is created.'

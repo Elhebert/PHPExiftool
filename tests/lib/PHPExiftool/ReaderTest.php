@@ -112,7 +112,7 @@ class ReaderTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->PHPExiftool = new PHPExiftool('/tmp');
+        $this->PHPExiftool = new PHPExiftool;
     }
 
     private function createReader(): Reader
@@ -131,7 +131,7 @@ class ReaderTest extends TestCase
     /**
      * @covers Reader::getIterator
      */
-    public function test_get_iterator(): void
+    public function testGetIterator(): void
     {
         $file = self::$tmpDir.'/test.jpg';
         $reader = $this->createReader();
@@ -142,7 +142,7 @@ class ReaderTest extends TestCase
      * @covers Reader::append
      * @covers Reader::all
      */
-    public function test_append(): void
+    public function testAppend(): void
     {
         $reader1 = $this->createReader();
         $file1 = self::$tmpDir.'/test.jpg';
@@ -159,7 +159,7 @@ class ReaderTest extends TestCase
      * @covers Reader::sort
      * @covers Reader::all
      */
-    public function test_sort(): void
+    public function testSort(): void
     {
         $file1 = self::$tmpDir.'/test.jpg';
         $file2 = self::$tmpDir.'/test2.jpg';
@@ -184,7 +184,7 @@ class ReaderTest extends TestCase
      *
      * @throws EmptyCollectionException
      */
-    public function test_files(): void
+    public function testFiles(): void
     {
         $reader = $this->createReader();
 
@@ -199,7 +199,7 @@ class ReaderTest extends TestCase
     /**
      * @covers Reader::resetResults
      */
-    public function test_reset_filters(): void
+    public function testResetFilters(): void
     {
         $reader = $this->createReader();
 
@@ -215,7 +215,7 @@ class ReaderTest extends TestCase
      * @covers Reader::ignoreDotFiles
      * @covers Reader::all
      */
-    public function test_ignore_vcs(): void
+    public function testIgnoreVcs(): void
     {
         $reader = $this->createReader();
 
@@ -227,7 +227,7 @@ class ReaderTest extends TestCase
      * @covers Reader::ignoreDotFiles
      * @covers Reader::all
      */
-    public function test_ignore_dot_files(): void
+    public function testIgnoreDotFiles(): void
     {
         $reader = $this->createReader();
 
@@ -243,7 +243,7 @@ class ReaderTest extends TestCase
      * @covers Reader::buildQuery
      * @covers Reader::all
      */
-    public function test_in(): void
+    public function testIn(): void
     {
         $reader = $this->createReader();
 
@@ -267,7 +267,7 @@ class ReaderTest extends TestCase
      * @covers Reader::buildQuery
      * @covers Reader::all
      */
-    public function test_exclude(): void
+    public function testExclude(): void
     {
         $reader = $this->createReader();
 
@@ -283,14 +283,20 @@ class ReaderTest extends TestCase
      * @covers Reader::all
      */
     #[DataProvider('getExclude')]
-    public function test_compute_exclude_dirs(string $dir): void
+    public function testComputeExcludeDirs(string $dir): void
     {
         $reader = $this->createReader();
 
-        $reader
-            ->in(self::$tmpDir)
-            ->exclude($dir)
-            ->all();
+        try {
+            $reader
+                ->in(self::$tmpDir)
+                ->exclude($dir)
+                ->all();
+
+            $this->addToAssertionCount(1);
+        } catch (\Exception $e) {
+            $this->fail($e->getMessage());
+        }
     }
 
     /**
@@ -314,7 +320,7 @@ class ReaderTest extends TestCase
      * @covers \PHPExiftool\Exception\RuntimeException
      */
     #[DataProvider('getWrongExclude')]
-    public function test_compute_exclude_dirs_fail(string $dir): void
+    public function testComputeExcludeDirsFail(string $dir): void
     {
         $reader = $this->createReader();
 
@@ -345,7 +351,7 @@ class ReaderTest extends TestCase
      * @covers Reader::buildQuery
      * @covers Reader::buildQueryAndExecute
      */
-    public function test_extensions(): void
+    public function testExtensions(): void
     {
         $reader = $this->createReader();
         $reader->in(self::$tmpDir);
@@ -380,7 +386,7 @@ class ReaderTest extends TestCase
      * @covers Reader::extensions
      * @covers \PHPExiftool\Exception\LogicException
      */
-    public function test_extensions_mis_use(): void
+    public function testExtensionsMisUse(): void
     {
         $reader = $this->createReader();
 
@@ -391,7 +397,7 @@ class ReaderTest extends TestCase
     /**
      * @covers Reader::followSymLinks
      */
-    public function test_follow_sym_links(): void
+    public function testFollowSymLinks(): void
     {
         if (self::$disableSymLinkTest) {
             $this->markTestSkipped('This system does not support symlinks');
@@ -410,7 +416,7 @@ class ReaderTest extends TestCase
      * @covers Reader::notRecursive
      * @covers Reader::buildQuery
      */
-    public function test_not_recursive(): void
+    public function testNotRecursive(): void
     {
         $reader = $this->createReader();
 
@@ -421,7 +427,7 @@ class ReaderTest extends TestCase
     /**
      * @covers Reader::getOneOrNull
      */
-    public function test_get_one_or_null(): void
+    public function testGetOneOrNull(): void
     {
         $reader = $this->createReader();
 
@@ -434,7 +440,7 @@ class ReaderTest extends TestCase
      * @covers Reader::first
      * @covers \PHPExiftool\Exception\EmptyCollectionException
      */
-    public function test_first_empty(): void
+    public function testFirstEmpty(): void
     {
         $reader = $this->createReader();
 
@@ -446,7 +452,7 @@ class ReaderTest extends TestCase
     /**
      * @covers Reader::first
      */
-    public function test_first(): void
+    public function testFirst(): void
     {
         $reader = $this->createReader();
 
@@ -458,7 +464,7 @@ class ReaderTest extends TestCase
     /**
      * @covers Reader::buildQuery
      */
-    public function test_fail(): void
+    public function testFail(): void
     {
         $reader = $this->createReader();
 
@@ -470,7 +476,7 @@ class ReaderTest extends TestCase
      * @covers Reader::all
      * @covers Reader::buildQueryAndExecute
      */
-    public function test_all(): void
+    public function testAll(): void
     {
         $reader = $this->createReader();
 

@@ -25,7 +25,7 @@ class TagGroupFactoryTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->PHPExiftool = new PHPExiftool('/tmp');
+        $this->PHPExiftool = new PHPExiftool;
     }
 
     private function createTagGroup(string $tagName): TagGroupInterface
@@ -39,16 +39,16 @@ class TagGroupFactoryTest extends TestCase
      *
      * @throws TagUnknown
      */
-    public function test_get_from_rdf_tagname(): void
+    public function testGetFromRdfTagname(): void
     {
-        $tag = TagGroupFactory::getFromRDFTagname('/tmp', 'IPTC:SupplementalCategories');
+        $tag = TagGroupFactory::getFromRDFTagname('IPTC:SupplementalCategories');
         $this->assertInstanceOf(get_class($this->createTagGroup('IPTC:SupplementalCategories')), $tag);
 
-        $tag = TagGroupFactory::getFromRDFTagname('/tmp', 'XMP_exif:ApertureValue');
+        $tag = TagGroupFactory::getFromRDFTagname('XMP_exif:ApertureValue');
         $this->assertInstanceOf(get_class($this->createTagGroup('XMP_exif:ApertureValue')), $tag);
 
         $this->expectException(TagUnknown::class);
-        TagGroupFactory::getFromRDFTagname('/tmp', 'XMP_exif:NonExistingTag');
+        TagGroupFactory::getFromRDFTagname('XMP_exif:NonExistingTag');
     }
 
     /**
@@ -57,18 +57,18 @@ class TagGroupFactoryTest extends TestCase
      *
      * @throws TagUnknown
      */
-    public function test_get_from_rdf_tagname_fail(): void
+    public function testGetFromRdfTagnameFail(): void
     {
         $this->expectException(TagUnknown::class);
-        TagGroupFactory::getFromRDFTagname('/tmp', 'XMP_exif:NonExistingTag');
+        TagGroupFactory::getFromRDFTagname('XMP_exif:NonExistingTag');
     }
 
     /**
      * @covers TagGroupFactory::HasFromRDFTagname
      */
-    public function test_has_from_rdf_tagname(): void
+    public function testHasFromRdfTagname(): void
     {
-        $this->assertTrue(TagGroupFactory::hasFromRDFTagname('/tmp', 'IPTC:SupplementalCategories'));
-        $this->assertFalse(TagGroupFactory::hasFromRDFTagname('/tmp', 'XMP_exif:NonExistingTag'));
+        $this->assertTrue(TagGroupFactory::hasFromRDFTagname('IPTC:SupplementalCategories'));
+        $this->assertFalse(TagGroupFactory::hasFromRDFTagname('XMP_exif:NonExistingTag'));
     }
 }

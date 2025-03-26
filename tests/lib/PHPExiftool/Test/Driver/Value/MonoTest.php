@@ -30,7 +30,7 @@ class MonoTest extends TestCase
     /**
      * @covers Mono::getType
      */
-    public function test_get_type(): void
+    public function testGetType(): void
     {
         $this->assertEquals(ValueInterface::TYPE_MONO, $this->object->getType());
     }
@@ -38,7 +38,7 @@ class MonoTest extends TestCase
     /**
      * @covers Mono::asString
      */
-    public function test_as_string(): void
+    public function testAsString(): void
     {
         $this->assertEquals('Hello !', $this->object->asString());
     }
@@ -46,7 +46,7 @@ class MonoTest extends TestCase
     /**
      * @covers Mono::set
      */
-    public function test_set_value(): void
+    public function testSetValue(): void
     {
         $this->object->set('World !');
         $this->assertEquals('World !', $this->object->asString());

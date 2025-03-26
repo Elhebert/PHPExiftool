@@ -149,7 +149,8 @@ return (new Config)
         'ordered_imports' => ['sort_algorithm' => 'alpha', 'imports_order' => ['const', 'class', 'function']],
         'ordered_interfaces' => true,
         'ordered_traits' => true,
-        'php_unit_method_casing' => ['case' => 'snake_case'],
+        'php_unit_attributes' => true,
+        'php_unit_method_casing' => ['case' => 'camel_case'],
         'php_unit_set_up_tear_down_visibility' => true,
         'phpdoc_align' => [
             'align' => 'left',

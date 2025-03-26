@@ -25,7 +25,7 @@ class ExiftoolTest extends TestCase
      *
      * @throws Exception
      */
-    public function test_execute_command()
+    public function testExecuteCommand()
     {
         $exiftool = new Exiftool($this->getlogger());
         $this->assertMatchesRegularExpression('/\d+\.\d+/', $exiftool->executeCommand(['-ver']));
@@ -37,7 +37,7 @@ class ExiftoolTest extends TestCase
      *
      * @throws Exception
      */
-    public function test_execute_command_failed()
+    public function testExecuteCommandFailed()
     {
         $this->expectException(RuntimeException::class);
         $exiftool = new Exiftool($this->getlogger());

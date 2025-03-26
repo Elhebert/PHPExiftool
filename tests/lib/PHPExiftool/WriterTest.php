@@ -43,7 +43,7 @@ class WriterTest extends TestCase
         $this->inPlace = __DIR__.'/../../files/ExifToolCopied.jpg';
         copy($this->in, $this->inPlace);
 
-        $this->PHPExiftool = new PHPExiftool('/tmp');
+        $this->PHPExiftool = new PHPExiftool;
     }
 
     protected function tearDown(): void
@@ -75,7 +75,7 @@ class WriterTest extends TestCase
      * @covers Writer::setMode
      * @covers Writer::isMode
      */
-    public function test_set_mode(): void
+    public function testSetMode(): void
     {
         $writer = $this->createWriter();
 
@@ -94,7 +94,7 @@ class WriterTest extends TestCase
      *
      * @throws EmptyCollectionException
      */
-    public function test_copy(): void
+    public function testCopy(): void
     {
         $writer = $this->createWriter();
 
@@ -118,7 +118,7 @@ class WriterTest extends TestCase
      * @covers Writer::setModule
      * @covers Writer::hasModule
      */
-    public function test_set_module(): void
+    public function testSetModule(): void
     {
         $writer = $this->createWriter();
 
@@ -135,7 +135,7 @@ class WriterTest extends TestCase
      *
      * @throws EmptyCollectionException
      */
-    public function test_erase_without_icc(): void
+    public function testEraseWithoutIcc(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
@@ -194,7 +194,7 @@ class WriterTest extends TestCase
     /**
      * @throws EmptyCollectionException
      */
-    public function test_erase_with_icc(): void
+    public function testEraseWithIcc(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
@@ -255,7 +255,7 @@ class WriterTest extends TestCase
      *
      * @throws EmptyCollectionException
      */
-    public function test_write(): void
+    public function testWrite(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
@@ -282,7 +282,7 @@ class WriterTest extends TestCase
      *
      * @throws EmptyCollectionException
      */
-    public function test_write_in_place(): void
+    public function testWriteInPlace(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
@@ -309,7 +309,7 @@ class WriterTest extends TestCase
      *
      * @throws EmptyCollectionException
      */
-    public function test_write_in_place_erased(): void
+    public function testWriteInPlaceErased(): void
     {
         $writer = $this->createWriter();
         $reader = $this->createReader();
@@ -336,7 +336,7 @@ class WriterTest extends TestCase
      * @covers Writer::write
      * @covers InvalidArgumentException
      */
-    public function test_write_fail(): void
+    public function testWriteFail(): void
     {
         $writer = $this->createWriter();
 
@@ -347,7 +347,7 @@ class WriterTest extends TestCase
     /**
      * @covers Writer::addMetadatasArg
      */
-    public function test_add_metadatas_arg(): void
+    public function testAddMetadatasArg(): void
     {
         $this->markTestIncomplete();
 

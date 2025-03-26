@@ -26,7 +26,7 @@ class MetadataBagTest extends TestCase
     /**
      * @covers MetadataBag::filterKeysByRegExp
      */
-    public function test_filter_keys_by_reg_exp(): void
+    public function testFilterKeysByRegExp(): void
     {
         $this->object->set('oneKey', 'oneValue');
         $this->object->set('oneSecondKey', 'anotherValue');

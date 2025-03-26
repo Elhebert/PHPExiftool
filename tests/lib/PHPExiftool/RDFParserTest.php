@@ -32,23 +32,33 @@ class RDFParserTest extends TestCase
         $this->logger = new Logger('Tests');
         $this->logger->pushHandler(new NullHandler);
 
-        $this->object = new RDFParser('/tmp', $this->logger);
+        $this->object = new RDFParser($this->logger);
     }
 
     /**
      * @covers RDFParser::open
      */
-    public function test_open(): void
+    public function testOpen(): void
     {
-        $this->object->open(file_get_contents(__DIR__.'/../../files/simplefile.xml'));
+        try {
+            $this->object->open(file_get_contents(__DIR__.'/../../files/simplefile.xml'));
+            $this->addToAssertionCount(1);
+        } catch (\Exception $e) {
+            $this->fail($e->getMessage());
+        }
     }
 
     /**
      * @covers RDFParser::close
      */
-    public function test_close(): void
+    public function testClose(): void
     {
-        $this->object->close();
+        try {
+            $this->object->close();
+            $this->addToAssertionCount(1);
+        } catch (\Exception $e) {
+            $this->fail($e->getMessage());
+        }
     }
 
     /**
@@ -57,7 +67,7 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::getDomXpath
      * @covers RDFParser::getNamespacesFromXml
      */
-    public function test_parse_entities(): void
+    public function testParseEntities(): void
     {
         $entities = $this->object
             ->open(file_get_contents(__DIR__.'/../../files/simplefile.xml'))
@@ -74,7 +84,7 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::getDomXpath
      * @covers \PHPExiftool\Exception\LogicException
      */
-    public function test_parse_entities_without_dom(): void
+    public function testParseEntitiesWithoutDom(): void
     {
         $this->expectException(\LogicException::class);
         $this->object->parseEntities();
@@ -87,7 +97,7 @@ class RDFParserTest extends TestCase
      * @covers \PHPExiftool\Exception\ParseErrorException
      * @covers \PHPExiftool\Exception\RuntimeException
      */
-    public function test_parse_entities_wrong_dom(): void
+    public function testParseEntitiesWrongDom(): void
     {
         $this->expectException(\RuntimeException::class);
         $this->object->open('wrong xml')->parseEntities();
@@ -98,7 +108,7 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::getDom
      * @covers RDFParser::getDomXpath
      */
-    public function test_parse_metadatas(): void
+    public function testParseMetadatas(): void
     {
         $metadatas = $this->object
             ->open(file_get_contents(__DIR__.'/../../files/ExifTool.xml'))
@@ -112,7 +122,7 @@ class RDFParserTest extends TestCase
      * @covers RDFParser::Query
      * @covers RDFParser::readNodeValue
      */
-    public function test_query(): void
+    public function testQuery(): void
     {
         $xml = "<?xml version='1.0' encoding='UTF-8'?>
             <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>

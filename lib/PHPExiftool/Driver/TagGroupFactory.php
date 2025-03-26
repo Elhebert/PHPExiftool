@@ -29,13 +29,13 @@ class TagGroupFactory
      *
      * @throws TagUnknown
      */
-    public static function loadClass(string $classesRootDirectory, string $classname, ?LoggerInterface $logger = null): mixed
+    public static function loadClass(string $classname, ?LoggerInterface $logger = null): mixed
     {
         $fullClassname = PHPExiftool::ROOT_NAMESPACE.'\\'.$classname;
 
         // class loader
         if (! class_exists($fullClassname)) {
-            $fpath = $classesRootDirectory.'/'.str_replace('\\', '/', $classname).'.php';
+            $fpath = __DIR__.'/'.str_replace('\\', '/', $classname).'.php';
 
             if (! file_exists($fpath)) {
                 throw new TagUnknown(sprintf('file "%s" not found for class "%s"', $fpath, $fullClassname));
@@ -56,7 +56,7 @@ class TagGroupFactory
      *
      * @throws TagUnknown
      */
-    public static function getFromRDFTagname(string $classesRootDirectory, string $tagname, ?LoggerInterface $logger = null): TagGroupInterface
+    public static function getFromRDFTagname(string $tagname, ?LoggerInterface $logger = null): TagGroupInterface
     {
         $classname = static::classnameFromRDFTagname($tagname, $logger);
 
@@ -64,17 +64,17 @@ class TagGroupFactory
             $logger->debug(sprintf('classnameFromRDFTagname("%s") ==> "%s"', $tagname, $classname));
         }
 
-        return self::loadClass($classesRootDirectory, $classname, $logger);
+        return self::loadClass($classname, $logger);
     }
 
-    public static function hasFromRDFTagname(string $classesRootDirectory, string $tagname, ?LoggerInterface $logger = null): bool
+    public static function hasFromRDFTagname(string $tagname, ?LoggerInterface $logger = null): bool
     {
         $classname = PHPExiftool::ROOT_NAMESPACE.'\\'.static::classnameFromRDFTagname($tagname, $logger);
 
         // class loader
         if (! class_exists($classname)) {
             $path = str_replace('\\', '/', InformationDumper::tagGroupIdToFQClassname($tagname));
-            $fpath = $classesRootDirectory.'/'.PHPExiftool::SUBDIR.'/'.$path.'.php';
+            $fpath = __DIR__.'/'.PHPExiftool::SUBDIR.'/'.$path.'.php';
 
             if (! file_exists($fpath)) {
                 return false;

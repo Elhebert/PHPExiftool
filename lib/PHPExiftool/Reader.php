@@ -19,6 +19,7 @@ use IteratorAggregate;
 use PHPExiftool\Exception\EmptyCollectionException;
 use PHPExiftool\Exception\LogicException;
 use PHPExiftool\Exception\RuntimeException;
+use Psr\Log\LoggerInterface;
 use Traversable;
 
 /**
@@ -97,9 +98,9 @@ class Reader implements IteratorAggregate
         $this->parser = $parser;
     }
 
-    public static function create(Exiftool $exiftool, RDFParser $parser): self
+    public static function create(LoggerInterface $logger, ?string $binaryPath = null): self
     {
-        return new self($exiftool, $parser);
+        return new self(new Exiftool($logger, $binaryPath), new RDFParser($logger));
     }
 
     public function __destruct()

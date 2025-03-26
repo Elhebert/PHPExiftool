@@ -85,7 +85,7 @@ class ClassesBuilderCommand extends Command
         }
         $logger->info('Generating classes... ');
 
-        $PHPExiftool = new PHPExiftool($path, $logger);
+        $PHPExiftool = new PHPExiftool($logger);
         $nClasses = $PHPExiftool->generateClasses($options, $input->getOption('lng'));
 
         $this->output->writeln(

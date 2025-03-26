@@ -38,7 +38,7 @@ class MetadataTest extends TestCase
     /**
      * @covers Metadata::getTagGroup
      */
-    public function test_get_tag(): void
+    public function testGetTag(): void
     {
         $this->assertEquals($this->object->getTagGroup(), $this->tag);
     }
@@ -46,7 +46,7 @@ class MetadataTest extends TestCase
     /**
      * @covers Metadata::getValue
      */
-    public function test_get_value(): void
+    public function testGetValue(): void
     {
         $this->assertEquals($this->object->getValue(), $this->value);
     }

@@ -15,6 +15,7 @@ use Exception;
 use PHPExiftool\Driver\Metadata\Metadata;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 use PHPExiftool\Exception\InvalidArgumentException;
+use Psr\Log\LoggerInterface;
 
 /**
  * Exiftool Metadatas Writer, it will be used to write metadatas in files
@@ -78,9 +79,9 @@ class Writer
         $this->reset();
     }
 
-    public static function create(Exiftool $exiftool): self
+    public static function create(LoggerInterface $logger): self
     {
-        return new self($exiftool);
+        return new self(new Exiftool($logger));
     }
 
     public function setTimeout(int $timeout): self

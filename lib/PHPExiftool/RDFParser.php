@@ -52,12 +52,9 @@ class RDFParser
 
     private LoggerInterface $logger;
 
-    private string $classesRootDirectory;
-
-    public function __construct(string $classesRootDirectory, LoggerInterface $logger)
+    public function __construct(LoggerInterface $logger)
     {
         $this->logger = $logger;
-        $this->classesRootDirectory = $classesRootDirectory;
     }
 
     public function __destruct()
@@ -132,7 +129,7 @@ class RDFParser
             $node = $RDFDescriptionRoot->item(0);
             $file = $node->getAttribute('rdf:about');
 
-            $Entities->set($file, new FileEntity($file, $Dom, new self($this->classesRootDirectory, $this->logger)));
+            $Entities->set($file, new FileEntity($file, $Dom, new self($this->logger)));
 
             $this->logger->debug(sprintf('  -> new dom node "%s" line %d associated to file "%s"', $node->nodeName, $node->getLineNo(), $file));
         }
@@ -160,7 +157,7 @@ class RDFParser
             $this->logger->debug(sprintf('  -> found node "%s" line %d -> tagname = "%s"', $node->nodeName, $node->getLineNo(), $tagname));
 
             try {
-                $tagGroup = TagGroupFactory::getFromRDFTagname($this->classesRootDirectory, $tagname, $this->logger);
+                $tagGroup = TagGroupFactory::getFromRDFTagname($tagname, $this->logger);
                 $this->logger->debug(sprintf('    -> tagGroup class = "%s"', get_class($tagGroup)));
             } catch (TagUnknown $e) {
                 $this->logger->debug(sprintf('    -> "%s", ignored', $e->getMessage()));
@@ -224,7 +221,7 @@ class RDFParser
             foreach ($to as $substit) {
                 $supposedTagname = str_replace($from.':', $substit.':', $tagname);
 
-                if (TagGroupFactory::hasFromRDFTagname($this->classesRootDirectory, $supposedTagname, $this->logger)) {
+                if (TagGroupFactory::hasFromRDFTagname($supposedTagname, $this->logger)) {
                     return $supposedTagname;
                 }
             }
@@ -267,8 +264,8 @@ class RDFParser
     {
         $nodeName = $this->normalize($node->nodeName);
 
-        if (is_null($tagGroup) && TagGroupFactory::hasFromRDFTagname($this->classesRootDirectory, $nodeName, $this->logger)) {
-            $tagGroup = TagGroupFactory::getFromRDFTagname($this->classesRootDirectory, $nodeName, $this->logger);
+        if (is_null($tagGroup) && TagGroupFactory::hasFromRDFTagname($nodeName, $this->logger)) {
+            $tagGroup = TagGroupFactory::getFromRDFTagname($nodeName, $this->logger);
         }
 
         if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0) {

@@ -5,6 +5,7 @@ namespace PHPExiftool;
 use PHPExiftool\Driver\HelperInterface;
 use PHPExiftool\Driver\TagGroupFactory;
 use PHPExiftool\Driver\TagGroupInterface;
+use PHPExiftool\Exception\TagUnknown;
 
 class Factory
 {
@@ -17,32 +18,31 @@ class Factory
 
     public function createReader(): Reader
     {
-        return Reader::create(
-            new Exiftool($this->phpExiftool->getLogger()),
-            new RDFParser($this->phpExiftool->getClassesRootDirectory(), $this->phpExiftool->getLogger())
-        );
+        return Reader::create($this->phpExiftool->getLogger());
     }
 
     public function createWriter(): Writer
     {
-        return Writer::create(
-            new Exiftool($this->phpExiftool->getLogger())
-        );
+        return Writer::create($this->phpExiftool->getLogger());
     }
 
+    /**
+     * @throws TagUnknown
+     */
     public function createTagGroup(string $tagName): TagGroupInterface
     {
         return TagGroupFactory::getFromRDFTagname(
-            $this->phpExiftool->getClassesRootDirectory(),
             $tagName,
             $this->phpExiftool->getLogger()
         );
     }
 
+    /**
+     * @throws TagUnknown
+     */
     public function getHelper(): HelperInterface
     {
         return TagGroupFactory::loadClass(
-            $this->phpExiftool->getClassesRootDirectory(),
             'TagGroup\\Helper',
             $this->phpExiftool->getLogger()
         );

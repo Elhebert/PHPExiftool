@@ -12,17 +12,19 @@
 namespace lib\PHPExiftool\Test;
 
 use DirectoryIterator;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 use PHPExiftool\Exception\LogicException;
 use PHPExiftool\Exiftool;
 use PHPExiftool\PreviewExtractor;
 use PHPUnit\Framework\TestCase;
 
-abstract class AbstractPreviewExtractorTest extends TestCase
+class PreviewExtractorTest extends TestCase
 {
     /**
      * @covers \PHPExiftool\PreviewExtractor::extract
      */
-    public function test_extract(): void
+    public function testExtract(): void
     {
         $extractor = new PreviewExtractor($this->getExiftool());
 
@@ -53,7 +55,7 @@ abstract class AbstractPreviewExtractorTest extends TestCase
         $this->assertEquals(1, $n);
     }
 
-    public function test_extract_wrong_file(): void
+    public function testExtractWrongFile(): void
     {
         $extractor = new PreviewExtractor($this->getExiftool());
 
@@ -63,7 +65,7 @@ abstract class AbstractPreviewExtractorTest extends TestCase
         $extractor->extract(__DIR__.'/ExifTool.jpg', $tmpDir);
     }
 
-    public function test_extract_wrong_dir(): void
+    public function testExtractWrongDir(): void
     {
         $extractor = new PreviewExtractor($this->getExiftool());
 
@@ -73,5 +75,11 @@ abstract class AbstractPreviewExtractorTest extends TestCase
         $extractor->extract(__DIR__.'/../../../files/ExifTool.jpg', $tmpDir);
     }
 
-    abstract protected function getExiftool(): Exiftool;
+    protected function getExiftool(): Exiftool
+    {
+        $logger = new Logger('Tests');
+        $logger->pushHandler(new NullHandler);
+
+        return new Exiftool($logger);
+    }
 }

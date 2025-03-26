@@ -2,8 +2,8 @@
 
 namespace PHPExiftool;
 
+use Exception;
 use PHPExiftool\ClassUtils\tagGroupBuilder;
-use PHPExiftool\Exception\DirectoryNotFoundException;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
@@ -15,20 +15,16 @@ class PHPExiftool
 
     const SUBDIR = 'TagGroup';
 
-    private ?string $classesRootDirectory = null;
-
     private LoggerInterface $logger;
 
     private Factory $factory;
 
-    public function __construct(?string $classesRootDirectory = null, ?LoggerInterface $logger = null)
+    public function __construct(?LoggerInterface $logger = null)
     {
-        if ($classesRootDirectory !== null) {
-            $this->setClassesRootDirectory($classesRootDirectory);
-        }
         if ($logger === null) {
             $logger = new NullLogger;
         }
+
         $this->setLogger($logger);
         $this->factory = new Factory($this);
     }
@@ -38,26 +34,15 @@ class PHPExiftool
         $this->logger = $logger;
     }
 
-    public function setClassesRootDirectory(?string $classesRootDirectory): void
-    {
-        $c = substr($classesRootDirectory, 0, 1);
-        if ($c !== '/') {
-            throw new DirectoryNotFoundException(sprintf('classesRootDirectory must be absolute, "%s" given', $classesRootDirectory));
-        }
-        if (! file_exists($classesRootDirectory) || ! is_writable($classesRootDirectory)) {
-            throw new DirectoryNotFoundException(sprintf('classesRootDirectory "%s" must exists and be writable', $classesRootDirectory));
-        }
-
-        $this->classesRootDirectory = realpath($classesRootDirectory);
-    }
-
     /**
      * @param  array<string>  $options
      * @param  array<string>  $lngs
+     *
+     * @throws Exception
      */
     public function generateClasses(array $options, array $lngs = ['en'], ?callable $cb = null): int
     {
-        $classesDirectory = $this->classesRootDirectory.'/'.self::SUBDIR;
+        $classesDirectory = __DIR__.'/Driver/'.self::SUBDIR;
         $rootNamespace = self::ROOT_NAMESPACE.'\\'.self::SUBDIR;
 
         $dumper = new InformationDumper(new Exiftool($this->logger));
@@ -73,7 +58,7 @@ class PHPExiftool
         );
 
         if (! $cb) {
-            $this->logger->info(sprintf('Writing helper Table'));
+            $this->logger->info('Writing helper Table');
             ksort($group_ids, SORT_NATURAL + SORT_FLAG_CASE);
             $file = $classesDirectory.'/Helper.php';
             file_put_contents($file,
@@ -94,7 +79,7 @@ class PHPExiftool
 
     public function isClassesGenerated(): bool
     {
-        $p = $this->classesRootDirectory.'/'.self::SUBDIR.'/Helper.php';
+        $p = __DIR__.'/Driver/'.self::SUBDIR.'/Helper.php';
 
         return file_exists($p);
     }
@@ -111,6 +96,6 @@ class PHPExiftool
 
     public function getClassesRootDirectory(): string
     {
-        return $this->classesRootDirectory;
+        return __DIR__.'/Driver/'.self::SUBDIR;
     }
 }

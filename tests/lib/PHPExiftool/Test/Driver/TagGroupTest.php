@@ -33,16 +33,16 @@ class TagGroupTest extends TestCase
      * @covers AbstractTag::isWritable
      * @covers AbstractTag::isBinary
      */
-    public function test_consistency(): void
+    public function testConsistency(): void
     {
-        $PHPExiftool = new PHPExiftool('/tmp');
+        $PHPExiftool = new PHPExiftool;
 
         /** @var HelperInterface $helper */
         $helper = $PHPExiftool->getFactory()->getHelper();
 
         // return;
         $finder = new Finder;
-        $finder->files()->in(['/tmp/TagGroup/']);
+        $finder->files()->in([$PHPExiftool->getClassesRootDirectory()]);
 
         $n = 0;
         foreach ($finder as $file) {
@@ -56,7 +56,7 @@ class TagGroupTest extends TestCase
                         '/', ':', $file->getRelativePath().'/'.$file->getFilenameWithoutExtension()
                     );
 
-            $tag = TagGroupFactory::getFromRDFTagname('/tmp', $tagName);
+            $tag = TagGroupFactory::getFromRDFTagname($tagName);
 
             /* @var TagGroupInterface $tag */
 

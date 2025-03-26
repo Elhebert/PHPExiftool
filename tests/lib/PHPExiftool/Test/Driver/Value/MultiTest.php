@@ -30,7 +30,7 @@ class MultiTest extends TestCase
     /**
      * @covers Multi::getType
      */
-    public function test_get_type(): void
+    public function testGetType(): void
     {
         $this->assertEquals(ValueInterface::TYPE_MULTI, $this->object->getType());
     }
@@ -38,7 +38,7 @@ class MultiTest extends TestCase
     /**
      * @covers Multi::asArray
      */
-    public function test_as_array(): void
+    public function testAsArray(): void
     {
         $this->assertEquals(['hello', 'world !'], $this->object->asArray());
     }
@@ -46,7 +46,7 @@ class MultiTest extends TestCase
     /**
      * @covers Multi::addValue
      */
-    public function test_add_value(): void
+    public function testAddValue(): void
     {
         $this->object->addValue('tim');
         $this->assertEquals(['hello', 'world !', 'tim'], $this->object->asArray());
@@ -55,7 +55,7 @@ class MultiTest extends TestCase
     /**
      * @covers Multi::reset
      */
-    public function test_reset(): void
+    public function testReset(): void
     {
         $this->object->reset();
         $this->assertEquals([], $this->object->asArray());

@@ -39,13 +39,13 @@ class FileEntityTest extends TestCase
         $this->logger = new Logger('Tests');
         $this->logger->pushHandler(new NullHandler);
 
-        $this->object = new FileEntity('testFile', $dom, new RDFParser('/tmp', $this->logger));
+        $this->object = new FileEntity('testFile', $dom, new RDFParser($this->logger));
     }
 
     /**
      * @covers FileEntity::getIterator
      */
-    public function test_get_iterator(): void
+    public function testGetIterator(): void
     {
         $this->assertInstanceOf(Iterator::class, $this->object->getIterator());
     }
@@ -53,7 +53,7 @@ class FileEntityTest extends TestCase
     /**
      * @covers FileEntity::getFile
      */
-    public function test_get_file(): void
+    public function testGetFile(): void
     {
         $this->assertIsString($this->object->getFile());
     }
@@ -61,7 +61,7 @@ class FileEntityTest extends TestCase
     /**
      * @covers FileEntity::getMetadatas
      */
-    public function test_get_metadatas(): void
+    public function testGetMetadatas(): void
     {
         $this->assertInstanceOf(MetadataBag::class, $this->object->getMetadatas());
         $this->assertCount(348, $this->object->getMetadatas());
@@ -70,7 +70,7 @@ class FileEntityTest extends TestCase
     /**
      * @covers FileEntity::executeQuery
      */
-    public function test_execute_query(): void
+    public function testExecuteQuery(): void
     {
         $this->assertInstanceOf(Mono::class, $this->object->executeQuery('IFD0:Copyright'));
         $this->assertEquals('Copyright 2004 Phil Harvey', $this->object->executeQuery('IFD0:Copyright')->asString());
@@ -81,9 +81,9 @@ class FileEntityTest extends TestCase
         $this->assertEquals(['ExifTool', 'Test', 'XMP'], $this->object->executeQuery('XMP-dc:Subject')->asArray());
     }
 
-    public function test_cache_key(): void
+    public function testCacheKey(): void
     {
-        $o = new FileEntity('bad_{}()/\\@:_chars', new \DOMDocument, new RDFParser('/tmp', $this->logger));
+        $o = new FileEntity('bad_{}()/\\@:_chars', new \DOMDocument, new RDFParser($this->logger));
         $k = $o->getCacheKey();
         $this->assertEquals('bad_%7B%7D%28%29%2F%5C%40%3A_chars', $k);
     }

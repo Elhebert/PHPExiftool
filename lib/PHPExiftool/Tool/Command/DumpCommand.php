@@ -3,8 +3,9 @@
 namespace PHPExiftool\Tool\Command;
 
 use Exception;
+use Monolog\Logger;
 use PHPExiftool\Driver\Metadata\Metadata;
-use PHPExiftool\PHPExiftool;
+use PHPExiftool\Driver\TagGroup\Helper;
 use PHPExiftool\Reader;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -45,8 +46,7 @@ class DumpCommand extends Command
          * dump the meta from a file
          */
         if ($input->getArgument('file')) {
-
-            $logger = new \Symfony\Bridge\Monolog\Logger('PHPExiftool');
+            $logger = new Logger('PHPExiftool');
             $reader = Reader::create($logger);
             $reader->files($input->getArgument('file'));
             $metadataBag = $reader->files(__FILE__)->first();
@@ -75,7 +75,7 @@ class DumpCommand extends Command
             }
         } else {
             // no file arg ? dump the dictionnary
-            foreach (PHPExiftool::getKnownTagGroups() as $tagGroup) {
+            foreach (Helper::getIndex() as $tagGroup) {
                 if (preg_match($filter, $tagGroup)) {
                     $output->writeln($tagGroup);
                 }
